@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-cd $(dirname "$0")
+#!/bin/bash
 
 echo "开始重新压缩deb"
 dpkg-scanpackages -m debs/rootless/ /dev/null > Packages
