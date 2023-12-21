@@ -1182,6 +1182,23 @@ Dev: anubistweaks
 Name: Phone Enhancer 15-rootless
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: flex3beta11
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X :h_h_x_t
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, com.abcydia.flex3
+Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog
+Filename: debs/rootless/Flex3Beta程序修改器-xina2.1.0.2.deb
+Size: 15198032
+MD5sum: 0f38f5265bb312f32edfb20c7b96697b
+SHA1: 85efec41fbf583310b83eabf108783a41c77683d
+SHA256: 3529918428f7a144b0ef9586bb48c7ce1d5686cacd170ad00e16a9b53a7ca4a9
+Section: rootless修复插件
+Description: Only effective for third-party applications, the patch list can be parsed and displayed.。If the parsed application crashes or freezes,choicy tweak select only the injection of flex3, and then enable other injections after parsing，The xina2 version is only recommended for 2.0.18 or above, and update 1.0.2 separately.只对第三方应用生效，可解析，可显示补丁列表。若解析的应用闪退或者卡屏，用choicy只准flex3的注入，解析后再开启别的注入。xina2版本只建议2.0.18或以上用，不然别更新1.0.2。
+Author: John Coates 来了老弟
+Name: Flex3 Beta程序修改器-xina2
+
 Package: gettext-localizations
 Version: 2020.10.07
 Architecture: iphoneos-arm64
@@ -1220,6 +1237,24 @@ Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
 Name: Zetsu(Rootless)
 Sileodepiction: https://dcsyhi1998.github.io/Sileodepiction/Zetsu.json
 
+Package: libflex
+Version: 5.22.10
+Architecture: iphoneos-arm64
+Maintainer: Tanner Bennett <tannerbennett@me.com>
+Installed-Size: 2916
+Pre-Depends: firmware (>= 9.0)
+Filename: debs/rootless/libFLEX.5.22.10.deb
+Size: 657168
+MD5sum: c0eea3392c762e09fcae25188708d3d2
+SHA1: 6e89418edb4b346f39db18cccaec6e478c387001
+SHA256: bec7bc48b3c7b349e8c48a1fc56a53af8215f6487143a773d496ded75c42748c
+Section: Tweaks
+Description: A library for Flipboard Explorer.
+Author: Tanner Bennett <tannerbennett@me.com>
+Depiction: https://nscake.github.io/package.html?package=libflex
+Name: libFLEX
+Sileodepiction: https://nscake.github.io/depictions/libflex.sileo.json
+
 Package: llld.keyboard
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1236,6 +1271,22 @@ Description: 在很多时候输入，手机总默认自带键盘，且不能更�
 Author: 来了老弟
 Name: 强制密码框第三方键盘-rootless
 Sponsor: 33225753@qq.com
+
+Package: mterminal
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 464
+Depends: coreutils, firmware (>= 11.0), gettext-localizations, system-cmds, zsh
+Filename: debs/rootless/MTerminal-xina.1.6.deb
+Size: 98528
+MD5sum: 82494878e105a613c67cb7d79a6256f3
+SHA1: edb859bf1159bc4ed980174a8973b8c2d3187939
+SHA256: 4329cd1fb2057467025f6ff572aa304d7d0f580f3f03b5cf3ab5d554bbc81e01
+Section: Utilities
+Description: A MobileTerminal fork
+Author: lordscotland <admin@officialscheduler.com>
+Name: MTerminal - xina
 
 Package: netskao.appdata-rootless
 Version: 1.4.1
