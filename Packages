@@ -541,24 +541,6 @@ Description: Pin screenshots on the screen.
 Author: Jonathan Winger-lang
 Name: Snapper 3
 
-Package: com.lastlook
-Version: 3.6.5
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 1365
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
-Filename: debs/rootless/com.lastlook_3.6.5_iphoneos-arm64.deb
-Size: 388736
-MD5sum: aca8acf5e759aff8bce4ab95f7b91db6
-SHA1: 025d7f5383621ff427ec35bd260c7dcb72fa5819
-SHA256: 801291706639249410d28b4df16f83eef5250cd678593e0a40aed48868846ad3
-Section: Tweaks
-Description: An AOD tweak that feels stock, with endless possibilities!（M哥汉化）
-Tag: cydia::commercial, compatible_min::ios12.0
-Author: AnthoPak <anthopakdev@gmail.com>
-Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
-Name: com.wwg135.LastLook
-
 Package: com.lclrc.hammerit
 Version: 1.4.5
 Architecture: iphoneos-arm64
@@ -1081,6 +1063,24 @@ Depiction: https://repo.shorty.systems/depictions/web/com.wilsonthewolf.unlocker
 Icon: https://repo.shorty.systems/icons/com.wilsonthewolf.unlocker.png
 Name: Unlocker
 Sileodepiction: https://repo.shorty.systems/depictions/sileo/com.wilsonthewolf.unlocker
+
+Package: com.wwg135.lastlook
+Version: 3.6.5
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 1365
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: debs/rootless/com.wwg135.lastlook_3.6.5_iphoneos-arm64.deb
+Size: 388728
+MD5sum: 47732edf080b26d6679e10a4c76a7a11
+SHA1: 6c3dbc71e8e2f90ec510299b5e7fb6dc6a85f4f4
+SHA256: a3a74b4e5b036fdbfad9edd73aeda33498fd2f4f535537292b9081510b9c0bb6
+Section: Tweaks
+Description: An AOD tweak that feels stock, with endless possibilities!（M哥汉化）
+Tag: cydia::commercial, compatible_min::ios12.0
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook
 
 Package: com.wwg135.velvet2
 Version: 2.1.2
