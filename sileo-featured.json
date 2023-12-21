@@ -1,13 +1,13 @@
 {
   "class": "FeaturedBannersView",
   "itemSize": "{380, 180}",
-  "itemCornerRadius": 10,
+  "itemCornerRadius": 5,
   "banners": [
     {
         "url": "http://wwg135.github.io/about.png",
         "title": "",
         "package": "",
-        "hideShadow": true
+        "hideShadow": false
     },
   ]
 }
