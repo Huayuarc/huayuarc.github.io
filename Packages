@@ -1064,41 +1064,6 @@ Icon: https://repo.shorty.systems/icons/com.wilsonthewolf.unlocker.png
 Name: Unlocker
 Sileodepiction: https://repo.shorty.systems/depictions/sileo/com.wilsonthewolf.unlocker
 
-Package: com.wwg135.lastlook
-Version: 3.6.5
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 1365
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
-Filename: debs/rootless/com.wwg135.lastlook_3.6.5_iphoneos-arm64.deb
-Size: 389056
-MD5sum: eb04d32ee76e1ac97011220f6acffc47
-SHA1: ab965ba1ddfaed8b5d23076ff503d4d0d80cca48
-SHA256: d6e5926990141e3bdad5bd02768d961ce6f4a0c3372ed8f785064b5622cf423f
-Section: Tweaks
-Description: An AOD tweak that feels stock, with endless possibilities!（M哥汉化）
-Tag: cydia::commercial, compatible_min::ios12.0
-Author: AnthoPak
-Name: LastLook
-
-Package: com.wwg135.velvet2
-Version: 2.1.2
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 629
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.initwithframe.velvet
-Filename: debs/rootless/com.wwg135.velvet2_2.1.2_iphoneos-arm64.deb
-Size: 95816
-MD5sum: e0a0632c8581fc3f162e397fcefcb5dc
-SHA1: 76f465fef69f73a8b851be03eaac31d33e8a595c
-SHA256: 68b81ea3ba8a49cbc6ff8dda3212d5faadfeaa152eece8c4e41222e77400e979
-Section: Tweaks
-Description: A fully customizable notification experience（M哥汉化）
-Tag: cydia::commercial, compatible_min::ios15.0
-Author: NoisyFlake
-Name: Velvet 2
-
 Package: com.xx.dyhook
 Version: 1.1.4
 Architecture: iphoneos-arm64
@@ -1514,6 +1479,39 @@ Depiction: https://chariz.com/get/cephei
 Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
+
+Package: wwg135.lastlook
+Version: 3.6.5
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: debs/rootless/wwg135.lastlook_3.6.5_iphoneos-arm64.deb
+Size: 389264
+MD5sum: b1fc1378b9ff304a5b5c066c1ae46be4
+SHA1: be1339a65fca4a67b6c569f2cec349d880699d0e
+SHA256: 93b2e7b4c6b43e9b4ac54b3e3ab13b62509a6dd8a52576e43b3c699f7ba840ea
+Section: Tweaks
+Description: An AOD tweak that feels stock, with endless possibilities!（M哥汉化）
+Author: AnthoPak
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook
+
+Package: wwg135.velvet2
+Version: 2.1.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 629
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: debs/rootless/wwg135.velvet2_2.1.2_iphoneos-arm64.deb
+Size: 95668
+MD5sum: 7b2f26301b75b508ca87bf9f66bbd67c
+SHA1: ddfce94665a7aff24a51e9c2e70a66e9214cc1fb
+SHA256: 10371ec47bed11a3ab73a5976076315e35723ce6ff263086d6fe4cf38bb1adde
+Section: Tweaks
+Description: A fully customizable notification experience（M哥汉化）
+Author: NoisyFlake
+Name: Velvet 2
 
 Package: xyz.cypwn.joe
 Version: 1.0
