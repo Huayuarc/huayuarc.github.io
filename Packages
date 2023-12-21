@@ -1071,15 +1071,14 @@ Maintainer: M哥
 Installed-Size: 1365
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
 Filename: debs/rootless/com.wwg135.lastlook_3.6.5_iphoneos-arm64.deb
-Size: 388728
-MD5sum: 47732edf080b26d6679e10a4c76a7a11
-SHA1: 6c3dbc71e8e2f90ec510299b5e7fb6dc6a85f4f4
-SHA256: a3a74b4e5b036fdbfad9edd73aeda33498fd2f4f535537292b9081510b9c0bb6
+Size: 389056
+MD5sum: eb04d32ee76e1ac97011220f6acffc47
+SHA1: ab965ba1ddfaed8b5d23076ff503d4d0d80cca48
+SHA256: d6e5926990141e3bdad5bd02768d961ce6f4a0c3372ed8f785064b5622cf423f
 Section: Tweaks
 Description: An AOD tweak that feels stock, with endless possibilities!（M哥汉化）
 Tag: cydia::commercial, compatible_min::ios12.0
-Author: AnthoPak <anthopakdev@gmail.com>
-Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Author: AnthoPak
 Name: LastLook
 
 Package: com.wwg135.velvet2
@@ -1090,15 +1089,14 @@ Installed-Size: 629
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: com.initwithframe.velvet
 Filename: debs/rootless/com.wwg135.velvet2_2.1.2_iphoneos-arm64.deb
-Size: 95932
-MD5sum: 91ae239967e4711f40c1395812d5ffd2
-SHA1: fc60ffc9f494bc89bf3dda30da3190b2ba9093dd
-SHA256: 94a1da2956483e6b65bb1638648ab17ced3c620113bfa17a389f2e5ea6b280c9
+Size: 95816
+MD5sum: e0a0632c8581fc3f162e397fcefcb5dc
+SHA1: 76f465fef69f73a8b851be03eaac31d33e8a595c
+SHA256: 68b81ea3ba8a49cbc6ff8dda3212d5faadfeaa152eece8c4e41222e77400e979
 Section: Tweaks
 Description: A fully customizable notification experience（M哥汉化）
 Tag: cydia::commercial, compatible_min::ios15.0
-Author: NoisyFlake <support@noisyflake.com>
-Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
+Author: NoisyFlake
 Name: Velvet 2
 
 Package: com.xx.dyhook
