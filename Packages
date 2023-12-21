@@ -544,21 +544,20 @@ Name: Snapper 3
 Package: com.lastlook
 Version: 3.6.5
 Architecture: iphoneos-arm64
-Maintainer: AnthoPak <anthopakdev@gmail.com>
+Maintainer: M哥
 Installed-Size: 1365
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
 Filename: debs/rootless/com.lastlook_3.6.5_iphoneos-arm64.deb
 Size: 388736
-MD5sum: df94b1e5567855440e1b18cca2ce91f8
-SHA1: e46b94e865cdae68efa84601af43df96d8d1b291
-SHA256: 82fb48a0bbb9abdffb354794f5aa55a2d26ac6fca9cc3d2d6f7968abc9442928
+MD5sum: aca8acf5e759aff8bce4ab95f7b91db6
+SHA1: 025d7f5383621ff427ec35bd260c7dcb72fa5819
+SHA256: 801291706639249410d28b4df16f83eef5250cd678593e0a40aed48868846ad3
 Section: Tweaks
 Description: An AOD tweak that feels stock, with endless possibilities!（M哥汉化）
 Tag: cydia::commercial, compatible_min::ios12.0
 Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: https://chariz.com/buy/lastlook
 Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
-Name: LastLook
+Name: com.wwg135.LastLook
 
 Package: com.lclrc.hammerit
 Version: 1.4.5
@@ -1032,26 +1031,6 @@ Description: 禁止通知中心信息堆叠，不重叠可以连续显示
 Author: M哥
 Name: 通知分组堆叠iOS15-rootless
 
-Package: com.velvet2
-Version: 2.1.2
-Architecture: iphoneos-arm64
-Maintainer: NoisyFlake <support@noisyflake.com>
-Installed-Size: 629
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.initwithframe.velvet
-Filename: debs/rootless/com.velvet2_2.1.2_iphoneos-arm64.deb
-Size: 95960
-MD5sum: dcd03a6a4a4aad5b6c21748ffc1e85a5
-SHA1: 47e0acde85fca579eeab3829bbdeec9b2bafa767
-SHA256: e2a1e349ea6af8b482d4d42f51dde214dddb4d37aa329384ec5a5d492174db9d
-Section: Tweaks
-Description: A fully customizable notification experience（M哥汉化）
-Tag: cydia::commercial, compatible_min::ios15.0
-Author: NoisyFlake <support@noisyflake.com>
-Depiction: https://chariz.com/buy/velvet-2
-Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
-Name: Velvet 2
-
 Package: com.waimai
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1102,6 +1081,25 @@ Depiction: https://repo.shorty.systems/depictions/web/com.wilsonthewolf.unlocker
 Icon: https://repo.shorty.systems/icons/com.wilsonthewolf.unlocker.png
 Name: Unlocker
 Sileodepiction: https://repo.shorty.systems/depictions/sileo/com.wilsonthewolf.unlocker
+
+Package: com.wwg135.velvet2
+Version: 2.1.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 629
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: debs/rootless/com.wwg135.velvet2_2.1.2_iphoneos-arm64.deb
+Size: 95932
+MD5sum: 91ae239967e4711f40c1395812d5ffd2
+SHA1: fc60ffc9f494bc89bf3dda30da3190b2ba9093dd
+SHA256: 94a1da2956483e6b65bb1638648ab17ced3c620113bfa17a389f2e5ea6b280c9
+Section: Tweaks
+Description: A fully customizable notification experience（M哥汉化）
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: NoisyFlake <support@noisyflake.com>
+Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
+Name: Velvet 2
 
 Package: com.xx.dyhook
 Version: 1.1.4
