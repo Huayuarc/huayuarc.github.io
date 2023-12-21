@@ -276,22 +276,6 @@ Description: 允许WX在聊天界面时跟随系统自动锁屏,wx默认是5分�
 Author: iBreak
 Name: WX跟随系统锁屏-rootless
 
-Package: com.34306.swiped
-Version: 1.0-6+debug
-Architecture: iphoneos-arm64
-Maintainer: Little 34306
-Installed-Size: 324
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/rootless/swiped_1.0-6.deb
-Size: 12164
-MD5sum: 569ae2112772f6250b723fa3a6aca9e7
-SHA1: c7d7f348135ba90137c803548087547cb75dfa87
-SHA256: b1cdc595b6e0f4f65dab0830c9b3206bafc235f246bcce0bf7d27ac2f3a68a43
-Section: Tweaks
-Description: Swiped!
-Author: 34306
-Name: Swiped
-
 Package: com.HBWechatHelper.ailun
 Version: 1.6.3
 Architecture: iphoneos-arm64
@@ -424,46 +408,6 @@ Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
 Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
 Name: PanCake (Rootless)
 Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
-
-Package: com.anthopak.quickccdismiss-rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: AnthoPak <anthopakdev@gmail.com>
-Depends: firmware (>=11.0), mobilesubstrate, firmware (>= 11.0)
-Filename: debs/rootless/quickccdismiss_1.0汉化版@M哥.deb
-Size: 90012
-MD5sum: 1f4fa8d2a8128ccfaf47555878b90247
-SHA1: 0001e8f429f89bdc9759bcc2896ddfe11e47f5cb
-SHA256: 1ef610cf82dccdbbe9c1e9dc6397201ccafaebf129f0a9741abf8a41839862e4
-Section: Tweaks
-Homepage: https://repo.anthopak.dev
-Description: Quickly dismiss CC from expanded modules
-Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.quickccdismiss-rootless.php
-Icon: https://repo.anthopak.dev/assets/com.anthopak.quickccdismiss-rootless/icon.png
-Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickccdismiss-rootless.json
-Name: QuickCCDismiss (Rootless)
-Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickccdismiss-rootless.json
-
-Package: com.anthopak.quickprefs-rootless
-Version: 1.3.2
-Architecture: iphoneos-arm64
-Maintainer: AnthoPak <anthopakdev@gmail.com>
-Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
-Filename: debs/rootless/quickprefs_1.3.2汉化版@M哥.deb
-Size: 512164
-MD5sum: a1ce4fddaa1b3851ea9e6e0c22eeefbe
-SHA1: c0a2631d7a3fc87200a0c5c23f16b526f1820f3f
-SHA256: b6224c72ab27d0ae5229f03af1176278a50e047abcd7a3217eeff1bf0c29a011
-Section: Tweaks
-Homepage: https://repo.anthopak.dev
-Description: Quickly access settings prefs from 3D Touch Menu
-Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.quickprefs-rootless.php
-Icon: https://repo.anthopak.dev/assets/com.anthopak.quickprefs-rootless/icon.png
-Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickprefs-rootless.json
-Name: QuickPrefs (Rootless)
-Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.quickprefs-rootless.json
 
 Package: com.anthopak.sleepizy2
 Version: 1.3.1
@@ -668,28 +612,6 @@ Author: CydiaGeek <lucaluca86@aol.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=huebatterybarDp
 Dev: lucaluca86
 Name: hueBatterybar
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.cydiageek.morelinesnotifications
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 297
-Depends: mobilesubstrate, firmware (>= 8.0)
-Filename: debs/rootless/MoreLinesNotifications.1.0.4.deb
-Size: 7172
-MD5sum: ccc8de7f438b24a083dd446d38269c66
-SHA1: db43340410d1ee40810ac9035c7710941fdfaf6f
-SHA256: aba9e3fbf9a8e5d732abcfde722969981b0c21d8c94b7fad6b5ce3d5f88af05f
-Section: Tweaks
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
-Description: Increase the Lines for the Notifications!
-Tag: purpose::extension
-Author: CydiaGeek <lucaluca86@aol.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
-Dev: lucaluca86
-Name: MoreLinesNotifications
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.cydiageek.skinnysettings
@@ -1011,26 +933,6 @@ Description: Pin screenshots on the screen.
 Author: Jonathan Winger-lang
 Name: Snapper 3
 
-Package: com.kingpuffdaddi.notif
-Version: 1.1.3
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 172
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Filename: debs/rootless/Notif.1.1.3.deb
-Size: 3624
-MD5sum: df160a636c25531df65fd95576b546c4
-SHA1: 6725a87050d43561d27dcd0fbc5d8a3c84bdb606
-SHA256: b7ba3eb1eaf5c06ccea563d3dcbca97ccf6e3400b2be7ffb2ce82d844ba6a59c
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=notifDp
-Description: Always show notification history on lock screen
-Tag: purpose::extension
-Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=notifDp
-Dev: kingpuffdaddi
-Name: Notif
-
 Package: com.lclrc.hammerit
 Version: 1.2.7
 Architecture: iphoneos-arm64
@@ -1064,38 +966,6 @@ Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It-rootless
-
-Package: com.lclrc.hideiconlabels
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: SquidForce <lclrc.3@gmail.com>
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: debs/rootless/com.lclrc.hideiconlabels_0.0.1_iphoneos-arm64.deb
-Size: 2716
-MD5sum: fc2995327b0e1ecbd70b58fb33237153
-SHA1: 843c8532242a615f7f32bca3284cf3b02a8502d4
-SHA256: 69eb5457ac5238248f1cfc56ce8dad9ebc4b3a618eb4dacddacf3021be14fd00
-Section: Tweaks
-Description: Same as the title
-Author: SquidForce <lclrc.3@gmail.com>
-Name: HideIconLabels
-
-Package: com.lclrc.hidepagedots
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: SquidForce <lclrc.3@gmail.com>
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: debs/rootless/com.lclrc.hidepagedots_0.0.1_iphoneos-arm64.deb
-Size: 2816
-MD5sum: 21c0a4ca2baa6e5ef95c720eb78315dc
-SHA1: fc9aa35945b3fde10bb20b3a234b65b85d68c49e
-SHA256: 1abf54b02bf13f7b2b0c7024742eaff0815f0f626b48f53623a2e8b9b6fc1500
-Section: Tweaks
-Description: Same as the title
-Author: SquidForce <lclrc.3@gmail.com>
-Name: HidePageDots
 
 Package: com.leisu
 Version: 1.2
@@ -1471,25 +1341,6 @@ Depiction: https://chariz.com/buy/onesettings
 Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
 Name: OneSettings
 
-Package: com.nightwind.searchdots
-Version: 1.1.3
-Architecture: iphoneos-arm64
-Maintainer: Nightwind <nightwinddev@gmail.com>
-Installed-Size: 473
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>=15.0)
-Filename: debs/rootless/searchdots_1.1.3汉化版@M哥.deb
-Size: 104748
-MD5sum: 967f3fef8fa3c559b770600d8105d1e9
-SHA1: 22f563e8e9a36a85814e6ba142a625199669e56a
-SHA256: 72554041d8f4e2f4953d13e1b846ec53ccf10fb16e5d5775ee4cc1dc25c1613b
-Section: Tweaks
-Description: Search Pill Ported from iOS 16
-Tag: compatible_min::ios15.0
-Author: Nightwind <nightwinddev@gmail.com>
-Depiction: https://chariz.com/get/searchdots
-Icon: https://img.chariz.cloud/icon/searchdots/icon@3x.png
-Name: SearchDots
-
 Package: com.nil.WXHelper
 Version: 0.1
 Architecture: iphoneos-arm64
@@ -1823,22 +1674,6 @@ Depiction: https://sopppra.mooo.com/depictions/web/com.sop.settingsrevamp.html
 Icon: https://i.postimg.cc/ry1s499R/icon-3x.png
 Name: SettingsRevamp
 Sileodepiction: https://sopppra.mooo.com/depictions/com.sop.settingsrevamp.json
-
-Package: com.spark.autounlockx
-Version: 1.1.0-rootless
-Architecture: iphoneos-arm64
-Maintainer: Spark
-Installed-Size: 416
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/rootless/autounlockx_1.1.0.deb
-Size: 63232
-MD5sum: d0dbd60c125af2407937e619528dd02a
-SHA1: 85698cb625889d9cb9794197aef4c2bfd6318ae0
-SHA256: e9000f2d87ccf161c7e4a1ecd9fa493f414ebe9a70ca1a49a68889f972e1176d
-Section: Tweaks
-Description: Unless there are notifications, the device will automatically unlock when valid Face ID is detected
-Author: Spark
-Name: AutoUnlockX
 
 Package: com.spark.laetus
 Version: 3.5.1-rootless
@@ -2190,6 +2025,225 @@ Dev: anubistweaks
 Name: Phone Enhancer 15-rootless
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: ellekit
+Version: 0.3-1
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/rootless/ellekit_0.3-1_iphoneos-arm64.deb
+Size: 464144
+MD5sum: 391a1e6371bc68c2ea53e782361eab56
+SHA1: dee7379f86b0eba825bf6202cfac2aef6ea2ce59
+SHA256: dacadf7e6e536b4381568622d4d8ab15a334ffa4cab90be187e9428a0a513104
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+ ElleKit tweak injection libraries and loader. Currently in beta.
+Author: Evelyn
+Icon: https://ellekit.space/logo.png
+Name: ElleKit (Beta)
+
+Package: ellekit
+Version: 0.4
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/rootless/ellekit_0.4_iphoneos-arm64.deb
+Size: 464030
+MD5sum: 98044145479c681f06139db05c6014c1
+SHA1: 5f79544b091c7b8f099bc2757e4ee6a94652e933
+SHA256: 627c091cd1dfd43b3a8edc375a76d38c792c6ef83f77c8de5dd0612852a83130
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+ ElleKit tweak injection libraries and loader. Currently in beta.
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit (Beta)
+
+Package: ellekit
+Version: 0.4.3
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/rootless/ellekit_0.4.3_iphoneos-arm64.deb
+Size: 377858
+MD5sum: 402fce9abd2a9cc0d1128ead62f0de39
+SHA1: b7747a8e98545f6fb028ac0cfe4c7e263eee3d5f
+SHA256: 19e8423b16a2a0f8f79b98cb209a65e3dd8b7d14fdf38369090b4d53a41d6941
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+ ElleKit tweak injection libraries and loader. Currently in beta.
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: ellekit
+Version: 0.4.5
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/rootless/ellekit_0.4.5_iphoneos-arm64.deb
+Size: 372334
+MD5sum: 805f92cbd0239ae3a0331ef89bcf4eed
+SHA1: d3481aebba548261b1a69325d06f744e0180261b
+SHA256: dde2cac0a26aba812cfd43a1928a7e56f35e5018257792a7f071f34098a1b1a4
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+ ElleKit tweak injection libraries and loader. Currently in beta.
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: ellekit
+Version: 0.5.3
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/rootless/ellekit_0.5.3_iphoneos-arm64.deb
+Size: 377926
+MD5sum: 7a7f11892415a4a0305cbe1b707dd11f
+SHA1: 83fa7c8f5e9f07462861d987c6ad63196415bfc7
+SHA256: 60359897d3666a44976ea1ed4a0a4ee5f6b77d99540e174d2ba7bba3c2ce4859
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+ ElleKit tweak injection libraries and loader. Currently in beta.
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: ellekit
+Version: 0.6
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/rootless/ellekit_0.6_iphoneos-arm64.deb
+Size: 498808
+MD5sum: 0ea7ef6e183a70711489c0c0eab83657
+SHA1: 2805cf7be92e39a328e680e38a4e444e95c5283f
+SHA256: 4e058ba3f91e11c63c07bf07dea71f5c920dc74c1ee2626bf10e0bdb38f3ac6b
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+ Currently in beta.
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: ellekit
+Version: 0.6-1
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/rootless/ellekit_0.6-1_iphoneos-arm64.deb
+Size: 498818
+MD5sum: b9c604e5ebe92660f2530962cf2a2853
+SHA1: 3167b26d35c72e71d409def3b20d4252727c2d1b
+SHA256: b71828f674974db69b3b1fd25c38f38238c14f609316385e22cce7b1dae8f92d
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+ Currently in beta.
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: ellekit
+Version: 0.6.1
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/rootless/ellekit_0.6.1_iphoneos-arm64.deb
+Size: 398908
+MD5sum: d366f9df60cad404581793e12918a00b
+SHA1: a19a310f11bcafcf27703b264743215c0162cf68
+SHA256: 8f7bda0139712dae562abedad096fdfda9b0da8285c9917e21bc656e3d51e0a3
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+ Currently in beta.
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: ellekit
+Version: 0.6.2
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/rootless/ellekit_0.6.2_iphoneos-arm64.deb
+Size: 468202
+MD5sum: 97cd59cb019467f3745d1b363def74f7
+SHA1: 8fd51757ad79b7f60701e62b1af2a4097abcbcdd
+SHA256: 099f40bd2af04606fb7b67182a474410c59d49880a89f6418d126267f95adf1e
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+ Currently in beta.
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: ellekit
+Version: 0.6.3
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/rootless/ellekit_0.6.3_iphoneos-arm64.deb
+Size: 374468
+MD5sum: ffe0db637b20d33dfabc6e2630644e46
+SHA1: bf3348ed1b8ec2a1ab11e810a26d32a2ccf051e7
+SHA256: d12298d96ca3b8e8af720c88f3606da5e32ebd72a233ed4456023fae1bf849ce
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+ Currently in beta.
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: ellekit
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/rootless/ellekit_1.0_iphoneos-arm64.deb
+Size: 462818
+MD5sum: e07abe93f50748c8d17675bb734e7082
+SHA1: 908e512dcf643e642bfa8fea2c067c7e2a166e3d
+SHA256: c0ab1e9a7a6c526f71d3247a8ae4a3cea4be8e178b9a2dac0e800550b1436325
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: flex3beta11
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -2226,22 +2280,6 @@ Priority: important
 Description: Locale files necessary for command line tool translation.
 Name: gettext-localizations
 
-Package: info.adolfoi.simplehome
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Adolfoi_
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/rootless/simplehome_1.0.0.deb
-Size: 2756
-MD5sum: 1db6dddd8c7994e364605a0ff2c6dddf
-SHA1: cdb5f16f6e506efc8da62513ddde920c6612ea51
-SHA256: b5495fcc9ac870932f75e1e44fc6e113e7280973dc9aee6b5cd3e3ae58c1cbcd
-Section: Tweaks
-Description: Remove Today View and App Library View.
-Author: Adolfoi_
-Name: SimpleHome
-
 Package: jdnoad
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -2259,22 +2297,6 @@ Author: M哥
 Icon: https://chinesebuilding.club/pic/cydia.png
 Name: 京东去广告-Rootless
 Sponsor: M哥
-
-Package: jp.akusio.backgrounderaction15
-Version: 0.1.0
-Architecture: iphoneos-arm64
-Maintainer: 搬运工
-Installed-Size: 340
-Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: debs/rootless/真后台.deb
-Size: 9768
-MD5sum: 0ba58c0906537da188a7f622f1ee125b
-SHA1: fff9ca077ae5cf9f8545a724d20e35f5a4109949
-SHA256: 137516d7a7579c8df0f2fee96e64cf92cc436c54b770ea6fc4bd86a721be29d5
-Section: 系统增强
-Author: @akusio_RR
-Name: CCSupport真后台-Rootless
-Sponsor: 搬运工
 
 Package: jp.akusio.milkyway4
 Version: 0.1.1
@@ -2381,24 +2403,6 @@ Author: 来了老弟
 Name: 强制密码框第三方键盘-rootless
 Sponsor: 33225753@qq.com
 
-Package: me.krit.notdoxed
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: WilsontheWolf
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/rootless/me.krit.notdoxed_1.2_iphoneos-arm64.deb
-Size: 3436
-MD5sum: 791d951711bddb76fa9d43877af7dac7
-SHA1: 69d9c20de1a7c6035af00ebc1dfd04bb0a236ee4
-SHA256: 828c54b4e8f8e6a6cd4089790d6cb145c9bccbf7000ba2f4ba62926ec799fdc0
-Section: Tweaks
-Description: Hide personal info in common apps.
-Author: krit
-Depiction: https://repo.shorty.systems/depictions/web/me.krit.notdoxed
-Name: NotDoxed
-Sileodepiction: https://repo.shorty.systems/depictions/sileo/me.krit.notdoxed
-
 Package: me.luki.amelija
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -2417,22 +2421,6 @@ Icon: https://repo.keycap.one/icons/Amelija.png
 Name: Amēlija
 Sileodepiction: https://repo.keycap.one/depictions/me.luki.amelija.json
 
-Package: me.tomt000.stageduo
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: tomt000
-Installed-Size: 7276
-Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
-Filename: debs/rootless/DynamicStage_1.0汉化版@M哥.deb
-Size: 4082348
-MD5sum: ec74159018739a50f2a8ed2d2e899787
-SHA1: 0ff823b1f74d8ea870d11e394164317c433a84bf
-SHA256: 805eaad25a0a2ed83e9420a9b8e21f4ac9070b16b08ec76fd2f3238c90921747
-Section: Tweaks
-Description: Stage Manager Reimagined for iPhone
-Author: tomt000
-Name: Dynamic Stage
-
 Package: mterminal
 Version: 1.6
 Architecture: iphoneos-arm64
@@ -2449,22 +2437,6 @@ Description: A MobileTerminal fork
 Author: lordscotland <admin@officialscheduler.com>
 Name: MTerminal - xina
 
-Package: netskao.actionbarreborn
-Version: 1.1-2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 796
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/rootless/ActionBarReborn.1.1-2.deb
-Size: 161592
-MD5sum: 83745bc1050b4c0866ff860557916d95
-SHA1: 36d21fb49535a418d34de3ee21ef4d0716beee06
-SHA256: 97680e9e7d638276f2667644f027f44f4d61e8a28358741dfafbc8be9ee58cb7
-Section: Netskao-Tweaks
-Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition
-Author: Netskao
-Name: ActionBar Reborn
-
 Package: netskao.appdata-rootless
 Version: 1.4.1
 Architecture: iphoneos-arm64
@@ -2480,22 +2452,6 @@ Section: Netskao-Tweaks
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
 Author: Fouad Raheb
 Name: AppData-Rootless
-
-Package: netskao.classickeyboardxs-rootless
-Version: 1.1-7
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 436
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/rootless/classickeyboardxs-rootless_1.1-7.deb
-Size: 65056
-MD5sum: c7dde623062e73dc090118d085f8214a
-SHA1: bcc0fa1a3b10b535bc19df5fa5e379e707332fe0
-SHA256: e7678a240552a8d70ed68937a88ba8a2a08f8ed8a60b3e3f037f174b349221af
-Section: Netskao-Tweaks
-Description: 自定义X键盘底部高度，地球底部高度等
-Author: Netskao
-Name: ClassicKeyboardXS-Rootless
 
 Package: netskao.flexlist-rootless
 Version: 1.4-1
@@ -2834,25 +2790,6 @@ Depiction: https://repo.cypwn.xyz/depiction/1450
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/power4options.png
 Name: Power4Options Reborn
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1450
-
-Package: xyz.cypwn.tako
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 516
-Depends: mobilesubstrate, oldabi, ws.hbang.common, com.mrgcgamer.libgcuniversal
-Filename: debs/rootless/Tako_0.0.2汉化版@M哥.deb
-Size: 66472
-MD5sum: 55535b82cf2163965528f0ed8cae711b
-SHA1: 677dd8084fe8785c0c1bbe94966ba951f22ec63a
-SHA256: 465a400b395b286bc65edf5e137346bb8ddf4935473155f9bbe811e8822c3a19
-Section: Tweaks
-Description: Notification priority hub tweak
-Author: Xyaman
-Depiction: https://repo.cypwn.xyz/depiction/1455
-Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
-Name: Tako
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1455
 
 Package: xyz.smartbatteryios15
 Version: 1.4kkk
