@@ -1,3 +1,20 @@
+Package: apt.llld.flex3beta1
+Version: 1:3~Beta99.11
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, firmware (>= 12.2) | org.swift.libswift (>= 5.0)
+Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly
+Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly
+Filename: debs/rootless/flex3beta1_1:3~Beta99.11.deb
+Size: 12800308
+MD5sum: 2793491889f8caecebf86b2591fbe4bd
+SHA1: 5883ba8735f3e755a639cc4b46696f87f440bde0
+SHA256: e4986165ce5f4611b6e85f6deb936e7255f14e87582517c436ce2afc95b9404d
+Section: 兼容层oldabi-rootless
+Description: 此包需装Legacy arm64e Support，不可解析,支持应用补丁列表,支持粗体文本显示，系统部分应用生效,装此包附带一个可以解析的版本(支持解析第三方和生效应用),需要全功能就装此包，需要全功能就装此包，需要全功能就装此包，一方开关2个共同效果,想更好的就等-别催,10102018:小更去除几个系统应用的注入_________仅测试用,有问题卸载
+Author: John Coates
+Name: Flex3 粗体版-rootless
+
 Package: cn.llld.copy1
 Version: 1.4.1
 Architecture: iphoneos-arm64
@@ -421,6 +438,22 @@ Description: 黄白助手-微信插件                                          
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)-Rootless
 
+Package: com.hk.trollstore.cn.rl
+Version: 2.0-3
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Installed-Size: 184
+Depends: mobilesubstrate
+Filename: debs/rootless/com.hk.trollstore.cn.rl_2.0-3_iphoneos-arm64.deb
+Size: 12108
+MD5sum: 40443fa98c79f62c31a25abe9e86b101
+SHA1: 42bb85aeb89073a210ce61bd746cb1e99f971445
+SHA256: 3fdab399c89a5f7faac2d91fa3d61dff58c9452084e1f6a8e242f96ddf5bc388
+Section: 嗨-汉化
+Description: TrollStore 简体中文包(rootless)。
+Author: 妖刀
+Name: TrollStore 简体中文包(rootless)
+
 Package: com.homescreen
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -805,6 +838,21 @@ Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
 Name: Choicy-rootless
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.opa334.trollstorehelper
+Version: 2.0.8
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 4284
+Filename: debs/rootless/trollstorehelper_2.0.8_iphoneos-arm64.deb
+Size: 1877754
+MD5sum: 5f73e9680d7031a5dd39985ac0191d66
+SHA1: be272df48f8fe6506053d07df5df7570fd77bbb6
+SHA256: 3bfb5b082e82bf22ab3a0176b97bcb8cfa7d412ff8e85bd508276d9fd86bc3a8
+Section: Applications
+Description: Helper utility to install and manage TrollStore!
+Author: opa334
+Name: TrollStore Helper
+
 Package: com.pantsthief.flexing
 Version: 1.5.0
 Architecture: iphoneos-arm64
@@ -877,6 +925,25 @@ Section: Tweaks
 Description: 搜狗输入法去广告
 Author: M哥
 Name: 搜狗去广告-rootless
+
+Package: com.sop.settingsrevamp
+Version: 2.0.3
+Architecture: iphoneos-arm64
+Maintainer: SOPPPra
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader
+Filename: debs/rootless/com.sop.settingsrevamp_2.0.3_iphoneos-arm64.deb
+Size: 96056
+MD5sum: d34d9cebdfd309d8b024e4568ee3495f
+SHA1: 7e7de8f7eb83431ca1bd13a5fceafdd4e9ad167c
+SHA256: 503d143ea606c0ac4f87282781fdb3d6482d191b4ad28fee7145365fbff8f88e
+Section: Tweaks
+Description: Customize the ios settings page
+Author: SOPPPra
+Depiction: https://sopppra.mooo.com/depictions/web/com.sop.settingsrevamp.html
+Icon: https://i.postimg.cc/ry1s499R/icon-3x.png
+Name: SettingsRevamp
+Sileodepiction: https://sopppra.mooo.com/depictions/com.sop.settingsrevamp.json
 
 Package: com.sop.settingsrevamp
 Version: 2.1.0
@@ -1170,6 +1237,38 @@ Author: 来了老弟
 Name: 强制密码框第三方键盘-rootless
 Sponsor: 33225753@qq.com
 
+Package: netskao.appdata-rootless
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 23032
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/rootless/netskao.appdata-rootless_1.4.1_iphoneos-arm.deb
+Size: 5026120
+MD5sum: e05a380d3c2b86b089ae0ac72321c8b7
+SHA1: 76de7788d26a9e0fb5dd4fe515a9e187c77eadf7
+SHA256: d5200ff20e77fd2366667a03ccf6a7a1213ebde189d2252fc377e8808f714ed8
+Section: Netskao-Tweaks
+Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
+Author: Fouad Raheb
+Name: AppData-Rootless
+
+Package: netskao.flexlist-rootless
+Version: 1.4-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 3736
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/rootless/netskao.flexlist-rootless_1.4-1_iphoneos-arm64.deb
+Size: 832784
+MD5sum: 0859ea0871bdb4fef6e3dcf0b5652e85
+SHA1: 59d3f78fb4d06a0dbeff4bb17f666a5e81a2735e
+SHA256: 54fe3b8534daa45d76aeaa92f0c4ad12b7f0dcc8952f14f50cf34b765f8a2b91
+Section: Netskao-Tweaks
+Description: FLEXList is a wrapper tool for FLEX Tool
+Author: Netskao
+Name: FLEXList-Rootless
+
 Package: netskao.pulloverpro
 Version: 2.1.2-7
 Architecture: iphoneos-arm64
@@ -1289,22 +1388,6 @@ Depiction: https://store.geometricsoftware.se/packages/se.geometric.intelligentp
 Icon: file:///Library/PreferenceBundles/IntelligentPass.bundle/store.png
 Name: IntelligentPass 5
 Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.intelligentpass5/depiction
-
-Package: settingsrevamp
-Version: 2.0.3
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 536
-Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
-Filename: debs/rootless/settingsrevamp_2.0.3.deb
-Size: 95696
-MD5sum: 7e21212e613db37559cbe432f20354a0
-SHA1: 7ee9c5c1e1f8acbfd803ca35099ee4098e914523
-SHA256: ee2522c097e01b90b12ef64e4ab1b569f80074e7c39d8f5ad31f14074b1de3a1
-Section: Tweaks
-Description: Customize the ios settings page
-Author: M哥
-Name: SettingsRevamp
 
 Package: wechatplugin
 Version: 3.2.0
