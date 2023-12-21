@@ -470,6 +470,29 @@ Description: 隐藏截图预览、屏蔽设备无SIM卡弹窗、隐藏应用程�
 Author: M哥
 Name: 主屏幕优化-rootless
 
+Package: com.ichitaso.primalfolder2
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: ichitaso
+Installed-Size: 464
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.ichitaso.primalfolder, me.qusic.taptapfolder, com.lizynz.folder6plus, info.rpdev.betterfourbyyfourfolders
+Replaces: com.ichitaso.primalfolder2
+Filename: debs/rootless/PrimalFolder2.0.1.1.deb
+Size: 48380
+MD5sum: d794cd14240ed56a767e0cd40c651ee1
+SHA1: 86a6a041e5214ea9f20871b15c4d92e0ebe61a77
+SHA256: 692a3e53ef95f2cde9c916143b6bcc894ee203b027a9fb1afd6781f5928b7efd
+Section: Tweaks
+Homepage: https://ichitaso.com
+Description: Display to folder as icon and launch action for Folders
+Tag: purpose::extension, compatible_min::ios13.0, compatible_max::ios16.4
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/primalfolder2.html
+Dev: ichitaso
+Icon: https://cydia.ichitaso.com/icons/PrimalFolder2.png
+Name: PrimalFolder 2
+
 Package: com.itznebbs.genesis3
 Version: 1.5
 Architecture: iphoneos-arm64
