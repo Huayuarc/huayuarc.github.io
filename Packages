@@ -1504,13 +1504,14 @@ Installed-Size: 629
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: com.initwithframe.velvet
 Filename: debs/rootless/wwg135.velvet2_2.1.2_iphoneos-arm64.deb
-Size: 95668
-MD5sum: 7b2f26301b75b508ca87bf9f66bbd67c
-SHA1: ddfce94665a7aff24a51e9c2e70a66e9214cc1fb
-SHA256: 10371ec47bed11a3ab73a5976076315e35723ce6ff263086d6fe4cf38bb1adde
+Size: 95828
+MD5sum: 75d09f5ff4f468696570d7c641d64271
+SHA1: 5cec9a4e5e128706b7e758ed26b4a2c81358bdab
+SHA256: 133909baab0310b46e812a37d73b94c9ec1d5218ad87581cf4c9152c607ff459
 Section: Tweaks
 Description: A fully customizable notification experience（M哥汉化）
 Author: NoisyFlake
+Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
 Name: Velvet 2
 
 Package: xyz.cypwn.joe
