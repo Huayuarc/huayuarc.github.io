@@ -243,6 +243,24 @@ Description: 给QQ加点小功能，有空就更，功能在手机"系统设置"
 Author: 来了老弟 X：h_h_x_t
 Name: 芭比Q-rootless
 
+Package: cn.llld.qqdsq
+Version: 0.00000003
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 404
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/rootless/芭比Q-rootless.0.00000003.deb
+Size: 56844
+MD5sum: 46c92b30d97831933f38c5506c312966
+SHA1: 9b78c2d9ea46b9447b686527e1ae6d1958e6db20
+SHA256: d6fb9d06c666f199931901e6740eec7ae7e80fed9aaf650c9b480934f9449485
+Section: rootless插件
+Description: 给QQ加点小功能，有空就更，功能在手机"系统设置"。调试版本号：v8.9.58和v9.0.0.249和v9.0.1，别的版本需自测。在研究转发语音和空间跟圈，去广告，防撤回等一些功能还莫急，会上
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons/tubiao1.png
+Name: 芭比Q-rootless
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
+
 Package: cn.llld.wechatautolock
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1232,6 +1250,22 @@ Size: 90704
 MD5sum: fadc3d09d2e86edd2f44736f9eadfbbe
 SHA1: 1ee35a42c5da0152ea92c0d21779ce15073e2357
 SHA256: 4d2171c209b83b658268b87090aca802a2e5793bb3193249bea9e3f248ce9147
+Section: Tweaks
+Description: iOS 16 Style Battery Indicator
+Author: MTAC
+Name: Ampere
+
+Package: com.mtac.ampere
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 568
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Filename: debs/rootless/Ampere.1.2.deb
+Size: 90564
+MD5sum: 81d29f5ff5f1f1e001b34cfe4600e90f
+SHA1: 2707fb6a5126591d9ff2645b2c341b55f084b24e
+SHA256: 597999d7f6b2fb5b236f9798bfee5b97997583aa8e3416ebe5fa33a4ce32fe70
 Section: Tweaks
 Description: iOS 16 Style Battery Indicator
 Author: MTAC
