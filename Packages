@@ -189,25 +189,6 @@ Description: 自用插件
 Author: M哥 <1358804498@qq.com>
 Name: 高德地图（去广告+精简）-rootless
 
-Package: com.anthopak.lastlook
-Version: 3.6.5
-Architecture: iphoneos-arm64
-Maintainer: AnthoPak <anthopakdev@gmail.com>
-Installed-Size: 1365
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
-Filename: debs/rootless/lastlook_3.6.5.deb
-Size: 388804
-MD5sum: 0a9d46997994eb94d921c90b20d48ebf
-SHA1: f3b1b0d9b4243a2adff2fc5916b9daba6004d28c
-SHA256: 044d16ae28f96ad4efb78fa688831d931d3c1e6b8b5e792385612992e7937bf5
-Section: Tweaks
-Description: An AOD tweak that feels stock, with endless possibilities!
-Tag: cydia::commercial, compatible_min::ios12.0
-Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: https://chariz.com/buy/lastlook
-Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
-Name: LastLook
-
 Package: com.autounlockface
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -560,6 +541,25 @@ Description: Pin screenshots on the screen.
 Author: Jonathan Winger-lang
 Name: Snapper 3
 
+Package: com.lastlook
+Version: 3.6.5
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1365
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: debs/rootless/com.lastlook_3.6.5_iphoneos-arm64.deb
+Size: 388736
+MD5sum: df94b1e5567855440e1b18cca2ce91f8
+SHA1: e46b94e865cdae68efa84601af43df96d8d1b291
+SHA256: 82fb48a0bbb9abdffb354794f5aa55a2d26ac6fca9cc3d2d6f7968abc9442928
+Section: Tweaks
+Description: An AOD tweak that feels stock, with endless possibilities!（M哥汉化）
+Tag: cydia::commercial, compatible_min::ios12.0
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://chariz.com/buy/lastlook
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook
+
 Package: com.lclrc.hammerit
 Version: 1.4.5
 Architecture: iphoneos-arm64
@@ -738,26 +738,6 @@ Section: Tweaks
 Description: 今日头条去广告
 Author: M哥
 Name: 今日头条NoAd-rootless
-
-Package: com.noisyflake.velvet2
-Version: 2.1.2
-Architecture: iphoneos-arm64
-Maintainer: NoisyFlake <support@noisyflake.com>
-Installed-Size: 629
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.initwithframe.velvet
-Filename: debs/rootless/velvet2_2.1.2.deb
-Size: 95892
-MD5sum: b87818a7a2a3a7520cf5abd88ebf6027
-SHA1: 70c763cb56adc94f4890200a56dfa9f475492d07
-SHA256: 00b1779f08b54eceea0f37aa51dc415fac99a3cc05bdf76e99af1dcb79bbcb93
-Section: Tweaks
-Description: A fully customizable notification experience
-Tag: cydia::commercial, compatible_min::ios15.0
-Author: NoisyFlake <support@noisyflake.com>
-Depiction: https://chariz.com/buy/velvet-2
-Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
-Name: Velvet 2
 
 Package: com.notification
 Version: 1.1
@@ -1051,6 +1031,26 @@ Section: Tweaks
 Description: 禁止通知中心信息堆叠，不重叠可以连续显示
 Author: M哥
 Name: 通知分组堆叠iOS15-rootless
+
+Package: com.velvet2
+Version: 2.1.2
+Architecture: iphoneos-arm64
+Maintainer: NoisyFlake <support@noisyflake.com>
+Installed-Size: 629
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: debs/rootless/com.velvet2_2.1.2_iphoneos-arm64.deb
+Size: 95960
+MD5sum: dcd03a6a4a4aad5b6c21748ffc1e85a5
+SHA1: 47e0acde85fca579eeab3829bbdeec9b2bafa767
+SHA256: e2a1e349ea6af8b482d4d42f51dde214dddb4d37aa329384ec5a5d492174db9d
+Section: Tweaks
+Description: A fully customizable notification experience（M哥汉化）
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: NoisyFlake <support@noisyflake.com>
+Depiction: https://chariz.com/buy/velvet-2
+Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
+Name: Velvet 2
 
 Package: com.waimai
 Version: 1.0
