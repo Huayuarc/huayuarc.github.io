@@ -1069,6 +1069,22 @@ Description: 省电模式电池颜色保持原生、锁屏来电拒接按钮、�
 Author: M哥
 Name: 锁屏优化-rootless
 
+Package: com.maidanba
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/rootless/com.maidanba_1.0_iphoneos-arm64.deb
+Size: 2256
+MD5sum: d7e5460582c7af7735615c2ae266773b
+SHA1: a8f3255ca1b256fe7648dab754d3ac770de93dc0
+SHA256: ccdb340d15871b91ba81116755dffb37771bfd551f6a3773f71d748b0ca556f8
+Section: Tweaks
+Description: 买单吧去启动广告
+Author: M哥
+Name: 买单吧NoAd-rootless
+
 Package: com.misakaproject.macaron
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -2265,6 +2281,25 @@ Size: 462818
 MD5sum: e07abe93f50748c8d17675bb734e7082
 SHA1: 908e512dcf643e642bfa8fea2c067c7e2a166e3d
 SHA256: c0ab1e9a7a6c526f71d3247a8ae4a3cea4be8e178b9a2dac0e800550b1436325
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
+Package: ellekit
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: debs/rootless/ellekit_1.1_iphoneos-arm64.deb
+Size: 347040
+MD5sum: 2646ea551aac9e2a92b7b36a4e978a0f
+SHA1: db6974d34228c03087a2041e7152eb374af63d44
+SHA256: 17424be2f26f2d34b1c60129706445c850b69ca736b032413f231d6787e61fef
 Section: Tweak Injection
 Priority: optional
 Description: ElleKit tweak injection libraries and loader
