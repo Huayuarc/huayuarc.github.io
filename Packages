@@ -1320,27 +1320,6 @@ Description: BigSurCenter轻量级的iOS控制中心。                         
 Author: nicho1asdev
 Name: BigSurCenter（破解版）
 
-Package: com.nightwind.onesettings
-Version: 2.0.4
-Architecture: iphoneos-arm64
-Maintainer: Nightwind <nightwinddev@gmail.com>
-Installed-Size: 1113
-Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
-Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
-Replaces: com.twickd.nightwind.onesettings
-Filename: debs/rootless/OneSettings.2.0.4.deb
-Size: 198460
-MD5sum: 4c1168fd328b474f2dfd56a29a12b1f0
-SHA1: e73dbeb2c1d912912bb7d1c96061921b84c2870b
-SHA256: 2a4fc873295296b40dd110deed57a16d7380dbd920e27cefad1f77f3dbaff3b0
-Section: Tweaks
-Description: A great enhancement to your Settings App!
-Tag: cydia::commercial, compatible_min::ios14.0
-Author: Nightwind <nightwinddev@gmail.com>
-Depiction: https://chariz.com/buy/onesettings
-Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
-Name: OneSettings
-
 Package: com.nil.WXHelper
 Version: 0.1
 Architecture: iphoneos-arm64
@@ -1373,25 +1352,6 @@ Section: Tweaks
 Description: 通知中心左滑清除右滑打开、隐藏通知中心上/下分割线、隐藏通知中心翻页
 Author: M哥
 Name: 通知中心-rootless
-
-Package: com.officialscheduler.mterminal-rootless
-Version: 1.4-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 2232
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: firmware (>= 15.0), gettext-localizations, system-cmds, bash | zsh
-Conflicts: mterminal
-Filename: debs/rootless/MTerminal-Rootless.1.4-1.deb
-Size: 517380
-MD5sum: b1b2f36aadfac1318389635da46bb0d7
-SHA1: 7cf6c347deb7e99261e19f4556902eecab99d496
-SHA256: 9707ac44729d948a6d245a4b6341a50e3d5a7bf9b98b277088c3697e6a1b13c9
-Section: Tweaks
-Homepage: https://bitbucket.org/lordscotland/mterminal
-Description: A MobileTerminal fork. Full Screen Support
-Author: lordscotland
-Name: MTerminal-Rootless
 
 Package: com.opa334.altlist
 Version: 1.0.10
@@ -1866,6 +1826,41 @@ Icon: https://repo.shorty.systems/icons/com.wilsonthewolf.unlocker.png
 Name: Unlocker
 Sileodepiction: https://repo.shorty.systems/depictions/sileo/com.wilsonthewolf.unlocker
 
+Package: com.wwg135.intelligentpass5
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 444
+Depends: mobilesubstrate, firmware(>=15.0), firmware(<<17), preferenceloader, se.geometric.graphite
+Filename: debs/rootless/com.wwg135.intelligentpass5_1.0.2_iphoneos-arm64.deb
+Size: 82780
+MD5sum: a15e3316b20fac9fe1d49b971931f88c
+SHA1: 9c99e3538ccde412b011dfd3964f3ab2871c3030
+SHA256: cc79c83380edb9359ce754005b250337db3b8a675c56dd1257d2995848834cc9
+Section: Tweaks
+Description: Disable passcode when not necessary（M哥汉化）
+Author: Geometric Software
+Icon: file:///Library/PreferenceBundles/IntelligentPass.bundle/store.png
+Name: IntelligentPass 5
+
+Package: com.wwg135.onesettings
+Version: 2.0.4
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 1113
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: debs/rootless/com.wwg135.onesettings_2.0.4_iphoneos-arm64.deb
+Size: 198236
+MD5sum: 2ca001e6142d58ae1d608b948c2ea900
+SHA1: 924f808caa8e23ecd8efed9c08eab828505450a3
+SHA256: 7b9c52a3c9b9b63b484b24ae9192b0ceb8c33b92e38dcae275bf0a92ad8a3b87
+Section: Tweaks
+Description: A great enhancement to your Settings App!（M哥汉化）
+Author: Nightwind
+Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
+Name: OneSettings
+
 Package: com.xx.dyhook
 Version: 1.1.4
 Architecture: iphoneos-arm64
@@ -2294,25 +2289,6 @@ Description: Only effective for third-party applications, the patch list can be 
 Author: John Coates 来了老弟
 Name: Flex3 Beta程序修改器-xina2
 
-Package: gettext-localizations
-Version: 2020.10.07
-Architecture: iphoneos-arm64
-Maintainer: Procursus Team <support@procurs.us>
-Installed-Size: 1088
-Depends: libintl8 (>= 0.20.0)
-Conflicts: com.linusyang.localeutf8
-Replaces: com.linusyang.localeutf8
-Provides: com.linusyang.localeutf8 (= 99.9)
-Filename: debs/rootless/gettext-localizations.2020.10.07.deb
-Size: 179596
-MD5sum: 286efb01ab9860e8fa8e631d9f4b23e5
-SHA1: c9bcdec2283212f590e5a185a0b5cb8abb555ecd
-SHA256: 2e9ef4ab8881dc904a80ec86f01bd46f594386d79e780c2706ab34cf3f7f3187
-Section: Localizations
-Priority: important
-Description: Locale files necessary for command line tool translation.
-Name: gettext-localizations
-
 Package: jdnoad
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -2453,22 +2429,6 @@ Author: Luki
 Icon: https://repo.keycap.one/icons/Amelija.png
 Name: Amēlija
 Sileodepiction: https://repo.keycap.one/depictions/me.luki.amelija.json
-
-Package: mterminal
-Version: 1.6
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 464
-Depends: coreutils, firmware (>= 11.0), gettext-localizations, system-cmds, zsh
-Filename: debs/rootless/MTerminal-xina.1.6.deb
-Size: 98528
-MD5sum: 82494878e105a613c67cb7d79a6256f3
-SHA1: edb859bf1159bc4ed980174a8973b8c2d3187939
-SHA256: 4329cd1fb2057467025f6ff572aa304d7d0f580f3f03b5cf3ab5d554bbc81e01
-Section: Utilities
-Description: A MobileTerminal fork
-Author: lordscotland <admin@officialscheduler.com>
-Name: MTerminal - xina
 
 Package: netskao.appdata-rootless
 Version: 1.4.1
@@ -2640,26 +2600,6 @@ Section: Tweaks
 Description: 在锁屏自定义有用的信息
 Author: M哥
 Name: Sakal
-
-Package: se.geometric.intelligentpass5
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: Geometric Software
-Installed-Size: 444
-Depends: mobilesubstrate, firmware(>=15.0), firmware(<<17), preferenceloader, se.geometric.graphite
-Filename: debs/rootless/se.geometric.intelligentpass5_1.0.2_iphoneos-arm64.deb
-Size: 82762
-MD5sum: cf980c1de7da9f38bbb662a6c295f67d
-SHA1: 601a4161077aa8ac84bf19fe2396476dfd0577d2
-SHA256: b590a9ac6081989201cd903fc6aca78a3287fcd33d74b1ae9af52844cdb8c56d
-Section: Tweaks
-Description: Disable passcode when not necessary
-Tag: cydia::commercial
-Author: Geometric Software
-Depiction: https://store.geometricsoftware.se/packages/se.geometric.intelligentpass5
-Icon: file:///Library/PreferenceBundles/IntelligentPass.bundle/store.png
-Name: IntelligentPass 5
-Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.intelligentpass5/depiction
 
 Package: wechatplugin
 Version: 3.2.0
