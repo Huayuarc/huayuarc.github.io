@@ -276,6 +276,22 @@ Description: 允许WX在聊天界面时跟随系统自动锁屏,wx默认是5分�
 Author: iBreak
 Name: WX跟随系统锁屏-rootless
 
+Package: com.12123
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/rootless/com.12123_1.0_iphoneos-arm64.deb
+Size: 2608
+MD5sum: 0d0b54217ec692e3d26f0776f69d2cfe
+SHA1: c5184e6881eed710175d191d457b96b4d605d164
+SHA256: 7e471330568a939e6b2204e0398566f3c54e48b928683ea7dcba6cef7ceda142
+Section: Tweaks
+Description: 交管12123去广告
+Author: M哥
+Name: 交管12123 NoAd-rootless
+
 Package: com.HBWechatHelper.ailun
 Version: 1.6.3
 Architecture: iphoneos-arm64
@@ -2306,6 +2322,25 @@ Description: ElleKit tweak injection libraries and loader
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 Name: ElleKit
+
+Package: emt.paisseon.satella
+Version: 1.7.1
+Architecture: iphoneos-arm64
+Maintainer: Lilliana
+Installed-Size: 684
+Depends: firmware (>= 12.2), ws.hbang.common (>= 1.17), preferenceloader, com.opa334.altlist
+Filename: debs/rootless/emt.paisseon.satella_1.7.1_iphoneos-arm64.deb
+Size: 142952
+MD5sum: f54150586857fdddeef2344c6165aafc
+SHA1: 173da8ac9559d56b8b518a5914bb93aec5bd6b48
+SHA256: f4db2fa561e2d78f85a05ecc695eebf33c454c6b5903ca9ceddea5f75c8d2411
+Section: Tweaks (Piracy)
+Description: Modern in-app purchase cracker
+Author: Lilliana
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Satella.json&name=Satella&dev=Lilliana
+Icon: https://paisseon.github.io/icons/Satella.png
+Name: Satella
+Sileodepiction: https://paisseon.github.io/depictions/Satella.json
 
 Package: flex3beta11
 Version: 1.0.2
