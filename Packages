@@ -2601,6 +2601,56 @@ Description: 在锁屏自定义有用的信息
 Author: M哥
 Name: Sakal
 
+Package: sezo.datamanager
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 29542
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.libsandy
+Filename: debs/rootless/datamanager_1.0.7_iphoneos-arm64.deb
+Size: 6439548
+MD5sum: cc29174456ba921fd5da829ed35d4ecc
+SHA1: 74bbea926e8a4f4463e3aad32cadedabb0cec68a
+SHA256: dd7167211ce14ddc8cc5f845d7ad87f01ce4300aebb08f77a0fa7ffdf2b20052
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=datamanagerDp
+Description: Backup & restore apps data without PC
+Tag: purpose::extension
+Author: Sezo <support@sezo.app>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=datamanagerDp
+Dev: sezo
+Icon: https://sezo.app/assets/sezo.datamanager/icon.png
+Moderndepiction: https://sezo.app/depiction/native/sezo.datamanager.json
+Name: Data Manager
+Sileodepiction: https://sezo.app/depiction/native/sezo.datamanager.json
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: sezo.nyx
+Version: 1.1.6
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 7433
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/rootless/nyx_1.1.6_iphoneos-arm64.deb
+Size: 2166840
+MD5sum: 78c2c9028372cc5963c9d57e9ddbf472
+SHA1: 8476b71c1374398e859fd13eb64ff3647d1b48a3
+SHA256: 812d9815ae68996eb6c5f5c0fcfd90ef00efab666c7fe0f936979cfaa123dae8
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nyxDp
+Description: Supercharge your experience on Instagram!
+Tag: purpose::extension
+Author: Sezo <support@sezo.app>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nyxDp
+Dev: sezo
+Icon: https://sezo.app/assets/sezo.nyx/icon.png
+Moderndepiction: https://sezo.app/depiction/native/sezo.nyx.json
+Name: Nyx for Instagram
+Sileodepiction: https://sezo.app/depiction/native/sezo.nyx.json
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: wechatplugin
 Version: 3.2.0
 Architecture: iphoneos-arm64
