@@ -13,22 +13,6 @@ Description: 自定义修改系统锁屏界面顶部和底部”向上轻扫以�
 Author: M哥
 Name: SwipeUnLock-rootless
 
-Package: alias20.speedy
-Version: 0.2
-Architecture: iphoneos-arm64
-Maintainer: alias20
-Installed-Size: 388
-Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
-Filename: debs/rootless/Speedy_0.2.deb
-Size: 28836
-MD5sum: 666689b1e0519c0306ae51d707008d75
-SHA1: 2a2e0dd21f05f4150c36b05366896ae37dbfbbe2
-SHA256: a96eefc4ae5ca9d67d1f0b5d695264a2d81cf9ff0caaf6970ada982e97241e27
-Section: Tweaks
-Description: Next generation of FastAnimator
-Author: alias20
-Name: Speedy
-
 Package: applist
 Version: 1.5.16
 Architecture: iphoneos-arm64
@@ -99,22 +83,6 @@ Section: 巨魔群组修复插件
 Description: iOS自带键盘自定义。全选,复制,粘贴,选择,撤销，重做，关闭键盘,换行,符号,光标最前或末尾，等多功能添加_________来了老弟·修复兼容dopamine
 Author: qwertyuiop1379 laileld
 Name: SwipeExtenderX键盘增强
-
-Package: cn.llld.copy1
-Version: 1.4.1
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 172
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/rootless/Copy-text-rootless.1.4.1.deb
-Size: 8692
-MD5sum: 5f5d233e43bc8e8c6ca66fa5c8ad202d
-SHA1: c97f7321f012fbd6cdb91269bb5be50a328e4665
-SHA256: e8136524c9a576cfc1da9705ba110f7218b6a1c9b2fc04d846763c19c6a6035f
-Section: rootless插件
-Description: Individual text can be copied by long-pressing in the (settings and appstore and message and cocoatop,sileo,saily,QQ), currently in the testing phase, and more support will be added in future updates.***（设置,appstore,短信，cocoatop,sileo,saily,QQ）短按复制文本内容，现处于测试阶段等后续更新支持更多,20231107更新修复交互和点击bug，20231109优化速度反应,20231209新加了数个应用，若按钮或原本的手势异常请反馈并先禁止此插件的注入,20231211处理QQ长按语音和Flexlis，Flexingt编辑框的手势冲突问题***
-Author: 来了老弟 h_h_x_t
-Name: Copy-text-rootless
 
 Package: cn.llld.dhjj
 Version: 1.0
@@ -211,24 +179,6 @@ Description: 微信简洁辅助(抢红包，防撤回)-roootless
 Author: 来了老弟
 Name: 微信辅助(微生物)-rootless
 
-Package: cn.llld.qqdsq
-Version: 0.00000005
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 X：h_h_x_t
-Installed-Size: 464
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/rootless/cn.llld.qqdsq_0.00000005_iphoneos-arm64.deb
-Size: 70180
-MD5sum: 9e016b000871af93f9d5b6dab00c51ba
-SHA1: 833953fd4aee20c5d2cce847d5579872b735fac8
-SHA256: b0dd12f1b73ffaba337c221a879624a21b2be3b3fd1ea363ea03aeef2f42f3d3
-Section: rootless插件
-Description: 给QQ加点小功能，有空就更，功能在手机"系统设置"。调试版本号：v8.9.58和v9.0.0.249和v9.0.1，别的版本需自测。在研究转发语音和空间跟圈，去广告，防撤回等一些功能还莫急，会上
-Author: 来了老弟 X：h_h_x_t
-Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons/tubiao1.png
-Name: 芭比Q-rootless
-Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
-
 Package: cn.llld.wechatautolock
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -243,22 +193,6 @@ Section: rootless-wx插件
 Description: 允许WX在聊天界面时跟随系统自动锁屏,wx默认是5分钟的
 Author: iBreak
 Name: WX跟随系统锁屏-rootless
-
-Package: com.12123
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 88
-Depends: mobilesubstrate
-Filename: debs/rootless/com.12123_1.0_iphoneos-arm64.deb
-Size: 2608
-MD5sum: 0d0b54217ec692e3d26f0776f69d2cfe
-SHA1: c5184e6881eed710175d191d457b96b4d605d164
-SHA256: 7e471330568a939e6b2204e0398566f3c54e48b928683ea7dcba6cef7ceda142
-Section: Tweaks
-Description: 交管12123去广告
-Author: M哥
-Name: 交管12123 NoAd-rootless
 
 Package: com.ali.aimpro
 Version: 1.0.5
@@ -385,22 +319,6 @@ Description: 中国银行去广告、精简。仅支持8.0以下版本
 Author: M哥
 Name: 中国银行NoAd-rootless
 
-Package: com.brend0n.autocalloutbar
-Version: 0.0.1.1
-Architecture: iphoneos-arm64
-Maintainer: Brend0n <brendonjkding@126.com>
-Installed-Size: 536
-Depends: mobilesubstrate
-Filename: debs/rootless/autocalloutbar_0.0.1.1.deb
-Size: 76268
-MD5sum: 452b2157a7e2b31ded62b54e0b09ab97
-SHA1: 916382e5c0c047f2ec8b1526e9bceef2a80e5864
-SHA256: 286b701c1fde9283836784a40eb37980165c8fda40b5b718284f0e2cca34fecc
-Section: Tweaks
-Description: show editing menu automatically when starting editing
-Author: Brend0n <brendonjkding@126.com>
-Name: autoCalloutBar
-
 Package: com.brend0n.nopassafterrespringsafe
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -514,28 +432,6 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cthulhuDp
 Dev: lucaluca86
 Icon: file:///Library/PreferenceBundles/Cthulhu.bundle/icon@2x.png
 Name: Cthulhu
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.cydiageek.huebatterybar
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 1330
-Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, org.thebigboss.libcolorpicker
-Filename: debs/rootless/huebatterybar_1.0.0汉化版@M哥.deb
-Size: 132568
-MD5sum: bf6b4f113ae9e483623d12d9915e18f4
-SHA1: 0b2c0e2035e31cbc26f0aeff8d5cb8ddc1ba6dad
-SHA256: d3bb30a7c6e384a4237b609f053c22ea4d4fc6c41d225d963f820a108acc6deb
-Section: Tweaks
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=huebatterybarDp
-Description: Custom Colors/Options for Statusbar on System Wide!
-Tag: purpose::extension
-Author: CydiaGeek <lucaluca86@aol.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=huebatterybarDp
-Dev: lucaluca86
-Name: hueBatterybar
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.cydiageek.skinnysettings
@@ -749,24 +645,6 @@ Author: Mo
 Name: 微信公众号去广告-Rootless
 Sponsor: Mo <cydia778899@gmail.com>
 
-Package: com.i0stweak3r.sneakpeak
-Version: 0.0.3-3
-Architecture: iphoneos-arm64
-Maintainer: i0s_tweak3r
-Installed-Size: 908
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14)
-Conflicts: com.yourepo.i0s-tweak3r-betas.sneakpeak
-Replaces: com.yourepo.i0s-tweak3r-betas.sneakpeak
-Filename: debs/rootless/sneakpeak_0.0.3-3汉化版@M哥.deb
-Size: 522784
-MD5sum: 6ca1743d5d315405f8e09ab39c987f69
-SHA1: 5e8dffbe23e9c4c6a0cbbb454591b9765f5f46dd
-SHA256: 2200f37d94796d2e57502ff22c3112483dd1a03b8398dab0a3000e955f96e284
-Section: Tweaks
-Description: Sneak a peak of your homescreen from unlocked lock screen on iPhone X (and other models) by touching the bottom, or scrolling up or down. Change date format, hide date, notifications, page dots, and more.  Tested and working on iOS 14-16.5.
-Author: i0s_tweak3r
-Name: SneakPeak
-
 Package: com.ichitaso.primalfolder2
 Version: 0.1.1
 Architecture: iphoneos-arm64
@@ -840,23 +718,6 @@ Author: Jonathan Winger Lang <jontelang@gmail.com>
 Icon: file:///Library/PreferenceBundles/instalauncher2preferences.bundle/icons/preferences-icon@2x.png
 Name: InstaLauncher 2
 
-Package: com.jontelang.snapper3
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: Jonathan Winger-lang
-Installed-Size: 4144
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/rootless/Snapper3.1.2.deb
-Size: 1031996
-MD5sum: 6b6bb9762ac155dc6cbbddf4ae617540
-SHA1: df3b78cf321a9d67302270592c0fd0c9a2a4212b
-SHA256: 8eb1f61b0bd56e5a2cd2f0205187d2b8023160de2ce696e068458b99d3bfd632
-Section: Tweaks
-Description: Pin screenshots on the screen.
-Author: Jonathan Winger-lang
-Name: Snapper 3
-
 Package: com.lclrc.hammerit
 Version: 1.2.7
 Architecture: iphoneos-arm64
@@ -924,24 +785,6 @@ Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/AFakerXI.html
 Name: AFakerXI-Rootless
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/AFakerXIsileo
-
-Package: com.lenglengyu.autobrightcc-rootless
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 104
-Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: debs/rootless/autobrightcc-rootless.deb
-Size: 12452
-MD5sum: de9939c2df557f6f39cb58044799a055
-SHA1: f3b9090dbca42eb04a6771e026f4128b4a56e56c
-SHA256: 300042de7138b3b98b7823e80d805c704c19b120858d1db3a4478babf56f1913
-Section: Control Center (Modules)
-Description: 控制中心启用/禁用自动亮度。
-Author: lenglengyu
-Depiction: https://repo.lenglengyu.top/packageInfo/autobrightcc.html
-Name: AutoBrightCC-Rootless
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/autobrightccsileo
 
 Package: com.live4iphonerel
 Version: 1.0
@@ -1026,29 +869,6 @@ Author: Misaka Project
 Icon: https://cdn.discordapp.com/attachments/1114977950245322865/1127915035776274522/icon3x.png
 Name: Macaron
 
-Package: com.mostafa89.soundy
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 459
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.11)
-Filename: debs/rootless/Soundy_1.0汉化版@M哥.deb
-Size: 77456
-MD5sum: 289b3e6e31511a01431c7a47d9a37ebb
-SHA1: 7486683b59dd471c4446a00340ab6e0a277c829e
-SHA256: b496a8810cb4ea94c1605de0d73ec0b453a3ff8f2bb17b416489ab57a6f81955
-Section: Tweaks
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=soundyDp
-Description: Change System Sounds!
-Tag: purpose::extension
-Author: mostafa89 <m_r19891989@yahoo.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=soundyDp
-Dev: mostafa89
-Icon: file:///var/jb/Library/PreferenceBundles/Soundy.bundle/icon@2x.png
-Name: Soundy
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Package: com.mtac.ampere
 Version: 1.4
 Architecture: iphoneos-arm64
@@ -1114,23 +934,6 @@ Author: zhaonan
 Icon: https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/com.opa334.choicy/image.png
 Name: zh-Hans for Choicy
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/com.opa334.choicy/js.json
-
-Package: com.nan.enableccmutemodule
-Version: 0.2.0
-Architecture: iphoneos-arm64
-Maintainer: zhaonan
-Depends: firmware (>> 11.0)
-Filename: debs/rootless/EnableCCMuteModule.0.2.0.deb
-Size: 1184
-MD5sum: af481bc6e51f088fcbf598af2bb90773
-SHA1: 18315ebe07dabdc5d2a54ac2279f76d00c306868
-SHA256: 7c54568c23b86a029410b29c908a3409052ba9b3ea408d540369a565e3021526
-Section: System
-Description: 激活原生 iPhone 控制中心静音模块
-Author: zhaonan <invalidunit@icloud.com>
-Icon: https://invalidunit.github.io/sileodepiction/com.nan.enableccmutemodule/image.png
-Name: Enable CC MuteModule
-Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.enableccmutemodule/js.json
 
 Package: com.news
 Version: 1.0
@@ -1527,24 +1330,6 @@ Description: 状态栏隐藏（热点横幅、闹钟、蓝牙、热点、vpn、�
 Author: M哥
 Name: 状态栏优化-rootless
 
-Package: com.sugiuta.fallen
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: sugiuta
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: debs/rootless/fallen_1.0.0.deb
-Size: 6634
-MD5sum: 1bcac49e68f6f243e0f91588310c5fc8
-SHA1: 472b044e50154b887a5c79915fdd6a2d905a2dc2
-SHA256: 26122c6187103bd203eb87fdf31008e6499fa51fd10108af099804556b00b231
-Section: Tweaks
-Description: May lower the temperature of your device for iOS 15.
-Author: sugiuta
-Depiction: https://sugiuta.github.io/descriptions/index.html?p=com.sugiuta.fallen
-Icon: https://sugiuta.github.io/repo/images/icons/fallen.png
-Name: Fallen
-
 Package: com.switchbackground
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -1667,25 +1452,6 @@ Icon: https://repo.shorty.systems/icons/com.wilsonthewolf.eliza.png
 Name: Eliza
 Sileodepiction: https://repo.shorty.systems/depictions/sileo/com.wilsonthewolf.eliza
 
-Package: com.wilsonthewolf.unlocker
-Version: 0.0.3
-Architecture: iphoneos-arm64
-Maintainer: WilsontheWolf
-Installed-Size: 364
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), com.opa334.ccsupport
-Filename: debs/rootless/unlocker_0.0.3汉化版 by M哥.deb
-Size: 11524
-MD5sum: a8100605c469cafca1935ba494dc98ff
-SHA1: fbcf20c820f5c80bc58aa015148e8ece5020997f
-SHA256: 098a8e5b7ccaaabe21f2414e3da19e3bcf56cb872df544abb2a0d8afa0e94653
-Section: Tweaks
-Description: Keep your device unlocked.
-Author: WilsontheWolf
-Depiction: https://repo.shorty.systems/depictions/web/com.wilsonthewolf.unlocker
-Icon: https://repo.shorty.systems/icons/com.wilsonthewolf.unlocker.png
-Name: Unlocker
-Sileodepiction: https://repo.shorty.systems/depictions/sileo/com.wilsonthewolf.unlocker
-
 Package: com.wwg135.flex3beta11
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -1754,22 +1520,6 @@ Description: Organization Done Right
 Author: Muirey03
 Icon: https://repo.packix.com/api/Packages/5c0014acb4bc37001219896c/icon/download?size=medium&hash=5ccc6aaa945bff00112b8f4c
 Name: Zenith (iOS 15)
-
-Package: com.xx.dyhook
-Version: 1.1.4
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 908
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/rootless/com.xx.dyhook_1.1.4_iphoneos-arm64.deb
-Size: 247972
-MD5sum: 0e87471489c70484057116e67ac193b0
-SHA1: 117a58c840b9228dad6a5b869116ab94e5e52f90
-SHA256: 372632a8bcb7ce7a8c5323d4497bb42cfebef25e9953092a4876d6c5b9bddba0
-Section: Tweaks
-Description: 自用 首页视频界面双指双击弹出设置UI-或在"我-右上角打开" && 本人刚学一点 有问题请大佬多指教
-Author: x✨
-Name: 抖音图层一些调整-rootless
 
 Package: com.xx.dyhook
 Version: 1.1.5
@@ -1887,44 +1637,6 @@ Description: 锁屏，隐藏"没有更早的通知"提示
 Author: M哥
 Name: 隐藏"没有更早的通知"-rootless
 
-Package: com.yourepo.cydiageek.uispeed
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: CydiaGeek <lucaluca86@aol.com>
-Depends: mobilesubstrate
-Filename: debs/rootless/UIspeed_1.0.3汉化版@M哥.deb
-Size: 28040
-MD5sum: f5c98493074b74d46126bfb66333b47e
-SHA1: 88ac3092d1d071f33c4be6c2ea84c23c3f4bd131
-SHA256: 959a84535ff83ad21a867efa944e8e94e58da4c6cdd7aea1c2dacb6b4a7269c2
-Section: Tweaks
-Description: Make Faster the UI Animations of the Device!
-Author: CydiaGeek <lucaluca86@aol.com>
-Name: UISpeed
-
-Package: cydia
-Version: 1.1.37-3
-Architecture: iphoneos-arm64
-Maintainer: Genesis <genesis@modiverse.co.uk>
-Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=15.0)
-Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, ellekit
-Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Filename: debs/rootless/cydia_1.1.37-3_iphoneos-arm64.deb
-Size: 1234456
-MD5sum: 92a5bd48083927bcc57a218079aa77a9
-SHA1: 2d7bde4c0735edf84e440a7748c3f2bd4f19c592
-SHA256: 45d3578fa423eee4cd710de7e9397a807c6d4ebc5c8c6887585835fb90c5c2d1
-Section: Packaging
-Priority: important
-Description: graphical iPhone front-end for APT.
-Tag: purpose::uikit, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: https://repo.ironside.org.uk/cydia-exp/
-Icon: http://cydia.saurik.com/icon@2x/cydia7.png
-Name: Cydia Installer [Experimental]
-
 Package: eg.anubistweaks.phoneenhancer15
 Version: 1.6.5
 Architecture: iphoneos-arm64
@@ -1982,24 +1694,6 @@ Section: rootless修复插件
 Description: Only effective for third-party applications, the patch list can be parsed and displayed.。If the parsed application crashes or freezes,choicy tweak select only the injection of flex3, and then enable other injections after parsing，The xina2 version is only recommended for 2.0.18 or above, and update 1.0.2 separately.只对第三方应用生效，可解析，可显示补丁列表。若解析的应用闪退或者卡屏，用choicy只准flex3的注入，解析后再开启别的注入。xina2版本只建议2.0.18或以上用，不然别更新1.0.2。
 Author: John Coates 来了老弟
 Name: Flex3 Beta程序修改器-xina2
-
-Package: jdnoad
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/rootless/京东去广告.deb
-Size: 3496
-MD5sum: c6d6b60b62414e671e7fa0c1bd551c9d
-SHA1: 736a4df692035d1132134167920640bc3a24eaf3
-SHA256: ed579af3690af5c4aae3a72a20952ca8f7e5422cd72137df59499aec8eb4f3fe
-Section: 去广告插件
-Description: 去除启动广告、去除个人主页底部推荐、精简搜索栏、屏蔽升级弹窗
-Author: M哥
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: 京东去广告-Rootless
-Sponsor: M哥
 
 Package: jp.akusio.milkyway4
 Version: 0.1.1
@@ -2156,24 +1850,6 @@ Description: FLEXList is a wrapper tool for FLEX Tool
 Author: Netskao
 Name: FLEXList-Rootless
 
-Package: netskao.iqiyinoads
-Version: 1.2-1
-Architecture: iphoneos-arm64
-Maintainer: 搬运工
-Installed-Size: 356
-Depends: firmware (>= 9.0), mobilesubstrate
-Filename: debs/rootless/爱奇艺去广告.deb
-Size: 82500
-MD5sum: fa72586049a1fa9cb658ffd37585538d
-SHA1: 4b8380bd8047b4d2d94e91a5a31ec1576bd0b658
-SHA256: 62ed6b45875705ee3b72911ed4410e544a13d82c2ea7dd936357e2f6efd9556a
-Section: 软件破解
-Description: 爱奇艺去启动广告，去除首页顶部横幅中插入的广告，去除视频信息流中广告，去除播放页面下方推荐视频中的广告，去除播放前广告，去除播放时水印，去除播放时右侧推荐视频，去除历史播放顶部广告，去除我的页面收藏内和下载内底部推荐视频，去除我的页面公益和限时问卷和免流量服务和我的微服务和创作中心选项，去除底部随刻视频和发现按钮等
-Author: Netskao
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: 爱奇艺 去广告-Rootless
-Sponsor: 搬运工
-
 Package: netskao.pulloverpro
 Version: 2.1.2-7
 Architecture: iphoneos-arm64
@@ -2222,27 +1898,6 @@ Section: Netskao-Tweaks
 Description: Display Notification Avatars for WeChat App using iOS15 APIs
 Author: Netskao
 Name: WeChatNotiAvatar-rootless
-
-Package: netskao.wechatpurification
-Version: 2.2-3
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 2013
-Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
-Filename: debs/rootless/微信净化2.2-3.deb
-Size: 559470
-MD5sum: e4d287a9e47cf1a8b94a0495ce6f7ae5
-SHA1: 08e4ae71f04dbb3e468f075d50ee144fac47cc8b
-SHA256: 6a742ac4ef192c475c892e205c34c4f7da41be97726b790231def2ff780d6146
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
-Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.18及以上版本，设置位于微信-设置
-Tag: purpose::extension
-Author: Netskao <admin@initnil.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
-Dev: netskao
-Name: 微信净化
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: org.coolstar.sileo
 Version: 2.5
@@ -2294,31 +1949,6 @@ Section: Tweaks
 Description: 在锁屏自定义有用的信息
 Author: M哥
 Name: Sakal
-
-Package: sezo.datamanager
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 29542
-Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.libsandy
-Filename: debs/rootless/datamanager_1.0.7_iphoneos-arm64.deb
-Size: 6439548
-MD5sum: cc29174456ba921fd5da829ed35d4ecc
-SHA1: 74bbea926e8a4f4463e3aad32cadedabb0cec68a
-SHA256: dd7167211ce14ddc8cc5f845d7ad87f01ce4300aebb08f77a0fa7ffdf2b20052
-Section: Tweaks
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=datamanagerDp
-Description: Backup & restore apps data without PC
-Tag: purpose::extension
-Author: Sezo <support@sezo.app>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=datamanagerDp
-Dev: sezo
-Icon: https://sezo.app/assets/sezo.datamanager/icon.png
-Moderndepiction: https://sezo.app/depiction/native/sezo.datamanager.json
-Name: Data Manager
-Sileodepiction: https://sezo.app/depiction/native/sezo.datamanager.json
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: sezo.nyx
 Version: 1.1.6
@@ -2524,21 +2154,4 @@ Description: 这是一个极致的电池监控、保存和调整工具。它是�
 Author: elias
 Icon: https://media.havoc.app/6380e31f7246bed7c12ae8e4
 Name: SmartBattery iOS 15 - 16
-
-Package: youkunoad.rootless
-Version: 1.8.0
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/rootless/优酷去广告.deb
-Size: 3592
-MD5sum: 27c1da0c7c5d80aaea7780776ca566f3
-SHA1: 50c67fb78243ee2cd4abb290941d30f887de4768
-SHA256: a9bb4d5f4d744327e72c48e4944c8ed5b4ffabdcae483b973c57007b61b3966d
-Section: 去广告插件
-Description: 去除广告、屏蔽青少年弹窗
-Author: M哥
-Name: 优酷去广告-Rootless
-Sponsor: M哥
 
