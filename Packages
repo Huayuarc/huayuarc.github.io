@@ -2378,6 +2378,23 @@ Name: Satella
 Sileodepiction: https://paisseon.github.io/depictions/Satella.json
 
 Package: flex3beta11
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X :h_h_x_t
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, com.abcydia.flex3
+Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog
+Filename: debs/rootless/Flex3Beta程序修改器-xina2.1.0.1.deb
+Size: 15187576
+MD5sum: 51d80ce8f3a35abb0bd542cdc3afad12
+SHA1: 8d8d5ae30c15e4efbaebb3238509fb366d143ca3
+SHA256: 7c3808b96f23451af00eb10d76c4151e65c6810726c4c9b61d27ba6e84035016
+Section: rootless修复插件
+Description: Before use, please copy the application bundle that needs to be parsed to/var/jb/usr/lib/TweakInject/Flex.plist and fill it in. Warning: System patches are not supported, do not fill in com.apple.UIKit or com.apple.springboard。Only effective for third-party applications, the patch list can be parsed and displayed.。使用前请把需要解析的应用bundle拷贝到/var/jb/usr/lib/TweakInject/Flex.plist中填入，警告：不支持系统补丁，不要填入com.apple.UIKit或com.apple.springboard等，只对第三方应用生效，可解析，可显示补丁列表。
+Author: John Coates 来了老弟
+Name: Flex3 Beta程序修改器-xina2
+
+Package: flex3beta11
 Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟 X :h_h_x_t
