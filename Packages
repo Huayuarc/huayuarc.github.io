@@ -84,22 +84,6 @@ Description: iOS自带键盘自定义。全选,复制,粘贴,选择,撤销，重
 Author: qwertyuiop1379 laileld
 Name: SwipeExtenderX键盘增强
 
-Package: cn.llld.dhjj
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 h_h_x_t
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/rootless/电话精简收藏和语音留言-rootless.1.0.deb
-Size: 4260
-MD5sum: 3a3e752a3e745a4eca4754f2b1cf41a8
-SHA1: 5a4e060c52f383d4166405d3662713967f1692b2
-SHA256: 969d4de3e339112f6f0a4ea96aea5c28ba28205639068492b94869add7105287
-Section: rootless插件
-Description: Telephone streamlining personal collection and voice messages。电话精简个人收藏和语音留言
-Author: 来了老弟 h_h_x_t
-Name: 电话精简收藏和语音留言-rootless
-
 Package: cn.llld.flex3beta
 Version: 1:3~Beta99.1
 Architecture: iphoneos-arm64
@@ -147,22 +131,6 @@ Description: This is just the Chinese version of "ftt", the English version in�
 Author: iPadKid358 Randy420
 Name: ftt中文版-rootless
 
-Package: cn.llld.hidejb
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 h_h_x_t
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/rootless/隐藏桌面角标-rootless.1.0.deb
-Size: 3544
-MD5sum: a613bc3c978b1ed8ac9ff494b5506113
-SHA1: d171a27f8f419a366f9fa3a7beba85b115ced469
-SHA256: 141bce6f97bd3534061d0743ee441b963760b23d7976831f14cd018c95b5ecd7
-Section: rootless隐藏专区
-Description: Hide IconBadge。隐藏桌面角标(消息提示)-rootless
-Author: 来了老弟 h_h_x_t
-Name: 隐藏桌面角标-rootless
-
 Package: cn.llld.minivx
 Version: 1.01
 Architecture: iphoneos-arm64
@@ -178,21 +146,6 @@ Section: rootless微信插件
 Description: 微信简洁辅助(抢红包，防撤回)-roootless
 Author: 来了老弟
 Name: 微信辅助(微生物)-rootless
-
-Package: cn.llld.wechatautolock
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 h_h_x_t
-Depends: mobilesubstrate
-Filename: debs/rootless/WX跟随系统锁屏-rootless.1.0.deb
-Size: 4340
-MD5sum: 9b96ac55aec1dfd110aa8cfd64bda647
-SHA1: e5fd6143ab22dca49e41d8275ad4884d95b1fdf8
-SHA256: ca1ff7056433c5a285564dae294a917a4e3648d46faee5282a5ec8eb22802341
-Section: rootless-wx插件
-Description: 允许WX在聊天界面时跟随系统自动锁屏,wx默认是5分钟的
-Author: iBreak
-Name: WX跟随系统锁屏-rootless
 
 Package: com.ali.aimpro
 Version: 1.0.5
@@ -917,24 +870,6 @@ Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Author: MTAC
 Name: Lynx 2
 
-Package: com.nan.choicy.zh-hans
-Version: 0.1.1
-Architecture: iphoneos-arm64
-Maintainer: zhaonan
-Depends: com.opa334.choicy
-Replaces: com.opa334.choicy
-Filename: debs/rootless/zh-HansforChoicy.0.1.1.deb
-Size: 3584
-MD5sum: f8fd32d9d7c04e037089cd8561ad6f0e
-SHA1: d4d2bf6e6a5dcf6dfbebb5dc901288961bf46530
-SHA256: 53fcb2f05e96e6410158db4a20389f4a091501878cee2ae7a1c8602506d2c1f8
-Section: Localization
-Description: 为 Choicy 提供简体中文
-Author: zhaonan
-Icon: https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/com.opa334.choicy/image.png
-Name: zh-Hans for Choicy
-Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.zh-hans/com.opa334.choicy/js.json
-
 Package: com.news
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1016,73 +951,6 @@ Description: 通知中心左滑清除右滑打开、隐藏通知中心上/下分
 Author: M哥
 Name: 通知中心-rootless
 
-Package: com.opa334.altlist
-Version: 1.0.10
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 256
-Depends: firmware (>= 7.0)
-Filename: debs/rootless/com.opa334.altlist_1.0.10_iphoneos-arm64.deb
-Size: 27940
-MD5sum: 5038cebb1e8c4dbc6a1af9d639ff5a60
-SHA1: 67b712b4a1572bb6c1f614348822a9b15e09f2cc
-SHA256: 0c9d2945380c7f0f4418bf6b59fde7a7ba3a57a31e3bf496b78ecac7836fa476
-Section: Development
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
-Description: A modern AppList alternative
-Tag: purpose::library
-Author: opa334 <opa334@protonmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
-Dev: opa334
-Name: AltList-rootless
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.opa334.ccsupport
-Version: 1.3.12
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 480
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: com.ioscreatix.silo
-Replaces: com.ioscreatix.silo
-Provides: com.ioscreatix.silo
-Filename: debs/rootless/com.opa334.ccsupport_1.3.12_iphoneos-arm64.deb
-Size: 56444
-MD5sum: 77e2fd81579fa7724c5e2f0c74722752
-SHA1: fd47495bc5c14c4c2d5c636ab76ca5f379b7de15
-SHA256: df9978ca6e337291ff34812e5f6b0dbb90c03b9dde0475bf344ae71e3b11824f
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
-Description: Support tweak for CC modules!
-Tag: purpose::extension
-Author: opa334 <opa334@protonmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
-Dev: opa334
-Name: CCSupport-rootless
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.opa334.choicy
-Version: 1.4.10-3
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 814
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
-Filename: debs/rootless/com.opa334.choicy_1.4.10-3_iphoneos-arm64.deb
-Size: 104956
-MD5sum: 2e951b07f1461374d1fe2c83b86b32eb
-SHA1: d016c8443d29f518cd0f1450ae0f627a92a3a72a
-SHA256: 9657cfffa6b3bb23ba36c3e8c3367ec54aa259a9f364448f6fa95c858d303f58
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
-Description: Advanced Tweak Configuration!
-Tag: purpose::extension
-Author: opa334 <opa334@protonmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
-Dev: opa334
-Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
-Name: Choicy-rootless
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Package: com.opa334.trollstorehelper
 Version: 2.0.8
 Architecture: iphoneos-arm64
@@ -1097,25 +965,6 @@ Section: Applications
 Description: Helper utility to install and manage TrollStore!
 Author: opa334
 Name: TrollStore Helper
-
-Package: com.p2kdev.autofillfix
-Version: 0.1
-Architecture: iphoneos-arm64
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 136
-Depends: mobilesubstrate
-Filename: debs/rootless/AutoFillFix.0.1.deb
-Size: 3092
-MD5sum: 0568f30b9a6cd6bc78d2796aed9065b1
-SHA1: f914755946bc008d3d6d45f81302943afba516ae
-SHA256: c07ff13f1218d0f7ad2256ea4789c81d64935e431c9e57534bc9de7e56290d96
-Section: Tweaks
-Description: Fix for autofill not working after restarting backboard or sbreload
-Author: P2KDev <p2kdev@gmail.com>
-Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.autofillfix
-Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.autofillfix/icon.png
-Name: AutoFillFix
-Sileodepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.autofillfix.json
 
 Package: com.pantsthief.flexing
 Version: 1.5.0
@@ -1730,24 +1579,6 @@ Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
 Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
 Name: Zetsu(Rootless)
 Sileodepiction: https://dcsyhi1998.github.io/Sileodepiction/Zetsu.json
-
-Package: keyboard
-Version: 1.9
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Depends: firmware, mobilesubstrate
-Filename: debs/rootless/keyboard_1.9.deb
-Size: 7440
-MD5sum: 70f648e2e85eaf244d89147867088a8a
-SHA1: b25570678cb04e12865eb383ccc94e821ee52eab
-SHA256: cb691eabb1f23299c4906292da9a8730e65e1adcb2bc7d28bfe792751b70f3d9
-Section: 系统增强
-Priority: optional
-Description: 强制使用第三方键盘、去除键盘延迟
-Author: M哥
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: keyboard-Rootless
-Sponsor: M哥
 
 Package: latchkey
 Version: 2.3.1
