@@ -100,25 +100,6 @@ Description: iOS自带键盘自定义。全选,复制,粘贴,选择,撤销，重
 Author: qwertyuiop1379 laileld
 Name: SwipeExtenderX键盘增强
 
-Package: byg.iosios.net.Flex3beta11
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: 搬运工
-Depends: mobilesubstrate, firmware (>= 9.0)
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, com.abcydia.Flex3
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
-Filename: debs/rootless/1272.deb
-Size: 20963544
-MD5sum: 1a18ec51a499da896041a2b03922a595
-SHA1: f0d5f3edabbab23536cad19f79b221c23c952453
-SHA256: 39048b5d3bf03f582a736f34b27f19481ef9078315ff34359086e0a58a1e0d71
-Section: 系统增强
-Description: 来了老弟修复！Before use, please copy the application bundle that needs to be parsed to/var/jb/usr/lib/TweakInject/Flex.plist and fill it in. Warning: System patches are not supported, do not fill in com.apple.UIKit or com.apple.springboard。Only effective for third-party applications, the patch list can be parsed and displayed.。使用前请把需要解析的应用bundle拷贝到/var/jb/usr/lib/TweakInject/Flex.plist中填入，警告：不支持系统补丁，不要填入com.apple.UIKit或com.apple.springboard等，只对第三方应用生效，可解析，可显示补丁列表。
-Author: John Coates
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: Flex3 Beta程序修改器（Xina）-Rootless
-Sponsor: 搬运工
-
 Package: cn.llld.copy1
 Version: 1.4.1
 Architecture: iphoneos-arm64
