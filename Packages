@@ -1884,14 +1884,14 @@ Depends: mobilesubstrate, firmware (>= 9.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, com.abcydia.Flex3
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
 Filename: debs/rootless/com.wwg135.flex3beta11_1.0.1_iphoneos-arm64.deb
-Size: 15188988
-MD5sum: a6eaccd259103b7d5c79becb6c69d16b
-SHA1: 020b64f33fd253ca1ac9fe781e104277ae9c0eff
-SHA256: d0d7c93426e8b3cf36562387ff44f733eb7b2c1cf837e82e1f3e08a69482ac0b
+Size: 15190200
+MD5sum: dd38e63db97650b1626e0ec4f4228a92
+SHA1: 7076c2644c8ba9c24250a3c99db0bd459c91eeb7
+SHA256: 3d3938391d3d47e98cbfd437d1536dcef35519d7ba2c20b7e9863a57857ca3c0
 Section: rootless修复插件
 Description: Before use, please copy the application bundle that needs to be parsed to/var/jb/usr/lib/TweakInject/Flex.plist and fill it in. Warning: System patches are not supported, do not fill in com.apple.UIKit or com.apple.springboard。Only effective for third-party applications, the patch list can be parsed and displayed.。使用前请把需要解析的应用bundle拷贝到/var/jb/usr/lib/TweakInject/Flex.plist中填入，警告：不支持系统补丁，不要填入com.apple.UIKit或com.apple.springboard等，只对第三方应用生效，可解析，可显示补丁列表。
 Author: John Coates 来了老弟
-Name: Flex3 Beta程序修改器-Xina2（1.0.1）
+Name: Flex3 Beta程序修改器-Xina2
 
 Package: com.wwg135.intelligentpass5
 Version: 1.0.2
