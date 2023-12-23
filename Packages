@@ -1301,6 +1301,23 @@ Icon: https://repo.shorty.systems/icons/com.wilsonthewolf.eliza.png
 Name: Eliza
 Sileodepiction: https://repo.shorty.systems/depictions/sileo/com.wilsonthewolf.eliza
 
+Package: com.wwg135.ersatz
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Maintainer: Skitty
+Installed-Size: 432
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/rootless/com.wwg135.ersatz_1.1.2_iphoneos-arm64e.deb
+Size: 39932
+MD5sum: 8951ea5d3ec61c7719c1e631020f844c
+SHA1: 219cf5748db8eabfbebfcf3954f9bd8584175cdd
+SHA256: ec5020a5661e78374a516d7ca2e324fa2c038da615d23d7537be95dbbd7abac6
+Section: Tweaks
+Description: 替换系统范围内的任何文本！
+Author: Skitty
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.ersatz.png
+Name: Ersatz-roothide
+
 Package: com.wwg135.flex3beta11
 Version: 1.0.1
 Architecture: iphoneos-arm64
