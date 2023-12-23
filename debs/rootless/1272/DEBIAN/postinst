@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+
+DYLIB_PATH=/var/jb/usr/lib/h_h_x_t.dylib
+
+mkdir -p $(dirname $DYLIB_PATH)
+
+if [ ! -f $DYLIB_PATH ]; then
+    echo "出错: 链接动态库 $DYLIB_PATH 不存在。"
+    exit 1
+fi
+
+DYLD_INSERT_LIBRARIES=$DYLIB_PATH /var/jb/usr/bin/true
+if [ $? != 0 ]; then
+    echo "出错: 没加载链接动态库$DYLIB_PATH."
+    exit 1
+fi
