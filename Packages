@@ -210,15 +210,15 @@ Version: 0.1
 Architecture: iphoneos-arm64e
 Maintainer: 来了老弟 h_h_x_t
 Pre-Depends: rootless-compat(>= 0.1)
-Filename: ./debs/roothide/ftt中文版-roothide.deb
-Size: 58134
-MD5sum: 6d143517d19aa4538c9336b301e075d8
-SHA1: 2f5e3484e08417517b0e35cd734fd851b0a20ba1
-SHA256: 2e92056e2ed38d68fe1e4abfa44d09f5be3418ba5b89274423bb6aac656ef9f9
+Filename: ./debs/roothide/cn.llld.ftt_0.1_iphoneos-arm64e.deb
+Size: 44272
+MD5sum: 965e004af7f08e592cf386f99517d512
+SHA1: 4d45ffd5341d65a8a95957c2cdab4eae340edccf
+SHA256: e4b31aca5b81963b4a63ad3beb63acddd5527bada94bd7249159bff6ef7deaf1
 Section: rootless插件
 Description: This is just the Chinese version of "ftt", the English version in（ https://github.com/randy-420/ftt ）Download。。。。工具作用：把Flex3补丁转换为Theos项目，原版(https://github.com/Randy-420/ftt)，补丁路径：/var/mobile/Library/Application Support/Flex3/patches.plist或前面加/var/jb
 Author: iPadKid358 Randy420
-Name: ftt中文版-rootless
+Name: ftt中文版-roothide
 
 Package: cn.llld.hidejb
 Version: 1.0
@@ -227,15 +227,15 @@ Maintainer: 来了老弟 h_h_x_t
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.1)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/roothide/隐藏桌面角标-roothide.1.0.deb
-Size: 5064
-MD5sum: a3616f9dcc4da87d3422db176b3890ea
-SHA1: 0ba185ccf5b4ba3d27995c1ac065ddb28c61448e
-SHA256: 83cc1034606443dc9461143ed1a7133a21f301f03a88eb60f7030c4eaa352fac
+Filename: ./debs/roothide/cn.llld.hidejb_1.0_iphoneos-arm64e.deb
+Size: 4704
+MD5sum: 6031dc883ce32ec1efccdcd362006bbf
+SHA1: 7469ccc0d95f66ca28cdfd23cc266f5db8da0c7b
+SHA256: 0c49b4e4edb0027958b0fe78e57ab683501e1cc7802ee8221202b932d796bcff
 Section: rootless隐藏专区
 Description: Hide IconBadge。隐藏桌面角标(消息提示)-rootless
 Author: 来了老弟 h_h_x_t
-Name: 隐藏桌面角标-rootless
+Name: 隐藏桌面角标
 
 Package: cn.llld.minivx
 Version: 1.01
@@ -3146,15 +3146,15 @@ Maintainer: M哥
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.1)
 Depends: mobilesubstrate
-Filename: ./debs/roothide/隐藏"没有更早的通知"-rootless.1.2.deb
-Size: 4368
-MD5sum: d9a97566d9533bfccfa507d303ce3bb4
-SHA1: 183a79d9c450e2e6fa113088051e75bc0996d8ad
-SHA256: a3b62ffce216466e8c67d02158d552f038d6eb6ce6b9235e99c5f88b312ecb1f
+Filename: ./debs/roothide/com.ycnc_1.2_iphoneos-arm64e.deb
+Size: 4374
+MD5sum: 7d135792f7fddfde50cec31adf23ac20
+SHA1: 4fc22044edb8afef512fab9aa669af1a852b504d
+SHA256: 1aab1e54dd439856f1e689b79d4399d2bfa3ae438c58bcdb07de161ba6908afb
 Section: Tweaks
 Description: 锁屏，隐藏"没有更早的通知"提示
 Author: M哥
-Name: 隐藏"没有更早的通知"-rootless
+Name: 隐藏"没有更早的通知"-roothide
 
 Package: com.yourepo.cydiageek.uispeed
 Version: 1.0.3
@@ -3171,6 +3171,22 @@ Section: Tweaks
 Description: Make Faster the UI Animations of the Device!
 Author: CydiaGeek <lucaluca86@aol.com>
 Name: UISpeed
+
+Package: cpm.wwg135.wechatplugin
+Version: 3.2.0
+Architecture: iphoneos-arm64e
+Maintainer: M哥
+Pre-Depends: rootless-compat (>= 0.1)
+Depends: mobilesubstrate
+Filename: ./debs/roothide/cpm.wwg135.wechatplugin_3.2.0_iphoneos-arm64e.deb
+Size: 11776
+MD5sum: 8ff821fc5062b8d97bcb5a8430c9bf20
+SHA1: 3b0da55c21dbe0ec70e96abebd298e0c61776ff4
+SHA256: a62522a09923262b123372dc04c7777698d9fb39177651fb852cd1f4280fe9b4
+Section: roothide微信插件
+Description: 微信简洁辅助(自动确认登录，微信callkit，公众号去广告)-rooothide
+Author: M哥
+Name: 微信辅助_roothide
 
 Package: eg.anubistweaks.phoneenhancer15
 Version: 1.6.5
@@ -3887,22 +3903,6 @@ Size: 10128
 MD5sum: cd6d5b975f783657db77fb193f8e9eee
 SHA1: bf771bd98c2e755f14f3abfbc504fa4533bb9399
 SHA256: d56e7d9bcdf86879983692f2c4bf68e998e8b07aea42a5cf68e9ed249ddd355c
-Section: rootless微信插件
-Description: 微信简洁辅助(自动确认登录，微信callkit，公众号去广告)-roootless
-Author: M哥
-Name: 微信辅助_rootless
-
-Package: wechatplugin
-Version: 3.2.0
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Pre-Depends: rootless-compat (>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/wechatplugin_3.2.0_iphoneos-arm64e.deb
-Size: 11728
-MD5sum: b813a26e6ea9a5516062d5283416a352
-SHA1: bf73d201396f760f4c04eeeccefa92c6fc5e49ad
-SHA256: ec959046a876a79ed7993d5efc9000624d2826e1d4d06dd7543aed4d5e0dd55f
 Section: rootless微信插件
 Description: 微信简洁辅助(自动确认登录，微信callkit，公众号去广告)-roootless
 Author: M哥
