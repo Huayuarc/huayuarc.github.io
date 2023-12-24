@@ -1,22 +1,3 @@
-Package: Flex3beta
-Version: 1:4
-Architecture: iphoneos-arm64e
-Maintainer: 来了老弟 h_h_x_t
-Depends: mobilesubstrate, firmware (>= 9.0)
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, com.abcydia.Flex3
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
-Filename: ./debs/roothide/flex3beta_1%3a4_iphoneos-arm64e.deb
-Size: 12318956
-MD5sum: 67f40f7e97dd16bcd577dcf2dc840adc
-SHA1: 327eeeeb781761007e32c4e9ac8016a8c6bf8692
-SHA256: 3ec4090214154b0728190867e84ad9d72b217d4458049fd1cddb0c814014fcac
-Section: roothide修复插件
-Description: Remove application advertisements, crack members, and modify the application's powerful patch system. The cloud, search, and parsing application functions are all normal (if there are unsupported apps, please check your tweak injection or downgrade apps). System applications do not take effect. Turn off bold fonts. 去除应用广告，破解会员，修改应用的强大补丁系统，云端，搜索，解析应用功能均正常(若有不支持的app，请检查你的调整注入或降级程序)，系统应用不生效，关闭粗体文本使用，Flex3程序修改器-roothide
-Author: John Coates
-Name: Flex3 Beta程序修改器-roothide
-Sileodepiction: https://laileld.github.io/repo/sileodepiction/Flex3beta/js_Flex3beta.json
-Sponsor: 来了老弟  x: h_h_x_t
-
 Package: SwipeUnLock.rootless
 Version: 1.0.3
 Architecture: iphoneos-arm64
@@ -134,13 +115,13 @@ Version: 1.3~Beta98
 Architecture: iphoneos-arm64e
 Maintainer: 来了老弟
 Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), oldabi
-Filename: ./debs/roothide/apt.llld.flex3beta_1.3~Beta98_iphoneos-arm64e.deb
-Size: 40452924
-MD5sum: 7bba9a4f453c8d88687e9b2f256b4270
-SHA1: cd17db99de747f8f9a75dc802225dba1146b8d24
-SHA256: ab7341b46bfe17a591c44ba53882d7696ceb038bec9034aec89acff450c3e104
+Filename: ./debs/roothide/apt.llld.Flex3beta_1.3~Beta98_iphoneos-arm64e.deb
+Size: 40200304
+MD5sum: 5830a461a9f6b83cc88b894b2d66606f
+SHA1: a378b10a0bdf7d54b6ec4c98f6fa16750e585e4f
+SHA256: ca9f7ebb7f506229c80311e495068dfa3a0e39f6c23a41de64e496570561a951
 Section: roothide修复插件
-Description: A powerful app to remove ads and enhance system patches.一款强大的App去广告和系统补丁增强神器，需要安装Legacy arm64e Support_________仅测试用,有问题卸载
+Description: 感谢来了老弟修复支持roothide。A powerful app to remove ads and enhance system patches.一款强大的App去广告和系统补丁增强神器，需要安装Legacy arm64e Support_________仅测试用,有问题卸载
 Author: John Coates
 Name: Flex3程序修改器-roothide
 
@@ -1900,23 +1881,6 @@ Section: Tweaks
 Description: 今日头条去广告
 Author: M哥
 Name: 今日头条NoAd-rootless
-
-Package: com.news
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 88
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/今日头条NoAd.1.0.deb
-Size: 6312
-MD5sum: 354271234eb4bda9846048091456465d
-SHA1: 45ba8c170c471992d5a2e1914ee44d082d515d6d
-SHA256: cb3e1b2bcef1e7d329983b04e54a6be404a0166d24299e7bc03f7b3fa881e20b
-Section: Tweaks
-Description: 今日头条去广告
-Author: M哥
-Name: 今日头条NoAd
 
 Package: com.nicho1asdev.bigsurcenter
 Version: 1.4.3
