@@ -2986,6 +2986,39 @@ Author: x✨
 Name: 抖音图层一些调整
 Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
 
+Package: com.xx.jrtthook
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 580
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootless/今日头条_1.0.1_无根.deb
+Size: 162496
+MD5sum: 5ed339a661a75ca22e037f3e10e36e75
+SHA1: b3f9045fd130ee4f7d54a58d69837b03bf2c36ae
+SHA256: c5590f6b6b1edfa63b27b0ad604270e34e9e0ef062528d29fa6718c435443852
+Section: Tweaks
+Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项 -- 支持pro版 -- 1.0.1 new:精选页悬浮促销移除,视频推荐页右上角@水印移除
+Author: x✨
+Name: 今日头条Hook
+
+Package: com.xx.jrtthook
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: x✨
+Installed-Size: 580
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/roothide/今日头条_1.0.1.deb
+Size: 211690
+MD5sum: 6499fdfcdb4a2d314f59a54306cadd87
+SHA1: 0a6a4f6666f7f02bf7d58777dd209695c4df495a
+SHA256: ebf4f7f4ebf8fb778157ffc36d980a9909ff75a95e7fc59c406fb21a206e1da9
+Section: Tweaks
+Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项 -- 支持pro版 -- 1.0.1 new:精选页悬浮促销移除,视频推荐页右上角@水印移除
+Author: x✨
+Name: 今日头条Hook
+
 Package: com.xx.xhshook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -3016,6 +3049,39 @@ SHA1: b4977d7a501f0ad848106398e7baa65975575301
 SHA256: 92b0c853c5380ca778624d2cf069e49d97f2280ab4b51151875e6ba2a5642bf0
 Section: Tweaks
 Description: 朋友需要才制作了此插件.APP设置界面双指长按出现菜单 功能：默认移除一些广告 -- 无水印保存图片-视频-live图 -- 长按复制文案标题(关注板块需要长按外面的视图 里面无效)
+Author: x✨
+Name: 小红薯调整
+
+Package: com.xx.xhshook
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 308
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootless/小红薯_1.0.1_无根.deb
+Size: 92650
+MD5sum: 08bc3278983ee4f93472a888fae46016
+SHA1: 87ede51110fc98b14cf45951bdf3289996c3a99c
+SHA256: 9eb98a4dc39f1c3058293e326bb661e73441ece9993fc155528fbff1ec814156
+Section: Tweaks
+Description: 朋友需要才制作了此插件.APP设置界面双指长按出现菜单 功能：默认移除一些广告 -- 原生按钮无水印保存图片-视频-live图 -- 长按复制文案 new: 1.0.1修复图文文案无法复制问题
+Author: x✨
+Name: 小红薯调整
+
+Package: com.xx.xhshook
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: x✨
+Installed-Size: 308
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/roothide/小红薯_1.0.1.deb
+Size: 116168
+MD5sum: 966a45ae1eff7535ce7a81c6690306d7
+SHA1: 21471e8ef44c883ea4be4f1c2947a4e67c80d80f
+SHA256: e3c83e7101e8e820da3d002da0a03b5aa4a101ee0ecbb5af4d596f8936f75003
+Section: Tweaks
+Description: 朋友需要才制作了此插件.APP设置界面双指长按出现菜单 功能：默认移除一些广告 -- 原生按钮无水印保存图片-视频-live图 -- 长按复制文案 new: 1.0.1修复图文文案无法复制问题
 Author: x✨
 Name: 小红薯调整
 
