@@ -893,15 +893,15 @@ Maintainer: Jonathan Winger-lang
 Pre-Depends: rootless-compat(>= 0.1)
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
-Filename: ./debs/roothide/BigShot长截图rootless.1.1.deb
-Size: 25170
-MD5sum: c921a7846eb5ad40af0bbff5211c800c
-SHA1: 6fa9392b30d7b65c05667828e3cf528afa8e6732
-SHA256: 839a299b03cea70782b64ed165b255a994924167f6d0c2b77bc5107621bdc6b9
+Filename: ./debs/roothide/com.dao.bigshotsnapper3plugin_1.1_iphoneos-arm64e.deb
+Size: 21552
+MD5sum: fe607a63da91de06d14a3e2e5f27c28a
+SHA1: b6f859e648d6c4600665c3da896d4f1ca99b83b4
+SHA256: 35695b7778feb0a9064ca84ecb1aa6d812c42841b8ee8b8d88bdd39a8648e6c0
 Section: 嗨-工具
 Description: 支持Snapper3调用，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。也支持通过控制中心添加BigShot模块使用(没提示)。
 Author: Jonathan Winger-lang
-Name: BigShot 长截图(rootless)
+Name: BigShot 长截图
 
 Package: com.dao.purifyads
 Version: 1.1
@@ -1135,14 +1135,14 @@ Installed-Size: 184
 Pre-Depends: rootless-compat(>= 0.1)
 Depends: mobilesubstrate
 Filename: ./debs/roothide/com.hk.trollstore.cn.rl_2.0-3_iphoneos-arm64e.deb
-Size: 15988
-MD5sum: 30c2d07d9596554c3797dd0a2b92d896
-SHA1: 703e45dd0fe7f05580dc7fbbc919ba2811a83f69
-SHA256: 8d00d694afb6789a5ac18dbe851f51026d3dd2742881f008eb09b4755956ca6b
+Size: 13168
+MD5sum: f8088a6a9cdd79b476c418b852015d18
+SHA1: 2cfe0e092265efaf34a664697ed34af8dbbd7cd1
+SHA256: ef8352f86d14730731fd486dfe1927d265e4f6de8aae9ff7812dbb54bd522346
 Section: 嗨-汉化
-Description: TrollStore 简体中文包(rootless)。
+Description: TrollStore 简体中文包
 Author: 妖刀
-Name: TrollStore 简体中文包(rootless)
+Name: TrollStore 简体中文包(roothide)
 
 Package: com.homescreen
 Version: 1.1
@@ -2202,17 +2202,18 @@ Author: shiftcmdk
 Depiction: https://shiftcmdk.github.io/repo/depictions/?p=com.shiftcmdk.permaflex
 Name: PermaFlex
 
-Package: com.snail.byebyelaunchad.rootless
+Package: com.snail.byebyelaunchad
 Version: 1.3.1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: Snail <mu514983786@gmail.com>
 Installed-Size: 648
+Pre-Depends: rootless-compat(>= 0.1)
 Depends: firmware (>= 12.0),mobilesubstrate,preferenceloader,com.opa334.altlist
-Filename: ./debs/rootless/byebyelaunchad.rootless_1.3_最新版破解.deb
-Size: 279512
-MD5sum: a378561a82dccf884fb0db59110e2674
-SHA1: 99e86b75335301ab298c63278fbe0e4afa06b27a
-SHA256: 01553a98f372228a88534e2a02fbd42c6798f3ff0052a253558ff79a1afc16f4
+Filename: ./debs/roothide/com.snail.byebyelaunchad_1.3.1_iphoneos-arm64e.deb
+Size: 282660
+MD5sum: 05b4f4a01d8da9712f2bc1381ac383ed
+SHA1: 95f235db007b55640d7918fed77a2302d2575ca9
+SHA256: 649d502d09d415138b00d30fb31b5d6f262bf9bd9c4476469286ae478909df37
 Section: Rootless
 Description: 跳过所有主流APP开屏广告，可以自定义对任意APP启用。支持iOS 14 - iOS 16所有越狱机型。此为rootless版本，不要安装错哦~
  - 1.3.1 优化Xina、Palera1n越狱机型上可能出现的应用闪退
@@ -2235,20 +2236,19 @@ Description: 跳过所有主流APP开屏广告，可以自定义对任意APP启�
  - 1.0.1 - 修复用户反馈用户空间问题
  - 1.0.0 - 初次发布
 Author: Snail <mu514983786@gmail.com>
-Name: 蜗牛拜拜开屏广告-rootless ByeByeLaunchAd-rootless
+Name: 蜗牛拜拜开屏广告-ByeByeLaunchAd
 
 Package: com.snail.byebyelaunchad.rootless
 Version: 1.3.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: Snail <mu514983786@gmail.com>
 Installed-Size: 648
-Pre-Depends: rootless-compat(>= 0.1)
 Depends: firmware (>= 12.0),mobilesubstrate,preferenceloader,com.opa334.altlist
-Filename: ./debs/roothide/byebyelaunchad.rootless_1.3_最新版破解.deb
-Size: 367800
-MD5sum: e218d036cf1f3325997a4cc380e52ea0
-SHA1: 4153a5d2b554b8ef34630ac061d1d6e30a4a2f90
-SHA256: c2114ba1831409b756a41a83b1af3e9b82d0256bbe1320634ebf04963e2d6335
+Filename: ./debs/rootless/byebyelaunchad.rootless_1.3_最新版破解.deb
+Size: 279512
+MD5sum: a378561a82dccf884fb0db59110e2674
+SHA1: 99e86b75335301ab298c63278fbe0e4afa06b27a
+SHA256: 01553a98f372228a88534e2a02fbd42c6798f3ff0052a253558ff79a1afc16f4
 Section: Rootless
 Description: 跳过所有主流APP开屏广告，可以自定义对任意APP启用。支持iOS 14 - iOS 16所有越狱机型。此为rootless版本，不要安装错哦~
  - 1.3.1 优化Xina、Palera1n越狱机型上可能出现的应用闪退
