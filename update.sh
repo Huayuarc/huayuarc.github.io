@@ -1,5 +1,4 @@
 #!/bin/bash
-cd $(dirname "$0")
 
 echo "开始压缩deb"
 dpkg-scanpackages -m . /dev/null > Packages
