@@ -2108,6 +2108,26 @@ Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
 Name: FLEXing-rootless
 Sileodepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
 
+Package: com.pantsthief.flexing
+Version: 1.5.0-9+debug
+Architecture: iphoneos-arm64e
+Maintainer: Tanner Bennett <thepantsthief@me.com>
+Installed-Size: 164
+Pre-Depends: firmware (>= 8.0)
+Depends: libflex, mobilesubstrate
+Conflicts: com.dgh0st.flexall, gg.gh0stbyte.flexivator, com.shmoopillic.flexible, applebetas.ios.tweak.devtools.flexgesture, com.creaturecoding.flexer, com.lacertosusrepo.flex4me, me.nepeta.flexxx, com.ipadkid.flexit, com.qiop1379.flexbar, com.leftyfl1p.reflex
+Filename: ./debs/roothide/com.pantsthief.flexing_1.5.0-9+debug_iphoneos-arm64e.deb
+Size: 13614
+MD5sum: b150bf11cc4a0d77892176323fdc26e3
+SHA1: cfc803db12a55889620af5ee6bca78246373043d
+SHA256: 5653ce3afd4c9d44ab833585d5769459feda6c90e605f77d134e4571cfefaef0
+Section: Tweaks
+Description: Open FLEX anywhere!
+Author: Tanner Bennett <thepantsthief@me.com>
+Depiction: https://nscake.github.io/package.html?package=com.pantsthief.flexing
+Name: FLEXing
+Sileodepiction: https://nscake.github.io/depictions/com.pantsthief.flexing.sileo.json
+
 Package: com.pinduoduo
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -2218,6 +2238,39 @@ Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
 Dev: rpetrich
 Name: RocketBootstrap
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.runner
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.runner_1.0_iphoneos-arm64.deb
+Size: 2190
+MD5sum: 5e09026d41c0d64f3e878be94f999556
+SHA1: eb68bad0d10619e0e1886e013ad9588168cd521c
+SHA256: 186132ffb9e65c2f4edae43740f82b35d3e863ba2ffcf67cd9597fe57dad80ba
+Section: Tweaks
+Description: 闲鱼去启动广告
+Author: M哥
+Name: 闲鱼去启动广告-rootless
+
+Package: com.runner
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: M哥
+Installed-Size: 88
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate
+Filename: ./debs/roothide/com.runner_1.0_iphoneos-arm64e.deb
+Size: 3516
+MD5sum: d3cc1e9ba824e0c5e027cb8cf8ad215e
+SHA1: 20ed86b923a5fe8c8ad4dacc030d1301ebf3c6ce
+SHA256: 1b36c3439d134a07cc75ef1c059fe426a1dfd6d492fe4a2bc3236e0481591656
+Section: Tweaks
+Description: 闲鱼去启动广告
+Author: M哥
+Name: 闲鱼去启动广告-rootless
 
 Package: com.shiftcmdk.permaflex
 Version: 1.0.4-1+debug
@@ -3573,6 +3626,24 @@ Author: M哥
 Name: 锁头自定义 Latchkey
 
 Package: libflex
+Version: 4.7.0~b4-4+debug
+Architecture: iphoneos-arm64e
+Maintainer: Tanner Bennett <tannerbennett@me.com>
+Installed-Size: 6232
+Pre-Depends: firmware (>= 9.0)
+Filename: ./debs/roothide/libflex_4.7.0~b4-4+debug_iphoneos-arm64e.deb
+Size: 1423362
+MD5sum: 851fd4cb0f9879c37d9852bf60df4e2c
+SHA1: a29bc4c17aea5a3b3b7a2ee827de7b660cc0d3c6
+SHA256: 77a4cd1be1b241c5dd35c69e3df893b1924997ea1c17afe6b5c34a8bd1e9ec12
+Section: Tweaks
+Description: A library for Flipboard Explorer.
+Author: Tanner Bennett <tannerbennett@me.com>
+Depiction: https://nscake.github.io/package.html?package=libflex
+Name: libFLEX
+Sileodepiction: https://nscake.github.io/depictions/libflex.sileo.json
+
+Package: libflex
 Version: 5.22.10
 Architecture: iphoneos-arm64
 Maintainer: Tanner Bennett <tannerbennett@me.com>
@@ -3709,23 +3780,6 @@ Section: Netskao-Tweaks
 Description: FLEXList is a wrapper tool for FLEX Tool
 Author: Netskao
 Name: FLEXList-Rootless
-
-Package: netskao.flexlist-rootless
-Version: 1.4-1
-Architecture: iphoneos-arm64e
-Maintainer: Nets
-Installed-Size: 3736
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/roothide/netskao.flexlist-rootless_1.4-1_iphoneos-arm64e.deb
-Size: 836868
-MD5sum: 14393f6d6c53e63d57c9c2d8eb104ac7
-SHA1: ed9701764223b87fa667dfbc54dfbebcc14ad840
-SHA256: 49ed13cb52a316e01924a560eb0b72839d3991748376dd2c75487a8d5adf2f5c
-Section: Netskao-Tweaks
-Description: FLEXList is a wrapper tool for FLEX Tool
-Author: Netskao
-Name: FLEXList
 
 Package: netskao.pulloverpro
 Version: 2.1.2-7
