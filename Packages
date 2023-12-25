@@ -2632,6 +2632,41 @@ Description: 禁止通知中心信息堆叠，不重叠可以连续显示
 Author: M哥
 Name: 通知分组堆叠 iOS15
 
+Package: com.violetpro
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Erast
+Installed-Size: 6740
+Depends: mobilesubstrate, firmware (>= 15.0), com.mrgcgamer.libgcuniversal, ws.hbang.common (>= 2.0)
+Filename: ./debs/rootless/com.violetpro_1.0.0_iphoneos-arm64.deb
+Size: 5772164
+MD5sum: c870804fe85ef80788a170a14b691fbb
+SHA1: 084d45197967ede2dc6e3cf9894c7b661128ce34
+SHA256: ccc6c8b5f6f30107a8125e778b448db1b1a557ac52fe6839d58f6093aa700678
+Section: Tweaks
+Description: The maid for your iphone
+Author: Erast
+Icon: https://media.havoc.app/6479ae15276ae33252efbe71
+Name: Violet Pro
+
+Package: com.violetpro
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Erast
+Installed-Size: 6740
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, firmware (>= 15.0), com.mrgcgamer.libgcuniversal, ws.hbang.common (>= 2.0)
+Filename: ./debs/roothide/com.violetpro_1.0.0_iphoneos-arm64e.deb
+Size: 11831022
+MD5sum: 386e67e554670d2eab85ea4909859410
+SHA1: 35ad78add89b3d7e3ed7d4eb164cc34f6bd5407c
+SHA256: 925633e37699dec56b2843095cb1ca7fcc4ae28d79348e522a36b4fcfdbdadab
+Section: Tweaks
+Description: The maid for your iphone
+Author: Erast
+Icon: https://media.havoc.app/6479ae15276ae33252efbe71
+Name: Violet Pro
+
 Package: com.waimai
 Version: 1.0
 Architecture: iphoneos-arm64
