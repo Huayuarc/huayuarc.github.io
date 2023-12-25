@@ -1884,6 +1884,39 @@ Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Author: MTAC
 Name: Lynx 2
 
+Package: com.mtxx
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.mtxx_1.0_iphoneos-arm64.deb
+Size: 2370
+MD5sum: 437770b81d79bb23499879ba2b9050b0
+SHA1: bf5dc20a7431e9745877c2026afa987505eff1a1
+SHA256: 63f5cf35775e37cd545e3102f1e7edfc0a9861be21b32543d27717a6a86f335c
+Section: Tweaks
+Description: 美图秀秀去广告
+Author: M哥
+Name: 美图秀秀去广告NoAd-rootless
+
+Package: com.mtxx
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: M哥
+Installed-Size: 88
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate
+Filename: ./debs/roothide/com.mtxx_1.0_iphoneos-arm64e.deb
+Size: 3520
+MD5sum: 7313ce6c9441a726707d1202c3f68c19
+SHA1: 9299a03282c6f11f13b6a6e6106cccb16821f505
+SHA256: d2663dc2d7b88b1dae6e4d240cb869d0879700149f7f0000c7f6034b53e1b6aa
+Section: Tweaks
+Description: 美图秀秀去广告
+Author: M哥
+Name: 美图秀秀去广告NoAd-roothide
+
 Package: com.nan.enableccmutemodule
 Version: 0.2.0
 Architecture: iphoneos-arm64e
