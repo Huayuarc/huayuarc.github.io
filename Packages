@@ -1748,6 +1748,43 @@ Icon: file:///var/jb/Library/PreferenceBundles/Soundy.bundle/icon@2x.png
 Name: Soundy
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.mrgcgamer.libgcuniversal
+Version: 1.6.4
+Architecture: iphoneos-arm64
+Maintainer: MrGcGamer
+Installed-Size: 296
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Filename: ./debs/rootless/com.mrgcgamer.libgcuniversal_1.6.4_iphoneos-arm64.deb
+Size: 42992
+MD5sum: e98e7eede3cc05f081c54fbd19d3d429
+SHA1: 23c78ea1225f06de045f7e5e570a84703963e868
+SHA256: ad860c13412ded1618d96a4baaa73d6766bf1b738198f9360d9cccbb1a0ce1ad
+Section: Development
+Description: An awesome library of some sort!!
+Tag: role::developer
+Author: MrGcGamer
+Name: LibGcUniversal
+
+Package: com.mrgcgamer.libgcuniversal
+Version: 1.6.4
+Architecture: iphoneos-arm64e
+Maintainer: MrGcGamer
+Installed-Size: 296
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Filename: ./debs/roothide/com.mrgcgamer.libgcuniversal_1.6.4_iphoneos-arm64e.deb
+Size: 58244
+MD5sum: 36eac353317da2d1d777ddfd800adf8e
+SHA1: 4c6b80cc541f7b1f99d1f1126960162dca0ca713
+SHA256: bf0d0868be45b8e15def53c6eadab5d7d9154a5c5944b60ce7f0690cb9d8d232
+Section: Development
+Description: An awesome library of some sort!!
+Tag: role::developer
+Author: MrGcGamer
+Name: LibGcUniversal
+
 Package: com.mtac.ampere
 Version: 1.4
 Architecture: iphoneos-arm64
