@@ -721,6 +721,72 @@ Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: Shuffle
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
 
+Package: com.csdnplus
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 40
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.csdnplus_1.0_iphoneos-arm64.deb
+Size: 1458
+MD5sum: eafb183b18cfb2d9ae6e0d46498632e0
+SHA1: eb7ec2010c6ccc50c2ff75563faa63135efd62f8
+SHA256: 37ae7bf94cc69bd0ba569094e652fa4c27da4cd27d2d5923e68efea3e64d5a03
+Section: Tweaks
+Description: CSDN去广告
+Author: M哥
+Name: CSDN去广告NoAd
+
+Package: com.csdnplus
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: M哥
+Installed-Size: 40
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate
+Filename: ./debs/roothide/com.csdnplus_1.0_iphoneos-arm64e.deb
+Size: 2658
+MD5sum: 3b9e7965e0207b6fb0bbb461f165bfb2
+SHA1: e0a4a95d7ecb13c8ca541d891a76eafe9048b768
+SHA256: 2b059be5fa1bf81ecb54a5a8c606e5b6ecd3b2374b17a9e3e4d49f069bd59aa8
+Section: Tweaks
+Description: CSDN去广告
+Author: M哥
+Name: CSDN去广告NoAd
+
+Package: com.ctrip
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 40
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.ctrip_1.0_iphoneos-arm64.deb
+Size: 1490
+MD5sum: 58d0674676c1900ffe74e8318822fc0d
+SHA1: 79376f23e382aef40c61daf6e3dbc7d3cac29128
+SHA256: 073c73a6c4337356c918152bf7c0076e1fbc62ac7860e556415302b5dddf8ea2
+Section: Tweaks
+Description: 携程旅行去广告
+Author: M哥
+Name: 携程旅行去广告NoAd-rootless
+
+Package: com.ctrip
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: M哥
+Installed-Size: 40
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate
+Filename: ./debs/roothide/com.ctrip_1.0_iphoneos-arm64e.deb
+Size: 2560
+MD5sum: 75f60553782c675692a179f0bab8bd7e
+SHA1: 7f282babd49c787e409df609e949ed15bb5449e6
+SHA256: 7bd2cd038b60aa53ae6756c0acf713e46bc9688ddfdafb113c02bb7d9ee717c4
+Section: Tweaks
+Description: 携程旅行去广告
+Author: M哥
+Name: 携程旅行去广告NoAd-roothide
+
 Package: com.cydiageek.cthulhu
 Version: 1.0.9
 Architecture: iphoneos-arm64
@@ -3155,6 +3221,23 @@ SHA1: 0a6a4f6666f7f02bf7d58777dd209695c4df495a
 SHA256: ebf4f7f4ebf8fb778157ffc36d980a9909ff75a95e7fc59c406fb21a206e1da9
 Section: Tweaks
 Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项 -- 支持pro版 -- 1.0.1 new:精选页悬浮促销移除,视频推荐页右上角@水印移除
+Author: x✨
+Name: 今日头条Hook
+
+Package: com.xx.jrtthook
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: x✨
+Installed-Size: 580
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/roothide/com.xx.jrtthook_1.0.2_iphoneos-arm64e.deb
+Size: 216296
+MD5sum: 1a099b5f1a0122f3bd1f7718ec6ee88a
+SHA1: dee3cebab112e466a3b3a97112380d72494e935f
+SHA256: 26662424a34a7365ee73aa52901bb2eb34e2057f63a09b142f3ed7c012a39095
+Section: Tweaks
+Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项,支持pro版 -- 1.0.2更新内容：保存视频增加一个方式-- 尝试修复移除底部bug
 Author: x✨
 Name: 今日头条Hook
 
