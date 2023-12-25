@@ -71,26 +71,6 @@ Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 
 Package: apt.cydiakk.appsyncunified.rootless
 Version: 112.0
-Architecture: iphoneos-arm64
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 676
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified
-Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
-Provides: appsync, net.angelxwind.appsyncunified
-Filename: ./debs/rootless/AppSync_112.0.deb
-Size: 34128
-MD5sum: 582295e0915eeb68356521d8544aea1f
-SHA1: 2477ff579411114ef20397f04c72e2d5f8b05245
-SHA256: df77d5cbff6b1fb57f6ba7bbe449b4cf47f9dbc0c8cd7e39f92532d9c9d5efd6
-Section: 系统列表
-Description: 关闭iOS App签名检查
-Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: AppSync
-
-Package: apt.cydiakk.appsyncunified.rootless
-Version: 112.0
 Architecture: iphoneos-arm64e
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 676
