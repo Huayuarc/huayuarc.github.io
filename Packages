@@ -2263,14 +2263,14 @@ Installed-Size: 88
 Pre-Depends: rootless-compat(>= 0.1)
 Depends: mobilesubstrate
 Filename: ./debs/roothide/com.runner_1.0_iphoneos-arm64e.deb
-Size: 3516
-MD5sum: d3cc1e9ba824e0c5e027cb8cf8ad215e
-SHA1: 20ed86b923a5fe8c8ad4dacc030d1301ebf3c6ce
-SHA256: 1b36c3439d134a07cc75ef1c059fe426a1dfd6d492fe4a2bc3236e0481591656
+Size: 3300
+MD5sum: 8702d303620cc554ab5f968234e8852b
+SHA1: c77b68ee32e378b668f613fe046c34768e29bd52
+SHA256: fa5c7d7001081dcd7dd1bf2d3b714e94bd2dc6495713f91b047dfb46713346a6
 Section: Tweaks
 Description: 闲鱼去启动广告
 Author: M哥
-Name: 闲鱼去启动广告-rootless
+Name: 闲鱼去启动广告-roothide
 
 Package: com.shiftcmdk.permaflex
 Version: 1.0.4-1+debug
