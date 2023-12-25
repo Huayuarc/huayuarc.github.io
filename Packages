@@ -737,23 +737,6 @@ Description: CSDN去广告
 Author: M哥
 Name: CSDN去广告NoAd
 
-Package: com.csdnplus
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 40
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/com.csdnplus_1.0_iphoneos-arm64e.deb
-Size: 2658
-MD5sum: 3b9e7965e0207b6fb0bbb461f165bfb2
-SHA1: e0a4a95d7ecb13c8ca541d891a76eafe9048b768
-SHA256: 2b059be5fa1bf81ecb54a5a8c606e5b6ecd3b2374b17a9e3e4d49f069bd59aa8
-Section: Tweaks
-Description: CSDN去广告
-Author: M哥
-Name: CSDN去广告NoAd
-
 Package: com.ctrip
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -769,23 +752,6 @@ Section: Tweaks
 Description: 携程旅行去广告
 Author: M哥
 Name: 携程旅行去广告NoAd-rootless
-
-Package: com.ctrip
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 40
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/com.ctrip_1.0_iphoneos-arm64e.deb
-Size: 2560
-MD5sum: 75f60553782c675692a179f0bab8bd7e
-SHA1: 7f282babd49c787e409df609e949ed15bb5449e6
-SHA256: 7bd2cd038b60aa53ae6756c0acf713e46bc9688ddfdafb113c02bb7d9ee717c4
-Section: Tweaks
-Description: 携程旅行去广告
-Author: M哥
-Name: 携程旅行去广告NoAd-roothide
 
 Package: com.cydiageek.cthulhu
 Version: 1.0.9
