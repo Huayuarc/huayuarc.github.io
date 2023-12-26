@@ -366,20 +366,20 @@ Name: Shuffle
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
 
 Package: com.csdnplus
-Version: 1.0
+Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: M哥
-Installed-Size: 40
+Installed-Size: 168
 Depends: mobilesubstrate
-Filename: ./debs/rootless/com.csdnplus_1.0_iphoneos-arm64.deb
-Size: 1458
-MD5sum: eafb183b18cfb2d9ae6e0d46498632e0
-SHA1: eb7ec2010c6ccc50c2ff75563faa63135efd62f8
-SHA256: 37ae7bf94cc69bd0ba569094e652fa4c27da4cd27d2d5923e68efea3e64d5a03
+Filename: ./debs/rootless/com.csdnplus_1.2_iphoneos-arm64.deb
+Size: 3042
+MD5sum: a01725dd9364fa1a0dc58f40247bba88
+SHA1: 25c220f43f7fe77667d8415a32b8ee143cdd6986
+SHA256: 8872c514fd945b139b4e6e71dd1606eccc6f580b83c75c2d78570ea54d8ab1c1
 Section: Tweaks
 Description: CSDN去广告
 Author: M哥
-Name: CSDN去广告NoAd
+Name: CSDN去广告-rootless
 
 Package: com.ctrip
 Version: 1.0
@@ -686,6 +686,22 @@ Description: Collection of classes used in my tweaks.
 Author: Nebbs
 Name: Phoenix
 
+Package: com.jd4iphone
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.jd4iphone_1.1_iphoneos-arm64.deb
+Size: 5046
+MD5sum: 28e7f3d713b741d2b9150dc822375aac
+SHA1: b3412366e8b024686484f09d29bee8038ae41fea
+SHA256: a0579322e26763c5071c742e83bd9c3fc5dd49f46ea8346651040e46c4712b5b
+Section: Tweaks
+Description: 京东去广告+精简
+Author: M哥
+Name: 京东（去广告+精简）
+
 Package: com.jontelang.instalauncher2
 Version: 1.11.0
 Architecture: iphoneos-arm64
@@ -922,16 +938,16 @@ Author: MTAC
 Name: Lynx 2
 
 Package: com.mtxx
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: M哥
-Installed-Size: 88
+Installed-Size: 168
 Depends: mobilesubstrate
-Filename: ./debs/rootless/com.mtxx_1.0_iphoneos-arm64.deb
-Size: 2370
-MD5sum: 437770b81d79bb23499879ba2b9050b0
-SHA1: bf5dc20a7431e9745877c2026afa987505eff1a1
-SHA256: 63f5cf35775e37cd545e3102f1e7edfc0a9861be21b32543d27717a6a86f335c
+Filename: ./debs/rootless/com.mtxx_1.1_iphoneos-arm64.deb
+Size: 2962
+MD5sum: e380594170251f5b05cf98f3fc32b914
+SHA1: c13b6b50c19932b1df5c73c0fb65920fbe2f5eb7
+SHA256: a7ce5e7320e0ca7ff9caf1f1cd0f84b44c1b4c36c44b6346277204f217cbfa15
 Section: Tweaks
 Description: 美图秀秀去广告
 Author: M哥
