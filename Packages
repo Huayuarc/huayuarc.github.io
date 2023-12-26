@@ -1452,36 +1452,20 @@ Name: 抖音图层一些调整
 Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
 
 Package: com.xx.jrtthook
-Version: 1.0.1
+Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: x✨
 Installed-Size: 580
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/rootless/今日头条_1.0.1_无根.deb
-Size: 162496
-MD5sum: 5ed339a661a75ca22e037f3e10e36e75
-SHA1: b3f9045fd130ee4f7d54a58d69837b03bf2c36ae
-SHA256: c5590f6b6b1edfa63b27b0ad604270e34e9e0ef062528d29fa6718c435443852
+Filename: ./debs/rootless/com.xx.jrtthook_1.0.2_iphoneos-arm64.deb
+Size: 165684
+MD5sum: 06f6d0372380333f85fb4652c893ec43
+SHA1: ed4e7a600cc1ee36678b7272977b6295ed4c0817
+SHA256: 544ef1c2712a21acdab2efafc261b759e734618d840456c610e34cbcfdf81bc1
 Section: Tweaks
-Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项 -- 支持pro版 -- 1.0.1 new:精选页悬浮促销移除,视频推荐页右上角@水印移除
+Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项,支持pro版 -- 1.0.2更新内容：保存视频增加一个方式-- 尝试修复移除底部bug
 Author: x✨
 Name: 今日头条Hook
-
-Package: com.xx.xhshook
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 324
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/rootless/小红薯_1.0.0_无根.deb
-Size: 96794
-MD5sum: 9fca3d90918e3a7909f62052b7b7793d
-SHA1: b0c4bcb12e3baae066fbfc22beac9c0d0256d142
-SHA256: 2ba97bf620307b8549f66b1f91032fd4a6ec60cb42a66d11202d41870c5daa59
-Section: Tweaks
-Description: 朋友需要才制作了此插件.APP设置界面双指长按出现菜单 功能：默认移除一些广告 -- 无水印保存图片-视频-live图 -- 长按复制文案标题(关注板块需要长按外面的视图 里面无效)
-Author: x✨
-Name: 小红薯调整
 
 Package: com.xx.xhshook
 Version: 1.0.1
