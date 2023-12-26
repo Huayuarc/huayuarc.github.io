@@ -16,3 +16,4 @@ echo "git到远程仓库github"
 git add .
 git commit -m "更新文件"
 git push
+echo "更新完成"

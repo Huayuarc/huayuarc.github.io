@@ -241,6 +241,22 @@ Description: 自动面容ID解锁，解锁后直接进入主屏幕、隐藏解�
 Author: M哥
 Name: 自动面容ID解锁-rootless
 
+Package: com.batterypercentage
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.batterypercentage_1.0_iphoneos-arm64.deb
+Size: 2836
+MD5sum: 060c1cd3079b7657e0040e0e4f10cb07
+SHA1: dd40fc49ad9275c39566540b69cfd297b8c4ed74
+SHA256: ce6b6c88eff51fdfd9d3d1e56d87c5d28b5fe740cc9b2050417a31eb6ac97741
+Section: Tweaks
+Description: 开启原生电池百分比
+Author: M哥
+Name: 电池百分比-rootless
+
 Package: com.bocmbci
 Version: 1.0
 Architecture: iphoneos-arm64
