@@ -150,20 +150,20 @@ Author: alimaulana
 Name: AIM Pro
 
 Package: com.amap
-Version: 1.2
+Version: 1.3
 Architecture: iphoneos-arm64
-Maintainer: M哥 <1358804498@qq.com>
+Maintainer: M哥
 Installed-Size: 168
 Depends: mobilesubstrate
-Filename: ./debs/rootless/com.amap_1.2_iphoneos-arm64.deb
-Size: 4524
-MD5sum: c5a02070864ac34e7413f66d76276f7a
-SHA1: 983156230d96a5aa830b0f08180d3ec3ab4b865e
-SHA256: fc28098da6f8bd80b8250030d6bd99f0cec67bc99388f1763b63bff26615bbf9
+Filename: ./debs/rootless/com.amap_1.3_iphoneos-arm64.deb
+Size: 4768
+MD5sum: ddb888624ffb7dbbcfe0059216d245f2
+SHA1: dc6862289eafd70c71465bab485bec8329af8c9d
+SHA256: 63ef286815160b0479d13d80a89cb5297e0708fe53290d2d74773aad3a09c9ac
 Section: Tweaks
-Description: 自用插件
-Author: M哥 <1358804498@qq.com>
-Name: 高德地图（去广告+精简）-rootless
+Description: 高德地图（去广告+精简）
+Author: M哥
+Name: 高德地图（去广告+精简）
 
 Package: com.anthopak.addtofolder-rootless
 Version: 1.4
@@ -687,16 +687,16 @@ Author: Nebbs
 Name: Phoenix
 
 Package: com.jd4iphone
-Version: 1.1
+Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: M哥
 Installed-Size: 168
 Depends: mobilesubstrate
-Filename: ./debs/rootless/com.jd4iphone_1.1_iphoneos-arm64.deb
-Size: 5426
-MD5sum: 74e77a9a5951047ce999b1882c8f2436
-SHA1: 203cbb7a6e82f3b658aef361d9eb53caee37966a
-SHA256: 437b80e487a5bfad8ca46e8602d7cf19f4c2dab95780f7d919e2f825bcf8b80f
+Filename: ./debs/rootless/com.jd4iphone_1.2_iphoneos-arm64.deb
+Size: 5342
+MD5sum: 96db57a0110db1d57b0a2ede08595be6
+SHA1: 188e07967acad111403cd2a98c54f8c4e5899e76
+SHA256: f391fbdb5feb4cf0bf1c232fee96ed57146b9852faee3f2ddadc007c88f08975
 Section: Tweaks
 Description: 京东去广告+精简
 Author: M哥
@@ -1050,16 +1050,16 @@ Author: opa334
 Name: TrollStore Helper
 
 Package: com.pinduoduo
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: M哥
 Installed-Size: 168
 Depends: mobilesubstrate
-Filename: ./debs/rootless/com.pinduoduo_1.0_iphoneos-arm64.deb
-Size: 3180
-MD5sum: 50f50d2d51fb600b9e593131af3039d4
-SHA1: 14fd1ea349813a9595aa3fa917b8fc973d9f1745
-SHA256: 9b86973dc8f4ecc4a285eadf1cb14f818751192b76ed5eae7468e5093ee21cf7
+Filename: ./debs/rootless/com.pinduoduo_1.1_iphoneos-arm64.deb
+Size: 4774
+MD5sum: 3275c2338eec2d6981e2c8f7e0247e5d
+SHA1: d4a4b59a597b13263d359e99911fc68427ef5982
+SHA256: f331ba82d2403c7fb222d77545ff95e86fa4088c7a61b244a94fa45e5b0fa504
 Section: Tweaks
 Description: 拼多多去广告
 Author: M哥
