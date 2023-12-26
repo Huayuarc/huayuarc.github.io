@@ -1598,6 +1598,22 @@ Description: 锁屏，隐藏"没有更早的通知"提示
 Author: M哥
 Name: 隐藏"没有更早的通知"-rootless
 
+Package: com.yellowdot
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.yellowdot_1.0_iphoneos-arm64.deb
+Size: 3298
+MD5sum: 0a97a9bfccae783ca11642df97cc1b89
+SHA1: 598f7483d3f9f998529db37fcdd77b0fe91af22c
+SHA256: af3343224c6913288190a8a868fd64983081409e22460201be8d0ad460baab15
+Section: Tweaks
+Description: 隐藏应用程序蓝点黄点
+Author: M哥
+Name: 隐藏主屏幕app黄点
+
 Package: eg.anubistweaks.phoneenhancer15
 Version: 1.6.5
 Architecture: iphoneos-arm64
