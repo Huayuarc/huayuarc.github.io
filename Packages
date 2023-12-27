@@ -1533,20 +1533,20 @@ Icon: https://repo.packix.com/api/Packages/5c0014acb4bc37001219896c/icon/downloa
 Name: Zenith (iOS 15)
 
 Package: com.xx.dyhook
-Version: 1.1.5
+Version: 1.1.6
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 956
+Installed-Size: 988
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/rootless/图层_1.1.5_无根.deb
-Size: 258018
-MD5sum: 747f904a56cabd0982d73ee7ecab7550
-SHA1: 97feed9e6466def72ed1b8fce08375d343b60dca
-SHA256: 667727842a8bfd12be2c3c412727c20154780013d76fd190df5222a5c2dff454
+Filename: ./debs/rootless/com.xx.dyhook_1.1.6_iphoneos-arm64.deb
+Size: 271100
+MD5sum: a6ff552f852df65e77d44f3ceb445226
+SHA1: c3f96c7c10fbc30b745aa5da494d9b0195fd88c9
+SHA256: d5bd5e7f3e0e2f26efcf7cf80f7dbd3bc3ea5c280b14c889bc9600710aaf0be0
 Section: Tweaks
 Description: 自用 首页视频界面双指双击弹出设置UI-或在"我-右上角打开" && 本人刚学一点 有问题请大佬多指教
 Author: x✨
-Name: 抖音图层一些调整
+Name: 抖音图层
 Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
 
 Package: com.xx.ecnyhook
@@ -1582,18 +1582,18 @@ Author: x✨
 Name: 今日头条Hook
 
 Package: com.xx.kshook
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 548
+Installed-Size: 580
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/rootless/com.xx.kshook_1.0.0_iphoneos-arm64.deb
-Size: 156850
-MD5sum: f2a98e238e18ea35e6ad889d2b3b21e6
-SHA1: bfee1abc10e726fe27dfe8efff057ac479ef092d
-SHA256: 69c59d742f6fe9e9f0173fc0a46bf1610977e6924923dd91a487b49ae1da34d8
+Filename: ./debs/rootless/com.xx.kshook_1.0.1_iphoneos-arm64.deb
+Size: 161574
+MD5sum: f45898700932ba05ceccfa7f322e982b
+SHA1: 64e942860682573478606d8e5266277bd0f25e33
+SHA256: b540aec4aa37ccbb2c477783f91c384903f6042c07ded06a0ec458c7f197b3db
 Section: Tweaks
-Description: 点击APP右下角-我-右上角三横-长按打开菜单开启功能。功能：移除一些广告|弹窗--无水印保存视频图片
+Description: 点击APP右下角-我-右上角三横-长按打开菜单开启功能。功能：移除一些广告|弹窗--无水印保存视频图片 -- 1.0.1更新:修复已知一些问题，增加自动连播,移除视频流直播|广告,增强图片保存无水印为强制开启保存相册功能.
 Author: x✨
 Name: 快手Hook
 
