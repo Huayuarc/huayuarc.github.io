@@ -19,4 +19,4 @@ git push
 echo "更新完成"
 
 echo "关闭Filza终端"
-osascript -e 'tell application "Filza" to quit'
+kill -9 $PPID
