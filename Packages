@@ -1292,6 +1292,22 @@ Description: 多任务后台透明、iPad卡片式后台、后台隐藏图标标
 Author: M哥
 Name: 多任务后台-rootless
 
+Package: com.taobao4iphone
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.taobao4iphone_1.0_iphoneos-arm64.deb
+Size: 4678
+MD5sum: f2340bee84edb9ec82ba77b7d4bc7df5
+SHA1: d14710779fdbffa33acf829a8040825ae174f4fc
+SHA256: d8ed9e95735cf81b42f10f44bf1cc7e09490069ba014ddca59de172b78df8dda
+Section: Tweaks
+Description: 淘宝去广告+精简
+Author: M哥
+Name: 淘宝（去广告+精简）
+
 Package: com.thomz.rounddockremastered
 Version: 1.0
 Architecture: iphoneos-arm64
