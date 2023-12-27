@@ -12,10 +12,8 @@ lzma -c Packages > Packages.lzma
 zstd -c Packages > Packages.zst
 echo "压缩完成"
 
-echo "git到远程仓库github"
+echo "推送到远程仓库github"
 git add .
 git commit -m "更新文件"
 git push
 echo "更新完成"
-
-exit
