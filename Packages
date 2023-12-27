@@ -132,6 +132,24 @@ Description: 微信简洁辅助(抢红包，防撤回)-roootless
 Author: 来了老弟
 Name: 微信辅助(微生物)-rootless
 
+Package: cn.llld.qqdsq
+Version: 0.00000006
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 468
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/rootless/芭比Q-rootless.0.00000006.deb
+Size: 70668
+MD5sum: 01780a7e585c8b024415e41a510f33c8
+SHA1: 2d068398dfdfd680e26b3300320eab3bbfabbbe2
+SHA256: 3f5bdf612a339d9aa5d2fb4eb210990f5fcf32fe239542097df419b92fade22b
+Section: rootless插件
+Description: 给QQ加点小功能，有空就更，功能在手机"系统设置"。调试版本号：v8.9.58和v9.0.0.249和v9.0.1，别的版本需自测。在研究转发语音和空间跟圈，去广告，防撤回等一些功能还莫急，会上
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons/tubiao1.png
+Name: 芭比Q-rootless
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
+
 Package: com.ali.aimpro
 Version: 1.0.5
 Architecture: iphoneos-arm64
