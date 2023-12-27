@@ -1396,6 +1396,22 @@ Description: 美团外卖去广告
 Author: M哥
 Name: 美团外卖NoAd-rootless
 
+Package: com.weibo
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.weibo_1.0_iphoneos-arm64.deb
+Size: 2838
+MD5sum: 6ab6415521d5bfa7385f3e18ea186693
+SHA1: b001f739a8bd48ae9e84d2711d1a3e4e784c998b
+SHA256: 454ad43b04bd8155af8e8788d655aaf28dcfcf8c273939541d4fc20be81daf4d
+Section: Tweaks
+Description: 微博去启动广告
+Author: M哥
+Name: 微博去启动广告
+
 Package: com.weifeng
 Version: 1.2
 Architecture: iphoneos-arm64
