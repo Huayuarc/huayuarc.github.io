@@ -672,6 +672,22 @@ Dev: ichitaso
 Icon: https://cydia.ichitaso.com/icons/PrimalFolder2.png
 Name: PrimalFolder 2
 
+Package: com.imeituan
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.imeituan_1.0_iphoneos-arm64.deb
+Size: 3266
+MD5sum: 4d8b89b3d6bd427150ff73edf7cc56a2
+SHA1: 7998508cd144f9d54ebaf30ac4c147318ff04fe2
+SHA256: 2d874fe5a7f5b5e4135f82f51ba0f473559b575653bc481c72dc1cc542c29946
+Section: Tweaks
+Description: 美团去广告
+Author: M哥
+Name: 美团去广告
+
 Package: com.itznebbs.genesis3
 Version: 1.5
 Architecture: iphoneos-arm64
