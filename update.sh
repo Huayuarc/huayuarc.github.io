@@ -17,6 +17,3 @@ git add .
 git commit -m "更新文件"
 git push
 echo "更新完成"
-
-echo "关闭Filza终端"
-kill -9 $PPID
