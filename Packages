@@ -1004,6 +1004,22 @@ Description: 美图秀秀去广告
 Author: M哥
 Name: 美图秀秀去广告NoAd-rootless
 
+Package: com.nan.givemedeb
+Version: 0.1.5
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Filename: ./debs/rootless/com.nan.givemedeb_0.1.5_iphoneos-arm64.deb
+Size: 2080
+MD5sum: d03107d157438234f87d712ddd130589
+SHA1: 3edf474df1523ce23c2a3ddbef69fcaad09ac904
+SHA256: b204d718c0ed0b7bce23466b8757dab206a35be417b126951e5b8e8935181cec
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb。基于赵楠大神开发插件，自动保存sileo下载安装的.deb插件保存到路径/var/mobile/下
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
 Package: com.news
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1627,6 +1643,22 @@ SHA1: 87ede51110fc98b14cf45951bdf3289996c3a99c
 SHA256: 9eb98a4dc39f1c3058293e326bb661e73441ece9993fc155528fbff1ec814156
 Section: Tweaks
 Description: 朋友需要才制作了此插件.APP设置界面双指长按出现菜单 功能：默认移除一些广告 -- 原生按钮无水印保存图片-视频-live图 -- 长按复制文案 new: 1.0.1修复图文文案无法复制问题
+Author: x✨
+Name: 小红薯调整
+
+Package: com.xx.xhshook
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 308
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootless/com.xx.xhshook_1.0.2_iphoneos-arm64.deb
+Size: 92742
+MD5sum: 59c542a22bd3bee02cf569908a9bbd5b
+SHA1: 4a799f172f332b421bc5d0a6a39db6a7e73ca877
+SHA256: 1d1885e2735d3f27e7e71545a8103e74c1ad62c5e6d90a60159ab797a16abfa2
+Section: Tweaks
+Description: 朋友需要才制作了此插件.APP设置界面双指长按出现菜单 功能：默认移除一些广告 -- 原生按钮无水印保存图片-视频-live图 -- 长按复制文案 new: 1.0.1修复图文文案无法复制问题. 1.0.2 尝试修复部分账号无法保存评论区图片的问题.
 Author: x✨
 Name: 小红薯调整
 
