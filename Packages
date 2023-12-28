@@ -771,6 +771,23 @@ Author: Jonathan Winger Lang <jontelang@gmail.com>
 Icon: file:///Library/PreferenceBundles/instalauncher2preferences.bundle/icons/preferences-icon@2x.png
 Name: InstaLauncher 2
 
+Package: com.joshuaseltzer.sleeperx
+Version: 1.2.4
+Architecture: iphoneos-arm64
+Maintainer: Joshua Seltzer <joshua.seltzer90@gmail.com>
+Installed-Size: 1788
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 16.0)
+Conflicts: org.thebigboss.sleeper, com.joshuaseltzer.sleeper
+Filename: ./debs/rootless/com.joshuaseltzer.sleeperx_1.2.4_iphoneos-arm64.deb
+Size: 153444
+MD5sum: 91f3a5a94232376a0e2f284d479be180
+SHA1: 5d31ce182ec50c3494df153883f4ec14f4040428
+SHA256: 8ec7d97f855c71a16ad1af1be61db436984c69d447c01ba04930d2f4a8e846ae
+Section: Tweaks
+Description: Set custom snooze times, skip alarms, and more with SleeperX.
+Author: Joshua Seltzer <joshua.seltzer90@gmail.com>
+Name: SleeperX (iOS 15)
+
 Package: com.lclrc.hammerit
 Version: 1.2.7
 Architecture: iphoneos-arm64
