@@ -533,6 +533,23 @@ Description: WiFi和蜂窝数据之间智能切换，控制中心连接WiFi关�
 Author: Bruno Andrade <brubiluco@globo.com>
 Name: WiCellSwitcher(rootless)
 
+Package: com.dvntm.twitchdvn
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 24652
+Depends: mobilesubstrate
+Filename: ./debs/rootless/com.dvntm.twitchdvn_v0.0.2_iphoneos-arm64.deb
+Size: 8912252
+MD5sum: 56b8011cc748d39056b728c729c14a38
+SHA1: 0a4ab7884d9da4b662070d43e12acda18d687983
+SHA256: a2d442823ce7749113cdd5c0793a19fa4e3dfec8c64bdf53a3ee54e709b65e9a
+Section: Tweaks
+Description: Download your favorite clips, VODs and Live Streams with Dvnloader for Twitch!
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/icons/main/TwitchDvn.png
+Name: TwitchDvnloader
+
 Package: com.eliassfeir.smartnetwork
 Version: 1.1
 Architecture: iphoneos-arm64
