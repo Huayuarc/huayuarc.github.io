@@ -805,6 +805,23 @@ Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It-rootless
 
+Package: com.lclrc.hammerit
+Version: 1.4.7
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 2288
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
+Filename: ./debs/rootless/com.lclrc.hammerit_1.4.7_iphoneos-arm64.deb
+Size: 434018
+MD5sum: 6e70e3168ef8569b35a65070fdeae15c
+SHA1: 129b0771e5da673cd416171056e532fa18e3342b
+SHA256: 8bae8b7774b839ccd204b0c37acb3a5295a1e9a8b60440173c293775e886727c
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
+
 Package: com.leisu
 Version: 1.2
 Architecture: iphoneos-arm64
