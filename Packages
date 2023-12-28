@@ -1004,22 +1004,6 @@ Description: 美图秀秀去广告
 Author: M哥
 Name: 美图秀秀去广告NoAd-rootless
 
-Package: com.nan.givemedeb
-Version: 0.1.5
-Architecture: iphoneos-arm64
-Maintainer: zhaonan
-Filename: ./debs/rootless/com.nan.givemedeb_0.1.5_iphoneos-arm64.deb
-Size: 2080
-MD5sum: d03107d157438234f87d712ddd130589
-SHA1: 3edf474df1523ce23c2a3ddbef69fcaad09ac904
-SHA256: b204d718c0ed0b7bce23466b8757dab206a35be417b126951e5b8e8935181cec
-Section: Addons
-Description: 尝试保存 apt 缓存目录下所有 deb。基于赵楠大神开发插件，自动保存sileo下载安装的.deb插件保存到路径/var/mobile/下
-Author: zhaonan <invalidunit@icloud.com>
-Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
-Name: Give me deb
-Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
-
 Package: com.news
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1512,6 +1496,22 @@ Section: rootless修复插件
 Description: Before use, please copy the application bundle that needs to be parsed to/var/jb/usr/lib/TweakInject/Flex.plist and fill it in. Warning: System patches are not supported, do not fill in com.apple.UIKit or com.apple.springboard。Only effective for third-party applications, the patch list can be parsed and displayed.。使用前请把需要解析的应用bundle拷贝到/var/jb/usr/lib/TweakInject/Flex.plist中填入，警告：不支持系统补丁，不要填入com.apple.UIKit或com.apple.springboard等，只对第三方应用生效，可解析，可显示补丁列表。
 Author: John Coates 来了老弟
 Name: Flex3 Beta程序修改器-Xina2
+
+Package: com.wwg135.givemedeb
+Version: 0.1.5
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Filename: ./debs/rootless/com.wwg135.givemedeb_0.1.5_iphoneos-arm64.deb
+Size: 2096
+MD5sum: 39a13e15aa6d2c193359292e7b9087e8
+SHA1: d3a0d8252abac1b86fa3ec53a16044cb2505c3f1
+SHA256: c9f866e296757fae05106e0a2bd69d5151ee68aa9ac7b8ea80a8492c5baba842
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb。基于赵楠大神开发插件，自动保存sileo下载安装的.deb插件保存到路径/var/mobile/下，感谢赵楠大神！
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
 
 Package: com.wwg135.intelligentpass5
 Version: 1.0.2
