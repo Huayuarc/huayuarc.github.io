@@ -16,6 +16,24 @@ Author: John Coates
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
 
+Package: Flex3beta
+Version: 1:3~Beta92
+Architecture: iphoneos-arm64e
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/roothide/Flex3beta92RootHide_BootStrap.deb
+Size: 9692932
+MD5sum: adcf19c3120534e5a827d87d1baa18e8
+SHA1: b9dd7456d2722301ba1fca7e33f722764377dd8e
+SHA256: 35e912e1686f53e6e9c5eb3b8abacf747722d7b84100d8bcd2f8560290d4633e
+Section: Tweaks
+Description: Develop your own tweaks and share them on the Flex Community Cloud
+Author: John Coates
+Name: Flex 3 Beta-Bootstrap (roothide)
+Recommended: com.rpetrich.rocketbootstrap
+
 Package: SwipeUnLock.rootless
 Version: 1.0.3
 Architecture: iphoneos-arm64
