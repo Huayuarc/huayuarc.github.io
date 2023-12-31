@@ -16,24 +16,6 @@ Author: John Coates
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
 
-Package: Flex3beta
-Version: 1:3~Beta92
-Architecture: iphoneos-arm64e
-Maintainer: John Coates
-Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/roothide/Flex3beta92RootHide_BootStrap.deb
-Size: 9692932
-MD5sum: adcf19c3120534e5a827d87d1baa18e8
-SHA1: b9dd7456d2722301ba1fca7e33f722764377dd8e
-SHA256: 35e912e1686f53e6e9c5eb3b8abacf747722d7b84100d8bcd2f8560290d4633e
-Section: Tweaks
-Description: Develop your own tweaks and share them on the Flex Community Cloud
-Author: John Coates
-Name: Flex 3 Beta-Bootstrap (roothide)
-Recommended: com.rpetrich.rocketbootstrap
-
 Package: SwipeUnLock.rootless
 Version: 1.0.3
 Architecture: iphoneos-arm64
@@ -120,23 +102,6 @@ Description: iOS自带键盘自定义。全选,复制,粘贴,选择,撤销，重
 Author: qwertyuiop1379 laileld
 Name: SwipeExtenderX键盘增强
 
-Package: cn.llld.dhjj
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 来了老弟 h_h_x_t
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/roothide/dhjj_1.0_iphoneos-arm64e.deb
-Size: 6048
-MD5sum: 529d6091bdb45508040f7d7831e3ec06
-SHA1: 78f16dc5829ae518c21a0996d13f6cc84c3617d0
-SHA256: b37f2449a979c79edd77520be2b24444d0d6a9b7c292d604220db84d5291d677
-Section: rootless插件
-Description: Telephone streamlining personal collection and voice messages。电话精简个人收藏和语音留言
-Author: 来了老弟 h_h_x_t
-Name: 电话精简收藏和语音留言-rootless
-
 Package: cn.llld.ftt
 Version: 0.1
 Architecture: iphoneos-arm64
@@ -150,54 +115,6 @@ Section: rootless插件
 Description: This is just the Chinese version of "ftt", the English version in（ https://github.com/randy-420/ftt ）Download。。。。工具作用：把Flex3补丁转换为Theos项目，原版(https://github.com/Randy-420/ftt)，补丁路径：/var/mobile/Library/Application Support/Flex3/patches.plist或前面加/var/jb
 Author: iPadKid358 Randy420
 Name: ftt中文版-rootless
-
-Package: cn.llld.ftt
-Version: 0.1
-Architecture: iphoneos-arm64e
-Maintainer: 来了老弟 h_h_x_t
-Pre-Depends: rootless-compat(>= 0.1)
-Filename: ./debs/roothide/ftt中文版-rootless.0.1.deb
-Size: 58134
-MD5sum: 6d143517d19aa4538c9336b301e075d8
-SHA1: 2f5e3484e08417517b0e35cd734fd851b0a20ba1
-SHA256: 2e92056e2ed38d68fe1e4abfa44d09f5be3418ba5b89274423bb6aac656ef9f9
-Section: rootless插件
-Description: This is just the Chinese version of "ftt", the English version in（ https://github.com/randy-420/ftt ）Download。。。。工具作用：把Flex3补丁转换为Theos项目，原版(https://github.com/Randy-420/ftt)，补丁路径：/var/mobile/Library/Application Support/Flex3/patches.plist或前面加/var/jb
-Author: iPadKid358 Randy420
-Name: ftt中文版-rootless
-
-Package: cn.llld.hidejb
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 来了老弟 h_h_x_t
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/roothide/隐藏桌面角标-rootless.1.0.deb
-Size: 5064
-MD5sum: a3616f9dcc4da87d3422db176b3890ea
-SHA1: 0ba185ccf5b4ba3d27995c1ac065ddb28c61448e
-SHA256: 83cc1034606443dc9461143ed1a7133a21f301f03a88eb60f7030c4eaa352fac
-Section: rootless隐藏专区
-Description: Hide IconBadge。隐藏桌面角标(消息提示)-rootless
-Author: 来了老弟 h_h_x_t
-Name: 隐藏桌面角标-rootless
-
-Package: cn.llld.keyboard
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 来了老弟
-Depends: mobilesubstrate
-Filename: ./debs/roothide/cn.llld.keyboard_1.0_iphoneos-arm64e.deb
-Size: 4636
-MD5sum: cd2d5ed4d818011da865957634be9326
-SHA1: 3f16bdd193785551cf59ec6ffe037fe7f9943b3a
-SHA256: 5ae017dd84a91df0947275556e26f390cac69b34606beb906df60496ce2bffc4
-Section: roothide插件
-Description: The password box can be used with third-party input methods密码框可用第三方输入---roothide
-Author: 来了老弟
-Name: 强制第三方输入法-roothide
-Sponsor: 来了老弟
 
 Package: cn.llld.minivx
 Version: 1.01
@@ -214,42 +131,6 @@ Section: rootless微信插件
 Description: 微信简洁辅助(抢红包，防撤回)-roootless
 Author: 来了老弟
 Name: 微信辅助(微生物)-rootless
-
-Package: cn.llld.minivx
-Version: 1.01
-Architecture: iphoneos-arm64e
-Maintainer: 来了老弟
-Installed-Size: 108
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/微信辅助微生物-rootless.1.01.deb
-Size: 18656
-MD5sum: 3cf835eb190337a7d307899795efa35e
-SHA1: d02ddc4743b7f6511bb4b090308fc6e9918fa259
-SHA256: 46d9d491d60268e4a7e3638817d578a2fe1f68abad90ec7bc48422b3c8caf05e
-Section: rootless微信插件
-Description: 微信简洁辅助(抢红包，防撤回)-roootless
-Author: 来了老弟
-Name: 微信辅助(微生物)-rootless
-
-Package: cn.llld.qqdsq
-Version: 0.00000003
-Architecture: iphoneos-arm64e
-Maintainer: 来了老弟 X：h_h_x_t
-Installed-Size: 404
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/roothide/芭比Q-rootless.0.00000003.deb
-Size: 62844
-MD5sum: 10d225768a2d6073cd919cc2eca46bcf
-SHA1: d469baf06a93a5526c110ae5c1e9b8e4ad9d1f37
-SHA256: 255604df68bb13d1989f630d69c14840d1e53afd5ac89458582fb71ca6d3e0fd
-Section: rootless插件
-Description: 给QQ加点小功能，有空就更，功能在手机"系统设置"。调试版本号：v8.9.58和v9.0.0.249和v9.0.1，别的版本需自测。在研究转发语音和空间跟圈，去广告，防撤回等一些功能还莫急，会上
-Author: 来了老弟 X：h_h_x_t
-Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons/tubiao1.png
-Name: 芭比Q-rootless
-Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
 
 Package: cn.llld.qqdsq
 Version: 1.01
@@ -269,22 +150,6 @@ Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons/tubiao1.p
 Name: 芭比Q-rootless
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
 
-Package: cn.llld.wechatautolock
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 来了老弟 h_h_x_t
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/WX跟随系统锁屏-rootless.1.0.deb
-Size: 6024
-MD5sum: 7db30285793a466ebab5f9ed2a1f97ae
-SHA1: c8fe5617f9eb55bfa720cd74b7f8cee4719ee7a7
-SHA256: 78eab6dc343f1ac91bb89400fd29276609ff745242faeb06711c1b1f58404940
-Section: rootless-wx插件
-Description: 允许WX在聊天界面时跟随系统自动锁屏,wx默认是5分钟的
-Author: iBreak
-Name: WX跟随系统锁屏-rootless
-
 Package: com.ali.aimpro
 Version: 1.0.5
 Architecture: iphoneos-arm64
@@ -301,23 +166,6 @@ Section: Tweaks
 Description: iOS 16风格的时间和日期锁屏
 Author: alimaulana
 Name: AIM Pro
-
-Package: com.amap
-Version: 1.2
-Architecture: iphoneos-arm64e
-Maintainer: M哥 <1358804498@qq.com>
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/高德地图（去广告+精简）.1.2.deb
-Size: 6400
-MD5sum: a2f5b8fce9d85ebe25586483bc7ac22d
-SHA1: c626bcae0fe284ea6e606b46c37fec92099a28fb
-SHA256: e180532dd906aa39e392ec635e15a3cb6cfb73c6298edc65c3ba1cce3eacc2da
-Section: Tweaks
-Description: 自用插件
-Author: M哥 <1358804498@qq.com>
-Name: 高德地图（去广告+精简）
 
 Package: com.amap
 Version: 1.3
@@ -411,23 +259,6 @@ Description: 自动面容ID解锁，解锁后直接进入主屏幕、隐藏解�
 Author: M哥
 Name: 自动面容ID解锁-rootless
 
-Package: com.autounlockface
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/自动面容ID解锁.1.1.deb
-Size: 4628
-MD5sum: 33fc402e4232c8bd16c99844daea3b3e
-SHA1: 18fcd5030f9d7696ec643a393db47b156fc37d93
-SHA256: f42410f9b90d40b79b58d054fe2fd2a80338f46336feb8384adc1c4b9e4488b2
-Section: Tweaks
-Description: 自动面容ID解锁，解锁后直接进入主屏幕、隐藏解锁图标、解锁延迟最小
-Author: M哥
-Name: 自动面容ID解锁
-
 Package: com.batterypercentage
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -460,23 +291,6 @@ Description: 中国银行去广告、精简。仅支持8.0以下版本
 Author: M哥
 Name: 中国银行NoAd-rootless
 
-Package: com.bocmbci
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 88
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/中国银行NoAd.1.0.deb
-Size: 5756
-MD5sum: 124e8fb645a696f2502eba975762927d
-SHA1: 869e67822b7a99aea95ecb97bebdce6a228a05cc
-SHA256: 7227ed6bf4a8fc0fda29b3316b7513fd7d67244ced18e731363d2757c3227317
-Section: Tweaks
-Description: 中国银行去广告、精简。仅支持8.0以下版本
-Author: M哥
-Name: 中国银行NoAd
-
 Package: com.brend0n.nopassafterrespringsafe
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -492,23 +306,6 @@ Section: Tweaks
 Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
 Author: Brend0n <brendonjkding@126.com>
 Name: NoPassAfterRespring (Safe)-rootless
-
-Package: com.brend0n.nopassafterrespringsafe
-Version: 0.0.2
-Architecture: iphoneos-arm64e
-Maintainer: Brend0n <brendonjkding@126.com>
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/NoPassAfterRespringSafe.0.0.2.deb
-Size: 4782
-MD5sum: 54ecac497c09ce66969283c0ca6ff3dd
-SHA1: 53424f7f07aa269cd42929a3e4fe0b72c20549d8
-SHA256: af8056dbf646c7ccdf577b21799dfb7cd2c2711e9dd879f613cb5f486e7fb485
-Section: Tweaks
-Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
-Author: Brend0n <brendonjkding@126.com>
-Name: NoPassAfterRespring (Safe)
 
 Package: com.chinamobile
 Version: 1.0
@@ -526,23 +323,6 @@ Description: 中国移动去广告
 Author: M哥
 Name: 中国移动NoAd-rootless
 
-Package: com.chinamobile
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 88
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/中国移动NoAd.1.0.deb
-Size: 3828
-MD5sum: e9513e25a27ed8bd7ddecb5e4c61fe3b
-SHA1: eca5ccc899ba4fc7111dcd0a0157e9f9f1305814
-SHA256: 1181516c85f94ec3e94534deb704744aacb6ba1613c7d464436d144744db6ecc
-Section: Tweaks
-Description: 中国移动去广告
-Author: M哥
-Name: 中国移动NoAd
-
 Package: com.chinaunicom
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -558,23 +338,6 @@ Section: Tweaks
 Description: 中国联通去广告
 Author: M哥
 Name: 中国联通NoAd-rootless
-
-Package: com.chinaunicom
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 88
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/中国联通NoAd.1.0.deb
-Size: 4098
-MD5sum: fed3b5b77bbb40d2ecbfa7cc6cdacfec
-SHA1: 8d7947a907739c9f95fe1b007a59e58e326c69da
-SHA256: 7bcbaf2a48dcde7e7f6db8a9e7d3dae5700118179c8bacc02069af58c3f40c88
-Section: Tweaks
-Description: 中国联通去广告
-Author: M哥
-Name: 中国联通NoAd
 
 Package: com.creaturecoding.libcspreferences
 Version: 1.5.8
@@ -737,23 +500,6 @@ Description: 支持Snapper3调用，安装以后呼出Snapper3会有一个长截
 Author: Jonathan Winger-lang
 Name: BigShot 长截图(rootless)
 
-Package: com.dao.bigshotsnapper3plugin
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: Jonathan Winger-lang
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
-Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
-Filename: ./debs/roothide/BigShot长截图rootless.1.1.deb
-Size: 25170
-MD5sum: c921a7846eb5ad40af0bbff5211c800c
-SHA1: 6fa9392b30d7b65c05667828e3cf528afa8e6732
-SHA256: 839a299b03cea70782b64ed165b255a994924167f6d0c2b77bc5107621bdc6b9
-Section: 嗨-工具
-Description: 支持Snapper3调用，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。也支持通过控制中心添加BigShot模块使用(没提示)。
-Author: Jonathan Winger-lang
-Name: BigShot 长截图(rootless)
-
 Package: com.dao.purifyads
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -841,27 +587,6 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro-rootless
 
-Package: com.exile90.icleanerpro
-Version: 7.10.0
-Architecture: iphoneos-arm64e
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: ./debs/roothide/iCleanerPro.7.10.0.deb
-Size: 2495672
-MD5sum: 5244307036e20d44fddb060f82a40573
-SHA1: e09eaaa6da9088f2ce5f28c2ee7045d5db1cd5ac
-SHA256: 44bf781e544ac5fde795b295f8b3bd9f42402f162d881ea2c88649298d460348
-Section: Utilities
-Homepage: http://ib-soft.net/icleaner
-Description: The first real iOS system cleanup and management utility
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: file:///Applications/iCleaner.app/Icon.png
-Name: iCleaner Pro
-
 Package: com.folder
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -878,23 +603,6 @@ Description: 隐藏文件夹后台背景，隐藏桌面文件夹背景，跳过�
 Author: M哥
 Name: 文件夹优化-rootless
 
-Package: com.folder
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/文件夹优化.1.1.deb
-Size: 5258
-MD5sum: b9bf7e7c80b9ab1b3f81de69b32c933d
-SHA1: 77effe1189d915778e6ec75c5ae155c3ebb0c8c3
-SHA256: fce56a559c3f7fa68be5922f1447e0ec1f4ccced780baf8395fffb6a7b79671a
-Section: Tweaks
-Description: 隐藏文件夹后台背景，隐藏桌面文件夹背景，跳过文件夹动画，任意关闭文件夹
-Author: M哥
-Name: 文件夹优化
-
 Package: com.hbwechathelper.ailun
 Version: 1.6.7
 Architecture: iphoneos-arm64
@@ -905,22 +613,6 @@ Size: 9541916
 MD5sum: 13b8aab00b53df395c092b5ead299bf4
 SHA1: 29a939f1733b8fda24c7286547733969c0d98cbd
 SHA256: 162aacf4a68f130c7975db3e6cd2f51983f13210ef747f5fe6511c0f6dcf1b30
-Section: Mao
-Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
-Author: HuangBai <QQ:1343309363@qq.com>
-Name: 黄白助手(微信插件)-Rootless
-
-Package: com.hbwechathelper.ailun
-Version: 1.6.7
-Architecture: iphoneos-arm64e
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/黄白助手微信插件-Rootless.1.6.7.deb
-Size: 27431424
-MD5sum: 1e03cd6e3be510bbcb9fd4128c5a118d
-SHA1: 79735f1ef81406b17692ce9f5ed1288ea67bd03d
-SHA256: 2820d6dea38a6191e14db8cf698ce4ed7aa29e44c6f17008ec9837305a277f3f
 Section: Mao
 Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
 Author: HuangBai <QQ:1343309363@qq.com>
@@ -957,23 +649,6 @@ Section: Tweaks
 Description: 隐藏截图预览、屏蔽设备无SIM卡弹窗、隐藏应用程序蓝点黄点、隐藏主屏幕翻页小白点、禁用主屏幕下拉搜索栏、禁用主屏幕负一屏和资源库、禁用通知中心负一屏、快速隐藏音量条
 Author: M哥
 Name: 主屏幕优化-rootless
-
-Package: com.homescreen
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/主屏幕优化.1.1.deb
-Size: 5274
-MD5sum: 393f1d5d15ebafb1641418decaba45b3
-SHA1: aeacabf3a70279dc01a14ca6346373f8f8027fc9
-SHA256: 05e8629f5b51bda7104555cfd4fc5b14a5db308e223bb6ba5d12c526d90f177a
-Section: Tweaks
-Description: 隐藏截图预览、屏蔽设备无SIM卡弹窗、隐藏应用程序蓝点黄点、隐藏主屏幕翻页小白点、禁用主屏幕下拉搜索栏、禁用主屏幕负一屏和资源库、禁用通知中心负一屏、快速隐藏音量条
-Author: M哥
-Name: 主屏幕优化
 
 Package: com.huayuarc.rootless.vfa
 Version: 1.1
@@ -1100,24 +775,7 @@ Architecture: iphoneos-arm64e
 Maintainer: John Coates
 Depends: mobilesubstrate, firmware (>= 9.0)
 Conflicts: me.tomt000.stageduo
-Filename: ./debs/roothide/Flex 3-Beta56Roothide_BootStrap.deb
-Size: 16667288
-MD5sum: 42bc8edfebdd5e4aa165641b617c6f94
-SHA1: 2ce916b718b84968beaff3d66f762bdeff5809e0
-SHA256: b406dc4e391e22b7279690ac6fdbef5e8de076583d1a84880f8a2e2bb9bc0c7b
-Section: Tweaks
-Description: Develop your own tweaks and share them on the Flex Community Cloud
-Author: John Coates modded by DXcool223
-Name: Flex 3 Beta
-Recommended: com.rpetrich.rocketbootstrap
-
-Package: com.johncoates.Flex
-Version: 1:3~Beta56-roothide
-Architecture: iphoneos-arm64e
-Maintainer: John Coates
-Depends: mobilesubstrate, firmware (>= 9.0)
-Conflicts: me.tomt000.stageduo
-Filename: ./debs/roothide/Flex_1:3~Beta56-roothide_iphoneos-arm64e.deb
+Filename: ./debs/rootless/Flex_1:3~Beta56-roothide_iphoneos-arm64e.deb
 Size: 16677596
 MD5sum: e7df6d197c62d7c1c52c069fdc374dc7
 SHA1: 87f336615d6099723a8b494fcf44ee6aa5fe8c52
@@ -1145,24 +803,6 @@ Description: Launch ANY app instantly
 Author: Jonathan Winger Lang <jontelang@gmail.com>
 Icon: file:///Library/PreferenceBundles/instalauncher2preferences.bundle/icons/preferences-icon@2x.png
 Name: InstaLauncher 2
-
-Package: com.jontelang.snapper3
-Version: 1.2
-Architecture: iphoneos-arm64e
-Maintainer: Jonathan Winger-lang
-Installed-Size: 4144
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: ./debs/roothide/Snapper3.1.2.deb
-Size: 2270970
-MD5sum: bbf0be56ea8b722a60500c7c217558a5
-SHA1: 141c0d1d6591c7920773a02c5d54731c0b61122c
-SHA256: 91b3e3c71c2ccb1c0aea0b0fa586faeeea91fd958a9b4ad3a3d7106a402a141e
-Section: Tweaks
-Description: Pin screenshots on the screen.
-Author: Jonathan Winger-lang
-Name: Snapper 3
 
 Package: com.joshuaseltzer.sleeperx
 Version: 1.2.4
@@ -1216,24 +856,6 @@ Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.
 Name: Hammer It-rootless
 
 Package: com.lclrc.hammerit
-Version: 1.4.5
-Architecture: iphoneos-arm64e
-Maintainer: lclrc(SquidForce)
-Installed-Size: 2344
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
-Filename: ./debs/roothide/hammerit_1.4.5.deb
-Size: 1169600
-MD5sum: 0c32a7bff776d91166b7bba6a15b4c18
-SHA1: f4043339f5269fb61ec9ab781ed9f3578183fb39
-SHA256: 1b8181f09250e4160f782c9eeba6c4ea544ca7deebd2e2cddab2c9b3eb3e2742
-Section: Tweaks
-Description: Control your text or translate as you wish.
-Author: lclrc(SquidForce)
-Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
-Name: Hammer It
-
-Package: com.lclrc.hammerit
 Version: 1.4.7
 Architecture: iphoneos-arm64
 Maintainer: lclrc(SquidForce)
@@ -1265,23 +887,6 @@ Section: Tweaks
 Description: 雷速体育去启动广告、屏蔽更新
 Author: M哥
 Name: 雷速体育-rootless
-
-Package: com.leisu
-Version: 1.2
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/雷速体育.1.2.deb
-Size: 4278
-MD5sum: 8b43755ab94547dcbae215fccc5046d0
-SHA1: 1110ed2291f9cc9ee09005c0b2bac489b48ec9c4
-SHA256: c51dbf51fe6a32aec7d6dc78ddcbe2fcf7adfc58cc7937e32804c64273c99a31
-Section: Tweaks
-Description: 雷速体育去启动广告、屏蔽更新
-Author: M哥
-Name: 雷速体育
 
 Package: com.lenglengyu.afakerxi-rootless
 Version: 1.0.3
@@ -1317,23 +922,6 @@ Description: 腾讯视频去广告
 Author: M哥
 Name: 腾讯视频NoAd-rootless
 
-Package: com.live4iphonerel
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 88
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/腾讯视频NoAd.1.0.deb
-Size: 6780
-MD5sum: 18d0276c313f7cbedaa444286b3f040d
-SHA1: d37bbf5a5e2dad395f24299ff8d659a989045c18
-SHA256: 1da698594eb6bee2e61cbd839d67df1c77f0fe05548ba2ab4972d9b3870208aa
-Section: Tweaks
-Description: 腾讯视频去广告
-Author: M哥
-Name: 腾讯视频NoAd
-
 Package: com.lizynz.vkshortcuts.rootless
 Version: 11.1
 Architecture: iphoneos-arm64
@@ -1367,23 +955,6 @@ Section: Tweaks
 Description: 省电模式电池颜色保持原生、锁屏来电拒接按钮、去锁屏音乐控件、屏蔽屏幕截图/录屏检测、隐藏锁屏底部文字提示、禁止锁屏充电亮屏
 Author: M哥
 Name: 锁屏优化-rootless
-
-Package: com.lockscreen
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/锁屏优化.1.1.deb
-Size: 5110
-MD5sum: 14a33a1310a1d282a361e591540484c0
-SHA1: 290fa94a38be3819e160cf7fc34e47588af8897b
-SHA256: 36316ebaf89cb3f35d905296389f4063e210e72f1931639662051dd768833050
-Section: Tweaks
-Description: 省电模式电池颜色保持原生、锁屏来电拒接按钮、去锁屏音乐控件、屏蔽屏幕截图/录屏检测、隐藏锁屏底部文字提示、禁止锁屏充电亮屏
-Author: M哥
-Name: 锁屏优化
 
 Package: com.maidanba
 Version: 1.0
@@ -1451,23 +1022,6 @@ Section: Tweaks
 Description: iOS 16 Style Battery Indicator
 Author: MTAC
 Name: Ampere-rootless
-
-Package: com.mtac.ampere
-Version: 1.4
-Architecture: iphoneos-arm64e
-Maintainer: MTAC
-Installed-Size: 604
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
-Filename: ./debs/roothide/Ampere.1.4.deb
-Size: 135248
-MD5sum: 03a28c3e7806840da3e2c19900f0e156
-SHA1: b1f9e6f33f812ecb34343e02dc7f1386e374722b
-SHA256: fff53d537907a96f9e41a025fe8880505facc746314655a534dcd49be1cda8c0
-Section: Tweaks
-Description: iOS 16 Style Battery Indicator
-Author: MTAC
-Name: Ampere
 
 Package: com.mtac.fingerlock
 Version: 3.0.2
@@ -1548,24 +1102,6 @@ Author: zhaonan <invalidunit@icloud.com>
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 Name: Give me deb
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
-
-Package: com.netskao.filzacrack.rootless
-Version: 1.1-8
-Architecture: iphoneos-arm64e
-Maintainer: Nets
-Installed-Size: 72
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
-Filename: ./debs/roothide/filzacrack.rootless_1.1-8_iphoneos-arm64e.deb
-Size: 6272
-MD5sum: 171190dd6bbefdda4aae5a2a406cb44e
-SHA1: 2a7b6f88710e40a582294cfc7c17bccce76e2ef9
-SHA256: c0fcad2803c2c65d0c6bd6a7128558f771eae3a66d4100eaff7140ece2a6dc79
-Section: A - Netskao
-Description: Filza unlock full functionality, the main program please install in the official source
-Author: Netskao
-Name: Filza Crack-roothide
-Sponsor: Nets
 
 Package: com.news
 Version: 1.0
@@ -1648,66 +1184,6 @@ Description: 通知中心左滑清除右滑打开、隐藏通知中心上/下分
 Author: M哥
 Name: 通知中心-rootless
 
-Package: com.notification
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/通知中心.1.1.deb
-Size: 4800
-MD5sum: 73433fe8f611866cbf062b1e88ab2836
-SHA1: 8d86616a72b78d324459c0e4b99b98f17c79a2d6
-SHA256: f99b88a7674be23adfbd6e49bd92e5cabeb80c1369f00b64962e146814a430e2
-Section: Tweaks
-Description: 通知中心左滑清除右滑打开、隐藏通知中心上/下分割线、隐藏通知中心翻页
-Author: M哥
-Name: 通知中心
-
-Package: com.opa334.altlist
-Version: 1.0.10-3
-Architecture: iphoneos-arm64e
-Maintainer: opa334
-Installed-Size: 340
-Depends: firmware (>=7.0)
-Filename: ./debs/roothide/com.opa334.altlist_1.0.10-3_iphoneos-arm64e.deb
-Size: 29424
-MD5sum: b335ef8fe1422cb70242a20c812fba29
-SHA1: a2d6b12800650902759da5f8fe57513fc82a8c86
-SHA256: 51dc382a266eba8ce2fbec2fa482541dd84968aae17f0dce9a868730c4725d6c
-Section: System
-Description: A modern AppList alternative
-Tag: role::developer
-Author: opa334
-Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
-Name: AltList
-
-Package: com.opa334.ccsupport
-Version: 1.3.12
-Architecture: iphoneos-arm64e
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 480
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: com.ioscreatix.silo
-Replaces: com.ioscreatix.silo
-Provides: com.ioscreatix.silo
-Filename: ./debs/roothide/CCSupport.1.3.12.deb
-Size: 74474
-MD5sum: 970848ed9f1398c473a1f614e1a09645
-SHA1: 4fb98c96d09cab56e9cf8abf4fcd2c4d5d5e0f7a
-SHA256: f29c24ca101c2ab278b51ff83c8501325c4887532749263ff573a2251603bb6f
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
-Description: Support tweak for CC modules!
-Tag: purpose::extension
-Author: opa334 <opa334@protonmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
-Dev: opa334
-Name: CCSupport
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Package: com.opa334.trollstorehelper
 Version: 2.0.8
 Architecture: iphoneos-arm64
@@ -1722,23 +1198,6 @@ Section: Applications
 Description: Helper utility to install and manage TrollStore!
 Author: opa334
 Name: TrollStore Helper
-
-Package: com.pinduoduo
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/拼多多.1.0.deb
-Size: 4690
-MD5sum: 60dd6a12af56f348e80bcbfdb4c5396b
-SHA1: b9a1e2ce7cebb917029a8239d25b4c1c789f6b04
-SHA256: f5da1dc94036e518d5d2c2fad113e519eec31bc01685d98ba509aa2c029711a5
-Section: Tweaks
-Description: 拼多多去广告
-Author: M哥
-Name: 拼多多
 
 Package: com.pinduoduo
 Version: 1.1
@@ -1772,22 +1231,6 @@ Description: Reinvent your keyboard with this full remake of the legendary Swipe
 Author: qwertyuiop1379 <support@qwertyuiop1379.com>
 Depiction: https://repo.chariz.com/package/com.qiop1379.swipeextenderx/
 Name: SwipeExtenderX
-
-Package: com.roothide.patchloader
-Version: 0.0.2-4+debug
-Architecture: iphoneos-arm64e
-Maintainer: roothide
-Installed-Size: 148
-Filename: ./debs/roothide/com.roothide.patchloader_0.0.2-4+debug_iphoneos-arm64e.deb
-Size: 4312
-MD5sum: 55ff9f67d3974074a3d921dd2e72a5fb
-SHA1: 1db78e5bbd42bd9b2b894e2b776a1fb672867a1c
-SHA256: 5c9962695e104bcb5c23abfd0ee51b0e245c33d12c73b9c8dd7a45534575be2d
-Section: System
-Description: RootHide Dynamic Patches Loader
-Tag: role::developer
-Author: roothide
-Name: PatchLoader
 
 Package: com.rpetrich.rocketbootstrap
 Version: 1.1.0~rootless
@@ -1894,23 +1337,6 @@ Description: 搜狗输入法去广告
 Author: M哥
 Name: 搜狗去广告-rootless
 
-Package: com.sogouinput
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/搜狗.1.0.deb
-Size: 8108
-MD5sum: bd5eb92c2b2a09a65f0fd657525d3e61
-SHA1: 7e9a1c7914bd1fa12e6c1f541a6af3aeedc234be
-SHA256: 3ba0d9812c2d411805991197499dbaaaa38dfcfce3b8b325ffd0c0b72ae2c5ab
-Section: Tweaks
-Description: 搜狗输入法去广告
-Author: M哥
-Name: 搜狗
-
 Package: com.sop.settingsrevamp
 Version: 2.0.3
 Architecture: iphoneos-arm64
@@ -1982,23 +1408,6 @@ Description: 状态栏隐藏（热点横幅、闹钟、蓝牙、热点、vpn、�
 Author: M哥
 Name: 状态栏优化-rootless
 
-Package: com.statusbar
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/状态栏优化.1.1.deb
-Size: 4922
-MD5sum: bf83989bfd5eb2b910b933a628144512
-SHA1: 8afdcb8d78069cb301405598d77e769c16126a4f
-SHA256: 8b7be2b4e518a0f76d64fd32e9ff9077006062b69144908be69d9373e279252a
-Section: Tweaks
-Description: 状态栏隐藏（热点横幅、闹钟、蓝牙、热点、vpn、旋转、勿扰通知）图标
-Author: M哥
-Name: 状态栏优化
-
 Package: com.switchbackground
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -2014,23 +1423,6 @@ Section: Tweaks
 Description: 多任务后台透明、iPad卡片式后台、后台隐藏图标标签
 Author: M哥
 Name: 多任务后台-rootless
-
-Package: com.switchbackground
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/多任务后台.1.1.deb
-Size: 4592
-MD5sum: 836dc03e7132289a6cbb9ee5e6e6050b
-SHA1: 568151b34beafb64b9cdbfd38b4de0261a94a2eb
-SHA256: 46b4526bef7d66b25fa5de3b9c024186c03a71042d813604209219821382fdfe
-Section: Tweaks
-Description: 多任务后台透明、iPad卡片式后台、后台隐藏图标标签
-Author: M哥
-Name: 多任务后台
 
 Package: com.taobao4iphone
 Version: 1.0
@@ -2103,23 +1495,6 @@ Description: 禁止通知中心信息堆叠，不重叠可以连续显示
 Author: M哥
 Name: 通知分组堆叠iOS15-rootless
 
-Package: com.tzfzdd
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/通知分组堆叠iOS15.1.1.deb
-Size: 4424
-MD5sum: 064499612752006be2d629d8d6ae003b
-SHA1: 9ecc8a8c575732ed96c46c62e737104245640f45
-SHA256: 8eb3e37233d7013e296a5c4f7cc5e85762032cb3ecebe56582df4502aa19267f
-Section: Tweaks
-Description: 禁止通知中心信息堆叠，不重叠可以连续显示
-Author: M哥
-Name: 通知分组堆叠 iOS15
-
 Package: com.violetpro
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -2153,23 +1528,6 @@ Description: 美团外卖去广告
 Author: M哥
 Name: 美团外卖NoAd-rootless
 
-Package: com.waimai
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 88
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/美团外卖NoAd.1.0.deb
-Size: 5850
-MD5sum: dbdc7f2704abb558165734ba20d43ee2
-SHA1: 815e960d760100c68444a5a9e976a8d275f65887
-SHA256: 1ec175737678e409d75ae197574533138ca630f96c296e6d152b7d130d946a8c
-Section: Tweaks
-Description: 美团外卖去广告
-Author: M哥
-Name: 美团外卖NoAd
-
 Package: com.weibo
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -2201,23 +1559,6 @@ Section: Tweaks
 Description: 最新威锋去广告
 Author: M哥
 Name: 威锋去广告-rootless
-
-Package: com.weifeng
-Version: 1.2
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/威锋去广告.1.2.deb
-Size: 6980
-MD5sum: 59f7409ad4e2f4fe2d2f2aeaf502dbf1
-SHA1: 9aaf33be449846b73b62b1436540a2e9915e8b2a
-SHA256: 7feda8a8a46516ba5e5e1bb2246d9077e1145e44d45e99433af303b64b5f6fbb
-Section: Tweaks
-Description: 最新威锋去广告
-Author: M哥
-Name: 威锋去广告
 
 Package: com.wilsonthewolf.eliza
 Version: 0.0.3
@@ -2308,24 +1649,6 @@ Icon: https://repo.packix.com/api/Packages/5c0014acb4bc37001219896c/icon/downloa
 Name: Zenith (iOS 15)
 
 Package: com.xx.dyhook
-Version: 1.1.5
-Architecture: iphoneos-arm64e
-Maintainer: x✨
-Installed-Size: 956
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/roothide/抖音图层一些调整.1.1.5.deb
-Size: 344152
-MD5sum: 56f0bdedecdbb0aa770a5fe54cb12aee
-SHA1: ca366db2cb7109817e056ab4623f4b5021f95898
-SHA256: 42d015574610868d083562755ac1d95e9ca9297713dfbb247c886e56a1c9cc96
-Section: Tweaks
-Description: 自用 首页视频界面双指双击弹出设置UI-或在"我-右上角打开" && 本人刚学一点 有问题请大佬多指教
-Author: x✨
-Name: 抖音图层一些调整
-Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
-
-Package: com.xx.dyhook
 Version: 1.1.6
 Architecture: iphoneos-arm64
 Maintainer: x✨
@@ -2373,23 +1696,6 @@ Section: Tweaks
 Description: 屏蔽1.1.3 | 1.1.4版本越狱检测(请使用Choicy禁止注入其他插件) -- 逆向练习
 Author: x✨
 Name: 数字人民币屏蔽越狱
-
-Package: com.xx.jrtthook
-Version: 1.0.1
-Architecture: iphoneos-arm64e
-Maintainer: x✨
-Installed-Size: 580
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/roothide/今日头条_1.0.1.deb
-Size: 211690
-MD5sum: 6499fdfcdb4a2d314f59a54306cadd87
-SHA1: 0a6a4f6666f7f02bf7d58777dd209695c4df495a
-SHA256: ebf4f7f4ebf8fb778157ffc36d980a9909ff75a95e7fc59c406fb21a206e1da9
-Section: Tweaks
-Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项 -- 支持pro版 -- 1.0.1 new:精选页悬浮促销移除,视频推荐页右上角@水印移除
-Author: x✨
-Name: 今日头条Hook
 
 Package: com.xx.jrtthook
 Version: 1.0.2
@@ -2506,23 +1812,6 @@ Description: 隐藏锁屏相机手电筒，禁用左滑
 Author: M哥
 Name: 隐藏相机手电筒-rootless
 
-Package: com.yccameraflight
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/隐藏相机手电筒.1.1.deb
-Size: 4518
-MD5sum: a9d244f47d0f25f76e2c83c988cd1e20
-SHA1: 15a5ec3f448968b9d27b332615fd1155493f93c1
-SHA256: 3b9cba5e87b2a8f2936a3b271509bd0e6984e178f11dfe71cb6ab31ed6028b26
-Section: Tweaks
-Description: 隐藏锁屏相机手电筒，禁用左滑
-Author: M哥
-Name: 隐藏相机手电筒
-
 Package: com.ycdock
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -2538,23 +1827,6 @@ Section: Tweaks
 Description: 隐藏dock背景
 Author: M哥
 Name: 隐藏dock背景-rootless
-
-Package: com.ycdock
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/隐藏dock背景.1.1.deb
-Size: 4266
-MD5sum: e925cadaa8dddd338bf7370c7f4a5645
-SHA1: 8512e3d864556331fcc0731aa897586f19b85daa
-SHA256: e1d0b284e337c7321bc6a1a28a14279ad4b7d49774ab6976db6609a952599487
-Section: Tweaks
-Description: 隐藏dock背景
-Author: M哥
-Name: 隐藏dock背景
 
 Package: com.ychengtiao
 Version: 1.1
@@ -2572,23 +1844,6 @@ Description: 隐藏手势小横条、左上角返回程序、右上角小白条
 Author: M哥
 Name: 隐藏手势小横条-rootless
 
-Package: com.ychengtiao
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/隐藏手势小横条.1.1.deb
-Size: 4658
-MD5sum: 3358389881b50a52846d6b5e286f5185
-SHA1: 3077d32ebd13dcc628113f1ab757a21945a59d9d
-SHA256: 7ce29d62b9e116bb8f448e8157fa8844814793d38ec3c394f1dcee6a499e1f3b
-Section: Tweaks
-Description: 隐藏手势小横条、左上角返回程序、右上角小白条
-Author: M哥
-Name: 隐藏手势小横条
-
 Package: com.ycnc
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -2600,23 +1855,6 @@ Size: 2782
 MD5sum: 2b377e3b6fd8959fff67ec7cb94696f9
 SHA1: 0f886b4b68eebc91dffea822fd312234cb16e368
 SHA256: 3a6d9b6ef82baf4f6c64d88a4d781318926fbc815f920d922a50b681d6406eaa
-Section: Tweaks
-Description: 锁屏，隐藏"没有更早的通知"提示
-Author: M哥
-Name: 隐藏"没有更早的通知"-rootless
-
-Package: com.ycnc
-Version: 1.2
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/隐藏"没有更早的通知"-rootless.1.2.deb
-Size: 4368
-MD5sum: d9a97566d9533bfccfa507d303ce3bb4
-SHA1: 183a79d9c450e2e6fa113088051e75bc0996d8ad
-SHA256: a3b62ffce216466e8c67d02158d552f038d6eb6ce6b9235e99c5f88b312ecb1f
 Section: Tweaks
 Description: 锁屏，隐藏"没有更早的通知"提示
 Author: M哥
@@ -2658,29 +1896,6 @@ Author: AnubisTweaks <pixellark@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=phoneenhancer15Dp
 Dev: anubistweaks
 Name: Phone Enhancer 15-rootless
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: eg.anubistweaks.phoneenhancer15
-Version: 1.6.5
-Architecture: iphoneos-arm64e
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 167
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: ./debs/roothide/PhoneEnhancer15.1.6.5.deb
-Size: 8028
-MD5sum: 20305eb522028e0368ab77991135be96
-SHA1: 59442db152c329279d201afc8d7e9142a0ac724d
-SHA256: 0036f77b4ef1805867ef9211e21c2d4b541784dcaf0db54d2cc1cb1acf1e6ee4
-Section: Tweaks
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=phoneenhancer15Dp
-Description: Phone app as supposed to be
-Tag: purpose::extension
-Author: AnubisTweaks <pixellark@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=phoneenhancer15Dp
-Dev: anubistweaks
-Name: Phone Enhancer 15
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: emt.paisseon.satella
@@ -2889,23 +2104,6 @@ Description: Conveniently switch between logged-in accounts, long press the desk
 Author: Netskao
 Name: StoreSwitchAccounts-Rootless
 
-Package: netskao.storeswitchaccounts-rootless
-Version: 1.1-2
-Architecture: iphoneos-arm64e
-Maintainer: Nets
-Installed-Size: 232
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/roothide/StoreSwitchAccounts-Rootless.1.1-2.deb
-Size: 72594
-MD5sum: 6fd7e740e7b9db2bf09c97ed63336214
-SHA1: ba95e5d84a991024d83c714f4a24211479431e4c
-SHA256: 00385e80d57be8bfa9fd6651fae42c3f4563251ba77bfc54e9d09926139158e1
-Section: Netskao-Tweaks
-Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
-Author: Netskao
-Name: StoreSwitchAccounts-Rootless
-
 Package: netskao.wechatnotiavatar
 Version: 1.1-7
 Architecture: iphoneos-arm64
@@ -2922,23 +2120,6 @@ Description: Display Notification Avatars for WeChat App using iOS15 APIs
 Author: Netskao
 Name: WeChatNotiAvatar-rootless
 
-Package: netskao.wechatnotiavatar
-Version: 1.1-7
-Architecture: iphoneos-arm64e
-Maintainer: Nets
-Installed-Size: 1140
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate
-Filename: ./debs/roothide/WeChatNotiAvatar.1.1-7.deb
-Size: 311604
-MD5sum: 2fbec98560ed110766bf459239e31498
-SHA1: 999aed16378b3829f572365cc24726267859a25a
-SHA256: 4c20f6e4c4b3000d72dc3b5de8b2bc74797e59d61dc9c785da5d288bd40963f9
-Section: Netskao-Tweaks
-Description: Display Notification Avatars for WeChat App using iOS15 APIs
-Author: Netskao
-Name: WeChatNotiAvatar
-
 Package: org.coolstar.sileo
 Version: 2.5
 Architecture: iphoneos-arm64
@@ -2949,23 +2130,6 @@ Size: 2805360
 MD5sum: c5e401c8bf46634fde4fde363debc70a
 SHA1: cca1b0a4d9f75337bd7565adb87ae367f7931855
 SHA256: 68e992fb81ec64d5530fa4d45964a3ba619d7408cc0f0a2dac461d9b1143e048
-Section: Packaging
-Description: A modern APT package manager frontend
-Author: Amy While <me@anamy.gay>
-Icon: https://getsileo.app/img/icon.png
-Name: Sileo
-Sileodepiction: https://featuredpage.getsileo.app/depiction.json
-
-Package: org.coolstar.sileo
-Version: 2.5-11
-Architecture: iphoneos-arm64e
-Maintainer: Amy While <me@anamy.gay>
-Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./debs/roothide/sileo_2.5-roothide.deb
-Size: 4135984
-MD5sum: 706470417703fece725e0e9a8aee08fd
-SHA1: 987c5efaedb364c7529c9894673315dbe8cb0096
-SHA256: 6e72da3fd508a900b50213b822795e1139002184d3b99c98f87171e7d3974338
 Section: Packaging
 Description: A modern APT package manager frontend
 Author: Amy While <me@anamy.gay>
@@ -2990,25 +2154,6 @@ Section: System
 Description: load preferences in style
 Author: Dustin Howett
 Name: PreferenceLoader - rootless (top)
-
-Package: preferenceloader.rootless.top
-Version: 2.2.6.6
-Architecture: iphoneos-arm64e
-Maintainer: zp,Dustin Howett
-Installed-Size: 337
-Pre-Depends: rootless-compat(>= 0.1)
-Conflicts: preferenceloader, preferenceloader.rootless
-Replaces: preferenceloader
-Provides: preferenceloader (= 2.2.6)
-Filename: ./debs/roothide/preferenceloader.rootless.top_2.2.6.6_iphoneos-arm64e.deb
-Size: 17520
-MD5sum: c8374d0a877f9153b1b3d25110c4f54e
-SHA1: 2f9dd1490d54146f78c08aee1605bd88954f5316
-SHA256: a41c5a77bbee2fba87660acbcc4e8c393f006ad4ca8bccdaa0391f07d823ae1f
-Section: System
-Description: load preferences in style
-Author: Dustin Howett
-Name: PreferenceLoader - roothide (top)
 
 Package: sakal
 Version: 2.1.9
@@ -3067,22 +2212,6 @@ Description: 微信简洁辅助(自动确认登录，微信callkit，公众号�
 Author: M哥
 Name: 微信辅助_rootless
 
-Package: wechatplugin
-Version: 3.2.0
-Architecture: iphoneos-arm64e
-Maintainer: M哥
-Pre-Depends: rootless-compat (>= 0.1)
-Depends: mobilesubstrate
-Filename: ./debs/roothide/wechatplugin_3.2.0_iphoneos-arm64e.deb
-Size: 11728
-MD5sum: b813a26e6ea9a5516062d5283416a352
-SHA1: bf73d201396f760f4c04eeeccefa92c6fc5e49ad
-SHA256: ec959046a876a79ed7993d5efc9000624d2826e1d4d06dd7543aed4d5e0dd55f
-Section: rootless微信插件
-Description: 微信简洁辅助(自动确认登录，微信callkit，公众号去广告)-roootless
-Author: M哥
-Name: 微信辅助_rootless
-
 Package: wiki.qaq.chromatic.rootless
 Version: 2.1-REL-1700097956.e9752be
 Architecture: iphoneos-arm64
@@ -3101,26 +2230,6 @@ Author: Saily Team <support.0xa1@qaq.wiki>
 Depiction: https://sailyteam.github.io/Saily/index.html
 Icon: https://sailyteam.github.io/Saily/Resources/icon.png
 Name: Saily - rootless (zp)
-Website: https://sailyteam.github.io/Saily/index.html
-
-Package: wiki.qaq.chromatic.rootless
-Version: 2.1-REL-1700097956.e9752be
-Architecture: iphoneos-arm64e
-Maintainer: Saily Team <support.0xa1@qaq.wiki>
-Pre-Depends: rootless-compat(>= 0.1), firmware (>= 13.0), dpkg, uikittools
-Conflicts: wiki.qaq.chromatic
-Filename: ./debs/roothide/saily.deb
-Size: 6926536
-MD5sum: fe0e30cf96f41d57c97905debff494f0
-SHA1: 32f0cbdb6160a50f2a634493ed50b8bdc3913c16
-SHA256: 58f92dbb36e342b253052512a41d99e09bf5689ef4f64d3ee7d5f46ac79dcdd1
-Section: Applications
-Homepage: https://sailyteam.github.io/Saily/index.html
-Description: Modern. Fast. Beautiful.
-Author: Saily Team <support.0xa1@qaq.wiki>
-Depiction: https://sailyteam.github.io/Saily/index.html
-Icon: https://sailyteam.github.io/Saily/Resources/icon.png
-Name: Saily - roothide (zp)
 Website: https://sailyteam.github.io/Saily/index.html
 
 Package: ws.hbang.common
@@ -3266,21 +2375,4 @@ Description: 这是一个极致的电池监控、保存和调整工具。它是�
 Author: elias
 Icon: https://media.havoc.app/6380e31f7246bed7c12ae8e4
 Name: SmartBattery iOS 15 - 16
-
-Package: zp.fix120hz.rootless
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: zqbb
-Installed-Size: 88
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/roothide/fix120hz突破动态刷新率限制.1.1.deb
-Size: 5356
-MD5sum: 37088e9bb059c35e0a79e847c3e656f7
-SHA1: d7c6e4be41ef6cd7cf4d3e5b357a07132e588d88
-SHA256: a878d0462b4b5bb98b2be4eab59cf0ad8b38677ceb93a5c438a70b64318063c7
-Section: Tweaks
-Author: zqbb
-Name: fix120hz 突破动态刷新率限制
-Sileodepiction: https://rootless.zqbb.cf/web/zp.fix120hz.rootless
 
