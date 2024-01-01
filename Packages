@@ -168,6 +168,24 @@ Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubi
 Name: 芭比Q-rootless
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
 
+Package: cn.llld.qqdsq
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 300
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/rootless/cn.llld.qqdsq_1.1.1_iphoneos-arm64.deb
+Size: 75022
+MD5sum: 7a896d4af5f3a8ba96b151b533f56dfa
+SHA1: fee0dd266da133a000ddd448b1220a89547a3887
+SHA256: 2f029294bb2969b1e42eb221a3ac22b0a4b6fb742441c2c256ade2f704843032
+Section: rootless插件
+Description: 给QQ加点小功能，有空就更，功能在手机"系统设置"。调试版本号：v8.9.58和v9.0以上，别的版本需自测。
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubiao1.png
+Name: 芭比Q-rootless
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
+
 Package: com.ali.aimpro
 Version: 1.0.5
 Architecture: iphoneos-arm64
@@ -1715,6 +1733,22 @@ Description: 屏蔽1.1.3 | 1.1.4版本越狱检测(请使用Choicy禁止注入�
 Author: x✨
 Name: 数字人民币屏蔽越狱
 
+Package: com.xx.gaodehook
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 288
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootless/com.xx.gaodehook_1.0.0_iphoneos-arm64.deb
+Size: 83400
+MD5sum: db2e5d898e48ed189a0dd0e87b9f016c
+SHA1: cd0f03dd94d36ea74310c1b43f95b7ecee58a14b
+SHA256: 90acc4fe1386147db8d73091c726de9d1c17afebc943422b5266b3a339ded537
+Section: Tweaks
+Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭
+Author: x✨
+Name: 高德地图优化
+
 Package: com.xx.jrtthook
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -1763,6 +1797,22 @@ Description: 点击APP右下角-我-右上角三横-长按打开菜单开启功�
 Author: x✨
 Name: 快手Hook
 
+Package: com.xx.kshook
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 596
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootless/com.xx.kshook_1.0.3_iphoneos-arm64.deb
+Size: 174896
+MD5sum: aa109eda335d1ca6cffabfd96c5588b4
+SHA1: bf0c287a1170a8cd586dfb4d535d91b2068b7328
+SHA256: 17c57991774ecf16e2d28fbeb74787ddac4b8ef5ed0b6a78b5b31b3d0b41ae25
+Section: Tweaks
+Description: 点击APP右下角-我-右上角三横-长按打开菜单开启功能。功能：移除一些广告|弹窗--无水印保存视频图片 -- 1.0.3更新:fix bug
+Author: x✨
+Name: 快手Hook
+
 Package: com.xx.xhshook
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -1792,6 +1842,22 @@ SHA1: 4a799f172f332b421bc5d0a6a39db6a7e73ca877
 SHA256: 1d1885e2735d3f27e7e71545a8103e74c1ad62c5e6d90a60159ab797a16abfa2
 Section: Tweaks
 Description: 朋友需要才制作了此插件.APP设置界面双指长按出现菜单 功能：默认移除一些广告 -- 原生按钮无水印保存图片-视频-live图 -- 长按复制文案 new: 1.0.1修复图文文案无法复制问题. 1.0.2 尝试修复部分账号无法保存评论区图片的问题.
+Author: x✨
+Name: 小红薯调整
+
+Package: com.xx.xhshook
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 308
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/rootless/com.xx.xhshook_1.0.3_iphoneos-arm64.deb
+Size: 93980
+MD5sum: d56f48a4f1896fdcccd1a487bda63c06
+SHA1: 4cf39cf3994f6fcd0055f57d693980d74993f5c3
+SHA256: 3ee97fbb86ed80e13e3b97b62439bfb09d7223498bc3ac0153d591f5709c8c9b
+Section: Tweaks
+Description: 朋友需要才制作了此插件.APP设置界面双指长按出现菜单 功能：默认移除一些广告 -- 原生按钮无水印保存图片-视频-live图 -- 长按复制文案 | 1.0.3更新内容：尝试解决live图有时无法保存的问题
 Author: x✨
 Name: 小红薯调整
 
