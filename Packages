@@ -1304,6 +1304,25 @@ Author: qwertyuiop1379 <support@qwertyuiop1379.com>
 Depiction: https://repo.chariz.com/package/com.qiop1379.swipeextenderx/
 Name: SwipeExtenderX
 
+Package: com.roothide.patcher
+Version: 1.5-13+debug
+Architecture: iphoneos-arm64e
+Maintainer: RootHide
+Installed-Size: 3112
+Depends: firmware (>= 15.0), odcctools, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), rsync
+Filename: ./debs/com.roothide.patcher_1.5-13+debug_iphoneos-arm64e.deb
+Size: 952392
+MD5sum: 263e005a07adefe52b462d5b3def09ae
+SHA1: c76b941bbe43edb04b761a512e97e7362ea592d4
+SHA256: 362731a6bb35add677c1e554d4d91b733b795ca4511a3a46844393d5e9daf71b
+Section: Utilities
+Description: 一款将无根插件转换的roothide插件的程序，由M哥编译汉化.
+Author: RootHide
+Depiction: https://github.com/RootHide/RootHideManagerApp
+Icon: https://github.com/RootHide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
+Name: RootHide Patcher
+Support: https://github.com/RootHide/RootHideManagerApp
+
 Package: com.rpetrich.rocketbootstrap
 Version: 1.1.0~rootless
 Architecture: iphoneos-arm64
