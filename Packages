@@ -2277,15 +2277,15 @@ Name: Sileo
 Sileodepiction: https://featuredpage.getsileo.app/depiction.json
 
 Package: org.coolstar.sileo
-Version: 2.5-12
+Version: 2.5-11
 Architecture: iphoneos-arm64e
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./debs/sileo_2.5-roothide.deb
-Size: 4136904
-MD5sum: 267ddd46c3541e6fe85835caf3fba259
-SHA1: 063f96da98ee85a8aca4626641e827af99fe2679
-SHA256: d6d32e71feffd2549d7b74e82fdb2421a51f3bf33e48e5418e1165565ec01085
+Filename: ./debs/sileo_2.5-11.deb
+Size: 4138160
+MD5sum: 5378d083451e286e215ba85da890477e
+SHA1: 5030a259cf3fa2dfa2069cbb669dfec5561fd15e
+SHA256: e37a6cc9e37135a93501f5efb096ce8a7548e5b0e5cc8c193b8637c787a14982
 Section: Packaging
 Description: A modern APT package manager frontend
 Author: Amy While <me@anamy.gay>
