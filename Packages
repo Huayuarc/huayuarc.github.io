@@ -1722,6 +1722,20 @@ Author: Nightwind
 Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
 Name: OneSettings
 
+Package: com.wwg135.terminal
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Filename: ./debs/terminal_1.0_iphoneos-arm64.deb
+Size: 18347040
+MD5sum: 0c719100be3fb5ea66dcff71a8f25922
+SHA1: 59fc14e23515de2de7c37228d5721b4c9fe6daf3
+SHA256: d6b2590e09b1627fe566ff0f0051e946fc4f851ded32ddae4f5feee368a07cd5
+Section: Applications
+Description: iOS Terminal
+Author: Tim Apple
+Name: Terminal
+
 Package: com.wwg135.zenith14
 Version: 1.2.14
 Architecture: iphoneos-arm64
