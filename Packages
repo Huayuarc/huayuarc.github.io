@@ -16,6 +16,43 @@ Author: John Coates
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
 
+Package: Flex3beta
+Version: 1:3~Beta92
+Architecture: iphoneos-arm64
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/Flex3beta92doamine&palera1n.deb
+Size: 9642800
+MD5sum: b68b88f5f57c83e5a3a00edd6621ec03
+SHA1: 8cfe0e893bce10217b703f38623b38f2da98ee8f
+SHA256: 1e611d30c10d9efeebf76dbe2f5e69abb803fe590872c9f2022edaca2167668d
+Section: Tweaks
+Description: Develop your own tweaks and share them on the Flex Community Cloud
+Author: John Coates
+Name: Flex 3 Beta
+Recommended: com.rpetrich.rocketbootstrap
+
+Package: Flex3beta
+Version: 1:3~Beta92
+Architecture: iphoneos-arm64e
+Maintainer: John Coates
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/Flex3Roothide_beta92.deb
+Size: 25126792
+MD5sum: 66cc9074b68a2dcc9b3e5643297836a8
+SHA1: 9d88ec0dba5361e5957bc8a18e452c1d705ccd89
+SHA256: ac17a10152366180918aa6dfc122f5b4dab7bd73f6bb5d690a60611aecfc0d5c
+Section: Tweaks
+Description: Develop your own tweaks and share them on the Flex Community Cloud
+Author: John Coates
+Name: Flex 3 Beta
+Recommended: com.rpetrich.rocketbootstrap
+
 Package: SwipeUnLock.rootless
 Version: 1.0.3
 Architecture: iphoneos-arm64
@@ -1670,23 +1707,6 @@ Icon: https://repo.shorty.systems/icons/com.wilsonthewolf.eliza.png
 Name: Eliza
 Sileodepiction: https://repo.shorty.systems/depictions/sileo/com.wilsonthewolf.eliza
 
-Package: com.wwg135.flex3beta11
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 X :h_h_x_t
-Depends: mobilesubstrate, firmware (>= 9.0)
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, com.abcydia.Flex3
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
-Filename: ./debs/com.wwg135.flex3beta11_1.0.1_iphoneos-arm64.deb
-Size: 15190200
-MD5sum: dd38e63db97650b1626e0ec4f4228a92
-SHA1: 7076c2644c8ba9c24250a3c99db0bd459c91eeb7
-SHA256: 3d3938391d3d47e98cbfd437d1536dcef35519d7ba2c20b7e9863a57857ca3c0
-Section: rootless修复插件
-Description: Before use, please copy the application bundle that needs to be parsed to/var/jb/usr/lib/TweakInject/Flex.plist and fill it in. Warning: System patches are not supported, do not fill in com.apple.UIKit or com.apple.springboard。Only effective for third-party applications, the patch list can be parsed and displayed.。使用前请把需要解析的应用bundle拷贝到/var/jb/usr/lib/TweakInject/Flex.plist中填入，警告：不支持系统补丁，不要填入com.apple.UIKit或com.apple.springboard等，只对第三方应用生效，可解析，可显示补丁列表。
-Author: John Coates 来了老弟
-Name: Flex3 Beta程序修改器-Xina2
-
 Package: com.wwg135.intelligentpass5
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -2069,23 +2089,6 @@ Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paiss
 Icon: https://paisseon.github.io/icons/Satella.png
 Name: Satella
 Sileodepiction: https://paisseon.github.io/depictions/Satella.json
-
-Package: flex3beta11
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 X :h_h_x_t
-Depends: mobilesubstrate, firmware (>= 9.0)
-Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, com.abcydia.flex3
-Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog
-Filename: ./debs/Flex3Beta程序修改器-xina2.1.0.2.deb
-Size: 15198032
-MD5sum: 0f38f5265bb312f32edfb20c7b96697b
-SHA1: 85efec41fbf583310b83eabf108783a41c77683d
-SHA256: 3529918428f7a144b0ef9586bb48c7ce1d5686cacd170ad00e16a9b53a7ca4a9
-Section: rootless修复插件
-Description: Only effective for third-party applications, the patch list can be parsed and displayed.。If the parsed application crashes or freezes,choicy tweak select only the injection of flex3, and then enable other injections after parsing，The xina2 version is only recommended for 2.0.18 or above, and update 1.0.2 separately.只对第三方应用生效，可解析，可显示补丁列表。若解析的应用闪退或者卡屏，用choicy只准flex3的注入，解析后再开启别的注入。xina2版本只建议2.0.18或以上用，不然别更新1.0.2。
-Author: John Coates 来了老弟
-Name: Flex3 Beta程序修改器-xina2
 
 Package: jp.akusio.milkyway4
 Version: 0.1.1
