@@ -1178,22 +1178,6 @@ Description: 美图秀秀去广告
 Author: M哥
 Name: 美图秀秀去广告NoAd-rootless
 
-Package: com.nan.givemedeb
-Version: 0.1.5
-Architecture: iphoneos-arm64
-Maintainer: zhaonan
-Filename: ./debs/com.nan.givemedeb_0.1.5_iphoneos-arm64.deb
-Size: 1940
-MD5sum: 4e6ac7434681a3a23111d3892f4e2f4e
-SHA1: bc259ee4adc1584242712195769803eb461f9b26
-SHA256: 10a8663a283cfe41d4ca15586ff49bb7b4326d0d89d0053383d123932417172f
-Section: Addons
-Description: 尝试保存 apt 缓存目录下所有 deb。
-Author: zhaonan <invalidunit@icloud.com>
-Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
-Name: Give me deb
-Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
-
 Package: com.news
 Version: 1.0
 Architecture: iphoneos-arm64
