@@ -1605,6 +1605,44 @@ Description: 禁止通知中心信息堆叠，不重叠可以连续显示
 Author: M哥
 Name: 通知分组堆叠iOS15-rootless
 
+Package: com.udevs.dockx
+Version: 2.4.6
+Architecture: iphoneos-arm64e
+Maintainer: udevs
+Installed-Size: 1596
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/DockX_2.4.6_RootHide.deb
+Size: 293844
+MD5sum: f53375bd21e184c2e5b4d5ca2b6cdf52
+SHA1: cc3524aa0b910204e36f2683f34bc0cb3bd862de
+SHA256: c86c69d9d27b5e858c2f2f98a7947e16856911ddd12fb77c695b6f583668d596
+Section: Tweaks
+Description: Pasteboard shortcuts on your keyboard dock!
+Author: udevs
+Depiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
+Name: DockX
+
+Package: com.udevs.dockx
+Version: 2.4.6
+Architecture: iphoneos-arm64
+Maintainer: udevs
+Installed-Size: 1596
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/DockX_2.4.6_rootless.deb
+Size: 293776
+MD5sum: 71aa5460020532a3e8fe52929f6e8e53
+SHA1: f4725aadbe9f90706e8da8492909dfe3e5a33933
+SHA256: 240838df678c6c982302da4e9d93cbf48b5c391c6d9bc850b53bd211d6f1180c
+Section: Tweaks
+Description: Pasteboard shortcuts on your keyboard dock!
+Author: udevs
+Depiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
+Name: DockX
+
 Package: com.violetpro
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -2275,6 +2313,22 @@ Section: Netskao-Tweaks
 Description: Display Notification Avatars for WeChat App using iOS15 APIs
 Author: Netskao
 Name: WeChatNotiAvatar-rootless
+
+Package: netskao.wechatnotiavatar
+Version: 1.1-7
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1140
+Depends: firmware (>= 15.0), firmware (<< 16.0), mobilesubstrate
+Filename: ./debs/WeChatNotiAvatar.1.1-7.deb
+Size: 223000
+MD5sum: e6898ba51d4a217f45bdd102afd9f5dc
+SHA1: 52568e3c25c4e0425181b35896d5bf811a99736c
+SHA256: 9878dfcc60acf71f08bda8a57e346f21ac27585c5cadd21e22fc19798932235d
+Section: Netskao-Tweaks
+Description: Display Notification Avatars for WeChat App using iOS15 APIs
+Author: Netskao
+Name: WeChatNotiAvatar
 
 Package: org.coolstar.sileo
 Version: 2.5
