@@ -1,22 +1,4 @@
 Package: Flex3beta
-Version: 1:3~Beta56
-Architecture: iphoneos-arm64
-Maintainer: John Coates
-Depends: firmware (>= 9.0)
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
-Filename: ./debs/Flex3beta_1:3~Beta56.deb
-Size: 16823272
-MD5sum: 2971a79b9ec689bdcf9254188b2a69c1
-SHA1: 0fd00bc178e0f2ada267cb237f42d09e09750f8d
-SHA256: a949a59763841750cc89112ccc004db507e23fa078f96a46c3e136b5d47e36fc
-Section: Tweaks
-Description: 开发您自己的调整并在Flex社区云上共享。（加入来了老弟的汉化包），只对第三方应用生效！
-Author: John Coates
-Name: Flex 3 Beta
-Recommended: com.rpetrich.rocketbootstrap
-
-Package: Flex3beta
 Version: 1:3~Beta92
 Architecture: iphoneos-arm64
 Maintainer: John Coates
@@ -2089,6 +2071,24 @@ Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paiss
 Icon: https://paisseon.github.io/icons/Satella.png
 Name: Satella
 Sileodepiction: https://paisseon.github.io/depictions/Satella.json
+
+Package: flex3beta
+Version: 1:3~Beta56
+Architecture: iphoneos-arm64
+Maintainer: John Coates
+Depends: firmware (>= 9.0)
+Recommends: com.rpetrich.rocketbootstrap
+Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog
+Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog
+Filename: ./debs/Flex3Beta.1:3~Beta56.deb
+Size: 16970964
+MD5sum: 41f63043531fd30d2d6dba2c1fbb0fb3
+SHA1: 9b3fd070a63e305946583fd9ed97807af7ead715
+SHA256: 2cb0b4df9ce38e539b3c652f33aa480687f192c971666299409fef371a942e06
+Section: Tweaks
+Description: 开发您自己的调整并在Flex社区云上共享。（加入来了老弟的汉化包），只对第三方应用生效！
+Author: John Coates
+Name: Flex 3 Beta
 
 Package: jp.akusio.milkyway4
 Version: 0.1.1
