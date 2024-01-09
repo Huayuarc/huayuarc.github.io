@@ -1166,6 +1166,25 @@ Description: An intuitive way to unlock your device
 Author: MTAC <mtac@mtac.app>
 Name: FingerLock
 
+Package: com.mtac.launchlogo
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 432
+Depends: firmware (>=14.0)
+Filename: ./debs/com.mtac.launchlogo_1.0_iphoneos-arm64.deb
+Size: 32876
+MD5sum: cebc110a97b56fc2ebee5d607ed0bc30
+SHA1: 9ca7262ffe9001d643a11d3b660e12841ece77c4
+SHA256: f7b85cd61ff3a2bd4498caa7c4b332854f85bdf8e900e51fb671d5dd0a1b97ff
+Section: Tweaks
+Description: 仅在注销期间，苹果启动的logo自定义设置
+Tag: purpose::extension, role::developer
+Author: MTAC
+Icon: https://mtac.app/repo/assets/com.mtac.launchlogo/icon-rounded.png
+Name: LaunchLogo
+Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.launchlogo.json
+
 Package: com.mtac.lynxtwo
 Version: 2.4.5
 Architecture: iphoneos-arm64
