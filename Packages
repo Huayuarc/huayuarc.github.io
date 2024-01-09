@@ -259,6 +259,24 @@ Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubi
 Name: 芭比Q-rootless
 Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
 
+Package: cn.llld.qqdsq
+Version: 1.3.3
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 592
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/cn.llld.qqdsq_1.3.3_iphoneos-arm64.deb
+Size: 104012
+MD5sum: 09d2204a657018c8c4a121984f64a3f2
+SHA1: f6f201be30552a711a0966a62bad43ead97c3663
+SHA256: 31c5d5ef99bc962d1b474003f62280651a3ca88fc9af2645b3df2cb674f0811d
+Section: rootless插件
+Description: 给QQ加点小功能，有空就更，功能在手机"系统设置"。调试版本号：v8.9.58和v9.0以上，别的版本需自测。
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubiao1.png
+Name: 芭比Q-rootless
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
+
 Package: com.ali.aimpro
 Version: 1.0.5
 Architecture: iphoneos-arm64
