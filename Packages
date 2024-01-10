@@ -1948,6 +1948,22 @@ Description: 屏蔽1.1.3 | 1.1.4版本越狱检测(请使用Choicy禁止注入�
 Author: x✨
 Name: 数字人民币屏蔽越狱
 
+Package: com.xx.fqxshook
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.fqxshook_1.0.0_iphoneos-arm64.deb
+Size: 31296
+MD5sum: 3ccc959e54118f588ff84624c3fed0b0
+SHA1: 9fec04f7d80eff84e80a5f8524457c965af3ab2c
+SHA256: 6beba8f82b3529d966af507c8766150018f7dd9e16fec61c0dc493dddf2c9c68
+Section: Tweaks
+Description: 自用 | 去除一些广告 | 秒过激励视频 | 仅在6.0.8版本测试
+Author: x✨
+Name: 番茄小说优化
+
 Package: com.xx.gaodehook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -2059,6 +2075,22 @@ Section: Tweaks
 Description: 点击APP右下角-我-右上角三横-长按打开菜单开启功能。功能：移除一些广告|弹窗--无水印保存视频图片 -- 1.0.3更新:fix bug
 Author: x✨
 Name: 快手Hook
+
+Package: com.xx.ppxhook
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 324
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.ppxhook_1.0.0_iphoneos-arm64.deb
+Size: 95226
+MD5sum: 42475eda492d101485e616c45c8c12f5
+SHA1: a51df835ae1a860087eaa35edc3a27f3c53f0a67
+SHA256: 57f0637d9b79c6ef136a4a902a7755775c5161046d9e8e1894e024cd0ab84872
+Section: Tweaks
+Description: 自用 | 去除一些广告 | 原始按钮保存视频-图片无水印 | 底部板块的自定义移除 | 在 '右下角我的-设置界面长按1-2秒出菜单'
+Author: x✨
+Name: 皮皮虾优化
 
 Package: com.xx.xhshook
 Version: 1.0.1
