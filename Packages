@@ -1996,6 +1996,22 @@ Description: 自用 功能默认开启 | 去除启动广告 首页一些无用�
 Author: x✨
 Name: 高德地图优化
 
+Package: com.xx.gaodehook
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 324
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.gaodehook_1.0.2_iphoneos-arm64.deb
+Size: 94670
+MD5sum: fa85c58d798438453aa2e38dce6f9d82
+SHA1: da295e160c1ff97c6f9cf9cef48bb4dd1688cecc
+SHA256: 25167a095af83217b12b85d97f6357c00d3087525b49457976a7682d8f69bae8
+Section: Tweaks
+Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.2更新内容：优化首页搜索下方无用视图移除
+Author: x✨
+Name: 高德地图优化
+
 Package: com.xx.jrtthook
 Version: 1.0.2
 Architecture: iphoneos-arm64
