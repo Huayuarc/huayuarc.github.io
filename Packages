@@ -2139,6 +2139,22 @@ Description: 自用 | 去除一些广告 | 原始按钮保存视频-图片无水
 Author: x✨
 Name: 皮皮虾优化
 
+Package: com.xx.ppxhook
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.ppxhook_1.0.2_iphoneos-arm64.deb
+Size: 101592
+MD5sum: 20f08aea78e14b7112e76ac6f8f1a6ec
+SHA1: da3a07d2c38c6d3d11e273dcf3740508e8ad75ac
+SHA256: 4bcf0a399265e872ab8dcb2f7266db0155dde331bd53f6a08be709976f58dced
+Section: Tweaks
+Description: 自用 | 去除一些广告 | 原始按钮保存视频-图片无水印 | 底部板块的自定义移除 | 在 '右下角我的-设置界面长按1-2秒出菜单' || 1.0.2更新内容：修复闪退-增加移除青少年-移除视频流广告
+Author: x✨
+Name: 皮皮虾优化
+
 Package: com.xx.xhshook
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -2447,6 +2463,24 @@ Description: 在很多时候输入，手机总默认自带键盘，且不能更�
 Author: 来了老弟
 Name: 强制密码框第三方键盘-rootless
 Sponsor: 33225753@qq.com
+
+Package: me.gmoran.darkerdarkmode
+Version: 0.5.1-5+debug
+Architecture: iphoneos-arm64
+Maintainer: @fr0st & b4db1r3
+Installed-Size: 180
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/me.gmoran.darkerdarkmode_ROOTLESS.deb
+Size: 9490
+MD5sum: 0fc9be05e8cdf8bb3a20891a2397a5cc
+SHA1: 87d858f4eab98115ab4a15c20924f6db85c56c6e
+SHA256: 0044c760bb31c1e67050394ea9ff60e343dad2db89349346db57b890668233fa
+Section: Tweaks
+Description: Make dark mode actual dark.
+Author: @fr0st & b4db1r3
+Depiction: https://b4db1r3.github.io/d3vr3p0/depictions/web/?p=me.gmoran.darkerdarkmode_ROOTLESS
+Name: OLED Dark Mode
+Sileodepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/me.gmoran.darkerdarkmode_ROOTLESS/depiction.json
 
 Package: me.luki.amelija
 Version: 2.0
