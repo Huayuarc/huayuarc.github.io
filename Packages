@@ -1884,6 +1884,22 @@ Author: Nightwind
 Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
 Name: OneSettings
 
+Package: com.wwg135.senri
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M 哥
+Depends: firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 1.17), mobilesubstrate
+Filename: ./debs/com.wwg135.senri_1.0_iphoneos-arm64.deb
+Size: 166528
+MD5sum: 07dbe64a4150ae45de737fef851148a2
+SHA1: c3805ce252a795909b32aeb82521a2bb52a797f5
+SHA256: bc3c0ea236a3b23e0c05a1b115411ba4ac0968b464350a72d8ee19753d41ee7f
+Section: Tweaks
+Description: 永远不要再丢失您的通知。（由 M哥汉化）
+Author: Antoine
+Icon: https://img.chariz.cloud/icon/senri/icon@3x.png
+Name: Senri
+
 Package: com.wwg135.terminal
 Version: 1.0
 Architecture: iphoneos-arm64
