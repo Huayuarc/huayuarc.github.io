@@ -1361,6 +1361,26 @@ Author: Lin
 Depiction: 微信插件
 Name: WXHelper
 
+Package: com.noisyflake.velvet2
+Version: 2.1.2-2
+Architecture: iphoneos-arm64
+Maintainer: NoisyFlake <support@noisyflake.com>
+Installed-Size: 635
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: ./debs/com.noisyflake.velvet2_2.1.2-2_iphoneos-arm64.deb
+Size: 95820
+MD5sum: b38572244a896362027d1b440ad28a0a
+SHA1: 109fa402c8179ead00c6ba842114ba994eef28ae
+SHA256: 7e781de23e32392703c2b5b0955d08d1f02f3ef2cbca8b067b1ddb9d642ab56f
+Section: Tweaks
+Description: A fully customizable notification experience
+Tag: compatible_min::ios15.0
+Author: NoisyFlake <support@noisyflake.com>
+Depiction: https://chariz.com/get/velvet-2
+Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
+Name: Velvet 2
+
 Package: com.notification
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -1908,6 +1928,22 @@ SHA1: ee2a930f14f003479064064fd0e800a9b1d9f39e
 SHA256: 7ea463828fa72d00e7667742ef2afb07c9ff2899cdb74e5a57a43b686a12080a
 Section: Tweaks
 Description: 功能默认开启 | 移除一些无用的悬浮 广告 板块 移除底部周边-打车-公共交通 | 如果需要某功能 可以长按设置界面1-2秒出菜单自行关闭
+Author: x✨
+Name: 百度地图优化
+
+Package: com.xx.baiduhook
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 324
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.baiduhook_1.0.1_iphoneos-arm64.deb
+Size: 94990
+MD5sum: 2672b86eaa4d0cf480751401559cf297
+SHA1: 080dc36f81381a514b2ed9f524f2f08b84706c77
+SHA256: 81b699fd6bd21542832c2426f377f97009ad60c19a72f29f0d6b5fd6468e090b
+Section: Tweaks
+Description: 功能默认开启 | 移除一些无用的悬浮 广告 板块 移除底部周边-打车-公共交通 | 如果需要某功能 可以长按设置界面1-2秒出菜单自行关闭 || 1.0.1更新内容：修复一些问题-增加搜索栏移除拍摄按钮(可开关)
 Author: x✨
 Name: 百度地图优化
 
