@@ -341,6 +341,38 @@ Description: ***给微博加点小功能，去广告啥的，可注入 可越狱
 Author: 来了老弟
 Name: 微博绿了注入版-rootless
 
+Package: cn.llld.wbb
+Version: 0.2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/微博绿了注入版-rootless_0.2_修复闪退-arm64.deb
+Size: 11778
+MD5sum: 93a1f5a4e8db1a4975f0e2c89e6e8466
+SHA1: e013f38dcc62c4b303ba434c82ddc38b12b7919d
+SHA256: 0bdf6f547747b9656e678954f80fb3affb97a30ef4899731e015120445c878ab
+Section: rootless插件
+Description: ***给微博加点小功能，去广告啥的，可注入 可越狱版，随意写的，设置排版以后再搞，近期要加的东西多***。长按'我'页面的（创作中心）或者（浏览记录）的文字，弹出设置,240115:修复闪退，加快微博启动速度。Q群928481652，cydia装不了的，下群文件
+Author: 来了老弟
+Name: 微博绿了注入版-rootless
+
+Package: cn.llld.zyll
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/最右绿了注入版-rootless_0.1-arm64.deb
+Size: 15204
+MD5sum: 64e6b713519f4c4c80ee74f29d842fbc
+SHA1: 2dae452a41e396609da9ddedc219858d7abf5b73
+SHA256: a33daa0d6ed9fc98f577a31595a2221cca41e959b8531d7d5d6bfe4945125041
+Section: rootless插件
+Description: ***给最右加点小功能，最右绿了注入版，可注入可越狱，排版以后再搞，近期要加的东西多***。长按'我的'页面（插眼）或者（赞过）文字，弹出设置。Q群928481652，近期多功能多款插件上料。
+Author: 来了老弟
+Name: 最右绿了注入版-rootless
+
 Package: com.HBWechatHelper.ailun
 Version: 1.6.8
 Architecture: iphoneos-arm64
@@ -1397,6 +1429,26 @@ Depiction: https://chariz.com/get/velvet-2
 Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
 Name: Velvet 2
 
+Package: com.noisyflake.velvet2
+Version: 2.1.2-3
+Architecture: iphoneos-arm64
+Maintainer: NoisyFlake <support@noisyflake.com>
+Installed-Size: 629
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: ./debs/com.noisyflake.velvet2_2.1.2-3_iphoneos-arm64.deb
+Size: 95422
+MD5sum: 73091f5e4411fbd42a9e54aa0f3fc13a
+SHA1: d040c4851660ac3d913c76fa8fe87e0dd3fe82d6
+SHA256: 60c2aace71723542f533721307f6dfc37a07d3c58c7fe449688bc1c6136f75f1
+Section: Tweaks
+Description: A fully customizable notification experience
+Tag: compatible_min::ios15.0
+Author: NoisyFlake <support@noisyflake.com>
+Depiction: https://chariz.com/get/velvet-2
+Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
+Name: Velvet 2
+
 Package: com.notification
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -2286,6 +2338,22 @@ Section: Tweaks
 Description: 自用 | 去除一些广告 | 原始按钮保存视频-图片无水印 | 底部板块的自定义移除 | 在 '右下角我的-设置界面长按1-2秒出菜单' || 1.0.3更新内容：修复闪退-增加移除青少年-移除视频流广告-修复消息无法加载
 Author: x✨
 Name: 皮皮虾优化
+
+Package: com.xx.qmxshook
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 252
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.qmxshook_1.0.0_iphoneos-arm64.deb
+Size: 44212
+MD5sum: 3c6811b46439cd32bfbebbc293fa2161
+SHA1: cc0c06cb76632c5790d182ce5b0b64d70fb6fe66
+SHA256: 990d029bfed4c51800c7c66e9ac108a8b48cf350ee1ce5cecafa436dca9020fd
+Section: Tweaks
+Description: 去除启动广告以及部分广告 | 全部小说阅读内无广告 可用VIP字体 VIP背景 | 部分小说开通免广告权益可用部分会员功能 | 激励视频秒过 | 段评视图增加一个长按关闭手势 | 仅设配7.40版本 | 仅越狱使用
+Author: x✨
+Name: 七猫小说Hook
 
 Package: com.xx.xhshook
 Version: 1.0.1
