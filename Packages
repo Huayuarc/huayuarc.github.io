@@ -1,4 +1,21 @@
 Package: Flex3beta
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, com.abcydia.Flex3
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Filename: ./debs/Flex3beta_1.0.1.deb
+Size: 15199220
+MD5sum: c45eff788ba26c21d6a6f9bd3e25b446
+SHA1: 41bca39180775cfb4979a2f04c6f159a732931d1
+SHA256: 14af0c617bbbcca958f0dbeebc2560e174df81e5d12aff864468dc7d81cb8cda
+Section: tweaks
+Description: Before use, please copy the application bundle that needs to be parsed to/var/jb/usr/lib/TweakInject/Flex.plist and fill it in. Warning: System patches are not supported, do not fill in com.apple.UIKit or com.apple.springboard。Only effective for third-party applications, the patch list can be parsed and displayed.。使用前请把需要解析的应用bundle拷贝到/var/jb/usr/lib/TweakInject/Flex.plist中填入，警告：不支持系统补丁，不要填入com.apple.UIKit或com.apple.springboard等，只对第三方应用生效，可解析，可显示补丁列表。由来了老弟修复仅支持Xina2.0 的 2.0.18 以下版本！
+Author: John Coates
+Name: Flex3 Beta-Xina2
+
+Package: Flex3beta
 Version: 1:3~Beta92
 Architecture: iphoneos-arm64
 Maintainer: John Coates
