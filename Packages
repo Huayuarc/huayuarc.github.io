@@ -1934,6 +1934,39 @@ Icon: https://repo.shorty.systems/icons/com.wilsonthewolf.eliza.png
 Name: Eliza
 Sileodepiction: https://repo.shorty.systems/depictions/sileo/com.wilsonthewolf.eliza
 
+Package: com.wwg135.backgrounderaction15
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: @akusio_RR
+Installed-Size: 340
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.wwg135.backgrounderaction15_0.1.0_iphoneos-arm64.deb
+Size: 9892
+MD5sum: dd467e0c16dce4649567345233f506a1
+SHA1: 762ec6916928a60214536d390b041f72af530654
+SHA256: 7ed988c484f7650e8247bb5029c602a2d4602e2ee576775d24d1a4a3502793ef
+Section: Tweaks
+Description: [iOS15]将“切换后台模式”操作添加到控制中心中。
+Author: @akusio_RR
+Depiction: https://akusio.github.io/descriptions/backgrounderaction15/index.html
+Name: BackgrounderAction15 CCSupport
+
+Package: com.wwg135.backgrounderaction15autostate
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 384
+Depends: com.wwg135.backgrounderaction15, com.opa334.altlist
+Filename: ./debs/com.wwg135.backgrounderaction15autostate_1.0.2_iphoneos-arm64.deb
+Size: 27236
+MD5sum: 2297731aa645d63aa1edbcd7a0653c97
+SHA1: ca2bcaeef628c66e16b1a43f9455c1e80bf5fd5b
+SHA256: 1afde1da227a788acbae2ab85baf25ae6df2616ad4b6973d063b9458748fff25
+Section: Tweaks
+Description: 保存BackgroundAction15 CC切换的操作状态
+Author: 0xkuj
+Name: BackgrounderAction15AutoState
+
 Package: com.wwg135.intelligentpass5
 Version: 1.0.2
 Architecture: iphoneos-arm64
