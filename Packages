@@ -3094,25 +3094,6 @@ Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
 
-Package: wwg135.glow-rootless
-Version: 0.6-1
-Architecture: iphoneos-arm64
-Maintainer: Elias Limneos <limneoselias@gmail.com>
-Installed-Size: 1008
-Depends: mobilesubstrate, preferenceloader, firmware ( >= 12)
-Filename: ./debs/wwg135.glow-rootless_0.6-1_iphoneos-arm64.deb
-Size: 219292
-MD5sum: 98792f9b7df3e811f0ab36c43469f190
-SHA1: 532dd02dfac9f89bb05f886ba0d2da7dcaebb28e
-SHA256: 10d9183f54a18b6157d9ea300a1f569c991ba8f3dd21d2a24c4c5c489764ee64
-Section: Tweaks
-Description: 让你的锁屏发光！（由M哥汉化）
-Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: http://limneos.net/glow/
-Icon: file:///Library/PreferenceBundles/Glow.bundle/icon.png
-Mainlibmd5: 91dd1370517be71326a74f6e9cc0cf08
-Name: Glow
-
 Package: wwg135.lastlook
 Version: 3.6.5
 Architecture: iphoneos-arm64
