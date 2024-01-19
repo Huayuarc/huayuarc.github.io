@@ -1361,6 +1361,22 @@ Description: 美图秀秀去广告
 Author: M哥
 Name: 美图秀秀去广告NoAd-rootless
 
+Package: com.nahtedetihw.floatingdockxvi
+Version: 1.9
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 812
+Depends: preferenceloader
+Filename: ./debs/com.nahtedetihw.floatingdockxvi_1.9_iphoneos-arm64.deb
+Size: 396272
+MD5sum: 9b3813d801c1759b7bc0438d4503a0b6
+SHA1: 88e2fed770c9098d5d6f0f8d49bc4d4be8ce45f8
+SHA256: d1396601f78b07e9be465ec73cb5df2a989ff4c0848de19f0d07c0df3b563caa
+Section: Tweaks
+Description: iOS 16上的浮动Dock（M哥汉化）
+Author: Ethan Whited
+Name: FloatingDockXVI
+
 Package: com.news
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -3136,6 +3152,25 @@ Depiction: https://repo.cypwn.xyz/depiction/1197
 Icon: https://media.havoc.app/63def90098112480293d2456
 Name: SixteenMusic
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1197
+
+Package: xyz.skitty.quietdown
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Skitty & b4db1r3
+Installed-Size: 528
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/xyz.skitty.quietdown_2.0_iphoneos-arm64.deb
+Size: 62404
+MD5sum: af9676fe4aaebcf726da21ce89c3d71c
+SHA1: 51aa2e8d88f8559d06800c3db2e29e02b1b3a549
+SHA256: 8b75613494114c98a7f73503c99d1f4d211b9fb4956f5922b7bd374db4256158
+Section: Tweaks
+Description: 将时间段的通知静音（M哥汉化）
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.quietdown/
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.quietdown.png
+Name: QuietDown
+Sileodepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/xyz.skitty.quietdown_2.0_iphoneos_ROOTLESS/depiction.json
 
 Package: xyz.smartbatteryios15
 Version: 1.4kkk
