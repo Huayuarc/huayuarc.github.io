@@ -2405,6 +2405,22 @@ Description: 自用 | 去除一些广告 | 原始按钮保存视频-图片无水
 Author: x✨
 Name: 皮皮虾优化
 
+Package: com.xx.ppxhook
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.ppxhook_1.0.4_iphoneos-arm64.deb
+Size: 109992
+MD5sum: bff8ce65878e1a7d06130e9a2fef2e3c
+SHA1: 59a9d93e19d126b988c86d46f42914c94be697eb
+SHA256: ea5ebda25101cefbaffe5dbd2b7d6989021ed1f3869fe528eea3817f46d79a06
+Section: Tweaks
+Description: 自用 | 去除一些广告 | 原始按钮保存视频-图片无水印 | 底部板块的自定义移除 | 在 '右下角我的-设置界面长按1-2秒出菜单' || 1.0.3更新内容：修复闪退-增加移除青少年-移除视频流广告-修复消息无法加载 || 1.0.4更新内容：去除视频结束的广告
+Author: x✨
+Name: 皮皮虾优化
+
 Package: com.xx.qmxshook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -2436,6 +2452,22 @@ Section: Tweaks
 Description: 自用 | 去除启动广告以及部分广告 | 全部小说阅读内无广告 可用VIP字体 VIP背景 可全本下载 | 部分小说开通免广告权益可用部分会员功能 | 激励视频秒过 | 段评视图增加一个长按关闭手势 | 底部移除福利与分类 | 仅适配7.40版本 | 仅越狱使用
 Author: x✨
 Name: 七猫小说Hook
+
+Package: com.xx.qsyyhook
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.qsyyhook_1.0.0_iphoneos-arm64.deb
+Size: 31952
+MD5sum: 550edfc3e3bb93fcc1eba57f5e51d469
+SHA1: b4229f4b0645d04f1e8a0cfcc0b8f3465fa4eb20
+SHA256: bb4ca3e425d518575272f4608fabae4a038ce8dc4d1254d4fa54575fa7680240
+Section: Tweaks
+Description: 与小黑联手制作 | 去除启动广告 | 秒过激励视频(部分视频自动关闭)
+Author: x✨
+Name: 汽水音乐NoAds
 
 Package: com.xx.xhshook
 Version: 1.0.1
