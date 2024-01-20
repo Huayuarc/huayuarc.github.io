@@ -2330,6 +2330,22 @@ Description: 自用 | 去除观看广告 | 去除越狱检测 VPN检测 | 仅适
 Author: x✨
 Name: iBoxNoAds
 
+Package: com.xx.iboxhook
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 236
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.iboxhook_1.0.1_iphoneos-arm64.deb
+Size: 42600
+MD5sum: b5ff5b3661250d79f7db47856a66397e
+SHA1: 14dfa4398ab42d4ef7e4af4d98ec6e9ea5b259b6
+SHA256: a7489345e5c90ed93dbf8657c4656f7e7c825aa58a6bfd2ae53946b703fb4dff
+Section: Tweaks
+Description: 自用 | 去除观看广告 | 去除越狱检测 VPN检测 | 仅适配2.0.7 插件仅越狱使用 | 免越狱IPA版本网盘或者QQ群有 || 101更新修短剧听书 现在可跳过广告
+Author: x✨
+Name: iBoxNoAds
+
 Package: com.xx.jrtthook
 Version: 1.0.2
 Architecture: iphoneos-arm64
