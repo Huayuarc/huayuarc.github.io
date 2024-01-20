@@ -2314,6 +2314,22 @@ Description: 自用 功能默认开启 | 去除启动广告 首页一些无用�
 Author: x✨
 Name: 高德地图优化
 
+Package: com.xx.iboxhook
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 124
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.iboxhook_1.0.0_iphoneos-arm64.deb
+Size: 20354
+MD5sum: ab118c359e4f3b77a267b6272bc12c15
+SHA1: a44c528b01f71eb1acec1934def9a0dd559fdc67
+SHA256: bc13e599900fc9786cd2c2c4395d02ba72597ffb86a54a5fe1180a74439a8292
+Section: Tweaks
+Description: 自用 | 去除观看广告 | 去除越狱检测 VPN检测 | 仅适配2.0.7 插件仅越狱使用 | 免越狱IPA版本网盘或者QQ群有
+Author: x✨
+Name: iBoxNoAds
+
 Package: com.xx.jrtthook
 Version: 1.0.2
 Architecture: iphoneos-arm64
