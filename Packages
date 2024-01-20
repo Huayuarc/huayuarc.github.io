@@ -376,6 +376,23 @@ Author: 来了老弟 X：h_h_x_t
 Icon: file:///var/jb/Library/PreferenceBundles/tmllldprefs.bundle/icons-llld/qjtmmax.png
 Name: 全局透明Max-rootless
 
+Package: cn.llld.tmts
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 448
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/全局透明Max-rootless_1.0_arm64.deb
+Size: 118712
+MD5sum: 2d5f5b8bdc55552bb3b7faebe10f7682
+SHA1: d4d3b434a5c95f1acb013b03f7c6d13b08f240c8
+SHA256: 21bcd2e47bd139d5e00dd69ae57f81205da8ebe9dd5733b5380f5398a191b0a5
+Section: rootless插件
+Description: Customize notifications, control center, multitasking background module transparency。自定义SpringBoard全局透明度(包含 锁屏 ，播放器，负一屏，通知，控制中心，多任务后台模块等)
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///var/jb/Library/PreferenceBundles/tmllldprefs.bundle/icons-llld/qjtmmax.png
+Name: 全局透明Max-rootless
+
 Package: cn.llld.wbb
 Version: 0.1
 Architecture: iphoneos-arm64
@@ -2918,6 +2935,26 @@ Icon: file:///Library/PreferenceBundles/Glow.bundle/icon.png
 Mainlibmd5: 242673401e80796aeedf2526b751b859
 Name: Glow
 
+Package: net.limneos.glow-rootless
+Version: 0.6-4
+Architecture: iphoneos-arm64
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1008
+Depends: mobilesubstrate, preferenceloader, firmware ( >= 12)
+Filename: ./debs/net.limneos.glow-rootless_0.6-4_iphoneos-arm64.deb
+Size: 230634
+MD5sum: fd65fc5d0c55859232a2ac526b4a2777
+SHA1: 46d7b07d3441279b50eb73e8919d54aceeba3ac4
+SHA256: f18689ae21f92bba8c1e1c48727365b0ba0e9e2885a40397994511ff2ea2e986
+Section: Tweaks
+Description: Let your lockscreen glow!
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://limneos.net/glow/
+Icon: file:///Library/PreferenceBundles/Glow.bundle/icon.png
+Mainlibmd5: b5342a1386747b1e272ed30e919332f5
+Name: Glow
+Sileodepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.glow
+
 Package: netskao.appdata-rootless
 Version: 1.4.1
 Architecture: iphoneos-arm64
@@ -3186,6 +3223,40 @@ Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
 Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
 
+Package: wwg135.alpine
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 1108
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/wwg135.alpine_1.3_iphoneos-arm64.deb
+Size: 600080
+MD5sum: 734c15becb5695ef5f14346b96e0a4ca
+SHA1: a9082d03a28252f16bd62bc83a1c791771629e94
+SHA256: 1b9f013c0476c6a421d3574ad5fa47b99588086c989620fb84c961e2395d6c11
+Section: Tweaks
+Description: 适用于iOS的tvOS警报（由M哥汉化）
+Author: MTAC
+Depiction: https://repo.cypwn.xyz/depiction/1850
+Icon: https://media.havoc.app/64ae21880d54f9113bc13a59
+Name: Alpine
+
+Package: wwg135.darkerdarkmode
+Version: 0.5.1-5
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/wwg135.darkerdarkmode_0.5.1-5_iphoneos-arm64.deb
+Size: 9288
+MD5sum: 45f8e9fdfadf4e410961af9ba0b5ab0e
+SHA1: 1ebf1769017b27bb109390e8e58e0cecb75d8738
+SHA256: 3af8080f11d024b1959c7d75b26d245850bda31feacff342b85df7cea1deaced
+Section: Tweaks
+Description: 将暗模式设为真正的暗模式。
+Author: @fr0st & b4db1r3
+Depiction: https://repo.cypwn.xyz/depiction/1843
+Name: OLED Dark Mode
+
 Package: wwg135.lastlook
 Version: 3.6.5
 Architecture: iphoneos-arm64
@@ -3201,6 +3272,38 @@ Description: An AOD tweak that feels stock, with endless possibilities!（M哥�
 Author: AnthoPak
 Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
 Name: LastLook
+
+Package: wwg135.nocshare
+Version: 1.1.2-1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate
+Conflicts: com.devvix.nocshare
+Filename: ./debs/wwg135.nocshare_1.1.2-1_iphoneos-arm64.deb
+Size: 5428
+MD5sum: 3fe596c2b90c19438dfd84a1fa367f0f
+SHA1: 799e2b335e396af4cef54dafaf48b5346e22c4db
+SHA256: f1eba235ae5a3f409db82621e45d3bb7705bf1cb97dcf6afcad36e2c64352a8f
+Section: Tweaks
+Description: 从共享菜单中删除烦人的空投和联系人。
+Author: Devvix
+Depiction: https://repo.cypwn.xyz/depiction/1845
+Name: NoCShare
+
+Package: wwg135.ve
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: ./debs/wwg135.ve_2.0_iphoneos-arm64.deb
+Size: 65252
+MD5sum: 51db725cbc85fa52ffe84f3cde660bf1
+SHA1: 7482db40469300ab37df94358b7fe1fa550999d6
+SHA256: df6f5267a6a335d9c5fa766c489b5f5006d9608a4719f9d47d301267bbebd5e1
+Section: Tweaks
+Description: 本地集成的通知记录器。（由M哥汉化）
+Author: Alexandra Aurora Göttlicher, 74k1_
+Name: Ve
 
 Package: wwg135.velvet2
 Version: 2.1.2
@@ -3219,6 +3322,22 @@ Description: A fully customizable notification experience（M哥汉化）
 Author: NoisyFlake
 Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
 Name: Velvet 2
+
+Package: wwg135.willow
+Version: 1.2.14
+Architecture: iphoneos-arm64
+Maintainer: M 哥
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, hi.my.name.is.ubik.sonus13, com.ikilledappl3.switchhud, com.muirey03.13hud, com.kingpuffdaddi.ringer13
+Filename: ./debs/wwg135.willow_1.2.14_iphoneos-arm64.deb
+Size: 278520
+MD5sum: c7bb07a40328ed050562ca9ee79ba25e
+SHA1: c0aa942b1f52bee7c7c9b4b11a804be33a160f75
+SHA256: 5fe14d3a88cc1a7d4291530113f4ea6489cb61d75936fc004fc95a24e73e6dc7
+Section: Tweaks
+Description: 一个全新的，不引人注目的，OLED友好的音量HUD。（由 M 哥汉化）
+Author: Ayden Panhuyzen
+Name: Ultrasound
 
 Package: xyz.cypwn.akara
 Version: 2.0.0k
