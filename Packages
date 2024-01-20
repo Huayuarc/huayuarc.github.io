@@ -1653,6 +1653,25 @@ Author: shiftcmdk
 Depiction: https://shiftcmdk.github.io/repo/depictions/?p=com.shiftcmdk.permaflex
 Name: PermaFlex
 
+Package: com.smokin1337.togglow
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: smokin1337 <smokin1337@gmail.com>
+Installed-Size: 1172
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/com.smokin1337.togglow_1.0.deb
+Size: 342568
+MD5sum: 6c0576392d6da17fd1ed042f07cccc5c
+SHA1: a0d8d2f6e0ab9478cb93545eff030186aed49c68
+SHA256: ee03fef6e685a6f9348db574d83994ab3205752bf6a0c5e8d1b120146cbf4dfb
+Section: Tweaks
+Description: Make the control center your own !
+Author: smokin1337 <smokin1337@gmail.com>
+Depiction: https://www.idevicehacked.com/depictions/?p=com.smokin1337.togglow
+Icon: https://www.idevicehacked.com/depictions/com.smokin1337.togglow/icon.png
+Name: Togglow (rootless)
+Sileodepiction: https://www.idevicehacked.com/depictions/com.smokin1337.togglow/Togglow
+
 Package: com.snail.byebyelaunchad.rootless
 Version: 1.3.1
 Architecture: iphoneos-arm64
@@ -2997,6 +3016,28 @@ Author: Amy While <me@anamy.gay>
 Icon: https://getsileo.app/img/icon.png
 Name: Sileo
 Sileodepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.thebigboss.libcolorpicker
+Version: 1.6.9.1
+Architecture: iphoneos-arm64
+Maintainer: Bailey Seymour
+Installed-Size: 392
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: ./debs/org.thebigboss.libcolorpicker_1.6.9.1_iphoneos-arm64.deb
+Size: 71096
+MD5sum: dcd979434652725495b904063c88cceb
+SHA1: 9e19e8bf343dd27b072ad91eae13a5232e1dac40
+SHA256: d9fd2065a9ccb11e9dc5c7cdec10ff278544bff028e36110a71b8cebb4b7edfc
+Section: System
+Description: An awesome library of some sort!!
+Tag: role::developer
+Author: Bailey Seymour
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=org.thebigboss.libcolorpicker
+Icon: https://p2kdev.github.io/repo/api/packageinfo/org.thebigboss.libcolorpicker/icon.png
+Name: libcolorpicker (Unofficial)
+Sileodepiction: https://p2kdev.github.io/repo/depictions/native/org.thebigboss.libcolorpicker.json
 
 Package: preferenceloader.rootless.top
 Version: 2.2.6.6
