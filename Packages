@@ -2848,6 +2848,25 @@ Icon: https://repo.keycap.one/icons/Amelija.png
 Name: Amēlija
 Sileodepiction: https://repo.keycap.one/depictions/me.luki.amelija.json
 
+Package: net.limneos.glow-rootless
+Version: 0.6-3
+Architecture: iphoneos-arm64
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1008
+Depends: mobilesubstrate, preferenceloader, firmware ( >= 12)
+Filename: ./debs/net.limneos.glow-rootless_0.6-3_iphoneos-arm64.deb
+Size: 219244
+MD5sum: e6b92c3f29760dc38f403982f29c8274
+SHA1: 773ff0c6c28b38d53f92eabad2a57facec1ad483
+SHA256: e6accebdc93b3495c8803a03e7bf9fec99b358b1b8c8910e721611c6e5c75a8c
+Section: Tweaks
+Description: 让你的锁屏发光！（由M哥汉化）
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://limneos.net/glow/
+Icon: file:///Library/PreferenceBundles/Glow.bundle/icon.png
+Mainlibmd5: 242673401e80796aeedf2526b751b859
+Name: Glow
+
 Package: netskao.appdata-rootless
 Version: 1.4.1
 Architecture: iphoneos-arm64
