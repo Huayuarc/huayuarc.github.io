@@ -3287,6 +3287,22 @@ Author: Devvix
 Depiction: https://repo.cypwn.xyz/depiction/1845
 Name: NoCShare
 
+Package: wwg135.trollleds
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 128
+Depends: firmware (>= 11.0), gsc.camera-flash
+Filename: ./debs/wwg135.trollleds_1.2.1_iphoneos-arm64.deb
+Size: 44628
+MD5sum: f7177279de456048b631c71c47c66340
+SHA1: 108a02654b3b10b15070b240fc562d0faaa7f78a
+SHA256: 929c7b2249ea6698e80a28a466a5f4a397602fa4e4f0c96ba542f40a7f987387
+Section: Utilities
+Description: 轻松控制手电筒LED。（由M哥汉化编译）
+Author: PoomSmart
+Name: TrollLEDs
+
 Package: wwg135.ve
 Version: 2.0
 Architecture: iphoneos-arm64
