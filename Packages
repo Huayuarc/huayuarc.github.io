@@ -1,34 +1,17 @@
 Package: Flex3beta
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: John Coates
-Depends: mobilesubstrate, firmware (>= 9.0)
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, com.abcydia.Flex3
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
-Filename: ./debs/Flex3beta_1.0.1.deb
-Size: 15199220
-MD5sum: c45eff788ba26c21d6a6f9bd3e25b446
-SHA1: 41bca39180775cfb4979a2f04c6f159a732931d1
-SHA256: 14af0c617bbbcca958f0dbeebc2560e174df81e5d12aff864468dc7d81cb8cda
-Section: tweaks
-Description: Before use, please copy the application bundle that needs to be parsed to/var/jb/usr/lib/TweakInject/Flex.plist and fill it in. Warning: System patches are not supported, do not fill in com.apple.UIKit or com.apple.springboard。Only effective for third-party applications, the patch list can be parsed and displayed.。使用前请把需要解析的应用bundle拷贝到/var/jb/usr/lib/TweakInject/Flex.plist中填入，警告：不支持系统补丁，不要填入com.apple.UIKit或com.apple.springboard等，只对第三方应用生效，可解析，可显示补丁列表。由来了老弟修复仅支持Xina2.0 的 2.0.18 以下版本！
-Author: John Coates
-Name: Flex3 Beta-Xina2
-
-Package: Flex3beta
 Version: 1:3~Beta92
 Architecture: iphoneos-arm64
 Maintainer: John Coates
 Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/Flex3beta92doamine&palera1n.deb
-Size: 9642800
-MD5sum: b68b88f5f57c83e5a3a00edd6621ec03
-SHA1: 8cfe0e893bce10217b703f38623b38f2da98ee8f
-SHA256: 1e611d30c10d9efeebf76dbe2f5e69abb803fe590872c9f2022edaca2167668d
+Filename: ./debs/Flex3Beta.1:3~Beta92.deb
+Size: 9653408
+MD5sum: c259ce98a88732128d3531390e8d6a89
+SHA1: 39c7f0d8be5794e1c9240ccba8df0cdbb2ac41c0
+SHA256: 92c95ec53dd168d7dbf4ba594547542dc1fab8f56eeba1b9e0263a26396e64e8
 Section: Tweaks
-Description: Develop your own tweaks and share them on the Flex Community Cloud
+Description: 开发您自己的调整并在Flex社区云上共享。（加入来了老弟的汉化包）
 Author: John Coates
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
@@ -42,12 +25,12 @@ Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmwa
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Filename: ./debs/Flex3Roothide_beta92.deb
-Size: 25126792
-MD5sum: 66cc9074b68a2dcc9b3e5643297836a8
-SHA1: 9d88ec0dba5361e5957bc8a18e452c1d705ccd89
-SHA256: ac17a10152366180918aa6dfc122f5b4dab7bd73f6bb5d690a60611aecfc0d5c
+Size: 19298684
+MD5sum: f15a8f990aa55e416c83922a8ca941b3
+SHA1: 9e5d2295773baa99ae1989cc92f57ffc56838535
+SHA256: 881ae2b876ce1be9d9079d1d25a7afa18cfafe90246dacb1de7527c3a072c52f
 Section: Tweaks
-Description: Develop your own tweaks and share them on the Flex Community Cloud
+Description: 开发您自己的调整并在Flex社区云上共享。（加入来了老弟的汉化包）
 Author: John Coates
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
@@ -105,23 +88,6 @@ Description: 关闭iOS App签名检查
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Name: AppSync
-
-Package: apt.llld.flex3beta1
-Version: 1:3~Beta99.11
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 h_h_x_t
-Depends: mobilesubstrate, firmware (>= 12.2) | org.swift.libswift (>= 5.0)
-Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly
-Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly
-Filename: ./debs/flex3beta1_1:3~Beta99.11.deb
-Size: 12800308
-MD5sum: 2793491889f8caecebf86b2591fbe4bd
-SHA1: 5883ba8735f3e755a639cc4b46696f87f440bde0
-SHA256: e4986165ce5f4611b6e85f6deb936e7255f14e87582517c436ce2afc95b9404d
-Section: 兼容层oldabi-rootless
-Description: 此包需装Legacy arm64e Support，不可解析,支持应用补丁列表,支持粗体文本显示，系统部分应用生效,装此包附带一个可以解析的版本(支持解析第三方和生效应用),需要全功能就装此包，需要全功能就装此包，需要全功能就装此包，一方开关2个共同效果,想更好的就等-别催,10102018:小更去除几个系统应用的注入_________仅测试用,有问题卸载
-Author: John Coates
-Name: Flex3 粗体版-rootless
 
 Package: apt.llld.swipeextenderx
 Version: 1.5.4
@@ -1081,13 +1047,13 @@ Architecture: iphoneos-arm64e
 Maintainer: John Coates
 Depends: mobilesubstrate, firmware (>= 9.0)
 Conflicts: me.tomt000.stageduo
-Filename: ./debs/Flex_1:3~Beta56-roothide_iphoneos-arm64e.deb
-Size: 16677596
-MD5sum: e7df6d197c62d7c1c52c069fdc374dc7
-SHA1: 87f336615d6099723a8b494fcf44ee6aa5fe8c52
-SHA256: 7c4e2f68affeeb5486d8f27e27d1de160304059270fa899ac2202c2df58204f9
+Filename: ./debs/Flex3Roothide_beta56.deb
+Size: 16823100
+MD5sum: c908ddb994258e2473b1ffa51d8f1a5c
+SHA1: 58cd292f7849ee9fe739cec3cb94098002e2458e
+SHA256: 18245b6a85fea6e43ca380a61bd411dee06a7ac4c4715c7f85278a92dead6e59
 Section: Tweaks
-Description: 开发您自己的插件并在Flex社区云上共享（加入来了老弟的汉化包）
+Description: 开发您自己的插件并在Flex社区云上共享。（加入来了老弟的汉化包）
 Author: John Coates modded by DXcool223
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
@@ -2784,10 +2750,10 @@ Recommends: com.rpetrich.rocketbootstrap
 Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog
 Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog
 Filename: ./debs/Flex3Beta.1:3~Beta56.deb
-Size: 16977764
-MD5sum: 1c09518c99babe095dffca16ff0862fa
-SHA1: ddb48f279f36851e194c7e4f82cbf59311ad885a
-SHA256: f53335ee9b07896fa7a9b1ebb7e25f26ebed780e0f15ea443233203cd972bdfd
+Size: 16979848
+MD5sum: b8dc8c56f5655348f678ad1e5e69326c
+SHA1: 0985353f513786f3b893ae072c520205e84e05ec
+SHA256: 4b7584f754592ea5512d6ec0766072d4ff51ddf3c072c35a7e8889e8e752813c
 Section: Tweaks
 Description: 开发您自己的调整并在Flex社区云上共享。（加入来了老弟的汉化包），只对第三方应用生效！
 Author: John Coates
