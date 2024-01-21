@@ -3303,6 +3303,24 @@ Description: 轻松控制手电筒LED。（由M哥汉化编译）
 Author: PoomSmart
 Name: TrollLEDs
 
+Package: wwg135.trollleds
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 132
+Depends: firmware (>= 11.0), gsc.camera-flash
+Filename: ./debs/wwg135.trollleds_1.3.0_iphoneos-arm64.deb
+Size: 44940
+MD5sum: adbe9e9eaf0dba304195b9a8f186efa0
+SHA1: 197c50a2176a1ac0692677412826a9449a7cad3a
+SHA256: 8fff158d6b61fe3332929574eba8780b8d1b436d9f94cc2200c992526c5c7a1d
+Section: Utilities
+Description: 轻松控制手电筒LED。（由M哥编译汉化）
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/trollleds.html
+Name: TrollLEDs
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/trollleds.json
+
 Package: wwg135.ve
 Version: 2.0
 Architecture: iphoneos-arm64
