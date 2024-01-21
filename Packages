@@ -3321,6 +3321,22 @@ Depiction: https://poomsmart.github.io/repo/depictions/trollleds.html
 Name: TrollLEDs
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/trollleds.json
 
+Package: wwg135.trollleds
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 132
+Depends: firmware (>= 11.0), gsc.camera-flash
+Filename: ./debs/wwg135.trollleds_1.3.1_iphoneos-arm64.deb
+Size: 44944
+MD5sum: 8dca683e7f36cfcca205e41211d95370
+SHA1: 453ddb707670cf1f03dc897350a744ec443da54c
+SHA256: 5c3c35f04735fc6d9163237e4623560e53780aa2372f77fc4c69ef0ae117096c
+Section: Utilities
+Description: 轻松控制手电筒LED。（由 M 哥编译汉化）
+Author: PoomSmart
+Name: TrollLEDs
+
 Package: wwg135.ve
 Version: 2.0
 Architecture: iphoneos-arm64
