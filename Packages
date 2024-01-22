@@ -3271,6 +3271,22 @@ Author: @fr0st & b4db1r3
 Depiction: https://repo.cypwn.xyz/depiction/1843
 Name: OLED Dark Mode
 
+Package: wwg135.keepmyjb
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: iCraze
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/wwg135.keepmyjb_1.1_iphoneos-arm64.deb
+Size: 4232
+MD5sum: 1c2fabf39f4aa07eeccaa04ff6a2e4ae
+SHA1: da89458b47257d341a71523633e39172c7e376c2
+SHA256: ab967b68a37a76b57abd9d2657d2893468b666b5a1ea961525d5692f779dd363
+Section: Tweaks
+Description: 删除“设置”应用程序中的“软件更新”和“还原所有内容和设置”选项卡。
+Author: iCraze
+Name: KeepMyJB
+
 Package: wwg135.kodelay
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -3417,6 +3433,22 @@ Section: Tweaks
 Description: 一个全新的，不引人注目的，OLED友好的音量HUD。（由 M 哥汉化）
 Author: Ayden Panhuyzen
 Name: Ultrasound
+
+Package: wwg1355.noticopy15
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: iCraze
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/wwg1355.noticopy15_1.1_iphoneos-arm64.deb
+Size: 5848
+MD5sum: a22744b76e6ebc849f8566c823cb4f19
+SHA1: ab911499bd095545768a8bec4005d70766ebabed
+SHA256: dda51922200de36dafa45e9c6cecfb6f7b90b52096269cbd2beb1af797671187
+Section: Tweaks
+Description: 用两根手指点击通知以复制其文本。用两个手指按住以复制其标题。
+Author: iCraze
+Name: NotiCopy15
 
 Package: xyz.cypwn.akara
 Version: 2.0.0k
