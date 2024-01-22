@@ -166,6 +166,22 @@ Description: This is just the Chinese version of "ftt", the English version in�
 Author: iPadKid358 Randy420
 Name: ftt中文版-rootless
 
+Package: cn.llld.jxydt
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/驾校一点通绿了-rootless_0.1-arm64.deb
+Size: 17450
+MD5sum: f90e5acbe6356c35109eb07779ddf938
+SHA1: d6036f6520437a278473a304011b7806d759e8ec
+SHA256: c04e3be9aa7b4fa7fcc03d12b51ac033819850e0d0b6b7227e714e13aa4af795
+Section: rootless插件
+Description: ***给(驾校一点通)加点小功能，可注入可越狱，祝各位拿证到手***。默认去除开屏广告和动画(若开梯子使用会冲突)，长按任何页面（去提升）或（直播课）或 (考前直播) 或(直播刷题) 文字 1 秒，弹出更多功能设置。
+Author: 来了老弟
+Name: 驾校一点通绿了-rootless
+
 Package: cn.llld.minivx
 Version: 1.01
 Architecture: iphoneos-arm64
@@ -2344,6 +2360,22 @@ Section: Tweaks
 Description: 自用 | 去除观看广告 | 去除越狱检测 VPN检测 | 仅适配2.0.7 插件仅越狱使用 | 免越狱IPA版本网盘或者QQ群有 || 101更新修短剧听书 现在可跳过广告
 Author: x✨
 Name: iBoxNoAds
+
+Package: com.xx.iboxhook
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.iboxhook_1.0.2_iphoneos-arm64.deb
+Size: 35138
+MD5sum: 2991239bc08de758b63b2f88d061823d
+SHA1: ad8f2857d04ac74b5eab0e7ce112e7804e7d73c8
+SHA256: 61b84de0f9f9fb54bfe072267b84370203ce633c4f2c21fd500ce8412ea063b6
+Section: Tweaks
+Description: 自用 | 广告一闪而过 | 去除一些检测 VPN检测等 | 仅适配2.0.8 插件仅越狱使用
+Author: x✨
+Name: iBoxSkipAds
 
 Package: com.xx.jrtthook
 Version: 1.0.2
