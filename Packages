@@ -2297,6 +2297,22 @@ Description: 自用 | 去除一些可见广告 | 秒过激励视频 | 支持版�
 Author: x✨
 Name: 番茄小说优化
 
+Package: com.xx.fqxshook
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 268
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.fqxshook_1.0.2_iphoneos-arm64.deb
+Size: 48050
+MD5sum: 638ec517c7c4eb324907ea68442a6c19
+SHA1: aeacb613fff9deaed166a88e919e2a556e3001b4
+SHA256: 1e11bf6bc85c9071a5b186fce1ab83afd96a47e5fb030106f479594b37c14d42
+Section: Tweaks
+Description: 自用 | 去除一些可见广告 | 秒过激励视频 | 支持版本6.0.8+ | 1.0.1 新增移除底部福利板块 移除底部红点 继续移除一些又出现的新广告 & 1.0.2:修底部BUG
+Author: x✨
+Name: 番茄小说优化
+
 Package: com.xx.gaodehook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -2614,6 +2630,22 @@ SHA1: b4229f4b0645d04f1e8a0cfcc0b8f3465fa4eb20
 SHA256: bb4ca3e425d518575272f4608fabae4a038ce8dc4d1254d4fa54575fa7680240
 Section: Tweaks
 Description: 与小黑联手制作 | 去除启动广告 | 秒过激励视频(部分视频自动关闭)
+Author: x✨
+Name: 汽水音乐NoAds
+
+Package: com.xx.qsyyhook
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.qsyyhook_1.0.1_iphoneos-arm64.deb
+Size: 22636
+MD5sum: 1ef41f636067349f7a442a4046e0d0da
+SHA1: 9b5f493154885508dd08125b5f65a5ffd8486045
+SHA256: 41406cd30d9d587ebef375d58cb00dfdc6a4ceb4caf43701ccdd913dd373d746
+Section: Tweaks
+Description: 与小黑联手制作 | 去除启动广告 | 秒过激励视频(部分视频自动关闭) 1.0.1更新：优化去除启动广告 秒过视频如果无效可以APP设置界面长按1秒关闭(本人新号会员无法调试)
 Author: x✨
 Name: 汽水音乐NoAds
 
