@@ -986,6 +986,22 @@ Description: 隐藏截图预览、屏蔽设备无SIM卡弹窗、隐藏应用程�
 Author: M哥
 Name: 主屏幕优化-rootless
 
+Package: com.hopeless.wechatnoads
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: hopeless
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.hopeless.wechatnoads_0.0.2_iphoneos-arm64.deb
+Size: 4936
+MD5sum: aa57ed1c9199add9d42a4cc00885cdda
+SHA1: 95343a152a2434b422e7c9e5720ed60e77e7b210
+SHA256: f7594ce83c56b33aea155f7a0c512d105a2a151ad265ccff915cf80be2797750
+Section: Tweaks
+Description: 去除微信大部分广告！！
+Author: hopeless
+Name: WeChatNoAds
+
 Package: com.huayuarc.rootless.vfa
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -2601,6 +2617,22 @@ Description: 自用 | 去除一些广告 | 原始按钮保存视频-图片无水
 Author: x✨
 Name: 皮皮虾优化
 
+Package: com.xx.ppxhook
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.ppxhook_1.0.5_iphoneos-arm64.deb
+Size: 108738
+MD5sum: 61ddaa7d4a494b2cd377d43491de26f3
+SHA1: cfa0bf969067af18edb7ee9e8ae59012a7ad3208
+SHA256: 8f225dd707fb8dfce01cfca1f62d795db4c12a0dda512a08f7a5c22969924aee
+Section: Tweaks
+Description: 自用 | 去除一些广告 | 原始按钮保存视频-图片无水印 | 底部板块的自定义移除 | 在 '右下角我的-设置界面长按1-2秒出菜单' || 1.0.5更新内容:修复某些板块无法加载问题
+Author: x✨
+Name: 皮皮虾优化
+
 Package: com.xx.qmxshook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -3414,6 +3446,22 @@ Author: AnthoPak
 Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
 Name: LastLook
 
+Package: wwg135.little12
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 904
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/little12_1.deb
+Size: 337588
+MD5sum: 0ab06c408d3ed9ed71a0763f6041c563
+SHA1: de2e009e5e12347023db9bc33285ea776df54547
+SHA256: 79a0897fd585c22be0dc68a6a927d33d8abe23e2f61cda36ceb8636da9b55fb7
+Section: Tweaks
+Description: 适用于iOS 15的iPhone 12手势及更多功能。（由M哥汉化）
+Author: Ryan Nair
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/little12.png
+
 Package: wwg135.nocshare
 Version: 1.1.2-1
 Architecture: iphoneos-arm64
@@ -3430,6 +3478,22 @@ Description: 从共享菜单中删除烦人的空投和联系人。
 Author: Devvix
 Depiction: https://repo.cypwn.xyz/depiction/1845
 Name: NoCShare
+
+Package: wwg135.photoskipdelandinfinitezoom
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate
+Filename: ./debs/wwg135.photoskipdelandinfinitezoom_0.0.1_iphoneos-arm64.deb
+Size: 4356
+MD5sum: 5617bb475b6ce1bc8f7d3ee4d62ce3c6
+SHA1: 9b4a4b54c21b5ef7e6d1a094b28af0220ecfce29
+SHA256: ae157e955a1a24cc8cc285ab8dc55d4063be77f96f24b642bb0451ca536b52e3
+Section: Tweaks
+Description: 删除照片应用程序上的图片无需确认，照片放大不受限制。
+Author: Snail
+Depiction: https://repo.cypwn.xyz/depiction/1635
+Name: PhotoSkipDelAndInfiniteZoom
 
 Package: wwg135.trollleds
 Version: 1.2.1
