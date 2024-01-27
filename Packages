@@ -3495,6 +3495,22 @@ Author: Snail
 Depiction: https://repo.cypwn.xyz/depiction/1635
 Name: PhotoSkipDelAndInfiniteZoom
 
+Package: wwg135.senri
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 1.17)
+Filename: ./debs/wwg135.senri_1.1_iphoneos-arm64.deb
+Size: 205008
+MD5sum: 71a1e856bb5bb90c5c89215c7a1e0fe3
+SHA1: cb6af7d719b07a0455675f26d8fa98ff069f792c
+SHA256: 77e174a94cdc0749bb7058809f6086f1c0bbf81245768611d9b4a2bf2f86986b
+Section: Tweaks
+Description: 永远不要再丢失您的通知。（由M哥汉化）
+Author: Antoine
+Icon: https://img.chariz.cloud/icon/senri/icon@3x.png
+Name: Senri
+
 Package: wwg135.trollleds
 Version: 1.2.1
 Architecture: iphoneos-arm64
