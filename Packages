@@ -3005,6 +3005,22 @@ Depiction: https://nscake.github.io/package.html?package=libflex
 Name: libFLEX
 Sileodepiction: https://nscake.github.io/depictions/libflex.sileo.json
 
+Package: little12
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 904
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/little12_1.deb
+Size: 337672
+MD5sum: ad3f4d092196560a890ed0395ef3aefb
+SHA1: 0812f07bcd90c741b64fc6f198a6dc07bc601580
+SHA256: f2c4aecf089ce71acb514cef5b40bd623d5443c903a54a1781ecfb1141a4882b
+Section: Tweaks
+Description: 适用于iOS 15的iPhone 12手势及更多功能。（由M哥汉化）
+Author: Ryan Nair
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/little12.png
+
 Package: llld.keyboard
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -3445,22 +3461,6 @@ Description: An AOD tweak that feels stock, with endless possibilities!（M哥�
 Author: AnthoPak
 Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
 Name: LastLook
-
-Package: wwg135.little12
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 904
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: ./debs/little12_1.deb
-Size: 337588
-MD5sum: 0ab06c408d3ed9ed71a0763f6041c563
-SHA1: de2e009e5e12347023db9bc33285ea776df54547
-SHA256: 79a0897fd585c22be0dc68a6a927d33d8abe23e2f61cda36ceb8636da9b55fb7
-Section: Tweaks
-Description: 适用于iOS 15的iPhone 12手势及更多功能。（由M哥汉化）
-Author: Ryan Nair
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/little12.png
 
 Package: wwg135.nocshare
 Version: 1.1.2-1
