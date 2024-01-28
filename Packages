@@ -1041,6 +1041,38 @@ Dev: ichitaso
 Icon: https://cydia.ichitaso.com/icons/PrimalFolder2.png
 Name: PrimalFolder 2
 
+Package: com.icraze.swipeselection
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: iCraze
+Installed-Size: 156
+Depends: mobilesubstrate
+Filename: ./debs/com.icraze.swipeselection_2.0_iphoneos-arm64.deb
+Size: 14312
+MD5sum: 40cb345b1a80aa663a9496ab5ae48d86
+SHA1: 69917d1d817c9092766642546b42591cc2f51f08
+SHA256: 412a052cc5af484b877c627837a1d6cb00971f20ac7bc79146c80b3b88e7c885
+Section: Tweaks
+Description: Swipe along the keyboard to move the cursor and select text.
+Author: Kyle Howells
+Name: SwipeSelection
+
+Package: com.icraze.translucent3dmenus
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: iCraze
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.icraze.translucent3dmenus_2.0_iphoneos-arm64.deb
+Size: 4364
+MD5sum: 355ba3a83f88c29d3fb39a5d96e3a00e
+SHA1: 855ff780427dfa087b0481f5b093bc2b51043e7d
+SHA256: e062e26f198369eb5e1e78a76a78e55183d3c6bfa819751fc390d36a7a363374
+Section: Tweaks
+Description: Make the 3D-Touch menus translucent
+Author: iCraze
+Name: Translucent3DMenus
+
 Package: com.imeituan
 Version: 1.0
 Architecture: iphoneos-arm64
