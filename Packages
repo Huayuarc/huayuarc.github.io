@@ -1522,6 +1522,22 @@ Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Author: MTAC
 Name: Lynx 2
 
+Package: com.mtac.lynxtwo
+Version: 2.4.7
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2436
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/Lynx2.2.4.7.deb
+Size: 545180
+MD5sum: e4eec66de4f4d1adf6a85c804941fc54
+SHA1: 556a35d618c084406b0adf058caa31313467aef7
+SHA256: d11a4df860a8f6144bbd55ca97f058cf5fe19764b036b1745975b8bea94840ca
+Section: Tweaks
+Description: iOS 14、15和16的终极iDevice定制！（由M哥汉化）
+Author: MTAC
+Name: Lynx 2
+
 Package: com.mtxx
 Version: 1.1
 Architecture: iphoneos-arm64
