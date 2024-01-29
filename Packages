@@ -3479,6 +3479,22 @@ Depiction: https://repo.cypwn.xyz/depiction/1850
 Icon: https://media.havoc.app/64ae21880d54f9113bc13a59
 Name: Alpine
 
+Package: wwg135.alpine
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/wwg135.alpine_1.4_iphoneos-arm64.deb
+Size: 601540
+MD5sum: dcbc161c2aea49c259a6270a5d47af9b
+SHA1: bd64a0b979f34a34de95072a730d6b878ca10c37
+SHA256: 559a07b7e84a8ebb793d3943a88d158e785379421892c630e21da2399364e907
+Section: Tweaks
+Description: 适用于iOS的tvOS提醒。（由M哥汉化）
+Author: MTAC
+Icon: https://media.havoc.app/64ae21880d54f9113bc13a59
+Name: Alpine
+
 Package: wwg135.darkerdarkmode
 Version: 0.5.1-5
 Architecture: iphoneos-arm64
