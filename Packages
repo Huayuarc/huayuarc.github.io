@@ -3665,14 +3665,15 @@ Architecture: iphoneos-arm64
 Maintainer: M哥
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.mrgcgamer.libgcuniversal
 Filename: ./debs/wwg135.respring_1.0_iphoneos-arm64.deb
-Size: 1443808
-MD5sum: 68619fd8d5c4b56769355a5c21fc0dfa
-SHA1: c6f9b965b36bbf7af311feaf4cebdfd49adf7ddc
-SHA256: f2534f5039f21e2d17f63f5979fd142271d261809daaa685243bde94b34d8ec3
+Size: 1443748
+MD5sum: 416e07f1f39c6edf8c1dfd4e007d7145
+SHA1: b89af18afca0b2f7a9580abaa009c3dcbe3b7093
+SHA256: e0de5d97a126d06a3dcb8ebb4dd7a7fdecf6002df5be9c9b2a631ecbd9bb41d4
 Section: Tweaks
 Description: 选择你注销设备的方式。随时随地。
 Author: pkgFiles
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/respring.png
+Name: Respring
 
 Package: wwg135.senri
 Version: 1.1
