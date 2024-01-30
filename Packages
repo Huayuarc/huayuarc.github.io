@@ -3209,6 +3209,26 @@ Mainlibmd5: b5342a1386747b1e272ed30e919332f5
 Name: Glow
 Sileodepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.glow
 
+Package: net.limneos.glow-rootless
+Version: 0.6-9
+Architecture: iphoneos-arm64
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1008
+Depends: mobilesubstrate, preferenceloader, firmware ( >= 12)
+Filename: ./debs/net.limneos.glow-rootless_0.6-9_iphoneos-arm64.deb
+Size: 230604
+MD5sum: b2d1ff54989457cea9d3d91ca91ffdeb
+SHA1: d81d5ca27e44852da18960c9d8a1f0513166099a
+SHA256: b90751937edd78372d681a9a7260ec2633b993616ecd4b012cdc0fc8c24f53e4
+Section: Tweaks
+Description: Let your lockscreen glow!
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://limneos.net/glow/
+Icon: file:///Library/PreferenceBundles/Glow.bundle/icon.png
+Mainlibmd5: b47c7525046de58905114770669a774b
+Name: Glow (rootless iOS 12-17)
+Sileodepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.glow
+
 Package: netskao.appdata-rootless
 Version: 1.4.1
 Architecture: iphoneos-arm64
@@ -3511,6 +3531,22 @@ Author: MTAC
 Icon: https://media.havoc.app/64ae21880d54f9113bc13a59
 Name: Alpine
 
+Package: wwg135.alwaysdark
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.spark.libsparkapplist, xyz.cypwn.xinam1ne
+Filename: ./debs/wwg135.alwaysdark_1.2.2_iphoneos-arm64.deb
+Size: 33476
+MD5sum: 44d09fe0b7a9a43eeb61f98072617370
+SHA1: 9e6bcb990a5ee0abf48214a497d563ff31d0a9c8
+SHA256: dafd146cf341bc2a44d8f3524c71170f005e666d2db0dcdebbe7bb2057623403
+Section: Tweaks
+Description: 始终在深色/浅色模式下运行某些应用程序。（由M哥汉化）
+Author: KingPuffdaddi
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/alwaysdark.png
+Name: AlwaysDark
+
 Package: wwg135.darkerdarkmode
 Version: 0.5.1-5
 Architecture: iphoneos-arm64
@@ -3542,6 +3578,22 @@ Section: Tweaks
 Description: 删除“设置”应用程序中的“软件更新”和“还原所有内容和设置”选项卡。
 Author: iCraze
 Name: KeepMyJB
+
+Package: wwg135.kiyoharu
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 1.17), mobilesubstrate
+Filename: ./debs/wwg135.kiyoharu_1.0.1_iphoneos-arm64.deb
+Size: 113288
+MD5sum: 3565a3ddb2fd69a91f1789425af0bd1d
+SHA1: 6d8679dd74065d7a372c7f2c29cd34c0ecd216ac
+SHA256: d6acf7f438d9325294b38f0089fc038a442d10794337aab3ec73c73dad53947e
+Section: Tweaks
+Description: 如果它很好，播放两次。（由M哥汉化）
+Author: Antoine
+Icon: https://img.chariz.cloud/icon/kiyoharu/icon@3x.png
+Name: Kiyoharu
 
 Package: wwg135.kodelay
 Version: 1.0
@@ -3606,6 +3658,21 @@ Description: 删除照片应用程序上的图片无需确认，照片放大不�
 Author: Snail
 Depiction: https://repo.cypwn.xyz/depiction/1635
 Name: PhotoSkipDelAndInfiniteZoom
+
+Package: wwg135.respring
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/wwg135.respring_1.0_iphoneos-arm64.deb
+Size: 1443808
+MD5sum: 68619fd8d5c4b56769355a5c21fc0dfa
+SHA1: c6f9b965b36bbf7af311feaf4cebdfd49adf7ddc
+SHA256: f2534f5039f21e2d17f63f5979fd142271d261809daaa685243bde94b34d8ec3
+Section: Tweaks
+Description: 选择你注销设备的方式。随时随地。
+Author: pkgFiles
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/respring.png
 
 Package: wwg135.senri
 Version: 1.1
