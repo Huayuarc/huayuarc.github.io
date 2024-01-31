@@ -1304,6 +1304,22 @@ Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
 
+Package: com.leemin.lockmaster
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: lemin
+Installed-Size: 500
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.leemin.lockmaster_1.1.0_iphoneos-arm64.deb
+Size: 75740
+MD5sum: 8a0a6a61cabbf318b461e3ad2ba3e464
+SHA1: 0846d894b16d1296af35d011eac06f944a5eb530
+SHA256: b30259a392d53c3ecb65a3a2553d99c8641cca2e97c4880c36c0f73e149c9416
+Section: Tweaks
+Description: 自定义设备锁定方式。（由M哥汉化）
+Author: lemin
+Name: Lock Master
+
 Package: com.leisu
 Version: 1.2
 Architecture: iphoneos-arm64
