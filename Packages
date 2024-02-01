@@ -3685,16 +3685,14 @@ Maintainer: PoomSmart
 Installed-Size: 88
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
 Filename: ./debs/LiveTextEnabler.1.1.1.deb
-Size: 3736
-MD5sum: 3f7c00737045fe51c183edc423e129f0
-SHA1: 2fbaf08e55abe87fbb404ebbeaa44e5e23da3ec7
-SHA256: 4237b18bfb73b4bfd3f81cc3b52fb3f931812d01f3ae6b609532c3833a4da07e
+Size: 3636
+MD5sum: 456ee98513465c325c343006af474bf2
+SHA1: 0e784383481eaeaec31f7b8ce118114aa4e7e239
+SHA256: 5ed5d73d8a77cd306e96c10d9d54f341dac9c3af7b463f11308b1e3a7ddc6b78
 Section: Tweaks
-Description: 在不支持的iOS 15+设备上启用实时文本（就是支持ios15+及以上设备）。点击图片右下角就可以识别，然后复制、翻译等。
+Description: 在不支持的iOS 15+设备上启用实时文本。点击图片就可以识别，然后复制、翻译等。
 Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/livetextenabler.html
 Name: 实时文本
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/livetextenabler.json
 
 Package: wwg135.nocshare
 Version: 1.1.2-1
