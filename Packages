@@ -3758,6 +3758,22 @@ Description: 在不支持的iOS 15+设备上启用实时文本。点击图片就
 Author: PoomSmart
 Name: 实时文本
 
+Package: wwg135.lockmaster
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: lemin
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/LockMaster.1.2.0.deb
+Size: 87736
+MD5sum: e43f57299e3a8b0ddda753950aa593cf
+SHA1: cdd8bb35feb66e586c08ad411673da690ceb2b22
+SHA256: 32f6ef7bd15048738f77566aeef223e6b1bd3690c9747b7b19664d8cce615744
+Section: Tweaks
+Description: 自定义设备锁定方式。（由M哥汉化）
+Author: lemin
+Name: Lock Master
+
 Package: wwg135.nocshare
 Version: 1.1.2-1
 Architecture: iphoneos-arm64
