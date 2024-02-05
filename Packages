@@ -2445,6 +2445,22 @@ Description: 屏蔽1.1.3 | 1.1.4版本越狱检测(请使用Choicy禁止注入�
 Author: x✨
 Name: 数字人民币屏蔽越狱
 
+Package: com.xx.ecnyhook
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/数字人民币屏蔽越狱.1.0.2.deb
+Size: 23412
+MD5sum: 1a34a50777b8133de72c8904f953c20a
+SHA1: 8fb4237feb4368d5b82d15eb096046a8851d03cd
+SHA256: 0a20816480e420990d80c1c33f7eabfd490125c08995f439831b9b6f489a729d
+Section: Tweaks
+Description: 屏蔽1.1.3 - 1.1.5版本越狱检测
+Author: x✨
+Name: 数字人民币屏蔽越狱
+
 Package: com.xx.fqxshook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -2541,6 +2557,22 @@ Description: 自用 功能默认开启 | 去除启动广告 首页一些无用�
 Author: x✨
 Name: 高德地图优化
 
+Package: com.xx.gaodehook
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 340
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/高德地图优化.1.0.3.deb
+Size: 101168
+MD5sum: 64ccb83d37195ae73716cc48b0d29c4d
+SHA1: 9739384fd4557170133bf2a4d50996640a09b446
+SHA256: 5e81801f98eb591ef4f67e49cc338e0789becd1731ac7126aacfc7451f4fc391
+Section: Tweaks
+Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.3更新内容：对我的页面一些板块进行移除(功能并不是默认开 自行开启)
+Author: x✨
+Name: 高德地图优化
+
 Package: com.xx.iboxhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -2618,6 +2650,22 @@ SHA1: 88a412ca7b6973cbea1ae78099f479a14fc26194
 SHA256: f80ed5da881055ce3e914e224364ebc35d0e9aeb3feaa5122f55bd70cf20c715
 Section: Tweaks
 Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项,支持pro版 -- 1.0.3更新内容：修复移除底部bug
+Author: x✨
+Name: 今日头条Hook
+
+Package: com.xx.jrtthook
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 644
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/今日头条Hook.1.0.4.deb
+Size: 179952
+MD5sum: f48f6192779af40d124374ffc9f06f71
+SHA1: 3388e72de60a6f607f40553595ea4e25285a4f08
+SHA256: 979d74dceef87922eb14ad3997c3ce745b483406d5f28f0be6fd716afda48a95
+Section: Tweaks
+Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项,支持pro版 -- 1.0.4更新内容：尝试修复一些已知问题
 Author: x✨
 Name: 今日头条Hook
 
