@@ -1564,13 +1564,14 @@ Maintainer: MTAC
 Installed-Size: 2468
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
 Filename: ./debs/Lynx2.2.4.8.deb
-Size: 555872
-MD5sum: 510019f2d83804f8734786838750b416
-SHA1: 31e7a08a5087e6a11bf11e5165bcd49a85898251
-SHA256: adf8b73af42472403e756aa2adb2357f9baa05a1368a56c0be590c11bf2d42ac
+Size: 554652
+MD5sum: 0630cd434b92e579828717dd9f025fc5
+SHA1: a3f4f87d58a13101b7f59a3cbe9208ce31557eda
+SHA256: b45fc73c218ace4fb1404907c92902e355841baeac98832c44b4c190867ae2c5
 Section: Tweaks
 Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Author: MTAC
+Icon: https://media.havoc.app/61f896da1630a63286dc419c
 Name: Lynx 2
 
 Package: com.mtxx
