@@ -2430,6 +2430,23 @@ Author: x✨
 Name: 抖音图层
 Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
 
+Package: com.xx.dyhook
+Version: 1.1.9-1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 1284
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_1.1.9-1_iphoneos-arm64.deb
+Size: 349062
+MD5sum: ffcce483612fe363b8edc49056c0b3f7
+SHA1: 246f903bf52125ad843f698ad0f156468cb405a1
+SHA256: c8b9a7c5cd683f390ea3e4bf8f554361a13b639184faa3ea8a559e26a4142dfd
+Section: Tweaks
+Description: 自用 首页视频界面双指双击弹出设置UI-或在"我-右上角打开" && 本人刚学一点 有问题请大佬多指教
+Author: x✨
+Name: 抖音图层
+Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
+
 Package: com.xx.ecnyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -2756,6 +2773,22 @@ Architecture: iphoneos-arm64
 Maintainer: x✨
 Installed-Size: 692
 Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.kshook_1.0.4_iphoneos-arm64.deb
+Size: 196780
+MD5sum: bcef9761c549c312c95d5af26e35fb2f
+SHA1: 73e3f437a297a92903820a4ea5495a3740d3b31d
+SHA256: 1d86370cd37b1b64bbe0e760f80bbf5677c65f5eda77056e0c9809f61fedbb22
+Section: Tweaks
+Description: 点击APP右下角-我-右上角三横-长按打开菜单开启功能。功能：移除一些广告|弹窗--无水印保存视频图片 -- 1.0.4:移除底部拍摄 | 显示视频发布时间 | 版本号
+Author: x✨
+Name: 快手Hook
+
+Package: com.xx.kshook
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 692
+Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/快手图层1.0.4无根.deb
 Size: 196780
 MD5sum: bcef9761c549c312c95d5af26e35fb2f
@@ -2859,6 +2892,22 @@ SHA1: cfa0bf969067af18edb7ee9e8ae59012a7ad3208
 SHA256: 8f225dd707fb8dfce01cfca1f62d795db4c12a0dda512a08f7a5c22969924aee
 Section: Tweaks
 Description: 自用 | 去除一些广告 | 原始按钮保存视频-图片无水印 | 底部板块的自定义移除 | 在 '右下角我的-设置界面长按1-2秒出菜单' || 1.0.5更新内容:修复某些板块无法加载问题
+Author: x✨
+Name: 皮皮虾优化
+
+Package: com.xx.ppxhook
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.ppxhook_1.0.6_iphoneos-arm64.deb
+Size: 108390
+MD5sum: f920191627da25e768ddd8ccfab99d40
+SHA1: 341c56d6de62a0cd32b50f4e3d8fd38817ca8a7f
+SHA256: 523033c720546fc94a801cabcb47831bc73c828204ccc6b9a969c56af21cdd86
+Section: Tweaks
+Description: 自用 | 去除一些广告 | 原始按钮保存视频-图片无水印 | 底部板块的自定义移除 | 在 '右下角我的-设置界面长按1-2秒出菜单' || 1.0.6更新内容:修部分无下载按钮的视频 收藏后可以去我的收藏里保存无水印
 Author: x✨
 Name: 皮皮虾优化
 
@@ -3003,6 +3052,22 @@ SHA1: 8fc8b102c9b4909764ba22f6c7879d9e5d61061e
 SHA256: 571791bbabace847ad864477d3529da400b2a1c45c79b208420b98d6e1c19570
 Section: Tweaks
 Description: 朋友需要才制作了此插件.APP设置界面双指长按出现菜单 功能：默认移除一些广告 -- 原生按钮无水印保存图片-视频-live图 -- 长按复制文案 | 1.0.4更新内容：继续解决live图有时无法保存的问题 | 新增部分底部栏板块移除
+Author: x✨
+Name: 小红薯调整
+
+Package: com.xx.xhshook
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 392
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.xhshook_1.0.5_iphoneos-arm64.deb
+Size: 113150
+MD5sum: 4e8c7501dd6c7f9d3d90781c1988791b
+SHA1: 5d6f66457894942babf83a10c358bcc777bceb20
+SHA256: 675025342ff829aee9155b7631bc5c787a4b39b178156497ef89e4019efa1b7e
+Section: Tweaks
+Description: 朋友需要才制作了此插件.APP设置界面双指长按出现菜单 功能：默认移除一些广告 -- 原生按钮无水印保存图片-视频-live图 -- 长按复制文案 | 1.0.5更新内容：首页广告移除 | 一些检测优化
 Author: x✨
 Name: 小红薯调整
 
