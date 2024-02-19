@@ -1304,6 +1304,23 @@ Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
 
+Package: com.lclrc.hammerit
+Version: 1.5.0
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 2288
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
+Filename: ./debs/HammerIt.1.5.0.deb
+Size: 435816
+MD5sum: eecbd7b05b8b12c063cdf6f7ef89c4ff
+SHA1: c705727a46bf8001c4771628b407d99ec3c5631e
+SHA256: 9e282f5045eccc9e22e123a1fea9aedb9ff5e0fe260ca34a9035006fd63a0de7
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
+
 Package: com.leemin.lockmaster
 Version: 1.1.0
 Architecture: iphoneos-arm64
