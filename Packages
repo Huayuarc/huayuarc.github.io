@@ -168,6 +168,22 @@ Description: ***给QQ加点小功能，芭比Q注入版，可注入可越狱，�
 Author: 来了老弟
 Name: 芭比Q注入版-rootless
 
+Package: cn.llld.dhjj
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/电话精简收藏和语音留言-rootless.1.0.deb
+Size: 4260
+MD5sum: 0098457ecaacebbb39bf563df8a2b1e4
+SHA1: 1126b088866e97f73aa2c9aac71c662c84ab182c
+SHA256: 6354d981ca128fa60e2a39621066610ea9e9ddb1222b81447fbd1b6f60a9cdc4
+Section: rootless插件
+Description: Telephone streamlining personal collection and voice messages。电话精简个人收藏和语音留言
+Author: 来了老弟 h_h_x_t
+Name: 电话精简收藏和语音留言-rootless
+
 Package: cn.llld.ftt
 Version: 0.1
 Architecture: iphoneos-arm64
