@@ -1555,6 +1555,23 @@ Name: LaunchLogo
 Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.launchlogo.json
 
 Package: com.mtac.lynxtwo
+Version: 2.4.10
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2568
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/Lynx2.2.4.10.deb
+Size: 569040
+MD5sum: b4575939fda7cd8ce6930660269f2abe
+SHA1: 5edacc3cfd3a10dd1576fbb77c95018f5edbd4e8
+SHA256: 5823a7a31e41a616bfde03e831c184c109ae88af25d6da6581035547c2e7cda1
+Section: Tweaks
+Description: iOS 14、15和16的终极iDevice定制。（由M哥汉化）
+Author: MTAC
+Icon: https://media.havoc.app/61f896da1630a63286dc419c
+Name: Lynx 2
+
+Package: com.mtac.lynxtwo
 Version: 2.4.5
 Architecture: iphoneos-arm64
 Maintainer: MTAC
