@@ -2359,6 +2359,27 @@ Description: iOS Terminal
 Author: Tim Apple
 Name: Terminal
 
+Package: com.wwg135.visibleisland
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: ethxnn88 <ethxnn88@gmail.com>
+Depends: firmware (>= 16.0), mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Filename: ./debs/com.wwg135.visibleisland_2.0_iphoneos-arm64.deb
+Size: 28532
+MD5sum: 9454777bc4ac3f25679a7188b439d8dd
+SHA1: 754e5f749c5b54336c7d5325f682b2bad093f09b
+SHA256: f41ffd93613963025a340a52f0531bc494e61b19904b381fd1e63eba7c60410b
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: 在旧设备上启用、修复和自定义灵动岛。（由M哥汉化）
+Author: ethxnn88 <ethxnn88@gmail.com>
+Depiction: https://ethxnn88.github.io/repo/depiction/web/com.ethxnn88.visibleisland.html
+Icon: https://ethxnn88.github.io/repo/assets/com.ethxnn88.visibleisland/icon.png
+Moderndepiction: https://ethxnn88.github.io/repo/depiction/native/com.ethxnn88.visibleisland.json
+Name: VisibleIsland
+Sileodepiction: https://ethxnn88.github.io/repo/depiction/native/com.ethxnn88.visibleisland.json
+Tags: compatible_min::ios16.0, compatible_max::ios16.6.1
+
 Package: com.wwg135.zenith14
 Version: 1.2.14
 Architecture: iphoneos-arm64
