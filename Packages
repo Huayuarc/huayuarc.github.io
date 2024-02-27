@@ -2362,6 +2362,23 @@ Author: Antoine
 Icon: https://img.chariz.cloud/icon/senri/icon@3x.png
 Name: Senri
 
+Package: com.wwg135.switchshades
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 505
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Filename: ./debs/com.wwg135.switchshades_1.2_iphoneos-arm64.deb
+Size: 133636
+MD5sum: 434adefdb61702a05e2141556036ecac
+SHA1: 9654e840c507997d3a9a1c7276b97a246d03c62a
+SHA256: 5552780c3bf3b1de69e4112a4bddfcbc098c0d52cae919bc437f29a92dd8f569
+Section: Tweaks
+Description: 根据应用程序图标为应用程序切换器添加颜色。（由M哥汉化）
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://img.chariz.cloud/icon/switchshades/icon@3x.png
+Name: SwitchShades
+
 Package: com.wwg135.terminal
 Version: 1.0
 Architecture: iphoneos-arm64
