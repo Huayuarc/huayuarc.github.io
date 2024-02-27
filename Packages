@@ -214,6 +214,38 @@ Description: ***给(驾校一点通)加点小功能，可注入可越狱，祝�
 Author: 来了老弟
 Name: 驾校一点通绿了-rootless
 
+Package: cn.llld.jxydt
+Version: 0.4
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 220
+Depends: mobilesubstrate
+Filename: ./debs/cn.llld.jxydt_0.4_iphoneos-arm64.deb
+Size: 21330
+MD5sum: ff25a8437cf497ac353ad2f0d0d1bf22
+SHA1: dea0c7ded9f660d13308a994949bb6880e1171bb
+SHA256: db670dde7cc2e64abc4d19c891693265239c8f5cf0717ea21382281f08f4ac0f
+Section: rootless插件
+Description: 可注入可越狱使用，祝各位拿证到手。默认去除开屏广告和动画(若开梯子使用会冲突)，广告因版本不同而有所固执，待处理。开启'模拟考试完整技巧次数破解'，开启'去除视频观看20秒需会员的限制'等数十功能，长按1秒底栏弹出设置。
+Author: 来了老弟
+Name: 驾校一点通绿化-rootless
+
+Package: cn.llld.jyxlss
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/cn.llld.jyxlss_0.0.1_iphoneos-arm64.deb
+Size: 4156
+MD5sum: 596f1a77c27bb49843f540b838459615
+SHA1: 1b8d3306a67b55ace1e3c9cbf68293b1d20d84e5
+SHA256: c8282920d661f0c5d388913ac912bcee42b1945b2e3a6f6c6d50111c2f80614d
+Section: rootless插件
+Description: Disable home screen dropdown search。禁用主屏幕下拉搜索。
+Author: 来了老弟 X：h_h_x_t
+Name: 禁用主屏幕下拉搜索-rootless
+
 Package: cn.llld.minivx
 Version: 1.01
 Architecture: iphoneos-arm64
@@ -486,6 +518,38 @@ Section: rootless插件
 Description: ***给微博加点小功能，去广告啥的，可注入 可越狱版，随意写的，设置排版要加的东西多***。长按'我'页面的（创作中心）或者（浏览记录）（我的访问记录）的文字，弹出设置。。。240115:修复闪退，加快微博启动速度。240128:解决部分机型卡屏首页问题，现有广告挺多（五花八门的），有空就一点点解决，Q群928481652，cydia装不了的，下群文件
 Author: 来了老弟
 Name: 微博绿了注入版-rootless
+
+Package: cn.llld.wxx
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/cn.llld.wxx_1.0_iphoneos-arm64.deb
+Size: 18608
+MD5sum: a24d07bb0c0405efe02769368dc12bc4
+SHA1: e9b07111cedd512f0531e40673d15672cf72a122
+SHA256: d0c87c5106bb58f3dfbda46372246ce2324df4a92ab09814e51f0757c1cc4e0d
+Section: rootless插件
+Description: 微信小布丁1.0版本，可注入可越狱使用。自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告，屏蔽朋友圈广告，屏蔽越狱检测状态等功能。不整大杂烩，只更用的到.***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***
+Author: 来了老弟 X：h_h_x_t
+Name: 微信小布丁-rootless
+
+Package: cn.llld.zfbb
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/cn.llld.zfbb_1.0_iphoneos-arm64.deb
+Size: 16540
+MD5sum: 2c0f80a159e7d906f574ac65b0d1fb75
+SHA1: 250a4ca4fa6b08e22ad4d8457d3144207a832b0e
+SHA256: 54bcee790dadeea301b587db51a039ab521de94656312b2324bd49c5d3c40108
+Section: rootless插件
+Description: 可注入可越狱使用。自定义步数，屏蔽越狱检测，精简主页显示内容.***长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置***,支持任意版本。
+Author: 来了老弟 X：h_h_x_t
+Name: 支付宝步数XD-rootless
 
 Package: cn.llld.zyll
 Version: 0.1
