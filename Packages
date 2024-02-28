@@ -3839,20 +3839,20 @@ Sileodepiction: https://sezo.app/depiction/native/sezo.nyx.json
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: wechatplugin
-Version: 3.2.0
+Version: 2.0.0
 Architecture: iphoneos-arm64
 Maintainer: M哥
 Installed-Size: 108
 Depends: mobilesubstrate
-Filename: ./debs/微信辅助_rootless.3.2.0.deb
-Size: 10128
-MD5sum: cd6d5b975f783657db77fb193f8e9eee
-SHA1: bf771bd98c2e755f14f3abfbc504fa4533bb9399
-SHA256: d56e7d9bcdf86879983692f2c4bf68e998e8b07aea42a5cf68e9ed249ddd355c
+Filename: ./debs/微信登录_2.0.deb
+Size: 5356
+MD5sum: b51a719c5ed2e4377825a92e21720fe2
+SHA1: a2b2d7fcbf341f040d1d9e83ec7db03eb3cd64de
+SHA256: 7bdb3c76fe0a0b0f27f4b819cf27432efde6524567705dee7863f40f7779868f
 Section: rootless微信插件
-Description: 微信简洁辅助(自动确认登录，微信callkit，公众号去广告)-roootless
+Description: 微信电脑扫码，手机自动确认登录.
 Author: M哥
-Name: 微信辅助_rootless
+Name: 微信登录_rootless
 
 Package: wiki.qaq.chromatic.rootless
 Version: 2.1-REL-1700097956.e9752be
