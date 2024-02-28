@@ -168,6 +168,22 @@ Description: ***给QQ加点小功能，芭比Q注入版，可注入可越狱，�
 Author: 来了老弟
 Name: 芭比Q注入版-rootless
 
+Package: cn.llld.bbqzr
+Version: 0.4
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 348
+Depends: mobilesubstrate
+Filename: ./debs/QQ绿化_芭比Q-rootless_0.4_iphoneos-arm64.deb
+Size: 47152
+MD5sum: 7032c2ac0f9d044eda06da97722e54a3
+SHA1: 2167bc7717f6b35e0f48c6d1504cbfc703ea4815
+SHA256: a8042fbe1b2d1b4ad98ac585a454225dedfd4c4eca884c8c9d5ab5ebdde88477
+Section: rootless插件
+Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***。长按侧边栏的（日间）或（设置）图标，弹出设置，还有多处隐藏菜单，长按去发现。240228小更新，排版随便弄了下，QQ更新过快，每次都有新活，开发动力不大了
+Author: 来了老弟
+Name: QQ绿化_芭比Q-rootless
+
 Package: cn.llld.dhjj
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -471,6 +487,23 @@ Author: 来了老弟 X：h_h_x_t
 Icon: file:///var/jb/Library/PreferenceBundles/tmllldprefs.bundle/icons-llld/qjtmmax.png
 Name: 全局透明Max-rootless
 
+Package: cn.llld.tmts
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 548
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/全局透明Max-rootless_1.1-1+debug_iphoneos-arm64.deb
+Size: 130068
+MD5sum: f5a0640bc37c5481930b9e131f132f58
+SHA1: 7205917fcd79b5d8a10ccb8e5bcccd0de3570c41
+SHA256: 213df646f5924b52c6a0f89bfe860be62ec88bf0d5172af4282adb6eb5e290a1
+Section: rootless插件
+Description: Customize notifications, player，control center, multitasking background module transparency(alpha)，Don't leave a blank. There must be a value to fill in the blanks.。自定义播放器大小和控制中心大小及位置，自定义SpringBoard全局透明度(包含 锁屏 ，播放器，负一屏，通知，控制中心，多任务后台模块等)，不要留空白，填空必须有数值----以最新版本为准，之前代码是垃圾
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///var/jb/Library/PreferenceBundles/tmllldprefs.bundle/icons-llld/qjtmmax.png
+Name: 全局透明Max-rootless
+
 Package: cn.llld.wbb
 Version: 0.1
 Architecture: iphoneos-arm64
@@ -567,6 +600,22 @@ Description: 微信小布丁1.0.2版本，可注入可越狱使用。自定义�
 Author: 来了老弟 X：h_h_x_t
 Name: 微信小布丁-rootless
 
+Package: cn.llld.wxx
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 220
+Depends: mobilesubstrate
+Filename: ./debs/微信小布丁-rootless_1.0.3_iphoneos-arm64.deb
+Size: 21300
+MD5sum: c86a3058b1a8f75effcce0a1958ac6f5
+SHA1: 66278f166f450e6475790987858a2e21a9d225a2
+SHA256: ac53a293ffa70bef43eaf0bebe16bb254dcfbe48be89b08c2d9715ca61332030
+Section: rootless插件
+Description: 微信小布丁1.0.3版本，可注入可越狱使用。自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告，屏蔽朋友圈广告，屏蔽越狱检测状态,快速跳小程序广告，自定义步数等功能。只限8.0.31微信版本，若是注入用，记得开自动依赖。。不整大杂烩，只更用的到。***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***
+Author: 来了老弟 X：h_h_x_t
+Name: 微信小布丁-rootless
+
 Package: cn.llld.ycdock
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -645,6 +694,22 @@ Section: rootless插件
 Description: ***给最右加点小功能，最右绿了注入版，可注入可越狱，去广告去水印啥的***。长按'我的'页面（插眼）或者（赞过）文字，弹出设置。Q群928481652，(20240121:更新修复长按评论区分享弹出编辑框问题)，20240126修改了下，确定下载没水印了。
 Author: 来了老弟
 Name: 最右绿了注入版-rootless
+
+Package: cn.llld.zyll
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/最右绿化-rootless_1.1_iphoneos-arm64.deb
+Size: 15914
+MD5sum: 63b2410a104e12f6fc944cfa7b149827
+SHA1: 931961cb4bd69457fc68b785a67b7159133eb888
+SHA256: 1bdc2dd160f109cea2be3304b7d9092418a3eeda92764734cf299ea56e85cddf
+Section: rootless插件
+Description: 可注入可越狱使用。去除启动页视频图片摇一摇广告，去除首页推荐和帖子评论区广告，去除帖子下群组社区推荐，禁用首页左上角话题，禁用首页右上角搜索，禁用推送广告，禁用消息角标，开启全屏视频浏览模式，开启视频下载无水印，等等。***'我的'页面长按头像下方控件或首页顶栏或任意帖子内顶部，弹出设置***。
+Author: 来了老弟
+Name: 最右绿化-rootless
 
 Package: com.HBWechatHelper.ailun
 Version: 1.6.8
