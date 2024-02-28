@@ -535,13 +535,29 @@ Description: 微信小布丁1.0版本，可注入可越狱使用。自定义气�
 Author: 来了老弟 X：h_h_x_t
 Name: 微信小布丁-rootless
 
+Package: cn.llld.wxx
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/微信小布丁-rootless_1.0_iphoneos-arm64.deb
+Size: 18680
+MD5sum: db0241bc12f08a7c3475422d56d3fc37
+SHA1: 7df8956caa53f39b100826e651de8bc9a2ff588a
+SHA256: 6a174ebd3dab96a5353c41206c3a1033b6fd74aa2c0bdca0a28f76590a518983
+Section: rootless-wx插件
+Description: 微信小布丁1.0版本，可注入可越狱使用。自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告，屏蔽朋友圈广告，屏蔽越狱检测状态等功能。不整大杂烩，只更用的到.***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***当前只限8.0.31微信版本
+Author: 来了老弟 X：h_h_x_t
+Name: 微信小布丁-rootless
+
 Package: cn.llld.zfbb
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: 来了老弟 X：h_h_x_t
 Installed-Size: 204
 Depends: mobilesubstrate
-Filename: ./debs/cn.llld.zfbb_1.0_iphoneos-arm64.deb
+Filename: ./debs/支付宝步数XD-rootless_1.0_iphoneos-arm64.deb
 Size: 16540
 MD5sum: 2c0f80a159e7d906f574ac65b0d1fb75
 SHA1: 250a4ca4fa6b08e22ad4d8457d3144207a832b0e
