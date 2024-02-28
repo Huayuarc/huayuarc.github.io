@@ -1735,6 +1735,23 @@ Description: iOS 16上的浮动Dock（M哥汉化）
 Author: Ethan Whited
 Name: FloatingDockXVI
 
+Package: com.nan.givemedeb
+Version: 0.2.0-2
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: ./debs/Givemedeb.0.2.0-2.deb
+Size: 2380
+MD5sum: 2ca3411ad855f0ef48217e04b25097c3
+SHA1: e85639cac27cce002eff22ff204563beccec4f38
+SHA256: dbaba5ba93261ae77f8b07c68882e13e4a96ffc59a50b60b5e7bbcb98155c71d
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
 Package: com.news
 Version: 1.0
 Architecture: iphoneos-arm64
