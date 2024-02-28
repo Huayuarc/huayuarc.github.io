@@ -2474,6 +2474,23 @@ Author: Nightwind
 Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
 Name: OneSettings
 
+Package: com.wwg135.safarix
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 700
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/SafariX.deb
+Size: 267636
+MD5sum: 6493ce92641e1bfc02cc569c8d02bdf8
+SHA1: 92d95e11c2771e118a3e8be7fbc838fde46735dc
+SHA256: 808568ca6ef1d9465e4c4e2c39fe127efb995fb8c57b3aec43fd73ed93364d36
+Section: tweaks
+Description: Safari 自带浏览器基本功能增强.
+Author: 0xkuj
+Name: SafariX
+Sponsor: M哥
+
 Package: com.wwg135.senri
 Version: 1.0
 Architecture: iphoneos-arm64
