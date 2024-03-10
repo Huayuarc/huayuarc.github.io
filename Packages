@@ -858,60 +858,6 @@ Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.addtofo
 Name: AddToFolder (Rootless)
 Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.addtofolder-rootless.json
 
-Package: com.anthopak.lastlook
-Version: 3.6.5
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
-Filename: ./debs/LastLook.3.6.5.deb
-Size: 388840
-MD5sum: b1d3e844c88c733a7c0f2bbfdc919f78
-SHA1: a338e7c265697ffaf738b63c7c8e36a12fb52172
-SHA256: 9e26c569edc8e9b8b7db1df29b302fb8bd82b3ed2853865410284524f6500be4
-Section: Tweaks
-Description: 一个原生的AOD调整，有无限的可能性！（M哥汉化）
-Author: AnthoPak
-Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
-Name: LastLook
-
-Package: com.anthopak.lastlook
-Version: 4.0.1
-Architecture: iphoneos-arm64
-Maintainer: AnthoPak <anthopakdev@gmail.com>
-Installed-Size: 1452
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
-Filename: ./debs/LastLook.4.0.1.deb
-Size: 414364
-MD5sum: 7ee882cd1336063099c8e75ab20fbc35
-SHA1: 71e4069a37d02006d74474c51740320b4aad95e2
-SHA256: 89209c2284a397e740fcd316df17f01a6f85265b2be4961dd0324f8c49194201
-Section: Tweaks
-Description: An AOD tweak that feels stock, with endless possibilities!
-Tag: cydia::commercial, compatible_min::ios12.0
-Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: https://chariz.com/buy/lastlook
-Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
-Name: LastLook
-
-Package: com.anthopak.lastlook
-Version: 4.0.2
-Architecture: iphoneos-arm64
-Maintainer: AnthoPak <anthopakdev@gmail.com>
-Installed-Size: 1452
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
-Filename: ./debs/LastLook.4.0.2.deb
-Size: 415608
-MD5sum: 973939c95f6fbc43a51eba747459a566
-SHA1: 50e043f4e756e3ce7d81548c95505160d1536ca2
-SHA256: b6ba69a51f4a40cf49b486c8fceab1e1c5ae4a006ab3f2a477aa66a2cbed2c48
-Section: Tweaks
-Description: 一个原生的AOD调整，有无限的可能性！
-Tag: cydia::commercial, compatible_min::ios12.0
-Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: https://chariz.com/buy/lastlook
-Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
-Name: LastLook
-
 Package: com.anthopak.pancake-rootless
 Version: 2.2
 Architecture: iphoneos-arm64
@@ -3741,6 +3687,60 @@ Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
 Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
 Name: Zetsu(Rootless)
 Sileodepiction: https://dcsyhi1998.github.io/Sileodepiction/Zetsu.json
+
+Package: lastlook
+Version: 3.6.5
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: ./debs/lastlook_3.6.5_iphoneos-arm64.deb
+Size: 388892
+MD5sum: 406d6be694e8fef9802d7c93d023a582
+SHA1: 217443bb7dee5338a02eba574e3603a6b7f81ded
+SHA256: b30df921c3a1b142d44760226f47d6485bb37636e8a59c84293d6b56b624233a
+Section: Tweaks
+Description: 一个原生的AOD调整，有无限的可能性！（M哥汉化）
+Author: AnthoPak
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook
+
+Package: lastlook
+Version: 4.0.1
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1452
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: ./debs/lastlook_4.0.1_iphoneos-arm64.deb
+Size: 414840
+MD5sum: a67992fa1d15032c5c094716556bff99
+SHA1: 72a10af86e4364ba6d93a0d9feb6fa361a171b87
+SHA256: 58fb8f5bae7b628c9fe020b535d706d9683de44b7dd723d84c8ac78bf64cd465
+Section: Tweaks
+Description: An AOD tweak that feels stock, with endless possibilities!
+Tag: cydia::commercial, compatible_min::ios12.0
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://chariz.com/buy/lastlook
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook
+
+Package: lastlook
+Version: 4.0.2
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1452
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: ./debs/lastlook_4.0.2_iphoneos-arm64.deb
+Size: 415244
+MD5sum: 3a871712ef9b96941dade6f3887a2d51
+SHA1: c153f97f2440b64d414f541dfb7342f92f6a1528
+SHA256: 07c1435987c3cf4e99eb03e10b0db8bb19a0edb708bbaf0e22fa621d6579bf1b
+Section: Tweaks
+Description: 一个原生的AOD调整，有无限的可能性！
+Tag: cydia::commercial, compatible_min::ios12.0
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://chariz.com/buy/lastlook
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook
 
 Package: latchkey
 Version: 2.3.1
