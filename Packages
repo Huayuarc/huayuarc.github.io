@@ -3738,6 +3738,23 @@ Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
 Name: LastLook
 
+Package: lastlook
+Version: 4.0.3
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1452
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: ./debs/lastlook_4.0.3_iphoneos-arm64.deb
+Size: 415576
+MD5sum: 0953bcf14f91914e4195dc35cabf5440
+SHA1: 03c0e6c90de61c841a2c9ee66156ba112b9048a3
+SHA256: 75038ffb4f782d156f61404d6d8db726ea213f75ca0d62afa49bc3aa00c33a61
+Section: Tweaks
+Description: 一个原生的AOD调整，有无限的可能性！（由M哥汉化）
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook
+
 Package: latchkey
 Version: 2.3.1
 Architecture: iphoneos-arm64
