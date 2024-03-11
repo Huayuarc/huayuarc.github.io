@@ -3652,6 +3652,25 @@ Description: 开发您自己的调整并在Flex社区云上共享。（加入来
 Author: John Coates
 Name: Flex 3 Beta
 
+Package: hydra
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 1184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/hydra_2.1_iphoneos-arm64.deb
+Size: 688512
+MD5sum: 80cd5c6ed3c54b4ebee6c3b841775982
+SHA1: bac0ae0a4fae9af2c8a6522f7b39d18a72e227f8
+SHA256: ba4db267ca1f68a760a1c6a224495d5caf4a86a75c4a3b5cff9de340df95b7e2
+Section: Tweaks
+Description: 简单的应用快捷方式。（由M哥汉化）
+Author: MTAC
+Depiction: https://mtac.app/repo/depiction/web/com.mtac.hydra.html
+Icon: https://mtac.app/repo/assets/com.mtac.hydra/icon-rounded.png
+Name: Hydra
+Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.hydra.json
+
 Package: jp.akusio.milkyway4
 Version: 0.1.1
 Architecture: iphoneos-arm64
@@ -4128,6 +4147,22 @@ Moderndepiction: https://sezo.app/depiction/native/sezo.nyx.json
 Name: Nyx for Instagram
 Sileodepiction: https://sezo.app/depiction/native/sezo.nyx.json
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: volumepercent
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: gilshahar7
+Installed-Size: 404
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/volumepercent_1.0.2_iphoneos-arm64.deb
+Size: 28256
+MD5sum: fac8e039402c5411c5248555f2b41030
+SHA1: 2b8fb26c417aad4cce810aa434accd6c2c14ed92
+SHA256: 566b2dc86ba40fa453639957109b89cbb5fb7c5eeca3cb9a76f590fbdc449967
+Section: Tweaks
+Description: 在原生的音量HUD上显示音量百分比。（由M哥汉化）
+Author: gilshahar7
+Name: VolumePercent
 
 Package: wechatplugin
 Version: 2.0.0
