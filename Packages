@@ -1960,6 +1960,22 @@ Description: Display Notification Avatars for WeChat App using iOS15+ APIs
 Author: Netskao
 Name: WeChatNotiAvatar
 
+Package: com.netskao.wechatnotiavatar
+Version: 1.2-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1156
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/com.netskao.wechatnotiavatar_1.2-3_iphoneos-arm64.deb
+Size: 225230
+MD5sum: b10105c255bad1dd4d21958ec20b2320
+SHA1: 075ed7d92b8136d6eb35a23e7611a101750d1631
+SHA256: 4c6f9d34cd47a4d57cf4f81c7a95e6ae55702e2c76bd08f6b1916bfefc0403e1
+Section: Netskao-Tweaks
+Description: Display Notification Avatars for WeChat App using iOS15+ APIs
+Author: Netskao
+Name: WeChatNotiAvatar
+
 Package: com.news
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -4258,6 +4274,21 @@ Description: 现在使用集成媒体控件播放横幅！（M哥汉化）
 Author: Skitty
 Icon: https://skitty.xyz/repo/icons/xyz.skitty.sushi.png
 Name: Sushi
+
+Package: visionos
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: com.spark.snowboard.masks
+Filename: ./debs/visionos_1.0.1_iphoneos-arm64.deb
+Size: 8716700
+MD5sum: 746512c1cd86ac9f69210e48eb93fc94
+SHA1: 0c5e791e6e701ede551ad45101ecc4ea77d96dd0
+SHA256: bc72b084cf024891cbfe88d285f549c185c8bfaaca743732d32e0ddd2c87cdc0
+Section: Themes
+Description: VisionOS theme
+Author: M哥
+Name: VisionOS
 
 Package: volumepercent
 Version: 1.0.2
