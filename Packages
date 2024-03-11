@@ -2498,6 +2498,22 @@ Depiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depict
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
 Name: DockX
 
+Package: com.velocarpooling
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.velocarpooling_1.0_iphoneos-arm64.deb
+Size: 5126
+MD5sum: b521d5f88a6226c4a71a7f4386ad1061
+SHA1: bfe38abcac3cb312569baeeacbbd2c039046fdfa
+SHA256: 41d2b0bbbd34461fcfff1f850f82bb47e18811f233d60138291d0848cec73861
+Section: Tweaks
+Description: 滴嗒出行去广告
+Author: M哥
+Name: 滴嗒出行
+
 Package: com.violetpro
 Version: 1.0.0
 Architecture: iphoneos-arm64
