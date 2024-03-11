@@ -2065,6 +2065,22 @@ Description: 通知中心左滑清除右滑打开、隐藏通知中心上/下分
 Author: M哥
 Name: 通知中心-rootless
 
+Package: com.onetravel
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.onetravel_1.0_iphoneos-arm64.deb
+Size: 5064
+MD5sum: cb4347c7de1704dc8fa9cc446e8fbf51
+SHA1: 1537d15738bcc6742c0aee1655dfe24ddabf1dc9
+SHA256: 50119fb0c2b924879710ad6a98ac386862a3ca88a1603e9880df276ebee0e5c5
+Section: Tweaks
+Description: 滴滴出行去广告
+Author: M哥
+Name: 滴滴出行
+
 Package: com.opa334.trollstorehelper
 Version: 2.0.12
 Architecture: iphoneos-arm64
