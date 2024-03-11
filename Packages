@@ -1,3 +1,19 @@
+Package: ChargeLimiter
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: chaoge
+Depends: firmware (>= 5.0)
+Filename: ./debs/ChargeLimiter_1.4.1_iphoneos-arm64.deb
+Size: 2021700
+MD5sum: b9d75f96a2290bcc1b0f9ca4e37fb77f
+SHA1: 7d0a70c30b8d87b8795f1bfbf7e6bdb02db9baca
+SHA256: 4d72a96406670808c93c8bfdbf8272b336eb0a557ad9757ca3421a9a530de969
+Section: Applications
+Priority: optional
+Description: ChargeLimiter
+Author: chaoge
+Name: ChargeLimiter
+
 Package: Flex3beta
 Version: 1:3~Beta92
 Architecture: iphoneos-arm64
@@ -4212,6 +4228,37 @@ Name: Nyx for Instagram
 Sileodepiction: https://sezo.app/depiction/native/sezo.nyx.json
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: siriplus
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: dev.theos.orion (>= 1.0.0), com.ginsu.comet, firmware (>= 14.0)
+Filename: ./debs/siriplus_1.0.deb
+Size: 148948
+MD5sum: cbb0858e9a51b1362b84716278df6371
+SHA1: a0652b8d922be65c5c68165e0cdc50c441231d8e
+SHA256: c06574e5ef6151ebb73d147210937de928165cab99a93c5971ba4efdbd5d917f
+Section: 插件
+Description: 用ChatGPT或Gemini取代Siri。SiriPlus是用ChatGPT或Gemini取代Siri的一个调整，通过最强大的大型语言模型为用户提供增强的功能、广泛的知识和个性化帮助。
+Author: Uckermark
+Name: SiriPlus智能Siri
+
+Package: sushi
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/sushi_1.0.1_iphoneos-arm64.deb
+Size: 119700
+MD5sum: a788e65c1d75521afd0310fdf99eea47
+SHA1: d9968720659634931817bfaa0f272f3f44350110
+SHA256: 538e33f305e42015168b882260e62d4385ea62deb587139f9a37a4a6bbab8dfa
+Section: Tweaks
+Description: 现在使用集成媒体控件播放横幅！（M哥汉化）
+Author: Skitty
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.sushi.png
+Name: Sushi
+
 Package: volumepercent
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -4227,6 +4274,26 @@ Section: Tweaks
 Description: 在原生的音量HUD上显示音量百分比。（由M哥汉化）
 Author: gilshahar7
 Name: VolumePercent
+
+Package: vpnindicator
+Version: 1.1.7-1
+Architecture: iphoneos-arm64
+Maintainer: udevs, squidforce
+Installed-Size: 420
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal
+Filename: ./debs/vpnindicator_1.1.7-1_iphoneos-arm64.deb
+Size: 63544
+MD5sum: e9c2cfb762a9bd12fb9a5c841db5dcf4
+SHA1: 641eeac35646e51e805caee6cce834b2936ccee6
+SHA256: 8b551be57a11e5bf546f3c18868f5ff5bf33fc85ce83d231d95c4ec4222f5c0c
+Section: Tweaks
+Description: Indicates VPN state in status bar. 在状态栏的Wifi或蜂窝信号图标显示VPN状态。
+ * 1.1.6: 支持iOS15
+ * 1.1.7: 支持iOS16
+ * 1.1.7-1: 补上上一版忘加的设置入口
+Author: udevs
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vpnindicator/icon/icon.png
+Name: VPNIndicator
 
 Package: wechatplugin
 Version: 2.0.0
