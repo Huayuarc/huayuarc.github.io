@@ -2579,6 +2579,22 @@ Description: 最新威锋去广告
 Author: M哥
 Name: 威锋去广告-rootless
 
+Package: com.weifeng
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.weifeng_1.2.1_iphoneos-arm64.deb
+Size: 5100
+MD5sum: ddbb5e77339a39a4842e775e26333431
+SHA1: 8b462bc75e17d59757c5d831192fe02b1b418063
+SHA256: 9c6b15bc068910e50377d4a8e4e761eff31cc04f3e20746ee6ad65a91b5cf4ea
+Section: Tweaks
+Description: 最新威锋去广告（支持7.0版本）
+Author: M哥
+Name: 威锋
+
 Package: com.wilsonthewolf.eliza
 Version: 0.0.3
 Architecture: iphoneos-arm64
