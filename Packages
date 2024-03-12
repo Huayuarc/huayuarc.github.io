@@ -1555,6 +1555,21 @@ Description: Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一�
 Author: 预言小猫
 Name: TweakTool
 
+Package: com.kitten.tweaktool
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/com.kitten.tweaktool_1.1.0_iphoneos-arm64.deb
+Size: 9064
+MD5sum: ecb4f182adcaed609d6b6cf2a2408e84
+SHA1: 5d3285613e14d5436cf80a27ab6b4367312a249e
+SHA256: 586ee934404b361c402484aa3ef9d361a0d72f5e496195e699e0cfbe35528325
+Section: Tweaks
+Description: Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可
+Author: 预言小猫
+Name: TweakTool
+
 Package: com.lclrc.hammerit
 Version: 1.2.7
 Architecture: iphoneos-arm64
@@ -1824,91 +1839,6 @@ Author: MTAC
 Icon: https://mtac.app/repo/assets/com.mtac.launchlogo/icon-rounded.png
 Name: LaunchLogo
 Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.launchlogo.json
-
-Package: com.mtac.lynxtwo
-Version: 2.4.10
-Architecture: iphoneos-arm64
-Maintainer: MTAC
-Installed-Size: 2568
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
-Filename: ./debs/Lynx2.2.4.10.deb
-Size: 569040
-MD5sum: b4575939fda7cd8ce6930660269f2abe
-SHA1: 5edacc3cfd3a10dd1576fbb77c95018f5edbd4e8
-SHA256: 5823a7a31e41a616bfde03e831c184c109ae88af25d6da6581035547c2e7cda1
-Section: Tweaks
-Description: iOS 14、15和16的终极iDevice定制。（由M哥汉化）
-Author: MTAC
-Icon: https://media.havoc.app/61f896da1630a63286dc419c
-Name: Lynx 2
-
-Package: com.mtac.lynxtwo
-Version: 2.4.5
-Architecture: iphoneos-arm64
-Maintainer: MTAC
-Installed-Size: 2296
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
-Filename: ./debs/Lynx2.2.4.5.deb
-Size: 521220
-MD5sum: e515891026e7367ffa531495c51e8940
-SHA1: dfb369290331fc0912e29a81c7afbd2cabf8091d
-SHA256: 4b64f96fd7f507f69e421d9be56e8caa9df48cc12490a1791426a628540c3870
-Section: Tweaks
-Description: Ultimate iDevice Customization for iOS 14, 15 & 16
-Author: MTAC
-Icon: https://media.havoc.app/61f896da1630a63286dc419c
-Name: Lynx 2
-
-Package: com.mtac.lynxtwo
-Version: 2.4.6
-Architecture: iphoneos-arm64
-Maintainer: MTAC
-Installed-Size: 2332
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
-Filename: ./debs/Lynx2.2.4.6.deb
-Size: 561248
-MD5sum: 34202be8e677a216b1ad31d2bfe22aeb
-SHA1: 3a05f71f3498cf12b8e264d268e909d66be948e1
-SHA256: 4e3a646768af6e23d1547cd79bdf3b45a1ced3f124374a2ab9d057ffb5af7f85
-Section: Tweaks
-Description: Ultimate iDevice Customization for iOS 14, 15 & 16
-Author: MTAC
-Icon: https://media.havoc.app/61f896da1630a63286dc419c
-Name: Lynx 2
-
-Package: com.mtac.lynxtwo
-Version: 2.4.7
-Architecture: iphoneos-arm64
-Maintainer: MTAC
-Installed-Size: 2436
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
-Filename: ./debs/Lynx2.2.4.7.deb
-Size: 545040
-MD5sum: e3748a393295e9b097240ffb5899aedd
-SHA1: 26c256d1ac98819582d9a262b68c1bc7306bbe60
-SHA256: e25306d1309789b2ce3990d4e2520fba4cb66f1d07db421f1cad3a0741a50507
-Section: Tweaks
-Description: iOS 14、15和16的终极iDevice定制！（由M哥汉化）
-Author: MTAC
-Icon: https://media.havoc.app/61f896da1630a63286dc419c
-Name: Lynx 2
-
-Package: com.mtac.lynxtwo
-Version: 2.4.8
-Architecture: iphoneos-arm64
-Maintainer: MTAC
-Installed-Size: 2468
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
-Filename: ./debs/Lynx2.2.4.8.deb
-Size: 554652
-MD5sum: 0630cd434b92e579828717dd9f025fc5
-SHA1: a3f4f87d58a13101b7f59a3cbe9208ce31557eda
-SHA256: b45fc73c218ace4fb1404907c92902e355841baeac98832c44b4c190867ae2c5
-Section: Tweaks
-Description: Ultimate iDevice Customization for iOS 14, 15 & 16
-Author: MTAC
-Icon: https://media.havoc.app/61f896da1630a63286dc419c
-Name: Lynx 2
 
 Package: com.mtxx
 Version: 1.1
@@ -3951,6 +3881,108 @@ Description: 在很多时候输入，手机总默认自带键盘，且不能更�
 Author: 来了老弟
 Name: 强制密码框第三方键盘-rootless
 Sponsor: 33225753@qq.com
+
+Package: lynxtwo
+Version: 2.4.10
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2568
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/Lynx2.2.4.10.deb
+Size: 568556
+MD5sum: 36ada7a78a2c0e492caf3c8bdb91eca9
+SHA1: 5d619225d6ff3c5a33d7edd82192dac4829ea7bf
+SHA256: 1416d2b6d6ec1b762cacfd821986aad875b510198e30edcf0f411faeb83573fc
+Section: Tweaks
+Description: iOS 14、15和16的终极iDevice定制。（由M哥汉化）
+Author: MTAC
+Icon: https://media.havoc.app/61f896da1630a63286dc419c
+Name: Lynx 2
+
+Package: lynxtwo
+Version: 2.4.5
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2296
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/Lynx2.2.4.5.deb
+Size: 520432
+MD5sum: 1cdfead504d0eed8ba1dbcb2062f12a8
+SHA1: 189e4f946ca7c6c50a4aa5f1902758274dbadaa9
+SHA256: 0a7742273d726ade49bd79cd870e3ff541244e39494877aab5a220fdf1ad85e9
+Section: Tweaks
+Description: Ultimate iDevice Customization for iOS 14, 15 & 16
+Author: MTAC
+Icon: https://media.havoc.app/61f896da1630a63286dc419c
+Name: Lynx 2
+
+Package: lynxtwo
+Version: 2.4.6
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2332
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/Lynx2.2.4.6.deb
+Size: 563088
+MD5sum: 0362d20593255f0d31a2bf064a8f403c
+SHA1: ac9020ffc9d2a0252af4adf7f1d4b404c0339879
+SHA256: 0249831910c24984291688232842828f74c4b04db287b718f13f099c7c97be98
+Section: Tweaks
+Description: iOS 14、15和16的终极iDevice定制。（由M哥汉化）
+Author: MTAC
+Icon: https://media.havoc.app/61f896da1630a63286dc419c
+Name: Lynx 2
+
+Package: lynxtwo
+Version: 2.4.7
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2436
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/Lynx2.2.4.7.deb
+Size: 545944
+MD5sum: f27987361bcafa3d87a2d4765da65987
+SHA1: a3dfae471461578d20ac035799ab1de15745e40d
+SHA256: 5a58581653f70854f0fb8cbc49b7e30712c3d77a90da4d7b8f3e5b27e89608c9
+Section: Tweaks
+Description: iOS 14、15和16的终极iDevice定制！（由M哥汉化）
+Author: MTAC
+Icon: https://media.havoc.app/61f896da1630a63286dc419c
+Name: Lynx 2
+
+Package: lynxtwo
+Version: 2.4.8
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2468
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/Lynx2.2.4.8.deb
+Size: 555080
+MD5sum: a70f8d83c022c7f279c37c4062fbdab6
+SHA1: 10be0186f62b36906c98621b7bcc4f522753f8a2
+SHA256: f7e4c81b7ae357c3a75f08829390f00ba9bd385d1ba2396a2e97e4c5889dc86a
+Section: Tweaks
+Description: iOS 14、15和16的终极iDevice定制。（由M哥汉化）
+Author: MTAC
+Icon: https://media.havoc.app/61f896da1630a63286dc419c
+Name: Lynx 2
+
+Package: lynxtwo
+Version: 2.5
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2604
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/Lynx2.2.5.deb
+Size: 580616
+MD5sum: f22f9099d108ac5cf3cb9d0f038b66b7
+SHA1: 7b665d086050a6530d80a8d386c905804a44a753
+SHA256: a0f1b877da8c11e656e3f40c7f0f70f4e0904422a2778f9c379efc4f4779e751
+Section: Tweaks
+Description: iOS 14、15和16的终极iDevice定制。（由M哥汉化）
+Author: MTAC
+Icon: https://media.havoc.app/61f896da1630a63286dc419c
+Name: Lynx 2
 
 Package: me.gmoran.darkerdarkmode
 Version: 0.5.1-5+debug
