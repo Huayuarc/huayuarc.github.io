@@ -4292,21 +4292,6 @@ Author: Skitty
 Icon: https://skitty.xyz/repo/icons/xyz.skitty.sushi.png
 Name: Sushi
 
-Package: tweaktool
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: 预言小猫
-Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: ./debs/tweaktool_1.1.0_iphoneos-arm64.deb
-Size: 8624
-MD5sum: 29f7e86c227c9e62774a74436c452f4b
-SHA1: 91bd00e0726a75dae03fa3f4bf7d2bf08d1ae182
-SHA256: e2c76d7c07e1818ed478218bcfde30cb1328e8ccfaa30ab9936c943ef8ac75bf
-Section: Tweaks
-Description: Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
-Author: 预言小猫
-Name: TweakTool
-
 Package: visionos
 Version: 1.0.1
 Architecture: iphoneos-arm64
