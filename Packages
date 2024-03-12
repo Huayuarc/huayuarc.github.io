@@ -1540,36 +1540,6 @@ Description: Set custom snooze times, skip alarms, and more with SleeperX.
 Author: Joshua Seltzer <joshua.seltzer90@gmail.com>
 Name: SleeperX (iOS 15)
 
-Package: com.kitten.tweaktool
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: 预言小猫
-Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: ./debs/TweakTool.1.0.0.deb
-Size: 8536
-MD5sum: 584772e20f40a648a363a968099328a7
-SHA1: 6f183fdd25a20bd1563c9cdded32c7c56d273f36
-SHA256: bd743515e079a9541fa5522ccfa02895b69596a1784904745763b414fb916376
-Section: Tweaks
-Description: Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可
-Author: 预言小猫
-Name: TweakTool
-
-Package: com.kitten.tweaktool
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: 预言小猫
-Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: ./debs/com.kitten.tweaktool_1.1.0_iphoneos-arm64.deb
-Size: 9064
-MD5sum: ecb4f182adcaed609d6b6cf2a2408e84
-SHA1: 5d3285613e14d5436cf80a27ab6b4367312a249e
-SHA256: 586ee934404b361c402484aa3ef9d361a0d72f5e496195e699e0cfbe35528325
-Section: Tweaks
-Description: Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可
-Author: 预言小猫
-Name: TweakTool
-
 Package: com.lclrc.hammerit
 Version: 1.2.7
 Architecture: iphoneos-arm64
@@ -4321,6 +4291,21 @@ Description: 现在使用集成媒体控件播放横幅！（M哥汉化）
 Author: Skitty
 Icon: https://skitty.xyz/repo/icons/xyz.skitty.sushi.png
 Name: Sushi
+
+Package: tweaktool
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/tweaktool_1.1.0_iphoneos-arm64.deb
+Size: 8640
+MD5sum: 0d94cedecc60e381481c665c301c45d1
+SHA1: 77450093f50078ea14f27d8650ca60a7771e6bb2
+SHA256: 9d700eb167ce2fa277db7cc2f414f3c256d0801a5afcd88209c827d39af2cb79
+Section: Tweaks
+Description: Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
+Author: 预言小猫
+Name: TweakTool
 
 Package: visionos
 Version: 1.0.1
