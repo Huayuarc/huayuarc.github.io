@@ -4298,10 +4298,25 @@ Architecture: iphoneos-arm64
 Maintainer: 预言小猫
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
 Filename: ./debs/tweaktool_1.1.0_iphoneos-arm64.deb
-Size: 8640
-MD5sum: 38b5e9fc4f881cb5410893240145fcbf
-SHA1: 0e848371fc6aac6abf9e386a04f8672c1baecf65
-SHA256: 2efc194d80919c1148b845e41d5779e7112cf17d1685cc14833e21a2f84c1b14
+Size: 8644
+MD5sum: dcd1c53f6c0f1b34970bb20c5f1ac738
+SHA1: 36a7910149b4b0f5c7a75c4c9a48db57f3ab963a
+SHA256: 2d982c0388ff3fc43b99fed920dabfe171e075c36cb6d0150bca86592c78bec2
+Section: Tweaks
+Description: Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
+Author: 预言小猫
+Name: TweakTool
+
+Package: tweaktool
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/tweaktool_1.3.0_iphoneos-arm64.deb
+Size: 9232
+MD5sum: f3e9d7dfd79790e2023be94c6029997d
+SHA1: 25d136922aa7b2702238cd40112d2be938b41bd6
+SHA256: baae48f8bce6d3156e6aa8f10c03c1ee0e16ef0460bab4f7e77539a9a2c53874
 Section: Tweaks
 Description: Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
 Author: 预言小猫
