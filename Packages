@@ -4308,6 +4308,21 @@ Author: 预言小猫
 Name: TweakTool
 
 Package: tweaktool
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), firmware (>= 11.0), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1), lsof
+Filename: ./debs/tweaktool_1.2.0_iphoneos-arm64.deb
+Size: 9524
+MD5sum: 1d730ca4438c602cc5287d6b4f31b84c
+SHA1: d929ad30ba3b990fe05fc76131f646c7d3cde520
+SHA256: 03d251153fef516e95863f5df857d76362cd0cfdbb85ede63acb9167855ee4c4
+Section: Tweaks
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具                                                                                                                                                                 使用方法：Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可                                                                                                                                                                 更新日志：                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     1. 恢复结束后的重启用户空间改为注销                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     2. 备份插件前进行包完整性检查，修补包缺失信息
+Author: 预言小猫
+Name: TweakTool
+
+Package: tweaktool
 Version: 1.3.0
 Architecture: iphoneos-arm64
 Maintainer: 预言小猫
