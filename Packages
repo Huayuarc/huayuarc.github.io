@@ -4313,10 +4313,10 @@ Architecture: iphoneos-arm64
 Maintainer: 预言小猫
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
 Filename: ./debs/tweaktool_1.3.0_iphoneos-arm64.deb
-Size: 9232
-MD5sum: f3e9d7dfd79790e2023be94c6029997d
-SHA1: 25d136922aa7b2702238cd40112d2be938b41bd6
-SHA256: baae48f8bce6d3156e6aa8f10c03c1ee0e16ef0460bab4f7e77539a9a2c53874
+Size: 9280
+MD5sum: 5101e6d5cb9cbd07630a57d456b46fe0
+SHA1: ccbf8283c63341bbef9a02142c5504255424418b
+SHA256: c7b62278a142e48b9a6b123798a3dda87db32402df688749abe4288178ca9225
 Section: Tweaks
 Description: Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
 Author: 预言小猫
