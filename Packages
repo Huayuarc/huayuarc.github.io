@@ -3010,6 +3010,22 @@ Description: 自用 | 仅看剧无广告 无去除任何检测(短剧听书没�
 Author: x✨
 Name: iBoxNoAds
 
+Package: com.xx.iboxhook
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 192
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.iboxhook_1.0.4_iphoneos-arm64.deb
+Size: 33728
+MD5sum: 5871b75cef4329cc76bdafecbd312341
+SHA1: 71f895c754377f145e7bfd2df7f4197483ad2d98
+SHA256: 07da65f00e1dc6dbdd26620511c10ab1fe7c08eeb648352a4c77ebd7635677ef
+Section: Tweaks
+Description: 自用 | 看剧短剧听书无广告 无去除任何检测 | 仅越狱使用 仅支持210版本
+Author: x✨
+Name: iBoxNoAds
+
 Package: com.xx.jrtthook
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -3250,6 +3266,22 @@ Description: 自用 | 去除一些广告 | 原始按钮保存视频-图片无水
 Author: x✨
 Name: 皮皮虾优化
 
+Package: com.xx.pyehook
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.pyehook_1.0.0_iphoneos-arm64.deb
+Size: 4362
+MD5sum: f911f305a3712d02fa6513af750bea8b
+SHA1: 15aa36e446b3df244a9ddffa8668c338ca973468
+SHA256: 42ccaedcbd5fe6108333249c0e88117ec5a75b3d53040dcd3cf454c5b4c0ffed
+Section: Tweaks
+Description: SVIP
+Author: x✨
+Name: 配音鹅会员
+
 Package: com.xx.qmxshook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -3311,6 +3343,22 @@ SHA1: c06ff22f807638db94f136afe4dec9e6993bd21d
 SHA256: 6f3e3b805e261703fd0569f4c3f0fec8abcd9431952db8b4f4bc7afd2f725be8
 Section: Tweaks
 Description: 默认开启 无撤回提示 仅越狱使用 仅支持9.0.20版本 || 默认开启了模拟机型iPhone 15 Pro Max
+Author: x✨
+Name: QQ新版防撤回
+
+Package: com.xx.qqhook
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 300
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.qqhook_1.0.1_iphoneos-arm64.deb
+Size: 37374
+MD5sum: 16f45b58e33c2697da9f92b87067d5f7
+SHA1: ff2354423f931c214bc2db48e0a5c29296160c8f
+SHA256: 2bd2d982b5303269ea8150d0df753dea78b74a2a51c0578d8b0f2c296876ec4a
+Section: Tweaks
+Description: 默认开启 无撤回提示 仅越狱使用 仅支持9.0.20 - 9.0.21版本 || 默认开启了模拟机型iPhone 15 Pro Max
 Author: x✨
 Name: QQ新版防撤回
 
@@ -3423,6 +3471,22 @@ SHA1: 5d6f66457894942babf83a10c358bcc777bceb20
 SHA256: 675025342ff829aee9155b7631bc5c787a4b39b178156497ef89e4019efa1b7e
 Section: Tweaks
 Description: 朋友需要才制作了此插件.APP设置界面双指长按出现菜单 功能：默认移除一些广告 -- 原生按钮无水印保存图片-视频-live图 -- 长按复制文案 | 1.0.5更新内容：首页广告移除 | 一些检测优化
+Author: x✨
+Name: 小红薯调整
+
+Package: com.xx.xhshook
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 476
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.xhshook_1.0.6_iphoneos-arm64.deb
+Size: 124578
+MD5sum: a7407b541bbd6ea1b99e90337368125e
+SHA1: 7a429e6e1cdf5b702b31059c22cadfe3d82fa7e1
+SHA256: 6e90eac39809f01ed79279e6d6760fb4d823fe92c903f244127de60d5c682275
+Section: Tweaks
+Description: 朋友需要才制作了此插件.APP设置界面双指长按出现菜单 功能：默认移除一些广告 -- 原生按钮无水印保存图片,视频,live图,评论区图片,长按文案复制 | 1.0.6更新内容：修复8.27+版本图文文案无法复制问题
 Author: x✨
 Name: 小红薯调整
 
