@@ -3586,6 +3586,22 @@ Icon: https://paisseon.github.io/icons/Satella.png
 Name: Satella
 Sileodepiction: https://paisseon.github.io/depictions/Satella.json
 
+Package: fiona
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/fiona_1.0.4_iphoneos-arm64.deb
+Size: 119356
+MD5sum: 92443f9e5063c1377bdd7373c52b1787
+SHA1: 9cd1e306b8ebc9859bce05913942b4bc039422d7
+SHA256: d31cd00946e1ece4a7afef634265a7790c09458de2737808a75060c85b5ce56f
+Section: Tweaks
+Description: iOS设备的浮动选项卡栏。（M哥汉化）
+Author: yan
+Icon: https://media.havoc.app/65e987f4df1ff02035bcd6b1
+Name: Fiona
+
 Package: flex3beta
 Version: 1:3~Beta56
 Architecture: iphoneos-arm64
