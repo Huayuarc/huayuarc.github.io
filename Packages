@@ -66,6 +66,22 @@ Description: 自定义修改系统锁屏界面顶部和底部”向上轻扫以�
 Author: M哥
 Name: SwipeUnLock-rootless
 
+Package: akara
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.muirey03.libimagepicker, firmware (>= 15.0)
+Filename: ./debs/akara_2.0.0_iphoneos-arm64.deb
+Size: 616284
+MD5sum: 928079df48471bd399c32a76cb7f92c2
+SHA1: bbd3a862d946e94b8feea72dfdbe39ec7f7f5ece
+SHA256: d4c553af98d66f0e483b026c6223480c38a393229a3f3285222c24ce312e7689
+Section: Tweaks
+Description: Minimal design without compromise
+Author: Tr1Fecta & Kennyroo
+Icon: https://img.chariz.cloud/icon/akara/icon@3x.png
+Name: Akara
+
 Package: alpine
 Version: 1.3
 Architecture: iphoneos-arm64
@@ -4794,24 +4810,6 @@ Section: Tweaks
 Description: 自定义设备锁定方式。（由M哥汉化）
 Author: lemin
 Name: Lock Master
-
-Package: xyz.cypwn.akara
-Version: 2.0.0k
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.muirey03.libimagepicker, firmware (>= 15.0)
-Filename: ./debs/Akara.2.0.0.deb
-Size: 616568
-MD5sum: f7907ee6ee247e0321af44184b1a6b83
-SHA1: 0fca61d389f9867e8b3f67104ec2269f6b74c60b
-SHA256: 513254185565ddde0de21fd3525d8c43ffce13cdcd38b613379b82b39b19c682
-Section: Tweaks
-Description: Minimal design without compromise
-Author: Tr1Fecta & Kennyroo
-Depiction: https://repo.cypwn.xyz/depiction/1594
-Icon: https://img.chariz.cloud/icon/akara/icon@3x.png
-Name: Akara
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1594
 
 Package: xyz.cypwn.joe
 Version: 1.0
