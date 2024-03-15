@@ -4666,6 +4666,21 @@ Description: Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和
 Author: 预言小猫
 Name: TweakTool
 
+Package: tweaktool
+Version: 1.5.0
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/tweaktool_1.5.0_iphoneos-arm64.deb
+Size: 9828
+MD5sum: df9a97922f03b1b290e137469b11b422
+SHA1: c0d9b2851ad0aa262b338b1adefa9deb0f808f62
+SHA256: 7ee951c74f578cdf4217c269d300fbf5c24a391e4a198e77adb2ea94b5cb1cc1
+Section: Tweaks
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具，Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
+Author: 预言小猫
+Name: 一键备份和恢复工具-Rootless
+
 Package: ve
 Version: 2.0
 Architecture: iphoneos-arm64
