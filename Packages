@@ -202,6 +202,22 @@ Description: iOS自带键盘自定义。全选,复制,粘贴,选择,撤销，重
 Author: qwertyuiop1379 laileld
 Name: SwipeExtenderX键盘增强
 
+Package: bluefinder
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: M
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), firmware (>= 11.0)
+Filename: ./debs/bluefinder_1.1.3_iphoneos-arm64.deb
+Size: 222652
+MD5sum: aa48c37bfd6e4d39348c94d8b482d327
+SHA1: c22a0f5735566362edbc253ef56b414e3506006f
+SHA256: dc00295bde874c8212b8d13e65e2f4087961c00eb7a5ce8b17ce286ff3f81fd7
+Section: Tweaks
+Description: 使用蓝牙设备查找您的iPhone！
+Author: AnthoPak
+Icon: https://img.chariz.cloud/icon/bluefinder/icon@3x.png
+Name: BlueFinder
+
 Package: cn.llld.bbqzr
 Version: 0.1
 Architecture: iphoneos-arm64
@@ -3626,6 +3642,23 @@ Dev: anubistweaks
 Name: Phone Enhancer 15-rootless
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: exacttime
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate
+Conflicts: com.gilshahar7.exacttimemail, com.gilshahar7.exacttimephone, com.gilshahar7.exacttimemessages
+Filename: ./debs/exacttime_2.0.2_iphoneos-arm64.deb
+Size: 57336
+MD5sum: da7e25ccd2f0af286cf9fef323a87453
+SHA1: 7bec33baedcfbcfff156b861ab527df50b20ebef
+SHA256: ecd5fa985b2d3a4cebaadf3538bddc7f536592bb83649017c37d86b67229586c
+Section: Tweaks
+Description: 显示通知、消息、电话和电子邮件的确切时间。
+Author: gilshahar7
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/exacttime.png
+Name: ExactTime
+
 Package: fiona
 Version: 1.0.4
 Architecture: iphoneos-arm64
@@ -3843,6 +3876,25 @@ SHA256: 75038ffb4f782d156f61404d6d8db726ea213f75ca0d62afa49bc3aa00c33a61
 Section: Tweaks
 Description: 一个原生的AOD调整，有无限的可能性！（由M哥汉化）
 Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook
+
+Package: lastlook
+Version: 4.1
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1505
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: ./debs/lastlook_4.1_iphoneos-arm64.deb
+Size: 424492
+MD5sum: 1efa29241d35a165b768e423e53cdfa9
+SHA1: ba18e91c1d4e3b863204b2fcfee65f0ab15088b7
+SHA256: c61aceb5a8b0641a66b2841254825c1440780b8d6dbf172fe23ab900e9b41583
+Section: Tweaks
+Description: 一个原生的AOD调整，有无限的可能性！
+Tag: cydia::commercial, compatible_min::ios12.0
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://chariz.com/buy/lastlook
 Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
 Name: LastLook
 
