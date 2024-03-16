@@ -3675,6 +3675,22 @@ Author: yan
 Icon: https://media.havoc.app/65e987f4df1ff02035bcd6b1
 Name: Fiona
 
+Package: fiona
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/fiona_1.0.5_iphoneos-arm64.deb
+Size: 122108
+MD5sum: 6914ec91751c46e8812d225ae35bc157
+SHA1: 1c1c6c2b9025513160d18f9f865187d0c781edd2
+SHA256: 88755f6622382cc9a1dada1b1ef9244f89706b7783b844d30edaa70ba1d588a2
+Section: Tweaks
+Description: iOS设备的浮动选项卡栏。
+Author: yan
+Icon: https://media.havoc.app/65e987f4df1ff02035bcd6b1
+Name: Fiona
+
 Package: flex3beta
 Version: 1:3~Beta56
 Architecture: iphoneos-arm64
