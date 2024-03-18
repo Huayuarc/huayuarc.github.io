@@ -4740,10 +4740,10 @@ Architecture: iphoneos-arm64
 Maintainer: 预言小猫
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
 Filename: ./debs/tweaktool_1.5.0_iphoneos-arm64.deb
-Size: 10032
-MD5sum: db53afe9efbf800c89a685c0acf47bed
-SHA1: 652c95c9bc3b33e0485e2ba739e2ac375608f0c9
-SHA256: b79eb1c0b6aaaa86bebe30e9ed39012c3e09bed7253663f906808f5fa40c2c13
+Size: 10456
+MD5sum: 9386cc3eb6d0245b32d5200bf44378d2
+SHA1: 4c26ce92bd023e102f96861018476a9695b2a9b9
+SHA256: 4145455bed969cc2db9ed99ef4b7ec3211e709cdf78e5464e83f10adadf20278
 Section: Tweaks
 Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具，Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
 Author: 预言小猫
