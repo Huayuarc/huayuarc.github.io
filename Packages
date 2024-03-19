@@ -3725,6 +3725,40 @@ Author: Nebbs
 Icon: https://media.havoc.app/65e3fa3dc97a362fa83a601d
 Name: Genesis 4
 
+Package: grider
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, preferenceloader
+Filename: ./debs/grider_1.4_iphoneos-arm64.deb
+Size: 38336
+MD5sum: 45ab4177737a566600fe9a785cb6d4e1
+SHA1: 200732f8f05b25750c24e7e591338e8302c90f29
+SHA256: af2bf058c8970f8761ff499ca79a52fc16dba97d40289a3c0e4a187b1ccf4541
+Section: Tweaks
+Description: 与iOS 10-16兼容
+Author: gilshahar7
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/grider.png
+Name: Grider
+这是一个越狱调整！要安装它，您需要越狱，请访问https: //www.reddit.com/r/jailbreak/以获取说明。
+
+Package: grider
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, preferenceloader
+Filename: ./debs/grider_1.4.1_iphoneos-arm64.deb
+Size: 45920
+MD5sum: f530e7da6a4e8f5eceb47253f17eb8de
+SHA1: 645ca07056812b5c8400a3d4ca591b60cd6b67c1
+SHA256: e3b30d75be5de84bc041fe8398fe01533def572f00518a9fde4a47ef5128576e
+Section: Tweaks
+Description: 与iOS 10-16兼容
+Author: gilshahar7
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/grider.png
+Name: Grider
+这是一个越狱调整！要安装它，您需要越狱，请访问https: //www.reddit.com/r/jailbreak/以获取说明。
+
 Package: hydra
 Version: 2.1
 Architecture: iphoneos-arm64
@@ -3760,6 +3794,22 @@ Description: Disable passcode when not necessary（M哥汉化）
 Author: Geometric Software
 Icon: file:///Library/PreferenceBundles/IntelligentPass.bundle/store.png
 Name: IntelligentPass 5
+
+Package: jetsamunlimited
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: firmware (<= 15.8.2), mobilesubstrate
+Filename: ./debs/jetsamunlimited_1.0_iphoneos-arm64.deb
+Size: 3264
+MD5sum: 73f3129664dfd43d0430bc7bac116b63
+SHA1: 5c5957dc70b82e00dc4af0998f5c204ea336f322
+SHA256: 6488918f20bf6797fbd52fee0c574b808bc3c3cbb00965269f8df5926819dfcb
+Section: Utilities
+Description: 允许iOS进程独立于jetsam运行，有效地禁用了40%的内存限制。适用于iOS 15。
+Author: iarchiveml
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/jetsamunlimited.png
+Name: JetsamUnlimited
 
 Package: jp.akusio.milkyway4
 Version: 0.1.1
