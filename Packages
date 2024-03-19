@@ -4642,6 +4642,40 @@ Author: Ethan Whited
 Icon: https://media.havoc.app/63def90098112480293d2456
 Name: SixteenMusic
 
+Package: sleeperx
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=15.0), firmware (<<17.0)
+Conflicts: org.thebigboss.sleeper, com.joshuaseltzer.sleeper
+Filename: ./debs/sleeperx_2.0.1_iphoneos-arm64.deb
+Size: 164312
+MD5sum: d46b4ea6793c433b3405ddbd3d09c2a9
+SHA1: 7b57f15e698c3e3423dd5b722bfd5678f1b49cf1
+SHA256: c112e47b2e6355d357ce961a2317da71a59d5eb1fd5f6a4c09a216f61fb862c6
+Section: Tweaks
+Description: 使用SleeperX设置自定义打盹时间、跳过闹钟等。
+Author: Joshua Seltzer
+Icon: https://media.havoc.app/64a8afc0211e035238eac756?w=640&q=75
+Name: SleeperX
+
+Package: sleeperx
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=15.0), firmware (<<17.0)
+Conflicts: org.thebigboss.sleeper, com.joshuaseltzer.sleeper
+Filename: ./debs/sleeperx_2.0.2_iphoneos-arm64.deb
+Size: 164016
+MD5sum: a1467d54f0a204d2a674fb29f6d12ac8
+SHA1: 8fcb6716aa99b38a480b8fa3536b45defac22b5e
+SHA256: 162c26685b0b2e2f28cbf3f5baf63a8e7f117dd5d2318cc3acfa6591685dd8ea
+Section: Tweaks
+Description: 使用SleeperX设置自定义打盹时间、跳过闹钟等。
+Author: Joshua Seltzer
+Icon: https://media.havoc.app/64a8afc0211e035238eac756?w=640&q=75
+Name: SleeperX
+
 Package: smartbatteryios15
 Version: 1.4
 Architecture: iphoneos-arm64
@@ -4666,12 +4700,12 @@ Maintainer: M哥
 Installed-Size: 3364
 Depends: com.spark.libsparkapplist
 Filename: ./debs/smartnotificationsios16_1.0_iphoneos-arm64.deb
-Size: 2444844
-MD5sum: 410da9a8970fbd50159e1ba1b70c8e5e
-SHA1: bdef0efc1399a2e64b50e32c152ea29550eacef0
-SHA256: 23e05610cc31465e6fbf6cadab42fd16ecd2d18158e286a9dc2c82ec73705e2d
+Size: 2445352
+MD5sum: 10e618cd07af8b983f64f6510f9fb560
+SHA1: 65f4849d3f3a9cf16881b84d65aaab1a01dd42dd
+SHA256: 74959924fb5eeac098fb7a7a51fd3d3295a646dd04d96349d9f2773d79ae9ef2
 Section: Tweaks
-Description: 这是一个极致的电池监控、保存和调整工具。它是专为iOS 16全新编写的插件
+Description: 这是一个智能通知插件。它是专为iOS 16全新编写的插件
 Author: EliasSfeir
 Icon: https://media.havoc.app/65f32f8428a3821cef7b63bd
 Name: SmartNotifications iOS16
