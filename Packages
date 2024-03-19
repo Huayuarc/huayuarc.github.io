@@ -4886,6 +4886,21 @@ Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢
 Author: 预言小猫
 Name: 一键备份和恢复工具-Rootless
 
+Package: tweaktool
+Version: 1.6.0
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/tweaktool_1.6.0_iphoneos-arm64.deb
+Size: 10968
+MD5sum: 37803350e4c6cd672e244359367b4a80
+SHA1: 06778cfe49726b640403a79140f304a1f6c62aff
+SHA256: 42d3c4f94b4c10aae222cefc2cc852b88dbc3e1af2812611c73b0c4a06c7450a
+Section: Tweaks
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具。Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
+Author: 预言小猫
+Name: 一键备份和恢复工具-Rootless
+
 Package: ve
 Version: 2.0
 Architecture: iphoneos-arm64
