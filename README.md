@@ -2,8 +2,6 @@
 
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -21,8 +19,8 @@
 ![](http://profile-counter.glitch.me/evilbutcher/count.svg)
 
 <!-- links -->
-[your-project-path]:Ketty0725/Tweak_Backup
-[forks-shield]: https://img.shields.io/github/forks/Ketty0725/Tweak_Backup.svg?style=flat-square
-[forks-url]: https://github.com/Ketty0725/Tweak_Backup/network/members
-[stars-shield]: https://img.shields.io/github/stars/Ketty0725/Tweak_Backup.svg?style=flat-square
-[stars-url]: https://github.com/Ketty0725/Tweak_Backup/stargazers
+[your-project-path]:wwg135/wwg135.github.io
+[forks-shield]: https://img.shields.io/github/forks/wwg135/wwg135.github.io.svg?style=flat-square
+[forks-url]: https://github.com/wwg135/wwg135.github.io/network/members
+[stars-shield]: https://img.shields.io/github/stars/wwg135/wwg135.github.io.svg?style=flat-square
+[stars-url]: https://github.com/wwg135/wwg135.github.io/stargazers
