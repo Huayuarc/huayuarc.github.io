@@ -19,3 +19,10 @@
 聊天交流，请关注tg巨魔商店Pro：https://t.me/TrollStorePro
 
 ![](http://profile-counter.glitch.me/evilbutcher/count.svg)
+
+<!-- links -->
+[your-project-path]:Ketty0725/Tweak_Backup
+[forks-shield]: https://img.shields.io/github/forks/Ketty0725/Tweak_Backup.svg?style=flat-square
+[forks-url]: https://github.com/Ketty0725/Tweak_Backup/network/members
+[stars-shield]: https://img.shields.io/github/stars/Ketty0725/Tweak_Backup.svg?style=flat-square
+[stars-url]: https://github.com/Ketty0725/Tweak_Backup/stargazers
