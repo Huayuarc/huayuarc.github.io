@@ -7,3 +7,5 @@
 如果您使用并复制了任何本仓库的内容，则视为您已接受此免责声明.
 
 聊天交流，请关注tg巨魔商店Pro：https://t.me/TrollStorePro
+
+![](http://profile-counter.glitch.me/evilbutcher/count.svg)
