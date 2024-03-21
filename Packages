@@ -4050,6 +4050,22 @@ Author: 来了老弟
 Name: 强制密码框第三方键盘-rootless
 Sponsor: 33225753@qq.com
 
+Package: lockrejection
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/lockrejection_1.0.1_iphoneos-arm64.deb
+Size: 2834
+MD5sum: 82be9c1525e9e0e073c8ec442be08afe
+SHA1: ce80ecc154705f2112f9a9307a62386870725834
+SHA256: 0b0de410a3333e2b9d63a789e477e62863ddcd9c411b9ba1d31526c1f6907e5c
+Section: Tweaks
+Description: 在锁屏来电话时会有一个红色挂断的按钮，兼容iOS13.0-15.4.1 系统。
+Author: M哥
+Name: 锁屏来电拒接_rootless
+
 Package: lynxtwo
 Version: 2.4.10
 Architecture: iphoneos-arm64
