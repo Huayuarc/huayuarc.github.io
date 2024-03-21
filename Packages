@@ -3620,6 +3620,22 @@ Description: 将暗模式设为真正的暗模式。
 Author: @fr0st & b4db1r3
 Name: OLED Dark Mode
 
+Package: easynotifications
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: iCraze
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/easynotifications_3.0_iphoneos-arm64.deb
+Size: 2792
+MD5sum: e0485e08ecf06b0c692284f5babe2de1
+SHA1: ca491ea57bbb69a5999396e7738e649dd4b46431
+SHA256: 66652211d8b0ac00b0ba3de7d98bd602ffd653562fd6ad00d0cfe96ef3e48f8c
+Section: Tweaks
+Description: 只需轻扫一次即可消除通知。
+Author: iCraze
+Name: EasyNotifications
+
 Package: eg.anubistweaks.phoneenhancer15
 Version: 1.6.5
 Architecture: iphoneos-arm64
