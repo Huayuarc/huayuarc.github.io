@@ -3398,6 +3398,22 @@ Description: 默认开启 无撤回提示 仅越狱使用 仅支持9.0.20 - 9.0.
 Author: x✨
 Name: QQ新版防撤回
 
+Package: com.xx.qqhook
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.qqhook_1.0.2_iphoneos-arm64.deb
+Size: 16986
+MD5sum: 649c4a8f790603b55db96cdc1771def6
+SHA1: 037bb2fcc4064dd405eabb424ec17ba047b288a3
+SHA256: cd89ef893362bf530db8165496951e3049a7ac361e45409559885c9c9c1708b7
+Section: Tweaks
+Description: 默认开启 无撤回提示 仅越狱使用 仅支持9.0.20 - 9.0.25版本 || 默认开启了模拟机型iPhone 15 Pro Max
+Author: x✨
+Name: QQ新版防撤回
+
 Package: com.xx.qsyyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -4993,6 +5009,21 @@ Size: 10936
 MD5sum: 3a680cbb6139992f4334eb4feedc82f3
 SHA1: 397b444a72963e53e42fdfdff0a12979bb845a22
 SHA256: 5307bbb2dc6dc8ceaaa8093b31bfefa1d09144cc2362b3b793bece747761057e
+Section: Tweaks
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具。Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
+Author: 预言小猫
+Name: 一键备份和恢复工具-Rootless
+
+Package: tweaktool
+Version: 1.6.4
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/tweaktool_1.6.4_iphoneos-arm64.deb
+Size: 10960
+MD5sum: 03012d92babf1463fc95604a2032f4d8
+SHA1: f917f38a61441d3b6cad6d9f95dbfe1b7377923f
+SHA256: 55716e8629018ca909aaed12231de7cf5305a670e96592188f5e06fbc61fce49
 Section: Tweaks
 Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具。Filza进入/var/mobile/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可。
 Author: 预言小猫
