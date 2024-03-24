@@ -4448,15 +4448,13 @@ Maintainer: Nightwind <nightwinddev@gmail.com>
 Installed-Size: 1116
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
 Conflicts: com.creaturecoding.shuffle
-Replaces: com.twickd.nightwind.onesettings
 Filename: ./debs/onesettings_2.1.0_iphoneos-arm64.deb
-Size: 207340
-MD5sum: b4bcaff57462431e2740b7f74b760c5c
-SHA1: 69cc374e56da4e7d85ad467aeb85f73fe29529af
-SHA256: 47446eb4d1bf58a1265688be7f80b55633b92436ef1b12aaf18960afe2eafbde
+Size: 207276
+MD5sum: 174893fc66f7d63f16260fc3396d44ae
+SHA1: 7739e0cedffd219bb3fdf084fbc6ed8b3b439004
+SHA256: 57e7eca4eb8ce90211c93507085fdb14c59804ba0a942b3867f518fc13461bf3
 Section: Tweaks
 Description: 对您的设置应用程序进行了极大的增强！（M哥汉化）
-Tag: cydia::commercial, compatible_min::ios14.0
 Author: Nightwind <nightwinddev@gmail.com>
 Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
 Name: OneSettings
