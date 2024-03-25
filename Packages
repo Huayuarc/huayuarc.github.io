@@ -4600,6 +4600,22 @@ Icon: https://skitty.xyz/repo/icons/xyz.skitty.quietdown.png
 Name: QuietDown
 Sileodepiction: https://b4db1r3.github.io/d3vr3p0/depictions/native/xyz.skitty.quietdown_2.0_iphoneos_ROOTLESS/depiction.json
 
+Package: replaced
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Little 34306
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/replaced_1.0_iphoneos-arm64.deb
+Size: 3272
+MD5sum: bfc16469eae75cb19cb1469fc561581a
+SHA1: 52babfe8e75212e998608cf2494982d5f23b326d
+SHA256: 1bec924db04358d37ce8f8a788478281df4c7ec28846a064777b27522d77eee3
+Section: Tweaks
+Description: 删除iOS 15+设备设置的“关于”部分中的“未知部件”或“部件和服务历史记录”消息。
+Author: 34306
+Name: replaced
+
 Package: respring
 Version: 1.0
 Architecture: iphoneos-arm64
