@@ -234,6 +234,21 @@ Author: AnthoPak
 Icon: https://img.chariz.cloud/icon/bluefinder/icon@3x.png
 Name: BlueFinder
 
+Package: callassist15
+Version: 2.2.1
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.libsandy
+Filename: ./debs/callassist15_2.2.1_iphoneos-arm64.deb
+Size: 2511724
+MD5sum: b09ab462e3016d228935af25b77ddbb4
+SHA1: d2eba5816080eacc96118cacfac1b6d46dec92ca
+SHA256: 4b7207ec9b11205c643d3c8fabf59ccb3e76dd2bee36c378e4e159cc98f097d6
+Section: tweaks
+Description: 电话助手需要20块购买激活,T9双卡选卡拨号键盘,短信双卡选卡,通话录音,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Author: xybp888
+Name: 电话助手iOS15-Rootless
+
 Package: cn.llld.bbqzr
 Version: 0.1
 Architecture: iphoneos-arm64
