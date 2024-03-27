@@ -4797,6 +4797,22 @@ Description: 在锁屏自定义有用的信息
 Author: M哥
 Name: Sakal
 
+Package: sbshownondefaultsystemapps
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/sbshownondefaultsystemapps_1.0.0_iphoneos-arm64.deb
+Size: 153472
+MD5sum: fafe2565372cc346451986dbe467cda2
+SHA1: 60edb82c229a6744fb84e787f5a5d0578a8cdd04
+SHA256: df1b5364dea9ffdbec5d05f479e26fd074c8af688155943b145ce668e10839af
+Section: Utilities
+Description: 在SpringBoard上显示非默认的系统应用程序。
+Author: MTAC
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/sbshownondefaultsystemapps.png
+Name: NonDefaultSystemApps
+
 Package: senri
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -4932,6 +4948,23 @@ SHA1: d0b974b7224f8bc849e92d85734cc31d4ab380d9
 SHA256: 964c6daec15483f360f1f39877fa3f7b4cc3fd5712ad9ead26f4209d8af74779
 Section: Tweaks
 Description: 这是一个极致的电池监控、保存和调整工具。它是专为iOS 15全新编写的插件(已汉化)！
+Author: elias
+Icon: https://media.havoc.app/6380e31f7246bed7c12ae8e4
+Name: SmartBattery iOS 15 - 16
+
+Package: smartbatteryios15
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: ws.hbang.common
+Conflicts: com.idevicelover.smartbattery2
+Filename: ./debs/smartbatteryios15_1.6_iphoneos-arm64.deb
+Size: 670440
+MD5sum: 7f3221980532338175e67484045b6228
+SHA1: e424eaf37a5c88b610915643635c69aeb48bbd68
+SHA256: d1c37751c97161b259632e1620cf8e62694f84fd21deeb722e1e08e4565783df
+Section: Tweaks
+Description: 监控、节省和调整电池的终极调整。
 Author: elias
 Icon: https://media.havoc.app/6380e31f7246bed7c12ae8e4
 Name: SmartBattery iOS 15 - 16
