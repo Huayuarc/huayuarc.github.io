@@ -3782,6 +3782,23 @@ Description: 隐藏应用程序蓝点黄点
 Author: M哥
 Name: 隐藏主屏幕app黄点
 
+Package: com.yourepo.themepro.themepro-154-rootless
+Version: 2.7.7
+Architecture: iphoneos-arm64
+Maintainer: MustangYM <MustangYM@yeah.net>
+Depends: mobilesubstrate
+Conflicts: ThemePro
+Replaces: ThemePro
+Filename: ./debs/themepro-154-rootless_2.7.7_iphoneos-arm64.deb
+Size: 6650796
+MD5sum: fb17f960b5088b054dfeedc4f26884e5
+SHA1: ba013f2268e857c0e1d73fd920c8fad7793f9b9e
+SHA256: ab927aa20002c2025ef0344ba138f2eb81fcd8bc160a9677c1fa36ed6d760424
+Section: Tweaks
+Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
+Author: MustangYM <mm13299079785@gmail.com>
+Name: ThemePro-2.7.7-Rootless
+
 Package: darkerdarkmode
 Version: 0.5.1-5
 Architecture: iphoneos-arm64
