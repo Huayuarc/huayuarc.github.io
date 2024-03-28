@@ -4461,6 +4461,23 @@ Icon: https://repo.keycap.one/icons/Amelija.png
 Name: Amēlija
 Sileodepiction: https://repo.keycap.one/depictions/me.luki.amelija.json
 
+Package: messagesxi
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Pre-Depends: firmware (>= 14.0)
+Depends: mobilesubstrate, ws.hbang.common (>= 1.13), ws.hbang.alderis (>= 1.2)
+Filename: ./debs/messagesxi_2.2_iphoneos-arm64.deb
+Size: 24232
+MD5sum: 15ac45914b9c39c5481040b36a1f0faf
+SHA1: 01a2c9e8d973ed6adfa7c79bbe1abb84ce4766a9
+SHA256: 13f708d584568c42acc1e6c7f4fc924cd7e7b546758e11492c7e9320248e2886
+Section: Tweaks
+Description: 向消息中添加很酷的内容。
+Author: Excalibur
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/messagesxi.png
+Name: MessagesXI
+
 Package: nebbs
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -5475,6 +5492,28 @@ Section: Tweaks
 Description: 一个全新的，不引人注目的，OLED友好的音量HUD。（由 M 哥汉化）
 Author: Ayden Panhuyzen
 Name: Ultrasound
+
+Package: ws.hbang.alderis
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2463
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
+Filename: ./debs/ws.hbang.alderis_1.2.3_iphoneos-arm64.deb
+Size: 290546
+MD5sum: 3f9e6b11866f656255a80d57ddb7f258
+SHA1: 9f3243b042f64f1a36509be4c198148547148336
+SHA256: cdd1f47c08843bde9b0e34ec07697a29dcdd56f8493fe5503f8085e7c1d5fb76
+Section: Development
+Description: Color picker support library for tweaks
+Tag: role::developer, compatible_min::ios12.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/alderis
+Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
+Name: Alderis Color Picker
+Support: https://hashbang.productions/support/
 
 Package: ws.hbang.common
 Version: 2.0
