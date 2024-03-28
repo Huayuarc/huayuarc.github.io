@@ -4668,6 +4668,25 @@ Author: Nightwind <nightwinddev@gmail.com>
 Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
 Name: OneSettings
 
+Package: onesettings
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: Nightwind <nightwinddev@gmail.com>
+Installed-Size: 1117
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.creaturecoding.shuffle
+Replaces: com.twickd.nightwind.onesettings
+Filename: ./debs/onesettings_2.1.1_iphoneos-arm64.deb
+Size: 220252
+MD5sum: 88cb0614b739d011ffc0c53bfdc3addc
+SHA1: ac40b8b5584c5dc37d2a506df25490bed52d73fa
+SHA256: 0752fbbb60f0a84a93c6acc28718eddfb56cf7a949f9823c7a3f90069e71bfd1
+Section: Tweaks
+Description: 对您的设置应用程序进行了极大的增强！
+Author: Nightwind <nightwinddev@gmail.com>
+Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
+Name: OneSettings
+
 Package: org.coolstar.sileo
 Version: 2.5
 Architecture: iphoneos-arm64
