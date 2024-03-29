@@ -271,17 +271,15 @@ Architecture: iphoneos-arm64
 Maintainer: xybp888
 Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
 Filename: ./debs/callassist16_1.3.2_iphoneos-arm64.deb
-Size: 2609940
-MD5sum: a0aaf373f118aff7b262f09ebd3d19f3
-SHA1: 6b1ab46fdc105ef8f138388be3315e5b6dbe9f86
-SHA256: 09506a7b25f3184dfebd7f822b90a4095ff5c15a7fc21880b30e9090d4b1455d
+Size: 2613076
+MD5sum: 76e924afbf45d5695efe445694d123eb
+SHA1: eb769baf120de116f510f8fb4d68ebc636c5dbd4
+SHA256: e24912e4d824f7abfec575581836b487c6753dbb65053b16c7e608d98ba85eb2
 Section: Tweaks
 Priority: optional
 Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
 Author: xybp888
-Depiction: https://apt.htv123.com/view/52
-Name: 电话助手iOS16-正式版(完整越狱)
-Sileodepiction: https://apt.htv123.com/sileo/52
+Name: 电话助手iOS16-Rootless
 
 Package: cn.llld.bbqzr
 Version: 0.1
