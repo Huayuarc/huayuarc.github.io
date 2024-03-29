@@ -266,20 +266,22 @@ Name: 电话助手iOS15-Rootless
 Sponsor: xybp888
 
 Package: callassist16
-Version: 1.1.9
+Version: 1.3.2
 Architecture: iphoneos-arm64
 Maintainer: xybp888
 Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
-Filename: ./debs/callassist16_1.1.9_iphoneos-arm64.deb
-Size: 2606216
-MD5sum: 3cfce68a5d79a88ac029a146ae0924e1
-SHA1: a7bf11aa10ea3e539c02913221daf5e58cb7441b
-SHA256: 24a60eac9aaa4dad9ae79c29eef73465629bf8408b219361ccc7bd85fcbead27
-Section: tweaks
-Description: 通话记录合并,通话录音,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,大部分刚需常用功能等的强大插件
+Filename: ./debs/callassist16_1.3.2_iphoneos-arm64.deb
+Size: 2609940
+MD5sum: a0aaf373f118aff7b262f09ebd3d19f3
+SHA1: 6b1ab46fdc105ef8f138388be3315e5b6dbe9f86
+SHA256: 09506a7b25f3184dfebd7f822b90a4095ff5c15a7fc21880b30e9090d4b1455d
+Section: Tweaks
+Priority: optional
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
 Author: xybp888
-Name: 电话助手iOS16-正式版
-Sponsor: xybp888
+Depiction: https://apt.htv123.com/view/52
+Name: 电话助手iOS16-正式版(完整越狱)
+Sileodepiction: https://apt.htv123.com/sileo/52
 
 Package: cn.llld.bbqzr
 Version: 0.1
@@ -3551,6 +3553,22 @@ SHA1: acafb9a49bfbd26210904b41ccd82c49e22b3bcc
 SHA256: b7bd0c391581bb4b5a50c6e1c72c352666210c708b2d0b68a6b8fe14308fa80e
 Section: Tweaks
 Description: 默认开启 无撤回提示 仅越狱使用 仅支持9.0.20 - 9.0.28版本 || 默认开启了模拟机型iPhone 15 Pro Max
+Author: x✨
+Name: QQ新版防撤回
+
+Package: com.xx.qqhook
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 108
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.qqhook_1.0.4_iphoneos-arm64.deb
+Size: 17586
+MD5sum: f72569f964be85981c9d3b5b656c41e8
+SHA1: c2611e108773d03d14bb401431a7467f4e5144dc
+SHA256: 91f7038020f516820e7e90d57d5dbfda4830e83b4cd435cc717ca007e636301c
+Section: Tweaks
+Description: 默认开启 无撤回提示 仅越狱使用 仅支持9.0.20 - 9.0.30版本 || 默认开启了模拟机型iPhone 15 Pro Max
 Author: x✨
 Name: QQ新版防撤回
 
