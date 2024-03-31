@@ -1522,6 +1522,26 @@ Maintainer: Ivano Bilenchi <support@ib-soft.net>
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/iCleaner Pro_7.10.0_iphoneos-arm64.deb
+Size: 978228
+MD5sum: 7f17045cbf91c9ed65c848adcd04d7af
+SHA1: 48a9b62bbaa15a61740c20fdf599663ba7ddc319
+SHA256: 82c4f9c37b78b9df478e4ac79808b1a7e9966b701f6dad5f65e7b77119163ca2
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.exile90.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
 Filename: ./debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm64.deb
 Size: 978900
 MD5sum: 8b2493de92e37cccae9f2dccbe55e401
