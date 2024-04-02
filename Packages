@@ -4134,27 +4134,6 @@ Description: FLEXList是FLEX tool的包装工具。
 Author: Netskao
 Name: FLEXList
 
-Package: fun.asmo.analyticswechat
-Version: 0.7.0
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 5834
-Depends: firmware (>= 9.0), mobilesubstrate
-Filename: ./debs/analyticswechat_0.7.0_iphoneos-arm64.deb
-Size: 1734536
-MD5sum: 16e2c69d0c42d10dda6440e147bd9d02
-SHA1: 2af710cbbc6a3d8970747b83e9461304995b8f9e
-SHA256: f6568c0eb0cbf36ed23515860cb28c82c865604d32ab0faa3d2ce590d7725fee
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=analyticswechatDp
-Description: 分析微信朋友圈、好友和聊天数据。可统计好友数量、性别数量和占比、好友添加方式、省份分布，统计个人和群聊消息量以及排行。统计朋友圈谁发的多、发的时间、有什么类型以及朋友圈词云展示等。支持导出统计页面为PDF。个人消息和群聊自动回复，大模型智能聊天。
-Tag: purpose::extension
-Author: Asmo <asmofun@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=analyticswechatDp
-Dev: asmo
-Name: 微信分析 (AnalyticsWeChat)
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Package: genesis4
 Version: 1.0.1
 Architecture: iphoneos-arm64
