@@ -974,6 +974,22 @@ Description: 微信小布丁1.0.5版本，可注入可越狱使用。自定义�
 Author: 来了老弟 X：h_h_x_t
 Name: 微信小布丁-rootless
 
+Package: cn.llld.wxx
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: ./debs/微信小布丁-rootless_1.0.6_arm64.deb
+Size: 26216
+MD5sum: d33158b07e10ca9345c1ae3fe0a77483
+SHA1: 6a60f5570978864599adc2b7b94509db24e5ff80
+SHA256: 116c1fcf3b49dbef84db2cf0bbf8ce1c9100901f986a03eb0a0529b4fe3f0b81
+Section: rootless应用插件
+Description: 微信小布丁1.0.6版本，可注入可越狱使用。自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告（可自定义关注视频和直播中订阅号），屏蔽朋友圈广告，屏蔽越狱检测状态,快速跳小程序广告，自定义步数，后台模糊，界面透明等功能。不整大杂烩，只更用的到。***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***,8.0.31版本专供，高版本仅用部分功能（我自用是8.0.31，没适配高版本）
+Author: 来了老弟 X：h_h_x_t
+Name: 微信小布丁-rootless
+
 Package: cn.llld.ycdock
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -4117,6 +4133,27 @@ Section: Netskao-Tweaks
 Description: FLEXList是FLEX tool的包装工具。
 Author: Netskao
 Name: FLEXList
+
+Package: fun.asmo.analyticswechat
+Version: 0.7.0
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 5834
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/analyticswechat_0.7.0_iphoneos-arm64.deb
+Size: 1734536
+MD5sum: 16e2c69d0c42d10dda6440e147bd9d02
+SHA1: 2af710cbbc6a3d8970747b83e9461304995b8f9e
+SHA256: f6568c0eb0cbf36ed23515860cb28c82c865604d32ab0faa3d2ce590d7725fee
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=analyticswechatDp
+Description: 分析微信朋友圈、好友和聊天数据。可统计好友数量、性别数量和占比、好友添加方式、省份分布，统计个人和群聊消息量以及排行。统计朋友圈谁发的多、发的时间、有什么类型以及朋友圈词云展示等。支持导出统计页面为PDF。个人消息和群聊自动回复，大模型智能聊天。
+Tag: purpose::extension
+Author: Asmo <asmofun@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=analyticswechatDp
+Dev: asmo
+Name: 微信分析 (AnalyticsWeChat)
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: genesis4
 Version: 1.0.1
