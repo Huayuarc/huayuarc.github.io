@@ -15,19 +15,37 @@ Author: chaoge
 Name: ChargeLimiter
 
 Package: Flex3beta
+Version: 1:3~Beta56
+Architecture: iphoneos-arm64
+Maintainer: John Coates
+Depends: firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Filename: ./debs/Flex3beta_1:3~Beta56.deb
+Size: 16820772
+MD5sum: b927ba7fe8b26e99b4692922dca53cb2
+SHA1: 785c59c52b79d6a2f4d33409eb1612f85b94b3dd
+SHA256: d12c73ea4a53d7b70d317972c1b43bb7543c31f334cb78298fdb674c3520033d
+Section: Tweaks
+Description: 开发您自己的调整并在Flex社区云上共享。
+Author: John Coates
+Name: Flex 3 Beta
+Recommended: com.rpetrich.rocketbootstrap
+
+Package: Flex3beta
 Version: 1:3~Beta92
 Architecture: iphoneos-arm64
 Maintainer: John Coates
 Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/Flex3Beta.1:3~Beta92.deb
-Size: 9653408
-MD5sum: c259ce98a88732128d3531390e8d6a89
-SHA1: 39c7f0d8be5794e1c9240ccba8df0cdbb2ac41c0
-SHA256: 92c95ec53dd168d7dbf4ba594547542dc1fab8f56eeba1b9e0263a26396e64e8
+Filename: ./debs/Flex3beta_1:3~Beta92.deb
+Size: 9654588
+MD5sum: 6490043d68eb90d3f7f12f5edfeb8dc0
+SHA1: 2fe180735ced25cedb04e2b11ffe52963ebdd3ab
+SHA256: cd5249c1790ca7ecf6a290a774f5a6bed5133f9512e42fdc11136d28aa93a61a
 Section: Tweaks
-Description: 开发您自己的调整并在Flex社区云上共享。（加入来了老弟的汉化包）
+Description: 开发您自己的调整并在Flex社区云上共享。
 Author: John Coates
 Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
@@ -360,6 +378,22 @@ Section: rootless插件
 Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***。长按侧边栏的（日间）或（设置）图标，弹出设置，还有多处隐藏菜单，长按去发现。240228小更新，排版随便弄了下，QQ更新过快，每次都有新活，开发动力不大了
 Author: 来了老弟
 Name: QQ绿化_芭比Q-rootless
+
+Package: cn.llld.copy1
+Version: 1.4.3
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/Copy-text-rootless_1.4.3-arm64.deb
+Size: 8288
+MD5sum: 9c4e501a7152c17ff5dc201a0f730d45
+SHA1: 3621c515fea4d9b261290ff6602357ce11a38d15
+SHA256: 679788de9de00cb6d85dc86603615d82860a667977d2ed85713cfad9388f7267
+Section: rootless插件
+Description: Short-click to copy the text content.***短按复制文本内容***，现处于测试阶段等后续更新支持更多,支持应用就不一一列举了，设置，电话，短信，appstore，QQ，贴吧，trollstore等,此版本不支持roothide
+Author: 来了老弟 h_h_x_t
+Name: Copy-text-rootless
 
 Package: cn.llld.dhjj
 Version: 1.0
@@ -696,6 +730,23 @@ Description: A floating window tool that supports batch text replacement, this v
 Author: 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
 Name: FloatingReplacement悬浮替换翻译汉化
+
+Package: cn.llld.qsyy
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 572
+Depends: mobilesubstrate
+Filename: ./debs/FT悬浮替换翻译汉化-rootless_1.3_arm64.deb
+Size: 101138
+MD5sum: fec939ae84f4d6338d8d6a6097d070b0
+SHA1: 122f648aa7a1a95ce0359dcb8d2716c20c51f28b
+SHA256: f1004fcb99d64283d655dae7a1e92d1b6bf4d29a0f92560d0cbe347da77c7223
+Section: rootless插件
+Description: A floating window tool that supports batch text replacement, this version adds reddit and iCleaner Pro, as well as phone, support Text replacement in settings, support phone modification of contact, modification of time, modification of call record etc.,More uses waiting for you to discover, it is strongly recommended to upgrade.***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，隐藏设备实际信息，靓仔装逼等。之前代码是垃圾，一切以最新版为准，，，勿改包，不弹窗。240403:以新增多款应用，有需要自己汉化巨魔的也可玩，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
+Name: FT悬浮替换翻译汉化-rootless
 
 Package: cn.llld.tmts
 Version: 0.1
@@ -4100,24 +4151,6 @@ Description: iOS设备的浮动选项卡栏。
 Author: yan
 Icon: https://media.havoc.app/65e987f4df1ff02035bcd6b1
 Name: Fiona
-
-Package: flex3beta
-Version: 1:3~Beta56
-Architecture: iphoneos-arm64
-Maintainer: John Coates
-Depends: firmware (>= 9.0)
-Recommends: com.rpetrich.rocketbootstrap
-Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog
-Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog
-Filename: ./debs/Flex3Beta.1:3~Beta56.deb
-Size: 16979848
-MD5sum: b8dc8c56f5655348f678ad1e5e69326c
-SHA1: 0985353f513786f3b893ae072c520205e84e05ec
-SHA256: 4b7584f754592ea5512d6ec0766072d4ff51ddf3c072c35a7e8889e8e752813c
-Section: Tweaks
-Description: 开发您自己的调整并在Flex社区云上共享。（加入来了老弟的汉化包），只对第三方应用生效！
-Author: John Coates
-Name: Flex 3 Beta
 
 Package: flexlist
 Version: 1.4-1
