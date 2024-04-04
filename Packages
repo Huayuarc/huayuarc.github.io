@@ -22,14 +22,14 @@ Depends: firmware (>= 9.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
 Filename: ./debs/Flex3beta_1:3~Beta56.deb
-Size: 16820772
-MD5sum: b927ba7fe8b26e99b4692922dca53cb2
-SHA1: 785c59c52b79d6a2f4d33409eb1612f85b94b3dd
-SHA256: d12c73ea4a53d7b70d317972c1b43bb7543c31f334cb78298fdb674c3520033d
+Size: 16823144
+MD5sum: a0ac1b104ecd9b58b6d6e47b97815f55
+SHA1: c37fc979b255c99c68145053fd45f5ae78e45a28
+SHA256: b82aa26dc64e3a6c8e841469f670728b013fee1d25b7de8b2abeec3b449c6b58
 Section: Tweaks
 Description: 开发您自己的调整并在Flex社区云上共享。
 Author: John Coates
-Name: Flex 3 Beta
+Name: Flex 3 Beta56
 Recommended: com.rpetrich.rocketbootstrap
 
 Package: Flex3beta
@@ -40,14 +40,14 @@ Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmwa
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Filename: ./debs/Flex3beta_1:3~Beta92.deb
-Size: 9654588
-MD5sum: 6490043d68eb90d3f7f12f5edfeb8dc0
-SHA1: 2fe180735ced25cedb04e2b11ffe52963ebdd3ab
-SHA256: cd5249c1790ca7ecf6a290a774f5a6bed5133f9512e42fdc11136d28aa93a61a
+Size: 9650236
+MD5sum: 7bfc71350b6ca07cb7d10262527b49b5
+SHA1: 100ac07eadd2a4fd4adf63a606aab2cfce314ca5
+SHA256: 73c90c9fb64ba9fbadc22b6b7fa823ea6055a04195f882ae5a4c8c8c2f73242c
 Section: Tweaks
 Description: 开发您自己的调整并在Flex社区云上共享。
 Author: John Coates
-Name: Flex 3 Beta
+Name: Flex 3 Beta92
 Recommended: com.rpetrich.rocketbootstrap
 
 Package: Flex3beta
