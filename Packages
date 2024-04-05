@@ -4729,6 +4729,23 @@ Author: Excalibur
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/messagesxi.png
 Name: MessagesXI
 
+Package: messagesxi
+Version: 2.3
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Pre-Depends: firmware (>= 14.0)
+Depends: mobilesubstrate, ws.hbang.common (>= 1.13), ws.hbang.alderis (>= 1.2)
+Filename: ./debs/messagesxi_2.3_iphoneos-arm64.deb
+Size: 26688
+MD5sum: ce153ca528bdddb38ea6e16f6543277a
+SHA1: d9a952f054e3b3938db418199e6e5e1cb7221cab
+SHA256: c3abcf1be85766313b56e452b20524c843fa1986da61115ea6f8965650118c06
+Section: Tweaks
+Description: 向消息中添加很酷的内容。
+Author: Excalibur
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/messagesxiCYPWN.png
+Name: MessagesXI
+
 Package: nebbs
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -5268,6 +5285,23 @@ Section: Tweaks
 Description: 使用SleeperX设置自定义打盹时间、跳过闹钟等。
 Author: Joshua Seltzer
 Icon: https://media.havoc.app/64a8afc0211e035238eac756?w=640&q=75
+Name: SleeperX
+
+Package: sleeperx
+Version: 3.0.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=15.0), firmware (<<17.0)
+Conflicts: org.thebigboss.sleeper, com.joshuaseltzer.sleeper
+Filename: ./debs/sleeperx_3.0.0_iphoneos-arm64.deb
+Size: 160648
+MD5sum: e890801ff00a3807f0c310a8c3ecd5fe
+SHA1: 9cbb201753933eb032fdd3825d38835209e9aee9
+SHA256: 46b307877e4b82773b6402c2fcdce391f1ae7951b6f6f1f300ace21d4e1206a8
+Section: Tweaks
+Description: 使用SleeperX设置自定义打盹时间、跳过闹钟等。
+Author: Joshua Seltzer
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/sleeperx.png
 Name: SleeperX
 
 Package: smartbatteryios15
