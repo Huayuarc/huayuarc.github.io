@@ -1869,6 +1869,22 @@ Description: Collection of classes used in my tweaks.
 Author: Nebbs
 Name: Phoenix
 
+Package: com.itznebbs.phoenix
+Version: 1.3.2
+Architecture: iphoneos-arm64
+Maintainer: Nebbs
+Installed-Size: 444
+Depends: firmware (>= 15.0)
+Filename: ./debs/phoenix-1.3.2-rootless.deb
+Size: 57014
+MD5sum: e30be2277c940b1deba6504a147c9952
+SHA1: 0dde6508e8f8440c484aa05744720f361732df97
+SHA256: 7b51ce189f2dff8c4f71370f17e00ebd7fd7eb07fea8b79b7a6a9471844e0aff
+Section: Development
+Description: Collection of classes used in my tweaks.
+Author: Nebbs
+Name: Phoenix
+
 Package: com.jd4iphone
 Version: 1.2
 Architecture: iphoneos-arm64
