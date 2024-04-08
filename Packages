@@ -4716,13 +4716,14 @@ Maintainer: MTAC
 Installed-Size: 2736
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
 Filename: ./debs/Lynx2.2.5.1.deb
-Size: 646712
-MD5sum: 40919f66b153b280668a018d26fb1e84
-SHA1: c2b012c6f7e87d2f7af4894408693dfa0b585dc9
-SHA256: e3eaeae41e38bec789fec13c2e951b44bc7de42181cb029e5382228994a94f4b
+Size: 646584
+MD5sum: f6a9cd0e54766e69571241ec8114475c
+SHA1: f422cad9d7671a61b140749021dcb047d55128c3
+SHA256: 16d29051f87895cf0e677c74cd49d1b6ebea0d4fb4882ad6a6f80e83e796bcbd
 Section: Tweaks
 Description: iOS 14、15和16的终极iDevice定制。
 Author: MTAC
+Icon: https://media.havoc.app/61f896da1630a63286dc419c
 Name: Lynx 2
 
 Package: me.gmoran.darkerdarkmode
