@@ -4709,6 +4709,22 @@ Author: MTAC
 Icon: https://media.havoc.app/61f896da1630a63286dc419c
 Name: Lynx 2
 
+Package: lynxtwo
+Version: 2.5.1
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2736
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/Lynx2.2.5.1.deb
+Size: 646712
+MD5sum: 40919f66b153b280668a018d26fb1e84
+SHA1: c2b012c6f7e87d2f7af4894408693dfa0b585dc9
+SHA256: e3eaeae41e38bec789fec13c2e951b44bc7de42181cb029e5382228994a94f4b
+Section: Tweaks
+Description: iOS 14、15和16的终极iDevice定制。
+Author: MTAC
+Name: Lynx 2
+
 Package: me.gmoran.darkerdarkmode
 Version: 0.5.1-5+debug
 Architecture: iphoneos-arm64
