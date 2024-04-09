@@ -5111,6 +5111,23 @@ Description: load preferences in style
 Author: Dustin Howett
 Name: PreferenceLoader - rootless (top)
 
+Package: prefs.localizer
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 180
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/prefs.localizer_1.2_iphoneos-arm64.deb
+Size: 12256
+MD5sum: 12d9cb4b4289ccbda95c09074ac3f47b
+SHA1: 0cc906750076bd29d9b9e2cdd708b614c2ecb5cb
+SHA256: d6d384276c3b94ae69fedc5bda43346bd9e68a680f03050acd8be606edc2ffe1
+Section: Tweaks
+Description: 快速更改设置应用程序的语言，3D触摸长按顶部导航栏打开菜单。
+Author: MTAC
+Icon: https://mtac.app/repo/assets/com.mtac.prefs.localizer/icon-rounded.png
+Name: PreferenceLocalizer
+
 Package: quietdown
 Version: 2.0
 Architecture: iphoneos-arm64
