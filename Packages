@@ -5118,12 +5118,12 @@ Maintainer: MTAC
 Installed-Size: 180
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/prefs.localizer_1.2_iphoneos-arm64.deb
-Size: 12256
-MD5sum: 12d9cb4b4289ccbda95c09074ac3f47b
-SHA1: 0cc906750076bd29d9b9e2cdd708b614c2ecb5cb
-SHA256: d6d384276c3b94ae69fedc5bda43346bd9e68a680f03050acd8be606edc2ffe1
+Size: 12292
+MD5sum: 42aae250a4c73e5bcab27542659c7414
+SHA1: b5545648de76fdc7715bbc77d95623c2b535e124
+SHA256: 20f9a7fb254f8eb9bcc0ca92996f597cf42e20ddf33e50d85ec8a2c3b53ab849
 Section: Tweaks
-Description: 快速更改设置应用程序的语言，3D触摸长按顶部导航栏打开菜单。
+Description: 快速更改“设置”应用程序的语言，3D触摸长按顶部导航栏打开菜单。
 Author: MTAC
 Icon: https://mtac.app/repo/assets/com.mtac.prefs.localizer/icon-rounded.png
 Name: PreferenceLocalizer
