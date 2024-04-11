@@ -379,6 +379,22 @@ Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***�
 Author: 来了老弟
 Name: QQ绿化_芭比Q-rootless
 
+Package: cn.llld.bbqzr
+Version: 0.4-3
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 368
+Depends: mobilesubstrate
+Filename: ./debs/QQ绿化_芭比Q可注入或越狱-rootless_0.4-3-arm64.deb
+Size: 49112
+MD5sum: be495ce14d52599699bed3fbdf21fba6
+SHA1: 7480da65f9a7b2f68bc0d5b4943797961aa5e971
+SHA256: 44b9b9b68f2701fbcf829296e70f2676b024f9fb09771bd6262462b7df440cf5
+Section: rootless应用插件
+Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***。长按侧边栏的（日间）或（设置）图标，弹出设置，还有多处隐藏菜单，长按去发现。240228小更新，排版随便弄了下，QQ更新过快，每次都有新活，开发动力不大了
+Author: 来了老弟
+Name: QQ绿化_芭比Q-rootless
+
 Package: cn.llld.copy1
 Version: 1.4.3
 Architecture: iphoneos-arm64
@@ -4794,6 +4810,23 @@ Section: Tweaks
 Description: 向消息中添加很酷的内容。
 Author: Excalibur
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/messagesxiCYPWN.png
+Name: MessagesXI
+
+Package: messagesxi
+Version: 2.3.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Pre-Depends: firmware (>= 14.0)
+Depends: mobilesubstrate, ws.hbang.common (>= 1.13), ws.hbang.alderis (>= 1.2)
+Filename: ./debs/messagesxi_2.3.1_iphoneos-arm64.deb
+Size: 26952
+MD5sum: 5e617754298c656f6c6bdcf5fe430c5b
+SHA1: 234d20c0ca4a1315a3488872b02fe66aac5295a4
+SHA256: ae7e7662f578e453a90e77293118de39bfe5f273b19904b55907ea25161fb32e
+Section: Tweaks
+Description: 向消息中添加很酷的内容。
+Author: Excalibur
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/messagesxi.png
 Name: MessagesXI
 
 Package: nebbs
