@@ -1225,12 +1225,12 @@ Maintainer: M哥
 Installed-Size: 2128
 Depends: mobilesubstrate, firmware (>= 11.0), co.dynastic.ios.lib.flora,     oldabi
 Filename: ./debs/ShortLookRootless.deb
-Size: 1279780
-MD5sum: 5e497eb5b4a35390ef3c5e48173af980
-SHA1: 741a54a0f2c6a38d3f3326f6dfc50e100ba0c8a6
-SHA256: 6b9338f1bfc74be1bfb1ab998e1e374638dfd3f1fedea87aa93426c00fefd444
+Size: 1279648
+MD5sum: 2d03d847116a639b3135d48b73465f63
+SHA1: c7f13c9dccb0945fa8491581ecbcbd82a0e6c17e
+SHA256: 605f9fe6b81bfd3efbffa0173e6d79e1f6acc292eeda9a8c485154ad898ea376
 Section: Tweaks
-Description: ShortLook将显示您的通知。当您收到通知时，ShortLook会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。它尽可能不引人注目，只要你点击屏幕或“唤醒”，它就会消失。它的可配置UI和行为确保ShortLook按照您希望的方式工作。（由M哥修复并汉化支持多巴胺2.0）！！
+Description: ShortLook将显示您的通知。当您收到通知时，ShortLook会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。它尽可能不引人注目，只要你点击屏幕或“唤醒”，它就会消失。它的可配置UI和行为确保ShortLook按照您希望的方式工作。注意：需要安装Legacy arm64e Support兼容层（由M哥修复并汉化支持多巴胺2.0）！！
 Author: Dynastic
 Name: ShortLook_Rootless
 
