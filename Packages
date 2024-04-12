@@ -3048,6 +3048,38 @@ Description: iOS Terminal
 Author: Tim Apple
 Name: Terminal
 
+Package: com.xina.blacklist
+Version: 0.0.2-10+debug
+Architecture: iphoneos-arm64
+Maintainer: xina520 <3608063@qq.com>
+Installed-Size: 284
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xina.blacklist_0.0.2-10_iphoneos-arm64.deb
+Size: 37888
+MD5sum: c3a31a556c0529c22b306d1edbd84624
+SHA1: 9b370d5dafca0580c86415de63e12098503ab627
+SHA256: db659242b02b54d2b1549c50c555494e83b3b8af7447cb77df46dc054335953b
+Section: Tweaks
+Description: xina越狱守护进程
+Author: xina520 <3608063@qq.com>
+Name: XinaBlackList
+
+Package: com.xina.blacklist
+Version: 0.0.3-1+debug
+Architecture: iphoneos-arm64
+Maintainer: xina520 <3608063@qq.com>
+Installed-Size: 288
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xina.blacklist_0.0.3-10_iphoneos-arm64.deb
+Size: 41050
+MD5sum: b0688ecff86d7483fd3a4597027dfa60
+SHA1: 0903a42f6fb505ba4c33e10d34875f78ad27c7b4
+SHA256: 1818a68aab080c51fed676001e956c0e44686dfbf0674fe0765013f8f45d0557
+Section: Tweaks
+Description: xina越狱守护进程
+Author: xina520 <3608063@qq.com>
+Name: XinaBlackList
+
 Package: com.xx.baiduhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
