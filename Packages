@@ -1218,22 +1218,6 @@ Tag: role::developer
 Author: Dynastic
 Name: libflora
 
-Package: co.dynastic.ios.tweak.shortlook
-Version: 1.0.23
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 2128
-Depends: mobilesubstrate, firmware (>= 11.0), co.dynastic.ios.lib.flora,     oldabi
-Filename: ./debs/ShortLookRootless.deb
-Size: 1279648
-MD5sum: 2d03d847116a639b3135d48b73465f63
-SHA1: c7f13c9dccb0945fa8491581ecbcbd82a0e6c17e
-SHA256: 605f9fe6b81bfd3efbffa0173e6d79e1f6acc292eeda9a8c485154ad898ea376
-Section: Tweaks
-Description: ShortLook将显示您的通知。当您收到通知时，ShortLook会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。它尽可能不引人注目，只要你点击屏幕或“唤醒”，它就会消失。它的可配置UI和行为确保ShortLook按照您希望的方式工作。注意：需要安装Legacy arm64e Support兼容层（由M哥修复并汉化支持多巴胺2.0）！！
-Author: Dynastic
-Name: ShortLook_Rootless
-
 Package: com.HBWechatHelper.ailun
 Version: 1.6.8
 Architecture: iphoneos-arm64
@@ -5047,6 +5031,24 @@ Description: Support for legacy arm64e ABI in iOS 15.0+
 Author: Evelyn
 Name: Legacy arm64e Support
 
+Package: oldabi-xina
+Version: 1.0.0-2+debug
+Architecture: iphoneos-arm64
+Maintainer: xina520
+Installed-Size: 88
+Replaces: oldabi
+Provides: oldabi
+Filename: ./debs/oldabi-xina_1.0.0-2_iphoneos-arm64.deb
+Size: 6948
+MD5sum: 2aa256c72eea2bfda55c8412bb2cea0f
+SHA1: 3fdb293f1ea6b45fbe2dff9ca86e2f3b1204ed88
+SHA256: 35f9f63d48d790fe12da3ca114c89ff13c2871934fbec62ee866984ac3da8c47
+Section: System
+Description: An awesome library of some sort!!
+Tag: role::developer
+Author: xina520
+Name: oldabi-xina
+
 Package: onesettings
 Version: 2.0.4
 Architecture: iphoneos-arm64
@@ -5368,6 +5370,38 @@ Moderndepiction: https://sezo.app/depiction/native/sezo.nyx.json
 Name: Nyx for Instagram
 Sileodepiction: https://sezo.app/depiction/native/sezo.nyx.json
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: shortlook.dopamine
+Version: 1.0.23
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 2128
+Depends: mobilesubstrate, firmware (>= 11.0), co.dynastic.ios.lib.flora, oldabi
+Filename: ./debs/ShortLookRootless_dopamine.deb
+Size: 1279772
+MD5sum: cd9d917fa5fb3c7fafae6ca49cb051b9
+SHA1: 73c4ca011fee30a28988ad2a90840f021e848874
+SHA256: 30ba106269093ded1ce1dfe173f9ddf3a66435f8c3c6ed780093040911c7a9fc
+Section: Tweaks
+Description: ShortLook将显示您的通知。当您收到通知时，ShortLook会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。它尽可能不引人注目，只要你点击屏幕或“唤醒”，它就会消失。它的可配置UI和行为确保ShortLook按照您希望的方式工作。注意：需要安装Legacy arm64e Support兼容层（由M哥修复并汉化支持多巴胺2.0）！！
+Author: Dynastic
+Name: ShortLook_Rootless
+
+Package: shortlook.xina2
+Version: 1.0.23
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 2128
+Depends: mobilesubstrate, firmware (>= 11.0), co.dynastic.ios.lib.flora, oldabi-xina
+Filename: ./debs/ShortLookRootless_Xina2.deb
+Size: 1279812
+MD5sum: 720ffda172d6e913cf3cd16f1c40b498
+SHA1: a7c0a96f9674fb2c6451070a5744acfcfdb1861a
+SHA256: cc4f41411f05f91f29766b86fe13d9e6d91ff9e837d69e311ad8b0fd5e164f11
+Section: Tweaks
+Description: ShortLook将显示您的通知。当您收到通知时，ShortLook会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。它尽可能不引人注目，只要你点击屏幕或“唤醒”，它就会消失。它的可配置UI和行为确保ShortLook按照您希望的方式工作。注意：需要安装Legacy arm64e Support兼容层（由M哥修复并汉化支持多巴胺2.0）！！
+Author: Dynastic
+Name: ShortLook_Xina2_Rootless
 
 Package: siriplus
 Version: 1.0
