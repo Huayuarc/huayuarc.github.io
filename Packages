@@ -4846,6 +4846,22 @@ Author: Excalibur
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/messagesxi.png
 Name: MessagesXI
 
+Package: messagesxi
+Version: 2.3.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Pre-Depends: firmware (>= 14.0)
+Depends: mobilesubstrate, ws.hbang.common (>= 1.13), ws.hbang.alderis (>= 1.2)
+Filename: ./debs/messagesxi_2.3.2_iphoneos-arm64.deb
+Size: 27420
+MD5sum: 1ab439d0d8052efbd4ebebf3fcd16ec0
+SHA1: 7fa66b77de6278654642993be7d90107af1cf640
+SHA256: d837c2624621ee744e0fb9f8a5181f9c04e07815e1c0072cf91a42469e15d170
+Section: Tweaks
+Description: 向消息中添加很酷的内容。
+Author: Excalibur
+Name: MessagesXI
+
 Package: nebbs
 Version: 1.0.0
 Architecture: iphoneos-arm64
