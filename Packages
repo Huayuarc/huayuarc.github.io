@@ -5369,22 +5369,6 @@ Name: Nyx for Instagram
 Sileodepiction: https://sezo.app/depiction/native/sezo.nyx.json
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: shortlook.plugin.contact-photo.wechat
-Version: 1.0.6
-Architecture: iphoneos-arm64
-Maintainer: JeffResc
-Installed-Size: 0
-Depends: mobilesubstrate, co.dynastic.ios.tweak.shortlook
-Filename: ./debs/shortlook.plugin.contact-photo.wechat_1.0.6_iphoneos-arm64.deb
-Size: 740
-MD5sum: d3d7a49bb95f23c84b81ff016c4b8afd
-SHA1: 6074c0c87a288c53c276ce2424adc2a6ceb86733
-SHA256: 3541847e563dd21d277e0a3d30389d2d230c52d33770d705ffbd2ef87d16ab3b
-Section: Tweaks (ShortLook)
-Description: 当收到微信通知时，在ShortLook中显示微信用户的头像!
-Author: Jeff Rescignano
-Name: ShortLook_WeChat
-
 Package: siriplus
 Version: 1.0
 Architecture: iphoneos-arm64
