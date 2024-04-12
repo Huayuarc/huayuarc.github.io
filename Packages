@@ -5378,10 +5378,10 @@ Maintainer: M哥
 Installed-Size: 2128
 Depends: mobilesubstrate, firmware (>= 11.0), co.dynastic.ios.lib.flora, oldabi
 Filename: ./debs/ShortLookRootless_dopamine.deb
-Size: 1279772
-MD5sum: cd9d917fa5fb3c7fafae6ca49cb051b9
-SHA1: 73c4ca011fee30a28988ad2a90840f021e848874
-SHA256: 30ba106269093ded1ce1dfe173f9ddf3a66435f8c3c6ed780093040911c7a9fc
+Size: 1279704
+MD5sum: ee98b0d465fcb20524419579f83b815f
+SHA1: f0a8a983dae6131a4e560164b81feb3987985554
+SHA256: 84517f3ec6a36b61b28864d621e3f827df8431f73e6686101a4ad2fd4051c924
 Section: Tweaks
 Description: ShortLook将显示您的通知。当您收到通知时，ShortLook会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。它尽可能不引人注目，只要你点击屏幕或“唤醒”，它就会消失。它的可配置UI和行为确保ShortLook按照您希望的方式工作。注意：需要安装Legacy arm64e Support兼容层（由M哥修复并汉化支持多巴胺2.0）！！
 Author: Dynastic
@@ -5394,10 +5394,10 @@ Maintainer: M哥
 Installed-Size: 2128
 Depends: mobilesubstrate, firmware (>= 11.0), co.dynastic.ios.lib.flora, oldabi-xina
 Filename: ./debs/ShortLookRootless_Xina2.deb
-Size: 1279920
-MD5sum: 949ed8b6edaa047ebb7615b3cc873d00
-SHA1: 92d24f10899782d765adeb3ccf20d3f58fdb1985
-SHA256: c525d6b4eaff105a987558710b64174d8442c3e66682528b7974a04513d55515
+Size: 1279696
+MD5sum: bcc3e229db90aedfe4fe8c87b32b9ada
+SHA1: 37a6ef01ffdc8e0e2696bbb0dab109b0d5299b5c
+SHA256: 270bbd2f5d7311c6b17cc77307af47085f11ce1043e224b123c9ebfdb6e4b3f7
 Section: Tweaks
 Description: ShortLook将显示您的通知。当您收到通知时，ShortLook会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。它尽可能不引人注目，只要你点击屏幕或“唤醒”，它就会消失。它的可配置UI和行为确保ShortLook按照您希望的方式工作。注意：需要安装Oodabi兼容层（由M哥修复并汉化支持Xina2.0）！！
 Author: Dynastic
