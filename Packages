@@ -268,6 +268,24 @@ Author: AnthoPak
 Icon: https://img.chariz.cloud/icon/bluefinder/icon@3x.png
 Name: BlueFinder
 
+Package: cahighfps
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/cahighfps_1.3.1_iphoneos-arm64.deb
+Size: 5532
+MD5sum: 7a21fee00340ea25b6d6006e723ab282
+SHA1: 6c076833ad2ca026799dac38b6c7e0989dc738bf
+SHA256: 1c5ef0c60adfd60d373bab02b2e71e518838781754ca94a49d9f1540728e598a
+Section: Tweaks
+Description: 使CoreAnimation应用程序使用最高的可用FPS。
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/cahighfps.html
+Name: CAHighFPS
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cahighfps.json
+
 Package: callassist15
 Version: 2.2.1
 Architecture: iphoneos-arm64
