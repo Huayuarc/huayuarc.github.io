@@ -5309,6 +5309,22 @@ Author: pkgFiles
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/respring.png
 Name: Respring
 
+Package: ring
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), com.opa334.ccsupport
+Filename: ./debs/ring_1.0.2_iphoneos-arm64.deb
+Size: 134964
+MD5sum: 18c95664ced69a62b7c3289720496292
+SHA1: 1b20ed05f87f0ef213ca7b317148fe677f20ec1f
+SHA256: e6b5e20f485ff7ca9eeee476ea5dd86f6d0a283577936928c238cbb1c82d8628
+Section: Tweaks
+Description: 轻松管理铃声音量！
+Author: yan
+Icon: https://media.havoc.app/660068a52b78a631ec05699f
+Name: Ring
+
 Package: rocketbootstrap
 Version: 1.1.0~rootless
 Architecture: iphoneos-arm64
