@@ -5048,20 +5048,6 @@ Description: 用两根手指点击通知以复制其文本。用两个手指按�
 Author: iCraze
 Name: NotiCopy15
 
-Package: oldabi
-Version: 0.3.2
-Architecture: iphoneos-arm64
-Maintainer: Evelyn
-Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
-Filename: ./debs/oldabi_0.3.2_iphoneos-arm64.deb
-Size: 16258
-MD5sum: 8515530621544c1a761fab6add0ab916
-SHA1: 0b64b91ab38623a10f8cf19fb5dd26e150cecf1e
-SHA256: 9834b99b01159722b4f7c2ce498ea1fd07eb36528c237be6899c26605e5dfbed
-Description: Support for legacy arm64e ABI in iOS 15.0+
-Author: Evelyn
-Name: Legacy arm64e Support
-
 Package: oldabi-xina
 Version: 1.0.0-2+debug
 Architecture: iphoneos-arm64
