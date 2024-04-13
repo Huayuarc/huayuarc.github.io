@@ -236,6 +236,22 @@ Description: 背景透明（通知中心、控制中心、小组件、文件夹�
 Author: M哥
 Name: 背景透明_rootless
 
+Package: bloom
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: dev.theos.orion14, firmware (>= 14.0), gzip, com.ginsu.comet, com.yan.lottie
+Filename: ./debs/bloom_1.0.1_iphoneos-arm64.deb
+Size: 456444
+MD5sum: 6a6274a443ac6eece84c1e2fb43e4d10
+SHA1: a710c3478eed50721927a65bce4b4ac43d98f61b
+SHA256: 69164c87a387f8348b146887806563f852e9ee5649ecadfaf534b92704f5ecc4
+Section: Tweaks
+Description: 漂亮的动画通知。CBZ破解！
+Author: yan
+Icon: https://media.havoc.app/66146449f290ffddc2a3059a
+Name: Bloom
+
 Package: bluefinder
 Version: 1.1.3
 Architecture: iphoneos-arm64
