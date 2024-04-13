@@ -4213,6 +4213,21 @@ Description: 将暗模式设为真正的暗模式。
 Author: @fr0st & b4db1r3
 Name: OLED Dark Mode
 
+Package: dockshowlabels
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: CydiaGeek
+Depends: mobilesubstrate
+Filename: ./debs/dockshowlabels_1.0.4_iphoneos-arm64.deb
+Size: 5440
+MD5sum: 4cb88d681119f909893011d4c496cbba
+SHA1: d2ad0c903a59d328b22284c004aea8b0e77fa3f3
+SHA256: 5a465eaa398991c49428f6fe0eda2c66ef2b6dfc2bb5d06d001366f93a837822
+Section: Tweaks
+Description: 与iOS 11之前一样，在Dock下方添加标签！
+Author: CydiaGeek
+Name: DockshowLabels
+
 Package: easynotifications
 Version: 3.0
 Architecture: iphoneos-arm64
