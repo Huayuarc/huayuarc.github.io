@@ -970,12 +970,12 @@ Architecture: iphoneos-arm64
 Maintainer: 来了老弟 X：h_h_x_t
 Installed-Size: 204
 Depends: mobilesubstrate
-Filename: ./debs/微博绿化-rootless_0.4-1-arm64.deb
-Size: 18210
-MD5sum: ae5b1495fff4d3ca8cb13f84eb23f723
-SHA1: f9537cf42901ae7da525c63599a3121ae8766653
-SHA256: a911feb7ab323791946629f566b979cc6e114db86f732a9cbd82ffb6fd5b128a
-Section: rootless插件
+Filename: ./debs/微博绿化-rootless_0.4-1_iphoneos-arm64.deb
+Size: 17998
+MD5sum: 022d9f5e6871d2256424647ec3c167f1
+SHA1: 97f120aa1b5eb7d64c5d2ced30539b44357df201
+SHA256: 2caf135b46a9afbf7115c22700f3d6f540120c0850cb748bec1d0d7fab63bad8
+Section: rootless应用插件
 Description: 给微博加点小功能，可注入可越狱版使用。***禁用开屏广告，评论区广告，信息流广告，视频流广告，首页上方直播入口。查看视频全屏模式，禁用角标消息红点等功能***。长按'我'页面的（创作中心）周边图标，长按首页的顶栏和底栏均可以弹出设置。240331：网上已有去广告插件，配合这个就行了，微博变来变去的，最近几月版本我都没去广告
 Author: 来了老弟 X：h_h_x_t
 Name: 微博绿化-rootless
@@ -1277,6 +1277,21 @@ Size: 9088332
 MD5sum: 3de6e4cbe1ff00ebedd06cb26d3d8609
 SHA1: e524d74fe206dd4f440809280e12e2d3783079ae
 SHA256: ed82701d54569c64bf54de08eff7eb60e1eee7a571bf172a2ce12db9c605892a
+Section: Mao
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)-Rootless
+
+Package: com.HBWechatHelper.ailun
+Version: 1.7.0
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/黄白助手1.7.0_无根.deb
+Size: 9399144
+MD5sum: f2331b7ac549fc105aabefe26d46e6fa
+SHA1: f9fa9a9a1311b55199f3989e51a017a7b4526b69
+SHA256: 41dd3d39e406adca68b0d62d5801027c2496a1732892f2361a893c1c4f80c9de
 Section: Mao
 Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
 Author: HuangBai <QQ:1343309363@qq.com>
@@ -1743,7 +1758,7 @@ Version: 1.6.7
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
-Filename: ./debs/黄白助手微信插件-Rootless.1.6.7.deb
+Filename: ./debs/黄白助手1.6.7_无根.deb
 Size: 9541916
 MD5sum: 13b8aab00b53df395c092b5ead299bf4
 SHA1: 29a939f1733b8fda24c7286547733969c0d98cbd
