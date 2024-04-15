@@ -252,6 +252,22 @@ Author: yan
 Icon: https://media.havoc.app/66146449f290ffddc2a3059a
 Name: Bloom
 
+Package: bloom
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: firmware (>= 14.0), gzip, dev.theos.orion14, com.ginsu.comet
+Filename: ./debs/bloom_1.0.2_iphoneos-arm64.deb
+Size: 1939096
+MD5sum: 448fd71713b8671478f4b2abab12a40a
+SHA1: bd742bc686e744d09d9a964944c527430129d02c
+SHA256: a17c047de519d29731975b0a4f7ed4c56df391a306329361d1b7ae465ffb815d
+Section: Tweaks
+Description: 漂亮的动画通知。CBZ破解！
+Author: yan
+Icon: https://media.havoc.app/66146449f290ffddc2a3059a
+Name: Bloom
+
 Package: bluefinder
 Version: 1.1.3
 Architecture: iphoneos-arm64
@@ -5430,6 +5446,21 @@ Author: Antoine
 Icon: https://img.chariz.cloud/icon/senri/icon@3x.png
 Name: Senri
 
+Package: settingsbuttons-rootless
+Version: 1.7
+Architecture: iphoneos-arm64
+Depends: firmware (>=13.0), com.spark.libsparkcolourpicker
+Filename: ./debs/settingsbuttons-rootless_1.7_iphoneos-arm64.deb
+Size: 91424
+MD5sum: 97dc226dee794f05fdae8852e2fdc371
+SHA1: 8ba0e2ac3895e6e3890e4b64f564fbcc101b8e2a
+SHA256: 018154bf2ce81da7126f94a6d1fb948064353f02bde6f5556c77fe57568dccf1
+Section: Tweaks
+Description: 设置导航栏中的有用按钮。
+Author: ETHN
+Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.settingsbuttons-rootless/icon.png
+Name: SettingsButtons-Rootless
+
 Package: sezo.nyx
 Version: 1.1.6
 Architecture: iphoneos-arm64
@@ -5670,6 +5701,23 @@ Description: 根据应用程序图标为应用程序切换器添加颜色。（�
 Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://img.chariz.cloud/icon/switchshades/icon@3x.png
 Name: SwitchShades
+
+Package: tako
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: b4db1r3
+Installed-Size: 744
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16),  com.mrgcgamer.libgcuniversal,firmware (>= 15.2),com.xyaman.libkuro
+Filename: ./debs/tako_2.2_iphoneos-arm64.deb
+Size: 89152
+MD5sum: 12e1ec529781552468f4a1e7e86f3597
+SHA1: 435da714a6390cf900e5883c46263c44b2b77f99
+SHA256: b8d046d2876ed6401b7dc41a1b12b07a548d7b4919002528dc20088bb0052395
+Section: Tweaks
+Description: 通知优先级插件。
+Author: Xyaman & b4db1r3
+Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
+Name: Tako ( iOS 15-16 )
 
 Package: trollleds
 Version: 1.2.1
