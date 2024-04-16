@@ -5701,6 +5701,22 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/snail.png
 Name: Snail-Cracks-Rootless
 Sponsor: M哥
 
+Package: split-view-pro
+Version: 1.1.0-2
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 1252
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/split-view-pro_1.1.0-2_iphoneos-arm64.deb
+Size: 296860
+MD5sum: 3b0df18b65d3513491ce54dd84c90818
+SHA1: 7ca9f01d4f8a2d3cc9f4c6043dbb5a48417fc893
+SHA256: c38523359fe8abbbd2e5f322d3c9a167a8cae96fa17c94f5eeb30f18fa1ea96e
+Section: Tweaks
+Description: 别问，问就是分屏插件！该插件不收费，功能会慢慢整合。同时这个插件刚问道不久，自然也有很多不足，我会慢慢完善。最重要的一点：它不会窃取你任何隐私，不存在任何后门！其次：它尽量把操作复杂度降到最低。
+Author: sunshinesong
+Name: split-view-pro
+
 Package: splitvieweverywhere
 Version: 1.0
 Architecture: iphoneos-arm64
