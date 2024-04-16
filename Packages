@@ -4246,6 +4246,21 @@ Description: 与iOS 11之前一样，在Dock下方添加标签！
 Author: CydiaGeek
 Name: DockshowLabels
 
+Package: dockshowlabels
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: CydiaGeek <lucaluca86@aol.com>
+Depends: mobilesubstrate
+Filename: ./debs/dockshowlabels_1.0.5_iphoneos-arm64.deb
+Size: 3804
+MD5sum: a33900baf0a5b997f5106c1da937ecf9
+SHA1: b95b809c94b72e711f2f9d24be0614272cf80ea2
+SHA256: cfd8019d0c6c03ff76f9644ae810de8f8a8bfcf9f8334c715b944b04cf6136eb
+Section: Tweaks
+Description: 与iOS 11之前一样，在Dock下方添加标签！
+Author: CydiaGeek <lucaluca86@aol.com>
+Name: DockshowLabels
+
 Package: easynotifications
 Version: 3.0
 Architecture: iphoneos-arm64
