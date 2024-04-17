@@ -2811,6 +2811,23 @@ Description: 状态栏隐藏（热点横幅、闹钟、蓝牙、热点、vpn、�
 Author: M哥
 Name: 状态栏优化-rootless
 
+Package: com.sunshinesong.split-view-pro
+Version: 1.1.0-2
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 1252
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sunshinesong.split-view-pro_1.1.0-1_iphoneos-arm64.deb
+Size: 510016
+MD5sum: 5e007131761a2e0ae5cb7cc78ae9128b
+SHA1: e7bb572578b79b6992fab5884c0a27507753d0f5
+SHA256: 3264d439e81c7ca30ae7b731379709f45d86797ba35c6008cba93a9bf0c2797d
+Section: Tweaks
+Description: 别问，问就是分屏插件！该插件不收费，功能会慢慢整合。同时这个插件刚问道不久，自然也有很多不足，我会慢慢完善。最重要的一点：它不会窃取你任何隐私，不存在任何后门！其次：它尽量把操作复杂度降到最低。
+Author: sunshinesong
+Name: split-view-pro
+Ts: sp-sss
+
 Package: com.switchbackground
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -5700,37 +5717,6 @@ Author: CBZ
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/snail.png
 Name: Snail-Cracks-Rootless
 Sponsor: M哥
-
-Package: split-view-pro
-Version: 1.1.0-2
-Architecture: iphoneos-arm64
-Maintainer: sunshinesong
-Installed-Size: 1252
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/split-view-pro_1.1.0-2_iphoneos-arm64.deb
-Size: 296860
-MD5sum: 3b0df18b65d3513491ce54dd84c90818
-SHA1: 7ca9f01d4f8a2d3cc9f4c6043dbb5a48417fc893
-SHA256: c38523359fe8abbbd2e5f322d3c9a167a8cae96fa17c94f5eeb30f18fa1ea96e
-Section: Tweaks
-Description: 别问，问就是分屏插件！该插件不收费，功能会慢慢整合。同时这个插件刚问道不久，自然也有很多不足，我会慢慢完善。最重要的一点：它不会窃取你任何隐私，不存在任何后门！其次：它尽量把操作复杂度降到最低。
-Author: sunshinesong
-Name: split-view-pro
-
-Package: splitvieweverywhere
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Ethan Whited
-Installed-Size: 168
-Filename: ./debs/splitvieweverywhere_1.0_iphoneos-arm64.deb
-Size: 3392
-MD5sum: 608ea6b1042395aa359bdad9a2957241
-SHA1: 341755c26d03ee912b7225f731aa2d064fb971b7
-SHA256: 2d505577190fe96167a8cfd9e8148076997634dba9a148a71d66c0c975660ebb
-Section: Tweaks
-Description: 在iPadOS上不支持的应用程序上启用SplitView/SlideOver！
-Author: Ethan Whited
-Name: SplitViewEverywhere
 
 Package: sushi
 Version: 1.0.1
