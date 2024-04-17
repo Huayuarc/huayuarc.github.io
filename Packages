@@ -2227,14 +2227,14 @@ Maintainer: MTAC
 Installed-Size: 604
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
 Filename: ./debs/com.mtac.ampere_1.4_iphoneos-arm64.deb
-Size: 105860
-MD5sum: 0cb77ab48a1763dab62a0081971ac1ef
-SHA1: 04ee25fc4989c9bcc5d71fa029937531ee4eeb43
-SHA256: ca493b0070c08afb0b66a2380474c5818a3c1c2da80aaa7b11b0ddf575198fae
+Size: 101534
+MD5sum: 6f7b8582bafe744d33323e2491afd47c
+SHA1: b33196c2ff3a9e0b5c2394b12a25ba40096298a3
+SHA256: 01a1252456da52a141f09992af0a604122463b2dce48f09554b1dc5e02ab1230
 Section: Tweaks
-Description: iOS 16 Style Battery Indicator
+Description: iOS16 电池百分比风格！
 Author: MTAC
-Name: Ampere-rootless
+Name: Ampere
 
 Package: com.mtac.fingerlock
 Version: 3.0.2
