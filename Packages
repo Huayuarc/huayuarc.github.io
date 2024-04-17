@@ -50,25 +50,6 @@ Author: John Coates
 Name: Flex 3 Beta92
 Recommended: com.rpetrich.rocketbootstrap
 
-Package: Flex3beta
-Version: 1:3~Beta92
-Architecture: iphoneos-arm64e
-Maintainer: John Coates
-Pre-Depends: rootless-compat(>= 0.1)
-Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/Flex3Roothide_beta92.deb
-Size: 19298684
-MD5sum: f15a8f990aa55e416c83922a8ca941b3
-SHA1: 9e5d2295773baa99ae1989cc92f57ffc56838535
-SHA256: 881ae2b876ce1be9d9079d1d25a7afa18cfafe90246dacb1de7527c3a072c52f
-Section: Tweaks
-Description: 开发您自己的调整并在Flex社区云上共享。（加入来了老弟的汉化包）
-Author: John Coates
-Name: Flex 3 Beta
-Recommended: com.rpetrich.rocketbootstrap
-
 Package: SwipeUnLock.rootless
 Version: 1.0.3
 Architecture: iphoneos-arm64
@@ -1985,23 +1966,6 @@ Description: 京东去广告+精简
 Author: M哥
 Name: 京东（去广告+精简）
 
-Package: com.johncoates.Flex
-Version: 1:3~Beta56-roothide
-Architecture: iphoneos-arm64e
-Maintainer: John Coates
-Depends: mobilesubstrate, firmware (>= 9.0)
-Conflicts: me.tomt000.stageduo
-Filename: ./debs/Flex3Roothide_beta56.deb
-Size: 16823100
-MD5sum: c908ddb994258e2473b1ffa51d8f1a5c
-SHA1: 58cd292f7849ee9fe739cec3cb94098002e2458e
-SHA256: 18245b6a85fea6e43ca380a61bd411dee06a7ac4c4715c7f85278a92dead6e59
-Section: Tweaks
-Description: 开发您自己的插件并在Flex社区云上共享。（加入来了老弟的汉化包）
-Author: John Coates modded by DXcool223
-Name: Flex 3 Beta
-Recommended: com.rpetrich.rocketbootstrap
-
 Package: com.jontelang.instalauncher2
 Version: 1.11.0
 Architecture: iphoneos-arm64
@@ -2339,23 +2303,6 @@ Description: iOS 16上的浮动Dock（M哥汉化）
 Author: Ethan Whited
 Name: FloatingDockXVI
 
-Package: com.nan.givemedeb
-Version: 0.2.0-2
-Architecture: iphoneos-arm64
-Maintainer: zhaonan
-Depends: coreutils, sed, gawk
-Filename: ./debs/Givemedeb.0.2.0-2.deb
-Size: 2380
-MD5sum: 2ca3411ad855f0ef48217e04b25097c3
-SHA1: e85639cac27cce002eff22ff204563beccec4f38
-SHA256: dbaba5ba93261ae77f8b07c68882e13e4a96ffc59a50b60b5e7bbcb98155c71d
-Section: Addons
-Description: 尝试保存 apt 缓存目录下所有 deb
-Author: zhaonan <invalidunit@icloud.com>
-Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
-Name: Give me deb
-Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
-
 Package: com.netskao.wechatnotiavatar
 Version: 1.2-2
 Architecture: iphoneos-arm64
@@ -2617,25 +2564,6 @@ Description: Reinvent your keyboard with this full remake of the legendary Swipe
 Author: qwertyuiop1379 <support@qwertyuiop1379.com>
 Depiction: https://repo.chariz.com/package/com.qiop1379.swipeextenderx/
 Name: SwipeExtenderX
-
-Package: com.roothide.patcher
-Version: 1.5-13+debug
-Architecture: iphoneos-arm64e
-Maintainer: RootHide
-Installed-Size: 3112
-Depends: firmware (>= 15.0), odcctools, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), rsync
-Filename: ./debs/com.roothide.patcher_1.5-13+debug_iphoneos-arm64e.deb
-Size: 952392
-MD5sum: 263e005a07adefe52b462d5b3def09ae
-SHA1: c76b941bbe43edb04b761a512e97e7362ea592d4
-SHA256: 362731a6bb35add677c1e554d4d91b733b795ca4511a3a46844393d5e9daf71b
-Section: Utilities
-Description: 一款将无根插件转换的roothide插件的程序，由M哥编译汉化.
-Author: RootHide
-Depiction: https://github.com/RootHide/RootHideManagerApp
-Icon: https://github.com/RootHide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
-Name: RootHide Patcher
-Support: https://github.com/RootHide/RootHideManagerApp
 
 Package: com.runner
 Version: 1.0
@@ -2914,25 +2842,6 @@ Section: Tweaks
 Description: 禁止通知中心信息堆叠，不重叠可以连续显示
 Author: M哥
 Name: 通知分组堆叠iOS15-rootless
-
-Package: com.udevs.dockx
-Version: 2.4.6
-Architecture: iphoneos-arm64e
-Maintainer: udevs
-Installed-Size: 1596
-Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
-Conflicts: com.restiveconch.actionbar
-Filename: ./debs/DockX_2.4.6_RootHide.deb
-Size: 293844
-MD5sum: f53375bd21e184c2e5b4d5ca2b6cdf52
-SHA1: cc3524aa0b910204e36f2683f34bc0cb3bd862de
-SHA256: c86c69d9d27b5e858c2f2f98a7947e16856911ddd12fb77c695b6f583668d596
-Section: Tweaks
-Description: Pasteboard shortcuts on your keyboard dock!
-Author: udevs
-Depiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
-Name: DockX
 
 Package: com.udevs.dockx
 Version: 2.4.6
@@ -4233,21 +4142,6 @@ Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成
 Author: MustangYM <mm13299079785@gmail.com>
 Name: ThemePro-2.7.7-Rootless
 
-Package: darkerdarkmode
-Version: 0.5.1-5
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/darkerdarkmode_0.5.1-5_iphoneos-arm64.deb
-Size: 9280
-MD5sum: 67c672c0f88df3afd6b1df570d645da1
-SHA1: db54ad98ada64c49d0e01e7b39ad928f51eda2b5
-SHA256: 78946c29a6bc02b0af7d0ccac16bd8a5e1e3a2fe16ad3090508c8d3e434641ba
-Section: Tweaks
-Description: 将暗模式设为真正的暗模式。
-Author: @fr0st & b4db1r3
-Name: OLED Dark Mode
-
 Package: dockshowlabels
 Version: 1.0.4
 Architecture: iphoneos-arm64
@@ -4686,23 +4580,6 @@ Section: Tweaks
 Description: 自定义锁头图标和位置，适配rootless，增加汉化。
 Author: M哥
 Name: 锁头自定义 Latchkey
-
-Package: letmedecline
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debs/letmedecline_1.1_iphoneos-arm64.deb
-Size: 6040
-MD5sum: 44a842b590fc078f0645c7279577f899
-SHA1: dddc4bed8b9d3de98293775dee60c14c2199b1c1
-SHA256: 3322bacc362e09222c95693f58bcfe7124020fb832f14eb50bc6e0c0852fa22f
-Section: Tweaks
-Description: 此插件将在手机锁定时，增加来电话显示“接受/拒绝”按钮！
-Author: P2KDev <p2kdev@gmail.com>
-Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.letmedecline/icon.png
-Name: LetMeDecline
 
 Package: libflex
 Version: 5.22.10
