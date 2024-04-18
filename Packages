@@ -5090,6 +5090,22 @@ Description: 从共享菜单中删除烦人的空投和联系人。
 Author: Devvix
 Name: NoCShare
 
+Package: noncheaders
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: level3tjg
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/noncheaders_1.0.0_iphoneos-arm64.deb
+Size: 5496
+MD5sum: 0e6412f7ba5f33013ca63e0f7c2c245f
+SHA1: 85f1559d47f591104a90daebb23e2c358bc34de3
+SHA256: 3581081a87b5ddb7b4bef474ea9416fa54e2c3699ac1b612aeaf5c7b301cf79c
+Section: Tweaks
+Description: 隐藏通知中心标题。
+Author: level3tjg
+Name: NoNCHeaders
+
 Package: noticopy15
 Version: 1.1
 Architecture: iphoneos-arm64
