@@ -4919,6 +4919,22 @@ Description: 向消息中添加很酷的内容。
 Author: Excalibur
 Name: MessagesXI
 
+Package: misaki
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/misaki_2.0_iphoneos-arm64.deb
+Size: 217428
+MD5sum: 5761d029cbbde25ceb8fb837cd13d472
+SHA1: 3fa3e07207711bcb6a579df39571592843750fc1
+SHA256: 37bb2de8bb21df3f17eddd3cc006c988a8caacb5ea3ec9b319e272563417e826
+Section: Tweaks
+Description: 使用Misaki自定义您的iOS 15和16体验。定制选项，让您的iPhone真正属于您。
+Author: Hitori
+Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
+Name: Misaki
+
 Package: nebbs
 Version: 1.0.0
 Architecture: iphoneos-arm64
