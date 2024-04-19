@@ -4176,6 +4176,22 @@ Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成
 Author: MustangYM <mm13299079785@gmail.com>
 Name: ThemePro-2.7.7-Rootless
 
+Package: dockheight
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/dockheight_1.1.0_iphoneos-arm64.deb
+Size: 3654
+MD5sum: 9c39478044127571affea966019478d1
+SHA1: af1cf0147c2cbf26664a8f17d4cd874ce5ad9a0f
+SHA256: 9389cf6077974ddb5625a8d90270b168861cd1e4732e3c598208f25386f17eb5
+Section: Tweaks
+Description: 调整 Dock 的高度，支持所有设备, 除了 iPad 外（无设置项，安装后生效）。
+Author: M哥
+Name: DockHeight
+
 Package: dockshowlabels
 Version: 1.0.4
 Architecture: iphoneos-arm64
