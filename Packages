@@ -284,21 +284,6 @@ Name: CAHighFPS
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cahighfps.json
 
 Package: callassist15
-Version: 2.2.1
-Architecture: iphoneos-arm64
-Maintainer: xybp888
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.libsandy
-Filename: ./debs/callassist15_2.2.1_iphoneos-arm64.deb
-Size: 2510796
-MD5sum: b20d615fbe214ec6f6039bafe20135b9
-SHA1: faad20e0818c2f501020f243681c61dfe5e99860
-SHA256: ae6bafe49827a1e105630e5fcca73a80db4c5c49c9ee7858d108caedd00eb27a
-Section: tweaks
-Description: T9双卡选卡拨号键盘,短信双卡选卡,通话录音,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
-Author: xybp888
-Name: 电话助手iOS15-Rootless
-
-Package: callassist15
 Version: 2.2.2
 Architecture: iphoneos-arm64
 Maintainer: xybp888
