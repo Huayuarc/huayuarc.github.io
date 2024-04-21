@@ -1737,6 +1737,25 @@ Author: Hitori <mikasa-san@outlook.jp>
 Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
 Name: Misaki
 
+Package: com.hitori.misaki
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Maintainer: Hitori <mikasa-san@outlook.jp>
+Installed-Size: 776
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/com.hitori.misaki_2.0.2_iphoneos-arm64.deb
+Size: 242464
+MD5sum: 53df43e155021c93c8c768d6e4fd21a8
+SHA1: bfbdc312546a3e8067496d849334228a52f8fb58
+SHA256: 1c3c4cb64e21ea64834a4a8c8ca3776ed3b30ad5458ee8cd67bab1f329281ba7
+Section: Tweaks
+Description: 使用Misaki自定义您的iOS 15和16体验。定制选项，让您的iPhone真正属于您。
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: Hitori <mikasa-san@outlook.jp>
+Depiction: https://chariz.com/buy/misaki
+Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
+Name: Misaki
+
 Package: com.hk.trollstore.cn.rl
 Version: 2.0-3
 Architecture: iphoneos-arm64
@@ -3245,6 +3264,40 @@ Author: x✨
 Name: 抖音图层
 Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
 
+Package: com.xx.dyhook
+Version: 1.2.4
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 2336
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_1.2.4_iphoneos-arm64.deb
+Size: 543522
+MD5sum: e93b9e657824865e93c3a14be4ca85f4
+SHA1: 14609ed5467e9c8b8bdf9528789e9e931dccd9fb
+SHA256: 4d9fc8ec254bb690ee78a94e77e8fd2157b0f6308b7271fe83a90627a4b05a96
+Section: Tweaks
+Description: 自用
+Author: x✨
+Name: 抖音图层
+Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
+
+Package: com.xx.dyhook
+Version: 1.2.5
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 1736
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_1.2.5_iphoneos-arm64.deb
+Size: 459822
+MD5sum: dc1607bd8648bcdf9b912d1f3f1ac67c
+SHA1: 09674b842a90980f612cca8d36f3730d016098d3
+SHA256: 92c331d61884fd094935a5150e12a0d896c5cb6ba24b55d44b175af90818813a
+Section: Tweaks
+Description: 自用
+Author: x✨
+Name: 抖音图层
+Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
+
 Package: com.xx.ecnyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -3930,6 +3983,22 @@ SHA1: cfcd1304fe51079cf76c6d97e23356fc6943f1a8
 SHA256: 75d0527b19e2accada928b0c4d80e309221e9c52a1300322b84c8fe76a536e6c
 Section: Tweaks
 Description: 默认开启 无撤回提示 仅越狱使用 仅支持9.0.20 - 9.0.35版本 || 默认开启了模拟机型iPhone 15 Pro Max
+Author: x✨
+Name: QQ新版防撤回
+
+Package: com.xx.qqhook
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.qqhook_1.0.6_iphoneos-arm64.deb
+Size: 18402
+MD5sum: 977cd570879aac784863dfdb7fe2c96a
+SHA1: bd5a63c9473fd57c4887c759ec0eac23139d94f7
+SHA256: 7f07b2bcb04fd3d95badcf2cad5a7a7843622ed2cf6c688feceafe223e7d7f7a
+Section: Tweaks
+Description: 默认开启 无撤回提示 仅越狱使用 仅支持9.0.20 - 9.0.36版本 || 默认开启了模拟机型iPhone 15 Pro Max
 Author: x✨
 Name: QQ新版防撤回
 
