@@ -5196,6 +5196,22 @@ Description: Display Notification Avatars for WeChat App using iOS15 APIs
 Author: Netskao
 Name: WeChatNotiAvatar-rootless
 
+Package: no3rdpartyapp
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/no3rdpartyapp_1.0_iphoneos-arm64.deb
+Size: 2848
+MD5sum: 509998717e6ea6058ee61752287ad9c9
+SHA1: 74a9a642e752a21231ef5c1f77991c689698826f
+SHA256: ae72287c772b3e1560562f040eca371d3fa017544acd28d306d091b1ec51581b
+Section: Tweaks
+Description: 隐藏设置里的第三方应用列表（商店已安装应用），支持ios15+
+Author: M哥
+Name: 隐藏设置商店应用
+
 Package: nocshare
 Version: 1.1.2-1
 Architecture: iphoneos-arm64
