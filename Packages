@@ -1726,14 +1726,16 @@ Architecture: iphoneos-arm64
 Maintainer: Hitori <mikasa-san@outlook.jp>
 Installed-Size: 751
 Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
-Filename: ./debs/misaki_2.0.1_iphoneos-arm64.deb
-Size: 227580
-MD5sum: 7804347a009ec711a72998da07db79e7
-SHA1: d9b1b589e6602d2922d7a77973526e364c7e4625
-SHA256: 422799d63ae6d5f3393eb8a7299565f25efd2de6fcb484e14a7607dcb8a46819
+Filename: ./debs/com.hitori.misaki_2.0.1_iphoneos-arm64.deb
+Size: 230288
+MD5sum: 04363190d7075a0887156ac707d9ad79
+SHA1: 2ae128cf26476b72d70e9f9386a701d2f00135c0
+SHA256: 3727780bde4ddddc0989026f1c17d0bf8a7d60915b228245fef3443c53b7d95a
 Section: Tweaks
 Description: 使用Misaki自定义您的iOS 15和16体验。定制选项，让您的iPhone真正属于您。
+Tag: cydia::commercial, compatible_min::ios15.0
 Author: Hitori <mikasa-san@outlook.jp>
+Depiction: https://chariz.com/buy/misaki
 Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
 Name: Misaki
 
