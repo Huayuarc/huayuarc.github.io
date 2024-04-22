@@ -5057,6 +5057,23 @@ Author: Hitori
 Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
 Name: Misaki
 
+Package: misaki
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Maintainer: Hitori
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/misaki_2.0.2_iphoneos-arm64.deb
+Size: 242284
+MD5sum: 87e7d67a287e69d981ec39fb5a1a0aae
+SHA1: 917b422df692d759460346e2a697719e1334b57e
+SHA256: 3db1b8fc6d9c2b5ba74ce67afe15d067c2407366b5c15af6e3261946c8c00f4e
+Section: Tweaks
+Description: 使用Misaki自定义您的iOS 15和16体验。定制选项，让您的iPhone真正属于您。
+Author: Hitori
+Field: 12345.67891.2345678
+Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
+Name: Misaki
+
 Package: nebbs
 Version: 1.0.0
 Architecture: iphoneos-arm64
