@@ -1090,21 +1090,6 @@ Description: 微信小布丁1.0.6版本，可注入可越狱使用。自定义�
 Author: 来了老弟 X：h_h_x_t
 Name: 微信小布丁-rootless
 
-Package: cn.llld.ycdock
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 h_h_x_t
-Depends: mobilesubstrate
-Filename: ./debs/隐藏Dock背景-rootless.deb
-Size: 3880
-MD5sum: 1ae682e6f781cad8d4c43871948a016c
-SHA1: c86a7b7a1853b579e53cd4568ae13b8cb349d2b9
-SHA256: 319748f5db5e505c60391c7a184a33eddfc8dbef81125d0b67c818ca1cca596e
-Section: rootless隐藏专区
-Description: Hide Dock Bar Background透明Dock栏背景，iPad不支持（没设备，需要兄台帮看一下函数）
-Author: 来了老弟
-Name: 隐藏Dock背景-rootless
-
 Package: cn.llld.zfbb
 Version: 1.0
 Architecture: iphoneos-arm64
