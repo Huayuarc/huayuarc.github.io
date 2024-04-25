@@ -5113,23 +5113,21 @@ Author: XsF1re
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/power4options.png
 Name: Power4Options Reborn
 
-Package: preferenceloader.rootless.top
-Version: 2.2.6.6
+Package: preferenceloader
+Version: 2.2.7
 Architecture: iphoneos-arm64
-Maintainer: zp,Dustin Howett
-Installed-Size: 337
-Conflicts: preferenceloader, preferenceloader.rootless
-Replaces: preferenceloader
-Provides: preferenceloader (= 2.2.6)
-Filename: ./debs/PreferenceLoader-rootlesstop.2.2.6.6.deb
-Size: 16028
-MD5sum: 91efb58b8bb90a6be4ca25c7ec886017
-SHA1: 8721765873394adb318ec2b07e4420b7577e077c
-SHA256: ec6976f4d00b8b7deeef54646e768875d30fcf5a8a3a44d097f46004a40713f9
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Installed-Size: 370
+Depends: mobilesubstrate
+Filename: ./debs/preferenceloader_2.2.7_iphoneos-arm64.deb
+Size: 15936
+MD5sum: 646941ba8bd48e4d224bffd5d94af38d
+SHA1: ed52866b9faedb7800deaeb63a745fdbe21b957e
+SHA256: c22932b8bf931280c5376aa8dac8e1456a59743b817df1ca8ed9ab0bc3c829f8
 Section: System
 Description: load preferences in style
-Author: Dustin Howett
-Name: PreferenceLoader - rootless (top)
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader
 
 Package: prefs.localizer
 Version: 1.2
