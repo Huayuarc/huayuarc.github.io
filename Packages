@@ -1557,18 +1557,56 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro-rootless
 
 Package: com.hitori.misaki
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Hitori <mikasa-san@outlook.jp>
+Installed-Size: 726
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/com.hitori.misaki_2.0_iphoneos-arm64.deb
+Size: 220716
+MD5sum: 0adca9b2e5e98d21270df991de6a9d96
+SHA1: a4f7b2fd038ef1ed43220a8324488e2e18dab0ab
+SHA256: bfaa55dec5bddaa549657d8f9315920ef3ff1f1abc4ffc7b5c2bb2e590629ff9
+Section: Tweaks
+Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours.
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: Hitori <mikasa-san@outlook.jp>
+Depiction: https://chariz.com/buy/misaki
+Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
+Name: Misaki
+
+Package: com.hitori.misaki
 Version: 2.0.1
 Architecture: iphoneos-arm64
 Maintainer: Hitori <mikasa-san@outlook.jp>
 Installed-Size: 751
 Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
 Filename: ./debs/com.hitori.misaki_2.0.1_iphoneos-arm64.deb
-Size: 230288
-MD5sum: 04363190d7075a0887156ac707d9ad79
-SHA1: 2ae128cf26476b72d70e9f9386a701d2f00135c0
-SHA256: 3727780bde4ddddc0989026f1c17d0bf8a7d60915b228245fef3443c53b7d95a
+Size: 230200
+MD5sum: 9a68f67ef4d7ce9e859ec4de6310b662
+SHA1: 40dc6ae67fd459164ca12e6bad798cbd1d0e6289
+SHA256: 61828204ccd54bdc6c56d12a184d0251ec1e39ca7649875ae18f95e8122de878
 Section: Tweaks
-Description: 使用Misaki自定义您的iOS 15和16体验。定制选项，让您的iPhone真正属于您。
+Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours.
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: Hitori <mikasa-san@outlook.jp>
+Depiction: https://chariz.com/buy/misaki
+Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
+Name: Misaki
+
+Package: com.hitori.misaki
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Maintainer: Hitori <mikasa-san@outlook.jp>
+Installed-Size: 776
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/com.hitori.misaki_2.0.2_iphoneos-arm64.deb
+Size: 242452
+MD5sum: ea034fa21f1e793e162040cfd05c0800
+SHA1: 30479d7fd0b2325c7f130ac277705a83d6592aba
+SHA256: fe395a7c1cb031c2f25a37a5f1873d8b9bdf4c4fbacb5cd7178e5991dc72e22f
+Section: Tweaks
+Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours.
 Tag: cydia::commercial, compatible_min::ios15.0
 Author: Hitori <mikasa-san@outlook.jp>
 Depiction: https://chariz.com/buy/misaki
@@ -4661,56 +4699,6 @@ Description: iOS15无根的多任务处理。
 Author: @akusio_RR
 Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
 Name: MilkyWay4-rootless
-
-Package: misaki
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
-Filename: ./debs/misaki_2.0_iphoneos-arm64.deb
-Size: 217428
-MD5sum: 5761d029cbbde25ceb8fb837cd13d472
-SHA1: 3fa3e07207711bcb6a579df39571592843750fc1
-SHA256: 37bb2de8bb21df3f17eddd3cc006c988a8caacb5ea3ec9b319e272563417e826
-Section: Tweaks
-Description: 使用Misaki自定义您的iOS 15和16体验。定制选项，让您的iPhone真正属于您。
-Author: Hitori
-Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
-Name: Misaki
-
-Package: misaki
-Version: 2.0.2
-Architecture: iphoneos-arm64
-Maintainer: Hitori
-Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
-Filename: ./debs/misaki_2.0.2_iphoneos-arm64.deb
-Size: 242568
-MD5sum: 1730191d8d7824ff5a61986fc2ca81f5
-SHA1: 71903ef3549ca5e8b9b674eb079c488cd5be2ab0
-SHA256: c313b5e8fcdac1d16f180bff45bdd8ffb7f2daea9df139f94b21439d1dbc92b9
-Section: Tweaks
-Description: 使用Misaki自定义您的iOS 15和16体验。定制选项，让您的iPhone真正属于您。（由M哥加入汉化语言包）
-Author: Hitori
-Field: 12345.67891.2345678
-Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
-Name: Misaki
-
-Package: misaki
-Version: 2.0.3
-Architecture: iphoneos-arm64
-Installed-Size: 889
-Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
-Filename: ./debs/misaki_2.0.3_iphoneos-arm64.deb
-Size: 256952
-MD5sum: dfce27bafc879ff5693aa035e81cbf91
-SHA1: 1048bd9a30c705d43086e3b287c79dbf7f2cff86
-SHA256: d091d3bb46d8632aff0c6f2b1167d7e04cd6b6838e623f3aff1f5e02e9dfb12f
-Section: Tweaks
-Description: 使用Misaki自定义您的iOS 15和16体验。定制选项，让您的iPhone真正属于您。
-Author: Hitori <mikasa-san@outlook.jp>
-Field: 12345.678912.345678
-Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
-Name: Misaki
 
 Package: nebbs
 Version: 1.0.0
