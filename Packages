@@ -3662,6 +3662,22 @@ Description: 默认开启 无撤回提示 仅越狱使用 仅支持9.0.20 - 9.0.
 Author: x✨
 Name: QQ新版防撤回
 
+Package: com.xx.qqhook
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 488
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.qqhook_1.0.7_iphoneos-arm64.deb
+Size: 115790
+MD5sum: c1a383edaee2b658f43554fefec1c65d
+SHA1: 3ab10a18e4e2ef836b49180f766725cd6bc6bdcf
+SHA256: 7bd5a149c1285a3a7c9287fcd9aa1c286c4b6d506100252e5d986b916126e040
+Section: Tweaks
+Description: QQ设置右上角开启 支持9.0.20+
+Author: x✨
+Name: QQ新版防撤回
+
 Package: com.xx.qsyyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
