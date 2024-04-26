@@ -4873,6 +4873,22 @@ Description: Display Notification Avatars for WeChat App using iOS15 APIs
 Author: Netskao
 Name: WeChatNotiAvatar-rootless
 
+Package: nextalarmsx
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=15.0), firmware (<<17.0), xyz.cypwn.sleeperx (>= 3.0.0), preferenceloader
+Filename: ./debs/nextalarmsx_1.0.0_iphoneos-arm64.deb
+Size: 82404
+MD5sum: fbf2a5927e8a808bbe67be4d0d0aa509
+SHA1: dc05021564cf72694d2964ac5a481c7ee1810e69
+SHA256: a5fcbed96eeb11ba29f7ec3835e0fd2459dd8b64273feec3d1aa1108031fdf3a
+Section: Tweaks
+Description: SleeperX的一个附加组件，将在锁定屏幕上显示下一个警报，并在时钟应用程序中显示警报触发的时间。
+Author: Joshua Seltzer
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/nextalarmsx.png
+Name: NextAlarmSX
+
 Package: no3rdpartyapp
 Version: 1.0
 Architecture: iphoneos-arm64
