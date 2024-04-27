@@ -1,26 +1,23 @@
 {
     "class": "FeaturedBannersView",
     "itemSize": "{320, 230}",
-    "itemCornerRadius":25,
+    "itemCornerRadius":20,
     "banners": [
         {
             "url": "http://wwg135.github.io/images/lynx2.png",
-            "title": "lynx 2",
-            "textColor": "#3FFF00",
+            "title": "",
             "package":"lynxtwo",
             "hideShadow": true
         },
         {
             "url": "http://wwg135.github.io/images/misaki.png",
-            "title": "misaki",
-            "textColor": "#3FFF00",
+            "title": "",
             "package":"com.hitori.misaki",
             "hideShadow": true
         },
         {
             "url": "http://wwg135.github.io/images/iCleaner.png",
-            "title": "iCleaner",
-            "textColor": "#3FFF00",
+            "title": "",
             "package":"com.exile90.icleanerpro",
             "hideShadow": true
         },
