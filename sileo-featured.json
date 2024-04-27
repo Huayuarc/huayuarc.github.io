@@ -1,13 +1,21 @@
 {
-  "class": "FeaturedBannersView",
-  "itemSize": "{320, 150}",
-  "itemCornerRadius":10,
-  "banners": [
-    {
-        "url": "http://wwg135.github.io/images/about.png",
-        "title": "",
-        "package": "",
-        "hideShadow": true
-    },
-  ]
+    "class": "FeaturedBannersView",
+    "itemSize": "{320, 150}",
+    "itemCornerRadius":10,
+    "banners": [
+        {
+            "url": "http://wwg135.github.io/icons/lynx2.png",
+            "title": "lynx 2",
+            "package":"lynxtwo",
+            "repoName":"- wwg135's Repo"
+            "hideShadow": true
+        },
+        {
+            "url": "http://wwg135.github.io/icons/misaki.png",
+            "title": "misaki",
+            "package":"com.hitori.misaki",
+            "repoName":"- wwg135's Repo"
+            "hideShadow": true
+        },
+    ]
 }
