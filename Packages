@@ -1540,10 +1540,10 @@ Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Filename: ./debs/iCleaner Pro_7.10.0_iphoneos-arm64.deb
-Size: 978228
-MD5sum: 7f17045cbf91c9ed65c848adcd04d7af
-SHA1: 48a9b62bbaa15a61740c20fdf599663ba7ddc319
-SHA256: 82c4f9c37b78b9df478e4ac79808b1a7e9966b701f6dad5f65e7b77119163ca2
+Size: 978204
+MD5sum: df75acde1146923fbf41f95b075cc06e
+SHA1: c1a8bace0326530adb0d20b0924c7a71af142ee8
+SHA256: 6d8402fdd8d72b7ddc658d1d6f821ba9f424b5d99a5e6ce514bcdb1badc65fc7
 Section: Utilities
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleanup and management utility
@@ -1551,26 +1551,6 @@ Author: Ivano Bilenchi <support@ib-soft.net>
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
-
-Package: com.exile90.icleanerpro
-Version: 7.10.0
-Architecture: iphoneos-arm64
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: ./debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm64.deb
-Size: 978900
-MD5sum: 8b2493de92e37cccae9f2dccbe55e401
-SHA1: 607ca035d7e94e5a8d9ab6e9fae0483ca03e2c0c
-SHA256: 86432c4f712c0442a2805ddf4cd98690a08091d73761c55dd8a896d1d905cd9c
-Section: Utilities
-Homepage: http://ib-soft.net/icleaner
-Description: The first real iOS system cleanup and management utility
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: file:///Applications/iCleaner.app/Icon.png
-Name: iCleaner Pro-rootless
 
 Package: com.hitori.misaki
 Version: 2.0
@@ -4059,6 +4039,25 @@ Icon: https://repo.shorty.systems/icons/com.wilsonthewolf.eliza.png
 Name: Eliza
 Sileodepiction: https://repo.shorty.systems/depictions/sileo/com.wilsonthewolf.eliza
 
+Package: ellekit
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: ./debs/ellekit_1.1.2_iphoneos-arm64.deb
+Size: 337044
+MD5sum: 83b66be977c0eae6a539b10c0610a2ca
+SHA1: 8f9f9ab165196db8dcebdc18ca1624d587547067
+SHA256: 8a1061cae924424fcd01ca76861d944ab4d1a637cadacd457929c313318a5926
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: exacttime
 Version: 2.0.2
 Architecture: iphoneos-arm64
@@ -5064,11 +5063,11 @@ Version: 2.5
 Architecture: iphoneos-arm64
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: ./debs/Sileo.2.5.deb
-Size: 2805360
-MD5sum: c5e401c8bf46634fde4fde363debc70a
-SHA1: cca1b0a4d9f75337bd7565adb87ae367f7931855
-SHA256: 68e992fb81ec64d5530fa4d45964a3ba619d7408cc0f0a2dac461d9b1143e048
+Filename: ./debs/org.coolstar.sileo_2.5_iphoneos-arm64.deb
+Size: 2805004
+MD5sum: 4ec21d885fc43f1c5c55fa468d16aa6a
+SHA1: d0d9a01d6ec290c7e5476166a4b8310d70882cd6
+SHA256: fdb1a05b27fcf2f7b9cd9cdc902a5be8394aaea4f90596303c4731e9ec4c5a31
 Section: Packaging
 Description: A modern APT package manager frontend
 Author: Amy While <me@anamy.gay>
@@ -5161,6 +5160,24 @@ Description: PowerOptions的轻量级扩展。点击“功率滑块”以切换�
 Author: XsF1re
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/power4options.png
 Name: Power4Options Reborn
+
+Package: preferenceloader.rootless.top
+Version: 2.2.6.6
+Architecture: iphoneos-arm64
+Maintainer: zp,Dustin Howett
+Installed-Size: 337
+Conflicts: preferenceloader, preferenceloader.rootless
+Replaces: preferenceloader
+Provides: preferenceloader (= 2.2.6)
+Filename: ./debs/preferenceloader.rootless.top_2.2.6.6_iphoneos-arm64.deb
+Size: 16024
+MD5sum: 253ba544392baeeb78429de3957bd235
+SHA1: 0c82f3ccbb74c0c26698d7f968bda24982220b38
+SHA256: dad193e9a075502d81659c3835f51d714d31bde3b7ba191041d8e21be1c3fdf9
+Section: System
+Description: load preferences in style
+Author: Dustin Howett
+Name: PreferenceLoader - rootless (top)
 
 Package: prefs.localizer
 Version: 1.2
@@ -5303,26 +5320,6 @@ Description: Safari 自带浏览器基本功能增强.
 Author: 0xkuj
 Name: SafariX
 Sponsor: M哥
-
-Package: saily
-Version: 3.0
-Architecture: iphoneos-arm64
-Maintainer: Saily Team <support.0xa1@qaq.wiki>
-Pre-Depends: firmware (>= 13.0), dpkg, uikittools
-Conflicts: wiki.qaq.chromatic
-Filename: ./debs/saily_3.0_iphoneos-arm64.deb
-Size: 3469960
-MD5sum: 17d7f4886227f39552bbc48c1ac14e21
-SHA1: 8ba5ad44a1b5d1f32d35517cec7442514c1b6228
-SHA256: 3f8b3053e99bb42e21ed1d1614a2f75387e1ba970ed0cdd97c8686690dbecd92
-Section: Applications
-Homepage: https://sailyteam.github.io/Saily/index.html
-Description: Modern. Fast. Beautiful.
-Author: Saily Team <support.0xa1@qaq.wiki>
-Depiction: https://sailyteam.github.io/Saily/index.html
-Icon: https://sailyteam.github.io/Saily/Resources/icon.png
-Name: Saily
-Website: https://sailyteam.github.io/Saily/index.html
 
 Package: sakal
 Version: 2.1.9
@@ -6032,6 +6029,26 @@ Section: rootless微信插件
 Description: 微信电脑扫码，手机自动确认登录.
 Author: M哥
 Name: 微信登录_rootless
+
+Package: wiki.qaq.chromatic.rootless
+Version: 2.1-REL-1714140359.07c7d6e
+Architecture: iphoneos-arm64
+Maintainer: Saily Team <support.0xa1@qaq.wiki>
+Pre-Depends: firmware (>= 13.0), dpkg, uikittools
+Conflicts: wiki.qaq.chromatic
+Filename: ./debs/wiki.qaq.chromatic.rootless_2.1-REL-1714140359.07c7d6e_iphoneos-arm64.deb
+Size: 3485640
+MD5sum: 4a328a7fb4944bc5be6c7e3f174356d5
+SHA1: 57b8f4d1d861ed8a2689955342c8673401e494b7
+SHA256: 63c5e153b11d7f2996674425390831308b53675ed4f96d1bfc56e8789dadf72a
+Section: Applications
+Homepage: https://sailyteam.github.io/Saily/index.html
+Description: Modern. Fast. Beautiful.
+Author: Saily Team <support.0xa1@qaq.wiki>
+Depiction: https://sailyteam.github.io/Saily/index.html
+Icon: https://sailyteam.github.io/Saily/Resources/icon.png
+Name: Saily - rootless (zp)
+Website: https://sailyteam.github.io/Saily/index.html
 
 Package: willow
 Version: 1.2.14
