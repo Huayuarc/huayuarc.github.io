@@ -5710,6 +5710,21 @@ Author: Skitty
 Icon: https://skitty.xyz/repo/icons/xyz.skitty.sushi.png
 Name: Sushi
 
+Package: swipedownscreenshot
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Filename: ./debs/swipedownscreenshot_1.0_iphoneos-arm64.deb
+Size: 4252
+MD5sum: 3a8feb5022935fbadc112f2747ea8b6d
+SHA1: 0ca0705502472536f1c2766ff8a2f748135877c2
+SHA256: 289e4322950c90aea77b94b8a1b32f001ca15fa968e3eb5b8d0fd3385a603670
+Section: Tweaks
+Description: 双指从任意地方的手机屏幕顶部下滑，即启用截图，无设置项。
+Author: M哥
+Name: 双指下滑截图_rootless
+
 Package: switchshades
 Version: 1.2
 Architecture: iphoneos-arm64
