@@ -4393,6 +4393,22 @@ Description: 删除键盘延迟并强制使用第三方键盘。安装将立即�
 Author: koman
 Name: KOdelay
 
+Package: kuku
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, ws.hbang.common (>= 1.17)
+Filename: ./debs/kuku_1.5_iphoneos-arm64.deb
+Size: 254524
+MD5sum: 81f93849d2b74669e2e6e918239dbd8d
+SHA1: 1a22f8be9a17364129de9206f7439637935728a0
+SHA256: 6df0c7d3c5ef22d4cc9d58573dd2b6d13586da9a7a90646fda05d4311f5e0c61
+Section: Tweaks
+Description: 自定义通知横幅
+Author: b4db1r3
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/kuku.png
+Name: KuKu Reborn
+
 Package: laetus
 Version: 3.5.1-rootless
 Architecture: iphoneos-arm64
