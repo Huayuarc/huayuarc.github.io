@@ -2102,6 +2102,22 @@ Description: A better way to multitask! Fix support for iOS15+
 Author: c1d3r
 Name: PullOver Pro
 
+Package: com.netskao.storeswitchaccounts
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 460
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.storeswitchaccounts_1.1-4_iphoneos-arm64.deb
+Size: 102250
+MD5sum: 4068837649849027df94f13ea5d2a7d5
+SHA1: 8def9d09e6b407747bbdfb91f8579f6f5df5ed18
+SHA256: cef9161d57877bd09f17c340d5e24fbf7e5375e480614d71547bf16662395673
+Section: Netskao-Tweaks
+Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
+Author: Netskao
+Name: StoreSwitchAccounts
+
 Package: com.netskao.wechatnotiavatar
 Version: 1.2-2
 Architecture: iphoneos-arm64
