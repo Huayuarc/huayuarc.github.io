@@ -2306,11 +2306,11 @@ Architecture: iphoneos-arm64
 Maintainer: qwertyuiop1379 <support@qwertyuiop1379.com>
 Installed-Size: 656
 Depends: firmware (>=14.0), mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debs/Swipeextenderx_1.6.1汉化版@M哥.deb
-Size: 93280
-MD5sum: 1915884205b4d8359bb7086141194443
-SHA1: 8b86086d8addb940aa4f6b4572bfc410d2403c1d
-SHA256: 2210eeebecae35bec12000062f767f149360796ca8c07c52733b001937a79dbe
+Filename: ./debs/com.qiop1379.swipeextenderx_1.6.1_iphoneos-arm64.deb
+Size: 93116
+MD5sum: 21b17183053b00d2f3d4fd99a4e8791a
+SHA1: 59a724b54a096f61ebe77dc9f74ec3d14b319960
+SHA256: f1e9cf4a061a2fcddf0a51d45d820ac8fa669697cde066c8d5e8e907898e0bd7
 Section: Tweaks
 Description: Reinvent your keyboard with this full remake of the legendary SwipeExpander tweak, designed to work on modern iOS!
 Author: qwertyuiop1379 <support@qwertyuiop1379.com>
@@ -5716,13 +5716,14 @@ Architecture: iphoneos-arm64
 Maintainer: M哥
 Installed-Size: 168
 Filename: ./debs/swipedownscreenshot_1.0_iphoneos-arm64.deb
-Size: 4252
-MD5sum: 3a8feb5022935fbadc112f2747ea8b6d
-SHA1: 0ca0705502472536f1c2766ff8a2f748135877c2
-SHA256: 289e4322950c90aea77b94b8a1b32f001ca15fa968e3eb5b8d0fd3385a603670
+Size: 4296
+MD5sum: b1ae54a06dc29ffe64766d403119acb4
+SHA1: e6586957218f4a0802a1d44462e32f1d8c037858
+SHA256: 46ad95bab21375d55bab21e30c01919e3d2d5354ef24fda9fba697dbe89aef81
 Section: Tweaks
 Description: 双指从任意地方的手机屏幕顶部下滑，即启用截图，无设置项。
 Author: M哥
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/swipedownscreenshot.png
 Name: 双指下滑截图_rootless
 
 Package: switchshades
