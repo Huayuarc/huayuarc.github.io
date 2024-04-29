@@ -2109,13 +2109,14 @@ Maintainer: Nets
 Installed-Size: 460
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/com.netskao.storeswitchaccounts_1.1-4_iphoneos-arm64.deb
-Size: 102250
-MD5sum: 4068837649849027df94f13ea5d2a7d5
-SHA1: 8def9d09e6b407747bbdfb91f8579f6f5df5ed18
-SHA256: cef9161d57877bd09f17c340d5e24fbf7e5375e480614d71547bf16662395673
+Size: 102596
+MD5sum: 65d696c2326580afe5b059fa10bd4608
+SHA1: d19f42275890cc90e5405db3459ecf22524a03a4
+SHA256: e2696c7ca404dacad97d18456c79510859d6de5363a950cd641f8d50d91d963a
 Section: Netskao-Tweaks
-Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
+Description: 方便登录帐户在不同地区之间切换，长按桌面AppStore图标即可切换！
 Author: Netskao
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/storeswitchaccounts.png
 Name: StoreSwitchAccounts
 
 Package: com.netskao.wechatnotiavatar
