@@ -5641,6 +5641,23 @@ Author: Joshua Seltzer
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/sleeperx.png
 Name: SleeperX
 
+Package: sleeperx
+Version: 3.0.3
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=15.0), firmware (<<17.0)
+Conflicts: org.thebigboss.sleeper, com.joshuaseltzer.sleeper, com.joshuaseltzer.sleeperx
+Filename: ./debs/sleeperx_3.0.3_iphoneos-arm64.deb
+Size: 159772
+MD5sum: 2b876ced454aed08b3d287a20b657659
+SHA1: 20fdce5adb2d1502a9ea68dd3a3e6602129418bd
+SHA256: e8f6210b167581f69b0e016755573369c4c6bb8e38424c29fef8257720bd364b
+Section: Tweaks
+Description: 使用SleeperX设置自定义打盹时间、跳过闹钟等。
+Author: Joshua Seltzer
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/sleeperx-2.png
+Name: SleeperX
+
 Package: smartbatteryios15
 Version: 1.4
 Architecture: iphoneos-arm64
