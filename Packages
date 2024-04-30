@@ -4047,14 +4047,14 @@ Maintainer: M哥
 Installed-Size: 168
 Depends: mobilesubstrate
 Filename: ./debs/declinecalls_1.0_iphoneos-arm64.deb
-Size: 2732
-MD5sum: de85424cdc1d84111bdc97220c1c0b5d
-SHA1: fb867de68f50ffc646ba3086799c40dc53a562f1
-SHA256: fb122be068eed72066238c64ac2a102ef4e09446f14cc038345b3eb2a6aee4eb
+Size: 2724
+MD5sum: ae7f996b5fe92d2fee59f6c5df947662
+SHA1: f2f008437b9c54ae06f6dc0dec6b6a6d266002de
+SHA256: adb66e3442519ad5ca276afdd20453f901aa7a0b9d22bd35781c54da594583b7
 Section: Tweaks
-Description: 锁屏来电显示拒绝按钮，修复支持ios15及以上系统。
+Description: 锁屏来电显示拒绝按钮，修复支持ios15+系统。
 Author: M哥
-Name: 锁屏来电拒绝（ios15）
+Name: 锁屏来电拒绝_rootless
 
 Package: dockheight
 Version: 1.1
