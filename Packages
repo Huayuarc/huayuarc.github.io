@@ -4040,6 +4040,22 @@ Author: CydiaGeek <lucaluca86@aol.com>
 Icon: file:///Library/PreferenceBundles/Cthulhu.bundle/icon@2x.png
 Name: Cthulhu
 
+Package: declinecalls
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/declinecalls_1.0_iphoneos-arm64.deb
+Size: 2732
+MD5sum: de85424cdc1d84111bdc97220c1c0b5d
+SHA1: fb867de68f50ffc646ba3086799c40dc53a562f1
+SHA256: fb122be068eed72066238c64ac2a102ef4e09446f14cc038345b3eb2a6aee4eb
+Section: Tweaks
+Description: 锁屏来电显示拒绝按钮，修复支持ios15及以上系统。
+Author: M哥
+Name: 锁屏来电拒绝（ios15）
+
 Package: dockheight
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -4326,6 +4342,22 @@ Author: gilshahar7
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/grider.png
 Name: Grider
 这是一个越狱调整！要安装它，您需要越狱，请访问https: //www.reddit.com/r/jailbreak/以获取说明。
+
+Package: hidenotificationbackground
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/hidenotificationbackground_1.0_iphoneos-arm64.deb
+Size: 3976
+MD5sum: 153d906f2ab111e6ce4980fa494eb650
+SHA1: 2bb1b7043880baf6122f86aae6d8c852d3e49588
+SHA256: 093a823b2acb7889138b5a4f217525452ddfd0b1357d7d74266d31fd34dd0035
+Section: Tweaks
+Description: 收到通知信息后，隐藏任何地方的通知背景（即背景模糊度为透明）。
+Author: M哥
+Name: 隐藏通知背景_rootless
 
 Package: hydra
 Version: 2.1
