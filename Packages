@@ -1887,6 +1887,27 @@ Description: Set custom snooze times, skip alarms, and more with SleeperX.
 Author: Joshua Seltzer <joshua.seltzer90@gmail.com>
 Name: SleeperX (iOS 15)
 
+Package: com.kingpuffdaddi.control-center.ccvpn
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 187
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.ccsupport
+Filename: ./debs/ccvpn_1.0.6_iphoneos-arm64.deb
+Size: 15216
+MD5sum: 92b2ebe26ff0023b260c39413cffbe80
+SHA1: 881eaeb8f9c22be798e65478940783ad672b0753
+SHA256: e65eafb89e52fef08e814323e43c1d5c7474955dc401504fd1783ff536fc6955
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+Description: A Control Center Module to connect/disconnect VPN
+Tag: purpose::extension
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+Dev: kingpuffdaddi
+Icon: file:///Library/ControlCenter/Bundles/CCVPN.bundle/Icon@2x.png
+Name: CCVPN
+
 Package: com.lclrc.hammerit
 Version: 1.2.7
 Architecture: iphoneos-arm64
@@ -2541,6 +2562,23 @@ SHA1: 156502cef37a1ec4251dcf101ee7cdae108344c1
 SHA256: 946c9f97c5721df6693a3d615cfe3f53711dc5ce5d9204afa37d22b5032c8c0a
 Section: Tweaks
 Description: 别问，问就是分屏插件！该插件不收费，功能会慢慢整合。同时这个插件刚问道不久，自然也有很多不足，我会慢慢完善。最重要的一点：它不会窃取你任何隐私，不存在任何后门！其次：它尽量把操作复杂度降到最低。
+Author: sunshinesong
+Name: split-view-pro
+Ts: sp-sss
+
+Package: com.sunshinesong.split-view-pro
+Version: 1.1.4
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 13792
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.sunshinesong.split-view-pro_1.1.4_iphoneos-arm64.deb
+Size: 5235286
+MD5sum: 33f77310f5bdd834c42317f85c4090fa
+SHA1: 7b1196127b2e7e3a70e10b5355f44930ef7e0a49
+SHA256: 459050045ebc1120ac4d642e57410840110c1c5263e2473460a89cf095b8f821
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
@@ -4598,6 +4636,25 @@ Depiction: https://chariz.com/buy/lastlook
 Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
 Name: LastLook
 
+Package: lastlook
+Version: 4.2
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1742
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: ./debs/lastlook_4.2_iphoneos-arm64.deb
+Size: 450144
+MD5sum: 8523185bc62889e21273998fb501ee9b
+SHA1: 72398e5ea7928d20bd0b7d2993ec2759a24fdaba
+SHA256: b65146376db12158fc506294f7e3a49df7f6cdebc5ce78af629c046adaf4a904
+Section: Tweaks
+Description: 一个AOD调整，感觉库存，有无限的可能性！（由M哥添加简体中文汉化包）
+Tag: cydia::commercial, compatible_min::ios12.0
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://chariz.com/buy/lastlook
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook
+
 Package: latchkey
 Version: 2.3.1
 Architecture: iphoneos-arm64
@@ -5776,6 +5833,22 @@ Description: 这是一个智能通知插件。它是专为iOS 16全新编写的�
 Author: EliasSfeir
 Icon: https://media.havoc.app/65f32f8428a3821cef7b63bd
 Name: SmartNotifications iOS16
+
+Package: smartvpn
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: b4db1r3
+Installed-Size: 424
+Depends: mobilesubstrate (>= 0.9.5000), com.kingpuffdaddi.control-center.ccvpn, com.opa334.altlist
+Filename: ./debs/smartvpn_2.1_iphoneos-arm64.deb
+Size: 44900
+MD5sum: 07227c0c84efe9b2299f334a6a835e3a
+SHA1: 0badf0312b21701c62271fd9ff9bb46effaeddcb
+SHA256: 246d26427f45cbe9eef913ca85a101269a44d04c8a06f117c1622f98797c5bd8
+Section: Tweaks
+Description: 智能控制vpn启用的应用程序。
+Author: b4db1r3
+Name: SmartVPN
 
 Package: snail.rootless
 Version: 1.0.0
