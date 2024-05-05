@@ -3048,6 +3048,23 @@ Author: x✨
 Name: 抖音图层
 Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
 
+Package: com.xx.dyhook
+Version: 1.2.6
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 1816
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_1.2.6_iphoneos-arm64.deb
+Size: 628876
+MD5sum: c450baf3c9b3c0027f6e249a936c9428
+SHA1: 73ed2225cee89391f68e20be793bd3d32c0e7af5
+SHA256: 8b1eae7d41d16f321312849edccd1e2d637e977a6db1506efa12aeb5e78d5b35
+Section: Tweaks
+Description: 自用
+Author: x✨
+Name: 抖音图层
+Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
+
 Package: com.xx.ecnyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -4346,6 +4363,22 @@ Description: 美丽事物的顶点！和lynx2一样，自定义定制优化系�
 Author: Nebbs
 Icon: https://media.havoc.app/65e3fa3dc97a362fa83a601d
 Name: Genesis 4
+
+Package: glance
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Janis
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet, com.opa334.altlist
+Filename: ./debs/glance_1.0_iphoneos-arm64.deb
+Size: 388560
+MD5sum: 4ec9e7367cde78ec99421cd46c8a4857
+SHA1: 897f237b3b2d923f8e6742e34600ae1135a1d33c
+SHA256: d9c99d960aa21fd63e1656be63b878bdfe1fc7a681743d58aca4761267d43435
+Section: Tweaks
+Description: 锁屏查看来自信息的通知！
+Author: Janis
+Icon: https://img.chariz.cloud/icon/glance/icon@3x.png
+Name: Glance
 
 Package: grider
 Version: 1.4
