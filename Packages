@@ -3818,6 +3818,22 @@ Description: QQ设置右上角开启 支持9.0.20+
 Author: x✨
 Name: QQ新版防撤回
 
+Package: com.xx.qqhook
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 520
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.qqhook_1.0.8_iphoneos-arm64.deb
+Size: 156808
+MD5sum: 828faaf122bfb5a2d5ae3c5fced91fc4
+SHA1: b9be7dc8f5e344af0ef032202fdc83c074fee068
+SHA256: 9d3dc02a748dbe094e38f49432745c150d2f1cc94d955fa21e011a3ccec74e9b
+Section: Tweaks
+Description: QQ设置-辅助功能-右上角开启 支持9.0.20+
+Author: x✨
+Name: QQ新版防撤回
+
 Package: com.xx.qsyyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -5978,6 +5994,23 @@ SHA1: 435da714a6390cf900e5883c46263c44b2b77f99
 SHA256: b8d046d2876ed6401b7dc41a1b12b07a548d7b4919002528dc20088bb0052395
 Section: Tweaks
 Description: 通知优先级插件。
+Author: Xyaman & b4db1r3
+Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
+Name: Tako ( iOS 15-16 )
+
+Package: tako
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: b4db1r3
+Installed-Size: 744
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16),com.mrgcgamer.libgcuniversal
+Filename: ./debs/tako_3.0_iphoneos-arm64.deb
+Size: 89900
+MD5sum: 58358d9f4e253fc6a8ef4f85a6d757af
+SHA1: a37d1cf8d26e6f4dd0ab25e4c5cdaff6c2925fb1
+SHA256: 68046978a469b35b7cc533aeecafa204755f67fb5638ceb711723c09fc656184
+Section: Tweaks
+Description: 通知优先级集线器调整。（已汉化）
 Author: Xyaman & b4db1r3
 Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
 Name: Tako ( iOS 15-16 )
