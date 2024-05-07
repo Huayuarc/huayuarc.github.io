@@ -1321,6 +1321,25 @@ Description: 自动面容ID解锁，解锁后直接进入主屏幕、隐藏解�
 Author: M哥
 Name: 自动面容ID解锁-rootless
 
+Package: com.bi8abo.dingtalk
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Bi8_aBo
+Installed-Size: 372
+Depends: mobilesubstrate
+Filename: ./debs/com.bi8abo.dingtalk_1.1.0_iphoneos-arm64.deb
+Size: 60842
+MD5sum: be2748ce8656c58f1a522e1d25e53152
+SHA1: 12ee88c59538e2ec9637a4c30dd9a44c81c618a8
+SHA256: 7d1294589e9e78939aa72ae4896bfcde7be15d80f139830b74de526b83ca2b65
+Section: Tweaks
+Description: 支持位置、WIFI、拍照打卡！（未越狱机器请安装ipa：http://xz.51y.club/dingtalk.ipa ） 问题反馈微信：Bi8_aBo
+Author: Bi8_aBo
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.bi8abo.dingtalk
+Icon: https://repo.abox.plus/api/packageinfo/com.bi8abo.dingtalk/icon.png
+Name: 钉钉助手v3-Rootless
+Sileodepiction: https://repo.abox.plus/depictions/native/com.bi8abo.dingtalk.json
+
 Package: com.bocmbci
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -2659,6 +2678,25 @@ Icon: https://repo.abox.plus/api/packageinfo/com.swing.eleme/icon.png
 Name: 饿了么去广告
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.eleme.json
 
+Package: com.swing.puretieba
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.swing.puretieba_1.0.0_iphoneos-arm64.deb
+Size: 8094
+MD5sum: ab36f474bf634f5bd551dfcff54922a9
+SHA1: b83b138278ff6249fd33d67560a4f09e9131803c
+SHA256: 2f67d375fdd782a0847d8dc241b1a7fa12f1743ff5ac4b629dc50e754270f2b1
+Section: Tweaks
+Description: 百度贴吧去广告插件！
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.puretieba
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.puretieba/icon.png
+Name: 百度贴吧去广告
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.puretieba.json
+
 Package: com.swing.weibo
 Version: 1.2.1
 Architecture: iphoneos-arm64
@@ -2691,6 +2729,25 @@ SHA1: f7bc11a8715bcc66af6a137a2fa7245a9df4b753
 SHA256: bf119714e3b4e26985c072ed9da002d4ad3f8c2691d76455f6bcee7cf5c8853d
 Section: Tweaks
 Description: 微博轻享版去广告去广告插件。
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.weibolite
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.weibolite/icon.png
+Name: 微博轻享版去广告
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.weibolite.json
+
+Package: com.swing.weibolite
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.swing.weibolite_1.0.1_iphoneos-arm64.deb
+Size: 11310
+MD5sum: 07c8fb0fc4b0a489cbeaa8b7c7294436
+SHA1: 113ee50bf15e6225e021c7b3e56e82965272bf1c
+SHA256: 97273b63c7f400bf316d2efbb1a09f9af700cd162ef1316951c7a034e401b6b6
+Section: Tweaks
+Description: 微博轻享版去广告去广告插件，TG：https://t.me/abox1993/1
 Author: SWING
 Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.weibolite
 Icon: https://repo.abox.plus/api/packageinfo/com.swing.weibolite/icon.png
