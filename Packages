@@ -2755,6 +2755,27 @@ Name: 微博轻享版去广告
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.weibolite.json
 
 Package: com.swing.zhihu
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 175
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/zhihunoads_1.0.0_iphoneos-arm64.deb
+Size: 12656
+MD5sum: db37f3d50896c555f8f7c1294e90eec3
+SHA1: ceac4fd97bf208d295e46d48e28bd3b214694162
+SHA256: 1fdb7beb9655173862745437b94267c6c0808d5055ef60a843aa90377a81e8b8
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=zhihunoadsDp
+Description: 知乎去广告插件，如果失效请联系WeChat：420408858
+Tag: purpose::extension
+Author: SWING <swing1993@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=zhihunoadsDp
+Dev: swing
+Name: 知乎去广告-Rootless
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.swing.zhihu
 Version: 1.1.0
 Architecture: iphoneos-arm64
 Maintainer: SWING
