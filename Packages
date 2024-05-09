@@ -299,22 +299,21 @@ Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡�
 Author: xybp888
 Name: 电话助手iOS16-Rootless
 
-Package: classicfolders3
-Version: 3.0.1
+Package: classicfolders2
+Version: 3.0.2
 Architecture: iphoneos-arm64
-Maintainer: CoolStar & Lizynz
-Installed-Size: 2456
+Maintainer: CoolStar
+Installed-Size: 4496
 Depends: mobilesubstrate
-Conflicts: org.coolstar.classicfolders2, org.coolstar.classicfolders3
-Filename: ./debs/classicfolders3_3.0.1_iphoneos-arm64.deb
-Size: 1643704
-MD5sum: 06d0094ac587a9f655667af19674f7a8
-SHA1: 53ea3bd939c6896487405356b300403e177be2ee
-SHA256: 40bc056c2fb4d30a670d0b3cc32a281e54d76e63454d8636d843a69c39d82642
-Section: tweaks
-Description: CoolStar的经典文件夹3，Lizynz基于CoolStar的开源修复优化支持iOS15+。
-Author: CoolStar & Lizynz
-Name: ClassicFolders 3
+Filename: ./debs/classicfolders2_3.0.2_iphoneos-arm64.deb
+Size: 3295620
+MD5sum: 97169f135c991c90f61a49b7c2d15a89
+SHA1: fd46c850d2c3e3d7743e2eb0e29840b5501f8b53
+SHA256: 9d91306fda98a8ee33210b1a43829575fcfa56778bf994eb31f29bcec5ee2d7e
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: CoolStar
+Name: ClassicFolders 2
 
 Package: cn.llld.bbqzr
 Version: 0.1
