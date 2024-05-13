@@ -1758,6 +1758,44 @@ Depiction: https://chariz.com/buy/misaki
 Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
 Name: Misaki
 
+Package: com.hitori.misaki
+Version: 2.0.8
+Architecture: iphoneos-arm64
+Maintainer: Hitori <mikasa-san@outlook.jp>
+Installed-Size: 1324
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/com.hitori.misaki_2.0.8_iphoneos-arm64.deb
+Size: 297758
+MD5sum: 791cf7d03d1d4d711feea42456e7d6d8
+SHA1: c7ac28b95b86c1fb63de0644e842cb5355d71ba0
+SHA256: b8ed4da1fc227c537e494e91c1fa27961eb2fc970ca0042630afcd3358c038b6
+Section: Tweaks
+Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours.
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: Hitori <mikasa-san@outlook.jp>
+Depiction: https://chariz.com/buy/misaki
+Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
+Name: Misaki
+
+Package: com.hitori.misaki
+Version: 2.0.9
+Architecture: iphoneos-arm64
+Maintainer: Hitori <mikasa-san@outlook.jp>
+Installed-Size: 1038
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/com.hitori.misaki_2.0.9_iphoneos-arm64.deb
+Size: 298232
+MD5sum: fd7200ebab61cf9f31be9f230175a694
+SHA1: 47975bcb5f0d89eee772fe469c926da2ebcd5744
+SHA256: c1534cf5b6d2db6e8348d80d49cf5a19a5700d4e3bb99112eeea2180ec69becc
+Section: Tweaks
+Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours.
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: Hitori <mikasa-san@outlook.jp>
+Depiction: https://chariz.com/buy/misaki
+Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
+Name: Misaki
+
 Package: com.homescreen
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -2669,6 +2707,25 @@ SHA1: 41f6fbafe1229220cd5a83d146acc3cd2d2b4008
 SHA256: 5a52c295bddd35fbfd996a724896cd53dd7ce3f9a7c4d9c120fde9474c1ad4f8
 Section: Tweaks
 Description: 哔哩哔哩国际版去广告，解锁4K画质!
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.bilibili
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.bilibili/icon.png
+Name: 哔哩哔哩NoAds
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.bilibili.json
+
+Package: com.swing.bilibili
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.swing.bilibili_1.0.1_iphoneos-arm64.deb
+Size: 11462
+MD5sum: 7d1a76583245167d2200137d65c687c8
+SHA1: 6e38ecf91ccc997a372ae0af0c02c880222888ee
+SHA256: 2083cd2c137d585410321e02544a8259584c424c582fefe5f1cbc4d822b1d0ab
+Section: Tweaks
+Description: 主要针对哔哩哔哩国际版去广告，解锁4K画质!
 Author: SWING
 Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.bilibili
 Icon: https://repo.abox.plus/api/packageinfo/com.swing.bilibili/icon.png
