@@ -2732,6 +2732,25 @@ Icon: https://repo.abox.plus/api/packageinfo/com.swing.bilibili/icon.png
 Name: 哔哩哔哩NoAds
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.bilibili.json
 
+Package: com.swing.bilibili
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.swing.bilibili_1.1.0_iphoneos-arm64.deb
+Size: 15132
+MD5sum: 5e2c50aa3a9d174eb396b4839affe6f9
+SHA1: 9d5238a519d2bfe816219eda4e2381e052d20ff2
+SHA256: 1262c89fb90bbdb80e54c685f227542743edafbd1ad0ebb6c24a0a648cb9151f
+Section: Tweaks
+Description: 净化哔哩哔哩和哔哩哔哩国际版的相关页面与广告。无设置项，安装即可生效。 软件源：https://repo.abox.plus  TG：https://t.me/abox1993/1。
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.bilibili
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.bilibili/icon.png
+Name: 哔哩哔哩NoAds
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.bilibili.json
+
 Package: com.swing.dpnoads
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -2764,6 +2783,25 @@ SHA1: 41222b79993cd93a5ff51147cfc38cf833f6f680
 SHA256: 5419c37b1f11bcadbdc0d2ccfaf4dc751b6343d433e264bb088607d938f80b2c
 Section: Tweaks
 Description: 饿了么去广告，感谢AE86的奶茶!
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.eleme
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.eleme/icon.png
+Name: 饿了么去广告
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.eleme.json
+
+Package: com.swing.eleme
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.swing.eleme_1.0.1_iphoneos-arm64.deb
+Size: 6632
+MD5sum: 914accd4d68ea9b0bfff185a8052ab4c
+SHA1: 92e9ffb7507c645d0568c2271fba511bb73ec350
+SHA256: fd651b6bd4e417644c649a0ab155593e87618c8f50ce3e334e0fd0230b24411a
+Section: Tweaks
+Description: 饿了么去广告，新增精简全能超市!
 Author: SWING
 Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.eleme
 Icon: https://repo.abox.plus/api/packageinfo/com.swing.eleme/icon.png
