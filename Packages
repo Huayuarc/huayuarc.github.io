@@ -2751,6 +2751,25 @@ Icon: https://repo.abox.plus/api/packageinfo/com.swing.bilibili/icon.png
 Name: 哔哩哔哩NoAds
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.bilibili.json
 
+Package: com.swing.bilibili
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.swing.bilibili_1.1.2_iphoneos-arm64.deb
+Size: 14574
+MD5sum: 8d702292835231982dc3f219e35ee977
+SHA1: 0a4654ef43ad22680e4c60ced4b6d5c5bae17b30
+SHA256: e681ce92dca1e3d8ebfa41cc4e44c431c91b40df51937054f309998e4257eb4e
+Section: Tweaks
+Description: 净化哔哩哔哩和哔哩哔哩国际版的相关页面与广告。无设置项，安装即可生效。 软件源：https://repo.abox.plus  TG：https://t.me/abox1993/1
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.bilibili
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.bilibili/icon.png
+Name: 哔哩哔哩NoAds
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.bilibili.json
+
 Package: com.swing.dpnoads
 Version: 1.1.0
 Architecture: iphoneos-arm64
