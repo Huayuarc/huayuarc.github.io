@@ -829,6 +829,24 @@ Author: 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
 Name: FloatingReplacement悬浮替换翻译汉化
 
+Package: cn.llld.qsyy
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 4924
+Depends: mobilesubstrate
+Filename: ./debs/FT悬浮文本增强翻译汉化-简版_2.0-arm64.deb
+Size: 3897008
+MD5sum: caa104c29e7b78507e1d4246cf9e7816
+SHA1: 088d3df1a080b811d1b24602ba8e2fc908e25c88
+SHA256: cca2a25039d117fa139dd0f5a5b2a09b1aa628d212a0cb24efb0ab8650273e09
+Section: rootless应用插件
+Description: A floating window tool that supports batch text replacement, this version adds reddit and iCleaner Pro, as well as phone, support Text replacement in settings, support phone modification of contact, modification of time, modification of call record，Custom text replacement, custom text size, custom text view width, height, custom text view horizontal and vertical coordinates, custom text color, custom text font, custom text transparency etc.,More uses waiting for you to discover, it is strongly recommended to upgrade.***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，自定义文字替换，自定义文字大小，自定义文字视图宽度，高度，自定义文字视图横向纵向的坐标，自定义文字颜色，自定义文字字体，自定义文字透明度，隐藏设备实际信息，靓仔装逼等(非所有文字，个别函数需要等我适配)。之前代码是垃圾，一切以最新版为准，提示：装了非真皮120或全局篡改插件的设备，不要装此插件，这只是应用类插件，不会影响到系统全局或桌面。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
+Name: FT悬浮文本增强翻译汉化-简版
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qsyy/fy.json
+
 Package: cn.llld.tmts
 Version: 0.1
 Architecture: iphoneos-arm64
@@ -2827,6 +2845,25 @@ Icon: https://repo.abox.plus/api/packageinfo/com.swing.eleme/icon.png
 Name: 饿了么去广告
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.eleme.json
 
+Package: com.swing.eleme
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.swing.eleme_1.0.2_iphoneos-arm64.deb
+Size: 10662
+MD5sum: 25835810414072b7ed519fc5b18cca14
+SHA1: 69e672c2fae7c4879373af66395514627eb9da3e
+SHA256: b798135965cf55683ecd7314b0db4a28ffade9237e5a5e9fc7f4c3d787b48de4
+Section: Tweaks
+Description: 饿了么去广告，新增精简全能超市和购物车推荐。源内所有插件仅供本人学习交流使用，下载后请于24小时内删除! 软件源：https://repo.abox.plus  TG：https://t.me/abox1993/1
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.eleme
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.eleme/icon.png
+Name: 饿了么去广告
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.eleme.json
+
 Package: com.swing.puretieba
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -2845,6 +2882,25 @@ Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.pure
 Icon: https://repo.abox.plus/api/packageinfo/com.swing.puretieba/icon.png
 Name: 百度贴吧去广告
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.puretieba.json
+
+Package: com.swing.qqmail
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.swing.qqmail_1.0.0_iphoneos-arm64.deb
+Size: 5510
+MD5sum: 312b6066291a3b437ec3ac5778215b66
+SHA1: 2ba3a52e4618ef577e64de33230345f47302fca2
+SHA256: 7fa76abb24958796415f025f4579bcc60a6870adc85e525b6406540e7acce145
+Section: Tweaks
+Description: QQ邮箱去广告插件。源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.qqmail
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.qqmail/icon.png
+Name: QQ邮箱去广告
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.qqmail.json
 
 Package: com.swing.weibo
 Version: 1.2.1
