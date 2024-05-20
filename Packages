@@ -2993,6 +2993,25 @@ Icon: https://repo.abox.plus/api/packageinfo/com.swing.wechat.noads/icon.png
 Name: 微信去广告
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.wechat.noads.json
 
+Package: com.swing.wechat.noads
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.swing.wechat.noads_1.0.0_iphoneos-arm64.deb
+Size: 15464
+MD5sum: d6c1aefc503a217a5a7a75ceaec36b9d
+SHA1: d45964d7ef644aa3fff4483c1e6dd995e7151b16
+SHA256: 955c64de3414149cbeec875d8fbd655de12b70a4046e390e71c5e9dac7c54d73
+Section: Tweaks
+Description: 微信去广告插件测试版，基于v8.0.49开发!
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.wechat.noads
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.wechat.noads/icon.png
+Name: 微信去广告
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.wechat.noads.json
+
 Package: com.swing.weibo
 Version: 1.2.1
 Architecture: iphoneos-arm64
