@@ -3652,11 +3652,11 @@ Architecture: iphoneos-arm64
 Maintainer: x✨
 Installed-Size: 2200
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/抖音图层126-2无根.deb
-Size: 800422
-MD5sum: ca55d734ec7943a197021ceaeabda859
-SHA1: 685d8214ff07a64c65dd899532eef97a497f6878
-SHA256: 6f86ef619eb0c0aa8e874438a9622411540959bb8bcc0e75701f8192ab7b7b6f
+Filename: ./debs/com.xx.dyhook_1.2.6-2_iphoneos-arm64.deb
+Size: 794422
+MD5sum: 02d2402fa703bdbc21419e212729f885
+SHA1: 1e7052f1b5a9949ffeb99e6dc2a2bf226e6ef73d
+SHA256: b9a03c5104faec43d2f6f157c669f4364e0bab16f90e3c5a66030483dc6617c3
 Section: Tweaks
 Description: 自用
 Author: x✨
@@ -4079,6 +4079,22 @@ Description: 点击APP右下角-我-右上角三横-长按打开菜单开启功�
 Author: x✨
 Name: 快手Hook
 
+Package: com.xx.kshook
+Version: 1.0.5-1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 448
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.kshook_1.0.5-1_iphoneos-arm64.deb
+Size: 168636
+MD5sum: be24f717b7d82bc37bf7a494326d24ad
+SHA1: a4561e90c648ac122ea7b410f3d8b981fbb156d5
+SHA256: 7f94eb18b2ca739bd1587fd7cbbe0fc94535f86e8009be59887025bddc2f29b6
+Section: Tweaks
+Description: 点击APP右下角-我-右上角三横-长按打开菜单开启功能。功能:移除一些广告,弹窗,无水印保存视频图片
+Author: x✨
+Name: 快手Hook
+
 Package: com.xx.ppxhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -4431,6 +4447,22 @@ Description: QQ设置-辅助功能-右上角开启 支持9.0.20+ | 109更新：�
 Author: x✨
 Name: QQ新版防撤回
 
+Package: com.xx.qqhook
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.qqhook_1.1.0_iphoneos-arm64.deb
+Size: 166674
+MD5sum: b799ae1ab0d00cb2cb110b4dd3818266
+SHA1: 8f2bf9734a4521b7aed6694e933ff82e932f9495
+SHA256: 9557580253210a40970d03e2b1f8b9425e11ccffc7203eddb7204c7c2d15356f
+Section: Tweaks
+Description: QQ设置-辅助功能-右上角开启 支持9.0.20+
+Author: x✨
+Name: QQ新版防撤回
+
 Package: com.xx.qsyyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -4597,7 +4629,7 @@ Architecture: iphoneos-arm64
 Maintainer: x✨
 Installed-Size: 192
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/小红书图层 107-1 无根.deb
+Filename: ./debs/com.xx.xhshook_1.0.7-1_iphoneos-arm64.deb
 Size: 71810
 MD5sum: 8ebf050675a8ccafbd0e9a8aaa59f1fa
 SHA1: 3d614ab95f6fb4f2aa0d2e9c3cca44e840f4dd20
