@@ -3240,6 +3240,25 @@ Icon: https://repo.abox.plus/api/packageinfo/com.swing.weibo/icon.png
 Name: 微博去广告
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.weibo.json
 
+Package: com.swing.weibo
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: ./debs/com.swing.weibo_1.2.3_iphoneos-arm64.deb
+Size: 28222
+MD5sum: e9b3cd8b23abdb4f1d036be520ae7a52
+SHA1: cdc64fdb09a80e250f0ac6c437ba3879d66246bd
+SHA256: f019a83cd9f292a0bb6fed4b3f54a8a5abb4bc415f64a52c887e93e4eed403c4
+Section: Tweaks
+Description: 删除启动页、信息流、视频流、评论列表、发现等页面的广告，支持修改设备型号。
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.weibo
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.weibo/icon.png
+Name: 微博去广告
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.weibo.json
+
 Package: com.swing.weibolite
 Version: 1.0.0
 Architecture: iphoneos-arm64
