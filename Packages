@@ -3337,6 +3337,25 @@ Icon: https://repo.abox.plus/api/packageinfo/com.swing.zhihu/icon.png
 Name: 知乎去广告-Rootless
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.zhihu.json
 
+Package: com.swing.zhihu
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debs/com.swing.zhihu_1.1.2_iphoneos-arm64.deb
+Size: 14274
+MD5sum: 71145846ada428477920da6fc7046a30
+SHA1: d0cdd370fab1e83979a729e119df50b768a37a8b
+SHA256: c23298fcf99f2bce286697a62b764282239184a85d27ce307352700da1456055
+Section: Tweaks
+Description: 知乎去广告插件
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.zhihu
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.zhihu/icon.png
+Name: 知乎去广告
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.zhihu.json
+
 Package: com.switchbackground
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -3863,6 +3882,23 @@ Size: 794422
 MD5sum: 02d2402fa703bdbc21419e212729f885
 SHA1: 1e7052f1b5a9949ffeb99e6dc2a2bf226e6ef73d
 SHA256: b9a03c5104faec43d2f6f157c669f4364e0bab16f90e3c5a66030483dc6617c3
+Section: Tweaks
+Description: 自用
+Author: x✨
+Name: 抖音图层
+Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
+
+Package: com.xx.dyhook
+Version: 1.2.6-3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 2200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_1.2.6-3_iphoneos-arm64.deb
+Size: 811616
+MD5sum: 8670d89ba8e2d5fc6652cb882b410ece
+SHA1: fbe657b278a728258e1c30a5f55dfa5b36857ee7
+SHA256: d94994d681d308b5f4da821afd25dc94164646a0bfa6b11072a93cd0e25e2bc2
 Section: Tweaks
 Description: 自用
 Author: x✨
