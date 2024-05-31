@@ -2681,6 +2681,39 @@ Icon: https://i.postimg.cc/ry1s499R/icon-3x.png
 Name: SettingsRevamp
 Sileodepiction: https://sopppra.mooo.com/depictions/com.sop.settingsrevamp.json
 
+Package: com.squidforce.disablepastealert16
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: ./debs/com.squidforce.disablepastealert16_0.0.1_iphoneos-arm64.deb
+Size: 3772
+MD5sum: f190f3b3c2738f1b1075a0e1e3218576
+SHA1: 4b57ddab028cb04f7a76e5b79a9bc9d10d6701d5
+SHA256: 20db269ce51bdcfd9413c7dd638ad43f923261dba4bcf36eddbe1c1409765c0e
+Section: Tweaks
+Description: 禁用iOS16+粘贴弹窗，并自动允许
+Author: SquidForce
+Name: 禁用iOS16+粘贴弹窗 - DisablePasteAlert16
+
+Package: com.squidforce.disablepastealert16
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 168
+Filename: ./debs/com.squidforce.disablepastealert16_1.0_iphoneos-arm64.deb
+Size: 3986
+MD5sum: f34661ec7bc59a70e74297ad7c683a96
+SHA1: 7ba6ddd81114b393b2990f4caeeb82ebf60d77b5
+SHA256: 3d96316b5ed02aedc1c4f9ab0f834dffee364b3b168a8302912a0bac648d885e
+Section: Tweaks
+Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
+ 2. 禁用粘贴提醒
+ * 如只需要禁用警告弹窗，可以降级安装版本0.0.1
+Author: SquidForce
+Name: 禁用iOS16+粘贴警告弹窗和粘贴提醒 - DisablePasteAlert16
+
 Package: com.statusbar
 Version: 1.1
 Architecture: iphoneos-arm64
