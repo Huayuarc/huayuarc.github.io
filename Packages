@@ -5484,6 +5484,25 @@ Author: iarchiveml
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/jetsamunlimited.png
 Name: JetsamUnlimited
 
+Package: jp.dcsyhi.zetsu
+Version: 1.6.1
+Architecture: iphoneos-arm64
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 11989
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: ./debs/jp.dcsyhi.zetsu_1.6.1_iphoneos-arm64.deb
+Size: 10174436
+MD5sum: 3473b74970db7f2d92fcc673ec749994
+SHA1: ecc28488a7aadceb2ade0f9feed351ee11576d9b
+SHA256: 12b13d8c910d3bc1784d0524934705d5df6ddc87c911ef2a87b04dfb45509eb3
+Section: Tweaks
+Description: Multitasking on iOS15 - iOS16.
+Tag: compatible_min::ios15.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Depiction: https://chariz.com/get/zetsu
+Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
+Name: Zetsu
+
 Package: jp.dcsyhi.zetsurootless15
 Version: 1.2
 Architecture: iphoneos-arm64
