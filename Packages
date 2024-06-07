@@ -5250,25 +5250,6 @@ Icon: https://repo.shorty.systems/icons/com.wilsonthewolf.eliza.png
 Name: Eliza
 Sileodepiction: https://repo.shorty.systems/depictions/sileo/com.wilsonthewolf.eliza
 
-Package: ellekit
-Version: 1.1.2-12.377b43e
-Architecture: iphoneos-arm64
-Maintainer: Dhinak G <dhinak@dhinak.net>
-Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
-Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
-Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Filename: ./debs/ellekit_1.1.2-12.377b43e_iphoneos-arm64.deb
-Size: 352448
-MD5sum: 1e8bc130c3f272ccbc4361dd1e96325b
-SHA1: 911e90595a81c103bda5b2d84947e898c1681567
-SHA256: ef61c8189928837a91fb00c886de3a15185428ea54bd30055caf6113a8cbdeff
-Section: Tweak Injection
-Priority: optional
-Description: ElleKit tweak injection libraries and loader
-Author: Evelyn
-Icon: https://ellekit.space/logos/logo.png
-Name: ElleKit
-
 Package: exacttime
 Version: 2.0.2
 Architecture: iphoneos-arm64
