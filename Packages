@@ -2343,6 +2343,22 @@ Description: iOS 16上的浮动Dock（M哥汉化）
 Author: Ethan Whited
 Name: FloatingDockXVI
 
+Package: com.netskao.dumpdecrypter
+Version: 1.4-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 4308
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.dumpdecrypter_1.4-1_iphoneos-arm64.deb
+Size: 1303692
+MD5sum: c8b0772f8b0ffcf1c56062289c4b0e29
+SHA1: 7e2852f811343fd0afa5d04faa49a9d5059ea91f
+SHA256: 50b1222855a49c5a7642198e7237ea12796e5fad1b17007e824f593b78cc1b82
+Section: Netskao-Tweaks
+Description: Decrypt iOS Apps
+Author: Netskao
+Name: DumpDecrypter
+
 Package: com.netskao.pulloverpro
 Version: 2.1.6
 Architecture: iphoneos-arm64
