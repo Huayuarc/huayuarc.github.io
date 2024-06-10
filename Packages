@@ -3062,6 +3062,25 @@ Icon: https://repo.abox.plus/api/packageinfo/com.swing.eleme/icon.png
 Name: 饿了么去广告
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.eleme.json
 
+Package: com.swing.eleme
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.swing.eleme_1.0.4_iphoneos-arm64.deb
+Size: 11398
+MD5sum: bc9f8024141d997243bdc56337237b58
+SHA1: 84bcf9b8276a4e8b255386702e0bdcb22deac28c
+SHA256: 636131b9cc28a3006af77ce5ea37ce930ff39bf78c981376980bfba2c130c344
+Section: Tweaks
+Description: 饿了么去广告，新增精简全能超市和购物车推荐。源内所有插件仅供本人学习交流使用，下载后请于24小时内删除! 软件源：https://repo.abox.plus  TG：https://t.me/abox1993
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.eleme
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.eleme/icon.png
+Name: 饿了么去广告
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.eleme.json
+
 Package: com.swing.jump
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -3396,6 +3415,25 @@ Size: 11310
 MD5sum: 07c8fb0fc4b0a489cbeaa8b7c7294436
 SHA1: 113ee50bf15e6225e021c7b3e56e82965272bf1c
 SHA256: 97273b63c7f400bf316d2efbb1a09f9af700cd162ef1316951c7a034e401b6b6
+Section: Tweaks
+Description: 微博轻享版去广告去广告插件，TG：https://t.me/abox1993/1
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.weibolite
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.weibolite/icon.png
+Name: 微博轻享版去广告
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.weibolite.json
+
+Package: com.swing.weibolite
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.swing.weibolite_1.0.2_iphoneos-arm64.deb
+Size: 10526
+MD5sum: fb98f3d5ecee63aa9e557879dc9f483b
+SHA1: ed459f08cb68ba2553f88403e661a3615e751875
+SHA256: 6b10d208583931f5a21c7ad2934bb1e49a14e43df3934466b5def0fd1b0b0d09
 Section: Tweaks
 Description: 微博轻享版去广告去广告插件，TG：https://t.me/abox1993/1
 Author: SWING
