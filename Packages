@@ -2359,6 +2359,22 @@ Description: Decrypt iOS Apps
 Author: Netskao
 Name: DumpDecrypter
 
+Package: com.netskao.dumpdecrypter
+Version: 1.4-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 4324
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.dumpdecrypter_1.4-4_iphoneos-arm64.deb
+Size: 1308366
+MD5sum: 07d89d2dbbb2bd47fcf9f4e8fd386ce2
+SHA1: f9bfe66c7bf997c7b87e6987a093c2226130a30a
+SHA256: f3eb70ca27c2b8e7489e6948b2e99d73a6e3d10f0dfc2f72ac17991d85aaa435
+Section: Netskao-Tweaks
+Description: Decrypt iOS Apps and Plugins
+Author: Netskao
+Name: DumpDecrypter
+
 Package: com.netskao.pulloverpro
 Version: 2.1.6
 Architecture: iphoneos-arm64
@@ -4136,6 +4152,23 @@ Author: x✨
 Name: 抖音图层
 Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
 
+Package: com.xx.dyhook
+Version: 2.0.3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 3160
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.3_iphoneos-arm64.deb
+Size: 957952
+MD5sum: f1a126bad503337344c6a52929edb4c3
+SHA1: b4f5e09107b701fe609751f96c479cc734ac5961
+SHA256: 1c38b24c8517ca14657ee033ac6d1826a40196a6ce6797bd81a6e10304da3725
+Section: Tweaks
+Description: 自用
+Author: x✨
+Name: 抖音图层
+Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
+
 Package: com.xx.ecnyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -5141,6 +5174,22 @@ SHA1: f7fb1abccee097d944d06df8f3586344db305464
 SHA256: 58ced16cfbdd0224fee2ee11e2a48c55d3ec2807aea4a26378d8c1c10cdc2045
 Section: Tweaks
 Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片 长按文案复制
+Author: x✨
+Name: 小红薯
+
+Package: com.xx.xhshook
+Version: 1.0.9
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 1080
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.xhshook_1.0.9_iphoneos-arm64.deb
+Size: 335832
+MD5sum: 3321c432144bba9b7bdfa24c8e61fcd3
+SHA1: a0806f5c692e328feba25a12f5d861938741bbda
+SHA256: 1c7e7aac5c9769790a88dcb92f27d669e880fe02474a67e1c7154a6f56c85ccf
+Section: Tweaks
+Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片 长按文案复制. 1.0.9：新增头像与背景下载
 Author: x✨
 Name: 小红薯
 
