@@ -2846,6 +2846,22 @@ Description: 灵动消息，就是这么简单。仅仅支持iOS16+。only suppo
 Author: sunshinesong
 Name: dynamic-notifier
 
+Package: com.sunshinesong.dynamic-notifier
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 812
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.sunshinesong.dynamic-notifier_1.0.3_iphoneos-arm64.deb
+Size: 209280
+MD5sum: ca13a77dce296e01f564c301b72114c9
+SHA1: f30d3bfc25e15dfaf8aadd6cd03c945a4b01bb2e
+SHA256: 3856e6f6bb9f3566647e0149ec4f818533b660099093a4927e35023b6e9af779
+Section: Tweaks
+Description: 灵动消息，就是这么简单。仅仅支持iOS16+。only support above ios16.0
+Author: sunshinesong
+Name: dynamic-notifier
+
 Package: com.sunshinesong.split-view-pro
 Version: 1.1.0-2
 Architecture: iphoneos-arm64
@@ -5114,6 +5130,22 @@ Description: 与小黑联手制作 | 去除启动广告 | 秒过激励视频(自
 Author: x✨
 Name: 汽水音乐NoAds
 
+Package: com.xx.spidercrack
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 124
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.spidercrack_1.0.2_iphoneos-arm64.deb
+Size: 24220
+MD5sum: 03fc20fd66304974ffda3b15d69ef1bd
+SHA1: cfb0ca48ef638f6592a3051e6f01f128ea1b5cc5
+SHA256: c6be349947c2a129e51915d94ec95758dcb5e0b683c9d7f5120bec74be1b1870
+Section: Tweaks
+Description: 解锁会员 插件仅供个人学习交流使用 如有能力请支持正版
+Author: x✨
+Name: SpiderProxyCrack
+
 Package: com.xx.xhshook
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -5289,6 +5321,22 @@ Section: Tweaks
 Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片 长按文案复制. 1.0.9：新增头像与背景下载. ----- 无效请打开插件设置 滑到底部点延长时间
 Author: x✨
 Name: 小红薯
+
+Package: com.xx.ysbrowserhook
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.ysbrowserhook_1.0.0_iphoneos-arm64.deb
+Size: 3476
+MD5sum: fb5907b14607ed139df50f2915c95788
+SHA1: bec8a93653289057dc4c2329d8801063e92ecbf6
+SHA256: f522db9acf0affb831ec89d99765e2bb26285194f5deaa864207d96a65ef6226
+Section: Tweaks
+Description: 解锁Pro(使用shadow解决了越狱检测) 插件仅供个人学习交流使用 如有能力请支持正版
+Author: x✨
+Name: 亚瑟浏览器Pro
 
 Package: com.yan.stella
 Version: 1.0.3
