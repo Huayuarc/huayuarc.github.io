@@ -537,6 +537,23 @@ Description: Disable home screen dropdown search。禁用主屏幕下拉搜索�
 Author: 来了老弟 X：h_h_x_t
 Name: 禁用主屏幕下拉搜索-rootless
 
+Package: cn.llld.kbtool
+Version: 1.0.0-2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 6432
+Depends: mobilesubstrate
+Filename: ./debs/cn.llld.kbtool_1.0.0-2_iphoneos-arm64.deb
+Size: 2916062
+MD5sum: 7207e838130b7ac14b80f29806847fc0
+SHA1: 45324a9449d2f687953a68a5e52fe75711c3925e
+SHA256: cf87e3c2f81e6c173ed4ef22579c6b61dbb8ffa9ba0a1ba053aedc906ec5f546
+Section: rootless插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: Panel-Tools(keyboard)
+
 Package: cn.llld.minivx
 Version: 1.01
 Architecture: iphoneos-arm64
