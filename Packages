@@ -2898,6 +2898,22 @@ Description: 灵动消息，就是这么简单。仅仅支持iOS16+。only suppo
 Author: sunshinesong
 Name: dynamic-notifier
 
+Package: com.sunshinesong.dynamic-notifier
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 812
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/dynamic-notifier_1.0.4_iphoneos-arm64.deb
+Size: 129916
+MD5sum: f1f511b1e4b1e08e8531ae6f045d1c96
+SHA1: 6ca0209e3fc051f7979a88f4c83b5a53b4c03e0a
+SHA256: b21d7a3ff0859cec9e523c584e4e26b64b53cebe27eb95fb2a5806a679b4ada3
+Section: Tweaks
+Description: 灵动消息，就是这么简单。仅仅支持iOS16+ (14pro,14pro max)。only support above ios16.0(14pro and 14pro max)
+Author: sunshinesong
+Name: dynamic-notifier
+
 Package: com.sunshinesong.split-view-pro
 Version: 1.1.0-2
 Architecture: iphoneos-arm64
