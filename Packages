@@ -2984,6 +2984,22 @@ Description: 灵动消息，就是这么简单。仅仅支持iOS16+ (14pro,14pro
 Author: sunshinesong
 Name: dynamic-notifier
 
+Package: com.sunshinesong.native-island
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 840
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.sunshinesong.native-island_1.0.1_iphoneos-arm64.deb
+Size: 226206
+MD5sum: e4b9fc38f14cd6f2e778c8a9fa536caf
+SHA1: 1fc1732120101a3c03dc8db4131bfdb59bc74ce4
+SHA256: d3d67da98ac3f10665cd0d38c206c68ed18acb12a03f54bc4372a7679167143b
+Section: Tweaks
+Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
+Author: sunshinesong
+Name: native-island-notifier
+
 Package: com.sunshinesong.split-view-pro
 Version: 1.1.0-2
 Architecture: iphoneos-arm64
