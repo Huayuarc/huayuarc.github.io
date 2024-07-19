@@ -3120,6 +3120,23 @@ Name: split-view-pro
 Ts: sp-sss
 
 Package: com.sunshinesong.split-view-pro
+Version: 1.1.5
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 13648
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.sunshinesong.split-view-pro_1.1.5_iphoneos-arm64.deb
+Size: 3518344
+MD5sum: 52c782f1cb37d5e426d97e70f0a69999
+SHA1: c71c16c4e696a8b18e5433564f8102d349a9094c
+SHA256: bf38ae04a9e1d69aa47be791423b2e7e44cb705aac70e432b00f8b740e8acb0c
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Name: split-view-pro
+Ts: sp-sss
+
+Package: com.sunshinesong.split-view-pro
 Version: 1.1.6
 Architecture: iphoneos-arm64
 Maintainer: sunshinesong
