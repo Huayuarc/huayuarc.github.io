@@ -3051,6 +3051,22 @@ Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
 Author: sunshinesong
 Name: native-island-notifier
 
+Package: com.sunshinesong.native-island
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 908
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), org.thebigboss.libcolorpicker
+Filename: ./debs/com.sunshinesong.native-island_1.0.3_iphoneos-arm64.deb
+Size: 251422
+MD5sum: 5ac4e7a5acb7eba1173b901ce55ca109
+SHA1: 5fb4558ea134b7e480f5c441d707ed6d09f6887b
+SHA256: 0bf525a0fca35ac14b6ad69f6dd7bd5d360faacd2165e33518fbb527cdc9a276
+Section: Tweaks
+Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
+Author: sunshinesong
+Name: native-island-notifier
+
 Package: com.sunshinesong.split-view-pro
 Version: 1.1.0-2
 Architecture: iphoneos-arm64
