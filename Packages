@@ -3169,6 +3169,25 @@ Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
 
+Package: com.swing.aweme
+Version: 1.0.6-1
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 440
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.swing.aweme_1.0.6-1_iphoneos-arm64.deb
+Size: 64944
+MD5sum: 9e401729ef07dc8c91a4d9204b5225e4
+SHA1: 5a792a55bd20d5fc3fde0afedca50180439847d9
+SHA256: a56cf1031a00f282581c07e7ba57346545455552e9a02166e99574040b971a81
+Section: Tweaks
+Description: An awesome tweak for Aweme!
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.aweme
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.aweme/icon.png
+Name: Amazing Aweme
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.aweme.json
+
 Package: com.swing.bilibili
 Version: 1.0.0
 Architecture: iphoneos-arm64
