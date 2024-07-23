@@ -411,6 +411,23 @@ Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***�
 Author: 来了老弟
 Name: QQ绿化_芭比Q-rootless
 
+Package: cn.llld.bbqzr
+Version: 0.4-4
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 368
+Depends: mobilesubstrate
+Filename: ./debs/QQ绿化_芭比Q-rootless_0.4-4-arm64.deb
+Size: 49932
+MD5sum: c9e27775b03b478ca32a824665ca7fc3
+SHA1: 384c70d70f2b175b281962746296df53dee5e301
+SHA256: 837a855372c7942826555b610c355fcfbbc87813d35a9c9e277d436187a06ef2
+Section: rootless插件
+Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***。长按侧边栏的（日间）或（设置）图标，弹出设置，还有多处隐藏菜单，长按去发现。240228小更新，排版随便弄了下，QQ更新过快，每次都有新活，开发动力不大了
+Author: 来了老弟
+Name: QQ绿化_芭比Q-rootless
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.bbqzr/bbq.json
+
 Package: cn.llld.copy1
 Version: 1.4.3
 Architecture: iphoneos-arm64
@@ -553,6 +570,24 @@ Description: Convenient tools on the keyboard (Used for keyboard enhancement)。
 Author: 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
 Name: Panel-Tools(keyboard)
+
+Package: cn.llld.kbtool
+Version: 1.4.0-1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 14400
+Depends: mobilesubstrate
+Filename: ./debs/Panel Tools键盘之上工具栏-1.4-rootless-arm64.deb
+Size: 3713454
+MD5sum: 62fe141cf7a5f9384104d8c616515925
+SHA1: 2d8a63e0895d1bff0ed1bfa78ed0f0d29813fe98
+SHA256: cad05230e507429694f04aeec060151974ab6e54d0d3405cda716cac65c1f8d0
+Section: rootless应用插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Name: Panel-Tools(keyboard)
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
 
 Package: cn.llld.minivx
 Version: 1.01
