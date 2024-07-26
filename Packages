@@ -8015,6 +8015,27 @@ Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢
 Author: 预言小猫
 Name: 一键备份和恢复工具-Rootless
 
+Package: twitter.nowesr1.photosplus
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 376
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/twitter.nowesr1.photosplus_0.0.1_iphoneos-arm64.deb
+Size: 26732
+MD5sum: 26dcd78a65d36896662d89870de2ba2c
+SHA1: 37290f62eec5040922c5643a3c055be0df07a8c2
+SHA256: 09ed00f8466e8f4c1593bcb5f4e3d4657cce11983bbd9d151e3135b426bc8c55
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=photosplusDp
+Description: Awesome tweak for stock iOS Photos App
+Author: nowesr1 <nowe9r@hotmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=photosplusDp
+Dev: nowesr1
+Icon: file:///var/jb/Library/PreferenceBundles/PhotosPlusPrefs.bundle/icon@2x.png
+Name: PhotosPlus
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: ve
 Version: 2.0
 Architecture: iphoneos-arm64
