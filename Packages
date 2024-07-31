@@ -219,6 +219,23 @@ Description: 背景透明（通知中心、控制中心、小组件、文件夹�
 Author: M哥
 Name: 背景透明_rootless
 
+Package: bigsurcenter
+Version: 1.4.5
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 1820
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.2)
+Filename: ./debs/bigsurcenter_1.4.5_iphoneos-arm64.deb
+Size: 748188
+MD5sum: b5a42fcb95d376d32fae88fb1daeee4c
+SHA1: c6e9a60a7d5641e044458fa5de490c9f40f3572c
+SHA256: cbb1f586ed30d07e7433a764a50bc3422c71edb545283818713e18c262b9feba
+Section: Tweaks
+Description: BigSurCenter用一个新的轻量级优雅的控制中心取代了默认的iOS控制中心，其灵感来自MacOS Big Sur的控制中心。
+Author: nicho1asdev
+Icon: https://repo.cypwn.xyz/packages/BigSurCenter-Rootless/icon.png
+Name: BigSurCenter
+
 Package: bloom
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -4550,10 +4567,10 @@ Maintainer: x✨
 Installed-Size: 5464
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.xx.dyhook_2.0.3-5_iphoneos-arm64.deb
-Size: 1924496
-MD5sum: 50b2315c7e96484fcd14f829be2afa6a
-SHA1: f086b5e5cbc77d9f8cab5c9e67959ee234f9c1f5
-SHA256: 365f09b90f076841d05b03be9eadc3c15894e992a0934ff43c0edee1874a6d26
+Size: 1923716
+MD5sum: ca53791bc11535bf1364cf596eb6e05f
+SHA1: cde530316ef965988dcb2dbb0105d2752d3eb909
+SHA256: 0cd6bfce66b4ddbdaf8770412450a1ad01cc74ebd40f55b3468e64dc1e528b96
 Section: Tweaks
 Description: 自用
 Author: x✨
