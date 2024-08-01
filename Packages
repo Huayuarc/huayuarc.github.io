@@ -7817,6 +7817,22 @@ Author: Xyaman & b4db1r3
 Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
 Name: Tako ( iOS 15-16 )
 
+Package: touchvis
+Version: 2.5
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/touchvis_2.5_iphoneos-arm64.deb
+Size: 229764
+MD5sum: 76f5117a40f8e2ae10c7fc24a2c49e33
+SHA1: b3d7a0290facc7f2368d9b20fd6a027a2519a0de
+SHA256: c5fbb018c85c58e6d4c165a383b63a051e4fc8f9e544cda9b1da14c87ba9b51a
+Section: Tweaks
+Description: 显示您的触摸交互！
+Author: Lessica
+Icon: https://repo.cypwn.xyz/packages/TouchViz-Rootless/icon.png
+Name: Touch-Viz
+
 Package: trollleds
 Version: 1.2.1
 Architecture: iphoneos-arm64
