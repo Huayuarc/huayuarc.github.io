@@ -7833,6 +7833,22 @@ Author: Lessica
 Icon: https://repo.cypwn.xyz/packages/TouchViz-Rootless/icon.png
 Name: Touch-Viz
 
+Package: touchvis
+Version: 2.8
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/touchvis_2.8_iphoneos-arm64.deb
+Size: 708500
+MD5sum: 21eff0feb87ad441e0e333ff2e9f6f92
+SHA1: 6cdd87e20871b0559c60ee35aea1abe334188a53
+SHA256: 29ff1b481698fc01e53534b78af9f97e99d4321866d30568b2045e145aed2a3e
+Section: Tweaks
+Description: 显示您的触摸交互！
+Author: Lessica
+Icon: https://repo.cypwn.xyz/packages/TouchViz-Rootless/icon.png
+Name: Touch-Viz
+
 Package: trollleds
 Version: 1.2.1
 Architecture: iphoneos-arm64
