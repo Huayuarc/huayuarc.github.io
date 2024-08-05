@@ -4593,6 +4593,23 @@ Author: x✨
 Name: 抖音图层
 Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
 
+Package: com.xx.dyhook
+Version: 2.0.3-6
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 5280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.3-6_iphoneos-arm64.deb
+Size: 1918624
+MD5sum: c5f41ffe14c9029e00ccd49f7d07b46d
+SHA1: c9d9fa186339d99d82186bb97d5b0729e9aa2953
+SHA256: 5d11582ae97de6d87cf903dcb821b433ee474bf6eee34d2eb626bf6a562d0be6
+Section: Tweaks
+Description: 自用
+Author: x✨
+Name: 抖音图层
+Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
+
 Package: com.xx.ecnyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -5473,6 +5490,22 @@ Description: QQ设置-辅助功能-右上角开启 支持9.0.20+
 Author: x✨
 Name: QQ新版防撤回
 
+Package: com.xx.qqhook
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 1632
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.qqhook_1.1.1_iphoneos-arm64.deb
+Size: 586868
+MD5sum: ce0d290216342d6764372a75299ce441
+SHA1: 1061641f16bb93407165577a633624c99d52f685
+SHA256: 7b753845aee4afee4f6a4372f878df94ecf9d3d2669108d5ac357559fba413bd
+Section: Tweaks
+Description: QQ设置-辅助功能-右上角开启 支持9.0.20+
+Author: x✨
+Name: QQ新版防撤回
+
 Package: com.xx.qsyyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -5740,6 +5773,22 @@ Size: 723332
 MD5sum: a8e7f3b904b572bab0f517d297d2e66c
 SHA1: 676c1b0bbfdfaa3a6a8ee0ecf2263d687a73cb3b
 SHA256: d62573faeaa3cac8c033f4e97a156c8a92bfa15ad3c36ec3d64ca9e398955f72
+Section: Tweaks
+Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片 长按文案复制. 1.0.9：新增头像与背景下载.
+Author: x✨
+Name: 小红薯
+
+Package: com.xx.xhshook
+Version: 1.1.0-1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 2152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.xhshook_1.1.0-1_iphoneos-arm64.deb
+Size: 732628
+MD5sum: f878a37c1391b299adffe4dce8f4a358
+SHA1: 58bfdde84782f7570be0baf6a297900e677f11df
+SHA256: c80e7d31f745a8faa3120d868b4b142934465f741af6afeefe8045f78975965b
 Section: Tweaks
 Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片 长按文案复制. 1.0.9：新增头像与背景下载.
 Author: x✨
