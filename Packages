@@ -4898,6 +4898,22 @@ Description: 自用 | 看剧 短剧 漫画 听书 音乐 无广告 移除看剧V
 Author: x✨
 Name: iBoxNoAds
 
+Package: com.xx.iboxhook
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 680
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.iboxhook_1.0.7_iphoneos-arm64.deb
+Size: 200448
+MD5sum: 9b343add7665a9cac873db76bef6bb69
+SHA1: 331fd5bfabb9edc781f3e00512d2d6b411146efa
+SHA256: 4ad4a0edde5719cf1aadead0366e2d299aa2db9bfa01570b8695ef2041ff9ce1
+Section: Tweaks
+Description: 自用 | 看剧 短剧 漫画 听书 音乐 无广告 移除看剧VPN检测 其余检测未去除 | 仅越狱使用 仅支持214版本
+Author: x✨
+Name: iBoxNoAds
+
 Package: com.xx.intolivehook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -6309,6 +6325,23 @@ Section: Tweaks
 Description: 收到通知信息后，隐藏任何地方的通知背景（即背景模糊度为透明）。
 Author: M哥
 Name: 隐藏通知背景_rootless
+
+Package: hikari
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate
+Filename: ./debs/hikari_1.0_iphoneos-arm64.deb
+Size: 945452
+MD5sum: 2b98961b035d2444b128fdc7c80bcc1d
+SHA1: 317a9fe6663251f75ea283caa57ec60dcdc4e2f2
+SHA256: 8341c1c8a72dac6ff95b4ac6b8ffa6d3738ae37d18a1c1d267a9e3a8b02e8f46
+Section: Tweaks
+Description: Hikari让您轻松定制和增强设备的音效.
+Author: Hitori
+Crakage: com.hitori.hikari
+Icon: https://repo.cypwn.xyz/packages/Hikari-Rootless/icon.png
+Name: Hikari
 
 Package: hydra
 Version: 2.1
