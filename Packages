@@ -1468,6 +1468,21 @@ Description: 黄白助手-微信插件                                          
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)-Rootless
 
+Package: com.HBWechatHelper.ailun
+Version: 1.7.3
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: ./debs/黄白助手1.7.3_无根.deb
+Size: 9038504
+MD5sum: 49b47c16acc1a31a59f59dee7d13930e
+SHA1: f857977fb5e9e7040d6d867a088256b77a1a296f
+SHA256: 81f28a2fdd720cf3d1f9a93372df4a070e99f5ae22f02875583ba5bf2a30f76c
+Section: Mao
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌朋友圈一键点赞等诸多功能（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)-Rootless
+
 Package: com.abox.puredouban
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -7112,6 +7127,22 @@ Icon: file:///Library/PreferenceBundles/Glow.bundle/icon.png
 Mainlibmd5: b47c7525046de58905114770669a774b
 Name: Glow (rootless iOS 12-17)
 Sileodepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.glow
+
+Package: netskao.3dnetworkfixer-rootless
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 496
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/3DNetworkFixer-Rootless.1.1-8.deb
+Size: 116092
+MD5sum: b31e092dceaea34c11d98c553377675c
+SHA1: 1fc72e0cfd4d3f8fc14f6f034213ba5e310337e8
+SHA256: 6d0830490a2888661c789c6a07517ab94d0c43521bdce86cec4d65cd417add44
+Section: Netskao-Tweaks
+Description: 3D desktop menu, quick fix for the app networking permissions, Supports iOS13-iOS15
+Author: Netskao
+Name: 3DNetworkFixer-Rootless
 
 Package: netskao.actionbarreborn
 Version: 1.1-2
