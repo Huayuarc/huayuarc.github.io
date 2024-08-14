@@ -622,6 +622,22 @@ Description: 微信简洁辅助(抢红包，防撤回)-roootless
 Author: 来了老弟
 Name: 微信辅助(微生物)-rootless
 
+Package: cn.llld.nyyh
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/农业银行llld-rootless_0.1_iphoneos-arm64.deb
+Size: 4232
+MD5sum: a1980ab509679ad471bb2bf030bbc1f1
+SHA1: 215c8ceab63ce13f4008a6206fda93c16c5268c3
+SHA256: 0433424213e832d27e92ef96cf91bdf2c459a324f7a4bc9bc14503a47969eead
+Section: rootless应用插件
+Description: 作用：使用农业银行的同时允许插件注入。用法：进应用看到检测弹窗，3指触摸非弹窗处即可，这是体验包，这是体验包，银行打招呼我就撤。
+Author: 来了老弟 X: h_h_x_t
+Name: 农业银行llld-rootless
+
 Package: cn.llld.ppgxll
 Version: 0.1
 Architecture: iphoneos-arm64
