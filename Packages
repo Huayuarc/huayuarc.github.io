@@ -6135,6 +6135,22 @@ Author: Ethan Whited
 Icon: https://repo.cypwn.xyz/packages/Doodle-Rootless/icon.png
 Name: Doodle
 
+Package: doodle
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: preferenceloader
+Filename: ./debs/doodle_1.2_iphoneos-arm64.deb
+Size: 3576636
+MD5sum: 91d2d58964241ce215857157a57844e3
+SHA1: 2a406721bdc504eafd83da2a27e2ab3504c06766
+SHA256: 6c1685446b458554a780c6af3fc4cd5bfcdf5311204d12c204e48ea5afb63382
+Section: Tweaks
+Description: 使用涂鸦解锁设备。
+Author: Ethan Whited
+Icon: https://repo.cypwn.xyz/packages/Doodle-Rootless/icon.png
+Name: Doodle
+
 Package: easynotifications
 Version: 3.0
 Architecture: iphoneos-arm64
