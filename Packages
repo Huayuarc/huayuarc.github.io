@@ -2265,6 +2265,21 @@ Description: 美团去广告
 Author: M哥
 Name: 美团去广告
 
+Package: com.iosrxwy.bzhelper
+Version: 1.6.4
+Architecture: iphoneos-arm64
+Maintainer: iosrxwy
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: ./debs/com.iosrxwy.bzhelper_1.6.4_iphoneos-arm64_rootless.deb
+Size: 1781906
+MD5sum: 6b1f1f918211f73d5fd17a7a051130f3
+SHA1: 0f5b89e4d5c29dfa711b11234a3ff2504f931611
+SHA256: 36861475ee22bab0963fb43102b4a4e297d0ddc6848b3792107561d235774863
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: iosrxwy
+Name: ADSpeed
+
 Package: com.itznebbs.genesis3
 Version: 1.5
 Architecture: iphoneos-arm64
