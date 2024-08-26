@@ -3337,6 +3337,22 @@ Author: sunshinesong
 Name: split-view-pro
 Ts: sp-sss
 
+Package: com.sunshinesong.volume-manager
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 1104
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.sunshinesong.volume-manager_1.0.3_iphoneos-arm64.deb
+Size: 253032
+MD5sum: 9f4aa9a3e8eb0abe5b8d26fa299bdddc
+SHA1: a8111d4d100d2a3d0c4db41ec1da21d8a1ffaa3f
+SHA256: 465ba2834352fa532e48cd67ffd715cdd7619f2af03a626fe7a1ca977d5ef89b
+Section: Tweaks
+Description: 音量管理，就是这么简单。包含功能：混响、多元化音量。
+Author: sunshinesong
+Name: VolumeManager
+
 Package: com.swing.aweme
 Version: 1.0.6-1
 Architecture: iphoneos-arm64
@@ -6779,6 +6795,23 @@ SHA1: 25f9ad4b46bb2d8ebd6096647623087c15d79244
 SHA256: 38840448484b24d69ab6c631109f94dc290938bfc859945585a57ca97bde2446
 Section: Tweaks
 Description: 一个AOD调整，感觉库存，有无限的可能性！（由M哥添加简体中文汉化包）
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook
+
+Package: lastlook
+Version: 4.2.1
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1742
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: ./debs/lastlook_4.2.1_iphoneos-arm64.deb
+Size: 443340
+MD5sum: f2a92fd7bc1ce93e4de0f6d9c4afa281
+SHA1: a252eef393c09f5ad43ae42153d4060e7e4974cf
+SHA256: 2fad841cbd8749477e42f6ad968131d05bfc4218be208f3d0b4f9ef0996c704e
+Section: Tweaks
+Description: AOD的调整让人感觉像原生，有无限的可能性！
 Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
 Name: LastLook
