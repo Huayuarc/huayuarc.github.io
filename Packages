@@ -3074,6 +3074,21 @@ Icon: https://i.postimg.cc/ry1s499R/icon-3x.png
 Name: SettingsRevamp
 Sileodepiction: https://sopppra.mooo.com/depictions/com.sop.settingsrevamp.json
 
+Package: com.squidforce.disablebreadcrumb
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 168
+Filename: ./debs/com.squidforce.disablebreadcrumb_1.0_iphoneos-arm64.deb
+Size: 2876
+MD5sum: 833dc354061549a653368fe3281c8783
+SHA1: c2c18e4c587bbab613508471301dc2171f50b3fb
+SHA256: bd8028b8b32c2b51f071ad889de162fcb12b8e8fd49f36855d46e1f2353dff86
+Section: Tweaks
+Description: Same as the name
+Author: SquidForce
+Name: 禁用面包屑(左上角快速返回上一个应用) - DisableBreadcrumb
+
 Package: com.squidforce.disablepastealert16
 Version: 0.0.1
 Architecture: iphoneos-arm64
