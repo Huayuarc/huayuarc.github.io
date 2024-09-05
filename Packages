@@ -8728,6 +8728,23 @@ Icon: https://img.chariz.cloud/icon/joe/icon@3x.png
 Name: Joe
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1481
 
+Package: zeppelinreborn
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate, preferenceloader, com.muirey03.libimagepicker
+Provides: com.alexzielenski.zeppelin
+Filename: ./debs/zeppelinreborn_1.0_iphoneos-arm64.deb
+Size: 656880
+MD5sum: 8f53642e73fcd4b7582ac75e23a2ff0d
+SHA1: e316460e2f141beef6c8a7ba726f08829cadadbb
+SHA256: 3f301eb6271afb6c5cab0b15a14fc9007ecdd7963c4f506a0a949b5f7ce0280d
+Section: Tweaks
+Description: 在运营商文本或时间旁边添加图像或GIF！
+Author: Hitori
+Icon: https://repo.cypwn.xyz/packages/ZeppelinReborn-Rootless/icon.png
+Name: Zeppelin Reborn
+
 Package: zetsu
 Version: 1.6
 Architecture: iphoneos-arm64
