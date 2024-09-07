@@ -6571,6 +6571,22 @@ Crakage: com.hitori.hikari
 Icon: https://repo.cypwn.xyz/packages/Hikari-Rootless/icon.png
 Name: Hikari
 
+Package: hikari
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate
+Filename: ./debs/hikari_1.0.7_iphoneos-arm64.deb
+Size: 1192292
+MD5sum: 581a34aa333d2ebfb8e8c6b776a40133
+SHA1: 9e1e26502d273cb0f4a0834b2895988910749d9b
+SHA256: 458d2736bb0bf1df010c17e79699c6c4a2489eae35816a6946617683f5ac10df
+Section: Tweaks
+Description: Hikari让您轻松定制和增强设备的音效。
+Author: Hitori
+Icon: https://repo.cypwn.xyz/packages/Hikari-Rootless/icon.png
+Name: Hikari
+
 Package: hydra
 Version: 2.1
 Architecture: iphoneos-arm64
@@ -8772,6 +8788,23 @@ Size: 988144
 MD5sum: e154442421d08e2710c82190e4a0a0cc
 SHA1: aaea6b5e9f824b1c00944adf60b765c40025a581
 SHA256: d2e9ccfcacbf5bd32915a23d809d336ec53b0e2ddc81eae05a69bc4a52d7accf
+Section: Tweaks
+Description: 在运营商文本或时间旁边添加图像或GIF！
+Author: Hitori
+Icon: https://repo.cypwn.xyz/packages/ZeppelinReborn-Rootless/icon.png
+Name: Zeppelin Reborn
+
+Package: zeppelinreborn
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate, preferenceloader, com.muirey03.libimagepicker
+Provides: com.alexzielenski.zeppelin
+Filename: ./debs/zeppelinreborn_1.2_iphoneos-arm64.deb
+Size: 2347020
+MD5sum: 1effd4734fd0f0476147081626ed6f2a
+SHA1: 0f641e18f09eb958996e688289bfdb40012cba9a
+SHA256: b17c522066803e8b8d865032a08fea1286bc68a26c6ff802a445a554a306fc2b
 Section: Tweaks
 Description: 在运营商文本或时间旁边添加图像或GIF！
 Author: Hitori
