@@ -6587,6 +6587,22 @@ Author: Hitori
 Icon: https://repo.cypwn.xyz/packages/Hikari-Rootless/icon.png
 Name: Hikari
 
+Package: hikari
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate
+Filename: ./debs/hikari_1.0.8_iphoneos-arm64.deb
+Size: 1194736
+MD5sum: 85517c6c12ac7e20aecc91fc14c1ee66
+SHA1: 52f65ee6a913188b592750c3e32fc0b49a6b8d6d
+SHA256: d9bfd1356caa79f584fc5e02d1fef228ea4adc4759944220dd2cc2e29f4e2933
+Section: Tweaks
+Description: Hikari让您轻松定制和增强设备的音效。
+Author: Hitori
+Icon: https://repo.cypwn.xyz/packages/Hikari-Rootless/icon.png
+Name: Hikari
+
 Package: hydra
 Version: 2.1
 Architecture: iphoneos-arm64
