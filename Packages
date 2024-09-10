@@ -2503,22 +2503,6 @@ Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
 
-Package: com.leisu
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debs/com.leisu_1.2_iphoneos-arm64.deb
-Size: 2820
-MD5sum: 98a2d452d3f2098178aff291ab8d1de7
-SHA1: 1ef1576d00f2cf09781c76e65a4773395cdec627
-SHA256: 9a741fdea4629c285ef87cf2290ac364ad1967012766d3896b22a5a9afefd72e
-Section: Tweaks
-Description: 雷速体育去启动广告、屏蔽更新
-Author: M哥
-Name: 雷速体育-rootless
-
 Package: com.live4iphonerel
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -6910,6 +6894,38 @@ Section: Tweaks
 Description: 自定义锁头图标和位置，适配rootless，增加汉化。
 Author: M哥
 Name: 锁头自定义 Latchkey
+
+Package: leisu
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/leisu_1.2_iphoneos-arm64.deb
+Size: 2824
+MD5sum: 0bc2bb2780a6579f9832ac42cb8f992b
+SHA1: 596f7e616f3f5746ca295b38a25f47201920b72a
+SHA256: ae5539e82c34ff7ca644d5a1ee497cb46478f20724341c34e7a2b1651bb7288c
+Section: Tweaks
+Description: 雷速体育去启动广告、屏蔽更新
+Author: M哥
+Name: 雷速体育-rootless
+
+Package: leisu
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/leisu_2.0.0_iphoneos-arm64.deb
+Size: 58644
+MD5sum: ea956f365b3bd444a51eb06be9ad941b
+SHA1: 5b5d2a4c9632123b928259e46afcf4884b94365b
+SHA256: 83b4a801e2da79b4f4183a6abde005c9301e97a6513e927359b1547a8718076c
+Section: Tweaks
+Description: 雷速体育去启动广告、屏蔽更新，新增支持9.0+版本。
+Author: M哥
+Name: 雷速体育-rootless
 
 Package: libflex
 Version: 5.22.10
