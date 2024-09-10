@@ -8647,6 +8647,21 @@ Description: 微信电脑扫码，手机自动确认登录.
 Author: M哥
 Name: 微信登录_rootless
 
+Package: weifengvip
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 884
+Depends: mobilesubstrate
+Filename: ./debs/weifeng.rootless_7.0.deb
+Size: 333860
+MD5sum: bf49e343c005e400331b289b938a8844
+SHA1: 67e1eab01d84b689ac8caf39e0e6b408a958ecbe
+SHA256: e53324b24b2c823ed748b6cbe6fd8e46c5e6ab59f1e0e0e630bb799fc1b8e2e3
+Section: tweaks
+Description: 威锋会员VIP，去掉广告，理论支持7.0以上版本。
+Name: 威锋VIP_rootless
+
 Package: wiki.qaq.chromatic.rootless
 Version: 2.1-REL-1714140359.07c7d6e
 Architecture: iphoneos-arm64
