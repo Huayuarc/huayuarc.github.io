@@ -8858,6 +8858,22 @@ Author: Hitori
 Icon: https://repo.cypwn.xyz/packages/ZeppelinReborn-Rootless/icon.png
 Name: Zeppelin Reborn
 
+Package: zeppelinreborn
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate, preferenceloader, com.muirey03.libimagepicker
+Provides: com.alexzielenski.zeppelin
+Filename: ./debs/zeppelinreborn_1.4.1_iphoneos-arm64.deb
+Size: 2984136
+MD5sum: 376c163f18c75cf37b4297da6285ea58
+SHA1: 9e039e9eecd3b5588586cbd4dbd963b7900a9698
+SHA256: 45214c59105e4d9246265de8f13169959848872c921fd71e0599a574ded905bd
+Section: Tweaks
+Description: 在运营商文本或时间旁边添加图像或GIF！
+Author: Hitori
+Icon: https://repo.cypwn.xyz/packages/ZeppelinReborn-Rootless/icon.png
+Name: Zeppelin Reborn
+
 Package: zetsu
 Version: 1.6
 Architecture: iphoneos-arm64
