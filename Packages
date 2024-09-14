@@ -4741,6 +4741,22 @@ Author: x✨
 Name: 抖音图层
 Sileodepiction: https://flyx099.github.io/sileodepiction/com.xx.dyhook/js.json
 
+Package: com.xx.dyhook
+Version: 2.0.3-8
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 9560
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.3-8_iphoneos-arm64.deb
+Size: 3031604
+MD5sum: e7bb5de6d7690fa15154b8c346ed582a
+SHA1: 78c5604b09b3cc59bd2be0ba6d86fc1fd9d44427
+SHA256: 4714f72469d3a1c5b730f9c9da8479618fde05c4997a896bb2c79a4c032f497b
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
 Package: com.xx.ecnyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -5712,6 +5728,22 @@ Size: 576330
 MD5sum: 1e0fc963db189f03cfad0cda90c3c87c
 SHA1: 08902cf38994e5de260aebab46bbd2ce1096e7c8
 SHA256: 9d94f2ee36dbee03c68f3511d1973e2ad1eb681fbccc48fde9211533ddd098c6
+Section: Tweaks
+Description: QQ设置-辅助功能-右上角开启 支持9.0.20+
+Author: x✨
+Name: QQ新版防撤回
+
+Package: com.xx.qqhook
+Version: 1.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 2280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.qqhook_1.1.1-2_iphoneos-arm64.deb
+Size: 785358
+MD5sum: b6201921bbfa26eecc6321b7569dd062
+SHA1: e0484bd80ccdf08df5e1dd004e1e777e1f4140da
+SHA256: b038d51912ec6f59fc8431c34773984b74f5ffadf25c9ba252728600af427c03
 Section: Tweaks
 Description: QQ设置-辅助功能-右上角开启 支持9.0.20+
 Author: x✨
