@@ -1856,23 +1856,6 @@ Author: dvntm
 Icon: https://raw.githubusercontent.com/dayanch96/icons/main/TwitchDvn.png
 Name: TwitchDvnloader
 
-Package: com.edge.siri
-Version: 3.1.1-9
-Architecture: iphoneos-arm64
-Maintainer: tangerine
-Installed-Size: 204
-Depends: mobilesubstrate
-Filename: ./debs/EdgeSiri_3.1.1-9_iphoneos-arm64.deb
-Size: 15252
-MD5sum: f205ca23b6e6b15fb229a33963711ccd
-SHA1: 6abae7e05abd9e307dcbccff3ca5b98783e6785f
-SHA256: a29d4bd052925436ef3252e641696bed24d7a7a8f66f396951f4b9b67f3e6915
-Section: Axs-Tweaks
-Description: 模仿iOS18唤醒Siri边框效果，无设置项。安装即生效-----EdgeSiri是一款为 iOS设计的越狱插件，它能够在 Siri 激活时在屏幕周围显示彩色边框。这个边框不仅增加了视觉吸引力，还能在 Siri 被使用时提供更加直观的反馈。
-Author: tangerine
-Name: EdgeSiri
-Sileodepiction: https://axs6.github.io/repo/sileodepiction/edgesiri/js.json
-
 Package: com.eliassfeir.smartnetwork
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -4774,6 +4757,22 @@ Description: 自用 越狱食用
 Author: x✨
 Name: 抖音图层
 
+Package: com.xx.dyhook
+Version: 2.0.5-1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 9188
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.5-1_iphoneos-arm64.deb
+Size: 3209540
+MD5sum: becd76b3e062933b25e89d6c1d6e0eb1
+SHA1: a2001b88d8555d5bdf248737980a12cf2d91fac8
+SHA256: 6b32ad8dcf99ddef716b3b7e97c07af80d1251a70f10f4a8cbf033dd9566f1d0
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
 Package: com.xx.ecnyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -5107,6 +5106,22 @@ SHA1: d528fc94dc617940308966893e69aba04252e505
 SHA256: 85608ef8c29e92c6b9b6dd8143f42a3c0cbf5c6b88e386bee6203f9e993a53bd
 Section: Tweaks
 Description: 自用 | 看剧 短剧 漫画 听书 音乐 无广告 移除看剧VPN检测 其余检测未去除 | 仅越狱使用 仅支持215版本
+Author: x✨
+Name: iBoxNoAds
+
+Package: com.xx.iboxhook
+Version: 1.0.9
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 304
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.iboxhook_1.0.9_iphoneos-arm64.deb
+Size: 88348
+MD5sum: c558aefb19cd0cb089b3334a7cc9106d
+SHA1: 821f7b12497ae838b8c705df1ca333474bee4a5d
+SHA256: 093a4fcd16b84f50ee3a9efcefb8a2bd2485ee705f0dbf993367c0e4caccb6b5
+Section: Tweaks
+Description: 自用 | 看剧 短剧 漫画 听书 音乐 无广告 移除VPN检测 移除开屏Ads | 仅越狱使用 更新支持216版本
 Author: x✨
 Name: iBoxNoAds
 
@@ -8019,6 +8034,22 @@ Section: Tweaks
 Description: ShortLook将显示您的通知。当您收到通知时，ShortLook会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。它尽可能不引人注目，只要你点击屏幕或“唤醒”，它就会消失。它的可配置UI和行为确保ShortLook按照您希望的方式工作。注意：需要安装oldabi兼容层，15.4.1测试OK，16系统自测，不行就卸载吧（由M哥修复并汉化支持Xina2.0）！！
 Author: Dynastic
 Name: ShortLook_Xina2_Rootless
+
+Package: siri
+Version: 3.1.1-9
+Architecture: iphoneos-arm64
+Maintainer: tangerine
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/siri_3.1.1-9_iphoneos-arm64.deb
+Size: 15208
+MD5sum: ccefbf8cf2638273a847c06db55b523d
+SHA1: 33654648b67976004b3f97aff19d509b56cf5088
+SHA256: 44a96c1e5161d7a3d9663b1a85833ad1ee7a828d050ec2d3ff148f523003e5a0
+Section: Tweaks
+Description: 模仿iOS18唤醒Siri边框效果，无设置项。安装即生效-----EdgeSiri是一款为 iOS设计的越狱插件，它能够在 Siri 激活时在屏幕周围显示彩色边框。这个边框不仅增加了视觉吸引力，还能在 Siri 被使用时提供更加直观的反馈。
+Author: tangerine
+Name: EdgeSiri
 
 Package: siriplus
 Version: 1.0
