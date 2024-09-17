@@ -1856,6 +1856,23 @@ Author: dvntm
 Icon: https://raw.githubusercontent.com/dayanch96/icons/main/TwitchDvn.png
 Name: TwitchDvnloader
 
+Package: com.edge.siri
+Version: 3.1.1-9
+Architecture: iphoneos-arm64
+Maintainer: tangerine
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: ./debs/EdgeSiri_3.1.1-9_iphoneos-arm64.deb
+Size: 15252
+MD5sum: f205ca23b6e6b15fb229a33963711ccd
+SHA1: 6abae7e05abd9e307dcbccff3ca5b98783e6785f
+SHA256: a29d4bd052925436ef3252e641696bed24d7a7a8f66f396951f4b9b67f3e6915
+Section: Axs-Tweaks
+Description: 模仿iOS18唤醒Siri边框效果，无设置项。安装即生效-----EdgeSiri是一款为 iOS设计的越狱插件，它能够在 Siri 激活时在屏幕周围显示彩色边框。这个边框不仅增加了视觉吸引力，还能在 Siri 被使用时提供更加直观的反馈。
+Author: tangerine
+Name: EdgeSiri
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/edgesiri/js.json
+
 Package: com.eliassfeir.smartnetwork
 Version: 1.1
 Architecture: iphoneos-arm64
