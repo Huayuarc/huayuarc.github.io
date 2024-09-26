@@ -4803,6 +4803,22 @@ Description: 自用 越狱食用
 Author: x✨
 Name: 抖音图层
 
+Package: com.xx.dyhook
+Version: 2.0.5-2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 9332
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.5-2_iphoneos-arm64.deb
+Size: 3258888
+MD5sum: 499e558ef0ebf6db9551c6d202bf904f
+SHA1: a10e8eb314bcc1420d84c094dc8b87163b2917e5
+SHA256: f7fbb1a5ba279e39754d1fbefb283248c565af20cd38acf5c5ac17fd17e02572
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
 Package: com.xx.ecnyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -5376,6 +5392,22 @@ SHA1: 68045df914780a6a0a1a959019a8e6843d2d3e2d
 SHA256: abc6839a15502e43989464b20ba95099cffa83c89c22de0cf6858a01c1122236
 Section: Tweaks
 Description: 插件入口：依次点击-我-右上角三横-空白处长按打开菜单开启功能 或 在设置右上角打开 | 功能；移除一些广告 弹窗 无水印保存视频图片
+Author: x✨
+Name: 快手Hook
+
+Package: com.xx.kshook
+Version: 1.0.6-3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 2784
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.kshook_1.0.6-3_iphoneos-arm64.deb
+Size: 948262
+MD5sum: a6915284a8ef5d32ff73a2cb3f157983
+SHA1: 2c23217a6590c230c899712e3d6a113652b169ae
+SHA256: e3fe6c8210c8645e382570801b6c43702db9f50e2e75ede02c71bbd0e45e7a41
+Section: Tweaks
+Description: 插件入口：依次点击-我-右上角三横-空白处长按打开菜单开启功能 或 在设置右上角打开 | 功能；移除一些广告 弹窗 无水印保存视频图片。1.0.6-3 移除限制
 Author: x✨
 Name: 快手Hook
 
@@ -6096,6 +6128,22 @@ SHA1: 58bfdde84782f7570be0baf6a297900e677f11df
 SHA256: c80e7d31f745a8faa3120d868b4b142934465f741af6afeefe8045f78975965b
 Section: Tweaks
 Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片 长按文案复制. 1.0.9：新增头像与背景下载.
+Author: x✨
+Name: 小红薯
+
+Package: com.xx.xhshook
+Version: 1.1.0-2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 3192
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.xhshook_1.1.0-2_iphoneos-arm64.deb
+Size: 1108242
+MD5sum: a7829775e125cae8959a7b06a6a4fb65
+SHA1: d15e064e5e729ea6205b7414395b6ded2cae2917
+SHA256: 4611f12adcc5ab820a73ac50a385ef12f1bbc2a2964da425bce81dfe799ca634
+Section: Tweaks
+Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片 长按文案复制
 Author: x✨
 Name: 小红薯
 
