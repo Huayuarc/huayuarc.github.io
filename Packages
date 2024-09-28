@@ -2227,6 +2227,25 @@ Depiction: https://chariz.com/buy/misaki
 Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
 Name: Misaki
 
+Package: com.hitori.misaki
+Version: 2.1.8
+Architecture: iphoneos-arm64
+Maintainer: Hitori <mikasa-san@outlook.jp>
+Installed-Size: 1060
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/com.hitori.misaki_2.1.8_iphoneos-arm64.deb
+Size: 303180
+MD5sum: d058340cae4c0e35a4ff308d4a7a6cec
+SHA1: 30e1107f49db16f2ff37fc10ead68bda830302f4
+SHA256: a8489e86fd804ae0cb65d79b20852b9fcd18d7b375effd3cbff414ae1f5e2e38
+Section: Tweaks
+Description: 使用Misaki定制您的iOS 15和16体验。定制选项，让您的iPhone真正属于您。
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: Hitori <mikasa-san@outlook.jp>
+Depiction: https://chariz.com/buy/misaki
+Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
+Name: Misaki
+
 Package: com.homescreen
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -4814,6 +4833,22 @@ Size: 3258888
 MD5sum: 499e558ef0ebf6db9551c6d202bf904f
 SHA1: a10e8eb314bcc1420d84c094dc8b87163b2917e5
 SHA256: f7fbb1a5ba279e39754d1fbefb283248c565af20cd38acf5c5ac17fd17e02572
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.dyhook
+Version: 2.0.5-3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 9352
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.5-3_iphoneos-arm64.deb
+Size: 3270918
+MD5sum: 44e876efc48db7ce05d94d430ee015dd
+SHA1: a4a708a91663ad56434fcec97b70775e7421186e
+SHA256: a35730c7f7f8b8c287d3e4182bf2565e78994ce3c82f3d04084f9a1d81b1ccc3
 Section: Tweaks
 Description: 自用 越狱食用
 Author: x✨
