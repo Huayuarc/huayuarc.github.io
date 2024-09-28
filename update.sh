@@ -1,4 +1,5 @@
 #!/bin/bash
+
 dpkg-scanpackages -m . /dev/null > Packages
 bzip2 -c Packages > Packages.bz2
 xz -c Packages > Packages.xz
