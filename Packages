@@ -1781,6 +1781,24 @@ Description: 携程旅行去广告
 Author: M哥
 Name: 携程旅行去广告NoAd-rootless
 
+Package: com.curtin.pkc.rootless
+Version: 0.6-0
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/PKC_无根_0.6-0.deb
+Size: 595468
+MD5sum: b7d4da970c0023b069d7d6b4694e596c
+SHA1: 6c868a3ffb1e21117f6508d4212cf6f1d2c914af
+SHA256: 44eccf524335ab56464e5864e9480e7d20da320b3a7b7817596c7b4d10b1bdaf
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_无根
+
 Package: com.cydiageek.smoothlockx
 Version: 1.4.9
 Architecture: iphoneos-arm64
