@@ -284,6 +284,21 @@ Author: AnthoPak
 Icon: https://img.chariz.cloud/icon/bluefinder/icon@3x.png
 Name: BlueFinder
 
+Package: bridge
+Version: 1.1
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/bridge_1.1_iphoneos-arm64.deb
+Size: 4946284
+MD5sum: b0a7665b809a1b7da6d0e38d3d1c8525
+SHA1: 0c7f3fde076ba3a926d349c194a978962f46b51b
+SHA256: 17be5222421318a625dd751cf3dab8effe06843746b22d5cd15d7fa40a73e1fd
+Section: Tweaks
+Description: Apple Watch主屏幕体验带给iOS。
+Author: MTAC, ETHN
+Icon: https://repo.cypwn.xyz/packages/Bridge-Rootless/icon.png
+Name: Bridge
+
 Package: callassist15
 Version: 2.2.2
 Architecture: iphoneos-arm64
