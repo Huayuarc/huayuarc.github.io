@@ -2310,6 +2310,21 @@ Description: 隐藏截图预览、屏蔽设备无SIM卡弹窗、隐藏应用程�
 Author: M哥
 Name: 主屏幕优化-rootless
 
+Package: com.huami.DYYY
+Version: 1.2
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.huami.DYYY_1.2_iphoneos-arm64_rootless.deb
+Size: 646188
+MD5sum: 7bf668c465834a8e22c61b0e375e6a39
+SHA1: 4ea557aef501db140469d608c3f2604abb5a132f
+SHA256: 73bd954ba20712658163ebd0162da045565a9c7098fa0c2fcfc211ce6277e863
+Section: Tweaks
+Priority: optional
+Description: 仅供学习交流，请在24内小时内自觉删除
+Author: huami
+Name: DYYY
+
 Package: com.huayuarc.rootless.vfa
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -4913,6 +4928,22 @@ Size: 3298236
 MD5sum: ed054e199790383afd5335c70420765e
 SHA1: 5b81fac37693119bc0c2455e565b6834e61d2256
 SHA256: 952f6f72be88e61944a0d79b052f612a22506520f1257b0bfbd9a256c3c575d1
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.dyhook
+Version: 2.0.6
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 10588
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.6_iphoneos-arm64.deb
+Size: 3729756
+MD5sum: 44c58fe9c26732ff35059fd0e663523f
+SHA1: abd0b9f118a599644454ad4d45ee82f8ee446766
+SHA256: 024e23ee4154be9473f0380535c97c669890fe7a57fe84e110f8a49993b41455
 Section: Tweaks
 Description: 自用 越狱食用
 Author: x✨
