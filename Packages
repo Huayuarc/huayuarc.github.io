@@ -2340,6 +2340,36 @@ Description: 仅供学习交流，请在24内小时内自觉删除
 Author: huami
 Name: DYYY
 
+Package: com.huami.DYYY
+Version: 1.3
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.huami.DYYY_1.3_iphoneos-arm64_rootless.deb
+Size: 22010
+MD5sum: 4db83d8b93f70ce87a93c830c572300a
+SHA1: 838ee06b2315269dc6f540da6cdd0c3274fcfdc8
+SHA256: 9b852c2382c9052c0f07c78e647c1af7075d024a839cce7a166e8e5e4947d812
+Section: Tweaks
+Priority: optional
+Description: 仅供学习交流，请在24内小时内自觉删除
+Author: huami
+Name: DYYY
+
+Package: com.huami.DYYY
+Version: 1.4
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.huami.DYYY_1.4_iphoneos-arm64_rootless.deb
+Size: 25592
+MD5sum: 7b77ef14cece2658d8c6b3894cd245c7
+SHA1: 48dddc6400e66d79d5a184639bf992e35b5484f5
+SHA256: 3e72ff3afc48295d9a291ed62c927d2aca669c2dda53b582aa4bc532c98d03e1
+Section: Tweaks
+Priority: optional
+Description: 仅供学习交流，请在24内小时内自觉删除
+Author: huami
+Name: DYYY
+
 Package: com.huayuarc.rootless.vfa
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -2762,6 +2792,22 @@ Section: Tweaks
 Description: iOS 16上的浮动Dock（M哥汉化）
 Author: Ethan Whited
 Name: FloatingDockXVI
+
+Package: com.netskao.awemedisablebar
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 172
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemedisablebar_1.1-2_iphoneos-arm64.deb
+Size: 41244
+MD5sum: d76ea8c568bfba50cd380a2c58a310c8
+SHA1: 77bdb2feddecb19cc0c4f92f2e795b9898d6f44b
+SHA256: ba0e6fd27bc141352ac2dac28588d557d34010c984b4f8ed7ab1395537693dd4
+Section: Netskao-Tweaks
+Description: Aweme Disable Top/Bottom Tab Button. Tested only on version 30.3.0 and above
+Author: Netskao
+Name: AwemeDisableBar
 
 Package: com.netskao.dumpdecrypter
 Version: 1.4-1
@@ -4975,6 +5021,22 @@ Size: 3742552
 MD5sum: 1e73161ad8c9cb009ca9dcff3ab86a3a
 SHA1: 2e1ccd7d5f9101d99158b62c7d316c2ea8749ca5
 SHA256: 804c53e36d407e6d0a90d445e7db42ada5e52c9be9ebb4e89582ddc405e05d61
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.dyhook
+Version: 2.0.6+3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 10992
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.6+3_iphoneos-arm64.deb
+Size: 3872568
+MD5sum: 90a9bc6feb5f99408ccdbd6e139187f0
+SHA1: e4705767eccfbd0ef7d4ed60da67162430df3fe4
+SHA256: c6398bce6d6b51598fb6957cdbbe0369667542bd52b79b4e9fdbeb431d54e802
 Section: Tweaks
 Description: 自用 越狱食用
 Author: x✨
