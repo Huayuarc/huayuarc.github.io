@@ -2660,6 +2660,22 @@ Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
 
+Package: com.liuf.jpyj
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: liuf <(null)>
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: ./debs/com.liuf.jpyj_0.0.1_iphoneos-arm64.deb
+Size: 3688
+MD5sum: d4cca8930d0d025ad7a88f05b89fcf79
+SHA1: c7891d7a7f3a67ee10e2e797af3672c5029442d9
+SHA256: a75b1349e5ce25c6dead1943ef3420ff2424cc4edc8ee15cc312227dfb8567ef
+Section: Tweaks
+Description: 系统键盘圆角
+Author: liuf <(null)>
+Name: 系统键盘圆角
+
 Package: com.live4iphonerel
 Version: 1.0
 Architecture: iphoneos-arm64
