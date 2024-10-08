@@ -8251,6 +8251,22 @@ Author: 0xkuj
 Name: SafariX
 Sponsor: M哥
 
+Package: safarix
+Version: 1.5.3
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 744
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/safarix_1.5.3_iphoneos-arm64.deb
+Size: 273028
+MD5sum: ef4539420b5eb4d58cc24388d47d8b4d
+SHA1: b67360b8b3c0899ab0ec7e7ceb5f0ebe9c8b3411
+SHA256: 65e035b0dd3a9a3270ed46deb79cb47b292d5674a41aaf22488c64f8a2ca0e37
+Section: Tweaks
+Description: Safari Essential Features
+Author: 0xkuj
+Name: SafariX
+
 Package: sakal
 Version: 2.1.9
 Architecture: iphoneos-arm64
