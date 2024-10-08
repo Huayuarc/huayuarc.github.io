@@ -2370,6 +2370,21 @@ Description: 仅供学习交流，请在24内小时内自觉删除
 Author: huami
 Name: DYYY
 
+Package: com.huami.DYYY
+Version: 1.4-1
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.huami.DYYY_1.4-1_iphoneos-arm64_rootless.deb
+Size: 25814
+MD5sum: 45e80187d309b14954bc6f8c89117b45
+SHA1: a1e041b8469ab3a761a3ee45000009e21da6d824
+SHA256: 53e003ab189d3bbdecc67729de4062a48321644266f0c0d3783aee1d04df716c
+Section: Tweaks
+Priority: optional
+Description: 仅供学习交流，请在24内小时内自觉删除
+Author: huami
+Name: DYYY
+
 Package: com.huayuarc.rootless.vfa
 Version: 1.1
 Architecture: iphoneos-arm64
