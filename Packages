@@ -1531,6 +1531,21 @@ Description: 阻止指定的应用程序重定向到App Store、Safari或其他�
 Author: Lessica <82flex@gmail.com>
 Name: No Redirect
 
+Package: com.BeanbunsHelpers.DB
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: Beanbuns
+Depends: mobilesubstrate
+Filename: ./debs/com.BeanbunsHelpers.DB_1.0-1_iphoneos-arm64.deb
+Size: 465804
+MD5sum: 0f86436caac0547a33cc3d9299d19da2
+SHA1: 21bb4e566c27286b4eca333177b212d31e7b8672
+SHA256: d2dd7a49c8de1ee6acb08f9dbca3b12763631f627e7dd45b4fa6a3c3a37a74e5
+Section: Tweaks
+Description: 豆包助手(DouYin)抖音项目（仅供逆向学习），给自己的小抖音添加一些小功能
+Author: Beanbuns
+Name: 豆包助手-Rootless
+
 Package: com.HBWechatHelper.ailun
 Version: 1.7.1
 Architecture: iphoneos-arm64
