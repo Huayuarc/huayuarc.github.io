@@ -66,6 +66,22 @@ Description: iOS 16风格的时间和日期锁屏
 Author: alimaulana
 Name: AIM Pro
 
+Package: airpodscompanion
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 10704
+Depends: preferenceloader
+Filename: ./debs/airpodscompanion_1.5_iphoneos-arm64.deb
+Size: 10268776
+MD5sum: 36eb255f6e055623a15cfbf52b7ab5e3
+SHA1: b7d3f4564590b65dbd2c5fa74bdc2bfc9a546ae7
+SHA256: cd4e6df52cc7e1dc9313cc5a485334b794ee42d57d17f91124351ab2a6d7ffc2
+Section: Tweaks
+Description: 音量滑块旁边的浮动噪音消除控制。
+Author: Ethan Whited
+Name: AirpodsCompanion
+
 Package: akara
 Version: 2.0.0
 Architecture: iphoneos-arm64
@@ -2426,6 +2442,21 @@ Size: 25814
 MD5sum: 45e80187d309b14954bc6f8c89117b45
 SHA1: a1e041b8469ab3a761a3ee45000009e21da6d824
 SHA256: 53e003ab189d3bbdecc67729de4062a48321644266f0c0d3783aee1d04df716c
+Section: Tweaks
+Priority: optional
+Description: 仅供学习交流，请在24内小时内自觉删除
+Author: huami
+Name: DYYY
+
+Package: com.huami.DYYY
+Version: 1.4-2
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.huami.DYYY_1.4-2_iphoneos-arm64_rootless.deb
+Size: 25598
+MD5sum: fb1a18fa1971a88443b63d62fba2f5c9
+SHA1: 77a74d1dbc1c73f04a03faca7c5687f58268123f
+SHA256: bcd9128c0b734942ef1fac48c4310baee58489d5bd46afde248660c1548af409
 Section: Tweaks
 Priority: optional
 Description: 仅供学习交流，请在24内小时内自觉删除
