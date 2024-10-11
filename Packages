@@ -8440,6 +8440,22 @@ Description: Safari Essential Features
 Author: 0xkuj
 Name: SafariX
 
+Package: safarix
+Version: 1.7.1
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 748
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/safarix_1.7.1_iphoneos-arm64.deb
+Size: 275188
+MD5sum: 9fda701d4100670ad94f53abde5edff4
+SHA1: bf2c462da59a5e130c21aa54f21169df5ebe1c41
+SHA256: 6a85e370259fdb506478c18f6eefce50d796efece6814396d00a82872c818714
+Section: Tweaks
+Description: Safari Essential Features
+Author: 0xkuj
+Name: SafariX
+
 Package: sakal
 Version: 2.1.9
 Architecture: iphoneos-arm64
