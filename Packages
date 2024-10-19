@@ -2049,6 +2049,22 @@ Description: 去除微信的公众号/订阅号/文章的广告。
 Author: 秋名山
 Name: 微信免广告(rootless)
 
+Package: com.dao.replaced
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Little 34306
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.34306.replaced
+Filename: ./debs/replaced(rootless)_1.0_iphoneos-arm64.deb
+Size: 3340
+MD5sum: 6387c0088f9a18b917ff9d34e9ece025
+SHA1: 3eda44d38b387d5a12988c8db537d3ff2c39ec9d
+SHA256: 041fdcb7b7244b654eda1327d815d8d2880fdb7ff7bb13523c8e5292f5356fd9
+Section: 嗨-工具
+Description: 删除“关于页面”中的“未知部件”或“部件和服务历史记录”（更换的组件，如电池、摄像头、显示通知）。
+Author: 34306
+Name: replaced(rootless)
+
 Package: com.daodao.wicellswitcher
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -6744,6 +6760,22 @@ Description: 下面的自定义文本按主页打开/向上滑动解锁更多！
 Author: CydiaGeek <lucaluca86@aol.com>
 Icon: file:///Library/PreferenceBundles/Cthulhu.bundle/icon@2x.png
 Name: Cthulhu
+
+Package: datasource
+Version: 1.0-2+debug
+Architecture: iphoneos-arm64
+Maintainer: z
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/datasource_1.0-2+debug_594599.deb
+Size: 3936
+MD5sum: 2b94ab774d3e1f1060d977dc0a2e9cbb
+SHA1: fee7b3b86cd29411d031976c0abbdeb1ae864e64
+SHA256: 120d61a5b2f3a61a4341384e3c38d877339d0a5bd40054659e1224b54d267432
+Section: Tweaks
+Description: 屏蔽更换配件后设置和关于本机里面的重要提醒
+Author: z
+Name: 屏蔽设置重要提醒
 
 Package: declinecalls
 Version: 1.0
