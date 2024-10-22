@@ -1468,6 +1468,24 @@ Icon: https://repo.abox.plus/api/packageinfo/cn.swing.trip/icon.png
 Name: TripNoSplash
 Sileodepiction: https://repo.abox.plus/depictions/native/cn.swing.trip.json
 
+Package: cn.zqbb.appdata
+Version: 1.3.6-2
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 340
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.fouadraheb.appdata, netskao.appdata-rootless
+Filename: ./debs/cn.zqbb.appdata_1.3.6-2_iphoneos-arm64.deb
+Size: 75718
+MD5sum: b060712ca90a8d688db0571c31488abe
+SHA1: de6cc0cf5279e875621123060c60db0d2da57942
+SHA256: a84f1036a0cde178399e7f55c0cd2a14324ab59afb9d1e5dd3de9b1fc9f235c0
+Section: Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb <support@fouadraheb.com>
+Name: Hello AppData
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.appdata
+
 Package: co.dynastic.ios.lib.flora
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -2000,22 +2018,6 @@ Icon: file:///Library/PreferenceBundles/SmoothLockX.bundle/SmoothLockX@2x.png
 Name: SmoothLockX
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.dao.appdata
-Version: 1.4.2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdata, netskao.appdata-rootless
-Filename: ./debs/AppData(rootless).deb
-Size: 822848
-MD5sum: 26b008393d3e574db408ed00576c4454
-SHA1: 65ce516c72783351eb95f665e7d985700de45ac5
-SHA256: 90006809eaf1e0b7323440e8e3a08baf7e305c203def8ba7605c317ae7809942
-Section: 嗨-工具
-Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据的快捷工具。Netskao新更的版本，上架备份。
-Author: Fouad Raheb
-Name: AppData(rootless)
-
 Package: com.dao.bigshotsnapper3plugin
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -2080,6 +2082,28 @@ Section: M哥
 Description: WiFi和蜂窝数据之间智能切换，控制中心连接WiFi关闭蜂窝，连接蜂窝关闭WiFi，或者断开连接时触发。Skypain基于i_82修复支持iOS15的源码，编译支持rootless。
 Author: Bruno Andrade <brubiluco@globo.com>
 Name: WiCellSwitcher(rootless)
+
+Package: com.dumpapp.wechat-rootlesss
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Maintainer: WeChat
+Installed-Size: 24000
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: com.dumpapp.wechat-rootless, netskao.wechatpurifications, netskao.wechatpurification, byg.iosios.net.dumpapp.wechat-rootless
+Filename: ./debs/com.dumpapp.wechat-rootlesss_2.0.2_iphoneos-arm64.deb
+Size: 9339224
+MD5sum: 99f98ccc8012b1ade21c9d799e5d3d1b
+SHA1: 62fec8b253e760047c710bdf616664ede8fa483d
+SHA256: 6d6c0363040b14910aac44034dc472eac64c43a6199c481d14b0a9e8c0d89785
+Section: 微信插件
+Description: 微信插件
+ * 微信多功能插件
+ * 1:1 复刻“微信净化”插件，功能一模一样
+ * ⚠️注意：不可与“微信净化”共存
+Author: DumpApp
+Icon: https://TrollStoreX.Github.io/sileodepiction/DumpApp/icon.png
+Name: 锤子助手
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/DumpApp/js.json
 
 Package: com.eliassfeir.smartnetwork
 Version: 1.1
@@ -2985,6 +3009,23 @@ Section: Tweaks
 Description: iOS 16上的浮动Dock（M哥汉化）
 Author: Ethan Whited
 Name: FloatingDockXVI
+
+Package: com.netskao.appdata
+Version: 1.4.3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 12532
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.netskao.appdata_1.4.3_iphoneos-arm64.deb
+Size: 4626316
+MD5sum: c259c30da025ffd154ecb96eefc2aa17
+SHA1: ad1cd050162ac7c3686d3ead6e152a04f33fc989
+SHA256: 85f42c864b90f7a2226fec98f6ae8c9d2c30bd816a38a9d9349559944f335805
+Section: Netskao-Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb
+Name: AppData
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
 
 Package: com.netskao.awemedisablebar
 Version: 1.1-2
@@ -5262,6 +5303,22 @@ Size: 3995092
 MD5sum: 765052ab3a4738d27e86619045498835
 SHA1: e6b1b29faddbb77269ceace222087b60b3518ad8
 SHA256: 898799a017b48d1fc29c50bf62166062ed79a93a67f58e044179758f77ffac2d
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.dyhook
+Version: 2.0.7
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 11788
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.7_iphoneos-arm64.deb
+Size: 4174344
+MD5sum: 0ed317b7f80ca326a03be0006c6e0547
+SHA1: f58ff5989db2768848f6adc206d3e28ad41ebffd
+SHA256: ca5da6c65332d964c75b4fddbda737cc813234fa57da26e7f5f1b82aee1501be
 Section: Tweaks
 Description: 自用 越狱食用
 Author: x✨
