@@ -2793,6 +2793,27 @@ Dev: kingpuffdaddi
 Icon: file:///Library/ControlCenter/Bundles/CCVPN.bundle/Icon@2x.png
 Name: CCVPN
 
+Package: com.kingpuffdaddi.control-center.ccvpn
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 187
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.ccsupport
+Filename: ./debs/com.kingpuffdaddi.control-center.ccvpn_1.0.6_153282.deb
+Size: 15216
+MD5sum: 92b2ebe26ff0023b260c39413cffbe80
+SHA1: 881eaeb8f9c22be798e65478940783ad672b0753
+SHA256: e65eafb89e52fef08e814323e43c1d5c7474955dc401504fd1783ff536fc6955
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+Description: A Control Center Module to connect/disconnect VPN
+Tag: purpose::extension
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+Dev: kingpuffdaddi
+Icon: file:///Library/ControlCenter/Bundles/CCVPN.bundle/Icon@2x.png
+Name: CCVPN
+
 Package: com.lclrc.hammerit
 Version: 1.2.7
 Architecture: iphoneos-arm64
@@ -8962,6 +8983,22 @@ SHA1: 0badf0312b21701c62271fd9ff9bb46effaeddcb
 SHA256: 246d26427f45cbe9eef913ca85a101269a44d04c8a06f117c1622f98797c5bd8
 Section: Tweaks
 Description: 智能控制vpn启用的应用程序。
+Author: b4db1r3
+Name: SmartVPN
+
+Package: smartvpn
+Version: 2.5
+Architecture: iphoneos-arm64
+Maintainer: b4db1r3
+Installed-Size: 424
+Depends: mobilesubstrate (>= 0.9.5000), com.kingpuffdaddi.control-center.ccvpn, com.opa334.altlist
+Filename: ./debs/smartvpn_2.5_iphoneos-arm64.deb
+Size: 44880
+MD5sum: b890fa6ee3f4cc4a430fbdb3fed6e5ad
+SHA1: 765f4ff2a8be1b9c56e893d68d1866ff2f211405
+SHA256: 6b18be9d24ea19c95fbf509bcaa0e078826f389b8a863ad9040f58c981796f8b
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
 Author: b4db1r3
 Name: SmartVPN
 
