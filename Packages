@@ -2118,26 +2118,6 @@ Description: The most complete tweak to customize WiFi / mobile data and Bluetoo
 Author: elias
 Name: SmartNetwork iOS 15-16
 
-Package: com.exile90.icleanerpro
-Version: 7.10.0
-Architecture: iphoneos-arm64
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: ./debs/iCleaner Pro_7.10.0_iphoneos-arm64.deb
-Size: 978204
-MD5sum: df75acde1146923fbf41f95b075cc06e
-SHA1: c1a8bace0326530adb0d20b0924c7a71af142ee8
-SHA256: 6d8402fdd8d72b7ddc658d1d6f821ba9f424b5d99a5e6ce514bcdb1badc65fc7
-Section: Utilities
-Homepage: http://ib-soft.net/icleaner
-Description: The first real iOS system cleanup and management utility
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: file:///Applications/iCleaner.app/Icon.png
-Name: iCleaner Pro
-
 Package: com.hitori.misaki
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -7396,6 +7376,22 @@ Depiction: https://mtac.app/repo/depiction/web/com.mtac.hydra.html
 Icon: https://mtac.app/repo/assets/com.mtac.hydra/icon-rounded.png
 Name: Hydra
 Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.hydra.json
+
+Package: icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: Ivano Bilenchi
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
+Filename: ./debs/icleanerpro_7.10.0_iphoneos-arm64.deb
+Size: 1101628
+MD5sum: 331d8d6752355417416db87f49e0765b
+SHA1: 341168b3b76d9a7d2e9291403a5eee1ceed86176
+SHA256: bd75aa276e5303e2cdae529105a68797ed1ad68c58ff8d843dca7a572c945661
+Section: tweaks
+Description: 破解版iOS系统清理工具，默认简体中文。
+Author: Ivano Bilenchi
+Name: iCleaner Pro(rootless)
 
 Package: intelligentpass5
 Version: 1.0.2
