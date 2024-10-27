@@ -2069,22 +2069,6 @@ Description: 去除微信的公众号/订阅号/文章的广告。
 Author: 秋名山
 Name: 微信免广告(rootless)
 
-Package: com.dao.replaced
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Little 34306
-Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: com.34306.replaced
-Filename: ./debs/replaced(rootless)_1.0_iphoneos-arm64.deb
-Size: 3340
-MD5sum: 6387c0088f9a18b917ff9d34e9ece025
-SHA1: 3eda44d38b387d5a12988c8db537d3ff2c39ec9d
-SHA256: 041fdcb7b7244b654eda1327d815d8d2880fdb7ff7bb13523c8e5292f5356fd9
-Section: 嗨-工具
-Description: 删除“关于页面”中的“未知部件”或“部件和服务历史记录”（更换的组件，如电池、摄像头、显示通知）。
-Author: 34306
-Name: replaced(rootless)
-
 Package: com.daodao.wicellswitcher
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -2101,27 +2085,21 @@ Description: WiFi和蜂窝数据之间智能切换，控制中心连接WiFi关�
 Author: Bruno Andrade <brubiluco@globo.com>
 Name: WiCellSwitcher(rootless)
 
-Package: com.dumpapp.wechat-rootlesss
-Version: 2.0.2
+Package: com.dumpapp.wechat-rootless
+Version: 2.0.3
 Architecture: iphoneos-arm64
 Maintainer: WeChat
-Installed-Size: 24000
+Installed-Size: 23984
 Depends: mobilesubstrate, firmware (>= 12.0)
-Conflicts: com.dumpapp.wechat-rootless, netskao.wechatpurifications, netskao.wechatpurification, byg.iosios.net.dumpapp.wechat-rootless
-Filename: ./debs/com.dumpapp.wechat-rootlesss_2.0.2_iphoneos-arm64.deb
-Size: 9359056
-MD5sum: 83152a020d9a83a1af825f62193f24fa
-SHA1: b55c8b5a1cd6da31bab584ee83798a0545453e13
-SHA256: 7e3f4b4d7048b65af4781aa2f15dd4df1d641c7cd82bac08c1cfaa9bc8a282f1
-Section: 微信插件
-Description: 微信插件
- * 微信多功能插件
- * 1:1 复刻“微信净化”插件，功能一模一样
- * ⚠️注意：不可与“微信净化”共存
+Filename: ./debs/com.dumpapp.wechat-rootless_2.0.3_iphoneos-arm64.deb
+Size: 9333520
+MD5sum: a02219c15920c136e67ea9ea5591a8f2
+SHA1: 929704bf843ff16b2df49168506b847de30371f2
+SHA256: 60a2e03a268442a56ad6ef675b13bac0c35623e6b92fe8744d8e001b62165111
+Section: Tweaks
+Description: 锤子助手插件
 Author: DumpApp
-Icon: https://TrollStoreX.Github.io/sileodepiction/DumpApp/icon.png
-Name: 锤子助手
-Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/DumpApp/js.json
+Name: 锤子助手-Rootless
 
 Package: com.eliassfeir.smartnetwork
 Version: 1.1
@@ -2598,6 +2576,22 @@ Size: 26698
 MD5sum: 534a88b400d9c94cdeb8b6400ec4ab0d
 SHA1: 2288a9b04e61063f54e94084d8a440a1765a77a1
 SHA256: 8e45ba137f7902206fa9d05eaa048bb1b06e70ad69f2612bf9dd1d06423be64b
+Section: Tweaks
+Priority: optional
+Description: 仅供学习交流，请在24内小时内自觉删除
+Author: huami
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 1.6-2
+Architecture: iphoneos-arm64
+Installed-Size: 220
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.huami.dyyy_1.6-2_iphoneos-arm64.deb
+Size: 19088
+MD5sum: a7033b75c049d6e1ca63d20b918ec789
+SHA1: ae4ce870c23738d9a63e8e6f961c29320363b82f
+SHA256: 590273e51b55355157aedf74ec3f63391bd7680119e16739024e611768f6d89f
 Section: Tweaks
 Priority: optional
 Description: 仅供学习交流，请在24内小时内自觉删除
@@ -5389,6 +5383,22 @@ Size: 4268324
 MD5sum: 2c98f590bc809c0893c54cfc17e507b7
 SHA1: 49e2195be002bb51ef00acf706423eb8b4d1e03f
 SHA256: 4ab826fa188f7ffffc969410a153b14a9eaef61ea96aa20cfbd59ba45efc675f
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.dyhook
+Version: 2.0.7+2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 12952
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.7+2_iphoneos-arm64.deb
+Size: 4477560
+MD5sum: ae5533428ea9e73392b97e8f6b144ea2
+SHA1: 4d080b4d922d9716e45ebc55cccd22a46a749546
+SHA256: 6c8b41059780aaab4ac6ec7bcaff3ee9a8957aea85754aad1412a5ccfc70e6d7
 Section: Tweaks
 Description: 自用 越狱食用
 Author: x✨
@@ -8475,6 +8485,25 @@ Section: Tweaks
 Description: 删除照片应用程序上的图片无需确认，照片放大不受限制。
 Author: Snail
 Name: PhotoSkipDelAndInfiniteZoom
+
+Package: popoutbuttons
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: tesla_man <computerman939+POBsupport@gmail.com>
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Filename: ./debs/popoutbuttons_1.0.0_iphoneos-arm64.deb
+Size: 54436
+MD5sum: ed3438ae09ea8f782be03eea0c4af723
+SHA1: 131b3156a8b8d95ffe6166ec390814889843302d
+SHA256: 70bc0f401d2568aeeb84b89be0400913cd0b9748b877a4a6bfc50c71bd77363a
+Section: Tweaks
+Description: PopOutButtons将iOS 18按钮弹出到iOS 13-17。（由M哥汉化）
+Tag: compatible_min::ios13.0
+Author: tesla_man <computerman939+POBsupport@gmail.com>
+Depiction: https://chariz.com/get/popoutbuttons
+Icon: https://img.chariz.cloud/icon/popoutbuttons/icon@3x.png
+Name: PopOutButtons
 
 Package: power4options
 Version: 3.0-1
