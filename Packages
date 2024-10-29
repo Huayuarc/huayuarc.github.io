@@ -347,6 +347,38 @@ Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡�
 Author: xybp888
 Name: 电话助手iOS16-Rootless
 
+Package: carbridge13
+Version: 2.0.13
+Architecture: iphoneos-arm64
+Maintainer: leftyfl1p
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/carbridge13_2.0.13_iphoneos-arm64.deb
+Size: 434064
+MD5sum: d4cb6e0597bb3691c5734f2f631f0c22
+SHA1: 8c955d98a81484d600d7bf555aa38c3a652dc240
+SHA256: 2e884c4642eb1e64ad8ced50181a540a39f892b70770ba0d301c4a8ea3326f0f
+Section: Tweaks
+Description: 在CarPlay中打开任何应用程序！CarPlay
+Author: leftyfl1p
+Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
+Name: CarBridge
+
+Package: carbridge13
+Version: 2.0.14
+Architecture: iphoneos-arm64
+Maintainer: leftyfl1p
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable, xyz.cypwn.carbridge13, com.leftyfl1p.carbridge13
+Filename: ./debs/carbridge13_2.0.14_iphoneos-arm64.deb
+Size: 434456
+MD5sum: d770677982e547c202063b68038c92ea
+SHA1: 3a6646ec47fff05f5a47c04615056d2235c4c8b5
+SHA256: b529a742637931a2573430698c27614a4edb025fd671dd52c36322e18c8a2092
+Section: tweaks
+Description: 在 CarPlay 中打开任何应用程序！
+Author: leftyfl1p <carbridge@havoc.app>
+Name: CarBridge(rootless)
+
 Package: classicfolders2
 Version: 3.0.2
 Architecture: iphoneos-arm64
@@ -1521,6 +1553,27 @@ Tag: role::developer
 Author: Dynastic
 Name: libflora
 
+Package: codes.aurora.kayokos
+Version: 2.7
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 1076
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: codes.aurora.kayoko, com.dao.kayoko, byg.iosios.net.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/codes.aurora.kayokos_2.7_iphoneos-arm64.deb
+Size: 123916
+MD5sum: 732103a195739806a8fb1e4da1e41c10
+SHA1: 1ffcbc75432877c2a740679e8e58e7fd7d4c4601
+SHA256: a1012fefb52c723d3b0893159ba45973d5506b8aa725538e8de5bb3b1a0d6d12
+Section: 乌龙工作室
+Description: iOS 剪切板越狱插件
+ * Clipboard manager for iOS.
+ * 由「乌龙工作室」修复支持 iOS 16
+Author: Alexandra Aurora Göttlicher
+Icon: https://TrollStoreX.Github.io/sileodepiction/Kayoko/icon.png
+Name: Kayoko 剪切板
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Kayoko/js.json
+
 Package: colorfulwallpaperx
 Version: 4.2
 Architecture: iphoneos-arm64
@@ -2099,6 +2152,22 @@ SHA256: 60a2e03a268442a56ad6ef675b13bac0c35623e6b92fe8744d8e001b62165111
 Section: Tweaks
 Description: 锤子助手插件
 Author: DumpApp
+Name: 锤子助手-Rootless
+
+Package: com.dumpapp.wechat-rootless
+Version: 2.0.4
+Architecture: iphoneos-arm64
+Maintainer: DumpApp
+Installed-Size: 23952
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/com.dumpapp.wechat-rootless_2.0.4_961211.deb
+Size: 9223312
+MD5sum: 718ae31890f021d60e27024fcf107aa3
+SHA1: 000aebb3968f66e2fb2b5a4f89af480250249244
+SHA256: 5babf285f5f04204e9fc79e975500b4264a580d620f8849766a76f8e83c65861
+Section: 微信插件
+Author: DumpApp
+Icon: file:///Applications/Cydia.app/Sections/Messaging.png
 Name: 锤子助手-Rootless
 
 Package: com.eliassfeir.smartnetwork
@@ -5384,6 +5453,22 @@ Description: 自用 越狱食用
 Author: x✨
 Name: 抖音图层
 
+Package: com.xx.dyhook
+Version: 2.0.7+3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 13472
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.7+3_iphoneos-arm64.deb
+Size: 4660540
+MD5sum: df0d62ebed65d8b668fb58b85b6450b9
+SHA1: a935ef57c042d2940edec79c29565841297a07df
+SHA256: ede5fea4e7ec295e841b8978cda6baf0e78ac94ce03aafaf7f380c6386780037
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
 Package: com.xx.ecnyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -6728,6 +6813,22 @@ Description: 朋友需要才制作了此插件 APP设置界面右上角打开插
 Author: x✨
 Name: 小红薯
 
+Package: com.xx.xhshook
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 3176
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.xhshook_1.1.1_iphoneos-arm64.deb
+Size: 1108096
+MD5sum: 7492350ca2edf89746d1ef8464ea75f2
+SHA1: a15bcc3ec51e5c83189de12f099ab917c519169b
+SHA256: d4f32bcb2fbefafd475ed5e63a99aa3fe80915b25f40d79b1f9d8ad84538be10
+Section: Tweaks
+Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片 长按文案复制
+Author: x✨
+Name: 小红薯
+
 Package: com.xx.ysbrowserhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -7240,6 +7341,23 @@ Section: Tweaks
 Description: Make your icons hit the griddy
 Author: mikifp
 Icon: https://repo.cypwn.xyz/packages/Griddy-Rootless/icon.png
+Name: Griddy
+
+Package: griddy
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: mikifp
+Installed-Size: 204
+Depends: mobilesubstrate
+Conflicts: com.mikifp.griddy, xyz.cypwn.griddy
+Filename: ./debs/griddy_1.0.4_iphoneos-arm64.deb
+Size: 19636
+MD5sum: a5be13bddc325fce8f048b9a0bd2c89e
+SHA1: 96676ef3fb9514479c98c1d2b18ab8da66f878d1
+SHA256: 5ee27504e04752b297178cb9816f8b315b1b302d65fc67c45848e8686335cb35
+Section: tqeaks
+Description: 让你的程序图标在桌面随意摆放。
+Author: mikifp
 Name: Griddy
 
 Package: grider
