@@ -2510,6 +2510,25 @@ Depiction: https://chariz.com/buy/misaki
 Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
 Name: Misaki
 
+Package: com.hitori.misaki
+Version: 2.1.9
+Architecture: iphoneos-arm64
+Maintainer: Hitori <mikasa-san@outlook.jp>
+Installed-Size: 1064
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: ./debs/com.hitori.misaki_2.1.9_iphoneos-arm64.deb
+Size: 305760
+MD5sum: af1653f562c298eabece4d51e732ea05
+SHA1: 41fbeb8271ed82fc2efb5bc789f825ef21500cfd
+SHA256: 9ab0e2de07aab1d6e8e3a76c52c580ece5a93cd235df0f8a0f645a6ced9d0e50
+Section: Tweaks
+Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours.
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: Hitori <mikasa-san@outlook.jp>
+Depiction: https://chariz.com/buy/misaki
+Icon: https://img.chariz.cloud/icon/misaki/icon@3x.png
+Name: Misaki
+
 Package: com.homescreen
 Version: 1.1
 Architecture: iphoneos-arm64
