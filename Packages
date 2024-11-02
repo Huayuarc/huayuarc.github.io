@@ -2667,6 +2667,23 @@ Description: 秒过开屏广告
 Author: huami
 Name: BiliNoAd
 
+Package: com.huami.bilinoad
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 168
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.huami.bilinoad_1.0.1_iphoneos-arm64.deb
+Size: 3370
+MD5sum: 40c73e85beef90e59452e2cc6df22ab6
+SHA1: 17d775abc53fd6c45a982d14b6e5bf81e3056f8e
+SHA256: 0cfedcc74ad2870dc77d5b3790129267616930500ddb80f443d48c9f944b2c60
+Section: Tweaks
+Priority: optional
+Description: BiliBili净化开屏广告
+Author: huami
+Name: BiliNoAd
+
 Package: com.huami.dyyy
 Version: 1.6-2
 Architecture: iphoneos-arm64
