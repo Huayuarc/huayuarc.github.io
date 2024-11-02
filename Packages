@@ -2650,6 +2650,23 @@ Description: 仅供学习交流，请在24内小时内自觉删除
 Author: huami
 Name: DYYY
 
+Package: com.huami.bilinoad
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 168
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.huami.bilinoad_1.0.0_iphoneos-arm64.deb
+Size: 2880
+MD5sum: 950384f293f9523d3f775746bbbcfdc5
+SHA1: cddb55e13b19faf524930ac11b5c52735cbb3404
+SHA256: b1f9e4176abea09b55e7d4abf8a9fb4337f3d31aa2cd3580c90d8a3e89ceef37
+Section: Tweaks
+Priority: optional
+Description: 秒过开屏广告
+Author: huami
+Name: BiliNoAd
+
 Package: com.huami.dyyy
 Version: 1.6-2
 Architecture: iphoneos-arm64
@@ -2665,6 +2682,22 @@ Priority: optional
 Description: 仅供学习交流，请在24内小时内自觉删除
 Author: huami
 Name: DYYY
+
+Package: com.huami.wbnoads
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Installed-Size: 168
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.huami.wbnoads_1.0.0_iphoneos-arm64.deb
+Size: 2984
+MD5sum: 177c0ebc75955e9e0351b442dea2cce9
+SHA1: 10fd4abc6ff67fca8e0c1b8f44e3028950ccee8f
+SHA256: d08bb7c6aadbfedf5428772bddf35b8924152db2c773dd43ae6113e4eb8e013c
+Section: Tweaks
+Priority: optional
+Description: Give you a pure Weibo
+Author: huami
+Name: WBNoAds
 
 Package: com.huayuarc.rootless.vfa
 Version: 1.1
