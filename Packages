@@ -2716,6 +2716,22 @@ Description: Give you a pure Weibo
 Author: huami
 Name: WBNoAds
 
+Package: com.huami.wbnoads
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Installed-Size: 168
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.huami.wbnoads_1.0.1_iphoneos-arm64.deb
+Size: 3368
+MD5sum: 87bcf1db3728ab4bfa7018a137869432
+SHA1: 23f67e3e81c4c5a5b2a102f4c7fd774947d2f8e5
+SHA256: 4b83cde70e2ca47cbf120a9ac5bfc490c7f7ac23d20c282034deedefec5a05a2
+Section: Tweaks
+Priority: optional
+Description: Give you a pure Weibo
+Author: huami
+Name: WBNoAds
+
 Package: com.huayuarc.rootless.vfa
 Version: 1.1
 Architecture: iphoneos-arm64
