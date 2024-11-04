@@ -3274,6 +3274,24 @@ Description: Decrypt iOS Apps and Plugins
 Author: Netskao
 Name: DumpDecrypter
 
+Package: com.netskao.noappthinning
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: it.ned.noappthinning
+Filename: ./debs/com.netskao.noappthinning_1.4_iphoneos-arm64.deb
+Size: 4324
+MD5sum: b969fad3ddc6bdd817a6ebdf7f954699
+SHA1: 75fd1bd6dd0137f88026fec5f03ce928a2b3249e
+SHA256: f1fb8ecf27eb1b936e5609ca26111f653bb520557b346c9dbc72fe7f1e5f164c
+Section: Netskao-Tweaks
+Description: Disable AppStore app thinning - by level3tjg, Disable TestFlight app thinning - by Netskao
+Author: Netskao
+Name: NoAppThinning
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.noappthinning.json
+
 Package: com.netskao.pulloverpro
 Version: 2.1.6
 Architecture: iphoneos-arm64
