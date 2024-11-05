@@ -3242,6 +3242,40 @@ Description: Aweme Disable Top/Bottom Tab Button. Tested only on version 30.3.0 
 Author: Netskao
 Name: AwemeDisableBar
 
+Package: com.netskao.awemedisablebar
+Version: 1.1-5
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 724
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemedisablebar_1.1-5_iphoneos-arm64.deb
+Size: 306200
+MD5sum: dad47627921e01fc0fdfac50d138d46e
+SHA1: afb03b71802fd1be06e580d4a168f7d160517dca
+SHA256: 06bea127e0139a617f3a458432e8c3de44ea3168ec75c2384bded318c8c30342
+Section: Netskao-Tweaks
+Description: Aweme Disable Top/Bottom/Right Tab Button. Tested only on version 30.3.0 and above
+Author: Netskao
+Name: AwemeDisableBar
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.awemedisablebar.json
+
+Package: com.netskao.awemefullscreen
+Version: 1.2-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 384
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemefullscreen_1.2-2_iphoneos-arm64.deb
+Size: 159448
+MD5sum: 341a81c99c5c66e26aa5e25631f7bbeb
+SHA1: d3d2ff8128113d3cb499db06860cc191ca9862e4
+SHA256: 2d3326c98626b4690acb00d802b09d81a9b65621a20ac3430dbff3fa8b47ad6d
+Section: Netskao-Tweaks
+Description: Aweme HomePage Full Screen. Tested only on version 31.9.0
+Author: Netskao
+Name: AwemeFullScreen
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.awemefullscreen.json
+
 Package: com.netskao.dumpdecrypter
 Version: 1.4-1
 Architecture: iphoneos-arm64
