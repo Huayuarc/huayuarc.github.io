@@ -3259,6 +3259,23 @@ Author: Netskao
 Name: AwemeDisableBar
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.awemedisablebar.json
 
+Package: com.netskao.awemedisablebar
+Version: 1.1-6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 708
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/com.netskao.awemedisablebar_1.1-6_iphoneos-arm64.deb
+Size: 304804
+MD5sum: 3898d8c2ab3582b39ea59e1aa890d84c
+SHA1: 65a532118e342ef10111d9ab0767fa032f940295
+SHA256: 959b7aee8feebc5f785d18feb5647317218e9393d6bf9c80c62135bc94ebd836
+Section: Netskao-Tweaks
+Description: Aweme Disable Top/Bottom/Right Tab Button. Tested only on version 30.3.0 and above
+Author: Netskao
+Name: AwemeDisableBar
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.awemedisablebar.json
+
 Package: com.netskao.awemefullscreen
 Version: 1.2-2
 Architecture: iphoneos-arm64
@@ -5651,6 +5668,22 @@ Size: 4728416
 MD5sum: bef59c2eaf59f276b3120d0dc342bbdd
 SHA1: 7a2e3adb7a7f68679c6f85c53505f94f3c938cf7
 SHA256: 3c87e1713b892e9a4b31f54cc2bc010d117ab1256fec1501791e4d7e6a4147c4
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.dyhook
+Version: 2.0.7+6
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 13828
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.7+6_iphoneos-arm64.deb
+Size: 4768968
+MD5sum: d3a548b0d3c6c4e3217e20d97fd0ddd5
+SHA1: 787c8375ed7382353f5d4d3fa878a07dd667fc6c
+SHA256: 10749c393e300457fd5db11486d60ecf82c981042788a9fb494ee478dc541b3f
 Section: Tweaks
 Description: 自用 越狱食用
 Author: x✨
