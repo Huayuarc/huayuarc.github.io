@@ -165,6 +165,38 @@ Icon: https://repo.keycap.one/icons/Amelija.png
 Name: Amēlija
 Sileodepiction: https://repo.keycap.one/depictions/me.luki.amelija.json
 
+Package: appaze3
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
+Filename: ./debs/appaze3_1.0_iphoneos-arm64.deb
+Size: 864900
+MD5sum: 28f538d64d4a9bd80af50d01e1d7e38d
+SHA1: 43474721756e5e058f5cadaf66519639642dc6e7
+SHA256: e0ea7967e4ea365098b1805ff6baf0f8f28634e080ee720995659bbafba92194
+Section: Tweaks
+Description: 在干净友好的用户界面中，为每个应用程序自定义多达30个设置，易于访问！
+Author: AnthoPak
+Icon: https://repo.cypwn.xyz/packages/Appaze3-Rootless/icon.png
+Name: Appaze 3
+
+Package: appaze3
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
+Filename: ./debs/appaze3_1.0.1_iphoneos-arm64.deb
+Size: 867976
+MD5sum: bb3e779ecc4c79b71d8519f3fa58f00e
+SHA1: 5421672ba3cace4c5811e2d214561b70938da5e1
+SHA256: cfc065d2f2973efe6d17159fc29d7ec1e672c6a97cf777a585f85c5d88741f2b
+Section: Tweaks
+Description: 在干净友好的用户界面中，为每个应用程序自定义多达30个设置，易于访问！
+Author: AnthoPak
+Icon: https://repo.cypwn.xyz/packages/Appaze3-Rootless/icon.png
+Name: Appaze 3
+
 Package: applist
 Version: 1.5.16
 Architecture: iphoneos-arm64
@@ -2058,6 +2090,96 @@ Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC_无根
 
+Package: com.curtin.pkc.rootless
+Version: 0.6-1
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/PKC_无根_0.6-1.deb
+Size: 628684
+MD5sum: 784e79871c8acafb20008995710cb6a0
+SHA1: f4fe89c2ba9bcd0257f170417f434f58d83d09bb
+SHA256: 001a222399e466d96b46efc88726c55a0ed3784800dac9a852c32d732a7ad028
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_无根
+
+Package: com.curtin.pkc.rootless
+Version: 0.6-2
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/PKC_无根_0.6-2.deb
+Size: 740620
+MD5sum: aadb0c2d3579dbcf4739aeca48bdaee4
+SHA1: 863d5032d0033e86c8d7c660c97455e62a673b10
+SHA256: d7d6bfea02c5b0cbdb1f85f0f884247688209c21630d6098ff081a5bb8da78eb
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_无根
+
+Package: com.curtin.pkc.rootless
+Version: 0.6-3
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/PKC_无根_0.6-3.deb
+Size: 740672
+MD5sum: 262045d813257e59f1bf83025b7dec25
+SHA1: b37b4b2e577cf12890b9332d8b7c2998970574bf
+SHA256: 16c7971679f38d7093f93f11be6ce6e6ec84f494d369abe23863180d6acf7f21
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_无根
+
+Package: com.curtin.pkc.rootless
+Version: 0.6-4
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/PKC_无根_0.6-4.deb
+Size: 747468
+MD5sum: c0cd0e8d74f63a21670e4930fa75d4f9
+SHA1: 07c6256cdd27b889afda4ec16622bb9f3b9b98d6
+SHA256: 723a251ef59285d0623b51cfe553b9d00671d28c31137a9a36c61129257e4e31
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_无根
+
+Package: com.curtin.pkc.rootless
+Version: 0.6-5
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/PKC_无根_0.6-5.deb
+Size: 759160
+MD5sum: 84d49d4ec791d606d50b03c0c187edfa
+SHA1: 8bc46e94cd064fdaedf1719d3a79b0e2addd9e88
+SHA256: f1105a6d4db3f94d307801db7918bfe16003213f8fd535768faa126924f252a1
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC_无根
+
 Package: com.cydiageek.myautolock
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -3427,6 +3549,22 @@ Description: 方便登录帐户在不同地区之间切换，长按桌面AppStor
 Author: Netskao
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/storeswitchaccounts.png
 Name: StoreSwitchAccounts
+
+Package: com.netskao.wcdisablehotupdates
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: ./debs/com.netskao.wcdisablehotupdates_1.1-1_iphoneos-arm64.deb
+Size: 2072
+MD5sum: 8bf9dff24655bb934bb7924b92f744ca
+SHA1: 806aaaefe4442c4720ca29cb6253c208f97801dc
+SHA256: 8f654f4700a2209b9c8f8094202e99b581687a613aa5669d6ce1d6a120414aed
+Section: Netskao-Tweaks
+Description: WeChat Disable Hot Updates
+Author: Netskao
+Name: WCDisableHotUpdates
 
 Package: com.netskao.wechatnotiavatar
 Version: 1.2-2
@@ -5718,6 +5856,22 @@ Size: 4768968
 MD5sum: d3a548b0d3c6c4e3217e20d97fd0ddd5
 SHA1: 787c8375ed7382353f5d4d3fa878a07dd667fc6c
 SHA256: 10749c393e300457fd5db11486d60ecf82c981042788a9fb494ee478dc541b3f
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.dyhook
+Version: 2.0.8+1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 14896
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.8+1_iphoneos-arm64.deb
+Size: 5144136
+MD5sum: d1eecfd7d10b5f3f20b7fe1d1f949fc9
+SHA1: 9ea8e35e4b2fa0c86e0716f6f571fb8f7c4802dd
+SHA256: cbe89f5f00067c70e3ed9009779ccc8efb7ceda37f14ee4b0a4c9a4c3ef1fe51
 Section: Tweaks
 Description: 自用 越狱食用
 Author: x✨
@@ -9176,6 +9330,23 @@ Section: Tweaks
 Description: Safari Essential Features
 Author: 0xkuj
 Name: SafariX
+
+Package: safarixs
+Version: 1.9.2
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.0xkuj.safarix, byg.iosios.net.safarix, com.dao.safarix
+Filename: ./debs/safarixs_1.9.2_iphoneos-arm64.deb
+Size: 296392
+MD5sum: 3d1a132451bad59246e2887fd8852a44
+SHA1: 3afcda10ea79c0e944864b7820217d52f7cf382c
+SHA256: 4eaf4840da782a138d68d5289b1c25d40abe0df67c92bc5b9e4c8522ad216d8f
+Section: Bootstrap
+Description: Safari 浏览器增强插件
+Author: 0xkuj
+Icon: https://TrollStoreX.Github.io/sileodepiction/SafariX/icon.png
+Name: Safari X
 
 Package: sakal
 Version: 2.1.9
