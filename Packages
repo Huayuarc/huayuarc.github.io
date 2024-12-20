@@ -2324,6 +2324,24 @@ Description: The most complete tweak to customize WiFi / mobile data and Bluetoo
 Author: elias
 Name: SmartNetwork iOS 15-16
 
+Package: com.github.wxsmalltabs
+Version: 0.0.1-5
+Architecture: iphoneos-arm64
+Maintainer: halo-michael
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.github.wxsmalltab
+Filename: ./debs/com.github.wxsmalltabs_0.0.1-5_iphoneos-arm64.deb
+Size: 12032
+MD5sum: bfcb6d972bee429e62cdc5bb7e4224ad
+SHA1: 20a13e6631d9e62f13615f9b68ccde7cab5dee9f
+SHA256: eb64f96528045ec5a2eb117920de1f5ed6b3f2709d1605e72f181b31dbbe6076
+Section: 微信插件
+Description: 微信底栏悬浮显示
+Author: Michael
+Icon: https://TrollStoreX.Github.io/sileodepiction/WXsmalltabs/icon.png
+Name: 微信小底栏
+
 Package: com.hitori.misaki
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -3580,6 +3598,23 @@ Section: Netskao-Tweaks
 Description: WeChat Disable Hot Updates
 Author: Netskao
 Name: WCDisableHotUpdates
+
+Package: com.netskao.wcmypageinfocenter
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 220
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/com.netskao.wcmypageinfocenter_1.1-8_iphoneos-arm64.deb
+Size: 65320
+MD5sum: c13da6931a752e9a4cad184db9ad24c5
+SHA1: 8d14a5154d25508a809ade56a8feda216e76897a
+SHA256: 64d861402519a9ed1d6e96881ddea0b811aabb0c89e2ef60b96a78cf28422513
+Section: Netskao-Tweaks
+Description: WeChat My Page Info Center, Supported only for version 8.0.31 and above
+Author: Netskao
+Name: WCMyPageInfoCenter
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wcmypageinfocenter.json
 
 Package: com.netskao.wechatnotiavatar
 Version: 1.2-2
@@ -5892,6 +5927,38 @@ Description: 自用 越狱食用
 Author: x✨
 Name: 抖音图层
 
+Package: com.xx.dyhook
+Version: 2.0.8+3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 9072
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.8+3_iphoneos-arm64.deb
+Size: 2782996
+MD5sum: c1567316c39d5b0a91580f9c5bba089d
+SHA1: 78aa1d9ab1e321bbe709c473a5f9489782c64395
+SHA256: b33286327e7355eb1e9301bbf2e5f039769de3522d441f0f649a7a8580253032
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
+Package: com.xx.dyhook
+Version: 2.0.8+5
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 9136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.dyhook_2.0.8+5_iphoneos-arm64.deb
+Size: 2790996
+MD5sum: 06a42007de859c92d458b832a5d415fc
+SHA1: 4ba4459a9169526baf6606e53a17e6037caaaecf
+SHA256: de5d95b36cbd98fb2f63a6a7e8c6396b7242ca53ada8649e2d701143b0d1c999
+Section: Tweaks
+Description: 自用 越狱食用
+Author: x✨
+Name: 抖音图层
+
 Package: com.xx.ecnyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -6916,6 +6983,22 @@ Description: QQ设置-辅助功能-右上角开启 支持9.0.20+
 Author: x✨
 Name: QQ新版防撤回
 
+Package: com.xx.qqhook
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 1928
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.qqhook_1.1.2_iphoneos-arm64.deb
+Size: 592492
+MD5sum: 5beead53eec5df3bb00d32e61e5facbe
+SHA1: d18fc8168bb9e136b6d5c79496a1db8b6b98f246
+SHA256: 89446abd1890c29381b4b02244029dc40181f2a9a18badad6e0ce40020bb588e
+Section: Tweaks
+Description: QQ·TIM设置-辅助功能-右上角开启(或新设置界面) 支持QQ9.0.20+ TIM4.0.95+
+Author: x✨
+Name: QQ·TIM 新版防撤回
+
 Package: com.xx.qsyyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -6963,6 +7046,22 @@ Section: Tweaks
 Description: 与小黑联手制作 | 去除启动广告 | 秒过激励视频(自行测试是否可用 不能用就在设置界面长按可以关闭或者卸载此插件)
 Author: x✨
 Name: 汽水音乐NoAds
+
+Package: com.xx.safarixhook
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.safarixhook_1.0.0_iphoneos-arm64.deb
+Size: 10110
+MD5sum: 72c0b1fc557f92147ad5f1d86eb6f78a
+SHA1: 0c1a1545b0adec4bc39662d5799af07643b48674
+SHA256: 548afeb19a425bc2cb432679878d1570392a5250055803caf93be14045a2e37b
+Section: Tweaks
+Description: 解决SafariX闪退问题
+Author: x✨
+Name: SafariXHook
 
 Package: com.xx.spidercrack
 Version: 1.0.2
