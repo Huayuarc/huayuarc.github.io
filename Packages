@@ -7533,6 +7533,25 @@ Description: 屏蔽更换配件后设置和关于本机里面的重要提醒
 Author: z
 Name: 屏蔽设置重要提醒
 
+Package: de.janis.glance
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: Janis <janisbtwtweaks@gmail.com>
+Installed-Size: 1663
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0), com.ginsu.comet, com.opa334.altlist
+Filename: ./debs/de.janis.glance_1.2.2_iphoneos-arm64.deb
+Size: 486904
+MD5sum: ed665e3f8501f1e439bb2c69c3c515c8
+SHA1: b949be559105b6966e9a6764cca009817e6f0588
+SHA256: bb096335f4da380e09c0303f59993d545f7ba7c749cda4a54c9af36947a660cd
+Section: Tweaks
+Description: See notifications from far away
+Tag: cydia::commercial, compatible_min::ios15.0
+Author: Janis <janisbtwtweaks@gmail.com>
+Depiction: https://chariz.com/buy/glance
+Icon: https://img.chariz.cloud/icon/glance/icon@3x.png
+Name: Glance
+
 Package: declinecalls
 Version: 1.0
 Architecture: iphoneos-arm64
