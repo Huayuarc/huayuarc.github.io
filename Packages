@@ -7849,6 +7849,22 @@ Author: Janis
 Icon: https://img.chariz.cloud/icon/glance/icon@3x.png
 Name: Glance
 
+Package: glance
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: Janis
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0), com.ginsu.comet, com.opa334.altlist
+Filename: ./debs/glance_1.2.2_iphoneos-arm64.deb
+Size: 487064
+MD5sum: 4ec42d5ae271ce5e58545f029d9bc781
+SHA1: c96a7a7240fcf2ed506a2446a5d3b601d5d226b8
+SHA256: 12ae2d8347eeed4261e5be9b54ffafa4a3f99e0efc2971bbf79d19d5253c9c28
+Section: Tweaks
+Description: 查看来自远方的通知！
+Author: Janis
+Icon: https://repo.cypwn.xyz/packages/Glance-Rootless/icon.png
+Name: Glance
+
 Package: griddy
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -8894,6 +8910,27 @@ Section: Netskao-Tweaks
 Description: Display Notification Avatars for WeChat App using iOS15 APIs
 Author: Netskao
 Name: WeChatNotiAvatar-rootless
+
+Package: netskao.wechatpurification
+Version: 4.2-7
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 17133
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/netskao.wechatpurification_4.2-7_iphoneos-arm64.deb
+Size: 6275592
+MD5sum: 69a3ea53e4da6e29d2f206385bbdf647
+SHA1: 2bfdba994f3f75e74e04a7c1c02fc19a0fc1a1d2
+SHA256: 5262fd2a2f7d1abcaa94af1de01cd386a00b5f8883e55ae982a5412ac747d8f8
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
+Tag: purpose::extension
+Author: Netskao <admin@initnil.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
+Dev: netskao
+Name: 微信净化
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: nextalarmsx
 Version: 1.0.0
