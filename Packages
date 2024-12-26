@@ -4020,6 +4020,27 @@ Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
 Author: SquidForce
 Name: 禁用iOS16+粘贴警告弹窗和粘贴提醒 - DisablePasteAlert16
 
+Package: com.squidforce.hidenotificationbadges
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 168
+Conflicts: com.squidforce.hidenotificationbadge
+Replaces: com.squidforce.hidenotificationbadge
+Provides: com.squidforce.hidenotificationbadge
+Filename: ./debs/com.squidforce.hidenotificationbadges_0.0.1_iphoneos-arm64.deb
+Size: 2976
+MD5sum: 1aad3d15e4de03ad9430b0e685571b27
+SHA1: 0f6521afba48d646c31a3bb4cf97edbad7059ea2
+SHA256: 45216c99ef7cfb69c6b0ea637587fd03bbf9fbe9c8a80da6838f6b8a4dbd47a1
+Section: Tweaks
+Description: HideNotificationBadge
+ * 隐藏推送通知图标右下角标
+ * 可配合 WeChatNotiAvatar 插件使用
+Author: SquidForce
+Icon: https://TrollStoreX.Github.io/sileodepiction/HideNotificationBadge/icon.png
+Name: 隐藏通知图标右下角标
+
 Package: com.statusbar
 Version: 1.1
 Architecture: iphoneos-arm64
