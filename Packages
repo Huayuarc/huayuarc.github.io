@@ -66,6 +66,23 @@ Description: iOS 16风格的时间和日期锁屏
 Author: alimaulana
 Name: AIM Pro
 
+Package: aimpro
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: alimaulana
+Depends: ellekit, mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
+Filename: ./debs/aimpro_1.0.6_iphoneos-arm64.deb
+Size: 2328752
+MD5sum: dfa6005fa2ba40cd3e4c08284d7f840d
+SHA1: 08e825cac140ca4914fec09586ad10236c08b143
+SHA256: 8fceb571e510fee6a654410426564b8139f66c443595800710f77ada68898fed
+Section: Tweaks
+Description: iOS 16风格时间和日期锁屏。
+Author: alimaulana
+Icon: https://repo.cypwn.xyz/packages/AIMPro-Rootless/icon.png
+Name: AIM Pro
+
 Package: airpodscompanion
 Version: 1.5
 Architecture: iphoneos-arm64
