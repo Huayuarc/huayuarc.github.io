@@ -8730,6 +8730,22 @@ Description: iOS 14、15和16的终极iDevice定制。
 Author: MTAC
 Name: Lynx 2
 
+Package: lynxtwo
+Version: 2.5.4
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2952
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/lynxtwo_2.5.4_iphoneos-arm64.deb
+Size: 678064
+MD5sum: 6bf29ba1acdcc48fc7f875c95e78459d
+SHA1: 5b142e402b1ae789596a1ca2576efaeba4d443da
+SHA256: 49d1fe2dfce2799a5566a0f1e05cd6008c244899d4a43ab67dfc171d4791957a
+Section: Tweaks
+Description: iOS 14、15和16的终极iDevice定制。
+Author: MTAC
+Name: Lynx 2
+
 Package: macaron
 Version: 1.0.1
 Architecture: iphoneos-arm64
