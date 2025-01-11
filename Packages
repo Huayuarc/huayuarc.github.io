@@ -8915,6 +8915,22 @@ Author: @akusio_RR
 Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
 Name: MilkyWay4-rootless
 
+Package: movenotification16
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: JunesiPhone
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/movenotification16_1.0_iphoneos-arm64.deb
+Size: 17380
+MD5sum: 953357f8c38c226c61648f734c5014ce
+SHA1: b13a272b8069e0f98a20c8e932acb78d608e8eec
+SHA256: a75e28f182f3d69320479960511be7fa7668f2b729b728255d5bad10c0540317
+Section: Tweaks
+Description: 在 iOS16 上自定义锁屏通知上下位置。
+Author: JunesiPhone
+Icon: https://repo.cypwn.xyz/packages/MoveNotification16-Rootless/icon.png
+Name: MoveNotification16
+
 Package: nebbs
 Version: 1.0.0
 Architecture: iphoneos-arm64
