@@ -8224,23 +8224,6 @@ Description: 破解版iOS系统清理工具，默认简体中文。
 Author: Ivano Bilenchi
 Name: iCleaner Pro(rootless)
 
-Package: intelligentpass5
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: M哥
-Installed-Size: 444
-Depends: mobilesubstrate, firmware(>=15.0), firmware(<<17), preferenceloader, se.geometric.graphite
-Filename: ./debs/intelligentpass5_1.0.2_iphoneos-arm64.deb
-Size: 82712
-MD5sum: f0144da9aae347aee776b2feacb11036
-SHA1: 95ffcefc57d1881b9ee23af2441672379a369d11
-SHA256: 5f5e17dff09d0edd766b2ee8bee1497aa424c9a7a50147b208fc05e023f98008
-Section: Tweaks
-Description: Disable passcode when not necessary（M哥汉化）
-Author: Geometric Software
-Icon: file:///Library/PreferenceBundles/IntelligentPass.bundle/store.png
-Name: IntelligentPass 5
-
 Package: jetsamunlimited
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -9721,6 +9704,60 @@ Description: 在SpringBoard上显示非默认的系统应用程序。
 Author: MTAC
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/sbshownondefaultsystemapps.png
 Name: NonDefaultSystemApps
+
+Package: se.geometric.graphite
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Geometric Software
+Installed-Size: 656
+Depends: firmware(>=13.0), mobilesubstrate, firmware(<<17.0)
+Conflicts: com.muris.libgraphite
+Filename: ./debs/se.geometric.graphite_2.0_101731.deb
+Size: 89466
+MD5sum: b0e802494257b03e24281ca7d1c38f47
+SHA1: d68cea6f0cfda7126e82fd6ecdf5436d9633864f
+SHA256: 063dcdff8e996bfa6c77df2c19092a84a8c7a7cc3f17bae8dd5fa9e383da6e2f
+Section: Development
+Description: powerful library for iOS development
+Tag: purpose::library role::developer
+Author: Geometric Software
+Depiction: https://store.geometricsoftware.se/packages/se.geometric.graphite
+Name: Graphite Library
+Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.graphite/depiction
+
+Package: se.geometric.intelligentpass5
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Geometric Software
+Installed-Size: 444
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17), preferenceloader, se.geometric.graphite
+Filename: ./debs/se.geometric.intelligentpass5_1.0.1_iphoneos-arm64.deb
+Size: 86856
+MD5sum: 033b45cbb872065857245e3f9462ca8d
+SHA1: 1a92d4f3ad0461ba28501c230210597e6f5af031
+SHA256: 2fd5b066822c46c7ac7abc260576937ff61563ae192581da23e997a850e2bdb2
+Section: Tweaks
+Description: 不需要时禁用密码！
+Author: Geometric Software
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/intelligentpass5.png
+Name: IntelligentPass 5
+
+Package: se.geometric.intelligentpass5
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Geometric Software
+Installed-Size: 444
+Depends: mobilesubstrate, firmware(>=15.0), firmware(<<17), preferenceloader, se.geometric.graphite
+Filename: ./debs/se.geometric.intelligentpass5_1.0.2_iphoneos-arm64.deb
+Size: 87028
+MD5sum: 77d4e01ef062ffa2a7626a3290cab0f8
+SHA1: faf6defe0602f3a9bf5c1784cd9113cfe3e46313
+SHA256: 73591739d855de26ece59197511d771d967ce9cc5f72c08c264af6da67d85c9d
+Section: Tweaks
+Description: 不需要时禁用密码！
+Author: Geometric Software
+Icon: file:///Library/PreferenceBundles/IntelligentPass.bundle/store.png
+Name: IntelligentPass 5
 
 Package: senri
 Version: 1.0
