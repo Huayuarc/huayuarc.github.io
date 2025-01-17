@@ -2972,6 +2972,25 @@ Description: Give you a pure Weibo
 Author: huami
 Name: WBNoAds
 
+Package: com.huami.xhstranslator
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 168
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.huami.xhstranslator_1.0_iphoneos-arm64.deb
+Size: 8248
+MD5sum: 1e7824f7fc6530bf1ebb6b413eb7a2ee
+SHA1: 34b382328daf4a44f3377e8f85d97ed09d050ac1
+SHA256: b1ec2427fac477bb168036d8217fc10f086bd9e69919f42ecbab62045a7e858e
+Section: Tweak
+Priority: optional
+Homepage: https://github.com/huami1314/xhstranslator
+Description: A tweak for translating content in XiaoHongShu
+Author: huami
+License: MIT
+Name: XHSTranslator
+
 Package: com.huayuarc.rootless.vfa
 Version: 1.1
 Architecture: iphoneos-arm64
