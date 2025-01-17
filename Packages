@@ -2991,6 +2991,25 @@ Author: huami
 License: MIT
 Name: XHSTranslator
 
+Package: com.huami.xhstranslator
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 172
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.huami.xhstranslator_1.1_iphoneos-arm64.deb
+Size: 8688
+MD5sum: 4ed8f7b9b3978670643bd56b39723d2f
+SHA1: 5c8a7785d14c0f6e023636690aef8e5bf2a5dc0b
+SHA256: b9f2acec3f2feae28acf379ae212ac069a964c22d036ebcc85cbbc4d485fc595
+Section: Tweak
+Priority: optional
+Homepage: https://github.com/huami1314/xhstranslator
+Description: A tweak for translating content in XiaoHongShu
+Author: huami
+License: MIT
+Name: XHSTranslator
+
 Package: com.huayuarc.rootless.vfa
 Version: 1.1
 Architecture: iphoneos-arm64
