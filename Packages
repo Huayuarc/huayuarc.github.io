@@ -2890,6 +2890,20 @@ Description: 仅供学习交流，请在24内小时内自觉删除
 Author: huami
 Name: DYYY
 
+Package: com.huami.RenameWCCardCellTitle
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.huami.RenameWCCardCellTitle_0.1-1_iphoneos-arm64.deb
+Size: 3808
+MD5sum: f4c950d18b175b287a5c058a0ed5273d
+SHA1: a611468738c727271c1cb5b1567e127023272286
+SHA256: 3b887c5ed4d45eb90bb5fb548c4270a922c364674ba746dc9957be9d6fe9376e
+Section: System
+Priority: optional
+Author: huami
+Name: RenameWCCardCellTitle
+
 Package: com.huami.bilinoad
 Version: 1.0.0
 Architecture: iphoneos-arm64
