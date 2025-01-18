@@ -8711,6 +8711,23 @@ Author: 来了老弟
 Name: 强制密码框第三方键盘-rootless
 Sponsor: 33225753@qq.com
 
+Package: llld.keyboard
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/llld.keyboard_2.0_iphoneos-arm64.deb
+Size: 4168
+MD5sum: 963101af5421eb4a619668683de452f9
+SHA1: a76d8e0a92d00285760b6f02009fcbd817d59cf7
+SHA256: 16558428b95ead1251a65cb9943efbedc00ecf8b2b4c6723035129702057c5b1
+Section: rootless插件
+Priority: optional
+Description: Function: Allow third-party input methods in any password box。***强制第三方输入法（键盘），作用：在任意密码框可允许第三方输入法输入（银行等特制键盘除外），20240104:更新版本号。***
+Author: 来了老弟
+Name: 强制第三方输入法-rootless
+
 Package: lynxtwo
 Version: 2.4.10
 Architecture: iphoneos-arm64
