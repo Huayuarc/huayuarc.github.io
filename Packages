@@ -7174,6 +7174,22 @@ Description: QQ·TIM设置-辅助功能-右上角开启(或新设置界面) 支�
 Author: x✨
 Name: QQ·TIM 新版防撤回
 
+Package: com.xx.qqhook
+Version: 1.1.5
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 2012
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.qqhook_1.1.5_iphoneos-arm64.deb
+Size: 616188
+MD5sum: 3e1a58796f87f7e26a1fabc32156b5ec
+SHA1: d68844ab2c2e1f9375ac7ed6766fed0a3960b3f5
+SHA256: e1ff4e039655f64543c61771e52790cca3f99c1107637761684b724b7c4a0e65
+Section: Tweaks
+Description: QQ·TIM设置-辅助功能-右上角开启(或新设置界面) 支持QQ9.0.20+ TIM4.0.95+
+Author: x✨
+Name: QQ·TIM 新版防撤回
+
 Package: com.xx.qsyyhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -8636,10 +8652,10 @@ Maintainer: M哥
 Installed-Size: 168
 Depends: mobilesubstrate
 Filename: ./debs/leisu_2.0.0_iphoneos-arm64.deb
-Size: 58644
-MD5sum: ea956f365b3bd444a51eb06be9ad941b
-SHA1: 5b5d2a4c9632123b928259e46afcf4884b94365b
-SHA256: 83b4a801e2da79b4f4183a6abde005c9301e97a6513e927359b1547a8718076c
+Size: 18948
+MD5sum: 2ca63817e9be489f75bdfc5cd251914e
+SHA1: 37438e5eb3d182f6e4cd353430ec4ed3afec1f61
+SHA256: a3e51a53cf6025d0b52649097e06214686dc48940329ecefaefce907b78b7e98
 Section: Tweaks
 Description: 雷速体育去启动广告、屏蔽更新，新增支持9.0+版本。
 Author: M哥
