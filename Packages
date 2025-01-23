@@ -3738,6 +3738,23 @@ Author: Netskao
 Name: WCMyPageInfoCenter
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wcmypageinfocenter.json
 
+Package: com.netskao.wcmypageinfocenter
+Version: 1.2-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 220
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/com.netskao.wcmypageinfocenter_1.2-1_iphoneos-arm64.deb
+Size: 65176
+MD5sum: de91ee6f214569636718b54c9893644a
+SHA1: bf219870287ba3e0fd5bbbc0a4cd3126130b0a22
+SHA256: dfd9c8b53508c6d491a115633ffa168bc14d77f498c448ea4764c2bd0883b5f0
+Section: Netskao-Tweaks
+Description: WeChat My Page Info Center, Supported only for version 8.0.31 and above
+Author: Netskao
+Name: WCMyPageInfoCenter
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wcmypageinfocenter.json
+
 Package: com.netskao.wechatnotiavatar
 Version: 1.2-2
 Architecture: iphoneos-arm64
@@ -7269,6 +7286,22 @@ Section: Tweaks
 Description: 解锁会员 插件仅供个人学习交流使用 如有能力请支持正版
 Author: x✨
 Name: SpiderProxyCrack
+
+Package: com.xx.wccallkit
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.xx.wccallkit_1.0.0_iphoneos-arm64.deb
+Size: 7782
+MD5sum: 95aeaff1896b68b54513aa8f87826f84
+SHA1: f860f49c5ed4ff76fa5cf189e8cac4e727d0b765
+SHA256: e6e7ee076dec506cc70c7a703bcd16d89ff75726102f1cb316c4d5e6eeb4047b
+Section: Tweaks
+Description: 默认开启CallKit 有需要WeChat_8.0.56.i64(8G) 可以找我
+Author: x✨
+Name: WeChatCallKit
 
 Package: com.xx.xhshook
 Version: 1.0.1
