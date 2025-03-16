@@ -1,17 +1,17 @@
-Package: com.huayuarc.iosthermal.rootless
-Version: 2.9.4
+Package: com.sgwc.events.lans233
+Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 72
-Depends: mobilesubstrate
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, cn.zqbb.holdcpu
-Filename: ./com.huayuarc.iosthermal.rootless_2.9.4_iphoneos-arm64.deb
-Size: 2732
-MD5sum: 5c1cae8b19c0fe3927e0d55aced01589
-SHA1: abba8bbfb177ad5117639be442c3725034460c67
-SHA256: db7066f449cdf0d4788da4f6b210de8c3a1cd53731c9fe86aefd50d23a5b3264
+Maintainer: SGWC
+Installed-Size: 1828
+Filename: ./debs/events锁屏日历汉化版.deb
+Size: 1098052
+MD5sum: 17d1f3d103929510ea24d56c87e76e9b
+SHA1: da4b1c5fd5a517d887ceb780f3a7749b8bd69da4
+SHA256: 49a9abff5f29e68d24521d93bcba8725e43ab043049f1eb0d8dbeae0ade423d6
 Section: Tweaks
-Description: 测试
-Author: Huayuarc
-Name: IOSThermal(Rootless)
-
+Description: 在锁屏界面上，显示将来几天的节日（汉化：lans233🇨🇳）
+Author: SGWC
+Depiction: https://huayuarc.github.io/sileodepiction/Events/js.json
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/events.png
+Name: Events锁屏节日日历
+Sileodepiction: https://huayuarc.github.io/sileodepiction/Events/js.json
