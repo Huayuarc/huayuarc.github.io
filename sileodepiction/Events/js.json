@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://huayuarc.github.io/images/logo.jpeg",
+    "headerImage": "https://huayuarc.github.io/images/huayuarc.png",
     "tintColor": "#1DBBFF",
     "minVersion": "0.3",
     "tabs": [
@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "测试",
+                    "markdown": "在锁屏界面上，显示将来几天的节日（汉化：lans233🇨🇳）",
                     "useRawFormat": true
                 },
                 {
@@ -60,7 +60,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025年3月16日",
+                    "text": "2024年9月16日",
                     "title": "更新日期"
                 },
                 {
