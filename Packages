@@ -1,15 +1,35 @@
+Package: com.huayuarc.iosthermal.roothide
+Version: 2.9.5
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 72
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, cn.zqbb.holdcpu
+Filename: ./com.huayuarc.iosthermal.roothide_2.9.5_iphoneos-arm64e_TO89crlR5e.deb
+Size: 1980
+MD5sum: d3762bb09340616d5c9c62a051596036
+SHA1: 7e0c5fb5cd2bf91b11b2763a39d9b1b3e65b9eb6
+SHA256: b2d7fedf10711638aa688fb449a0fd6345b8f894d1afb0bfb17d44c373db18f2
+Section: Tweaks
+Description: 效果自测，无效卸载即可。
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/js.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(RootHide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/js.json
+
 Package: com.huayuarc.iosthermal.rootless
-Version: 2.9.4
+Version: 2.9.5
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
 Installed-Size: 72
 Depends: mobilesubstrate
 Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, cn.zqbb.holdcpu
-Filename: ./com.huayuarc.iosthermal.rootless_2.9.4_iphoneos-arm64.deb
-Size: 2836
-MD5sum: 520a2d74fee1cc2423daebd96e7daccb
-SHA1: 69b23eb6a20e65a4f774135aeda4db9740edbecf
-SHA256: 91e8c7df414849694e494945d709da450953d0b4bb591c3966611b9a4e379918
+Filename: ./com.huayuarc.iosthermal.rootless_2.9.5_iphoneos-arm64.deb
+Size: 2834
+MD5sum: bb5bad2487eab5dd1a47d269649dd5fa
+SHA1: 1cff001259200b79a924abef7e37ea59e179fdab
+SHA256: afee846db73ac5494892d314cc3a7984e09925d3c3333a5904a5a78046be23dd
 Section: Tweaks
 Description: 效果自测，无效卸载即可。
 Author: Huayuarc
@@ -17,22 +37,4 @@ Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/js.json
 Icon: https://huayuarc.github.io/images/IOSThermal.png
 Name: IOSThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/js.json
-
-Package: com.sgwc.events.lans233
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: SGWC
-Installed-Size: 1828
-Filename: ./com.sgwc.events.lans233_1.0_iphoneos-arm64.deb
-Size: 1147160
-MD5sum: f5ceceff8a603462d62005a759e123e4
-SHA1: 5f2b2e816bc28e43072dedde67844495440b51b2
-SHA256: 48153c5c9ffd1db6945ed071ced39b028f6aac2d84efa4b62bb8c55bed170034
-Section: Tweaks
-Description: 在锁屏界面上，显示将来几天的节日（汉化：lans233🇨🇳）
-Author: SGWC
-Depiction: https://huayuarc.github.io/sileodepiction/Events/js.json
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/events.png
-Name: Events锁屏节日日历
-Sileodepiction: https://huayuarc.github.io/sileodepiction/Events/js.json
 
