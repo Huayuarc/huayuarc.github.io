@@ -1,3 +1,19 @@
+Package: com.couhege.WechatVB
+Version: 0.2.0
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: ./com.couhege.WechatVB_0.2.0_iphoneos-arm64.deb
+Size: 5000
+MD5sum: 93fb19b73a1cdfe0b3efaf54f56387b9
+SHA1: bda77965e4a865680a766075c46a62b753007d9e
+SHA256: 5271c086256f56af7b0bce56dd746ea83887261e13dcbcb09249cc491f49fe3a
+Section: 微信
+Description: 点击微信内的文字消息，自动语音播报消息内容。凑合哥Fix在多巴胺2测试OK
+Author: sunweiliang
+Name: WechatVB(Rootless)
+
 Package: com.huayuarc.iosthermal.rootless
 Version: 2.9.5
 Architecture: iphoneos-arm64
