@@ -2,14 +2,13 @@ Package: com.huayuarc.iosthermal.roothide
 Version: 2.9.5
 Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
-Installed-Size: 72
 Depends: mobilesubstrate
 Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, cn.zqbb.holdcpu
-Filename: ./com.huayuarc.iosthermal.roothide_2.9.5_iphoneos-arm64e_TO89crlR5e.deb
-Size: 1980
-MD5sum: d3762bb09340616d5c9c62a051596036
-SHA1: 7e0c5fb5cd2bf91b11b2763a39d9b1b3e65b9eb6
-SHA256: b2d7fedf10711638aa688fb449a0fd6345b8f894d1afb0bfb17d44c373db18f2
+Filename: ./com.huayuarc.iosthermal.roothide_2.9.5_iphoneos-arm64e.deb
+Size: 1964
+MD5sum: e86b5bf5b687f8b5d70bb7fe896786a0
+SHA1: 4087183edc4afa3da7eb9fc3b67fdd7fd51b004f
+SHA256: 599ffce9f1e5116ced47bf271ad65e40eb30927e221ef9b4f7cbf495f887ab00
 Section: Tweaks
 Description: 效果自测，无效卸载即可。
 Author: Huayuarc
@@ -22,14 +21,13 @@ Package: com.huayuarc.iosthermal.rootless
 Version: 2.9.5
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
-Installed-Size: 72
 Depends: mobilesubstrate
 Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, cn.zqbb.holdcpu
 Filename: ./com.huayuarc.iosthermal.rootless_2.9.5_iphoneos-arm64.deb
-Size: 2834
-MD5sum: bb5bad2487eab5dd1a47d269649dd5fa
-SHA1: 1cff001259200b79a924abef7e37ea59e179fdab
-SHA256: afee846db73ac5494892d314cc3a7984e09925d3c3333a5904a5a78046be23dd
+Size: 2822
+MD5sum: cb333d780d516ec3930275929e19eeb2
+SHA1: 06f602ae564d50d56404d64620b6f209994cd057
+SHA256: e3e6d76fd4ab36776a23da22911c676f838954f1966cb915d96ca821783847a8
 Section: Tweaks
 Description: 效果自测，无效卸载即可。
 Author: Huayuarc
