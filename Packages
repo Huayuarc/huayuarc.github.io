@@ -15,6 +15,37 @@ Author: David Goldman
 Icon: https://huayuarc.github.io/images/Manila.png
 Name: Manila(Rootless)
 
+Package: com.couhege.Appswitcher
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Excalibur
+Depends: mobilesubstrate
+Filename: debs/com.couhege.Appswitcher_0.0.1_iphoneos-arm64.deb
+Size: 2760
+MD5sum: bf3589030ddc6f217fc031b3548dc7cf
+SHA1: 764c58cc80eed2d8f94561be90c8a9cbce08f3d8
+SHA256: d6da9d3080821bd58a39d0799cb5584ec8f7157db204da3356eac44d9b389b17
+Section: Tweaks
+Description: 只加快进出 Appswitcher 的动画速度
+Author: Excalibur 凑合哥Repack
+Name: Appswitcher(Rootless)
+
+Package: com.couhege.rotaty
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Stoinks 凑合哥Repack
+Installed-Size: 139
+Depends: mobilesubstrate, firmware(>= 12.0)
+Filename: debs/com.couhege.rotaty_2.0_iphoneos-arm64.deb
+Size: 5734
+MD5sum: 0083894ed9285976f96344187c79f61e
+SHA1: 663db276e06bd88f9057a7b19e34735f4e2f8d8b
+SHA256: aff967eaeec2578f217ea980269bffc68517166fa4c8c383e2c5f9ce128b5011
+Section: 插件
+Description: 随意旋转你的应用图标！无设置安装生效
+Author: Stoinks 凑合哥Repack
+Name: Rotaty(Rootless)
+
 Package: com.huayuarc.iosthermal.rootless
 Version: 2.9.5
 Architecture: iphoneos-arm64
@@ -34,4 +65,21 @@ Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 Icon: https://huayuarc.github.io/images/IOSThermal.png
 Name: IOSThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
+Package: com.sunshinesong.split-view-pro
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 5472
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: debs/com.sunshinesong.split-view-pro_1.4.0_iphoneos-arm64.deb
+Size: 2305616
+MD5sum: cbab402c772d58a69317dd19048af8be
+SHA1: 9937afc7fc7d20b618ad9a5033eaf51148ed5404
+SHA256: f4b1641bc35f6c742a87664b65ec331f520dc741518ef701ea78b85d755899ca
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Name: split-view-pro
+Ts: sp-sss
 
