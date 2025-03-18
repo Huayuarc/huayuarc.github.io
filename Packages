@@ -4,7 +4,7 @@ Architecture: iphoneos-arm64
 Maintainer: David Goldman <help@golddavid.com>
 Installed-Size: 200
 Depends: firmware (>= 9.0), mobilesubstrate
-Filename: ./apt.couhege.manila_2.0_iphoneos-arm64.deb
+Filename: debs/apt.couhege.manila_2.0_iphoneos-arm64.deb
 Size: 33510
 MD5sum: 5d2b34adfbf7136186af50ac3989b7c7
 SHA1: 1e399441fc7840ad682898b1923a4b0e0ffa0e91
@@ -22,7 +22,7 @@ Maintainer: Huayuarc
 Installed-Size: 72
 Depends: mobilesubstrate
 Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, cn.zqbb.holdcpu
-Filename: ./com.huayuarc.iosthermal.rootless_2.9.5_iphoneos-arm64.deb
+Filename: debs/com.huayuarc.iosthermal.rootless_2.9.5_iphoneos-arm64.deb
 Size: 2838
 MD5sum: a44e225cddb54a683bc45c686c32e96b
 SHA1: 22230bd8dbbb455587242e7309758bccf77405c4
