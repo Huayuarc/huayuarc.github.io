@@ -46,6 +46,26 @@ Description: 随意旋转你的应用图标！无设置安装生效
 Author: Stoinks 凑合哥Repack
 Name: Rotaty(Rootless)
 
+Package: com.huayuarc.iosthermal.roothide
+Version: 2.9.6
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 24
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermal.roothide_2.9.6_iphoneos-arm64e.deb
+Size: 1840
+MD5sum: 9468cd3f1fa67c827dc586d144d16458
+SHA1: 6a1f325f918aedfbfaf417b91cd5d497d0edf67a
+SHA256: dbec69ac23dcf3ed719201a26a75d240d973cfd0d35c9be06893182209856be7
+Section: Tweaks
+Description: 效果自测，无效卸载即可。
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
 Package: com.huayuarc.iosthermal.rootless
 Version: 2.9.6
 Architecture: iphoneos-arm64
