@@ -410,11 +410,11 @@ Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: firmware (<< 16), mobilesubstrate, coreutils
 Filename: debs/com.huayuarc.eqe.rootless_2.2.2-1_iphoneos-arm64.deb
-Size: 7939834
-MD5sum: 4c634eb50cd31410bb950e4860c52e74
-SHA1: e1e0d6714441bb316af4728f99fb78431b0c47e4
-SHA256: 59ff7e43e8fa238c0a4441333e181bf86d202dfe7f69ef28dde653af74d3d4ea
-Section: A - Tweaks
+Size: 7939832
+MD5sum: 4b9a501252c400a131880b97b378aaf6
+SHA1: f052da7a1b61b69827de7640fd1ace095cfafe31
+SHA256: 0d3a2a139be94a1f89b0319558c53e6631c545c276dfb28d9350cd7bca2bb522
+Section: Tweaks
 Description: 全系统参数均衡器
 Author: Reed Weichler
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/eqe.png
