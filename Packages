@@ -137,22 +137,6 @@ Name: split-view-pro
 Sileodepiction: https://huayuarc.github.io/sileodepiction/split-view-pro/split-view-pro.json
 Ts: sp-sss
 
-Package: com.yourepo.huayuarc.newterm3theos
-Version: 3.0
-Architecture: iphoneos-arm64
-Maintainer: 玩游戏的李子- <xuanhua880@gmail.com>
-Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
-Filename: debs/com.yourepo.huayuarc.newterm3theos_3.0_iphoneos-arm64.deb
-Size: 23690372
-MD5sum: 307d6414655be8457447fd0d78530c89
-SHA1: e733cfbe5c171365a3e8209d62b72c5667036378
-SHA256: cf4fc2cea7c5ab51a4529b86fd2dd0da7814694aeda72f311526f8927e2e50af
-Section: Tweaks
-Description: newterm3中文版(带theos包，无sdk)，李子博客上找教程
-Author: 玩游戏的李子- <xuanhua880@gmail.com>
-Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
-Name: newterm3中文版(带theos包)
-
 Package: xc.lzsxcl.o2pro
 Version: 17.8
 Architecture: iphoneos-arm
