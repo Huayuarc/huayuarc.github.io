@@ -15,6 +15,21 @@ Author: David Goldman
 Icon: https://huayuarc.github.io/images/Manila.png
 Name: Manila(Rootless)
 
+Package: cn.llld.wxyybb
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Depends: mobilesubstrate
+Filename: debs/cn.llld.wxyybb_1.0_iphoneos-arm64.deb
+Size: 5134
+MD5sum: 968371c0d4f7b9493d0e5d49757554b3
+SHA1: e1a1d9f948de80252e251baedd061a7238746521
+SHA256: 384ea3cc98675af581a4a4d419c18c5146c0dd10fc87fb691d3f0c291d65d20f
+Section: rootless-wx插件
+Description: 原名motherwc，作用：点击wx文本，语音播报信息,应多人需要再上架
+Author: sunweiliang
+Name: Wx文本语音播报(Rootless)
+
 Package: com.couhege.Appswitcher
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -86,6 +101,22 @@ Icon: https://huayuarc.github.io/images/IOSThermal.png
 Name: IOSThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 
+Package: com.huayuarc.newterm3theos
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: 玩游戏的李子- <xuanhua880@gmail.com>
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Filename: debs/com.huayuarc.newterm3theos_3.0_iphoneos-arm64.deb
+Size: 23690372
+MD5sum: d8834d757880c03461333d38a07655b0
+SHA1: 98716a7233da3b3f9a48b2f44e74a839fd22c968
+SHA256: 2fcdd475620082f0a92de3093432af1f715d77deb8a393516764e229f663109e
+Section: Tweaks
+Description: newterm3中文版(带theos包，无sdk)，李子博客上找教程
+Author: 玩游戏的李子- <xuanhua880@gmail.com>
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: Newterm3中文版(Rootless)
+
 Package: com.sunshinesong.split-view-pro
 Version: 1.4.0
 Architecture: iphoneos-arm64
@@ -105,6 +136,22 @@ Icon: https://huayuarc.github.io/images/split-view-pro.png
 Name: split-view-pro
 Sileodepiction: https://huayuarc.github.io/sileodepiction/split-view-pro/split-view-pro.json
 Ts: sp-sss
+
+Package: com.yourepo.huayuarc.newterm3theos
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: 玩游戏的李子- <xuanhua880@gmail.com>
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Filename: debs/com.yourepo.huayuarc.newterm3theos_3.0_iphoneos-arm64.deb
+Size: 23690372
+MD5sum: 307d6414655be8457447fd0d78530c89
+SHA1: e733cfbe5c171365a3e8209d62b72c5667036378
+SHA256: cf4fc2cea7c5ab51a4529b86fd2dd0da7814694aeda72f311526f8927e2e50af
+Section: Tweaks
+Description: newterm3中文版(带theos包，无sdk)，李子博客上找教程
+Author: 玩游戏的李子- <xuanhua880@gmail.com>
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: newterm3中文版(带theos包)
 
 Package: xc.lzsxcl.o2pro
 Version: 17.8
