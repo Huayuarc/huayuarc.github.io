@@ -15,6 +15,23 @@ Author: David Goldman
 Icon: https://huayuarc.github.io/images/Manila.png
 Name: Manila(Rootless)
 
+Package: cn.Bswbw.fixset.roothide
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: gblw
+Installed-Size: 123
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.Bswbw.fixset.roothide_1.0_iphoneos-arm64e.deb
+Size: 17938
+MD5sum: e3ec10cd6b97a400b26c477e98bb61b5
+SHA1: 496d560dea4a8bf25c8d9d3c08b5508d2dfd0909
+SHA256: cdd586c20c81422fb95e61518890ff5fbd9a4bb112663e9c2aa9957d9d1c7340
+Section: Tweaks
+Description: 修复部分插件转roothide配置不保存问题
+Author: @bswbw
+Name: FixSet(Roothide)
+Sponsor: gblw
+
 Package: cn.llld.wxyybb
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -60,6 +77,90 @@ Section: 插件
 Description: 随意旋转你的应用图标！无设置安装生效
 Author: Stoinks 凑合哥Repack
 Name: Rotaty(Rootless)
+
+Package: com.huayuarc.GSHongBao.rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 挂神
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.GSHongBao.rootless_1.0_iphoneos-arm64.deb
+Size: 98894
+MD5sum: 951513406654b4fdc49cebf21f01d292
+SHA1: 666b16ce83ac51b3cdb0133ba16577e7690319f9
+SHA256: 246de76509a9af756cc8b96c1a42714c8ab1aacc08b0363805ae33bd6220da2e
+Section: Tweaks
+Description: 自动抢红包、延迟抢红包、锁屏及后台抢红包、高级功能、抢自己的红包、抢私聊的红包、防止同时抢多个红包、抢到红包通知、不抢表情红包、关键词过滤、群聊过滤。
+Author: 挂神
+Name: GSHongBao-Rootless
+Sponsor: 挂神
+
+Package: com.huayuarc.airaw.rootless
+Version: 1.6.1
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, firmware (>=15.0), ws.hbang.common
+Filename: debs/com.huayuarc.airaw.rootless_1.6.1_iphoneos-arm64.deb
+Size: 11356486
+MD5sum: c28e60e59982e5685b286e06c50e1aa2
+SHA1: 2e88ba15618dd4f26c4d369734b8c9622456244f
+SHA256: 86487c4e8c0e024d9e11a426e5cf605a0976cf127d7d14c86e506a54687f30db
+Section: Tweaks
+Description: CarPlay 的功能非常出色，但许多用户都发现它缺乏可定制性。此外，它没有提供许多最终用户希望拥有的一些功能。由 iOS 开发者 Dcsyh i开发的名为 Airaw 的全新越狱插件使这一目标更进一步。Airaw 包括有用的功能，例如修补墙纸、图标布局和状态栏格式等。详细的功能可见配置内容中。
+Author: Dcsyhi
+Icon: https://img.chariz.cloud/icon/airaw/icon@3x.png
+Name: Airaw(Rootless)
+Sponsor: CyPwn
+
+Package: com.huayuarc.applicationscene
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: z
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.batteryview.rootless
+Filename: debs/com.huayuarc.applicationscene_1.1_iphoneos-arm64.deb
+Size: 4722
+MD5sum: 04cdbf0cae82f9158937a1d9fe497ebb
+SHA1: 3d2782ae235722c13bc37f0213d31f100f7d75af
+SHA256: bb762b19bcd2fa5b0cf830e8163d1b1d75939811469760ada042a91dfc67e0ff
+Section: Tweaks
+Description: 1.隐藏横条
+Author: z
+Name: 去除底部横条(Rootless)
+Sponsor: z
+
+Package: com.huayuarc.coolcc
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: alias20
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.alderis
+Conflicts: alias20.coolcc, com.hk.coolcc.cn.rl
+Filename: debs/com.huayuarc.coolcc_2.0.1_iphoneos-arm64.deb
+Size: 38664
+MD5sum: c8b92458c36f842c091d267b174a5b51
+SHA1: c4cc15d35b30c02f29459b78e81a19d6b1a88e1e
+SHA256: b3fdb29252d6c2f13c4fca9c32c76a660929e062aa8b3b2bfd2d08c58409ceaa
+Section: A - Tweaks
+Description: 控制中心调整背景和边框等，已包含简体中文。laileld和乌贼力量修复alias20版的一些bug，优化支持iOS16音量框。
+Author: alias20
+Name: CoolCC(Rootless)
+Sponsor: alias20
+
+Package: com.huayuarc.disablepastealert16
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/com.huayuarc.disablepastealert16_0.0.1_iphoneos-arm64.deb
+Size: 6202
+MD5sum: cd4fbd05811a900abcc4de5c7fc30478
+SHA1: 50f27079e9570d0daddde022531d4704ddccfb0d
+SHA256: 6af5a5c9ce1b22d8a59866f2e9c4896feed47ef442629bbd6ec6dde9cbe2c324
+Section: Tweaks
+Description: 禁用iOS16+粘贴弹窗，并自动允许
+Author: SquidForce
+Name: 禁用iOS16+粘贴弹窗 - DisablePasteAlert16
+Sponsor: SquidForce
 
 Package: com.huayuarc.iosthermal.roothide
 Version: 2.9.6
@@ -116,6 +217,57 @@ Description: newterm3中文版(带theos包，无sdk)，李子博客上找教程
 Author: 玩游戏的李子- <xuanhua880@gmail.com>
 Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
 Name: Newterm3中文版(Rootless)
+
+Package: com.huayuarc.nolowpowermode30secautolock
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Brend0n
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.nolowpowermode30secautolock_0.0.1_iphoneos-arm64.deb
+Size: 6364
+MD5sum: 9af04e9559fd6456bd95e0443c1a422a
+SHA1: f8595d629a7a00fc450d993ebe55416160138b0f
+SHA256: 04b610d1993214a36c3c2249a632763fb99eb75245e6c236becb61fb285728d0
+Section: Tweaks
+Description: Natively allow you to adjust Auto-Lock interval in Low Power Mode. 在低电量模式下也可以调整自动锁屏时间！
+Author: Brend0n
+Name: NoLowPowerMode30SecAutoLock(Rootless)
+Sponsor: Brend0n
+
+Package: com.huayuarc.nopassafterrespringsafe
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: Brend0n
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.nopassafterrespringsafe_0.0.2_iphoneos-arm64.deb
+Size: 4692
+MD5sum: d02365b619162f2487d4eabef4a01b99
+SHA1: 268965a6348610d9e19fc114d1e10218a25e6436
+SHA256: 84fca95d11c5a629a9858a1285abf766c17cb7bb57c76af188944b61d2957a1a
+Section: Tweaks
+Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
+Author: Brend0n
+Name: NoPassAfterRespring (Rootless)
+Sponsor: Brend0n
+
+Package: com.huayuarc.recordanywhere.rootless
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Muirey03 & lclrc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.recordanywhere.rootless_1.1.0_iphoneos-arm64.deb
+Size: 7100
+MD5sum: 88bb0379537f6b18bebdafdbf97454db
+SHA1: 2850b15339ca0bb249a3b3d57e3dbf5d862d1615
+SHA256: 4f6eea3643abcbebcb1f2bb694d0d46d2927aba656e2864b9bdd909fe154d301
+Section: Tweaks
+Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamine，感谢原作者提供的思路。
+Author: Muirey03 & lclrc
+Name: 锁屏录屏RecordAnywhere(Rootless)
+Sponsor: Muirey03 & lclrc
 
 Package: com.sunshinesong.split-view-pro
 Version: 1.4.0
