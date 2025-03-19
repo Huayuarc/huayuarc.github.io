@@ -106,3 +106,52 @@ Name: split-view-pro
 Sileodepiction: https://huayuarc.github.io/sileodepiction/split-view-pro/split-view-pro.json
 Ts: sp-sss
 
+Package: xc.lzsxcl.o2pro
+Version: 17.8
+Architecture: iphoneos-arm
+Maintainer: lzsxcl <xuanhua880@gmail.com>
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/xc.lzsxcl.o2pro_17.8_iphoneos-arm.deb
+Size: 10888062
+MD5sum: c55d6a5d7bad7e9d5ec8fa8731ed0baa
+SHA1: 2a0b801f91d2ae8262c9c46524db121487effeb6
+SHA256: a4d85053d1e8f359df0dfdd9bfbc788da39e3629ed654a12885e6676bd129174
+Section: o2分屏插件
+Description: 注重设计与用户体验的优雅产品。
+Author: lzsxcl <xuanhua880@gmail.com>
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+Name: o2Pro
+
+Package: xc.lzsxcl.o2pro.roothide
+Version: 17.6
+Architecture: iphoneos-arm64e
+Maintainer: lzsxcl <xuanhua880@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/xc.lzsxcl.o2pro.roothide_17.6_iphoneos-arm64e.deb
+Size: 21427860
+MD5sum: bbca47f10cdee81cbcd774f0a771caa3
+SHA1: 45037d582fbaf93ecd42dc1ab127d6e97ce17e9b
+SHA256: aef82839df54c20776f7e6947b1ba180cb5976d34d31b5ae182bc980bc53e240
+Section: o2分屏插件
+Description: 注重设计与用户体验的优雅产品。
+Author: lzsxcl <xuanhua880@gmail.com>
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+Name: o2Pro(Roothide)
+
+Package: xc.lzsxcl.o2pro.rootless
+Version: 17.8.7
+Architecture: iphoneos-arm64
+Maintainer: lzsxcl <xuanhua880@gmail.com>
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/xc.lzsxcl.o2pro.rootless_17.8.7_iphoneos-arm64.deb
+Size: 10892148
+MD5sum: 07767c0e47a456932f2096512520d60b
+SHA1: bbd6d4f6c03a76aab2503e66bc99f78399f58fee
+SHA256: 95d1094ee79f0ac5955cf0858d02adcee6fe7dc99e5bb56b28f3d2b7d5043277
+Section: o2分屏插件
+Description: 注重设计与用户体验的优雅产品。
+Author: lzsxcl <xuanhua880@gmail.com>
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+Name: o2Pro(Rootless)
+
