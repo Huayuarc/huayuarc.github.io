@@ -1,3 +1,22 @@
+Package: Flex3beta.bootstrap
+Version: 1:3~Beta92
+Architecture: iphoneos-arm64e
+Maintainer: DXcool223
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: debs/Flex3beta.bootstrap_1:3~Beta92_iphoneos-arm64e.deb
+Size: 27932372
+MD5sum: 7ce5b23022aa2891e67e305714a4e0b5
+SHA1: af52993096dec404f216cb85708539a79ca95fc8
+SHA256: 234a17626f460d760282714a0bd16d6eaf8284294d97f70f7d4e3175f312e765
+Section: Tweaks
+Description: Flex 3 beta92 for RootHides Bootstrap by DXcool223
+Author: John Coates
+Name: Flex 3 Beta RootHide Bootstrap
+Sponsor: DXcool223
+
 Package: apt.couhege.manila
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -16,16 +35,16 @@ Icon: https://huayuarc.github.io/images/Manila.png
 Name: Manila(Rootless)
 
 Package: cn.Bswbw.fixset.roothide
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm64e
 Maintainer: gblw
 Installed-Size: 123
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/cn.Bswbw.fixset.roothide_1.0_iphoneos-arm64e.deb
-Size: 17938
-MD5sum: e3ec10cd6b97a400b26c477e98bb61b5
-SHA1: 496d560dea4a8bf25c8d9d3c08b5508d2dfd0909
-SHA256: cdd586c20c81422fb95e61518890ff5fbd9a4bb112663e9c2aa9957d9d1c7340
+Filename: debs/cn.Bswbw.fixset.roothide_1.1_iphoneos-arm64e.deb
+Size: 50634
+MD5sum: 918a55a6aadc4595c733c6b3eb8a9a5c
+SHA1: 9318e4da7f1dcdf80fe43084ebe9e4c734318383
+SHA256: 0010fc189b7ed04818cd9862fa0d86113f4e083335237bf08686040bb2b34106
 Section: Tweaks
 Description: 修复部分插件转roothide配置不保存问题
 Author: @bswbw
@@ -144,6 +163,40 @@ Description: 1.隐藏横条
 Author: z
 Name: 去除底部横条(Rootless)
 Sponsor: z
+
+Package: com.huayuarc.barmoji
+Version: 2023.3
+Architecture: iphoneos-arm
+Maintainer: CP Digital Darkroom
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.cpdigitaldarkroom.barmoji
+Filename: debs/com.huayuarc.barmoji_2023.3_iphoneos-arm.deb
+Size: 83992
+MD5sum: 1fbba78f9a41093d102ed1c145e38543
+SHA1: 9faf21feddb017572c9c03f3250ca5544a259b91
+SHA256: 73b95848c25fca3a25dc8b339db34485ddb0611f66d278d23139c9d8af2aae82
+Section: Tweaks
+Description: 在刘海设备的键盘底部空隙处显示Emoji表情。82大佬适配iOS15，精简某些用不上的功能代码。XinaA15实测运行ok。
+Author: CP Digital Darkroom
+Name: Barmoji
+Sponsor: CP Digital Darkroom
+
+Package: com.huayuarc.barmoji.rootless
+Version: 2023.3.3
+Architecture: iphoneos-arm64
+Maintainer: CP Digital Darkroom
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.cpdigitaldarkroom.barmoji
+Filename: debs/com.huayuarc.barmoji.rootless_2023.3.3_iphoneos-arm64.deb
+Size: 74432
+MD5sum: bfcbedd427a79c4a617f7800700afdc0
+SHA1: 3e9fd4dfec41c5b6b2bfa112ff3e750f049b2b3d
+SHA256: 2010fa70873a5d293b9d133ea38cbe9a600d0f6be0defe1de70f63d2b00e0434
+Section: Tweaks
+Description: 基于82的20323.3版Barmoji，Netskao修复支持Fugu15。
+Author: CP Digital Darkroom
+Name: Barmoji(Rootless)
+Sponsor: CP Digital Darkroom
 
 Package: com.huayuarc.bukabukacrack
 Version: 0.0.1.1+debug
@@ -334,6 +387,40 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/dynamicpeninsula.png
 Name: DynamicPeninsula(Rootless)
 Sponsor: CyPwn
 
+Package: com.huayuarc.eqe
+Version: 2.2.2-1
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: firmware (<< 16), mobilesubstrate, coreutils
+Filename: debs/com.huayuarc.eqe_2.2.2-1_iphoneos-arm.deb
+Size: 7938336
+MD5sum: 9bbc1b96571a6b0a4c2250a1c513c139
+SHA1: caf8eeafb112daa38cd616c8b0b9a37927e62844
+SHA256: dcfd4736eb88acc4800f85f53611098aa9cf73e83111d899d84c75fb9fe4765c
+Section: Tweaks
+Description: 全系统参数均衡器。
+Author: Reed Weichler
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/eqe.png
+Name: EQE
+Sponsor: CyPwn
+
+Package: com.huayuarc.eqe.rootless
+Version: 2.2.2-1
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (<< 16), mobilesubstrate, coreutils
+Filename: debs/com.huayuarc.eqe.rootless_2.2.2-1_iphoneos-arm64.deb
+Size: 7939834
+MD5sum: 4c634eb50cd31410bb950e4860c52e74
+SHA1: e1e0d6714441bb316af4728f99fb78431b0c47e4
+SHA256: 59ff7e43e8fa238c0a4441333e181bf86d202dfe7f69ef28dde653af74d3d4ea
+Section: A - Tweaks
+Description: 全系统参数均衡器
+Author: Reed Weichler
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/eqe.png
+Name: EQE(Rootless)
+Sponsor: CyPwn
+
 Package: com.huayuarc.flexbetahide
 Version: 1:4
 Architecture: iphoneos-arm64e
@@ -400,6 +487,40 @@ Section: Fonts
 Description: iOS11-15古典明朝臻楷100%，效果看截图预览。安裝自動備份原字體，卸載恢復正常字體，安裝完成自動註銷生效。
 Author: 犬神志
 Name: 古典明朝臻楷字體
+Sponsor: Huayuarc
+
+Package: com.huayuarc.gqfyhhooks
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.gqfyhhooks_0.0.1-1_iphoneos-arm.deb
+Size: 3416
+MD5sum: 4d868455841535d25bd201da8a3eae97
+SHA1: 2e09f3b01bde2b536ee8d89727160f531a8fbff9
+SHA256: 9e3f80f81647731ea36507b9df376f4a4e2f6b0c540c25c7f06b8eda1e33a0cd
+Section: Tweaks
+Description: 去除软件强制更新！屏蔽越狱检测，适配版本为6.1.0
+Author: Huayuarc
+Name: 广汽丰田丰云行 Hooks
+Sponsor: Huayuarc
+
+Package: com.huayuarc.gqfyhhooks.rootless
+Version: 0.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.gqfyhhooks.rootless_0.0.1-1_iphoneos-arm64.deb
+Size: 3446
+MD5sum: 4a83e20b6941f6546642e21562e93f5e
+SHA1: 4ed115c9e555a2c2665c6453b09dbe0f5631a00c
+SHA256: 258a45cf3b6c4b391ba42ac011356b48b309ee6854af8d85693979d23e3ee76b
+Section: Tweaks
+Description: 去除软件强制更新！屏蔽越狱检测，适配版本为6.1.0
+Author: Huayuarc
+Name: 广汽丰田丰云行 Hooks(Rootless)
 Sponsor: Huayuarc
 
 Package: com.huayuarc.hjqhooks
@@ -595,6 +716,24 @@ Author: Teggers
 Name: netKillUIbeta (iOS 11)
 Sponsor: ReJail <rejail@rejail.ru>
 
+Package: com.huayuarc.networkmanage
+Version: 1.1-3
+Architecture: iphoneos-arm
+Maintainer: netskao
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Filename: debs/com.huayuarc.networkmanage_1.1-3_iphoneos-arm.deb
+Size: 139284
+MD5sum: 89d2130064670d8bc9c218a9754910f4
+SHA1: 59db0dbb9f5a2b8e1783819cff1c28a99f2030b1
+SHA256: 9499125e2dc39bba0c0574f7d3dc2d1d9e80c3877d0523703d0d0ab185ee83e2
+Section: Tweaks
+Description: 管理蜂窝和WIFI联网权限，支持iOS10-iOS14
+Tag: purpose::extension, compatible::ios12, compatible::ios13
+Author: Netskao
+Icon: file:///Library/PreferenceBundles/NetWorkManage.bundle/NetWorkManage@2x.png
+Name: NetWorkManage
+Sponsor: netskao
+
 Package: com.huayuarc.newterm3theos
 Version: 3.0
 Architecture: iphoneos-arm64
@@ -701,6 +840,40 @@ Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fcdn-static.you
 Name: WeChatTimeLineRobot(Rootless)
 Sponsor: Cocos
 
+Package: com.huayuarc.wicellswitcher
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Bruno Andrade
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Conflicts: com.brunonfl.wicellswitcher
+Filename: debs/com.huayuarc.wicellswitcher_1.2_iphoneos-arm.deb
+Size: 20284
+MD5sum: c94b69a4fa9e783830281e7299178f10
+SHA1: 6c28ab501550e64f648175661a37819bbdd8cf05
+SHA256: ddaab6c342a5c963a9eb014471d1cb3aba3f49d5cd7673c7af063bee240b0b41
+Section: Tweaks
+Description: 在Wi-Fi 和蜂窝网络之间智能切换，控制中心连接蜂窝自动关闭WiFi，连接WiFi自动关闭蜂窝；或者断开连接时触发。i_82大佬修复支持iOS15，支持Xina越狱。
+Author: Bruno Andrade
+Name: WiCellSwitcher
+Sponsor: Bruno Andrade
+
+Package: com.huayuarc.wicellswitcher.rootless
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: Bruno Andrade
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Conflicts: com.brunonfl.wicellswitcher
+Filename: debs/com.huayuarc.wicellswitcher.rootless_1.2_iphoneos-arm64.deb
+Size: 30584
+MD5sum: 9474d270d4c55f8fa327a65a91b85e53
+SHA1: 3bc91893be6cbf6baaddd4463c229ee62bfe0a23
+SHA256: f57e7853673255467eb98a2823d7b2a4a96a3e25d805110e66f53bc25980517b
+Section: Tweaks
+Description: WiFi和蜂窝数据之间智能切换，控制中心连接WiFi关闭蜂窝，连接蜂窝关闭WiFi，或者断开连接时触发。Skypain基于i_82修复支持iOS15的源码，编译支持rootless。
+Author: Bruno Andrade
+Name: WiCellSwitcher(Rootless)
+Sponsor: Bruno Andrade
+
 Package: com.huayuarc.wnsmcrack.roothide
 Version: 0.0.1-1
 Architecture: iphoneos-arm64e
@@ -734,6 +907,22 @@ Description: 解锁除自然音外的所有会员音频。
 Author: Huayuarc
 Name: 蜗牛睡眠 Crack(Rootless)
 Sponsor: Huayuarc
+
+Package: com.huayuarc.wxcallkit.rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: zlw555
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huayuarc.wxcallkit.rootless_1.0_iphoneos-arm64.deb
+Size: 4510
+MD5sum: 4f81c2cdf21f7da9366269916ff2a62f
+SHA1: 4ee7e9a48ee020a26a530f76734bf94ae7bd97a4
+SHA256: af5979d0d5ce0249648ad5df6957905f888d4ec49b26c8113db489d7f6cabfb7
+Section: Tweaks
+Description: 微信 Callkit
+Author: zlw555
+Name: 微信Callkit(Rootless）
+Sponsor: zlw555
 
 Package: com.huayuarc.ycjptb
 Version: 0.0.1.1+debug
@@ -802,6 +991,23 @@ Description: Remove the keyboard's dictation button Made as a request via r/Jail
 Author: Huayuarc
 Name: 【键盘】隐藏语音图标(Rootless)
 Sponsor: Huayuarc
+
+Package: com.johncoates.Flex.roothide
+Version: 1:3~Beta56
+Architecture: iphoneos-arm64e
+Maintainer: DXcool223
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: me.tomt000.stageduo
+Filename: debs/com.johncoates.Flex.roothide_1:3~Beta56_iphoneos-arm64e.deb
+Size: 24371960
+MD5sum: dc1e9ae80ff14eaa90fbd8131a7ad1b9
+SHA1: e69e63fc8244ac8778277d250c71ceb8ed86baa9
+SHA256: 242477ffbeda809322fdb869cae335760f458da455f989ce04aed9adecd42045
+Section: Tweaks
+Description: Flex 3 for RootHides version of Dopamine by DXcool223
+Author: John Coates
+Name: Flex 3 Beta RootHide Dopamine IOS 15.x
+Sponsor: DXcool223
 
 Package: com.miguelaka95.bettercc.rootless
 Version: 0.0.54
@@ -937,6 +1143,40 @@ Section: Tweaks
 Description: 解锁Limneos所有插件全功能通话录音破解、NFC破解等等，可以下载官方插件，再安装本插件进行破解！官方源http://limneos.net/repo。
 Author: Netskao
 Name: Limneos Crack(Rootless)
+Sponsor: Nets
+
+Package: com.netskao.stormsniffercrack
+Version: 1.1-4
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 1108
+Depends: mobilesubstrate
+Filename: debs/com.netskao.stormsniffercrack_1.1-4_iphoneos-arm.deb
+Size: 116842
+MD5sum: 4c0147d4665ea99cd653d89ecc6b9864
+SHA1: 64174fce1bd23d3f00dd34378ea85c6498b3d5c6
+SHA256: e7f076e1f00dbddfdf8010429fa391b0eb9ade851c3e90a833964ae76c87c213
+Section: Tweaks
+Description: Storm Sniffer是一款HTTP抓包工具。不用连接电脑就可以捕获并查看本机所有HTTP/HTTPS请求和响应，轻松调试应用程序的网络问题。
+Author: Netskao
+Name: StormSniffer Crack
+Sponsor: Nets
+
+Package: com.netskao.stormsniffercrack.rootless
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1108
+Depends: mobilesubstrate
+Filename: debs/com.netskao.stormsniffercrack.rootless_1.1-4_iphoneos-arm64.deb
+Size: 116550
+MD5sum: 1dbc272e5c700ddc09b82f7e86e9a221
+SHA1: cd0bae822dffd7a3f18eebfc69ec32271c7dfab2
+SHA256: be1b0cb07607eb08a73a6beef98d976bf2b3b758e113ed73d8033ed41b674298
+Section: Tweaks
+Description: Storm Sniffer是一款HTTP抓包工具。不用连接电脑就可以捕获并查看本机所有HTTP/HTTPS请求和响应，轻松调试应用程序的网络问题。
+Author: Netskao
+Name: StormSniffer Crack(Rootless)
 Sponsor: Nets
 
 Package: com.ps.amber
