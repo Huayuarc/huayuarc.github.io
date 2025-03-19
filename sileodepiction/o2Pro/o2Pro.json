@@ -1,0 +1,120 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://huayuarc.github.io/images/huayuarc.jpeg",
+  "tintColor": "#FF4455",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "插件描述",
+      "views": [
+         {
+                    "text":"iOS无根越狱Q群",
+                    "action":"https://qm.qq.com/q/9rqZwEQDEQ",
+                    "openExternal": 1,
+                    "class":"DepictionButtonView"
+                },      
+                {
+                    "text":"低月租高流量卡",
+                    "action":"https://haoka.iosrxwy.com/phone/index?id=51988E4215572FDE7B61C1A06B253F35",
+                    "openExternal": 1,
+                    "class":"DepictionButtonView"
+                },
+                {
+          "class": "DepictionMarkdownView",
+          "markdown": "注重设计与用户体验的优雅产品。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 346.4533333333333}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://huayuarc.github.io/sileodepiction/o2Pro/01.png"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://huayuarc.github.io/sileodepiction/o2Pro/02.png"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://huayuarc.github.io/sileodepiction/o2Pro/03.png"
+            }
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://huayuarc.github.io/sileodepiction/o2Pro/04.png"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://huayuarc.github.io/sileodepiction/o2Pro/05.png"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详情",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "lzsxcl ",
+          "title": "开发作者"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "17.8.7",
+          "title": "最新版本"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "15.0 - 17.0",
+          "title": "支持系统"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "2025 年 03 月 19 日",
+          "title": "最后更新日期"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "17.8.7",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "上传备用",
+          "useRawFormat": true
+        }
+      ]
+    }
+  ]
+}
