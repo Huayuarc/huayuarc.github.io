@@ -47,6 +47,23 @@ Description: 原名motherwc，作用：点击wx文本，语音播报信息,应�
 Author: sunweiliang
 Name: Wx文本语音播报(Rootless)
 
+Package: com.brend0n.neteaseradioliketoprevious
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Brend0n
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: debs/com.brend0n.neteaseradioliketoprevious_0.0.1_iphoneos-arm.deb
+Size: 4394
+MD5sum: e670695bc9befc3d8b61a2ed4e2c9adf
+SHA1: 415198a7ab9dbfbb97353ee67392d9f345daafda
+SHA256: c2221a79124535c88b549f15be2df725b64559fc5ca31aa291c49a999e628ca2
+Section: Tweaks
+Description: 网易云私人FM爱心按钮替换为前一首
+Author: Brend0n
+Name: NeteaseRadioLikeToPrevious
+Sponsor: Brend0n
+
 Package: com.couhege.Appswitcher
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -162,6 +179,40 @@ Author: Huayuarc
 Name: 卟咔卟咔 Crack(Rootless)
 Sponsor: Huayuarc
 
+Package: com.huayuarc.cgfygnoads
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.cgfygnoads_0.0.1-1_iphoneos-arm.deb
+Size: 3166
+MD5sum: 807ebf13113efddd5a00ece30103e0d4
+SHA1: f566474f5138bd5a1298cf96ad2446a67e92dded
+SHA256: 7b53696fda2bbe28d82f1a41556495dfe009b96ba1bd7d67795d8044358b00bc
+Section: Tweaks
+Description: 去除启动广告，首页广告，随机广告。
+Author: Huayuarc
+Name: 出国翻译官 NoAds
+Sponsor: Huayuarc
+
+Package: com.huayuarc.cgfygnoads.rootless
+Version: 0.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.cgfygnoads.rootless_0.0.1-1_iphoneos-arm64.deb
+Size: 3196
+MD5sum: 6bddd0f43648114ef566c15f5992a746
+SHA1: 2f0eb571fa74a5de2cd8c503e0b3c9c865902c27
+SHA256: f8cb5d14b4e5d5e3ab5257b07cc46c7d14575454194ef8d989d1e7c4d0fadb0b
+Section: Tweaks
+Description: 去除启动广告，首页广告，随机广告。
+Author: Huayuarc
+Name: 出国翻译官 NoAds(Rootless)
+Sponsor: Huayuarc
+
 Package: com.huayuarc.coolcc
 Version: 2.0.1
 Architecture: iphoneos-arm64
@@ -178,6 +229,76 @@ Description: 控制中心调整背景和边框等，已包含简体中文。lail
 Author: alias20
 Name: CoolCC(Rootless)
 Sponsor: alias20
+
+Package: com.huayuarc.cpudashercrack
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.cpudashercrack_0.0.1-1_iphoneos-arm.deb
+Size: 2952
+MD5sum: 393c539c088782a183024e271adc8c5c
+SHA1: 1d3ef9b41df9d329b5c81c24fc146356a6faf514
+SHA256: d55521dea8f51914d7a0d91cdfa87be9b036bb0f5d2c7166dbdf10587f8b1ed1
+Section: Tweaks
+Description: 解锁CPU Dasher 专业版。CPUDasher是一块查看设备信息的全能助手 主要分为一些板块：1、设备信息，2、CPU信息，3、内存信息，4、电池信息，5、网络信息，6、小组件快捷查看，7、小组件皮肤定制，8、常用工具集:心率测试、网络工具、噪音测试(分贝仪）、做个决定、流量统计、屏幕测试。
+Author: Huayuarc
+Icon: https://i.hd-r.cn/d878bedf27b3cb51639ccf8b5479bd18.png
+Name: CPU Dasher Crack
+Sponsor: Huayuarc
+
+Package: com.huayuarc.cpudashercrack.rootless
+Version: 0.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.cpudashercrack.rootless_0.0.1-1_iphoneos-arm64.deb
+Size: 2996
+MD5sum: dda45418625460c188a7006b21585d6f
+SHA1: 4a69a3f01d443d273c7c85217e4a841c4a53167a
+SHA256: 1b1ef4e478a97af4cba3de7573215fe857c803f382ef3bb21cf943e1ab0f7ecc
+Section: Tweaks
+Description: 解锁CPU Dasher 专业版。CPUDasher是一块查看设备信息的全能助手 主要分为一些板块：1、设备信息，2、CPU信息，3、内存信息，4、电池信息，5、网络信息，6、小组件快捷查看，7、小组件皮肤定制，8、常用工具集:心率测试、网络工具、噪音测试(分贝仪）、做个决定、流量统计、屏幕测试。
+Author: Huayuarc
+Icon: https://i.hd-r.cn/d878bedf27b3cb51639ccf8b5479bd18.png
+Name: CPU Dasher Crack(Rootless)
+Sponsor: Huayuarc
+
+Package: com.huayuarc.cpuxhooks
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.cpuxhooks_0.0.1-1_iphoneos-arm.deb
+Size: 2736
+MD5sum: af3f464ef326aba56ce64ac8db0904af
+SHA1: d82628bd5e78f7c814a67583e87263513f42f05b
+SHA256: 66a8c64c7b0f21b5682e8a5458bcee10e7730b0aa6eabf951335d33614052136
+Section: Tweaks
+Description: 解锁专业版
+Author: Huayuarc
+Name: CPU-X Hooks
+Sponsor: Huayuarc
+
+Package: com.huayuarc.cpuxhooks.rootless
+Version: 0.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.cpuxhooks.rootless_0.0.1-1_iphoneos-arm64.deb
+Size: 2788
+MD5sum: 84e8d74064dd3a56c23d70782e6524bd
+SHA1: dbfa8ab17414c6359f3adb41e172e7e70bf53c53
+SHA256: 30daa36574f8cfe0ead53836a2414f960cd969f2e72400480ce998e54ee5dcac
+Section: Tweaks
+Description: 解锁专业版
+Author: Huayuarc
+Name: CPU-X Hooks(Rootless)
+Sponsor: Huayuarc
 
 Package: com.huayuarc.disablepastealert16
 Version: 0.0.1
@@ -265,6 +386,90 @@ Author: Zerui Chen
 Name: Frame(Rootless)
 Sponsor: Zerui Chen
 
+Package: com.huayuarc.gdmcqk
+Version: 4.0
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: debs/com.huayuarc.gdmcqk_4.0_iphoneos-arm.deb
+Size: 44517090
+MD5sum: ca2215f255994029ae4f2cf70b2f2527
+SHA1: b1dbd3e079a49d4be348d827a7ee07cd32998144
+SHA256: dd96a5c35502dd2a38547cabf763024560f65517e769c9ecfc05edcafba66da5
+Section: Fonts
+Description: iOS11-15古典明朝臻楷100%，效果看截图预览。安裝自動備份原字體，卸載恢復正常字體，安裝完成自動註銷生效。
+Author: 犬神志
+Name: 古典明朝臻楷字體
+Sponsor: Huayuarc
+
+Package: com.huayuarc.hjqhooks
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.hjqhooks_0.0.1-1_iphoneos-arm.deb
+Size: 3210
+MD5sum: 6f3fe472042b223663afe13b33f01826
+SHA1: 1bd9421c7774d3f4e0dfa9c5abe4b8185e16fd77
+SHA256: fe5c3716c4d03b1ac47d8fd7bd33bb227e1a4871a195237adbf236378f42202a
+Section: Tweaks
+Description: 屏蔽越狱检测：支持最新版本7.2.6越狱屏蔽
+Author: Huayuarc
+Name: 和家亲 Hooks
+Sponsor: Huayuarc
+
+Package: com.huayuarc.hjqhooks.rootless
+Version: 0.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.hjqhooks.rootless_0.0.1-1_iphoneos-arm64.deb
+Size: 3248
+MD5sum: d612d3da7fab62be5c54e4dea432fca7
+SHA1: 7b272a7d602e4959b2905e6fc6d8cee5449c3474
+SHA256: e7682c11302c4c0be2e77320c11309a45247e5fe8f3813615772719c99413a80
+Section: Tweaks
+Description: 屏蔽越狱检测：支持最新版本7.2.6越狱屏蔽
+Author: Huayuarc
+Name: 和家亲 Hooks(Rootless)
+Sponsor: Huayuarc
+
+Package: com.huayuarc.hlcxnoads
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: 5201314zhang
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.hlcxnoads_0.0.1-1_iphoneos-arm.deb
+Size: 4392
+MD5sum: 335024ac6fcb2b8de55f32ceab43c860
+SHA1: 4a1f3a84233c16ded38744d4d712888a9770f559
+SHA256: a33d7a41b3d1e08f33e8f84155c8f759f3879c454461408d72438b1f2ba4309b
+Section: Tweaks
+Description: 1.去除启动广告、2.屏蔽首页～热门驿站、3.屏蔽首页～广告横幅、4.精简首页～无用模块、5.屏蔽首页～新人礼包、6.精简我的版块。
+Author: 5201314zhang
+Name: 哈啰出行 NoAds
+Sponsor: 5201314zhang
+
+Package: com.huayuarc.hlcxnoads.rootless
+Version: 0.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: 5201314zhang
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.hlcxnoads.rootless_0.0.1-1_iphoneos-arm64.deb
+Size: 4424
+MD5sum: 9b139fd621123229031039a3936dd2a2
+SHA1: 62de07432c2c863f875c775a24ee8e99c39a9d9c
+SHA256: 171860c6bcad22f74a8109ea46850b93e6a9cf07bb5c0bf92eaa8c425de23681
+Section: Tweaks
+Description: 1.去除启动广告、2.屏蔽首页～热门驿站、3.屏蔽首页～广告横幅、4.精简首页～无用模块、5.屏蔽首页～新人礼包、6.精简我的版块。
+Author: 5201314zhang
+Name: 哈啰出行 NoAds(Rootless)
+Sponsor: 5201314zhang
+
 Package: com.huayuarc.hyykh
 Version: 4.0
 Architecture: iphoneos-arm
@@ -320,6 +525,75 @@ Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 Icon: https://huayuarc.github.io/images/IOSThermal.png
 Name: IOSThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
+Package: com.huayuarc.neigou
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: 小果子
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huayuarc.neigou_0.0.1-1_iphoneos-arm.deb
+Size: 4610
+MD5sum: f1f9bdeedbecaa7178a2330ebc7248a5
+SHA1: 841d4417f25c4af1f53a23b5dfa3912d076a1dde
+SHA256: 4e7163c8b54ddfa58184e0edbbd99e445350df53924752c4661916f1a71bdb9a
+Section: Tweaks
+Description: 一款本地内购插件，仅支持服务器验证在本地的应用内购，请不要尝试内购大软件，支持免越狱注入，如果支持内购，点击购买后取消即为内购成功。
+Author: 小果子
+Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fcokepokes.github.io%2Fdepiction%2Fappstoreplus%2Ficon.png&s=180x180&f=webp
+Name: FuckPay
+Sponsor: 小果子
+
+Package: com.huayuarc.neigou.rootless
+Version: 0.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: 小果子
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huayuarc.neigou.rootless_0.0.1-1_iphoneos-arm64.deb
+Size: 4284
+MD5sum: c20cc57e320913a9caaf602ede6788e1
+SHA1: 555bea812d850f586613c2630bc07c72ade01f28
+SHA256: 9abfa78e3334c78517de91bf5b528025bba0c20f2261019aa3f054017049f014
+Section: Tweaks
+Description: 一款本地内购插件，仅支持服务器验证在本地的应用内购，请不要尝试内购大软件，支持免越狱注入，如果支持内购，点击购买后取消即为内购成功。
+Author: 小果子
+Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fcokepokes.github.io%2Fdepiction%2Fappstoreplus%2Ficon.png&s=180x180&f=webp
+Name: FuckPay(Rootless)
+Sponsor: 小果子
+
+Package: com.huayuarc.netkillui
+Version: 0.2.1-1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 591
+Depends: ru.rejail.arp-scan, ru.rejail.dsniff, ldid, adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils
+Filename: debs/com.huayuarc.netkillui_0.2.1-1_iphoneos-arm.deb
+Size: 261112
+MD5sum: fd560f580e23c915897def5b65a43772
+SHA1: b637b2387b89cd67e3a931d6d50a6cc3f5be87f1
+SHA256: 5b273b6ddff163e317935298a75f193f6ca9176b892146620275b7a95b06abfb
+Section: Tweaks
+Description: 阻止连接到同一网络的每个人的 Wi-Fi 访问。
+Author: Teggers
+Name: netKILLUI
+Sponsor: ReJail <rejail@rejail.ru>
+
+Package: com.huayuarc.netkillui11
+Version: 0.2.1-1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 2057
+Depends: adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils, firmware (>= 11.0)
+Conflicts: eu.teggers.netKillUI
+Filename: debs/com.huayuarc.netkillui11_0.2.1-1_iphoneos-arm.deb
+Size: 813968
+MD5sum: b369c480d2c85593effd697b27fcf76e
+SHA1: 0acfde97e771c68a9acfadf486c96aff1d625da0
+SHA256: 8aa858d44388f0ab885e85672dd67cfdb279ad8d0bc8a3f50b9dd56df5db58b5
+Section: Tweaks
+Description: 阻止连接到同一网络的每个人的 Wi-Fi 访问。
+Author: Teggers
+Name: netKillUIbeta (iOS 11)
+Sponsor: ReJail <rejail@rejail.ru>
 
 Package: com.huayuarc.newterm3theos
 Version: 3.0
@@ -427,6 +701,125 @@ Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fcdn-static.you
 Name: WeChatTimeLineRobot(Rootless)
 Sponsor: Cocos
 
+Package: com.huayuarc.wnsmcrack.roothide
+Version: 0.0.1-1
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.wnsmcrack.roothide_0.0.1-1_iphoneos-arm64e.deb
+Size: 8238
+MD5sum: e8ac66075409e39e1c6636d82a9e79df
+SHA1: c21f76a68605386d5ee9a49b6b3845ed3697ac16
+SHA256: fc7701e1058f4f7e5a48df10d1c94cbefb8138bfabca30e287507a2710fdf305
+Section: Tweaks
+Description: 解锁除自然音外的所有会员音频。
+Author: Huayuarc
+Name: 蜗牛睡眠 Crack(Roothide)
+Sponsor: Huayuarc
+
+Package: com.huayuarc.wnsmcrack.rootless
+Version: 0.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.wnsmcrack.rootless_0.0.1-1_iphoneos-arm64.deb
+Size: 2838
+MD5sum: 5953e7a5ea21f26e732b1886103ad2a9
+SHA1: a978b01c9716f8fccb286a8fc0ba8c951dbd3bdc
+SHA256: 8d81c9e66194044db7f1fddc6bbd0976bf6ccb0c3ee15eb3af9113780f7edc80
+Section: Tweaks
+Description: 解锁除自然音外的所有会员音频。
+Author: Huayuarc
+Name: 蜗牛睡眠 Crack(Rootless)
+Sponsor: Huayuarc
+
+Package: com.huayuarc.ycjptb
+Version: 0.0.1.1+debug
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.ycjptb_0.0.1.1+debug_iphoneos-arm.deb
+Size: 9234
+MD5sum: 2bd1252bbd9b71f9154ca87eb2ae1fbe
+SHA1: d83e13200fffe43729f78c8d6093b12e5d5b07d6
+SHA256: 5a51a9baa4f032d2907e855a7b1f56e248e28e655a988abbf0232c151bb29397
+Section: Tweaks
+Description: This patch removes the keyboard's globe button -Useful for people who have an alternativeway for switching keyboards, such as KeySwipe.Made as a request via r/JailbreakTested and working on iOS 11，Email: A_H_Rabie@Yahoo.com。
+Author: Huayuarc
+Name: 【键盘】隐藏键盘地球图标
+Sponsor: Huayuarc
+
+Package: com.huayuarc.ycjptb.rootless
+Version: 0.0.1.1+debug
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.ycjptb.rootless_0.0.1.1+debug_iphoneos-arm64.deb
+Size: 9298
+MD5sum: 5aa43c7a0f33c2c961af0128486ff62c
+SHA1: 149657de13bf19b302ff603c73c651eaa7bdc635
+SHA256: b38a373718065f33ad5a0da1cae15dc3f68656ea694b8f8679e621c6382c867a
+Section: Tweaks
+Description: This patch removes the keyboard's globe button -Useful for people who have an alternativeway for switching keyboards, such as KeySwipe.Made as a request via r/JailbreakTested and working on iOS 11，Email: A_H_Rabie@Yahoo.com。
+Author: Huayuarc
+Name: 【键盘】隐藏键盘地球图标(Rootless)
+Sponsor: Huayuarc
+
+Package: com.huayuarc.ycyytb
+Version: 0.0.1.1+debug
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.ycyytb_0.0.1.1+debug_iphoneos-arm.deb
+Size: 9392
+MD5sum: 503c0f567d6c218c1bac21195774e2cf
+SHA1: dc0dc03d5d4896a0ede6659f8a82cfd5f67d6d4e
+SHA256: 126d8ec51be33db722b9e25ad26939f194bd21524c9056f6620ed82912baebf6
+Section: Tweaks
+Description: Remove the keyboard's dictation button Made as a request via r/JailbreakShould workEmail:A_H_Rabie@Yahoo.com。
+Author: Huayuarc
+Name: 【键盘】隐藏语音图标
+Sponsor: Huayuarc
+
+Package: com.huayuarc.ycyytb.rootless
+Version: 0.0.1.1+debug
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.ycyytb.rootless_0.0.1.1+debug_iphoneos-arm64.deb
+Size: 9466
+MD5sum: 4452df96e410aad840a316a677b4518d
+SHA1: 3abd101bac5853a0654dfda111cc0d66283f2dc9
+SHA256: f160bb42b135ef251b30c09be5781f2f6e32f324d880f2df2b6ed63280a73315
+Section: Tweaks
+Description: Remove the keyboard's dictation button Made as a request via r/JailbreakShould workEmail:A_H_Rabie@Yahoo.com。
+Author: Huayuarc
+Name: 【键盘】隐藏语音图标(Rootless)
+Sponsor: Huayuarc
+
+Package: com.miguelaka95.bettercc.rootless
+Version: 0.0.54
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 1828
+Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Filename: debs/com.miguelaka95.bettercc.rootless_0.0.54_iphoneos-arm64.deb
+Size: 317664
+MD5sum: 574880a359d97f41c4831767c3ed6484
+SHA1: 5cfe23ac88085b4d75034749e8eb736e804b98e4
+SHA256: 4602e6868e45e1c50538fd559270b725a74400d9f8b7fc0b4a6ddfa1eb87f293
+Section: Tweaks
+Description: Customize your Control Center! Invisible Modules.RearrangeConnectivity Toggles.Change Modules Size.Weather Widget.2023-10-13 Fixed weather display null problem，控制中心音乐模块占位，数据链接排版，增加天气等等,2023-10-13修复天气显示null问题_________仅测试，有问题请卸载，作者没对rootless支持，勿扰他
+Author: Miguelaka95
+Name: BetterCC(Rootless)
+Sponsor: 来了老弟 h_h_x_t
+
 Package: com.netskao.actionbarreborn.rootless
 Version: 1.1-2
 Architecture: iphoneos-arm64
@@ -443,6 +836,74 @@ Description: 键盘底部的撤销、重做、全选、复制、剪切和粘贴�
 Author: Netskao
 Name: ActionBar Reborn(Rootless)
 Sponsor: Nets
+
+Package: com.netskao.disablepastetips
+Version: 1.1-5
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 168
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.netskao.disablepastetips_1.1-5_iphoneos-arm.deb
+Size: 4682
+MD5sum: b0b606a97dcc9218c4d68834dc2c3475
+SHA1: 9c465524af6029002a350ad5311c9cdf7e2fe704
+SHA256: e0ea6f0578b138ddfa5abb3eb7e4090f461800ea54a71e70475f1f2f2dc3d5fc
+Section: Tweaks
+Description: 禁用粘贴提示，支持iOS14-iOS15。
+Author: Netskao
+Name: DisablePasteTips
+Sponsor: Nets
+
+Package: com.netskao.disablepastetips.rootless
+Version: 1.1-5
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.netskao.disablepastetips.rootless_1.1-5_iphoneos-arm64.deb
+Size: 4620
+MD5sum: 92a14ca101fc5bf7d80311ec5e0d7442
+SHA1: e82a1e9fe2027442a6b2f57c808c318d442b59e4
+SHA256: 4c1c855519a67e0f76eff0f420ccec48d9177bbd03471dc781592c0b982ace67
+Section: Tweaks
+Description: 禁用粘贴提示，支持iOS14-iOS15。
+Author: Netskao
+Name: DisablePasteTips(Rootless)
+Sponsor: Nets
+
+Package: com.netskao.dndbannerpypass
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 420
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: debs/com.netskao.dndbannerpypass_1.1-1_iphoneos-arm.deb
+Size: 103948
+MD5sum: 9f6ea9965610b1ec9dcde2a09e99c82b
+SHA1: 3366a5ca1cec961f912a98b9fa8ab402bc3163c8
+SHA256: b3320768756204b08bb464884c46416efff35333d50abc26a46aff73f5cd2c47
+Section: Tweaks
+Description: 勿扰模式启用时允许你选择的应用正常发送通知，前往设置自行选择需要允许通知的应用
+Author: Netskao
+Name: DNDBannerBypass
+Sponsor: Netskao
+
+Package: com.netskao.jxboxcrack
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 396
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/com.netskao.jxboxcrack_1.1-2_iphoneos-arm.deb
+Size: 114838
+MD5sum: 4b9759e324cc6bd889e8b8428482bbcf
+SHA1: 7cc8419d986451b99d2e5ece5411612b49f37a86
+SHA256: dd1f9b0f8b4ef02b9d0acd60fe31386847fb2cb4d10ffe6182bcd69b79c9f40d
+Section: Tweaks
+Description: JSBox解锁全功能，支持当前最新版2.30.0，且用且珍惜
+Author: Netskao
+Name: JSBox Crack
+Sponsor: Netskao
 
 Package: com.netskao.limneoscrack
 Version: 1.1-3
@@ -477,6 +938,40 @@ Description: 解锁Limneos所有插件全功能通话录音破解、NFC破解等
 Author: Netskao
 Name: Limneos Crack(Rootless)
 Sponsor: Nets
+
+Package: com.ps.amber
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 368
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 14.0)
+Filename: debs/com.ps.amber_1.2.0_iphoneos-arm.deb
+Size: 18054
+MD5sum: d2a0872d9d7a44125701234258271b40
+SHA1: da1752b977671b93e8951a5f114d5c17ffcb7f61
+SHA256: f6c6bfccc7d869da02dd97945fb453ae2df32da2d6bf7eedd896266cb76f1219
+Section: Tweaks
+Description: Amber-ify your LED torch. Amber 插件让你可以选择使用哪种 LED 二极管来作为手电筒光泽，包括你想要的色调和强度。Amber: 可让越狱者使用琥珀色 LED 闪光二极管作为手电筒。
+Author: PoomSmart
+Name: Amber
+Sponsor: PoomSmart
+
+Package: com.ps.amber.rootless
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 368
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 14.0)
+Filename: debs/com.ps.amber.rootless_1.2.0_iphoneos-arm64.deb
+Size: 18272
+MD5sum: 79ea2fc77f6f52a3aaf63addbec72d60
+SHA1: 6c8fc740c8738a0bcecb582896fc44fcb49f16ae
+SHA256: 42fc90e75a3650217a2f0b6cdf07fe393fe1c76197c72318e66178a4c10fe750
+Section: Tweaks
+Description: Amber-ify your flashlight LEDs. Amber 插件让你可以选择使用哪种 LED 二极管来作为手电筒光泽，包括你想要的色调和强度。Amber: 可让越狱者使用琥珀色 LED 闪光二极管作为手电筒。
+Author: PoomSmart
+Name: Amber(Rootless)
+Sponsor: PoomSmart
 
 Package: com.sunshinesong.split-view-pro
 Version: 1.4.0
