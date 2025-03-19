@@ -1,0 +1,159 @@
+Package: apt.couhege.manila
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: David Goldman <help@golddavid.com>
+Installed-Size: 200
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: debs/apt.couhege.manila_2.0_iphoneos-arm64.deb
+Size: 33510
+MD5sum: 5d2b34adfbf7136186af50ac3989b7c7
+SHA1: 1e399441fc7840ad682898b1923a4b0e0ffa0e91
+SHA256: 4a2f0af66b89312d461b40fa6f9cf816eb89d522d723cd98e1af94d8ae4aa780
+Section: 插件
+Description: 文件夹长按启用3DTouch功能，在无根环境测试OK。凑合哥Repack
+Author: David Goldman
+Icon: https://huayuarc.github.io/images/Manila.png
+Name: Manila(Rootless)
+
+Package: com.couhege.Appswitcher
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Excalibur
+Depends: mobilesubstrate
+Filename: debs/com.couhege.Appswitcher_0.0.1_iphoneos-arm64.deb
+Size: 2760
+MD5sum: bf3589030ddc6f217fc031b3548dc7cf
+SHA1: 764c58cc80eed2d8f94561be90c8a9cbce08f3d8
+SHA256: d6da9d3080821bd58a39d0799cb5584ec8f7157db204da3356eac44d9b389b17
+Section: Tweaks
+Description: 只加快进出 Appswitcher 的动画速度
+Author: Excalibur 凑合哥Repack
+Name: Appswitcher(Rootless)
+
+Package: com.couhege.rotaty
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Stoinks 凑合哥Repack
+Installed-Size: 139
+Depends: mobilesubstrate, firmware(>= 12.0)
+Filename: debs/com.couhege.rotaty_2.0_iphoneos-arm64.deb
+Size: 5734
+MD5sum: 0083894ed9285976f96344187c79f61e
+SHA1: 663db276e06bd88f9057a7b19e34735f4e2f8d8b
+SHA256: aff967eaeec2578f217ea980269bffc68517166fa4c8c383e2c5f9ce128b5011
+Section: 插件
+Description: 随意旋转你的应用图标！无设置安装生效
+Author: Stoinks 凑合哥Repack
+Name: Rotaty(Rootless)
+
+Package: com.huayuarc.iosthermal.roothide
+Version: 2.9.6
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 24
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermal.roothide_2.9.6_iphoneos-arm64e.deb
+Size: 1840
+MD5sum: 9468cd3f1fa67c827dc586d144d16458
+SHA1: 6a1f325f918aedfbfaf417b91cd5d497d0edf67a
+SHA256: dbec69ac23dcf3ed719201a26a75d240d973cfd0d35c9be06893182209856be7
+Section: Tweaks
+Description: 效果自测，无效卸载即可。
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
+Package: com.huayuarc.iosthermal.rootless
+Version: 2.9.6
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 72
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermal.rootless_2.9.6_iphoneos-arm64.deb
+Size: 2056
+MD5sum: bed8611ea8cce3ae23eadd698806817d
+SHA1: 74f632f5160110ddb9a0fd0962f69b5c391a8c2c
+SHA256: 386f0609219bf3ab529fc659a6aaabb405df7df974b2cc07c220affa4ebdc3a6
+Section: Tweaks
+Description: 效果自测，无效卸载即可。
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
+Package: com.sunshinesong.split-view-pro
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Maintainer: sunshinesong
+Installed-Size: 5472
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: debs/com.sunshinesong.split-view-pro_1.4.0_iphoneos-arm64.deb
+Size: 2307306
+MD5sum: 59ce81e6e481fd15ad7c16360b5818ab
+SHA1: 6f8dc45e95f8455492bcad74d6a480d4f773caca
+SHA256: a9d6461aad24bbb177c9845a3ece9de004e5dc722fea7cfe5b1a3ef208a4947b
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: sunshinesong
+Depiction: https://huayuarc.github.io/sileodepiction/split-view-pro/split-view-pro.json
+Icon: https://huayuarc.github.io/images/split-view-pro.png
+Name: split-view-pro
+Sileodepiction: https://huayuarc.github.io/sileodepiction/split-view-pro/split-view-pro.json
+Ts: sp-sss
+
+Package: xc.lzsxcl.o2pro
+Version: 17.8
+Architecture: iphoneos-arm
+Maintainer: lzsxcl <xuanhua880@gmail.com>
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/xc.lzsxcl.o2pro_17.8_iphoneos-arm.deb
+Size: 10888062
+MD5sum: c55d6a5d7bad7e9d5ec8fa8731ed0baa
+SHA1: 2a0b801f91d2ae8262c9c46524db121487effeb6
+SHA256: a4d85053d1e8f359df0dfdd9bfbc788da39e3629ed654a12885e6676bd129174
+Section: o2分屏插件
+Description: 注重设计与用户体验的优雅产品。
+Author: lzsxcl <xuanhua880@gmail.com>
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+Name: o2Pro
+
+Package: xc.lzsxcl.o2pro.roothide
+Version: 17.6
+Architecture: iphoneos-arm64e
+Maintainer: lzsxcl <xuanhua880@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/xc.lzsxcl.o2pro.roothide_17.6_iphoneos-arm64e.deb
+Size: 21427860
+MD5sum: bbca47f10cdee81cbcd774f0a771caa3
+SHA1: 45037d582fbaf93ecd42dc1ab127d6e97ce17e9b
+SHA256: aef82839df54c20776f7e6947b1ba180cb5976d34d31b5ae182bc980bc53e240
+Section: o2分屏插件
+Description: 注重设计与用户体验的优雅产品。
+Author: lzsxcl <xuanhua880@gmail.com>
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+Name: o2Pro(Roothide)
+
+Package: xc.lzsxcl.o2pro.rootless
+Version: 17.8.7
+Architecture: iphoneos-arm64
+Maintainer: lzsxcl <xuanhua880@gmail.com>
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/xc.lzsxcl.o2pro.rootless_17.8.7_iphoneos-arm64.deb
+Size: 10892202
+MD5sum: dd0fda07f849822a90ccfc910fc84bfe
+SHA1: d221ccda528e1f091c6bee27736cc59259d3b7b4
+SHA256: 6330be83b8fbd6f5d1017facfbe815762ea6c28c64f85178617344ccef43ab48
+Section: o2分屏插件
+Description: 注重设计与用户体验的优雅产品。
+Author: lzsxcl <xuanhua880@gmail.com>
+Depiction: https://huayuarc.github.io/sileodepiction/o2Pro/o2Pro.json
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+Name: o2Pro(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/o2Pro/o2Pro.json
+
