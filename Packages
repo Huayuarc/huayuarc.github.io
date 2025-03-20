@@ -83,6 +83,23 @@ Author: Brend0n
 Name: NeteaseRadioLikeToPrevious
 Sponsor: Brend0n
 
+Package: com.cike.jsyhpbyy.rootless
+Version: 0.0.1.2+debug
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: debs/com.cike.jsyhpbyy.rootless_0.0.1.2+debug_iphoneos-arm64.deb
+Size: 4800
+MD5sum: 7bfb805c6e40aedf96c483c7431f7929
+SHA1: a1493bff0c7603f211f8256a9747d00e7b7ca231
+SHA256: 7627a56d1d5da1dc24a1f7115e414e55b82e7613af8c8fb2c90d2e7a542dd4f5
+Section: Tweaks
+Description: 建设银行去除越狱提示和闪退，无需注销，装完退建设银行后台重进即可(不影响任何插件注入，都可用)
+Author: 来了老弟
+Name: 建設銀行屏蔽越獄檢測(Rootless)
+Sponsor: 来了老弟
+
 Package: com.couhege.Appswitcher
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -607,6 +624,38 @@ Author: 犬神志
 Name: 汉仪雅酷黑单字重加粗版
 Sponsor: Huayuarc
 
+Package: com.huayuarc.ios6chargingaudio
+Version: 0.0.1.1+debug
+Architecture: iphoneos-arm
+Maintainer: Sandy0
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.ios6chargingaudio_0.0.1.1+debug_iphoneos-arm.deb
+Size: 27426
+MD5sum: 5b883dc8f817fe9335297681cd4740e5
+SHA1: 67b77b4b810f4988da6c8bba4767c94c50718cb4
+SHA256: 522da70b20477d428788a726125afefd054f480d90f50389e6b00b2ecc5831ef
+Section: Tweaks
+Description: 替換iOS6系統充電音，自動備份原文件，卸載即恢復。
+Author: Sandy0
+Name: iOS 6 充电音效
+Sponsor: Sandy0
+
+Package: com.huayuarc.ios6lockaudio
+Version: 0.0.1.1+debug
+Architecture: iphoneos-arm
+Maintainer: Sandy0
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.ios6lockaudio_0.0.1.1+debug_iphoneos-arm.deb
+Size: 32954
+MD5sum: 31460e2eb5c779b4c1814e0e53217ab4
+SHA1: 1748090eaa226630bd00917aa7ad5f5085b2a969
+SHA256: 50051d85b29406b18a39be0b7225c2b76a255f136916d0a21e2421c7f14968e4
+Section: Tweaks
+Description: 替換iOS6系統鎖屏音效，自動備份原文件，卸載即恢復。
+Author: Sandy0
+Name: iOS 6 锁屏音效
+Sponsor: Sandy0
+
 Package: com.huayuarc.iosthermal.roothide
 Version: 2.9.6
 Architecture: iphoneos-arm64e
@@ -783,6 +832,40 @@ Description: Disables passcode after a respring. This version does NOT modify sy
 Author: Brend0n
 Name: NoPassAfterRespring (Rootless)
 Sponsor: Brend0n
+
+Package: com.huayuarc.promovierecordercrack
+Version: 0.0.1.1+debug
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.promovierecordercrack_0.0.1.1+debug_iphoneos-arm.deb
+Size: 9504
+MD5sum: 078517108428b2e5f7ce97d0a6b1fd76
+SHA1: f904841002e8fe18f82936a679e559ba995ffb94
+SHA256: 2199bbc00e374689938c8413af942445d2247a2bd43ce6e1c12389db52200796
+Section: Tweaks
+Description: 去除首頁購買提示，去除錄製視頻保存相冊app水印。ProMovie 專業攝像機是一款功能豐富、簡單易用的視頻拍攝App，專為您的iPhone和iPad設計。在您的指尖掌控曝光、對焦、幀率，以及視頻錄製的每一個方面。充分利用您設備的錄像功能，錄製專業級的視頻。
+Author: Huayuarc
+Name: ProMovieRecorder Crack
+Sponsor: Huayuarc
+
+Package: com.huayuarc.promovierecordercrack.rootless
+Version: 0.0.1.1+debug
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.promovierecordercrack.rootless_0.0.1.1+debug_iphoneos-arm64.deb
+Size: 9582
+MD5sum: 7bbe0a19d12532eaf4994b2d4d43d902
+SHA1: a6fa41ee40906c2fb0c58e49d3801f45808ed063
+SHA256: 4e52b60a20c658d55a690fbd9b9ae40edb8a5ba0794fc7fcf405459932ac07ab
+Section: Tweaks
+Description: 去除首頁購買提示，去除錄製視頻保存相冊app水印。ProMovie 專業攝像機是一款功能豐富、簡單易用的視頻拍攝App，專為您的iPhone和iPad設計。在您的指尖掌控曝光、對焦、幀率，以及視頻錄製的每一個方面。充分利用您設備的錄像功能，錄製專業級的視頻。
+Author: Huayuarc
+Name: ProMovieRecorder Crack(Rootless)
+Sponsor: Huayuarc
 
 Package: com.huayuarc.recordanywhere.rootless
 Version: 1.1.0
@@ -1009,6 +1092,57 @@ Author: John Coates
 Name: Flex 3 Beta RootHide Dopamine IOS 15.x
 Sponsor: DXcool223
 
+Package: com.llld.jsyh
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.llld.jsyh_0.0.1-2+debug_iphoneos-arm.deb
+Size: 4670
+MD5sum: 613f69d756b99d7dc18a035b5010ad3a
+SHA1: 8c7c040a91e5bd8f6ef8d8eb915048df3b805221
+SHA256: 3e58e541d865394c5fdf8dfe8ac1c26e43e8e942b9818324fa88b9c79f8fbe1f
+Section: Tweaks
+Description: 建设银行去除越狱提示和闪退，无需注销，装完退建设银行后台重进即可(不影响任何插件注入，都可用)
+Author: 来了老弟
+Name: 建设银行屏蔽越獄檢測
+Sponsor: 来了老弟
+
+Package: com.llld.yghsh
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.llld.yghsh_0.0.1-2+debug_iphoneos-arm.deb
+Size: 4724
+MD5sum: ec65190141b17ccb4b2cd635decba429
+SHA1: 89978f34caccf21cafc5e4dfa3a3dcd2eb4c9c14
+SHA256: b6109bfd959a0a1babaa120e75de47757d65ef30fffe1444d0648f4e368074f3
+Section: Tweaks
+Description: 阳光惠生活(去除越狱提示，不影响任何插件注入，都可用)
+Author: 来了老弟
+Name: 阳光惠生活屏蔽越獄檢測
+Sponsor: 来了老弟
+
+Package: com.llld.yghsh.rootless
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.llld.yghsh.rootless_0.0.1-1+debug_iphoneos-arm64.deb
+Size: 4774
+MD5sum: 2a565c80700fbdd0df4e7ff67f053f55
+SHA1: caa2fb71bfe97a3c2c468bb9c13187570efc05e5
+SHA256: 09e3950ddd402452fbc902f010618718dc97564e5100df624d0e6f54d11d40f3
+Section: Tweaks
+Description: 阳光惠生活(去除越狱提示，不影响任何插件注入，都可用)
+Author: 来了老弟
+Name: 阳光惠生活屏蔽越獄檢測(Rootless)
+Sponsor: 来了老弟
+
 Package: com.miguelaka95.bettercc.rootless
 Version: 0.0.54
 Architecture: iphoneos-arm64
@@ -1025,6 +1159,23 @@ Description: Customize your Control Center! Invisible Modules.RearrangeConnectiv
 Author: Miguelaka95
 Name: BetterCC(Rootless)
 Sponsor: 来了老弟 h_h_x_t
+
+Package: com.mika.floatlyricse
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: Mika
+Installed-Size: 1348
+Depends: mobilesubstrate ,firmware (>= 11.0),com.rpetrich.rocketbootstrap
+Filename: debs/com.mika.floatlyricse_1.0.7_iphoneos-arm.deb
+Size: 499802
+MD5sum: 34f941ec5e66f710cc1ce52040706c89
+SHA1: 69fa6388b108b24dad35654bb5b8bea55086f4e0
+SHA256: 1107dba05224fd4790d3c5c6b311c8fbc573dfe46718b7da30f6ab0a732c52f2
+Section: Tweaks
+Description: 支持所有‘支持 锁屏歌词’的第三方音乐播放器！免费使用
+Author: Mika
+Name: 歌词悬浮窗SE
+Sponsor: Mika
 
 Package: com.netskao.actionbarreborn.rootless
 Version: 1.1-2
@@ -1109,6 +1260,23 @@ Section: Tweaks
 Description: JSBox解锁全功能，支持当前最新版2.30.0，且用且珍惜
 Author: Netskao
 Name: JSBox Crack
+Sponsor: Netskao
+
+Package: com.netskao.jxboxcrack.rootless
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 396
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/com.netskao.jxboxcrack.rootless_1.1-2_iphoneos-arm64.deb
+Size: 113042
+MD5sum: 4df129c61acdf6fc5dbd950a37ca45f9
+SHA1: ee1338e172f6dda7071b0b3719851c3890375961
+SHA256: 14b134bbfde61459478b5eca15c27b2a748cc5af9cc074aec815d3b992d9f391
+Section: Tweaks
+Description: JSBox解锁全功能，支持当前最新版2.30.0，且用且珍惜
+Author: Netskao
+Name: JSBox Crack(Rootless)
 Sponsor: Netskao
 
 Package: com.netskao.limneoscrack
