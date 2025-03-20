@@ -66,6 +66,70 @@ Description: 原名motherwc，作用：点击wx文本，语音播报信息,应�
 Author: sunweiliang
 Name: Wx文本语音播报(Rootless)
 
+Package: com.arwayaw.mynoads
+Version: 0.0.1.1+debug
+Architecture: iphoneos-arm
+Maintainer: Arway_Aw
+Depends: mobilesubstrate
+Filename: debs/com.arwayaw.mynoads_0.0.1.1+debug_iphoneos-arm.deb
+Size: 23962
+MD5sum: 630199d76ebbf62e1de3c3657576a532
+SHA1: 640668bbb21bb704103d4efb2adacb70f5fb5ea9
+SHA256: 8ab632ec433ff7e2d500042ba158ad9303d21656de2c1f6ceae4b45ebfa98d3b
+Section: NoAds
+Description: 屏蔽启动广告.她她圈的广告.我的页面广告.消息页面广告.帖子内部广告.屏蔽首页浮窗.我的页面精简.
+Author: Arway_Aw
+Name: 美柚 NoAds
+Sponsor: Arway_Aw
+
+Package: com.arwayaw.mynoads.rootless
+Version: 0.0.1.1+debug
+Architecture: iphoneos-arm64
+Maintainer: Arway_Aw
+Depends: mobilesubstrate
+Filename: debs/com.arwayaw.mynoads.rootless_0.0.1.1+debug_iphoneos-arm64.deb
+Size: 22946
+MD5sum: 7703070ee243601a278820b147a031a6
+SHA1: e6715a512ea8386be91ef028ea1e70c59c480b19
+SHA256: f5b60a61a92737507eba2a240f4d6b3ac4599907cc77eddd9ed4c62f0f2c9d83
+Section: NoAds
+Description: 屏蔽启动广告.她她圈的广告.我的页面广告.消息页面广告.帖子内部广告.屏蔽首页浮窗.我的页面精简.
+Author: Arway_Aw
+Name: 美柚 NoAds(Rootless)
+Sponsor: Arway_Aw
+
+Package: com.arwayaw.wyyxnoads
+Version: 0.0.1.1+debug
+Architecture: iphoneos-arm
+Maintainer: Arway_Aw
+Depends: mobilesubstrate
+Filename: debs/com.arwayaw.wyyxnoads_0.0.1.1+debug_iphoneos-arm.deb
+Size: 14130
+MD5sum: b9e1797a7f34638f4eb7ccf74845d6f6
+SHA1: ab29e719d03d1aa1680a346df2ec87cf1d627796
+SHA256: 3d20bcd5ff782400812429733a41f088c074fe7604da6aa5968258eb6b2e8b53
+Section: NoAds
+Description: 网易邮箱启动广告、邮箱列表广告。
+Author: Arway_Aw
+Name: 网易邮箱 NoAds
+Sponsor: Huayuarc
+
+Package: com.arwayaw.wyyxnoads.rootless
+Version: 0.0.1.1+debug
+Architecture: iphoneos-arm64
+Maintainer: Arway_Aw
+Depends: mobilesubstrate
+Filename: debs/com.arwayaw.wyyxnoads.rootless_0.0.1.1+debug_iphoneos-arm64.deb
+Size: 14186
+MD5sum: ac9fb402fc5acf8d7ba3bf1c22503cf6
+SHA1: 68b7a876280fad8fcc00e1a2ce694feec4e17e88
+SHA256: 16aeb5e22d7f539551383298133e1d2e5b72481683d0827b8c2bb182ee2ee907
+Section: NoAds
+Description: 网易邮箱启动广告、邮箱列表广告。
+Author: Arway_Aw
+Name: 网易邮箱 NoAds(Rootless)
+Sponsor: Huayuarc
+
 Package: com.brend0n.neteaseradioliketoprevious
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -369,6 +433,22 @@ Description: 解锁专业版
 Author: Huayuarc
 Name: CPU-X Hooks(Rootless)
 Sponsor: Huayuarc
+
+Package: com.huayuarc.dhjj.rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huayuarc.dhjj.rootless_1.0_iphoneos-arm64.deb
+Size: 6748
+MD5sum: 93024dd379c7256368d95bbd004ad820
+SHA1: d6682ea2f796b6aca98a97b8d71770346bdf2d8c
+SHA256: 4695c6389b82f6d67b6c425bf82f1b683392eb61a9c582ce6b0ab52b902a6e1c
+Section: Tweaks
+Description: Telephone streamlining personal collection and voice messages。电话精简个人收藏和语音留言
+Author: 来了老弟 h_h_x_t
+Name: 电话精简收藏和语音留言(Rootless)
+Sponsor: 来了老弟 h_h_x_t
 
 Package: com.huayuarc.dynamicpeninsula.rootless
 Version: 0.6-80k
@@ -1166,6 +1246,25 @@ Author: John Coates
 Name: Flex 3 Beta RootHide Dopamine IOS 15.x
 Sponsor: DXcool223
 
+Package: com.llld.flex3Beta63
+Version: 1:3~Beta63
+Architecture: iphoneos-arm64
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Filename: debs/com.llld.flex3Beta63_1:3~Beta63_iphoneos-arm64.deb
+Size: 24373268
+MD5sum: 750c36a56f5da4a56ad7a7c371f50755
+SHA1: e5ce8ade4a105e5a17ac75455605256f4798e285
+SHA256: 886d7e9b3f8ac29c4bdcf4d0411abcbe8e99194f5c381409aaf3eccfc659ef60
+Section: A - Tweaks
+Description: Develop your own tweaks and share them on the Flex Community Cloud. (. Dopamine 版本flex3可解析应用，不用兼容层，粗体闪退，此包是56版本改的，方便刷新源可见,单独装此包只对第三方生效，对系统生效需要装另外一个包，安装前卸载现有的，你配置都在)
+Author: John Coates
+Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fapi.ios-repo-updates.com%2Fimages%2Frepositories%2Fnscake.png&s=180x180&f=webp
+Name: Flex 3 Beta(Rootless)
+Sponsor: John Coates
+
 Package: com.llld.jsyh
 Version: 0.0.1-2+debug
 Architecture: iphoneos-arm
@@ -1319,6 +1418,38 @@ Author: Netskao
 Name: DNDBannerBypass
 Sponsor: Netskao
 
+Package: com.netskao.fqxsnoads
+Version: 1.1-8
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: debs/com.netskao.fqxsnoads_1.1-8_iphoneos-arm.deb
+Size: 112612
+MD5sum: 8b007320ff5a56c6a1c78e532b3cf8da
+SHA1: ea18cf78607528822f7c951b58b8192ae25b0fe1
+SHA256: a4d25dd6345486d661b1f5140b75610fd42c1f8ffd3e93208805cb3adc69e33d
+Section: Tweaks
+Description: 番茄小说，番茄畅听。去除启动广告，去除首页插入广告和首页更多推荐，去除我的页面小游戏和小黑屋等，解除书籍缓存限制。
+Author: Netskao
+Name: 番茄小说 NoAds
+Sponsor: Nets
+
+Package: com.netskao.fqxsnoads.rootless
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: debs/com.netskao.fqxsnoads.rootless_1.1-8_iphoneos-arm64.deb
+Size: 112678
+MD5sum: f5aaf85d83e5349b0371ccd4e3ce4578
+SHA1: 53834b6fbc7e5bf71a7ef35259adb151dc40d17e
+SHA256: 817f281709690bc381b240630d6d650e522f9b6c550a33f6f5ae1a208bb43218
+Section: Tweaks
+Description: 番茄小说，番茄畅听。去除启动广告，去除首页插入广告和首页更多推荐，去除我的页面小游戏和小黑屋等，解除书籍缓存限制。
+Author: Netskao
+Name: 番茄小说 NoAds(Rootless)
+Sponsor: Nets
+
 Package: com.netskao.jxboxcrack
 Version: 1.1-2
 Architecture: iphoneos-arm
@@ -1352,6 +1483,24 @@ Description: JSBox解锁全功能，支持当前最新版2.30.0，且用且珍�
 Author: Netskao
 Name: JSBox Crack(Rootless)
 Sponsor: Netskao
+
+Package: com.netskao.lightrickscrack.rootless
+Version: 1.2-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: mobilesubstrate
+Conflicts: netskao.lightricksallcrack
+Replaces: netskao.lightricksallcrack
+Filename: debs/com.netskao.lightrickscrack.rootless_1.2-1_iphoneos-arm.deb
+Size: 119580
+MD5sum: 050e8df56ec6e62aed48cd9cad81693d
+SHA1: 8691aac080ecd3631b6f45b388ad6430026a7f78
+SHA256: bd6adece151898d34fbbc53a300723cefc5f36f0d9dd1df857198a926ffbed53
+Section: Tweaks
+Description: Lightricks公司五件套开启高级权限，五件套包括（Facetune 2、Photofox、Pixaloop、Quickshot、Videoleap）自行App Store搜索下载！⚠️注意Pixaloop第一次进入会提示购买，点击左上角关闭即可。
+Author: 7Loopy
+Name: Lightricks Crack(Rootless)
+Sponsor: 7Loopy
 
 Package: com.netskao.limneoscrack
 Version: 1.1-3
@@ -1387,6 +1536,22 @@ Author: Netskao
 Name: Limneos Crack(Rootless)
 Sponsor: Nets
 
+Package: com.netskao.perfectsbvolume
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/com.netskao.perfectsbvolume_1.1-2_iphoneos-arm.deb
+Size: 7080
+MD5sum: 6739a34d1a3096b3062488223f2b00be
+SHA1: 592551248381e9898c89163d484e589cefc76495
+SHA256: 19ecf4b60ea4d23634ebca73439fa87cfea02f853e0d91f32ae024c7453133c9
+Section: Tweaks
+Description: 音量控制更改状态栏横条显示插件
+Author: Netskao
+Name: PerfectSBVolume
+Sponsor: Nets
+
 Package: com.netskao.stormsniffercrack
 Version: 1.1-4
 Architecture: iphoneos-arm
@@ -1419,6 +1584,38 @@ Section: Tweaks
 Description: Storm Sniffer是一款HTTP抓包工具。不用连接电脑就可以捕获并查看本机所有HTTP/HTTPS请求和响应，轻松调试应用程序的网络问题。
 Author: Netskao
 Name: StormSniffer Crack(Rootless)
+Sponsor: Nets
+
+Package: com.netskao.tbnoads
+Version: 1.2-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: debs/com.netskao.tbnoads_1.2-1_iphoneos-arm.deb
+Size: 81764
+MD5sum: f31abcde1e042959531c4156d5788b3a
+SHA1: 2be5eb831870b3bfbf5310f63100a6d8d55fa0cd
+SHA256: f2c889ef31ce7d339a29c2a22efa6c09f48797bacd6357d1106436a691f28ba6
+Section: Tweaks
+Description: 淘宝去除启动广告，去除搜索列表中广告商品，去除购物车推荐和订单列表中推荐商品，逛逛原始按钮保存图片/视频去除水印，增加长按商品视频评论视频保存到相册。
+Author: Netskao
+Name: 淘宝 NoAds
+Sponsor: Nets
+
+Package: com.netskao.tbnoads.rootless
+Version: 1.2-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: debs/com.netskao.tbnoads.rootless_1.2-1_iphoneos-arm64.deb
+Size: 80666
+MD5sum: 35e81e7d91485d98b570ecb1db0510c3
+SHA1: c35b81a9b98b4a5ec704eefa7ba4f8afdb7b6f0d
+SHA256: bb651c21e47fa7fd17af720b7fd94a233f47102262bb86eb35997e4ff8458589
+Section: Tweaks
+Description: 淘宝去除启动广告，去除搜索列表中广告商品，去除购物车推荐和订单列表中推荐商品，逛逛原始按钮保存图片/视频去除水印，增加长按商品视频评论视频保存到相册。
+Author: Netskao
+Name: 淘宝 NoAds(Rootless)
 Sponsor: Nets
 
 Package: com.ps.amber
