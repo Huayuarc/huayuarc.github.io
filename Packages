@@ -1254,14 +1254,14 @@ Depends: mobilesubstrate, firmware (>= 9.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
 Filename: debs/com.llld.flex3Beta63_1:3~Beta63_iphoneos-arm64.deb
-Size: 24373268
-MD5sum: 750c36a56f5da4a56ad7a7c371f50755
-SHA1: e5ce8ade4a105e5a17ac75455605256f4798e285
-SHA256: 886d7e9b3f8ac29c4bdcf4d0411abcbe8e99194f5c381409aaf3eccfc659ef60
-Section: A - Tweaks
+Size: 24373194
+MD5sum: 79259ae29352151e1e6752aad6859cc1
+SHA1: 9436d7b6f0135ea083875e5a8a53480bad60fbdc
+SHA256: 4e03ab070381383bae9edd74fc1329796c92af62406433421e7df2f582822a09
+Section: Tweaks
 Description: Develop your own tweaks and share them on the Flex Community Cloud. (. Dopamine 版本flex3可解析应用，不用兼容层，粗体闪退，此包是56版本改的，方便刷新源可见,单独装此包只对第三方生效，对系统生效需要装另外一个包，安装前卸载现有的，你配置都在)
 Author: John Coates
-Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fapi.ios-repo-updates.com%2Fimages%2Frepositories%2Fnscake.png&s=180x180&f=webp
+Icon: https://huayuarc.github.io/images/Flex.png
 Name: Flex 3 Beta(Rootless)
 Sponsor: John Coates
 
