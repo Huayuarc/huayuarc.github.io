@@ -694,6 +694,25 @@ Icon: https://huayuarc.github.io/images/IOSThermal.png
 Name: IOSThermal(RootHide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 
+Package: com.huayuarc.iosthermal.roothide
+Version: 2.9.8
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermal.roothide_2.9.8_iphoneos-arm64e.deb
+Size: 2660
+MD5sum: 806738b1f2805f5b843c89c901a79ce8
+SHA1: 9260e6222f2fc733869a48bcbfdb8b1ade12adae
+SHA256: 4e63e148d1b1eb41993b1bad38616dd20a7ef1d8c358a4693494d7a1c2aac7d4
+Section: Tweaks
+Description: 尝试去除iOS温控(推荐真皮Hello CPU)｜网络增强模块：网络增强优化(默认开启5G)｜温度欺骗机制：强制返回虚假温度值(恒定28℃)绕过系统温控触发阈值动态频率调节:根据模拟温度趋势自动调整CPU/GPU性能等级(最高可达3.24GHz/1.5GHz)缓解策略禁用:关闭背光降级、GPU节流等温控补偿措施｜内存管理优化：压缩阈值提升:将内存压缩阈值从128MB提高到512MB分页策略调整:采用FIFO置换算法,保留1GB交换空间压力响应抑制:屏蔽内存压力事件,减少后台进程回收｜核心系统改造服务禁用:终止thermald/powerd等15+系统守护进程DVFS锁定:禁用动态电压频率调节,维持峰值频率｜如遇到手电筒无法使用，则iOS设备处于发热状态，待恢复正常温度即可使用。
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(RootHide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
 Package: com.huayuarc.iosthermal.rootless
 Version: 2.9.6
 Architecture: iphoneos-arm64
