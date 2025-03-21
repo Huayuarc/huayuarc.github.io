@@ -576,6 +576,23 @@ Author: Zerui Chen
 Name: Frame(ios13)
 Sponsor: Zerui Chen
 
+Package: com.huayuarc.frame.ios13
+Version: 3.0.1
+Architecture: iphoneos-arm
+Maintainer: Zerui Chen
+Depends: mobilesubstrate,firmware (>= 12.9.9),firmware (<= 13.7.9)
+Conflicts: com.huayuarc.frame.rootless,com.huayuarc.frame.ios14
+Filename: debs/com.huayuarc.frame.ios13_3.0.1_iphoneos-arm.deb
+Size: 2533598
+MD5sum: 6ae60a5fce7fff8e91e40dd8b875be36
+SHA1: 5b2d4ea4ef9094049bb07c14e610241636007a39
+SHA256: e0f4136ba6e3daf29bab73e20e0a595ce329feb7f151575be58ffb6cb4eff8f7
+Section: Tweaks
+Description: 为你的 iPhone 带来栩栩如生的真实视频壁纸。设置选项在桌面有生成Frame 图标进行设置生效。
+Author: Zerui Chen
+Name: Frame(ios14)
+Sponsor: Zerui Chen
+
 Package: com.huayuarc.frame.rootless
 Version: 3.0.1
 Architecture: iphoneos-arm64
@@ -760,6 +777,44 @@ Name: iOS 6 锁屏音效
 Sponsor: Sandy0
 
 Package: com.huayuarc.iosthermal.roothide
+Version: 2.9.6
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermal.roothide_2.9.6_iphoneos-arm64e.deb
+Size: 1960
+MD5sum: 3fc42571bcef7f43f59930c762132bc2
+SHA1: 6725abac5b278804dc02824df2c6519d8722d6bf
+SHA256: b39c6b2fc93990aa1bfd62d744c314722230d3ce43452dbf52e7811d9a18ff1d
+Section: Tweaks
+Description: 效果自测，无效卸载即可。
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
+Package: com.huayuarc.iosthermal.roothide
+Version: 2.9.7
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermal.roothide_2.9.7_iphoneos-arm64e.deb
+Size: 2060
+MD5sum: 0817da6298eab3bd804205fd3b0ef9d2
+SHA1: 46ad15d14da94af7cd16330085210c98058422b7
+SHA256: d21f97b1256bdd10e08106dda3650524d894d1537c3790e68eb8466503ae6959
+Section: Tweaks
+Description: 效果自测，无效卸载即可。
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(RootHide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
+Package: com.huayuarc.iosthermal.roothide
 Version: 2.9.8
 Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
@@ -776,6 +831,44 @@ Author: Huayuarc
 Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 Icon: https://huayuarc.github.io/images/IOSThermal.png
 Name: IOSThermal(RootHide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
+Package: com.huayuarc.iosthermal.rootless
+Version: 2.9.7
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermal.rootless_2.9.7_iphoneos-arm64.deb
+Size: 2846
+MD5sum: 29b93290f80b9fa1fdf75d1492d5caa9
+SHA1: 91fbdc5a88fc0ffa759e4f0603c33ad804f5707b
+SHA256: 62ecf440537436c7a633c8f9de3b95e2bb112583b8ba9199115e69df28b95b97
+Section: Tweaks
+Description: 效果自测，无效卸载即可。
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
+Package: com.huayuarc.iosthermal.rootless
+Version: 2.9.8
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermal.rootless_2.9.8_iphoneos-arm64.deb
+Size: 3444
+MD5sum: c33a31da7a6f3b60461d098966ad68c4
+SHA1: 03c44606f8dd6e426da68e4ce497bd03646e0b73
+SHA256: a310143d6bf58d2033291684843ad2beb6b62ea25607fc814956d1a6c1204357
+Section: Tweaks
+Description: 尝试去除iOS温控(推荐真皮Hello CPU)｜网络增强模块：网络增强优化(默认开启5G)｜温度欺骗机制：强制返回虚假温度值(恒定28℃)绕过系统温控触发阈值动态频率调节:根据模拟温度趋势自动调整CPU/GPU性能等级(最高可达3.24GHz/1.5GHz)缓解策略禁用:关闭背光降级、GPU节流等温控补偿措施｜内存管理优化：压缩阈值提升:将内存压缩阈值从128MB提高到512MB分页策略调整:采用FIFO置换算法,保留1GB交换空间压力响应抑制:屏蔽内存压力事件,减少后台进程回收｜核心系统改造服务禁用:终止thermald/powerd等15+系统守护进程DVFS锁定:禁用动态电压频率调节,维持峰值频率｜如遇到手电筒无法使用，则iOS设备处于发热状态，待恢复正常温度即可使用。
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 
 Package: com.huayuarc.iosthermal.rootless
