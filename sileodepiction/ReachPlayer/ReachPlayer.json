@@ -1,0 +1,124 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://huayuarc.github.io/images/huayuarc.jpeg",
+  "tintColor": "#FF4455",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "插件描述",
+      "views": [
+         {
+                    "text":"iOS无根越狱Q群",
+                    "action":"https://qm.qq.com/q/9rqZwEQDEQ",
+                    "openExternal": 1,
+                    "class":"DepictionButtonView"
+                },      
+                {
+                    "text":"苏苏网址",
+                    "action":"https://www.susubaby.top/",
+                    "openExternal": 1,
+                    "class":"DepictionButtonView"
+                },
+                {
+          "class": "DepictionMarkdownView",
+          "markdown": "ReachPlayer音乐专辑(购买授权咨询Q:2914115314)",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "itemSize": "{160, 346.4533333333333}",
+          "screenshots": [
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://huayuarc.github.io/sileodepiction/IOSThermal/Screenshot_01.png"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://huayuarc.github.io/sileodepiction/o2Pro/Screenshot_02.png"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://huayuarc.github.io/sileodepiction/o2Pro/Screenshot_03.png"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://huayuarc.github.io/sileodepiction/o2Pro/Screenshot_04.png"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://huayuarc.github.io/sileodepiction/o2Pro/Screenshot_05.png"
+            },
+            {
+              "accessibilityText": "Screenshot",
+              "url": "https://huayuarc.github.io/sileodepiction/o2Pro/Screenshot_06.png"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详情",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "SuSu",
+          "title": "开发作者"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "3.8.1",
+          "title": "最新版本"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "15.0 - 17.0",
+          "title": "支持系统"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "2025 年 03 月 21 日",
+          "title": "最后更新日期"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "3.8.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 3.8.1\n- 优化多项逻辑，删除无用代码",
+          "useRawFormat": true
+        }
+      ]
+    }
+  ]
+}

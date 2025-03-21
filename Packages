@@ -1746,6 +1746,24 @@ Name: split-view-pro
 Sileodepiction: https://huayuarc.github.io/sileodepiction/split-view-pro/split-view-pro.json
 Ts: sp-sss
 
+Package: com.susu.reachplayer.rootless
+Version: 3.8.1
+Architecture: iphoneos-arm64
+Maintainer: 苏苏
+Depends: mobilesubstrate
+Filename: debs/com.susu.reachplayer.rootless_3.8.1_iphoneos-arm64.deb
+Size: 634640
+MD5sum: 3900c3fe290faefae95882c5397ab2b2
+SHA1: f5f161613e5d580eb2d5999607445f9a4f7de738
+SHA256: 0f319e02d3765cd1ea5184aaa0a1d7ff3d7e64e3469a8657598648ba4ba76e1f
+Section: 插件
+Description: ReachPlayer便捷访问音乐专辑
+Author: 苏苏
+Depiction: https://huayuarc.github.io/sileodepiction/ReachPlayer/ReachPlayer.json
+Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
+Name: ReachPlayer(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ReachPlayer/ReachPlayer.json
+
 Package: xc.lzsxcl.o2pro
 Version: 17.8
 Architecture: iphoneos-arm
