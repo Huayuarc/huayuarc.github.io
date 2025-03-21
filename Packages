@@ -17,6 +17,46 @@ Author: John Coates
 Name: Flex 3 Beta RootHide Bootstrap
 Sponsor: DXcool223
 
+Package: MikotoHelper
+Version: 1.3.6
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: Mikoto
+Depends: mobilesubstrate
+Conflicts: MikotoHelper
+Replaces: MikotoHelper
+Provides: MikotoHelper
+Filename: debs/MikotoHelper_1.3.6_iphoneos-arm.deb
+Size: 29897488
+MD5sum: 2b84c0594f4c1e862c4692783154895a
+SHA1: a3abaf766c3806db850958970536d54433c809fd
+SHA256: 68363d7a82056db5f15e7fd2c067fc1ad3de2ff954401e114426e87e4eea9049
+Section: Tweaks
+Priority: optional
+Description: MikotoHelper-Mikoto体验版v1版本，该版本由蓝斗篷赞助提供。更新美化功能～强化聊天工具栏以及一些问题(Mikoto插件原则上不会对外更新)
+Author: Mikoto
+Name: MikotoHelper
+
+Package: MikotoHelper.rootless
+Version: 1.3.6
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: Mikoto
+Depends: mobilesubstrate
+Conflicts: MikotoHelper
+Replaces: MikotoHelper
+Provides: MikotoHelper
+Filename: debs/MikotoHelper.rootless_1.3.6_iphoneos-arm64.deb
+Size: 29506136
+MD5sum: 47d6719e42ebd37f63ee42dd9119173d
+SHA1: 1c524f6cba27736351b2d26a20d82f2f7ddfdc7e
+SHA256: c0ac71c0d0e833a834e730875117b8b02179044bcdb877c3ac7585254f117ee4
+Section: Tweaks
+Priority: optional
+Description: MikotoHelper-Mikoto体验版v1版本，该版本由蓝斗篷赞助提供。更新美化功能～强化聊天工具栏以及一些问题(Mikoto插件原则上不会对外更新)
+Author: Mikoto
+Name: MikotoHelper(Rootless)
+
 Package: apt.couhege.manila
 Version: 2.0
 Architecture: iphoneos-arm64
