@@ -1138,6 +1138,38 @@ Icon: https://huayuarc.github.io/images/IOSThermal.png
 Name: IOSThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 
+Package: com.huayuarc.jinyongtzzxss.roothide
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.jinyongtzzxss.roothide_0.0.1_iphoneos-arm64e.deb
+Size: 2578
+MD5sum: 7d1dcfa8d3219fc205941cc9bb535af9
+SHA1: 917db9f67201fdb9b36bb0e8e273760184ed395f
+SHA256: 52556ec441652f1a74f9a4e46743cf2c7fc518536b88fe82681867f75e42dd5b
+Section: Tweaks
+Description: Patch description: Disable the dropdown gesture in the notification center only within the application. (Applicable to games), returning to the desktop does not affect the notification center gesture. This patch is applied globally by default and cannot be selected for a single application 补丁说明:仅在应用程序内禁用通知中心的下拉手势。(适用于游戏)，返回桌面不影响通知中心手势，该补丁默认生效全局应用，并不能单一选择应用。
+Author: poqw312
+Name: 禁用通知中心下拉手势(RootHide)
+
+Package: com.huayuarc.jinyongtzzxss.rootless
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.jinyongtzzxss.rootless_0.0.1_iphoneos-arm64.deb
+Size: 3526
+MD5sum: 6cb64524d5b9732a91671c5b59d539a1
+SHA1: fb287386e53f9eebf5d11bb20fc219e76c4987f1
+SHA256: 732c0ed665a8bd9715cdd5043702565b0fa43877d3ad4a0d226fe8c9b465056d
+Section: Tweaks
+Description: Patch description: Disable the dropdown gesture in the notification center only within the application. (Applicable to games), returning to the desktop does not affect the notification center gesture. This patch is applied globally by default and cannot be selected for a single application 补丁说明:仅在应用程序内禁用通知中心的下拉手势。(适用于游戏)，返回桌面不影响通知中心手势，该补丁默认生效全局应用，并不能单一选择应用。
+Author: poqw312
+Name: 禁用通知中心下拉手势(Rootless)
+
 Package: com.huayuarc.neigou
 Version: 0.0.1-1
 Architecture: iphoneos-arm
