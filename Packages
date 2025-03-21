@@ -108,6 +108,23 @@ Author: @bswbw
 Name: FixSet(Roothide)
 Sponsor: gblw
 
+Package: cn.llld.snapshottool
+Version: 1.4.0-1
+Architecture: iphoneos-arm64e
+Maintainer: 来了老弟
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/cn.llld.snapshottool_1.4.0-1_iphoneos-arm64e.deb
+Size: 2346148
+MD5sum: 215ae29b78d19a5a371b05629ab32aa6
+SHA1: 636b1177e88a830e41616745f3c3ee4da0ab8280
+SHA256: 512093936db18ee4253822110bf78a7cb85b8a6fcf852fe64522a2e11b7d211f
+Section: Tweaks
+Description: ---对于应用软件的图片，（无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
+Name: STTool(RootHide)
+
 Package: cn.llld.wxyybb
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -122,6 +139,56 @@ Section: Tweaks
 Description: 原名motherwc，作用：点击wx文本，语音播报信息,应多人需要再上架
 Author: sunweiliang
 Name: Wx文本语音播报(Rootless)
+
+Package: com.25mao.leftpan.roothide
+Version: 1.0-6
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Filename: debs/com.25mao.leftpan.roothide_1.0-6_iphoneos-arm64e.deb
+Size: 131150
+MD5sum: eb5e697647a6c1f0246c833d539f9ec8
+SHA1: 5f90f71629edb21d20b73a9133c156b5a6cd64a6
+SHA256: d6feab4cf80106dcbe14ca22cc3a5ba393a635f68e723810b69f25f05ea00f19
+Section: Rootless
+Priority: optional
+Description: 左滑返回上一页面
+Author: Mao
+Name: 左滑返回(Roothide)
+
+Package: com.25mao.miyou.roothide
+Version: 3.8-0
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/com.25mao.miyou.roothide_3.8-0_iphoneos-arm64e.deb
+Size: 28192528
+MD5sum: bec5bc110d7bb1c8cf82aaf8c60ed0e4
+SHA1: c9df4d42d31b88b675e5a550d63ca3e4c86031f9
+SHA256: 6a63744a0b23464a9fc27063d55f0da21f1193b45691e6532038429c38f13efe
+Section: Tweaks
+Description: 微信助手(纯属老猫)
+Author: Mao
+Name: 微信助手(Roothide)
+
+Package: com.82flex.ohmyinsetss.roothide
+Version: 0.1
+Architecture: iphoneos-arm64e
+Maintainer: Lessica
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.ohmyinsets
+Filename: debs/com.82flex.ohmyinsetss.roothide_0.1_iphoneos-arm64e.deb
+Size: 42502
+MD5sum: 2e46993aa64f4b45f953cc897e31c790
+SHA1: 0d1b6ff41970035de221ff4c329cfd0e6bd8aa35
+SHA256: 8cf7c556a930fe2424d79743f20f2b958fc7ab3f862509ff579e755d40a1e312
+Section: Tweaks
+Description: 控制中心模块五列显示* Control Center module five-column layout
+Author: Lessica
+Name: Oh My Insets(Roothide)
 
 Package: com.arwayaw.mynoads
 Version: 0.0.1.1+debug
@@ -204,6 +271,23 @@ Author: Brend0n
 Name: NeteaseRadioLikeToPrevious
 Sponsor: Brend0n
 
+Package: com.brend0n.nopassafterrespringsafe.roothide
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Brend0n
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.brend0n.nopassafterrespringsafe.roothide_0.0.3_iphoneos-arm64e.deb
+Size: 10068
+MD5sum: 25aabc3aea0d45373b858f4343b40519
+SHA1: dedae061def16d552276957274c9abb362f402d3
+SHA256: 6d763545486fe4d776c8377727613077aafed1e5ab1c3888538efaa748f35932
+Section: Tweaks
+Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
+Author: Brend0n
+Name: NoPassAfterRespring (Safe-Roothide)
+
 Package: com.cike.jsyhpbyy.rootless
 Version: 0.0.1.2+debug
 Architecture: iphoneos-arm64
@@ -251,6 +335,103 @@ Section: 插件
 Description: 随意旋转你的应用图标！无设置安装生效
 Author: Stoinks 凑合哥Repack
 Name: Rotaty(Rootless)
+
+Package: com.creatixsugarcane.roothide
+Version: 1.3.1
+Architecture: iphoneos-arm64e
+Maintainer: Creatix
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate,firmware (>= 13.0)
+Filename: debs/com.creatixsugarcane.roothide_1.3.1_iphoneos-arm64e.deb
+Size: 26956
+MD5sum: f772cb8aef2318fbfcbc1512157f2387
+SHA1: e2c23369604a2ce52bf9ffb2803f6d55255a566a
+SHA256: 042c2871b7b5306c12e96842db14e8220f7e41ad632ae36424a75f50ee325db9
+Section: Tweaks
+Description: SugarCane 是一款给控制中心亮度和音量添加百分比显示的插件。
+Author: iOS Creatix, kasiimh1, p2kdev
+Name: SugarCane(Roothide)
+Sponsor: Creatix
+
+Package: com.cydiageek.morelinesnotifications.roothide
+Version: 1.0.4-1
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 8.0)
+Filename: debs/com.cydiageek.morelinesnotifications.roothide_1.0.4-1_iphoneos-arm64e.deb
+Size: 14434
+MD5sum: 1dcb85226cf5a01703288cf1e88684a5
+SHA1: eacccf6655b4628531f0ac63fb2f81dcdfaac29e
+SHA256: bdb568f18a92ccd7ff5ed44a14b61d8fb6332d5ff66743ce81eec9438556f07e
+Section: Tweaks
+Description: Increase the Lines for the Notifications! 通知栏来消息全显示!
+Author: CydiaGeek
+Name: MoreLinesNotifications(Roothide)
+
+Package: com.den.locktouchx.roothide
+Version: 1.1-8
+Architecture: iphoneos-arm64e
+Maintainer: MrDeNsor
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.den.locktouchx.roothide_1.1-8_iphoneos-arm64e.deb
+Size: 46438
+MD5sum: 4f9d09d6cc3bcea611c7e062dcf2e635
+SHA1: c7d5b80897c9e46ec13ae523854ba0880ac1bfb9
+SHA256: 632bec5455aabb2a30229d2a2f80bd7e77f2848c2c295e6357f8de76fa340912
+Section: Tweaks
+Description: Adds Touch ID authentication to apps, just like the security features in iOS 18 就像iOS 18中的安全功能一样，将Touch ID身份验证添加到应用程序中无设置选项，按压app选项启动。
+Author: MrDeNsor
+Name: LockTouchX(Roothide)
+
+Package: com.derekfun.mihomenoads.roothide
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: derekfun
+Depends: mobilesubstrate
+Filename: debs/com.derekfun.mihomenoads.roothide_0.0.1_iphoneos-arm64e.deb
+Size: 3380
+MD5sum: f9abd5ac1598a74bfde0391e5a001c16
+SHA1: 0320b719105d17e3446533c41157bd4cf2b66dbf
+SHA256: 9e29b3a0aa902d4f313f6b08eab6960b0ef18a79746c390d1183858a13e58764
+Section: Tweaks
+Description: 米家去广告
+Author: derekfun
+Name: MiHome NoAds(Roothide)
+
+Package: com.doki.wxkeyboarduihook
+Version: 1.6
+Architecture: iphoneos-arm64e
+Maintainer: Doki
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/com.doki.wxkeyboarduihook_1.6_iphoneos-arm64e.deb
+Size: 179674
+MD5sum: c13d131123fcf167af4d4841a7a1f344
+SHA1: 017582eac67e4dc9235695ed082b86c7e821d226
+SHA256: e944e8e24903d246dabd0e51b6351ea8d9cc16ccca2b3d34ece75a902c055893
+Section: Tweaks
+Description: 微信键盘自定义
+Author: Doki
+Name: 微信键盘自定义(Roothide)
+
+Package: com.dvntm.ratebegone.roothide
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.dvntm.ratebegone.roothide_0.0.1_iphoneos-arm64e.deb
+Size: 4658
+MD5sum: 0e4f2d7fcc858e920018a9ee538b3c9e
+SHA1: 6a19e8096c5d4ceccd51ff6e6c8b8eb71301a446
+SHA256: b6e9a9cec3990e643b31115a884bb2cc8d6b6063e150f7c31d8e693a9de0e7b1
+Section: Tweaks
+Description: Removes annoying rate app pop-ups.删除烦人的评分应用程序弹出窗口。
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/RateBeGone/refs/heads/main/sources/icon.png
+Name: RateBeGone(Roothide)
 
 Package: com.huayuarc.GSHongBao.rootless
 Version: 1.0
@@ -403,6 +584,22 @@ Description: 去除启动广告，首页广告，随机广告。
 Author: Huayuarc
 Name: 出国翻译官 NoAds(Rootless)
 Sponsor: Huayuarc
+
+Package: com.huayuarc.classickeyboardxs-roothide
+Version: 1.1-8
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.huayuarc.classickeyboardxs-roothide_1.1-8_iphoneos-arm64e.deb
+Size: 810400
+MD5sum: 7b5c213e6c347eb8b29ff091bf4a3332
+SHA1: 39399358bf7a16ddf3f32cff150b42d78d76bbd5
+SHA256: 54bb3a9e5b24a4ef5a861ecd6d572ddf27319a223245c5cb6804d3960555c124
+Section: Tweaks
+Description: 自定义X键盘底部高度，地球底部高度等
+Author: Netskao
+Name: ClassicKeyboardXS-Roothide
 
 Package: com.huayuarc.coolcc
 Version: 2.0.1
@@ -557,6 +754,21 @@ Author: Reed Weichler
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/eqe.png
 Name: EQE(Rootless)
 Sponsor: CyPwn
+
+Package: com.huayuarc.fixset-roothide
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: gblw
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huayuarc.fixset-roothide_1.1_iphoneos-arm64e.deb
+Size: 50612
+MD5sum: 1ba7678930a5e762f918ff32c423fdc7
+SHA1: 189c9842cc6b671d92fedcd85da49994eb4b8c7e
+SHA256: 32bed797ffe2b7818b17011be39c0bb46c507bf22f1adb85aaf9e6f3575fefcb
+Section: Tweaks
+Description: 修复部分插件转roothide配置不保存问题
+Author: bswbw
+Name: FixSet(Roothide)
 
 Package: com.huayuarc.flexbetahide
 Version: 1:4
@@ -760,6 +972,25 @@ Description: iOS14汉仪雅酷黑单字重加粗版85%-ayya改，效果看截图
 Author: 犬神志
 Name: 汉仪雅酷黑单字重加粗版
 Sponsor: Huayuarc
+
+Package: com.huayuarc.icleanerpro-roothide
+Version: 7.10.0
+Architecture: iphoneos-arm64e
+Maintainer: Ivano Bilenchi
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/com.huayuarc.icleanerpro-roothide_7.10.0_iphoneos-arm64e.deb
+Size: 2502662
+MD5sum: 2571220b85efc7f421a9678a1615f2ff
+SHA1: df4b0f87a1f5f7a0e88a9b9677c3e71799447d24
+SHA256: 8d1b7c28e6099f9abeed3af6024fac625738bd2f29fbe77e642c1a6c435333e7
+Section: Tweaks
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro-Roothide
 
 Package: com.huayuarc.ios6chargingaudio
 Version: 0.0.1.1+debug
@@ -1044,6 +1275,21 @@ Author: Brend0n
 Name: NoPassAfterRespring (Rootless)
 Sponsor: Brend0n
 
+Package: com.huayuarc.oledkeyboard-roothide
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huayuarc.oledkeyboard-roothide_0.0.2_iphoneos-arm64e.deb
+Size: 6638
+MD5sum: 4d129d93a385f539efc1907c3beb3b20
+SHA1: 885c5df45efba98e412a1ba9380f029dbc9fb8fc
+SHA256: a67aff7bfa46ede5a27a68278a6f95fdcf52c07298d163ef2fd4bfe5b83bfd4b
+Section: Tweaks
+Description: OLED Dark Mode for iOS System Keyboard
+Author: dvntm
+Name: OledKeyboard(Roothide)
+
 Package: com.huayuarc.promovierecordercrack
 Version: 0.0.1.1+debug
 Architecture: iphoneos-arm
@@ -1133,6 +1379,22 @@ Author: Cocos
 Icon: https://api.ios-repo-updates.com/1.0/image/?u=https%3A%2F%2Fcdn-static.yourepo.com%2Fimages%2Fdebs%2Fcom.yourepo.soda-ldz.refinewechattheme.png&s=180x180&f=webp
 Name: WeChatTimeLineRobot(Rootless)
 Sponsor: Cocos
+
+Package: com.huayuarc.weishengwu-roothide
+Version: 1.01
+Architecture: iphoneos-arm64e
+Maintainer: llld
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.weishengwu-roothide_1.01_iphoneos-arm64e.deb
+Size: 34258
+MD5sum: 074c0a13b1bdc208b8a3002d2d295464
+SHA1: af2815e1619c8b4af3c5f066913d1634881b6179
+SHA256: 60c76cf723a2ecb88563c2c8cae475cc85ec071977a1202f29cd32f44b200327
+Section: Tweaks
+Description: 这插件有什么用我也不知道,安装即生效,无设置项!插件分享也与原作者无关,作者毫不知情,本源上架就是备份,切勿用于非法!!!
+Author: llld
+Name: 微生物(Roothide)
 
 Package: com.huayuarc.wicellswitcher
 Version: 1.2
@@ -1286,6 +1548,23 @@ Author: Huayuarc
 Name: 【键盘】隐藏语音图标(Rootless)
 Sponsor: Huayuarc
 
+Package: com.huayuarc.zetsu-roothide
+Version: 1.6.2
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>=15.0), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.huayuarc.zetsu-roothide_1.6.2_iphoneos-arm64e.deb
+Size: 20844682
+MD5sum: 2c95e5b2845ba7c08d3e9b82858b69d2
+SHA1: d698058ef7a418a4551f61b1bb4c3de639a6d6b6
+SHA256: 047a5349c087b45503c2527161d19a03e33ba6006a5218e32c68db1db4499633
+Section: Tweaks
+Description: Zetsu 是一个允许应用程序执行多任务的调整。Zetsu 是多任务应用程序的绝佳调整。 其主要功能包括将应用程序转换为窗口模式和分割视图的能力。此外，Zetsu 支持窗口和分割视图模式下应用程序的水平屏幕旋转。
+Author: Dcsyhi
+Icon: https://repo.cypwn.xyz/packages/Zetsu-Rootless/icon.png
+Name: Zetsu-Roothide
+
 Package: com.hy.samgisaninja.SuccessionRestore
 Version: 1.4.16~b4
 Architecture: iphoneos-arm
@@ -1319,6 +1598,72 @@ Description: Flex 3 for RootHides version of Dopamine by DXcool223
 Author: John Coates
 Name: Flex 3 Beta RootHide Dopamine IOS 15.x
 Sponsor: DXcool223
+
+Package: com.johncoates.flex
+Version: 1:3~beta52
+Architecture: iphoneos-arm64e
+Maintainer: DXcool223
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: me.tomt000.stageduo
+Filename: debs/com.johncoates.flex_1:3~beta52_iphoneos-arm64e.deb
+Size: 24371934
+MD5sum: a0e3ff11831224f0ceefe182fcaa1575
+SHA1: f83b9e3f5c2f16ae14688201f464e08f1640a7e5
+SHA256: e3b9b76fd904569b9984b94ca19f06c2901642fed0a91cc68f21d13c8db7754f
+Section: Tweaks
+Description: Flex 3 for RootHides version of Dopamine by DXcool223
+Author: John Coates
+Name: Flex 3 Beta RootHide Dopamine IOS 15.x
+
+Package: com.lclrc.hammerit
+Version: 1.7.1
+Architecture: iphoneos-arm64e
+Maintainer: lclrc(SquidForce)
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e.deb
+Size: 3055046
+MD5sum: b1382145e2d30c2341b894da4bc5ff4d
+SHA1: 4eefe76fc1d749863e11816df619af928726be73
+SHA256: 271863f83cf0217059552e0d586112bad687ba6fdbe8372382574eb234142cea
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It(RootHide)
+
+Package: com.lenglengyu.dismissalert-roothide
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.lenglengyu.dismissalert-roothide_1.0.0_iphoneos-arm64e.deb
+Size: 319980
+MD5sum: a621e38526dbe91b14904daf87c9cb04
+SHA1: ddc5a1179241c92b2dd31a23852854637256a57e
+SHA256: c842336d4d5f46178dbed613c268fc6b9c6ee0359650c1169ae7b87b3a2dec2a
+Section: Tweaks
+Description: 强制取消系统弹窗，如授权弹窗、app签名到期弹窗等等。
+Author: lenglengyu
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/dismissalert.png
+Name: DismissAlert(Roothide)
+
+Package: com.lenglengyu.passbycc-roothide
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Filename: debs/com.lenglengyu.passbycc-roothide_1.0.2_iphoneos-arm64e.deb
+Size: 290344
+MD5sum: f25a76c14a9c8294ec80da898295192e
+SHA1: efcb2a93a9df76b9ac1c2325afcfa9011026bdc1
+SHA256: 50609b9a7ce8c33f642a10467f811114fa7b1c2bbe3429841a273ada9399c388
+Section: Tweaks
+Description: 临时绕过人脸，绕过密码解锁。
+Author: lenglengyu
+Name: PassByCC(Roothide)
 
 Package: com.llld.flex3Beta63
 Version: 1:3~Beta63
@@ -1441,6 +1786,38 @@ Author: Netskao
 Name: ActionBar Reborn(Rootless)
 Sponsor: Nets
 
+Package: com.netskao.appdata.roothide
+Version: 1.4.4
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9), firmware (= 15)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.netskao.appdata.roothide_1.4.4_iphoneos-arm64e.deb
+Size: 14235002
+MD5sum: f1ee6dc258497e1619f33c0a7db4a774
+SHA1: b2f4f90dc96630cfc72c62c072aec998e5f04231
+SHA256: 8de39f912ff41c2fe689d0c263b5039dc1dcb814677f285b1d7deebcacc29a21
+Section: Tweaks
+Description: AppData 这款越狱插件，是由N佬重新编译的版本，原生中文，功能丰富。比如，APP降级，清除缓存和数据，清除角标，改名App，文件快速跳转等等；基本是越狱必备插件了。
+Author: Fouad Raheb
+Name: AppData(RootHide)
+
+Package: com.netskao.cccellularrate-roothide
+Version: 1.1-1
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/com.netskao.cccellularrate-roothide_1.1-1_iphoneos-arm64e.deb
+Size: 302910
+MD5sum: 82b598c3fae4d2d6827432d1ac11a1e4
+SHA1: 1cbbfb19ab7fbaba6965d047dc956d8cd14b6fcf
+SHA256: 461ec910e3f959b7f2c78d469c190ea3664065ae09c494bc57a577dc194e2274
+Section: Netskao-Tweaks
+Description: Quickly switch the type of cellular data 2/3/4/5G currently in use via the Control Center, only the types supported in the current device settings will be displayed.通过控制中心快速切换当前使用的蜂窝数据 2/3/4/5G 类型，只显示当前设备设置中支持的类型。
+Author: Netskao
+Name: CCCellularRate(Roothide)
+
 Package: com.netskao.disablepastetips
 Version: 1.1-5
 Architecture: iphoneos-arm
@@ -1492,6 +1869,22 @@ Author: Netskao
 Name: DNDBannerBypass
 Sponsor: Netskao
 
+Package: com.netskao.filzacrack.roothide
+Version: 1.1-8
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
+Filename: debs/com.netskao.filzacrack.roothide_1.1-8_iphoneos-arm64e.deb
+Size: 11418
+MD5sum: 0de9d6062c8dbc0167101769cb9ac6da
+SHA1: 889165306a81ce0c0eb1933499b81ac08c4ffeec
+SHA256: 3e64278218877c3d6eaade4e84694bee020b0c8e0e52b6f88cba4bfe038c50fa
+Section: Tweaks
+Description: Filza unlock full functionality, the main program please install in the official source
+Author: Netskao
+Name: Filza Crack(Roothide)
+
 Package: com.netskao.fqxsnoads
 Version: 1.1-8
 Architecture: iphoneos-arm
@@ -1523,6 +1916,21 @@ Description: 番茄小说，番茄畅听。去除启动广告，去除首页插�
 Author: Netskao
 Name: 番茄小说 NoAds(Rootless)
 Sponsor: Nets
+
+Package: com.netskao.huayuarc.limneoscrack-roothide
+Version: 1.1-3
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.netskao.huayuarc.limneoscrack-roothide_1.1-3_iphoneos-arm64e.deb
+Size: 16878
+MD5sum: 5c9dba7fac940023f80c12a21be2cd61
+SHA1: c0bacfc1a2ba0fd959bc419c37123f2319689f89
+SHA256: d175f6e56e16faf88e9e35ec3b00a9e26780d2e3fd363eed6f926355cf152d2a
+Section: Tweaks
+Description: 解锁Limneos所有插件全功能通话录音破解｜NFC破解等等｜可以下载官方插件｜再安装本插件进行破解｜官方源http://limneos.net/repo
+Author: Netskao
+Name: Limneos Crack(RootHide)
 
 Package: com.netskao.jxboxcrack
 Version: 1.1-2
@@ -1626,6 +2034,38 @@ Author: Netskao
 Name: PerfectSBVolume
 Sponsor: Nets
 
+Package: com.netskao.perfectxtime-roothide
+Version: 1.1-3
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.netskao.perfectxtime-roothide_1.1-3_iphoneos-arm64e.deb
+Size: 28020
+MD5sum: b99d6f4271b60b89b0f23bb6d16d9efa
+SHA1: 90dd56adf69ba6c13c85dfe742fb0ef1bdcedb06
+SHA256: eb2bdbf3ed70d259f88a738b802713f6ff749e9e5b7919f2a572fde2e493d45f
+Section: Netskao-Tweaks
+Description: PerfectXTime修改于PerfectTimeXS，修复13之后的小问题，无设置，仅时间+星期格式，纯自用，录屏时自动恢复默认时间，以免错位
+Author: Netskao
+Name: PerfectXTime(RootHide)
+
+Package: com.netskao.storeswitchaccounts.roothide
+Version: 1.1-4
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.netskao.storeswitchaccounts.roothide_1.1-4_iphoneos-arm64e.deb
+Size: 362992
+MD5sum: b280a1f6a416e682d214ddfac8d83e56
+SHA1: bc6b2349c74eb01f39e2a9e0a34242b56f7d66c8
+SHA256: 7943c83c71788cabf025b0c906c271045011485edad3b9e9226dadea064cf68d
+Section: Tweaks
+Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch 方便地在登录帐户之间切换，长按桌面AppStore图标进行切换.
+Author: Netskao
+Name: StoreSwitchAccounts(Roothide)
+
 Package: com.netskao.stormsniffercrack
 Version: 1.1-4
 Architecture: iphoneos-arm
@@ -1692,6 +2132,39 @@ Author: Netskao
 Name: 淘宝 NoAds(Rootless)
 Sponsor: Nets
 
+Package: com.netskao.wechatnotiavatar.roothide
+Version: 1.2-5
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: debs/com.netskao.wechatnotiavatar.roothide_1.2-5_iphoneos-arm64e.deb
+Size: 1647266
+MD5sum: 90ffa7fcae212acd28d25b734c492f0b
+SHA1: bf1569ae8020b9b78695f3a19e7df25ee8542b04
+SHA256: 4400fcaa02b62caaa06f60c29323bf6317627541495541e1dc547debd3840622
+Section: Tweaks
+Description: Display Notification Avatars for WeChat App using iOS15+ APIs 使用iOS15+ API显示微信应用程序的通知头像.
+Author: Netskao
+Name: WeChatNotiAvatar(Roothide)
+
+Package: com.p2kdev.reverseisland.roothide
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: P2KDev
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.p2kdev.reverseisland.roothide_1.0_iphoneos-arm64e.deb
+Size: 12712
+MD5sum: b1162496ad8532fe72cc32f5d46538af
+SHA1: 64275947163ce7c016a883fed3b14e7dbef95d01
+SHA256: b705fd0d0d926e3798cfea9933c02c5697cf05aa8008f44b5e6f0516089f8f76
+Section: Tweaks
+Description: Single Tap on the Island to launch widget & hold to launch the app!单击岛屿启动小部件,长按启动应用程序！如果麦克风岛活动没有任何长按操作,则轻点一下即可启动应用程序！
+Author: P2KDev
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.reverseisland/icon.png
+Name: ReverseIsland(Roothide)
+
 Package: com.ps.amber
 Version: 1.2.0
 Architecture: iphoneos-arm
@@ -1725,6 +2198,23 @@ Description: Amber-ify your flashlight LEDs. Amber 插件让你可以选择使�
 Author: PoomSmart
 Name: Amber(Rootless)
 Sponsor: PoomSmart
+
+Package: com.sopppra.settingsrevamp.roothide
+Version: 2.1.1
+Architecture: iphoneos-arm64e
+Maintainer: SOPPPra
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, com.sop.settingsrevamp, com.axs.settingsrevamp.hh, com.hk.settingsrevamp.cn.rl
+Filename: debs/com.sopppra.settingsrevamp.roothide_2.1.1_iphoneos-arm64e.deb
+Size: 282760
+MD5sum: d548baa2275178b4c620fda996c3505c
+SHA1: d34d848c20ee7c60ced3f62c41a50017e98f45b2
+SHA256: a20b740e7b3c0a2f52c50d9c1c4b7041f088ae3cd637df0700de0441a242f375
+Section: Tweaks
+Description: 设置自定义、归类插件。
+Author: SOPPPra
+Name: SettingsRevamp(Roothide)
 
 Package: com.sunshinesong.split-view-pro
 Version: 1.4.0
@@ -1763,6 +2253,24 @@ Depiction: https://huayuarc.github.io/sileodepiction/ReachPlayer/ReachPlayer.jso
 Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
 Name: ReachPlayer(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ReachPlayer/ReachPlayer.json
+
+Package: com.zxc.checkproxybypass.roothide
+Version: 0.1.1-2
+Architecture: iphoneos-arm64e
+Maintainer: zxc
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate , preferenceloader,com.opa334.altlist
+Filename: debs/com.zxc.checkproxybypass.roothide_0.1.1-2_iphoneos-arm64e.deb
+Size: 14020
+MD5sum: 529ea8d3ef413b3893a9e416f59b1420
+SHA1: 2327724cb599a3454c9b7ee74decdc2009a9e84f
+SHA256: 4ae3ae9092176f1ec55ea22311893d43bcf8f18a228c2e8cc5fc3b84de49fa06
+Section: Tweaks
+Description: 去除app抓包检测,安装之后在设置里面开启。
+Author: zxc
+Name: Checkproxybypass(Roothide)
+Sponsor: zxc
 
 Package: xc.lzsxcl.o2pro
 Version: 17.8
