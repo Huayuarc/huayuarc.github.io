@@ -64,7 +64,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2.9.8",
+          "text": "2.9.9",
           "title": "最新版本"
         },
         {
@@ -88,15 +88,15 @@
       "tabname": "更新日志",
       "views": [
         {
-          "class": "DepictionMarkdownView",
-          "markdown": "去除网络配置模块,优化内存配置.",
-          "useRawFormat": true
-        },
-        {
           "class": "DepictionSubheaderView",
           "title": "2.9.9",
           "useBoldText": true,
           "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "去除网络配置,优化内存模块.",
+          "useRawFormat": true
         },
         {
           "class": "DepictionSubheaderView",
