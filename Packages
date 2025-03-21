@@ -1,3 +1,20 @@
+Package: Flex3beta
+Version: 3.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Filename: debs/Flex3beta_3.1_iphoneos-arm64.deb
+Size: 24375418
+MD5sum: 4a242603ae76c50a21e76123b52c3a0d
+SHA1: e89cd5db6135a9f017bec5004826ef4ed3e204b2
+SHA256: 95db45f3ac7d245687d3a0c21b8aec0fcb24aebbf58a147098d01a3b344c1fb7
+Section: Tweaks
+Description: Develop your own tweaks and share them on the Flex Community Cloud. (Dopamine 版本flex3可解析应用，不用兼容层，粗体会闪退,建议正在学习或者会做补丁者使用(已知点击应用补丁列表不可以，需要搜索)~~~单独装此包只对第三方应用生效，对系统生效需要装另外一个包，安装前卸载现有的，你配置都在)，0302:更新版本号，盗版源从我这拿东西版本整那么高作甚(来了老弟 h_h_x_t修复支持无根)
+Author: John Coates
+Name: Flex3 Beta可解析版(Rootless)
+
 Package: Flex3beta.bootstrap
 Version: 1:3~Beta92
 Architecture: iphoneos-arm64e
