@@ -267,11 +267,11 @@ Architecture: iphoneos-arm
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Filename: debs/com.HBWechatHelper.ailun_1.8.0_iphoneos-arm.deb
-Size: 16115352
-MD5sum: a6d0c100d9b7dcae2867f87789850d0b
-SHA1: b76bf384c0e44eeba63b78a0887e183584655d74
-SHA256: 4cdda4d5d029792c3d8997547e6eb594b712a29963a852030c449e41cd2a8e3c
-Section: Mao
+Size: 16115360
+MD5sum: 8e27e3274c30036cb77cc56c5ba345ea
+SHA1: 2891c160e99406db842cfefa7fe5fe5bc28bc5fb
+SHA256: 29391576aa128d910b49ba3005e20bf34e172aca68f612f00a485878b3f597aa
+Section: Tweaks
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)
@@ -282,11 +282,11 @@ Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Filename: debs/com.HBWechatHelper.ailun_1.8.0_iphoneos-arm64.deb
-Size: 15901610
-MD5sum: cae86cd7d6f60f598cd588e42152ca1e
-SHA1: 0a022ed74f13b434534f3770ddcea7c9b4081ee4
-SHA256: 29e5ad4ef18892bc2b52db3722656e91ee0cb84ddea0aa5796592851eadfaa39
-Section: Mao
+Size: 15901592
+MD5sum: 3f47adca7be0011ac148f96848ad0936
+SHA1: 2f12387879dc1f659ce456e7a89e0f9fea60d0e9
+SHA256: 9bc3873707fa40e76c150e0b05647ecf070933d9c78cccaaeeeb14cae28b4bdb
+Section: Tweaks
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(Rootless)
@@ -327,6 +327,51 @@ Icon: https://repo.abox.plus/api/packageinfo/com.abox.puredouban/icon.png
 Name: 豆瓣净化(Rootless)
 Sileodepiction: https://repo.abox.plus/depictions/native/com.abox.puredouban.json
 
+Package: com.apper.wf
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: 小果子
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.apper.wf_1.0.0-1+debug_iphoneos-arm.deb
+Size: 125024
+MD5sum: bec8632282f8e7ecb9f1e0240292444a
+SHA1: b5593f63d865c6e1974f63ef4b3d824987c35391
+SHA256: 66892354d7116f3598349f7f14e104d9868e185c48bc220e34aa04bf8f38f50a
+Section: Tweaks
+Description: 去除所有广告，无弹窗
+Author: 小果子
+Name: 威锋去广告
+
+Package: com.apper.wf.roothide
+Version: 1.0.0-4+debug
+Architecture: iphoneos-arm64e
+Maintainer: 小果子
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.apper.wf.roothide_1.0.0-4+debug_iphoneos-arm64e.deb
+Size: 124074
+MD5sum: 8a428003c64efe67de58a5c0e47c6614
+SHA1: bf6b99994412662d8670f2fa57b264d76fb7cee7
+SHA256: 1a579f0c9220feedb04c9647462652f9bbaeb6eef5157753a9b53723d68446dc
+Section: Tweaks
+Description: 去除所有广告，无弹窗
+Author: 小果子
+Name: 威锋去广告(Roothide)
+
+Package: com.apper.wf.rootless
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm64
+Maintainer: 小果子
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.apper.wf.rootless_1.0.0-1+debug_iphoneos-arm64.deb
+Size: 118562
+MD5sum: 832650b8172c154b05f693f4d5335456
+SHA1: 419ef47031583e4785c37cc022293ac7bb52fe75
+SHA256: 37c914519dc41272eda2f4adbf8523b6b7a1df328146754b2919ad737c9d55fe
+Section: Tweaks
+Description: 去除所有广告，无弹窗
+Author: 小果子
+Name: 威锋去广告(Rootless)
+
 Package: com.arwayaw.mynoads
 Version: 0.0.1.1+debug
 Architecture: iphoneos-arm
@@ -334,10 +379,10 @@ Maintainer: Arway_Aw
 Depends: mobilesubstrate
 Filename: debs/com.arwayaw.mynoads_0.0.1.1+debug_iphoneos-arm.deb
 Size: 23962
-MD5sum: 630199d76ebbf62e1de3c3657576a532
-SHA1: 640668bbb21bb704103d4efb2adacb70f5fb5ea9
-SHA256: 8ab632ec433ff7e2d500042ba158ad9303d21656de2c1f6ceae4b45ebfa98d3b
-Section: NoAds
+MD5sum: b32cc22f8d1a81e6b55b341bfc66f3b4
+SHA1: 3eb87d2cbad65feaf2fb7d3b608bb235e837b2b9
+SHA256: f516d21cbbc27a00ef6f5744a2c51979dea933e7bbac238838aa6fd02afe61f1
+Section: Tweaks
 Description: 屏蔽启动广告.她她圈的广告.我的页面广告.消息页面广告.帖子内部广告.屏蔽首页浮窗.我的页面精简.
 Author: Arway_Aw
 Name: 美柚 NoAds
@@ -350,10 +395,10 @@ Maintainer: Arway_Aw
 Depends: mobilesubstrate
 Filename: debs/com.arwayaw.mynoads.rootless_0.0.1.1+debug_iphoneos-arm64.deb
 Size: 22946
-MD5sum: 7703070ee243601a278820b147a031a6
-SHA1: e6715a512ea8386be91ef028ea1e70c59c480b19
-SHA256: f5b60a61a92737507eba2a240f4d6b3ac4599907cc77eddd9ed4c62f0f2c9d83
-Section: NoAds
+MD5sum: 74fabdd8603ce6df343166479d6a22bd
+SHA1: b9a713dbc9ea1db7191b4ac84558f9be02eb527d
+SHA256: 78ae5ccb4a3295287b523a3698847b4582608943b971ae565bec87429c14db76
+Section: Tweaks
 Description: 屏蔽启动广告.她她圈的广告.我的页面广告.消息页面广告.帖子内部广告.屏蔽首页浮窗.我的页面精简.
 Author: Arway_Aw
 Name: 美柚 NoAds(Rootless)
@@ -605,6 +650,40 @@ Section: Tweaks
 Description: 微信键盘自定义
 Author: Doki
 Name: 微信键盘自定义(Roothide)
+
+Package: com.dvntm.infuseplus
+Version: 1.1.5
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Depends: mobilesubstrate
+Filename: debs/com.dvntm.infuseplus_1.1.5_iphoneos-arm.deb
+Size: 205978
+MD5sum: 72b07218a07f4b1beccfc5b43c5b6ff5
+SHA1: fde624542c26350411ec34c8b5a1ba132311d099
+SHA256: 0f6e64f31c33944efbb138b055b047d3444e1a9ff97ae96c4dcbfa86861a8db7
+Section: Tweaks
+Description: Enhancer for Infuse app
+Author: dvntm
+Icon: https://i.imgur.com/C5MLSXo.png
+Name: Infuse Plus
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/icons/main/infuseplus.json
+
+Package: com.dvntm.infuseplus
+Version: 1.1.5
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Depends: mobilesubstrate
+Filename: debs/com.dvntm.infuseplus_1.1.5_iphoneos-arm64.deb
+Size: 206106
+MD5sum: 780449c3975100c406011aa54034e2ba
+SHA1: daee00a8ff5965660bdad496a3aab30d2be1bfb9
+SHA256: 0f3475161101079126dcaaf5336402dc2b2a93420eb95baeac8c772103d52df3
+Section: Tweaks
+Description: Enhancer for Infuse app
+Author: dvntm
+Icon: https://i.imgur.com/C5MLSXo.png
+Name: Infuse Plus(Rootless)
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/icons/main/infuseplus.json
 
 Package: com.dvntm.ratebegone.roothide
 Version: 0.0.1
@@ -2540,6 +2619,43 @@ Icon: https://repo.abox.plus/api/packageinfo/com.swing.ddmcnoads/icon.png
 Name: 叮咚买菜NoAds(Rootless)
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.ddmcnoads.json
 
+Package: com.swing.dpnoads
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.swing.dpnoads_1.1.0_iphoneos-arm64.deb
+Size: 18738
+MD5sum: 9042c762962108dab508ee5273a7bb2b
+SHA1: 88da652683aa8defd36021b1369c378888139425
+SHA256: 8951a2625db4df0e2eef3792119fbf7513143bff4345a0e3446c4edec03f37e2
+Section: Tweaks
+Description: 百度网盘去广告，优化文件传输页面使用系统App来打开文件!
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.dpnoads
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.dpnoads/icon.png
+Name: 百度网盘NoAds(Rootless)
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.dpnoads.json
+
+Package: com.swing.dpnoads
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: SWING
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.swing.dpnoads_1.1.0_iphoneos-arm.deb
+Size: 18192
+MD5sum: 48fd7906fa04535529ecca783dbc38d6
+SHA1: 2002c85925819ccfd12f0c254d21d4ef7a7b15f3
+SHA256: 23bb51d73fc2c54fd63f29cb1904e5d9c20123345d98af28c5533c276cd381af
+Section: Tweaks
+Description: 百度网盘去广告，优化文件传输页面使用系统App来打开文件!
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.dpnoads
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.dpnoads/icon.png
+Name: 百度网盘NoAds
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.dpnoads.json
+
 Package: com.swing.eleme
 Version: 1.0.3
 Architecture: iphoneos-arm64
@@ -2577,6 +2693,24 @@ Icon: https://repo.abox.plus/api/packageinfo/com.swing.eleme/icon.png
 Name: 饿了么去广告
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.eleme.json
 
+Package: com.swing.jump
+Version: 0.0.2-24
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.swing.jump_0.0.2-24_iphoneos-arm64.deb
+Size: 7470
+MD5sum: 41d0936717c4135c7359c544944d2509
+SHA1: b3ebc96dd5549777b7757d92bc9a0c28d82d5ff1
+SHA256: d7d2c26e817f472d9986ba8bde6b736d0e8fa66186de43ece2f84f89f2b69382
+Section: Tweaks
+Description: JumpApp去广告插件
+Author: SWING
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.swing.jump
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.swing.jump/icon.png
+Name: JumpNoAds(Rootless)
+Sileodepiction: https://p2kdev.github.io/repo/depictions/native/com.swing.jump.json
+
 Package: com.swing.padswitcher
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -2613,6 +2747,80 @@ Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.pads
 Icon: https://repo.abox.plus/api/packageinfo/com.swing.padswitcher/icon.png
 Name: PadSwitcher
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.padswitcher.json
+
+Package: com.swing.puretieba
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Depends: mobilesubstrate
+Filename: debs/com.swing.puretieba_1.0.0_iphoneos-arm64.deb
+Size: 12716
+MD5sum: 46bcc2df13d1caba45499dbe9fbfe885
+SHA1: cafe9a2f64f8a359036e95786119d71f7a626ae3
+SHA256: 654eb5f80ec503dde176c5f4cd055b284f0132a656350d670163d42484e6701b
+Section: Tweaks
+Description: 百度贴吧去广告插件！
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.puretieba
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.puretieba/icon.png
+Name: 百度贴吧去广告(Rootless)
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.puretieba.json
+
+Package: com.swing.puretieba
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: SWING
+Installed-Size: 264
+Depends: mobilesubstrate
+Filename: debs/com.swing.puretieba_1.0.0_iphoneos-arm.deb
+Size: 23672
+MD5sum: 749d6b8a7c2d2b1ba8f8f0a846eaae35
+SHA1: 98641b097e1834a45b36afc97d2cf3ac5963817c
+SHA256: 930a676cc0fcc56babbd9f89e4402a7d278bbdd0f2a73d3239316bd39cfc44cf
+Section: Tweaks
+Description: 百度贴吧去广告插件！
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.puretieba
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.puretieba/icon.png
+Name: 百度贴吧去广告
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.puretieba.json
+
+Package: com.swing.qqmail
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.swing.qqmail_1.0.0_iphoneos-arm64.deb
+Size: 8500
+MD5sum: 678e4953a81563bc7ef5071f61c2eba8
+SHA1: 163cb4fcde5a5c408104030bfc595427f49e60bc
+SHA256: eed5a4b687f022d1723d0556616fb349e10065733754ca65cf1e061097b52ab6
+Section: Tweaks
+Description: QQ邮箱去广告插件。源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.qqmail
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.qqmail/icon.png
+Name: QQ邮箱去广告(Rootless)
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.qqmail.json
+
+Package: com.swing.qqmail
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: SWING
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.swing.qqmail_1.0.0_iphoneos-arm.deb
+Size: 8362
+MD5sum: 7c5367135ef59647e732674d8a5918da
+SHA1: acfd1f13c58729aeea400d4e2928e2d031eeed0b
+SHA256: 6a9cfbea464b651765e0ec191199bfd81c90c3373561255def7d7bd6a3c423b2
+Section: Tweaks
+Description: QQ邮箱去广告插件。源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.qqmail
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.qqmail/icon.png
+Name: QQ邮箱去广告
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.qqmail.json
 
 Package: com.swing.zhihu
 Version: 1.1.3-3
@@ -2787,6 +2995,37 @@ Description: QQ·TIM设置-辅助功能-右上角开启(或新设置界面) 支�
 Author: x✨
 Name: QQ·TIM 新版防撤回(Rootless)
 
+Package: com.xx.qsyyhook
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: x✨
+Installed-Size: 104
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.qsyyhook_1.0.2_iphoneos-arm.deb
+Size: 15196
+MD5sum: cb86f79762fb562f498108de92e6aad9
+SHA1: f24c11e023f0b6e031b11bb58113fafe5aba8868
+SHA256: c929efa1b99ff9a05642cc171ace11f0c1abdb0a646fd680a6937bb4a063b5d6
+Section: Tweaks
+Description: 与小黑联手制作 | 去除启动广告 | 秒过激励视频(自行测试是否可用 不能用就在设置界面长按可以关闭或者卸载此插件)
+Author: x✨
+Name: 汽水音乐NoAds
+
+Package: com.xx.qsyyhook
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.qsyyhook_1.0.2_iphoneos-arm64.deb
+Size: 14958
+MD5sum: 9c7ac2f457c25097668d3361bb5dfb96
+SHA1: f473df2baf594eeb452518c2551070cfd579d1b9
+SHA256: a279aaad873060dcbd599a54048746ec2e50b98282826475300db2dcdc1abd5d
+Section: Tweaks
+Description: 与小黑联手制作 | 去除启动广告 | 秒过激励视频(自行测试是否可用 不能用就在设置界面长按可以关闭或者卸载此插件)
+Author: x✨
+Name: 汽水音乐NoAds(Rootless)
+
 Package: com.xx.soulatch
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -2894,6 +3133,25 @@ Description: 去除app抓包检测,安装之后在设置里面开启。
 Author: zxc
 Name: Checkproxybypass(Roothide)
 Sponsor: zxc
+
+Package: emt.paisseon.satella
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: Lilliana
+Depends: firmware (>= 12.2), ws.hbang.common (>= 1.17), com.opa334.altlist (>= 1.0.7)
+Conflicts: ai.paisseon.satella
+Filename: debs/emt.paisseon.satella_1.4.1_iphoneos-arm.deb
+Size: 112440
+MD5sum: bad95b0d2815496b3a024130d03be55f
+SHA1: 8454416b6e04fc66b6de62802fa29395d27f6cee
+SHA256: 5fcf6aa9657e57c524718a02a38654984a1b647c6a3afe6c129215139aad3359
+Section: Tweaks (Piracy)
+Description: Modern in-app purchase cracker内购破解插件,适用于大多数本地验证的应用,点击购买,然后取消,即可解锁会员.
+Author: Lilliana
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/satella.json&name=Satella&dev=Paisseon
+Icon: https://paisseon.github.io/icons/satella.png
+Name: Satella
+Sileodepiction: https://paisseon.github.io/depictions/satella.json
 
 Package: icleanerpro.rootless
 Version: 7.10.0
@@ -3069,4 +3327,42 @@ Depiction: https://huayuarc.github.io/sileodepiction/o2Pro/o2Pro.json
 Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
 Name: o2Pro(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/o2Pro/o2Pro.json
+
+Package: xyz.cypwn.crane
+Version: 1.3.11-5
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy, com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: debs/xyz.cypwn.crane_1.3.11-5_iphoneos-arm.deb
+Size: 1105536
+MD5sum: 0ba4e29e1b00e96f568fcf180d519a37
+SHA1: a69920f59e81ebc946dbe36ce13290ad850081c5
+SHA256: 6152766efda7c253bac35b497f4f76a2ca1bfa8f77b505460c582e1b0288761d
+Section: Tweaks
+Description: Multiple containers for your applications!可以让一个应用支持多个账号登录切换,即使是本身不可以多账号切换的。启动的时候长按3dtouch选择从哪个账号打开,账号各自独立。
+Author: opa334
+Depiction: https://repo.cypwn.xyz/depiction/1482
+Icon: https://media.havoc.app/61ffad4e82c2e1d835f525ba
+Name: Crane
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1482
+
+Package: xyz.cypwn.crane
+Version: 1.3.11-5
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy, com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: debs/xyz.cypwn.crane_1.3.11-5_iphoneos-arm64.deb
+Size: 865642
+MD5sum: a813da191aaf4a6a9ae51b25c641848c
+SHA1: f7f0e88b7d83ff820dac31f07a39c9736745e4ba
+SHA256: 7218667bf012aa2d679c673c00d03184b0c9033198b74259b7111424a842ede7
+Section: Tweaks
+Description: Multiple containers for your applications!可以让一个应用支持多个账号登录切换,即使是本身不可以多账号切换的。启动的时候长按3dtouch选择从哪个账号打开,账号各自独立。
+Author: opa334
+Depiction: https://repo.cypwn.xyz/depiction/1483
+Icon: https://media.havoc.app/61ffad4e82c2e1d835f525ba
+Name: Crane(Rootless)
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1483
 
