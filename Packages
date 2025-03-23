@@ -651,6 +651,36 @@ Description: 微信键盘自定义
 Author: Doki
 Name: 微信键盘自定义(Roothide)
 
+Package: com.dumpapp.wechat
+Version: 2.0.5
+Architecture: iphoneos-arm
+Maintainer: WeChat
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/com.dumpapp.wechat_2.0.5_iphoneos-arm.deb
+Size: 14332698
+MD5sum: bd66d2c906295c239647edb6537dd3ab
+SHA1: 5e565840c51ce049825a3a4af93b20ff6b801c46
+SHA256: 942caf4f193a5872395afef4283bbf9e19c42f83d7656563e94a4e87448de395
+Section: Tweaks
+Description: 锤子助手插件
+Author: DumpApp
+Name: 锤子助手
+
+Package: com.dumpapp.wechat-rootless
+Version: 2.0.5
+Architecture: iphoneos-arm64
+Maintainer: WeChat
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/com.dumpapp.wechat-rootless_2.0.5_iphoneos-arm64.deb
+Size: 14147134
+MD5sum: d5140947835621a648e0fe775d8b482b
+SHA1: 37d5060ebe286cf87579b349c2ca689d4d3ebfed
+SHA256: 40d1cb54c68d173f9df43fa01e0471c4055576005ce921ee5246671cf047a67b
+Section: Tweaks
+Description: 锤子助手插件
+Author: DumpApp
+Name: 锤子助手(Rootless)
+
 Package: com.dvntm.infuseplus
 Version: 1.1.5
 Architecture: iphoneos-arm
@@ -2994,37 +3024,6 @@ Section: Tweaks
 Description: QQ·TIM设置-辅助功能-右上角开启(或新设置界面) 支持QQ9.0.20+ TIM4.0.95+
 Author: x✨
 Name: QQ·TIM 新版防撤回(Rootless)
-
-Package: com.xx.qsyyhook
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: x✨
-Installed-Size: 104
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.xx.qsyyhook_1.0.2_iphoneos-arm.deb
-Size: 15196
-MD5sum: cb86f79762fb562f498108de92e6aad9
-SHA1: f24c11e023f0b6e031b11bb58113fafe5aba8868
-SHA256: c929efa1b99ff9a05642cc171ace11f0c1abdb0a646fd680a6937bb4a063b5d6
-Section: Tweaks
-Description: 与小黑联手制作 | 去除启动广告 | 秒过激励视频(自行测试是否可用 不能用就在设置界面长按可以关闭或者卸载此插件)
-Author: x✨
-Name: 汽水音乐NoAds
-
-Package: com.xx.qsyyhook
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.xx.qsyyhook_1.0.2_iphoneos-arm64.deb
-Size: 14958
-MD5sum: 9c7ac2f457c25097668d3361bb5dfb96
-SHA1: f473df2baf594eeb452518c2551070cfd579d1b9
-SHA256: a279aaad873060dcbd599a54048746ec2e50b98282826475300db2dcdc1abd5d
-Section: Tweaks
-Description: 与小黑联手制作 | 去除启动广告 | 秒过激励视频(自行测试是否可用 不能用就在设置界面长按可以关闭或者卸载此插件)
-Author: x✨
-Name: 汽水音乐NoAds(Rootless)
 
 Package: com.xx.soulatch
 Version: 1.0.0
