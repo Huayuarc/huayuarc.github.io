@@ -2248,16 +2248,16 @@ Maintainer: sunshinesong
 Installed-Size: 5472
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
 Filename: debs/com.sunshinesong.split-view-pro_1.4.0_iphoneos-arm64.deb
-Size: 2307306
-MD5sum: 59ce81e6e481fd15ad7c16360b5818ab
-SHA1: 6f8dc45e95f8455492bcad74d6a480d4f773caca
-SHA256: a9d6461aad24bbb177c9845a3ece9de004e5dc722fea7cfe5b1a3ef208a4947b
+Size: 2307318
+MD5sum: 9531931643615b068034904ed2cf0569
+SHA1: 9a7b4228d3004af4e365ec15080b62f72cccbb9e
+SHA256: c97aa878daadd1a9bd1f6c1325bafd9aace24572f254ddfe41a548a4eb350801
 Section: Tweaks
 Description: 分屏，不必太复杂，一切从简即可。
 Author: sunshinesong
 Depiction: https://huayuarc.github.io/sileodepiction/split-view-pro/split-view-pro.json
 Icon: https://huayuarc.github.io/images/split-view-pro.png
-Name: split-view-pro
+Name: Split-view-pro(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/split-view-pro/split-view-pro.json
 Ts: sp-sss
 
@@ -2333,15 +2333,15 @@ Architecture: iphoneos-arm64
 Maintainer: Dcsyhi
 Depends: mobilesubstrate
 Filename: debs/jp.dcsyhi.kbappdock_1.3_iphoneos-arm64.deb
-Size: 857808
-MD5sum: b6d8122aa6f880f3b5cdd80b5bdea941
-SHA1: fc81a17df983ba796f239bfaac67185a4d07ed3e
-SHA256: f599da2b25aba20345d13069af20c07b43a45c41c84ad4d0be7c38ad41f324e5
+Size: 857814
+MD5sum: 74e4d12bbe40d046b44bc8b862feed58
+SHA1: 8c86333ab7951ad25760d27f7bc14db5f2556080
+SHA256: 06501fd43c4bccc431447e021835ff1f6d6d7fdb0ad199571db22586d3d16d1e
 Section: Tweaks
 Description: You can arrange apps on the dock of keyboard ⌨️.在键盘底部添加快捷按钮或者App⌨️.
 Author: Dcsyhi
 Icon: https://dcsyhi1998.github.io/icons/kbappdock/icon@2x.png
-Name: KBApp
+Name: KBApp(Rootless)
 
 Package: jp.dcsyhi.kbappdock
 Version: 1.4
@@ -2349,15 +2349,15 @@ Architecture: iphoneos-arm64
 Maintainer: Dcsyhi
 Depends: mobilesubstrate
 Filename: debs/jp.dcsyhi.kbappdock_1.4_iphoneos-arm64.deb
-Size: 866422
-MD5sum: d9ff23d94e511026b749eea8ce157b79
-SHA1: 189b2428ebbb026b87763d9e5141e7a1a102c6c8
-SHA256: fb86bb8aa8ec1a33bf9a7838822cbb702774d3187d46270e0640faf99f34ecaa
+Size: 866430
+MD5sum: 0193828b83c080a8fc2a9dab80b0d4d5
+SHA1: 98dc556109eb8e96099ed989ac10195c9cf464c5
+SHA256: b337319098f04db686e977b3a4149a7f5d91071fce63c84b4489f14037b18f16
 Section: Tweaks
 Description: You can arrange apps on the dock of keyboard ⌨️.在键盘底部添加快捷按钮或者App⌨️.
 Author: Dcsyhi
 Icon: https://dcsyhi1998.github.io/icons/kbappdock/icon@2x.png
-Name: KBApp
+Name: KBApp(Rootless)
 
 Package: jp.dcsyhi.kbappdock
 Version: 1.5
@@ -2365,15 +2365,15 @@ Architecture: iphoneos-arm64
 Maintainer: Dcsyhi
 Depends: mobilesubstrate
 Filename: debs/jp.dcsyhi.kbappdock_1.5_iphoneos-arm64.deb
-Size: 883564
-MD5sum: 83fb91c5f1285db831d29c5e7fec05f9
-SHA1: feb072f082d5b793ce728050270953acc880af30
-SHA256: 84d126df1a217dee09743b5fe06a9b52d5d3fb40f74c8bb354721331b3422c64
+Size: 883576
+MD5sum: 7e93f78b1cbdaedd905fee1148bf358c
+SHA1: 9a56c03103a626b94584428cedac32b55b90d423
+SHA256: c2dcdde214117517c8b79bb0ceaed9a3aceeba94536fc8e3430108addec17c46
 Section: Tweaks
 Description: You can arrange apps on the dock of keyboard ⌨️.在键盘底部添加快捷按钮或者App⌨️.
 Author: Dcsyhi
 Icon: https://dcsyhi1998.github.io/icons/kbappdock/icon@2x.png
-Name: KBApp
+Name: KBApp(Rootless)
 
 Package: xc.lzsxcl.o2pro
 Version: 17.8
