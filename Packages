@@ -1743,6 +1743,21 @@ Author: Mika
 Name: 歌词悬浮窗SE
 Sponsor: Mika
 
+Package: com.mtac.lynxtwo.rootless
+Version: 2.5.3
+Architecture: iphoneos-arm64
+Maintainer: Lynx <xuanhua880@gmail.com>
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: debs/com.mtac.lynxtwo.rootless_2.5.3_iphoneos-arm64.deb
+Size: 977934
+MD5sum: 6dea9ba7324cd481ada703b18f0dd310
+SHA1: aa3f9c8dafbadd6ea7a2c7beb97e4cdfc60b0b9d
+SHA256: 669865c143b0d1f3710befb076b3cec085219b4d339946b5333d52309050bbb8
+Section: Tweaks
+Description: Lynx 2 - 适用于 iOS 14、15 和 16 的终极设备定制功能。
+Author: MTAC <xuanhua880@gmail.com>
+Name: Lynx 2(Rootless)
+
 Package: com.netskao.actionbarreborn.rootless
 Version: 1.1-2
 Architecture: iphoneos-arm64
