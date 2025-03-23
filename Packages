@@ -1024,6 +1024,42 @@ Author: Sandy0
 Name: iOS 6 锁屏音效
 Sponsor: Sandy0
 
+Package: com.huayuarc.iosthermal.roothide
+Version: 3.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.iosthermal.roothide_3.0.0_iphoneos-arm64e.deb
+Size: 1648
+MD5sum: 60d434104cbf3fc949e087b615d9e74f
+SHA1: ab078976d3d4341acff95300048565655a82ba10
+SHA256: 41b2a7ea7a9d2f87a0db5ec881b217a839020114d6678028c1283722a40beb15
+Section: Tweaks
+Description: 空包插件=无效果(且娱乐效果)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(RootHide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
+Package: com.huayuarc.iosthermal.rootless
+Version: 3.0.0
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.iosthermal.rootless_3.0.0_iphoneos-arm64.deb
+Size: 1930
+MD5sum: dc2409484621342144e974592716f7fd
+SHA1: c1c8e3a737a5c6b746883e81754f47b98a8fb901
+SHA256: dec7fad3b652c33c6bf45ea92176bca57adf0d2965c1fdb608d88a51e36751b3
+Section: Tweaks
+Description: 空包插件=无效果(且娱乐效果)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(Roitless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
