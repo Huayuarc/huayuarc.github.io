@@ -926,23 +926,6 @@ Author: Zerui Chen
 Name: Frame(ios13)
 Sponsor: Zerui Chen
 
-Package: com.huayuarc.frame.ios13
-Version: 3.0.1
-Architecture: iphoneos-arm
-Maintainer: Zerui Chen
-Depends: mobilesubstrate,firmware (>= 12.9.9),firmware (<= 13.7.9)
-Conflicts: com.huayuarc.frame.rootless,com.huayuarc.frame.ios14
-Filename: debs/com.huayuarc.frame.ios13_3.0.1_iphoneos-arm.deb
-Size: 2533598
-MD5sum: 6ae60a5fce7fff8e91e40dd8b875be36
-SHA1: 5b2d4ea4ef9094049bb07c14e610241636007a39
-SHA256: e0f4136ba6e3daf29bab73e20e0a595ce329feb7f151575be58ffb6cb4eff8f7
-Section: Tweaks
-Description: 为你的 iPhone 带来栩栩如生的真实视频壁纸。设置选项在桌面有生成Frame 图标进行设置生效。
-Author: Zerui Chen
-Name: Frame(ios14)
-Sponsor: Zerui Chen
-
 Package: com.huayuarc.frame.rootless
 Version: 3.0.1
 Architecture: iphoneos-arm64
@@ -1155,24 +1138,6 @@ Size: 1824
 MD5sum: 86a365df0beb357126d49839f0f8813b
 SHA1: 1b5035c89597b06fbae205bb5803b9b6ca2bcf23
 SHA256: 777fa43ebc9ec0ac049529a2bee97803964298c2d125624539cf46d7e5c55211
-Section: Tweaks
-Description: iPhone13Pro空包插件=无效果(且娱乐效果)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: IOSThermal(Roitless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-
-Package: com.huayuarc.iosthermal.rootless
-Version: 3.0.0
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal.rootless_3.0.0_iphoneos-arm64.deb
-Size: 2612
-MD5sum: 7f8e3bda54a2c76162432852321810b4
-SHA1: 10037a53022db1190302115b1eb773ca0f9e1bb7
-SHA256: b9b97784a3697a519170b49f0b217cb3892b5337bf5f975a71d0dfc8e9c5dda5
 Section: Tweaks
 Description: iPhone13Pro空包插件=无效果(且娱乐效果)
 Author: Huayuarc
@@ -1739,6 +1704,24 @@ Section: Tweaks
 Description: 临时绕过人脸，绕过密码解锁。
 Author: lenglengyu
 Name: PassByCC(Roothide)
+
+Package: com.lenglengyu.passbycc-rootless
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 832
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Filename: debs/com.lenglengyu.passbycc-rootless_1.0.6.deb
+Size: 171492
+MD5sum: 01eefe8a1dc6ff0d5da7a06d74e30d14
+SHA1: cb32133861cad70eea3558625db3aed0d2c9c552
+SHA256: 328043765eb1652c4a8572fb56f8b3fa6b03dec82cff60e91a8c92fc95ea3b9a
+Section: Control Center (Modules)
+Description: 临时绕过人脸，绕过密码解锁。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/passbycc.html
+Name: PassByCC-Rootless
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/passbyccsileo
 
 Package: com.llld.flex3Beta63
 Version: 1:3~Beta63
@@ -2394,21 +2377,6 @@ Author: Ivano Bilenchi <xuanhua880@gmail.com>
 Name: iCleaner Pro(Rootless)
 
 Package: jp.dcsyhi.dashapp
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Dcsyhi
-Depends: mobilesubstrate,preferenceloader
-Filename: debs/jp.dcsyhi.dashapp_1.0_iphoneos-arm64.deb
-Size: 921348
-MD5sum: 3674f1303b6ab53ef4aabd58a50279ac
-SHA1: 95fb31596f4bc70e6d3366108fea481cb9142e25
-SHA256: 457f67b81666c59258f357ec07c4286c0664eff459eee9f5a2eeaa640d728c89
-Section: Tweaks
-Description: DashApp😎Change the lock screen camera to your favorite app.⚡️DashApp😎将锁屏相机更改为您最喜欢的应用程序。⚡️
-Author: Dcsyhi
-Name: DashApp (Rootless)
-
-Package: jp.dcsyhi.dashapp
 Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: Dcsyhi
@@ -2422,38 +2390,6 @@ Section: Tweaks
 Description: DashApp😎Change the lock screen camera to your favorite app.⚡️DashApp😎将锁屏相机更改为您最喜欢的应用程序。⚡️
 Author: Dcsyhi
 Name: DashApp (Rootless)
-
-Package: jp.dcsyhi.kbappdock
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: Dcsyhi
-Depends: mobilesubstrate
-Filename: debs/jp.dcsyhi.kbappdock_1.3_iphoneos-arm64.deb
-Size: 857814
-MD5sum: 74e4d12bbe40d046b44bc8b862feed58
-SHA1: 8c86333ab7951ad25760d27f7bc14db5f2556080
-SHA256: 06501fd43c4bccc431447e021835ff1f6d6d7fdb0ad199571db22586d3d16d1e
-Section: Tweaks
-Description: You can arrange apps on the dock of keyboard ⌨️.在键盘底部添加快捷按钮或者App⌨️.
-Author: Dcsyhi
-Icon: https://dcsyhi1998.github.io/icons/kbappdock/icon@2x.png
-Name: KBApp(Rootless)
-
-Package: jp.dcsyhi.kbappdock
-Version: 1.4
-Architecture: iphoneos-arm64
-Maintainer: Dcsyhi
-Depends: mobilesubstrate
-Filename: debs/jp.dcsyhi.kbappdock_1.4_iphoneos-arm64.deb
-Size: 866430
-MD5sum: 0193828b83c080a8fc2a9dab80b0d4d5
-SHA1: 98dc556109eb8e96099ed989ac10195c9cf464c5
-SHA256: b337319098f04db686e977b3a4149a7f5d91071fce63c84b4489f14037b18f16
-Section: Tweaks
-Description: You can arrange apps on the dock of keyboard ⌨️.在键盘底部添加快捷按钮或者App⌨️.
-Author: Dcsyhi
-Icon: https://dcsyhi1998.github.io/icons/kbappdock/icon@2x.png
-Name: KBApp(Rootless)
 
 Package: jp.dcsyhi.kbappdock
 Version: 1.5
