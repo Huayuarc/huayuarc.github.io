@@ -140,6 +140,26 @@ Description: 原名motherwc，作用：点击wx文本，语音播报信息,应�
 Author: sunweiliang
 Name: Wx文本语音播报(Rootless)
 
+Package: codeo.aurora.kayoko.rootless
+Version: 2.7
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: codes.aurora.kayoko, com.dao.kayoko, byg.iosios.net.kayoko, xyz.cypwn.kayoko, codes.aurora.kayokos
+Filename: debs/codeo.aurora.kayoko.rootless_2.7_iphoneos-arm64.deb
+Size: 218446
+MD5sum: 1b56281a443edf329b8d478a87f2f733
+SHA1: a82053c6c3e09f25a5aabfd8a7b243a42376b680
+SHA256: a612fb271e445d8f08e699f9273bde5ec3f5e0d703255000c35894226627fb7d
+Section: 乌龙工作室
+Description: iOS 剪切板越狱插件
+ * Clipboard manager for iOS.
+ * 由「乌龙工作室」修复支持 iOS 16
+Author: Alexandra Aurora Göttlicher
+Icon: https://huayuarc.github.io/images/Kayoko.png
+Name: Kayoko(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/Kayoko/Kayoko.json
+
 Package: com.25mao.leftpan.roothide
 Version: 1.0-6
 Architecture: iphoneos-arm64e
