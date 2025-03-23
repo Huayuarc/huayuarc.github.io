@@ -2246,6 +2246,84 @@ Author: zxc
 Name: Checkproxybypass(Roothide)
 Sponsor: zxc
 
+Package: jp.dcsyhi.dashapp
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Dcsyhi
+Depends: mobilesubstrate,preferenceloader
+Filename: debs/jp.dcsyhi.dashapp_1.0_iphoneos-arm64.deb
+Size: 921348
+MD5sum: 3674f1303b6ab53ef4aabd58a50279ac
+SHA1: 95fb31596f4bc70e6d3366108fea481cb9142e25
+SHA256: 457f67b81666c59258f357ec07c4286c0664eff459eee9f5a2eeaa640d728c89
+Section: Tweaks
+Description: DashApp😎Change the lock screen camera to your favorite app.⚡️DashApp😎将锁屏相机更改为您最喜欢的应用程序。⚡️
+Author: Dcsyhi
+Name: DashApp (Rootless)
+
+Package: jp.dcsyhi.dashapp
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Dcsyhi
+Depends: mobilesubstrate,preferenceloader
+Filename: debs/jp.dcsyhi.dashapp_1.1_iphoneos-arm64.deb
+Size: 921538
+MD5sum: 52037037c6ccb403ebb561a76641695a
+SHA1: 3900a2e451a6a68f81a8f74f8d027f73dda2bbf8
+SHA256: 59a7215c85100051cbc0df5be47efc107c0dea186b8b354ead13bcab0411e310
+Section: Tweaks
+Description: DashApp😎Change the lock screen camera to your favorite app.⚡️DashApp😎将锁屏相机更改为您最喜欢的应用程序。⚡️
+Author: Dcsyhi
+Name: DashApp (Rootless)
+
+Package: jp.dcsyhi.kbappdock
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: Dcsyhi
+Depends: mobilesubstrate
+Filename: debs/jp.dcsyhi.kbappdock_1.3_iphoneos-arm64.deb
+Size: 857808
+MD5sum: b6d8122aa6f880f3b5cdd80b5bdea941
+SHA1: fc81a17df983ba796f239bfaac67185a4d07ed3e
+SHA256: f599da2b25aba20345d13069af20c07b43a45c41c84ad4d0be7c38ad41f324e5
+Section: Tweaks
+Description: You can arrange apps on the dock of keyboard ⌨️.在键盘底部添加快捷按钮或者App⌨️.
+Author: Dcsyhi
+Icon: https://dcsyhi1998.github.io/icons/kbappdock/icon@2x.png
+Name: KBApp
+
+Package: jp.dcsyhi.kbappdock
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Dcsyhi
+Depends: mobilesubstrate
+Filename: debs/jp.dcsyhi.kbappdock_1.4_iphoneos-arm64.deb
+Size: 866422
+MD5sum: d9ff23d94e511026b749eea8ce157b79
+SHA1: 189b2428ebbb026b87763d9e5141e7a1a102c6c8
+SHA256: fb86bb8aa8ec1a33bf9a7838822cbb702774d3187d46270e0640faf99f34ecaa
+Section: Tweaks
+Description: You can arrange apps on the dock of keyboard ⌨️.在键盘底部添加快捷按钮或者App⌨️.
+Author: Dcsyhi
+Icon: https://dcsyhi1998.github.io/icons/kbappdock/icon@2x.png
+Name: KBApp
+
+Package: jp.dcsyhi.kbappdock
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: Dcsyhi
+Depends: mobilesubstrate
+Filename: debs/jp.dcsyhi.kbappdock_1.5_iphoneos-arm64.deb
+Size: 883564
+MD5sum: 83fb91c5f1285db831d29c5e7fec05f9
+SHA1: feb072f082d5b793ce728050270953acc880af30
+SHA256: 84d126df1a217dee09743b5fe06a9b52d5d3fb40f74c8bb354721331b3422c64
+Section: Tweaks
+Description: You can arrange apps on the dock of keyboard ⌨️.在键盘底部添加快捷按钮或者App⌨️.
+Author: Dcsyhi
+Icon: https://dcsyhi1998.github.io/icons/kbappdock/icon@2x.png
+Name: KBApp
+
 Package: xc.lzsxcl.o2pro
 Version: 17.8
 Architecture: iphoneos-arm
