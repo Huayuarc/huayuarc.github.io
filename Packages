@@ -246,6 +246,87 @@ Description: 控制中心模块五列显示* Control Center module five-column l
 Author: Lessica
 Name: Oh My Insets(Roothide)
 
+Package: com.Doki.wxkeyboarduihook
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: Doki
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/com.Doki.wxkeyboarduihook_1.6_iphoneos-arm64.deb
+Size: 89978
+MD5sum: 25a2f1690ab656d3aa2879b4fa0e2fbd
+SHA1: 807c1f3f1a973ddf8d0ebc86e7b88fa6405d5045
+SHA256: f0bd88b6927e7752ff86818689e0c0eede468a6cf6aeed5d7145989d614aac07
+Section: Tweaks
+Description: 微信键盘自定义
+Author: Doki
+Name: 微信键盘自定义(Rootless)
+
+Package: com.HBWechatHelper.ailun
+Version: 1.8.0
+Architecture: iphoneos-arm
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: debs/com.HBWechatHelper.ailun_1.8.0_iphoneos-arm.deb
+Size: 16115352
+MD5sum: a6d0c100d9b7dcae2867f87789850d0b
+SHA1: b76bf384c0e44eeba63b78a0887e183584655d74
+SHA256: 4cdda4d5d029792c3d8997547e6eb594b712a29963a852030c449e41cd2a8e3c
+Section: Mao
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)
+
+Package: com.HBWechatHelper.ailun
+Version: 1.8.0
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: debs/com.HBWechatHelper.ailun_1.8.0_iphoneos-arm64.deb
+Size: 15901610
+MD5sum: cae86cd7d6f60f598cd588e42152ca1e
+SHA1: 0a022ed74f13b434534f3770ddcea7c9b4081ee4
+SHA256: 29e5ad4ef18892bc2b52db3722656e91ee0cb84ddea0aa5796592851eadfaa39
+Section: Mao
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(Rootless)
+
+Package: com.abox.puredouban
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: SWING
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.abox.puredouban_1.1.1_iphoneos-arm.deb
+Size: 25752
+MD5sum: e7503102202393248ea4c2a12fc112a0
+SHA1: 5eb01236fe749b365faf29b30479cf5196b1cb04
+SHA256: e5f93e3dbb87759ccb0305eae72256ac6f317fcc56e8bff4693a08f8ec8bc28e
+Section: Tweaks
+Description: 去广告，无水印保存图片
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.abox.puredouban
+Icon: https://repo.abox.plus/api/packageinfo/com.abox.puredouban/icon.png
+Name: 豆瓣净化
+Sileodepiction: https://repo.abox.plus/depictions/native/com.abox.puredouban.json
+
+Package: com.abox.puredouban
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.abox.puredouban_1.1.1_iphoneos-arm64.deb
+Size: 26220
+MD5sum: d53fff5f76e9767e1ea6e2caac2322cb
+SHA1: e976f8145c494395913697c36378786bf52e36d3
+SHA256: 3bb57b6e3297d8ec77043f4e1e32710fa6ace7f96c3ece9b54c7e07ae6a8e7f3
+Section: Tweaks
+Description: 去广告，无水印保存图片
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.abox.puredouban
+Icon: https://repo.abox.plus/api/packageinfo/com.abox.puredouban/icon.png
+Name: 豆瓣净化(Rootless)
+Sileodepiction: https://repo.abox.plus/depictions/native/com.abox.puredouban.json
+
 Package: com.arwayaw.mynoads
 Version: 0.0.1.1+debug
 Architecture: iphoneos-arm
@@ -393,6 +474,42 @@ Description: SugarCane 是一款给控制中心亮度和音量添加百分比显
 Author: iOS Creatix, kasiimh1, p2kdev
 Name: SugarCane(Roothide)
 Sponsor: Creatix
+
+Package: com.curtin.pkc
+Version: 0.7-0
+Architecture: iphoneos-arm
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: debs/com.curtin.pkc_0.7-0_iphoneos-arm.deb
+Size: 1130258
+MD5sum: 05356bd1d255e83f3a0cf5a04bee8836
+SHA1: 133cbe7c31d3ca6b81112d89a1add50c8c8f16e3
+SHA256: a7489b15e1e977b5bde4aead1f6d1bf45f21619c3c262c7cf1333038a77e69c2
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC
+
+Package: com.curtin.pkc.rootless
+Version: 0.7-0
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: debs/com.curtin.pkc.rootless_0.7-0_iphoneos-arm64.deb
+Size: 1130286
+MD5sum: c2446bfc00011396b1eebd4306545848
+SHA1: c8b1461f2407fc45bd5f16fae99de46695ab915f
+SHA256: 67e598308f117d5a7f71fd49631f22c84749ffceec663dd12c5f394065ff4216
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC(Rootless)
 
 Package: com.cydiageek.morelinesnotifications.roothide
 Version: 1.0.4-1
@@ -2255,6 +2372,36 @@ Author: P2KDev
 Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.reverseisland/icon.png
 Name: ReverseIsland(Roothide)
 
+Package: com.pingfan.wechat
+Version: 2.1-9
+Architecture: iphoneos-arm
+Maintainer: 平凡
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.pingfan.wechat_2.1-9_iphoneos-arm.deb
+Size: 2399732
+MD5sum: b31f856ca28b73182538fd1560412d27
+SHA1: a0eb1b1f184749e91e996ad59ad3b1e4c14355a5
+SHA256: 974756c3039dc190dc1dbd62ee0f441cf520645027560b3da2a3de98091eb76d
+Section: Tweaks
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
+Author: 平凡
+Name: 虚拟视频
+
+Package: com.pingfan.wechat
+Version: 2.1-9
+Architecture: iphoneos-arm64
+Maintainer: 平凡
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.pingfan.wechat_2.1-9_iphoneos-arm64.deb
+Size: 2454218
+MD5sum: 20c4a694e9ff0f74771d64d11fe81db8
+SHA1: e62bcf06a646bd63fc7b2bc41bd571aa534158af
+SHA256: 813548c36f87ac102ca02c6d2cc1c2c8bb569a032e30694217f2944edc626cb5
+Section: Tweaks
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,新增多端登录设备隐藏等。
+Author: 平凡
+Name: 虚拟视频(Rootless)
+
 Package: com.ps.amber
 Version: 1.2.0
 Architecture: iphoneos-arm
@@ -2288,6 +2435,37 @@ Description: Amber-ify your flashlight LEDs. Amber 插件让你可以选择使�
 Author: PoomSmart
 Name: Amber(Rootless)
 Sponsor: PoomSmart
+
+Package: com.pxx917144686.surge
+Version: 0.6
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/com.pxx917144686.surge_0.6_iphoneos-arm64e.deb
+Size: 566964
+MD5sum: 60fc408c1e97738aa685d0834ae7c0c7
+SHA1: 93cfa4d2d3daa9475f5bcdc6fd141e75fcd1cd45
+SHA256: ac0598453e2591c1592334d6efc3c32f9376974e08bce6291f04e915ffbf3e87
+Section: Tweaks
+Description: 修复 “已知问题”
+Author: pxx917144686
+Name: Surge++(Roothide)
+
+Package: com.pxx917144686.surge
+Version: 0.6
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/com.pxx917144686.surge_0.6_iphoneos-arm64.deb
+Size: 285478
+MD5sum: 02f07f669116597a77dc4185ac850b78
+SHA1: da62305eb1c4e048fe7a39cd3b2403f91c260b6a
+SHA256: 637091fd3f88721d0f00a2d1f80881426964e12d5871cfdb6098dce55fd51b73
+Section: Tweaks
+Description: 修复 “已知问题”
+Author: pxx917144686
+Name: Surge++(Rootless)
 
 Package: com.sopppra.settingsrevamp.roothide
 Version: 2.1.1
@@ -2344,6 +2522,136 @@ Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
 Name: ReachPlayer(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ReachPlayer/ReachPlayer.json
 
+Package: com.swing.ddmcnoads
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.swing.ddmcnoads_0.0.2_iphoneos-arm64.deb
+Size: 7116
+MD5sum: 07c5a08f7536e86fed78fa033ad8aa38
+SHA1: 94efd5f2f4f30c7f244420a10bfb87fbca0b5f39
+SHA256: a37af7dddd22632760945d0ad7df25fb284344d86df2ea745a71947864294051
+Section: Tweaks
+Description: 叮咚买菜去广告!
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.ddmcnoads
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.ddmcnoads/icon.png
+Name: 叮咚买菜NoAds(Rootless)
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.ddmcnoads.json
+
+Package: com.swing.eleme
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.swing.eleme_1.0.3_iphoneos-arm64.deb
+Size: 20368
+MD5sum: 20cb183ee610cd60cf98c765cd98559b
+SHA1: f9a132bc1e060a7989f18908ce4fa63f47b24653
+SHA256: 895532bc7737b2fa3753809f7c17d8cfc8022087adcf727da78e0c6c3792517f
+Section: Tweaks
+Description: 饿了么去广告，新增精简全能超市和购物车推荐。源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.eleme
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.eleme/icon.png
+Name: 饿了么去广告(Rootless)
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.eleme.json
+
+Package: com.swing.eleme
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: SWING
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.swing.eleme_1.0.3_iphoneos-arm.deb
+Size: 20194
+MD5sum: f2cfd02aa11805b33e4da0ce4a4177e4
+SHA1: c09232b67c379404bb1aa20704a02f1aec40308f
+SHA256: 0b1bd206e302bc3d1b4f76a0d566475233a03f8f56e829b8c10839caae23de26
+Section: Tweaks
+Description: 饿了么去广告，新增精简全能超市和购物车推荐。源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.eleme
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.eleme/icon.png
+Name: 饿了么去广告
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.eleme.json
+
+Package: com.swing.padswitcher
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 368
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: debs/com.swing.padswitcher_1.1.0_iphoneos-arm64.deb
+Size: 38692
+MD5sum: b944e30a8106241fbc6b654f001c07e1
+SHA1: 7922aa01bd4cd2a0a54d3836c177c5b6db3ede31
+SHA256: 73e2b720e36b90108ce044ef592acb1cb0f828f4710f28f6996a82bb0f30b444
+Section: Tweaks
+Description: 在iPhone上启用iPad风格的多任务界面和Dock栏。
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.padswitcher
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.padswitcher/icon.png
+Name: PadSwitcher(Rootless)
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.padswitcher.json
+
+Package: com.swing.padswitcher
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: SWING
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: debs/com.swing.padswitcher_1.1.0_iphoneos-arm.deb
+Size: 38368
+MD5sum: c077dc860796d96ecd705d14fe80fc90
+SHA1: 9f85a3030f9fac0614763ec62365a3fd8ca7b129
+SHA256: a266dbc3e5bddbeb27c38e2dc4b190052150b4429e4ae6cfa773d194aaf9cd08
+Section: Tweaks
+Description: 在iPhone上启用iPad风格的多任务界面和Dock栏。
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.padswitcher
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.padswitcher/icon.png
+Name: PadSwitcher
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.padswitcher.json
+
+Package: com.swing.zhihu
+Version: 1.1.3-3
+Architecture: iphoneos-arm
+Maintainer: SWING
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.swing.zhihu_1.1.3-3_iphoneos-arm.deb
+Size: 5048
+MD5sum: 2ba3207b4f1fcb730b8fe24904162a7b
+SHA1: 70d4b7ce0d5108a3db462894cb65d58cfce740ed
+SHA256: 745be72c74559f64d732e3d51918023c2a3d84cf0d0030f9bbd50055eaefd0ee
+Section: Tweaks
+Description: 知乎去广告插件
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.zhihu
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.zhihu/icon.png
+Name: 知乎去广告
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.zhihu.json
+
+Package: com.swing.zhihu
+Version: 1.1.3-3
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.swing.zhihu_1.1.3-3_iphoneos-arm64.deb
+Size: 5288
+MD5sum: c2d6100818d0bd44178ea877472c66bc
+SHA1: c340b1dd0802cfd9a9b6a0fb8f1da998bf44d0a2
+SHA256: eeea89aa7d20a3b9252c13fc3c87585f89a4bfab8a2dea9b9b4ddb3a0302f7ea
+Section: Tweaks
+Description: 知乎去广告插件
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.zhihu
+Icon: https://repo.abox.plus/api/packageinfo/com.swing.zhihu/icon.png
+Name: 知乎去广告(Rootless)
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.zhihu.json
+
 Package: com.thetimeloop.jade.rootless
 Version: 1.0.3
 Architecture: iphoneos-arm64
@@ -2358,6 +2666,216 @@ Section: Tweaks
 Description: Jade 是一款控制中心美化类型的插件
 Author: Nightwind and thetimeloop <xuanhua880@gmail.com>
 Name: Jade(Rootless)
+
+Package: com.xx.bbbsblhhook
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.bbbsblhhook_1.0.0_iphoneos-arm64.deb
+Size: 105568
+MD5sum: 95b29fa99dd037827a77a613e16583c3
+SHA1: 6d65c1f5335b49ed87079921d1d4d6bbb95af266
+SHA256: 7db2e140b8403ac8a2440a2bf027bdabe5a67f337caab4bdafa8999e657e3a58
+Section: Tweaks
+Description: 宝宝巴士 · 宝宝巴士儿歌 · 贝乐虎儿歌 解锁Svip
+Author: x✨
+Name: 宝宝巴士(Rootless)
+
+Package: com.xx.bbbsblhhook
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.bbbsblhhook_1.0.0_iphoneos-arm.deb
+Size: 107550
+MD5sum: f5a82f786186eef4a9eb0331fbbad67b
+SHA1: aa36d14e414571a8f68d5c9295399970e5244888
+SHA256: 003010012be12b78438063ef5d48ffe01b32371cbc8a642da0b816981a80096d
+Section: Tweaks
+Description: 宝宝巴士 · 宝宝巴士儿歌 · 贝乐虎儿歌 解锁Svip
+Author: x✨
+Name: 宝宝巴士
+
+Package: com.xx.gasstation
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.gasstation_1.0.0_iphoneos-arm.deb
+Size: 441222
+MD5sum: 02c545d3a5a029002c6503ac6207a718
+SHA1: 9412c3f1a118a73c73ad49efeda4336b65cbb116
+SHA256: 39317251b0728e71edc77747742a9719623155b63f96a5741b0fdc92f08df460
+Section: Tweaks
+Description: 货币修改 移除广告 游戏变速 支持非越狱 支持后续版本更新
+Author: x✨
+Name: 做个大生意(Game)
+
+Package: com.xx.gasstation
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.gasstation_1.0.0_iphoneos-arm64.deb
+Size: 447024
+MD5sum: b872b8eee848f5642d919ebdf6c6e9c8
+SHA1: 7eecd22215d3401e75d5f35c21c4c62812fc9447
+SHA256: 03fb2f14b94b2461ef221f561323941ec80776fcd4cbd3e71cfa02c55582b59c
+Section: Tweaks
+Description: 货币修改 移除广告 游戏变速 支持非越狱 支持后续版本更新
+Author: x✨
+Name: 做个大生意(Rootless)
+
+Package: com.xx.qmxshook
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.qmxshook_1.0.3_iphoneos-arm64.deb
+Size: 148094
+MD5sum: e00a68c3adc0ce5cf4c4fbbef8b266b4
+SHA1: f3d94803d9a1db6b7785bdf536e8449c1b85063f
+SHA256: ab6a0d70fdc45e4da2fb4364fb26a8512df9248211df6b6374e4288cbcaf222a
+Section: Tweaks
+Description: 开通免广告权益 仅支持7.63.10版本
+Author: x✨
+Name: 七猫小说 Hook(Rootless)
+
+Package: com.xx.qmxshook
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.qmxshook_1.0.3_iphoneos-arm.deb
+Size: 147464
+MD5sum: 8087f661b53d20ced010f72b89b39d92
+SHA1: f297328b5e3ebc3783d54ae5b1446cea0cb9b39e
+SHA256: 976f1ea4092b13be15f3b031a3c9dfea22990d906ef3e957a8275d4ed8a1cb3d
+Section: Tweaks
+Description: 开通免广告权益 仅支持7.63.10版本
+Author: x✨
+Name: 七猫小说Hook
+
+Package: com.xx.qqhook
+Version: 1.1.3-1
+Architecture: iphoneos-arm
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.qqhook_1.1.3-1_iphoneos-arm.deb
+Size: 785458
+MD5sum: 37e3e7cfc77664e7baa3527b948dd863
+SHA1: 7ad91ec580aff29cc7c5eeebb5c5931a351a46e8
+SHA256: 4d766d8560d4cdd582fea4d03f16c414b959d4c18e6151ef0a57088fa8cba395
+Section: Tweaks
+Description: QQ·TIM设置-辅助功能-右上角开启(或新设置界面) 支持QQ9.0.20+ TIM4.0.95+
+Author: x✨
+Name: QQ·TIM 新版防撤回
+
+Package: com.xx.qqhook
+Version: 1.1.3-1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.qqhook_1.1.3-1_iphoneos-arm64.deb
+Size: 783526
+MD5sum: cf740d8882acbc6f611249eed02b95d9
+SHA1: b94da7b78c2bef3ef11f9d6080c6e0e811ac3319
+SHA256: b7d5c542e2c68000220d91fff29f161d0dae266bf6cc62e9e81db1194c3bb49d
+Section: Tweaks
+Description: QQ·TIM设置-辅助功能-右上角开启(或新设置界面) 支持QQ9.0.20+ TIM4.0.95+
+Author: x✨
+Name: QQ·TIM 新版防撤回(Rootless)
+
+Package: com.xx.soulatch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.soulatch_1.0.0_iphoneos-arm.deb
+Size: 32866
+MD5sum: 810c77f3bd24317edd8f8f7fc31b360b
+SHA1: 15e6c566709cad04ec886c9f292ef5199982593f
+SHA256: 3f5bcda676b41db7d6d56aefb0b29c31fe62e6ed8f3bda95c31a0493bca58019
+Section: Tweaks
+Description: 无需送礼私聊 下载图片视频无水印(无法下载的开启强制下载) 防撤回 移除一些广告
+Author: x✨
+Name: SOULPatch
+
+Package: com.xx.soulatch
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.soulatch_1.0.0_iphoneos-arm64.deb
+Size: 27174
+MD5sum: 1d7a06415a6925cce6b397df033a49f1
+SHA1: 40ec0d62d81507145495f2988685b026e91329ed
+SHA256: 9a50cc4aaf83594149416eab37e8fb4b1cf26e6b7802434a6f5750f4a78ae95c
+Section: Tweaks
+Description: 无需送礼私聊 下载图片视频无水印(无法下载的开启强制下载) 防撤回 移除一些广告
+Author: x✨
+Name: SOULPatch(Rootless)
+
+Package: com.xx.wsyhnojb
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.wsyhnojb_1.0.0_iphoneos-arm.deb
+Size: 167924
+MD5sum: 1887033a49cffdfaabd53ce73ee2e4cc
+SHA1: 90e8b5342a70ce687c09291c9915d209babffc63
+SHA256: a25ee3fc4bec8a7f937a041af8e6f586a37e93912aba9a25f72e8e94ae647885
+Section: Tweaks
+Description: 网商银行NoJbCheck 仅支持4.6.4
+Author: x✨
+Name: 网商银行 NoJbCheck
+
+Package: com.xx.wsyhnojb
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.wsyhnojb_1.0.0_iphoneos-arm64.deb
+Size: 168146
+MD5sum: 33e600ca41b7ca96cf67accc7056ac4b
+SHA1: d5baa902b16a51f8fce56753a59c7bf41b525fc0
+SHA256: 955da6efcc0e90c265503e3b71e92644bdf5654814301705a71c0e7575f85030
+Section: Tweaks
+Description: 网商银行NoJbCheck 仅支持4.6.4
+Author: x✨
+Name: 网商银行(Rootless)
+
+Package: com.xx.ysbrowserhook
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.ysbrowserhook_1.0.2_iphoneos-arm.deb
+Size: 26798
+MD5sum: 05237b528942a29d02d45bf07dad7dd5
+SHA1: 395d9da696576ee4c5bd9b6b4759e4db6882cdbd
+SHA256: 95095ea2a0702f0b69d9d0d3f27964627bfd384b761231013c9f06106a733773
+Section: Tweaks
+Description: 解锁Pro 屏蔽越狱·黑名单检测
+Author: x✨
+Name: 亚瑟浏览器Pro
+
+Package: com.xx.ysbrowserhook
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.ysbrowserhook_1.0.2_iphoneos-arm64.deb
+Size: 26942
+MD5sum: 000654adc19aa32924da9babbe6ca417
+SHA1: 1880bea4fd1f92c0bcbf884cd2244e39e8adcbef
+SHA256: f8aded321a7d9b32da0e08a791f86eed0fe4ffcfee4327eadb11f7dacfe37680
+Section: Tweaks
+Description: 解锁Pro 屏蔽越狱·黑名单检测
+Author: x✨
+Name: 亚瑟浏览器 Pro(Rootless)
 
 Package: com.zxc.checkproxybypass.roothide
 Version: 0.1.1-2
