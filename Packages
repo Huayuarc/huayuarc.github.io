@@ -183,10 +183,10 @@ Maintainer: Lessica <82flex@gmail.com>
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
 Conflicts: codes.aurora.kayoko, com.dao.kayoko, byg.iosios.net.kayoko, xyz.cypwn.kayoko, codes.aurora.kayokos
 Filename: debs/codeo.aurora.kayoko.rootless_2.7_iphoneos-arm64.deb
-Size: 218450
-MD5sum: b1c443c215e92b82ed3836b1e900b9a2
-SHA1: cc93a38b9c22567ff2682b09e3cf03c00a6495fa
-SHA256: 052519c708cfc629c8ba8936b7f290281de1f3ef4285fef21768cd88a1fc3e6c
+Size: 218452
+MD5sum: 301ae3adebc1bfbf02c301b34c2f669f
+SHA1: 3f533aed53830bdd39e58ab45c431466e45d78d4
+SHA256: 93f6a79e499d16abe4a94e6362ebdcfde63b603bc92a19f7e1580912b70c2fd9
 Section: Tweaks
 Description: iOS 剪切板越狱插件
  * Clipboard manager for iOS.
@@ -426,6 +426,22 @@ Description: Adds Touch ID authentication to apps, just like the security featur
 Author: MrDeNsor
 Name: LockTouchX(Roothide)
 
+Package: com.derekfun.mihomenoads
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: derekfun
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.derekfun.mihomenoads_0.0.1_iphoneos-arm.deb
+Size: 6264
+MD5sum: 15a0fd598f0773c0c9e0eb936e732f67
+SHA1: e6d970b67659d2b60841d0c1118fccc5050d3b76
+SHA256: 99654b18f2e2d2a4f79f1835eefaca49e0cbb292c00a5f702a9e6a033cd6f509
+Section: Tweaks
+Description: 米家去广告
+Author: derekfun
+Name: MiHome NoAds
+
 Package: com.derekfun.mihomenoads.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -440,6 +456,22 @@ Section: Tweaks
 Description: 米家去广告
 Author: derekfun
 Name: MiHome NoAds(Roothide)
+
+Package: com.derekfun.mihomenoads.rootless
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: derekfun
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.derekfun.mihomenoads.rootless_0.0.1_iphoneos-arm64.deb
+Size: 6418
+MD5sum: eeec9840c5a0e8bf4f415ca47479949d
+SHA1: 4ce0216f87abad71b5fbf2e4f9a9f378eef6fbfb
+SHA256: 22ff941aa94d79c782482611f151b80410c027acb2421d2db94609ec2ab528ad
+Section: Tweaks
+Description: 米家去广告
+Author: derekfun
+Name: MiHome NoAds(Rootless)
 
 Package: com.doki.wxkeyboarduihook
 Version: 1.6
@@ -745,6 +777,37 @@ Description: 解锁专业版
 Author: Huayuarc
 Name: CPU-X Hooks(Rootless)
 Sponsor: Huayuarc
+
+Package: com.huayuarc.dgyhhook
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.dgyhhook_0.0.1_iphoneos-arm.deb
+Size: 5266
+MD5sum: fb695cb24f8a12ebcdd9c87f46932c32
+SHA1: 9c7fb029619baa7fcdb7e264ea0fac4ff471df4c
+SHA256: 64684a522d7af45e4928889613d61462983f53354ce558fbeb2273a030ea733b
+Section: Tweaks
+Description: 去除启动广告｜屏蔽去除越狱弹窗
+Author: Huayuarc <xuanhua880@gmail.com>
+Name: 东莞银行 Hook
+
+Package: com.huayuarc.dgyhhook.rootless
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.dgyhhook.rootless_0.0.1_iphoneos-arm64.deb
+Size: 5410
+MD5sum: 5b90d972a704e1f465cb4e6007d29c3d
+SHA1: 17feb32549651affce2e4d48accca977822db044
+SHA256: 8477815b40013aefc0652588127daf685f57c5f19d0afc9a11bec49fd4917a1f
+Section: Tweaks
+Description: 去除启动广告｜屏蔽去除越狱弹窗
+Author: Huayuarc
+Name: 东莞银行 Hook(Rootless)
 
 Package: com.huayuarc.dhjj.rootless
 Version: 1.0
@@ -2281,6 +2344,21 @@ Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
 Name: ReachPlayer(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ReachPlayer/ReachPlayer.json
 
+Package: com.thetimeloop.jade.rootless
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Nightwind and thetimeloop <xuanhua880@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.thetimeloop.jade.rootless_1.0.3_iphoneos-arm64.deb
+Size: 431122
+MD5sum: 7abc944705cb6cd280437509dafd750f
+SHA1: 512e7ed3a02a2a0826ce12b6f226f6059e710177
+SHA256: f49d383d08d6a06fcd28491ba3c0a58161d8d39a51b43980e371dc36b7c1dfa2
+Section: Tweaks
+Description: Jade 是一款控制中心美化类型的插件
+Author: Nightwind and thetimeloop <xuanhua880@gmail.com>
+Name: Jade(Rootless)
+
 Package: com.zxc.checkproxybypass.roothide
 Version: 0.1.1-2
 Architecture: iphoneos-arm64e
@@ -2298,6 +2376,22 @@ Description: 去除app抓包检测,安装之后在设置里面开启。
 Author: zxc
 Name: Checkproxybypass(Roothide)
 Sponsor: zxc
+
+Package: icleanerpro.rootless
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: Ivano Bilenchi <xuanhua880@gmail.com>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
+Filename: debs/icleanerpro.rootless_7.10.0_iphoneos-arm64.deb
+Size: 1392798
+MD5sum: cf339f41d9e871d0a6c2dc3e3e724a75
+SHA1: 4730031e7de7c760f8a2c2b2ef4d83dfafd14a71
+SHA256: 1c56ab0780626a89c6a9239de187c8e2c436542c0cd28cc21980d86c379e61ae
+Section: Tweaks
+Description: 破解版iOS系统清理工具，默认简体中文。
+Author: Ivano Bilenchi <xuanhua880@gmail.com>
+Name: iCleaner Pro(Rootless)
 
 Package: jp.dcsyhi.dashapp
 Version: 1.0
