@@ -1416,6 +1416,24 @@ Author: Sandy0
 Name: iOS 6 锁屏音效
 Sponsor: Sandy0
 
+Package: com.huayuarc.iosthermal.roothide
+Version: 3.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.iosthermal.roothide_3.0.1_iphoneos-arm64e.deb
+Size: 1954
+MD5sum: 14fe8dcd199af5a7c90559cc05b27885
+SHA1: f2f1b63f41843e4a8cd5f2aca2196976c6b68ea6
+SHA256: 214a4db02e964bbd35309bd0336a67e97784a213c6822093df09762bc3b44d46
+Section: Tweaks
+Description: iPhone13Pro空包插件=无效果(原功能：温控及内存优化｜自行安装｜测试效果｜无设置｜注销SprongBoard即可生效测试｜无效卸载即可｜调试编译)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(RootHide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
 Package: com.huayuarc.iosthermal.rootless
 Version: 3.0.0
 Architecture: iphoneos-arm64e
@@ -1454,14 +1472,14 @@ Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.
 
 Package: com.huayuarc.iosthermal.rootless
 Version: 3.0.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: Huayuarc
 Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal.rootless_3.0.1_iphoneos-arm64e.deb
-Size: 1948
-MD5sum: e63ef3a5e24a2834780d8b07d86aff18
-SHA1: 8c05e99e2b12c5266deca6afce3d9bd610c492ab
-SHA256: 881080f63aa233cba0ba6a8724a8c2711a7a7db04d072e0e893c76724ffe8ebe
+Filename: debs/com.huayuarc.iosthermal.rootless_3.0.1_iphoneos-arm64.deb
+Size: 2738
+MD5sum: 91949fd1ed0fa76f0a9e105dd3d54821
+SHA1: caac9336d189cc7426d4fda9ef22b81ffb2e2b5d
+SHA256: 67ceb1a35e873f3f929f6e13aebccfaebe86d9fb3fd63190e7ffc76b94c8307d
 Section: Tweaks
 Description: iPhone13Pro空包插件=无效果(原功能：温控及内存优化｜自行安装｜测试效果｜无设置｜注销SprongBoard即可生效测试｜无效卸载即可｜调试编译)
 Author: Huayuarc
