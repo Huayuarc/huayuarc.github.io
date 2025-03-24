@@ -108,42 +108,6 @@ Author: @bswbw
 Name: FixSet(Roothide)
 Sponsor: gblw
 
-Package: cn.huayuarc.iosthermal.roothide
-Version: 3.0.0
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Depends: mobilesubstrate
-Filename: debs/cn.huayuarc.iosthermal.roothide_3.0.0_iphoneos-arm64e.deb
-Size: 1922
-MD5sum: 455676929a8f06e4ec84442f9f57d150
-SHA1: a2f9e0726082466298ca9068ee2567555b261f3c
-SHA256: 38aa89873275a87620172d8608e911d4d118da7b2ab48fcc44fb652871f1a079
-Section: Tweaks
-Description: iPhone14Pro空包插件=无效果(原功能：温控及内存优化｜自行安装｜测试效果｜无效卸载即可｜调试编译)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: IOSThermal(RootHide)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-
-Package: cn.huayuarc.iosthermal.rootless
-Version: 3.0.0
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Depends: mobilesubstrate
-Filename: debs/cn.huayuarc.iosthermal.rootless_3.0.0_iphoneos-arm64.deb
-Size: 2712
-MD5sum: 017461681186f49dd11821ef07cab1e9
-SHA1: 547b3dfa6997ff941146697971cde18f9b1fe76d
-SHA256: fa9b300bd72cb9eb2836dee16a0ed143806da7fdf894992cbfa28004b95ccd7c
-Section: Tweaks
-Description: iPhone14Pro空包插件=无效果(原功能：温控及内存优化｜自行安装｜测试效果｜无效卸载即可｜调试编译)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: IOSThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-
 Package: cn.llld.snapshottool
 Version: 1.4.0-1
 Architecture: iphoneos-arm64e
@@ -778,6 +742,23 @@ Homepage: https://github.com/huami1314/DYYY
 Description: 仅供学习交流，请在 24 小时内自觉删除。
 Author: huami
 Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.1-7
+Architecture: iphoneos-arm64
+Maintainer: huami
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.1-7_iphoneos-arm64.deb
+Size: 199032
+MD5sum: c76d49b70ad67f405247d20df409dd54
+SHA1: d7058ff4108dfa19ac518c2d8d63680d6548d7c0
+SHA256: 57713dd9358dcec9847568b65b0dcec92cb847f73bacf5f1f8d8f2a4189ce15b
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY(Rootless)
 
 Package: com.huami.dyyy
 Version: 2.1-8
@@ -1416,70 +1397,16 @@ Author: Sandy0
 Name: iOS 6 锁屏音效
 Sponsor: Sandy0
 
-Package: com.huayuarc.iosthermal.roothide
-Version: 3.0.1
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal.roothide_3.0.1_iphoneos-arm64e.deb
-Size: 1954
-MD5sum: 14fe8dcd199af5a7c90559cc05b27885
-SHA1: f2f1b63f41843e4a8cd5f2aca2196976c6b68ea6
-SHA256: 214a4db02e964bbd35309bd0336a67e97784a213c6822093df09762bc3b44d46
-Section: Tweaks
-Description: iPhone13Pro空包插件=无效果(原功能：温控及内存优化｜自行安装｜测试效果｜无设置｜注销SprongBoard即可生效测试｜无效卸载即可｜调试编译)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: IOSThermal(RootHide)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-
 Package: com.huayuarc.iosthermal.rootless
-Version: 3.0.0
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal.rootless_3.0.0_iphoneos-arm64e.deb
-Size: 1920
-MD5sum: a56bc3d53eb6a8c4fbc5e0dfd69343ab
-SHA1: 09cfdda685162ed89fa30c8b8b5071c57ea31107
-SHA256: 17042946a74556435b415a3e139af3eda4a2f13849837f0ee8d194a4ac59977d
-Section: Tweaks
-Description: iPhone13Pro空包插件=无效果(原功能：温控及内存优化｜自行安装｜测试效果｜无效卸载即可｜调试编译)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: IOSThermal(Roitless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-
-Package: com.huayuarc.iosthermal.rootless
-Version: 3.0.0
+Version: 3.0.2
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
 Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal.rootless_3.0.0_iphoneos-arm64.deb
-Size: 2708
-MD5sum: 440791c4a8b4b4f6d40a52c854f7d91e
-SHA1: 28b3d5b54d294e681468b9585eb37367a14b0d6d
-SHA256: 88bdee39e80b5bbb27367db200d0827fc68c445aecfea02a9a7ac617eb8e7d8c
-Section: Tweaks
-Description: iPhone13Pro空包插件=无效果(原功能：温控及内存优化｜自行安装｜测试效果｜无效卸载即可｜调试编译)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: IOSThermal(Roitless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-
-Package: com.huayuarc.iosthermal.rootless
-Version: 3.0.1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal.rootless_3.0.1_iphoneos-arm64.deb
-Size: 2738
-MD5sum: 91949fd1ed0fa76f0a9e105dd3d54821
-SHA1: caac9336d189cc7426d4fda9ef22b81ffb2e2b5d
-SHA256: 67ceb1a35e873f3f929f6e13aebccfaebe86d9fb3fd63190e7ffc76b94c8307d
+Filename: debs/com.huayuarc.iosthermal.rootless_3.0.2_iphoneos-arm64.deb
+Size: 3146
+MD5sum: f48d9168aa91ac16f4dc5abe82d30b6e
+SHA1: 89ef2eef1c93e8062711ce5e81af12ff6d65c674
+SHA256: a38ba9fefd26d2c059e5197d9b91c4ccd621a0128f1b5fb46f6341aa43cefb00
 Section: Tweaks
 Description: iPhone13Pro空包插件=无效果(原功能：温控及内存优化｜自行安装｜测试效果｜无设置｜注销SprongBoard即可生效测试｜无效卸载即可｜调试编译)
 Author: Huayuarc
@@ -3000,6 +2927,41 @@ Section: Tweaks
 Description: 微信增强插件，支持聊天按钮布局自定义等功能。
 Author: 愫 茶
 Name: WeChatEnhance(Rootless)
+
+Package: com.wkk.HideEdit
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
+Filename: debs/com.wkk.HideEdit_1.0_iphoneos-arm64.deb
+Size: 4520
+MD5sum: a80443dd2babdd50a6350ce10bc5d753
+SHA1: 10d39899b81e2e62a058cdcaba4beabc4f09738e
+SHA256: 725823e28d5b0480d916e002afbcbe6b84df7be56944d1c3117c5c7d9aef6cdb
+Section: Tweaks
+Description: 隐藏负一屏编辑按钮。隐藏后还能用吗？长按即可解决！
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: HideEdit(Rootless)
+
+Package: com.wkk.HideEdit
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
+Filename: debs/com.wkk.HideEdit_1.0_iphoneos-arm64e.deb
+Size: 8670
+MD5sum: 0cefad129ce285cea6a96be178241807
+SHA1: 15aef52664a6cb64ded8341c9a8fe67fa8db2ea5
+SHA256: c9c2f232dbb70ffab26e945f01f8016eab6ee5231566cd6f5b523b337fc3d985
+Section: Tweaks
+Description: 隐藏负一屏编辑按钮。隐藏后还能用吗？长按即可解决！
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: HideEdit(RootHide)
 
 Package: com.xx.bbbsblhhook
 Version: 1.0.0
