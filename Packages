@@ -1415,6 +1415,24 @@ Icon: https://huayuarc.github.io/images/IOSThermal.png
 Name: IOSThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 
+Package: com.huayuarc.iosthermal.rootless
+Version: 3.0.3
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.iosthermal.rootless_3.0.3_iphoneos-arm64.deb
+Size: 3120
+MD5sum: 14395cf441029a2ef172d55f79df9428
+SHA1: 5e98ae8c4e65cc72145c4d81a171ef36a7489f46
+SHA256: cdda8cc01ab77c077f211a6c4d428ff1f105b9c128f0624e2a7447737ed40cb1
+Section: Tweaks
+Description: (原功能：温控及内存优化｜自行安装｜测试效果｜无设置｜注销SprongBoard即可生效测试｜无效卸载即可｜空包调试编译)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
