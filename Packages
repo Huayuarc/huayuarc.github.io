@@ -1397,22 +1397,22 @@ Author: Sandy0
 Name: iOS 6 锁屏音效
 Sponsor: Sandy0
 
-Package: com.huayuarc.iosthermal.rootless
-Version: 3.0.2
-Architecture: iphoneos-arm64
+Package: com.huayuarc.iosthermal.roothide
+Version: 3.0.3
+Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
 Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal.rootless_3.0.2_iphoneos-arm64.deb
-Size: 3134
-MD5sum: 5388dade2828751a2f38c1b9bf88a7b0
-SHA1: 9d1b224064f5f20d69030ea0f17e1e07a15f8a76
-SHA256: 8df1416bf8e6cbfc955b9f5d5b40ea6d1d807f805bd8642c0444c9ccd3f71250
+Filename: debs/com.huayuarc.iosthermal.roothide_3.0.3_iphoneos-arm64e.deb
+Size: 2326
+MD5sum: edf1b583dea4a9d2bfbe6ec64329f195
+SHA1: dc14e2622ac101e4ac12556cb44dbc9740963663
+SHA256: 6bda9fd6dc832adc696b96881cda434a85cfe8f041340e3d21a0f639b58ac1de
 Section: Tweaks
-Description: 空包插件=无效果(原功能：温控及内存优化｜自行安装｜测试效果｜无设置｜注销SprongBoard即可生效测试｜无效卸载即可｜编译测试)
+Description: (原功能：温控及内存优化｜自行安装｜测试效果｜无设置｜注销SprongBoard即可生效测试｜无效卸载即可｜空包调试编译)
 Author: Huayuarc
 Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: IOSThermal(Rootless)
+Name: IOSThermal(RootHide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 
 Package: com.huayuarc.iosthermal.rootless
