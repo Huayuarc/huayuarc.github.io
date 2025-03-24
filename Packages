@@ -779,6 +779,21 @@ Description: 仅供学习交流，请在 24 小时内自觉删除。
 Author: huami
 Name: DYYY
 
+Package: com.huami.dyyy
+Version: 2.1-8
+Architecture: iphoneos-arm64
+Maintainer: huami
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.1-8_iphoneos-arm64.deb
+Size: 219072
+MD5sum: dfeaa526399db56279da37c8b883831b
+SHA1: b13e668982b9b34cb1d162f4e232a17564c83da7
+SHA256: 912b69b1483db251cf2737b13c3f5c848ea25a343814a2e291ca2e23b278fbc6
+Section: Tweaks
+Description: 基于DYYY定制，仅更换插件面板UI！仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: 抖音魔术师(Rootless)
+
 Package: com.huayuarc.GSHongBao.rootless
 Version: 1.0
 Architecture: iphoneos-arm64
