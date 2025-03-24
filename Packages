@@ -2986,6 +2986,21 @@ Description: Jade 是一款控制中心美化类型的插件
 Author: Nightwind and thetimeloop <xuanhua880@gmail.com>
 Name: Jade(Rootless)
 
+Package: com.wechat.enhance
+Version: 1.1.6
+Architecture: iphoneos-arm64
+Maintainer: 愫 茶
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.wechat.enhance_1.1.6_iphoneos-arm64.deb
+Size: 384742
+MD5sum: e0132629be93fbddcd8fb5e8cde11495
+SHA1: c4ec66befb5424cd0c2f64ac7b3ae56dcd5e2d6a
+SHA256: 80822aa0c389857608077214214a3fe551d6ee646d5fa4b00533ef93b14443a4
+Section: Tweaks
+Description: 微信增强插件，支持聊天按钮布局自定义等功能。
+Author: 愫 茶
+Name: WeChatEnhance(Rootless)
+
 Package: com.xx.bbbsblhhook
 Version: 1.0.0
 Architecture: iphoneos-arm64
