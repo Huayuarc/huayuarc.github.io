@@ -384,6 +384,21 @@ Author: Arway_Aw
 Name: 网易邮箱 NoAds
 Sponsor: Huayuarc
 
+Package: com.be-huge.wechat-push-msg-page
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.wechat-push-msg-page_0.0.1_iphoneos-arm64.deb
+Size: 37350
+MD5sum: 89713bec1ce3fe0505a19a014bfc5098
+SHA1: de56d120a81694dc1bf7596a47a7bd43569e2690
+SHA256: 017b68566889adcd4b760881f5afc540f3b7c8b0700270aa64154cff1402c690
+Section: Tweaks
+Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。
+Author: be-huge
+Name: WechatPushMsgPage(Rootless)
+
 Package: com.brend0n.neteaseradioliketoprevious
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -744,23 +759,6 @@ Author: huami
 Name: DYYY
 
 Package: com.huami.dyyy
-Version: 2.1-7
-Architecture: iphoneos-arm64
-Maintainer: huami
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.huami.dyyy_2.1-7_iphoneos-arm64.deb
-Size: 199032
-MD5sum: c76d49b70ad67f405247d20df409dd54
-SHA1: d7058ff4108dfa19ac518c2d8d63680d6548d7c0
-SHA256: 57713dd9358dcec9847568b65b0dcec92cb847f73bacf5f1f8d8f2a4189ce15b
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Name: DYYY(Rootless)
-
-Package: com.huami.dyyy
 Version: 2.1-8
 Architecture: iphoneos-arm64
 Maintainer: huami
@@ -774,6 +772,24 @@ Section: Tweaks
 Description: 基于DYYY定制，仅更换插件面板UI！仅供学习交流，请在 24 小时内自觉删除。
 Author: huami
 Name: 抖音魔术师(Rootless)
+
+Package: com.huami.dyyy
+Version: 2.2-1
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 848
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-1_iphoneos-arm64.deb
+Size: 147176
+MD5sum: d01ac983cae3c7a7f3c0203554aafac9
+SHA1: 78a30d41e1283412a102ca50e343f1058f7a9ab4
+SHA256: 3dc6d15e75989a7e0ffd7916a06a574f199c266a70d7ba72697b258c44cadf07
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY
 
 Package: com.huayuarc.GSHongBao.rootless
 Version: 1.0
@@ -1396,42 +1412,6 @@ Description: 替換iOS6系統鎖屏音效，自動備份原文件，卸載即恢
 Author: Sandy0
 Name: iOS 6 锁屏音效
 Sponsor: Sandy0
-
-Package: com.huayuarc.iosthermal.roothide
-Version: 3.0.3
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal.roothide_3.0.3_iphoneos-arm64e.deb
-Size: 2326
-MD5sum: edf1b583dea4a9d2bfbe6ec64329f195
-SHA1: dc14e2622ac101e4ac12556cb44dbc9740963663
-SHA256: 6bda9fd6dc832adc696b96881cda434a85cfe8f041340e3d21a0f639b58ac1de
-Section: Tweaks
-Description: (原功能：温控及内存优化｜自行安装｜测试效果｜无设置｜注销SprongBoard即可生效测试｜无效卸载即可｜空包调试编译)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: IOSThermal(RootHide)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-
-Package: com.huayuarc.iosthermal.rootless
-Version: 3.0.3
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal.rootless_3.0.3_iphoneos-arm64.deb
-Size: 3120
-MD5sum: 14395cf441029a2ef172d55f79df9428
-SHA1: 5e98ae8c4e65cc72145c4d81a171ef36a7489f46
-SHA256: cdda8cc01ab77c077f211a6c4d428ff1f105b9c128f0624e2a7447737ed40cb1
-Section: Tweaks
-Description: (原功能：温控及内存优化｜自行安装｜测试效果｜无设置｜注销SprongBoard即可生效测试｜无效卸载即可｜空包调试编译)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: IOSThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
