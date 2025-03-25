@@ -777,19 +777,18 @@ Package: com.huami.dyyy
 Version: 2.2-1
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 848
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/com.huami.dyyy_2.2-1_iphoneos-arm64.deb
-Size: 147176
-MD5sum: d01ac983cae3c7a7f3c0203554aafac9
-SHA1: 78a30d41e1283412a102ca50e343f1058f7a9ab4
-SHA256: 3dc6d15e75989a7e0ffd7916a06a574f199c266a70d7ba72697b258c44cadf07
+Size: 261510
+MD5sum: e3e5b81c48718f59fa64d8add72e93d7
+SHA1: 151c0a5c645f111364ae4683ebd86fe0217ac985
+SHA256: 0bd2b99fcc09b3cf6c5d2701a38c48c685356d31b8c58fd95605d77ad6355452
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
 Description: 仅供学习交流，请在 24 小时内自觉删除。
 Author: huami
-Name: DYYY
+Name: DYYY(Rootless)
 
 Package: com.huayuarc.GSHongBao.rootless
 Version: 1.0
