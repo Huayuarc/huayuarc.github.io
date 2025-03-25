@@ -2582,6 +2582,22 @@ Description: 修复 “已知问题”
 Author: pxx917144686
 Name: Surge++(Rootless)
 
+Package: com.pxx917144686.surge
+Version: 0.6.1
+Architecture: iphoneos-arm64e
+Maintainer: pxx917144686
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0)
+Filename: debs/com.pxx917144686.surge_0.6.1_iphoneos-arm64e.deb
+Size: 10926214
+MD5sum: ca09845ece04be8788789cf55dfe1629
+SHA1: 9c4822f3b0d64ec69c698c8b1d57e55f28fa0163
+SHA256: d0ed7dc2117d88b4dcbd35d811080e6476f0791e3bc284907d6055927350de0e
+Section: Tweaks
+Description: 修复 “已知问题”
+Author: pxx917144686
+Name: Surge++(RootHide)
+
 Package: com.sopppra.settingsrevamp.roothide
 Version: 2.1.1
 Architecture: iphoneos-arm64e
@@ -3188,6 +3204,36 @@ Description: 去除app抓包检测,安装之后在设置里面开启。
 Author: zxc
 Name: Checkproxybypass(Roothide)
 Sponsor: zxc
+
+Package: dev.mineek.appstoretroller
+Version: 0.0.5
+Architecture: iphoneos-arm
+Maintainer: Mineek
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/dev.mineek.appstoretroller_0.0.5_iphoneos-arm.deb
+Size: 13104
+MD5sum: 6d27c57e5f4e07889cc971503d96a133
+SHA1: 4b4f1dd9439a066a2ff19e534f971a00e8d6a473
+SHA256: 963cbbb48abfa95f19ece6b23741d0551830be24d3f62bdc2b32504adeaf54e9
+Section: Tweaks
+Description: Modified version of mineeks tweak that lets you specify the minimum version and bypass installd version check 二改的版本，非原版修改版可让您指定最小版本,并绕过安装版本检查。
+Author: Mineek
+Name: appstoretroller
+
+Package: dev.mineek.appstoretroller
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: Mineek
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/dev.mineek.appstoretroller_0.0.5_iphoneos-arm64.deb
+Size: 13376
+MD5sum: 530371b952abc5040c73bdeef9ca4278
+SHA1: c2a0d854520e44f6ae4d4e71b52d3f2b14b3ec02
+SHA256: 190993623a770bf95540e26ad91e1b8188d9ddc2de345139ec55d6a8670576a7
+Section: Tweaks
+Description: Modified version of mineeks tweak that lets you specify the minimum version and bypass installd version check 二改的版本，非原版修改版可让您指定最小版本,并绕过安装版本检查。
+Author: Mineek
+Name: appstoretroller(Rootless)
 
 Package: emt.paisseon.satella
 Version: 1.4.1
