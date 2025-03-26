@@ -1428,6 +1428,25 @@ Author: Sandy0
 Name: iOS 6 锁屏音效
 Sponsor: Sandy0
 
+Package: com.huayuarc.iosthermal.roothide
+Version: 3.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 40
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.iosthermal.roothide_3.0.3_iphoneos-arm64e.deb
+Size: 1688
+MD5sum: f2f931f8f6572d8878ceae49ed86d8fe
+SHA1: 5351cded9a4434b0aae349119bc477f9ed40bb24
+SHA256: 1f11c6a0fa25b39408deba7098173b0c78bbcb730733203a91a9b9416a698d88
+Section: Tweaks
+Description: (功能：温控及内存优化｜自行安装测试效果｜无设置｜注销SprongBoard即可生效测试｜无效卸载即可｜空包调试编译)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(RootHide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
 Package: com.huayuarc.iosthermal.rootless
 Version: 3.0.3
 Architecture: iphoneos-arm64
