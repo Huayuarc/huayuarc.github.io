@@ -2727,6 +2727,22 @@ Description: 修复 “已知问题”
 Author: pxx917144686
 Name: Surge++(RootHide)
 
+Package: com.snail.easynotify.roothide
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.snail.easynotify.roothide_1.0.0_iphoneos-arm64e.deb
+Size: 26542
+MD5sum: f875dc457f9253419ef36a54b6b793a6
+SHA1: b6ba519108bb8e7f04adf1d74d8c590797f3f447
+SHA256: af9fa1cdb880df28b44e81e99b663904ba756ab061f717761c06692d0658187b
+Section: Tweaks
+Description: 按压APP图标3D Touch菜单快速开关消息通知。此为roothide版本，不要安装错哦~
+Author: snail
+Name: 3D开关APP消息通知(RootHide)
+
 Package: com.sopppra.settingsrevamp.roothide
 Version: 2.1.1
 Architecture: iphoneos-arm64e
