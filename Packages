@@ -3110,18 +3110,17 @@ Package: com.xuuz.douyinhelper
 Version: 1.1-6
 Architecture: iphoneos-arm64
 Maintainer: XUUᶻ
-Installed-Size: 1144
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: debs/com.xuuz.douyinhelper_1.1-6_iphoneos-arm64.deb
-Size: 225352
-MD5sum: b33e90dbf18bc3075d7b2bc44ab84efd
-SHA1: 5083a310d68d3ad7c022a54a77db45afd334fb2b
-SHA256: 065cde05317ceb25d94d077128d17794f918a4615ed7e715700aed1ff9ee71ac
+Size: 419794
+MD5sum: c576c302466b4f4aa199f3e18093fdb3
+SHA1: 680a0db475217882b50ba878204359df6e4306cc
+SHA256: cad3133b449deafab1afb1557bd24f5a3dfdc7e0b338b3402a78a9cea305735a
 Section: Tweaks
 Priority: optional
 Description: 双指长按或设置页面调出
 Author: XUUᶻ
-Name: 抖音助手
+Name: 抖音助手(Rootless)
 
 Package: com.xx.bbbsblhhook
 Version: 1.0.0
