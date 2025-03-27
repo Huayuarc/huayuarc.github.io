@@ -3168,6 +3168,22 @@ Description: 宝宝巴士 · 宝宝巴士儿歌 · 贝乐虎儿歌 解锁Svip
 Author: x✨
 Name: 宝宝巴士
 
+Package: com.xx.gaodehook
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: x✨
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.gaodehook_1.0.4_iphoneos-arm64e.deb
+Size: 848510
+MD5sum: a4fef3a44045f486af652a85159e6aec
+SHA1: 99814ee7a893423b633111a8fba6ffafc1953eff
+SHA256: 046873aea761c342990e8eacab1b78104fd5adebf5703575fdf776da7554498b
+Section: Tweaks
+Description: 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭！
+Author: x✨
+Name: 高德地图优化(RootHide)
+
 Package: com.xx.gasstation
 Version: 1.0.0
 Architecture: iphoneos-arm
