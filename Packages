@@ -1466,6 +1466,25 @@ Icon: https://huayuarc.github.io/images/IOSThermal.png
 Name: IOSThermal(RootHide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 
+Package: com.huayuarc.iosthermal.roothide
+Version: 3.0.5
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 40
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.iosthermal.roothide_3.0.5_iphoneos-arm64e.deb
+Size: 1932
+MD5sum: accbc22c57ef18b17ca9eff79f0d833e
+SHA1: 860bfd22cd6b4e19624b3df07deae650b483a1d1
+SHA256: 94d4e46f8065f476e138567aeaabd7a858e221eb0cd6c5ea4457ad04e569255d
+Section: Tweaks
+Description: (功能：温控及内存优化｜自行安装测试效果｜无设置｜注销SprongBoard即可生效测试｜无效卸载即可｜空包调试编译)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(RootHide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
 Package: com.huayuarc.iosthermal.rootless
 Version: 3.0.3
 Architecture: iphoneos-arm64
@@ -1496,6 +1515,25 @@ Size: 2100
 MD5sum: 38d27f1d7ffe11a548b9e5f3a40eec17
 SHA1: 60d6db20d62d4210ecad60f308bafbc60131871b
 SHA256: 76f8ba306cc33b0abbca0f5fc20f3ea5f39df44db93cfafbd9d86e93f532e1e5
+Section: Tweaks
+Description: (功能：温控及内存优化｜自行安装测试效果｜无设置｜注销SprongBoard即可生效测试｜无效卸载即可｜空包调试编译)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: IOSThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
+Package: com.huayuarc.iosthermal.rootless
+Version: 3.0.5
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.iosthermal.rootless_3.0.5_iphoneos-arm64.deb
+Size: 2100
+MD5sum: c551d746acad9d323c295880699c0326
+SHA1: 7e4aa8439c405ebd83fb50d10a3b18a9ab17eb73
+SHA256: 096a76d4ce94edaa4d055ad14aa23e736e0e606740fad0708c824063d512bc33
 Section: Tweaks
 Description: (功能：温控及内存优化｜自行安装测试效果｜无设置｜注销SprongBoard即可生效测试｜无效卸载即可｜空包调试编译)
 Author: Huayuarc
@@ -3067,6 +3105,23 @@ Description: 隐藏负一屏编辑按钮。隐藏后还能用吗？长按即可�
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: HideEdit(RootHide)
+
+Package: com.xuuz.douyinhelper
+Version: 1.1-6
+Architecture: iphoneos-arm64
+Maintainer: XUUᶻ
+Installed-Size: 1144
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.xuuz.douyinhelper_1.1-6_iphoneos-arm64.deb
+Size: 225352
+MD5sum: b33e90dbf18bc3075d7b2bc44ab84efd
+SHA1: 5083a310d68d3ad7c022a54a77db45afd334fb2b
+SHA256: 065cde05317ceb25d94d077128d17794f918a4615ed7e715700aed1ff9ee71ac
+Section: Tweaks
+Priority: optional
+Description: 双指长按或设置页面调出
+Author: XUUᶻ
+Name: 抖音助手
 
 Package: com.xx.bbbsblhhook
 Version: 1.0.0
