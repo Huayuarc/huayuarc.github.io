@@ -740,6 +740,42 @@ Icon: https://i.imgur.com/C5MLSXo.png
 Name: Infuse Plus(Rootless)
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/icons/main/infuseplus.json
 
+Package: com.dvntm.ovk
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 28120
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.dvntm.ovk_1.1.1_iphoneos-arm64.deb
+Size: 13413904
+MD5sum: 6af24bb32d8dfe91795dbc21b5b430a5
+SHA1: 375c73925872280b2a6b12cffd61fb05c5a53d71
+SHA256: 144001a0d33c43b6409951795430cb353d2dee49f28c765decfc4ff500f0011c
+Section: Tweaks
+Description: A subtle shift from the familiar
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png
+Name: OrwellVK(Rootless)
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/OrwellVK/main/Sileo/depiction.json
+
+Package: com.dvntm.ovk
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 28120
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.dvntm.ovk_1.1.1_iphoneos-arm64e.deb
+Size: 13410962
+MD5sum: cbc21c7d6541bf1a9270502bd8ab83a2
+SHA1: c810c31a1d5371c9c8e7057d5d061e2fd2ec7245
+SHA256: 002b6f0de446ac82d220763d322427178cb3afeeede1e8e971f101632bd62ba8
+Section: Tweaks
+Description: A subtle shift from the familiar
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png
+Name: OrwellVK(RootHide)
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/OrwellVK/main/Sileo/depiction.json
+
 Package: com.dvntm.ratebegone.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -2170,6 +2206,42 @@ Description: 阳光惠生活(去除越狱提示，不影响任何插件注入，
 Author: 来了老弟
 Name: 阳光惠生活屏蔽越獄檢測(Rootless)
 Sponsor: 来了老弟
+
+Package: com.lxcloud.WCEhance
+Version: 1.0-9
+Architecture: iphoneos-arm
+Maintainer: Lxcloud
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.lxcloud.WCEhance_1.0-9_iphoneos-arm.deb
+Size: 83526
+MD5sum: deaad902e8a0a99e92f0702f924180f1
+SHA1: f0bff5289785265eddf71c78cb093ff59bd64c64
+SHA256: 2bba7e474482f5b297a030a028d3e94f169fc4d382c55ad310aab584f49111bb
+Section: Tweaks
+Priority: optional
+Description: WeChat enhancement, used to optimize some anti human designs and enhance functionality
+Author: huami&Lxcloud
+Icon: https://xcimg.szwego.com/img/f71fe4b2/9e32c300-c084-4c77-bbb5-63f1c295d122.png
+Name: 微信增强
+Sileodepiction: https://api.lxink.cn/WCEhanceLog.json
+
+Package: com.lxcloud.WCEhance
+Version: 1.0-9
+Architecture: iphoneos-arm64
+Maintainer: Lxcloud
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.lxcloud.WCEhance_1.0-9_iphoneos-arm64.deb
+Size: 83636
+MD5sum: c808bdb0695adf089c157dd66b0732ba
+SHA1: 0cbe99bcea0a746d012982119f60a7daff0c0a25
+SHA256: 071a44191c05c5a374dbf2a8cecf1bcd100a6cdfc27a9ad37efc6032ffc2696e
+Section: Tweaks
+Priority: optional
+Description: WeChat enhancement, used to optimize some anti human designs and enhance functionality
+Author: huami&Lxcloud
+Icon: https://xcimg.szwego.com/img/f71fe4b2/9e32c300-c084-4c77-bbb5-63f1c295d122.png
+Name: 微信增强(Rootless)
+Sileodepiction: https://api.lxink.cn/WCEhanceLog.json
 
 Package: com.miguelaka95.bettercc.rootless
 Version: 0.0.54
