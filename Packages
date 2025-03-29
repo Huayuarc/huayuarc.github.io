@@ -1719,6 +1719,25 @@ Icon: https://cdn.chariz.cloud/icon/snowboard/icon@3x.png
 Name: SnowBoard-修改版
 Sponsor: Spark
 
+Package: com.huayuarc.thermalpatcher.rootless
+Version: 0.0.2-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.thermalpatcher.rootless_0.0.2-1_iphoneos-arm64.deb
+Size: 6034
+MD5sum: f384f45b7b58a5c944cc83442f92c189
+SHA1: 1335ed3ebb4031842df53103acb3fc3a7cb1c8f3
+SHA256: ce16f25c278c3a2eda6f18040f3561200ebb906d03e12cfa6c503da315c72b1e
+Section: Tweaks
+Description: 温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: ThermalPatcher(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
 Package: com.huayuarc.wechattimelinerobot.rootless
 Version: 0.0.2.8
 Architecture: iphoneos-arm64
