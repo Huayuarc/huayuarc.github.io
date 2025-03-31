@@ -108,42 +108,6 @@ Author: @bswbw
 Name: FixSet(Roothide)
 Sponsor: gblw
 
-Package: cn.huayuarc.iosthermal.roothide
-Version: 3.0.0
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Depends: mobilesubstrate
-Filename: debs/cn.huayuarc.iosthermal.roothide_3.0.0_iphoneos-arm64e.deb
-Size: 1828
-MD5sum: d6b6e504b93ce95838d42a2cf02bc410
-SHA1: deb4a999b4a4181dbdc9ecab3861bfbfe487f5f7
-SHA256: 307086940b2691bc986f53bade3dec7aecd1771df82ff77417cf07595e6f298b
-Section: Tweaks
-Description: iPhone14Pro空包插件=无效果(且娱乐效果)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: IOSThermal(RootHide)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-
-Package: cn.huayuarc.iosthermal.rootless
-Version: 3.0.0
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Depends: mobilesubstrate
-Filename: debs/cn.huayuarc.iosthermal.rootless_3.0.0_iphoneos-arm64.deb
-Size: 2614
-MD5sum: 69c3b08fb5a54b773208e2a472a370b5
-SHA1: 41bef23d2a19b3466f65baee56c10d9f29749291
-SHA256: 60c799c7b850445adbe8ebd7d18ca534dc1dbb954cadeeca87796402f20d13fc
-Section: Tweaks
-Description: iPhone14Pro空包插件=无效果(且娱乐效果)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: IOSThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-
 Package: cn.llld.snapshottool
 Version: 1.4.0-1
 Architecture: iphoneos-arm64e
@@ -309,6 +273,21 @@ Description: 网易邮箱启动广告、邮箱列表广告。
 Author: Arway_Aw
 Name: 网易邮箱 NoAds(Rootless)
 Sponsor: Huayuarc
+
+Package: com.be-huge.wechat-push-msg-page
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.wechat-push-msg-page_0.0.1_iphoneos-arm64.deb
+Size: 37352
+MD5sum: 403c4cf00f457466d8d6f57e1aeccef6
+SHA1: 06ce1d6353f6f69764878a3f9b0e26e9bc971dbd
+SHA256: 30cb11bd299b2872bad85183673435968ef17338ece41aea6b3348787255b147
+Section: Tweaks
+Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。
+Author: be-huge
+Name: 微信聊天界面直达(Rootless)
 
 Package: com.brend0n.neteaseradioliketoprevious
 Version: 0.0.1
@@ -1115,42 +1094,6 @@ Description: 替換iOS6系統鎖屏音效，自動備份原文件，卸載即恢
 Author: Sandy0
 Name: iOS 6 锁屏音效
 Sponsor: Sandy0
-
-Package: com.huayuarc.iosthermal.rootless
-Version: 3.0.0
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal.rootless_3.0.0_iphoneos-arm64e.deb
-Size: 1824
-MD5sum: 86a365df0beb357126d49839f0f8813b
-SHA1: 1b5035c89597b06fbae205bb5803b9b6ca2bcf23
-SHA256: 777fa43ebc9ec0ac049529a2bee97803964298c2d125624539cf46d7e5c55211
-Section: Tweaks
-Description: iPhone13Pro空包插件=无效果(且娱乐效果)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: IOSThermal(Roitless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-
-Package: com.huayuarc.iosthermal.rootless
-Version: 3.0.0
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal.rootless_3.0.0_iphoneos-arm64.deb
-Size: 2612
-MD5sum: 7f8e3bda54a2c76162432852321810b4
-SHA1: 10037a53022db1190302115b1eb773ca0f9e1bb7
-SHA256: b9b97784a3697a519170b49f0b217cb3892b5337bf5f975a71d0dfc8e9c5dda5
-Section: Tweaks
-Description: iPhone13Pro空包插件=无效果(且娱乐效果)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: IOSThermal(Roitless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
