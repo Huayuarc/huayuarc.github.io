@@ -2530,24 +2530,6 @@ Author: lzsxcl <xuanhua880@gmail.com>
 Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
 Name: o2Pro
 
-Package: xc.lzsxcl.o2pro
-Version: 17.8.8
-Architecture: iphoneos-arm64
-Maintainer: lzsxcl
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Filename: debs/xc.lzsxcl.o2pro_17.8.8_iphoneos-arm64.deb
-Size: 10891270
-MD5sum: 94857aa07fcba9a6cbe58b9ca6477508
-SHA1: 7a9b8eca0f79b679d40416bd897760c9cbf743f8
-SHA256: 8a1f02a66226a365d02fb0f0889c065a1a5a1149b7995a1d43254e2f51e9c549
-Section: Tweaks
-Description: 注重设计与用户体验的优雅产品。
-Author: lzsxcl
-Depiction: https://huayuarc.github.io/sileodepiction/o2Pro/o2Pro.json
-Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
-Name: o2Pro(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/o2Pro/o2Pro.json
-
 Package: xc.lzsxcl.o2pro.roothide
 Version: 17.6
 Architecture: iphoneos-arm64e
@@ -2578,6 +2560,24 @@ SHA256: e2be5574496258996f2a28a376a95640004497f90f5c23ba5a5e52ff25c2ab74
 Section: o2分屏插件
 Description: 注重设计与用户体验的优雅产品。
 Author: lzsxcl <xuanhua880@gmail.com>
+Depiction: https://huayuarc.github.io/sileodepiction/o2Pro/o2Pro.json
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+Name: o2Pro(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/o2Pro/o2Pro.json
+
+Package: xc.lzsxcl.o2pro.rootless
+Version: 17.8.8
+Architecture: iphoneos-arm64
+Maintainer: lzsxcl
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/xc.lzsxcl.o2pro.rootless_17.8.8_iphoneos-arm64.deb
+Size: 10891280
+MD5sum: f2b1fb7f532d247608cc2f5d15fc040f
+SHA1: 540787b9a0430c91c66f2c5dfcae4089fb5300f3
+SHA256: e73d1316c63cd8eb77ec516fea89c87f4d04a8c6a878b7b430b61d5ad87514f2
+Section: Tweaks
+Description: 注重设计与用户体验的优雅产品。
+Author: lzsxcl
 Depiction: https://huayuarc.github.io/sileodepiction/o2Pro/o2Pro.json
 Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
 Name: o2Pro(Rootless)
