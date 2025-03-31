@@ -1362,6 +1362,22 @@ Description: 5G SA网络增强
 Author: Huayuarc
 Name: 5G Enhancer(Roothide)
 
+Package: com.huayuarc.sa5gtweak
+Version: 1.4-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.sa5gtweak_1.4-1_iphoneos-arm64.deb
+Size: 18222
+MD5sum: 8153d5fb99ac68f02d8a267bb3e8fcc3
+SHA1: d5f6bcc522d98f0d1e346e95d2ac82af9192ace6
+SHA256: 042bea2d4ed4f6f5df931f4e7819c195b017ada636ecf8e7bd645727e305808a
+Section: Networking
+Description: 5G SA网络增强
+Author: Huayuarc
+Name: 5G Enhancer(Rootless)
+
 Package: com.huayuarc.snowboard.xgb
 Version: 1.5.21-Beta3
 Architecture: iphoneos-arm
