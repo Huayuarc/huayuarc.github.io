@@ -2530,6 +2530,25 @@ Author: lzsxcl <xuanhua880@gmail.com>
 Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
 Name: o2Pro
 
+Package: xc.lzsxcl.o2pro
+Version: 17.8.8
+Architecture: iphoneos-arm
+Maintainer: lzsxcl
+Installed-Size: 21760
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/xc.lzsxcl.o2pro_17.8.8_iphoneos-arm.deb
+Size: 10950670
+MD5sum: 991e1ad5d50361fcfd556745a4e356b3
+SHA1: 7c1d84cccf8de7ddfc347a2df0e2b66e73a421a7
+SHA256: b30973eca80d55612acd91dd8202c044180dc2d2429b32b9c823b687e9d6c6a9
+Section: Tweaks
+Description: 注重设计与用户体验的优雅产品。
+Author: lzsxcl
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+Name: o2Pro
+Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
+
 Package: xc.lzsxcl.o2pro.roothide
 Version: 17.6
 Architecture: iphoneos-arm64e
