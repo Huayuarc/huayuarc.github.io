@@ -108,6 +108,23 @@ Author: @bswbw
 Name: FixSet(Roothide)
 Sponsor: gblw
 
+Package: cn.llld.qsyy
+Version: 2.3.1-2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: debs/cn.llld.qsyy_2.3.1-2_iphoneos-arm64.deb
+Size: 2450284
+MD5sum: ef3717b510b46f14254bf964ca80eb33
+SHA1: 9ae8b9cec6b90b9e97b5e5d7a5590b9555ecd5f0
+SHA256: 1267ce6af9bde0c1b7c66da5c6ff1bc95bb21f209580538b687ab0e329d493e7
+Section: rootless应用插件
+Description: ***一款支持批量替换文本的悬浮窗工具***，使用说明：悬浮窗内填写：文本替换前===文本替换后，===是替换符。使用场景：修改通话时间，修改联系人，修改通话记录，翻译替换文本，自定义文字替换，自定义文字大小，自定义文字视图宽度，高度，自定义文字视图横向纵向的坐标，自定义文字颜色，自定义文字字体，自定义文字透明度，隐藏设备实际信息，靓仔装逼等，这只是应用类插件，不会影响到系统全局或桌面。
+Author: 来了老弟(Rootless)
+Icon: file:///var/jb/Library/PreferenceBundles/fyllldprefs.bundle/icons-llld/fyxf.png
+Name: FT悬浮文本增强替换翻译汉化
+Sileodepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qsyy/fy.json
+
 Package: cn.llld.snapshottool
 Version: 1.4.0-1
 Architecture: iphoneos-arm64e
