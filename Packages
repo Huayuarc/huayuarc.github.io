@@ -1434,38 +1434,6 @@ Name: 锁屏录屏RecordAnywhere(Rootless)
 Sponsor: Muirey03 & lclrc
 
 Package: com.huayuarc.sa5gtweak
-Version: 1.5-1
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 204
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.sa5gtweak_1.5-1_iphoneos-arm64e.deb
-Size: 21396
-MD5sum: 566ad3a86c2a53ea8430af3052ec1852
-SHA1: 3a83d91c7a0b35a030723ea1878b239454697fa0
-SHA256: 7e7dc5af7914dcbc36690633e4639d34f83a066adac6f37df5ff51092301f215
-Section: Networking
-Description: 5G SA网络增强
-Author: Huayuarc
-Name: 5G Enhancer(Roothide)
-
-Package: com.huayuarc.sa5gtweak
-Version: 1.5-1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 204
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.sa5gtweak_1.5-1_iphoneos-arm64.deb
-Size: 21462
-MD5sum: 10f699b238a60fb600c1ee7693529ca7
-SHA1: 9257520bca5526e31dc77b0dd1fb7bfc6ee134b8
-SHA256: 23e50b48067243de81b916aa5b8e31dab24462ddb27120a780aeb75c973b1992
-Section: Networking
-Description: 5G SA网络增强
-Author: Huayuarc
-Name: 5G Enhancer(Rootless)
-
-Package: com.huayuarc.sa5gtweak
 Version: 1.6-1
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
@@ -1480,6 +1448,38 @@ Section: Networking
 Description: 5G SA网络增强
 Author: Huayuarc
 Name: 5G Enhancer(Rootless)
+
+Package: com.huayuarc.sa5gtweak
+Version: 1.6.1-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.sa5gtweak_1.6.1-1_iphoneos-arm64.deb
+Size: 23464
+MD5sum: eb2e0a254630f839de7bcd8296be3ad2
+SHA1: b991c2bb6193870da760862a848254c848eef276
+SHA256: 61dfaee454c100bc39d1c902e4308085fa525824a495e04d92fd221f080b472d
+Section: Networking
+Description: 5G SA网络增强
+Author: Huayuarc
+Name: 5G Enhancer(Rootless)
+
+Package: com.huayuarc.sa5gtweak
+Version: 1.6.1-1
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 108
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.sa5gtweak_1.6.1-1_iphoneos-arm64e.deb
+Size: 15640
+MD5sum: c577d47e2f5b7bb33bb126ee18e208c6
+SHA1: 86cbc1b22b2f6510e538ba6fb1153f4c49c20958
+SHA256: 5c6f6a8aa7f3fad4fee37f3a6da02bf7e82fcefcea0bf12abdde1852ce904660
+Section: Networking
+Description: 5G SA网络增强
+Author: Huayuarc
+Name: 5G Enhancer(Roothide)
 
 Package: com.huayuarc.snowboard.xgb
 Version: 1.5.21-Beta3
