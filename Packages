@@ -289,6 +289,23 @@ Description: 微信插件，弥补点击微信通知无法跳转到聊天界面�
 Author: be-huge
 Name: 微信聊天界面直达(Rootless)
 
+Package: com.be-huge.wechat-push-msg-page
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 232
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.wechat-push-msg-page_0.0.1_iphoneos-arm64e.deb
+Size: 73630
+MD5sum: d445249c472db1122d1c7222ab1af9c2
+SHA1: ab24c75bb3787c2d7cbb4961205cde174a83059f
+SHA256: 3248adf1af305755e4a89b489462c5d66fc0b46621f3e37ff2ac970dbfc0bdce
+Section: Tweaks
+Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。
+Author: be-huge
+Name: 微信聊天窗口直达(Roothide)
+
 Package: com.brend0n.neteaseradioliketoprevious
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -503,6 +520,57 @@ Description: Removes annoying rate app pop-ups.删除烦人的评分应用程序
 Author: dvntm
 Icon: https://raw.githubusercontent.com/dayanch96/RateBeGone/refs/heads/main/sources/icon.png
 Name: RateBeGone(Roothide)
+
+Package: com.huami.dyyy
+Version: 2.2-2
+Architecture: iphoneos-arm64
+Maintainer: huami
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-2_iphoneos-arm64.deb
+Size: 327140
+MD5sum: 63453385603e52be29a878277522980d
+SHA1: efeaca1e638d5dbdf98da38504b194bac10887b5
+SHA256: 8fd8c86187b34ca7d6ac45684f736e8eaac4f6b017d47da7be18553ba958fb9a
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 抖音插件，仅供学习交流，请在 24 小时内自觉删除。非原版，来自于Wtrwx二改的版本。
+Author: huami
+Name: DYYY(Rootless)
+
+Package: com.huami.dyyy
+Version: 2.2-2
+Architecture: iphoneos-arm
+Maintainer: huami
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-2_iphoneos-arm.deb
+Size: 327008
+MD5sum: 68db55616719b80f3b965b0a96114c24
+SHA1: 783824da8b61ccfeceb4f5f8a368587685ecf8ea
+SHA256: 9555196df4f447a45f0d1eadfeedc4c51cd567137b3381982be2508a1c147d44
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 抖音插件，仅供学习交流，请在 24 小时内自觉删除。非原版，来自于Wtrwx二改的版本。
+Author: huami
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.2-2
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-2_iphoneos-arm64e.deb
+Size: 327060
+MD5sum: 1e7c8ba1772d9d122560162283ce0f60
+SHA1: 3a92f9fc49dcf260b7fb4d67f1549ef866e18905
+SHA256: 6a163d6337e27cd1168ad0b7987ec464341824b47a9e909aebf46405e8bad8a9
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 抖音插件，仅供学习交流，请在 24 小时内自觉删除。非原版，来自于Wtrwx二改的版本。
+Author: huami
+Name: DYYY(Roothide)
 
 Package: com.huayuarc.GSHongBao.rootless
 Version: 1.0
@@ -2316,6 +2384,22 @@ Description: Amber-ify your flashlight LEDs. Amber 插件让你可以选择使�
 Author: PoomSmart
 Name: Amber(Rootless)
 Sponsor: PoomSmart
+
+Package: com.snail.easynotify.rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: snail
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.snail.easynotify.rootless_1.0.0_iphoneos-arm64e.deb
+Size: 26532
+MD5sum: dbf3fa88f0c4b8dda590f582d5cd3e49
+SHA1: 83f03e3abb93581c781ac9b7f1e51f67bfd03c14
+SHA256: 6900c599c0a7f0e05f0bb179a33a5c92a4dd0da39f35f1325807f51c8fc3bb55
+Section: Rootless
+Description: 按压APP图标3D Touch菜单快速开关消息通知。此为roothide版本，不要安装错哦~
+Author: snail
+Name: 3D开关APP消息通知(Roothide)
 
 Package: com.sopppra.settingsrevamp.roothide
 Version: 2.1.1
