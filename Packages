@@ -1735,6 +1735,54 @@ Author: iamdega
 Icon: https://i.postimg.cc/ncNrx8Mk/mginspector-icon.png
 Name: MGInspector(Rootless)
 
+Package: com.iamdega.uiscroller
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: iamdega
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.iamdega.uiscroller_1.0.5_iphoneos-arm64.deb
+Size: 16158
+MD5sum: 240f9780aa5c498f73428cf29ee08551
+SHA1: e19a905954721e9686683d707c01d08d03c059e8
+SHA256: e6df200ba95d45d944e1e1740cdfc97fd0b8f1eff2db5beae14d3f2e40741141
+Section: Tweaks
+Description: Rest your fingers, automate scrolling any pages!一个可以自动滚动任何视图的插件,例如,您可以使用此插件自动滚动Twitter/X信息流,它适用于任何用户安装的应用程序。
+Author: iamdega
+Icon: https://i.postimg.cc/7Z9SYWZS/UIScroller.png
+Name: UIScroller(Rootless)
+
+Package: com.iamdega.uiscroller
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: iamdega
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.iamdega.uiscroller_1.0.5_iphoneos-arm64e.deb
+Size: 16062
+MD5sum: 98b1c20d6bba73acb076f2abd63475f0
+SHA1: 421064345a9f0fa395c5a74f4b9c8c30207fb31b
+SHA256: c0a2488c35e9c33d285570f306ad31cb3efb5394b4cf74b1e394a190213f32d6
+Section: Tweaks
+Description: Rest your fingers, automate scrolling any pages!一个可以自动滚动任何视图的插件,例如,您可以使用此插件自动滚动Twitter/X信息流,它适用于任何用户安装的应用程序。
+Author: iamdega
+Icon: https://i.postimg.cc/7Z9SYWZS/UIScroller.png
+Name: UIScroller(Roothide)
+
+Package: com.iamdega.uiscroller
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: iamdega
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.iamdega.uiscroller_1.0.5_iphoneos-arm.deb
+Size: 16032
+MD5sum: aef890dd748045e6cb15d5f58ff0e9ef
+SHA1: 2042915e968411535292aef2c74b2dfcffa99231
+SHA256: 1cfbcf2d60e531f207cc42157a6ef51b04266419e5efc3cfd099076a260c60ca
+Section: Tweaks
+Description: Rest your fingers, automate scrolling any pages!一个可以自动滚动任何视图的插件,例如,您可以使用此插件自动滚动Twitter/X信息流,它适用于任何用户安装的应用程序。
+Author: iamdega
+Icon: https://i.postimg.cc/7Z9SYWZS/UIScroller.png
+Name: UIScroller
+
 Package: com.johncoates.Flex.roothide
 Version: 1:3~Beta56
 Architecture: iphoneos-arm64e
