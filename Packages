@@ -1503,16 +1503,16 @@ Name: SnowBoard-修改版
 Sponsor: Spark
 
 Package: com.huayuarc.thermalpatcher.roothide
-Version: 0.0.3-1
+Version: 0.0.2-1
 Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
 Installed-Size: 88
 Depends: mobilesubstrate
-Filename: debs/com.huayuarc.thermalpatcher.roothide_0.0.3-1_iphoneos-arm64e.deb
-Size: 5442
-MD5sum: 8fe8bd44a4f449a08c5389fef8e669d9
-SHA1: ff6c71d40b38ce1f783084b70894c6294dd903f5
-SHA256: 23520b46e61671345601d2b7e5c138b4e8550ce98c28b72c8b6e4401b490f49b
+Filename: debs/com.huayuarc.thermalpatcher.roothide_0.0.2-1_iphoneos-arm64e.deb
+Size: 4820
+MD5sum: adfd9c3704d1d12a5b93a81e8eb03a8e
+SHA1: a9783f773ac25d86e43da4b3475452aaa0347637
+SHA256: 62fd712e81c5fac23be6f9cd0b84b570d03344cfac971de5bcbca87b9bb78d3a
 Section: Tweaks
 Description: 温控
 Author: Huayuarc
@@ -1522,16 +1522,16 @@ Name: ThermalPatcher(Roothide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 
 Package: com.huayuarc.thermalpatcher.rootless
-Version: 0.0.3-1
+Version: 0.0.2-1
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
-Installed-Size: 168
+Installed-Size: 88
 Depends: mobilesubstrate
-Filename: debs/com.huayuarc.thermalpatcher.rootless_0.0.3-1_iphoneos-arm64.deb
-Size: 7380
-MD5sum: 1dc664be27426796aaf7678f9c577749
-SHA1: d8ec6264f414e359373b5969f0c085a5aa6608fb
-SHA256: 0307ecbbee10eb678179a9a55840ecd920baf016600acf4080a2bd13ddda50a8
+Filename: debs/com.huayuarc.thermalpatcher.rootless_0.0.2-1_iphoneos-arm64.deb
+Size: 5608
+MD5sum: 934bd3a7df17df3440d96b74e4fa67a8
+SHA1: 1e989120da9ad622bc963c1081b45744710a4216
+SHA256: fa4090b35848c485ccf4e1ba3d77876cd7b76bf152a67168a08a3ae7bc13db09
 Section: Tweaks
 Description: 温控
 Author: Huayuarc
