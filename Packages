@@ -1434,22 +1434,6 @@ Name: 锁屏录屏RecordAnywhere(Rootless)
 Sponsor: Muirey03 & lclrc
 
 Package: com.huayuarc.sa5gtweak
-Version: 1.6-1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 204
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.sa5gtweak_1.6-1_iphoneos-arm64.deb
-Size: 23308
-MD5sum: a562abf8f645992b572d0133d1ccb5e5
-SHA1: 293a1da57a2ae9f6071437f2ca49036a7ccd64eb
-SHA256: 445e72fb1991ea824f7c0ac920418efd98bcb09c5bf6c5280db67f11424c96a6
-Section: Networking
-Description: 5G SA网络增强
-Author: Huayuarc
-Name: 5G Enhancer(Rootless)
-
-Package: com.huayuarc.sa5gtweak
 Version: 1.6.1-1
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
@@ -1480,6 +1464,22 @@ Section: Networking
 Description: 5G SA网络增强
 Author: Huayuarc
 Name: 5G Enhancer(Roothide)
+
+Package: com.huayuarc.sa5gtweak
+Version: 1.7.1-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.sa5gtweak_1.7.1-1_iphoneos-arm64.deb
+Size: 29728
+MD5sum: 3534877580212be60e98125f73be7350
+SHA1: 414e2423707e44936e72a3260edc31cf3529f1fe
+SHA256: 4f866a51cf96045d8888a3c010a9b391be28131c7622a3cda4d29eb884dfd5b1
+Section: Networking
+Description: 5G SA网络增强
+Author: Huayuarc
+Name: 5G Enhancer(Rootless)
 
 Package: com.huayuarc.snowboard.xgb
 Version: 1.5.21-Beta3
