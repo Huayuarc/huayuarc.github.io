@@ -2139,15 +2139,15 @@ Architecture: iphoneos-arm64
 Maintainer: Nightwind & thetimeloop
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
 Filename: debs/com.nightwind.jade.rootless_1.0.5_iphoneos-arm64.deb
-Size: 428052
-MD5sum: e9a5f5ab85da8223e51d85554ecf0cd9
-SHA1: 0dbd689787c4f3c6b7469a2bc75155f5dcffc79d
-SHA256: ec98360e838b4c2e2c6888535901b8f7d384ce0ecf1e0748c579e22ea86fa10d
+Size: 428074
+MD5sum: 2ee93f4c5343ea531697510f7d3edc6f
+SHA1: 9e8edcb06d234d4ba73378a5cdf7010c3d7f5271
+SHA256: f5d6a686b77113cbfb05e6eae2da58318df1566341d7079b995088311eab1372
 Section: Tweaks
-Description: 控制中心插件。
+Description: Your control center, brought anew.控制中心插件。
 Author: Nightwind & thetimeloop
 Icon: https://huayuarc.github.io/images/Jade.png
-Name: Jade
+Name: Jade(Rootless)
 
 Package: com.p2kdev.reverseisland.roothide
 Version: 1.0
