@@ -54,6 +54,46 @@ Description: MikotoHelper-Mikoto体验版v1版本，该版本由蓝斗篷赞助�
 Author: Mikoto
 Name: MikotoHelper
 
+Package: MikotoHelper
+Version: 1.3.6
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: Mikoto
+Depends: mobilesubstrate
+Conflicts: MikotoHelper
+Replaces: MikotoHelper
+Provides: MikotoHelper
+Filename: debs/MikotoHelper_体验版v1_无根.deb
+Size: 20761644
+MD5sum: 52d5db2311920a8df100d057c414b93a
+SHA1: 3d382351cac5b38f80bc8b2f76023ab5b8fca1be
+SHA256: d2faf2267605fe44fd5f438b4d8bb2e5ba7263c22b39f4d7f899bcc137a07f0d
+Section: Tweaks
+Priority: optional
+Description: MikotoHelper
+Author: Mikoto
+Name: MikotoHelper
+
+Package: MikotoHelper
+Version: 1.3.6
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: Mikoto
+Depends: mobilesubstrate
+Conflicts: MikotoHelper
+Replaces: MikotoHelper
+Provides: MikotoHelper
+Filename: debs/MikotoHelper_体验版v1.deb
+Size: 21160464
+MD5sum: df6eeb04e98f35a24d43956d79cab17b
+SHA1: 269610b4fda86571ffb79b06cfaf2d76216efe13
+SHA256: 57bc4b7f57e1e55cfbdc3f09becdae23f696e92af3367bd3350f9584cac3786c
+Section: Tweaks
+Priority: optional
+Description: MikotoHelper
+Author: Mikoto
+Name: MikotoHelper
+
 Package: MikotoHelper.rootless
 Version: 1.3.6
 Architecture: iphoneos-arm64
@@ -308,6 +348,23 @@ Description: 网易邮箱启动广告、邮箱列表广告。
 Author: Arway_Aw
 Name: 网易邮箱 NoAds(Rootless)
 Sponsor: Huayuarc
+
+Package: com.be-huge.floating-view
+Version: 1.5.3
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 3024
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.floating-view_1.5.3_iphoneos-arm64e.deb
+Size: 1803420
+MD5sum: e77a94d00ed6aa7c3e0201ba577dd0e8
+SHA1: afd5442d2db158e77fb53a68639c03cbff86228b
+SHA256: 95f247161110b4bfc4ec55a81fd78089a3618ac115cb64f13ac321b430fe80c0
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView(Roothide)
 
 Package: com.be-huge.wechat-push-msg-page
 Version: 0.0.1
