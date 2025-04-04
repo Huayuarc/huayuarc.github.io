@@ -437,6 +437,38 @@ Description: 微信键盘自定义
 Author: Doki
 Name: 微信键盘自定义(Roothide)
 
+Package: com.dumpapp.wechat
+Version: 2.0.6
+Architecture: iphoneos-arm
+Maintainer: WeChat
+Installed-Size: 28880
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/com.dumpapp.wechat_2.0.6_iphoneos-arm.deb
+Size: 14394348
+MD5sum: 722c436196a56920b53a24bd565d0e84
+SHA1: 612073816e4d1621c653670b509d7da637ae71bf
+SHA256: f17bc45a57793d55d7e826da45836cd4ab13ef381605ed87e9c887febaea4dbc
+Section: Tweaks
+Description: 锤子助手插件
+Author: DumpApp
+Name: 锤子助手
+
+Package: com.dumpapp.wechat-rootless
+Version: 2.0.6
+Architecture: iphoneos-arm64
+Maintainer: WeChat
+Installed-Size: 28608
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/com.dumpapp.wechat-rootless_2.0.6_iphoneos-arm64.deb
+Size: 14271096
+MD5sum: c1178a2e33467bff84f9e3c7bb95b686
+SHA1: ebec474a75c6ce5567084e7bac5c3debec9a1f54
+SHA256: 714e0c2a4b084a2d533d1848a77b0c60b3308c31b1d77de2deaad6cdf15445ce
+Section: Tweaks
+Description: 锤子助手插件
+Author: DumpApp
+Name: 锤子助手(Rootless)
+
 Package: com.dvntm.ratebegone.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -2151,6 +2183,25 @@ Description: Amber-ify your flashlight LEDs. Amber 插件让你可以选择使�
 Author: PoomSmart
 Name: Amber(Rootless)
 Sponsor: PoomSmart
+
+Package: com.rileytestut.altdaemon
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Riley Testut <support@altstore.io>
+Installed-Size: 2560
+Depends: firmware (>= 12.2)
+Filename: debs/com.rileytestut.altdaemon_1.0.1_iphoneos-arm.deb
+Size: 597754
+MD5sum: 86b026f3f838e0ca193b086898e7152a
+SHA1: ec653b6067c8dd8daa2d1fad29ebcbb0c054bbbd
+SHA256: e30852d1e922dbf83222dd1a35d726491f19ff0f25a4415846638a4f99eac695
+Section: System
+Description: AltDaemon allows AltStore to install and refresh apps without a computer.
+Tag: compatible_min::ios12.2
+Author: Riley Testut <support@altstore.io>
+Depiction: https://chariz.com/get/altdaemon
+Icon: https://cdn.chariz.cloud/icon/altdaemon/icon@3x.png
+Name: AltDaemon
 
 Package: com.sopppra.settingsrevamp.roothide
 Version: 2.1.1
