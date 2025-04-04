@@ -54,46 +54,6 @@ Description: MikotoHelper-Mikoto体验版v1版本，该版本由蓝斗篷赞助�
 Author: Mikoto
 Name: MikotoHelper
 
-Package: MikotoHelper
-Version: 1.3.6
-Architecture: iphoneos-arm64
-Essential: no
-Maintainer: Mikoto
-Depends: mobilesubstrate
-Conflicts: MikotoHelper
-Replaces: MikotoHelper
-Provides: MikotoHelper
-Filename: debs/MikotoHelper_体验版v1_无根.deb
-Size: 20761644
-MD5sum: 52d5db2311920a8df100d057c414b93a
-SHA1: 3d382351cac5b38f80bc8b2f76023ab5b8fca1be
-SHA256: d2faf2267605fe44fd5f438b4d8bb2e5ba7263c22b39f4d7f899bcc137a07f0d
-Section: Tweaks
-Priority: optional
-Description: MikotoHelper
-Author: Mikoto
-Name: MikotoHelper
-
-Package: MikotoHelper
-Version: 1.3.6
-Architecture: iphoneos-arm
-Essential: no
-Maintainer: Mikoto
-Depends: mobilesubstrate
-Conflicts: MikotoHelper
-Replaces: MikotoHelper
-Provides: MikotoHelper
-Filename: debs/MikotoHelper_体验版v1.deb
-Size: 21160464
-MD5sum: df6eeb04e98f35a24d43956d79cab17b
-SHA1: 269610b4fda86571ffb79b06cfaf2d76216efe13
-SHA256: 57bc4b7f57e1e55cfbdc3f09becdae23f696e92af3367bd3350f9584cac3786c
-Section: Tweaks
-Priority: optional
-Description: MikotoHelper
-Author: Mikoto
-Name: MikotoHelper
-
 Package: MikotoHelper.rootless
 Version: 1.3.6
 Architecture: iphoneos-arm64
@@ -348,23 +308,6 @@ Description: 网易邮箱启动广告、邮箱列表广告。
 Author: Arway_Aw
 Name: 网易邮箱 NoAds(Rootless)
 Sponsor: Huayuarc
-
-Package: com.be-huge.floating-view
-Version: 1.5.3
-Architecture: iphoneos-arm64e
-Maintainer: be-huge
-Installed-Size: 3024
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: debs/com.be-huge.floating-view_1.5.3_iphoneos-arm64e.deb
-Size: 1803420
-MD5sum: e77a94d00ed6aa7c3e0201ba577dd0e8
-SHA1: afd5442d2db158e77fb53a68639c03cbff86228b
-SHA256: 95f247161110b4bfc4ec55a81fd78089a3618ac115cb64f13ac321b430fe80c0
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: be-huge
-Name: floatingView(Roothide)
 
 Package: com.be-huge.wechat-push-msg-page
 Version: 0.0.1
@@ -2548,6 +2491,23 @@ Author: P2KDev
 Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.reverseisland/icon.png
 Name: ReverseIsland(Roothide)
 
+Package: com.poqw312.flex3beta
+Version: 1:3~Beta56
+Architecture: iphoneos-arm64
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>=15.0) | org.swift.libswift (>=5.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, apt.llld.Flex3beta, Flex2Blackpackagebeta, com.llld.flexrootless, apt.llld.flex3beta1, cn.llld.flex3beta, com.johncoates.Flex3, Flex3FeatureCatalog, byg.iosios.net.flex3, byg.iosios.net.flex3beta, byg.iosios.net.flex3.xiufu, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: debs/com.poqw312.flex3beta_1:3~Beta56_iphoneos-arm64.deb
+Size: 9274562
+MD5sum: 880d74c4d4386c9e03f1e54b8504000b
+SHA1: 8e897a043ac43f0375f8b843951e6012499135dd
+SHA256: 352e81d9324180b3b172a51399f2d3476ac38548ea5a961ab89b4c1ccf78d889
+Section: 修复插件
+Description: 一款强大的App去广告和系统补丁增强神器。本插件由威锋大佬“来了老弟”修复，需要安装Legacy arm64e Support依赖才能使系统补丁生效，在路径/var/jb/Library/MobileSubstrate/DynamicLibraries打开Flex.plist文件添加你想要生效的应用Bundle(Appdata插件上滑桌面应用图标就能看到)
+Author: John Coates
+Name: Flex3 Beta(Rootless)
+
 Package: com.ps.amber
 Version: 1.2.0
 Architecture: iphoneos-arm
@@ -2810,6 +2770,20 @@ Description: You can arrange apps on the dock of keyboard ⌨️.在键盘底部
 Author: Dcsyhi
 Icon: https://dcsyhi1998.github.io/icons/kbappdock/icon@2x.png
 Name: KBApp(Rootless)
+
+Package: oldabi
+Version: 0.3.2
+Architecture: iphoneos-arm64
+Maintainer: Evelyn
+Depends: ellekit (>= 0.4), cy+cpu.arm64e, firmware (>= 15.0)
+Filename: debs/oldabi_0.3.2_iphoneos-arm64.deb
+Size: 18570
+MD5sum: ec8a52212142e6f018643301af406962
+SHA1: d603b569005fb4219edbdd4ac2e7eb8c2394f117
+SHA256: 392074c29abec2a1359491c4d448f5e642bbe09b200d2cd93de516f4a14eb753
+Description: Support for legacy arm64e ABI in iOS 15.0+
+Author: Evelyn
+Name: Legacy arm64e Support(Rootless)
 
 Package: xc.lzsxcl.o2pro
 Version: 17.8
