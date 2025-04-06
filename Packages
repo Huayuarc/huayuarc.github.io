@@ -1788,6 +1788,23 @@ Author: Mika
 Name: 歌词悬浮窗SE
 Sponsor: Mika
 
+Package: com.monkeyyang.pbjtlzjc
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.monkeyyang.pbjtlzjc_0.0.1_iphoneos-arm64.deb
+Size: 3350
+MD5sum: 24cf81469fc08e38ed780467ca6f01f2
+SHA1: 39187fa5759a8a56f9db78f023a008eda690cd44
+SHA256: fb17166e4b209fedd39888969d7f53f94569daf0e74a4d0fa4cdfbb73c715b89
+Section: Tweaks
+Description: 1.屏蔽App检测截图
+ 2.屏蔽App对屏幕录制的检测，可用于录制一些加密视频。
+Author: monkeyyang
+Name: ios屏蔽屏幕截图录制检测(Rootless)
+
 Package: com.mtac.lynxtwo.rootless
 Version: 2.5.3
 Architecture: iphoneos-arm64
@@ -2284,6 +2301,22 @@ Section: Tweaks
 Description: 设置自定义、归类插件。
 Author: SOPPPra
 Name: SettingsRevamp(Roothide)
+
+Package: com.stbz.checkproxybypass-rootless
+Version: 0.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: 胜天半子
+Depends: mobilesubstrate , preferenceloader,com.opa334.altlist
+Filename: debs/com.stbz.checkproxybypass-rootless_0.1.1-2_iphoneos-arm64.deb
+Size: 23890
+MD5sum: 09b8daebd0010e8196f763875c7835b5
+SHA1: 5140aaeefa8c6f144f42c43852273428731d9f08
+SHA256: 6d80be103278a58e7076caff1c7ab5992aa2a5730c24144f59d1931ceef4c47a
+Section: Tweaks
+Description: 看点广告没问题，不让我用⭕️❌干嘛,说的就是你ibox。安装之后在设置里面开启
+Author: zxc
+Icon: https://huayuarc.github.io/images/tess.png
+Name: 禁止代理检测(Rootless)
 
 Package: com.sunshinesong.split-view-pro
 Version: 1.4.0
