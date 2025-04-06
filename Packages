@@ -1417,6 +1417,25 @@ Icon: https://huayuarc.github.io/images/IOSThermal.png
 Name: ThermalPatcher(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 
+Package: com.huayuarc.thermalpatcher.rootless
+Version: 0.0.4-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.thermalpatcher.rootless_0.0.4-1_iphoneos-arm64.deb
+Size: 5880
+MD5sum: dfba578950434c28badda4090023eb35
+SHA1: b9180d4d19db99bf6c7dd1b867cd2c06de2eb379
+SHA256: f6d2db3a2a663c3f95d882902ae653b3bc6ce296894075780dd1db645e06d46a
+Section: Tweaks
+Description: System level optimization service interception DVFS controller rewriting animation performance optimization system service control
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: ThermalPatcher(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
 Package: com.huayuarc.wechattimelinerobot.rootless
 Version: 0.0.2.8
 Architecture: iphoneos-arm64
