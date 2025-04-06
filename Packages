@@ -1325,6 +1325,22 @@ Author: Muirey03 & lclrc
 Name: 锁屏录屏RecordAnywhere(Rootless)
 Sponsor: Muirey03 & lclrc
 
+Package: com.huayuarc.sa5gtweak
+Version: 1.8.1-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.sa5gtweak_1.8.1-1_iphoneos-arm64.deb
+Size: 30622
+MD5sum: bf538d86a6529afbcd024fa19b15294a
+SHA1: eeae38fb9b5c7f4c4cad3da439d0f6506418f53d
+SHA256: 0ccec4bd7fe646fea9a43c2ccbf2167e3b996eb3022052228ca2e25a5198c238
+Section: Networking
+Description: 5G 网络增强
+Author: Huayuarc
+Name: 5G Enhancer(Rootless)
+
 Package: com.huayuarc.snowboard.xgb
 Version: 1.5.21-Beta3
 Architecture: iphoneos-arm
@@ -2306,6 +2322,23 @@ Depiction: https://huayuarc.github.io/sileodepiction/ReachPlayer/ReachPlayer.jso
 Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
 Name: ReachPlayer(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ReachPlayer/ReachPlayer.json
+
+Package: com.susu.settingsrevamp
+Version: 3.0.1
+Architecture: iphoneos-arm64
+Maintainer: SOPPPra
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, com.sop.settingsrevamp
+Filename: debs/com.susu.settingsrevamp_3.0.1_iphoneos-arm64.deb
+Size: 534660
+MD5sum: 2a3a154407a980c1d97de12e372b1b60
+SHA1: 2f9cf0f5020d0e6232edaa09b7d7cb545a59edb3
+SHA256: c905f5b0eace33763b1b6d7902993fcce117e3161d1888790fe6c3faae480f7f
+Section: Tweaks
+Description: 设置自定义、归类插件
+Author: SOPPPra
+Icon: https://www.susubaby.top/images/settingsrevamp.png
+Name: SettingsRevamp(Rootless)
 
 Package: com.zxc.checkproxybypass.roothide
 Version: 0.1.1-2
