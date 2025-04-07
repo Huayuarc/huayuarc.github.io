@@ -535,6 +535,22 @@ Author: dvntm
 Icon: https://raw.githubusercontent.com/dayanch96/RateBeGone/refs/heads/main/sources/icon.png
 Name: RateBeGone(Roothide)
 
+Package: com.huami.dyenablepanelmodernstyle
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.dyenablepanelmodernstyle_1.0.0_iphoneos-arm64e.deb
+Size: 2812
+MD5sum: e7fc0fdfde0765e6d5f5443fdd43211f
+SHA1: dc6a1690632db63c50f3bff0085e396b7c10b250
+SHA256: dfde7d47ab633b67d4bce6f8bbdd337aef7e05fcf4f575462bef5da03c43dfb3
+Section: Tweaks
+Description: 强制启用新版抖音长按 UI（现代风）
+Author: huami
+Name: DYEnablePanelModernStyle
+
 Package: com.huayuarc.GSHongBao.rootless
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1468,6 +1484,25 @@ SHA1: dbbca3e7401ac3408c22f86b1529886a2d07b695
 SHA256: 99c8e4e5cea2c89e9fa8ff700381f33e03e0435b9d7a58ea718219ff15974868
 Section: Tweaks
 Description: System level optimization service interception DVFS controller rewriting animation performance optimization system service control Shorten the system event response interval by 0.1
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: ThermalPatcher(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
+Package: com.huayuarc.thermalpatcher.rootless
+Version: 0.0.7-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.thermalpatcher.rootless_0.0.7-1_iphoneos-arm64.deb
+Size: 7070
+MD5sum: e3894cb0cbf47cc2719409f1538763f7
+SHA1: 0d482b0274355e42d4edd273d0e80ff330263bcd
+SHA256: 784c2c311894b5f7f55d26f2d2904082dd7d906c064f9fdf7e3ff69a6093c8f8
+Section: Tweaks
+Description: 系统优化
 Author: Huayuarc
 Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 Icon: https://huayuarc.github.io/images/IOSThermal.png
