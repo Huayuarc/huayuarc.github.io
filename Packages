@@ -2293,6 +2293,38 @@ Author: Netskao
 Name: WeChatNotiAvatar(Roothide)
 
 Package: com.nightwind.jade.rootless
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Nightwind & thetimeloop
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.nightwind.jade.rootless_1.0.1_iphoneos-arm64.deb
+Size: 398772
+MD5sum: 7451b393bbe7cc7bb6eb65d7d4bf4fce
+SHA1: 7b395a6d411494b38cda21eaddb884f92e95790d
+SHA256: ec5f675f80496a6df622a577b13d6bc1ba8441903e6deb71919b3c9bfa8b6e50
+Section: Tweaks
+Description: Your control center, brought anew.控制中心插件。
+Author: Nightwind & thetimeloop
+Icon: https://huayuarc.github.io/images/Jade.png
+Name: Jade(Rootless)
+
+Package: com.nightwind.jade.rootless
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Nightwind & thetimeloop
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.nightwind.jade.rootless_1.0.3_iphoneos-arm64.deb
+Size: 431126
+MD5sum: 03303f46836ddc482851253d8e6fdb0c
+SHA1: 4cb1a7639f5b7d730128e5034db9551e3e945ac2
+SHA256: 4cc1ca63c7f3fa7b46bb9c842f484a455b4b34074f079efe2bb3ec325336649a
+Section: Tweaks
+Description: Your control center, brought anew.控制中心插件。
+Author: Nightwind & thetimeloop
+Icon: https://huayuarc.github.io/images/Jade.png
+Name: Jade(Rootless)
+
+Package: com.nightwind.jade.rootless
 Version: 1.0.5
 Architecture: iphoneos-arm64
 Maintainer: Nightwind & thetimeloop
