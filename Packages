@@ -1414,6 +1414,25 @@ Icon: https://cdn.chariz.cloud/icon/snowboard/icon@3x.png
 Name: SnowBoard-修改版
 Sponsor: Spark
 
+Package: com.huayuarc.thermalpatcher.roothide
+Version: 0.0.8-1
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.thermalpatcher.roothide_0.0.8-1_iphoneos-arm64e.deb
+Size: 6174
+MD5sum: a2876a630a036bdd3b4900a240df1f30
+SHA1: ba9fb782ad66bd8a03a0501d1bf8f2f0c9912362
+SHA256: ecadba98633a2475f8bab9f28b8cf5ab204ad4325ef56d56ca00cbf6a4db62f2
+Section: Tweaks
+Description: 温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+Icon: https://huayuarc.github.io/images/IOSThermal.png
+Name: ThermalPatcher(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
 Package: com.huayuarc.thermalpatcher.rootless
 Version: 0.0.3-1
 Architecture: iphoneos-arm64
