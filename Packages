@@ -2571,6 +2571,23 @@ Author: SOPPPra
 Icon: https://www.susubaby.top/images/settingsrevamp.png
 Name: SettingsRevamp(Rootless)
 
+Package: com.xx.gaodehook
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: x✨
+Installed-Size: 900
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.gaodehook_1.0.4_iphoneos-arm64e.deb
+Size: 848562
+MD5sum: 2cf1ff7010329cc9606cfa89a54971ec
+SHA1: faf605affcabb0f2a506e3fe2c7629f90cd15064
+SHA256: 2f2637b7c155afdc1fa26b17d3598f9a64c21f2d8af81ef426f449bd7144ddfd
+Section: Tweaks
+Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题
+Author: x✨
+Name: 高德地图优化(Roothide)
+
 Package: com.zxc.checkproxybypass.roothide
 Version: 0.1.1-2
 Architecture: iphoneos-arm64e
