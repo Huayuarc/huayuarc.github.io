@@ -1517,6 +1517,25 @@ Icon: https://huayuarc.github.io/images/IOSThermal.png
 Name: ThermalPatcher(Roothide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 
+Package: com.huayuarc.thermalpatcher.roothide
+Version: 0.0.9-1
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.thermalpatcher.roothide_0.0.9-1_iphoneos-arm.deb
+Size: 6260
+MD5sum: 3b87f68417640425e1bb12c46915c62d
+SHA1: 84b76c0f934ec2c20f0917d93c3c68179a6665ba
+SHA256: 1853c54df4806400721779d8eb2d368ab859c148ba24fb2f126ea0ef34cb1107
+Section: Tweaks
+Description: 温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: ThermalPatcher(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
 Package: com.huayuarc.thermalpatcher.rootless
 Version: 0.0.3-1
 Architecture: iphoneos-arm64
@@ -1630,6 +1649,25 @@ Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
 Icon: https://huayuarc.github.io/images/IOSThermal.png
 Name: ThermalPatcher(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
+
+Package: com.huayuarc.thermalpatcher.rootless
+Version: 0.0.9-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.thermalpatcher.rootless_0.0.9-1_iphoneos-arm64.deb
+Size: 8450
+MD5sum: 8ce29836e6e642cf07fa34e17fd5dd5d
+SHA1: d4e1b3a1217133cd0985571fef01a37b880d0e18
+SHA256: 05ea6700a3f888ca9e1e0af09f167dfee3b43d16059adc303e7172a104a92fd2
+Section: Tweaks
+Description: 温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: ThermalPatcher(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
 Package: com.huayuarc.wechattimelinerobot.rootless
 Version: 0.0.2.8
