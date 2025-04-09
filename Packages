@@ -581,6 +581,60 @@ Description: 强制启用新版抖音长按 UI（现代风）
 Author: huami
 Name: DYEnablePanelModernStyle
 
+Package: com.huami.dyyy
+Version: 2.2-2-04-09
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 1652
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-2-04-09_iphoneos-arm64e.deb
+Size: 576482
+MD5sum: 782096aed091570211ef58d928467c71
+SHA1: 1e468303b9c117a2d872c1b37031476cfccc56d3
+SHA256: 084e0d70a18e8d19a9a9de4faee8dbae100bb908c95f27b644e4060581467bfb
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY(Roothide)
+
+Package: com.huami.dyyy
+Version: 2.2-2-04-09
+Architecture: iphoneos-arm
+Maintainer: huami
+Installed-Size: 1652
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-2-04-09_iphoneos-arm.deb
+Size: 576430
+MD5sum: 857d2a60af1bfabbc14320464700d20a
+SHA1: e58949abe03bbe3e42e6d291e787dfdab8beedc4
+SHA256: ec30e1ce3e3f8116617cfc50340529a7162111a9e2371f1166a9d25577207cbc
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.2-2-04-09
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 1652
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-2-04-09_iphoneos-arm64.deb
+Size: 576582
+MD5sum: befb29e1fc456650e6ebd3ee00fa39d3
+SHA1: 95d241777777abe70a961468bfcc10d48ea7e574
+SHA256: caccb568f6d417bef347ac1b4e6f62d5f04038c52958e902504d6bef842c2ac6
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY(Rootless)
+
 Package: com.huayuarc.GSHongBao.rootless
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -2600,6 +2654,23 @@ Description: 设置自定义、归类插件
 Author: SOPPPra
 Icon: https://www.susubaby.top/images/settingsrevamp.png
 Name: SettingsRevamp(Rootless)
+
+Package: com.tigisoftware.filza64bit
+Version: 4.0.1-2
+Architecture: iphoneos-arm64
+Maintainer: TIGI Software
+Installed-Size: 23200
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: debs/com.tigisoftware.filza64bit_4.0.1-2_iphoneos-arm64.deb
+Size: 8700548
+MD5sum: 5dd768ff5b2fbab88f379efb598ddf5b
+SHA1: 2f457800ecc505faad2432cc117f868541696c89
+SHA256: d2dd35a73e8c8212fdab583284924f544f08ef87a6c21c4498a4fe0582493847
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
 
 Package: com.xx.gaodehook
 Version: 1.0.4
