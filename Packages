@@ -402,24 +402,6 @@ Name: Rotaty(Rootless)
 
 Package: com.cpdigitaldarkroom.itsevanesco
 Version: 2024.05.26
-Architecture: iphoneos-arm64
-Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
-Installed-Size: 756
-Depends: mobilesubstrate
-Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
-Filename: debs/com.cpdigitaldarkroom.itsevanesco_2024.05.26_iphoneos-arm64.deb
-Size: 146930
-MD5sum: dd685bd2abee908728ebbcb8247f34cf
-SHA1: 08953fcfa5655bda4323436e2f9a95be86ea2ea5
-SHA256: 2cdf329de80235cfd4e0f461ddd691bf72dec19287a3d13e41574212b7f623ea
-Section: Tweaks
-Description: Clear Your Homescreen After Inactivity 桌面无操作时显示壁纸
-Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
-Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
-Name: Evanesco!(Rootless)
-
-Package: com.cpdigitaldarkroom.itsevanesco
-Version: 2024.05.26
 Architecture: iphoneos-arm
 Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
 Installed-Size: 664
@@ -3248,6 +3230,22 @@ Section: System
 Description: A modern jailbreak detection bypass.
 Author: jjolano
 Name: Shadow
+
+Package: netskao.classickeyboardxs
+Version: 1.1-6
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 356
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: debs/netskao.classickeyboardxs_1.1-6_iphoneos-arm.deb
+Size: 84508
+MD5sum: 38138a3708171fcba22c8922255674a1
+SHA1: 2eba0823e4bf7a3312f5ed4b52148f6c73368f3a
+SHA256: 1d4f2e79d32b0aabbde550ea1d7a9676500f0d40eb7c845004487e81245319e9
+Section: Netskao-Tweaks
+Description: 自定义X键盘底部高度，地球底部高度等
+Author: Netskao
+Name: ClassicKeyboardXS
 
 Package: xc.lzsxcl.o2pro
 Version: 17.8
