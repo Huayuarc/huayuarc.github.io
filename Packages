@@ -3334,3 +3334,22 @@ Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
 Name: o2Pro(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/o2Pro/o2Pro.json
 
+Package: xyz.cypwn.xinam1ne
+Version: 2.4-8
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Depends: mobilesubstrate, firmware (>= 15.0), libclang-cpp14, llvm-14, llvm-14-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0)
+Replaces: emt.paisseon.xinamine
+Provides: emt.paisseon.xinamine (= 99)
+Filename: debs/xyz.cypwn.xinam1ne_2.4-8_iphoneos-arm64.deb
+Size: 122536
+MD5sum: 23a97d3597a84dc6e3efae9f84bcb96b
+SHA1: b7c7aba9e3aa65959c33e0460d6a074dcce00146
+SHA256: 556d9ad5d8af79cd7de0d2382ccc755869dd4dab44dbe5d146bcdbca24389958
+Section: Tweaks
+Description: Xinamine bundle. Includes linker, patcher, 'chex' link checker, 'chix' link fixer, plus other supporting filza scripts.
+Author: Paisseon, Sudo, NoW4U2Kid
+Icon: https://huayuarc.github.io/images/Xinamine.png
+Name: Xinam1ne All-in-One
+Sponsor: Huayuarc
+
