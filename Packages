@@ -1591,25 +1591,6 @@ Name: ThermalPatcher(Roothide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
 Package: com.huayuarc.thermalpatcher.rootless
-Version: 0.0.4-1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.thermalpatcher.rootless_0.0.4-1_iphoneos-arm64.deb
-Size: 5880
-MD5sum: dfba578950434c28badda4090023eb35
-SHA1: b9180d4d19db99bf6c7dd1b867cd2c06de2eb379
-SHA256: f6d2db3a2a663c3f95d882902ae653b3bc6ce296894075780dd1db645e06d46a
-Section: Tweaks
-Description: System level optimization service interception DVFS controller rewriting animation performance optimization system service control
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: ThermalPatcher(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-
-Package: com.huayuarc.thermalpatcher.rootless
 Version: 0.0.5-1
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
@@ -1753,6 +1734,25 @@ Size: 12564
 MD5sum: 31213dbb1a88fef089174bed4a837774
 SHA1: e86e3b507a1f7d8d6d661c60f7d0da60761658dc
 SHA256: 6fe993283437fd302ba36ca8b3954e6de9551530cc2c9e1b922dedd51bfe3df1
+Section: Tweaks
+Description: 温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: ThermalPatcher(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.thermalpatcher.rootless
+Version: 1.2.1-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.thermalpatcher.rootless_1.2.1-1_iphoneos-arm64.deb
+Size: 12412
+MD5sum: a414ad9573e9159d2ca430729aa7a706
+SHA1: 15631e6cd8d376a743ec3cf2d251f0b860601702
+SHA256: 62ea066e85bf718f4285ee014bc90e77ff2e0905b88dd1ec87a20ff82b32da7a
 Section: Tweaks
 Description: 温控
 Author: Huayuarc
@@ -2133,6 +2133,42 @@ Description: 阳光惠生活(去除越狱提示，不影响任何插件注入，
 Author: 来了老弟
 Name: 阳光惠生活屏蔽越獄檢測(Rootless)
 Sponsor: 来了老弟
+
+Package: com.lxcloud.WCEhance
+Version: 1.1-0
+Architecture: iphoneos-arm64
+Maintainer: Lxcloud
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.lxcloud.WCEhance_1.1-0_iphoneos-arm64.deb
+Size: 86886
+MD5sum: 1f4c6a3d556991777cb2f7dad4859d23
+SHA1: 79f0508f59635a6cb22e5dc340bb95366b87c296
+SHA256: 8d42ac161c8eea38fb3c2180fefb20abecabb8b49825abda1a550d631c2c1bee
+Section: Tweaks
+Priority: optional
+Description: WeChat enhancement, used to optimize some anti human designs and enhance functionality
+Author: huami&Lxcloud
+Icon: https://xcimg.szwego.com/img/f71fe4b2/9e32c300-c084-4c77-bbb5-63f1c295d122.png
+Name: 微信增强(Rootless)
+Sileodepiction: https://api.lxink.cn/WCEhanceLog.json
+
+Package: com.lxcloud.WCEhance
+Version: 1.1-0
+Architecture: iphoneos-arm
+Maintainer: Lxcloud
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.lxcloud.WCEhance_1.1-0_iphoneos-arm.deb
+Size: 86708
+MD5sum: 58cedb67dd4a25c31da5ff6bfa57179a
+SHA1: 14fdd3da8ce9da3874d16e267124cb552e6af5ec
+SHA256: 95e935efd96ccf70ec167e57ec3d69185d550452407ba68f9f74bd0d8691746f
+Section: Tweaks
+Priority: optional
+Description: WeChat enhancement, used to optimize some anti human designs and enhance functionality
+Author: huami&Lxcloud
+Icon: https://xcimg.szwego.com/img/f71fe4b2/9e32c300-c084-4c77-bbb5-63f1c295d122.png
+Name: 微信增强
+Sileodepiction: https://api.lxink.cn/WCEhanceLog.json
 
 Package: com.miguelaka95.bettercc.rootless
 Version: 0.0.54
