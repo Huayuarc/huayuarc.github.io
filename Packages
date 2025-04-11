@@ -224,6 +224,22 @@ Description: 控制中心模块五列显示* Control Center module five-column l
 Author: Lessica
 Name: Oh My Insets(Roothide)
 
+Package: com.Dcsyhi.airaw
+Version: 1.6.7
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common,com.opa334.ccsupport
+Filename: debs/com.Dcsyhi.airaw_1.6.7_iphoneos-arm64.deb
+Size: 6700630
+MD5sum: 21f80126968977264fccc6da452622ea
+SHA1: af5084b4ade011d879d85702a7caf2fc4c3b2008
+SHA256: ae89c17f2105977733c8b1bb4cb78328dc8ad83e8bcdc7d61041d35e73cea48f
+Section: Tweaks
+Description: Carplay拓展插件，可以改壁纸，让不是全屏显示的软件变成全屏，配合carbrige插件使用，改图标个数比例。
+Author: Dcsyhi
+Icon: https://huayuarc.github.io/images/Airaw.png
+Name: Airaw(Rootless)
+
 Package: com.HBWechatHelper.ailun
 Version: 1.8.1
 Architecture: iphoneos-arm64
