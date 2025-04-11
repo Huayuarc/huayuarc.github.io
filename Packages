@@ -1555,6 +1555,25 @@ Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: ThermalPatcher(Roothide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
+Package: com.huayuarc.thermalpatcher.roothide
+Version: 1.1-1
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 92
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.thermalpatcher.roothide_1.1-1_iphoneos-arm64e.deb
+Size: 9004
+MD5sum: 61479ddf10ec6771dabeba34dc1616ad
+SHA1: 058f01b91246cf8bd777aa000b914474f1a1846c
+SHA256: ee95c48e243d783852a3966ab8d2095f2b0142757d55b2736fc547cddd7d1d99
+Section: Tweaks
+Description: 温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: ThermalPatcher(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
 Package: com.huayuarc.thermalpatcher.rootless
 Version: 0.0.3-1
 Architecture: iphoneos-arm64
@@ -1699,6 +1718,25 @@ Size: 10524
 MD5sum: 70fc22777342978af178b3913ec9a985
 SHA1: 25b7a3b307c0a998f2c32fb36c108096bb34c940
 SHA256: 97b349a9570b15d1ca96b890bbf7964b464e08db1c69ca676151a36910879b6b
+Section: Tweaks
+Description: 温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: ThermalPatcher(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.thermalpatcher.rootless
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.thermalpatcher.rootless_1.1-1_iphoneos-arm64.deb
+Size: 12700
+MD5sum: ae12107a8a5016d777bba2c6a0c83658
+SHA1: 83e1f134d23a509cd55d16dbd73d4e0b8c07a9d0
+SHA256: c0c2113ab9289a9c51470a053b5f635194129fc6aa3d1d45f2c8fc0fc4d62ad3
 Section: Tweaks
 Description: 温控
 Author: Huayuarc
@@ -2782,6 +2820,38 @@ Description: 去除app抓包检测,安装之后在设置里面开启。
 Author: zxc
 Name: Checkproxybypass(Roothide)
 Sponsor: zxc
+
+Package: dev.mineek.appstoretroller
+Version: 0.0.9
+Architecture: iphoneos-arm64
+Maintainer: Mineek
+Installed-Size: 512
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/dev.mineek.appstoretroller_0.0.9_iphoneos-arm64.deb
+Size: 32142
+MD5sum: cca2df76a9849a1c2612ec2d5a965270
+SHA1: d2bbb7fafa8e46eddd364caeff426928e7d4bf59
+SHA256: 805480413984af9e687a9ccc3a069daa49a7726910ad0db783a19011626e77cb
+Section: Tweaks
+Description: Modified version of mineeks tweak that lets you specify the minimum version and bypass installd version check 二改的版本,非原版修改版可让您指定最小版本,并绕过安装版本检查。
+Author: Mineek
+Name: Appstoretroller(Rootless)
+
+Package: dev.mineek.appstoretroller
+Version: 0.0.9
+Architecture: iphoneos-arm
+Maintainer: Mineek
+Installed-Size: 512
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/dev.mineek.appstoretroller_0.0.9_iphoneos-arm_EBvM5cftd0.deb
+Size: 32168
+MD5sum: a262c8b8be3752575deaa321cd1a9182
+SHA1: 7fbd0f80606e48d4ce5ea8110bc993c6766dd648
+SHA256: 4ef0b8c652aa733cc1fd92575c685aad6908a97823b879ea5f117e0e125d6add
+Section: Tweaks
+Description: Modified version of mineeks tweak that lets you specify the minimum version and bypass installd version check 二改的版本,非原版修改版可让您指定最小版本,并绕过安装版本检查。
+Author: Mineek
+Name: Appstoretroller
 
 Package: jp.dcsyhi.dashapp
 Version: 1.0
