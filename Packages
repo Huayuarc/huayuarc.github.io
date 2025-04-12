@@ -1591,25 +1591,6 @@ Name: ThermalPatcher(Roothide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
 Package: com.huayuarc.thermalpatcher.rootless
-Version: 0.0.5-1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.thermalpatcher.rootless_0.0.5-1_iphoneos-arm64.deb
-Size: 6426
-MD5sum: 960e534337387f46507e5b3229018a34
-SHA1: b4a5bf1292d328b034f6a27fc0d2b5a026658a24
-SHA256: 4ee4ea1909ec1e9bdd1ca23ebb512854cbba81004244a7800a9acd0ca47861ba
-Section: Tweaks
-Description: System level optimization service interception DVFS controller rewriting animation performance optimization system service control
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-Icon: https://huayuarc.github.io/images/IOSThermal.png
-Name: ThermalPatcher(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IOSThermal/IOSThermal.json
-
-Package: com.huayuarc.thermalpatcher.rootless
 Version: 0.0.6-1
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
@@ -1753,6 +1734,25 @@ Size: 12412
 MD5sum: a414ad9573e9159d2ca430729aa7a706
 SHA1: 15631e6cd8d376a743ec3cf2d251f0b860601702
 SHA256: 62ea066e85bf718f4285ee014bc90e77ff2e0905b88dd1ec87a20ff82b32da7a
+Section: Tweaks
+Description: 温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: ThermalPatcher(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.thermalpatcher.rootless
+Version: 1.2.2-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.thermalpatcher.rootless_1.2.2-1_iphoneos-arm64.deb
+Size: 13236
+MD5sum: 415ba85383bf3134a320cca796b9983e
+SHA1: 231ba6fda3f039839b6bdbbcea01cc58d4b7c8e8
+SHA256: 5f7e7cf2cdb99d431107f35f029abd12d39a680c74b625cc311f80a3df63fb29
 Section: Tweaks
 Description: 温控
 Author: Huayuarc
