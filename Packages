@@ -400,6 +400,21 @@ Description: 只加快进出 Appswitcher 的动画速度
 Author: Excalibur 凑合哥Repack
 Name: Appswitcher(Rootless)
 
+Package: com.couhege.landscape
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Hubs couhege repack <(null)>
+Depends: mobilesubstrate
+Filename: debs/com.couhege.landscape_0.0.1_iphoneos-arm64.deb
+Size: 2910
+MD5sum: 6188abebfa3f9dfb24df39f36ee870dc
+SHA1: 610c9684b4bd428b7da06127cfacb2ad377866ca
+SHA256: 5c88da76c7fd53eea22c8a7fafcb54d95b2cd15ecec21e8e250fd6bd2983bfcb
+Section: Tweaks
+Description: 除了系统应用，其它任何应用强制允许横屏模式。无需设置默认全局生效
+Author: Hubs 凑合哥Repack <(null)>
+Name: landscape(Rootless)
+
 Package: com.couhege.rotaty
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -502,6 +517,25 @@ Description: Adds Touch ID authentication to apps, just like the security featur
 Author: MrDeNsor
 Name: LockTouchX(Roothide)
 
+Package: com.den.twigalaxy
+Version: 1.3-19+debug
+Architecture: iphoneos-arm64
+Maintainer: DeNsor
+Installed-Size: 596
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.den.twigalaxy_1.3-19+debug_iphoneos-arm64.deb
+Size: 164820
+MD5sum: fb8a1e59558d48365733dfe16fe620ea
+SHA1: 0706fbac603080898d77497c03c64fc33a48d9c1
+SHA256: 6d9b275233d41b395d1269caf0fb6a03283a4f575379a0835e051e245ed8e56b
+Section: Tweaks
+Description: Make Twitter Better!
+Author: DeNsor
+Header: https://raw.githubusercontent.com/6gr8/IGFormat/main/twigal_header.png
+Icon: https://raw.githubusercontent.com/6gr8/IGFormat/main/twigal_logo.png
+Name: TWIGalaxy(Rootless)
+Sileodepiction: https://raw.githubusercontent.com/6gr8/IGFormat/main/twigal.json
+
 Package: com.derekfun.mihomenoads.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -598,60 +632,6 @@ Author: huami
 Name: DYEnablePanelModernStyle
 
 Package: com.huami.dyyy
-Version: 2.2-2-04-09
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Installed-Size: 1652
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.huami.dyyy_2.2-2-04-09_iphoneos-arm64e.deb
-Size: 576482
-MD5sum: 782096aed091570211ef58d928467c71
-SHA1: 1e468303b9c117a2d872c1b37031476cfccc56d3
-SHA256: 084e0d70a18e8d19a9a9de4faee8dbae100bb908c95f27b644e4060581467bfb
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Name: DYYY(Roothide)
-
-Package: com.huami.dyyy
-Version: 2.2-2-04-09
-Architecture: iphoneos-arm
-Maintainer: huami
-Installed-Size: 1652
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.huami.dyyy_2.2-2-04-09_iphoneos-arm.deb
-Size: 576430
-MD5sum: 857d2a60af1bfabbc14320464700d20a
-SHA1: e58949abe03bbe3e42e6d291e787dfdab8beedc4
-SHA256: ec30e1ce3e3f8116617cfc50340529a7162111a9e2371f1166a9d25577207cbc
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.2-2-04-09
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 1652
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.huami.dyyy_2.2-2-04-09_iphoneos-arm64.deb
-Size: 576582
-MD5sum: befb29e1fc456650e6ebd3ee00fa39d3
-SHA1: 95d241777777abe70a961468bfcc10d48ea7e574
-SHA256: caccb568f6d417bef347ac1b4e6f62d5f04038c52958e902504d6bef842c2ac6
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Name: DYYY(Rootless)
-
-Package: com.huami.dyyy
 Version: 2.2-3
 Architecture: iphoneos-arm64
 Maintainer: huami
@@ -698,6 +678,60 @@ Size: 622054
 MD5sum: 94bbfc3d56c3a380603a057738e4a800
 SHA1: 8671f0e2b99398c8242c72631b5c05a0aa94f5dd
 SHA256: bafc5eccd27bec13c804383d19ab8c68ce80f4b99a38478c5321fafb3863db0d
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY(Roothide)
+
+Package: com.huami.dyyy
+Version: 2.2-4
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 1832
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-4_iphoneos-arm64.deb
+Size: 638950
+MD5sum: 4e98c4975af8e2b44f76942a2015e39b
+SHA1: 319809247844e7f602babdcd02d2c2be09bb0702
+SHA256: f5ead2a9db6154bcd3ee6bd6b60a25e2040f67ce56d2fdc54178b678009c30b4
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY(Rootless)
+
+Package: com.huami.dyyy
+Version: 2.2-4
+Architecture: iphoneos-arm
+Maintainer: huami
+Installed-Size: 1832
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-4_iphoneos-arm.deb
+Size: 638780
+MD5sum: 337987210145d08ec2b45867a805634d
+SHA1: 5d918a0162e9dc852a0efb593b8a1daa3f2588ce
+SHA256: 013053ec63a08ddb3b2c4bed428f8a86bd2c231117590f0bf27a4dbffcb51135
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.2-4
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 1832
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-4_iphoneos-arm64e.deb
+Size: 638840
+MD5sum: c9c4bdc53e2b272bbeb0a0430273a5a3
+SHA1: 449ce98355f3493b2ed463b474fa4fd29b6405da
+SHA256: 067f65c7af9372fb1b6d457a60edd2b8f7a5a59a3e43f11072e10308482e0688
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
@@ -2653,6 +2687,23 @@ Author: Netskao
 Name: 淘宝 NoAds(Rootless)
 Sponsor: Nets
 
+Package: com.netskao.wcmypageinfocenter
+Version: 1.2-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 220
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/com.netskao.wcmypageinfocenter_1.2-2_iphoneos-arm64.deb
+Size: 82986
+MD5sum: 3733b0fe137b10fce4b572c212dfdf98
+SHA1: 89280acb3aa422439b93288e812d0b886d0c9e97
+SHA256: 3c971334fda5ad22548b4b684f0b933cf493aa67c68efce236368cc2710fd1af
+Section: Netskao-Tweaks
+Description: WeChat My Page Info Center, Supported only for version 8.0.31 and above
+Author: Netskao
+Name: WCMyPageInfoCenter(Rootless)
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wcmypageinfocenter.json
+
 Package: com.netskao.wechatnotiavatar.roothide
 Version: 1.2-5
 Architecture: iphoneos-arm64e
@@ -2767,6 +2818,22 @@ Description: Amber-ify your flashlight LEDs. Amber 插件让你可以选择使�
 Author: PoomSmart
 Name: Amber(Rootless)
 Sponsor: PoomSmart
+
+Package: com.rexinxuegao.WCElite
+Version: 1.2-4
+Architecture: iphoneos-arm64
+Maintainer: 热心网友＆xuegao
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.rexinxuegao.WCElite_1.2-4_iphoneos-arm64.deb
+Size: 572848
+MD5sum: b42ee3c34c078224ab2f3c6826c5fe9a
+SHA1: 11f28bc40476cf8492c8f2b5f6b12e5cdf07fbfb
+SHA256: 92a18d6b524b2879c34df19e5b249b1aa25a23e6539345cc4de62214474684b0
+Section: Tweaks
+Priority: optional
+Description: 微信优化，基于茶愫1.1-9开源版新增/优化。热心网友与Xuegao处于兴趣制作，目前原作者已恢复更新。
+Author: 愫 茶
+Name: WCElite(Rootless)
 
 Package: com.rileytestut.altdaemon
 Version: 1.0.1
@@ -2891,6 +2958,22 @@ Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
 Author: TIGI Software
 Name: Filza File Manager 64-bit
+
+Package: com.wechat.enhance
+Version: 1.2.6
+Architecture: iphoneos-arm64
+Maintainer: 愫 茶
+Installed-Size: 1860
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.wechat.enhance_1.2.6_iphoneos-arm64.deb
+Size: 670364
+MD5sum: 730a24d4cde58afc6ab23d323f7749bc
+SHA1: 47f4586a1fedc5aa8ab436d9492552136dc13131
+SHA256: 23e3492dc832530a2b9512a05081f5fa5988a0e30c9859c03b5683d5eced654c
+Section: Tweaks
+Description: 微信插件，支持聊天按钮布局自定义等。
+Author: 愫 茶
+Name: WeChatEnhance(Rootless)
 
 Package: com.xx.gaodehook
 Version: 1.0.4
