@@ -1330,6 +1330,46 @@ Author: Sandy0
 Name: iOS 6 锁屏音效
 Sponsor: Sandy0
 
+Package: com.huayuarc.iosthermal
+Version: 1.2.1-1+debug
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 204
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.iosthermal_1.2.1-1+debug_iphoneos-arm64.deb
+Size: 14066
+MD5sum: 78936ce88e777f48593225f7c640eed9
+SHA1: 210fdaae2ab9019ae507cf7c06181d16c7c20d71
+SHA256: 3709e3a56443905f572db2798646f16e079f01d737689745d8411c998d7a43d9
+Section: Tweaks
+Description: 深度优化iOS设备，加快iOS反应
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermal
+Version: 1.2.1-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 108
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.iosthermal_1.2.1-1+debug_iphoneos-arm64e.deb
+Size: 9732
+MD5sum: b693ca8882711f5640f8e3eb0afff2c1
+SHA1: feb44030f621e48b8c1fd05af1e337f03de12f1d
+SHA256: 5cc2d3290702c53fc2c31b2e00d647089e11b81e0a6f36830f89ee1f5fa28204
+Section: Tweaks
+Description: 深度优化iOS设备，加快iOS反应
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
