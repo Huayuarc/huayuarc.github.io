@@ -334,6 +334,23 @@ Author: Arway_Aw
 Name: 网易邮箱 NoAds(Rootless)
 Sponsor: Huayuarc
 
+Package: com.be-huge.wechat-push-msg-page
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 232
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.wechat-push-msg-page_0.0.2_iphoneos-arm64.deb
+Size: 37670
+MD5sum: 6d5a586df88433058dcfdfbede6566e7
+SHA1: f26e009dc04596a2a22ee2e52edb83266d4f8be2
+SHA256: 7fa866db0b91bbda21bf55261d0f4d941a841b4c6f5e26f1788b45ffedc1ae61
+Section: Tweaks
+Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
+Author: be-huge
+Name: WechatPushMsgPage(Rootless)
+Sileodepiction: https://be-huge.github.io/repo/ChangeLog/Wechat/WechatMsg.json
+
 Package: com.brend0n.neteaseradioliketoprevious
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -1329,46 +1346,6 @@ Description: 替換iOS6系統鎖屏音效，自動備份原文件，卸載即恢
 Author: Sandy0
 Name: iOS 6 锁屏音效
 Sponsor: Sandy0
-
-Package: com.huayuarc.iosthermal
-Version: 1.2.1-1+debug
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 204
-Depends: mobilesubstrate
-Conflicts: com.huayuarc.thermalpatcher.rootless
-Filename: debs/com.huayuarc.iosthermal_1.2.1-1+debug_iphoneos-arm64.deb
-Size: 14066
-MD5sum: 78936ce88e777f48593225f7c640eed9
-SHA1: 210fdaae2ab9019ae507cf7c06181d16c7c20d71
-SHA256: 3709e3a56443905f572db2798646f16e079f01d737689745d8411c998d7a43d9
-Section: Tweaks
-Description: 深度优化iOS设备，加快iOS反应
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-Icon: https://huayuarc.github.io/images/ThermalPatcher.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-
-Package: com.huayuarc.iosthermal
-Version: 1.2.1-1+debug
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 108
-Depends: mobilesubstrate
-Conflicts: com.huayuarc.thermalpatcher.rootless
-Filename: debs/com.huayuarc.iosthermal_1.2.1-1+debug_iphoneos-arm64e.deb
-Size: 9732
-MD5sum: b693ca8882711f5640f8e3eb0afff2c1
-SHA1: feb44030f621e48b8c1fd05af1e337f03de12f1d
-SHA256: 5cc2d3290702c53fc2c31b2e00d647089e11b81e0a6f36830f89ee1f5fa28204
-Section: Tweaks
-Description: 深度优化iOS设备，加快iOS反应
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-Icon: https://huayuarc.github.io/images/ThermalPatcher.png
-Name: IosThermal(Roothide)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
