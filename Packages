@@ -2897,6 +2897,25 @@ Author: P2KDev
 Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.reverseisland/icon.png
 Name: ReverseIsland(Roothide)
 
+Package: com.pkgfiles.harlemshakereborn
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: pkgFiles
+Installed-Size: 8316
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: debs/com.pkgfiles.harlemshakereborn_1.0_iphoneos-arm64.deb
+Size: 7781926
+MD5sum: eae02632bcf8a058d0ed600e07b8ac58
+SHA1: 62d1a4e53bcbb42319ad8a38deabd32350cba5e4
+SHA256: 3a85aad96f207213f6c40493b39c6b420189b53cfaf783874e215c1a23ff8129
+Section: Tweaks
+Description: You probably thought the Harlem Shake was over, didn't you?老插件重生版，完全免费，摇晃手机，播放音乐，图标跟随舞动，为 iPhone 带来新鲜活泼的活力。
+Author: pkgFiles
+Depiction: https://pkgfiles.github.io/depictions/?p=com.pkgfiles.harlemshakereborn
+Icon: https://raw.githubusercontent.com/pkgFiles/pkgfiles.github.io/main/assets/TweakIcons/HarlemShakeReborn.png
+Name: HarlemShake Reborn(Rootless)
+Sileodepiction: https://pkgfiles.github.io/sileodepictions/com.pkgfiles.harlemshakereborn/depiction.json
+
 Package: com.ps.amber
 Version: 1.2.0
 Architecture: iphoneos-arm
