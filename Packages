@@ -649,6 +649,24 @@ Author: dvntm
 Icon: https://raw.githubusercontent.com/dayanch96/RateBeGone/refs/heads/main/sources/icon.png
 Name: RateBeGone(Roothide)
 
+Package: com.hbb
+Version: 6.2
+Architecture: iphoneos-arm64e
+Maintainer: null
+Installed-Size: 400
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.hbb_6.2_iphoneos-arm64e.deb
+Size: 6411036
+MD5sum: 7cf92f3ef58b36aab255ea1781b2f1fa
+SHA1: 7a117a645dd20fbed58c6b9e97a4bbe8467c0270
+SHA256: 3b789d9a0ed166b96adb468f1177740978c8a196b42118efbcc89afa28872871
+Section: 微信插件
+Description: 学习交流。
+Author: null
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Name: HBB无后台推送(Roothide)
+
 Package: com.huami.dyenablepanelmodernstyle
 Version: 1.0.0
 Architecture: iphoneos-arm64e
