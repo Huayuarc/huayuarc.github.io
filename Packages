@@ -368,6 +368,24 @@ Author: be-huge
 Name: WechatPushMsgPage(Rootless)
 Sileodepiction: https://be-huge.github.io/repo/ChangeLog/Wechat/WechatMsg.json
 
+Package: com.be-huge.wechat-push-msg-page
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 232
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.wechat-push-msg-page_0.0.3_iphoneos-arm64e.deb
+Size: 74174
+MD5sum: e3c11444d66d0939d3ebd8e057aa3dbf
+SHA1: 5dd41122716daa2ba9e8f4433babd69ebb4cc08b
+SHA256: a6fe4924fc6002cec50b93871e194b61c93251dce68a8ce51b34c91a779cd4cc
+Section: Tweaks
+Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
+Author: be-huge
+Name: WechatPushMsgPage(Rootless)
+Sileodepiction: https://be-huge.github.io/repo/ChangeLog/Wechat/WechatMsg.json
+
 Package: com.brend0n.neteaseradioliketoprevious
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -1440,6 +1458,26 @@ Author: Huayuarc
 Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermal
+Version: 1.3.2-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 144
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.iosthermal_1.3.2-1+debug_iphoneos-arm64e.deb
+Size: 15146
+MD5sum: d737ac04144b6da3aeddad0a4cc76866
+SHA1: 611251c86b2e7a2b4023d18010cd9a5a6e449888
+SHA256: 8ddf729ef5c635812e606b32d89f27ffdd7696f34cd0ee2ac2772f491b92caf5
+Section: Tweaks
+Description: 深度优化iOS设备，加快iOS反应
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Roothide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
 Package: com.huayuarc.jinyongtzzxss.roothide
