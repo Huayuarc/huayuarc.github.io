@@ -270,6 +270,36 @@ Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手
 
+Package: com.HBWechatHelper.ailun
+Version: 1.8.2
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: debs/com.HBWechatHelper.ailun_1.8.2_iphoneos-arm64.deb
+Size: 15704226
+MD5sum: 39ce4d35e07041ad98d3a88ff4b78624
+SHA1: 7e597b3364c3c6cfdf0a4374d58b58e7d794b7f6
+SHA256: 6fb175a56dffc169ac8696bbabec34cf110a99cdf648964486b6cbb7b94130a8
+Section: Mao
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(Rootless)
+
+Package: com.HBWechatHelper.ailun
+Version: 1.8.2
+Architecture: iphoneos-arm
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: debs/com.HBWechatHelper.ailun_1.8.2_iphoneos-arm.deb
+Size: 15927788
+MD5sum: 36a41315736b6fe61fa147466f92ceb7
+SHA1: 6eb58094331d6932503452fbfebbe8b853110627
+SHA256: 645eb161bcb1c58c65b825ee063d12fb9ac466c55fa5942dd0fa5d29b6e13d56
+Section: Mao
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手
+
 Package: com.arwayaw.mynoads
 Version: 0.0.1.1+debug
 Architecture: iphoneos-arm
