@@ -1520,6 +1520,46 @@ Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: IosThermal(Roothide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
+Package: com.huayuarc.iosthermal
+Version: 1.3.4-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.iosthermal_1.3.4-1+debug_iphoneos-arm64e.deb
+Size: 17820
+MD5sum: 6ca28e93ff9e985d13b70aa5e15e1590
+SHA1: ada50dab6efa5e2a2110d9268ccf4050075c51c4
+SHA256: 7437b2d16aa920cf66cc34934af4903213e8c39babca37fe1b2a14039234e502
+Section: Tweaks
+Description: 深度优化iOS设备，温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermal
+Version: 1.3.4-1+debug
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 296
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.iosthermal_1.3.4-1+debug_iphoneos-arm64.deb
+Size: 28440
+MD5sum: a9f845dbdfcb595ebc359244cc4cb3e2
+SHA1: 097f4a5168ba29d271edc6819efb2cb240e8a27a
+SHA256: f460df419b0cc6d04ca8584c6a867df00d44f4e2d2832229bc0f8ee673603e19
+Section: Tweaks
+Description: 深度优化iOS设备，温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
