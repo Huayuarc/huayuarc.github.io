@@ -3945,6 +3945,25 @@ Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
 Name: o2Pro(Rootless)
 Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
 
+Package: xc.lzsxcl.o2pro.rootless
+Version: 17.9.1
+Architecture: iphoneos-arm64
+Maintainer: lzsxcl
+Installed-Size: 30668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/xc.lzsxcl.o2pro.rootless_17.9.1_iphoneos-arm64.deb
+Size: 15835658
+MD5sum: f6780a96a901b029a63eea55098eeecc
+SHA1: 5ab7bce012a4486d1cad5283875cf7eb6bc5a2d2
+SHA256: 84f8c64d94a3c5e22ae85183e378811427bb3e2d98de64326db84a2318b827bb
+Section: Tweaks
+Description: 注重设计与用户体验的优雅产品。
+Author: lzsxcl
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+Name: o2Pro(Rootless)
+Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
+
 Package: xyz.cypwn.xinam1ne
 Version: 2.4-8
 Architecture: iphoneos-arm64

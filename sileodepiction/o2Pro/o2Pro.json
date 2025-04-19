@@ -72,7 +72,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "17.9",
+          "text": "17.9.1",
           "title": "最新版本"
         },
         {
@@ -97,13 +97,13 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "17.9",
+          "title": "17.9.1",
           "useBoldText": true,
           "useBottomMargin": false
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "上传备用",
+          "markdown": "修复了分屏卡顿的问题",
           "useRawFormat": true
         }
       ]
