@@ -713,6 +713,38 @@ Description: 强制启用新版抖音长按 UI（现代风）
 Author: huami
 Name: DYEnablePanelModernStyle
 
+Package: com.huami.dyenablepanelmodernstyle
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.dyenablepanelmodernstyle_1.1_iphoneos-arm64.deb
+Size: 5278
+MD5sum: cfb5d3889a0bb8162a1b324488c462a1
+SHA1: d21a0dc62f7861bdcd39a0c75e6da2dbff0e25b0
+SHA256: 114880eee620da43226ec8d4cf7d91633a1953e6cde7a3ef455cd69005949758
+Section: Tweaks
+Description: 强制启用新版抖音长按 UI（现代风）
+Author: huami
+Name: DYEnablePanelModernStyle(Rootless)
+
+Package: com.huami.dyenablepanelmodernstyle
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.dyenablepanelmodernstyle_1.1_iphoneos-arm64e.deb
+Size: 5192
+MD5sum: 313dfcbc9edbdde5f8cd4a6bd5ae29ab
+SHA1: a5c81e5f78fd9490a9782528599dc375888026e0
+SHA256: 39fd412ea18f06014fefa6c60071bd7c27c33d41cb0721d600dd87f81433fa17
+Section: Tweaks
+Description: 强制启用新版抖音长按 UI（现代风）
+Author: huami
+Name: DYEnablePanelModernStyle(Roothide)
+
 Package: com.huami.dyyy
 Version: 2.2-3
 Architecture: iphoneos-arm64
