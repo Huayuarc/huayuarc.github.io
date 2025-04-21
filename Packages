@@ -3201,6 +3201,69 @@ Depiction: https://chariz.com/get/altdaemon
 Icon: https://cdn.chariz.cloud/icon/altdaemon/icon@3x.png
 Name: AltDaemon
 
+Package: com.rpetrich.powercuff
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 188
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/com.rpetrich.powercuff_1.4_iphoneos-arm64.deb
+Size: 15816
+MD5sum: 6a9f7a7b9597b17907900c22d1bd03d1
+SHA1: 1b13df16e467d74580fb02371fab7a1de527a3d2
+SHA256: fbc18d5515dbaebdc2ce99eb706ed55809099421b469175d8c690b285f75756d
+Section: Tweaks
+Homepage: http://rpetri.ch/cydia/powercuff/
+Description: Select from additional low power device states
+Tag: purpose::extension
+Author: Ryan Petrich <rpetrich+powercuff@gmail.com>
+Depiction: http://rpetri.ch/cydia/powercuff/
+Dev: rpetrich
+Name: Powercuff(Rootless)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.rpetrich.powercuff
+Version: 1.4
+Architecture: iphoneos-arm64e
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 188
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/com.rpetrich.powercuff_1.4_iphoneos-arm64e.deb
+Size: 15718
+MD5sum: 464a794a4a30b58cf12d1609dd4ee88c
+SHA1: 1b4371b27a7e9acd4567f3c184205d564a75465b
+SHA256: 531020e214a0d041b66948e97d603e33b2dee6b47b84a9ff0e8c19cbd5bedf14
+Section: Tweaks
+Homepage: http://rpetri.ch/cydia/powercuff/
+Description: Select from additional low power device states
+Tag: purpose::extension
+Author: Ryan Petrich <rpetrich+powercuff@gmail.com>
+Depiction: http://rpetri.ch/cydia/powercuff/
+Dev: rpetrich
+Name: Powercuff(Roothide)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.rpetrich.powercuff
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 188
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/com.rpetrich.powercuff_1.4_iphoneos-arm.deb
+Size: 15666
+MD5sum: d9e938d37c3a7969417a04dbada6c3de
+SHA1: 098e94847e9a65197160ed670aba58ef39376b6c
+SHA256: 6a4c3ad56cf6d14b031b8d70fc452351c2d1c953661b42fccfc43bc7794b4c71
+Section: Tweaks
+Homepage: http://rpetri.ch/cydia/powercuff/
+Description: Select from additional low power device states
+Tag: purpose::extension
+Author: Ryan Petrich <rpetrich+powercuff@gmail.com>
+Depiction: http://rpetri.ch/cydia/powercuff/
+Dev: rpetrich
+Name: Powercuff
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.sopppra.settingsrevamp.roothide
 Version: 2.1.1
 Architecture: iphoneos-arm64e
