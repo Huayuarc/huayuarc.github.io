@@ -1446,26 +1446,6 @@ Sponsor: Sandy0
 
 Package: com.huayuarc.iosthermal
 Version: 1.3.2-1+debug
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 272
-Depends: mobilesubstrate
-Conflicts: com.huayuarc.thermalpatcher.rootless
-Filename: debs/com.huayuarc.iosthermal_1.3.2-1+debug_iphoneos-arm64.deb
-Size: 23988
-MD5sum: 01904b66eea2ac17ef5624ee6c9bbd43
-SHA1: 732ed79d1636c5733096d054a83dcc5d4f8a3126
-SHA256: 1c02f7101f95bbc5862c253ff7f2a7d4eea7892adb3a72204a85cccb0ab1516f
-Section: Tweaks
-Description: 深度优化iOS设备，加快iOS反应
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-Icon: https://huayuarc.github.io/images/ThermalPatcher.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-
-Package: com.huayuarc.iosthermal
-Version: 1.3.2-1+debug
 Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
 Installed-Size: 144
@@ -1622,6 +1602,26 @@ Author: Huayuarc
 Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermal
+Version: 1.3.8
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.iosthermal_1.3.8_iphoneos-arm64e.deb
+Size: 8412
+MD5sum: 788a6a9f07f0529964ebc3326ce3a671
+SHA1: 92263be18ba1b017beac71e44354f2339bbcb401
+SHA256: f4735ad0d5ee7e5d469ced55af669bdf2bca99bfaed615dd21e2469e6fdc4fd5
+Section: Tweaks
+Description: 深度优化iOS设备，温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Roothide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
 Package: com.huayuarc.jinyongtzzxss.roothide
