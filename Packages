@@ -853,6 +853,24 @@ Description: 仅供学习交流，请在 24 小时内自觉删除。
 Author: huami
 Name: DYYY(Roothide)
 
+Package: com.huami.dyyy
+Version: 2.2-4-184
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 2116
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-4-184_iphoneos-arm64.deb
+Size: 789904
+MD5sum: 61b8be4bfaf4a4c870e698fd7d5f0b15
+SHA1: 80e0a824abea87b7e25d510845976cc6fabdc231
+SHA256: 44e94d0e35b88380a5300cfe6319b9613c36a9c8ba9005d07fd707c81ad361b8
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY(Rootless)
+
 Package: com.huayuarc.GSHongBao.rootless
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1445,46 +1463,6 @@ Name: iOS 6 锁屏音效
 Sponsor: Sandy0
 
 Package: com.huayuarc.iosthermal
-Version: 1.3.3-1+debug
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 268
-Depends: mobilesubstrate
-Conflicts: com.huayuarc.thermalpatcher.rootless
-Filename: debs/com.huayuarc.iosthermal_1.3.3-1+debug_iphoneos-arm64.deb
-Size: 23694
-MD5sum: 8402bef2ac64e250f88d6c4da19fec60
-SHA1: 548c3a091a5bcf4be415b376d8cc33d1315e63d1
-SHA256: 085112e3bda9d5e18d5f691692e3438ba9816023bb12a51a1b2fc46013b6b152
-Section: Tweaks
-Description: 深度优化iOS设备，加快iOS反应
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-Icon: https://huayuarc.github.io/images/ThermalPatcher.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-
-Package: com.huayuarc.iosthermal
-Version: 1.3.3-1+debug
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 140
-Depends: mobilesubstrate
-Conflicts: com.huayuarc.thermalpatcher.rootless
-Filename: debs/com.huayuarc.iosthermal_1.3.3-1+debug_iphoneos-arm64e.deb
-Size: 14986
-MD5sum: 5fa5c60e141881f5513ffd484d79592b
-SHA1: e0e1b62d47b229cb6a38959d482b93cb7aeb6167
-SHA256: 226ff5e0712ff9e0469b4816a90e2eddbb736badf09171da2e4d5c8692b8e069
-Section: Tweaks
-Description: 深度优化iOS设备，加快iOS反应
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-Icon: https://huayuarc.github.io/images/ThermalPatcher.png
-Name: IosThermal(Roothide)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-
-Package: com.huayuarc.iosthermal
 Version: 1.3.4-1+debug
 Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
@@ -1616,6 +1594,46 @@ Size: 12710
 MD5sum: 34ea5d6824ccf9a3fc2aaa212b981b83
 SHA1: afe66880b5002155fa34172c15bfe81c739ad89c
 SHA256: deea6b1a4cdf753493502674a0ad7fd6175b6fa6bd75b530ef36454f96daa119
+Section: Tweaks
+Description: 深度优化iOS设备，温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermal
+Version: 1.3.9.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 200
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.iosthermal_1.3.9.1_iphoneos-arm64.deb
+Size: 13916
+MD5sum: 8e34653c31f1f09578e7d6c2b6f54120
+SHA1: bfe1c1efabf18afac2898f6c419c2906633816d0
+SHA256: ae23657962dee8f151a138b99d66ecfb8b86c584946e312ce758eabfa9bc2304
+Section: Tweaks
+Description: 深度优化iOS设备，温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermal
+Version: 1.3.9.2
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 200
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.iosthermal_1.3.9.2_iphoneos-arm64.deb
+Size: 14020
+MD5sum: 8bc9bbc228c70b56aa0b4f7871e0216f
+SHA1: a8c7a39e9948042566a1316320b8390c501440d8
+SHA256: f3bfc486aabd58cff52bfdc7a35e83623148564abe615a488f753f737589aa41
 Section: Tweaks
 Description: 深度优化iOS设备，温控
 Author: Huayuarc
