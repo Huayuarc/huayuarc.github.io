@@ -1776,6 +1776,26 @@ Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: SwiftFlow Pro(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
+Package: com.huayuarc.swiftflowpro
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.swiftflowpro_0.0.2_iphoneos-arm64.deb
+Size: 4516
+MD5sum: 6683090d77366554635b75bd4fab1270
+SHA1: 2e7d0287fc4e3e0e6be48ea4b3a9f1cf0170c65c
+SHA256: 1605c464b6f61e52f90435efb456ef3e7e39f52fa2fea0de9c731272a8b8ed84
+Section: Tweaks
+Description: ios系统级流畅度优化-自用版本
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: SwiftFlow Pro(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
 Package: com.huayuarc.wechattimelinerobot.rootless
 Version: 0.0.2.8
 Architecture: iphoneos-arm64
