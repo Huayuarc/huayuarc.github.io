@@ -300,6 +300,36 @@ Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手
 
+Package: com.HBWechatHelper.ailun
+Version: 1.8.3
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: debs/com.HBWechatHelper.ailun_1.8.3_iphoneos-arm64.deb
+Size: 15682248
+MD5sum: 053ff0ce55e86728cb2679bf39d7e68c
+SHA1: fdd3d0b72f597f478165004ba1b81657bf7bb92a
+SHA256: 7dc30d497f392748b97f20e3d24eb29f2c0b1cdcb601fe0e13ffa26e69784513
+Section: Mao
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(Rootless)
+
+Package: com.HBWechatHelper.ailun
+Version: 1.8.3
+Architecture: iphoneos-arm
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Filename: debs/com.HBWechatHelper.ailun_1.8.3_iphoneos-arm.deb
+Size: 15903550
+MD5sum: 851a9694e2463015d97b322ff28fa531
+SHA1: 4d8840810aa4e21c82eae1ee607b986c3e6a2821
+SHA256: fc80c966c85e1049190f4edff6439f91ce61d868518acb0b6ede5d29c83fdea8
+Section: Mao
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手(微信插件)
+
 Package: com.arwayaw.mynoads
 Version: 0.0.1.1+debug
 Architecture: iphoneos-arm
@@ -1776,6 +1806,46 @@ Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: SwiftFlow Pro(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
+Package: com.huayuarc.swiftflow
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.swiftflow_0.0.3_iphoneos-arm64e.deb
+Size: 2940
+MD5sum: 89b8b49098cd09c8e4670febf74121e2
+SHA1: abb83d79f4f6380d567eef5fad2b4d4e6c548140
+SHA256: 338632ee82455ff6237a8f4d19020721da00276b7a13a638225a0ee0ddfdd1b7
+Section: Tweaks
+Description: ios系统级流畅度优化
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: SwiftFlow Pro(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.swiftflow
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.swiftflow_0.0.3_iphoneos-arm64.deb
+Size: 3636
+MD5sum: c642617726b5be36f416409a8af274bf
+SHA1: f28a052ee0c4c257e856e7835ae9cc8481dd47e4
+SHA256: bfeb97f48af2e34d02acc32d3dcc3fcaa6a99c691b3bd2ed7a76c170393d40b8
+Section: Tweaks
+Description: ios系统级流畅度优化
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: SwiftFlow Pro(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
 Package: com.huayuarc.swiftflowpro
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -1794,6 +1864,26 @@ Author: Huayuarc
 Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: SwiftFlow Pro(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.swiftflowpro
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.swiftflowpro_0.0.3_iphoneos-arm64.deb
+Size: 3738
+MD5sum: 7a8e112d6a517e80f9d68538402fde2c
+SHA1: ef8f7a93492c90929b566e49126c3a135aef7b2b
+SHA256: a580365f02f2b99e479ce1de5d6cdb916273c7347ed35b00b65f57c81b4089b5
+Section: Tweaks
+Description: ios系统级流畅度优化(自用)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: SwiftFlow Pro(Roothide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
 Package: com.huayuarc.wechattimelinerobot.rootless
