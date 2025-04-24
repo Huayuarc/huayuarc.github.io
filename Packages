@@ -1738,6 +1738,26 @@ Sponsor: Spark
 
 Package: com.huayuarc.swiftflow
 Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.swiftflow_0.0.2_iphoneos-arm64e.deb
+Size: 4352
+MD5sum: a1e05cbfaa153c29ea7446ef914d0c26
+SHA1: ab10459a0ed5a7beba9f218bfc9e33db020e3e6a
+SHA256: 2b6f4bd506b55511f3ddfc28aa4abc3b70706e57b4e93fe8825891022d7db6d2
+Section: Tweaks
+Description: ios系统级流畅度优化
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: SwiftFlow Pro(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.swiftflow
+Version: 0.0.2
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
 Installed-Size: 168
