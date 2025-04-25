@@ -2953,6 +2953,22 @@ Description: 禁用主屏幕负一屏/资源库
 Author: poqw312
 Name: 禁用主屏幕负一屏(Rootless)
 
+Package: com.poqw312.jinyongzpmfypzyk
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.poqw312.jinyongzpmfypzyk_0.0.1_iphoneos-arm64e.deb
+Size: 2122
+MD5sum: 8e0cb2f1528be6e7ae5f9b57339442d0
+SHA1: be2960da44e80611f1494540a1c78a3adaca66bd
+SHA256: 55a066b7893f9de6dbda4f59fbd87ae9b0279f6e16b426dcc1d75b50bd588311
+Section: Tweaks
+Description: 禁用主屏幕负一屏/资源库
+Author: poqw312
+Name: 禁用主屏幕负一屏(Roothide)
+
 Package: com.ps.amber
 Version: 1.2.0
 Architecture: iphoneos-arm
