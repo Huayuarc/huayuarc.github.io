@@ -1846,6 +1846,46 @@ Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: SwiftFlow Pro(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
+Package: com.huayuarc.swiftflowjs
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.swiftflowjs_0.0.3_iphoneos-arm64.deb
+Size: 3786
+MD5sum: 7741601711aac3822d7e34dd02b8851d
+SHA1: a6d9d9b8b3829dd880adf5b0f6a1220c9788b1d7
+SHA256: 6ec0e4cf4eefc1a98338434f175eef5d70a4589be2240d20b90476b1e8dccd38
+Section: Tweaks
+Description: ios系统级流畅度优化(极速：0.01)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: SwiftFlow Pro(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.swiftflowjs
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.swiftflowjs_0.0.3_iphoneos-arm64e.deb
+Size: 3054
+MD5sum: e883c11f56b895859a30cb9e08a61e9b
+SHA1: 88d8e72942fae08d565d63e138d1d439fc00d589
+SHA256: 23d50f3660b8a29059a699efb6a47b61862948444b83e4407d0ada8fb351c416
+Section: Tweaks
+Description: ios系统级流畅度优化(极速：0.01)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: SwiftFlow Pro(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
 Package: com.huayuarc.swiftflowpro
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -2897,6 +2937,22 @@ Icon: https://raw.githubusercontent.com/pkgFiles/pkgfiles.github.io/main/assets/
 Name: HarlemShake Reborn(Rootless)
 Sileodepiction: https://pkgfiles.github.io/sileodepictions/com.pkgfiles.harlemshakereborn/depiction.json
 
+Package: com.poqw312.jinyongzpmfypzyk
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.poqw312.jinyongzpmfypzyk_0.0.1_iphoneos-arm64.deb
+Size: 2508
+MD5sum: f65a9f1929be3a13093beb37196ed391
+SHA1: 9e648b38a9d61b43cc1efa9d0db4844edebc12a6
+SHA256: 7216dc87560177749bda9fd9a0b7683fffb959214c5d0ddfcb9726241a81b994
+Section: Tweaks
+Description: 禁用主屏幕负一屏/资源库
+Author: poqw312
+Name: 禁用主屏幕负一屏(Rootless)
+
 Package: com.ps.amber
 Version: 1.2.0
 Architecture: iphoneos-arm
@@ -3081,6 +3137,23 @@ Icon: https://huayuarc.github.io/images/split-view-pro.png
 Name: Split-view-pro(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/split-view-pro/split-view-pro.json
 Ts: sp-sss
+
+Package: com.susu.fuckwechatads
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: susu
+Installed-Size: 104
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.susu.fuckwechatads_1.0.2_iphoneos-arm64.deb
+Size: 21248
+MD5sum: d1f896eedf2cd7c10ca4d82343cb65a5
+SHA1: 5ff3d0c6e4c24e19242b579e9f7bf633a3ba03ff
+SHA256: add8c8f4ca60a6ad138d85fe624e2b0b164b7e14bbf43d97780ec8735ec93e28
+Section: 插件
+Description: No WeChatAds
+Author: susu
+Icon: https://www.susubaby.top/images/wechat.png
+Name: FuckWeChatAds
 
 Package: com.susu.reachplayer.rootless
 Version: 3.8.1
