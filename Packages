@@ -1868,6 +1868,26 @@ Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/Thermal
 
 Package: com.huayuarc.swiftflowpro
 Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless
+Filename: debs/com.huayuarc.swiftflowpro_0.0.3_iphoneos-arm64e.deb
+Size: 3104
+MD5sum: 485072b205cc28983725ecf8a8587f0b
+SHA1: fb6c4644366f6704d75bcf9e465ffb988b88321f
+SHA256: 232900c2d888cfef797224e3cadd4bdbb942992243712190c6f19f4d0e89163c
+Section: Tweaks
+Description: ios系统级流畅度优化(自用)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: SwiftFlow Pro(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.swiftflowpro
+Version: 0.0.3
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
 Installed-Size: 168
