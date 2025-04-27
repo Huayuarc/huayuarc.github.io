@@ -1256,70 +1256,6 @@ Author: John Coates
 Name: Flex3 Beta(Roothide)
 Sponsor: 来了老弟
 
-Package: com.huayuarc.fluidswitcher
-Version: 0.0.1
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 88
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.fluidswitcher_0.0.1_iphoneos-arm64e.deb
-Size: 2158
-MD5sum: 946b18fb6e43f1a0b7127dec36207cfa
-SHA1: f112732a5aa29ff7e7debeac8d9a3b50f86271b6
-SHA256: b77aa4af727a2b671a63030cedd1aca49d327e412483314525d565eb5ab2e111
-Section: Tweaks
-Description: iOS 开启进入APP右侧动画
-Author: Huayuarc
-Name: FluidSwitcher lcon Hider(Roothide)
-
-Package: com.huayuarc.fluidswitcher
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.fluidswitcher_0.0.1_iphoneos-arm64.deb
-Size: 2540
-MD5sum: fb645ae360078ad349b6b265f7f924c0
-SHA1: f8f158356e49473e8bfe59fdf7caa0e28df115c7
-SHA256: 22c2266b18a321e894ae9228ba909432677dca6364f2004bbde5450aa3741154
-Section: Tweaks
-Description: iOS 开启进入APP右侧动画
-Author: Huayuarc
-Name: FluidSwitcher lcon Hider(Rootless)
-
-Package: com.huayuarc.fluidswitcher
-Version: 0.0.2
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 88
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.fluidswitcher_0.0.2_iphoneos-arm64e.deb
-Size: 2668
-MD5sum: ce60e62c4166140fc28599e8cca1bbf8
-SHA1: 8aceb80aae7def5dc5e5750a2cf6444564d561e5
-SHA256: 75ed1b9efffd18417d9f5c6e634a6bf090fe9b0e2df570fbbb222c9af3090725
-Section: Tweaks
-Description: iOS 开启进入APP右侧动画
-Author: Huayuarc
-Name: FluidSwitcher lcon Hider(Roothide)
-
-Package: com.huayuarc.fluidswitcher
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.fluidswitcher_0.0.2_iphoneos-arm64.deb
-Size: 3250
-MD5sum: 81cc5ec3ab7136b3b8dd016161fa339a
-SHA1: b7ff07bbefff287cca6178c44d42de5ed0780ad8
-SHA256: a8c42379a5aa76588addef6f628aa28c09c4b95d4245fe2835faacadea98a284
-Section: Tweaks
-Description: iOS 开启进入APP右侧动画
-Author: Huayuarc
-Name: FluidSwitcher lcon Hider(Rootless)
-
 Package: com.huayuarc.frame.ios13
 Version: 3.0.1
 Architecture: iphoneos-arm
@@ -1676,6 +1612,26 @@ Size: 11660
 MD5sum: 348baed28429b184f354b1d0f38f2989
 SHA1: 6a4016148277ed1709fbd72dab1983dec5a138b6
 SHA256: 35bb879412f46d8bc94a23b1a4b175162b26edbca0186d53215bce6481a3e143
+Section: Tweaks
+Description: 深度优化iOS设备，温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 0.0.6
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless , com.huayuarc.swiftflowjs , com.huayuarc.swiftflowpro , com.huayuarc.iosthermal , com.huayuarc.swiftflow
+Filename: debs/com.huayuarc.iosthermalpro_0.0.6_iphoneos-arm64.deb
+Size: 12036
+MD5sum: b63ed892ffecd9a8c61b7d3caa193940
+SHA1: b0ef2bc6d8ebb7692a3ff71ef04467f764d44022
+SHA256: 95750f2431b78491065927cdeac077e7cc2830d089bb4de92d36158f0a4ca609
 Section: Tweaks
 Description: 深度优化iOS设备，温控
 Author: Huayuarc
