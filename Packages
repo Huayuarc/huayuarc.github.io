@@ -1542,6 +1542,26 @@ Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/Thermal
 
 Package: com.huayuarc.iosthermalpro
 Version: 0.0.4
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless , com.huayuarc.swiftflowjs , com.huayuarc.swiftflowpro , com.huayuarc.iosthermal , com.huayuarc.swiftflow
+Filename: debs/com.huayuarc.iosthermalpro_0.0.4_iphoneos-arm64e.deb
+Size: 8336
+MD5sum: af309a97c1302fdc546b558a151f30df
+SHA1: d947ddf5381c37764c47071714d1f535f3ee57dd
+SHA256: 8a4b15b5b58b80f293f49cb8dfc2ccee707ad577fd071d546bf16fe3e47f4220
+Section: Tweaks
+Description: 深度优化iOS设备，温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 0.0.4
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
 Installed-Size: 168
@@ -1558,26 +1578,6 @@ Author: Huayuarc
 Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-
-Package: com.huayuarc.iosthermalpro
-Version: 0.0.4
-Architecture: iphoneos-arm
-Maintainer: Huayuarc
-Installed-Size: 88
-Depends: mobilesubstrate
-Conflicts: com.huayuarc.thermalpatcher.rootless , com.huayuarc.swiftflowjs , com.huayuarc.swiftflowpro , com.huayuarc.iosthermal , com.huayuarc.swiftflow
-Filename: debs/com.huayuarc.iosthermalpro_0.0.4_iphoneos-arm.deb
-Size: 8340
-MD5sum: cb88e68dc7f669cdb67a80a93c3637e8
-SHA1: 3128a71acadee1d669c5c919dc3c1cf480aec5ee
-SHA256: 10ea6236cce379168b56170a7fef681c701493e45b7f3eb277c85793c304b048
-Section: Tweaks
-Description: 深度优化iOS设备，温控
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-Icon: https://huayuarc.github.io/images/ThermalPatcher.png
-Name: IosThermal(Roothide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
 Package: com.huayuarc.jinyongtzzxss.roothide
