@@ -1288,6 +1288,38 @@ Description: iOS 开启进入APP右侧动画
 Author: Huayuarc
 Name: FluidSwitcher lcon Hider(Rootless)
 
+Package: com.huayuarc.fluidswitcher
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.fluidswitcher_0.0.2_iphoneos-arm64e.deb
+Size: 2668
+MD5sum: ce60e62c4166140fc28599e8cca1bbf8
+SHA1: 8aceb80aae7def5dc5e5750a2cf6444564d561e5
+SHA256: 75ed1b9efffd18417d9f5c6e634a6bf090fe9b0e2df570fbbb222c9af3090725
+Section: Tweaks
+Description: iOS 开启进入APP右侧动画
+Author: Huayuarc
+Name: FluidSwitcher lcon Hider(Roothide)
+
+Package: com.huayuarc.fluidswitcher
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.fluidswitcher_0.0.2_iphoneos-arm64.deb
+Size: 3250
+MD5sum: 81cc5ec3ab7136b3b8dd016161fa339a
+SHA1: b7ff07bbefff287cca6178c44d42de5ed0780ad8
+SHA256: a8c42379a5aa76588addef6f628aa28c09c4b95d4245fe2835faacadea98a284
+Section: Tweaks
+Description: iOS 开启进入APP右侧动画
+Author: Huayuarc
+Name: FluidSwitcher lcon Hider(Rootless)
+
 Package: com.huayuarc.frame.ios13
 Version: 3.0.1
 Architecture: iphoneos-arm
