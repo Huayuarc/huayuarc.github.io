@@ -1540,6 +1540,46 @@ Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: IosThermal(Roothide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
+Package: com.huayuarc.iosthermalpro
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless , com.huayuarc.swiftflowjs , com.huayuarc.swiftflowpro , com.huayuarc.iosthermal , com.huayuarc.swiftflow
+Filename: debs/com.huayuarc.iosthermalpro_0.0.4_iphoneos-arm64.deb
+Size: 11622
+MD5sum: 475a08a0a31178843d8cc2f9cd6aaf33
+SHA1: eae0983f1c3d51af6aeb3609e0c44d4cd8d1788e
+SHA256: 0b6a23aa98aab3b1ed4c9c21cdd544fd0098c237b58f0b10dbdfda15713b94ae
+Section: Tweaks
+Description: 深度优化iOS设备，温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless , com.huayuarc.swiftflowjs , com.huayuarc.swiftflowpro , com.huayuarc.iosthermal , com.huayuarc.swiftflow
+Filename: debs/com.huayuarc.iosthermalpro_0.0.4_iphoneos-arm.deb
+Size: 8340
+MD5sum: cb88e68dc7f669cdb67a80a93c3637e8
+SHA1: 3128a71acadee1d669c5c919dc3c1cf480aec5ee
+SHA256: 10ea6236cce379168b56170a7fef681c701493e45b7f3eb277c85793c304b048
+Section: Tweaks
+Description: 深度优化iOS设备，温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
