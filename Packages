@@ -1189,40 +1189,6 @@ Icon: https://repo.cypwn.xyz/assets/repo/Featured/dynamicpeninsula.png
 Name: DynamicPeninsula(Rootless)
 Sponsor: CyPwn
 
-Package: com.huayuarc.eqe
-Version: 2.2.2-1
-Architecture: iphoneos-arm
-Maintainer: CyPwn
-Depends: firmware (<< 16), mobilesubstrate, coreutils
-Filename: debs/com.huayuarc.eqe_2.2.2-1_iphoneos-arm.deb
-Size: 7938336
-MD5sum: 9bbc1b96571a6b0a4c2250a1c513c139
-SHA1: caf8eeafb112daa38cd616c8b0b9a37927e62844
-SHA256: dcfd4736eb88acc4800f85f53611098aa9cf73e83111d899d84c75fb9fe4765c
-Section: Tweaks
-Description: 全系统参数均衡器。
-Author: Reed Weichler
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/eqe.png
-Name: EQE
-Sponsor: CyPwn
-
-Package: com.huayuarc.eqe.rootless
-Version: 2.2.2-1
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: firmware (<< 16), mobilesubstrate, coreutils
-Filename: debs/com.huayuarc.eqe.rootless_2.2.2-1_iphoneos-arm64.deb
-Size: 7939832
-MD5sum: 4b9a501252c400a131880b97b378aaf6
-SHA1: f052da7a1b61b69827de7640fd1ace095cfafe31
-SHA256: 0d3a2a139be94a1f89b0319558c53e6631c545c276dfb28d9350cd7bca2bb522
-Section: Tweaks
-Description: 全系统参数均衡器
-Author: Reed Weichler
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/eqe.png
-Name: EQE(Rootless)
-Sponsor: CyPwn
-
 Package: com.huayuarc.fixset-roothide
 Version: 1.1
 Architecture: iphoneos-arm64e
@@ -3183,6 +3149,51 @@ Author: PoomSmart
 Name: Amber(Rootless)
 Sponsor: PoomSmart
 
+Package: com.r333d.eqe
+Version: 2.2.241009.1754.7cd8a
+Architecture: iphoneos-arm
+Maintainer: Reed Weichler (rweichler) <rweichler+cydia@gmail.com>
+Depends: mobilesubstrate, coreutils
+Filename: debs/com.r333d.eqe_2.2.241009.1754.7cd8a_iphoneos-arm.deb
+Size: 9017124
+MD5sum: 8635753a2b10bbf6338e8ba5ee536dbd
+SHA1: 490394a325a477c75d79b5b5202153abd84453af
+SHA256: aeb4684ee9331dce8508934015f4161ab7222dc7ab0f3bbdd3227ddc30cbb95a
+Section: Tweaks
+Description: System-wide parametric equalizer
+Author: Reed Weichler (rweichler) <rweichler+cydia@gmail.com>
+Name: EQE
+
+Package: com.r333d.eqe
+Version: 2.2.241017.2202.05f8
+Architecture: iphoneos-arm64
+Maintainer: Reed Weichler (rweichler) <rweichler+cydia@gmail.com>
+Depends: mobilesubstrate, coreutils
+Filename: debs/com.r333d.eqe_2.2.241017.2202.05f8_iphoneos-arm64.deb
+Size: 9015444
+MD5sum: f973328ccd97b4e5fc4cd5d58cb34c70
+SHA1: 516eb027dd652f8033d9242e683a4d1b9afca40b
+SHA256: 99bbbb3c9fb669445064b3de5b5c981ad12d7506e5755a1ef36ed7ae87c4fa94
+Section: Tweaks
+Description: System-wide parametric equalizer
+Author: Reed Weichler (rweichler) <rweichler+cydia@gmail.com>
+Name: EQE(Rootless)
+
+Package: com.r333d.eqe
+Version: 2.2.3~git-22006b
+Architecture: iphoneos-arm
+Maintainer: Reed Weichler (rweichler) <rweichler+cydia@gmail.com>
+Depends: mobilesubstrate, coreutils
+Filename: debs/com.r333d.eqe_2.2.3~git-22006b_iphoneos-arm.deb
+Size: 7911428
+MD5sum: 299f6328882b41b7cdde6fa477e63b3a
+SHA1: dc2e71510aa43135995cdf51c22d170610876055
+SHA256: 15bc91ae52c3cf217eb839d980d49429c587431f46148d5ddbe5f9b7add2c396
+Section: Tweaks
+Description: System-wide parametric equalizer
+Author: Reed Weichler (rweichler) <rweichler+cydia@gmail.com>
+Name: EQE
+
 Package: com.rexinxuegao.WCElite
 Version: 1.2-4
 Architecture: iphoneos-arm64
@@ -4092,6 +4103,24 @@ Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
 Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
 Name: o2Pro(Rootless)
 Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
+
+Package: xyz.cypwn.eqex
+Version: 2.2.2.2
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 15.0), mobilesubstrate, coreutils, xyz.cypwn.xinam1ne
+Filename: debs/xyz.cypwn.eqex_2.2.2.2_iphoneos-arm64.deb
+Size: 7970560
+MD5sum: c5311cf5ba0599f293ffc37c17f92617
+SHA1: 1880fea026e421b76583d86a10688bb9d6458523
+SHA256: c4b46d0a87fee856cdf84b1882705af558205203555a1341f4d328309466fc75
+Section: Tweaks
+Description: System-wide parametric equalizer. Modded by Sudo for Rootless.
+Author: Reed Weichler
+Depiction: https://repo.cypwn.xyz/depiction/1984
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/eqe.png
+Name: EQE X(Rootless)
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1984
 
 Package: xyz.cypwn.xinam1ne
 Version: 2.4-8
