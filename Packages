@@ -1462,6 +1462,26 @@ Name: iCleaner Pro-Roothide
 
 Package: com.huayuarc.iosthermalpro
 Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless , com.huayuarc.swiftflowjs , com.huayuarc.swiftflowpro , com.huayuarc.iosthermal , com.huayuarc.swiftflow
+Filename: debs/com.huayuarc.iosthermalpro_0.0.2_iphoneos-arm64e.deb
+Size: 8354
+MD5sum: a3f44b9a91484df7075a5a90b449dc4c
+SHA1: 74cf41ba5eb64879b06d92a86f9ef88aa781fb8c
+SHA256: a23b23a81815fff255730dac2501ad83380e3ee6c96c6d3eed880a7cb0cd665b
+Section: Tweaks
+Description: 深度优化iOS设备，温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 0.0.2
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
 Installed-Size: 168
