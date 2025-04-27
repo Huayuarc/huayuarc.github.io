@@ -1256,6 +1256,38 @@ Author: John Coates
 Name: Flex3 Beta(Roothide)
 Sponsor: 来了老弟
 
+Package: com.huayuarc.fluidswitcher
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.fluidswitcher_0.0.1_iphoneos-arm64e.deb
+Size: 2158
+MD5sum: 946b18fb6e43f1a0b7127dec36207cfa
+SHA1: f112732a5aa29ff7e7debeac8d9a3b50f86271b6
+SHA256: b77aa4af727a2b671a63030cedd1aca49d327e412483314525d565eb5ab2e111
+Section: Tweaks
+Description: iOS 开启进入APP右侧动画
+Author: Huayuarc
+Name: FluidSwitcher lcon Hider(Roothide)
+
+Package: com.huayuarc.fluidswitcher
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.fluidswitcher_0.0.1_iphoneos-arm64.deb
+Size: 2540
+MD5sum: fb645ae360078ad349b6b265f7f924c0
+SHA1: f8f158356e49473e8bfe59fdf7caa0e28df115c7
+SHA256: 22c2266b18a321e894ae9228ba909432677dca6364f2004bbde5450aa3741154
+Section: Tweaks
+Description: iOS 开启进入APP右侧动画
+Author: Huayuarc
+Name: FluidSwitcher lcon Hider(Rootless)
+
 Package: com.huayuarc.frame.ios13
 Version: 3.0.1
 Architecture: iphoneos-arm
@@ -1572,6 +1604,26 @@ Size: 11622
 MD5sum: 475a08a0a31178843d8cc2f9cd6aaf33
 SHA1: eae0983f1c3d51af6aeb3609e0c44d4cd8d1788e
 SHA256: 0b6a23aa98aab3b1ed4c9c21cdd544fd0098c237b58f0b10dbdfda15713b94ae
+Section: Tweaks
+Description: 深度优化iOS设备，温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless , com.huayuarc.swiftflowjs , com.huayuarc.swiftflowpro , com.huayuarc.iosthermal , com.huayuarc.swiftflow
+Filename: debs/com.huayuarc.iosthermalpro_0.0.5_iphoneos-arm64.deb
+Size: 11668
+MD5sum: 46c79fc24f29bbbc06be5e4a328b07fb
+SHA1: 199eb43e91e9bd512bd8282385d0a6c533640522
+SHA256: a818d5c61ff0dca5a2eafa17dab3d4e366cf41c41d194ebfa3474816e4651e2b
 Section: Tweaks
 Description: 深度优化iOS设备，温控
 Author: Huayuarc
