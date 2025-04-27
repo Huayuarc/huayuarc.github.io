@@ -1500,6 +1500,46 @@ Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: IosThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
+Package: com.huayuarc.iosthermalpro
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless , com.huayuarc.swiftflowjs , com.huayuarc.swiftflowpro , com.huayuarc.iosthermal , com.huayuarc.swiftflow
+Filename: debs/com.huayuarc.iosthermalpro_0.0.3_iphoneos-arm64.deb
+Size: 11644
+MD5sum: f684978efe05186112221628d9f9ddcc
+SHA1: e8e49b1c19604c3d18a01a0a9cfc9db20febdfd0
+SHA256: 65e023deeafcf94fc37b8b7cba5dadf305e3834c3c8c9ab0d1b1c713d09be515
+Section: Tweaks
+Description: 深度优化iOS设备，温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.thermalpatcher.rootless , com.huayuarc.swiftflowjs , com.huayuarc.swiftflowpro , com.huayuarc.iosthermal , com.huayuarc.swiftflow
+Filename: debs/com.huayuarc.iosthermalpro_0.0.3_iphoneos-arm64e.deb
+Size: 8238
+MD5sum: 77b1fcdc7b777b9b87c2dab30d42556d
+SHA1: ae0fe22f5999d013f02be3602cac86be551f5176
+SHA256: c9550170dbde227319fe09d38020b551bff22fd7dfedd8c0f7362fbe7c35d123
+Section: Tweaks
+Description: 深度优化iOS设备，温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
