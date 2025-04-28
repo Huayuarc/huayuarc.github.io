@@ -679,6 +679,23 @@ Description: 微信键盘自定义
 Author: Doki
 Name: 微信键盘自定义(Roothide)
 
+Package: com.dopamine.swapforcer
+Version: 0.0.2-7+debug
+Architecture: iphoneos-arm64
+Maintainer: Dopamine User
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: debs/com.dopamine.swapforcer_0.0.2-7+debug_iphoneos-arm64.deb
+Size: 7068
+MD5sum: 9647fcf35972cd1ec919eb059c8b23c6
+SHA1: 830a8988472acf97fb97c619beca3596d48e815b
+SHA256: 1ea4c811bce319a6c5152f7d2ed32c0ed0a153f68e9b3ad8a2a156fc067a2979
+Section: Tweaks
+Description: 强制启用并稳定运行iOS 16的Swap机制,提高应用留存率。
+Author: colorBlack
+Name: SwapForcer(Rootless)
+Prefix: /var/jb
+
 Package: com.dumpapp.wechat
 Version: 2.0.6
 Architecture: iphoneos-arm
