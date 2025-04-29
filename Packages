@@ -1444,46 +1444,6 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro-Roothide
 
 Package: com.huayuarc.iosthermalpro
-Version: 0.0.2
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 88
-Depends: mobilesubstrate
-Conflicts: com.huayuarc.thermalpatcher.rootless , com.huayuarc.swiftflowjs , com.huayuarc.swiftflowpro , com.huayuarc.iosthermal , com.huayuarc.swiftflow
-Filename: debs/com.huayuarc.iosthermalpro_0.0.2_iphoneos-arm64e.deb
-Size: 8354
-MD5sum: a3f44b9a91484df7075a5a90b449dc4c
-SHA1: 74cf41ba5eb64879b06d92a86f9ef88aa781fb8c
-SHA256: a23b23a81815fff255730dac2501ad83380e3ee6c96c6d3eed880a7cb0cd665b
-Section: Tweaks
-Description: 深度优化iOS设备，温控
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-Icon: https://huayuarc.github.io/images/ThermalPatcher.png
-Name: IosThermal(Roothide)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-
-Package: com.huayuarc.iosthermalpro
-Version: 0.0.3
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.huayuarc.thermalpatcher.rootless , com.huayuarc.swiftflowjs , com.huayuarc.swiftflowpro , com.huayuarc.iosthermal , com.huayuarc.swiftflow
-Filename: debs/com.huayuarc.iosthermalpro_0.0.3_iphoneos-arm64.deb
-Size: 11644
-MD5sum: f684978efe05186112221628d9f9ddcc
-SHA1: e8e49b1c19604c3d18a01a0a9cfc9db20febdfd0
-SHA256: 65e023deeafcf94fc37b8b7cba5dadf305e3834c3c8c9ab0d1b1c713d09be515
-Section: Tweaks
-Description: 深度优化iOS设备，温控
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-Icon: https://huayuarc.github.io/images/ThermalPatcher.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-
-Package: com.huayuarc.iosthermalpro
 Version: 0.0.3
 Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
@@ -1617,6 +1577,46 @@ SHA1: b0ef2bc6d8ebb7692a3ff71ef04467f764d44022
 SHA256: 95750f2431b78491065927cdeac077e7cc2830d089bb4de92d36158f0a4ca609
 Section: Tweaks
 Description: 深度优化iOS设备，温控
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 0.0.7
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.iosthermal
+Filename: debs/com.huayuarc.iosthermalpro_0.0.7_iphoneos-arm64e.deb
+Size: 9830
+MD5sum: 7db333f3570fc2887986dbd7dd3ffaf7
+SHA1: 4877d4a5aa467a92b5f923afdd9d4368fb3a837a
+SHA256: e9180ba3a3490c7de3ca07118e1618c5a75c9b16a9117a37c84cbbd9bd80b6be
+Section: Tweaks
+Description: 深度优化iOS设备，温控 (推荐使用真皮Hello CPU) 删除加速代码。
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 0.0.7
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.iosthermal
+Filename: debs/com.huayuarc.iosthermalpro_0.0.7_iphoneos-arm64.deb
+Size: 18318
+MD5sum: 37b137ee4069c90815ed9f45765ecff5
+SHA1: 06d1e28d076967aece47a489d633382d6d18b4d0
+SHA256: cf85a3566717bf2b8e606586a04661b3ffce48a5ba41013b67b91c62ad14939d
+Section: Tweaks
+Description: 深度优化iOS设备，温控 (推荐使用真皮Hello CPU) 删除加速代码。
 Author: Huayuarc
 Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 Icon: https://huayuarc.github.io/images/ThermalPatcher.png
