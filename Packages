@@ -1623,6 +1623,46 @@ Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: IosThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
+Package: com.huayuarc.iosthermalpro
+Version: 0.0.9
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 104
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermalpro_0.0.9_iphoneos-arm64e.deb
+Size: 295846
+MD5sum: 100593df04832e14d6ab2248011dd9d1
+SHA1: 240ac6aafbe08a6a8f97826eea240042720ca141
+SHA256: 776a1c2c07e44c7ff469201aff1a761f76b7de29711c376375546074b2f943b3
+Section: Tweaks
+Description: 深度优化iOS设备，温控 (推荐使用真皮：Hello CPU)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 0.0.9
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermalpro_0.0.9_iphoneos-arm64.deb
+Size: 310720
+MD5sum: 2b4e96c4024fe3da47a7d26b24499a38
+SHA1: 1befd7f09447b97a77cb89bbcbb971c799a59851
+SHA256: b7b9398b7fcc95633daf91b51bed54d96e2940747feef5e38b461ccc19434595
+Section: Tweaks
+Description: 深度优化iOS设备，温控 (推荐使用真皮：Hello CPU)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
