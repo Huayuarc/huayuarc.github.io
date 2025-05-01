@@ -1638,6 +1638,26 @@ Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: IosThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
+Package: com.huayuarc.iosthermalpro
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 200
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermalpro_1.0_iphoneos-arm64.deb
+Size: 313474
+MD5sum: 569f660ce8bc9c72a5e212b1e2cf197f
+SHA1: 0381f61971bcc14a63e7b291334f24c59b14ef8d
+SHA256: 532029dd7c38b143e7d7fb09e2ee9fcf5f6f0eb9e62aff8fd5a838a22eeb7533
+Section: Tweaks
+Description: 深度优化iOS设备，温控 (推荐使用真皮Hello CPU)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -1938,22 +1958,6 @@ Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamin
 Author: Muirey03 & lclrc
 Name: 锁屏录屏RecordAnywhere(Rootless)
 Sponsor: Muirey03 & lclrc
-
-Package: com.huayuarc.sa5gtweak
-Version: 1.8.1-1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 236
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.sa5gtweak_1.8.1-1_iphoneos-arm64.deb
-Size: 30622
-MD5sum: bf538d86a6529afbcd024fa19b15294a
-SHA1: eeae38fb9b5c7f4c4cad3da439d0f6506418f53d
-SHA256: 0ccec4bd7fe646fea9a43c2ccbf2167e3b996eb3022052228ca2e25a5198c238
-Section: Networking
-Description: 5G 网络增强
-Author: Huayuarc
-Name: 5G Enhancer(Rootless)
 
 Package: com.huayuarc.snowboard.xgb
 Version: 1.5.21-Beta3
@@ -3389,26 +3393,6 @@ Author: zxc
 Icon: https://huayuarc.github.io/images/tess.png
 Name: 禁止代理检测(Rootless)
 
-Package: com.sunshinesong.split-view-pro
-Version: 1.4.0
-Architecture: iphoneos-arm64
-Maintainer: sunshinesong
-Installed-Size: 5472
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
-Filename: debs/com.sunshinesong.split-view-pro_1.4.0_iphoneos-arm64.deb
-Size: 2307318
-MD5sum: 9531931643615b068034904ed2cf0569
-SHA1: 9a7b4228d3004af4e365ec15080b62f72cccbb9e
-SHA256: c97aa878daadd1a9bd1f6c1325bafd9aace24572f254ddfe41a548a4eb350801
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: sunshinesong
-Depiction: https://huayuarc.github.io/sileodepiction/split-view-pro/split-view-pro.json
-Icon: https://huayuarc.github.io/images/split-view-pro.png
-Name: Split-view-pro(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/split-view-pro/split-view-pro.json
-Ts: sp-sss
-
 Package: com.susu.fuckwechatads
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -4223,4 +4207,24 @@ Author: Paisseon, Sudo, NoW4U2Kid
 Icon: https://huayuarc.github.io/images/Xinamine.png
 Name: Xinam1ne All-in-One
 Sponsor: Huayuarc
+
+Package: xyz.cypwn.xinam1ne
+Version: 2.6-8
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 15.0), gawk, gzip, libclang-cpp16, llvm-16, llvm-16-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Replaces: emt.paisseon.xinamine
+Provides: emt.paisseon.xinamine (= 99)
+Filename: debs/xyz.cypwn.xinam1ne_2.6-8_iphoneos-arm64.deb
+Size: 4699472
+MD5sum: 71cef519d11971fadcef54207840e99b
+SHA1: 8ea14c457302faa4d2c5d3ac56c495663f0ed7eb
+SHA256: 349fd924cf9ccdfff003d96a73e7d886e0f7792aec601936709c843a31f7892f
+Section: Utilities
+Description: Xinamine Official All-in-One bundle. Convert rootful tweaks to rootless (and rootless to rootful) with ease using the Xinam1nePatcher in Filza or use the included Xinaf1re app.
+Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
+Depiction: https://repo.cypwn.xyz/depiction/2816
+Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
+Name: Xinam1ne AIO(Rootless)
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2816
 
