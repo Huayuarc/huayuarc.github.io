@@ -330,6 +330,22 @@ Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)
 
+Package: com.arm64.varclean
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: m1337 <arm64.deb@icloud.com>
+Depends: firmware (>= 15.0)
+Filename: debs/com.arm64.varclean_1.1_iphoneos-arm64.deb
+Size: 729854
+MD5sum: 147d7e30468a54c699a978264f2acf31
+SHA1: b95e4b0ebb8e176ca6c91b966c75f35e74f62920
+SHA256: 8adcf612d5aeb8cec6cd821436ea8051ac4177e045db19e04e80fd9612f6354a
+Section: System
+Description: varClean for Rootless varClean 清理由其他越狱及插件产生的垃圾文件。
+Author: m1337 <arm64.deb@icloud.com>
+Icon: https://raw.githubusercontent.com/BarabaVip/Baraba/refs/heads/main/VarClean.png
+Name: varClean(Rootless)
+
 Package: com.arwayaw.mynoads
 Version: 0.0.1.1+debug
 Architecture: iphoneos-arm
