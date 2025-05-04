@@ -181,14 +181,14 @@ Maintainer: Shadow- <krylov0@outlook.com>
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader (>= 2.2.3)
 Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.huayuarc.iosthermalpro
 Filename: debs/com.0xash.fuckthermal_1.2-38_iphoneos-arm64.deb
-Size: 343314
-MD5sum: 29fa173f3b12a68f330b424ce2f69c81
-SHA1: 1035ef404ede8360cf8800b3f2f834e2077df4e5
-SHA256: 4e533b64c81a8f01ac8148598ed6f1105aee8d93487635da8187d9f93b683b76
+Size: 343316
+MD5sum: 66151a5bd5cc00a82d671073e387d93b
+SHA1: d89f8eaf97587d4aa878967e96c6d42824b724a9
+SHA256: d27e8769dae91c4417fe08c5c1b3c91744f0dbbbc8dfcb2b154893d2f28cc522
 Section: System
 Description: 温控
 Author: Shadow- <krylov0@outlook.com>
-Name: fuckthermal(Rootless)
+Name: Fuckthermal(Rootless)
 
 Package: com.25mao.leftpan.roothide
 Version: 1.0-6
@@ -425,6 +425,24 @@ Description: 网易邮箱启动广告、邮箱列表广告。
 Author: Arway_Aw
 Name: 网易邮箱 NoAds(Rootless)
 Sponsor: Huayuarc
+
+Package: com.be-huge.floating-view
+Version: 1.5.2-2
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.floating-view_1.5.2-2_iphoneos-arm64.deb
+Size: 866956
+MD5sum: de344b0c925beb1fa4886b9ea294141b
+SHA1: 1e977445f08dcfb05b99910f5e117452521eea00
+SHA256: bd441ed3ed96118f8fe202afda5e8db911f0302ffca864f9c3cb09e9bb89406e
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Depiction: https://huayuarc.github.io/sileodepiction/FloatingView/FloatingView.json
+Icon: https://huayuarc.github.io/images/FloatingView.png
+Name: FloatingView(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/FloatingView/FloatingView.json
 
 Package: com.be-huge.wechat-push-msg-page
 Version: 0.0.2
