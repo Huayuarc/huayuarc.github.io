@@ -3176,6 +3176,338 @@ Dev: rpetrich
 Name: Powercuff
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.skypain.cclockscreen
+Version: 1.1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 176
+Depends: com.opa334.ccsupport
+Filename: debs/com.skypain.cclockscreen_1.1.0-1_iphoneos-arm64e.deb
+Size: 27522
+MD5sum: 4ffdd6587c5d97cd555f54588d8f1e29
+SHA1: 69553635301e56754110ab57a1b0621f27c6a448
+SHA256: c69000d94c5181994c789adf0930618a77bf9f5c5524cb6041b03f5a12c7e9d7
+Section: Control Center (Modules)
+Homepage: https://skypain.github.io/repo/
+Description: 控制中心锁屏模块
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Depiction: https://skypain.github.io/repo/static/view/?p=cclockscreen
+Icon: https://skypain.github.io/repo/src/cclockscreen/Icon.png
+Name: CCLockScreen(Roothide)
+Sileodepiction: https://skypain.github.io/repo/src/cclockscreen/config/sileo/depiction.json
+
+Package: com.skypain.cclockscreen
+Version: 1.1.0-1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 176
+Depends: com.opa334.ccsupport
+Filename: debs/com.skypain.cclockscreen_1.1.0-1_iphoneos-arm64.deb
+Size: 27594
+MD5sum: 816284aea8762b03bf75ac1ea3bb0416
+SHA1: 8525944a061127cefc45aaf156b6c617009e1459
+SHA256: 4747f47b27b9d72fac54d505b60c574e425e794e4df0816514ef86340913af77
+Section: Control Center (Modules)
+Homepage: https://skypain.github.io/repo/
+Description: 控制中心锁屏模块
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Depiction: https://skypain.github.io/repo/static/view/?p=cclockscreen
+Icon: https://skypain.github.io/repo/src/cclockscreen/Icon.png
+Name: CCLockScreen(Rootless)
+Sileodepiction: https://skypain.github.io/repo/src/cclockscreen/config/sileo/depiction.json
+
+Package: com.skypain.ccrespring
+Version: 2.0.0-1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 192
+Depends: com.opa334.ccsupport
+Filename: debs/com.skypain.ccrespring_2.0.0-1_iphoneos-arm64.deb
+Size: 28704
+MD5sum: b97075fe26cd23b23a41deff9cfd9efd
+SHA1: 1571b3b4d03a68f7ed780200f7836ee75018756e
+SHA256: 93cbf7f706c12ad14dfe2c8c8565ef96753a0938370ac9e69d54431bc2e0cd0d
+Section: Control Center (Modules)
+Homepage: https://skypain.github.io/repo/
+Description: 控制中心注销模块
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Depiction: https://skypain.github.io/repo/static/view/?p=ccrespring
+Icon: https://skypain.github.io/repo/src/ccrespring/Icon.png
+Name: CCRespring(Rootless)
+Sileodepiction: https://skypain.github.io/repo/src/ccrespring/config/sileo/depiction.json
+
+Package: com.skypain.ccrespring
+Version: 2.0.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 192
+Depends: com.opa334.ccsupport
+Filename: debs/com.skypain.ccrespring_2.0.0-1_iphoneos-arm64e.deb
+Size: 27010
+MD5sum: 368e2f63017f7dd8e4c71f14232f48d2
+SHA1: 7d4888b03c7629276c59e96e02652ded03b0ec2d
+SHA256: e56b7336cfc0e39a8e7988262a20e0f8eb9c674434714a34bc1ba065ebcee499
+Section: Control Center (Modules)
+Homepage: https://skypain.github.io/repo/
+Description: 控制中心注销模块
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Depiction: https://skypain.github.io/repo/static/view/?p=ccrespring
+Icon: https://skypain.github.io/repo/src/ccrespring/Icon.png
+Name: CCRespring(Roothide)
+Sileodepiction: https://skypain.github.io/repo/src/ccrespring/config/sileo/depiction.json
+
+Package: com.skypain.ccvpn
+Version: 1.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 184
+Depends: com.opa334.ccsupport
+Filename: debs/com.skypain.ccvpn_1.1.1-2_iphoneos-arm64.deb
+Size: 33868
+MD5sum: 2719aa810a0569f60d5ff0b3d700553d
+SHA1: 61ca99696fc13fbabf38031f820fe0a050816e1c
+SHA256: 7e2eb8ab54b88f889ec638ba7fb6fa2b272a6cd493fa8b7a592580ec30caccd5
+Section: Control Center (Modules)
+Homepage: https://skypain.github.io/repo/
+Description: 控制中心VPN便捷开关模块
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
+Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
+Name: CCVPN(Rootless)
+Sileodepiction: https://skypain.github.io/repo/src/ccvpn/config/sileo/depiction.json
+
+Package: com.skypain.ccvpn
+Version: 1.1.1-2
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 184
+Depends: com.opa334.ccsupport
+Filename: debs/com.skypain.ccvpn_1.1.1-2_iphoneos-arm64e.deb
+Size: 33806
+MD5sum: ac5a9176e9e5b5fd5dc4f672255cb882
+SHA1: dc65641f2a05276d3f9ec6308211a30ccac6a358
+SHA256: 5a81068fe355ea521cd5465aa04839428d45c026539b7666cc84de191ac4d208
+Section: Control Center (Modules)
+Homepage: https://skypain.github.io/repo/
+Description: 控制中心VPN便捷开关模块
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Depiction: https://skypain.github.io/repo/static/view/?p=ccvpn
+Icon: https://skypain.github.io/repo/src/ccvpn/Icon.png
+Name: CCVPN(Roothide)
+Sileodepiction: https://skypain.github.io/repo/src/ccvpn/config/sileo/depiction.json
+
+Package: com.skypain.flexloader
+Version: 5.25.19-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 3080
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.skypain.flexloader_5.25.19-1_iphoneos-arm64e.deb
+Size: 1123062
+MD5sum: e059abe177e0498f2bef9fc7c870276a
+SHA1: 5d27f3eff41a7c0dcb04c498c9fe39ab451ef772
+SHA256: b322c650246d7798c782dcb539c133135dd7ecd170e8e98a49f29211f63e6402
+Section: Tweaks
+Description: Flex 用于 iOS 开发调试工具
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: FlexLoader(Roothide)
+
+Package: com.skypain.flexloader
+Version: 5.25.19-1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 3080
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.skypain.flexloader_5.25.19-1_iphoneos-arm64.deb
+Size: 1123096
+MD5sum: 54dfe26dbc034c5a099de0a06f0863db
+SHA1: e8f8f8032f440a6a2316df272c139dfc3d3ec3ea
+SHA256: 1a19bddded6e71368bf9ae4bd5134e02763875e190be2fbd7026fb7e64def5a6
+Section: Tweaks
+Description: Flex 用于 iOS 开发调试工具
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: FlexLoader(Rootless)
+
+Package: com.skypain.kayoko
+Version: 2.0.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 1044
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: dev.traurige.kayoko, codes.aurora.kayoko
+Filename: debs/com.skypain.kayoko_2.0.0-1_iphoneos-arm64e.deb
+Size: 196872
+MD5sum: acd105803c665330713da655ae2cf5e2
+SHA1: 069192bc34157a9ac778e37fb6b0b252da1242bc
+SHA256: 80ef19430cec101037189d6b50773bcab6cb8c506b9776ba8d672b34a3c9c421
+Section: Tweaks
+Homepage: https://skypain.github.io/repo/
+Description: kayoko Modified 基于Traurige和Lessica的开源项目 支持Rootless和Roothide Kayoko Modified, based on the open-source projects of Traurige and Lessica, supports Rootless and Roothide.
+Author: Traurige&Lessica
+Depiction: https://skypain.github.io/repo/static/view/?p=kayoko
+Icon: https://skypain.github.io/repo/src/kayoko/Icon.png
+Name: Kayoko Modified(Roothide)
+Sileodepiction: https://skypain.github.io/repo/src/kayoko/config/sileo/depiction.json
+
+Package: com.skypain.kayoko
+Version: 2.0.0-1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 1044
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: dev.traurige.kayoko, codes.aurora.kayoko
+Filename: debs/com.skypain.kayoko_2.0.0-1_iphoneos-arm64.deb
+Size: 196662
+MD5sum: a7c85303a978ea3badb0f5ecb1fe8554
+SHA1: 2b3b4e42c52587374efb631a2348614f5326b368
+SHA256: 619db3e2fb96af8546e1266166f0b4465a9c80cda779710a3359268b5b037298
+Section: Tweaks
+Homepage: https://skypain.github.io/repo/
+Description: kayoko Modified 基于Traurige和Lessica的开源项目 支持Rootless和Roothide Kayoko Modified, based on the open-source projects of Traurige and Lessica, supports Rootless and Roothide.
+Author: Traurige&Lessica
+Depiction: https://skypain.github.io/repo/static/view/?p=kayoko
+Icon: https://skypain.github.io/repo/src/kayoko/Icon.png
+Name: Kayoko Modified(Rootless)
+Sileodepiction: https://skypain.github.io/repo/src/kayoko/config/sileo/depiction.json
+
+Package: com.skypain.kayoko
+Version: 2.0.1-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 1012
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: dev.traurige.kayoko, codes.aurora.kayoko
+Filename: debs/com.skypain.kayoko_2.0.1-1_iphoneos-arm64e.deb
+Size: 199850
+MD5sum: e12da50950a21f964c389092dc6b2dec
+SHA1: c26effbcded382db7c6f358d1cbb828432366388
+SHA256: 2d4c0f6fe9d751ca8b6457d7ea6e05a238a396c1780c42fc01706d872ba8a77e
+Section: Tweaks
+Homepage: https://skypain.github.io/repo/
+Description: kayoko Modified 基于Traurige和Lessica的开源项目 支持Rootless和Roothide Kayoko Modified, based on the open-source projects of Traurige and Lessica, supports Rootless and Roothide.
+Author: Traurige&Lessica
+Depiction: https://skypain.github.io/repo/static/view/?p=kayoko
+Icon: https://skypain.github.io/repo/src/kayoko/Icon.png
+Name: Kayoko Modified(Roothide)
+Sileodepiction: https://skypain.github.io/repo/src/kayoko/config/sileo/depiction.json
+
+Package: com.skypain.kayoko
+Version: 2.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 1012
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: dev.traurige.kayoko, codes.aurora.kayoko
+Filename: debs/com.skypain.kayoko_2.0.1-1_iphoneos-arm64.deb
+Size: 199914
+MD5sum: b7276624ffbefe5c803cc6cbbd2bdcb3
+SHA1: 954452245eccf12d0ce49bf8242fce8019d6b71e
+SHA256: d5ff17f6bead0a5d905f24dfb634e517168740a6f105c16cedc6f8608e2df0f3
+Section: Tweaks
+Homepage: https://skypain.github.io/repo/
+Description: kayoko Modified 基于Traurige和Lessica的开源项目 支持Rootless和Roothide Kayoko Modified, based on the open-source projects of Traurige and Lessica, supports Rootless and Roothide.
+Author: Traurige&Lessica
+Depiction: https://skypain.github.io/repo/static/view/?p=kayoko
+Icon: https://skypain.github.io/repo/src/kayoko/Icon.png
+Name: Kayoko Modified(Rootless)
+Sileodepiction: https://skypain.github.io/repo/src/kayoko/config/sileo/depiction.json
+
+Package: com.skypain.lookinloader
+Version: 1.2.6-1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 4304
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.skypain.lookinloader_1.2.6-1_iphoneos-arm64.deb
+Size: 983674
+MD5sum: 4a74ac79eef6dbc88a906831e238b949
+SHA1: e3b01cb2177b57a92f41e55a93f738bcc7dc72fa
+SHA256: 2d312e6609028ad8cadd3a11b61cf30a11cb37ef9c696a2dc3eb4e54c34eb614
+Section: Tweaks
+Description: Lookin UI调试工具
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: LookinLoader(Rootless)
+
+Package: com.skypain.lookinloader
+Version: 1.2.6-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 4304
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.skypain.lookinloader_1.2.6-1_iphoneos-arm64e.deb
+Size: 983770
+MD5sum: 916eda0564eb5443109b7525d99cd92c
+SHA1: b36e83b95576595e78738fe195b4201d30eae129
+SHA256: dfe635a7a973d70a4b077e48ba81a2ccbf835d481aff2d3a36dc81cd54871627
+Section: Tweaks
+Description: Lookin UI调试工具
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: LookinLoader(Roothide)
+
+Package: com.skypain.lookinloader
+Version: 1.2.8-1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 4332
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.skypain.lookinloader_1.2.8-1_iphoneos-arm64.deb
+Size: 988904
+MD5sum: fd3889bb06b227de9d390bf442e8e0b5
+SHA1: 8c375441db49d1930cd56fb672d510632ed9ad38
+SHA256: d2ba588529f2157f2d08a3a64c6a1e79f631502db81ed57f159e6095373ed544
+Section: Tweaks
+Description: Lookin UI调试工具
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: LookinLoader(Rootless)
+
+Package: com.skypain.lookinloader
+Version: 1.2.8-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 4332
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.skypain.lookinloader_1.2.8-1_iphoneos-arm64e.deb
+Size: 989050
+MD5sum: 92d12056f1ba2a75830428515f51d7b3
+SHA1: fe132a19c4f2fc8081246c39ddb90da3e32ac274
+SHA256: b3ee2e14baa3625b2cedcb99eea76ee4c4c7d5246bdd56f79ae19cbd1102046a
+Section: Tweaks
+Description: Lookin UI调试工具
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: LookinLoader(Roothide)
+
+Package: com.skypain.lookinloader
+Version: 1.2.8-2
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 4332
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.skypain.lookinloader_1.2.8-2_iphoneos-arm64.deb
+Size: 989592
+MD5sum: e9569cd11fbc75fd22c4fa86c22b4152
+SHA1: 1bef85eb56a6be05d922d59df94cb58814e0140d
+SHA256: 865b81077006c0f999a6f59c9bc0889d7922287ee27423b09ae83a306fe5cba6
+Section: Tweaks
+Description: Lookin UI调试工具
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: LookinLoader(Rootless)
+
+Package: com.skypain.lookinloader
+Version: 1.2.8-2
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 4332
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.skypain.lookinloader_1.2.8-2_iphoneos-arm64e.deb
+Size: 989708
+MD5sum: 9ff7d14a6da65584f0ac711a80380b72
+SHA1: 0897e3ad605bfaa0b382aa09172d63c18245c7d3
+SHA256: 2493aae9d085b1e7bf3475ca80f6b5ed9142cda2c9710f827bc09c5c0ba0bcef
+Section: Tweaks
+Description: Lookin UI调试工具
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: LookinLoader(Roothide)
+
 Package: com.sopppra.settingsrevamp.roothide
 Version: 2.1.1
 Architecture: iphoneos-arm64e
