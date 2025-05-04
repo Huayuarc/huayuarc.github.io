@@ -174,6 +174,22 @@ Icon: https://huayuarc.github.io/images/Kayoko.png
 Name: Kayoko(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/Kayoko/Kayoko.json
 
+Package: com.0xash.fuckthermal
+Version: 1.2-38
+Architecture: iphoneos-arm64
+Maintainer: Shadow- <krylov0@outlook.com>
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader (>= 2.2.3)
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.huayuarc.iosthermalpro
+Filename: debs/com.0xash.fuckthermal_1.2-38_iphoneos-arm64.deb
+Size: 343314
+MD5sum: 29fa173f3b12a68f330b424ce2f69c81
+SHA1: 1035ef404ede8360cf8800b3f2f834e2077df4e5
+SHA256: 4e533b64c81a8f01ac8148598ed6f1105aee8d93487635da8187d9f93b683b76
+Section: System
+Description: 温控
+Author: Shadow- <krylov0@outlook.com>
+Name: fuckthermal(Rootless)
+
 Package: com.25mao.leftpan.roothide
 Version: 1.0-6
 Architecture: iphoneos-arm64e
@@ -1495,26 +1511,6 @@ Name: IosThermal(Roothide)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
 Package: com.huayuarc.iosthermalpro
-Version: 0.0.8
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
-Filename: debs/com.huayuarc.iosthermalpro_0.0.8_iphoneos-arm64.deb
-Size: 305616
-MD5sum: ce390932fb4ad2e3e87e6eadb7b52775
-SHA1: 4d1e22fb4f453814b93078ba0212774439b997d3
-SHA256: 902609b2f9fef5946870d6fdde43ef1d100e36cc916a5402265623d633b901c2
-Section: Tweaks
-Description: 深度优化iOS设备，温控 (推荐使用真皮：Hello CPU)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-Icon: https://huayuarc.github.io/images/ThermalPatcher.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-
-Package: com.huayuarc.iosthermalpro
 Version: 0.0.9
 Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
@@ -1652,6 +1648,26 @@ Author: Huayuarc
 Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: IosThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 204
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermalpro_1.3_iphoneos-arm64.deb
+Size: 320010
+MD5sum: b55f62cb5e314b007ec855ab33f0077e
+SHA1: 4f00c2c97b3af908a1b2d1ce5545b227d7616035
+SHA256: b4f1f66694c2a4a519ce3694c4646e5f33be822cd7912029b37d8316bdbf7ead
+Section: Tweaks
+Description: 深度优化iOS设备，温控 (推荐使用真皮Hello CPU)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+Icon: https://huayuarc.github.io/images/ThermalPatcher.png
+Name: IosThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
 
 Package: com.huayuarc.jinyongtzzxss.roothide
@@ -2891,22 +2907,6 @@ Size: 431126
 MD5sum: 03303f46836ddc482851253d8e6fdb0c
 SHA1: 4cb1a7639f5b7d730128e5034db9551e3e945ac2
 SHA256: 4cc1ca63c7f3fa7b46bb9c842f484a455b4b34074f079efe2bb3ec325336649a
-Section: Tweaks
-Description: Your control center, brought anew.控制中心插件。
-Author: Nightwind & thetimeloop
-Icon: https://huayuarc.github.io/images/Jade.png
-Name: Jade(Rootless)
-
-Package: com.nightwind.jade.rootless
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: Nightwind & thetimeloop
-Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
-Filename: debs/com.nightwind.jade.rootless_1.0.5_iphoneos-arm64.deb
-Size: 428074
-MD5sum: 2ee93f4c5343ea531697510f7d3edc6f
-SHA1: 9e8edcb06d234d4ba73378a5cdf7010c3d7f5271
-SHA256: f5d6a686b77113cbfb05e6eae2da58318df1566341d7079b995088311eab1372
 Section: Tweaks
 Description: Your control center, brought anew.控制中心插件。
 Author: Nightwind & thetimeloop
