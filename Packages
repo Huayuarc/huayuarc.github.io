@@ -80,10 +80,11 @@ Architecture: iphoneos-arm64
 Maintainer: RlPNDlP
 Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
 Filename: debs/Wen.cpu.RlPNDlP_2.0_iphoneos-arm64.deb
-Size: 1878
-MD5sum: aa9fc395b1794e83d0eb65721942bd80
-SHA1: 11331b9bf56e52cc958042578411bb8150cc4f3e
-SHA256: 4ae6776f268b719dea144518654e28812f07ae3696084a701eeeeb2c31d7bcc7
+Size: 1888
+MD5sum: 0807b1206173183473e53db6c50ff9ce
+SHA1: c40962f15f3c83fac6453e98f3630fbac6b5f5a1
+SHA256: 5650764d7e01ba7970ef74978cf223dafe3ea76f00dc1375b083fbd8a7e98891
+Section: System
 Description: 威锋网友：一铭劉學珄，打包deb越狱自动运行虚拟内存.sh
 Author: RlPNDlP
 Name: 虚拟内存优化(Rootless)
@@ -181,12 +182,12 @@ Maintainer: Shadow- <krylov0@outlook.com>
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader (>= 2.2.3)
 Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.huayuarc.iosthermalpro
 Filename: debs/com.0xash.fuckthermal_1.2-38_iphoneos-arm64.deb
-Size: 343316
-MD5sum: 66151a5bd5cc00a82d671073e387d93b
-SHA1: d89f8eaf97587d4aa878967e96c6d42824b724a9
-SHA256: d27e8769dae91c4417fe08c5c1b3c91744f0dbbbc8dfcb2b154893d2f28cc522
+Size: 593658
+MD5sum: 2415f4d7494cb3bbcc3d1fb8fea19fbb
+SHA1: 91369a086c1f433216bcb70c23ff1c9794fecc19
+SHA256: 9ea896989f83d4b92ff16ca094eb784c3ebda232f86896f993e590e017e51a62
 Section: System
-Description: 温控
+Description: 去温控
 Author: Shadow- <krylov0@outlook.com>
 Name: Fuckthermal(Rootless)
 
