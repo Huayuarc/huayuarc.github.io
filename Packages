@@ -2966,6 +2966,38 @@ Icon: https://huayuarc.github.io/images/Powercuff.png
 Name: Powercuff(Rootless)
 Sponsor: Ryan Petrich
 
+Package: com.phucdo.badgebreathing
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Phuc Do
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.phucdo.badgebreathing_0.0.1_iphoneos-arm.deb
+Size: 6532
+MD5sum: 855efba3feafa1e14c2bbedad3f4c927
+SHA1: f2e6884c8dd6fe7977aa01f906ae3e2ba9405228
+SHA256: 2a8e398bb2acecc9ab6d83e2df3193e9da6308b03f9bf1cb74715cdb2fad2271
+Section: Tweaks
+Description: Badge Breathing， It is a breathing angle marker plugin. Breathing corner marker, make the corner marker vivid. Badge Breathing currently has no setting options in its version, which will take effect after installation and logout.
+Author: Phuc Do
+Name: Badge Breathing
+
+Package: com.phucdo.badgebreathing
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Phuc Do
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.phucdo.badgebreathing_0.0.1_iphoneos-arm64.deb
+Size: 6678
+MD5sum: 547017389476b3f9972092c8b5f08e23
+SHA1: b7be6c6c9b1ba5e9e0459ca5b63ab13c7fd33ba0
+SHA256: 419647070333b7556bd47b54d6bb2f35ccf418bd9d39c12f1f2aa5cf578487f6
+Section: Tweaks
+Description: Badge Breathing， It is a breathing angle marker plugin. Breathing corner marker, make the corner marker vivid. Badge Breathing currently has no setting options in its version, which will take effect after installation and logout.
+Author: Phuc Do
+Name: Badge Breathing(Rootless)
+
 Package: com.pkgfiles.harlemshakereborn
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -3742,6 +3774,22 @@ Section: Tweaks
 Description: Modified version of mineeks tweak that lets you specify the minimum version and bypass installd version check 二改的版本,非原版修改版可让您指定最小版本,并绕过安装版本检查。
 Author: Mineek
 Name: Appstoretroller
+
+Package: emt.paisseon.xinamineall
+Version: 1.8.2
+Architecture: iphoneos-arm64
+Maintainer: Phuc Do
+Depends: mobilesubstrate, ellekit, oldabi | cy+cpu.arm64, firmware (>= 15.0), file, gawk, odcctools, ldid, com.tigisoftware.filza64bit (>= 4.0)
+Provides: emt.paisseon.xinamine (= 0.0.5)
+Filename: debs/emt.paisseon.xinamineall_1.8.2_iphoneos-arm64.deb
+Size: 119000
+MD5sum: ad530b5435b8c720c311cf977fbc4122
+SHA1: db2cef4d0e0f3357e4bb8871af8359a6b46a1b82
+SHA256: df319ae213f7d772bc9ae9170ae442137f76ff06eaa43c5d7f0c5645cc8d53c2
+Section: Tweaks
+Description: Xinamine bundle. Includes linker, patcher, and 'chex' link checker, plus other supporting filza scripts.
+Author: Paisseon, Sudo, NoW4U2Kid
+Name: Xinam1ne All-in-One(Rootless)
 
 Package: jp.dcsyhi.dashapp
 Version: 1.0
