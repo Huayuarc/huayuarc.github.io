@@ -3645,6 +3645,23 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This v
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
+Package: com.wangdonghua.backgroundretainer
+Version: 0.0.1-6+debug
+Architecture: iphoneos-arm64
+Maintainer: Your Name
+Installed-Size: 472
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.dopamine.swapforcer
+Filename: debs/com.wangdonghua.backgroundretainer_0.0.1-6+debug_iphoneos-arm64.deb
+Size: 147624
+MD5sum: 7bcda682f9bc6cd57e6b4765ad9b1f18
+SHA1: 483a798c270e8db3c4d99dacdc9af6c4452ee205
+SHA256: 09442149c7a8dae116857717ef14d87312799df3e3b8604b2bfe9c617ece3eb0
+Section: Tweaks
+Description: 基于iOS墓碑机制的后台应用留存增强插件
+Author: Your Name
+Name: BackgroundRetainer(Rootless)
+
 Package: com.wechat.enhance
 Version: 1.2.6
 Architecture: iphoneos-arm64
