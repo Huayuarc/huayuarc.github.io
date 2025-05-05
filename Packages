@@ -3679,6 +3679,23 @@ Description: 基于iOS墓碑机制的后台应用留存增强插件,基于 ios �
 Author: Your Name
 Name: BackgroundRetainer(Rootless)
 
+Package: com.wangdonghua.backgroundretainer
+Version: 0.0.1-7
+Architecture: iphoneos-arm64
+Maintainer: Your Name
+Installed-Size: 472
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.dopamine.swapforcer
+Filename: debs/com.wangdonghua.backgroundretainer_0.0.1-7_iphoneos-arm64.deb
+Size: 152606
+MD5sum: 0fe04687e6ae41503d5ce7274aac48ee
+SHA1: b1a9d6091bcb5e984b45799e3039b4e7ce8e8f19
+SHA256: 1bc23bbf08715e3ecbda4c7d4f4f6f788ac1164bea87350b2fb1e8b2d496b816
+Section: Tweaks
+Description: 基于iOS墓碑机制的后台应用留存增强插件,基于 ios 的 墓碑机制写的，添加应用   id 到白名单，可以冻结应用，防止被杀后台。【 应用 id 获取可以使用 App data 插件获取 】
+Author: Your Name
+Name: BackgroundRetainer(Rootless)
+
 Package: com.wechat.enhance
 Version: 1.2.6
 Architecture: iphoneos-arm64
