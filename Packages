@@ -3543,6 +3543,23 @@ Description: Lookin UI调试工具
 Author: Mr.Zhang <mr_zhang_00@163.com>
 Name: LookinLoader(Roothide)
 
+Package: com.snail.easynotify
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: snail
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.snail.easynotify_1.0.0_iphoneos-arm64e.deb
+Size: 26548
+MD5sum: 854c7fb44c76be42aeeee5a604eaa4f5
+SHA1: 3c291afedfc3f76f334ddbba8a528f15704146c7
+SHA256: f437cd6d3a95cca0e8b31daef98c552919931a35ed47a939f42676048e9bb812
+Section: System
+Description: 按压APP图标3D Touch菜单快速开关消息通知。此为roothide版本，不要安装错哦~
+Author: snail
+Name: 3D开关APP消息通知(Roothide)
+
 Package: com.sopppra.settingsrevamp.roothide
 Version: 2.1.1
 Architecture: iphoneos-arm64e
