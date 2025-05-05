@@ -862,24 +862,6 @@ Name: DYYY(Rootless)
 
 Package: com.huami.dyyy
 Version: 2.2-3
-Architecture: iphoneos-arm
-Maintainer: huami
-Installed-Size: 1768
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.huami.dyyy_2.2-3_iphoneos-arm.deb
-Size: 622008
-MD5sum: b87244b011acb85429688ab7511e8239
-SHA1: 9326a09701f72339a2dfe27b2b654cbb88000a47
-SHA256: eaf86db222c1533820703772a37bd340dd25abfee7a32600a687a62f5864f52a
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Name: DYYY
-
-Package: com.huami.dyyy
-Version: 2.2-3
 Architecture: iphoneos-arm64e
 Maintainer: huami
 Installed-Size: 1768
@@ -961,6 +943,60 @@ Size: 789904
 MD5sum: 61b8be4bfaf4a4c870e698fd7d5f0b15
 SHA1: 80e0a824abea87b7e25d510845976cc6fabdc231
 SHA256: 44e94d0e35b88380a5300cfe6319b9613c36a9c8ba9005d07fd707c81ad361b8
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY(Rootless)
+
+Package: com.huami.dyyy
+Version: 2.2-5
+Architecture: iphoneos-arm
+Maintainer: huami
+Installed-Size: 2012
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-5_iphoneos-arm.deb
+Size: 725086
+MD5sum: 55cd4312921266f8bf4643e836524508
+SHA1: 019487fa7781a7bdf07218f3a51f2f09c970ceba
+SHA256: e6889f29ccc3ae7fc798b64e30cc7b517712df43bbbc9437125b01291b44be21
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.2-5
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 2012
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-5_iphoneos-arm64e.deb
+Size: 725138
+MD5sum: c500b92cbedce2912ca5a323863d661d
+SHA1: 0ecaaa853eb1c6a41fbb3c7e81ed19f53a86a022
+SHA256: 9664edc46a41ab6b8aa7d98a58fdd9ed9b5bc1f19e24c36f60bad79bebfd4c1b
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY(Roothide)
+
+Package: com.huami.dyyy
+Version: 2.2-5
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 2012
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-5_iphoneos-arm64.deb
+Size: 725264
+MD5sum: 53d1ee89d13b808f8153775c7010c938
+SHA1: f0ff64d91f2e35072e40a9ef0062432258a28fa4
+SHA256: 8cb7e044af5278d36d5c8d7a671ecf3483b8dfda971371913b31c8cea21087a9
 Section: Tweaks
 Priority: optional
 Homepage: https://github.com/huami1314/DYYY
