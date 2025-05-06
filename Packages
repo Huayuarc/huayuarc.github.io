@@ -1530,26 +1530,6 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro-Roothide
 
 Package: com.huayuarc.iosthermalpro
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 104
-Depends: mobilesubstrate
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
-Filename: debs/com.huayuarc.iosthermalpro_1.0_iphoneos-arm64e.deb
-Size: 297312
-MD5sum: ffcf0ebe45dd4c30f553895b55d456f3
-SHA1: 6744d8103243c50ff008e6da34230d991bd5f377
-SHA256: d236fb1e6f9c13aa5b8404ee05254f7eb15ead02b1b460b143747450c58eda55
-Section: Tweaks
-Description: 深度优化iOS设备，温控 (推荐使用真皮Hello CPU)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-Icon: https://huayuarc.github.io/images/ThermalPatcher.png
-Name: IosThermal(Roothide)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
-
-Package: com.huayuarc.iosthermalpro
 Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
@@ -1688,6 +1668,26 @@ Depiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatch
 Icon: https://huayuarc.github.io/images/ThermalPatcher.png
 Name: IosThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/ThermalPatcher/ThermalPatcher.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 1.3.2
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 108
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermalpro_1.3.2_iphoneos-arm64e.deb
+Size: 371970
+MD5sum: f77caad63dbeb3fb0b997f543b8262e6
+SHA1: 8fa3892579f2451c68c96ac335a4425b8bbd333a
+SHA256: d5295aaf70f9ea4e0080cddc1eb6920854b71c8ca916f0b829c04d41cc5aab70
+Section: Tweaks
+Description: 深度优化iOS设备，温控 (推荐使用真皮Hello CPU)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+Icon: https://huayuarc.github.io/images/IosThermal.png
+Name: IosThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
 
 Package: com.huayuarc.iosthermalpro
 Version: 1.3.2
