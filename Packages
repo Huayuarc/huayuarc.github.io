@@ -3597,12 +3597,11 @@ Architecture: iphoneos-arm64
 Maintainer: Your Name
 Installed-Size: 472
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.dopamine.swapforcer
 Filename: debs/com.wangdonghua.backgroundretainer_0.0.1-7_iphoneos-arm64.deb
-Size: 152606
-MD5sum: 0fe04687e6ae41503d5ce7274aac48ee
-SHA1: b1a9d6091bcb5e984b45799e3039b4e7ce8e8f19
-SHA256: 1bc23bbf08715e3ecbda4c7d4f4f6f788ac1164bea87350b2fb1e8b2d496b816
+Size: 152582
+MD5sum: d17d7183d5509dd056cf12f47ee47201
+SHA1: 99067de3c895a1a8b412d6dc71e3a6c9135dd20b
+SHA256: 07a5ba3457e9b24ef054a40b36db4fb31f91bda3f7e7068343412834373beccb
 Section: Tweaks
 Description: 基于iOS墓碑机制的后台应用留存增强插件,基于 ios 的 墓碑机制写的，添加应用   id 到白名单，可以冻结应用，防止被杀后台。【 应用 id 获取可以使用 App data 插件获取 】
 Author: Your Name
