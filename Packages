@@ -679,6 +679,22 @@ Description: Increase the Lines for the Notifications! 通知栏来消息全显�
 Author: CydiaGeek
 Name: MoreLinesNotifications(Roothide)
 
+Package: com.den.blur
+Version: 1.0-8+debug
+Architecture: iphoneos-arm64
+Maintainer: MrDeNsor
+Installed-Size: 176
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.den.blur_1.0-8+debug_iphoneos-arm64.deb
+Size: 19288
+MD5sum: 4bd8f1e6968665768f8b92cdd9648ad2
+SHA1: 4746abf28b81d1cf1509f4c8e1b593fad55c1c0d
+SHA256: 57e317af1e2e5691343a24b77f31ea9854e445ee7fc20ff7e972b5fdad145d05
+Section: Tweaks
+Description: Hide private photos in your library. Unlock with Face ID, Touch ID, or passcode 在资料库中隐藏私人照片使用 Face ID、Touch ID 或密码解锁
+Author: MrDeNsor
+Name: Blurify6(Rootless)
+
 Package: com.den.locktouchx.roothide
 Version: 1.1-8
 Architecture: iphoneos-arm64e
@@ -1579,6 +1595,26 @@ SHA1: b8df0be6b529e362447020420d6377124955c531
 SHA256: 53cd54d31a028135a3ce1cd1a328f42e47458583aa6fefe602ea73ffa0dec09d
 Section: Tweaks
 Description: 深度优化iOS设备，温控 (推荐使用真皮Hello CPU)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+Icon: https://huayuarc.github.io/images/IosThermal.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 1.3.3
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 200
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermalpro_1.3.3_iphoneos-arm64.deb
+Size: 382026
+MD5sum: e2c32121a9fd15853e0bad5869463f5f
+SHA1: fc025b5aac7567d8c53fce7a3df71664f4a3dcce
+SHA256: 5d51f2972b972cd0fe5bc6e1d0401e7ed53b282b1e8db12d82d8e2ee8aaa0a8c
+Section: Tweaks
+Description: 深度优化iOS设备，A14-A16 设备 温控 (推荐使用真皮Hello CPU)
 Author: Huayuarc
 Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
 Icon: https://huayuarc.github.io/images/IosThermal.png
