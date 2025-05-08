@@ -4238,6 +4238,22 @@ Description: 自定义X键盘底部高度，地球底部高度等
 Author: Netskao
 Name: ClassicKeyboardXS
 
+Package: netskao.perfectgrabber-rootless
+Version: 1.1-7
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 2116
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/netskao.perfectgrabber-rootless_1.1-7_iphoneos-arm64.deb
+Size: 1584440
+MD5sum: 6df61aa307b6ca0bd56a35477bd0273d
+SHA1: 67cb941a6041f5a521f569827547b059c257ec1e
+SHA256: 55910f642a2645bb2cf22b1ae625a49fac0abe7d47b2245634c4c87aa694a13e
+Section: Netskao-Tweaks
+Description: 在横屏游戏下拉一次时显示时间和电量（某些游戏不规范会无法唤出），支持自定义字体颜色，背景颜色，字体大小，字体样式，震动反馈等
+Author: Netskao
+Name: PerfectGrabber(Rootless)
+
 Package: oldabi-xina
 Version: 1.0.0-2+debug
 Architecture: iphoneos-arm64
