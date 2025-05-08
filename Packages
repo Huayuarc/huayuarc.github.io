@@ -1603,6 +1603,26 @@ Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.
 
 Package: com.huayuarc.iosthermalpro
 Version: 1.3.3
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 104
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermalpro_1.3.3_iphoneos-arm64e.deb
+Size: 369638
+MD5sum: 8f18faab9285732b53fff04830b1d4bf
+SHA1: 1544bc40e8118fe2bc43044eb1cbb04e0f83cd79
+SHA256: 3f3c7f2b588566cc0fec732514d6331839cc1f376585a915541469470392c5c6
+Section: Tweaks
+Description: 深度优化iOS设备，温控(A14-A16设备)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+Icon: https://huayuarc.github.io/images/IosThermal.png
+Name: IosThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 1.3.3
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
 Installed-Size: 200
@@ -4221,6 +4241,23 @@ Section: System
 Description: A modern jailbreak detection bypass.
 Author: jjolano
 Name: Shadow
+
+Package: netskao.batterypercentx-roothide
+Version: 1.1-1
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/netskao.batterypercentx-roothide_1.1-1_iphoneos-arm64e.deb
+Size: 17948
+MD5sum: cb5e84863917bbcb2983958883f97b26
+SHA1: 2e6968fc733ddea158f9faa80848e82e1837fc5f
+SHA256: 09a04d547aeda5a7b1ca389a53e52b25059914d26b9a9fb92a89c87fe3568ac9
+Section: Netskao-Tweaks
+Description: BatteryPercentX启用系统原生电池百分比，加深边框颜色，加深充电时电池颜色
+Author: Netskao
+Name: BatteryPercentX(Roothide)
 
 Package: netskao.classickeyboardxs
 Version: 1.1-6
