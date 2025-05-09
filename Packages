@@ -2060,11 +2060,12 @@ Architecture: iphoneos-arm64
 Maintainer: Huayuarc
 Installed-Size: 152
 Depends: mobilesubstrate
+Conflicts: com.couhege.Appswitcher
 Filename: debs/com.huayuarc.speedintensifier_0.0.3_iphoneos-arm64.deb
-Size: 5316
-MD5sum: f5ec91b4ab1e559d4b7c6c6f92649cae
-SHA1: a9d7b92c3ad2ac22fa0f0204cbe981f5b0e8a834
-SHA256: 171b5cce5413c708f00c3c764cca30e0c8efdf5c770acf77d93ef431db63d556
+Size: 5814
+MD5sum: 203840bb0f3f1f4abd12071909865ecf
+SHA1: 5a1bd1bd5052b5c2a4c919b99ac11a116e9dcde5
+SHA256: 2eeafdbe8ff680c303d5e5f1e334aaaee0d21b69bd11f1e3b7832ebf063c58e6
 Section: Tweaks
 Description: 通过深度优化动画、启动速度和交互延迟，显著提升设备响应流畅度。
 Author: Huayuarc
