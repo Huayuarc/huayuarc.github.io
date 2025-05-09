@@ -2054,6 +2054,23 @@ Author: Huayuarc
 Icon: https://huayuarc.github.io/images/Speedintensifier.png
 Name: Speed Intensifier(Rootless)
 
+Package: com.huayuarc.speedintensifier
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.speedintensifier_0.0.3_iphoneos-arm64.deb
+Size: 5316
+MD5sum: f5ec91b4ab1e559d4b7c6c6f92649cae
+SHA1: a9d7b92c3ad2ac22fa0f0204cbe981f5b0e8a834
+SHA256: 171b5cce5413c708f00c3c764cca30e0c8efdf5c770acf77d93ef431db63d556
+Section: Tweaks
+Description: 通过深度优化动画、启动速度和交互延迟，显著提升设备响应流畅度。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/images/Speedintensifier.png
+Name: Speed Intensifier(Rootless)
+
 Package: com.huayuarc.wechattimelinerobot.rootless
 Version: 0.0.2.8
 Architecture: iphoneos-arm64
@@ -3269,6 +3286,25 @@ Depiction: http://rpetri.ch/cydia/powercuff/
 Dev: rpetrich
 Name: Powercuff
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.sini.WCToolGesture
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: wc
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.sini.WCToolGesture_1.0_iphoneos-arm64e.deb
+Size: 26684
+MD5sum: 4057c931d835df49a6c25c8b018e1af8
+SHA1: af274288857444091cddfef027140170564b019c
+SHA256: 2d110f390d0ec3f962a13caf0cfba9ca7566711aac69eeed3ffb90854347484f
+Section: 微信插件
+Description: 微信输入框内嵌按键，右边朋友圈命名: clock_regular，左边视频通话命名: icons_filled_large_image
+Author: wc
+Icon: https://sini921.github.io/repo/sileodepiction/icon/WCToolGesture.png
+Name: WCToolGesture(Roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/WCToolGesture/js.json
 
 Package: com.skypain.cclockscreen
 Version: 1.1.0-1
