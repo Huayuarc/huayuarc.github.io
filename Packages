@@ -1641,6 +1641,46 @@ Icon: https://huayuarc.github.io/images/IosThermal.png
 Name: IosThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
 
+Package: com.huayuarc.iosthermalpro
+Version: 1.3.3.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 200
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermalpro_1.3.3.1_iphoneos-arm64.deb
+Size: 314012
+MD5sum: e6b86bbfad8db28ce10600d227851d60
+SHA1: 2a01f230a2bea564e460e235d54cc8b80f90840e
+SHA256: 9a3d9e4a19dff7f200686d14870bd6f3863e2aff202e3d694ed4c203f6b0af00
+Section: Tweaks
+Description: 深度优化iOS设备，A14-A16 设备 温控 (推荐使用真皮Hello CPU)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+Icon: https://huayuarc.github.io/images/IosThermal.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 1.3.3.1
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 104
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermalpro_1.3.3.1_iphoneos-arm64e.deb
+Size: 301466
+MD5sum: e7bb4ebdd5501ad7c7811490cde0962e
+SHA1: 2b853db739f3fc9087a653a5f2741596bd86c2f7
+SHA256: da4521e177fae1d485aa54ba55d0abae51fc84b60ef401cdd0790ddb27236aa9
+Section: Tweaks
+Description: 深度优化iOS设备，温控(A14-A16设备)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+Icon: https://huayuarc.github.io/images/IosThermal.png
+Name: IosThermal(Roothide)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -1962,6 +2002,23 @@ Author: Spark & Dennis D. Bednarz
 Icon: https://cdn.chariz.cloud/icon/snowboard/icon@3x.png
 Name: SnowBoard-修改版
 Sponsor: Spark
+
+Package: com.huayuarc.speedintensifier
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.speedintensifier_0.0.1_iphoneos-arm64.deb
+Size: 4072
+MD5sum: a23dd7fc0ce93be7bddeb16060149f70
+SHA1: 0bc61d2799d5b6eb679a79b7934d7aefe01a87b2
+SHA256: 93c7dada3b521f05b7283efba24c707e2a951ecff8ef5d05bada1508abace05c
+Section: Tweaks
+Description: 通过深度优化动画、启动速度和交互延迟，显著提升设备响应流畅度。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/images/Speedintensifier.png
+Name: Speed Intensifier(Rootless)
 
 Package: com.huayuarc.wechattimelinerobot.rootless
 Version: 0.0.2.8
