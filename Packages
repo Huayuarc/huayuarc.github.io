@@ -2022,6 +2022,23 @@ Name: Speed Intensifier(Rootless)
 
 Package: com.huayuarc.speedintensifier
 Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.speedintensifier_0.0.2_iphoneos-arm64e.deb
+Size: 3322
+MD5sum: bda7b222a464551189aac4d59ae4f668
+SHA1: 41c78301bdcea819b151eb8b502c7a33cce69adc
+SHA256: ad23f83d9ad8f28760f49e9b8e2ac380597936f8436f1d54defb658c50346e5a
+Section: Tweaks
+Description: 通过深度优化动画、启动速度和交互延迟，显著提升设备响应流畅度。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/images/Speedintensifier.png
+Name: Speed Intensifier(Roothide)
+
+Package: com.huayuarc.speedintensifier
+Version: 0.0.2
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
 Installed-Size: 152
