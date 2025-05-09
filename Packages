@@ -3803,6 +3803,23 @@ Author: zxc
 Name: Checkproxybypass(Roothide)
 Sponsor: zxc
 
+Package: de.finngaida.daynightswitch
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Finn Gaida
+Installed-Size: 584
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/de.finngaida.daynightswitch_1.1_iphoneos-arm64.deb
+Size: 92856
+MD5sum: 4f397dd493d67d268c8a30f772f603aa
+SHA1: 64bccbbd09ec7ec31c8a41664831f2b9877ed82f
+SHA256: f8eb53bceb4839f1ad6dd8f30ced0bfeac57113d871d9c258a0e61b6e034c705
+Section: Tweaks
+Description: Add some style to your switches 为您的开关增添一些风格
+Author: Finn Gaida
+Depiction: https://finngaida.de/repo/depictions/de.finngaida.daynightswitch
+Name: DayNightSwitch(Rootless)
+
 Package: dev.mineek.appstoretroller
 Version: 0.0.9
 Architecture: iphoneos-arm64
