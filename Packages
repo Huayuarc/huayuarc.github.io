@@ -106,6 +106,42 @@ Author: David Goldman
 Icon: https://huayuarc.github.io/images/Manila.png
 Name: Manila(Rootless)
 
+Package: chaoge.jbdev
+Version: 1.0-335+debug
+Architecture: iphoneos-arm64
+Maintainer: chaoge
+Installed-Size: 22312
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/chaoge.jbdev_1.0-335+debug_iphoneos-arm64.deb
+Size: 2056520
+MD5sum: 8935d7320f342433f32c03bb443a8991
+SHA1: 3f0dbbe5e3389980b0631b7ee26a133f19d5cf9a
+SHA256: 28893731291ccd657ddedcabe5f720faf7a21fe99c5cc030a0d65ba6055635ba
+Section: Tweaks
+Description: Jailbreak development tool for XCode
+Author: chaoge
+Depiction: Jailbreak development tool for XCode
+Name: JBDev(Rootless)
+Sileodepiction: Jailbreak development tool for XCode
+
+Package: chaoge.jbdev
+Version: 1.0-337+debug
+Architecture: iphoneos-arm64e
+Maintainer: chaoge
+Installed-Size: 22316
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/chaoge.jbdev_1.0-337+debug_iphoneos-arm64e.deb
+Size: 2057640
+MD5sum: 7ef671bd6e31aa57cbd99235c80b8a6d
+SHA1: 9cfcbef79d8f60af9d5e34365e719d83964147db
+SHA256: 06de992f7c81d8aed0faabc1bcd1bb85ec40a3f903fc0b40caa037d46eb17216
+Section: Tweaks
+Description: Jailbreak development tool for XCode
+Author: chaoge
+Depiction: Jailbreak development tool for XCode
+Name: JBDev(Roothide)
+Sileodepiction: Jailbreak development tool for XCode
+
 Package: cn.Bswbw.fixset.roothide
 Version: 1.1
 Architecture: iphoneos-arm64e
@@ -154,6 +190,25 @@ Section: Tweaks
 Description: 原名motherwc，作用：点击wx文本，语音播报信息,应多人需要再上架
 Author: sunweiliang
 Name: Wx文本语音播报(Rootless)
+
+Package: cn.zqbb.holdcpu
+Version: 2.0.0-10
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 2240
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Filename: debs/cn.zqbb.holdcpu_2.0.0-10_iphoneos-arm64.deb
+Size: 751808
+MD5sum: b74fb0c7413d3d0e9b30ea1da97962f8
+SHA1: 2ee6a50a3d2c64793e61b7c2ada4bf094094a338
+SHA256: 56dea3ac6fe900785278964f210849dd7c5bb5d5e44ed62361b9fc2de62ab7b0
+Section: Tweaks
+Description: (解除温控) (锁定低电量CPU频率)
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+Name: Hello CPU(Rootless)
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
 
 Package: codeo.aurora.kayoko.rootless
 Version: 2.7
@@ -646,6 +701,114 @@ Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135
 Name: PKC
 
 Package: com.curtin.pkc.rootless
+Version: 0.6-6
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: debs/com.curtin.pkc.rootless_0.6-6_iphoneos-arm64.deb
+Size: 1063260
+MD5sum: 801817414b1308136c39276b0a371cc7
+SHA1: 04dfdee1e382f5d5a76f7f39a7d5e467cd915248
+SHA256: d9e2f8d78337adf22985714e8f1d37a3a6c62206335265df52b81f5be271abae
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC(Rootless)
+
+Package: com.curtin.pkc.rootless
+Version: 0.6-7
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: debs/com.curtin.pkc.rootless_0.6-7_iphoneos-arm64.deb
+Size: 1069596
+MD5sum: 99ddf6a276dab615251d4ec69b276062
+SHA1: 0192c8ef424610497b659267e137dc1980cb9861
+SHA256: 0a4d52144a640882c6ceb7a584a6151e0e1e9ca35b3cfbf1b1dd1a0fc6773f2a
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC(Rootless)
+
+Package: com.curtin.pkc.rootless
+Version: 0.6-8
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: debs/com.curtin.pkc.rootless_0.6-8_iphoneos-arm64.deb
+Size: 1082852
+MD5sum: cd540c96b82206db9549e5a5ca2a91ce
+SHA1: cf59263535ee72119f82c88635b3838bcd6a45dc
+SHA256: b067e8dace1443e3452485af216ef33d7424e438b1ecddb627377bb4b39b5db3
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC(Rootless)
+
+Package: com.curtin.pkc.rootless
+Version: 0.6-9
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: debs/com.curtin.pkc.rootless_0.6-9_iphoneos-arm64.deb
+Size: 1099106
+MD5sum: 6afd6c29ec2312ddafb47d327338203b
+SHA1: 242bb701dce0b24496957ceb8b9b0a213fa254a9
+SHA256: d09fb96d2dc15e8ab2cbb03911f7d975ff92ddd39dada1a99e88ea6b1ae9e41e
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC(Rootless)
+
+Package: com.curtin.pkc.rootless
+Version: 0.7-0
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: debs/com.curtin.pkc.rootless_0.7-0_iphoneos-arm64.deb
+Size: 1130292
+MD5sum: c2d08f9f2294e20ecfd783be85bc3201
+SHA1: 05abdbe29141dc0e1a549bb42a20da51dfdeecd8
+SHA256: b3ec132e0070eeac26b21b9cefc096a7a6ab960245ab4080937c011410c02a4f
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC(Rootless)
+
+Package: com.curtin.pkc.rootless
+Version: 0.7-1
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: debs/com.curtin.pkc.rootless_0.7-1_iphoneos-arm64.deb
+Size: 1132716
+MD5sum: 9acb2e1bcd4381192eac8fb58f01d0db
+SHA1: a63e6cfb47e7220d97bce15a64ddc61c6d8192db
+SHA256: b0325fc24241aced19af742ff5a11a31fb3c93f7d73a75a07e1e47e90b7cec20
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC(Rootless)
+
+Package: com.curtin.pkc.rootless
 Version: 0.7-2
 Architecture: iphoneos-arm64
 Maintainer: curtinlv@126.com
@@ -655,6 +818,42 @@ Size: 1134064
 MD5sum: d35b4b698b1b066b22b6e9446facd979
 SHA1: 6bfb815d9a084cb2b041356aac320c116eba1ecd
 SHA256: 760ac3e3af8ef771d35a55167e4b91bd371eb78a8cdfedd585bd07624f2cc833
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC(Rootless)
+
+Package: com.curtin.pkc.rootless
+Version: 0.7-3
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: debs/com.curtin.pkc.rootless_0.7-3_iphoneos-arm64.deb
+Size: 1150256
+MD5sum: 9aef2e73d8b4a36c184e67e50391fa3e
+SHA1: 661e626adfdf1e282ca6baf2273113bd53e5da82
+SHA256: 1b838b6745b97d8a37dda0c317f7de85aaa09a3d74b5ef699ab2cfd0f6f40787
+Section: PKC-插件
+Priority: optional
+Homepage: https://github.com/curtinlv
+Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Name: PKC(Rootless)
+
+Package: com.curtin.pkc.rootless
+Version: 0.7-4
+Architecture: iphoneos-arm64
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: debs/com.curtin.pkc.rootless_0.7-4_iphoneos-arm64.deb
+Size: 1154302
+MD5sum: 116084bd916fb9d8d37669d7a28ec64f
+SHA1: 0a1a203a7ad2822d15b26c97e184662fc7abe71b
+SHA256: 49140fc17581891db93e887c6efd2404e760d07b35d5e8b0725fcdf92acd111b
 Section: PKC-插件
 Priority: optional
 Homepage: https://github.com/curtinlv
@@ -875,42 +1074,6 @@ Author: huami
 Name: DYEnablePanelModernStyle(Roothide)
 
 Package: com.huami.dyyy
-Version: 2.2-3
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 1768
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.huami.dyyy_2.2-3_iphoneos-arm64.deb
-Size: 622108
-MD5sum: eea19fbfd38524e2e27d6dd9d76d836f
-SHA1: c0591c502896383e184d01d837a2b060920b2390
-SHA256: f8e837b31e691e78cf6658d5f062c7618c274a60dfdcab7dfe54b1351433a305
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Name: DYYY(Rootless)
-
-Package: com.huami.dyyy
-Version: 2.2-3
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Installed-Size: 1768
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.huami.dyyy_2.2-3_iphoneos-arm64e.deb
-Size: 622054
-MD5sum: 94bbfc3d56c3a380603a057738e4a800
-SHA1: 8671f0e2b99398c8242c72631b5c05a0aa94f5dd
-SHA256: bafc5eccd27bec13c804383d19ab8c68ce80f4b99a38478c5321fafb3863db0d
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Name: DYYY(Roothide)
-
-Package: com.huami.dyyy
 Version: 2.2-4
 Architecture: iphoneos-arm64
 Maintainer: huami
@@ -965,24 +1128,6 @@ Author: huami
 Name: DYYY(Roothide)
 
 Package: com.huami.dyyy
-Version: 2.2-4-184
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 2116
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.huami.dyyy_2.2-4-184_iphoneos-arm64.deb
-Size: 789904
-MD5sum: 61b8be4bfaf4a4c870e698fd7d5f0b15
-SHA1: 80e0a824abea87b7e25d510845976cc6fabdc231
-SHA256: 44e94d0e35b88380a5300cfe6319b9613c36a9c8ba9005d07fd707c81ad361b8
-Section: Tweaks
-Priority: optional
-Homepage: https://github.com/huami1314/DYYY
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Author: huami
-Name: DYYY(Rootless)
-
-Package: com.huami.dyyy
 Version: 2.2-5
 Architecture: iphoneos-arm
 Maintainer: huami
@@ -1035,6 +1180,60 @@ Homepage: https://github.com/huami1314/DYYY
 Description: 仅供学习交流，请在 24 小时内自觉删除。
 Author: huami
 Name: DYYY(Rootless)
+
+Package: com.huami.dyyy
+Version: 2.2-7
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 2044
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-7_iphoneos-arm64.deb
+Size: 742504
+MD5sum: 75ea55defee14a02c6c3047a60683997
+SHA1: 8cfeecd336e0ce91051c3bfe576326d13dc081ce
+SHA256: 0ad48b9f56b307ab44f537018f84ecd855953bf85b8385a3a5508817726fd1da
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY(Rootless)
+
+Package: com.huami.dyyy
+Version: 2.2-7
+Architecture: iphoneos-arm
+Maintainer: huami
+Installed-Size: 2044
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-7_iphoneos-arm.deb
+Size: 394156
+MD5sum: 1f60047304fb1ff10431d59a714b20b8
+SHA1: 8e64299f59db8159477d8201cf39aa69bc04b655
+SHA256: 2a06d47aa3cd484abdb43a048bc540b6de7aa6f72fcfa1732bfef24789ba3755
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY
+
+Package: com.huami.dyyy
+Version: 2.2-7
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 2044
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.2-7_iphoneos-arm64e.deb
+Size: 742440
+MD5sum: 085b29ec78a93bb1916f00171f2f42cf
+SHA1: bccd54255fc8e3f15aee8cb8912146012c09c177
+SHA256: 05bc00fe85d93b02bd287a0ba4e89af0fab840d561245967a6914a8792dcc7c9
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/huami1314/DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Author: huami
+Name: DYYY(Roothide)
 
 Package: com.huayuarc.GSHongBao.rootless
 Version: 1.0
