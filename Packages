@@ -4005,6 +4005,25 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This v
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
+Package: com.traurige.eneko.rootless
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: debs/com.traurige.eneko.rootless_1.4_iphoneos-arm64.deb
+Size: 49862
+MD5sum: ea5338796b3283c56c70f11044450110
+SHA1: 2e2cc1397120ddcb0beea0278fdba6a6b8ec0cd1
+SHA256: 01aa74f03e46ecdb72d813e9b714996c6cbc2e82fc39e6dd77005b77cbde4998
+Section: Tweaks
+Description: Live wallpapers for iOS Eneko 动态视频壁纸，支持锁屏、主屏、控制中心，支持播放声音。
+Author: Traurige <hello@traurige.dev>
+Depiction: https://repo.cypwn.xyz/depiction/1711
+Icon: https://huayuarc.github.io/images/Eneko.png
+Name: Eneko(Rootless)
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1711
+
 Package: com.wangdonghua.backgroundretainer
 Version: 0.0.1-6+debug
 Architecture: iphoneos-arm64
