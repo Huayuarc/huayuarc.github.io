@@ -2357,6 +2357,24 @@ Author: Huayuarc
 Icon: https://huayuarc.github.io/images/Speedintensifier.png
 Name: Speed Intensifier(Rootless)
 
+Package: com.huayuarc.speedintensifier
+Version: 0.0.3.4
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: com.couhege.Appswitcher
+Filename: debs/com.huayuarc.speedintensifier_0.0.3.4_iphoneos-arm64.deb
+Size: 6260
+MD5sum: b8d7678280c18c41415241e84c16539a
+SHA1: 60d691671713fcfb1d31ebc68aa9dfb8388048b1
+SHA256: 5f8ac2111761c2e0041fd5b50bd6fe758f89ba03be4fb1c76933d8890438bf56
+Section: Tweaks
+Description: 通过深度优化动画、启动速度和交互延迟，显著提升设备响应流畅度。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/images/Speedintensifier.png
+Name: Speed Intensifier(Rootless)
+
 Package: com.huayuarc.wechattimelinerobot.rootless
 Version: 0.0.2.8
 Architecture: iphoneos-arm64
