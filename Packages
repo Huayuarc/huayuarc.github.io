@@ -1790,140 +1790,20 @@ Author: Ivano Bilenchi
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro-Roothide
 
-Package: com.huayuarc.iosthermalpro
-Version: 1.3.2
-Architecture: iphoneos-arm64e
+Package: com.huayuarc.iosthermal
+Version: 0.0.1
+Architecture: iphoneos-arm64
 Maintainer: Huayuarc
-Installed-Size: 108
+Installed-Size: 168
 Depends: mobilesubstrate
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
-Filename: debs/com.huayuarc.iosthermalpro_1.3.2_iphoneos-arm64e.deb
-Size: 371970
-MD5sum: f77caad63dbeb3fb0b997f543b8262e6
-SHA1: 8fa3892579f2451c68c96ac335a4425b8bbd333a
-SHA256: d5295aaf70f9ea4e0080cddc1eb6920854b71c8ca916f0b829c04d41cc5aab70
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermalpro, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermal_0.0.1_iphoneos-arm64.deb
+Size: 5606
+MD5sum: ed75f5eedeb5fbe0eaed00dda28e270b
+SHA1: 922211bcf012d1fea3d4ca451baa99900882b95d
+SHA256: 311b20e52207ec60553b7d4f9a873088295bab654bb49b78c0e05031d300c84b
 Section: Tweaks
 Description: 深度优化iOS设备，温控 (推荐使用真皮Hello CPU)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://huayuarc.github.io/images/IosThermal.png
-Name: IosThermal(Roothide)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-
-Package: com.huayuarc.iosthermalpro
-Version: 1.3.2
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 204
-Depends: mobilesubstrate
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
-Filename: debs/com.huayuarc.iosthermalpro_1.3.2_iphoneos-arm64.deb
-Size: 386652
-MD5sum: f1f6633a1ec3829e672e7464f58ff2d0
-SHA1: b8df0be6b529e362447020420d6377124955c531
-SHA256: 53cd54d31a028135a3ce1cd1a328f42e47458583aa6fefe602ea73ffa0dec09d
-Section: Tweaks
-Description: 深度优化iOS设备，温控 (推荐使用真皮Hello CPU)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://huayuarc.github.io/images/IosThermal.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-
-Package: com.huayuarc.iosthermalpro
-Version: 1.3.3
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 104
-Depends: mobilesubstrate
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
-Filename: debs/com.huayuarc.iosthermalpro_1.3.3_iphoneos-arm64e.deb
-Size: 369638
-MD5sum: 8f18faab9285732b53fff04830b1d4bf
-SHA1: 1544bc40e8118fe2bc43044eb1cbb04e0f83cd79
-SHA256: 3f3c7f2b588566cc0fec732514d6331839cc1f376585a915541469470392c5c6
-Section: Tweaks
-Description: 深度优化iOS设备，温控(A14-A16设备)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://huayuarc.github.io/images/IosThermal.png
-Name: IosThermal(Roothide)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-
-Package: com.huayuarc.iosthermalpro
-Version: 1.3.3
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 200
-Depends: mobilesubstrate
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
-Filename: debs/com.huayuarc.iosthermalpro_1.3.3_iphoneos-arm64.deb
-Size: 382026
-MD5sum: e2c32121a9fd15853e0bad5869463f5f
-SHA1: fc025b5aac7567d8c53fce7a3df71664f4a3dcce
-SHA256: 5d51f2972b972cd0fe5bc6e1d0401e7ed53b282b1e8db12d82d8e2ee8aaa0a8c
-Section: Tweaks
-Description: 深度优化iOS设备，A14-A16 设备 温控 (推荐使用真皮Hello CPU)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://huayuarc.github.io/images/IosThermal.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-
-Package: com.huayuarc.iosthermalpro
-Version: 1.3.3.1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 200
-Depends: mobilesubstrate
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
-Filename: debs/com.huayuarc.iosthermalpro_1.3.3.1_iphoneos-arm64.deb
-Size: 314012
-MD5sum: e6b86bbfad8db28ce10600d227851d60
-SHA1: 2a01f230a2bea564e460e235d54cc8b80f90840e
-SHA256: 9a3d9e4a19dff7f200686d14870bd6f3863e2aff202e3d694ed4c203f6b0af00
-Section: Tweaks
-Description: 深度优化iOS设备，A14-A16 设备 温控 (推荐使用真皮Hello CPU)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://huayuarc.github.io/images/IosThermal.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-
-Package: com.huayuarc.iosthermalpro
-Version: 1.3.3.1
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 104
-Depends: mobilesubstrate
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
-Filename: debs/com.huayuarc.iosthermalpro_1.3.3.1_iphoneos-arm64e.deb
-Size: 301466
-MD5sum: e7bb4ebdd5501ad7c7811490cde0962e
-SHA1: 2b853db739f3fc9087a653a5f2741596bd86c2f7
-SHA256: da4521e177fae1d485aa54ba55d0abae51fc84b60ef401cdd0790ddb27236aa9
-Section: Tweaks
-Description: 深度优化iOS设备，温控(A14-A16设备)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://huayuarc.github.io/images/IosThermal.png
-Name: IosThermal(Roothide)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-
-Package: com.huayuarc.iosthermalpro
-Version: 1.3.5
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 908
-Depends: mobilesubstrate
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
-Filename: debs/com.huayuarc.iosthermalpro_1.3.5_iphoneos-arm64.deb
-Size: 238168
-MD5sum: 38ed45e835bfca343f40a16961a6b8b0
-SHA1: d013aeb552be41399fbb6bf60bff1a3758035e0a
-SHA256: 2fb4f1b4891634ad72020c95f10640b9d1d049f79083c6350e6860e91362f1ea
-Section: Tweaks
-Description: 深度优化iOS设备，温控(A14-A16设备)
 Author: Huayuarc
 Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
 Icon: https://huayuarc.github.io/images/IosThermal.png

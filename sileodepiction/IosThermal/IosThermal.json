@@ -22,7 +22,7 @@
                 },
                 {
           "class": "DepictionMarkdownView",
-          "markdown": "深度优化iOS设备，A14-A16 设备 温控 (推荐使用真皮Hello CPU)  ",
+          "markdown": "深度优化iOS设备，温控 (推荐使用真皮Hello CPU)",
           "useRawFormat": true
         },
         {
@@ -64,7 +64,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "1.3.3.1",
+          "text": "0.0.1",
           "title": "最新版本"
         },
         {
@@ -74,7 +74,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2025 年 5 月 09 日",
+          "text": "2025 年 5 月 15 日",
           "title": "最后更新日期"
         },
         {
@@ -89,35 +89,13 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "1.3.3.1",
+          "title": "0.0.1",
           "useBoldText": true,
           "useBottomMargin": false
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "精简移除devicemonitor温控",
-          "useRawFormat": true
-        }
-        {
-          "class": "DepictionSubheaderView",
-          "title": "1.3.3",
-          "useBoldText": true,
-          "useBottomMargin": false
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "解决用户提出的问题",
-          "useRawFormat": true
-        }
-        {
-          "class": "DepictionSubheaderView",
-          "title": "1.3.2",
-          "useBoldText": true,
-          "useBottomMargin": false
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "增强：因设备发热导致屏幕亮度降低",
+          "markdown": "混搭：赵楠disablethermalmonitord温控",
           "useRawFormat": true
         }
       ]
