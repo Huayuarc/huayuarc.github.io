@@ -1791,17 +1791,17 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro-Roothide
 
 Package: com.huayuarc.iosthermal
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
-Installed-Size: 168
+Installed-Size: 876
 Depends: mobilesubstrate
 Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermalpro, cn.zqbb.holdcpu
-Filename: debs/com.huayuarc.iosthermal_0.0.1_iphoneos-arm64.deb
-Size: 5606
-MD5sum: ed75f5eedeb5fbe0eaed00dda28e270b
-SHA1: 922211bcf012d1fea3d4ca451baa99900882b95d
-SHA256: 311b20e52207ec60553b7d4f9a873088295bab654bb49b78c0e05031d300c84b
+Filename: debs/com.huayuarc.iosthermal_0.0.2_iphoneos-arm64.deb
+Size: 226686
+MD5sum: 97279ef11e6ee4628ed608bd8012bb9e
+SHA1: d5e65745156181bf131563db871ffc9cd1798650
+SHA256: f59dfaba1c8138aa45fcef85f358698886dbb0addf0db922ac981bd3f562e48d
 Section: Tweaks
 Description: 深度优化iOS设备，温控 (推荐使用真皮Hello CPU)
 Author: Huayuarc
@@ -2677,6 +2677,42 @@ SHA256: 95e935efd96ccf70ec167e57ec3d69185d550452407ba68f9f74bd0d8691746f
 Section: Tweaks
 Priority: optional
 Description: WeChat enhancement, used to optimize some anti human designs and enhance functionality
+Author: huami&Lxcloud
+Icon: https://xcimg.szwego.com/img/f71fe4b2/9e32c300-c084-4c77-bbb5-63f1c295d122.png
+Name: 微信增强
+Sileodepiction: https://api.lxink.cn/WCEhanceLog.json
+
+Package: com.lxcloud.WCEhance
+Version: 1.1-7
+Architecture: iphoneos-arm64
+Maintainer: Lxcloud
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.lxcloud.WCEhance_1.1-7_iphoneos-arm64.deb
+Size: 1688432
+MD5sum: 159a99f93c369b7e8fbfa8d0b760226d
+SHA1: b0ce6e367aa2b4697bd8992baf4d107c0785603d
+SHA256: cd1c958c94186457f017b5ff749f59b4754658c3b61ecfd5d10626990a446c54
+Section: Tweaks
+Priority: optional
+Description: 微信增强,用于优化一些反人类设计和增强功能。
+Author: huami&Lxcloud
+Icon: https://xcimg.szwego.com/img/f71fe4b2/9e32c300-c084-4c77-bbb5-63f1c295d122.png
+Name: 微信增强(Rootless)
+Sileodepiction: https://api.lxink.cn/WCEhanceLog.json
+
+Package: com.lxcloud.WCEhance
+Version: 1.1-7
+Architecture: iphoneos-arm
+Maintainer: Lxcloud
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.lxcloud.WCEhance_1.1-7_iphoneos-arm.deb
+Size: 1704886
+MD5sum: e97ebb3fc18db7aa05893f0db099c12c
+SHA1: e3b246f7883284c3bfe8dcfa26fbd0ef250976c4
+SHA256: afbf8a9cd277a62606c3c8d66ceacba1158866d1e4cd9d89c161d38cadfdd8e6
+Section: Tweaks
+Priority: optional
+Description: 微信增强,用于优化一些反人类设计和增强功能。
 Author: huami&Lxcloud
 Icon: https://xcimg.szwego.com/img/f71fe4b2/9e32c300-c084-4c77-bbb5-63f1c295d122.png
 Name: 微信增强
