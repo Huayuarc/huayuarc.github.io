@@ -1830,6 +1830,26 @@ Icon: https://huayuarc.github.io/images/IosThermal.png
 Name: IosThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
 
+Package: com.huayuarc.iosthermal
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 860
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermalpro, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermal_0.0.4_iphoneos-arm64.deb
+Size: 226018
+MD5sum: 09f4f3d4a5402ae8f7529978b6f7d498
+SHA1: eaaaa3189eec95240a801afd6519458a3a9fc41d
+SHA256: 4c09988c4062397e38705f7b9b17a417c3e849cb7f44df51b340035a8aa14aa2
+Section: Tweaks
+Description: 深度优化iOS设备，温控 (推荐使用真皮Hello CPU)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+Icon: https://huayuarc.github.io/images/IosThermal.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -3200,6 +3220,23 @@ Description: Display Notification Avatars for WeChat App using iOS15+ APIs 使�
 Author: Netskao
 Name: WeChatNotiAvatar(Roothide)
 
+Package: com.niceios.mrshi-rootless
+Version: 1.0.0.2-235
+Architecture: iphoneos-arm64
+Maintainer: MrShi
+Depends: mobilesubstrate
+Filename: debs/com.niceios.mrshi-rootless_1.0.0.2-235_iphoneos-arm64.deb
+Size: 846992
+MD5sum: 963cc9121d761bbdfa8d29b45f756664
+SHA1: 9e22ceda533fe56aca209ec76c6c0268eba1769b
+SHA256: bbbf4e83b4fa3ce371da56ea4c1a903dac6cae0360b0848793d1f2d46eb56bf2
+Section: Tweaks
+Description: 全局系统颜色自定义
+Author: MrShi
+Depiction: http://test.test.com/depictions/?p=com.niceios.morecolor
+Name: MrShi(Rootless)
+Sileodepiction: http://test.test.com/sileodepictions/com.niceios.morecolor/depiction.json
+
 Package: com.nightwind.jade.rootless
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -3526,6 +3563,36 @@ Depiction: http://rpetri.ch/cydia/powercuff/
 Dev: rpetrich
 Name: Powercuff
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.simon.ccmusic
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: simon
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/com.simon.ccmusic_1.0.5_iphoneos-arm64.deb
+Size: 40514
+MD5sum: a928a6dd45df7a2d5112cde2b8de02bb
+SHA1: 6b636e2f9c5c414bce0c9fe1402e652d7906fc9a
+SHA256: f381dc4f5efe0a74b15ebdfe1ac018e69df87422633d3925afe68a4bec61dcee
+Section: Tweaks
+Description: 为控制中心的音乐模块添加动画
+Author: simon
+Name: 控制中心音乐模块动画(Rootless)
+
+Package: com.simon.dynamicislandanimation
+Version: 1.1.8
+Architecture: iphoneos-arm64
+Maintainer: Simon
+Depends: mobilesubstrate
+Filename: debs/com.simon.dynamicislandanimation_1.1.8_iphoneos-arm64.deb
+Size: 40830
+MD5sum: d3639c4f5b38c65b032220f023a79dca
+SHA1: 0cb45be3214683a3fa26f7d40652e02e2f9f0b7b
+SHA256: 022799a0cf80f4543f3bc3091b921cdb34a34438c768a3b8a0164f5d45e5d1ca
+Section: Tweaks
+Description: 用于灵动岛专辑及屏幕录制动态跳舞动画整合 无需挂载不再卑微！
+Author: Simon
+Name: 灵动岛跳舞动画PLUS(Rootless)
 
 Package: com.sini.WCToolGesture
 Version: 1.0

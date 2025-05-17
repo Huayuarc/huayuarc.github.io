@@ -64,7 +64,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "0.0.3",
+          "text": "0.0.4",
           "title": "最新版本"
         },
         {
@@ -74,7 +74,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2025 年 5 月 16 日",
+          "text": "2025 年 5 月 17 日",
           "title": "最后更新日期"
         },
         {
@@ -87,6 +87,17 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.0.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "移除内核代码，精简插件，避免使用途中跳转安全模式",
+          "useRawFormat": true
+        }
         {
           "class": "DepictionSubheaderView",
           "title": "0.0.3",
