@@ -64,7 +64,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "0.0.4",
+          "text": "0.0.5",
           "title": "最新版本"
         },
         {
@@ -89,6 +89,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "0.0.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "无更新描述",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "0.0.4",
           "useBoldText": true,
           "useBottomMargin": false
@@ -97,7 +108,7 @@
           "class": "DepictionMarkdownView",
           "markdown": "移除内核代码，精简插件，避免使用途中跳转安全模式",
           "useRawFormat": true
-        }
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "0.0.3",
