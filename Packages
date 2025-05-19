@@ -568,6 +568,22 @@ Icon: https://huayuarc.github.io/images/FloatingView.png
 Name: FloatingView(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/FloatingView/FloatingView.json
 
+Package: com.be-huge.tie-gesture
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 672
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.tie-gesture_1.0.0_iphoneos-arm64.deb
+Size: 177350
+MD5sum: 05256c07649369f65208ec51ea93187e
+SHA1: ec178f53b15c4ee55783b16ca6d1a4bc94699dd4
+SHA256: 4f1a2bc3d329afb534eaec50628750d888f465c512534720be2b435d4c13f748
+Section: Tweaks
+Description: 手势插件，一切从简即可。
+Author: be-huge
+Name: TieGesture(Rootless)
+
 Package: com.be-huge.wechat-push-msg-page
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -614,6 +630,23 @@ Size: 74174
 MD5sum: e3c11444d66d0939d3ebd8e057aa3dbf
 SHA1: 5dd41122716daa2ba9e8f4433babd69ebb4cc08b
 SHA256: a6fe4924fc6002cec50b93871e194b61c93251dce68a8ce51b34c91a779cd4cc
+Section: Tweaks
+Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
+Author: be-huge
+Name: WechatPushMsgPage(Rootless)
+Sileodepiction: https://be-huge.github.io/repo/ChangeLog/Wechat/WechatMsg.json
+
+Package: com.be-huge.wechat-push-msg-page
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 232
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.wechat-push-msg-page_0.0.4_iphoneos-arm64.deb
+Size: 37878
+MD5sum: 0bca9c6a673b79c334560459b34a88bc
+SHA1: 14302d64459694af2d61daf98072941e571da2dd
+SHA256: e7f6fcefb5bb1102464096b18bcf998b4d58e8fc82d54b4100d75a931be39981
 Section: Tweaks
 Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
 Author: be-huge
