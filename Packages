@@ -2306,6 +2306,24 @@ Author: Huayuarc
 Icon: https://huayuarc.github.io/images/Speedintensifier.png
 Name: Speed Intensifier(Rootless)
 
+Package: com.huayuarc.speedintensifier
+Version: 0.0.3.5
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: com.couhege.Appswitcher
+Filename: debs/com.huayuarc.speedintensifier_0.0.3.5_iphoneos-arm64.deb
+Size: 4730
+MD5sum: d43f2ea35f273bed87cb2cfa28e437da
+SHA1: 465942469aa87156a9de7bff41a45be08f6ca9bd
+SHA256: 39ca59d9a766922572cb34086c3f28df81e48966a9285c87551f22971a7ea8b2
+Section: Tweaks
+Description: 通过深度优化动画、启动速度和交互延迟，显著提升设备响应流畅度。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/images/Speedintensifier.png
+Name: Speed Intensifier(Rootless)
+
 Package: com.huayuarc.wechattimelinerobot.rootless
 Version: 0.0.2.8
 Architecture: iphoneos-arm64
@@ -3431,6 +3449,23 @@ Description: Amber-ify your flashlight LEDs. Amber 插件让你可以选择使�
 Author: PoomSmart
 Name: Amber(Rootless)
 Sponsor: PoomSmart
+
+Package: com.ps.smoothcursorios13
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 6.0)
+Conflicts: org.thebigboss.smoothcursor
+Filename: debs/com.ps.smoothcursorios13_0.0.1_iphoneos-arm64.deb
+Size: 4754
+MD5sum: 809a96a00f27a33202f09982ea6fddfc
+SHA1: 77f726a2d3c787a99cefe182545099c85b7e08ce
+SHA256: d2857f30908c3f3ab3bb0c44379adb6546ea023a65d76926a371051c810a56ab
+Section: Tweaks
+Description: Office 2013-styled cursor animation.
+Author: PoomSmart
+Name: SmoothCursor(Rootless)
 
 Package: com.r333d.eqe
 Version: 2.2.241009.1754.7cd8a
