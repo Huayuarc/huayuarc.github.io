@@ -1876,44 +1876,6 @@ Author: Ivano Bilenchi
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro-Roothide
 
-Package: com.huayuarc.iosthermal
-Version: 0.0.6
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal_0.0.6_iphoneos-arm64.deb
-Size: 6886
-MD5sum: 1e777cf42391975b96541f50f54d030f
-SHA1: 7e143d17e8de90a04d5f39353664b3699920f083
-SHA256: 84f1385c39ef438a2a38e86048ed77ba4e82eb036bd41bd804e8d20869a97ff9
-Section: Tweaks
-Description: 深度优化iOS设备，温控 (推荐使用真皮Hello CPU)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://huayuarc.github.io/images/IosThermal.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-
-Package: com.huayuarc.iosthermal
-Version: 0.0.7-1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 876
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal_0.0.7-1_iphoneos-arm64.deb
-Size: 244050
-MD5sum: 66e5ee81a49d88f718d9531757b872a3
-SHA1: 9746200a1fbf959e01e112749814392950fde24d
-SHA256: d2c10b1c1b49fe8dab804adb705ce6f158f768aa6690d4f61ce72c52e379e60d
-Section: Tweaks
-Description: 深度优化iOS设备，温控 (推荐使用真皮Hello CPU)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://huayuarc.github.io/images/IosThermal.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -4892,6 +4854,22 @@ Section: System
 Description: A modern jailbreak detection bypass.
 Author: jjolano
 Name: Shadow
+
+Package: netskao.3dnetworkfixer-rootless
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 496
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/netskao.3dnetworkfixer-rootless_1.1-8_iphoneos-arm64.deb
+Size: 140366
+MD5sum: 422669c613635ffb88902aff9ffb5140
+SHA1: 7ec4aec388ff25cdcafdd486917fc4f296923254
+SHA256: 3f34749172dae63de60d994caff98be9d87eeae9f8103236b5c2323ab0685744
+Section: Netskao-Tweaks
+Description: 3D desktop menu, quick fix for the app networking permissions, Supports iOS13-iOS15
+Author: Netskao
+Name: 3DNetworkFixer(Rootless)
 
 Package: netskao.batterypercentx-roothide
 Version: 1.1-1
