@@ -191,63 +191,6 @@ Description: 原名motherwc，作用：点击wx文本，语音播报信息,应�
 Author: sunweiliang
 Name: Wx文本语音播报(Rootless)
 
-Package: cn.zqbb.holdcpu
-Version: 2.0.0-10
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 2240
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
-Filename: debs/cn.zqbb.holdcpu_2.0.0-10_iphoneos-arm64.deb
-Size: 751808
-MD5sum: b74fb0c7413d3d0e9b30ea1da97962f8
-SHA1: 2ee6a50a3d2c64793e61b7c2ada4bf094094a338
-SHA256: 56dea3ac6fe900785278964f210849dd7c5bb5d5e44ed62361b9fc2de62ab7b0
-Section: Tweaks
-Description: (解除温控) (锁定低电量CPU频率)
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
-Name: Hello CPU(Rootless)
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
-
-Package: cn.zqbb.holdcpu
-Version: 2.2.0-13
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 2432
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
-Filename: debs/cn.zqbb.holdcpu_2.2.0-13_iphoneos-arm64.deb
-Size: 985092
-MD5sum: 7f4143b073895e5ded4a1d5001519396
-SHA1: b7de9c6505c9eb401e22828885240c40e1478779
-SHA256: 6b1ba81e13ba191c39cb171e443b2cebfd8e4490b33b76b7d498f8e6b33b92c7
-Section: Tweaks
-Description: (解除温控) (锁定低电量CPU频率)
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
-Name: Hello CPU(Rootless)
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
-
-Package: cn.zqbb.holdcpu
-Version: 2.2.0-13
-Architecture: iphoneos-arm64e
-Maintainer: zqbb
-Installed-Size: 2432
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
-Filename: debs/cn.zqbb.holdcpu_2.2.0-13_iphoneos-arm64e.deb
-Size: 976018
-MD5sum: c0301590abfcd79abfc645ed86f159b3
-SHA1: 9e11fc0d67068a092dd2744ff1a744bbd91c9c4e
-SHA256: 00c3c8631c837004dc8ad7aeb183d32699647be46b868ecd0d9e9187fd61a070
-Section: Tweaks
-Description: (解除温控) (锁定低电量CPU频率)
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
-Name: Hello CPU(Roothide)
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
-
 Package: codeo.aurora.kayoko.rootless
 Version: 2.7
 Architecture: iphoneos-arm64
