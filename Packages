@@ -4164,6 +4164,42 @@ Icon: https://huayuarc.github.io/images/Eneko.png
 Name: Eneko(Rootless)
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1711
 
+Package: com.vita.yuki
+Version: 0.0-4
+Architecture: iphoneos-arm64e
+Maintainer: vita
+Installed-Size: 240
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.vita.yuki_0.0-4_iphoneos-arm64e.deb
+Size: 47868
+MD5sum: d1d9f783810a17bfd868033877c79264
+SHA1: 5860e9f6ab2aaf89b717ad68cabc6b38870683c5
+SHA256: 93d6208b9b8b00fc5e46caba8c92a3c73a15b0a1cd9b1396b3ccecf60da56b81
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/wtrwx
+Description: 抖音插件，免费插件，随缘更新。
+Author: vita
+Name: Yuki(Roothide)
+
+Package: com.vita.yuki
+Version: 0.0-4
+Architecture: iphoneos-arm64
+Maintainer: vita
+Installed-Size: 240
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.vita.yuki_0.0-4_iphoneos-arm64.deb
+Size: 47948
+MD5sum: 2d3c99572cb4177db1e3cf7188b41b17
+SHA1: abbd9fd0ff064477c66789dd4acc63e5ad636e94
+SHA256: cc132985ff596e9d7c5c6879844125a71f15e61be5b10053b52440b70f501eb3
+Section: Tweaks
+Priority: optional
+Homepage: https://github.com/wtrwx
+Description: 抖音插件，免费插件，随缘更新。
+Author: vita
+Name: Yuki(Rootless)
+
 Package: com.wangdonghua.backgroundretainer
 Version: 0.0.1-6+debug
 Architecture: iphoneos-arm64
