@@ -1842,6 +1842,25 @@ Author: Ivano Bilenchi
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro-Roothide
 
+Package: com.huayuarc.iosthermal
+Version: 0.0.8-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 404
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.iosthermal_0.0.8-1_iphoneos-arm64.deb
+Size: 55822
+MD5sum: ddf4a8eefb6c465d7ab7b58029f544ed
+SHA1: 970579c0840ee5a7ac2d89b69736cb486847f3bd
+SHA256: dffd102c824f33293c53669c975086572687f02960b5b6629df4c5a6639b3970
+Section: Tweaks
+Description: 深度优化iOS设备，自用插件 (推荐使用真皮Hello CPU)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+Icon: https://huayuarc.github.io/images/IosThermal.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e

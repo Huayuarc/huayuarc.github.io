@@ -22,7 +22,7 @@
                 },
                 {
           "class": "DepictionMarkdownView",
-          "markdown": "深度优化iOS设备，温控 (推荐使用真皮Hello CPU)",
+          "markdown": "深度优化iOS设备，自用插件 (推荐使用真皮Hello CPU)",
           "useRawFormat": true
         },
         {
@@ -33,14 +33,6 @@
             {
               "accessibilityText": "Screenshot",
               "url": "https://huayuarc.github.io/sileodepiction/IosThermal/Screenshot_01.png"
-            },
-            {
-              "accessibilityText": "Screenshot",
-              "url": "https://huayuarc.github.io/sileodepiction/IosThermal/Screenshot_02.png"
-            },
-            {
-              "accessibilityText": "Screenshot",
-              "url": "https://huayuarc.github.io/sileodepiction/IosThermal/Screenshot_03.png"
             }
           ]
         },
@@ -72,7 +64,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "0.0.7-1",
+          "text": "0.0.8-1",
           "title": "最新版本"
         },
         {
@@ -97,7 +89,7 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "0.0.7-1",
+          "title": "0.0.8-1",
           "useBoldText": true,
           "useBottomMargin": false
         },
