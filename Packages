@@ -4366,6 +4366,36 @@ Description: Xinamine bundle. Includes linker, patcher, and 'chex' link checker,
 Author: Paisseon, Sudo, NoW4U2Kid
 Name: Xinam1ne All-in-One(Rootless)
 
+Package: jp.akusio.milkyway2
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: akusio <akusio-report@neko2.net>
+Depends: mobilesubstrate, oldabi, preferenceloader, com.opa334.ccsupport, cy+cpu.arm64e, firmware (>= 15.0)
+Filename: debs/jp.akusio.milkyway2_1.0_iphoneos-arm64e.deb
+Size: 91690
+MD5sum: 447ec64b69adbf67b2df7ed289ef4052
+SHA1: ab389053c18c38467faa82e4bdd4db78da46c3a7
+SHA256: 657add443b6de06579af247214fc10efacb688eb3cf15328ab1c5b3251dc8e0b
+Section: Tweaks
+Description: Modifications based on the original version, Fix multitasking support on iOS/iPadOS 16+.老款分屏插件
+Author: akusio <akusio-report@neko2.net>
+Name: MilkyWay2(Roothide)
+
+Package: jp.akusio.milkyway2
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: akusio <akusio-report@neko2.net>
+Depends: mobilesubstrate, oldabi, preferenceloader, com.opa334.ccsupport, cy+cpu.arm64e, firmware (>= 15.0)
+Filename: debs/jp.akusio.milkyway2_1.0_iphoneos-arm64.deb
+Size: 92386
+MD5sum: 9fae54f68574c0e40f249c36a303d449
+SHA1: 3b30a323fa2be53fd6a703386c838544460b29b8
+SHA256: 1b8dccf805af98bce61d0296b3cac98922968583fa69967d39acb7c07b3b007d
+Section: Tweaks
+Description: Modifications based on the original version, Fix multitasking support on iOS/iPadOS 16+.老款分屏插件
+Author: akusio <akusio-report@neko2.net>
+Name: MilkyWay2(Rootless)
+
 Package: jp.dcsyhi.dashapp
 Version: 1.0
 Architecture: iphoneos-arm64
