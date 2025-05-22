@@ -921,21 +921,28 @@ Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC(Rootless)
 
-Package: com.cydiageek.morelinesnotifications.roothide
-Version: 1.0.4-1
+Package: com.cydiageek.morelinesnotifications
+Version: 1.0.5
 Architecture: iphoneos-arm64e
-Maintainer: BigBoss
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 179
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 8.0)
-Filename: debs/com.cydiageek.morelinesnotifications.roothide_1.0.4-1_iphoneos-arm64e.deb
-Size: 14434
-MD5sum: 1dcb85226cf5a01703288cf1e88684a5
-SHA1: eacccf6655b4628531f0ac63fb2f81dcdfaac29e
-SHA256: bdb568f18a92ccd7ff5ed44a14b61d8fb6332d5ff66743ce81eec9438556f07e
+Filename: debs/com.cydiageek.morelinesnotifications_1.0.5_iphoneos-arm64e.deb
+Size: 6268
+MD5sum: 30b40a2927727a6cfadf7cbc005fcb18
+SHA1: 89d860774df882a34925fa0b9f41b5a2b94c01d5
+SHA256: 58197438416d4c63c7f7588ff0f9abe461bdd8d66464128a8d34bf853523def1
 Section: Tweaks
-Description: Increase the Lines for the Notifications! 通知栏来消息全显示!
-Author: CydiaGeek
-Name: MoreLinesNotifications(Roothide)
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
+Description: Increase the Lines for the Notifications!
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
+Dev: lucaluca86
+Name: MoreLinesNotifications
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.den.blur
 Version: 1.0-8+debug
