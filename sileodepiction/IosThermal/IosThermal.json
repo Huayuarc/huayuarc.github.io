@@ -89,6 +89,17 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "0.1.1-1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "精简去除其他温控和优化代码",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "0.1.0-1",
           "useBoldText": true,
           "useBottomMargin": false
