@@ -2891,6 +2891,22 @@ Description: Lynx 2 - 适用于 iOS 14、15 和 16 的终极设备定制功能�
 Author: MTAC <xuanhua880@gmail.com>
 Name: Lynx 2(Rootless)
 
+Package: com.muirey03.cr4shed
+Version: 4.3.1-1+debug
+Architecture: iphoneos-arm64
+Maintainer: Muirey03
+Installed-Size: 2404
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11)
+Filename: debs/com.muirey03.cr4shed_4.3.1-1+debug_iphoneos-arm64.deb
+Size: 455478
+MD5sum: 4f4a9c90ff0d895de2db85fa5eccf662
+SHA1: c8f5c3ec9957d7bc954daff8b0c8190685c6f62b
+SHA256: 4506184396ef4931417ebca84b994197d8934dd50ff98b7001ce18ace8d992cd
+Section: Tweaks
+Description: A modern crash reporter for iOS 安全模式崩溃详情查看
+Author: Muirey03
+Name: Cr4shed(Rootless)
+
 Package: com.netskao.actionbarreborn.rootless
 Version: 1.1-2
 Architecture: iphoneos-arm64
