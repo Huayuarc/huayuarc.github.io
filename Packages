@@ -3969,102 +3969,6 @@ Icon: https://skypain.github.io/repo/src/kayoko/Icon.png
 Name: Kayoko Modified(Rootless)
 Sileodepiction: https://skypain.github.io/repo/src/kayoko/config/sileo/depiction.json
 
-Package: com.skypain.lookinloader
-Version: 1.2.6-1
-Architecture: iphoneos-arm64
-Maintainer: Mr.Zhang <mr_zhang_00@163.com>
-Installed-Size: 4304
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Filename: debs/com.skypain.lookinloader_1.2.6-1_iphoneos-arm64.deb
-Size: 983674
-MD5sum: 4a74ac79eef6dbc88a906831e238b949
-SHA1: e3b01cb2177b57a92f41e55a93f738bcc7dc72fa
-SHA256: 2d312e6609028ad8cadd3a11b61cf30a11cb37ef9c696a2dc3eb4e54c34eb614
-Section: Tweaks
-Description: Lookin UI调试工具
-Author: Mr.Zhang <mr_zhang_00@163.com>
-Name: LookinLoader(Rootless)
-
-Package: com.skypain.lookinloader
-Version: 1.2.6-1
-Architecture: iphoneos-arm64e
-Maintainer: Mr.Zhang <mr_zhang_00@163.com>
-Installed-Size: 4304
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Filename: debs/com.skypain.lookinloader_1.2.6-1_iphoneos-arm64e.deb
-Size: 983770
-MD5sum: 916eda0564eb5443109b7525d99cd92c
-SHA1: b36e83b95576595e78738fe195b4201d30eae129
-SHA256: dfe635a7a973d70a4b077e48ba81a2ccbf835d481aff2d3a36dc81cd54871627
-Section: Tweaks
-Description: Lookin UI调试工具
-Author: Mr.Zhang <mr_zhang_00@163.com>
-Name: LookinLoader(Roothide)
-
-Package: com.skypain.lookinloader
-Version: 1.2.8-1
-Architecture: iphoneos-arm64
-Maintainer: Mr.Zhang <mr_zhang_00@163.com>
-Installed-Size: 4332
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Filename: debs/com.skypain.lookinloader_1.2.8-1_iphoneos-arm64.deb
-Size: 988904
-MD5sum: fd3889bb06b227de9d390bf442e8e0b5
-SHA1: 8c375441db49d1930cd56fb672d510632ed9ad38
-SHA256: d2ba588529f2157f2d08a3a64c6a1e79f631502db81ed57f159e6095373ed544
-Section: Tweaks
-Description: Lookin UI调试工具
-Author: Mr.Zhang <mr_zhang_00@163.com>
-Name: LookinLoader(Rootless)
-
-Package: com.skypain.lookinloader
-Version: 1.2.8-1
-Architecture: iphoneos-arm64e
-Maintainer: Mr.Zhang <mr_zhang_00@163.com>
-Installed-Size: 4332
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Filename: debs/com.skypain.lookinloader_1.2.8-1_iphoneos-arm64e.deb
-Size: 989050
-MD5sum: 92d12056f1ba2a75830428515f51d7b3
-SHA1: fe132a19c4f2fc8081246c39ddb90da3e32ac274
-SHA256: b3ee2e14baa3625b2cedcb99eea76ee4c4c7d5246bdd56f79ae19cbd1102046a
-Section: Tweaks
-Description: Lookin UI调试工具
-Author: Mr.Zhang <mr_zhang_00@163.com>
-Name: LookinLoader(Roothide)
-
-Package: com.skypain.lookinloader
-Version: 1.2.8-2
-Architecture: iphoneos-arm64
-Maintainer: Mr.Zhang <mr_zhang_00@163.com>
-Installed-Size: 4332
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Filename: debs/com.skypain.lookinloader_1.2.8-2_iphoneos-arm64.deb
-Size: 989592
-MD5sum: e9569cd11fbc75fd22c4fa86c22b4152
-SHA1: 1bef85eb56a6be05d922d59df94cb58814e0140d
-SHA256: 865b81077006c0f999a6f59c9bc0889d7922287ee27423b09ae83a306fe5cba6
-Section: Tweaks
-Description: Lookin UI调试工具
-Author: Mr.Zhang <mr_zhang_00@163.com>
-Name: LookinLoader(Rootless)
-
-Package: com.skypain.lookinloader
-Version: 1.2.8-2
-Architecture: iphoneos-arm64e
-Maintainer: Mr.Zhang <mr_zhang_00@163.com>
-Installed-Size: 4332
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Filename: debs/com.skypain.lookinloader_1.2.8-2_iphoneos-arm64e.deb
-Size: 989708
-MD5sum: 9ff7d14a6da65584f0ac711a80380b72
-SHA1: 0897e3ad605bfaa0b382aa09172d63c18245c7d3
-SHA256: 2493aae9d085b1e7bf3475ca80f6b5ed9142cda2c9710f827bc09c5c0ba0bcef
-Section: Tweaks
-Description: Lookin UI调试工具
-Author: Mr.Zhang <mr_zhang_00@163.com>
-Name: LookinLoader(Roothide)
-
 Package: com.snail.easynotify
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -5028,6 +4932,23 @@ Section: Netskao-Tweaks
 Description: 自定义X键盘底部高度，地球底部高度等
 Author: Netskao
 Name: ClassicKeyboardXS
+
+Package: netskao.lookinloader-rootless
+Version: 1.2-0
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1692
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/netskao.lookinloader-rootless_1.2-0_iphoneos-arm64.deb
+Size: 574604
+MD5sum: b1857896526b0ba961a58a4dc8e7e94d
+SHA1: 7f176f409622c4412d8edb9088df263dbdd8fb3b
+SHA256: 79ae0d7da2924481a518489b31234c8e1156275dd41da23340e32f9c17e672df
+Section: Netskao-Tweaks
+Homepage: https://github.com/QMUI/LookinServer
+Description: LookinServer dynamic loading tool, loaded by desktop long press icon to bring up the menu LookinServer 动态加载工具，通过桌面长按图标调出菜单加载
+Author: Netskao
+Name: LookinLoader(Rootless)
 
 Package: netskao.perfectgrabber-rootless
 Version: 1.1-7
