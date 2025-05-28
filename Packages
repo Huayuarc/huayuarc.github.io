@@ -3312,6 +3312,22 @@ Author: Netskao
 Name: 淘宝 NoAds(Rootless)
 Sponsor: Nets
 
+Package: com.netskao.wcdisablehotupdates
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/com.netskao.wcdisablehotupdates_1.1-1_iphoneos-arm64.deb
+Size: 2438
+MD5sum: 1825c6b8bf061d7996bafd16f2dd381c
+SHA1: e2a290e2f1631cd1f0719cac77c81b153ceefe15
+SHA256: 5e1fe8a1bbdc99bc843597ed82c050185b2becdb3aba9bafd546353389db832c
+Section: Netskao-Tweaks
+Description: WeChat Disable Hot Updates
+Author: Netskao
+Name: WCDisableHotUpdates(Rootless)
+
 Package: com.netskao.wcmypageinfocenter
 Version: 1.2-2
 Architecture: iphoneos-arm64
