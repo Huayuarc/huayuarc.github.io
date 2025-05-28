@@ -191,6 +191,25 @@ Description: 原名motherwc，作用：点击wx文本，语音播报信息,应�
 Author: sunweiliang
 Name: Wx文本语音播报(Rootless)
 
+Package: cn.zqbb.orzfolder
+Version: 1.3.3-2
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 2564
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/cn.zqbb.orzfolder_1.3.3-2_iphoneos-arm64.deb
+Size: 1072856
+MD5sum: 826653d52695586051cc582db11e8026
+SHA1: bf2c9ddaa5e26adaa08a12ce16e0ac0dc8f7f7ae
+SHA256: 0e634fb7cbbf120ffbd497a855d78c1f23a134413fb8c2b0c41d710d3923ded0
+Section: Tweaks
+Description: Folder Layout Customization Tool
+ - 文件夹颜值 ? 美 : 丑
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.orzfolder
+Name: Hello Folder(Rootless)
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.orzfolder
+
 Package: codeo.aurora.kayoko.rootless
 Version: 2.7
 Architecture: iphoneos-arm64
@@ -1842,83 +1861,6 @@ Author: Ivano Bilenchi
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro-Roothide
 
-Package: com.huayuarc.iosthermal
-Version: 0.0.8-1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 404
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal_0.0.8-1_iphoneos-arm64.deb
-Size: 55822
-MD5sum: ddf4a8eefb6c465d7ab7b58029f544ed
-SHA1: 970579c0840ee5a7ac2d89b69736cb486847f3bd
-SHA256: dffd102c824f33293c53669c975086572687f02960b5b6629df4c5a6639b3970
-Section: Tweaks
-Description: 深度优化iOS设备，自用插件 (推荐使用真皮Hello CPU)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://huayuarc.github.io/images/IosThermal.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-
-Package: com.huayuarc.iosthermal
-Version: 0.0.9-1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 436
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal_0.0.9-1_iphoneos-arm64.deb
-Size: 57668
-MD5sum: 95315412c559698ebcd0b9ef915290ae
-SHA1: fe2bf6f44db4d8b12c500e72eba030c488724e2a
-SHA256: 3e2719c7d63d300cb929414cfc55084d1c7cca22bb20f63a8d87a234ef73af0d
-Section: Tweaks
-Description: 深度优化iOS设备，自用插件 (推荐使用真皮Hello CPU)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://huayuarc.github.io/images/IosThermal.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-
-Package: com.huayuarc.iosthermal
-Version: 0.1.0-1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 436
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.iosthermal_0.1.0-1_iphoneos-arm64.deb
-Size: 58802
-MD5sum: d80116e0da884967713f8d17c03b9d14
-SHA1: 8e2487852eac928c87555ff11e22ae54308ecce7
-SHA256: ec07cb1283bc2f95b62b1ab83ec181cdb5e7b960410645fa3ad960d216e884cd
-Section: Tweaks
-Description: 深度优化iOS设备，自用插件 (推荐使用真皮Hello CPU)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://huayuarc.github.io/images/IosThermal.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-
-Package: com.huayuarc.iosthermal
-Version: 0.1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 436
-Depends: mobilesubstrate
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermalpro, cn.zqbb.holdcpu
-Filename: debs/com.huayuarc.iosthermal_0.1.1-1_iphoneos-arm64.deb
-Size: 59042
-MD5sum: e109d766723c3b2fd94583fe8f6d61a8
-SHA1: d127a9ed160b8aa769bf1ee18bc0a1e3f3342117
-SHA256: 8b752341ce9baac571a8ce24d81b17cf6d33ad53b71a746afb32db5b874cbb13
-Section: Tweaks
-Description: 深度优化iOS设备，温控 (推荐使用真皮Hello CPU)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://huayuarc.github.io/images/IosThermal.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -2584,6 +2526,22 @@ Description: Zetsu 是一个允许应用程序执行多任务的调整。Zetsu �
 Author: Dcsyhi
 Icon: https://repo.cypwn.xyz/packages/Zetsu-Rootless/icon.png
 Name: Zetsu-Roothide
+
+Package: com.hui.k2gecamen.zh-hans
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 灰灰
+Depends: firmware (>= 15.0)
+Filename: debs/com.hui.k2gecamen.zh-hans_0.0.1_iphoneos-arm64.deb
+Size: 2680
+MD5sum: d0124fceeb465a2e7d3ca463888a507f
+SHA1: 4a751a3e659bc0ccc843e7d531cf50b0c221512c
+SHA256: 7758a619f43084d378a4e70a756097dfed333c27dd43bd17e613cc555f66b690
+Section: Tweaks
+Description: 为K2gecamen提供简体中文
+Author: 灰灰
+Icon: http://q1.qlogo.cn/g?b=qq&nk=84666997&s=640
+Name: zh-Hans for K2gecamen(Rootless)
 
 Package: com.hy.samgisaninja.SuccessionRestore
 Version: 1.4.16~b4
@@ -4305,6 +4263,23 @@ Description: 自用 功能默认开启 | 去除启动广告 首页一些无用�
 Author: x✨
 Name: 高德地图优化(Roothide)
 
+Package: com.zqbb.iconshadow
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 96
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.zqbb.iconshadow_1.1_iphoneos-arm64.deb
+Size: 10568
+MD5sum: d18edeae30ea20e0beceab40da58d204
+SHA1: 20fcf970bd82dff747c808b7d1a99491adcd6d8e
+SHA256: 98ae916475101bde33d882c8dc80683ad19ae6973ad22f82bb61fd6ef4bf934d
+Section: Tweaks
+Description: 给图标添加一层阴影图片!
+Author: zqbb
+Name: Hello Shadow(Rootless)
+Sileodepiction: https://rootless.002599.xyz/web/com.zqbb.iconshadow
+
 Package: com.zxc.checkproxybypass.roothide
 Version: 0.1.1-2
 Architecture: iphoneos-arm64e
@@ -4529,6 +4504,25 @@ Description: You can arrange apps on the dock of keyboard ⌨️.在键盘底部
 Author: Dcsyhi
 Icon: https://dcsyhi1998.github.io/icons/kbappdock/icon@2x.png
 Name: KBApp(Rootless)
+
+Package: kr.xsf1re.vnodebypass
+Version: 0.4.3
+Architecture: iphoneos-arm64
+Maintainer: alias20
+Installed-Size: 492
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Filename: debs/kr.xsf1re.vnodebypass_0.4.3_iphoneos-arm64.deb
+Size: 127286
+MD5sum: 152877acfec52f30d743880639d4b638
+SHA1: 4fd28eb3d77d86eb103bc3a29da72109a0761c03
+SHA256: 9cfd75df811c3f59bfd8a1eff9212a3f26c0ea5898e93d20dfce7a182b4a8ebc
+Section: System
+Description: 苏苏编译并汉化，替换原本控制中心图标。仅在需要时开启，不要常开！用于隐藏越狱文件以绕过检测的工具。（仅支持iOS15-16系统Dopamine2越狱）
+Tag: role::hacker, compatible::ios15, compatible::ios16
+Author: XsF1re, ichitaso, level3tjg
+Depiction: https://cydia.ichitaso.com/depiction/vnodebypass.html
+Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
+Name: Vnodebypass(Rootless)
 
 Package: me.jjolano.fmwk.hookkit
 Version: 1.0.14

@@ -22,7 +22,7 @@
                 },
                 {
           "class": "DepictionMarkdownView",
-          "markdown": "深度优化iOS设备，自用插件 (推荐使用真皮Hello CPU)",
+          "markdown": "去温控组合插件 (推荐使用真皮Hello CPU)",
           "useRawFormat": true
         },
         {
@@ -64,7 +64,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "0.1.0-1",
+          "text": "0.1.2",
           "title": "最新版本"
         },
         {
@@ -74,7 +74,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2025 年 05 月 22 日",
+          "text": "2025 年 05 月 26 日",
           "title": "最后更新日期"
         },
         {
@@ -89,24 +89,13 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "0.1.1-1",
+          "title": "0.1.2",
           "useBoldText": true,
           "useBottomMargin": false
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "优化代码",
-          "useRawFormat": true
-        },
-        {
-          "class": "DepictionSubheaderView",
-          "title": "0.1.0-1",
-          "useBoldText": true,
-          "useBottomMargin": false
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "自用插件，能不能防降频？防降亮度？不能。纯自用：推荐安装真皮Hello CPU",
+          "markdown": "上传备用，安装前请卸载其他插件再安装这个",
           "useRawFormat": true
         }
       ]
