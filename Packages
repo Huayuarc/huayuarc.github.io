@@ -1110,6 +1110,54 @@ Author: dvntm
 Icon: https://raw.githubusercontent.com/dayanch96/RateBeGone/refs/heads/main/sources/icon.png
 Name: RateBeGone(Roothide)
 
+Package: com.huami.WCPulse
+Version: 1.0-9
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 388
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.WCPulse_1.0-9_iphoneos-arm64e.deb
+Size: 119794
+MD5sum: 6ab1df7c4994544ac5f224781c671426
+SHA1: 4fa9515a19e8aa7d78de7862e0ded6393fc81862
+SHA256: c1009af543921ab108acb504850825d2e2930554530a11b25a7ebe3cfb9235ff
+Section: Tweaks
+Description: WCPulse微信插件
+Author: huami
+Name: WCPulse(Roothide)
+
+Package: com.huami.WCPulse
+Version: 1.0-9
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 388
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.WCPulse_1.0-9_iphoneos-arm64.deb
+Size: 119994
+MD5sum: ee2142d2d6c9b651b819162039d8d57c
+SHA1: 5e1602c9ec79d6e7d8e90d30248ed5fa13fd60a8
+SHA256: 77f566934b3a99a4459900e9633cd03bc6486411a1069442f3388a70f911cd7e
+Section: Tweaks
+Description: WCPulse微信插件
+Author: huami
+Name: WCPulse(Rootless)
+
+Package: com.huami.WCPulse
+Version: 1.0-9
+Architecture: iphoneos-arm
+Maintainer: huami
+Installed-Size: 388
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.WCPulse_1.0-9_iphoneos-arm.deb
+Size: 119758
+MD5sum: dcaede6933657b00f75cb0067c82c4ff
+SHA1: 54bc6e892f22db93eb1d7e491ceea2ec82646126
+SHA256: 97e35475858c74f98f2327d43d95857387bd42ef54603dc6fb6f8d4504cbffa3
+Section: Tweaks
+Description: WCPulse微信插件
+Author: huami
+Name: WCPulse
+
 Package: com.huami.dyenablepanelmodernstyle
 Version: 1.0.0
 Architecture: iphoneos-arm64e
