@@ -979,6 +979,23 @@ Description: 去启动广告，去除升级提示
 Author: Huayuarc
 Name: 达达秒送骑士(Rootless)
 
+Package: com.dada.staff
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.dada.staff_0.0.1_iphoneos-arm64e.deb
+Size: 2716
+MD5sum: ab2feb142fa0f30c5c49e042826a147a
+SHA1: c5a0596d232d9b97ac30ebf525204faac0bb2bd1
+SHA256: 71f5365add5b3189f5390d394306a8fabffaf3bce19e46524dffde35d02849f7
+Section: Tweaks
+Description: 去启动广告，去除升级提示
+Author: Huayuarc
+Icon: https://huayuarc.github.io/images/dada.png
+Name: 达达秒送骑士(Roothide)
+
 Package: com.den.blur
 Version: 1.0-8+debug
 Architecture: iphoneos-arm64
