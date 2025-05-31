@@ -963,6 +963,22 @@ Dev: lucaluca86
 Name: MoreLinesNotifications
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.dada.staff
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.dada.staff_0.0.1_iphoneos-arm64.deb
+Size: 3398
+MD5sum: 4b7de1edc174865855b4851cdb45c2e0
+SHA1: 8ac1ff9d2dd14155350301b020ef4f749f07b88b
+SHA256: a662ac828f1cf05edd86b5decfc6def80e50662427422d6c823cce6c9e3f8f34
+Section: Tweaks
+Description: 去启动广告，去除升级提示
+Author: Huayuarc
+Name: 达达秒送骑士(Rootless)
+
 Package: com.den.blur
 Version: 1.0-8+debug
 Architecture: iphoneos-arm64
@@ -1908,6 +1924,26 @@ Description: The first real iOS system cleanup and management utility
 Author: Ivano Bilenchi
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro-Roothide
+
+Package: com.huayuarc.iosthermalpro
+Version: 0.1.2
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 1332
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermalpro_0.1.2_iphoneos-arm64.deb
+Size: 300506
+MD5sum: 4a571c5b5bfeef33a5be20f8174fde6b
+SHA1: 7d0b8b3d4d3f2f9923c1dd7cfbf8c0e14a7040e5
+SHA256: f0f52b40ae8072b9278876b51990c571e708fa7013a29c99b1c6ea046679edef
+Section: Tweaks
+Description: 去温控组合插件 (推荐使用真皮Hello CPU)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+Icon: https://huayuarc.github.io/images/IosThermal.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
 
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
