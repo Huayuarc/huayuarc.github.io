@@ -2028,6 +2028,22 @@ Description: Patch description: Disable the dropdown gesture in the notification
 Author: poqw312
 Name: 禁用通知中心下拉手势(Rootless)
 
+Package: com.huayuarc.mytweak
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huayuarc.mytweak_1.0.0_iphoneos-arm64.deb
+Size: 2492
+MD5sum: 745f4ca3629468477f065283a5e4d977
+SHA1: 48ff5dc5f811e81496e34f21ae34a03f4d95e249
+SHA256: 3fba4d8a92f3629da98c10e5460dc92de91bca46ab9af0e0161f73b5da1f9c20
+Section: Tweaks
+Description: 强制隐藏iPhone桌面翻页点
+Author: Huayuarc
+Name: iPhone隐藏桌面翻页点(Rootless)
+
 Package: com.huayuarc.neigou
 Version: 0.0.1-1
 Architecture: iphoneos-arm
