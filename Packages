@@ -1146,24 +1146,6 @@ Description: Prevent Weather Module with BetterCC crash your idevice
 Author: 0xkuj
 Name: BetterCCCrashProtect(Rootless)
 
-Package: com.0xkuj.ccadsbegone.rootless
-Version: 1.5
-Architecture: iphoneos-arm64
-Maintainer: 0xkuj
-Installed-Size: 6096
-Depends: com.opa334.ccsupport, com.ps.letmeblock (>= 1.3.0)
-Conflicts: com.0xkuj.ccadsbegone
-Filename: debs/com.0xkuj.ccadsbegone.rootless_1.5_iphoneos-arm64.deb
-Size: 951128
-MD5sum: 730393f36106f5971e8141695a258e98
-SHA1: c923252b27e5e733eb3b62681c43b18e3d44a2bc
-SHA256: 32cba36728bc60096524bf3ef166b4b9791cd8e5ec663f2d8f8584b30f1ca372
-Section: 插件
-Description: CC Toggle to block ads on demand!（目前只支持无根越狱）
-Author: 0xkuj
-Icon: https://s1.imagehub.cc/images/2025/01/02/31d37211f7e50cbef48fe8b403cb6669.png
-Name: CCAdsBeGone (rootless)
-
 Package: com.0xkuj.ccdnd
 Version: 1.0.0
 Architecture: iphoneos-arm64e
@@ -3051,43 +3033,6 @@ Icon: https://s1.imagehub.cc/images/2025/02/10/d66c9518db05d7191ec5b1cbc6c1b973.
 Name: BetterCCBrightness
 Sponsor: wkk
 
-Package: com.betterccbrightness
-Version: 1.0.3
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Installed-Size: 304
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
-Filename: debs/com.betterccbrightness_1.0.3_iphoneos-arm64e.deb
-Size: 59668
-MD5sum: 854a767aca73b564ea2514ba7fc14f38
-SHA1: 9676556071d62c69d7e6094618ec0db7af69541b
-SHA256: d1ace025a872a4cc729fa2dadb9af275b060c690e6ac40a01572c5a8ffdbaa06
-Section: 控制中心
-Description: 在控制中心亮度模块长按后，增加了可以快速调节降低白点值和夜览的滑块。
-Author: level3tjg
-Icon: https://s1.imagehub.cc/images/2025/01/21/dfd2f1f3615c35fe920fb6a4415e46fb.png
-Name: BetterCCBrightness
-Sponsor: wkk
-
-Package: com.betterccbrightness
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 304
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
-Filename: debs/com.betterccbrightness_1.0.3_iphoneos-arm64.deb
-Size: 43776
-MD5sum: 1243cc6fe909219acf432b1cab0e86be
-SHA1: 87eb421f64c5fb54883902013496540b53a62ea6
-SHA256: ea947bfd719202566867f4c111878a605fd9d6df90814215e68defcd06140cea
-Section: 控制中心
-Description: 在控制中心亮度模块长按后，增加了可以快速调节降低白点值和夜览的滑块。
-Author: level3tjg
-Icon: https://s1.imagehub.cc/images/2025/01/21/dfd2f1f3615c35fe920fb6a4415e46fb.png
-Name: BetterCCBrightness
-Sponsor: wkk
-
 Package: com.brend0n.neteaseradioliketoprevious
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -4071,26 +4016,6 @@ Description: 群管理Pro、标签Pro、显示群友真名字、群管标识、�
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
 Name: PKC(Rootless)
-
-Package: com.cydiageek.gyration
-Version: 1.1.5
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 435
-Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader, com.cydiageek.gyrationapps
-Filename: debs/com.cydiageek.gyration_1.1.5_iphoneos-arm64.deb
-Size: 46368
-MD5sum: 00e5d1b76267d5daf5f9cfd875dff8d9
-SHA1: 4a867bbcf7443184c7dfe9a44036be194381d1a1
-SHA256: d1445259a38fb373a3e59aa5ef7102e05c04d9d2ab1702aaa0a7a5112fda9789
-Section: 插件
-Priority: optional
-Description: 与iOS9至16兼容，您可以在系统范围内启用所有应用程序、锁屏和主屏幕的旋转，还可以管理更多的旋转功能！更新于2024年4月25日，1.1.5版本，支持iOS16。添加了“旋转所有应用程序”选项（仅限iOS16）在iOS16上添加了向上向下旋转应用程序、锁屏和主屏幕的选项（感谢khanhduytran0的TrollPad Code）修复了iOS15.0+在无根环境中因使用Legacy arm64e ABI而导致的崩溃。一般代码改进/清理/修复。
-Author: CydiaGeek <lucaluca86@aol.com>
-Dev: lucaluca86
-Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
-Name: Gyration
-Sponsor: wkk
 
 Package: com.cydiageek.morelinesnotifications
 Version: 1.0.4-1
@@ -8019,23 +7944,6 @@ Author: Crassna
 Icon: https://s1.imagehub.cc/images/2025/01/09/06130549c430dd824cd811789f56a47b.png
 Name: Applecard
 Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/Applecard.json
-
-Package: com.lenglengyu.disableappcreationalbums-rootless
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 152
-Depends: mobilesubstrate
-Filename: debs/com.lenglengyu.disableappcreationalbums-rootless_0.0.1_iphoneos-arm64.deb
-Size: 4260
-MD5sum: e731dd85c97be7b867abefa21670f5a4
-SHA1: 96f738afc6a00dca04df66a04c3160fb3395d194
-SHA256: 8b5d70d1ce2c040e183d5c8b2121d416998c830679106114c8594b972d606620
-Section: 插件
-Description: 禁止app创建相册，自主创建时相册会闪退，如果某些app保存图片需要在相册创建相册，无法创建时可能会保存不成功（例如小红书）
-Author: lenglengyu
-Icon: https://s1.imagehub.cc/images/2025/01/01/e181be0bd44589f6eadb6c2196dc6bb8.jpeg
-Name: 禁止APP创建相册
 
 Package: com.lenglengyu.dismissalert-roothide
 Version: 1.0.0
