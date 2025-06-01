@@ -205,43 +205,6 @@ Author: RlPNDlP
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: 虚拟内存优化
 
-Package: apt.april
-Version: 3.1
-Architecture: iphoneos-arm64
-Maintainer: k
-Installed-Size: 832
-Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Conflicts: com.midnightchips.bettersettings, me.luki.april, com.hk.april, com.qms.april
-Filename: debs/apt.april_3.1_iphoneos-arm64.deb
-Size: 392900
-MD5sum: dd46bdc7229e14ba7196b5103c9aa157
-SHA1: bbd4409c1a0b598ad8acd7e330f2e6e5af250c4f
-SHA256: 9e9b22b664fc1f758b3264872f4b7827ee2ca67cb74f93f963a39ac4b907c22c
-Section: 插件
-Description: 可以设置设置App的背景图。
-Author: Luki
-Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
-Name: April
-
-Package: apt.april
-Version: 3.1
-Architecture: iphoneos-arm64e
-Maintainer: k
-Installed-Size: 832
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Conflicts: com.midnightchips.bettersettings, me.luki.april, com.hk.april, com.qms.april
-Filename: debs/apt.april_3.1_iphoneos-arm64e.deb
-Size: 410914
-MD5sum: 51439eea24693d234efab835861a5b27
-SHA1: 68a5cc7e1f42ea1bf89967c7fb270f63617040d0
-SHA256: 2d8dc3b464a7db76436688b2b3d9b6cc962b2474771602b77b2719c65f53c328
-Section: 插件
-Description: 可以设置设置App的背景图。
-Author: Luki
-Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
-Name: April
-
 Package: apt.couhege.manila
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -258,43 +221,6 @@ Description: 文件夹长按启用3DTouch功能，在无根环境测试OK。凑�
 Author: David Goldman
 Icon: https://huayuarc.github.io/images/Manila.png
 Name: Manila(Rootless)
-
-Package: apt.perfectxtime
-Version: 1.1-3
-Architecture: iphoneos-arm64e
-Maintainer: Nets
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/apt.perfectxtime_1.1-3_iphoneos-arm64e.deb
-Size: 11506
-MD5sum: 7dd5c903a838eeaf06038efd7a4276c3
-SHA1: d0d3a26c120376a77964f1c713c00c84e1070af3
-SHA256: c9bd545563a484cb299a33a26a62ce86de488e0e120df0a6542b46b158b8b7f4
-Section: 插件
-Description: 状态栏时间之后+星期，无设置项。
-Author: Netskao
-Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
-Name: PerfectXTime
-Sponsor: wkk
-
-Package: apt.perfectxtime
-Version: 1.1-3
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 168
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/apt.perfectxtime_1.1-3_iphoneos-arm64.deb
-Size: 8600
-MD5sum: 270d386c2c35c1415208e5c8430b0571
-SHA1: 35696acd9e4acb7bf87658541a67c27446f92290
-SHA256: f095ca4c850b77301dd341c61643238aca224a493fbaa8dfb42068f41c01fe37
-Section: 插件
-Description: 状态栏时间之后+星期，无设置项。
-Author: Netskao
-Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
-Name: PerfectXTime
-Sponsor: wkk
 
 Package: ch.xxtou.xxtouch
 Version: 5.2
@@ -970,40 +896,6 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.orzfolder
 Name: Hello Folder(Rootless)
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.orzfolder
-
-Package: cn.zqbb.phonekey.reset
-Version: 1.0.0-1
-Architecture: iphoneos-arm64e
-Maintainer: zqbb <w2599z@gmail.com>
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/cn.zqbb.phonekey.reset_1.0.0-1_iphoneos-arm64e.deb
-Size: 5308
-MD5sum: 92c39cd6121e794060f37f4da8bc983c
-SHA1: 3c76a756df8601ab43725c6a76239b10c8927e5c
-SHA256: c28e033c3721e5f54768944236d49dfd484cdfc91fce008bd4b2009efd1b28c4
-Section: Tweaks
-Description: 修复pro改max分辨率造成的电话拨号键盘错位，备份上架。
-Author: zqbb <w2599z@gmail.com>
-Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
-Name: PhoneKeyReset拨号键复位
-
-Package: cn.zqbb.phonekey.reset
-Version: 1.0.0-1
-Architecture: iphoneos-arm64
-Maintainer: zqbb <w2599z@gmail.com>
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/cn.zqbb.phonekey.reset_1.0.0-1_iphoneos-arm64.deb
-Size: 5016
-MD5sum: f0e8ad6bbddbea77fcd889c93d4c94b5
-SHA1: 4539713e306fa96765998ee3208ed15df051b2f8
-SHA256: 284511e38ba554bedf7908a75d5b0de86af0f6f20c78c3a649d372809f473cbf
-Section: Tweaks
-Description: 修复pro改max分辨率造成的电话拨号键盘错位，备份上架。
-Author: zqbb <w2599z@gmail.com>
-Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
-Name: PhoneKeyReset拨号键复位
 
 Package: codeo.aurora.kayoko.rootless
 Version: 2.7
@@ -2533,43 +2425,6 @@ Description: 锁屏聚合通知插件，个人觉得可玩性一般。
 Author: Nepeta
 Icon: https://s1.imagehub.cc/images/2025/01/07/dfa708813bd72a0a42ccc3eaaab30020.png
 Name: Axon汉化版
-
-Package: com.badgebreathing
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.badgebreathing_0.0.1_iphoneos-arm64.deb
-Size: 4220
-MD5sum: c8f6fb276bb47b1046388060d0ee0e2e
-SHA1: f0da1339e5aecdeef605d8e464384e734e2c5cf2
-SHA256: 1b5089dccde5b7ba5f1f47a14cfc41e9e0e96bc2da8c4d72a2704dcc7bdcfccf
-Section: 插件
-Description: APP角标呼吸灯效果，注销生效无设置项。
-Author: Phuc Do
-Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
-Name: Badge
-Sponsor: wkk
-
-Package: com.badgebreathing
-Version: 0.0.1
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.badgebreathing_0.0.1_iphoneos-arm64e.deb
-Size: 5716
-MD5sum: b8cda46e77517c8db54616eeb4f07512
-SHA1: 5054d2690f48f132531b71cecec7cdcaa1be9fd2
-SHA256: 1fca52bc3df9dc97092fcf059e547492103ce700737d2f5d945b49ced8b114a6
-Section: 插件
-Description: APP角标呼吸灯效果，注销生效无设置项。
-Author: Phuc Do
-Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
-Name: Badge
-Sponsor: wkk
 
 Package: com.baiy.qqroundedcorners
 Version: 1.3
@@ -12976,23 +12831,6 @@ Description: 基于11.14.5制作，去广告精简界面
 Author: White
 Name: 百度网盘 NoAds
 
-Package: com.wkk.kongbao
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: debs/空包包.deb
-Size: 5936
-MD5sum: 8ea264c70b29a941adc82da8f2adaeef
-SHA1: fc610c4ba3a5d8a26bc825c9f74375fe03b61419
-SHA256: ef5f61ae98cdb11cb7097c9c055781f8186a0d991e31d6aa33fceadc8597c1a8
-Section: Dopamine挂载
-Description: 建源初心。
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/02/28/f304f3a0a6ed71e8fb336e7ed1c09996.jpeg
-Name: 关于源（空包仅浏览）
-Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/kongbao.json
-
 Package: com.xx.gaodehook
 Version: 1.0.4
 Architecture: iphoneos-arm64e
@@ -14497,6 +14335,22 @@ Section: Netskao-Tweaks
 Description: 3D desktop menu, quick fix for the app networking permissions, Supports iOS13-iOS15
 Author: Netskao
 Name: 3DNetworkFixer(Rootless)
+
+Package: netskao.actionbarreborn
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 796
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/netskao.actionbarreborn_1.1-2_iphoneos-arm64.deb
+Size: 279042
+MD5sum: 00cc2eeb8a6e5f410317d4282ceb099d
+SHA1: 786b5b5677963c6eac0ef2b6a80c857ee1c957c7
+SHA256: 5b8251492df0f494c5a96494867f21e7a187e47b3e44ddd799f8e072d2580878
+Section: Netskao-Tweaks
+Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition
+Author: Netskao
+Name: ActionBar Reborn
 
 Package: netskao.batterypercentx-roothide
 Version: 1.1-1
