@@ -527,6 +527,40 @@ Author: Arway_Aw
 Name: 网易邮箱 NoAds(Rootless)
 Sponsor: Huayuarc
 
+Package: com.bankofbbg.mobilebank
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.bankofbbg.mobilebank_0.0.1_iphoneos-arm64.deb
+Size: 3904
+MD5sum: a63042b5c67a96921affa3dd64494312
+SHA1: 41042be04f681928d8f91226614551f68f52f948
+SHA256: 56aa5a42a6ae5af434db1b30303be150d6872d9f3ff0f78dc8310167596fbe5b
+Section: Tweaks
+Description: 增加一个取消按钮，点击取消按键后可进入应用进行使用，点击确定按键则退出应用。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/images/bankofbbg.png
+Name: 广西北部湾银行(Rootless)
+
+Package: com.bankofbbg.mobilebank
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Huayuarc
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.bankofbbg.mobilebank_0.0.1_iphoneos-arm.deb
+Size: 3810
+MD5sum: 0222a12a8899fa74820c922c52a79d2c
+SHA1: db7b4cc5b3aa8fc3435fdebfaabb7454ad88437d
+SHA256: 4ada0a5f549c3b3b54773bbe3adc55371e28934affbdd85ab143730ad304c3ba
+Section: Tweaks
+Description: 增加一个取消按钮，点击取消按键后可进入应用进行使用，点击确定按键则退出应用。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/images/bankofbbg.png
+Name: 广西北部湾银行
+
 Package: com.be-huge.floating-view
 Version: 1.5.2-2
 Architecture: iphoneos-arm64
