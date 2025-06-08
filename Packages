@@ -6758,22 +6758,22 @@ Author: Huayuarc
 Icon: https://huayuarc.github.io/images/Speedintensifier.png
 Name: Speed Intensifier(Rootless)
 
-Package: com.huayuarc.ultimateoptimizer
-Version: 0.0.1
+Package: com.huayuarc.systemspeed
+Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: Huayuarc
 Installed-Size: 168
 Depends: mobilesubstrate
-Filename: debs/com.huayuarc.ultimateoptimizer_0.0.1_iphoneos-arm64.deb
-Size: 5720
-MD5sum: 9537c4671c6615ffa17c1354627741b5
-SHA1: 06d2e611245532e327810cfdaf5174afe3aab75e
-SHA256: 740e58d03bbdefaebe37046932eff823c11c86b5422a7f584e4655c643c70c68
+Filename: debs/com.huayuarc.systemspeed_1.0.2_iphoneos-arm64.deb
+Size: 9160
+MD5sum: 566bc98aa0152e5f85c128aa6d6877fa
+SHA1: 92ed6c8fc8610190ebb2e79e8a1d5d62a620b9d6
+SHA256: 52adcfb401588d0722e58f8b491793e87b75cc22178ab83ca95c33f614964be1
 Section: Tweaks
-Description: 1,应用启动加速:深度优化动画逻辑,显著缩短应用冷启动时间 2,网络性能强化:优化TCP/IP协议栈参数。
+Description: iOS系统底层优化,四大核心模块：1,网络加速系统(HTTP/3,TCP/IP协议栈优化)2,信号增强系统(5G/VoLTE强制启用)3,动画加速系统(全局动画压缩)4,隐私保护系统(定位服务控制)
 Author: Huayuarc
 Icon: https://huayuarc.github.io/images/SystemBoost.png
-Name: Ultimate Optimizer(Rootless)
+Name: SystemSpeed
 
 Package: com.huayuarc.wechattimelinerobot.rootless
 Version: 0.0.2.8
@@ -11139,6 +11139,21 @@ Description: including iMark and Piiico for now
 Author: SquidForce(乌贼力量)
 Icon: https://s1.imagehub.cc/images/2025/01/01/6649d33bb5c1426f31fa0d05bddce392.png
 Name: Plugins For Snapper3
+
+Package: com.starry6.lunanoad
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: liwhs
+Depends: mobilesubstrate
+Filename: debs/com.starry6.lunanoad_1.0-1_iphoneos-arm.deb
+Size: 6736
+MD5sum: dccde578921b7214755e79084c7d1e2c
+SHA1: 2ce94574975ec6b0493dd1888e9d62e8364379f2
+SHA256: fc58bb0dc49de513759ebab587efc89281a02393ae4dd644ca5fcbbf1219b7d7
+Section: Tweaks
+Description: 去开屏广告，秒过激励式视频
+Author: starry6
+Name: 汽水音乐 NoAds
 
 Package: com.stbz.checkproxybypass-rootless
 Version: 0.1.1-2
