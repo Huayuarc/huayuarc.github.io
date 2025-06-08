@@ -11141,6 +11141,22 @@ Icon: https://s1.imagehub.cc/images/2025/01/01/6649d33bb5c1426f31fa0d05bddce392.
 Name: Plugins For Snapper3
 
 Package: com.starry6.lunanoad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: liwhs
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.starry6.lunanoad_1.0_iphoneos-arm64.deb
+Size: 7312
+MD5sum: f7dd274a18ceaf9e1ab71632a0074f30
+SHA1: cf43f56f44424c09a6a4e2a5b4af5c95f1afaba9
+SHA256: 07479b50a98e3f6e093bab895e7b7553a0ad9d7e268e8f607b98714c6328ed8b
+Section: Tweaks
+Description: 去开屏广告，秒过激励式视频
+Author: starry6
+Name: 汽水音乐 NoAds
+
+Package: com.starry6.lunanoad
 Version: 1.0-1
 Architecture: iphoneos-arm
 Maintainer: liwhs
