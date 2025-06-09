@@ -11171,6 +11171,22 @@ Description: 去开屏广告，秒过激励式视频
 Author: starry6
 Name: 汽水音乐 NoAds
 
+Package: com.starry6.lunanoad
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: liwhs
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.starry6.lunanoad_1.1_iphoneos-arm64.deb
+Size: 12440
+MD5sum: 61b812bb826748aacfd574b6a7eb8383
+SHA1: 9c5c4f46a148c6fc33218127e7e20543cf16f844
+SHA256: cac02a7167e92395d09be8b1e561b7d623d2f5361469c280e40cf543538b88e6
+Section: Tweaks
+Description: 禁止开屏广告、秒过激励式视频
+Author: Starry6
+Name: 汽水音乐 NoAds
+
 Package: com.stbz.checkproxybypass-rootless
 Version: 0.1.1-2
 Architecture: iphoneos-arm64
@@ -14813,6 +14829,25 @@ Depiction: https://chariz.com/get/newterm-beta
 Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
 Name: NewTerm 3 Beta
 Support: https://hashbang.productions/support/
+
+Package: xc.lzsxcl.o2pro
+Version: 17.14
+Architecture: iphoneos-arm
+Maintainer: lzsxcl
+Installed-Size: 30296
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/xc.lzsxcl.o2pro_17.14_iphoneos-arm.deb
+Size: 15767614
+MD5sum: c35e2a189675603781f078a851fbd682
+SHA1: 7a071eae9c2aed72294cc5a752205c65c1ea9695
+SHA256: a7717523bd206ce11aed0719313cbf677aa84e95c1f9550c47ea71bd2a557fee
+Section: Tweaks
+Description: 注重设计与用户体验的优雅产品。
+Author: lzsxcl
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+Name: o2Pro
+Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
 
 Package: xc.lzsxcl.o2pro
 Version: 17.8
