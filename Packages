@@ -4268,6 +4268,22 @@ Description: 米家去广告
 Author: derekfun
 Name: MiHome NoAds(Roothide)
 
+Package: com.developlab.appbadge
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: developlab
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: debs/com.developlab.appbadge_1.0_iphoneos-arm64.deb
+Size: 8014
+MD5sum: 4b8c1b9ab5b1587026c1b486606178fe
+SHA1: b728add1bea042e18990dfeaa540ab9d8319ec93
+SHA256: 1f7e15a520204dd0b810642c9f9d60150728cdf77d904fa69ab85fe007a44bf1
+Section: Tweaks
+Description: 在刘海或灵动岛下显示app icon和名称
+Author: developlab
+Name: AppBadge
+
 Package: com.doki.wxkeyboarduihook
 Version: 1.6
 Architecture: iphoneos-arm64e
@@ -6286,6 +6302,46 @@ Size: 300506
 MD5sum: 4a571c5b5bfeef33a5be20f8174fde6b
 SHA1: 7d0b8b3d4d3f2f9923c1dd7cfbf8c0e14a7040e5
 SHA256: f0f52b40ae8072b9278876b51990c571e708fa7013a29c99b1c6ea046679edef
+Section: Tweaks
+Description: 去温控组合插件 (推荐使用真皮Hello CPU)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+Icon: https://huayuarc.github.io/images/IosThermal.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 0.1.3
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 1128
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermalpro_0.1.3_iphoneos-arm64.deb
+Size: 280142
+MD5sum: 50b567333b12f56c44436c7864fa52ef
+SHA1: 26934a6104b6f12b0581797d71345adfaa78a1e5
+SHA256: 9a5448770289693baf57a242ec5befedcae777b9b1bbe5368895ffa403c22591
+Section: Tweaks
+Description: 去温控组合插件 (推荐使用真皮Hello CPU)
+Author: Huayuarc
+Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+Icon: https://huayuarc.github.io/images/IosThermal.png
+Name: IosThermal(Rootless)
+Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+
+Package: com.huayuarc.iosthermalpro
+Version: 0.1.3
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 1048
+Depends: mobilesubstrate
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
+Filename: debs/com.huayuarc.iosthermalpro_0.1.3_iphoneos-arm64e.deb
+Size: 274806
+MD5sum: d89ae67eac5e3b02f834db3f6ed5c998
+SHA1: e697c755f46290bc5e961424f232c0f9a530cdb9
+SHA256: 993bc60f5b0b986ee897e1f34990324a780638464f2806f2de791941ba88653d
 Section: Tweaks
 Description: 去温控组合插件 (推荐使用真皮Hello CPU)
 Author: Huayuarc
