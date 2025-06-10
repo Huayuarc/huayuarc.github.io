@@ -6831,6 +6831,23 @@ Author: Huayuarc
 Icon: https://huayuarc.github.io/images/SystemBoost.png
 Name: SystemSpeed
 
+Package: com.huayuarc.systemspeed
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.systemspeed_1.0.3_iphoneos-arm64.deb
+Size: 4480
+MD5sum: 5cd5d09171ccef2a01122c51d0b7fffc
+SHA1: 77458f0d136d49c4c0d4573cbc8e46a7a862adc4
+SHA256: 6ed1377df46d72f25c456e44d18b57f9eb5aa95fb304ecb019faf4c6e1575f8a
+Section: Tweaks
+Description: iOS系统底层优化,动画加速系统
+Author: Huayuarc
+Icon: https://huayuarc.github.io/images/SystemBoost.png
+Name: SystemSpeed
+
 Package: com.huayuarc.wechattimelinerobot.rootless
 Version: 0.0.2.8
 Architecture: iphoneos-arm64
