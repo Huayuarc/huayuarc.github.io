@@ -2495,6 +2495,22 @@ Author: Huayuarc
 Icon: https://huayuarc.github.io/images/bankofbbg.png
 Name: 广西北部湾银行
 
+Package: com.be-huge.floating-view
+Version: 1.5.6-3
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 3176
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.floating-view_1.5.6-3_iphoneos-arm64.deb
+Size: 616330
+MD5sum: 711a4e4a5ada0160a4499dff397acc72
+SHA1: 3d5e36a91269b0116757656304b2fe5d48b5517f
+SHA256: 475657b67639e6e09409743d95a239e8c1dc7e4357df2b9b5fc64ccaf172eba5
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
+
 Package: com.be-huge.tie-gesture
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -8125,22 +8141,6 @@ Name: Lynx 2(Rootless)
 
 Package: com.muirey03.cr4shed
 Version: 4.3.1-1+debug
-Architecture: iphoneos-arm64
-Maintainer: Muirey03
-Installed-Size: 2404
-Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11)
-Filename: debs/com.muirey03.cr4shed_4.3.1-1+debug_iphoneos-arm64.deb
-Size: 455478
-MD5sum: 4f4a9c90ff0d895de2db85fa5eccf662
-SHA1: c8f5c3ec9957d7bc954daff8b0c8190685c6f62b
-SHA256: 4506184396ef4931417ebca84b994197d8934dd50ff98b7001ce18ace8d992cd
-Section: Tweaks
-Description: A modern crash reporter for iOS 安全模式崩溃详情查看
-Author: Muirey03
-Name: Cr4shed(Rootless)
-
-Package: com.muirey03.cr4shed
-Version: 4.3.1-1+debug
 Architecture: iphoneos-arm64e
 Maintainer: Muirey03
 Installed-Size: 2356
@@ -8154,6 +8154,24 @@ Section: Tweaks
 Description: A modern crash reporter for iOS
 Author: Muirey03
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: Cr4shed
+
+Package: com.muirey03.cr4shed
+Version: 4.3.2
+Architecture: iphoneos-arm64e
+Maintainer: Muirey03
+Installed-Size: 2488
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), com.opa334.libsandy, ldid
+Filename: debs/com.muirey03.cr4shed_4.3.2_iphoneos-arm64e.deb
+Size: 641726
+MD5sum: a95679d62dbc319572b29c5712bb48d9
+SHA1: e90ff187fe2365b1525f0c37f82001418eabb7f2
+SHA256: 5833ea41c6a09c22e9e662f3ebf22123ef3ba2e945445996e0900ccfbec74396
+Section: Tweaks
+Description: 系统崩溃报告器
+Author: Muirey03
+Icon: https://www.susubaby.top/images/cr4shed.png
 Name: Cr4shed
 
 Package: com.muirey03.libimagepicker
