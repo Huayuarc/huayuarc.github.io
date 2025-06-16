@@ -6392,6 +6392,40 @@ Description: Patch description: Disable the dropdown gesture in the notification
 Author: poqw312
 Name: 禁用通知中心下拉手势(Rootless)
 
+Package: com.huayuarc.kaxkad
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.kaxkad_0.0.1_iphoneos-arm64.deb
+Size: 3826
+MD5sum: 4eebdb25c607491e4bf5c0a7084b31df
+SHA1: 67662cd23ad90f177860e427f42b3809d3174051
+SHA256: 6285a56458bed31c0c5f93784b4d8df595d5d89ef3a8db6ee2f157c06080e892
+Section: Tweaks
+Description: 去除启动广告，去除强制升级弹窗
+Author: Huayuarc
+Icon: https://huayuarc.github.io/images/kaxkad.png
+Name: 卡兄卡弟 Hooks
+
+Package: com.huayuarc.kaxkad
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.kaxkad_0.0.1_iphoneos-arm64e.deb
+Size: 2616
+MD5sum: e30c482efb7e476ad9179e25349a2412
+SHA1: e6a89b7137e98d9a1b7d8e9581d109521cc853bd
+SHA256: fe052cd583695525bc9d91b53e817691a160e02d419637dff1e951a543af08c4
+Section: Tweaks
+Description: 去除启动广告，去除强制升级弹窗
+Author: Huayuarc
+Icon: https://huayuarc.github.io/images/kaxkad.png
+Name: 卡兄卡弟 Hooks
+
 Package: com.huayuarc.mytweak
 Version: 1.0.0
 Architecture: iphoneos-arm64
