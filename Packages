@@ -6310,45 +6310,39 @@ Icon: https://huayuarc.github.io/images/IosThermal.png
 Name: IosThermal(Rootless)
 Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
 
-Package: com.huayuarc.iosthermalpro
-Version: 0.1.3
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 1128
-Depends: mobilesubstrate
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
-Filename: debs/com.huayuarc.iosthermalpro_0.1.3_iphoneos-arm64.deb
-Size: 280142
-MD5sum: 50b567333b12f56c44436c7864fa52ef
-SHA1: 26934a6104b6f12b0581797d71345adfaa78a1e5
-SHA256: 9a5448770289693baf57a242ec5befedcae777b9b1bbe5368895ffa403c22591
-Section: Tweaks
-Description: 去温控组合插件 (推荐使用真皮Hello CPU)
-Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://huayuarc.github.io/images/IosThermal.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-
-Package: com.huayuarc.iosthermalpro
-Version: 0.1.3
+Package: com.huayuarc.jiaotyh
+Version: 0.0.1
 Architecture: iphoneos-arm64e
 Maintainer: Huayuarc
-Installed-Size: 1048
+Installed-Size: 88
 Depends: mobilesubstrate
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, com.huayuarc.iosthermal, cn.zqbb.holdcpu
-Filename: debs/com.huayuarc.iosthermalpro_0.1.3_iphoneos-arm64e.deb
-Size: 274806
-MD5sum: d89ae67eac5e3b02f834db3f6ed5c998
-SHA1: e697c755f46290bc5e961424f232c0f9a530cdb9
-SHA256: 993bc60f5b0b986ee897e1f34990324a780638464f2806f2de791941ba88653d
+Filename: debs/com.huayuarc.jiaotyh_0.0.1_iphoneos-arm64e.deb
+Size: 2914
+MD5sum: 9f8e1f37211781dcd4aa2e30869338a3
+SHA1: afbc3ca77f68f0cc3fb98be85f00a450eb619a36
+SHA256: 6ddb1e4424d5401de4f50cee06d00b2dd0e10f951e6651190f9541ab7ee5cdf7
 Section: Tweaks
-Description: 去温控组合插件 (推荐使用真皮Hello CPU)
+Description: 屏蔽越狱检测
 Author: Huayuarc
-Depiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
-Icon: https://huayuarc.github.io/images/IosThermal.png
-Name: IosThermal(Rootless)
-Sileodepiction: https://huayuarc.github.io/sileodepiction/IosThermal/IosThermal.json
+Icon: https://huayuarc.github.io/images/jiaot.png
+Name: 交通银行 Hooks
+
+Package: com.huayuarc.jiaotyh
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.huayuarc.jiaotyh_0.0.1_iphoneos-arm64.deb
+Size: 3756
+MD5sum: 41d726f9f1f7d07be5355e1fcb7c1f96
+SHA1: fec60a2cad74f238170a9afa84860a3007d38d65
+SHA256: 1ffbe45dc4682fad4d67236ff229a92ed160af5fd48a6c7ea1258f43c3b394e3
+Section: Tweaks
+Description: 屏蔽越狱检测
+Author: Huayuarc
+Icon: https://huayuarc.github.io/images/jiaot.png
+Name: 交通银行 Hooks
 
 Package: com.huayuarc.jinyongtzzxss.roothide
 Version: 0.0.1
@@ -6965,74 +6959,6 @@ Description: 微信 Callkit
 Author: zlw555
 Name: 微信Callkit(Rootless）
 Sponsor: zlw555
-
-Package: com.huayuarc.ycjptb
-Version: 0.0.1.1+debug
-Architecture: iphoneos-arm
-Maintainer: Huayuarc
-Installed-Size: 280
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.ycjptb_0.0.1.1+debug_iphoneos-arm.deb
-Size: 9234
-MD5sum: 2bd1252bbd9b71f9154ca87eb2ae1fbe
-SHA1: d83e13200fffe43729f78c8d6093b12e5d5b07d6
-SHA256: 5a51a9baa4f032d2907e855a7b1f56e248e28e655a988abbf0232c151bb29397
-Section: Tweaks
-Description: This patch removes the keyboard's globe button -Useful for people who have an alternativeway for switching keyboards, such as KeySwipe.Made as a request via r/JailbreakTested and working on iOS 11，Email: A_H_Rabie@Yahoo.com。
-Author: Huayuarc
-Name: 【键盘】隐藏键盘地球图标
-Sponsor: Huayuarc
-
-Package: com.huayuarc.ycjptb.rootless
-Version: 0.0.1.1+debug
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 280
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.ycjptb.rootless_0.0.1.1+debug_iphoneos-arm64.deb
-Size: 9298
-MD5sum: 5aa43c7a0f33c2c961af0128486ff62c
-SHA1: 149657de13bf19b302ff603c73c651eaa7bdc635
-SHA256: b38a373718065f33ad5a0da1cae15dc3f68656ea694b8f8679e621c6382c867a
-Section: Tweaks
-Description: This patch removes the keyboard's globe button -Useful for people who have an alternativeway for switching keyboards, such as KeySwipe.Made as a request via r/JailbreakTested and working on iOS 11，Email: A_H_Rabie@Yahoo.com。
-Author: Huayuarc
-Name: 【键盘】隐藏键盘地球图标(Rootless)
-Sponsor: Huayuarc
-
-Package: com.huayuarc.ycyytb
-Version: 0.0.1.1+debug
-Architecture: iphoneos-arm
-Maintainer: Huayuarc
-Installed-Size: 280
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.ycyytb_0.0.1.1+debug_iphoneos-arm.deb
-Size: 9392
-MD5sum: 503c0f567d6c218c1bac21195774e2cf
-SHA1: dc0dc03d5d4896a0ede6659f8a82cfd5f67d6d4e
-SHA256: 126d8ec51be33db722b9e25ad26939f194bd21524c9056f6620ed82912baebf6
-Section: Tweaks
-Description: Remove the keyboard's dictation button Made as a request via r/JailbreakShould workEmail:A_H_Rabie@Yahoo.com。
-Author: Huayuarc
-Name: 【键盘】隐藏语音图标
-Sponsor: Huayuarc
-
-Package: com.huayuarc.ycyytb.rootless
-Version: 0.0.1.1+debug
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 280
-Depends: mobilesubstrate
-Filename: debs/com.huayuarc.ycyytb.rootless_0.0.1.1+debug_iphoneos-arm64.deb
-Size: 9466
-MD5sum: 4452df96e410aad840a316a677b4518d
-SHA1: 3abd101bac5853a0654dfda111cc0d66283f2dc9
-SHA256: f160bb42b135ef251b30c09be5781f2f6e32f324d880f2df2b6ed63280a73315
-Section: Tweaks
-Description: Remove the keyboard's dictation button Made as a request via r/JailbreakShould workEmail:A_H_Rabie@Yahoo.com。
-Author: Huayuarc
-Name: 【键盘】隐藏语音图标(Rootless)
-Sponsor: Huayuarc
 
 Package: com.huayuarc.zetsu-roothide
 Version: 1.6.2
@@ -14940,6 +14866,25 @@ Name: o2Pro
 Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
 
 Package: xc.lzsxcl.o2pro
+Version: 17.20
+Architecture: iphoneos-arm
+Maintainer: lzsxcl
+Installed-Size: 30520
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/xc.lzsxcl.o2pro_17.20_iphoneos-arm.deb
+Size: 15871172
+MD5sum: bb19d7f5d6100e1b6d0965b5fe39b214
+SHA1: 4fee4b7d1d109183bc65399a15c83bf648bcdb96
+SHA256: 45c39e01cb5c2c3da8125adab42bca45291242c6ab02405ad24b7a465a90935a
+Section: Tweaks
+Description: 注重设计与用户体验的优雅产品。
+Author: lzsxcl
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+Name: o2Pro
+Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
+
+Package: xc.lzsxcl.o2pro
 Version: 17.8
 Architecture: iphoneos-arm
 Maintainer: lzsxcl <xuanhua880@gmail.com>
@@ -15001,6 +14946,25 @@ Size: 15775258
 MD5sum: f1e9a5f5066ec675162063a10054a45b
 SHA1: fbed637282c364b071c32728761eb8ff05cc3842
 SHA256: 1ecc7ce694b6d1419d4cb022981b561a57b98faca22d871c15b756ec0c30c46d
+Section: Tweaks
+Description: 注重设计与用户体验的优雅产品。
+Author: lzsxcl
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Icon: http://cdn.share.lzsxcl.cc/Tweak/o2Pro.jpg
+Name: o2Pro(Rootless)
+Sileodepiction: https://lzsxcl.github.io/repo/sileodepictions/xc.lzsxcl.o2/depiction.json
+
+Package: xc.lzsxcl.o2pro.rootless
+Version: 17.20
+Architecture: iphoneos-arm64
+Maintainer: lzsxcl
+Installed-Size: 30360
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/xc.lzsxcl.o2pro.rootless_17.20_iphoneos-arm64.deb
+Size: 15834350
+MD5sum: 41858f99b1ff5a42afaa940019966e6b
+SHA1: c1e7869f906a8f451c3b9d55bf84dcf60ceab887
+SHA256: 135e6de234b1f8639a7c0cb41383e907867d2a3976286b5b62a28f4a95e1776c
 Section: Tweaks
 Description: 注重设计与用户体验的优雅产品。
 Author: lzsxcl
