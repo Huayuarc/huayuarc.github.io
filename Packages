@@ -106,6 +106,43 @@ MD5sum:
 SHA1: 
 SHA256: a8bcd880afbd4b25c8f26f86b8cb72cfebc66be8ad144e451aabe64f9070006f
 
+Package: ayao.aipowerbutton
+Name: AiPowerButton-rootless
+Description: iOS 16 Dopamine rootless 插件：长按关机键启动语音 AI 助手，可在设置中选择豆包或 DeepSeek；豆包模式启动语音输入，DeepSeek 模式长按录音、松开发送，并保留音量键加关机键的系统原始关机/SOS 操作。
+Maintainer: ayao
+Author: ayao
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
+Replaces: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 540
+Filename: debs/ayao.aipowerbutton_1.0.0_iphoneos-arm64.deb
+Size: 
+MD5sum: 
+SHA1: 
+SHA256: 2c6441093c54cb69e0db891ea2a6f1ddf4845f1372fe0233de92e133794138d8
+
+Package: ayao.aipowerbutton
+Name: AiPowerButton-roothide
+Description: iOS 16 Dopamine rootless 插件：长按关机键启动语音 AI 助手，可在设置中选择豆包或 DeepSeek；豆包模式启动语音输入，DeepSeek 模式长按录音、松开发送，并保留音量键加关机键的系统原始关机/SOS 操作。
+Maintainer: ayao
+Author: ayao
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
+Replaces: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 540
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/ayao.aipowerbutton_1.0.0_iphoneos-arm64e.deb
+Size: 
+MD5sum: 
+SHA1: 
+SHA256: cef2bb677e19f53292b6f53e5bad6b1acddfa5d35e7705f337f75e78edb6b0ee
+
 Package: callshidevoicemailios
 Name: 隐藏语音留言-rootless
 Author: z
@@ -233,7 +270,7 @@ Filename: debs/cn.llld.playerbj_1.0_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: b4f0f6e0e09c05249a9c5f493609589e4c21f5364b3ca1aee3d7319c6a560a3f
+SHA256: 0eebbdae2b80e9d051d16a6954f0caf08a0470c5d39140d76a4881bc67a92223
 
 Package: cn.llld.sjhx
 Section: Tweaks
@@ -249,7 +286,7 @@ Filename: debs/cn.llld.sjhx_1.0_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 76761b99e14c6548134a41ea97a685a6fd4c13ba9f0f141e571d54faceb364df
+SHA256: 10d76e14ac8776ec1b35b4204ddd26a55217982440ae2e0117f6d3294deb5f91
 
 Package: cn.llld.sjsp
 Version: 1.0
@@ -264,7 +301,7 @@ Filename: debs/cn.llld.sjsp_1.0_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 655c496035dbd96127ec8042c5598e24a4ef9f004df26cef3fdcc2e1d7f89b56
+SHA256: 3e62222dcaf0ed2c0a18770c23e0c76debbbe4f17f32ac7f9447e2568247336c
 
 Package: cn.llld.snapshottool
 Name: STTool-rootless
@@ -371,7 +408,7 @@ Filename: debs/com.25mao.leftpan.rootless_1.0-6_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 56fbba0938e900c80446adfadc334bcd4a34d3477156da0a6c4facbfbea9f7c3
+SHA256: 4d8139c54823f0d5e7b780ff37a34af0942aa21cb2ff9722946654c016329bcc
 
 Package: com.25mao.msgfilt.rootless
 Description: 消息屏蔽助手
@@ -406,7 +443,7 @@ Filename: debs/com.25mao.msgfilt.rootless_1.0-7_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: daaea7c9bc25e2f40fceaa253909d3ae66354eb1fec18d11b00db441f7ec22a5
+SHA256: 2c8b91c06f7d71307dc0dc19528277378fa0592ab484b553e508e3c09f419f2b
 
 Package: com.25mao.wcplugins.rootless
 Name: 微信插件管理-rootless
@@ -445,11 +482,11 @@ Depiction:
 Maintainer: admin@25mao.com
 Architecture: iphoneos-arm64e
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.25mao.wcplugins.rootless_0.1-6_iphoneos-arm64e-roothide.deb
+Filename: debs/com.25mao.wcplugins.rootless_0.1-6_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 8bcc4f32117840391dce4173f2e568a98c13004d51e7a462cd5afa0737a04e10
+SHA256: 083bbbf4702e12d9eef45fca514dd9d39014880349b791eee6ee347300aaccd7
 
 Package: com.4nni3.picturemodule
 Architecture: iphoneos-arm64e
@@ -465,7 +502,7 @@ Filename: debs/com.4nni3.picturemodule_1.2_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 2ca98cf023a142953b6b38762e62b0231cff5bf02259df6dabe9351f79861e28
+SHA256: 6a81fdf9abb75660da2b28bc0d14226160c285edcaa502809251e92e6b2bf22a
 
 Package: com.82flex.touchvis
 Name: Touch-Viz-roothide
@@ -482,7 +519,7 @@ Filename: debs/com.82flex.touchvis_4.0.2_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 0e8a89eb750ceff23c95827b050ea0dd5ace06282cd37fc9a42b0c0343ed53b3
+SHA256: d59c67a8b1474866e68babce1981190d1776b7abcf8f62e0d4a29cd4b8af9227
 
 Package: com.HBWechatHelper.ailun
 Version: 2.1.2
@@ -518,26 +555,42 @@ Filename: debs/com.amywhile.aemulo_1.2.5_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: de7aaa22066494f4bc41efcd642c68431950f7f4503d3d62f7e93a233e4b1453
+SHA256: 92e51b9db6f39d138c9378e3e0cadfe92460a4223e2238547b1a18b2de4fc2d8
 
-Package: com.anthropic.claude-code
-Version: 2.1.45-1
-Architecture: iphoneos-arm64e
-Name: claude-code-roothide
-Maintainer: 大飞
-Installed-Size: 166456
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 15.0), zsh, ldid
-Conflicts: com.anthropic.claude-code-beta
-Provides: claude-code
-Section: Development
-Homepage: https://claude.ai
-Description: Claude Code CLI for iOS 人工智能  在越狱iPhone 上本地运行 Claude Code  终端执行 claude-auth以开始认证配置   终端执行 claude以开始使用  可以配置DeepSeek模型API 和  第三方模型API
-Filename: debs/com.anthropic.claude-code_2.1.45-1_iphoneos-arm64e.deb
+Package: com.ayao.doubaopowerbutton
+Name: DoubaoPowerButton-rootless
+Description: 长按关机键触发豆包语音入口，并保留音量键加关机键的系统原始关机操作。
+Maintainer: ayao
+Author: ayao
+Section: Tweaks
+Depends: mobilesubstrate
+Replaces: com.yaofugen.doubaopowerbutton
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Installed-Size: 168
+Filename: debs/com.ayao.doubaopowerbutton_0.0.6_iphoneos-arm64.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 040de07d487b7272930e1fbd0fbc81d4a2a3afb3e8fc64b6afd45403f0d6cf48
+SHA256: 16270c1bb4bc1d0e96a9a533cac42a8dcaca8d1e214a7de8d032b170da178a59
+
+Package: com.ayao.doubaopowerbutton
+Name: DoubaoPowerButton-rootless-roothide
+Description: 长按关机键触发豆包语音入口，并保留音量键加关机键的系统原始关机操作。
+Maintainer: ayao
+Author: ayao
+Section: Tweaks
+Depends: mobilesubstrate
+Replaces: com.yaofugen.doubaopowerbutton
+Architecture: iphoneos-arm64e
+Version: 0.0.6
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.ayao.doubaopowerbutton_0.0.6_iphoneos-arm64e.deb
+Size: 
+MD5sum: 
+SHA1: 
+SHA256: bc34fab317d368ec4c6ff6cece30a2d69f7cc8ee9d8f634318cf25933490634d
 
 Package: com.be-huge.custom-notification-sound
 Name: CustomWeChatNotificationSound-rootless
@@ -566,11 +619,11 @@ Architecture: iphoneos-arm64e
 Version: 1.0.0
 Installed-Size: 540
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.be-huge.custom-notification-sound_1.0.0_iphoneos-arm64e-roothide.deb
+Filename: debs/com.be-huge.custom-notification-sound_1.0.0_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: a643968da7ea02e3e49117302eedf23cfa54a670b9d15f6cf114c66216932b82
+SHA256: b8e1160c32903246e3e9632f6fd5de83f5fd59da12b62cbeef6e5bbfec4ec282
 
 Package: com.be-huge.floating-view
 Name: floatingView-rootless
@@ -607,23 +660,7 @@ Filename: debs/com.be-huge.floating-view_1.5.7-1_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: b9c8d33d94037f185afc264bd6c83b5bd9ec848003dfe563f708be148bcc803c
-
-Package: com.be-huge.insulation
-Name: insulation(解除温控)-rootless
-Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
-Maintainer: be-huge
-Author: be-huge
-Section: Tweaks
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Architecture: iphoneos-arm64
-Version: 0.0.3
-Installed-Size: 484
-Filename: debs/com.be-huge.insulation_0.0.3_iphoneos-arm64.deb
-Size: 
-MD5sum: 
-SHA1: 
-SHA256: 736a6a2b5a4aa6b3d9a69b5950cf7f4046c343a192823074f68d4e1413686482
+SHA256: 57991e54278aaf9eba978ce3b2af47b509b7dda26508cd9fd4484811f0a42c16
 
 Package: com.be-huge.insulation
 Name: insulation(解除温控)-roothide
@@ -639,7 +676,7 @@ Filename: debs/com.be-huge.insulation_0.0.3_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: d7bba155b6b28c2f5d40e800c12df3d9b64fc8546b0e4c89c3e68193c25dc127
+SHA256: 2196c949e0131a780af9e1861c1c29ef1c05cfdc4e35f8b5bd96b20efad7d97e
 
 Package: com.brend0n.nopassafterrespringsafe
 Name: NoPassAfterRespring (Safe)-rootless
@@ -668,11 +705,11 @@ Architecture: iphoneos-arm64e
 Version: 0.0.3
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.brend0n.nopassafterrespringsafe_0.0.3_iphoneos-arm64e-roothide.deb
+Filename: debs/com.brend0n.nopassafterrespringsafe_0.0.3_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 6e635860559831b737c958828287a6813f43aa1235bf3796a3302e137b65a3c6
+SHA256: 3d738dda7f4924a2f4343e3795d9b636fe410183ed404b4baed47683e062b505
 
 Package: com.brend0n.volumemixer
 Architecture: iphoneos-arm64e
@@ -684,11 +721,11 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Maintainer: Brend0n <brendonjkding@126.com>
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.brend0n.volumemixer_0.0.7_iphoneos-arm64e-roothide.deb
+Filename: debs/com.brend0n.volumemixer_0.0.7_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 56a9bcf03804139144d125520778fda93e51c56ca90ce63b2ec94946ed01c838
+SHA256: 7eab1c59dd3bf91422a4aa8047752ecd9a2dfb3ed7908bf5043b3a289d0e7533
 
 Package: com.charlieleung.trollopenjb
 Name: TrollOpen 分屏-rootless
@@ -1113,7 +1150,7 @@ Filename: debs/com.gblw.fixset.roothide_1.1_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: ab0e074605088b79361494b8e1bfb745cc35d775d83ead2ba3638009774fda64
+SHA256: e21b3b73977e10f154ef0dd8a9470a8adf3cb9e0c75635787dcaebd3eacbf8ea
 
 Package: com.go.mango
 Name: mango-rootless
@@ -1145,7 +1182,7 @@ Filename: debs/com.go.mango_0.0.10-1_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: fb6e22195e945940c89a634094d39c2fd6c16b77529857de42f93a7a45ffe612
+SHA256: 7e740ed9827e9df102dce5c0946727697cf39abd1de1b0706ba449b5de3d359c
 
 Package: com.huami.ChoicyConfigPin
 Name: ChoicyConfigPin-rootless
@@ -1247,7 +1284,7 @@ Filename: debs/com.huayuarc.systempro_0.3.6_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 12f56252f0e8473d0d5172e9a8165d0161a4f9f0b3291c533e4b5dc43947281f
+SHA256: a4373834fd03d56763eb3753111747b98351be4eb2d418f53b28c15bf862ea75
 
 Package: com.imkpatil.nooldernotificationstext
 Name: NoOlderNotificationsText-rootless
@@ -1493,7 +1530,7 @@ Filename: debs/com.jontelang.snapper3_1.2.1_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: b2febd802b1f2ef139e3a4945e96add6b543e48a22da35a637e564c3aeeba1ac
+SHA256: e24bdb4ab1c2fe5dd53156dfdf9185af2b475b855f6318b057e352eb48fca32c
 
 Package: com.lxcloud.WCEhance
 Name: 微信增强-rootless
@@ -2596,7 +2633,7 @@ Filename: debs/com.qiop1379.swipeextenderx_1.6.1~2_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 8f683ffc157cce5a9afb864d59ceac47a1a0db839cf05cef886c3f821a64b330
+SHA256: 667433cb25e4553f2d5cc9f67b177893c4b82af2c9078925934d8dffc2c4177d
 
 Package: com.rain.raincall
 Name: Rain的通话-rootless
@@ -2891,7 +2928,7 @@ SHA1:
 SHA256: e9f4ff3cabec358411fb59e09583eb26d7c61b066acc5fd19708bcf2c2c7d4d3
 
 Package: com.squidforce.copyvault
-Name: CopyVault
+Name: CopyVault-roothide
 Description: Your Copy Vault, Your Pasteboard
 Maintainer: SquidForce
 Author: SquidForce
@@ -2905,7 +2942,7 @@ Filename: debs/com.squidforce.copyvault_1.9.0_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 0d2dc3f576d7776940484d7c0a7af43ca0308c832d53eded917e19b7ab2fd112
+SHA256: 756ce163555fd337666a44b403415fa9b4558cfaaef9486af8b6cd36a617b1f4
 
 Author: sunshinesong
 TS: sp-sss
@@ -3108,7 +3145,7 @@ Filename: debs/dev.mineek.appstoretroller_0.1.2_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 077ea4348aa6cb450143199be33f0a3658a8cdf5552ff89078d1855bd8bbb3d9
+SHA256: 7c0d8581019be1b55aeb25370a1195f6fe3a7496b77d0190400298d28625d9e1
 
 Package: dylv.liquidass
 Name: Liquid (Gl)ass-rootless
