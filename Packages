@@ -1220,35 +1220,34 @@ SHA256: 84f277fa92bd1f184a75563d81179c8d2ff894f4e4acab046490511b566f3504
 Package: com.huayuarc.systempro
 Name: Systempro-rootless
 Author: Huayuarc
-Description: 通知不亮屏 + 17项系统增强功能：屏蔽粘贴弹窗、禁截图检测、禁快门声、透明Dock、禁App资源库、禁锁屏相机/手电、自动面容解锁、去解锁延迟、去锁屏音、从右到左开应用、彻关WiFi/蓝牙、低电/朝下自动锁屏、禁签名验证等
-Depends: mobilesubstrate
+Description: 通知不亮屏 + 17项系统增强功能：屏蔽粘贴弹窗、禁截图检测、禁快门声、透明Dock、禁App资源库、禁锁屏相机/手电、自动面容解锁、去解锁延迟、去锁屏音、应用开启动画方向、彻关WiFi/蓝牙、低电/朝下自动锁屏、禁签名验证等
+Depends: mobilesubstrate, preferenceloader
 Maintainer: Huayuarc
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 0.3.0
-Installed-Size: 372
-Filename: debs/com.huayuarc.systempro_0.3.0_iphoneos-arm64-rootless.deb
+Version: 0.3.6
+Installed-Size: 376
+Filename: debs/com.huayuarc.systempro_0.3.6_iphoneos-arm64.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 12912735cad36011656ef3dcb4fe56b8a399047ad232076b6cb2b33081905fe6
+SHA256: bb09cd172ced2ec186e80a1a8918cc710f3c1bc72f4895a64aa12b22b647e597
 
 Package: com.huayuarc.systempro
 Name: Systempro-roothide
 Author: Huayuarc
-Description: 通知不亮屏 + 17项系统增强功能：屏蔽粘贴弹窗、禁截图检测、禁快门声、透明Dock、禁App资源库、禁锁屏相机/手电、自动面容解锁、去解锁延迟、去锁屏音、从右到左开应用、彻关WiFi/蓝牙、低电/朝下自动锁屏、禁签名验证等
-Depends: mobilesubstrate
+Description: 通知不亮屏 + 17项系统增强功能：屏蔽粘贴弹窗、禁截图检测、禁快门声、透明Dock、禁App资源库、禁锁屏相机/手电、自动面容解锁、去解锁延迟、去锁屏音、应用开启动画方向、彻关WiFi/蓝牙、低电/朝下自动锁屏、禁签名验证等
+Depends: mobilesubstrate, preferenceloader
 Maintainer: Huayuarc
 Section: Tweaks
 Architecture: iphoneos-arm64e
-Version: 0.3.0
-Installed-Size: 372
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.huayuarc.systempro_0.3.0_iphoneos-arm64e-roothide.deb
+Version: 0.3.6
+Installed-Size: 376
+Filename: debs/com.huayuarc.systempro_0.3.6_iphoneos-arm64e.deb
 Size: 
 MD5sum: 
 SHA1: 
-SHA256: 2678b921544301aa6006065fb935fe5c942e98085745241ef20fc243806bf39a
+SHA256: 12f56252f0e8473d0d5172e9a8165d0161a4f9f0b3291c533e4b5dc43947281f
 
 Package: com.imkpatil.nooldernotificationstext
 Name: NoOlderNotificationsText-rootless
