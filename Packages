@@ -1114,6 +1114,38 @@ MD5sum: 7843ee7553e91075c9b8ab12a8c605d9
 SHA1: 
 SHA256: 
 
+Package: com.go.mango
+Name: mango
+Description: 芒果，轻量分屏，舒适，顺手。
+Maintainer: go
+Author: go
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 0.0.10-1
+Installed-Size: 1376
+Filename: debs/com.go.mango_0.0.10-1_iphoneos-arm64.deb
+Size: 419426
+MD5sum: 1905618f6fc6f55707f7feccf160d378
+SHA1: 
+SHA256: 
+
+Package: com.go.mango
+Name: mango
+Description: 芒果，轻量分屏，舒适，顺手。
+Maintainer: go
+Author: go
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.0.10-1
+Installed-Size: 1360
+Filename: debs/com.go.mango_0.0.10-1_iphoneos-arm64e.deb
+Size: 418482
+MD5sum: e7982751fa71eb771915871b249dd471
+SHA1: 
+SHA256: 
+
 Package: com.huami.ChoicyConfigPin
 Name: ChoicyConfigPin-rootless
 Description: Pin apps with custom tweak configuration to the top in Choicy

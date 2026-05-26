@@ -4,7 +4,7 @@
 # 自動更新 Packages → 提交 → 推送到 GitHub
 # ============================================
 
-REPO_DIR="/var/mobile/Containers/Shared/AppGroup/.jbroot-E4BD384C9F506280/var/mobile/huayuarc.github.io"
+REPO_DIR="/var/containers/Bundle/Application/.jbroot-E4BD384C9F506280/mnt/var/mobile/huayuarc.github.io"
 cd "$REPO_DIR" || { echo "錯誤：無法進入目錄 $REPO_DIR"; exit 1; }
 
 echo "========================================"
