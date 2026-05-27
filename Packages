@@ -536,6 +536,288 @@ MD5sum: b503e2c7542f22f7d87d23a3544ac466
 SHA1: 
 SHA256: c9a0953deec126d4eb79a421e798bb70c16150f208b36c8880f1cb6ec5f1a323
 
+Package: com.abc3.vip.appsyncunified
+Version: 112.0
+Section: Tweaks
+Maintainer: 倔强的石头 <478066693@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
+Provides: appsync
+Replaces: us.hackulo.appsync50
+Architecture: iphoneos-arm
+Installed-Size: 636
+Name: AppSync Unified
+Description: AppSync Unified 关闭签名[方便自用]
+Author: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Sponsor: 倔强的石头 <478066693@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Filename: debs/com.abc3.vip.appsyncunified_112.0_iphoneos-arm.deb
+Size: 35556
+MD5sum: efb3f65139a6d90eebefca8793c81d3e
+SHA1: 
+SHA256: e08ed31dca94e56b65324e05244701cc1f59423116c398b014d19fced619d417
+
+Package: com.abc3.vip.cydiafinder
+Version: 1.0
+Priority: optional
+Section: Tweaks
+Maintainer: 倔强的石头
+Depends: firmware (>= 12.0)
+Architecture: iphoneos-arm
+Installed-Size: 1192
+Name: CydiaFinder
+Description: CydiaFinder 源市场
+Author: 倔强的石头
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Filename: debs/com.abc3.vip.cydiafinder_1.0_iphoneos-arm.deb
+Size: 354584
+MD5sum: de0c620ea5d6304e8fc75605f45d4400
+SHA1: 
+SHA256: fd2eafb314a493aa64daecb52913562d7b2c62e80b3ffd10a91eb18e8948077b
+
+Package: com.abc3.vip.cydownn
+Version: 7.1.2
+Section: Tweaks
+Maintainer: 倔强的石头 <478066693@qq.com>
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Name: CyDown
+Description: CyDown[方便自用]
+Author: julioverne <julioverne@me.com>
+Sponsor: 倔强的石头 <478066693@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Filename: debs/com.abc3.vip.cydownn_7.1.2_iphoneos-arm.deb
+Size: 2607384
+MD5sum: ee52735f1fd9a7467f38f288629bbc30
+SHA1: 
+SHA256: 6ee7aa2f87c9dc7b53023906272f45a7e1c1029045d6275fbd0c68eab2dd11ff
+
+Package: com.abc3.vip.ebuy
+Version: 1.6
+Section: Tweaks
+Maintainer: 倔强的石头 <478066693@qq.com>
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm
+Installed-Size: 512
+Name: Ebuy
+Description: Ebuy (易购)
+Author: 倔强的石头
+Sponsor: 倔强的石头 <478066693@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Filename: debs/com.abc3.vip.ebuy_1.6_iphoneos-arm.deb
+Size: 81612
+MD5sum: ad67eb31b99f308b370b061b421b65c6
+SHA1: 
+SHA256: 86c5662699c2934ce01f36f24b6241201da0890b068cdc2567e5108474f1f834
+
+Package: com.abc3.vip.evilscheme
+Version: 0.2.4
+Section: Tweaks
+Maintainer: 倔强的石头 <478066693@qq.com>
+Depends: mobilesubstrate,preferenceloader,firmware (>= 13.0)
+Replaces: com.lpane.browserdefault,com.lpane.googlemapsdefault
+Architecture: iphoneos-arm
+Installed-Size: 872
+Description: EvilScheme换个打开方式
+Name: EvilScheme
+Author: Lorenzo Pane[倔强的石头]
+Sponsor: 倔强的石头 <478066693@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Filename: debs/com.abc3.vip.evilscheme_0.2.4_iphoneos-arm.deb
+Size: 107780
+MD5sum: 776cbb6ec526feed3d815ffe24375cc8
+SHA1: 
+SHA256: f730af26c4f8570ff6943f04f5d7d763bc3c9e2d857230dc5163b9a78f4a0a7c
+
+Package: com.abc3.vip.filza
+Version: 4.0.1-3
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Architecture: iphoneos-arm
+Installed-Size: 31815
+Name: Filza File Manager
+Description: Filza File Manager[方便自用]
+Author: TIGI Software <satashi2009@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Tag: purpose::uikit
+Filename: debs/com.abc3.vip.filza_4.0.1-3_iphoneos-arm.deb
+Size: 10873992
+MD5sum: 402d547a21b3c8786da7deb881b151d0
+SHA1: 
+SHA256: d3c15d1a38f4859299f232d33d8246a26de279ecc748af3f06dfb43d8bc05904
+
+Package: com.abc3.vip.ftt
+Version: 9.0
+Section: Tweaks
+Maintainer: 倔强的石头 <478066693@qq.com>
+Depends: mobilesubstrate, com.randy420.tools (>=2.2)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Architecture: iphoneos-arm
+Installed-Size: 144
+Description: Flex To Theos汉化+跳转Filza
+Name: Flex To Theos
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Sponsor: 倔强的石头 <478066693@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Filename: debs/com.abc3.vip.ftt_9.0_iphoneos-arm.deb
+Size: 30608
+MD5sum: 7cc664c8bb25023610ab00636ba3f32c
+SHA1: 
+SHA256: f0753d0a965fe6dc07cf2a4b81bc44f9198ef156b142822834b9014b92b130f0
+
+Package: com.abc3.vip.heaven
+Version: 1.0.1
+Priority: optional
+Section: Tweaks
+Maintainer: 倔强的石头 <478066693@qq.com>
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 12.0)
+Architecture: iphoneos-arm
+Installed-Size: 528
+Name: Heaven
+Description: Heaven[新机测试]
+Author: 倔强的石头 <478066693@qq.com>
+Sponsor: 倔强的石头 <478066693@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Filename: debs/com.abc3.vip.heaven_1.0.1_iphoneos-arm.deb
+Size: 139364
+MD5sum: b77d286244dedb5f74928a1aa7aae5f2
+SHA1: 
+SHA256: 0ad02091f3556ab4b6dd15190523697d6f9ad2ef6897ad095e3d22e453a6521b
+
+Package: com.abc3.vip.ironbroom
+Version: 2.6
+Priority: optional
+Section: Tweaks
+Maintainer: 倔强的石头 <478066693@qq.com>
+Depends: firmware (>= 12.0)
+Architecture: iphoneos-arm
+Installed-Size: 3888
+Description: Iron broom 强大的垃圾清理工具
+Name: Iron broom
+Author: 倔强的石头 <478066693@qq.com>
+Sponsor: 倔强的石头 <478066693@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Filename: debs/com.abc3.vip.ironbroom_2.6_iphoneos-arm.deb
+Size: 1401100
+MD5sum: 6eb333f54c74d8ef16bf8bb7aa6e3445
+SHA1: 
+SHA256: 4b03110e410bf5d02989818a2bb5ea29d5054a4aeb97d33bd1d267234c842cd3
+
+Package: com.abc3.vip.mule1
+Version: 3.6
+Section: Tweaks
+Maintainer: 倔强的石头 <478066693@qq.com>
+Description: Mule (骡马助手) Pro ·正式版
+Depends: mobilesubstrate, firmware (>= 12.0)
+Architecture: iphoneos-arm
+Installed-Size: 1172
+Name: Mule Pro
+Author: 倔强的石头
+Sponsor: 倔强的石头 <478066693@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Filename: debs/com.abc3.vip.mule1_3.6_iphoneos-arm.deb
+Size: 461548
+MD5sum: aac8d75660635d3cb9b0c85802c19931
+SHA1: 
+SHA256: 52a669764ac88cdd8b1941e5813df76d99b033d89b2225a502bd5b6e7bdb7562
+
+Package: com.abc3.vip.myvlesspro
+Version: 2.0
+Priority: optional
+Section: Tweaks
+Maintainer: 倔强的石头 <478066693@qq.com>
+Depends: firmware (>= 12.0)
+Architecture: iphoneos-arm
+Installed-Size: 2076
+Name: 战斗鸡[Vless]
+Description: 战斗鸡[Vless]
+Author: 倔强的石头 <478066693@qq.com>
+Sponsor: 倔强的石头 <478066693@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Filename: debs/com.abc3.vip.myvlesspro_2.0_iphoneos-arm.deb
+Size: 1275336
+MD5sum: b100a4f7fe0fc9945989c33a00b87f88
+SHA1: 
+SHA256: 5557bcff8b0e46675ea7785fb8768ce3e11a2a0dae035f8005c926a297b7350a
+
+Package: com.abc3.vip.repomaster1
+Version: 1.0
+Section: Tweaks
+Maintainer: 倔强的石头 <478066693@qq.com>
+Depends: firmware (>= 9.0), uikittools
+Architecture: iphoneos-arm
+Installed-Size: 748
+Description: RepoMaster源后台管理器
+Name: RepoMaster
+Author: 倔强的石头 <478066693@qq.com>
+Sponsor: 倔强的石头 <478066693@qq.com>
+Filename: debs/com.abc3.vip.repomaster1_1.0_iphoneos-arm.deb
+Size: 272724
+MD5sum: 9a429f11ee8e954a4df5af172aab6fe0
+SHA1: 
+SHA256: 1bd0517fc6264044163d257b0e7a330a482935450deb263eb0f0ba1f76243d3a
+
+Package: com.abc3.vip.semirestore11
+Version: 1.1.2-1
+Section: Tweaks
+Maintainer: 三极源 <478066693@qq.com>
+Depends: cy+cpu.arm64, coreutils-bin, uikittools, firmware (>= 11.3)
+Conflicts: org.coolstar.semirestore11-lite
+Replaces: org.coolstar.semirestore11-lite
+Architecture: iphoneos-arm
+Installed-Size: 172
+Name: 越狱一键平刷
+Description: 越狱一键平刷
+Author: Pwn20wnd
+Sponsor: 三极源 <478066693@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Tag: compatible::ios11
+Filename: debs/com.abc3.vip.semirestore11_1.1.2-1_iphoneos-arm.deb
+Size: 50332
+MD5sum: cadc3e18abb06a620456262859ea8fbb
+SHA1: 
+SHA256: 254fb3326e162a99634d622a3a71771d24ab206ae9f638ac7584680b67c7fb63
+
+Package: com.abc3.vip.snapback
+Version: 3.0
+Section: Tweaks
+Maintainer: MidnightChips
+Depends: firmware (>= 10.3.0), rsync, cy+cpu.arm64
+Architecture: iphoneos-arm
+Description: 快照管理器 3.0 Pro
+Installed-Size: 1304
+Name: 快照管理器
+Author: MidnightChips
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Filename: debs/com.abc3.vip.snapback_3.0_iphoneos-arm.deb
+Size: 671188
+MD5sum: 3b4b3aa5a46802d1a0ddfc596a141471
+SHA1: 
+SHA256: 46f80aac61e71a87ce9032957b26f61fbec2ad4ddc956ff8d464176b3af6d61e
+
+Package: com.abc3.vip.theos
+Version: 1.0-11+debug
+Priority: optional
+Section: Tweaks
+Maintainer: 倔强的石头 <478066693@qq.com>
+Description: Theos在线安装APP_送线路
+Depends: firmware (>= 12.0)
+Architecture: iphoneos-arm
+Installed-Size: 476
+Name: Theos在线安装APP
+Author: 倔强的石头 <478066693@qq.com>
+Sponsor: 倔强的石头 <478066693@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Filename: debs/com.abc3.vip.theos_1.0-11+debug_iphoneos-arm.deb
+Size: 233312
+MD5sum: 98d97e17868164649a60d6d29dfd750b
+SHA1: 
+SHA256: 9d103699789a7501d57a3ea898b5d673f3fda7f651d09851f535fb5708fb12ca
+
 Package: com.amywhile.aemulo
 Name: Aemulo-roothide
 Description: NFC Frickery
