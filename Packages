@@ -3830,6 +3830,43 @@ MD5sum: e91a4275418c3e6e705cab884cdaac0c
 SHA1: 
 SHA256: 28b34d98ece74efea648f303ecb2a43fd3368dcb00c592863b229097232c6e72
 
+Package: org.mr.icleanerprorl
+Architecture: iphoneos-arm64e
+Name: iCleaner Pro-roothide
+Version: 7.10.0k-roothide
+Description: The first real iOS system cleaner & optimizer 第一个真正的iOS系统清理和管理实用程序
+Author: Ivano Bilenchi <support@ib-soft.net>
+Section: Utilities
+Depends: firmware (>= 15.0)
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: https://apprecs.org/ios/images/app-icons/256/3a/1161431866.jpg
+Maintainer: MainRepo <xuanhua880@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/org.mr.icleanerprorl_7.10.0k-roothide_iphoneos-arm64e.deb
+Size: 815764
+MD5sum: e1a0c606d2888047073ef6da7ca5232b
+SHA1: 
+SHA256: da50bda630ad99ba24876d55de28c717eb66c90ec53b1eae5eaec9b566941542
+
+Package: org.mr.icleanerprorl
+Architecture: iphoneos-arm64
+Name: iCleaner Pro-rootless
+Version: 7.10.0k-rootless
+Description: The first real iOS system cleaner & optimizer 第一个真正的iOS系统清理和管理实用程序
+Author: Ivano Bilenchi <support@ib-soft.net>
+Section: Utilities
+Depends: firmware (>= 15.0)
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: https://apprecs.org/ios/images/app-icons/256/3a/1161431866.jpg
+Maintainer: MainRepo <xuanhua880@gmail.com>
+Filename: debs/org.mr.icleanerprorl_7.10.0k-rootless_iphoneos-arm64.deb
+Size: 828268
+MD5sum: ef1f617e26439cd0c6ef09e2b026f08a
+SHA1: 
+SHA256: 2f11f052c1a8a0224b26b2d3c5aa6ea982ea26312ba8eaf66d34bda136eeb914
+
 Package: re.frida.server
 Name: Frida-rootless
 Version: 17.9.10
