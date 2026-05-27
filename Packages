@@ -3100,6 +3100,44 @@ MD5sum: fcf618e27daa682b7f3d500d45fc3198
 SHA1: 
 SHA256: edb450c382d69269e06c8ff43ed864ee67e0d1966c5d8b9f2f26235008ab3da1
 
+Package: com.witchan.ios-mcp
+Name: iOS MCP-rootless
+Provides: com.witchan.iphone-mcp
+Conflicts: com.witchan.iphone-mcp
+Replaces: com.witchan.iphone-mcp
+Depends: mobilesubstrate, preferenceloader
+Description: MCP server for AI-driven iOS device control. Supports HID buttons, touch, screenshots, clipboard, app management, accessibility tree, and text input.用于人工智能 驱动的iOS设备控制的MCP服务器。支持HID按钮、触摸、屏幕截图、剪贴板、应用程序管理、辅助功能树和文本输入。
+Maintainer: witchan
+Author: witchan
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Installed-Size: 5276
+Filename: debs/com.witchan.ios-mcp_1.1.1_iphoneos-arm64.deb
+Size: 1865432
+MD5sum: 59024d5b60a84d29a8c810729f43228b
+SHA1: 
+SHA256: e7feb74c7247539d237e9aa151f705aa0d17a70cb74fea267dd0d74ae6d582f0
+
+Package: com.witchan.ios-mcp
+Name: iOS MCP-roothide
+Provides: com.witchan.iphone-mcp
+Conflicts: com.witchan.iphone-mcp
+Replaces: com.witchan.iphone-mcp
+Depends: mobilesubstrate, preferenceloader
+Description: MCP server for AI-driven iOS device control. Supports HID buttons, touch, screenshots, clipboard, app management, accessibility tree, and text input.用于人工智能 驱动的iOS设备控制的MCP服务器。支持HID按钮、触摸、屏幕截图、剪贴板、应用程序管理、辅助功能树和文本输入。
+Maintainer: witchan
+Author: witchan
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Installed-Size: 5280
+Filename: debs/com.witchan.ios-mcp_1.1.1_iphoneos-arm64e.deb
+Size: 1875812
+MD5sum: aa499d6a54c858c05cce987445b65b4b
+SHA1: 
+SHA256: 18cb575a0d38e74047cfcae8e0000c2d926b33fa409adf7056d308d46a914eea
+
 Package: com.xamy.othellohelpervipunlock
 Name: OthelloHelper VIP Unlock-rootless
 Depends: mobilesubstrate, com.apple.springboard
