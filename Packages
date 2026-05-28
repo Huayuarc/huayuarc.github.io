@@ -4187,6 +4187,23 @@ MD5sum: ea1ee95a37e23a089b31d7fe8d7c3c42
 SHA1: 
 SHA256: 95dcc989c63fb4f5378633f030887485a2f5908eb04204fbb224b5c5898ee0ea
 
+Package: nodejs22-ios
+Name: nodejs22-ios-roothide
+Version: 22.12.0-26
+Section: utils
+Priority: optional
+Architecture: iphoneos-arm64e
+Maintainer: OpenClaw Builder <root@localhost>
+Depends: firmware (>= 13.0), ldid
+Description: Node.js v22.12.0 for iOS arm64 (side-by-side install as node22)
+ Provides /usr/local/bin/node22 plus npm22/npx22 wrappers.
+ Includes bundled npm and ldid-signed binary with iOS JIT/unsigned-exec entitlements.
+Filename: debs/nodejs22-ios_22.12.0-26_iphoneos-arm64e.deb
+Size: 23726448
+MD5sum: a8faf99ab964fd8e68ae4b92fb985c54
+SHA1: 
+SHA256: 5493c28e135192647141ae1e71c09c53600b60af61f87385f5b6b04381ebb06e
+
 Package: nolowpowermode30secautolock
 Name: NoLowPowerMode30SecAutoLock-rootless
 Depends: mobilesubstrate
