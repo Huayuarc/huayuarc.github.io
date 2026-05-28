@@ -377,6 +377,40 @@ MD5sum: 04a5cfc4b3811461c35ba78ff766b794
 SHA1: 
 SHA256: 9506fc60f4faa9252c5014db0c34ab3c1eb7bbfdbac411a5dc409597f42017b8
 
+Package: codex-ios
+Name: codex-ios-roothide
+Version: 0.134.0-1
+Section: Development
+Priority: optional
+Architecture: iphoneos-arm64e
+Maintainer: DaFei
+Depends: firmware (>= 13.0), nodejs22-ios (>= 22.12.0), ldid
+Description: OpenAI Codex CLI for iOS arm64 - AI coding agent in your terminal
+ OpenAI Codex CLI ported to iOS arm64 (aarch64-apple-ios).
+ An AI-powered coding agent that runs directly in your terminal.
+ .
+ Usage / 使用方法:
+   1. Run 'codex-auth' to configure API key and endpoint
+      运行 codex-auth 配置 API 密钥和接口地址
+   2. Run 'codex' to enter interactive mode
+      运行 codex 进入交互模式
+   3. Or use 'codex exec "your prompt"' for non-interactive mode
+      或用 codex exec "提示词" 进行非交互式调用
+ .
+ Features / 特性:
+   - Native arm64 binary, no emulation / 原生 arm64 二进制
+   - Works in NewTerm2/3 and SSH / 支持 NewTerm2/3 和 SSH 终端
+   - Supports custom API proxy / 支持自定义代理接口
+   - codex-update for safe upgrades / codex-update 安全升级
+ .
+ Requires network access and an OpenAI-compatible API key.
+ 需要网络连接和 OpenAI 兼容的 API 密钥。
+Filename: debs/codex-ios_0.134.0-1_iphoneos-arm64e.deb
+Size: 22153784
+MD5sum: 5c2e3cdc4c7ec41634de7ac1b66b5d4c
+SHA1: 
+SHA256: fc724c5088c8a004055cd1404b71815718eb8b65f10350a5c9c688d7ec6acdfb
+
 Package: com.25mao.leftpan.rootless
 Description: 左滑返回上一页面
 Version: 1.0-6
