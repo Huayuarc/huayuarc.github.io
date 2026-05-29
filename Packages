@@ -1610,6 +1610,41 @@ MD5sum: f7d9d463dc49c580cb2f83e116f7e9d3
 SHA1: 
 SHA256: 7e740ed9827e9df102dce5c0946727697cf39abd1de1b0706ba449b5de3d359c
 
+Package: com.hoangdus.konban
+Name: KonbanXV-rootless
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 15.0), com.opa334.altlist, preferenceloader
+Conflicts: me.nepeta.konban, com.nicho1asdev.konban
+Description: An app in "Today" view. Rewritten for iOS 15 and 16 by HoangDus.KonbanxV1插件：主要功能是替换负一屏。桌面首页向右滑动，会打开所选择的App，而不是负一屏的小组件。
+Maintainer: HoangDus
+Author: HoangDus, nicho1asdev, Nepeta
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 580
+Filename: debs/com.hoangdus.konban_1.0.1_iphoneos-arm64.deb
+Size: 43896
+MD5sum: 751011cef4cf27b99155a235c0537b68
+SHA1: 
+SHA256: ca074d09c6b5a2e52ca49c5510c04d01d04d019fe13457c7750e6edee25d8398
+
+Package: com.hoangdus.konban
+Name: KonbanXV-roothide
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 15.0), com.opa334.altlist, preferenceloader
+Conflicts: me.nepeta.konban, com.nicho1asdev.konban
+Description: An app in "Today" view. Rewritten for iOS 15 and 16 by HoangDus.KonbanxV1插件：主要功能是替换负一屏。桌面首页向右滑动，会打开所选择的App，而不是负一屏的小组件。
+Maintainer: HoangDus
+Author: HoangDus, nicho1asdev, Nepeta
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 580
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.hoangdus.konban_1.0.1_iphoneos-arm64e.deb
+Size: 43012
+MD5sum: c6490d7ad8f1da7b6b34bcdde9f3c1b7
+SHA1: 
+SHA256: 846709f1bf3746915d37e11328fc9efe817e122698e6f37cb22a34d04d31f9cb
+
 Package: com.huami.ChoicyConfigPin
 Name: ChoicyConfigPin-rootless
 Description: Pin apps with custom tweak configuration to the top in Choicy
