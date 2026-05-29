@@ -377,6 +377,42 @@ MD5sum: 04a5cfc4b3811461c35ba78ff766b794
 SHA1: 
 SHA256: 9506fc60f4faa9252c5014db0c34ab3c1eb7bbfdbac411a5dc409597f42017b8
 
+Package: codes.aurora.kayoko
+Name: Hello Kayoko-roothide
+Description: Clipboard manager for iOS.
+Maintainer: Lessica <82flex@gmail.com>
+Author: Alexandra Aurora Göttlicher
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+Architecture: iphoneos-arm64e
+Version: 3.3.6-3
+Installed-Size: 1040
+Filename: debs/codes.aurora.kayoko_3.3.6-3_iphoneos-arm64e.deb
+Size: 136476
+MD5sum: bcbcc1bbdb81f4708e86508783e747b1
+SHA1: 
+SHA256: 52ae7f6e784b2e8aadd2d0e7b79f9c9f60b630be2632157d6aeb09f69faf9aae
+
+Package: codes.aurora.kayoko
+Name: Hello Kayoko-roothide
+Description: Clipboard manager for iOS.
+Maintainer: Lessica <82flex@gmail.com>
+Author: Alexandra Aurora Göttlicher
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+Architecture: iphoneos-arm64e
+Version: 3.3.6-5
+Installed-Size: 1044
+Filename: debs/codes.aurora.kayoko_3.3.6-5_iphoneos-arm64e.deb
+Size: 138660
+MD5sum: 5d37ba41fb2a437ef18e89e600fa9b9b
+SHA1: 
+SHA256: a782095320f208b400a90f360f5bf681da01f884d7c7df34a486676984b81912
+
 Package: codex-ios
 Name: codex-ios-roothide
 Version: 0.134.0-1
