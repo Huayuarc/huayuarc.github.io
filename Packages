@@ -3786,6 +3786,51 @@ MD5sum: d7654282a9eb8d4ae857462d195d9056
 SHA1: 
 SHA256: 020e47394d0d17874cac4a322dc81f2ab0527264ce84c41a13ac2f18b7a7e4e5
 
+Author: 俊宏 <mail@mjh.im>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: 虚拟权限 · Fake Permission-rootless
+Package: im.mjh.fakeperm
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Section: Tweaks
+Installed-Size: 17115
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Description: 虚拟权限 · Fake Permission — 针对任意 App
+	单独配置虚拟权限，防止隐私被过度索取。支持通知、推送、定位(地图选点+地址搜索+海拔伪装)、精确位置、相册、通讯录、相机、麦克风、剪贴板。全局开关即时生效，无需注销
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakepermDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakepermDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: mjh
+Tag: purpose::extension
+Filename: debs/im.mjh.fakeperm_2.0.0_iphoneos-arm64.deb
+Size: 54844
+MD5sum: 4370c976147c7678ab8aa67810f0f5ba
+SHA1: 
+SHA256: 084b22c2f3ab2582444976a005512c20c929c6f684403297cc9549ef83550d4e
+
+Author: 俊宏 <mail@mjh.im>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: 虚拟权限 · Fake Permission-roothide
+Package: im.mjh.fakeperm
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Section: Tweaks
+Installed-Size: 17115
+Version: 2.0.0
+Architecture: iphoneos-arm64e
+Description: 虚拟权限 · Fake Permission — 针对任意 App
+	单独配置虚拟权限，防止隐私被过度索取。支持通知、推送、定位(地图选点+地址搜索+海拔伪装)、精确位置、相册、通讯录、相机、麦克风、剪贴板。全局开关即时生效，无需注销
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakepermDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakepermDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: mjh
+Tag: purpose::extension
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/im.mjh.fakeperm_2.0.0_iphoneos-arm64e.deb
+Size: 53636
+MD5sum: 688edf15c24af03b13da91e9897597d8
+SHA1: 
+SHA256: 24f86c8196f07576d3cb44bc8bd52fc8325278e21b0c59217fba18480a2d8a55
+
 Package: iphonerelease
 Name: 农业银行V10.2.1-rootless
 Author: z
