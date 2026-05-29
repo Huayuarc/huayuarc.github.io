@@ -378,6 +378,24 @@ SHA1:
 SHA256: 9506fc60f4faa9252c5014db0c34ab3c1eb7bbfdbac411a5dc409597f42017b8
 
 Package: codes.aurora.kayoko
+Name: Hello Kayoko-rootless
+Description: Clipboard manager for iOS.
+Maintainer: Lessica <82flex@gmail.com>
+Author: Alexandra Aurora Göttlicher
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+Architecture: iphoneos-arm64
+Version: 3.3.6-3
+Installed-Size: 1040
+Filename: debs/codes.aurora.kayoko_3.3.6-3_iphoneos-arm64.deb
+Size: 139264
+MD5sum: ae7e2c76810aae263e5ffe93336166a9
+SHA1: 
+SHA256: 5aac53e3e6f39656948c017fbec16cd28252e3ea79a00863c650367a2e99b93e
+
+Package: codes.aurora.kayoko
 Name: Hello Kayoko-roothide
 Description: Clipboard manager for iOS.
 Maintainer: Lessica <82flex@gmail.com>
