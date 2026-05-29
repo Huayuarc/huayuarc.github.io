@@ -1437,6 +1437,43 @@ MD5sum: 2f020b8368ecdb8f2054d23922092a57
 SHA1: 
 SHA256: d84bb4f0ebf8fdce9f72fbaed1cae6791ae9fb2a6c8462bef7e7a6a2aad81a6d
 
+Package: com.dafei.terminal
+Name: DFTerminal-rootless
+Description: iOS终端模拟器，支持多标签、中文显示、硬件键盘、手势缩放字体、滚动回看历史。
+ A full-featured terminal emulator for iOS with multi-tab, CJK support,
+ hardware keyboard, pinch-to-zoom, and scrollback history.
+Maintainer: DaFei
+Author: DaFei
+Section: Terminal Support
+Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
+Architecture: iphoneos-arm64
+Version: 1.0.0-25+debug
+Installed-Size: 732
+Filename: debs/com.dafei.terminal_1.0.0-25+debug_iphoneos-arm64.deb
+Size: 175632
+MD5sum: 5bfc421bebe69d2de7b7b3f65cbe8885
+SHA1: 
+SHA256: 82421b86d1198e11797fd5109f920c5e43c4617982a12da8a787dc341f105251
+
+Package: com.dafei.terminal
+Name: DFTerminal-roothide
+Description: iOS终端模拟器，支持多标签、中文显示、硬件键盘、手势缩放字体、滚动回看历史。
+ A full-featured terminal emulator for iOS with multi-tab, CJK support,
+ hardware keyboard, pinch-to-zoom, and scrollback history.
+Maintainer: DaFei
+Author: DaFei
+Section: Terminal Support
+Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
+Architecture: iphoneos-arm64e
+Version: 1.0.0-25+debug
+Installed-Size: 732
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.dafei.terminal_1.0.0-25+debug_iphoneos-arm64e.deb
+Size: 175216
+MD5sum: 3ede2985b835db01b1ef636649876e88
+SHA1: 
+SHA256: ccc269cf3ca169d8dca1e97d4224b2e9c6e2cc13f30bec8ddd7fcc58eb98ab22
+
 Package: com.eliofeghali.souvenir
 Name: Souvenir-rootless
 Description: Lockscreen customization tweak!
