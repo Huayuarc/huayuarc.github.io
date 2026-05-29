@@ -1680,6 +1680,39 @@ MD5sum: 907e0bae4b4b443d46784a67f652ff69
 SHA1: 
 SHA256: 84f277fa92bd1f184a75563d81179c8d2ff894f4e4acab046490511b566f3504
 
+Package: com.huayuarc.cputhermal
+Name: CPUthermal
+Author: Huayuarc
+Description: 温控插件 — 注入 thermalmonitord 阻止高温降频/降亮度。双防护层：IOKit 层拦截传感器读写 + Darwin 通知广播；ObjC 层钩住 ThermalManager/ThermalControl 决策树、控制力度计算、热压力升级。所有钩子有独立开关，75°C 安全阀自动放行紧急保护。支持软化模式（减半不归零）和热配置表修改（+5°C 阈值）。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0-3+debug
+Installed-Size: 796
+Filename: debs/com.huayuarc.cputhermal_1.0.0-3+debug_iphoneos-arm64.deb
+Size: 108770
+MD5sum: d3309c7853b9b5cc41c699fb783da31a
+SHA1: 
+SHA256: 745a16392ef641a3e4aa14ba64013e8ff4c5ae98b7b96f462b2aa8da6a27c20c
+
+Package: com.huayuarc.cputhermal
+Name: CPUthermal
+Author: Huayuarc
+Description: 温控插件 — 注入 thermalmonitord 阻止高温降频/降亮度。双防护层：IOKit 层拦截传感器读写 + Darwin 通知广播；ObjC 层钩住 ThermalManager/ThermalControl 决策树、控制力度计算、热压力升级。所有钩子有独立开关，75°C 安全阀自动放行紧急保护。支持软化模式（减半不归零）和热配置表修改（+5°C 阈值）。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0-3+debug
+Installed-Size: 796
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.huayuarc.cputhermal_1.0.0-3+debug_iphoneos-arm64e.deb
+Size: 106848
+MD5sum: d0764e75397286a1844f26e097fb6525
+SHA1: 
+SHA256: 95d56d07d2758f8ea83df5629ad94aafb76c9568669748503271d0c399945690
+
 Package: com.huayuarc.systempro
 Name: Systempro-rootless
 Author: Huayuarc
