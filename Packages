@@ -963,17 +963,17 @@ Author: Amy While <support@anamy.gay>
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
 Conflicts: com.amywhile.aemulotrial
-Icon: https://elihwyma.github.io/Aemulo/assets/Icon.png
+Icon: https://huayuarc.github.io/icon/huayuarc.jpg
 Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
 Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
 Architecture: iphoneos-arm64
 Version: 1.2.5
 Installed-Size: 2224
 Filename: debs/com.amywhile.aemulo_1.2.5_iphoneos-arm64.deb
-Size: 624872
-MD5sum: efc1327f8279f1b696e79ed8279c6dbf
+Size: 624936
+MD5sum: 3ebcbdba62d71900a3b7b53e19130613
 SHA1: 
-SHA256: de0829d6f13ac52112b02dbfb5c4a308fcb79dc99bde0b2b64bdced2b547b048
+SHA256: 62dd422fb53875fa25788e906cde25f8f5b3a2bc1e44fcf10599f08105c3c9fa
 
 Package: com.amywhile.aemulo
 Name: Aemulo-roothide
