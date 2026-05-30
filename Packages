@@ -1,3 +1,328 @@
+Package: Flex3beta
+Name: Flex3 Beta可解析版-rootless
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Version: 3.1
+Architecture: iphoneos-arm64
+Description: Develop your own tweaks and share them on the Flex Community Cloud. (dopamine 版本flex3可解析应用，不用兼容层，粗体会闪退,建议正在学习或者会做补丁者使用(已知点击应用补丁列表不可以，需要搜索)~~~单独装此包只对第三方应用生效，对系统生效需要装另外一个包，安装前卸载现有的，你配置都在)，0302:更新版本号，盗版源从我这拿东西版本整那么高作甚
+Maintainer: 来了老弟 h_h_x_t
+Author: John Coates
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/Flex3beta_3.1_iphoneos-arm64.deb
+Size: 24932322
+MD5sum: 7b8a73f1d04280aa6d0388c34e86080a
+SHA1: 
+SHA256: 5c5d74cd1e56b32853b7dd1c0de76dc30046128ceaa74801015f805bdef374b4
+
+Package: Flex3beta
+Name: Flex3 Beta可解析版-roothide
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Version: 3.1
+Architecture: iphoneos-arm64e
+Description: Develop your own tweaks and share them on the Flex Community Cloud. (dopamine 版本flex3可解析应用，不用兼容层，粗体会闪退,建议正在学习或者会做补丁者使用(已知点击应用补丁列表不可以，需要搜索)~~~单独装此包只对第三方应用生效，对系统生效需要装另外一个包，安装前卸载现有的，你配置都在)，0302:更新版本号，盗版源从我这拿东西版本整那么高作甚
+Maintainer: 来了老弟 h_h_x_t
+Author: John Coates
+Section: Tweaks
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/Flex3beta_3.1_iphoneos-arm64e-roothide.deb
+Size: 24929200
+MD5sum: 695817c446b129c70c33f9f3187e6dd0
+SHA1: 
+SHA256: e8957c3170052ebf686758f15a1f469bed5df8d1d06bdd291a1a499d0d3f25d7
+
+Package: aweme.x
+Conflicts: com.xx.dyhook
+Replaces: com.xx.dyhook
+Name: 抖音图层-rootless
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.3.9-3
+Installed-Size: 9976
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/aweme.x_2.3.9-3_iphoneos-arm64-rootless.deb
+Size: 4572676
+MD5sum: e21cc5050ab2555e673c0d40e708239e
+SHA1: 
+SHA256: ae8ef0c1421f0c0762128ce76da631ac9603755ca0bf39047d915ce181691e6f
+
+Package: aweme.x
+Conflicts: com.xx.dyhook
+Replaces: com.xx.dyhook
+Name: 抖音图层-roothide
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 2.3.9-3
+Installed-Size: 9976
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/aweme.x_2.3.9-3_iphoneos-arm64e-roothide.deb
+Size: 4522582
+MD5sum: 217b4f921673c3d51c2cae2a5bb27e3a
+SHA1: 
+SHA256: 8a484d2c88363c275fcb0b25c3f22b155e607d9c6a55d04d853a11b34e20fc19
+
+Package: aweme.x
+Conflicts: com.xx.dyhook
+Replaces: com.xx.dyhook
+Name: 抖音图层-rootless
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.3.9-6
+Installed-Size: 10472
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/aweme.x_2.3.9-6_iphoneos-arm64-rootless.deb
+Size: 4602894
+MD5sum: 30c9c74aa20904b7efcff87d1cc6087e
+SHA1: 
+SHA256: a64fb47fbba69aa4d99bbf33716c5149fb0c0d74472951bb2cb496e589a902d3
+
+Package: aweme.x
+Conflicts: com.xx.dyhook
+Replaces: com.xx.dyhook
+Name: 抖音图层
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.3.9-6
+Installed-Size: 10472
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/aweme.x_2.3.9-6_iphoneos-arm64.deb
+Size: 4602884
+MD5sum: 7cd4043b2f99fef4faeb8955dca41935
+SHA1: 
+SHA256: 31deb86aefd17f33209b27e43baba8f6514315e4901e15a3b4f7642696c36327
+
+Package: ayao.aipowerbutton
+Name: AiPowerButton-rootless
+Description: iOS 16 Dopamine rootless 插件：长按关机键启动语音 AI 助手，可在设置中选择豆包或 DeepSeek；豆包模式启动语音输入，DeepSeek 模式长按录音、松开发送，并保留音量键加关机键的系统原始关机/SOS 操作。
+Maintainer: ayao
+Author: ayao
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
+Replaces: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 540
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/ayao.aipowerbutton_1.0.0_iphoneos-arm64.deb
+Size: 20204
+MD5sum: 5dbef8deb34f2818eed7e9ebc3da8de6
+SHA1: 
+SHA256: 258d2cf69a4409cc214f8e969a6a696903386bd38b3b8055d5f989f8c033d92d
+
+Package: ayao.aipowerbutton
+Name: AiPowerButton-roothide
+Description: iOS 16 Dopamine rootless 插件：长按关机键启动语音 AI 助手，可在设置中选择豆包或 DeepSeek；豆包模式启动语音输入，DeepSeek 模式长按录音、松开发送，并保留音量键加关机键的系统原始关机/SOS 操作。
+Maintainer: ayao
+Author: ayao
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
+Replaces: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 540
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/ayao.aipowerbutton_1.0.0_iphoneos-arm64e.deb
+Size: 20360
+MD5sum: 2cea373c3166edf6881337e9b7ff7e05
+SHA1: 
+SHA256: ab4eb339b8288d537ca060edd1c6f309c2952205f311010f8f4273ed923ebcb9
+
+Package: callshidevoicemailios
+Name: 隐藏语音留言-rootless
+Author: z
+Description: 隐藏语音留言。微信电话
+Depends: mobilesubstrate
+Maintainer: z
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/callshidevoicemailios_1.0_iphoneos-arm64-rootless.deb
+Size: 2826
+MD5sum: b1fdffbf4d10639965445fb7b6a9384b
+SHA1: 
+SHA256: cbb38fbe612240d579507ece8aac5bd04f5fa07f6c6013dbb6d3b046fc5752fe
+
+Package: callshidevoicemailios
+Name: 隐藏语音留言-roothide
+Author: z
+Description: 隐藏语音留言。微信电话
+Depends: mobilesubstrate
+Maintainer: z
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 88
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/callshidevoicemailios_1.0_iphoneos-arm64e-roothide.deb
+Size: 2836
+MD5sum: 36e33a670ad39f2f83d4dee513a5d70f
+SHA1: 
+SHA256: 7ac2530ea09c59956886610cc84ef6126b0e66396a0696f4ef8fc9a362edfdd5
+
+Package: cn.llld.2playerbj
+Name: 隐藏播放器通知背景2-rootless
+Description: Hide player Notification background。半透版本，隐藏播放器通知背景2-rootless
+Maintainer: 来了老弟 h_h_x_t
+Author: 来了老弟 h_h_x_t
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/cn.llld.2playerbj_1.0_iphoneos-arm64.deb
+Size: 5818
+MD5sum: 2a69557edfb3178285a6e52765bd7a42
+SHA1: 
+SHA256: 16dce1e9abc4d0015b5ead364947bd0c8c0295330be8a7c70ef209e801052832
+
+Package: cn.llld.2playerbj
+Name: 隐藏播放器通知背景2-roothide
+Description: Hide player Notification background。半透版本，隐藏播放器通知背景2-rootless
+Maintainer: 来了老弟 h_h_x_t
+Author: 来了老弟 h_h_x_t
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/cn.llld.2playerbj_1.0_iphoneos-arm64e-roothide.deb
+Size: 5636
+MD5sum: 359d2f8c2a2602901755908986724914
+SHA1: 
+SHA256: 2274417ad1dea98721ea27b1530b8997afa30776a10098144cd384bceccb5f83
+
+Package: cn.llld.ftt
+Version: 0.1
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Description: This is just the Chinese version of "ftt", the English version in（ https://github.com/randy-420/ftt ）Download。。。。工具作用：把Flex3补丁转换为Theos项目，原版(https://github.com/Randy-420/ftt)，补丁路径：/var/mobile/Library/Application Support/Flex3/patches.plist或前面加/var/jb
+Architecture: iphoneos-arm64
+Name: ftt中文版-rootless
+Author: iPadKid358 Randy420
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/cn.llld.ftt_0.1_iphoneos-arm64.deb
+Size: 42984
+MD5sum: 64d1080f4367327e3b957ad03cbe37e2
+SHA1: 
+SHA256: e57e9ba3a4e05544123a114c2c979aede748acd8094ee5b323839ad337cf0ea7
+
+Package: cn.llld.ftt
+Version: 0.1
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Description: This is just the Chinese version of "ftt", the English version in（ https://github.com/randy-420/ftt ）Download。。。。工具作用：把Flex3补丁转换为Theos项目，原版(https://github.com/Randy-420/ftt)，补丁路径：/var/mobile/Library/Application Support/Flex3/patches.plist或前面加/var/jb
+Architecture: iphoneos-arm64e
+Name: ftt中文版-roothide
+Author: iPadKid358 Randy420
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/cn.llld.ftt_0.1_iphoneos-arm64e-roothide.deb
+Size: 92168
+MD5sum: db77cdba6dd8d5314202f9ca970ebcb6
+SHA1: 
+SHA256: ccf9df98aeea3140acd3e60c84d2185555fd07dcfc4ffa2ec5782f1430ca4ad0
+
+Package: cn.llld.playerbj
+Name: 隐藏播放器通知背景-rootless
+Description: Hide player Notification background。全透版本，隐藏播放器通知背景-rootless
+Maintainer: 来了老弟 h_h_x_t
+Author: 来了老弟 h_h_x_t
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.playerbj/playerbj-rootless.json
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/cn.llld.playerbj_1.0_iphoneos-arm64.deb
+Size: 3680
+MD5sum: 02f022fb8da7f02b3922dbe9040caa41
+SHA1: 
+SHA256: 9ea37a8a53f9f3516d8aa9c934412e05184c1f2d5f9c4c7cab131e5f7cee0334
+
+Package: cn.llld.playerbj
+Name: 隐藏播放器通知背景-roothide
+Description: Hide player Notification background。全透版本，隐藏播放器通知背景-roothide
+Maintainer: 来了老弟 h_h_x_t
+Author: 来了老弟 h_h_x_t
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.playerbj/playerbj-rootless.json
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/cn.llld.playerbj_1.0_iphoneos-arm64e.deb
+Size: 3668
+MD5sum: 1b35e76b4185e3f084d2506480253b4e
+SHA1: 
+SHA256: bd98033b533b13cf5cbe66105a25427a45b976ecd0019dde6d81c4674b3fb865
+
+Package: cn.llld.sjhx
+Section: Tweaks
+Version: 1.0
+Author: 来了老弟
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000)
+Maintainer: 来了老弟
+Name: 双击唤醒-roothide
+Architecture: iphoneos-arm64e
+Description: Change single-click to wake to double-click to wake (Settings-Accessibility-Touch-Tap to wake)单击唤醒改为双击唤醒(设置-辅助功能-触控-轻点唤醒)---roothide
+dev: 来了老弟
+
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/cn.llld.sjhx_1.0_iphoneos-arm64e.deb
+Size: 3124
+MD5sum: 7279f33ef6d6c5e5741a36c0faf95e14
+SHA1: 
+SHA256: f41a0c211eff2addb720b8d24c4da9ba5d229986aa94b502e2cdf4545cf6da29
+
+Package: cn.llld.sjsp
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Name: 双击锁屏-roothide
+Description: Double-click the home screen to lock the device双击锁屏---roothide
+Section: Tweaks
+Maintainer: 来了老弟
+Author: 来了老弟
+
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/cn.llld.sjsp_1.0_iphoneos-arm64e.deb
+Size: 8608
+MD5sum: 53a025e5716876508494b6d4f3270e88
+SHA1: 
+SHA256: b888faff908006ae2ee7ce76ea836f14664da357991457d55b4aa9410e06aad0
+
 Package: cn.llld.snapshottool
 Name: STTool-rootless
 Author: 来了老弟
@@ -54,6 +379,25 @@ MD5sum: 54391041265ca9a201c3938d7d697bd0
 SHA1: 
 SHA256: 2e5ea719b2b77bf3ed465a8b249589cc990efb1fd9adce8df7f18e731c3c37fa
 
+Package: cn.zqbb.cocoatop64.inject.roothide
+Name: CocoaTop64 inject-roothide
+Depends: 
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, zp.cocoatop64, zp.cocoatop64.unject, zp.cocoatop64.inject
+Description: (RootHide) 白名单注入辅助器
+Maintainer: zp, SXX, Domo
+Author: Domo, SXX , zp
+Section: Tweaks
+SileoDepiction: https://rootless.zqbb.cf/web/cn.zqbb.cocoatop64.inject.roothide
+Architecture: iphoneos-arm64e
+Version: 3.2.0
+Installed-Size: 840
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/cn.zqbb.cocoatop64.inject.roothide_3.2.0_iphoneos-arm64e-roothide.deb
+Size: 184220
+MD5sum: 0155150b62b6e708f28f8b938a530a26
+SHA1: 
+SHA256: 63be322504364a6b3953900da73a7e425daf8d5d8bc896be8e23bd7e4af3c36d
+
 Package: codes.aurora.kayoko
 Name: Hello Kayoko-rootless
 Description: Clipboard manager for iOS.
@@ -108,6 +452,41 @@ MD5sum: 5d37ba41fb2a437ef18e89e600fa9b9b
 SHA1: 
 SHA256: a782095320f208b400a90f360f5bf681da01f884d7c7df34a486676984b81912
 
+Package: codex-ios
+Name: codex-ios-roothide
+Version: 0.134.0-1
+Section: Development
+Priority: optional
+Architecture: iphoneos-arm64e
+Maintainer: DaFei
+Depends: firmware (>= 13.0), nodejs22-ios (>= 22.12.0), ldid
+Description: OpenAI Codex CLI for iOS arm64 - AI coding agent in your terminal
+ OpenAI Codex CLI ported to iOS arm64 (aarch64-apple-ios).
+ An AI-powered coding agent that runs directly in your terminal.
+ .
+ Usage / 使用方法:
+   1. Run 'codex-auth' to configure API key and endpoint
+      运行 codex-auth 配置 API 密钥和接口地址
+   2. Run 'codex' to enter interactive mode
+      运行 codex 进入交互模式
+   3. Or use 'codex exec "your prompt"' for non-interactive mode
+      或用 codex exec "提示词" 进行非交互式调用
+ .
+ Features / 特性:
+   - Native arm64 binary, no emulation / 原生 arm64 二进制
+   - Works in NewTerm2/3 and SSH / 支持 NewTerm2/3 和 SSH 终端
+   - Supports custom API proxy / 支持自定义代理接口
+   - codex-update for safe upgrades / codex-update 安全升级
+ .
+ Requires network access and an OpenAI-compatible API key.
+ 需要网络连接和 OpenAI 兼容的 API 密钥。
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/codex-ios_0.134.0-1_iphoneos-arm64e.deb
+Size: 22153496
+MD5sum: c6f26b68a227fd7c8515d149b522b6a7
+SHA1: 
+SHA256: 81a78222a5f8a08696f56a24e4269d35e8b86c5c74fdadf254da312ffb8c3448
+
 Package: com.0xkuj.safarix
 Version: 1.9.9.1
 Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
@@ -124,6 +503,174 @@ Size: 322416
 MD5sum: 52fdaf61d8b69416863df017a1c8e92b
 SHA1: 
 SHA256: feb52993a3e0ff92fafdfefbd6240bbf37a165a3d455da7d9156647133cdad34
+
+Package: com.25mao.leftpan.rootless
+Description: 左滑返回上一页面
+Version: 1.0-6
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Architecture: iphoneos-arm64
+Name: 左滑返回-rootless
+Author: Mao
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.25mao.leftpan.rootless_1.0-6_iphoneos-arm64.deb
+Size: 44248
+MD5sum: 5e06b8acfad64ae80584964d08a7b49a
+SHA1: 
+SHA256: da7e910bb1196af0f351975b30b4d3a1e2e796856c862282f0abe522b7c95b70
+
+Package: com.25mao.leftpan.rootless
+Description: 左滑返回上一页面
+Version: 1.0-6
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Architecture: iphoneos-arm64e
+Name: 左滑返回-roothide
+Author: Mao
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.25mao.leftpan.rootless_1.0-6_iphoneos-arm64e.deb
+Size: 43112
+MD5sum: eb2c8642e1bd35a20869591d7800b881
+SHA1: 
+SHA256: e0417f580a422f57555e1ee6a1f88a606ebf00c91026a06a85cdb66e09c2565a
+
+Package: com.25mao.msgfilt.rootless
+Description: 消息屏蔽助手
+Version: 1.0-7
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Architecture: iphoneos-arm64
+Name: 消息屏蔽助手-rootless
+Author: Mao
+Sponsor: admin@25mao.com
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.25mao.msgfilt.rootless_1.0-7_iphoneos-arm64-rootless.deb
+Size: 145288
+MD5sum: cc6deda06587ae111a82aa55027b0339
+SHA1: 
+SHA256: 468c188d93839d338b192f2f0328d0b6483bf2a476fd131d1c33bd81b2dff406
+
+Package: com.25mao.msgfilt.rootless
+Description: 消息屏蔽助手
+Version: 1.0-7
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Architecture: iphoneos-arm64e
+Name: 消息屏蔽助手-roothide
+Author: Mao
+Sponsor: admin@25mao.com
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.25mao.msgfilt.rootless_1.0-7_iphoneos-arm64e.deb
+Size: 143004
+MD5sum: 997598bb23ec20604d26dbc47d80c8d0
+SHA1: 
+SHA256: a7bf33ad27b2c8c9e3eda910f934f46ae23ab4434264bcd66e5d553dbbc397e3
+
+Package: com.25mao.wcplugins.rootless
+Name: 微信插件管理-rootless
+Version: 0.1-6
+Description: 
+Section: Tweaks
+Depends: firmware (>= 5.0)
+Conflicts: 
+Replaces: 
+Priority: optional
+Author: Mao
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: admin@25mao.com
+Architecture: iphoneos-arm64
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.25mao.wcplugins.rootless_0.1-6_iphoneos-arm64-rootless.deb
+Size: 17716
+MD5sum: 4551ffb43056a825afaac4cdb96f8541
+SHA1: 
+SHA256: 61c22ecef55b0ea5529ccdab2ca90bf55a37d07c70baae2fefc4e13ba34cf573
+
+Package: com.25mao.wcplugins.rootless
+Name: 微信插件管理-roothide
+Version: 0.1-6
+Description: 
+Section: Tweaks
+Depends: firmware (>= 5.0)
+Conflicts: 
+Replaces: 
+Priority: optional
+Author: Mao
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: admin@25mao.com
+Architecture: iphoneos-arm64e
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.25mao.wcplugins.rootless_0.1-6_iphoneos-arm64e.deb
+Size: 13228
+MD5sum: 4435259846baa2b544c8351924132a26
+SHA1: 
+SHA256: 5cf17ebc197ce034df9c4e1dd48c900fb48085774198271d5d0bac02c931e75d
+
+Package: com.4nni3.picturemodule
+Architecture: iphoneos-arm64e
+Name: PictureModule-roothide
+Version: 1.2
+Description: 用照片/视频和小部件装饰控制中心模块。
+Author: 4nni3 <kk99588077@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport, oldabi
+Maintainer: 4nni3 <kk99588077@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.4nni3.picturemodule_1.2_iphoneos-arm64e.deb
+Size: 282176
+MD5sum: 38ff4096b2e2182c7eaa9d88b239a537
+SHA1: 
+SHA256: 27a413dc25a0a3a88af227106038c12a23ebfc62dc6f41a8425342244e0191d8
+
+Package: com.82flex.touchvis
+Name: Touch-Viz-roothide
+Description: Display your touch interactions!
+Maintainer: Lessica <82flex@gmail.com>
+Author: Lessica <82flex@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.0.2
+Installed-Size: 4360
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.82flex.touchvis_4.0.2_iphoneos-arm64e.deb
+Size: 915824
+MD5sum: aac5a1e0b4c6b5e2fecabaac1f53217d
+SHA1: 
+SHA256: 5b668c646d773bba72e3dbb1e10e3319f51b3f0d27e6cc6326b1b09606ed1945
+
+Package: com.HBWechatHelper.ailun
+Version: 2.1.2
+Section: Tweaks
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Name: 黄白助手(微信插件)-rootless
+Author: HuangBai <QQ:1343309363@qq.com>
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.HBWechatHelper.ailun_2.1.2_iphoneos-arm64-rootless.deb
+Size: 11046384
+MD5sum: bd627d68d33d9b00679354efac1c70c3
+SHA1: 
+SHA256: 01705cbc8d8c3c6a4e21b1698fbd3e1dd576dd123dc4ea6c72c912f65107fa75
 
 Package: com.abc3.vip.appsyncunified
 Version: 112.0
@@ -333,6 +880,24 @@ MD5sum: b100a4f7fe0fc9945989c33a00b87f88
 SHA1: 
 SHA256: 5557bcff8b0e46675ea7785fb8768ce3e11a2a0dae035f8005c926a297b7350a
 
+Package: com.abc3.vip.repomaster1
+Version: 1.0
+Section: Tweaks
+Maintainer: 倔强的石头 <478066693@qq.com>
+Depends: firmware (>= 9.0), uikittools
+Architecture: iphoneos-arm
+Installed-Size: 748
+Description: RepoMaster源后台管理器
+Name: RepoMaster
+Author: 倔强的石头 <478066693@qq.com>
+Sponsor: 倔强的石头 <478066693@qq.com>
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.abc3.vip.repomaster1_1.0_iphoneos-arm.deb
+Size: 272596
+MD5sum: c7b63f04cba952d940bf123e8fe1c725
+SHA1: 
+SHA256: 11a776182d1a38ed9b675223ef1bc340f08b53e927616cf36b6fe75031eba06b
+
 Package: com.abc3.vip.semirestore11
 Version: 1.1.2-1
 Section: Tweaks
@@ -411,6 +976,98 @@ MD5sum: 63af4389191867b89d03b7109eada5ef
 SHA1: 
 SHA256: 92e51b9db6f39d138c9378e3e0cadfe92460a4223e2238547b1a18b2de4fc2d8
 
+Package: com.anthropic.claude-code
+Version: 2.1.45-1
+Architecture: iphoneos-arm64e
+Name: claude-code-roothide
+Maintainer: 大飞
+Installed-Size: 166456
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), zsh, ldid
+Conflicts: com.anthropic.claude-code-beta
+Provides: claude-code
+Section: Development
+Homepage: https://claude.ai
+Description: Claude Code CLI for iOS 人工智能  在越狱iPhone 上本地运行 Claude Code  终端执行 claude-auth以开始认证配置   终端执行 claude以开始使用  可以配置DeepSeek模型API 和  第三方模型API
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.anthropic.claude-code_2.1.45-1_iphoneos-arm64e.deb
+Size: 34865280
+MD5sum: ebf791e9f39f3af726e590843925e715
+SHA1: 
+SHA256: c3858ef82642feaf4a5d043bc0e748ba7c8a119b9435a471ee05a9e622bbae25
+
+Package: com.ayao.doubaopowerbutton
+Name: DoubaoPowerButton-rootless
+Description: 长按关机键触发豆包语音入口，并保留音量键加关机键的系统原始关机操作。
+Maintainer: ayao
+Author: ayao
+Section: Tweaks
+Depends: mobilesubstrate
+Replaces: com.yaofugen.doubaopowerbutton
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.ayao.doubaopowerbutton_0.0.6_iphoneos-arm64.deb
+Size: 4976
+MD5sum: 1556989c6a75fea5e20e6c0351cf7a46
+SHA1: 
+SHA256: ba34a19d76a75c62fdcf2bc68f8b1831aa25db224c1b3d596648dc38a9a4400e
+
+Package: com.ayao.doubaopowerbutton
+Name: DoubaoPowerButton-rootless-roothide
+Description: 长按关机键触发豆包语音入口，并保留音量键加关机键的系统原始关机操作。
+Maintainer: ayao
+Author: ayao
+Section: Tweaks
+Depends: mobilesubstrate
+Replaces: com.yaofugen.doubaopowerbutton
+Architecture: iphoneos-arm64e
+Version: 0.0.6
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.ayao.doubaopowerbutton_0.0.6_iphoneos-arm64e.deb
+Size: 5148
+MD5sum: 4ca05e4da0cca3161723ee9d55cfbb5d
+SHA1: 
+SHA256: cd06af5b7b868e80bd37b17d163e3bba3d5e82f433b4b60d9e624965551dddfb
+
+Package: com.be-huge.custom-notification-sound
+Name: CustomWeChatNotificationSound-rootless
+Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）。使用方式：在对话框中，长按对方头像即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 540
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.be-huge.custom-notification-sound_1.0.0_iphoneos-arm64.deb
+Size: 58824
+MD5sum: be68a970e69d70f71382cccedb247c68
+SHA1: 
+SHA256: ed04d57f590b564be4097bf53daa7daec50fec43ecc5f45bb603bb5763072c13
+
+Package: com.be-huge.custom-notification-sound
+Name: CustomWeChatNotificationSound-roothide
+Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）。使用方式：在对话框中，长按对方头像即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 540
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.be-huge.custom-notification-sound_1.0.0_iphoneos-arm64e.deb
+Size: 57000
+MD5sum: 50035a13e69453079603c12e004391d4
+SHA1: 
+SHA256: 296d11fd281047300d0dcb237159cefa00515f702fb6e4f330f90c18601f094a
+
 Package: com.be-huge.floating-view
 Name: floatingView-rootless
 Description: 分屏，不必太复杂，一切从简即可。
@@ -448,6 +1105,75 @@ MD5sum: 10fb4ef10dd8b3ed064dc81cab505d42
 SHA1: 
 SHA256: 57991e54278aaf9eba978ce3b2af47b509b7dda26508cd9fd4484811f0a42c16
 
+Package: com.be-huge.insulation
+Name: insulation(解除温控)-roothide
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 484
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.be-huge.insulation_0.0.3_iphoneos-arm64e.deb
+Size: 55664
+MD5sum: a9e31a3e3bba2d4f61a0a626567f9891
+SHA1: 
+SHA256: 5195deb7fe4029a5bbe20e90265d064232445e32188959aee5814a25bb759148
+
+Package: com.brend0n.nopassafterrespringsafe
+Name: NoPassAfterRespring (Safe)-rootless
+Depends: mobilesubstrate
+Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
+Maintainer: Brend0n <brendonjkding@126.com>
+Author: Brend0n <brendonjkding@126.com>
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.brend0n.nopassafterrespringsafe_0.0.3_iphoneos-arm64-rootless.deb
+Size: 5272
+MD5sum: 28c6e9cd74731497e40ec1fa8c3cd080
+SHA1: 
+SHA256: 54096abb344e5acd650af034b53b397414e850779dac0edc3b7f1a39c1560e23
+
+Package: com.brend0n.nopassafterrespringsafe
+Name: NoPassAfterRespring (Safe)-roothide
+Depends: mobilesubstrate
+Description: Disables passcode after a respring. This version does NOT modify system file. It's safe to use. 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。
+Maintainer: Brend0n <brendonjkding@126.com>
+Author: Brend0n <brendonjkding@126.com>
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.brend0n.nopassafterrespringsafe_0.0.3_iphoneos-arm64e.deb
+Size: 3388
+MD5sum: d25874c17c8ce4ec8ce5a6be8fd74912
+SHA1: 
+SHA256: 4c8cb8604b40ecb717d81d2d0fa55ba3990b423357aec4a44304a472cac2e21c
+
+Package: com.brend0n.volumemixer
+Architecture: iphoneos-arm64e
+Name: VolumeMixer-roothide
+Version: 0.0.7
+Description: Volume control for individual app 1.音量单独控制，可以为每个 App 单独调节音量，不影响系统音量。2.多种呼出面板方式。3.支持音频混音，音频同时播放，音乐App 不会被打断。
+Author: Brend0n <brendonjkding@126.com>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Maintainer: Brend0n <brendonjkding@126.com>
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.brend0n.volumemixer_0.0.7_iphoneos-arm64e.deb
+Size: 172100
+MD5sum: 7db91ef3a0ada1812405f9b7125541b4
+SHA1: 
+SHA256: 572815aa64409c713767f29f2e51e4171943adae15556cb1bea5a8912310eb6d
+
 Package: com.charlieleung.trollopenjb
 Name: TrollOpen 分屏-rootless
 Description: TrollOpen 的越狱版本，自带分屏功能，支持 ios16 及以上。
@@ -484,6 +1210,299 @@ MD5sum: 5cc80e7a0149078aea6dbafa4bda0d67
 SHA1: 
 SHA256: b0e755d6dc0973dea0da49a0646baf76c019ef1fb182ca0b79dc8824fe423b3c
 
+Package: com.colorblack.baidumapadblock
+Name: BaiduMapAdBlock-rootless
+Depends: mobilesubstrate
+Description: Disable Splash Ads in Baidu Map.
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0-1+debug
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.baidumapadblock_1.0.0-1+debug_iphoneos-arm64-rootless.deb
+Size: 6742
+MD5sum: 95505806308621f3e0eefa8655414d9b
+SHA1: 
+SHA256: f38b7210611d3985d0b5ac39d1c7c1ffcd1ca618f5d1a6ec2892dafd8c61c926
+
+Package: com.colorblack.baidumapadblock
+Name: BaiduMapAdBlock-roothide
+Depends: mobilesubstrate
+Description: Disable Splash Ads in Baidu Map.
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0-4+debug
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.baidumapadblock_1.0.0-4+debug_iphoneos-arm64e-roothide.deb
+Size: 6650
+MD5sum: 7c2cede4724e1f56f81450f613b337e1
+SHA1: 
+SHA256: fbd52c4a38d2820fb3eb2d937bc57c361bd80368bbdbe2795416fdc1b612d497
+
+Package: com.colorblack.bottomx
+Name: Bottom-x-rootless
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931 
+Maintainer: Color Black
+Author: Color Black
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Architecture: iphoneos-arm64
+Version: 0.2.30
+Installed-Size: 832
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.bottomx_0.2.30_iphoneos-arm64-rootless.deb
+Size: 195352
+MD5sum: caf209c5ac74866e43be3e3a171126e6
+SHA1: 
+SHA256: 7f409d268795cc1075adf97b5358764d80a337ad6dbb8c3cf35e7f238214ec88
+
+Package: com.colorblack.bottomx
+Name: Bottom-x-roothide
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931 
+Maintainer: Color Black
+Author: Color Black
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 0.2.30
+Installed-Size: 832
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.bottomx_0.2.30_iphoneos-arm64e-roothide.deb
+Size: 387504
+MD5sum: 2535c89148583d214f47ec1894993099
+SHA1: 
+SHA256: 2485dfa445dd3cc5918530a03a92656ec9ead9776f7d1bc4939b412e9485a25d
+
+Package: com.colorblack.bottomx
+Name: Bottom-x-rootless
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931 
+Maintainer: Color Black
+Author: Color Black
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Architecture: iphoneos-arm64
+Version: 0.2.32-1+debug
+Installed-Size: 1168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.bottomx_0.2.32-1+debug_iphoneos-arm64-rootless.deb
+Size: 305660
+MD5sum: de62b7a7124439cea180dc46ee7b43a7
+SHA1: 
+SHA256: d1ebc6291e94e60243da3aabc487b3c6eb64756532df521262be25763d370f2a
+
+Package: com.colorblack.bottomx
+Name: Bottom-x-roothide
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931 
+Maintainer: Color Black
+Author: Color Black
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 0.2.32-2+debug
+Installed-Size: 1168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.bottomx_0.2.32-2+debug_iphoneos-arm64e-roothide.deb
+Size: 305406
+MD5sum: 90fd6e916f7ba752ce169b4d01f92769
+SHA1: 
+SHA256: 77020b5c419853dd36e8ec89085a71ce2336ff5651fd493c54fcc76e57ec7c76
+
+Package: com.colorblack.dongchedinoad
+Name: 懂车帝去开屏广告-roothide
+Depends: mobilesubstrate
+Description: 移除懂车帝启动开屏广告。适配 RootHide 隐根环境。
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0-3+debug
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.dongchedinoad_1.0.0-3+debug_iphoneos-arm64e-roothide.deb
+Size: 8094
+MD5sum: 1d09a250ee97f499c98d9223a2e2d455
+SHA1: 
+SHA256: 166fb002d505cf3f5b5277b69ddcd4160d397b323deaaf6a7c4148677edc71cf
+
+Package: com.colorblack.dongchedinoad
+Name: Dongchedi-NoAd-rootless
+Depends: mobilesubstrate
+Description: 移除懂车帝启动开屏广告。适配 RootHide 隐根环境。
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0-4+debug
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.dongchedinoad_1.0.0-4+debug_iphoneos-arm64-rootless.deb
+Size: 8240
+MD5sum: 83c3001b8e6e648e4ac2a57ba89faa36
+SHA1: 
+SHA256: 2d9a061f384a7fa4f2fc33bfdf4db7f19787439907f0dd8d60867f7cd279fae7
+
+Package: com.colorblack.kiwinoad
+Name: KiwiNoAd-roothide
+Depends: mobilesubstrate
+Description: Disable Splash Ads in Huya.
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0-1+debug
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.kiwinoad_1.0.0-1+debug_iphoneos-arm64e-roothide.deb
+Size: 10742
+MD5sum: 60b9faedbb13ac416d5fe759e739b4da
+SHA1: 
+SHA256: ae233e90490c667114635cc70531d5e7eb208adca2df0b083208bf1552a92de0
+
+Package: com.colorblack.kiwinoad
+Name: KiwiNoAd-rootless
+Depends: mobilesubstrate
+Description: Disable Splash Ads in Huya.
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0-2+debug
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.kiwinoad_1.0.0-2+debug_iphoneos-arm64-rootless.deb
+Size: 10822
+MD5sum: 6bdbd7a22f1519dc6d3d46dbfbcb66e4
+SHA1: 
+SHA256: c4b6498b615e543cc74eab3cc97ca80d4cc65b016cc55590576ab19be09219d6
+
+Package: com.colorblack.liantongzhijianoad
+Name: Liantongzhijia-NoAd-roothide
+Depends: mobilesubstrate
+Description: 移除联通智家启动开屏广告。适配 RootHide 环境。
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0-4+debug
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.liantongzhijianoad_1.0.0-4+debug_iphoneos-arm64e-roothide.deb
+Size: 10376
+MD5sum: 82528e6ef9761b042e43e39b65de6215
+SHA1: 
+SHA256: 9fe918a9eea672162f0af04e0e49dd81ab7ed1100295679a487a10f22770f819
+
+Package: com.colorblack.liantongzhijianoad
+Name: Liantongzhijia-NoAd-rootless
+Depends: mobilesubstrate
+Description: 移除联通智家启动开屏广告。适配 RootHide 环境。
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0-5+debug
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.liantongzhijianoad_1.0.0-5+debug_iphoneos-arm64-rootless.deb
+Size: 10510
+MD5sum: cfa23dd03feba1e9453f7687f20d07ba
+SHA1: 
+SHA256: e3c0fe1e569af133b353c7bd978e46fa9da1a94fa149dd79bbc74068bbe917b4
+
+Package: com.colorblack.xcfnoad
+Name: XCFNoAd-roothide
+Depends: mobilesubstrate
+Description: Disable Splash Ads in Xiachufang.
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0-8+debug
+Installed-Size: 176
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.xcfnoad_1.0.0-8+debug_iphoneos-arm64e-roothide.deb
+Size: 12386
+MD5sum: e07bc0230b526895b13c566c92a7d84b
+SHA1: 
+SHA256: c66fd303bea3b03423caebf8fb7bcd329cf3984792ec83d7db4088fbb9419fd6
+
+Package: com.colorblack.xcfnoad
+Name: XCFNoAd-rootless
+Depends: mobilesubstrate
+Description: Disable Splash Ads in Xiachufang.
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0-9+debug
+Installed-Size: 176
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.xcfnoad_1.0.0-9+debug_iphoneos-arm64-rootless.deb
+Size: 12462
+MD5sum: 78bc05eff238579b9a1073769c3991ce
+SHA1: 
+SHA256: bd335566a68dedbaa1a07868112ead0851447d22eee924a98b83ece04c5136e9
+
+Package: com.colorblack.youdaoyunbiji
+Name: youdaoyunbiji-NoAd-roothide
+Depends: mobilesubstrate
+Description: 有道云笔记启动屏广告跳过插件，适配隐根(RootHide) , 
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.1-10+debug
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.youdaoyunbiji_0.0.1-10+debug_iphoneos-arm64e-roothide.deb
+Size: 13338
+MD5sum: 9bc6cca60f112d933272dd3949044aa6
+SHA1: 
+SHA256: 85b9a24e94382e0553471d2d0559d04d6b626ddcb284ddcecc9ec78482259816
+
+Package: com.colorblack.youdaoyunbiji
+Name: youdaoyunbiji-NoAd-rootless
+Depends: mobilesubstrate
+Description: 有道云笔记启动屏广告跳过插件，适配隐根(RootHide) , 
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.1-11+debug
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.colorblack.youdaoyunbiji_0.0.1-11+debug_iphoneos-arm64-rootless.deb
+Size: 13436
+MD5sum: 699a2f7b8cee3a0f2320709cd653ad4c
+SHA1: 
+SHA256: 74651826cb257c9a3bef511be022f88c5eb460a9b6cc33c3d27620e50c8b72cf
+
+Package: com.cpdigitaldarkroom.itsevanesco
+Name: Evanesco!-roothide
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
+Depends: mobilesubstrate, oldabi
+Description: Clear Your Homescreen After Inactivity 无操时显示壁纸
+Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Section: Tweaks
+Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
+Architecture: iphoneos-arm64e
+Version: 2024.05.26
+Installed-Size: 756
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.cpdigitaldarkroom.itsevanesco_2024.05.26_iphoneos-arm64e.deb
+Size: 147480
+MD5sum: b8a5d299fdf1adeab90dd55024a4de8b
+SHA1: 
+SHA256: 64d4b22240aceef207091742bcf6301c75897522175b6077c5086cc543ee2279
+
 Author: CreatureSurvive <support@creaturecoding.com>
 Architecture: iphoneos-arm64
 Maintainer: CreatureSurvive <support@creaturecoding.com>
@@ -519,6 +1538,180 @@ MD5sum: 6f4464d7d5fc8af06009563ab6767302
 SHA1: 
 SHA256: 42ba05856e921c8c5bfcbb820edc0921cef1622868ee9a93fc82c277ce5413dd
 
+Name: MoreLinesNotifications-rootless
+Package: com.cydiageek.morelinesnotifications
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 8.0)
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Description: Increase the Lines for the Notifications!为通知增加更多的行，显示更多的通知！
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 178
+dev: lucaluca86
+
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.cydiageek.morelinesnotifications_1.0.5_iphoneos-arm64.deb
+Size: 7826
+MD5sum: 9d36942ce4aef357283fc0cbd3ddd7f9
+SHA1: 
+SHA256: 6c45c54bb07f193b8ab0df20414f817d7fed931bdceb23f3ddcc17591dedc566
+
+Name: MoreLinesNotifications-roothide
+Package: com.cydiageek.morelinesnotifications
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 8.0)
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Description: Increase the Lines for the Notifications!为通知增加更多的行，显示更多的通知！
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=morelinesnotificationDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: CydiaGeek <lucaluca86@aol.com>
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 179
+dev: lucaluca86
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.cydiageek.morelinesnotifications_1.0.5_iphoneos-arm64e.deb
+Size: 7390
+MD5sum: 9c4dc1e87f2f491a0ae5618a2595d10b
+SHA1: 
+SHA256: 5f144246f63f11be865920bf731bd3de5d78adaa2a7f455c62cb5889f287e34a
+
+Package: com.dafei.terminal
+Name: DFTerminal-rootless
+Description: iOS终端模拟器，支持多标签、中文显示、硬件键盘、手势缩放字体、滚动回看历史。
+ A full-featured terminal emulator for iOS with multi-tab, CJK support,
+ hardware keyboard, pinch-to-zoom, and scrollback history.
+Maintainer: DaFei
+Author: DaFei
+Section: Terminal Support
+Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
+Architecture: iphoneos-arm64
+Version: 1.0.0-25+debug
+Installed-Size: 732
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.dafei.terminal_1.0.0-25+debug_iphoneos-arm64.deb
+Size: 175648
+MD5sum: fd15a5e2589f0c71fb6bb7812c3801d7
+SHA1: 
+SHA256: 1fb52532d5281e4f47961888226390b77e657a2ca7df8158d6d24c808b6feb3f
+
+Package: com.dafei.terminal
+Name: DFTerminal-roothide
+Description: iOS终端模拟器，支持多标签、中文显示、硬件键盘、手势缩放字体、滚动回看历史。
+ A full-featured terminal emulator for iOS with multi-tab, CJK support,
+ hardware keyboard, pinch-to-zoom, and scrollback history.
+Maintainer: DaFei
+Author: DaFei
+Section: Terminal Support
+Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
+Architecture: iphoneos-arm64e
+Version: 1.0.0-25+debug
+Installed-Size: 732
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.dafei.terminal_1.0.0-25+debug_iphoneos-arm64e.deb
+Size: 175232
+MD5sum: 69610fd822f701fbd1beaafef3be0498
+SHA1: 
+SHA256: 03f21214b62c9a7c62927bf27ebec3586f8d7adf74d76c317c62e83cd39af7a5
+
+Package: com.eliofeghali.souvenir
+Name: Souvenir-rootless
+Description: Lockscreen customization tweak!
+Maintainer: Elio Feghali
+Author: Elio Feghali
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.14
+Installed-Size: 596
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.eliofeghali.souvenir_1.14_iphoneos-arm64.deb
+Size: 95752
+MD5sum: 446cf8ada354c326ca9c356d57309c79
+SHA1: 
+SHA256: 56ee49050427cdb94736f6dbbf628fef9f64d25b47b0bef624b9998190ee8904
+
+Package: com.eliofeghali.souvenir
+Name: Souvenir-roothide
+Description: Lockscreen customization tweak!
+Maintainer: Elio Feghali
+Author: Elio Feghali
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.14
+Installed-Size: 596
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.eliofeghali.souvenir_1.14_iphoneos-arm64e-roothide.deb
+Size: 135876
+MD5sum: 173693fff47c17a0a09f8e7f65ebb81c
+SHA1: 
+SHA256: 43095419dbbe7d25f2b41e64ecf3714de92e8cb4884ea2c51cab9ae4143d8a50
+
+Package: com.gblw.fixset.roothide
+Version: 1.1
+Section: 插件
+Maintainer: gblw
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Installed-Size: 123
+Name: FixSet-roothide
+Author: @bswbw
+Sponsor: gblw
+Description: 修复部分插件转roothide配置不保存问题
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.gblw.fixset.roothide_1.1_iphoneos-arm64e.deb
+Size: 36724
+MD5sum: 778c1432dc3022cdfc1e035211b25cfa
+SHA1: 
+SHA256: 0657ad8eadab1a17062d605ef4919a868ef784373f39bfac60b09ee73cd0e782
+
+Package: com.go.mango
+Name: mango-rootless
+Description: 芒果，轻量分屏，舒适，顺手。
+Maintainer: go
+Author: go
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 0.0.10-1
+Installed-Size: 1376
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.go.mango_0.0.10-1_iphoneos-arm64.deb
+Size: 389356
+MD5sum: 72df38dc00a4bc516a7f9243e220deba
+SHA1: 
+SHA256: 1117f3ff73980ed38582129fc0250e3375576a56f3ae05056c4b2fb081cbad05
+
+Package: com.go.mango
+Name: mango-roothide
+Description: 芒果，轻量分屏，舒适，顺手。
+Maintainer: go
+Author: go
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.0.10-1
+Installed-Size: 1360
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.go.mango_0.0.10-1_iphoneos-arm64e.deb
+Size: 388444
+MD5sum: 8c450e06a6824f2ab2aed90cd414de0b
+SHA1: 
+SHA256: dea92509d16e576c9dedf68bd1e1930a462f4d90d7a50efe280d7ae2ba23c1f4
+
 Package: com.hitori.misaki
 Version: 2.2
 Architecture: iphoneos-arm64
@@ -537,6 +1730,77 @@ Size: 306340
 MD5sum: d353aa1d0be89d726f243dacff8f0923
 SHA1: 
 SHA256: 44749b9ec17a0643d4095e4c59cd73623972e82e94e5b03d7d67c9e5f6e95094
+
+Package: com.hoangdus.konban
+Name: KonbanXV-rootless
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 15.0), com.opa334.altlist, preferenceloader
+Conflicts: me.nepeta.konban, com.nicho1asdev.konban
+Description: An app in "Today" view. Rewritten for iOS 15 and 16 by HoangDus.KonbanxV1插件：主要功能是替换负一屏。桌面首页向右滑动，会打开所选择的App，而不是负一屏的小组件。
+Maintainer: HoangDus
+Author: HoangDus, nicho1asdev, Nepeta
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 580
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.hoangdus.konban_1.0.1_iphoneos-arm64.deb
+Size: 43904
+MD5sum: 59b0e019ce09a797f17aace05cee845e
+SHA1: 
+SHA256: e769b3ed122e97870c5f9295ee688034e0042030e04faafe52cc836cd8ae1b90
+
+Package: com.hoangdus.konban
+Name: KonbanXV-roothide
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 15.0), com.opa334.altlist, preferenceloader
+Conflicts: me.nepeta.konban, com.nicho1asdev.konban
+Description: An app in "Today" view. Rewritten for iOS 15 and 16 by HoangDus.KonbanxV1插件：主要功能是替换负一屏。桌面首页向右滑动，会打开所选择的App，而不是负一屏的小组件。
+Maintainer: HoangDus
+Author: HoangDus, nicho1asdev, Nepeta
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 580
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.hoangdus.konban_1.0.1_iphoneos-arm64e.deb
+Size: 43028
+MD5sum: 122721706aa2b30037f82fc409258229
+SHA1: 
+SHA256: acbcb1abb647b478b4389e7b196375fd725db450a2b10f4e1b14d1c01efaf49c
+
+Package: com.huami.ChoicyConfigPin
+Name: ChoicyConfigPin-rootless
+Description: Pin apps with custom tweak configuration to the top in Choicy
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 1.0-2
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.huami.ChoicyConfigPin_1.0-2_iphoneos-arm64-rootless.deb
+Size: 11998
+MD5sum: 40b16476425f2306e5c1337ba87ed8d1
+SHA1: 
+SHA256: 0798491224c8c816288cfe6168f955859774f379b143228c108b18cdf0dc6961
+
+Package: com.huami.ChoicyConfigPin
+Name: ChoicyConfigPin-roothide
+Description: Pin apps with custom tweak configuration to the top in Choicy
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy (>> 1.5.1), com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.0-2
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.huami.ChoicyConfigPin_1.0-2_iphoneos-arm64e-roothide.deb
+Size: 10070
+MD5sum: 801964df55ab59cba22017d6ff83a4f4
+SHA1: 
+SHA256: a5428c962d64b3654c0863eaa83003e847d00559e68f3f738fc19f1490db39f9
 
 Package: com.huami.dyyy
 Name: DYYY-rootless
@@ -576,6 +1840,336 @@ MD5sum: 907e0bae4b4b443d46784a67f652ff69
 SHA1: 
 SHA256: 84f277fa92bd1f184a75563d81179c8d2ff894f4e4acab046490511b566f3504
 
+Package: com.huayuarc.cputhermal
+Name: CPUthermal
+Author: Huayuarc
+Description: 温控插件 — 注入 thermalmonitord 阻止高温降频/降亮度。双防护层：IOKit 层拦截传感器读写 + Darwin 通知广播；ObjC 层钩住 ThermalManager/ThermalControl 决策树、控制力度计算、热压力升级。所有钩子有独立开关，75°C 安全阀自动放行紧急保护。支持软化模式（减半不归零）和热配置表修改（+5°C 阈值）。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0-3+debug
+Installed-Size: 796
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.huayuarc.cputhermal_1.0.0-3+debug_iphoneos-arm64.deb
+Size: 108764
+MD5sum: 974f4debe99d95649650663c1d3b6b79
+SHA1: 
+SHA256: 2ce03f0e6a73c14eb680823ec5e2dc8ca49fe25b6e0b8c6d25a5d8949d1f686e
+
+Package: com.huayuarc.cputhermal
+Name: CPUthermal
+Author: Huayuarc
+Description: 温控插件 — 注入 thermalmonitord 阻止高温降频/降亮度。双防护层：IOKit 层拦截传感器读写 + Darwin 通知广播；ObjC 层钩住 ThermalManager/ThermalControl 决策树、控制力度计算、热压力升级。所有钩子有独立开关，75°C 安全阀自动放行紧急保护。支持软化模式（减半不归零）和热配置表修改（+5°C 阈值）。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0-3+debug
+Installed-Size: 796
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.huayuarc.cputhermal_1.0.0-3+debug_iphoneos-arm64e.deb
+Size: 106840
+MD5sum: 7ad144efb274c16f9d356cec07e27e4d
+SHA1: 
+SHA256: ee34722a2938d02ffcdd3a54e26d17b6b4260e11e09cd01616248cd35c91eddd
+
+Package: com.huayuarc.systempro
+Name: Systempro-rootless
+Author: Huayuarc
+Description: 通知不亮屏 + 17项系统增强功能：屏蔽粘贴弹窗、禁截图检测、禁快门声、透明Dock、禁App资源库、禁锁屏相机/手电、自动面容解锁、去解锁延迟、去锁屏音、应用开启动画方向、彻关WiFi/蓝牙、低电/朝下自动锁屏、禁签名验证等
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.3.6
+Installed-Size: 376
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.huayuarc.systempro_0.3.6_iphoneos-arm64.deb
+Size: 42188
+MD5sum: 1b5e3aed0c4e777deddb1c49d6b54af0
+SHA1: 
+SHA256: b39f4a9c343c4ff33de5b3283d128f58be20ead2fdafb14eefe614a61c1c9eea
+
+Package: com.huayuarc.systempro
+Name: Systempro-roothide
+Author: Huayuarc
+Description: 通知不亮屏 + 17项系统增强功能：屏蔽粘贴弹窗、禁截图检测、禁快门声、透明Dock、禁App资源库、禁锁屏相机/手电、自动面容解锁、去解锁延迟、去锁屏音、应用开启动画方向、彻关WiFi/蓝牙、低电/朝下自动锁屏、禁签名验证等
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.3.6
+Installed-Size: 376
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.huayuarc.systempro_0.3.6_iphoneos-arm64e.deb
+Size: 42116
+MD5sum: f0f3654c23f794ad154f82978bdfd895
+SHA1: 
+SHA256: 8a9c840c89b7dbf659b36aee4a6d6e3d623d145a047be28518e435ba08193e3b
+
+Package: com.imkpatil.nooldernotificationstext
+Name: NoOlderNotificationsText-rootless
+Depends: mobilesubstrate
+Description: Hide that annoying 'No Older Notifications' Text!
+Maintainer: P2KDev <p2kdev@gmail.com>
+Author: P2KDev <p2kdev@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.imkpatil.nooldernotificationstext_1.2.3_iphoneos-arm64-rootless.deb
+Size: 4454
+MD5sum: efa0ae802d1b9d84cc785d22be76e11c
+SHA1: 
+SHA256: 7063b98147395590b6a66cff8af852c533c2a94d151d2806cac5e012c10ff478
+
+Package: com.imkpatil.nooldernotificationstext
+Name: NoOlderNotificationsText-roothide
+Depends: mobilesubstrate
+Description: Hide that annoying 'No Older Notifications' Text!
+Maintainer: P2KDev <p2kdev@gmail.com>
+Author: P2KDev <p2kdev@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.imkpatil.nooldernotificationstext_1.2.3_iphoneos-arm64e-roothide.deb
+Size: 4284
+MD5sum: 31b3929721eb6998d0086408b56e4972
+SHA1: 
+SHA256: 498b26197b45da212cc37f3bc7f224382071888e291d3e636ef6dc74f69cdf29
+
+Package: com.iosdump.customcallbg
+Name: CustomCallBg-rootless
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 自定义来去电背景插件
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Installed-Size: 460
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.iosdump.customcallbg_0.0.5_iphoneos-arm64-rootless.deb
+Size: 79590
+MD5sum: fc34b0dd2f28f3ce232663127a21498f
+SHA1: 
+SHA256: 710fbb62509c462928c9342ba4a27f7fba000eaccf2279254c260ef91ef3b3ac
+
+Package: com.iosdump.customcallbg
+Name: CustomCallBg-roothide
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 自定义来去电背景插件
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Installed-Size: 460
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.iosdump.customcallbg_0.0.5_iphoneos-arm64e.deb
+Size: 75408
+MD5sum: b0e0e14247f7c818ecc5a9159cfad8aa
+SHA1: 
+SHA256: b6e01423c34c134e4b940a5107916c9c6c3354769c0f2f65487021e851e4f64e
+
+Package: com.iosdump.customcallbg
+Name: CustomCallBg-rootless
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 自定义来去电背景插件
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Installed-Size: 764
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.iosdump.customcallbg_0.0.6_iphoneos-arm64-rootless.deb
+Size: 151400
+MD5sum: 7e873426d62628122b50fcb032ce398e
+SHA1: 
+SHA256: 32ab901a1235b59d15f2b659d096f26f479d9d96401a731037558632560cb1d1
+
+Package: com.iosdump.customcallbg
+Name: CustomCallBg-roothide
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 自定义来去电背景插件
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.6
+Installed-Size: 748
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.iosdump.customcallbg_0.0.6_iphoneos-arm64e-roothide.deb
+Size: 145494
+MD5sum: 6d3cdbb110b404aa81ca313fe7fbb837
+SHA1: 
+SHA256: a61327ce7140197bd28f02e66de4b6e632852c46481ed38e18e3665e8c53240a
+
+Package: com.iosdump.shellx
+Name: SHELLX-rootless
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 576
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.iosdump.shellx_0.0.3_iphoneos-arm64-rootless.deb
+Size: 138562
+MD5sum: 5ac1f36ebbaee4cf645cdbe461140d28
+SHA1: 
+SHA256: 34cbbd218442bd129830ac7e898744491a199e5eb4e27e3d266fedf2390aca55
+
+Package: com.iosdump.shellx
+Name: SHELLX-roothide
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 576
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.iosdump.shellx_0.0.3_iphoneos-arm64e-roothide.deb
+Size: 135032
+MD5sum: 3cf8c5e00624851bf1d8dac65ddbf56e
+SHA1: 
+SHA256: 14a974fc48ef57cf1b76145bd8aa35aadb60e44d995ebd9696bcf270a7de0e67
+
+Package: com.iosdump.shellx
+Name: SHELLX-rootless
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Installed-Size: 608
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.iosdump.shellx_0.0.5_iphoneos-arm64-rootless.deb
+Size: 153918
+MD5sum: e980ca5d974b3087be7c7078aaffc5b4
+SHA1: 
+SHA256: bfca2354a3068f9fb4b2a67c98574a9dd0f3ca3f5da978c25abf033d78da1f90
+
+Package: com.iosdump.shellx
+Name: SHELLX-roothide
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Installed-Size: 608
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.iosdump.shellx_0.0.5_iphoneos-arm64e-roothide.deb
+Size: 150070
+MD5sum: 17c08185863cc8e9c1ad7afdc146fea2
+SHA1: 
+SHA256: 73b45bfdcffa0a0971d50de761c1c422fb3c40f045f3bc03b6242b726995cbab
+
+Package: com.iosdump.shellx
+Name: SHELLX-rootless
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 780
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.iosdump.shellx_1.0.0_iphoneos-arm64-rootless.deb
+Size: 223262
+MD5sum: e0bab19a6fcf41fe3817cf3af5a15fd4
+SHA1: 
+SHA256: ca73908add9d9c3cc077dd124beed9607e74ef534e06428a20acd0813e8b8892
+
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 780
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.iosdump.shellx_1.0.0_iphoneos-arm64.deb
+Size: 223256
+MD5sum: df68e0e2cb78fa10f529d218eff0cefa
+SHA1: 
+SHA256: afa27b388d16dffaa2b9c793ba41d401f21e22a8155a02926489f3c47d99f313
+
+Package: com.jontelang.bigshotsnapper3plugin
+Name: BigShot for Snapper 3 and CCSupport-rootless
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper
+Description: BigShot for iOS 15/16 (and Snapper 3)
+Maintainer: Jonathan Winger-lang
+Author: Jonathan Winger-lang
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 536
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.jontelang.bigshotsnapper3plugin_1.1_iphoneos-arm64-rootless.deb
+Size: 39766
+MD5sum: efc3479cf1bdc32c079b95e439dffc6d
+SHA1: 
+SHA256: a12b2bb988e8f80f8bc8c65c43bce57cc2e4ae0bfc80fb26fb3592ae1275e843
+
+Package: com.jontelang.bigshotsnapper3plugin
+Name: BigShot for Snapper 3 and CCSupport-roothide
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper
+Description: BigShot for iOS 15/16 (and Snapper 3)
+Maintainer: Jonathan Winger-lang
+Author: Jonathan Winger-lang
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 536
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.jontelang.bigshotsnapper3plugin_1.1_iphoneos-arm64e-roothide.deb
+Size: 39156
+MD5sum: ec684299871e44bf4c4077b8e623538f
+SHA1: 
+SHA256: 8c1f131813f23ee35054c95f3f3249b639a6038e4221aad5bc277c9071d400bc
+
+Package: com.jontelang.snapper3
+Name: Snapper 3-roothide
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: Pin screenshots on the screen.
+Maintainer: Jonathan Winger-lang
+Author: Jonathan Winger-lang
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.jontelang.snapper3_1.2.1_iphoneos-arm64e.deb
+Size: 1022764
+MD5sum: af4cc07cd0c7fe81627f392e55d083e3
+SHA1: 
+SHA256: 3c1cacc62bbf6438aa563145a7827b7dec7af9e97f9edb5ab1898994934e9cbf
+
 Package: com.lclrc.hammerit
 Name: Hammer It-rootless
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
@@ -592,6 +2186,123 @@ Size: 979956
 MD5sum: f81afefcf1ccfebe72a78cecd233faef
 SHA1: 
 SHA256: 5e68b27772ce6a66a57a3dae2eb724f5307777989260c6a1bc53c2423d62a896
+
+Package: com.lenglengyu.baidunetdiskoutput-rootless
+Name: 百度网盘缓存文件导出-rootless
+Author: lenglengyu
+Description: 缓存文件添加导出按钮，免去每次进入路径寻找文件的繁琐方式。
+Depends: mobilesubstrate
+Maintainer: lenglengyu <lenglengyu@126.com>
+Architecture: iphoneos-arm64
+Section: Tweaks
+Depiction: https://repo.lenglengyu.top/packageInfo/baidunetdiskoutput.html
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/baidunetdiskoutputsileo
+Version: 1.0.1K
+Installed-Size: 616
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.lenglengyu.baidunetdiskoutput-rootless_1.0.1K_iphoneos-arm64.deb
+Size: 142032
+MD5sum: 2880602016572983544f2fe1ae82e7b1
+SHA1: 
+SHA256: a7f37204db0cd6e7f7444b1691f6b567396e42549bd0cdd2f8ce8d74df5693fa
+
+Package: com.lenglengyu.baidunetdiskoutput-rootless
+Name: 百度网盘缓存文件导出-roothide
+Author: lenglengyu
+Description: 缓存文件添加导出按钮，免去每次进入路径寻找文件的繁琐方式。
+Depends: mobilesubstrate
+Maintainer: lenglengyu <lenglengyu@126.com>
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Depiction: https://repo.lenglengyu.top/packageInfo/baidunetdiskoutput.html
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/baidunetdiskoutputsileo
+Version: 1.0.1K
+Installed-Size: 616
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.lenglengyu.baidunetdiskoutput-rootless_1.0.1K_iphoneos-arm64e.deb
+Size: 139476
+MD5sum: 7e072fddfbfb305f23e100288aa68c52
+SHA1: 
+SHA256: 50036c563ef479413de78c9ed26bc17dea5c20d97e7bb7175ef4079f417d9555
+
+Package: com.lenglengyu.ghallownetwork-rootless
+Name: Allow Network-rootless
+Author: lenglengyu
+Description: 国行手机自动允许使用网络。
+Depends: mobilesubstrate
+Maintainer: lenglengyu <lenglengyu@126.com>
+Architecture: iphoneos-arm64
+Section: Tweaks
+Depiction: https://repo.lenglengyu.top/packageInfo/ghallownetwork.html
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/ghallownetworksileo
+Version: 0.0.1
+Installed-Size: 152
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.lenglengyu.ghallownetwork-rootless_0.0.1_iphoneos-arm64.deb
+Size: 8076
+MD5sum: ecbdd930ab3367b0899b06f4048733cb
+SHA1: 
+SHA256: b24b14144ef58adf140cf4359a1884b07dad0ef4d6ed408fb64d31ec16cf495e
+
+Package: com.lenglengyu.ghallownetwork-rootless
+Name: Allow Network-roothide
+Author: lenglengyu
+Description: 国行手机自动允许使用网络。
+Depends: mobilesubstrate
+Maintainer: lenglengyu <lenglengyu@126.com>
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Depiction: https://repo.lenglengyu.top/packageInfo/ghallownetwork.html
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/ghallownetworksileo
+Version: 0.0.1
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.lenglengyu.ghallownetwork-rootless_0.0.1_iphoneos-arm64e.deb
+Size: 7972
+MD5sum: 5a27bec14f0aef756978e9395b157f5d
+SHA1: 
+SHA256: 115293bfd8bb6c8c36da0db00c7176ec44e3e7fce98ff93ee8aa71800c7656f3
+
+Package: com.lenglengyu.iapstorefugu-rootless
+Name: IAPStore-rootless
+Author: lenglengyu
+Description: Fugu15应用内购神器，弹窗付款点击取消即可。
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Maintainer: lenglengyu <lenglengyu@126.com>
+Architecture: iphoneos-arm64
+Section: Tweaks
+Depiction: https://repo.lenglengyu.top/packageInfo/iapstorefugu.html
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/iapstorefugusileo
+Version: 0.0.2
+Installed-Size: 384
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.lenglengyu.iapstorefugu-rootless_0.0.2_iphoneos-arm64.deb
+Size: 41756
+MD5sum: e7b8083e50dbfd877bccc2c58b773bf6
+SHA1: 
+SHA256: a8c3d24dc87bfb31e925a2eac69ec90bb3e050e4d3caa79de22c77a3fe3ea087
+
+Package: com.lenglengyu.iapstorefugu-rootless
+Name: IAPStore-roothide
+Author: lenglengyu
+Description: Fugu15应用内购神器，弹窗付款点击取消即可。
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Maintainer: lenglengyu <lenglengyu@126.com>
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Depiction: https://repo.lenglengyu.top/packageInfo/iapstorefugu.html
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/iapstorefugusileo
+Version: 0.0.2
+Installed-Size: 384
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.lenglengyu.iapstorefugu-rootless_0.0.2_iphoneos-arm64e.deb
+Size: 40784
+MD5sum: 9c44a7ca98e5960814ebd2e58b1e5daf
+SHA1: 
+SHA256: 39ff59c54bf5333224820db87e0cd9a46cf66a22e0d9dd7d1a3b3700fc6a6e7e
 
 Package: com.lxcloud.WCEhance
 Name: 微信增强-rootless
@@ -647,6 +2358,1092 @@ MD5sum: a6367a4c0e40cdb2eaad8d131bba73ac
 SHA1: 
 SHA256: 02a6674f83e3f0b5fccd91f22c8129b9fd1224dfb6a29e54741b04065172f996
 
+Package: com.necromancy.tweak-roothide
+Name: Necromancy-roothide
+Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
+Maintainer: colorBlack
+Author: colorBlack
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.2.6
+Installed-Size: 1200
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.necromancy.tweak-roothide_1.2.6_iphoneos-arm64e.deb
+Size: 458602
+MD5sum: f34412aad1bf2d90621668c1889c52ba
+SHA1: 
+SHA256: 2dabf31d880dd89c675e2c5e8f966017ac2568d0902f8637b09104af59767e9d
+
+Package: com.necromancy.tweak
+Name: Necromancy-rootless
+Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
+Maintainer: colorBlack
+Author: colorBlack
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.2.6
+Installed-Size: 1200
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.necromancy.tweak_1.2.6_iphoneos-arm64.deb
+Size: 341640
+MD5sum: fe0e9e071d2a161090c5ef912957c6ec
+SHA1: 
+SHA256: e094ccba6a9833a5cee8463a5df67b423b33e00db22fa2a25fe1e4c7ee201314
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.appdata
+Package: com.netskao.appdata
+Name: AppData-rootless
+Description: View & Manage Applications Data from your Home Screen
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Author: Fouad Raheb
+Maintainer: Nets
+Markdowndescription: View & Manage Applications Data from your Home Screen<br><br>• v1.4.7: Fix app failed to downgrade<br><br>• v1.4.6: Fix iOS15 crash issues<br><br>• v1.4.5: Modify the API interface for obtaining the downgraded version number of an application
+Architecture: iphoneos-arm64
+Version: 1.4.7
+Installed-Size: 5156
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.appdata_1.4.7_iphoneos-arm64-rootless.deb
+Size: 1497056
+MD5sum: 409dee77ceb0c72a5f9480a06374fb00
+SHA1: 
+SHA256: a86d04798942be52b45ec60d316d71adf924dfe5eab286477a1bbe036b04d1ff
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.appdata
+Package: com.netskao.appdata
+Name: AppData-roothide
+Description: View & Manage Applications Data from your Home Screen
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Author: Fouad Raheb
+Maintainer: Nets
+Markdowndescription: View & Manage Applications Data from your Home Screen<br><br>• v1.4.7: Fix app failed to downgrade<br><br>• v1.4.6: Fix iOS15 crash issues<br><br>• v1.4.5: Modify the API interface for obtaining the downgraded version number of an application
+Architecture: iphoneos-arm64e
+Version: 1.4.7
+Installed-Size: 5156
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.appdata_1.4.7_iphoneos-arm64e-roothide.deb
+Size: 1500208
+MD5sum: 04f1cccc1574858ab609575a0376d5e9
+SHA1: 
+SHA256: 5ce3268e579c62eadcccc6d429cd12c35ac1cdc15c8d3a31c4d8c843d7761a9d
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.awemealwaysshowtime
+Package: com.netskao.awemealwaysshowtime
+Name: AwemeAlwaysShowTime-rootless
+Depends: mobilesubstrate, firmware (>= 12.0)
+Description: Aweme always shows the video creation time
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Installed-Size: 56
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.awemealwaysshowtime_1.1-1_iphoneos-arm64-rootless.deb
+Size: 2308
+MD5sum: 88fdca742c38fa3ba65f57e596f417b1
+SHA1: 
+SHA256: b523a527ef05852908282264a3180ec87d4196d8ce4f14dcbb0b97ce4752b9b2
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.awemealwaysshowtime
+Package: com.netskao.awemealwaysshowtime
+Name: AwemeAlwaysShowTime-roothide
+Depends: mobilesubstrate, firmware (>= 12.0)
+Description: Aweme always shows the video creation time
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-1
+Installed-Size: 56
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.awemealwaysshowtime_1.1-1_iphoneos-arm64e-roothide.deb
+Size: 2484
+MD5sum: 47269342ba3bd3e0d65cf7533aae69a6
+SHA1: 
+SHA256: 0e74459b6c697dffb4b254067235ffd22d765127c676cf6647d112416ece8685
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.awemedisablebar
+Package: com.netskao.awemedisablebar
+Name: AwemeDisableBar-rootless
+Depends: firmware (>= 12.0), mobilesubstrate
+Description: Aweme Disable Top/Bottom/Right Tab Button. Tested only on version 30.3.0 and above
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-6
+Installed-Size: 708
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.awemedisablebar_1.1-6_iphoneos-arm64-rootless.deb
+Size: 304964
+MD5sum: e9dd5f7ef1c3022d9ca6c5f3e2594a1d
+SHA1: 
+SHA256: dc247070179aba8b778cedd9bf71b173ea730612604d61ccdb6e110de9bffea7
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.awemedisablebar
+Package: com.netskao.awemedisablebar
+Name: AwemeDisableBar-roothide
+Depends: firmware (>= 12.0), mobilesubstrate
+Description: Aweme Disable Top/Bottom/Right Tab Button. Tested only on version 30.3.0 and above
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-6
+Installed-Size: 708
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.awemedisablebar_1.1-6_iphoneos-arm64e-roothide.deb
+Size: 304860
+MD5sum: aad92f8a32d6d0c6d48507f2cd59f226
+SHA1: 
+SHA256: f6fd50d3ff120c703846c2489f141a566e32fefcb137ba690729bd1321c09017
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.awemedownloadmedia
+Package: com.netskao.awemedownloadmedia
+Name: AwemeDownloadMedia-rootless
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Aweme No Watermark Download Media. Tested only on version 31.7.0 and above
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-8
+Installed-Size: 456
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.awemedownloadmedia_1.1-8_iphoneos-arm64.deb
+Size: 147164
+MD5sum: 1ada288bb1a358181a93e87c05fdc889
+SHA1: 
+SHA256: a1f5377274293096050fb120d42ac7a5f702d39d6e304cb3d1b5b4b34fe7d029
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.awemedownloadmedia
+Package: com.netskao.awemedownloadmedia
+Name: AwemeDownloadMedia-roothide
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Aweme No Watermark Download Media. Tested only on version 31.7.0 and above
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-8
+Installed-Size: 456
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.awemedownloadmedia_1.1-8_iphoneos-arm64e-roothide.deb
+Size: 146892
+MD5sum: 772c9d5476e7994d04c8cd4cd72c5f4a
+SHA1: 
+SHA256: 2576b758a7755cd0d312b01bc76a15e22e6f0ecb208de6accb29012c61e2e81b
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.awemefullscreen
+Package: com.netskao.awemefullscreen
+Name: AwemeFullScreen-rootless
+Depends: firmware (>= 12.0), mobilesubstrate
+Description: Aweme HomePage Full Screen. Supported only for version 35.0.0 and above
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.3-7
+Installed-Size: 448
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.awemefullscreen_1.3-7_iphoneos-arm64-rootless.deb
+Size: 192052
+MD5sum: 4600f2a7c1299959fb0f3fcbfd42c897
+SHA1: 
+SHA256: d82b4b1fa220721bd12f8c16699c6badc2ec07d2a2ede06f7f6a7dbf86fd4769
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.awemefullscreen
+Package: com.netskao.awemefullscreen
+Name: AwemeFullScreen-roothide
+Depends: firmware (>= 12.0), mobilesubstrate
+Description: Aweme HomePage Full Screen. Supported only for version 35.0.0 and above
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.3-7
+Installed-Size: 448
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.awemefullscreen_1.3-7_iphoneos-arm64e-roothide.deb
+Size: 191476
+MD5sum: b291a9ae52fa483fb8563dfd266fb5ca
+SHA1: 
+SHA256: 1d036c8430d6e12898e3e78b24fd0f0e59f595c604f52b0a29d1d8f8321b0818
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.awemevideotime
+Package: com.netskao.awemevideotime
+Name: AwemeVideoTime-rootless
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Aweme Video Show Time. Tested only on version 30.3.0 and above
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Installed-Size: 124
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.awemevideotime_1.1-2_iphoneos-arm64-rootless.deb
+Size: 31644
+MD5sum: 051cc1cf99554234d1e27ef9908d915e
+SHA1: 
+SHA256: ab0a8afccaa832d568939e6895de22381f7988fd2bea8893ff804889bfd84636
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.awemevideotime
+Package: com.netskao.awemevideotime
+Name: AwemeVideoTime-roothide
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Aweme Video Show Time. Tested only on version 30.3.0 and above
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-2
+Installed-Size: 124
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.awemevideotime_1.1-2_iphoneos-arm64e-roothide.deb
+Size: 31840
+MD5sum: b5584bfb94665eecf3487c40b382e931
+SHA1: 
+SHA256: e22797ab0bb465b704e1f24c03d7470f3bd638697fe6bd8939949733975aea7d
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ccbadgeclear
+Package: com.netskao.ccbadgeclear
+Name: CCBadgeClear-rootless
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Description: Quickly clean up all red badge on desktop via Control Center, Support iOS15+
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2-6
+Installed-Size: 224
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.ccbadgeclear_1.2-6_iphoneos-arm64.deb
+Size: 25756
+MD5sum: 2d7b345c398a54b8edea74b98cf93d7a
+SHA1: 
+SHA256: db5d664e99cbd74d3a89caaaab87f78f2d1a66a9178ee236e652755502433a1d
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ccbadgeclear
+Package: com.netskao.ccbadgeclear
+Name: CCBadgeClear-roothide
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Description: Quickly clean up all red badge on desktop via Control Center, Support iOS15+
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2-6
+Installed-Size: 224
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.ccbadgeclear_1.2-6_iphoneos-arm64e-roothide.deb
+Size: 25892
+MD5sum: 982934b4368d85ae903834b8ee5c42f5
+SHA1: 
+SHA256: b7d5bf06b584cac8495224e02a9ec54f7de51adee502c5f129370b3723a36578
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.cclifttowake
+Package: com.netskao.cclifttowake
+Name: CCLiftToWake-rootless
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Description: Quickly enable or disable Wake on Lift from Control Center, Support iOS15+
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.cclifttowake_1.1-1_iphoneos-arm64-rootless.deb
+Size: 16408
+MD5sum: ee0935eec34a9b670473dfb9ec5c5c57
+SHA1: 
+SHA256: 99a7aef3d71048dacd5229c645281d028b3ba2d76b9755ba967863e3eb1c9c9b
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.cclifttowake
+Package: com.netskao.cclifttowake
+Name: CCLiftToWake-roothide
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Description: Quickly enable or disable Wake on Lift from Control Center, Support iOS15+
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-1
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.cclifttowake_1.1-1_iphoneos-arm64e-roothide.deb
+Size: 16552
+MD5sum: 1b746de631732e0536f7902367ac7e3d
+SHA1: 
+SHA256: 56f6f10cec4171e2859b6986594b5b253226a84b656a46434ec91cec014f7c7c
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ccquantumultxswitch
+Package: com.netskao.ccquantumultxswitch
+Name: CCQuantumultXSwitch-rootless
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Description: Add a quick toggle for Quantumult X VPN status in Control Center
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Markdowndescription: Add a quick toggle for Quantumult X VPN status in Control Center<br><br>• v1.1-3: Fixed potential icon status synchronization issues
+Architecture: iphoneos-arm64
+Version: 1.1-3
+Installed-Size: 1144
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.ccquantumultxswitch_1.1-3_iphoneos-arm64-rootless.deb
+Size: 703640
+MD5sum: 4a3c6780b34d262c2bf677264a062688
+SHA1: 
+SHA256: eb8661f2ef2bd3c221c9c7454ebf95f0bba91ddccbc05e4bca01d12500302aaf
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ccquantumultxswitch
+Package: com.netskao.ccquantumultxswitch
+Name: CCQuantumultXSwitch-roothide
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Description: Add a quick toggle for Quantumult X VPN status in Control Center
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Markdowndescription: Add a quick toggle for Quantumult X VPN status in Control Center<br><br>• v1.1-3: Fixed potential icon status synchronization issues
+Architecture: iphoneos-arm64e
+Version: 1.1-3
+Installed-Size: 1144
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.ccquantumultxswitch_1.1-3_iphoneos-arm64e-roothide.deb
+Size: 703784
+MD5sum: 64ecb82edc47c760c269dec8f1e0e364
+SHA1: 
+SHA256: be00d9013741d7fbd3c85cd9809a78148223228ebbf3c2e27f35fdcee85deedb
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.classickeyboardxs
+Package: com.netskao.classickeyboardxs
+Name: ClassicKeyboardXS-rootless
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Description: Customize the height of the bottom of the X-keyboard, the height of the bottom of the earth, etc.
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Installed-Size: 1044
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.classickeyboardxs_1.1-9_iphoneos-arm64-rootless.deb
+Size: 275544
+MD5sum: 96fd3222342c0195b8013ea6df5f463f
+SHA1: 
+SHA256: 4c8b1a5918eed45eb3c0c9d40dafb585b37f4398b0c358de505bca4ab98a306d
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.classickeyboardxs
+Package: com.netskao.classickeyboardxs
+Name: ClassicKeyboardXS-roothide
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Description: Customize the height of the bottom of the X-keyboard, the height of the bottom of the earth, etc.
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Installed-Size: 1044
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.classickeyboardxs_1.1-9_iphoneos-arm64e-roothide.deb
+Size: 275956
+MD5sum: 01cd7b506accecc2765f3d90b1744bba
+SHA1: 
+SHA256: 778323f56493b1344487d429e96b902bd50992bdb15b5e723ab38d906cc1a905
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.dazzcameracrack
+Package: com.netskao.dazzcameracrack
+Name: DazzCamera Crack-rootless
+Author: Netskao
+Description: DazzCamera Crack
+Depends: firmware (>= 16.0), mobilesubstrate
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-6
+Installed-Size: 804
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.dazzcameracrack_1.1-6_iphoneos-arm64-rootless.deb
+Size: 278164
+MD5sum: 999e8b1869d3daad91014840ab96210a
+SHA1: 
+SHA256: c0bf8ade2ca8f8a6ee2a9f93c60bf4c1f3a7ce7895b432fd85b4c33fed794621
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.dazzcameracrack
+Package: com.netskao.dazzcameracrack
+Name: DazzCamera Crack-rootless
+Author: Netskao
+Description: DazzCamera Crack
+Depends: firmware (>= 16.0), mobilesubstrate
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-6
+Installed-Size: 804
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.dazzcameracrack_1.1-6_iphoneos-arm64.deb
+Size: 277984
+MD5sum: 49d8ef7703b350f06f3c47e7a60d9833
+SHA1: 
+SHA256: f4f03fdd914077fb7b2ad96985cf4b198dc28addb1e98d93c1f2e2091b4d92df
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.dazzcameracrack
+Package: com.netskao.dazzcameracrack
+Name: DazzCamera Crack-roothide
+Author: Netskao
+Description: DazzCamera Crack
+Depends: firmware (>= 16.0), mobilesubstrate
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-6
+Installed-Size: 804
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.dazzcameracrack_1.1-6_iphoneos-arm64e-roothide.deb
+Size: 278132
+MD5sum: 73e159a661cf0631c506e0f301ce6292
+SHA1: 
+SHA256: db524f673dc210815530271705bd7513e5c25e40107c7c345dc192716196a77c
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.dazzcameracrack
+Package: com.netskao.dazzcameracrack
+Name: DazzCamera Crack-roothide
+Author: Netskao
+Description: DazzCamera Crack
+Depends: firmware (>= 16.0), mobilesubstrate
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-6
+Installed-Size: 804
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.dazzcameracrack_1.1-6_iphoneos-arm64e.deb
+Size: 278756
+MD5sum: 1d5f37666baa89b8b968aa0a8766365e
+SHA1: 
+SHA256: cd47c0d252fe18c5bb31cbdc060cc410b92dc4e3b4185252f1075c4457dadafe
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.disablebottombarlrswipe
+Package: com.netskao.disablebottombarlrswipe
+Name: DisableBottomBarLRSwipe-rootless
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Disable bottom bar left/right swipe
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.disablebottombarlrswipe_1.1-2_iphoneos-arm64-rootless.deb
+Size: 5760
+MD5sum: f4f2f9be2da8183c9db1dd16c6205fd9
+SHA1: 
+SHA256: 288f60aaa51aae5ca3ffdcd539d62f3db82d1c4b9f91821743ab5a24753108d8
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.disablebottombarlrswipe
+Package: com.netskao.disablebottombarlrswipe
+Name: DisableBottomBarLRSwipe-roothide
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Disable bottom bar left/right swipe
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-2
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.disablebottombarlrswipe_1.1-2_iphoneos-arm64e-roothide.deb
+Size: 5936
+MD5sum: f6b3ba9ab4ef66fb7a0d0a9f24292711
+SHA1: 
+SHA256: 02eae7d1f2d04c098d182d7bbbdf08bf3962480808b7b7594a89a763d39e3d16
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.evilmeowcrack
+Package: com.netskao.evilmeowcrack
+Name: 让我喵喵 Crack-rootless
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: 让我喵喵解锁会员, 支持1.6.8及以上版本(当前最新版1.7.0已测试)
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Installed-Size: 108
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.evilmeowcrack_1.1-2_iphoneos-arm64-rootless.deb
+Size: 22440
+MD5sum: 1f37b73f87c1af69072b514f480bd8aa
+SHA1: 
+SHA256: ae4f22474b22e78648d86863fc13a98bf310a36184c06da2272b9704a014076f
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.evilmeowcrack
+Package: com.netskao.evilmeowcrack
+Name: 让我喵喵 Crack-roothide
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: 让我喵喵解锁会员, 支持1.6.8及以上版本(当前最新版1.7.0已测试)
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-2
+Installed-Size: 108
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.evilmeowcrack_1.1-2_iphoneos-arm64e-roothide.deb
+Size: 22660
+MD5sum: 548a7b4969694311819e401140321218
+SHA1: 
+SHA256: 1da32041b44212a3c2c14133ccff2253724ddd918eb2256577866dc4b0be2827
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
+Package: com.netskao.filzacrack
+Name: Filza Crack-rootless
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Filza Crack
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Installed-Size: 120
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.filzacrack_1.1-9_iphoneos-arm64-rootless.deb
+Size: 28648
+MD5sum: 7ad4c48ce0e5f980e3a01da6f69fafbc
+SHA1: 
+SHA256: 9df14ad9dbd20c817aed4cadfd90091ba60eefd65fa33576f595bbb4fc8f3948
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
+Package: com.netskao.filzacrack
+Name: Filza Crack-roothide
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Filza Crack
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Installed-Size: 120
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.filzacrack_1.1-9_iphoneos-arm64e-roothide.deb
+Size: 28872
+MD5sum: e4cd54d52d0d03f892ff1a877b063623
+SHA1: 
+SHA256: c745861ba3219b33d2af249285725c0fdf5ba70242f4eaefd4b75e1684ced7a7
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.flreadercrack
+Package: com.netskao.flreadercrack
+Name: 千阅 Crack-rootless
+Author: Netskao
+Description: 千阅解锁全功能
+Depends: firmware (>= 13.0), mobilesubstrate
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Installed-Size: 528
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.flreadercrack_1.1-1_iphoneos-arm64-rootless.deb
+Size: 186184
+MD5sum: 4c5f3928a298b053696e1dfbddbe6725
+SHA1: 
+SHA256: d78e01844cc912a5e14e941a92460ef42915172352ab8dab4bc7326596d2e73b
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.flreadercrack
+Package: com.netskao.flreadercrack
+Name: 千阅 Crack-roothide
+Author: Netskao
+Description: 千阅解锁全功能
+Depends: firmware (>= 13.0), mobilesubstrate
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-1
+Installed-Size: 528
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.flreadercrack_1.1-1_iphoneos-arm64e-roothide.deb
+Size: 186480
+MD5sum: 0b242a27efdf6097bfcebe40dfc12760
+SHA1: 
+SHA256: 37754613649099cc274a89887d595c4c58d139b8cdfb567e5a91bcdf93fc2f90
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.injectipa
+Package: com.netskao.injectipa
+Name: injectipa-rootless
+Description: InjectIPA Tool
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm64
+Version: 1.5-7
+Installed-Size: 1688
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.injectipa_1.5-7_iphoneos-arm64-rootless.deb
+Size: 417424
+MD5sum: e2880cc438ee5447cd0136e8788b021f
+SHA1: 
+SHA256: 5406829c7f0314ad20e700b82c490c1476d51067f3af88d6f5ca3597a766bd80
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.injectipa
+Package: com.netskao.injectipa
+Name: injectipa-roothide
+Description: InjectIPA Tool
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 1.5-7
+Installed-Size: 1688
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.injectipa_1.5-7_iphoneos-arm64e-roothide.deb
+Size: 416744
+MD5sum: 39137ba894f6cf7704e07f9b60f9e4ff
+SHA1: 
+SHA256: 5f0d481d4ebc8498cedaffe0e0f28d32c6e81457c55d1f0dc76b5a0b900af748
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.lbbrowsercrack
+Package: com.netskao.lbbrowsercrack
+Name: 李白浏览器 Crack-rootless
+Depends: firmware (>= 13.0), mobilesubstrate
+Description: 李白浏览器解锁全功能
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Installed-Size: 208
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.lbbrowsercrack_1.1-2_iphoneos-arm64-rootless.deb
+Size: 44104
+MD5sum: 306d76ad5f294e186e83d006fe342a3f
+SHA1: 
+SHA256: 24b3d4f14aef33ea69850391f661684bf16cac303c08d010fbced9a6b08ebee5
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.lbbrowsercrack
+Package: com.netskao.lbbrowsercrack
+Name: 李白浏览器 Crack-roothide
+Depends: firmware (>= 13.0), mobilesubstrate
+Description: 李白浏览器解锁全功能
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-2
+Installed-Size: 208
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.lbbrowsercrack_1.1-2_iphoneos-arm64e-roothide.deb
+Size: 44368
+MD5sum: d472fb2cf427969e31ec4453794f57fc
+SHA1: 
+SHA256: 75ab716e0a71287c33734e21376516c16f9844e1d731780431d48298ff272fb8
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.leoreadercrack
+Package: com.netskao.leoreadercrack
+Name: 极简阅读 Crack-rootless
+Depends: firmware (>= 13.0), mobilesubstrate
+Description: 极简阅读解锁全功能
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-3
+Installed-Size: 740
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.leoreadercrack_1.1-3_iphoneos-arm64-rootless.deb
+Size: 300516
+MD5sum: 4615eca6d5945c6e0e0ac915141604f3
+SHA1: 
+SHA256: 9004b14ba4c42aa30e164c1f156527f8781c3bc2d13d31bc7984c4e5cd4c5f84
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.leoreadercrack
+Package: com.netskao.leoreadercrack
+Name: 极简阅读 Crack-roothide
+Depends: firmware (>= 13.0), mobilesubstrate
+Description: 极简阅读解锁全功能
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-3
+Installed-Size: 740
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.leoreadercrack_1.1-3_iphoneos-arm64e-roothide.deb
+Size: 300604
+MD5sum: 1de297ca03100219ac859001e0065ac4
+SHA1: 
+SHA256: aff99dbba9eae90f1b4d38e0890bf4796f903c8797bbf17586947ca9bb1a1d31
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.mangaboxcrack
+Package: com.netskao.mangaboxcrack
+Name: MangaBox Crack-rootless
+Author: Netskao
+Description: MangaBox Crack, Supports version 1.2.4 and above
+Depends: firmware (>= 12.0), mobilesubstrate
+Maintainer: Nets
+Section: Tweaks
+Markdowndescription: MangaBox Crack, Supports version 1.2.4 and above<br><br>• v1.1.5: Quickly launch the app
+Architecture: iphoneos-arm64
+Version: 1.1-5
+Installed-Size: 320
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.mangaboxcrack_1.1-5_iphoneos-arm64.deb
+Size: 95432
+MD5sum: 6cb0d813da87f57dc04699e2125a359f
+SHA1: 
+SHA256: b0c85406d9c9e8f14229f9574a6fc1467109fdafa7bf80f3fefa992745b8ebdc
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.mangaboxcrack
+Package: com.netskao.mangaboxcrack
+Name: MangaBox Crack-roothide
+Author: Netskao
+Description: MangaBox Crack, Supports version 1.2.4 and above
+Depends: firmware (>= 12.0), mobilesubstrate
+Maintainer: Nets
+Section: Tweaks
+Markdowndescription: MangaBox Crack, Supports version 1.2.4 and above<br><br>• v1.1.5: Quickly launch the app
+Architecture: iphoneos-arm64e
+Version: 1.1-5
+Installed-Size: 320
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.mangaboxcrack_1.1-5_iphoneos-arm64e-roothide.deb
+Size: 95584
+MD5sum: 0d45d40decec02a161a4044d9d8a7c24
+SHA1: 
+SHA256: 53aff973a528915b3e70333ba2e4450d0fb1854baf351341bbf3a5c93be0e2be
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.noappthinning
+Package: com.netskao.noappthinning
+Conflicts: it.ned.noappthinning
+Name: NoAppThinning-rootless
+Description: Disable AppStore app thinning - by level3tjg, Disable TestFlight app thinning - by Netskao
+Depends: firmware (>= 15.0), mobilesubstrate
+Author: Netskao
+Maintainer: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.4
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.noappthinning_1.4_iphoneos-arm64-rootless.deb
+Size: 4120
+MD5sum: 077b3034eae8f80f07c48213ff78afa1
+SHA1: 
+SHA256: 6cbaa7f7b7b947a82b201625fffb75417da169c6b4a1585700c1e47f9ce9d66f
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.noappthinning
+Package: com.netskao.noappthinning
+Conflicts: it.ned.noappthinning
+Name: NoAppThinning-roothide
+Description: Disable AppStore app thinning - by level3tjg, Disable TestFlight app thinning - by Netskao
+Depends: firmware (>= 15.0), mobilesubstrate
+Author: Netskao
+Maintainer: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.4
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.noappthinning_1.4_iphoneos-arm64e-roothide.deb
+Size: 4296
+MD5sum: c015bd05df5237f361580fd5f054c36a
+SHA1: 
+SHA256: 839c33806004b461a0e7e64d06483495be2f0c49a159d2d481ade2240064f3a6
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.qqnotiavatar
+Package: com.netskao.qqnotiavatar
+Name: QQNotiAvatar-rootless
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Description: Display Notification Avatars for QQ App using iOS15+ APIs
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Installed-Size: 204
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.qqnotiavatar_1.2-2_iphoneos-arm64.deb
+Size: 25644
+MD5sum: 9e75941d8726d73b663f1d71349372f1
+SHA1: 
+SHA256: a7bf42e2d0fa185e6452b41ecf3edd467311e7a703f8bfe436187a65b38f600c
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.qqnotiavatar
+Package: com.netskao.qqnotiavatar
+Name: QQNotiAvatar-roothide
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Description: Display Notification Avatars for QQ App using iOS15+ APIs
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2-2
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.qqnotiavatar_1.2-2_iphoneos-arm64e-roothide.deb
+Size: 25824
+MD5sum: ea8bbc82ab5db594bffa9a221e74ca75
+SHA1: 
+SHA256: a5c9f30b825081246cddf78538f38ffcc836895be73c4c187aa783c30f46573c
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.storeswitchaccounts
+Package: com.netskao.storeswitchaccounts
+Name: StoreSwitchAccounts-rootless
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-4
+Installed-Size: 460
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.storeswitchaccounts_1.1-4_iphoneos-arm64.deb
+Size: 102040
+MD5sum: d65b67db487ac00ffe29ac68958a5d46
+SHA1: 
+SHA256: dd26ff7b9b26006f5847778429e040b114120b285ce2c83a75c93f58b7c4d6b2
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.storeswitchaccounts
+Package: com.netskao.storeswitchaccounts
+Name: StoreSwitchAccounts-roothide
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-4
+Installed-Size: 460
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.storeswitchaccounts_1.1-4_iphoneos-arm64e-roothide.deb
+Size: 102072
+MD5sum: 8e1d2e28aa36995e8b920c6daec96e85
+SHA1: 
+SHA256: aa0c612202fa35d1dda95d92b0b91c575e8ef025bd8274ac315187f61db3be49
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.swiftgramcrack
+Package: com.netskao.swiftgramcrack
+Name: Swiftgram Crack-roothide
+Depends: firmware (>= 13.0), mobilesubstrate
+Description: Swiftgram Pro. 附加解除下载保护/解除截图保护/去除官方广告, 支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-7
+Installed-Size: 1080
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.swiftgramcrack_1.1-7_iphoneos-arm64e-roothide.deb
+Size: 423712
+MD5sum: 4ef9db4a729ef0c88a637d2cfa0329ee
+SHA1: 
+SHA256: 13240aa9b78661d5665928a009ee97f3690defe0cf937a402f6dbb0c91ca22c8
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.wcmypageinfocenter
+Package: com.netskao.wcmypageinfocenter
+Name: WCMyPageInfoCenter-rootless
+Depends: mobilesubstrate, firmware (>= 13.0)
+Description: WeChat My Page Info Center, Supported only for version 8.0.31 and above
+Author: Netskao
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Installed-Size: 220
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.wcmypageinfocenter_1.2-2_iphoneos-arm64-rootless.deb
+Size: 66364
+MD5sum: 8c83cb978e9c3cd039d70673bb540684
+SHA1: 
+SHA256: 1ec9d0b5252efe935ca869736e924c1b006654b30f5a33190f88f8b102d52a86
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.wcmypageinfocenter
+Package: com.netskao.wcmypageinfocenter
+Name: WCMyPageInfoCenter-roothide
+Depends: mobilesubstrate, firmware (>= 13.0)
+Description: WeChat My Page Info Center, Supported only for version 8.0.31 and above
+Author: Netskao
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2-2
+Installed-Size: 220
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.wcmypageinfocenter_1.2-2_iphoneos-arm64e-roothide.deb
+Size: 66600
+MD5sum: 932e040f3687f8a7714dab65597828fe
+SHA1: 
+SHA256: 407693b1dc47c806789c3bd805b0e6d4f140aa1805fa7f132c53f21cf78b52e5
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.wctimelinereplacefind
+Package: com.netskao.wctimelinereplacefind
+Name: WCTimeLineReplaceFind-rootless
+Depends: mobilesubstrate, firmware (>= 14.0)
+Description: 使用朋友圈替换发现底栏
+Author: Netskao
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-3
+Installed-Size: 836
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.wctimelinereplacefind_1.1-3_iphoneos-arm64.deb
+Size: 338272
+MD5sum: 26552e057338f10dbd54b6771b70c98b
+SHA1: 
+SHA256: cbb21d3e01dc97c73e21d5c7330ad8724772cb13a0f9adc01628a1cabc56b667
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.wctimelinereplacefind
+Package: com.netskao.wctimelinereplacefind
+Name: WCTimeLineReplaceFind-roothide
+Depends: mobilesubstrate, firmware (>= 14.0)
+Description: 使用朋友圈替换发现底栏
+Author: Netskao
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-3
+Installed-Size: 836
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.netskao.wctimelinereplacefind_1.1-3_iphoneos-arm64e-roothide.deb
+Size: 338372
+MD5sum: 6414c8389581d8142012b69659088f15
+SHA1: 
+SHA256: 212bd45eacfdf5422c809805b9937b39e3f289761bca7dd65ae0b8f95e1fcfe1
+
+Package: com.officialscheduler.mterminal-rootless
+Version: 1.4-1
+Section: Tweaks
+Maintainer: Nets
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 15.0), gettext-localizations, system-cmds, bash | zsh
+Conflicts: mterminal, oldabi
+Architecture: iphoneos-arm64
+Installed-Size: 2232
+Name: MTerminal-rootless
+Author: lordscotland
+Description: A MobileTerminal fork. Full Screen Support
+Homepage: https://bitbucket.org/lordscotland/mterminal
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.officialscheduler.mterminal-rootless_1.4-1_iphoneos-arm64-rootless.deb
+Size: 508012
+MD5sum: 1c137eb3ddf1eee104242d204a8e3e08
+SHA1: 
+SHA256: bdab56b2ae04c28b129cec930cd10fd0ca6db9694e8c8ee5dd4d77078559ded4
+
+Package: com.ps.amber
+Name: Amber-rootless
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
+Description: Amber-ify your flashlight LEDs.
+Author: PoomSmart
+Maintainer: PoomSmart
+Section: Tweaks
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Installed-Size: 304
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.ps.amber_1.2.4_iphoneos-arm64-rootless.deb
+Size: 16928
+MD5sum: 460cb5bca2994a7345fb710b47af5683
+SHA1: 
+SHA256: 041a5af5efba5f3ec52865ec5d4e68b689959b2cc23251f13997de1fc210c9f5
+
+Package: com.ps.amber
+Name: Amber-roothide
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
+Description: Amber-ify your flashlight LEDs.
+Author: PoomSmart
+Maintainer: PoomSmart
+Section: Tweaks
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+Architecture: iphoneos-arm64e
+Version: 1.2.4
+Installed-Size: 304
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.ps.amber_1.2.4_iphoneos-arm64e-roothide.deb
+Size: 16464
+MD5sum: 9583f88a845a9a2acc75bd3342734fad
+SHA1: 
+SHA256: 934440f2b6e31014a93e829ed5971201ac6cd20ee4a3b050bafa0c709408ce63
+
+Package: com.ps.cconandoff
+Name: CC On & Off-rootless
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc
+Architecture: iphoneos-arm64
+Description: Toggle Wi-Fi and Bluetooth On/Off from Control Center (iOS 11+).
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Depiction: https://poomsmart.github.io/repo/depictions/cconoff.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/cconoff.json
+Version: 1.1.0
+Installed-Size: 152
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.ps.cconandoff_1.1.0_iphoneos-arm64-rootless.deb
+Size: 8462
+MD5sum: 41f92278f54bcd0cb345fbb12ca19a3e
+SHA1: 
+SHA256: 307973291fb8de4014f745afd3984a4e322dbf17a798d0f5db1702c4d72e4205
+
+Package: com.ps.cconandoff
+Name: CC On & Off-roothide
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc
+Architecture: iphoneos-arm64e
+Description: Toggle Wi-Fi and Bluetooth On/Off from Control Center (iOS 11+).
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Depiction: https://poomsmart.github.io/repo/depictions/cconoff.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/cconoff.json
+Version: 1.1.0
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.ps.cconandoff_1.1.0_iphoneos-arm64e-roothide.deb
+Size: 8316
+MD5sum: 981263b626cfa259ff908d95bfa96d6f
+SHA1: 
+SHA256: 122e1d5933e377f88863caa41cc926f2f5cf923038dff86f9a4d6c1058cfbc4e
+
 Package: com.qiop1379.swipeextenderx
 Version: 1.6.1~2
 Architecture: iphoneos-arm64
@@ -685,6 +3482,125 @@ Size: 83468
 MD5sum: 5c132c3e85cfe97eb92f5e502b33bbd7
 SHA1: 
 SHA256: 667433cb25e4553f2d5cc9f67b177893c4b82af2c9078925934d8dffc2c4177d
+
+Package: com.rain.raincall
+Name: Rain的通话-rootless
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Author: Rain
+Maintainer: Rain
+Tag: role::hacker, purpose::extension
+Description: Rain的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音
+ 通过 ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音
+ 支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机
+Architecture: iphoneos-arm64
+Version: 2.6-2-1
+Installed-Size: 1264
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.rain.raincall_2.6-2-1_iphoneos-arm64.deb
+Size: 332970
+MD5sum: 3f73984731bac5827c267c0a5a384ab9
+SHA1: 
+SHA256: 2fb7d75835f7a4fbb0a9de2c33db6df01f11192797f8d2873097757d1041bdf1
+
+Package: com.rain.raincall
+Name: Rain的通话-roothide
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Author: Rain
+Maintainer: Rain
+Tag: role::hacker, purpose::extension
+Description: Rain的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音
+ 通过 ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音
+ 支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机
+Architecture: iphoneos-arm64e
+Version: 2.6-2-1
+Installed-Size: 1264
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.rain.raincall_2.6-2-1_iphoneos-arm64e.deb
+Size: 328498
+MD5sum: 742f3d444e4ed7245e001f93197faf96
+SHA1: 
+SHA256: ec9da84a17bc572d40fa3c60cdddb7aae5aa84eadea575de2c4d5ae994e34571
+
+Package: com.rain.rainmhz
+Name: Rain的Mhz-rootless
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Author: Rain
+Maintainer: Rain
+Tag: role::hacker, purpose::extension
+Description: Rain的CPU频率控制插件 - 14层策略锁定CPU性能状态
+ 通过IOKit控制Apple ARM DVFS，支持低功耗/均衡/高性能模式
+ 14层策略: 热节流绕过、P/E核独立调控、GPU联动调频、内存带宽控制、Jetsam内存提升
+ 游戏模式、应用级智能调频、迷你跑分、实时仪表盘、电量预估
+Architecture: iphoneos-arm64
+Version: 3.0-1-2
+Installed-Size: 620
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.rain.rainmhz_3.0-1-2_iphoneos-arm64.deb
+Size: 126510
+MD5sum: 28dc6f0b1a2418eebf1454f8866f3af6
+SHA1: 
+SHA256: 5a0f9d95869743387815d7e95f3bcfc209dde423faf806acb1f78ef5234e5bcb
+
+Package: com.rain.rainmhz
+Name: Rain的Mhz-roothide
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Author: Rain
+Maintainer: Rain
+Tag: role::hacker, purpose::extension
+Description: Rain的CPU频率控制插件 - 14层策略锁定CPU性能状态
+ 通过IOKit控制Apple ARM DVFS，支持低功耗/均衡/高性能模式
+ 14层策略: 热节流绕过、P/E核独立调控、GPU联动调频、内存带宽控制、Jetsam内存提升
+ 游戏模式、应用级智能调频、迷你跑分、实时仪表盘、电量预估
+Architecture: iphoneos-arm64e
+Version: 3.0-1-2
+Installed-Size: 620
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.rain.rainmhz_3.0-1-2_iphoneos-arm64e-roothide.deb
+Size: 124378
+MD5sum: 8884b8d9a005cf76ecac25fc2e06edb8
+SHA1: 
+SHA256: 0eadb82597a1fe1dd9cb8ebf9127eb538680ddb18ded8982265c417be4750fca
+
+Package: com.simon.ccmusic
+Name: 控制中心音乐模块动画-rootless
+Depends: mobilesubstrate, firmware (>= 13.0)
+Description: 为控制中心的音乐模块添加动画
+Maintainer: simon
+Author: simon
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Installed-Size: 428
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.simon.ccmusic_1.0.5_iphoneos-arm64.deb
+Size: 28732
+MD5sum: dc0e947fe8d088a15c8b412639acfcfc
+SHA1: 
+SHA256: c5f7c89eb56f107b14c4129f17584639b07f7620985e520678cc3b5bd078e281
+
+Package: com.simon.ccmusic
+Name: 控制中心音乐模块动画-roothide
+Depends: mobilesubstrate, firmware (>= 13.0)
+Description: 为控制中心的音乐模块添加动画
+Maintainer: simon
+Author: simon
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Installed-Size: 428
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.simon.ccmusic_1.0.5_iphoneos-arm64e.deb
+Size: 41142
+MD5sum: 2d24c24b3d3cc078ce94fe511e2197ad
+SHA1: 
+SHA256: 75c63006dd87a645ad4f95e375be0f0ef1faca9b07463e58f211f85d635cc633
 
 Package: com.sini..cccellularrate
 Version: 1.1-1
@@ -4801,6 +7717,195 @@ MD5sum: ffe8ac384231eabdbb926ea8b2dfc084
 SHA1: 
 SHA256: ffc993f1e71776a00e91061240bb4bddd38b78930845db1f04efc3fd3b8748eb
 
+Package: com.snail.allowlocationonce.roothide
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Name: 位置自动允许一次-roothide // AllowLocationOnce-roothide
+Description: 地理位置请求弹窗，自动"允许一次"。 // When Location request pop-up, Automatically "Allow once".
+ .
+ > 此为roothide版本，不要安装错了哦~
+ > 此插件默认注入SpringBoard，无需在Bootstrap打开任何APP，只需保证Serotonin注入桌面正常即可。
+ .
+ * 修复在某些软件中未生效的问题，如在App Store等。
+ * 支持Rootless。
+ * 支持iOS14-15，支持xinaA15。
+ * 支持iOS 16 Bootstrap+Serotonin。
+Depends: mobilesubstrate
+Installed-Size: 304
+Section: Tweaks
+Author: Snail <mu514983786@gmail.com>
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.snail.allowlocationonce.roothide_1.0.2_iphoneos-arm64e.deb
+Size: 64588
+MD5sum: 92935a0624925fa69cadec70f1d18fe4
+SHA1: 
+SHA256: a2c9891879720d3e7bbcb353c1475665a966d54b63f46949496e32b3d80a9cb1
+
+Package: com.snail.allowlocationonce.rootless
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Name: 位置自动允许一次-rootless // AllowLocationOnce-rootless
+Description: 地理位置请求弹窗，自动"允许一次"。 // When Location request pop-up, Automatically "Allow once".
+ .
+ > 此为rootless版本，不要安装错了哦~
+ > 此插件默认注入SpringBoard，无需在Bootstrap打开任何APP，只需保证Serotonin注入桌面正常即可。
+ .
+ * 修复在某些软件中未生效的问题，如在App Store等。
+ * 支持Rootless。
+ * 支持iOS14-15，支持xinaA15。
+ * 支持iOS 16 Bootstrap+Serotonin。
+Depends: mobilesubstrate
+Installed-Size: 304
+Section: Tweaks
+Author: Snail <mu514983786@gmail.com>
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.snail.allowlocationonce.rootless_1.0.2_iphoneos-arm64.deb
+Size: 63968
+MD5sum: 39647cb8c2300a9601d734102a482957
+SHA1: 
+SHA256: 0e39014fa8daf386a061bfa3128cfe08ce749fa965298817e7f9cd625fb45706
+
+Package: com.snail.doubletaptolock.roothide
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Name: 双击桌面锁屏-roothide DoubleTapToLock-roothide
+Description: 在主屏幕桌面双击一键锁屏。Double tab to lock on HomeScreen.
+ .
+ - 此为roothide/arm64e版本，不要安装错了。
+ - Roothide/Bootstrap+Serotonin半越狱用户：
+   - 请不要转换/不要转换/不要转换，否则会有弹窗提示，请直接安装Roohide/arm64e版本。
+Depends: mobilesubstrate (>= 0.9.5000)
+Installed-Size: 304
+Section: Tweaks
+Maintainer: Snail <mu514983786@gmail.com>
+Author: Snail <mu514983786@gmail.com>
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.snail.doubletaptolock.roothide_1.0.0_iphoneos-arm64e.deb
+Size: 62156
+MD5sum: 9ea25004f192764c2c0882f2af427eaf
+SHA1: 
+SHA256: 92c1adac3c65361619ea6e2cc30ed96c5247f7e64c878e4e4e22f6fefe5f5553
+
+Package: com.snail.doubletaptolock.rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Name: 双击桌面锁屏-rootless DoubleTapToLock-rootless
+Description: 在主屏幕桌面双击一键锁屏。Double tab to lock on HomeScreen.
+ .
+ - 此为rootless/arm64版本，不要安装错了。
+ - Roothide/Bootstrap+Serotonin半越狱用户：
+   - 请不要转换/不要转换/不要转换，否则会有弹窗提示，请直接安装Roohide/arm64e版本。
+Depends: mobilesubstrate (>= 0.9.5000)
+Installed-Size: 304
+Section: Tweaks
+Maintainer: Snail <mu514983786@gmail.com>
+Author: Snail <mu514983786@gmail.com>
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.snail.doubletaptolock.rootless_1.0.0_iphoneos-arm64.deb
+Size: 61600
+MD5sum: 09b87444cac2c88df4c9b1643600d032
+SHA1: 
+SHA256: 4f26a18cbcd4c15c290ec1fca0ac874dad3504c5ead377a286056f8901f46f2d
+
+Package: com.snail.easynotify.rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Name: 3D开关APP消息通知 EasyNotify-rootless
+Description: 按压APP图标3D Touch菜单快速开关消息通知。此为rootless版本，不要安装错哦~
+Depends: mobilesubstrate
+Installed-Size: 152
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.snail.easynotify.rootless_1.0.0_iphoneos-arm64-rootless.deb
+Size: 8116
+MD5sum: 8a1999f7bffb40785e30c6e36975befe
+SHA1: 
+SHA256: b603dc61fc038dc071da713516baf2aba5a848b08dfb995b8a9dea88a07d6e89
+
+Package: com.snail.easynotify.rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Name: 3D开关APP消息通知 EasyNotify-roothide
+Description: 按压APP图标3D Touch菜单快速开关消息通知。此为rootless版本，不要安装错哦~
+Depends: mobilesubstrate
+Installed-Size: 152
+Section: Tweaks
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.snail.easynotify.rootless_1.0.0_iphoneos-arm64e-roothide.deb
+Size: 7996
+MD5sum: 3397779266c6783c2ba64b902900fa53
+SHA1: 
+SHA256: a56000456a8f102ee116e97f8e276be0a4c098b285288c03b6d8d57d64ada5a0
+
+Package: com.snail.homeremovediscover.rootless
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Name: 家庭移除发现 HomeRemoveDiscover-rootless
+Description: 去掉家庭APP中的底栏的“发现”。// Remove the Home App Discover Tab.
+ 此为rootless版本，不要安装错哦~
+Depends: mobilesubstrate
+Installed-Size: 168
+Section: Tweaks
+Author: Snail <mu514983786@gmail.com>
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.snail.homeremovediscover.rootless_1.0.2_iphoneos-arm64.deb
+Size: 3920
+MD5sum: f54ae4b4f154aa2388394956ed9d5429
+SHA1: 
+SHA256: c895c1f7ca3e2bb5d16f6d7c0c05d33dd9fa46567e0635a5fe4806ba6b109ec7
+
+Package: com.snail.homeremovediscover.rootless
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Name: 家庭移除发现 HomeRemoveDiscover-roothide
+Description: 去掉家庭APP中的底栏的“发现”。// Remove the Home App Discover Tab.
+ 此为rootless版本，不要安装错哦~
+Depends: mobilesubstrate
+Installed-Size: 168
+Section: Tweaks
+Author: Snail <mu514983786@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.snail.homeremovediscover.rootless_1.0.2_iphoneos-arm64e-roothide.deb
+Size: 3840
+MD5sum: bd0cc93759571bfceeab1f35ddaa2066
+SHA1: 
+SHA256: 86010f5e04062d835bce0a65be4554d15a4f13dd246849daaed742466bcf3421
+
+Package: com.snail.statusbarlunardate.rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Name: 点击时间栏显示农历 StatusBarLunarDate-rootless
+Description: 点击iOS顶部时间栏显示今日中国农历。此为rootless版本，不要安装错哦~ // Tap Status Bar Time to show chinese todays lunardate.
+Depends: mobilesubstrate
+Installed-Size: 168
+Section: Tweaks
+Author: Snail <mu514983786@gmail.com>
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.snail.statusbarlunardate.rootless_1.0.0_iphoneos-arm64.deb
+Size: 5476
+MD5sum: 0d322cd3eafe60039892d8f505ffe858
+SHA1: 
+SHA256: 7bde77e7fb39848f21d972588555b2827965f75a4ec639b8b7881fe5ccc1ab73
+
+Package: com.snail.statusbarlunardate.rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Name: 点击时间栏显示农历 StatusBarLunarDate-roothide
+Description: 点击iOS顶部时间栏显示今日中国农历。此为rootless版本，不要安装错哦~ // Tap Status Bar Time to show chinese todays lunardate.
+Depends: mobilesubstrate
+Installed-Size: 168
+Section: Tweaks
+Author: Snail <mu514983786@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.snail.statusbarlunardate.rootless_1.0.0_iphoneos-arm64e-roothide.deb
+Size: 5380
+MD5sum: 2178c3a253b0fc5e40feb448ee05d020
+SHA1: 
+SHA256: ee4b62d74247456c1944d2517c771db51c1f1ac7f7745bcca6bb97abb4d3c825
+
 Package: com.spark.snowboard.dock
 Name: SnowBoard Dock Extension-rootless
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
@@ -4999,6 +8104,114 @@ MD5sum: 3c735db424576bb60811c5a005dd30c5
 SHA1: 
 SHA256: 1022f7480f80681dbe03a2f99a2430a40c154e7a8dc912cb7e645177921cf153
 
+Package: com.squidforce.copyvault
+Name: CopyVault-roothide
+Description: Your Copy Vault, Your Pasteboard
+Maintainer: SquidForce
+Author: SquidForce
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.9.0
+Installed-Size: 6304
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.squidforce.copyvault_1.9.0_iphoneos-arm64e.deb
+Size: 1669132
+MD5sum: 85ef20d305ff3e7cb28f5987dbc9a9b4
+SHA1: 
+SHA256: 4c64a31371bc0f6893d4e5bd51a3544cf1ba113ba85da62fa833da6fdf886263
+
+Author: sunshinesong
+TS: sp-sss
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: sunshinesong
+Version: 1.1.5
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Name: split-view-pro-rootless
+Architecture: iphoneos-arm64
+Section: Tweaks
+Installed-Size: 13792
+Package: com.sunshinesong.split-view-pro
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.sunshinesong.split-view-pro_1.1.5_iphoneos-arm64.deb
+Size: 3509420
+MD5sum: c9afc7c1ebc6ee06f05a001a74d52d21
+SHA1: 
+SHA256: 7209900c3d4a6076782245f721cf1c084856fafb585a0f25692a5b382cadd495
+
+Author: sunshinesong
+TS: sp-sss
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: sunshinesong
+Version: 1.3.7
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Name: split-view-pro-rootless
+Architecture: iphoneos-arm64
+Section: Tweaks
+Installed-Size: 5624
+Package: com.sunshinesong.split-view-pro
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.sunshinesong.split-view-pro_1.3.7_iphoneos-arm64-rootless.deb
+Size: 2341732
+MD5sum: 4ff2baef1d24ab630c8b336ff004aff2
+SHA1: 
+SHA256: 7cd39e35177244de222a70625ca031a3ab7c39e713228a373d5bc033f21ac49d
+
+Author: sunshinesong
+TS: sp-sss
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: sunshinesong
+Version: 1.3.7
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Name: split-view-pro-roothide
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Installed-Size: 5624
+Package: com.sunshinesong.split-view-pro
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.sunshinesong.split-view-pro_1.3.7_iphoneos-arm64e-roothide.deb
+Size: 2316876
+MD5sum: db58958433ca74d2a47403e5408cb08f
+SHA1: 
+SHA256: b6d91378595d039e5e3c0b82343c6c9c38682bd931506ba2c6c03cf4986e7146
+
+Package: com.tombstonepro.tweak
+Name: Necromancy-rootless
+Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。
+Maintainer: colorBlack
+Author: colorBlack
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Installed-Size: 664
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.tombstonepro.tweak_1.0.8_iphoneos-arm64-rootless.deb
+Size: 98938
+MD5sum: a97920e64cabd06ccffe3ea673953e57
+SHA1: 
+SHA256: c8428fee4178b405453605c618aa918711a2c88fe810fda726c2f236b7cdeb96
+
+Package: com.tombstonepro.tweak
+Name: Necromancy-roothide
+Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。
+Maintainer: colorBlack
+Author: colorBlack
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Installed-Size: 664
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.tombstonepro.tweak_1.0.8_iphoneos-arm64e-roothide.deb
+Size: 198120
+MD5sum: 24fe86ae42830b86e662cec7d0384c3a
+SHA1: 
+SHA256: bfd120f7143e235b1a2b2825260154cad68cf736e0cffbcff5920fc1ea5ff10b
+
 Package: com.udevs.dockx
 Name: DockX-rootless
 Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
@@ -5017,6 +8230,149 @@ Size: 421068
 MD5sum: 957bd5671cd8fbef51ea79849bbc1d67
 SHA1: 
 SHA256: 9c37a968c95c05d856dd40eed2167d8a9fbc893e53f175cfd0193b99d5ea8a13
+
+Package: com.vanson.modifier
+Name: VansonModifier-rootless
+Description: Vanson U Know?
+Maintainer: Vanson
+Author: Vanson
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.8.3
+Installed-Size: 4160
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.vanson.modifier_2.8.3_iphoneos-arm64-rootless.deb
+Size: 1820436
+MD5sum: 381556a1a573dfac505e0999c2c14d0f
+SHA1: 
+SHA256: 1a04c85e917edb4a277f6471be4afd89579832c798e65bcdf16c03586cf81b95
+
+Package: com.vanson.modifier
+Name: VansonModifier-roothide
+Description: Vanson U Know?
+Maintainer: Vanson
+Author: Vanson
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.8.3
+Installed-Size: 4160
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.vanson.modifier_2.8.3_iphoneos-arm64e-roothide.deb
+Size: 1820456
+MD5sum: 7d706cb8ec38f9534bfe8705dad37570
+SHA1: 
+SHA256: 7afff6a92b271c87f16461847ef17eb529758f18eda92933469c81023a0e5ad3
+
+Package: com.witchan.ios-mcp
+Name: iOS MCP-rootless
+Provides: com.witchan.iphone-mcp
+Conflicts: com.witchan.iphone-mcp
+Replaces: com.witchan.iphone-mcp
+Depends: mobilesubstrate, preferenceloader
+Description: MCP server for AI-driven iOS device control. Supports HID buttons, touch, screenshots, clipboard, app management, accessibility tree, and text input.用于人工智能 驱动的iOS设备控制的MCP服务器。支持HID按钮、触摸、屏幕截图、剪贴板、应用程序管理、辅助功能树和文本输入。
+Maintainer: witchan
+Author: witchan
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Installed-Size: 5276
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.witchan.ios-mcp_1.1.1_iphoneos-arm64.deb
+Size: 1865448
+MD5sum: 2a026810113988d0a0537b34028d7dc8
+SHA1: 
+SHA256: 4aca5ffd42828e0259807c259ea9b25c83ab4f9fead8b92c7a163e12c680bf15
+
+Package: com.witchan.ios-mcp
+Name: iOS MCP-roothide
+Provides: com.witchan.iphone-mcp
+Conflicts: com.witchan.iphone-mcp
+Replaces: com.witchan.iphone-mcp
+Depends: mobilesubstrate, preferenceloader
+Description: MCP server for AI-driven iOS device control. Supports HID buttons, touch, screenshots, clipboard, app management, accessibility tree, and text input.用于人工智能 驱动的iOS设备控制的MCP服务器。支持HID按钮、触摸、屏幕截图、剪贴板、应用程序管理、辅助功能树和文本输入。
+Maintainer: witchan
+Author: witchan
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Installed-Size: 5280
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.witchan.ios-mcp_1.1.1_iphoneos-arm64e.deb
+Size: 1875824
+MD5sum: 3880788f6231b3f0bb2c5d09095a13f8
+SHA1: 
+SHA256: 29afb141282186c0df3f304d38f78279e1ae1e305fb01fb7196789e93fce3337
+
+Package: com.xamy.othellohelpervipunlock
+Name: OthelloHelper VIP Unlock-rootless
+Depends: mobilesubstrate, com.apple.springboard
+Description: Unlock permanent VIP membership for OthelloHelper
+Maintainer: Xamy
+Author: Xamy
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 72
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.xamy.othellohelpervipunlock_1.0.0_iphoneos-arm64.deb
+Size: 4502
+MD5sum: ba04c31e31faeaddfce527c0feb2de39
+SHA1: 
+SHA256: f86c148bbc934fb9f2fc205d1786b564d80a81c9ccaec065a1eaa648f9cea3ec
+
+Package: com.xamy.othellohelpervipunlock
+Name: OthelloHelper VIP Unlock-roothide
+Depends: mobilesubstrate, com.apple.springboard
+Description: Unlock permanent VIP membership for OthelloHelper
+Maintainer: Xamy
+Author: Xamy
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 72
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.xamy.othellohelpervipunlock_1.0.0_iphoneos-arm64e.deb
+Size: 4496
+MD5sum: c6d1545109a0a4c2f7d3a82861a1a053
+SHA1: 
+SHA256: 13e10beda381cc1f557b8f3a5bbfe156f2fdeb6023cd4248375d0fb6e343f7b5
+
+Package: dev.mineek.appstoretroller
+Name: appstoretroller-rootless
+Description: Modified version of mineeks tweak that lets you specify the minimum version and bypass installd version check 将iOS版本伪装成合理的版本，并获取需求高iOS版本的应用。
+Maintainer: Mineek
+Author: Mineek
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Installed-Size: 512
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/dev.mineek.appstoretroller_0.1.2_iphoneos-arm64.deb
+Size: 24492
+MD5sum: 378e7074347fdb5c68989e7d96de052e
+SHA1: 
+SHA256: e7a530b737a64e3833560d26fc143ad47c65016746f44f700b2c6330db820a34
+
+Package: dev.mineek.appstoretroller
+Name: appstoretroller-roothide
+Description: Modified version of mineeks tweak that lets you specify the minimum version and bypass installd version check 将iOS版本伪装成合理的版本，并获取需求高iOS版本的应用。
+Maintainer: Mineek
+Author: Mineek
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Installed-Size: 512
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/dev.mineek.appstoretroller_0.1.2_iphoneos-arm64e.deb
+Size: 24496
+MD5sum: 73587a54a0598293adea7a71c250484f
+SHA1: 
+SHA256: bbdcaccd54085c67e9d19df2ce59babc7e22c5ad6c0fc369431eb17e391f2178
 
 Package: dylv.liquidass
 Name: Liquid (Gl)ass-rootless
@@ -5052,6 +8408,88 @@ MD5sum: d7654282a9eb8d4ae857462d195d9056
 SHA1: 
 SHA256: 020e47394d0d17874cac4a322dc81f2ab0527264ce84c41a13ac2f18b7a7e4e5
 
+Author: 俊宏 <mail@mjh.im>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: 虚拟权限 · Fake Permission-rootless
+Package: im.mjh.fakeperm
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Section: Tweaks
+Installed-Size: 17115
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Description: 虚拟权限 · Fake Permission — 针对任意 App
+	单独配置虚拟权限，防止隐私被过度索取。支持通知、推送、定位(地图选点+地址搜索+海拔伪装)、精确位置、相册、通讯录、相机、麦克风、剪贴板。全局开关即时生效，无需注销
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakepermDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakepermDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: mjh
+Tag: purpose::extension
+
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/im.mjh.fakeperm_2.0.0_iphoneos-arm64.deb
+Size: 54856
+MD5sum: d7412bfd86b5f1b681490e29734da6fe
+SHA1: 
+SHA256: 455bf0265ec1377642ce0ed10bfaec6f0cfd3fe5ae63b21dc93dac1984c63383
+
+Author: 俊宏 <mail@mjh.im>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: 虚拟权限 · Fake Permission-roothide
+Package: im.mjh.fakeperm
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Section: Tweaks
+Installed-Size: 17115
+Version: 2.0.0
+Architecture: iphoneos-arm64e
+Description: 虚拟权限 · Fake Permission — 针对任意 App
+	单独配置虚拟权限，防止隐私被过度索取。支持通知、推送、定位(地图选点+地址搜索+海拔伪装)、精确位置、相册、通讯录、相机、麦克风、剪贴板。全局开关即时生效，无需注销
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakepermDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakepermDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: mjh
+Tag: purpose::extension
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/im.mjh.fakeperm_2.0.0_iphoneos-arm64e.deb
+Size: 53644
+MD5sum: e1908cb5872af5c2aa52f003b4f48989
+SHA1: 
+SHA256: 569def10fbf232da2e41951bf873dbcb9e8da9c5fd07add86d3ecfd0c391a00e
+
+Package: iphonerelease
+Name: 农业银行V10.2.1-rootless
+Author: z
+Description: 去越狱窗口，以测14.7系统越狱可用,不支持巨魔
+Depends: mobilesubstrate
+Maintainer: z
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/iphonerelease_1.1_iphoneos-arm64.deb
+Size: 3772
+MD5sum: 7c6cbb3f4054e8f0c35f2abc66fa9120
+SHA1: 
+SHA256: 532247da33b0701a8908dfc59e12224383c57c0c3227b9c65061552c0d546623
+
+Package: iphonerelease
+Name: 农业银行V10.2.1-roothide
+Author: z
+Description: 去越狱窗口，以测14.7系统越狱可用,不支持巨魔
+Depends: mobilesubstrate
+Maintainer: z
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/iphonerelease_1.1_iphoneos-arm64e.deb
+Size: 5866
+MD5sum: ceb5e37cdb5289cdffd125c361f2318d
+SHA1: 
+SHA256: f68e251f5ec37c666a1f40618aba14405b6e6dfd2917440e36081bfa91a3fd47
+
 Package: libskittycolor
 Version: 1.0
 Description: 有些插件需要这个依赖
@@ -5067,6 +8505,659 @@ Size: 26928
 MD5sum: 7e211e062e81844f85108382c8824693
 SHA1: 
 SHA256: d10bfff8e0b58b9af27bd1a447c6c0744d4c1e3f48ff213581a1e87601464c5f
+
+Package: netskao.actionbarreborn
+Version: 1.1-2
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 796
+Name: ActionBar Reborn-rootless
+Author: Netskao
+Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.actionbarreborn_1.1-2_iphoneos-arm64.deb
+Size: 161500
+MD5sum: 05c3a0e08cd9edf61f6ea3fe10083ecc
+SHA1: 
+SHA256: a9c2ba01a04afca8256585fde248d65987eca488dd24b23de48ca6c9c9bffc69
+
+Package: netskao.alipayhooks-rootless
+Version: 1.1-3
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 328
+Name: 支付宝 Hooks-rootless
+Author: Netskao
+Description: 支付宝去除底部理财选项(理财是不可能理财的, 只有收收钱勉强维持生活), 固定每天10w步
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.alipayhooks-rootless_1.1-3_iphoneos-arm64-rootless.deb
+Size: 72512
+MD5sum: c8ebd601bb352e25170b2a5aa2c8c171
+SHA1: 
+SHA256: bf0e8b2e48372667a3dd7b95460d013d84a816f8ae3cdf1faa15d19d546666ac
+
+Package: netskao.alipayscan-rootless
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Installed-Size: 160
+Name: AlipayScan-rootless
+Author: Netskao
+Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中心-自定控制内添加后使用
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.alipayscan-rootless_1.2-2_iphoneos-arm64.deb
+Size: 15756
+MD5sum: fb444eda834f8a2e827fa0630af1e801
+SHA1: 
+SHA256: dbcb04edb5502f8deee10227dcb87477ab4d2822aab48a09f5464a5b9465ccf7
+
+Package: netskao.autofaceunlock-rootless
+Version: 1.1-7
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Installed-Size: 452
+Name: AutoFaceUnlock-rootless
+Author: Netskao
+Description: 面容识别成功自动解锁无需滑动，原生函数更为节电，可设置锁屏收到通知时不自动解锁，锁屏正在播放音乐时不自动解锁，锁屏手电筒打开时不自动解锁，面容识别失败后自动重试，面容延时解锁，请勿和其他类似插件一同食用
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.autofaceunlock-rootless_1.1-7_iphoneos-arm64.deb
+Size: 63480
+MD5sum: d824ed6935c9d42e28778e9ad5e6d9ec
+SHA1: 
+SHA256: ad3e087864a1c840170d0ac0f0ef7d3c05609fe3546e0e8226c3f9826475232c
+
+Package: netskao.batterypercentx-rootless
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 168
+Name: BatteryPercentX-rootless
+Author: Netskao
+Description: BatteryPercentX启用系统原生电池百分比，加深边框颜色，加深充电时电池颜色
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.batterypercentx-rootless_1.1-1_iphoneos-arm64.deb
+Size: 5932
+MD5sum: 8701f587b8d351e9278747ea54560515
+SHA1: 
+SHA256: 32e76e2d395ae9c5a5300c97dab64031d49d3aeb24d42cce8e83257041e7fb0b
+
+Package: netskao.blblnoads-rootless
+Version: 1.1-2
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 328
+Name: 哔哩哔哩 NoAds-rootless
+Author: Netskao
+Description: 哔哩哔哩去除启动广告, 去除青少年提示, 去除AppStore评分提示, 去除底部动态\发布\会员购按钮, 去除瀑布流中插入广告, 去除视频详情页面推荐视频中的创作推广, 去除评论区顶部会员推广, 我的页面推广等, 仅支持7.48.0及以上版本
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.blblnoads-rootless_1.1-2_iphoneos-arm64.deb
+Size: 73404
+MD5sum: 77fb7c6c24983d73eb050b9352bd3057
+SHA1: 
+SHA256: 7b52066895a09c6510c8c112d49834af2826589ab4c939e5230b672ddd802262
+
+Package: netskao.ccbadgeclear-rootless
+Version: 1.2-5
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Installed-Size: 240
+Name: CCBadgeClear-rootless
+Author: Netskao
+Description: Quickly clean up all red badge on desktop via Control Center, Support iOS11-15
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.ccbadgeclear-rootless_1.2-5_iphoneos-arm64-rootless.deb
+Size: 34660
+MD5sum: 798ad2b1d10b23be63d4f4a23dfa4451
+SHA1: 
+SHA256: 5835358096c1e156f7191bed7c0f75e4fba205820771bf86335daff630e6b93e
+
+Package: netskao.cccellularrate-rootless
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Installed-Size: 616
+Name: CCCellularRate-rootless
+Author: Netskao
+Description: Quickly switch the type of cellular data 2/3/4/5G currently in use via the Control Center, only the types supported in the current device settings will be displayed
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.cccellularrate-rootless_1.1-1_iphoneos-arm64-rootless.deb
+Size: 89652
+MD5sum: 1023726acae9be7f37fc161e65b1cfc3
+SHA1: 
+SHA256: 524463e8a6093eddadcff810bf209f009ab754a003816b317d8ac68dbcd51236
+
+Package: netskao.ccsim-rootless
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Installed-Size: 188
+Name: CCSIM-rootless
+Author: Netskao
+Description: For dual-SIM cards, you can quickly enable or disable one of the SIM cards through the Control Center
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.ccsim-rootless_1.1-9_iphoneos-arm64-rootless.deb
+Size: 23436
+MD5sum: 1ad748fccfffa4bf76a4cb09b51964ac
+SHA1: 
+SHA256: 28c1989a90f0af9363c5a7bfa0aab595284cdbcd9f9e16c62611e11037bee6eb
+
+Package: netskao.ccswitchdata-rootless
+Version: 1.1-4
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Installed-Size: 132
+Name: CCSwitchData-rootless
+Author: Netskao
+Description: For dual-SIM cards, the selected cellular network can be switched quickly via the Control Center
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.ccswitchdata-rootless_1.1-4_iphoneos-arm64-rootless.deb
+Size: 20784
+MD5sum: cfb8fa7c377b44fa220c367c94728170
+SHA1: 
+SHA256: 0f2707fb2f7daf7af5820441a04e18b666f8626c878eca6181c05b15ff50a8ab
+
+Package: netskao.deletephotoscompletely-rootless
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Installed-Size: 184
+Name: DeletePhotosCompletely-rootless
+Author: Netskao
+Description: 为相册添加彻底删除照片选项
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.deletephotoscompletely-rootless_1.2-2_iphoneos-arm64-rootless.deb
+Size: 17052
+MD5sum: d468b07001044365c9169904fbaefb44
+SHA1: 
+SHA256: b0e43df6af35a43565128b97bcce603e49d75cc9fa31ce4d7c019b54dcd6346a
+
+Name: DisableCTNotifyUI-rootless
+Package: netskao.disablectnotifyui-rootless
+Depends: firmware (>= 15.0), mobilesubstrate
+Author: Netskao
+Maintainer: Nets
+Section: Tweaks
+Description: Disable telephony welcome notifications
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Installed-Size: 136
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.disablectnotifyui-rootless_1.1-1_iphoneos-arm64.deb
+Size: 2376
+MD5sum: cf9a60974404b36252d1fb5c05847f2b
+SHA1: 
+SHA256: b3e4bd35c40cd420bc921adddce4e8c3e49bb1022ed1be54aa459f620568774b
+
+Package: netskao.disablepastetips-rootless
+Version: 1.1-5
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 168
+Name: DisablePasteTips-rootless
+Author: Netskao
+Description: Disable paste tips, Support iOS14-iOS15
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.disablepastetips-rootless_1.1-5_iphoneos-arm64-rootless.deb
+Size: 3056
+MD5sum: 5ac37e2c4a89743f1fd7331884b38fcd
+SHA1: 
+SHA256: cdd276cdc16db04b9d47b829757ec3e426adc3ab2cfe3e1bc6c673aa6dba2b01
+
+Package: netskao.disabletestflightblock-rootless
+Version: 1.1-4
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 104
+Name: DisableTestFlightBlock-rootless
+Author: Netskao
+Description: 解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.disabletestflightblock-rootless_1.1-4_iphoneos-arm64-rootless.deb
+Size: 13084
+MD5sum: b4068782e0e12112e9800e0e5792aa56
+SHA1: 
+SHA256: 4afd5051484ac373089768473abd2e7f787e36b3932f8c353e133b40cbf851e5
+
+Package: netskao.hideallbar-rootless
+Version: 2.1-1
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 152
+Name: HideAllBar-rootless
+Author: Netskao
+Description: 隐藏X系列的所有地方的黑条，且没有任何影响（例如横屏游戏时依旧需要上滑两次退出）
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.hideallbar-rootless_2.1-1_iphoneos-arm64.deb
+Size: 4008
+MD5sum: 9afb35ad499e2a863092d70c514c5583
+SHA1: 
+SHA256: 60ca1dabdf3080f33c52ab2f138fab2d7fa276edcde72432c339a1b16cb2b08b
+
+Package: netskao.hidescreenshotpreview-rootless
+Version: 1.2-1
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 168
+Name: HideScreenshotPreview-rootless
+Author: Netskao
+Description: 隐藏截图时左下角预览，保留闪屏无延迟
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.hidescreenshotpreview-rootless_1.2-1_iphoneos-arm64-rootless.deb
+Size: 3800
+MD5sum: fc787a04cecdb9c717ba03c418c803cc
+SHA1: 
+SHA256: 30362555cb1948be8393ce746eba83de38b95333fb7f6d4ca672ba7b5da981bc
+
+Package: netskao.hpyybhooks-rootless
+Version: 1.1-2
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 428
+Name: 很皮语音包 Hooks-rootless
+Author: Netskao
+Description: 很皮语音包Hooks, 解锁VIP语音包, 去除所有广告, 增加长按语音下载
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.hpyybhooks-rootless_1.1-2_iphoneos-arm64-rootless.deb
+Size: 100684
+MD5sum: 4cc4c68de3f508d77ea1878f84e75614
+SHA1: 
+SHA256: 866b6d84b8d648baea8f79cdcbfe5940321ed74741e905a5d5dcd8b982954671
+
+Package: netskao.killapps-rootless
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Installed-Size: 2160
+Name: KillApps-rootless
+Author: Netskao
+Description: Add quick clean all background function for background switcher. Support clean up whitelist, support slide up blacklist
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.killapps-rootless_1.2-2_iphoneos-arm64-rootless.deb
+Size: 932880
+MD5sum: 7cd7d3d9821fc3f6d2c781027c417682
+SHA1: 
+SHA256: 9cf739d18d8846a1d0b7247cf2c9b6880ad22f6a07f6635f170ec5866b3c6cd6
+
+Package: netskao.limneoscrack-rootless
+Version: 1.1-3
+Section: Tweaks
+Maintainer: Nets
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Installed-Size: 152
+Name: Limneos Crack-rootless
+Author: Netskao
+Description: 解锁Limneos所有插件全功能
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.limneoscrack-rootless_1.1-3_iphoneos-arm64-rootless.deb
+Size: 10460
+MD5sum: 20f7c714e14548bdf2cc64eba590ea6f
+SHA1: 
+SHA256: dac62002eb4c1b8bc9da16701da2b1e0446a571f0b5f96da83eb8d10198e39c5
+
+Package: netskao.limneoscrack-rootless
+Version: 1.1-3
+Section: Tweaks
+Maintainer: Nets
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Installed-Size: 152
+Name: Limneos Crack-roothide
+Author: Netskao
+Description: 解锁Limneos所有插件全功能
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.limneoscrack-rootless_1.1-3_iphoneos-arm64e-roothide.deb
+Size: 10300
+MD5sum: 5d6265fdabe3a2a25515fb607b552b9c
+SHA1: 
+SHA256: b6aed245c8f9bb8e3721a43d8577cb3ea1c1bcc2b66f1530ee28ba3059bcd486
+
+Package: netskao.lookinloader-rootless
+Version: 1.2-0
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 1692
+Name: LookinLoader-rootless
+Author: Netskao
+Description: LookinServer dynamic loading tool, loaded by desktop long press icon to bring up the menu
+Homepage: https://github.com/QMUI/LookinServer
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.lookinloader-rootless_1.2-0_iphoneos-arm64-rootless.deb
+Size: 332584
+MD5sum: 132a7df39e6b56ddb7353be756738965
+SHA1: 
+SHA256: c3fb84d15f3c0ff90ae8310ce9bf9057996923b7ba655840e139617ecc85398b
+
+Package: netskao.mgtvnoads-rootless
+Version: 1.1-2
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 376
+Name: 芒果TV NoAds-rootless
+Author: Netskao
+Description: 芒果TV去除启动广告，去除暂停广告，去除悬浮广告等
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.mgtvnoads-rootless_1.1-2_iphoneos-arm64-rootless.deb
+Size: 84104
+MD5sum: 8b965ac4b9ca5535cc19f0fdbad581d5
+SHA1: 
+SHA256: 52307ae53af34976c62a9d50a17851b2bf38ea10a32e1341678fcaeeabfb41e1
+
+Package: netskao.perfectgrabber-rootless
+Version: 1.1-7
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Installed-Size: 2116
+Name: PerfectGrabber-rootless
+Author: Netskao
+Description: 在横屏游戏下拉一次时显示时间和电量（某些游戏不规范会无法唤出），支持自定义字体颜色，背景颜色，字体大小，字体样式，震动反馈等
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.perfectgrabber-rootless_1.1-7_iphoneos-arm64-rootless.deb
+Size: 836344
+MD5sum: 5d692d913ed7e069d9addd2f1ed4c11a
+SHA1: 
+SHA256: 623844adee6d53c2b6ef89cd061863b0978c058ae95da71589f14c036811f1e6
+
+Package: netskao.perfectxtime-rootless
+Version: 1.1-3
+Section: Tweaks
+Maintainer: Nets
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Installed-Size: 168
+Name: PerfectXTime-rootless
+Author: Netskao
+Description: PerfectXTime修改于PerfectTimeXS，修复13之后的小问题，无设置，仅时间+星期格式，纯自用，录屏时自动恢复默认时间，以免错位
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.perfectxtime-rootless_1.1-3_iphoneos-arm64-rootless.deb
+Size: 8632
+MD5sum: 385e586e96ee89292e04a187269f75ec
+SHA1: 
+SHA256: 63be015737fb095db30d378714dea4a189528ec0ccf6ce02772f5aef4e68d0cb
+
+Package: netskao.picsartcrack-rootless
+Version: 1.1-5
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 376
+Name: PicsArt Crack-rootless
+Author: Netskao
+Description: PicsArt美易解锁全功能，仅支持中国区20.7.9及以上版本
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.picsartcrack-rootless_1.1-5_iphoneos-arm64-rootless.deb
+Size: 89180
+MD5sum: 146caa82bd8e78698bb9bb008ab179fb
+SHA1: 
+SHA256: 2e2f18003a04f2983e094ced10525a540ad91455d7f7554e57c33852c0d29282
+
+Package: netskao.ppxnoads-rootless
+Version: 1.5-5
+Section: Tweaks
+Maintainer: Nets
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Installed-Size: 344
+Name: 皮皮虾 NoAds-rootless
+Author: Netskao
+Description: 皮皮虾去除启动广告，去除评论广告，去除视频流广告，去除推荐信息流中直播，去除长视频播放完后结尾广告，去除视频流中皮皮虾官方活动横幅，去除随机弹出评分提示和版本内测更新提示，去除部分视频左下角商品广告，去除测试版更新提示，去除AppStore评分提示，去除青少年提示，修改非详情页面时始终显示插眼而非弹幕开关，所有视频可保存为动态壁纸，保存视频和图片去水印，保存视频和图片去水印，使用原始按钮保存即可(播放时和查看时就有水印的视频不属于去水印范围)，仅支持4.7.5及以上版本
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.ppxnoads-rootless_1.5-5_iphoneos-arm64-rootless.deb
+Size: 76484
+MD5sum: 4313634ab440254b13a297e21e6eaa60
+SHA1: 
+SHA256: e9cffcabeae408af1c6dd29eafe8588bfc2fd060de353e572183be2eb291db44
+
+Package: netskao.pullclearnc-rootless
+Version: 1.1-8
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 168
+Name: PullClearNC-rootless
+Author: Netskao
+Description: Notifications page quick drop down to clean up all notifications
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.pullclearnc-rootless_1.1-8_iphoneos-arm64-rootless.deb
+Size: 6784
+MD5sum: 8d87f9d7c07381d5b11db60a8430a42d
+SHA1: 
+SHA256: 59ca215a2bb94d6dca97e79b1a0051d2a9270a02ecf8f5f252a3dca5d916a513
+
+Package: netskao.quantumultxlauncher-rootless
+Version: 1.1-2
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Installed-Size: 164
+Name: QuantumultXLauncher-rootless
+Author: Netskao
+Description: 通过控制中心快捷进入QuantumultX
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.quantumultxlauncher-rootless_1.1-2_iphoneos-arm64-rootless.deb
+Size: 15124
+MD5sum: ce0af445c88a9d491e63476ed1504766
+SHA1: 
+SHA256: 640d25b04b2b3b2cfdc97b90f606233a0005100e651f686b9df26b51b9028306
+
+Package: netskao.showtouch-rootless
+Version: 1.0.4-2
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Installed-Size: 2412
+Name: ShowTouch-rootless
+Author: LonestarX
+Description: Shows where you touch the screen
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.showtouch-rootless_1.0.4-2_iphoneos-arm64-rootless.deb
+Size: 578384
+MD5sum: 75896f6d90a86c55757953d458fe4092
+SHA1: 
+SHA256: 9a5e713a439e0bc108af137cd562ef5a5f0a56456955324d3625cb38faa40ee1
+
+Package: netskao.tinyccmodules-rootless
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Installed-Size: 212
+Name: TinyCCModules-rootless
+Author: Netskao
+Description: Tiny CCModules. TinyDisplayModule and TinyMediaAudioModule
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.tinyccmodules-rootless_1.1-1_iphoneos-arm64-rootless.deb
+Size: 31292
+MD5sum: 0102e32ccc1f7fbcb4331c87a9fa8092
+SHA1: 
+SHA256: c1c63c399a2a85e64f70b1486bc86939b371c63d3cb5e2f00c42eca48174f070
+
+Package: netskao.twitternoads-rootless
+Version: 1.4-5
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 440
+Name: Twitter NoAds-rootless
+Author: Netskao
+Description: Twitter去除信息流中广告，去除搜索页面趋势信息流中广告，去除左侧中的广告选项和专业版选项，去除首页顶部视频和空间，禁用推特自定义字体，禁用链接跳转检查，修改搜索历史记录仅显示5条为显示所有，增加喜欢或撤销喜欢推文二次确定，增加瀑布流按钮保存视频或图片至相册，仅支持9.39及以上版本
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.twitternoads-rootless_1.4-5_iphoneos-arm64-rootless.deb
+Size: 100616
+MD5sum: b5f23bc5084c42e629c1cc18779d91e5
+SHA1: 
+SHA256: 474575efb0e48c5a42db2b18acd0ce4a9a751a4109ac1b2a2984a65d15a2efbf
+
+Package: netskao.vscocrack-rootless
+Name: VSCO Crack-rootless
+Depends: firmware (>= 14.0), mobilesubstrate
+Description: VSCO解锁全功能，仅支持316.0.0及以上版本
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-3
+Installed-Size: 408
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.vscocrack-rootless_1.1-3_iphoneos-arm64-rootless.deb
+Size: 92768
+MD5sum: 1177826686879833167652c5c628b76d
+SHA1: 
+SHA256: 180702f31eb0056d5313f374014bc20e14ca63d1236d07fd8ccea76c6b6a8d41
+
+Package: netskao.wechatscan-rootless
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Installed-Size: 160
+Name: WeChatScan-rootless
+Author: Netskao
+Description: 通过控制中心快捷打开微信扫一扫，设置-控制中心-自定控制内添加后使用
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.wechatscan-rootless_1.2-2_iphoneos-arm64-rootless.deb
+Size: 16344
+MD5sum: 5b0e06acd3d9e748d78d7280f2f30cb4
+SHA1: 
+SHA256: e252b1e2330eb46d68a68d154ca483ca5b2b01266b7fd4da77d2ba8ca1043cf3
+
+Package: netskao.wrecycrack-rootless
+Version: 1.1-1
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 376
+Name: 无染二次元 NoAds-rootless
+Author: Netskao
+Description: 无染二次元去除所有广告
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.wrecycrack-rootless_1.1-1_iphoneos-arm64-rootless.deb
+Size: 84052
+MD5sum: 2c534a4ea9ff3a2118d3ea5603bc5306
+SHA1: 
+SHA256: 004473e14f3169d9224b3e5d4e53856af14f8457a82f015ffcd9ed574f2bc915
+
+Package: netskao.xhsnoads-rootless
+Version: 1.3-7
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 392
+Name: 小红书 NoAds-rootless
+Author: Netskao
+Description: 小红书去除启动广告, 去除信息流视频流广告, 修改原始按钮保存无水印视频和图片和live图和评论区图片, 解除部分视频无法下载, 添加长按文案快捷复制作者名或文案, 仅支持8.5及以上版本
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/netskao.xhsnoads-rootless_1.3-7_iphoneos-arm64-rootless.deb
+Size: 89808
+MD5sum: 4bc0fcfe7c294a35a8c22e71446068fd
+SHA1: 
+SHA256: 2b2570ca0af8eaba1ddb231b42e5a336726ff403188b9e1ac5b53bc77c6cde8d
+
+Package: nodejs22-ios
+Name: nodejs22-ios-roothide
+Version: 22.12.0-26
+Section: utils
+Priority: optional
+Architecture: iphoneos-arm64e
+Maintainer: OpenClaw Builder <root@localhost>
+Depends: firmware (>= 13.0), ldid
+Description: Node.js v22.12.0 for iOS arm64 (side-by-side install as node22)
+ Provides /usr/local/bin/node22 plus npm22/npx22 wrappers.
+ Includes bundled npm and ldid-signed binary with iOS JIT/unsigned-exec entitlements.
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/nodejs22-ios_22.12.0-26_iphoneos-arm64e.deb
+Size: 23726000
+MD5sum: b75996e5933c2987d003fe834ff90e64
+SHA1: 
+SHA256: d78a7ad0ce77d97659c59c9d699201bfb0f73dde1d25df900366a78ca53cac83
+
+Package: nolowpowermode30secautolock
+Name: NoLowPowerMode30SecAutoLock-rootless
+Depends: mobilesubstrate
+Description: 在低功耗模式下本地调整自动锁定间隔.
+Maintainer: Brend0n
+Author: Brend0n
+Section: Tweaks
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.nolowpowermode30secautolock
+SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.nolowpowermode30secautolock/depiction.json
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/nolowpowermode30secautolock_1.0_iphoneos-arm64-rootless.deb
+Size: 6296
+MD5sum: a2a20e3075a328b320b55bac3b2413d8
+SHA1: 
+SHA256: f27cd5fe798d57a59858b259a36a699d2e1bf54597e59c7c938ad0bfc657d6f0
+
+Package: nolowpowermode30secautolock
+Name: NoLowPowerMode30SecAutoLock-roothide
+Depends: mobilesubstrate
+Description: 在低功耗模式下本地调整自动锁定间隔.
+Maintainer: Brend0n <brendonjkding@126.com>
+Author: Brend0n
+Section: Tweaks
+Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.nolowpowermode30secautolock
+SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.nolowpowermode30secautolock/depiction.json
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 152
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/nolowpowermode30secautolock_1.0_iphoneos-arm64e-roothide.deb
+Size: 6290
+MD5sum: 472d5a08fd360b6cf16f3cbc1165df59
+SHA1: 
+SHA256: a7ce695564448206ceabd1b7b5dc2fec625eb5b22021490addb74c33577d2e1d
 
 Architecture: iphoneos-arm64
 Author: Evelyn
@@ -5139,6 +9230,47 @@ MD5sum: fbd2c3df766be0e9772d097692641cdb
 SHA1: 
 SHA256: a736fffff18b1a213a59f364cdf9e0d0835ee76b44b0d7ace1a52ea8ae380ba8
 
+Package: re.frida.server
+Name: Frida-rootless
+Version: 17.9.10
+Priority: optional
+Size: 15978496
+Installed-Size: 52524
+Architecture: iphoneos-arm64
+Description: Observe and reprogram running programs.
+Homepage: https://frida.re/
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Author: Frida Developers <oleavr@nowsecure.com>
+Section: Tweaks
+Conflicts: re.frida.server64
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/re.frida.server_17.9.10_iphoneos-arm64-rootless.deb
+Size: 15226152
+MD5sum: 21bf1663e0f5143a79e488c8c736af68
+SHA1: 
+SHA256: 42c373d5a69fbc468448805ac569c0f7f7fa289cc09396f9d54144bdf4257985
+
+Package: re.frida.server
+Name: Frida-roothide
+Version: 17.9.10
+Priority: optional
+Size: 15978496
+Installed-Size: 52524
+Architecture: iphoneos-arm64e
+Description: Observe and reprogram running programs.
+Homepage: https://frida.re/
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Author: Frida Developers <oleavr@nowsecure.com>
+Section: Tweaks
+Conflicts: re.frida.server64
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/re.frida.server_17.9.10_iphoneos-arm64e-roothide.deb
+Size: 14959836
+MD5sum: 156566403c7de84f48739bea095f18ab
+SHA1: 
+SHA256: 2c6ac13fe5378ad87eebbb0e08b93f0c11cd2dbf4509170750ef81c873b5b19a
+
 Package: uncar
 Name: uncar-rootless
 Architecture: iphoneos-arm64
@@ -5154,4 +9286,70 @@ Size: 6576
 MD5sum: 07a8f027c0711b541508339300c6d5ad
 SHA1: 
 SHA256: 9f56c90997893722f8f986c8729599524ae6b49eb7456dd26b321594374fa5e2
+
+Package: zp.cocoatop64.unject.xina
+Name: CocoaTop64.zp - xina-rootless
+Depends: 
+Conflicts: ru.domo.cocoatop , ru.domo.cocoatop64 , zp.cocoatop64 , zp.cocoatop64.unject
+Description: Process Viewer for iOS GUI,适配rootless并增加一些小功能.
+ - 1.长按图标的插件针对APP更友好
+ - 2.此app更适合屏蔽进程类的注入
+ - 3.laileld要加的copy给加上(如果是/开头,使用filza打开)
+Maintainer: zp, SXX, Domo
+Author: Domo, SXX , zp
+Section: Tweaks
+SileoDepiction: https://rootless.002599.xyz/web/zp.cocoatop64.unject
+Architecture: iphoneos-arm64
+Version: 3.1.1
+Installed-Size: 840
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/zp.cocoatop64.unject.xina_3.1.1_iphoneos-arm64-rootless.deb
+Size: 186800
+MD5sum: c048c658122ce074b803b58fb0cf41d8
+SHA1: 
+SHA256: bbc50db34368131d57583df7d5858fb7251617ec921345ed32df231f5ca0cccb
+
+Package: zp.cocoatop64.unject.xina
+Name: CocoaTop64.zp - xina215+-rootless
+Depends: 
+Conflicts: ru.domo.cocoatop , ru.domo.cocoatop64 , zp.cocoatop64 , zp.cocoatop64.unject
+Description: Process Viewer for iOS GUI,适配rootless并增加一些小功能.
+ - 1.长按图标的插件针对APP更友好
+ - 2.此app更适合屏蔽进程类的注入
+ - 3.laileld要加的copy给加上(如果是/开头,使用filza打开)
+Maintainer: zp, SXX, Domo
+Author: Domo, SXX , zp
+Section: Tweaks
+SileoDepiction: https://rootless.002599.xyz/web/zp.cocoatop64.unject
+Architecture: iphoneos-arm64
+Version: 3.1.2+1
+Installed-Size: 840
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/zp.cocoatop64.unject.xina_3.1.2+1_iphoneos-arm64-rootless.deb
+Size: 187052
+MD5sum: f49442124d16ebe31eb355a3beea7109
+SHA1: 
+SHA256: a726deb40a3eab06d731018efb75adc43893f5ec0859452ea23984bf005ef6bf
+
+Package: zp.cocoatop64.unject
+Name: CocoaTop64.zp-rootless
+Depends: 
+Conflicts: ru.domo.cocoatop , ru.domo.cocoatop64 , zp.cocoatop64 , zp.cocoatop64.inject
+Description: Process Viewer for iOS GUI,适配rootless并增加一些小功能.
+ - 1.长按图标的插件针对APP更友好
+ - 2.此app更适合屏蔽进程类的注入
+ - 3.laileld要加的copy给加上(如果是/开头,使用filza打开)
+Maintainer: zp, SXX, Domo
+Author: Domo, SXX , zp
+Section: Tweaks
+SileoDepiction: https://rootless.zqbb.cf/web/zp.cocoatop64.unject
+Architecture: iphoneos-arm64
+Version: 3.1.2
+Installed-Size: 840
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/zp.cocoatop64.unject_3.1.2_iphoneos-arm64.deb
+Size: 183868
+MD5sum: d0d4d6a2dc8b75bd41d609b6748b3853
+SHA1: 
+SHA256: 0af2cec24b6db12d59bb08a69fcb00e7a41c94ea6d5c8cf377a46b7f41e33e65
 
