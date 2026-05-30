@@ -4554,6 +4554,22 @@ MD5sum: 20b786cdf6213a6878879af181068653
 SHA1: 
 SHA256: b58682f881a67875b390172c375ba70b1b03d7632cafcd21da0e57c6052b13ed
 
+Package: uncar
+Name: uncar-rootless
+Architecture: iphoneos-arm64
+icon: https://sini921.github.io/repo/sileodepiction/icon/yilai.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/uncar/js.json
+Description: 命令行工具，用于提取Assets.car
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Author: Elias Limneos <limneoselias@gmail.com>
+Section: Tweaks
+Version: 0.0.1-6
+Filename: debs/uncar_0.0.1-6_iphoneos-arm64.deb
+Size: 6576
+MD5sum: 07a8f027c0711b541508339300c6d5ad
+SHA1: 
+SHA256: 9f56c90997893722f8f986c8729599524ae6b49eb7456dd26b321594374fa5e2
+
 Package: zp.cocoatop64.unject.xina
 Name: CocoaTop64.zp - xina-rootless
 Depends: 
