@@ -956,7 +956,7 @@ SHA1:
 SHA256: 9d103699789a7501d57a3ea898b5d673f3fda7f651d09851f535fb5708fb12ca
 
 Package: com.amywhile.aemulo
-Name: Aemulo-roothide
+Name: Aemulo-rootless
 Description: NFC Frickery
 Maintainer: Amy While <support@anamy.gay>
 Author: Amy While <support@anamy.gay>
@@ -966,15 +966,35 @@ Conflicts: com.amywhile.aemulotrial
 Icon: https://elihwyma.github.io/Aemulo/assets/Icon.png
 Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
 Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
+Architecture: iphoneos-arm64
+Version: 1.2.5
+Installed-Size: 2224
+Filename: debs/com.amywhile.aemulo_1.2.5_iphoneos-arm64.deb
+Size: 624872
+MD5sum: efc1327f8279f1b696e79ed8279c6dbf
+SHA1: 
+SHA256: de0829d6f13ac52112b02dbfb5c4a308fcb79dc99bde0b2b64bdced2b547b048
+
+Package: com.amywhile.aemulo
+Name: Aemulo-roothide
+Description: NFC Frickery
+Maintainer: Amy While <support@anamy.gay>
+Author: Amy While <support@anamy.gay>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Conflicts: com.amywhile.aemulotrial
+Icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
+Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
 Architecture: iphoneos-arm64e
 Version: 1.2.5
 Installed-Size: 2224
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.amywhile.aemulo_1.2.5_iphoneos-arm64e.deb
-Size: 617672
-MD5sum: 63af4389191867b89d03b7109eada5ef
+Size: 617516
+MD5sum: c7e04c51cd20f254199c00d148dd9083
 SHA1: 
-SHA256: 92e51b9db6f39d138c9378e3e0cadfe92460a4223e2238547b1a18b2de4fc2d8
+SHA256: be6729992e1f53d21508349c1f0b10848fb19a5dab0bde5f5141fcacdbb88299
 
 Package: com.anthropic.claude-code
 Version: 2.1.45-1
