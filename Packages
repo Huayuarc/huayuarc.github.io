@@ -465,7 +465,7 @@ MD5sum: e26937144aba4cb9aded9e4cda5d063d
 SHA1: 
 SHA256: 48d0385089b8474fbb7ff0fa80dde4c7010a9b13d1fac913930db14ef940f10c
 
-Package: com.25mao.leftpan.rootless
+Package: com.25mao.leftpan.roothide
 Description: 左滑返回上一页面
 Version: 1.0-6
 Priority: optional
@@ -476,12 +476,12 @@ Architecture: iphoneos-arm64e
 Name: 左滑返回-roothide
 Author: Mao
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/leftpan.jpg
-Filename: debs/com.25mao.leftpan.rootless-1.0-6-roothide.deb
-Size: 43148
-MD5sum: 5af064681ed1c6f0ab4493f4c7f6ce0e
+icon: https://huayuarc.github.io/icon/leftpan.png
+Filename: debs/com.25mao.leftpan.roothide-1.0-6-roothide.deb
+Size: 43076
+MD5sum: ca13daa5dbde44fd0901855099793794
 SHA1: 
-SHA256: 61f27bad38eb2d16177b9758b3dffba17d7c87e07c8a9219b58de86580c9f5e2
+SHA256: 40433da8e6e393650fceafeb63d51aa1dfe6309b669c8302b84997deeae16827
 
 Package: com.25mao.leftpan.rootless
 Description: 左滑返回上一页面
@@ -493,12 +493,12 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
 Architecture: iphoneos-arm64
 Name: 左滑返回-rootless
 Author: Mao
-icon: https://huayuarc.github.io/icon/leftpan.jpg
+icon: https://huayuarc.github.io/icon/leftpan.png
 Filename: debs/com.25mao.leftpan.rootless-1.0-6-rootless.deb
-Size: 44240
-MD5sum: a1f819cae86ade1c642682b1441e3630
+Size: 44268
+MD5sum: 3c7a0a6b55646f1cce6170d433067c79
 SHA1: 
-SHA256: 4bac25cc26403d4ff0cef439b64f355d5e87484c7845accd9558d47cb1323488
+SHA256: 3715d388fe278bf61f93b03faf276184c4e32da8356d5e4772a729810f169847
 
 Package: com.25mao.msgfilt.rootless
 Description: 消息屏蔽助手
@@ -1387,6 +1387,24 @@ SHA1:
 SHA256: 73fe8a53a7f676896b2215ade46661bf379a74ef7f407b05b31571bd230aabc9
 
 Package: com.colorblack.bottomx
+Name: Bottom-x-roothide
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931 
+Maintainer: Color Black
+Author: Color Black
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 0.2.32-1+debug
+Installed-Size: 1168
+icon: https://huayuarc.github.io/icon/Bottom.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.colorblack.bottomx-0.2.32-1+debug-roothide.deb
+Size: 133376
+MD5sum: 1dc7c3b73f09504f07cbd8c365eda361
+SHA1: 
+SHA256: bfc95bfaec48e36ba4f7e3e7d349b17ca5b38eef2a2c4be73ba3b44edbd955cb
+
+Package: com.colorblack.bottomx
 Name: Bottom-x-rootless
 Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931 
 Maintainer: Color Black
@@ -2025,12 +2043,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 0.3.6
 Installed-Size: 376
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+icon: https://huayuarc.github.io/icon/Systempro.png
 Filename: debs/com.huayuarc.systempro-0.3.6-roothide.deb
-Size: 42164
-MD5sum: b0ccd3006db07c91e86c0de6d2e23e95
+Size: 42144
+MD5sum: 6d54c8b591cea15c4391fbacf73bb298
 SHA1: 
-SHA256: 5706f54af34fe07f9ca140825d5a4b7ecff311ae28f499b7e38513623490c986
+SHA256: 157b2294fa48cc377e6512ff44f24801d3fcc617087e86ed9a63f35da6b63ca0
 
 Package: com.huayuarc.systempro
 Name: Systempro-rootless
@@ -2042,12 +2060,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 0.3.6
 Installed-Size: 376
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+icon: https://huayuarc.github.io/icon/Systempro.png
 Filename: debs/com.huayuarc.systempro-0.3.6-rootless.deb
-Size: 42200
-MD5sum: 4f2a64c150d0b0e0063df8faa68e43e5
+Size: 42204
+MD5sum: d0746b4c5405c28d2f05f0e4032bc5db
 SHA1: 
-SHA256: e7a06ce63e2d8ef4f60bc90318641b860a66a53d944eb6160aac91a6bc53f893
+SHA256: 8d29b168cdcce80d8b4a7297ce9eece391085b00ec15665fc4cd9e500b7062e8
 
 Package: com.imkpatil.nooldernotificationstext
 Name: NoOlderNotificationsText-roothide
@@ -5703,24 +5721,6 @@ MD5sum: b0b0c7e67dc466959c4d2b36971b90a4
 SHA1: 
 SHA256: 26526d517aa75816d30c74cf8bfaaa109e98551768551204b4b59929d3276575
 
-Package: com.sini.pullclearnc
-Version: 1.1-8
-Description: 通知页面快速下拉，清理所有通知
-icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/pullclearnc/js.json
-Maintainer: Nets
-Installed-Size: 168
-Depends: firmware (>= 15.0), mobilesubstrate
-Author: Netskao
-Name: PullClearNC-rootless
-Architecture: iphoneos-arm64
-Section: Tweaks
-Filename: debs/com.sini.pullclearnc-1.1-8-rootless.deb
-Size: 6844
-MD5sum: d77f34a5796f46830d5bfe209b9e465a
-SHA1: 
-SHA256: 3e75396371dbf8c739ada652abcb9cf1a57872011ad018b6e63da6887b8cebd9
-
 Author: c1d3r
 Architecture: iphoneos-arm64
 Description: 分屏，备份
@@ -6287,24 +6287,6 @@ Size: 423524
 MD5sum: d2d0ce1d7f49949a7e8cea910b717859
 SHA1: 
 SHA256: b45359528bb9332732e1272dcf869924d7b2b012c13f18afe0941d2c1501a0ed
-
-Package: com.sini.swipeextenderx
-Version: 1.6.1~2
-Architecture: iphoneos-arm64
-Section: Tweaks
-Maintainer: MiRO <tweaks_support@miro92.com>
-Author: MiRO <tweaks_support@miro92.com>
-Installed-Size: 614
-Depends: firmware (>=14.0), mobilesubstrate, org.thebigboss.libcolorpicker
-Name: SwipeExtenderX-rootless
-Description: 自定义原生键盘每个按键的功能（简体中文来自来了老弟）
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/swipeextenderx/js.json
-icon: https://sini921.github.io/repo/sileodepiction/icon/swi.png
-Filename: debs/com.sini.swipeextenderx-1.6.1~2-rootless.deb
-Size: 92940
-MD5sum: c18c69e1f261726932594b6357c36a0d
-SHA1: 
-SHA256: 0ef728ba065e8132be082f3d13d31d987ebbfd30d4783a07b86db66d0a901cf1
 
 Package: com.sini.swipeselection
 Name: SwipeSelection-rootless
@@ -8595,23 +8577,6 @@ Size: 162032
 MD5sum: 5e04e6aeb75825475dd1a6238d279a42
 SHA1: 
 SHA256: 746f122a8b92fafad0b6c401741a86c63740294a4bd415ff99c42597c17b0656
-
-Package: netskao.alipayhooks
-Version: 1.1-3
-Section: Tweaks
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate
-Architecture: iphoneos-arm64
-Installed-Size: 328
-Name: 支付宝 Hooks-rootless
-Author: Netskao
-Description: 支付宝去除底部理财选项(理财是不可能理财的, 只有收收钱勉强维持生活), 固定每天10w步
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/netskao.alipayhooks-1.1-3-rootless.deb
-Size: 72512
-MD5sum: 4951039362275fa03cd8822a895d37c8
-SHA1: 
-SHA256: b02d63c3a5070663726baa099bef3fdd34aea609c83aae33236b58883da638d2
 
 Package: netskao.alipayscan
 Version: 1.2-2
