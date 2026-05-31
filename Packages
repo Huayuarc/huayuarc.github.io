@@ -35,6 +35,39 @@ MD5sum: 43e1727c3af9c3e898fc516a5c3f643e
 SHA1: 
 SHA256: 0f9ced4224cb555440657c4dfc9257b13d6b7b333ef0953644cf67b6e8c608ae
 
+Package: ai-config-gui
+Name: AI-Config-GUI-roothide
+Description: Claude Code / Codex API 配置管理工具 (凭据/模型抓取/MCP/权限/指令/历史)，支持 Anthropic/OpenAI/DeepSeek/阿里云/智谱/MiniMax/小米等多厂商
+Maintainer: DaFei
+Author: DaFei
+Section: Utilities
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 3.1.0-1+debug
+Installed-Size: 368
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/ai-config-gui-3.1.0-1+debug-roothide.deb
+Size: 69908
+MD5sum: 137b5e6beb967edaafe3b331f9f3e36a
+SHA1: 
+SHA256: 92ad6e8a93fc44854adc458ee3a7b8db2e9c8ea835d7888a3b0283596aa0758f
+
+Package: ai-config-gui
+Name: AI-Config-GUI-rootless
+Description: Claude Code / Codex API 配置管理工具 (凭据/模型抓取/MCP/权限/指令/历史)，支持 Anthropic/OpenAI/DeepSeek/阿里云/智谱/MiniMax/小米等多厂商
+Maintainer: DaFei
+Author: DaFei
+Section: Utilities
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm64
+Version: 3.1.0-1+debug
+Installed-Size: 368
+Filename: debs/ai-config-gui-3.1.0-1+debug-rootless.deb
+Size: 69768
+MD5sum: 3fc1209374816675bfc86acc0801ecfd
+SHA1: 
+SHA256: 0ed427ad40344ece13a59d55ef673299f8a65fbb5373bd2540d111691d4234e7
+
 Package: aweme.x
 Conflicts: com.xx.dyhook
 Replaces: com.xx.dyhook
@@ -1815,6 +1848,26 @@ MD5sum: ab6ff95dad0ae9043a4d05c294646ee3
 SHA1: 
 SHA256: e25d76d9131b5acc7e8124a9802a59c5cbc0e78ce8309672b37a147ea97e4178
 
+Package: com.dafei.terminal
+Name: DFTerminal-roothide
+Description: iOS终端模拟器，支持多标签、中文显示、硬件键盘、手势缩放字体、滚动回看历史。
+ A full-featured terminal emulator for iOS with multi-tab, CJK support,
+ hardware keyboard, pinch-to-zoom, and scrollback history.
+Maintainer: DaFei
+Author: DaFei
+Section: Terminal Support
+Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
+Architecture: iphoneos-arm64e
+Version: 1.0.0-27+debug
+Installed-Size: 732
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/DFTerminal.jpg
+Filename: debs/com.dafei.terminal-1.0.0-27+debug-roothide.deb
+Size: 175196
+MD5sum: 8e3c8c91f999f5e9540181f3dcaf7175
+SHA1: 
+SHA256: dd13d9f144908e9173a591eb6c390b377fb134d7c424a3c733906b115b918c90
+
 Package: com.eliofeghali.souvenir
 Name: Souvenir-roothide
 Description: Lockscreen customization tweak!
@@ -1849,6 +1902,85 @@ Size: 95680
 MD5sum: 31896c28f06f04c5a5491a343387098f
 SHA1: 
 SHA256: 486badcfd8bb9d56490081dd7cc01ac4f12996a68746c00f256dfbe90442e041
+
+Package: com.ethanarbuckle.objsee-framework
+Name: objsee-roothide
+Depends: firmware (>= 15.0)
+Description: objc_msgSend tracing framework (大飞修改版)
+  objsee - 运行时 ObjC 方法追踪工具
+  Hook all objc_msgSend calls in any app, trace every method invocation in real time.
+  .
+  原作者: Ethan Arbuckle | iOS 移植: Lessica | 修改适配: 大飞
+  .
+  用法示例 / Usage:
+    objsee --help                     查看全部选项
+    objsee -c "UIView" com.apple.springboard  按类名过滤
+    objsee -m "viewDidLoad" com.xxx.app       按方法名过滤
+    objsee -C "__NSCF*" com.xxx.app           排除系统类
+    objsee -T com.xxx.app              TUI 交互模式
+    objsee -A0 com.xxx.app             只显示调用链，不显示参数
+    objsee -A3 com.xxx.app             显示完整参数详情
+  .
+  功能特性:
+    - 无需注入 tweak，通过 task_for_pid 直接附加目标进程
+    - 支持类名/方法名 glob 通配符过滤，含排除模式 (-C)
+    - TUI 交互模式，支持上下翻页浏览
+    - 多级参数显示 (-A0 ~ -A3)
+    - 彩色输出 + 调用深度缩进，调用链一目了然
+    - 支持 arm64 / arm64e 设备
+  原项目: https://github.com/Lessica/objsee-ios
+Maintainer: Ethan Arbuckle <ethan@objsee.io>
+Author: Ethan Arbuckle, Lessica, 大飞
+Section: System
+Tag: role::developer
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 4392
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.ethanarbuckle.objsee-framework-0.0.2-roothide.deb
+Size: 613064
+MD5sum: 4e84561ae749aca509c38c7b68a3a0cd
+SHA1: 
+SHA256: 2fbc1df43d580ec3f4d39c26e07fe53f61e9d5a29201101848fd2e66875d0065
+
+Package: com.ethanarbuckle.objsee-framework
+Name: objsee-rootless
+Depends: firmware (>= 15.0)
+Description: objc_msgSend tracing framework (大飞修改版)
+  objsee - 运行时 ObjC 方法追踪工具
+  Hook all objc_msgSend calls in any app, trace every method invocation in real time.
+  .
+  原作者: Ethan Arbuckle | iOS 移植: Lessica | 修改适配: 大飞
+  .
+  用法示例 / Usage:
+    objsee --help                     查看全部选项
+    objsee -c "UIView" com.apple.springboard  按类名过滤
+    objsee -m "viewDidLoad" com.xxx.app       按方法名过滤
+    objsee -C "__NSCF*" com.xxx.app           排除系统类
+    objsee -T com.xxx.app              TUI 交互模式
+    objsee -A0 com.xxx.app             只显示调用链，不显示参数
+    objsee -A3 com.xxx.app             显示完整参数详情
+  .
+  功能特性:
+    - 无需注入 tweak，通过 task_for_pid 直接附加目标进程
+    - 支持类名/方法名 glob 通配符过滤，含排除模式 (-C)
+    - TUI 交互模式，支持上下翻页浏览
+    - 多级参数显示 (-A0 ~ -A3)
+    - 彩色输出 + 调用深度缩进，调用链一目了然
+    - 支持 arm64 / arm64e 设备
+  原项目: https://github.com/Lessica/objsee-ios
+Maintainer: Ethan Arbuckle <ethan@objsee.io>
+Author: Ethan Arbuckle, Lessica, 大飞
+Section: System
+Tag: role::developer
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Installed-Size: 4392
+Filename: debs/com.ethanarbuckle.objsee-framework-0.0.2-rootless.deb
+Size: 613472
+MD5sum: 80be213dd4db229519f045926e0f1aad
+SHA1: 
+SHA256: 23b99f2d96f0a3b4cfc6e91fd472ca96405dc4489ddca37e922ec27897755df8
 
 Package: com.gblw.fixset.roothide
 Version: 1.1
