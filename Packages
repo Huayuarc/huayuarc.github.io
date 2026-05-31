@@ -653,7 +653,7 @@ SHA256: a4dde53f76850b0f8ab90803a686ad028d190d8ae8a45e91fa3b5caf5ce51ff6
 Package: com.Axs.floating-view
 Name: Floating-view-roothide
 Description: 温馨提示:
-  * 1、仅供个人备份与学习研究使用。
+  * 1、Floating-view 分屏插件仅供个人备份与学习研究使用。
   * 2、插件经过 Axs设备测试，仅在 iPhone 14 Pro iOS 16.2、iPhone 14 Pro Max iOS 16.5 无根越狱环境下测试正常可用。
   * 3、本版本仅处理授权验证逻辑，插件其他原有逻辑未作修改。若安装后无效、冲突或导致设备/应用异常，请自行卸载。
   * 4、免责声明：安装和使用本插件所产生的一切风险由使用者自行承担。如因插件本身兼容性、原始代码逻辑或其他未知问题导致设备、系统、应用出现异常，插件由：Axs破解分享。本人不承担因此产生的任何责任。
@@ -668,15 +668,15 @@ Icon: https://axs66.github.io/pro/icon/svp.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.json
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.Axs.floating-view-1.6.0-6-roothide.deb
-Size: 653164
-MD5sum: 008db97b8734a981744d29ec7e69d852
+Size: 651628
+MD5sum: 6f5963c9dec70ee2d32eb471960483c5
 SHA1: 
-SHA256: 16c35fad818b9436b4358d85f87ca22210afda02e4a9d8d33ab7ac434754e7cd
+SHA256: 6c96f2ab51b91daee5642180f51178d2b146d2678d45dd15cb920a0402027d2d
 
 Package: com.Axs.floating-view
 Name: Floating-view-rootless
 Description: 温馨提示:
-  * 1、仅供个人备份与学习研究使用。
+  * 1、Floating-view 分屏插件仅供个人备份与学习研究使用。
   * 2、插件经过 Axs设备测试，仅在 iPhone 14 Pro iOS 16.2、iPhone 14 Pro Max iOS 16.5 无根越狱环境下测试正常可用。
   * 3、本版本仅处理授权验证逻辑，插件其他原有逻辑未作修改。若安装后无效、冲突或导致设备/应用异常，请自行卸载。
   * 4、免责声明：安装和使用本插件所产生的一切风险由使用者自行承担。如因插件本身兼容性、原始代码逻辑或其他未知问题导致设备、系统、应用出现异常，插件由：Axs破解分享。本人不承担因此产生的任何责任。
@@ -690,10 +690,10 @@ Installed-Size: 2700
 Icon: https://axs66.github.io/pro/icon/svp.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.json
 Filename: debs/com.Axs.floating-view-1.6.0-6-rootless.deb
-Size: 652760
-MD5sum: bf158e085656cee3e6eeb440f04e6354
+Size: 653392
+MD5sum: 65b32b9a291fef42137d57c08d18ab11
 SHA1: 
-SHA256: 8f089e4cc3fb0293550a973316cdfb6cd58d4ceb4fcd9a5479b6ace0353c8ef3
+SHA256: e52ae15f75c6802f5c6f29ddf259d5cfe75a9f3b492fd9fbc00e50eb5cb9e2b2
 
 Package: com.HBWechatHelper.ailun
 Version: 2.1.2
