@@ -1789,12 +1789,12 @@ Architecture: iphoneos-arm64e
 Version: 1.0.0-25+debug
 Installed-Size: 732
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+icon: https://huayuarc.github.io/icon/DFTerminal.jpg
 Filename: debs/com.dafei.terminal-1.0.0-25+debug-roothide.deb
-Size: 175600
-MD5sum: c3f797697c48489e821db3cd7a296213
+Size: 175252
+MD5sum: dea1cc5bb21edd744ca18812cc7ab779
 SHA1: 
-SHA256: 8864ae54a8c0ca5ae8eb7ee5595d1de960d51009fbecbed569395cec05cd73fb
+SHA256: a6df5cd8425b93c8b6847fea267af0131e28144e806a61944f5dbd99431a48db
 
 Package: com.dafei.terminal
 Name: DFTerminal-rootless
@@ -1808,12 +1808,12 @@ Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
 Architecture: iphoneos-arm64
 Version: 1.0.0-25+debug
 Installed-Size: 732
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+icon: https://huayuarc.github.io/icon/DFTerminal.jpg
 Filename: debs/com.dafei.terminal-1.0.0-25+debug-rootless.deb
-Size: 175524
-MD5sum: 7081d85c02229bbd2ba7b68dfde6f955
+Size: 175552
+MD5sum: ab6ff95dad0ae9043a4d05c294646ee3
 SHA1: 
-SHA256: be6e5f93723059365d1b2a4c841f89cadc0120d0aec29e1c2d395be7dabbb612
+SHA256: e25d76d9131b5acc7e8124a9802a59c5cbc0e78ce8309672b37a147ea97e4178
 
 Package: com.eliofeghali.souvenir
 Name: Souvenir-roothide
