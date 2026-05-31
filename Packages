@@ -1018,6 +1018,38 @@ MD5sum: 4dfffcbeac3393557ffc6aea35991ce6
 SHA1: 
 SHA256: e3c4f94f03c4cf77581be82d4abcf3bba754f3fbe050fd1c831c806978b7397a
 
+Package: com.ash.mountfont
+Name: Filza Font Mount Script-roothide
+Section: System
+Maintainer: ash
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
+Description: Mount Font files from Filza
+Author: ash
+Icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.ash.mountfont-1.0.4-roothide.deb
+Size: 5036
+MD5sum: 3a482eef36d6d24707a1450a0d467445
+SHA1: 
+SHA256: c2c409d7ddc3ce99c3f3382594c4b6eeab491fd13919a7fd01f9c2497bd6370b
+
+Package: com.ash.mountfont
+Name: Filza Font Mount Script-rootless
+Section: System
+Maintainer: ash
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Depends: firmware (>= 15.0), mobilesubstrate, com.tigisoftware.filza64bit
+Description: Mount Font files from Filza
+Author: ash
+Icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.ash.mountfont-1.0.4-rootless.deb
+Size: 5036
+MD5sum: f6dd57331d9b2a4097fec545d52fd6af
+SHA1: 
+SHA256: 5674c98af02b95fcf880eeaa5536c942c879ee3bb93740f17209b42a2763be2d
+
 Package: com.ayao.doubaopowerbutton
 Name: DoubaoPowerButton-rootless-roothide
 Description: 长按关机键触发豆包语音入口，并保留音量键加关机键的系统原始关机操作。
@@ -2255,43 +2287,6 @@ MD5sum: 88cbefd0b3350681c33df2a0a1580e44
 SHA1: 
 SHA256: 108bc469b0f5651d1a9f7c68ebd923791a63415f8d249c603155f3c790cacfc5
 
-Package: com.jontelang.bigshotsnapper3plugin
-Name: BigShot for Snapper 3 and CCSupport-roothide
-Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
-Conflicts: com.jontelang.snapper
-Description: BigShot for iOS 15/16 (and Snapper 3)
-Maintainer: Jonathan Winger-lang
-Author: Jonathan Winger-lang
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.1
-Installed-Size: 536
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.jontelang.bigshotsnapper3plugin-1.1-roothide.deb
-Size: 19228
-MD5sum: 068f5d282aad51cf8a5879955482d2c0
-SHA1: 
-SHA256: bc2790e9c3d33f8842ebeb5aeb3c17c9e25dc32b149efbdefa15ad2b9cdb240f
-
-Package: com.jontelang.bigshotsnapper3plugin
-Name: BigShot for Snapper 3 and CCSupport-rootless
-Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
-Conflicts: com.jontelang.snapper
-Description: BigShot for iOS 15/16 (and Snapper 3)
-Maintainer: Jonathan Winger-lang
-Author: Jonathan Winger-lang
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.1
-Installed-Size: 536
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.jontelang.bigshotsnapper3plugin-1.1-rootless.deb
-Size: 19956
-MD5sum: 7c47c927806f259a6795780c42e60854
-SHA1: 
-SHA256: ec947e773cc6505d31a2201407dc9cf3a4d72c8a3f687067e7c2f7369799dcde
-
 Package: com.jontelang.snapper3
 Name: Snapper 3-roothide
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
@@ -2310,6 +2305,41 @@ Size: 1022692
 MD5sum: 71374dbb4501c860cdf7e2fb4bb5d0e4
 SHA1: 
 SHA256: 0d4d2f739212bdd9b640393f2527e39b20f8794031b7bc48d9d46303507cc5be
+
+Package: com.lclrc.hammerit
+Name: Hammer It-roothide
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Description: Control your text or translate as you wish.
+Maintainer: lclrc(SquidForce)
+Author: lclrc(SquidForce)
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.7.0-END
+Installed-Size: 3808
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/HammerIt.png
+Filename: debs/com.lclrc.hammerit-1.7.0-END-roothide.deb
+Size: 965308
+MD5sum: 1e1a657fc66f0527bff4cf38d03b60ca
+SHA1: 
+SHA256: 56bdba72245a677cc620ea2d617f3541f1c6ad3af6da4cd8341475320d1737de
+
+Package: com.lclrc.hammerit
+Name: Hammer It-rootless
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Description: Control your text or translate as you wish.
+Maintainer: lclrc(SquidForce)
+Author: lclrc(SquidForce)
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.7.0-END
+Installed-Size: 3808
+Icon: https://huayuarc.github.io/icon/HammerIt.png
+Filename: debs/com.lclrc.hammerit-1.7.0-END-rootless.deb
+Size: 981060
+MD5sum: 31e070b1e1ad461abc42a9f781701ec0
+SHA1: 
+SHA256: c649a5bc82ae374e18a64b7af3ccfed2b6ef8e1322ba33bd268b6f1220b13c4a
 
 Package: com.lclrc.hammerit
 Name: Hammer It-rootless
@@ -2480,6 +2510,41 @@ Size: 2646240
 MD5sum: eb3b08519c8ef7063214b3612f7fe352
 SHA1: 
 SHA256: d76b62ac7776da1cd8896d71a1935b1559c2e5b5f11f4a5328a88a2fed83b1c4
+
+Package: com.m4fn3.k2gecamen
+Name: K2gecamen-roothide
+Description: Capture moments with photos, videos, and audio in the background with ease.
+Maintainer: mafu
+Author: mafu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Installed-Size: 6204
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.m4fn3.k2gecamen-1.0.5-roothide.deb
+Size: 2083736
+MD5sum: 0f5ac04247981cda406e7b3e403ba5f6
+SHA1: 
+SHA256: 830a4f81f3162f8aba45c1c8e3db6955e6b7be07a2a6eae5cdc381da16629690
+
+Package: com.m4fn3.k2gecamen
+Name: K2gecamen-rootless
+Description: Capture moments with photos, videos, and audio in the background with ease.
+Maintainer: mafu
+Author: mafu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Installed-Size: 6204
+Filename: debs/com.m4fn3.k2gecamen-1.0.5-rootless.deb
+Size: 2113008
+MD5sum: ee5bbaeda2ab1f867615f489cedeec96
+SHA1: 
+SHA256: 2723b7cf4bfe83952cd633640b9ddabf94341f847fd50fa79040dc1736d285b4
 
 Package: com.miro.libmiroshared
 Name: libMiROShared-rootless
@@ -3548,6 +3613,47 @@ MD5sum: a087b6740f963330214773f081ad5ce9
 SHA1: 
 SHA256: 865b71527a2c65021a84a71d831b21a50fa0195af2a8fa355b2a02f9275dbf83
 
+Package: com.ps.recordpauses
+Name: 录像暂停 RecordPause-roothide
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
+Provides: org.thebigboss.recordpause, com.spicat.recordpause,com.ps.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
+Description: 录像暂停 Pause/resume video recording in iOS Camera app.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.0.3
+Installed-Size: 168
+icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/camera.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.ps.recordpauses-2.0.3-roothide.deb
+Size: 9896
+MD5sum: 86ae8f93c674de6a1c1b26d149657059
+SHA1: 
+SHA256: a6147343e5881c116f4bc782aa1606799f5b7813f5d363ff3e41bd0674d86994
+
+Package: com.ps.recordpauses
+Name: 录像暂停 RecordPause-rootless
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
+Provides: org.thebigboss.recordpause, com.spicat.recordpause,com.ps.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
+Description: 录像暂停 Pause/resume video recording in iOS Camera app.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Installed-Size: 168
+icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/camera.png
+Filename: debs/com.ps.recordpauses-2.0.3-rootless.deb
+Size: 10148
+MD5sum: ead2336a77c8023ea99e2f2b871abdec
+SHA1: 
+SHA256: 362bcebde5b8b11692feb3b33aa92dcf6463d4d6d8c837824aad5a1c3c714817
+
 Package: com.qiop1379.swipeextenderx
 Version: 1.6.1~2
 Architecture: iphoneos-arm64e
@@ -4413,6 +4519,25 @@ Size: 199444
 MD5sum: 00d9332d39e841726b33f4e7fc246b64
 SHA1: 
 SHA256: b775767414ac037b42b54b16f44e0d5388ec68fa7d4b86e2b9a346f23d945c75
+
+Package: com.sini.bigshot
+Version: 1.1
+Section: Tweaks
+Maintainer: sini921
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
+Architecture: iphoneos-arm64e
+Name: BigShot-roothide
+Author: Jonathan Winger-lang
+Sponsor: sini921
+icon: https://sini921.github.io/repo/sileodepiction/icon/cjt.png
+Description: 安装以后呼出Snapper3(仅支持正版)会有一个长截图按钮。也支持通过控制中心添加BigShot模块使用。
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.bigshot-1.1-roothide.deb
+Size: 19364
+MD5sum: 81ba654330be52bf2fe3dd6f316db112
+SHA1: 
+SHA256: e3ed7694785f86811b47dff3ecca90f40d1e30e58c88702bba3da6581ac0f80c
 
 Package: com.sini.bigshot
 Version: 1.1
@@ -5845,24 +5970,6 @@ Size: 117216
 MD5sum: adf77f4957c3f67e6d7a06ae0b2d062a
 SHA1: 
 SHA256: 605d6075ac25734fe971572980ffc82495fa533224b6cb1ab6195dfce94cb08b
-
-Package: com.sini.recordanywhere
-Name: RecordAnywhere-rootless
-Icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/recordanywhere/js.json
-Depends: mobilesubstrate
-Description: 使手机在锁屏状态也可以继续录屏。
-Maintainer: Muirey03 & lclrc
-Author: Muirey03 & lclrc
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.1.0
-Installed-Size: 168
-Filename: debs/com.sini.recordanywhere-1.1.0-rootless.deb
-Size: 4560
-MD5sum: 07685364efb4a28c2935c3432060916b
-SHA1: 
-SHA256: 8bf736d8d0894e2832d381cf701733d9fb626c61f1dafdda9b1501f2cb98a6aa
 
 Package: com.sini.recorder-bubble
 Section: Tweaks
