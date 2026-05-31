@@ -106,12 +106,12 @@ Architecture: iphoneos-arm64e
 Version: 1.0.0
 Installed-Size: 540
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/AiPowerButton.jpg
+icon: https://huayuarc.github.io/icon/AiPowerButton.png
 Filename: debs/ayao.aipowerbutton-1.0.0-roothide.deb
-Size: 20380
-MD5sum: 1d134b93f6a0cdca57f6a2ff7cdc63ee
+Size: 20364
+MD5sum: 88f39844792fafe483de4a5900a66f52
 SHA1: 
-SHA256: 0656ab2bae29376589a23ec02d829dbad9684a30c967d4ef24f0660cd643ae32
+SHA256: 91f4c6bc4b60a4c120e323fe6beafba40b4f11d9ed3366e1a13e76eb01202dbb
 
 Package: ayao.aipowerbutton
 Name: AiPowerButton-rootless
@@ -125,12 +125,12 @@ Replaces: com.ayao.doubaopowerbutton, com.yaofugen.doubaopowerbutton
 Architecture: iphoneos-arm64
 Version: 1.0.0
 Installed-Size: 540
-icon: https://huayuarc.github.io/icon/AiPowerButton.jpg
+icon: https://huayuarc.github.io/icon/AiPowerButton.png
 Filename: debs/ayao.aipowerbutton-1.0.0-rootless.deb
-Size: 20248
-MD5sum: 7e79a67b99a5dcad21a9e03e5a801eba
+Size: 20252
+MD5sum: ae1ffea1bf1db0fe486b4cbd79777410
 SHA1: 
-SHA256: cc21291231a3f00474ada36c9ae95998ddb4515eaeee0c26b4c87ea22414d0ae
+SHA256: 9c99927f5e284377253a6668656b82c1520324f7b716626e087cf3d1f0279619
 
 Package: callshidevoicemailios
 Name: 隐藏语音留言-roothide
@@ -957,6 +957,47 @@ MD5sum: 94b5416b04dc3314536b83a85ad3c150
 SHA1: 
 SHA256: 99c578dc4ede9c4ca06005b70770d54f81aa4059a72f7e9a8e8103aaa9279a23
 
+Architecture: iphoneos-arm64e
+Package: com.anthopak.pancake
+Name: PanCake-roothide
+Version: 2.3
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.pancake-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
+Description: Interactive dismiss gesture on the whole screen in all apps and ability to restore previous page 在所有应用程序中，整个屏幕上的交互式关闭手势，并能够恢复上一页。
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.anthopak.pancake-2.3-roothide.deb
+Size: 111012
+MD5sum: 36671707c0c9166c1879da6d94895305
+SHA1: 
+SHA256: fc9ef4596a405928ba0db4fa11cb2270198a1802d52a1718d897a34818d20597
+
+Architecture: iphoneos-arm64
+Package: com.anthopak.pancake
+Name: PanCake-rootless
+Version: 2.3
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.pancake-rootless.php
+SileoDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+ModernDepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
+Description: Interactive dismiss gesture on the whole screen in all apps and ability to restore previous page 在所有应用程序中，整个屏幕上的交互式关闭手势，并能够恢复上一页。
+Homepage: https://repo.anthopak.dev
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Author: AnthoPak <anthopakdev@gmail.com>
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Filename: debs/com.anthopak.pancake-2.3-rootless.deb
+Size: 112344
+MD5sum: 0ef1cf4b61f22b33fe78e0568e1a5f03
+SHA1: 
+SHA256: 7d8f5862911386a10334f2a357cbd97ed4a131dc22faf4269a017f3fc5d58a34
+
 Package: com.anthropic.claude-code
 Version: 2.1.45-1
 Architecture: iphoneos-arm64e
@@ -1087,7 +1128,41 @@ SHA1:
 SHA256: 502c84e8c87f366b5d1db0939cf2326ca488c6dbe1e6191981f2961407c07bf2
 
 Package: com.be-huge.insulation
-Name: insulation(解除温控)-roothide
+Name: insulation-roothide
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 0.0.13
+Installed-Size: 636
+icon: https://huayuarc.github.io/icon/Insulation.png
+Filename: debs/com.be-huge.insulation-0.0.13-roothide.deb
+Size: 95124
+MD5sum: 9b288e9941cf3f7a26cbab616fa996e4
+SHA1: 
+SHA256: 71ff154257d5d2ef8e4aa09ea31216cf6878f80bde804ba4926153cde2852728
+
+Package: com.be-huge.insulation
+Name: insulation-rootless
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64
+Version: 0.0.13
+Installed-Size: 652
+icon: https://huayuarc.github.io/icon/Insulation.png
+Filename: debs/com.be-huge.insulation-0.0.13-rootless.deb
+Size: 96996
+MD5sum: 667008bb3de48ed754f8d056800ca0ef
+SHA1: 
+SHA256: 9ba1f1b5b4c0f1efad80518833839251bc6b2a10137a1504d389acfa7e37d72a
+
+Package: com.be-huge.insulation
+Name: insulation-roothide
 Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
 Maintainer: be-huge
 Author: be-huge
@@ -1096,12 +1171,63 @@ Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Architecture: iphoneos-arm64e
 Version: 0.0.3
 Installed-Size: 484
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+icon: https://huayuarc.github.io/icon/Insulation.png
 Filename: debs/com.be-huge.insulation-0.0.3-roothide.deb
-Size: 55720
-MD5sum: 1d17392d7f391e3063b028e9a958a826
+Size: 55604
+MD5sum: ae7d9aaf911e79107d99d0a1a554e4c4
 SHA1: 
-SHA256: a6c1cdfdd73b2bf3235b245610355daefb09f715fd65c8a33fe8fd68750dc5fd
+SHA256: a51e748f614c43f0af2d685ed80b1cfd3217c725920592222b9d12974756be81
+
+Package: com.be-huge.insulation
+Name: insulation-rootless
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 484
+icon: https://huayuarc.github.io/icon/Insulation.png
+Filename: debs/com.be-huge.insulation-0.0.3-rootless.deb
+Size: 57880
+MD5sum: 2e5e0048901f1c8b3970166e00bfa65f
+SHA1: 
+SHA256: 97b444b31ff0ade8102f7b4179bc2e8e8e96f00035e204bf4410ecd615670abf
+
+Package: com.be-huge.insulation
+Name: insulation-roothide
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 0.0.9
+Installed-Size: 812
+icon: https://huayuarc.github.io/icon/Insulation.png
+Filename: debs/com.be-huge.insulation-0.0.9-roothide.deb
+Size: 96388
+MD5sum: 18a6152f69ec652f8546269dd3a51f37
+SHA1: 
+SHA256: 3c1bb1fb43d7cc11ede3fce213a8d2fa29e98eacceec85f2d7a3e2de78c646ab
+
+Package: com.be-huge.insulation
+Name: insulation-rootless
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64
+Version: 0.0.9
+Installed-Size: 812
+icon: https://huayuarc.github.io/icon/Insulation.png
+Filename: debs/com.be-huge.insulation-0.0.9-rootless.deb
+Size: 98408
+MD5sum: 5bc13d91c1bf14adca13832710f53151
+SHA1: 
+SHA256: 304afa3a84bcbd8e22b0f495f5430a03907e6b08344b297eb4c75561bbe2c520
 
 Package: com.brend0n.nopassafterrespringsafe
 Name: NoPassAfterRespring (Safe)-roothide
@@ -1236,12 +1362,12 @@ Architecture: iphoneos-arm64e
 Version: 0.2.30
 Installed-Size: 832
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+icon: https://huayuarc.github.io/icon/Bottom.png
 Filename: debs/com.colorblack.bottomx-0.2.30-roothide.deb
-Size: 100240
-MD5sum: 94a2b9f7fb200433279ab2b3c0fc5f03
+Size: 94532
+MD5sum: 493e6e04869f94e61c86d72f0d944f1f
 SHA1: 
-SHA256: 969029977caa77a48f948be17ba8132a5963ee65d8122356e792ecca112c793c
+SHA256: 16a8c28e7ef567395f7796f37304703e6460198fb1858145d648f2b454136633
 
 Package: com.colorblack.bottomx
 Name: Bottom-x-rootless
@@ -1253,12 +1379,12 @@ Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
 Architecture: iphoneos-arm64
 Version: 0.2.30
 Installed-Size: 832
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+icon: https://huayuarc.github.io/icon/Bottom.png
 Filename: debs/com.colorblack.bottomx-0.2.30-rootless.deb
-Size: 97300
-MD5sum: d99210f1fa8490b39d60fcbb2ba7f830
+Size: 97212
+MD5sum: 19f3e5252ee0f982c465902f592e0a9a
 SHA1: 
-SHA256: 0ed9d55f3b2a58b258338b9ad0f0ef3b550df2cfe6f6f991ebb1eb750ebb45bd
+SHA256: 73fe8a53a7f676896b2215ade46661bf379a74ef7f407b05b31571bd230aabc9
 
 Package: com.colorblack.bottomx
 Name: Bottom-x-rootless
@@ -1270,12 +1396,12 @@ Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
 Architecture: iphoneos-arm64
 Version: 0.2.32-1+debug
 Installed-Size: 1168
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+icon: https://huayuarc.github.io/icon/Bottom.png
 Filename: debs/com.colorblack.bottomx-0.2.32-1+debug-rootless.deb
-Size: 138560
-MD5sum: 3dd813376f81b62e8b6e6b2a2685da33
+Size: 138060
+MD5sum: 2710f83fa7bcb1e769cbd76468de51bd
 SHA1: 
-SHA256: 2a5ca6e1b96a441963fface06a897943e6ff9a7e810c50e3ede3a300b931cba1
+SHA256: d97960ad94543f2ba01b37cdb32259e894c88c00f6989ec8611fd814d91b88c0
 
 Package: com.colorblack.bottomx
 Name: Bottom-x-roothide
@@ -1287,12 +1413,46 @@ Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
 Architecture: iphoneos-arm64e
 Version: 0.2.32-2+debug
 Installed-Size: 1168
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+icon: https://huayuarc.github.io/icon/Bottom.png
 Filename: debs/com.colorblack.bottomx-0.2.32-2+debug-roothide.deb
-Size: 137992
-MD5sum: 88ed6cbee9732d3ccb2babee6ed41c78
+Size: 137784
+MD5sum: c133c504eeea7741039d136571b131a4
 SHA1: 
-SHA256: f7707587717c34f0783b9ad96d8e890d194c94806e30535e20cbba9c84a3abb7
+SHA256: 7c99f0a07cf53096ee7365f17c628713622b5c3fa1ea76cfe8946c4bc1c81be2
+
+Package: com.colorblack.bottomx
+Name: Bottom-x-roothide
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931 
+Maintainer: Color Black
+Author: Color Black
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 0.2.67
+Installed-Size: 1944
+icon: https://huayuarc.github.io/icon/Bottom.png
+Filename: debs/com.colorblack.bottomx-0.2.67-roothide.deb
+Size: 496532
+MD5sum: d716ae33b6351776a5dd2fbeb6b5899e
+SHA1: 
+SHA256: 387c0a828ac1b9b6aa31ac05974f115c93c2a05ffc9e1bb5a676bf11003fb0fb
+
+Package: com.colorblack.bottomx
+Name: Bottom-x-rootless
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931 
+Maintainer: Color Black
+Author: Color Black
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Architecture: iphoneos-arm64
+Version: 0.2.67
+Installed-Size: 1944
+icon: https://huayuarc.github.io/icon/Bottom.png
+Filename: debs/com.colorblack.bottomx-0.2.67-rootless.deb
+Size: 495844
+MD5sum: 75f48cf0d9542a7e59e00ed1eba5f4f5
+SHA1: 
+SHA256: a2924389d175037f2ad8b03b5adbedd7f8af8f280a0505d49bd7a26dc2c437dd
 
 Package: com.colorblack.dongchedinoad
 Name: 懂车帝去开屏广告-roothide
@@ -1791,15 +1951,15 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Priority: optional
 Maintainer: huami
 Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Icon: https://huayuarc.github.io/icon/dy.jpg
 Architecture: iphoneos-arm64e
 Version: 2.2-9
 Installed-Size: 2184
 Filename: debs/com.huami.dyyy-2.2-9-roothide.deb
-Size: 462544
-MD5sum: 06cce6eb9c2eae0eb00e764cebf0fec9
+Size: 460416
+MD5sum: b9e169f3bd63c224b700ba617d8ad0a5
 SHA1: 
-SHA256: f58a53a7a5e5297bbdaf8682bb3fada40f4ca0001817b7545e7f381a4102e47a
+SHA256: d5e05d50c580048f7026a3d1bebbc351ea6bc0d69b0ba270fb10edbbdcda878e
 
 Package: com.huami.dyyy
 Name: DYYY-rootless
@@ -1810,18 +1970,18 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Priority: optional
 Maintainer: huami
 Author: huami
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Icon: https://huayuarc.github.io/icon/dy.jpg
 Architecture: iphoneos-arm64
 Version: 2.2-9
 Installed-Size: 2184
 Filename: debs/com.huami.dyyy-2.2-9-rootless.deb
-Size: 460220
-MD5sum: 949e94bd3b361076958676704d1afb64
+Size: 459936
+MD5sum: 1422c7802dfefb9e83e35ff141e87829
 SHA1: 
-SHA256: e78d0fe600c7bfb968bb74954de1911f725a709784a11834b1991fbb0058d57e
+SHA256: 026fcde7d1a196f900a44a31036ae7f7403a59685adc1da323fcbd2fb0c2c1e0
 
 Package: com.huayuarc.cputhermal
-Name: CPUthermal
+Name: CPUthermal-roothide
 Author: Huayuarc
 Description: 温控插件 — 注入 thermalmonitord 阻止高温降频/降亮度。双防护层：IOKit 层拦截传感器读写 + Darwin 通知广播；ObjC 层钩住 ThermalManager/ThermalControl 决策树、控制力度计算、热压力升级。所有钩子有独立开关，75°C 安全阀自动放行紧急保护。支持软化模式（减半不归零）和热配置表修改（+5°C 阈值）。
 Depends: mobilesubstrate, preferenceloader
@@ -1831,15 +1991,15 @@ Architecture: iphoneos-arm64e
 Version: 1.0.0-3+debug
 Installed-Size: 796
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+icon: https://huayuarc.github.io/icon/Insulation.png
 Filename: debs/com.huayuarc.cputhermal-1.0.0-3+debug-roothide.deb
 Size: 63048
-MD5sum: b3a45a982b688ffd896ae358e52e4b17
+MD5sum: 031ba5dc56bb50000004e1aef5344b7d
 SHA1: 
-SHA256: 884b82252615d4a242b5887bb1ccce951cf67cb2839db5a1d09d0484b75ceab0
+SHA256: 96aa46ba3f41aa9c3a2d657b9f17c200e8f07f0675adcc48d69d1ab662e0f03a
 
 Package: com.huayuarc.cputhermal
-Name: CPUthermal
+Name: CPUthermal-rootless
 Author: Huayuarc
 Description: 温控插件 — 注入 thermalmonitord 阻止高温降频/降亮度。双防护层：IOKit 层拦截传感器读写 + Darwin 通知广播；ObjC 层钩住 ThermalManager/ThermalControl 决策树、控制力度计算、热压力升级。所有钩子有独立开关，75°C 安全阀自动放行紧急保护。支持软化模式（减半不归零）和热配置表修改（+5°C 阈值）。
 Depends: mobilesubstrate, preferenceloader
@@ -1848,12 +2008,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.0.0-3+debug
 Installed-Size: 796
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+icon: https://huayuarc.github.io/icon/Insulation.png
 Filename: debs/com.huayuarc.cputhermal-1.0.0-3+debug-rootless.deb
-Size: 64752
-MD5sum: d2390f92a475ccf3412b2bf66fd8a1b4
+Size: 64708
+MD5sum: f233837375b72efdf69677e7df32c34d
 SHA1: 
-SHA256: ebea72d05f693925c69be7ccf5e2b8c315b3d205b2c1e6f1e99fec2a70489e96
+SHA256: e94e97d67d04e41af2dbbda8dc1280bac96b3b7ee1dd8f9f78657c63b1e3d403
 
 Package: com.huayuarc.systempro
 Name: Systempro-roothide
@@ -3839,7 +3999,8 @@ Name: Alpine-rootless
 Author: MTAC
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/alpine/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/alpine.png
-Filename: debs/com.sini.alpine-1.4-rootless.deb
+Filename: debs/com.sini.alpine-1.4
+-rootless.deb
 Size: 601652
 MD5sum: 522822805c3c7894dc72ff0df304878a
 SHA1: 
@@ -3945,7 +4106,8 @@ Depends: mobilesubstrate
 Section: Tweaks
 Architecture: iphoneos-arm64
 icon: https://sini921.github.io/repo/sileodepiction/icon/auto.png
-Filename: debs/com.sini.autoscroll15-1.0.0-rootless.deb
+Filename: debs/com.sini.autoscroll15-1.0.0
+-rootless.deb
 Size: 5348
 MD5sum: 6adc9056469985db7501a8f8815046b6
 SHA1: 
@@ -4679,26 +4841,6 @@ MD5sum: dde64168177e4f48f65c7b9e21327a25
 SHA1: 
 SHA256: 98b3c15dc5687405e2ee011591a07fe2394584f0cb7c2041aba8a25d09232b69
 
-Package: com.sini.dyyy
-Icon: https://sini921.github.io/repo/sileodepiction/icon/dyyy.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/dyyy/js.json
-Name: DYYY-rootless
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Homepage: https://github.com/huami1314/DYYY
-Section: Tweaks
-Depends: firmware (>= 5.0), mobilesubstrate
-Priority: optional
-Maintainer: huami
-Author: huami
-Architecture: iphoneos-arm64
-Version: 2.2-9-build1653
-Installed-Size: 2184
-Filename: debs/com.sini.dyyy-2.2-9-build1653-rootless.deb
-Size: 460680
-MD5sum: 7231c7835e00179a824fad221d761557
-SHA1: 
-SHA256: 1dc8ae077705233c4ea1d654727633cb30ae8f85e516742c151fc57f5467b3b4
-
 Package: com.sini.enhance
 Name: WeChatEnhance-rootless
 Icon: https://sini921.github.io/repo/sileodepiction/icon/enhance.png
@@ -4765,7 +4907,8 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 0.0.2
 Installed-Size: 184
-Filename: debs/com.sini.filzaswipeselect-0.0.2-rootless.deb
+Filename: debs/com.sini.filzaswipeselect-0.0.2
+-rootless.deb
 Size: 8728
 MD5sum: 3dd3a4350f7b7b14df78d957ac5dc5be
 SHA1: 
@@ -4819,7 +4962,8 @@ Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader (>= 2.2.3), com.m
 Architecture: iphoneos-arm64
 Version: 1.1.3
 Installed-Size: 2040
-Filename: debs/com.sini.flora-1.1.3-rootless.deb
+Filename: debs/com.sini.flora-1.1.3
+-rootless.deb
 Size: 1644524
 MD5sum: 7a36ba8a378d39018d4d9f0a8982a6fd
 SHA1: 
@@ -5116,7 +5260,8 @@ Author: b4db1r3
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, ws.hbang.common (>= 1.17)
 icon: https://sini921.github.io/repo/sileodepiction/icon/kuku.png
-Filename: debs/com.sini.kuku-1.5-rootless.deb
+Filename: debs/com.sini.kuku-1.5
+-rootless.deb
 Size: 254460
 MD5sum: 4107384e5780a727726a0f1c0a02b33b
 SHA1: 
@@ -6049,7 +6194,9 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 0.0.1
 Installed-Size: 168
-Filename: debs/com.sini.staypro-0.0.1-rootless.deb
+Filename: debs/com.sini.staypro
+-0.0.1
+-rootless.deb
 Size: 3544
 MD5sum: fe120eaf991b0e607ee64253c26960a9
 SHA1: 
