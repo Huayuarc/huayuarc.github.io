@@ -1422,6 +1422,40 @@ MD5sum: cbe9ec3b6274077988ba2c7d8159e1f8
 SHA1: 
 SHA256: 103fc91306350677b510ef73f43b10f9c084ead987c7cfd153415dce8a669224
 
+Package: com.be-huge.insulation
+Name: insulation-roothide
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 0.1.21
+icon: https://huayuarc.github.io/icon/Insulation.png
+Installed-Size: 844
+Filename: debs/com.be-huge.insulation-0.1.21-roothide.deb
+Size: 110172
+MD5sum: c4df4f7596d441e51c803a63af6cce2b
+SHA1: 
+SHA256: f0769cc202ace90c699202d1b0be1d2ad466826434a025f417233cbc3c957476
+
+Package: com.be-huge.insulation
+Name: insulation-rootless
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64
+Version: 0.1.21
+icon: https://huayuarc.github.io/icon/Insulation.png
+Installed-Size: 844
+Filename: debs/com.be-huge.insulation-0.1.21-rootless.deb
+Size: 112792
+MD5sum: ecdb42d18c1156f03c9e4481a35baed9
+SHA1: 
+SHA256: 9c33b25ffc112232b5357f9a89cd08fd966facbeb68906f4be6d41da5bd00029
+
 Package: com.brend0n.nopassafterrespringsafe
 Name: NoPassAfterRespring (Safe)-roothide
 Depends: mobilesubstrate
