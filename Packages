@@ -184,6 +184,23 @@ MD5sum: ae1ffea1bf1db0fe486b4cbd79777410
 SHA1: 
 SHA256: 9c99927f5e284377253a6668656b82c1520324f7b716626e087cf3d1f0279619
 
+Package: ayao.airpodsautonoise
+Name: AirPodsAutoNoise-rootless
+Description: AirPods Pro 系列自动降噪稳定版。仅注入 SpringBoard，识别支持降噪/通透的 AirPods 后自动切主动降噪；播放停止回通透仅在信号可靠时触发。
+Maintainer: ayao
+Author: ayao
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.0
+icon: https://huayuarc.github.io/icon/AirPods.jpg
+Installed-Size: 380
+Filename: debs/ayao.airpodsautonoise-1.0.0-rootless.deb
+Size: 50068
+MD5sum: e8de7f1d27ff6262f4d8defcab0e864d
+SHA1: 
+SHA256: d62a51960ef5bb450f1e574cdec14a07296c87c0a7a6583fe020a2848a63e15a
+
 Package: callshidevoicemailios
 Name: 隐藏语音留言-roothide
 Author: z
