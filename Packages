@@ -4193,8 +4193,7 @@ Name: Alpine-rootless
 Author: MTAC
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/alpine/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/alpine.png
-Filename: debs/com.sini.alpine-1.4
--rootless.deb
+Filename: debs/com.sini.alpine-1.4-rootless.deb
 Size: 601652
 MD5sum: 522822805c3c7894dc72ff0df304878a
 SHA1: 
@@ -4301,8 +4300,7 @@ Depends: mobilesubstrate
 Section: Tweaks
 Architecture: iphoneos-arm64
 icon: https://sini921.github.io/repo/sileodepiction/icon/auto.png
-Filename: debs/com.sini.autoscroll15-1.0.0
--rootless.deb
+Filename: debs/com.sini.autoscroll15-1.0.0-rootless.deb
 Size: 5348
 MD5sum: 6adc9056469985db7501a8f8815046b6
 SHA1: 
@@ -5141,8 +5139,7 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 0.0.2
 Installed-Size: 184
-Filename: debs/com.sini.filzaswipeselect-0.0.2
--rootless.deb
+Filename: debs/com.sini.filzaswipeselect-0.0.2-rootless.deb
 Size: 8732
 MD5sum: b0ec3c18e6e6520f28b48a3affc31501
 SHA1: 
@@ -5197,8 +5194,7 @@ Architecture: iphoneos-arm64e
 Version: 1.1.3
 Installed-Size: 2040
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.sini.flora-1.1.3
--roothide.deb
+Filename: debs/com.sini.flora-1.1.3-roothide.deb
 Size: 1643096
 MD5sum: 541b55ff276961be26928b39399a158a
 SHA1: 
@@ -5216,8 +5212,7 @@ Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader (>= 2.2.3), com.m
 Architecture: iphoneos-arm64
 Version: 1.1.3
 Installed-Size: 2040
-Filename: debs/com.sini.flora-1.1.3
--rootless.deb
+Filename: debs/com.sini.flora-1.1.3-rootless.deb
 Size: 1644632
 MD5sum: deee3988992ada91298e9ff3f90edd09
 SHA1: 
@@ -5513,8 +5508,7 @@ Author: b4db1r3
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, ws.hbang.common (>= 1.17)
 icon: https://sini921.github.io/repo/sileodepiction/icon/kuku.png
-Filename: debs/com.sini.kuku-1.5
--rootless.deb
+Filename: debs/com.sini.kuku-1.5-rootless.deb
 Size: 254460
 MD5sum: 4107384e5780a727726a0f1c0a02b33b
 SHA1: 
@@ -6376,9 +6370,7 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 0.0.1
 Installed-Size: 168
-Filename: debs/com.sini.staypro
--0.0.1
--rootless.deb
+Filename: debs/com.sini.staypro-0.0.1-rootless.deb
 Size: 3544
 MD5sum: fe120eaf991b0e607ee64253c26960a9
 SHA1: 
@@ -8751,6 +8743,22 @@ Size: 3792
 MD5sum: bff45805dcbe9ca6c03c19325b6619d1
 SHA1: 
 SHA256: 16e36273334f03bb2c91d489f486aaee903e91ae97ad1f6423413d32ff2c3f93
+
+Package: kr.xsf1re.vnodebypass
+Architecture: iphoneos-arm64
+Name: Vnodebypass-rootless
+Version: 0.4.3
+Description: 苏苏编译并汉化，替换原本控制中心图标。仅在需要时开启，不要常开！用于隐藏越狱文件以绕过检测的工具。（仅支持iOS15-16系统Dopamine2越狱）
+Author: XsF1re, ichitaso, level3tjg <xuanhua880@gmail.com>
+Section: System
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
+Maintainer: alias20 <xuanhua880@gmail.com>
+Filename: debs/kr.xsf1re.vnodebypass-0.4.3-rootless.deb
+Size: 67516
+MD5sum: eb49a5b4ff7e474d2e9714738b08165b
+SHA1: 
+SHA256: 93b8c2ad44fc180a82dd7df24e53f23eae750febdb08c16a61751aa5559097b4
 
 Package: libskittycolor
 Version: 1.0
