@@ -2364,6 +2364,40 @@ MD5sum: 3b6fda9d359219b6827755d6d56ab251
 SHA1: 
 SHA256: 672b814c5aaa967c24a6e559a25e200bd2e6a84dba596a6ca60c8dd314c54bc3
 
+Package: com.huayuarc.lt-zj-noads
+Name: 联通智家 NoAds-roothide
+Author: Huayuarc <xuanhua880@gmail.com>
+Description: 联通智家去除启动广告
+Depends: mobilesubstrate
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+icon: https://huayuarc.github.io/icon/ltzj.jpg
+Installed-Size: 216
+Filename: debs/com.huayuarc.lt-zj-noads-0.0.1-roothide.deb
+Size: 4056
+MD5sum: cf142facaba5b73efcca3c700e82e11e
+SHA1: 
+SHA256: f17ba40dca86d082d351557564c335f7c81fc7e1ec9ae5d6334a11b87e8683c3
+
+Package: com.huayuarc.lt-zj-noads
+Name: 联通智家 NoAds-rootless
+Author: Huayuarc <xuanhua880@gmail.com>
+Description: 联通智家去除启动广告
+Depends: mobilesubstrate
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.1
+icon: https://huayuarc.github.io/icon/ltzj.jpg
+Installed-Size: 216
+Filename: debs/com.huayuarc.lt-zj-noads-0.0.1-rootless.deb
+Size: 4144
+MD5sum: 474c451fbd2dd9682831ab020cf2a807
+SHA1: 
+SHA256: 26989574b9edd58aa871650fa73cd26474603f97ee8c5d6d2582996214a87d2f
+
 Package: com.huayuarc.swipeextenderx
 Version: 1.0
 Section: Tweaks
