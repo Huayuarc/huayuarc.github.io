@@ -70,6 +70,23 @@ MD5sum: 5629298a15af5a2d07d9db058d82a672
 SHA1: 
 SHA256: de66efab51cfc72098f7e7149ce6e18eea0ae6eacacd1da12c31d0305339ced2
 
+Package: ai-config-gui
+Name: AI-Config-GUI-rootless
+Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，修复roothide闪退问题.
+Maintainer: DaFei
+Author: DaFei
+Section: Utilities
+Depends: firmware (>= 14.0), libvterm0,libvterm-bin
+Architecture: iphoneos-arm64
+Version: 3.3.1
+Installed-Size: 680
+Icon: file:///Applications/ClaudeAuth.app/AppIcon60x60@2x.png
+Filename: debs/ai-config-gui-3.3.1-rootless.deb
+Size: 131272
+MD5sum: 23706d5127f22b38abb20e13e6af9501
+SHA1: 
+SHA256: 86149fe02dc343d6cb7dd0dcc48827a5948daba79f7942162d6398eaaaf223fc
+
 Package: aweme.x
 Conflicts: com.xx.dyhook
 Replaces: com.xx.dyhook
@@ -201,6 +218,50 @@ Size: 2520
 MD5sum: 475e22a30c11f68605627321737681ac
 SHA1: 
 SHA256: d56735df0f9ac591263cf994fc43007b7d97c7baf25747c6eb59e77d46cfa641
+
+Package: claude-code-roothide
+Name: Claude Code-roothide
+Version: 2.1.19-1
+Architecture: iphoneos-arm64e
+Description: Claude Code CLI for iOS 人工智能 在越狱iPhone 上本 地运行Claude Code终端执行claude-auth以开始认证 配置 终端执行 claude以开始使用 可以配置 DeepSeek模型API和第三方模型API
+Maintainer: Bryan
+Author: Anthropic (iOS package by Bryan) DaFei(修改优化)
+Section: Development
+Depends: firmware (>= 14.0), zsh, ldid
+Conflicts: com.anthropic.claude-code-beta
+Provides: claude-code
+Tag: purpose::console, role::developer
+Homepage: https://claude.ai
+Depiction: https://github.com/anthropics/claude-code
+SileoDepiction: https://github.com/anthropics/claude-code
+Installed-Size: 142528
+Filename: debs/claude-code-roothide-2.1.19-1-roothide.deb
+Size: 28672096
+MD5sum: 38be193a12222b3285a08751d358d5fc
+SHA1: 
+SHA256: c56a79489894e7637ea52808e591fe95ef01362536de4ada031c0bf464d67f5d
+
+Package: claude-code-rootless
+Name: Claude Code-rootless
+Version: 2.1.19-1
+Architecture: iphoneos-arm64
+Description: Claude Code CLI for iOS 人工智能 在越狱iPhone 上本 地运行Claude Code终端执行claude-auth以开始认证 配置 终端执行 claude以开始使用 可以配置 DeepSeek模型API和第三方模型API
+Maintainer: Bryan
+Author: Anthropic (iOS package by Bryan) DaFei(修改优化)
+Section: Development
+Depends: firmware (>= 14.0), zsh, ldid
+Conflicts: com.anthropic.claude-code-beta
+Provides: claude-code
+Tag: purpose::console, role::developer
+Homepage: https://claude.ai
+Depiction: https://github.com/anthropics/claude-code
+SileoDepiction: https://github.com/anthropics/claude-code
+Installed-Size: 142528
+Filename: debs/claude-code-rootless-2.1.19-1-rootless.deb
+Size: 28675312
+MD5sum: 01a614f14e0a7aa2cc717dae9731980b
+SHA1: 
+SHA256: 156ff5bd376dfa98e22783aa607638ac1ee4e2893a71da0bc0fbc4626ae93d51
 
 Package: cn.llld.2playerbj
 Name: 隐藏播放器通知背景2-roothide
@@ -484,40 +545,59 @@ MD5sum: b6f3386c93af31fa6b89487742d2ed20
 SHA1: 
 SHA256: 69067806ae4a2b9a03264776bea33d70484457058b4ddf3e37c526ff7d872784
 
-Package: codex-ios
-Name: codex-ios-roothide
-Version: 0.134.0-1
+Package: codex-ios-roothide
+Name: Codex-ios-roothide
+Version: 0.134.0-2
 Section: Development
 Priority: optional
 Architecture: iphoneos-arm64e
 Maintainer: DaFei
-Depends: firmware (>= 13.0), nodejs22-ios (>= 22.12.0), ldid
+Depends: firmware (>= 14.0), nodejs22-ios-roothide (>= 22.12.0), ldid
 Description: OpenAI Codex CLI for iOS arm64 - AI coding agent in your terminal
  OpenAI Codex CLI ported to iOS arm64 (aarch64-apple-ios).
  An AI-powered coding agent that runs directly in your terminal.
  .
  Usage / 使用方法:
-   1. Run 'codex-auth' to configure API key and endpoint
-      运行 codex-auth 配置 API 密钥和接口地址
-   2. Run 'codex' to enter interactive mode
-      运行 codex 进入交互模式
-   3. Or use 'codex exec "your prompt"' for non-interactive mode
-      或用 codex exec "提示词" 进行非交互式调用
- .
+ 1. Run 'codex' to enter interactive mode
+ 运行 codex 进入交互模式
+ 2. Or use 'codex exec "your prompt"' for non-interactive mode
+ 或用 codex exec "提示词" 进行非交互式调用
+ 3.运行"codex"后可在jb目录下的var/mobile/codex里面进行配置修改api接口
  Features / 特性:
-   - Native arm64 binary, no emulation / 原生 arm64 二进制
-   - Works in NewTerm2/3 and SSH / 支持 NewTerm2/3 和 SSH 终端
-   - Supports custom API proxy / 支持自定义代理接口
-   - codex-update for safe upgrades / codex-update 安全升级
- .
- Requires network access and an OpenAI-compatible API key.
- 需要网络连接和 OpenAI 兼容的 API 密钥。
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/codex-ios-0.134.0-1-roothide.deb
-Size: 22154728
-MD5sum: 7d6224ccf6db9a27481dbdde2aa79c24
+ - Native arm64 binary, no emulation / 原生 arm64 二进制
+ - Works in NewTerm2/3 and SSH / 支持 NewTerm2/3 和 SSH 终端 只能接受responses端点的OpenAI 兼容的 API 密钥(二进制文件限制-不兼容的需要自己搭代理服务器翻译)。
+Filename: debs/codex-ios-roothide-0.134.0-2-roothide.deb
+Size: 22390912
+MD5sum: cac3b7245523ce43162947b76d3d5d45
 SHA1: 
-SHA256: 6aa8105901b862ffb864ee86be6a28ab6485e6ed5a3551d908e9756a65299ae2
+SHA256: 4e9e6f2cb7c0847940b84133e40251c0400dcfefe1c6b2fb6203b8b61436f206
+
+Package: codex-ios-rootless
+Version: 0.134.0-2
+Name: Codex-ios-rootless
+Section: Development
+Priority: optional
+Architecture: iphoneos-arm64
+Maintainer: DaFei
+Depends: firmware (>= 14.0), nodejs22-ios-rootless (>= 22.12.0), ldid
+Description: OpenAI Codex CLI for iOS arm64 - AI coding agent in your terminal
+ OpenAI Codex CLI ported to iOS arm64 (aarch64-apple-ios).
+ An AI-powered coding agent that runs directly in your terminal.
+ .
+ Usage / 使用方法:
+ 1. Run 'codex' to enter interactive mode
+ 运行 codex 进入交互模式
+ 2. Or use 'codex exec "your prompt"' for non-interactive mode
+ 或用 codex exec "提示词" 进行非交互式调用
+ 3.运行"codex"后可在jb目录下的var/mobile/codex里面进行配置修改api接口
+ Features / 特性:
+ - Native arm64 binary, no emulation / 原生 arm64 二进制
+ - Works in NewTerm2/3 and SSH / 支持 NewTerm2/3 和 SSH 终端 只能接受responses端点的OpenAI 兼容的 API 密钥(二进制文件限制-不兼容的需要自己搭代理服务器翻译)。
+Filename: debs/codex-ios-rootless-0.134.0-2-rootless.deb
+Size: 22390196
+MD5sum: b98babd30222ec0a1429128c0aa66b60
+SHA1: 
+SHA256: 19c1e09880c363a69710241f9c3c1744bc0cde32b98ebc8057825ebbad88d9bb
 
 Package: com.0xkuj.safarix
 Version: 1.9.9.1
@@ -1062,26 +1142,6 @@ Size: 624964
 MD5sum: 94b5416b04dc3314536b83a85ad3c150
 SHA1: 
 SHA256: 99c578dc4ede9c4ca06005b70770d54f81aa4059a72f7e9a8e8103aaa9279a23
-
-Package: com.anthropic.claude-code
-Version: 2.1.45-1
-Architecture: iphoneos-arm64e
-Name: claude-code-roothide
-Maintainer: 大飞
-Installed-Size: 166456
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 15.0), zsh, ldid
-Conflicts: com.anthropic.claude-code-beta
-Provides: claude-code
-Section: Development
-Homepage: https://claude.ai
-Description: Claude Code CLI for iOS 人工智能  在越狱iPhone 上本地运行 Claude Code  终端执行 claude-auth以开始认证配置   终端执行 claude以开始使用  可以配置DeepSeek模型API 和  第三方模型API
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.anthropic.claude-code-2.1.45-1-roothide.deb
-Size: 34825980
-MD5sum: 4dfffcbeac3393557ffc6aea35991ce6
-SHA1: 
-SHA256: e3c4f94f03c4cf77581be82d4abcf3bba754f3fbe050fd1c831c806978b7397a
 
 Package: com.ayao.doubaopowerbutton
 Name: DoubaoPowerButton-rootless-roothide
@@ -8336,6 +8396,24 @@ MD5sum: 93a0a49f20995589ddaacdb7148f9a76
 SHA1: 
 SHA256: 4f085c824fd3b82114fea4acbc113428e8a1a4412e853dacad2f835dd7835fb2
 
+Package: com.sini921.griddy
+Name: Griddy-roothide
+icon: https://sini921.github.io/repo/sileodepiction/icon/griddy.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/griddy/js.json
+Description: 将桌面图标放在任何你想要的地方！
+Maintainer: mikifp & SINI
+Author: mikifp & SINI
+Section: 越狱插件
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0.5-1
+Installed-Size: 428
+Filename: debs/com.sini921.griddy_1.0.5-1_iphoneos-arm64e.deb
+Size: 42000
+MD5sum: 4ccf7bafe1494adac22d668e6b9c797e
+SHA1: 
+SHA256: c6a975b00f7b619835c193802f1043804e73ffd10d305833913515302f5af326
+
 Package: com.sini921.indicators
 Name: Indicators-roothide
 Icon: https://sini921.github.io/repo/sileodepiction/icon/indicators.png
@@ -11000,6 +11078,50 @@ Size: 23721564
 MD5sum: 5921823beb6b5c890f37fd185e64c9d3
 SHA1: 
 SHA256: 11e8f0006f893392f1cc0d62f94389bd5cd34ac06b485370d9f0aaf62d4807f3
+
+Package: nodejs22-ios-roothide
+Name: Nodejs22-ios-roothide
+Version: 22.12.0-27
+Section: Development
+Priority: optional
+Architecture: iphoneos-arm64e
+Maintainer: DaFei
+Depends: firmware (>= 14.0), ldid
+Description: Node.js 22.12.0 for iOS arm64 (side-by-side as node22)
+ Node.js v22.12.0 runtime compiled for iOS arm64.
+ Installs as node22/npm22/npx22 to avoid conflicts with other Node versions.
+ Includes bundled npm 10.9.0 and pre-signed with iOS entitlements.
+ .
+ Node.js 22.12.0 iOS arm64 运行时。
+ 以 node22/npm22/npx22 安装，不与其他 Node 版本冲突。
+ 内含 npm 10.9.0.
+Filename: debs/nodejs22-ios-roothide-22.12.0-27-roothide.deb
+Size: 23861952
+MD5sum: c23a0ccfe0ae4ea41f079808a8d4a484
+SHA1: 
+SHA256: 97d9178b42b770d739036f4d0cbc215799011f1c8598f57784edb2a029193902
+
+Package: nodejs22-ios-rootless
+Version: 22.12.0-27
+Name: Nodejs22-ios-rootless
+Section: Development
+Priority: optional
+Architecture: iphoneos-arm64
+Maintainer: DaFei
+Depends: firmware (>= 14.0), ldid
+Description: Node.js 22.12.0 for iOS arm64 (side-by-side as node22)
+ Node.js v22.12.0 runtime compiled for iOS arm64.
+ Installs as node22/npm22/npx22 to avoid conflicts with other Node versions.
+ Includes bundled npm 10.9.0 and pre-signed with iOS entitlements.
+ .
+ Node.js 22.12.0 iOS arm64 运行时。
+ 以 node22/npm22/npx22 安装，不与其他 Node 版本冲突。
+ 内含 npm 10.9.0.
+Filename: debs/nodejs22-ios-rootless-22.12.0-27-rootless.deb
+Size: 23861908
+MD5sum: d6f6c5c8d46c0ff84b0b541c56829a06
+SHA1: 
+SHA256: 5f00ce413dab2b06535d636c86529bb72a0b7551446c916c05fb8061556ee021
 
 Package: nolowpowermode30secautolock
 Name: NoLowPowerMode30SecAutoLock-roothide
