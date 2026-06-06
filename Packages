@@ -100,12 +100,12 @@ Architecture: iphoneos-arm64e
 Version: 2.3.9-3
 Installed-Size: 9976
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Filename: debs/aweme.x-2.3.9-3-roothide.deb
-Size: 3148120
-MD5sum: a65f4430dc410224daff4cf7011ef28c
+Size: 3149436
+MD5sum: 4f1eafe0dd94f0882e9d91af77ddd4af
 SHA1: 
-SHA256: ce9a042e63cb5e81148ddd9da9f8a824e00a531fee2361d1a0ce81e7ec4984cc
+SHA256: 1e2abaed183fb8fecb3e4cc318436dcaf6ba613e4837752bc43e2e0ee06ee9a1
 
 Package: aweme.x
 Conflicts: com.xx.dyhook
@@ -119,12 +119,12 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 2.3.9-3
 Installed-Size: 9976
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Filename: debs/aweme.x-2.3.9-3-rootless.deb
-Size: 3198788
-MD5sum: 413b5aec0d9086b531cf3e62d6815a18
+Size: 3198636
+MD5sum: cdd7006b52598d05e46947d97c0276b1
 SHA1: 
-SHA256: 97b68ac6085726a9b173c9ee56ad55025ef7c76a18f575790cf9a10ee61035bc
+SHA256: dfc7703ab85c9927ac5d0c13c25a51c88466bfd22c11182df979b7f7b3f10e80
 
 Package: aweme.x
 Conflicts: com.xx.dyhook
@@ -138,12 +138,12 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 2.3.9-6
 Installed-Size: 10472
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Filename: debs/aweme.x-2.3.9-6-rootless.deb
-Size: 3327564
-MD5sum: 251d60bcf3dd9a9ded151862cdd5f349
+Size: 3326776
+MD5sum: 6834bae8d0bec762966fb786ea7bf74d
 SHA1: 
-SHA256: 757c5c477fa1ab085f059c99e0608570d8c58747820b298e21170d91222f7e90
+SHA256: 18e1538925a1b32394d0bad009ac647b27f641df5b0e912ec90ed044aaff8e26
 
 Package: ayao.aipowerbutton
 Name: AiPowerButton-roothide
@@ -1482,12 +1482,13 @@ Section: Tweaks
 Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64
 Version: 0.1.31
+icon: https://huayuarc.github.io/icon/Insulation.png
 Installed-Size: 628
 Filename: debs/com.be-huge.insulation-0.1.31-rootless.deb
-Size: 52972
-MD5sum: d12e15cd377bbcdd85651cb2646a20a1
+Size: 53056
+MD5sum: 4a5f4f021bb3cbbe5179646f4f0199f1
 SHA1: 
-SHA256: 11941416192f5e2705ea3b8e58bf001ce46d2a26098fd7a14501f246de0eea69
+SHA256: a8531adc5d7b890c0950bf7649d53b0acebe931a1adf4d29f386152b4baf955c
 
 Package: com.brend0n.nopassafterrespringsafe
 Name: NoPassAfterRespring (Safe)-roothide
@@ -2377,15 +2378,15 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Priority: optional
 Maintainer: huami
 Author: huami
-Icon: https://huayuarc.github.io/icon/dy.jpg
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Architecture: iphoneos-arm64e
 Version: 2.2-9
 Installed-Size: 2184
 Filename: debs/com.huami.dyyy-2.2-9-roothide.deb
-Size: 460416
-MD5sum: b9e169f3bd63c224b700ba617d8ad0a5
+Size: 460272
+MD5sum: eb14112129efc7c30994d795a28e5c69
 SHA1: 
-SHA256: d5e05d50c580048f7026a3d1bebbc351ea6bc0d69b0ba270fb10edbbdcda878e
+SHA256: d3c6098e12d0273993d57068958706e9ef9278b656689acc9f3f7180a53949ab
 
 Package: com.huami.dyyy
 Name: DYYY-rootless
@@ -2396,15 +2397,15 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Priority: optional
 Maintainer: huami
 Author: huami
-Icon: https://huayuarc.github.io/icon/dy.jpg
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Architecture: iphoneos-arm64
 Version: 2.2-9
 Installed-Size: 2184
 Filename: debs/com.huami.dyyy-2.2-9-rootless.deb
-Size: 459936
-MD5sum: 1422c7802dfefb9e83e35ff141e87829
+Size: 460284
+MD5sum: 5aa035255d67778825429e80077f5721
 SHA1: 
-SHA256: 026fcde7d1a196f900a44a31036ae7f7403a59685adc1da323fcbd2fb0c2c1e0
+SHA256: e1a3872651aabf866929570b6770e070828bc413392c7b1739fc9860bc7900a7
 
 Package: com.huayuarc.cputhermal
 Name: CPUthermal-roothide
@@ -3197,12 +3198,12 @@ Architecture: iphoneos-arm64e
 Version: 1.3-7
 Installed-Size: 448
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Filename: debs/com.netskao.awemefullscreen-1.3-7-roothide.deb
-Size: 191512
-MD5sum: ce4addbd7fc5b2049d9db97f3557a78d
+Size: 191692
+MD5sum: ad6651889e17a5393d86f045e30a29c8
 SHA1: 
-SHA256: e587246c93b5d041be6e8b1c580f5dcdf22ee578abc57dc7a2228d1669caacbd
+SHA256: b303c596bd65967eb89e31ed32b14bcbd9241382be8abf3206160acba6647c9c
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.awemefullscreen
 Package: com.netskao.awemefullscreen
@@ -3215,12 +3216,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.3-7
 Installed-Size: 448
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Filename: debs/com.netskao.awemefullscreen-1.3-7-rootless.deb
-Size: 191780
-MD5sum: f1b1d513ac3cf45d3ab2f007635ec56a
+Size: 191316
+MD5sum: 73a1a63ea3e1e43a084ff8bad9bd1405
 SHA1: 
-SHA256: 665213238335840d8fd9dfa0fcc9c8d1170f18626a3fe455882e100db94f1039
+SHA256: 4b635d602efdd7d9fd71ad1694f42f14b184ec318334d9471e06548bbb753fc9
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ccbadgeclear
 Package: com.netskao.ccbadgeclear
@@ -4546,7 +4547,7 @@ Package: com.sini.awemealwaysshowtime
 Name: AwemeAlwaysShowTime-rootless
 Depends: mobilesubstrate, firmware (>= 12.0)
 Description: 抖音视频显示发布时间
-icon: https://sini921.github.io/repo/sileodepiction/icon/awemealwaysshowtime.png
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/awemealwaysshowtime/js.json
 Maintainer: Nets
 Author: Netskao
@@ -4555,10 +4556,10 @@ Architecture: iphoneos-arm64
 Version: 1.1-1
 Installed-Size: 56
 Filename: debs/com.sini.awemealwaysshowtime-1.1-1-rootless.deb
-Size: 2328
-MD5sum: c567acfbea3d6c4b093f183da6118a58
+Size: 2360
+MD5sum: a76739fe4c4c73293dd35e47af8474d2
 SHA1: 
-SHA256: 454d7e4f5465146a1639d46f0696084f7db4ed851828428f6a284d58867011d0
+SHA256: aecf69fba0909719068a3c84fa74c4c270d01733dbd06a38bb9cf3134cb1995d
 
 Package: com.sini.awemeclearlikes
 Name: AwemeClearLikes-rootless
@@ -4570,19 +4571,19 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.1-2
 Installed-Size: 88
-icon: https://sini921.github.io/repo/sileodepiction/icon/dy.png
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Filename: debs/com.sini.awemeclearlikes-1.1-2-rootless.deb
-Size: 19872
-MD5sum: 3da952cfebb8e207ea054f2dbb2c023f
+Size: 19896
+MD5sum: 55dfb177ef0068c16a9511d95aaf420e
 SHA1: 
-SHA256: 90f405ce19e6a6360192b1ec3c16ffb55e7e96735e9437d1e11f1051f236cba5
+SHA256: d91d450072527324982fe6c30a2e1dd7ff81cf6e6a628fe94b5511656ba85b72
 
 Package: com.sini.awemedisablebar
 Name: AwemeDisableBar-rootless
 Depends: firmware (>= 12.0), mobilesubstrate
 Description: 禁用顶部/底部/右侧选项卡按钮。仅在30.3.0及以上版本上测试
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/awemedisablebar/js.json
-icon: https://sini921.github.io/repo/sileodepiction/icon/dy.png
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Maintainer: Nets
 Author: Netskao
 Section: Tweaks
@@ -4590,10 +4591,10 @@ Architecture: iphoneos-arm64
 Version: 1.1-6
 Installed-Size: 708
 Filename: debs/com.sini.awemedisablebar-1.1-6-rootless.deb
-Size: 304644
-MD5sum: c89f5912712e5f85f47fe8194f3d0d88
+Size: 304788
+MD5sum: 5cf5b36cde68388926e826f127966cd5
 SHA1: 
-SHA256: a2db693f075c65b24be7adde160f7e2a389ca6471c64fc2e8e8241559625d7be
+SHA256: 7e48e25f5e194136ec296afc535e4a33d16c1e1f773b6211b9a8e5021d4c49b2
 
 Package: com.sini.awemedownloadmedia
 Name: AwemeDownloadMedia-rootless
@@ -4605,16 +4606,16 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.1-8
 Installed-Size: 456
-icon: https://sini921.github.io/repo/sileodepiction/icon/dy.png
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Filename: debs/com.sini.awemedownloadmedia-1.1-8-rootless.deb
 Size: 146676
-MD5sum: 4c52dc16400cc9bb9d67ddaa3861792e
+MD5sum: 049a4bb8da15ae0d5751953fafa9a6e7
 SHA1: 
-SHA256: fa78ad8e6f8c2856ec4bb75264b52111318aa69e4e3496e3e9305fe9b02f18c3
+SHA256: 14d42b41fecdcdc205229e68bed52c663c37f38102a2f28cafec88aad38dbd98
 
 Package: com.sini.awemefullscreen
 Name: AwemeFullScreen-rootless
-Icon: https://sini921.github.io/repo/sileodepiction/icon/awemefullscreen.png
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/awemefullscreen/js.json
 Depends: firmware (>= 12.0), mobilesubstrate
 Description: 抖音主页全屏。仅支持35.0.0及以上版本
@@ -4625,16 +4626,16 @@ Architecture: iphoneos-arm64
 Version: 1.3-7
 Installed-Size: 448
 Filename: debs/com.sini.awemefullscreen-1.3-7-rootless.deb
-Size: 191376
-MD5sum: 7a1284f8c4ca4a0a04e3a9823941b818
+Size: 191736
+MD5sum: c479e5860cefac1d3625b66e139949fa
 SHA1: 
-SHA256: 3e50ee61157407713376aec22a67a91d38f21b081b2cf710709d996046a9f5da
+SHA256: 8d16e66b74745c8e88be81b828769ad9d556c7280b85cc6aac92d7d8fa7ba921
 
 Package: com.sini.awemenoads
 Name: AwemeNoAds-rootless
 Depends: firmware (>= 15.0), mobilesubstrate
 Description: 抖音去广告
-icon: https://sini921.github.io/repo/sileodepiction/icon/awemenoads.png
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/awemenoads/js.json
 Maintainer: Nets
 Author: Netskao
@@ -4643,16 +4644,16 @@ Architecture: iphoneos-arm64
 Version: 1.1-3
 Installed-Size: 140
 Filename: debs/com.sini.awemenoads-1.1-3-rootless.deb
-Size: 32688
-MD5sum: 3b630ea6315b8df2e581b876c372d5ef
+Size: 32680
+MD5sum: bc0965ed31abd087d6dcc99fb4ca5ed3
 SHA1: 
-SHA256: e8e96655ee4ea13681b4292fe0958382335f0c22840d83df02d78f39826650cf
+SHA256: d15bd2f39037b37b0327e339ec656b4921b2df135b94d7e07844d5dccc4ef3ae
 
 Package: com.sini.awemesaveemoji
 Name: AwemeSaveEmoji-rootless
 Depends: firmware (>= 12.0), mobilesubstrate
 Description: 抖音保存评论表情符号。仅在32.3.0版本上测试
-icon: https://sini921.github.io/repo/sileodepiction/icon/dy.png
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/awemesaveemoji/js.json
 Maintainer: Nets
 Author: Netskao
@@ -4661,10 +4662,10 @@ Architecture: iphoneos-arm64
 Version: 1.1-2
 Installed-Size: 224
 Filename: debs/com.sini.awemesaveemoji-1.1-2-rootless.deb
-Size: 74864
-MD5sum: 826d333854cf746b330e041610005c3d
+Size: 74888
+MD5sum: e1e68d880582c1014e584d470ba54a7c
 SHA1: 
-SHA256: df4fddc55ae7d67e3ee9cdfd9c44b357667dfd44b769390c3bc7a5fccd49a499
+SHA256: c82ad1bcb04a5e6a860dcb44dacd4ba1416161407c9d9b7652fa163d4e2a31fc
 
 Package: com.sini.awemevideotime
 Name: AwemeVideoTime-rootless
@@ -4676,12 +4677,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.1-2
 Installed-Size: 124
-icon: https://sini921.github.io/repo/sileodepiction/icon/dy.png
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Filename: debs/com.sini.awemevideotime-1.1-2-rootless.deb
-Size: 31652
-MD5sum: 619110ccec2facb6b68c8b9e19145381
+Size: 31716
+MD5sum: 1d4ed4f4c9dc310d406009d31d5bbcda
 SHA1: 
-SHA256: 098b2c96dea5fde89cfcce03654eb5b0f0b88f3c1665691f712d450b005f2259
+SHA256: 4227cfccbe3e427c9b77f5dbf16c38c300ab8306bd3bed38dca5a7f0ce9379b4
 
 Package: com.sini.baiduhook
 Name: 百度去开屏及导出按钮-rootless
@@ -5437,7 +5438,7 @@ SHA256: 764783009a268f8d342329edeb29b23e33daf2c960ada4f31878d56871e86b56
 
 Package: com.sini.dyhook
 Name: DYHook-rootless
-Icon: https://sini921.github.io/repo/sileodepiction/icon/dyhook.png
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/dyhook/js.json
 Description: 仅供学习交流，如有传播；使用者请在24小时内自觉删除。ylr制作投稿
 Maintainer: ylr
@@ -5448,13 +5449,13 @@ Architecture: iphoneos-arm64
 Version: 1.5.5
 Installed-Size: 240
 Filename: debs/com.sini.dyhook-1.5.5-rootless.deb
-Size: 27432
-MD5sum: dde64168177e4f48f65c7b9e21327a25
+Size: 27588
+MD5sum: 9fb2b183cef05798feb649b193277a74
 SHA1: 
-SHA256: 98b3c15dc5687405e2ee011591a07fe2394584f0cb7c2041aba8a25d09232b69
+SHA256: 3804289776bf51d58e5064d59889398ecf32407f5fd61ed112994f5bbccad601
 
 Package: com.sini.dyyy
-Icon: https://sini921.github.io/repo/sileodepiction/icon/dyyy.png
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/dyyy/js.json
 Name: DYYY-roothide
 Description: 仅供学习交流，请在 24 小时内自觉删除。
@@ -5468,10 +5469,10 @@ Architecture: iphoneos-arm64e
 Version: 2.2-9-build1653
 Installed-Size: 2184
 Filename: debs/com.sini.dyyy-2.2-9-build1653-roothide.deb
-Size: 462112
-MD5sum: ed72e1304ef53eee77c5ab9fff9e6bbc
+Size: 463276
+MD5sum: 523b304726c07e7428b072e919ad205e
 SHA1: 
-SHA256: 425eca3294731fc0eb1c5e36f90b19d82a453de41ac3cf1a50d4f78c4fea82e9
+SHA256: c06849368c71dcca93d91444e8b346720548ddbd2b99b5c1720df8a9a12e461a
 
 Package: com.sini.enhance
 Name: WeChatEnhance-rootless
@@ -7633,7 +7634,7 @@ SHA256: cdbf3db15cf74dd77fdd4df3e281bf166a310caf4fda328b4ac07b09715e6316
 
 Package: com.sini.ylr.dyhook
 Name: 抖音聊天列表专用-rootless
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ylr.dyhook.png
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ylr.dyhook/js.json
 Description: 仅供学习交流，如有传播；使用者请在24小时内自觉删除。
 Maintainer: ylr
@@ -7644,10 +7645,10 @@ Architecture: iphoneos-arm64
 Version: 1.5.5
 Installed-Size: 168
 Filename: debs/com.sini.ylr.dyhook-1.5.5-rootless.deb
-Size: 9228
-MD5sum: cb6103ae67580bdc0e856e1b45d36a6c
+Size: 9264
+MD5sum: a2b120cdfc7071c20fbc69ae6848b03b
 SHA1: 
-SHA256: 9abfcf222e43da23b953e14ba85b210077367474b3c6d86189497ea15599a050
+SHA256: 48ad5f4f514dc4f0fb721189fff9cb1d4c5c8213a37dccaa1ae91dbc35a88cad
 
 Package: com.sini.ysbrowserhook
 Name: 亚瑟浏览器Pro-rootless
