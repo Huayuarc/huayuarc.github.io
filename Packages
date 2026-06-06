@@ -1578,6 +1578,40 @@ MD5sum: 315c86f47c927b6baad5a87d62c7c538
 SHA1: 
 SHA256: 0abce4454386005fb35c95e26fb96e15cfa0e0e6ef7930afe93c78f5e62419c1
 
+Package: com.colorblack.amap.nosplashad
+Name: Gaode-NoAd-roothide
+Depends: mobilesubstrate
+Description: 去掉高德开屏广告、去掉中间升级弹窗  QQ群 205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Icon: https://huayuarc.github.io/icon/gaode.jpg
+Version: 1.0.1
+Installed-Size: 172
+Filename: debs/com.colorblack.amap.nosplashad-1.0.1-roothide.deb
+Size: 6852
+MD5sum: 40eb52ffca92303d3561487861c96f17
+SHA1: 
+SHA256: 43661bc7260d02040676df302c63cb8085ebf8d880d6c10a6356cad42e97ea18
+
+Package: com.colorblack.amap.nosplashad
+Name: Gaode-NoAd-rootless
+Depends: mobilesubstrate
+Description: 去掉高德开屏广告、去掉中间升级弹窗  QQ群 205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Architecture: iphoneos-arm64
+Icon: https://huayuarc.github.io/icon/gaode.jpg
+Version: 1.0.1
+Installed-Size: 172
+Filename: debs/com.colorblack.amap.nosplashad-1.0.1-rootless.deb
+Size: 6900
+MD5sum: d83e6c7a64397fc9e7723b38eafb1fb2
+SHA1: 
+SHA256: 9e6b6d5b3b842d39f57079502c17d597da4d7d1e0c5532c4385b0f0d2337400c
+
 Package: com.colorblack.baidumapadblock
 Name: BaiduMapAdBlock-rootless
 Depends: mobilesubstrate
@@ -4047,6 +4081,27 @@ MD5sum: 943bb1a443f0a266429a139dc71101ef
 SHA1: 
 SHA256: 07842dfad93c82e7d3ead85199aae8180d6f14bcf8905fb62d94670b8d3952e0
 
+Package: com.randy420.tools
+Name: 420 Tools-rootless
+Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.420Tools保留了我所有调整的首选项，以及我调整的共享文件。
+Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
+Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
+Homepage: https://theemeraldisle.family
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Author: Randy420 <randy.skinner@hotmail.com>
+Section: System
+Icon: https://huayuarc.github.io/icon/flex.jpg
+Tag: role::hacker
+Replaces: com.randy420.encrypt
+Architecture: iphoneos-arm64
+Version: 2.3.9
+Installed-Size: 2392
+Filename: debs/com.randy420.tools-2.3.9-rootless.deb
+Size: 550488
+MD5sum: 14961999773b8cb17dbc29b9b691f572
+SHA1: 
+SHA256: 27b83381a91639fcb296046f85be04a97d53b64db4109814403e24876b15a629
+
 Package: com.simon.ccmusic
 Name: 控制中心音乐模块动画-roothide
 Depends: mobilesubstrate, firmware (>= 13.0)
@@ -5474,24 +5529,6 @@ MD5sum: 523b304726c07e7428b072e919ad205e
 SHA1: 
 SHA256: c06849368c71dcca93d91444e8b346720548ddbd2b99b5c1720df8a9a12e461a
 
-Package: com.sini.enhance
-Name: WeChatEnhance-rootless
-Icon: https://sini921.github.io/repo/sileodepiction/icon/enhance.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/enhance/js.json
-Description: 微信插件，支持聊天按钮布局自定义等。
-Maintainer: 茶 愫
-Author: 茶 愫
-Section: Tweaks
-Depends: mobilesubstrate
-Architecture: iphoneos-arm64
-Version: 1.6-5
-Installed-Size: 1196
-Filename: debs/com.sini.enhance-1.6-5-rootless.deb
-Size: 343132
-MD5sum: d77a9d04476cba4fc84901bea46cc928
-SHA1: 
-SHA256: a333cb2bf4212fd70b95ae06e6faf7b5c0494ead2050756c7f5744f8226dbe69
-
 Package: com.sini.fightenegery
 Name: 多彩壁纸Pro-rootless
 Description: 多彩壁纸Pro
@@ -5667,12 +5704,12 @@ Author: x✨
 Name: 高德地图优化-rootless
 Architecture: iphoneos-arm64
 Section: Tweaks
-icon: https://sini921.github.io/repo/sileodepiction/icon/gddt.png
+Icon: https://huayuarc.github.io/icon/gaode.jpg
 Filename: debs/com.sini.gaodehook-1.0.4-rootless.deb
-Size: 357880
-MD5sum: 5a967704218aa632478355eb73bc2343
+Size: 357968
+MD5sum: 9d0cfed55eb7ca108d3ec26f8e0b4ab7
 SHA1: 
-SHA256: b62286f4ac81e6a122cdb87968354acee827d1608f1d81a0e61637a622e49bd1
+SHA256: 627d1f3c5e7402bc66b942362f38e30901ee0db97470abae92a5dae8a8ddff11
 
 Package: com.sini.hidescreenshotpreview
 Version: 1.2-1
@@ -7022,42 +7059,6 @@ Size: 6125532
 MD5sum: 19d8203d80055c81be4dc7ff4ff05fc9
 SHA1: 
 SHA256: 3f2d8f3768a7eef041ffc43550b84994b3ef6b62eb740455c328aea879e7650e
-
-Package: com.sini.themebox
-Icon: https://sini921.github.io/repo/sileodepiction/icon/themebox.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/themebox/js.json
-Name: 主题盒子-rootless
-Version: 2.3.1
-Description: 微信主题盒子
-Maintainer: WeChat
-Author: WeChat
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Filename: debs/com.sini.themebox-2.3.1-rootless.deb
-Size: 5419484
-MD5sum: 3b63d33444a3a3b5be9122a3e6294d43
-SHA1: 
-SHA256: 5d18c650abf10e99fada9455abe861a8f171b0d1c3e28fbd7121bfde4ef9a3fa
-
-Package: com.sini.themepro
-Icon: https://sini921.github.io/repo/sileodepiction/icon/themepro.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/themepro/js.json
-Architecture: iphoneos-arm64
-Name: ThemePro-rootless
-Version: 4.6.8
-Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
-Author: Shelby <mm13299079785@gmail.com>
-Section: Tweaks
-Depends: mobilesubstrate
-Conflicts: ThemePro
-Replaces: ThemePro
-Maintainer: Shelby <Shelby@yeah.net>
-Filename: debs/com.sini.themepro-4.6.8-rootless.deb
-Size: 6546436
-MD5sum: 3f99e17573ff9f2ae2617c18301bd848
-SHA1: 
-SHA256: 602c85313e64c17a9944dffe180da7281bc1464d2762b352afc6375f2b9ba0d3
 
 Package: com.sini.tie-gesture
 Name: TieGesture-rootless
@@ -11367,6 +11368,26 @@ Size: 15226088
 MD5sum: b677292715fd447d417df88b428e6546
 SHA1: 
 SHA256: 11e9db72ab46a04739f5fd7a22d05dc94218df6b023aca9f219e9101ca76f87b
+
+Package: ru.rj.ftt
+Name: Flex To Theos-rootless
+Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
+Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.- Use 'ftt -?' For a full list of options.
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Homepage: https://theemeraldisle.family
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Section: System
+Icon: https://huayuarc.github.io/icon/flex.jpg
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Architecture: iphoneos-arm64
+Version: 1.4
+Installed-Size: 1300
+Filename: debs/ru.rj.ftt-1.4-rootless.deb
+Size: 356308
+MD5sum: a5c3a5a70de283dec878cebede3e2f8e
+SHA1: 
+SHA256: 37b4ce8c5314754e0ec6e3a1b4c7c37ec1ece6d52846a822724f4b10969a6ad8
 
 Package: uncar
 Name: uncar-rootless
