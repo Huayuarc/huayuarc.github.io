@@ -829,12 +829,12 @@ Depends: mobilesubstrate
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
 Name: 黄白助手(微信插件)-rootless
 Author: HuangBai <QQ:1343309363@qq.com>
-icon: https://huayuarc.github.io/icon/wx.jpg
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Filename: debs/com.HBWechatHelper.ailun-2.1.2-rootless.deb
-Size: 11026140
-MD5sum: 41bfa2e9d7c413b729c840d818a6f85b
+Size: 11045428
+MD5sum: 3fce55d21053545871447882c6542381
 SHA1: 
-SHA256: bf4746adb67c843d9c99b1cb7f6333c0936c3101f5e55a1b3871d0406bb047ad
+SHA256: 695acf840fc66ee738eb440bb70f24f68673070a81364d60d12120d30a4c6796
 
 Package: com.abc3.vip.appsyncunified
 Version: 112.0
@@ -5401,7 +5401,7 @@ SHA1:
 SHA256: e82b0688ec185e202d4b6e1f092c2c4318eb6ec9c36fbb6d2d902150358c3d84
 
 Package: com.sini.dumpapp.wechat
-Icon: https://sini921.github.io/repo/sileodepiction/icon/dumpapp.wechat-rootless.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/dumpapp.wechat-rootless/js.json
 Version: 2.4.1
 Section: Tweaks
@@ -5413,10 +5413,10 @@ Name: 锤子助手-rootless
 Author: DumpApp
 Description: 锤子助手
 Filename: debs/com.sini.dumpapp.wechat-2.4.1-rootless.deb
-Size: 5625876
-MD5sum: 50311c21f50ada1302cff6bd59eec155
+Size: 5628864
+MD5sum: 28e910b66b761353299febadf9e4c7d4
 SHA1: 
-SHA256: fd451d4edd0e13de290afa0e7e41303a4bd8404f73e34ea87594e7118191801a
+SHA256: 074c084d97a92d3a8176aba1c69316ca62a99ff6b66982a86f545f7a3fb53c69
 
 Package: com.sini.dumpdecrypter
 Name: DumpDecrypter-rootless
@@ -7402,7 +7402,7 @@ SHA256: 424e94f5e846a30d839d352ca601cbb54e74d9b19fa7350e7d4652cf81e57340
 
 Package: com.sini.wechat-pop-vc
 Name: WeChatPopVC-rootless
-Icon: https://sini921.github.io/repo/sileodepiction/icon/wechat-pop-vc.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/wechat-pop-vc/js.json
 Description: 微信全局右滑手势，弥补官方只能屏幕侧边返回上一页局限性，提高用户体验。
 Maintainer: be-huge
@@ -7413,10 +7413,10 @@ Architecture: iphoneos-arm64
 Version: 0.0.4
 Installed-Size: 232
 Filename: debs/com.sini.wechat-pop-vc-0.0.4-rootless.deb
-Size: 22000
-MD5sum: c884ccb752f8ac52077e3ede3c688a6c
+Size: 22052
+MD5sum: ec8ec129817658669f09dcf1cc0b7d96
 SHA1: 
-SHA256: e62068f13b38152716020d312c39fc2fa09ffb3b6605ccce1270b8a57f1bf6cb
+SHA256: 2af2f2bc4b42aa836ac665091751c68fd3dc185c7024c249e1ed730daf99f9ca
 
 Package: com.sini.wechat-push-msg-page
 Name: WechatPushMsgPage-rootless
@@ -7425,20 +7425,20 @@ Maintainer: be-huge
 Author: be-huge
 Section: Tweaks
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Icon: https://sini921.github.io/repo/sileodepiction/icon/wechat-push-msg-page.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/wechat-push-msg-page/js.json
 Architecture: iphoneos-arm64
 Version: 0.0.5
 Installed-Size: 232
 Filename: debs/com.sini.wechat-push-msg-page-0.0.5-rootless.deb
-Size: 23372
-MD5sum: 1d006f9d96a9fb8ed8cd0776580f22b1
+Size: 23396
+MD5sum: 0d4b3a422893911974c4727ee7bc7e3c
 SHA1: 
-SHA256: d0514fd8a45eb949dbeac5157ef2a7cc79ff87b8c8eeb5dcf2f68461c86230df
+SHA256: 4f0ffdd62758c0ea94113fcc47c64e052fe4da98e4df37f8c74ee9d9be6c1fcc
 
 Package: com.sini.wechatnotiavatar
 Name: WeChatNotiAvatar-rootless
-Icon: https://sini921.github.io/repo/sileodepiction/icon/wechatnotiavatar.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/wechatnotiavatar/js.json
 Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
 Description: 使用iOS15+API显示微信应用程序的通知头像
@@ -7449,14 +7449,14 @@ Architecture: iphoneos-arm64
 Version: 1.3-1
 Installed-Size: 1228
 Filename: debs/com.sini.wechatnotiavatar-1.3-1-rootless.deb
-Size: 243280
-MD5sum: 6a01526f3560a52e726961773d7d30ea
+Size: 243616
+MD5sum: fb7c0de867828ab8e1d63e9c10c4e164
 SHA1: 
-SHA256: 23130ff14e68af7a2194574c1c095395921b5e3f2a6c07187cc9c1cf0df30a38
+SHA256: 16c426c3d41f1772c592a9d53e45f962e8616292fa0cb8067eb450adb52cd9bf
 
 Package: com.sini.wechatuiswitchloader
 Name: WeChatUISwitchLoader-rootless
-icon: https://sini921.github.io/repo/sileodepiction/icon/wechatuiswitchloader.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/wechatuiswitchloader/js.json
 Depends: mobilesubstrate, firmware (>= 13.0)
 Description: 微信开关美化
@@ -7467,10 +7467,10 @@ Architecture: iphoneos-arm64
 Version: 1.1-5
 Installed-Size: 304
 Filename: debs/com.sini.wechatuiswitchloader-1.1-5-rootless.deb
-Size: 119316
-MD5sum: 272a18e484c1e5067ae4840379a248ac
+Size: 119296
+MD5sum: 2c324eedef51c50528ce7ade018feb21
 SHA1: 
-SHA256: 5837c65c805bae808f19c35beed81018f5f4362831c202ef1d5a4674390ee4fa
+SHA256: bdae92e43367d41db80306b82eafd9033a5e6a74c1ed2a93bb880ad761965978
 
 Package: com.sini.weifeng
 Name: 威锋FuckVIP-Ads-rootless
@@ -9804,6 +9804,26 @@ MD5sum: 2011532d9ac95c8dec474c55b3835dda
 SHA1: 
 SHA256: 980322c848a6adc193661c9356413d49ac1925a91d8f649d4a0147fdbaaee137
 
+Architecture: iphoneos-arm64
+Package: im.mjh.wclocate
+Name: 微信虚拟定位-rootless
+Version: 3.0.0
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.wclocate.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Description: 微信虚拟定位 — 支持巨魔/越狱/证书自签，地图选点、地点搜索、拖拽定位、海拔伪装
+Section: Tweaks
+Depends: firmware (>=15.0), mobilesubstrate
+Tags: compatible_min::ios15.0, compatible_max::ios17.0
+Author: Junhong
+Maintainer: Junhong
+Filename: debs/im.mjh.wclocate-3.0.0-rootless.deb
+Size: 32540
+MD5sum: 232fdae5d76ef139550028aee539bbe7
+SHA1: 
+SHA256: 06c165930ab17ddc30f368c3d132eb3147ad64701a5ad393529eefe4d59b9119
+
 Package: iphonerelease
 Name: 农业银行V10.2.1-roothide
 Author: z
@@ -11092,12 +11112,12 @@ Installed-Size: 160
 Name: WeChatScan-rootless
 Author: Netskao
 Description: 通过控制中心快捷打开微信扫一扫，设置-控制中心-自定控制内添加后使用
-icon: https://huayuarc.github.io/icon/wx.jpg
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Filename: debs/netskao.wechatscan-1.2-2-rootless.deb
-Size: 16344
-MD5sum: 25c68b8bc988d2bf526504fcf38e782f
+Size: 16356
+MD5sum: 884d2f83673c6b9eae193aacdf45632c
 SHA1: 
-SHA256: 476f135b4a9baf08c0020d742cc40120f63985603124e54a2ce3693d60b70688
+SHA256: bafbe2b199e77dd6dcdb587df8095da08befbd5ed197089a4c7ba559e1422a38
 
 Package: netskao.wrecycrack
 Version: 1.1-1
