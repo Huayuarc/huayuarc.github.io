@@ -4081,27 +4081,6 @@ MD5sum: 943bb1a443f0a266429a139dc71101ef
 SHA1: 
 SHA256: 07842dfad93c82e7d3ead85199aae8180d6f14bcf8905fb62d94670b8d3952e0
 
-Package: com.randy420.tools
-Name: 420 Tools-rootless
-Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.420Tools保留了我所有调整的首选项，以及我调整的共享文件。
-Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
-Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
-Homepage: https://theemeraldisle.family
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Author: Randy420 <randy.skinner@hotmail.com>
-Section: System
-Icon: https://huayuarc.github.io/icon/flex.jpg
-Tag: role::hacker
-Replaces: com.randy420.encrypt
-Architecture: iphoneos-arm64
-Version: 2.3.9
-Installed-Size: 2392
-Filename: debs/com.randy420.tools-2.3.9-rootless.deb
-Size: 550488
-MD5sum: 14961999773b8cb17dbc29b9b691f572
-SHA1: 
-SHA256: 27b83381a91639fcb296046f85be04a97d53b64db4109814403e24876b15a629
-
 Package: com.simon.ccmusic
 Name: 控制中心音乐模块动画-roothide
 Depends: mobilesubstrate, firmware (>= 13.0)
@@ -11368,26 +11347,6 @@ Size: 15226088
 MD5sum: b677292715fd447d417df88b428e6546
 SHA1: 
 SHA256: 11e9db72ab46a04739f5fd7a22d05dc94218df6b023aca9f219e9101ca76f87b
-
-Package: ru.rj.ftt
-Name: Flex To Theos-rootless
-Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
-Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.- Use 'ftt -?' For a full list of options.
-Depiction: https://Randy-420.GitHub.io/depic/ftt.html
-Homepage: https://theemeraldisle.family
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
-Section: System
-Icon: https://huayuarc.github.io/icon/flex.jpg
-Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
-Architecture: iphoneos-arm64
-Version: 1.4
-Installed-Size: 1300
-Filename: debs/ru.rj.ftt-1.4-rootless.deb
-Size: 356308
-MD5sum: a5c3a5a70de283dec878cebede3e2f8e
-SHA1: 
-SHA256: 37b4ce8c5314754e0ec6e3a1b4c7c37ec1ece6d52846a822724f4b10969a6ad8
 
 Package: uncar
 Name: uncar-rootless
