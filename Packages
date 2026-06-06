@@ -740,6 +740,56 @@ MD5sum: 9567e70c3a38c4a1fe89c4fbf57ca3b6
 SHA1: 
 SHA256: a4dde53f76850b0f8ab90803a686ad028d190d8ae8a45e91fa3b5caf5ce51ff6
 
+Package: com.82flex.unseen
+Name: Unseen-roothide
+Description: Neutralizes CALayer disableUpdateMask in the render server.Unseen是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
+Maintainer: 82flex
+Author: 82flex
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Icon: https://huayuarc.github.io/icon/Unseen.jpg
+Installed-Size: 484
+Filename: debs/com.82flex.unseen-0.0.2-roothide.deb
+Size: 43516
+MD5sum: a1f034d9d6e0671025011e35ffc72af5
+SHA1: 
+SHA256: c8c6eef555b596c298d3637c91f0b61f945040ea169b13b1b1266917fb536195
+
+Package: com.82flex.unseen
+Name: Unseen-rootless
+Description: Neutralizes CALayer disableUpdateMask in the render server.Unseen是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
+Maintainer: 82flex
+Author: 82flex
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Icon: https://huayuarc.github.io/icon/Unseen.jpg
+Installed-Size: 484
+Filename: debs/com.82flex.unseen-0.0.2-rootless.deb
+Size: 43600
+MD5sum: 668285a67e280575708c270e529f0c3b
+SHA1: 
+SHA256: 85b660f65e9fdeb019ee2d0cbdebd030b4b7beeed9c6a0455015b0433609ab44
+
+Package: com.82flex.unseen
+Name: Unseen
+Description: Neutralizes CALayer disableUpdateMask in the render server.Unseen是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
+Maintainer: 82flex
+Author: 82flex
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm
+Version: 0.0.2
+Installed-Size: 484
+Filename: debs/com.82flex.unseen_0.0.2_iphoneos-arm.deb
+Size: 73094
+MD5sum: 6a3141638d627aa654be52cf05c8e59e
+SHA1: 
+SHA256: a783db0d0535921d1b30b78fc7d2264e8980e493dd2d1179895c8cc1d51702df
+
 Package: com.Axs.floating-view
 Name: Floating-view-roothide
 Description: 温馨提示:
