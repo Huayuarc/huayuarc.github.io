@@ -9589,6 +9589,26 @@ MD5sum: 21b3c8d789f87d71b53d0a475f9d02fa
 SHA1: 
 SHA256: cc76712e39ca4964bce010ec8ccf2e05a697b1cdd38d8ecaa7bed0adb85b5ec0
 
+Architecture: iphoneos-arm64
+Package: danmutool
+Name: 弹幕助手-rootless
+Version: 1.1.1
+Depiction: https://apt.mjh.im/depiction/web/danmutool.html
+SileoDepiction: https://apt.mjh.im/depiction/native/danmutool.json
+ModernDepiction: https://apt.mjh.im/depiction/native/danmutool.json
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Section: Tweaks
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Tags: compatible_min::ios15.0, compatible_max::ios26.0
+Author: Junhong <mail@mjh.im>
+Maintainer: Junhong <mail@mjh.im>
+Filename: debs/danmutool-1.1.1-rootless.deb
+Size: 303936
+MD5sum: cd4b8b7aed46e0bd95b4c8801a050163
+SHA1: 
+SHA256: 3f8617638410582b73fb96de11a07dc5d958bcabba56d6c1215fe93870d32acd
+
 Package: dylv.liquidass
 Name: Liquid (Gl)ass-roothide
 Description: next level diarrhea
@@ -9823,6 +9843,26 @@ Size: 32540
 MD5sum: 232fdae5d76ef139550028aee539bbe7
 SHA1: 
 SHA256: 06c165930ab17ddc30f368c3d132eb3147ad64701a5ad393529eefe4d59b9119
+
+Architecture: iphoneos-arm64
+Package: im.mjh.xianyuhelper
+Name: 咸鱼助手-rootless
+Version: 1.0.0
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.xianyuhelper.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuhelper.json
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.xianyuhelper.json
+Icon: https://huayuarc.github.io/icon/xyu.jpg
+Description: 咸鱼助手 — 去除开屏广告，过滤搜索结果中的淘宝广告商品
+Section: Tweaks
+Depends: firmware (>=15.0), mobilesubstrate
+Tags: compatible_min::ios15.0, compatible_max::ios17.0
+Author: Junhong
+Maintainer: Junhong
+Filename: debs/im.mjh.xianyuhelper-1.0.0-rootless.deb
+Size: 18092
+MD5sum: ce7e563c47294c6de05b3de55c8eeec0
+SHA1: 
+SHA256: 2d144bd9a0a339a772413109787527eb4fa786dba5fba5a478d2e048205e9d19
 
 Package: iphonerelease
 Name: 农业银行V10.2.1-roothide
