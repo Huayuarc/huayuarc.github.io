@@ -668,7 +668,7 @@ MD5sum: 3c7a0a6b55646f1cce6170d433067c79
 SHA1: 
 SHA256: 3715d388fe278bf61f93b03faf276184c4e32da8356d5e4772a729810f169847
 
-Package: com.25mao.msgfilt.rootless
+Package: com.25mao.msgfilt.roothide
 Description: 消息屏蔽助手
 Version: 1.0-7
 Priority: optional
@@ -680,12 +680,12 @@ Name: 消息屏蔽助手-roothide
 Author: Mao
 Sponsor: admin@25mao.com
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/wx.jpg
-Filename: debs/com.25mao.msgfilt.rootless-1.0-7-roothide.deb
-Size: 142828
-MD5sum: 8b2d6a8755175a8e70e8c745eee6453e
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.25mao.msgfilt.roothide-1.0-7-roothide.deb
+Size: 143020
+MD5sum: 35615a2d8246b23e37823119df5e6bfb
 SHA1: 
-SHA256: 9a6e03d22e4aa7f02cec73c0b76f03791aa342998cc5f459568f80e2c88800d5
+SHA256: 9b8d5498b0ea60db15596568c3ac7b814615f03055018bdb05f33cda57e1c37c
 
 Package: com.25mao.msgfilt.rootless
 Description: 消息屏蔽助手
@@ -698,12 +698,12 @@ Architecture: iphoneos-arm64
 Name: 消息屏蔽助手-rootless
 Author: Mao
 Sponsor: admin@25mao.com
-icon: https://huayuarc.github.io/icon/wx.jpg
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Filename: debs/com.25mao.msgfilt.rootless-1.0-7-rootless.deb
-Size: 144988
-MD5sum: 6d3aa2c7d86771247ef7481ec5080e9c
+Size: 145180
+MD5sum: be14599e4a9fb9108ae58332d5cb2b18
 SHA1: 
-SHA256: d5741ea92f12129c3ebb02555db1cc349abc07737dd5c4a7d3624f085d6d998e
+SHA256: d979056729c5107cf3c7c883c6aacf924d06d38290390e2b187aca62546903f9
 
 Package: com.4nni3.picturemodule
 Architecture: iphoneos-arm64e
@@ -3812,12 +3812,12 @@ Architecture: iphoneos-arm64e
 Version: 1.1-3
 Installed-Size: 836
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Filename: debs/com.netskao.wctimelinereplacefind-1.1-3-roothide.deb
-Size: 338536
-MD5sum: 68ecc6791fb0c49e000e10211661294c
+Size: 338576
+MD5sum: ca92e7fd0087fd989539194576164f34
 SHA1: 
-SHA256: 8601ecc0aea04e9db2ffdf8cb7215c41fe060255155958d5e5fcd3cd7f95e146
+SHA256: ad2d37de6d49e11a5db032525366acc797e06074f1134649f3069afeedb44a21
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.wctimelinereplacefind
 Package: com.netskao.wctimelinereplacefind
@@ -3830,12 +3830,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.1-3
 Installed-Size: 836
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Filename: debs/com.netskao.wctimelinereplacefind-1.1-3-rootless.deb
-Size: 338324
-MD5sum: e361e75a3b0340782ed7511c44d4f2bc
+Size: 338340
+MD5sum: 74ce4419b619206ba0366a9409a68b59
 SHA1: 
-SHA256: f94eec16f05922756fcfa39f0a52ad8191d539c598481fcb36d5f75f4c4d769d
+SHA256: bef9053334f7154f7894686bd660de26f71d490432e11864ffcaccefc06faace
 
 Package: com.ps.amber
 Name: Amber-roothide
@@ -4187,7 +4187,7 @@ SHA1:
 SHA256: 4854e98d40c41844dd564f8019c0ebb7598b75f3c641bcd2dfa7824bbdd49c47
 
 Package: com.sini.BubbleBox
-Icon: https://sini921.github.io/repo/sileodepiction/icon/BubbleBox.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/BubbleBox/js.json
 Name: 气泡盒子-rootless
 Version: 1.0-3
@@ -4199,10 +4199,10 @@ Author: Mao
 Maintainer: admin@25mao.com
 Architecture: iphoneos-arm64
 Filename: debs/com.sini.BubbleBox-1.0-3-rootless.deb
-Size: 1582832
-MD5sum: 12125a2aa8e7b6b7df6ac369f2687541
+Size: 1582568
+MD5sum: 627f48e37efc8388ed72aeafa8701e75
 SHA1: 
-SHA256: 349dabdf3ab588f60b05d529f983897cdde17471648e44cf920ebf4460c90edd
+SHA256: 1a90ffab6d1b43ea0f0d43c3b500f0115df590272fc11c337385ea5a9b9614ef
 
 Package: com.sini.QQMusicNoAds
 Name: QQMusicNoAds-rootless
@@ -4326,7 +4326,7 @@ SHA1:
 SHA256: 3872c7a306484e262ddaec21aec5e2210adaf745ac54ac980747b5d1ff068fe9
 
 Package: com.sini.WCRefine
-Icon: https://sini921.github.io/repo/sileodepiction/icon/WCRefine.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/WCRefine/js.json
 Name: WCRefine-rootless
 Version: 1.4-3
@@ -4339,10 +4339,10 @@ dev: 君临
 Maintainer: 热心网友
 Architecture: iphoneos-arm64
 Filename: debs/com.sini.WCRefine-1.4-3-rootless.deb
-Size: 2881724
-MD5sum: e04acb6e617c7d449f925e603db36d37
+Size: 2884136
+MD5sum: d9c0d203ce084116c5890b6d590da158
 SHA1: 
-SHA256: 2811e721fac72496f68a7964f55c5addcfb8d281380e2556f07106c2f7847d0a
+SHA256: 57c8e5b1c678b8b09b47990c1c6dc44e4f8d71cae120edb5b4089d6510a1a4d4
 
 Package: com.sini.actionbarreborn
 Version: 1.1-2
@@ -5417,7 +5417,7 @@ SHA1:
 SHA256: def541335323975ad45d453447d7c686042eeaf977b3f4d2432fd93550d976db
 
 Package: com.sini.doutu.rootless
-Icon: https://sini921.github.io/repo/sileodepiction/icon/doutu.rootless.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/doutu.rootless/js.json
 Name: 斗图助手-rootless
 Version: 3.1-8
@@ -5429,10 +5429,10 @@ Author: Mao
 Maintainer: admin@25mao.com
 Architecture: iphoneos-arm64
 Filename: debs/com.sini.doutu.rootless-3.1-8-rootless.deb
-Size: 786724
-MD5sum: 79844caf50ec1b150e075fc5c8307c9c
+Size: 786880
+MD5sum: 1ab61f279df5f1955db24267b17c306a
 SHA1: 
-SHA256: e82b0688ec185e202d4b6e1f092c2c4318eb6ec9c36fbb6d2d902150358c3d84
+SHA256: 0c60ee9bf5959c12d22e9fde60b48eaf7222db1c1d1983016ddab07da8bcc9f9
 
 Package: com.sini.dumpapp.wechat
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
@@ -7203,7 +7203,7 @@ Package: com.sini.voices.rootless
 Name: 语音包【李开心专用】-rootless
 Version: 1.0-5
 Description: 微信本地收藏语音包，李开心专用
-Icon: https://sini921.github.io/repo/sileodepiction/icon/voices.rootless.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/voices.rootless/js.json
 Section: Tweaks
 Depends: firmware (>= 5.0)
@@ -7213,10 +7213,10 @@ Author: Mao
 Depiction: 微信本地收藏语音包
 Maintainer: admin@25mao.com
 Filename: debs/com.sini.voices.rootless-1.0-5-rootless.deb
-Size: 7359584
-MD5sum: 7fab6819ef830bcea88cfe80fd69700f
+Size: 7367108
+MD5sum: e562d24ac21b6e1d626a6203a5602642
 SHA1: 
-SHA256: 9836e775b3b25e839d84efc08756e0a1210f13f116fbcd53decc549b9ac39f2c
+SHA256: db91b14ec5a7dce11a83d7736bd4792fd7547bd7e1c0d5ccd502c9f537932ba7
 
 Package: com.sini.volumemanager
 Name: VolumeManager-rootless
@@ -7272,24 +7272,6 @@ MD5sum: 8683b060ad760d48fc446f0822d6dc97
 SHA1: 
 SHA256: 3a24d9c151d8a0a5dc4f15da1c2b49ba318a8737a38f0e0b715575c7f05ffa0e
 
-Package: com.sini.wchook
-Icon: https://sini921.github.io/repo/sileodepiction/icon/wchook.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/wchook/js.json
-Name: 悬浮按钮分屏-rootless
-Description: 悬浮按钮分屏
-Maintainer: ylr
-Author: ylr
-Section: Tweaks
-Depends: firmware (>= 15.0)
-Architecture: iphoneos-arm64
-Version: 2.1-6
-Installed-Size: 2568
-Filename: debs/com.sini.wchook-2.1-6-rootless.deb
-Size: 916348
-MD5sum: d0946719d3935a6cd48155d0f05833b1
-SHA1: 
-SHA256: f468f9368450135a0650ac1c97982c547f3a8f3ed280a86f05e43859ad6f568a
-
 Package: com.sini.wcplugins.rootless
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/wcplugins.rootless/js.json
@@ -7325,60 +7307,6 @@ Size: 7991272
 MD5sum: 2b3ee90e33dfd5e25eed9b60bd241e6a
 SHA1: 
 SHA256: 0bd696e972ddbb13779e0a66856be05d4f8c270055a0d7d3861ead61d6dcd30a
-
-Package: com.sini.wcsimplify
-Name: WCSimplify-rootless
-Icon: https://sini921.github.io/repo/sileodepiction/icon/wcsimplify.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/wcsimplify/js.json
-Description: 本插件仅测试使用，如有传播，请马上删除！
-Maintainer: ylr
-Author: ylr
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 1.5.6-7
-Installed-Size: 452
-Filename: debs/com.sini.wcsimplify-1.5.6-7-rootless.deb
-Size: 88548
-MD5sum: ecb57c5d319be83c38e91dd7e113dc92
-SHA1: 
-SHA256: c907ac43aca2ebe5b2a13fa89dca62baffbcab61d5ff1cfc54760fff2873a1c7
-
-Package: com.sini.wctimelinereplacefind
-Name: WCTimeLineReplaceFind-rootless
-Icon: https://sini921.github.io/repo/sileodepiction/icon/wctimelinereplacefind.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/wctimelinereplacefind/js.json
-Depends: mobilesubstrate, firmware (>= 14.0)
-Description: 使用朋友圈替换发现底栏
-Author: Netskao
-Maintainer: Nets
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.1-2
-Installed-Size: 852
-Filename: debs/com.sini.wctimelinereplacefind-1.1-2-rootless.deb
-Size: 347992
-MD5sum: 82823350d77d556bd08ee5435a1b4d32
-SHA1: 
-SHA256: 1eb0099a918aaa1f898981f563e7a88ce45bddd54897b38d6d4d1bc81d239358
-
-Package: com.sini.wctimelinereplacefind
-Name: WCTimeLineReplaceFind-rootless
-Icon: https://sini921.github.io/repo/sileodepiction/icon/wctimelinereplacefind.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/wctimelinereplacefind/js.json
-Depends: mobilesubstrate, firmware (>= 14.0)
-Description: 使用朋友圈替换发现底栏
-Author: Netskao
-Maintainer: Nets
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.1-3
-Installed-Size: 836
-Filename: debs/com.sini.wctimelinereplacefind-1.1-3-rootless.deb
-Size: 338980
-MD5sum: a4e789793d31b36c896b391eaca59bf7
-SHA1: 
-SHA256: 424e94f5e846a30d839d352ca601cbb54e74d9b19fa7350e7d4652cf81e57340
 
 Package: com.sini.wechat-pop-vc
 Name: WeChatPopVC-rootless
@@ -7686,7 +7614,7 @@ SHA256: a35db4b1d1e1c1732a5137a152a8ab3661874f5c5f12c2d13c50e414d85d1f33
 
 Package: com.sini.yuki
 Name: Yuki-roothide
-Icon: https://sini921.github.io/repo/sileodepiction/icon/yuki.png
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/yuki/js.json
 Description: 免费插件，随缘更新。
 Section: Tweaks
@@ -7698,14 +7626,14 @@ Architecture: iphoneos-arm64e
 Version: 0.0-9
 Installed-Size: 684
 Filename: debs/com.sini.yuki-0.0-9-roothide.deb
-Size: 123768
-MD5sum: bc1fe6391b0ff88671adee0e4513c374
+Size: 123508
+MD5sum: e29014e46762979dfd28a7df0c9695ce
 SHA1: 
-SHA256: 10e325197178a8b965ff2094874fea14a20f95779ae4e9fae05f96b9486c699b
+SHA256: 04617a2212a9a7b8e09f5e7e8fad72e0dd108a4d488510148800625a34f09483
 
 Package: com.sini.yuki
 Name: Yuki-rootless
-Icon: https://sini921.github.io/repo/sileodepiction/icon/yuki.png
+Icon: https://huayuarc.github.io/icon/douyin.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/yuki/js.json
 Description: 免费插件，随缘更新。
 Section: Tweaks
@@ -7717,10 +7645,10 @@ Architecture: iphoneos-arm64
 Version: 0.0-9
 Installed-Size: 684
 Filename: debs/com.sini.yuki-0.0-9-rootless.deb
-Size: 123416
-MD5sum: 9d3484109d27e8d56d0f23497133e7a0
+Size: 123616
+MD5sum: 56ce67ef8cdd5753dcd1f61ded8dc701
 SHA1: 
-SHA256: 3262b5f01fe64e15a3f2df36fab534fead42bdae0b947f774d053da907eee4a2
+SHA256: 28261665e520af18e243cf2fae728984647783a860978e0ff3527a8850b9ea14
 
 Author: Dcsyhi 
 Architecture: iphoneos-arm64
