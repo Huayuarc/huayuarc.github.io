@@ -9497,6 +9497,23 @@ MD5sum: 21b3c8d789f87d71b53d0a475f9d02fa
 SHA1: 
 SHA256: cc76712e39ca4964bce010ec8ccf2e05a697b1cdd38d8ecaa7bed0adb85b5ec0
 
+Package: com.ylr.wchook
+Name: 悬浮按钮分屏-rootless
+Description: 悬浮按钮分屏
+Maintainer: ylr
+Author: ylr
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 2.2-5
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Installed-Size: 3316
+Filename: debs/com.ylr.wchook-2.2-5-rootless.deb
+Size: 1194316
+MD5sum: ec3cf95860887d526b4ae9ba46c260aa
+SHA1: 
+SHA256: dd2813624b5f86a20a2a1ac00b65c9dd700cd43af72c26593491ce192be1ba44
+
 Architecture: iphoneos-arm64
 Package: danmutool
 Name: 弹幕助手-rootless
