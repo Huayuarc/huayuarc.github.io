@@ -1208,12 +1208,12 @@ Architecture: iphoneos-arm64e
 Version: 1.0.0
 Installed-Size: 540
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/wx.jpg
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Filename: debs/com.be-huge.custom-notification-sound-1.0.0-roothide.deb
-Size: 57088
-MD5sum: 38557a47dd866b775869e0b8265d2f9f
+Size: 57136
+MD5sum: 1baeaf27cfa2af9da59b2c24d4698e58
 SHA1: 
-SHA256: bbffa24da8e4266e0822ee7c5646aa9d742626bb97a31e06b2a27977f76dee4d
+SHA256: 71fc6244b5cc27eeef109b8ed460d9423cd42e41d198837391240aebc1098cdc
 
 Package: com.be-huge.custom-notification-sound
 Name: CustomWeChatNotificationSound-rootless
@@ -1225,12 +1225,12 @@ Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Architecture: iphoneos-arm64
 Version: 1.0.0
 Installed-Size: 540
-icon: https://huayuarc.github.io/icon/wx.jpg
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Filename: debs/com.be-huge.custom-notification-sound-1.0.0-rootless.deb
-Size: 59044
-MD5sum: 66490cb4883ce7ef75991285d5f6b4b0
+Size: 58804
+MD5sum: 679517a1a6cc46476c0138a0754392d3
 SHA1: 
-SHA256: d13bc3cef10700ea3a3bbbf5c187c90b076bc7453da68b5a7c39f6d2c15cf431
+SHA256: 1a8f01d1b8cff8beddb139dac2a263d9362c569e0b19ac67e39d15b9754c35dc
 
 Package: com.be-huge.floating-view
 Name: floatingView-roothide
