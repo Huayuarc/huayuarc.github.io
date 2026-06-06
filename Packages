@@ -3051,14 +3051,14 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Priority: optional
 Author: huami&Lxcloud
 Maintainer: Lxcloud
-Icon: https://xcimg.szwego.com/img/f71fe4b2/9e32c300-c084-4c77-bbb5-63f1c295d122.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://qaq.040207.xyz/sileo.json
 Architecture: iphoneos-arm64e
 Filename: debs/com.lxcloud.WCEhance-2.0-6-roothide.deb
-Size: 2647676
-MD5sum: be3597a3b5825a5574140f16d770f0d8
+Size: 2646232
+MD5sum: 37c623c4ba9216bcae97cc14bf838cda
 SHA1: 
-SHA256: 3c0501c3086ede760b97bd128743f98fec1ca07526105cd99cac5a0ae8be9174
+SHA256: 6ed7903e9e810293dcff98456f34e3fee7213a0df94372163767f63a8d0766ac
 
 Package: com.lxcloud.WCEhance
 Name: 微信增强-rootless
@@ -3069,14 +3069,14 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Priority: optional
 Author: huami&Lxcloud
 Maintainer: Lxcloud
-Icon: https://xcimg.szwego.com/img/f71fe4b2/9e32c300-c084-4c77-bbb5-63f1c295d122.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://qaq.040207.xyz/sileo.json
 Architecture: iphoneos-arm64
 Filename: debs/com.lxcloud.WCEhance-2.0-6-rootless.deb
-Size: 2646240
-MD5sum: eb3b08519c8ef7063214b3612f7fe352
+Size: 2649152
+MD5sum: 86e9066ad455edaadd85d2b3ad472b85
 SHA1: 
-SHA256: d76b62ac7776da1cd8896d71a1935b1559c2e5b5f11f4a5328a88a2fed83b1c4
+SHA256: a31b116eeed2739d08824d79348aece05eb68a49ed68f260710ae53a965c976d
 
 Package: com.m4fn3.k2gecamen
 Name: K2gecamen-roothide
@@ -4240,7 +4240,7 @@ SHA1:
 SHA256: 96bc76f5f650c93aba9b988cf12f639c885c345c63f67a830c8f7409517b722d
 
 Package: com.sini.WCEhance
-Icon: https://sini921.github.io/repo/sileodepiction/icon/WCEhance.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/WCEhance/js.json
 Name: 微信增强-roothide
 Version: 2.0-5
@@ -4252,13 +4252,13 @@ Author: huami & Lxcloud
 Maintainer: Lxcloud
 Architecture: iphoneos-arm64e
 Filename: debs/com.sini.WCEhance-2.0-5-roothide.deb
-Size: 2605840
-MD5sum: 631310112f5321981f2b43ebac2266f3
+Size: 2604672
+MD5sum: d00d7ae7a6a45cc4e5f44747e82ffe3c
 SHA1: 
-SHA256: cd8e775895f88fc40f1397f325e0a3a42da2dd3827fb28d93a0352d880b188a5
+SHA256: 0a6a6e45019e46c09e5346a473b168d1eb039880411e3ee1588c67d36e89f75c
 
 Package: com.sini.WCPulse
-Icon: https://sini921.github.io/repo/sileodepiction/icon/WCPulse.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/WCPulse/js.json
 Name: WCPulse-roothide
 Version: 1.5-9
@@ -4269,13 +4269,13 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64e
 Filename: debs/com.sini.WCPulse-1.5-9-roothide.deb
-Size: 8746996
-MD5sum: 5ff4d5bb1e3ceefc60a4c28d81fe5d91
+Size: 8751144
+MD5sum: 28d507a4011735745535f10fde6011d8
 SHA1: 
-SHA256: c85272f9f77b512254db62fdbc959d2415cf035e51f3973541524d6c208943b4
+SHA256: d11d1c4c1fcb7d7a2d4b31df2c0be71fa1a7b581e637aa743a46fdb7032ee828
 
 Package: com.sini.WCPulse
-Icon: https://sini921.github.io/repo/sileodepiction/icon/WCPulse.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/WCPulse/js.json
 Name: WCPulse-rootless
 Version: 1.5-9
@@ -4286,10 +4286,10 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Filename: debs/com.sini.WCPulse-1.5-9-rootless.deb
-Size: 8746152
-MD5sum: 0d55f0aad15c355524f510c60b9c5181
+Size: 8746268
+MD5sum: 5fc37b14f0e0f0aeb9cbc2ee2b6db132
 SHA1: 
-SHA256: 05f68930ebc47111ffd4ebe568462beaeaeee56029240ee8134f29d00a163cf1
+SHA256: 3872c7a306484e262ddaec21aec5e2210adaf745ac54ac980747b5d1ff068fe9
 
 Package: com.sini.WCRefine
 Icon: https://sini921.github.io/repo/sileodepiction/icon/WCRefine.png
@@ -5650,12 +5650,12 @@ Name: 微信游戏扫码登录-rootless
 Section: Tweaks
 Architecture: iphoneos-arm64
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/gamelogin/js.json
-icon: https://sini921.github.io/repo/sileodepiction/icon/wechat.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Filename: debs/com.sini.gamelogin-0.1-5-rootless.deb
-Size: 22960
-MD5sum: 37d3308fae639080e4556874225fc9f6
+Size: 23016
+MD5sum: 91fd05c3036c89711f07430024fa0750
 SHA1: 
-SHA256: 1cfed3231165ab9c0e0f1bd7060080c50b9bcefb809d28c5b43243320ee707a8
+SHA256: 762890e6edfc8118b1fa0934e3b95b9b1f8a1582f28704a7e6b9591c5e78d46d
 
 Package: com.sini.gaodehook
 Version: 1.0.4
@@ -6047,7 +6047,7 @@ SHA1:
 SHA256: d1f5a10544359e48ccce45d7bd1bbd6acea5a995cb1dbd5ce1bfec0a28404d98
 
 Package: com.sini.miyou
-Icon: https://sini921.github.io/repo/sileodepiction/icon/miyou.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/miyou/js.json
 Name: 微信助手-rootless
 Version: 3.9-5
@@ -6058,10 +6058,10 @@ Architecture: iphoneos-arm64
 Author: Mao
 Maintainer: admin@25mao.com
 Filename: debs/com.sini.miyou-3.9-5-rootless.deb
-Size: 5109668
-MD5sum: fe2afdacde006275fe59ab07faf4de60
+Size: 5108308
+MD5sum: 50a3c8bb95f0102ba229e9a68c9447c0
 SHA1: 
-SHA256: ded309bb714ef0a318870c5bb67cee967e71c2ba53d1cdb1ba39dac8bf61855f
+SHA256: 08983a59e0d60cd3ccebd57e1ab0154c75ae065ef86e7b6a92d70a9664307e40
 
 Package: com.sini.msgfilt.rootless
 Icon: https://sini921.github.io/repo/sileodepiction/icon/msgfilt.rootless.png
@@ -7311,7 +7311,7 @@ SHA1:
 SHA256: f468f9368450135a0650ac1c97982c547f3a8f3ed280a86f05e43859ad6f568a
 
 Package: com.sini.wcplugins.rootless
-Icon: https://sini921.github.io/repo/sileodepiction/icon/wcplugins.rootless.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/wcplugins.rootless/js.json
 Name: 微信插件管理-rootless
 Version: 0.1-6
@@ -7323,13 +7323,13 @@ Author: Mao
 Maintainer: admin@25mao.com
 Architecture: iphoneos-arm64
 Filename: debs/com.sini.wcplugins.rootless-0.1-6-rootless.deb
-Size: 13536
-MD5sum: d1dd37e1fea0e0226fec241bfc577c8a
+Size: 13548
+MD5sum: 01dc24a592d4c99d74caa5c0755f28f6
 SHA1: 
-SHA256: 277f9b9a09b9bf07d99bd8dc0bfc183dfddd96e21f5c86f69976106832bbc2de
+SHA256: b3b184ad90638c0c93aa95ef90ddd859a163822bf03ab18d37f739ed08569312
 
 Package: com.sini.wcpureextension
-Icon: https://sini921.github.io/repo/sileodepiction/icon/wcpureextension.png
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/wcpureextension/js.json
 Name: 微信净化-rootless
 Depends: mobilesubstrate, firmware (>= 12.0)
@@ -7341,10 +7341,10 @@ Architecture: iphoneos-arm64
 Version: 2026.04
 Installed-Size: 23256
 Filename: debs/com.sini.wcpureextension-2026.04-rootless.deb
-Size: 7985472
-MD5sum: 8b1decfddadeb046c60e06e5ba4b63ee
+Size: 7991272
+MD5sum: 2b3ee90e33dfd5e25eed9b60bd241e6a
 SHA1: 
-SHA256: 57b19790730eee7f50f2037a02e4992a4c70197259197cf65f69a166b53293cc
+SHA256: 0bd696e972ddbb13779e0a66856be05d4f8c270055a0d7d3861ead61d6dcd30a
 
 Package: com.sini.wcsimplify
 Name: WCSimplify-rootless
