@@ -9939,6 +9939,26 @@ SHA1:
 SHA256: 06c165930ab17ddc30f368c3d132eb3147ad64701a5ad393529eefe4d59b9119
 
 Architecture: iphoneos-arm64
+Package: im.mjh.wclocate
+Name: 微信虚拟定位-rootless
+Version: 4.0.0
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.wclocate.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.wclocate.json
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Description: 微信虚拟定位 — 支持巨魔/越狱/证书自签，地图选点、地点搜索、拖拽定位、海拔伪装
+Section: Tweaks
+Depends: firmware (>=15.0), mobilesubstrate
+Tags: compatible_min::ios15.0, compatible_max::ios17.0
+Author: Junhong
+Maintainer: Junhong
+Filename: debs/im.mjh.wclocate-4.0.0-rootless.deb
+Size: 35016
+MD5sum: a0dfa4aa69108a27d88ea60c4b0e720d
+SHA1: 
+SHA256: 2b006bf2b078de32424e504fc9d1e64eeaca2e8bfc2fc8c89f67158d6a203693
+
+Architecture: iphoneos-arm64
 Package: im.mjh.xianyuhelper
 Name: 咸鱼助手-rootless
 Version: 1.0.0
