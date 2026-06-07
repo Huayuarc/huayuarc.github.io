@@ -3103,6 +3103,40 @@ MD5sum: 71374dbb4501c860cdf7e2fb4bb5d0e4
 SHA1: 
 SHA256: 0d4d2f739212bdd9b640393f2527e39b20f8794031b7bc48d9d46303507cc5be
 
+Package: com.jzksnsjswkw.feemcrack
+Name: Feemcrack-roothide
+Description: An awesome MobileSubstrate tweak!
+Maintainer: jzksnsjswkw
+Author: jzksnsjswkw
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Icon: https://huayuarc.github.io/icon/feem.jpg
+Installed-Size: 136
+Filename: debs/com.jzksnsjswkw.feemcrack-0.0.1-roothide.deb
+Size: 2888
+MD5sum: 9acd4537595d28f945046fa787b4895a
+SHA1: 
+SHA256: 6710e7473da80262c291ef6a43d5628b6bc936dd8d2b64ca778ae3637a8f5e15
+
+Package: com.jzksnsjswkw.feemcrack
+Name: Feemcrack-rootless
+Description: An awesome MobileSubstrate tweak!
+Maintainer: jzksnsjswkw
+Author: jzksnsjswkw
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Icon: https://huayuarc.github.io/icon/feem.jpg
+Installed-Size: 136
+Filename: debs/com.jzksnsjswkw.feemcrack-0.0.1-rootless.deb
+Size: 2960
+MD5sum: ba4e2a67e713edd3961688cc8bc273f4
+SHA1: 
+SHA256: 2ffa845ebe3a5a7840851475dfca81dab877ecfc82eb21e331f8a5b153361302
+
 Package: com.lclrc.hammerit
 Name: Hammer It-roothide
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
