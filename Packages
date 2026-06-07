@@ -280,6 +280,40 @@ MD5sum: 01a614f14e0a7aa2cc717dae9731980b
 SHA1: 
 SHA256: 156ff5bd376dfa98e22783aa607638ac1ee4e2893a71da0bc0fbc4626ae93d51
 
+Package: cn.fkj233.watchfix
+Name: WatchFix-roothide
+Description: Fix Apple watch connection issues
+Maintainer: 577FKJ
+Author: 577FKJ
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Icon: https://huayuarc.github.io/icon/watch.jpg
+Installed-Size: 4632
+Filename: debs/cn.fkj233.watchfix-2.0.1-roothide.deb
+Size: 607224
+MD5sum: ef14952e18406c5355cceb6dce170c42
+SHA1: 
+SHA256: 58a2d445f456a9325a32ef0e66dd09c3b6b481d659a56850346bf1a23c74b246
+
+Package: cn.fkj233.watchfix
+Name: WatchFix-rootless
+Description: Fix Apple watch connection issues
+Maintainer: 577FKJ
+Author: 577FKJ
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.0.1
+Icon: https://huayuarc.github.io/icon/watch.jpg
+Installed-Size: 4608
+Filename: debs/cn.fkj233.watchfix-2.0.1-rootless.deb
+Size: 602940
+MD5sum: 946a9b74eb4c568e596733e1aca15db8
+SHA1: 
+SHA256: 8d838b1d149d44141f0190baf0d3bd8eea3a8b786d13f293f839970fede5627a
+
 Package: cn.llld.2playerbj
 Name: 隐藏播放器通知背景2-roothide
 Description: Hide player Notification background。半透版本，隐藏播放器通知背景2-rootless
