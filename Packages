@@ -9921,7 +9921,7 @@ SHA256: 980322c848a6adc193661c9356413d49ac1925a91d8f649d4a0147fdbaaee137
 Architecture: iphoneos-arm64
 Package: im.mjh.fakeperm
 Name: 虚拟权限 · Fake Permission-rootless
-Version: 8.0.0
+Version: 8.1.0
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakeperm.html
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.json
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.json
@@ -9932,11 +9932,11 @@ Depends: firmware (>=15.0), preferenceloader
 Tags: compatible_min::ios15.0, compatible_max::ios17.0
 Author: Junhong
 Maintainer: Junhong
-Filename: debs/im.mjh.fakeperm-8.0.0-rootless.deb
-Size: 194976
-MD5sum: 8cec7ddbba2bc2d9fdbd579a05aaf830
+Filename: debs/im.mjh.fakeperm-8.1.0-rootless.deb
+Size: 214840
+MD5sum: 75a9fb5b7156e670ec0f391dee3d1461
 SHA1: 
-SHA256: 3fb12de693a4cf3928afa42ec4171360432381c82c0bf55430125445850f7e70
+SHA256: b6d301d5f140d830891d877bb6b200a655c45c6b77ccf855d4879448063b128a
 
 Architecture: iphoneos-arm64
 Package: im.mjh.wclocate
