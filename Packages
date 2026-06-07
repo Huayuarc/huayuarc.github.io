@@ -4199,6 +4199,40 @@ MD5sum: 943bb1a443f0a266429a139dc71101ef
 SHA1: 
 SHA256: 07842dfad93c82e7d3ead85199aae8180d6f14bcf8905fb62d94670b8d3952e0
 
+Package: com.rpgfarm.a-font
+Name: A-Font-rootless
+Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
+Description: Change your font!A-Font 插件，这里可以选择自带字体或者自定义字体，自定义字体需要安装 Filza 文件管理器，可自行在 Sileo 中搜索安装，然后！在 var/jb/Library/A-Font/中存放字体。
+Maintainer: Baw Appie <pp121324@gmail.com>
+Author: Baw Appie <pp121324@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.9.3-2
+Icon: https://huayuarc.github.io/icon/A-Font.png
+Installed-Size: 2476
+Filename: debs/com.rpgfarm.a-font-1.9.3-2-rootless.deb
+Size: 500056
+MD5sum: 3507230483f0ac17d744e93cc7caf365
+SHA1: 
+SHA256: 9e6f0c823349f104b09b90e1fbd1d467cb83d3c01c03bb8acd8c27c1059b5115
+
+Package: com.rpgfarm.a-font
+Name: A-Font-rootless
+Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
+Description: Change your font!A-Font 插件，这里可以选择自带字体或者自定义字体，自定义字体需要安装 Filza 文件管理器，可自行在 Sileo 中搜索安装，然后！在 var/jb/Library/A-Font/中存放字体。
+Maintainer: Baw Appie <pp121324@gmail.com>
+Author: Baw Appie <pp121324@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.9.3-3
+Icon: https://huayuarc.github.io/icon/A-Font.png
+Installed-Size: 2476
+Filename: debs/com.rpgfarm.a-font-1.9.3-3-rootless.deb
+Size: 498280
+MD5sum: 78bdb2bbacd85f022b470b5ba922667e
+SHA1: 
+SHA256: 373c420ae07baed05749a0485b8df283789c52d3dca684963cbac056dbca2a32
+
 Package: com.simon.ccmusic
 Name: 控制中心音乐模块动画-roothide
 Depends: mobilesubstrate, firmware (>= 13.0)
