@@ -2004,6 +2004,40 @@ MD5sum: 75f48cf0d9542a7e59e00ed1eba5f4f5
 SHA1: 
 SHA256: a2924389d175037f2ad8b03b5adbedd7f8af8f280a0505d49bd7a26dc2c437dd
 
+Package: com.colorblack.bottomx
+Name: Bottom-x-roothide
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Maintainer: Color Black
+Author: Color Black
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 0.2.68
+icon: https://huayuarc.github.io/icon/Bottom.png
+Installed-Size: 1944
+Filename: debs/com.colorblack.bottomx-0.2.68-roothide.deb
+Size: 502188
+MD5sum: ef476073eae9ba31e92a90782f198e33
+SHA1: 
+SHA256: d5ec42201e39a1dd545d9ea60d95c81e2940fb1ebc14b5bfeb3ea49406390237
+
+Package: com.colorblack.bottomx
+Name: Bottom-x-rootless
+Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931
+Maintainer: Color Black
+Author: Color Black
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Architecture: iphoneos-arm64
+Version: 0.2.68
+icon: https://huayuarc.github.io/icon/Bottom.png
+Installed-Size: 1944
+Filename: debs/com.colorblack.bottomx-0.2.68-rootless.deb
+Size: 503396
+MD5sum: 5de0abb4b1306f213282577cbe6781f4
+SHA1: 
+SHA256: c28a4d0e9f0b688fcc9fb73c320d4b7ee5e0ed056eb0841f4a09271156949eb3
+
 Package: com.colorblack.dongchedinoad
 Name: 懂车帝去开屏广告-roothide
 Depends: mobilesubstrate
