@@ -3444,6 +3444,40 @@ MD5sum: fda2117b3ecf20b82e2c11bf63d58d44
 SHA1: 
 SHA256: ac83a8b693e65eb75bd919bf06cc9611060a2e9d42a6f26b1248518ee90b674a
 
+Package: com.iosdump.zone
+Name: Zone-roothide
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Icon: https://huayuarc.github.io/icon/Zone.png
+Installed-Size: 912
+Filename: debs/com.iosdump.zone-1.0.1-roothide.deb
+Size: 153116
+MD5sum: 3ac55e4a9afbfeb3c13463aed982598f
+SHA1: 
+SHA256: 683a9d07ac80ab92ef59ef04425edba31e9bf8704899e99a03d1896bbd82e222
+
+Package: com.iosdump.zone
+Name: Zone-rootless
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Icon: https://huayuarc.github.io/icon/Zone.png
+Installed-Size: 932
+Filename: debs/com.iosdump.zone-1.0.1-rootless.deb
+Size: 153536
+MD5sum: 2b7764bd15c30f96d8fb033a034a0cf9
+SHA1: 
+SHA256: c68ff1132c401447759575b5192cb52a8104a51158411f6d213c130d02d39886
+
 Package: com.jontelang.snapper3
 Name: Snapper 3-roothide
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
