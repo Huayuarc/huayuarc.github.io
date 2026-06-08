@@ -2336,6 +2336,40 @@ MD5sum: 8e3c8c91f999f5e9540181f3dcaf7175
 SHA1: 
 SHA256: dd13d9f144908e9173a591eb6c390b377fb134d7c424a3c733906b115b918c90
 
+Package: com.eliassfeir.no2theftios15
+Name: No2Theft-rootless
+Depends: ws.hbang.common
+Description: The most complete tweak against pranksters, annoying nosy people and thieves No2Theft 是一款为保护手机而设计的插件，防盗插件。主要作用是在断开充电线或输错密码的时候，触发警报，拍照记录，可以根据预设发送手机位置信息等等。在一定程度上，可以保护 iPhone。
+Icon: https://huayuarc.github.io/icon/No2Theft.png
+Maintainer: elias
+Author: elias
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2
+Installed-Size: 2040
+Filename: debs/com.eliassfeir.no2theftios15-1.2-rootless.deb
+Size: 1006324
+MD5sum: 82d395c0445d35546a44e668efb7aed4
+SHA1: 
+SHA256: a5541db71ed5f6f10088ac66aa9d8149729e10e42dc76aadbd6576d6fc797333
+
+Package: com.eliassfeir.no2theftios16
+Name: No2Theft iOS 16-rootless
+Depends: ws.hbang.common
+Description: The most complete tweak against pranksters, annoying nosy people and thieves No2Theft 是一款为保护手机而设计的插件，防盗插件。主要作用是在断开充电线或输错密码的时候，触发警报，拍照记录，可以根据预设发送手机位置信息等等。在一定程度上，可以保护 iPhone。
+Icon: https://huayuarc.github.io/icon/No2Theft.png
+Maintainer: elias
+Author: elias
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 2092
+Filename: debs/com.eliassfeir.no2theftios16-1.1-rootless.deb
+Size: 1020644
+MD5sum: 417c3abe9f354a1123cf584f11cc4fce
+SHA1: 
+SHA256: 1c47e9d6f682fb705784aaaadf528027a57b2a511b7ee0f0f022e4e6b5812198
+
 Package: com.eliofeghali.souvenir
 Name: Souvenir-roothide
 Description: Lockscreen customization tweak!
