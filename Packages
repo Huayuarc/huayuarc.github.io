@@ -69,6 +69,108 @@ MD5sum: 037bce2dfc5e8821abe61fe33df9f01d
 SHA1: 
 SHA256: f7e6e69155ed7b2c7862ca9c2ba0674747b2ed4b59004ca0ccbda09242f2f036
 
+Package: a1
+Name: A1-roothide
+Version: 1.9.8-beta1+debug2-1
+Architecture: iphoneos-arm64e
+Section: System
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
+Author: LF
+Maintainer: LF, AD
+SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+Icon: https://huayuarc.github.io/icon/a1.jpg
+Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
+Filename: debs/a1-1.9.8-beta1+debug2-1-roothide.deb
+Size: 56820
+MD5sum: 0f4be2b3c2f2f213df1899da3ae69e7a
+SHA1: 
+SHA256: 37707bdcdad7fe3945d8cd64e475059b6e88cd3ebb7c6d8430328dd7e81c517a
+
+Package: a1
+Name: A1-rootless
+Version: 1.9.8-beta1+debug2-1
+Architecture: iphoneos-arm64
+Section: System
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
+Author: LF
+Maintainer: LF, AD
+SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+Icon: https://huayuarc.github.io/icon/a1.jpg
+Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
+Filename: debs/a1-1.9.8-beta1+debug2-1-rootless.deb
+Size: 57084
+MD5sum: ff69359f03d001c7c5cc22b3df9d4d8b
+SHA1: 
+SHA256: 689344f6a33dd06cef13d4626563e61f843ce4cc7f40b49dc7b3d9ee7c1dc8b7
+
+Package: a1
+Name: A1-roothide
+Version: 1.9.8-beta3-1
+Architecture: iphoneos-arm64e
+Section: System
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
+Author: LF
+Maintainer: LF, AD
+SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+Icon: https://huayuarc.github.io/icon/a1.jpg
+Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
+Filename: debs/a1-1.9.8-beta3-1-roothide.deb
+Size: 56876
+MD5sum: d881d2834ddc7bc4e4732b5e58e4e9a1
+SHA1: 
+SHA256: 8c4832dfba0e393abdf9ee99468276edf5b760493cfb66e6fbf2511b0f99cc16
+
+Package: a1
+Name: A1-rootless
+Version: 1.9.8-beta3-1
+Architecture: iphoneos-arm64
+Section: System
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
+Author: LF
+Maintainer: LF, AD
+SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+Icon: https://huayuarc.github.io/icon/a1.jpg
+Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
+Filename: debs/a1-1.9.8-beta3-1-rootless.deb
+Size: 57120
+MD5sum: 45ac7a2e7743808e9986ec9e1f070378
+SHA1: 
+SHA256: 8503e1780ee7c8069332bb526d34fba6e4584c3231bdca14347c8c93a036e694
+
+Package: a1
+Name: A1-roothide
+Version: 1.9.8-beta4+debug3-4
+Architecture: iphoneos-arm64e
+Section: System
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
+Author: LF
+Maintainer: LF, AD
+SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+Icon: https://huayuarc.github.io/icon/a1.jpg
+Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
+Filename: debs/a1-1.9.8-beta4+debug3-4-roothide.deb
+Size: 57160
+MD5sum: 8c12d9a8f324d776ed434868644dcda5
+SHA1: 
+SHA256: 89749553e00435098dd9e9723ed33b6a9111359b30607a7c88b9435ed8029f12
+
+Package: a1
+Name: A1-rootless
+Version: 1.9.8-beta4+debug3-4
+Architecture: iphoneos-arm64
+Section: System
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
+Author: LF
+Maintainer: LF, AD
+SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+Icon: https://huayuarc.github.io/icon/a1.jpg
+Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
+Filename: debs/a1-1.9.8-beta4+debug3-4-rootless.deb
+Size: 57404
+MD5sum: 8ed5dfeb447b35032a3a41951e2a41d2
+SHA1: 
+SHA256: dceaa4b6b76919d1fa7097f11cccf6f5ea64a3c15fe368a6f09f3a9c77e9ef7f
+
 Package: ai-config-gui
 Name: AI-Config-GUI-rootless
 Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，修复roothide闪退问题.
@@ -10843,6 +10945,22 @@ Size: 67516
 MD5sum: eb49a5b4ff7e474d2e9714738b08165b
 SHA1: 
 SHA256: 93b8c2ad44fc180a82dd7df24e53f23eae750febdb08c16a61751aa5559097b4
+
+Author: XsF1re, ichitaso, level3tjg, LF, AD
+Maintainer: alias20, LF, AD
+Package: kr.xsf1re.vnodebypass
+Name: Vnodebypass-next-rootless
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Section: System
+Architecture: iphoneos-arm64
+Version: 0.4.6-Next
+Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
+Description: Hide jailbreak traces and bypass detection mechanisms. Automatically configures paths and fixes post-removal issues. Compatible with Dopamine Rootless environment. Initial installation may take extra time due to path setup—please be patient! 隐藏越狱痕迹，绕过检测机制，自动配置路径，修复卸载残留问题。兼容 Dopamine Rootless越狱环境，首次安装可能因路径配置稍有延迟，请耐心等待～(づ￣ 3￣)づ。
+Filename: debs/kr.xsf1re.vnodebypass-0.4.6-Next-rootless.deb
+Size: 66116
+MD5sum: d6c6a3a1b8af4473a8e412667ed7ce7f
+SHA1: 
+SHA256: e12eb783b721acd23c55a3dcf489d67d57f2abe8f53ee74bc59e58a785508d73
 
 Package: libskittycolor
 Version: 1.0
