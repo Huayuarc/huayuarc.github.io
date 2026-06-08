@@ -5101,42 +5101,6 @@ MD5sum: 18a76ca700c2872363299280a2a1546d
 SHA1: 
 SHA256: 90a4e715570d3502c887886838f19815f5d5b3cca29ee7959084e164e6978202
 
-Package: com.sini.WCCC
-Icon: https://sini921.github.io/repo/sileodepiction/icon/WCCC.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/WCCC/js.json
-Name: WCCC-roothide
-Description: 微信热更新管理
-Maintainer: huami
-Author: huami
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64e
-Version: 1.0-8
-Installed-Size: 1928
-Filename: debs/com.sini.WCCC-1.0-8-roothide.deb
-Size: 728400
-MD5sum: cd85a965b58c93c733804760ca013fc2
-SHA1: 
-SHA256: a680833dc5ab3818d38e10597869718675438454e8dfdd635a7d0bb32ac61a75
-
-Package: com.sini.WCCC
-Icon: https://sini921.github.io/repo/sileodepiction/icon/WCCC.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/WCCC/js.json
-Name: WCCC-rootless
-Description: 微信热更新管理
-Maintainer: huami
-Author: huami
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 1.0-8
-Installed-Size: 1944
-Filename: debs/com.sini.WCCC-1.0-8-rootless.deb
-Size: 735880
-MD5sum: be2e6c30466384784445ba6968e4c645
-SHA1: 
-SHA256: 96bc76f5f650c93aba9b988cf12f639c885c345c63f67a830c8f7409517b722d
-
 Package: com.sini.WCEhance
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/WCEhance/js.json
@@ -6943,25 +6907,6 @@ MD5sum: 50a3c8bb95f0102ba229e9a68c9447c0
 SHA1: 
 SHA256: 08983a59e0d60cd3ccebd57e1ab0154c75ae065ef86e7b6a92d70a9664307e40
 
-Package: com.sini.msgfilt.rootless
-Icon: https://sini921.github.io/repo/sileodepiction/icon/msgfilt.rootless.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/msgfilt.rootless/js.json
-Description: 消息屏蔽助手
-Version: 1.0-7
-Priority: optional
-Section: Tweaks
-Maintainer: admin@25mao.com
-Depends: firmware (>= 5.0)
-Architecture: iphoneos-arm64
-Name: 消息屏蔽助手-rootless
-Author: Mao
-Sponsor: admin@25mao.com
-Filename: debs/com.sini.msgfilt.rootless-1.0-7-rootless.deb
-Size: 144980
-MD5sum: d79598dbe614a40d72b77fd80b8f9afe
-SHA1: 
-SHA256: 07a9b3e37a27db3799d746d2250754e366faa0de461c7314f7b1342611a19e66
-
 Package: com.sini.mterminal
 Name: MTerminal-rootless
 Architecture: iphoneos-arm64
@@ -8117,24 +8062,6 @@ Size: 21204
 MD5sum: f22f66be9cefe5e45ca6107a2c116a0f
 SHA1: 
 SHA256: bb55705473907941192f785ef9ee0eeb2c5cf639a01be93f772dcf2a2e3dc208
-
-Package: com.sini.wcdisablehotupdates
-Name: WCDisableHotUpdates-rootless
-Depends: mobilesubstrate, firmware (>= 13.0)
-Description: 微信禁用热更新
-Icon: https://sini921.github.io/repo/sileodepiction/icon/wcdisablehotupdates.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/wcdisablehotupdates/js.json
-Author: Netskao
-Maintainer: Nets
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.1-2
-Installed-Size: 72
-Filename: debs/com.sini.wcdisablehotupdates-1.1-2-rootless.deb
-Size: 2344
-MD5sum: 8683b060ad760d48fc446f0822d6dc97
-SHA1: 
-SHA256: 3a24d9c151d8a0a5dc4f15da1c2b49ba318a8737a38f0e0b715575c7f05ffa0e
 
 Package: com.sini.wcplugins.rootless
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
