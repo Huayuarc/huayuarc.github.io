@@ -10744,6 +10744,24 @@ MD5sum: bff45805dcbe9ca6c03c19325b6619d1
 SHA1: 
 SHA256: 16e36273334f03bb2c91d489f486aaee903e91ae97ad1f6423413d32ff2c3f93
 
+Package: jp.r-plus.sleipnizer5.rootless
+Version: 12.0.1
+Section: Tweaks
+Maintainer: r_plus
+Depends: mobilesubstrate (>= 0.9.6100), preferenceloader (>= 2.2.3), firmware (>= 15.0)
+Conflicts: jp.r-plus.sleipnizerlite, jp.r-plus.sleipnizerforsafari, jp.r-plus.sleipnizer, jp.r-plus.sleipnizer3, jp.r-plus.sleipnizer4
+Architecture: iphoneos-arm64
+Name: Sleipnizer for Safari-rootless
+Author: r_plus
+Sponsor: r_plus
+Icon: https://huayuarc.github.io/icon/Sleipnizer.png
+Description: Sleipnizer for Safari is a gesture plugin for Safari browser, which lets you perform various operations quickly with gestures. You may feel unfamiliar at first, but it becomes an excellent tool once you get used to it. Sleipnizer for Safari 是一款 Safari 浏览器手势插件，可以通过手势快速执行多种操作。刚开始或许有些不习惯，习惯手势操作后十分好用。
+Filename: debs/jp.r-plus.sleipnizer5.rootless-12.0.1-rootless.deb
+Size: 224752
+MD5sum: 21ab94443dcda01395ee153701537418
+SHA1: 
+SHA256: 716e6a2d447eac05354d59835a3ddac66c6cef2afb8e93567571b3b4154e7a2d
+
 Package: kr.xsf1re.vnodebypass
 Architecture: iphoneos-arm64
 Name: Vnodebypass-rootless
