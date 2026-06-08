@@ -3408,6 +3408,23 @@ MD5sum: 4a8b91eca720fdc7115f38a15bfecfeb
 SHA1: 
 SHA256: 2c42a15c16a51e2881a11b7d566e22842eb9213d58a3b89cc517f5120ecc743a
 
+Package: com.mrshi.lingdongdao
+Name: 灵动岛自定义-rootless
+Depends: mobilesubstrate
+Description: 给灵动岛的外框内框添加自定义颜色，通知背景颜色等
+Maintainer: MrShi
+Author: MrShi
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0.2-235
+Installed-Size: 2352
+Icon: https://huayuarc.github.io/icon/Mrshi.png
+Filename: debs/com.mrshi.lingdongdao-1.0.0.2-235-rootless.deb
+Size: 546736
+MD5sum: fec47e958cd83324000cd062f3610b97
+SHA1: 
+SHA256: 856dff984dbb87f0471944fb0f7e8294443c85b9940731d57c6c018238653c85
+
 Package: com.nan.allemand-filza-script
 Name: FilzaScript Allemand-roothide
 Section: System
@@ -4979,6 +4996,40 @@ Size: 28712
 MD5sum: d7e90ed7369f45836bcf153f84fbb611
 SHA1: 
 SHA256: 90257fbd144d6fbb3afd57dccadaecfc8fd55638b77fa59f96cbb16b3d74057c
+
+Package: com.simon.dynamicislandanimation
+Name: 灵动岛跳舞动画-rootless
+Description:用于灵动岛专辑及屏幕录制动态跳舞动画整合 无需挂载不再卑微！
+Maintainer: Simon
+Author: Simon
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.1.8
+Installed-Size: 432
+Icon: https://huayuarc.github.io/icon/CCMusic.png
+Filename: debs/com.simon.dynamicislandanimation-1.1.8-rootless.deb
+Size: 29116
+MD5sum: bab091ed724147f38984b7bf7bd8a6e5
+SHA1: 
+SHA256: de8a7af52bb64df9c2cec8dc63e0a9ebae328a484112b7ec70308de50ea64686
+
+Package: com.simon.musiclizi
+Section: Tweaks
+Installed-Size: 396
+Maintainer: Simon
+Architecture: iphoneos-arm64
+Version: 1.1.8
+Depends: mobilesubstrate
+Description: 用于灵动岛粒子动画
+Name: 粒子动画-rootless
+Icon: https://huayuarc.github.io/icon/CCMusic.png
+Author: Simon
+Filename: debs/com.simon.musiclizi-1.1.8-rootless.deb
+Size: 23504
+MD5sum: 1d0bfda227749d253e1374d2cb7f4cbc
+SHA1: 
+SHA256: cc80472fdec7e2bf0272bb3e98713be1c2a156d768402cc95a42fb3f32eb2871
 
 Package: com.sini..cccellularrate
 Version: 1.1-1
@@ -10160,6 +10211,23 @@ Size: 1537108
 MD5sum: d368332ad56131f89cd5937e187996ce
 SHA1: 
 SHA256: 466000fbfa8921bddde61470ca47686d631efa9c4fa3b8790495ea6d870d7a76
+
+Package: com.susu.sumusicplayercc
+Installed-Size: 628
+Maintainer: 苏苏
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Depends: com.opa334.ccsupport
+Description: 控制中心音乐播放器
+Section: Tweaks
+Name: SuMusicPlayerCC-rootless
+Icon: https://huayuarc.github.io/icon/sumusicplayercc.jpg
+Author: 苏苏
+Filename: debs/com.susu.sumusicplayercc-1.0.1-rootless.deb
+Size: 86804
+MD5sum: cd81ea5c3904b1335db1ab9263c67c18
+SHA1: 
+SHA256: b82fd223da6c94239aaaad903d7562bfb64e1dbf5d097b8bcf85bfe029129b67
 
 Package: com.udevs.dockx
 Name: DockX-rootless
