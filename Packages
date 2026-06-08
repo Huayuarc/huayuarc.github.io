@@ -2796,6 +2796,23 @@ MD5sum: d0746b4c5405c28d2f05f0e4032bc5db
 SHA1: 
 SHA256: 8d29b168cdcce80d8b4a7297ce9eece391085b00ec15665fc4cd9e500b7062e8
 
+Package: com.hw.ysllq
+Name: 🅷🆆 亚瑟浏览器-rootless
+Author: 🅷🆆
+Description: 解鎖專業版 - TG：@HelloWorld_1024
+Depends: mobilesubstrate
+Maintainer: 🅷🆆
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Icon: https://huayuarc.github.io/icon/yase.jpg
+Installed-Size: 448
+Filename: debs/com.hw.ysllq-0.0.1-rootless.deb
+Size: 121176
+MD5sum: 272d244410bee6c36ce53e3b57ecaadb
+SHA1: 
+SHA256: 7d1ee723db6e656004e983d169ebc81d69e04a0012f98d473bccff61fd749ce5
+
 Package: com.imkpatil.nooldernotificationstext
 Name: NoOlderNotificationsText-roothide
 Depends: mobilesubstrate
@@ -10228,6 +10245,40 @@ Size: 86804
 MD5sum: cd81ea5c3904b1335db1ab9263c67c18
 SHA1: 
 SHA256: b82fd223da6c94239aaaad903d7562bfb64e1dbf5d097b8bcf85bfe029129b67
+
+Package: com.tune.h3kbhook
+Name: H3kbHook-roothide
+Description: stable h3kb pro unlock package for app and keyboard extension
+Maintainer: Tune
+Author: Tune
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Icon: https://huayuarc.github.io/icon/yuanshu.jpg
+Installed-Size: 172
+Filename: debs/com.tune.h3kbhook-1.1.0-roothide.deb
+Size: 7068
+MD5sum: 97b873a145e588b0d609dd290f9677a8
+SHA1: 
+SHA256: 03e6cbfe72cdef2ee52536d2651fcc9f8bbba70cc9e99c74dfa497a55c597f14
+
+Package: com.tune.h3kbhook
+Name: H3kbHook-rootless
+Description: stable h3kb pro unlock package for app and keyboard extension
+Maintainer: Tune
+Author: Tune
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Icon: https://huayuarc.github.io/icon/yuanshu.jpg
+Installed-Size: 172
+Filename: debs/com.tune.h3kbhook-1.1.0-rootless.deb
+Size: 7136
+MD5sum: 661f6da22a778d9d7181e6cf8514a47b
+SHA1: 
+SHA256: 05f192515cb360a8bfc894050a2a900b0e76e276902c5c4b82e74e3e3b583970
 
 Package: com.udevs.dockx
 Name: DockX-rootless
