@@ -230,7 +230,7 @@ SHA256: dfc7703ab85c9927ac5d0c13c25a51c88466bfd22c11182df979b7f7b3f10e80
 Package: aweme.x
 Conflicts: com.xx.dyhook
 Replaces: com.xx.dyhook
-Name: 抖音图层
+Name: 抖音图层-rootless
 Description: 自用
 Maintainer: 𝙓
 Author: 𝙓
@@ -240,11 +240,11 @@ Architecture: iphoneos-arm64
 Version: 2.3.9-6
 Installed-Size: 10472
 Icon: https://huayuarc.github.io/icon/douyin.jpg
-Filename: debs/aweme.x-2.3.9-6-rootless.deb
-Size: 3326776
-MD5sum: 6834bae8d0bec762966fb786ea7bf74d
+Filename: debs/aweme.x_2.3.9-6_iphoneos-arm64.deb
+Size: 3329764
+MD5sum: 486721f4b8f425030664020b59d521a6
 SHA1: 
-SHA256: 18e1538925a1b32394d0bad009ac647b27f641df5b0e912ec90ed044aaff8e26
+SHA256: aab13fe52a5feffefbf4e376c30c543a1b2071aa4f1eb16911d8095c79bb1f8b
 
 Package: ayao.aipowerbutton
 Name: AiPowerButton-roothide
