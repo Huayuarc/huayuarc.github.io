@@ -2518,6 +2518,43 @@ MD5sum: f1509991edf2996f07fe65fef6d0c4c1
 SHA1: 
 SHA256: aeab76690dd76010ea515db06873c6958261d28a7f717c241cdfea88b9bdb2c7
 
+Package: com.hitori.zeppelinreborn.roothide
+Name: Zeppelin Reborn-roothide
+Depends: mobilesubstrate, preferenceloader, com.muirey03.libimagepicker
+Description: Zeppelin Reborn: A plugin that displays images next to the time and allows carrier customization. It supports themes, static images and GIFs, comes with abundant custom options and great scalability. Zeppelin Reborn，是一款时间旁边显示图片和自定义运营商的插件。支持主题、图片及GIF动图，自定义选项丰富，扩展性强。
+Provides: com.alexzielenski.zeppelin
+Maintainer: Hitori
+Author: Hitori
+Icon: https://huayuarc.github.io/icon/zeppelinreborn.jpg
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.4.2
+Installed-Size: 3100
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.hitori.zeppelinreborn.roothide-1.4.2-roothide.deb
+Size: 1471352
+MD5sum: ad816c9fa1b860a0172dfb638be3c3dc
+SHA1: 
+SHA256: 6f37d46a4f0df2768728e04910200f1f61cd8ecbcf34cdb60a0ff509d7ca5da4
+
+Package: com.hitori.zeppelinreborn.rootless
+Name: Zeppelin Reborn-rootless
+Depends: mobilesubstrate, preferenceloader, com.muirey03.libimagepicker
+Description: Zeppelin Reborn: A plugin that displays images next to the time and allows carrier customization. It supports themes, static images and GIFs, comes with abundant custom options and great scalability. Zeppelin Reborn，是一款时间旁边显示图片和自定义运营商的插件。支持主题、图片及GIF动图，自定义选项丰富，扩展性强。
+Provides: com.alexzielenski.zeppelin
+Maintainer: Hitori
+Author: Hitori
+Icon: https://huayuarc.github.io/icon/zeppelinreborn.jpg
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.4.2
+Installed-Size: 3100
+Filename: debs/com.hitori.zeppelinreborn.rootless-1.4.2-rootless.deb
+Size: 1472712
+MD5sum: 194553a5c7e9dada88f85a9a38c4fa08
+SHA1: 
+SHA256: edac9b3f234c88c17bba15d735e3262ba7c71d7e47c9a894e4a3eccb3629535c
+
 Package: com.hoangdus.konban
 Name: KonbanXV-roothide
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 15.0), com.opa334.altlist, preferenceloader
