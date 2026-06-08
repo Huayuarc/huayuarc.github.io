@@ -303,6 +303,40 @@ SHA1:
 SHA256: d62a51960ef5bb450f1e574cdec14a07296c87c0a7a6583fe020a2848a63e15a
 
 Package: ayao.hidedoubaopip
+Name: HideDoubaoPiP-rootless
+Description: 隐藏豆包输入法画中画悬浮窗，保留正常视频画中画功能。仅对豆包输入法生效，不影响系统及其他应用。
+Maintainer: ayao
+Author: ayao
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 0.0.5
+icon: https://huayuarc.github.io/icon/doubao.jpg
+Installed-Size: 172
+Filename: debs/ayao.hidedoubaopip-0.0.5-rootless.deb
+Size: 10520
+MD5sum: f2a9da33902a95b8b930613f4f014601
+SHA1: 
+SHA256: db266b61ab961db803c2eac6f43117f06fdf3e7db76e9e427ebe7f6acc5f44c1
+
+Package: ayao.hidedoubaopip
+Name: HideDoubaoPiP-rootless
+Description: 隐藏豆包输入法画中画悬浮窗，保留正常视频画中画功能。仅对豆包输入法生效，不影响系统及其他应用。
+Maintainer: ayao
+Author: ayao
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.0
+icon: https://huayuarc.github.io/icon/doubao.jpg
+Installed-Size: 172
+Filename: debs/ayao.hidedoubaopip-1.0.0-rootless.deb
+Size: 9984
+MD5sum: 9b43812d5fa1e24eca114b6da7aa9888
+SHA1: 
+SHA256: 11003896771013a9c0835d456b12cbde72aece1ff029baf2f62a335d793a326e
+
+Package: ayao.hidedoubaopip
 Name: HideDoubaoPiP-roothide
 Description: 隐藏豆包输入法画中画悬浮窗，保留正常视频画中画功能。仅对豆包输入法生效，不影响系统及其他应用。
 Maintainer: ayao
@@ -319,6 +353,23 @@ Size: 11128
 MD5sum: 9ac2569c0cca4cc2b614fc7fc930c0c0
 SHA1: 
 SHA256: 97e64385f1a42640b39dba4ca47451c85058e52d42f16ec8f966ce66773a3c72
+
+Package: ayao.hidedoubaopip
+Name: HideDoubaoPiP-rootless
+Description: 隐藏豆包输入法画中画悬浮窗，保留正常视频画中画功能。仅对豆包输入法生效，不影响系统及其他应用。
+Maintainer: ayao
+Author: ayao
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.2
+icon: https://huayuarc.github.io/icon/doubao.jpg
+Installed-Size: 172
+Filename: debs/ayao.hidedoubaopip-1.0.2-rootless.deb
+Size: 10956
+MD5sum: 97735495906d99e52bff9cc3754be0c9
+SHA1: 
+SHA256: 2aaa2bc55b86d2a2e1bd54cc9dfd4b37db91275ff8f9742fc7d48672555c6497
 
 Package: callshidevoicemailios
 Name: 隐藏语音留言-roothide
@@ -2429,6 +2480,40 @@ Size: 4960
 MD5sum: abc14381192ec4ca5b567d5bfcb63955
 SHA1: 
 SHA256: 874e28bc8af3eb9e570c1eec3e997121d98c7752356c9504d8e39e4197514cb9
+
+Package: com.dada.hidedoubaopip
+Name: HideDoubaoPiP-rootless
+Description: Hide Doubao PiP edge stash indicator and residual floating window on iOS 16+ 在iOS 16+上隐藏Doubao PiP边缘藏匿指示器和剩余浮动窗口
+Maintainer: dada
+Author: dada
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.0-1+debug
+icon: https://huayuarc.github.io/icon/doubao.jpg
+Installed-Size: 172
+Filename: debs/com.dada.hidedoubaopip-1.0.0-1+debug-rootless.deb
+Size: 8440
+MD5sum: c06d28050216eef345ccca487c772919
+SHA1: 
+SHA256: bc0841fbceb2e95c4c4c77e71fb3746838b698ff00266a9aa22430494ee86de1
+
+Package: com.dada.hidedoubaopip
+Name: HideDoubaoPiP-rootless
+Description: Hide only Doubao IME PiP floating window while preserving normal video PiP. Changes from early v2: removes broad SBPIPPegasusAdapter matching, uses conservative multi-signal Doubao detection, avoids hidden=YES, adds PiP internal layout triggers, and release builds do not write log files. 仅隐藏抖音IME PiP浮动窗口，同时保留正常视频PiP。与早期v2相比的变化：删除广泛的SBPIPPegasusAdapter匹配，使用保守的多信号淘宝检测，避免隐藏=是，添加PiP内部布局触发器，以及发布版本不写入日志文件。
+Maintainer: dada
+Author: dada
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.0
+icon: https://huayuarc.github.io/icon/doubao.jpg
+Installed-Size: 172
+Filename: debs/com.dada.hidedoubaopip-1.0.0-rootless.deb
+Size: 9596
+MD5sum: 1e7944898a2cd5bef45cdd109c65bd0b
+SHA1: 
+SHA256: 16fefb7d8ff2640937ec95f834ff078dc000a3533dd8bc37f8670840a0c21646
 
 Package: com.dafei.terminal
 Name: DFTerminal-roothide
