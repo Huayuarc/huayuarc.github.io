@@ -35,6 +35,40 @@ MD5sum: 43e1727c3af9c3e898fc516a5c3f643e
 SHA1: 
 SHA256: 0f9ced4224cb555440657c4dfc9257b13d6b7b333ef0953644cf67b6e8c608ae
 
+Package: a1
+Name: A1-roothide
+Version: 1.9.7+debug10
+Architecture: iphoneos-arm64e
+Section: Systems系统
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
+Author: LF
+Maintainer: LF, AD
+SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+Icon: https://huayuarc.github.io/icon/a1.jpg
+Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
+Filename: debs/a1-1.9.7+debug10-roothide.deb
+Size: 50212
+MD5sum: 922b24ead0ad45f2015868e572f69947
+SHA1: 
+SHA256: 54078043e88e9ac79cd43f7e040f5484fdf87924dc3b137601ae914636cd01c8
+
+Package: a1
+Name: A1-rootless
+Version: 1.9.7+debug10
+Architecture: iphoneos-arm64
+Section: Systems系统
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
+Author: LF
+Maintainer: LF, AD
+SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+Icon: https://huayuarc.github.io/icon/a1.jpg
+Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
+Filename: debs/a1-1.9.7+debug10-rootless.deb
+Size: 50436
+MD5sum: 67ab122f23b961ddf077b9e203369607
+SHA1: 
+SHA256: eaa90cb0c7c26dd52594500c2ac551e49dedd9cd7cb2c7aa2e0376f1442483ea
+
 Package: ai-config-gui
 Name: AI-Config-GUI-roothide
 Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，修复roothide闪退问题.
