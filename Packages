@@ -10697,6 +10697,26 @@ SHA1:
 SHA256: b6d301d5f140d830891d877bb6b200a655c45c6b77ccf855d4879448063b128a
 
 Architecture: iphoneos-arm64
+Package: im.mjh.fakeperm
+Name: 虚拟权限 · Fake Permission-rootless
+Version: 8.3.0
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakeperm.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.json
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.json
+icon: https://huayuarc.github.io/icon/fakeperm.png
+Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索取。支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟拍照)、麦克风伪装、蓝牙伪装、剪贴板伪装、传感器防摇一摇、WiFi模拟(SSID/BSSID/历史)、机型伪装、iOS版本伪装(内置数据库)、地区伪装(内置选择器)、语言伪装(内置选择器)、UUID标识符伪装(IDFV/IDFA)、App版本伪装、屏蔽代理检测、屏蔽截图/录屏检测、配置导入导出、App暂停/恢复。
+Section: Tweaks
+Depends: firmware (>=15.0), preferenceloader
+Tags: compatible_min::ios15.0, compatible_max::ios17.0
+Author: Junhong
+Maintainer: Junhong
+Filename: debs/im.mjh.fakeperm-8.3.0-rootless.deb
+Size: 257020
+MD5sum: 3469fb2b804f284298c87d97f15978b1
+SHA1: 
+SHA256: 18e03976e35da37a34e114e39447f4b8b2d1c4824346e5b89b1616fbc429a927
+
+Architecture: iphoneos-arm64
 Package: im.mjh.wclocate
 Name: 微信虚拟定位-rootless
 Version: 3.0.0
