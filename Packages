@@ -10798,6 +10798,27 @@ MD5sum: 75a9fb5b7156e670ec0f391dee3d1461
 SHA1: 
 SHA256: b6d301d5f140d830891d877bb6b200a655c45c6b77ccf855d4879448063b128a
 
+Architecture: iphoneos-arm64e
+Package: im.mjh.fakeperm
+Name: 虚拟权限 · Fake Permission-roothide
+Version: 8.3.0
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakeperm.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.json
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.json
+icon: https://huayuarc.github.io/icon/fakeperm.png
+Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索取。支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟拍照)、麦克风伪装、蓝牙伪装、剪贴板伪装、传感器防摇一摇、WiFi模拟(SSID/BSSID/历史)、机型伪装、iOS版本伪装(内置数据库)、地区伪装(内置选择器)、语言伪装(内置选择器)、UUID标识符伪装(IDFV/IDFA)、App版本伪装、屏蔽代理检测、屏蔽截图/录屏检测、配置导入导出、App暂停/恢复。
+Section: Tweaks
+Depends: firmware (>=15.0), preferenceloader
+Tags: compatible_min::ios15.0, compatible_max::ios17.0
+Author: Junhong
+Maintainer: Junhong
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/im.mjh.fakeperm-8.3.0-roothide.deb
+Size: 252140
+MD5sum: a60ff41a1d92f169141395ca33878ce1
+SHA1: 
+SHA256: 884523a0147ab79538fc79c38f8d89d66a0085255811473d4d839941c736529f
+
 Architecture: iphoneos-arm64
 Package: im.mjh.fakeperm
 Name: 虚拟权限 · Fake Permission-rootless
