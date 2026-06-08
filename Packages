@@ -10774,23 +10774,23 @@ SHA256: 0606f07d52dcfad358e34b1215a23abcfbffbdb3a5721efce1485b113ebaa0a6
 
 Architecture: iphoneos-arm64e
 Package: im.mjh.fakeperm
-Name: 虚拟权限 · Fake Permission (Roothide)-roothide
+Name: 虚拟权限 · Fake Permission-roothide
 Version: 5.3.0
 Depiction: https://apt.mjh.im/depiction/web/im.mjh.fakeperm.roothide.html
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.roothide.json
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.fakeperm.roothide.json
-Description: 【Roothide】针对任意 App 单独配置虚拟权限，防止隐私被过度索取。支持通知、推送、虚拟定位、相册、通讯录、日历、虚拟相机、麦克风、蓝牙、剪贴板、传感器、WiFi模拟、机型伪装等。
-Section: Roothide
+Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索取。支持通知、推送、虚拟定位、相册、通讯录、日历、虚拟相机、麦克风、蓝牙、剪贴板、传感器、WiFi模拟、机型伪装等。
+Section: Tweaks
 Depends: firmware (>=15.0), preferenceloader
 Tags: compatible_min::ios15.0, compatible_max::ios17.0
 icon: https://huayuarc.github.io/icon/fakeperm.png
 Author: Junhong
 Maintainer: Junhong
 Filename: debs/im.mjh.fakeperm-5.3.0-roothide.deb
-Size: 207420
-MD5sum: 933eee450539a41979d009560edfff43
+Size: 207188
+MD5sum: e0a97bbff116a71ab53124e3ee041a0f
 SHA1: 
-SHA256: 87020f8d8ffd340ba84213dc12f756d449ce811da40428cb9287b6fe7e795c66
+SHA256: 33f6557a2141234fae2ac4b5f3cf0bcea6d04ffeb30066c677b9daa62ba89531
 
 Architecture: iphoneos-arm64
 Package: im.mjh.fakeperm
