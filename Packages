@@ -12485,24 +12485,6 @@ MD5sum: 703a41c096116826ecb5976e83b1454a
 SHA1: 
 SHA256: 286b7888f672a9567fb063dc641781ef093406f93b9b1c1956984975b8c4f7f9
 
-Package: nodejs22-ios
-Name: nodejs22-ios-roothide
-Version: 22.12.0-26
-Section: Development
-Priority: optional
-Architecture: iphoneos-arm64e
-Maintainer: OpenClaw Builder <root@localhost>
-Depends: firmware (>= 13.0), ldid
-Description: Node.js v22.12.0 for iOS arm64 (side-by-side install as node22)
- Provides /usr/local/bin/node22 plus npm22/npx22 wrappers.
- Includes bundled npm and ldid-signed binary with iOS JIT/unsigned-exec entitlements.
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/nodejs22-ios-22.12.0-26-roothide.deb
-Size: 23721564
-MD5sum: 5921823beb6b5c890f37fd185e64c9d3
-SHA1: 
-SHA256: 11e8f0006f893392f1cc0d62f94389bd5cd34ac06b485370d9f0aaf62d4807f3
-
 Package: nodejs22-ios-roothide
 Name: Nodejs22-ios-roothide
 Version: 22.12.0-27
