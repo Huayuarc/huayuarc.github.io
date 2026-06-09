@@ -1547,6 +1547,43 @@ MD5sum: c518e1fb2ba22aa7aa937c2ccece3035
 SHA1: 
 SHA256: 738c5bf032064180ef5b352a4590e17aaf49f811a9d01b0c9084ce276d1352b2
 
+Package: com.be-huge.floating-view
+Name: floatingView-roothide
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.6.0-6
+Installed-Size: 2692
+icon: https://huayuarc.github.io/icon/floating-view.jpg
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.be-huge.floating-view-1.6.0-6-roothide.deb
+Size: 656540
+MD5sum: 221f075487600ec5693e1ade57e0f64c
+SHA1: 
+SHA256: 3fc6017e8290c85a0dc4ac74ae00e411e5d3c922bfd0e8b62a0acc2326a70e4e
+
+Package: com.be-huge.floating-view
+Name: floatingView-rootless
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 1.6.0-6
+Installed-Size: 2692
+icon: https://huayuarc.github.io/icon/floating-view.jpg
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Filename: debs/com.be-huge.floating-view-1.6.0-6-rootless.deb
+Size: 669864
+MD5sum: 5f33dea238d977ed4ef4725fb954c1ae
+SHA1: 
+SHA256: 867dfd48b7e822367c7169350a3f4bbf6bbdc97e9ac5e45cf04e074c92238f86
+
 Package: com.be-huge.insulation
 Name: insulation-roothide
 Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
