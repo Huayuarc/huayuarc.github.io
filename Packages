@@ -3513,6 +3513,40 @@ SHA256: 3af70248ae3b22237aae2e8966ab65a68ff8f34bd0eed987c189e5a209d97f29
 
 Package: com.iosdump.zone
 Name: Zone
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Icon: https://huayuarc.github.io/icon/Zone.png
+Installed-Size: 980
+Filename: debs/com.iosdump.zone-1.1.0-roothide.deb
+Size: 167776
+MD5sum: d4118dacad8419cf033f6fa379384ad3
+SHA1: 
+SHA256: 39fefa377b9809c68c648a0ae845f8f12d254dfb2bf683ea301bef10a5b0923f
+
+Package: com.iosdump.zone
+Name: Zone
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Icon: https://huayuarc.github.io/icon/Zone.png
+Installed-Size: 984
+Filename: debs/com.iosdump.zone-1.1.0-rootless.deb
+Size: 169184
+MD5sum: aa3074f4f4c5391dc0763fecef70f07a
+SHA1: 
+SHA256: a8b909dabf8c244568b6dec562db30ca676bc3171be5a51637ab8c3f727ec0fa
+
+Package: com.iosdump.zone
+Name: Zone
 Depends: mobilesubstrate, preferenceloader
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Maintainer: iosdump
@@ -10825,6 +10859,41 @@ Size: 86732
 MD5sum: 9524a1e5fe2f7fca21fa18f018e90ffa
 SHA1: 
 SHA256: eb3a68c7b51604a4524dfdba65b68d600102b9650caf560c97560500748e0e40
+
+Package: com.thefool.ccaudioplay
+Name: CCAudioPlay
+Description: 播放器美化 不支IOS15
+Maintainer: thefool
+Author: thefool
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1-94+debug
+Installed-Size: 29540
+icon: https://huayuarc.github.io/icon/CCAudioPlay.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.thefool.ccaudioplay-0.0.1-94+debug-roothide.deb
+Size: 25072836
+MD5sum: 47d3c6ec5c359b9bab498b48ab579602
+SHA1: 
+SHA256: e0f090d4a59f8409ba617490756bdf44dff2b2fc6a8d318dbad3d4744f59551a
+
+Package: com.thefool.ccaudioplay
+Name: CCAudioPlay
+Description: 播放器美化 不支IOS15
+Maintainer: thefool
+Author: thefool
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.1-94+debug
+Installed-Size: 29540
+icon: https://huayuarc.github.io/icon/CCAudioPlay.png
+Filename: debs/com.thefool.ccaudioplay-0.0.1-94+debug-rootless.deb
+Size: 25082028
+MD5sum: 7da8891f5cd6e95528cd6c60d5fcbcf3
+SHA1: 
+SHA256: 98a1c112cd3741537af8bfaeb7b04476930887afea0ad709b14a08098bf4cdcb
 
 Package: com.tune.h3kbhook
 Name: H3kbHook
