@@ -13138,6 +13138,61 @@ MD5sum: 69d78853eecae1c76886a9283f8993bb
 SHA1: 
 SHA256: 2ca10ec9754a043cca2868a53c5c71ef32a1a1cc99a76a60b59542ac3ee54901
 
+Package: tools4cydia.flexpatch.pro
+Name: FlexPatch Pro
+Depends: mobilesubstrate, firmware (>= 14.0)
+Description: FlexPatch Pro is a powerful on-device tweak builder for jailbroken iOS. Browse installed apps, inspect Objective-C and Swift classes, hook methods, override return values, and intercept arguments — then compile and package your tweak as a .deb file without ever touching a Mac.
+Maintainer: tools4cydia
+Author: tools4cydia
+Section: Tweaks
+Tag: role::enduser
+Architecture: iphoneos-arm64e
+Version: 5.1.0-3+debug
+icon: https://huayuarc.github.io/icon/flexpatch.jpg
+Installed-Size: 236
+Filename: debs/tools4cydia.flexpatch.pro-5.1.0-3+debug-roothide.deb
+Size: 10130656
+MD5sum: 393dacbde62d758a9271bca74fa7698e
+SHA1: 
+SHA256: 19fae75ff97795f69fb128d29b13de5f3acc106a4755002e3c614db9ecfa3201
+
+Package: tools4cydia.flexpatch.pro
+Name: FlexPatch Pro
+Depends: mobilesubstrate, firmware (>= 14.0)
+Description: FlexPatch Pro is a powerful on-device tweak builder for jailbroken iOS. Browse installed apps, inspect Objective-C and Swift classes, hook methods, override return values, and intercept arguments — then compile and package your tweak as a .deb file without ever touching a Mac.
+Maintainer: tools4cydia
+Author: tools4cydia
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/flexpatch.jpg
+Tag: role::enduser
+Architecture: iphoneos-arm64e
+Version: 5.1.0-4+debug
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/tools4cydia.flexpatch.pro-5.1.0-4+debug-roothide.deb
+Size: 10131744
+MD5sum: f58fd7c49d3fc4bfb0bfeef77e95fbfe
+SHA1: 
+SHA256: 44780cef9cbb683b211ecaa08dda393baae9a81ad67b8dec9ccf96f5665c3400
+
+Package: tools4cydia.flexpatch.pro
+Name: FlexPatch Pro
+Depends: mobilesubstrate, firmware (>= 14.0)
+Description: FlexPatch Pro is a powerful on-device tweak builder for jailbroken iOS. Browse installed apps, inspect Objective-C and Swift classes, hook methods, override return values, and intercept arguments — then compile and package your tweak as a .deb file without ever touching a Mac.
+Maintainer: tools4cydia
+Author: tools4cydia
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/flexpatch.jpg
+Tag: role::enduser
+Architecture: iphoneos-arm64
+Version: 5.1.0-4+debug
+Installed-Size: 240
+Filename: debs/tools4cydia.flexpatch.pro-5.1.0-4+debug-rootless.deb
+Size: 10135264
+MD5sum: b815410690c37b20aaaf7d3fd4725819
+SHA1: 
+SHA256: db0672621ddc64c62af713beb51dcaee10a3daaf25024b80c3ba767425928bbf
+
 Package: uncar
 Name: uncar
 Architecture: iphoneos-arm64
