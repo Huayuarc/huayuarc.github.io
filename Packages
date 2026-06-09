@@ -1014,50 +1014,54 @@ SHA256: a783db0d0535921d1b30b78fc7d2264e8980e493dd2d1179895c8cc1d51702df
 
 Package: com.Axs.floating-view
 Name: Floating-view-Cracks-roothide
-Description: 本版本仅调整授权验证逻辑，插件原有其他功能逻辑未做修改。若安装后出现失效、冲突或设备、应用异常，请自行卸载。
-  * English：This version only modifies the authorization verification logic, and all other original functions of the plugin remain unchanged. Please uninstall it yourself if it malfunctions, conflicts with other software or causes abnormalities to your device and apps after installation.
-  * 免责声明：安装及使用本插件所产生的一切风险均由使用者自行承担。本插件由 Axs 破解分享，若因插件兼容性、原始代码逻辑或其他未知问题造成设备、系统、应用故障，本人不承担任何相关责任。
-  * English：Disclaimer：All risks arising from the installation and use of this plugin shall be borne by the user. This plugin is cracked and shared by Axs. I shall not be held liable for any faults of devices, systems or applications caused by compatibility issues, original code logic or other unknown problems of the plugin.
+Description: Floating-view 分屏插件由 Axs 破解分享，若因插件兼容性、原始代码逻辑或其他未知问题造成设备、系统、应用故障，本人不承担任何相关责任。
+  * The Floating-view split-screen plugin is cracked and shared by Axs. I shall not bear any relevant responsibility for device, system or application failures caused by plugin compatibility problems, original code logic or other unknown issues.
+  * 免责声明：安装及使用本插件所产生的一切风险均由使用者自行承担。
+Disclaimer: All risks arising from the installation and use of this plugin shall be borne solely by the user.
+  * 本版本仅调整授权验证逻辑，插件原有其他功能逻辑未做修改。若安装后出现失效、冲突或设备、应用异常，请自行卸载。
+  * This version only adjusts the authorization verification logic, and all other original functional logic of the plugin remains unchanged. Please uninstall it by yourself if there is failure, conflict or abnormal conditions of the device and applications after installation.
   * Floating-view 分屏插件仅供个人备份与学习研究使用。
-  * English：The Floating-view split-screen plugin is for personal backup, study and research only.
+  * The Floating-view split-screen plugin is only for personal backup, study and research purposes.
 Maintainer: Axs
 Author: be-huge
 Section: Tweaks
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.opa334.altlist
 Architecture: iphoneos-arm64e
-Version: 1.6.0-6
+Version: 1.6.0-6-crack
 Installed-Size: 2700
 icon: https://huayuarc.github.io/icon/floating-view.jpg
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.json
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.Axs.floating-view-1.6.0-6-roothide.deb
-Size: 652616
-MD5sum: 3c6529b9484a48120c07d953bed66289
+Filename: debs/com.Axs.floating-view-1.6.0-6-crack-roothide.deb
+Size: 651660
+MD5sum: 1aff2878e827b4f972a14b6706930366
 SHA1: 
-SHA256: d695ec9056472215ef5e21437f0ad4733a749c2f2d4cbac50ca3f306ecf55a88
+SHA256: d4d31b3ec57f1c9fc252d60afa7bfee6c170d71075a2f2a8c2b979a3a5999721
 
 Package: com.Axs.floating-view
-Name: Floating-view-Cracks-rootless
-Description: 本版本仅调整授权验证逻辑，插件原有其他功能逻辑未做修改。若安装后出现失效、冲突或设备、应用异常，请自行卸载。
-  * English：This version only modifies the authorization verification logic, and all other original functions of the plugin remain unchanged. Please uninstall it yourself if it malfunctions, conflicts with other software or causes abnormalities to your device and apps after installation.
-  * 免责声明：安装及使用本插件所产生的一切风险均由使用者自行承担。本插件由 Axs 破解分享，若因插件兼容性、原始代码逻辑或其他未知问题造成设备、系统、应用故障，本人不承担任何相关责任。
-  * English：Disclaimer：All risks arising from the installation and use of this plugin shall be borne by the user. This plugin is cracked and shared by Axs. I shall not be held liable for any faults of devices, systems or applications caused by compatibility issues, original code logic or other unknown problems of the plugin.
+Name: Floating-view-rootless
+Description: Floating-view 分屏插件由 Axs 破解分享，若因插件兼容性、原始代码逻辑或其他未知问题造成设备、系统、应用故障，本人不承担任何相关责任。
+  * The Floating-view split-screen plugin is cracked and shared by Axs. I shall not bear any relevant responsibility for device, system or application failures caused by plugin compatibility problems, original code logic or other unknown issues.
+  * 免责声明：安装及使用本插件所产生的一切风险均由使用者自行承担。
+Disclaimer: All risks arising from the installation and use of this plugin shall be borne solely by the user.
+  * 本版本仅调整授权验证逻辑，插件原有其他功能逻辑未做修改。若安装后出现失效、冲突或设备、应用异常，请自行卸载。
+  * This version only adjusts the authorization verification logic, and all other original functional logic of the plugin remains unchanged. Please uninstall it by yourself if there is failure, conflict or abnormal conditions of the device and applications after installation.
   * Floating-view 分屏插件仅供个人备份与学习研究使用。
-  * English：The Floating-view split-screen plugin is for personal backup, study and research only.
+  * The Floating-view split-screen plugin is only for personal backup, study and research purposes.
 Maintainer: Axs
 Author: be-huge
 Section: Tweaks
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.opa334.altlist
 Architecture: iphoneos-arm64
-Version: 1.6.0-6
+Version: 1.6.0-6-crack
 Installed-Size: 2700
 icon: https://huayuarc.github.io/icon/floating-view.jpg
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.json
-Filename: debs/com.Axs.floating-view-1.6.0-6-rootless.deb
-Size: 655000
-MD5sum: 3da0218a6f807fff8edd2055cf147d82
+Filename: debs/com.Axs.floating-view-1.6.0-6-crack-rootless.deb
+Size: 652216
+MD5sum: d6c23ea95cdb141084121938ca4bcab9
 SHA1: 
-SHA256: 207cc9f3a2c8180e50c9dd846287b9de6e1c07b24fe02dfa6494b8cec6654326
+SHA256: 2f89fcd835b2f59a64a6543e8aa3f051e815c4425b2046f7918b4fb9ee03760c
 
 Package: com.Doki.wxkeyboarduihook
 Name: WXKeyboardUIHook-roothide
@@ -1512,18 +1516,18 @@ Description: 分屏，不必太复杂，一切从简即可。
 Maintainer: be-huge
 Author: be-huge
 Section: Tweaks
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.opa334.altlist
 Architecture: iphoneos-arm64e
 Version: 1.5.7-1
 Installed-Size: 2692
-Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+icon: https://huayuarc.github.io/icon/floating-view.jpg
 SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.be-huge.floating-view-1.5.7-1-roothide.deb
-Size: 629572
-MD5sum: 175ffbec7b2f24d6913bdf0e665d27a0
+Size: 630316
+MD5sum: dfcd6a8561fd4b800e5a12df61141385
 SHA1: 
-SHA256: 634069d271e6fbedc9618c1d678362b651e347b6ce14224f40cd7e73d2a1028a
+SHA256: 9b6161158b65f90477ac9ddee3262e417438307354414a983f9a1bf5340fa17f
 
 Package: com.be-huge.floating-view
 Name: floatingView-rootless
@@ -1531,17 +1535,17 @@ Description: 分屏，不必太复杂，一切从简即可。
 Maintainer: be-huge
 Author: be-huge
 Section: Tweaks
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.opa334.altlist
 Architecture: iphoneos-arm64
 Version: 1.5.7-1
 Installed-Size: 2692
-Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
+icon: https://huayuarc.github.io/icon/floating-view.jpg
 SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
 Filename: debs/com.be-huge.floating-view-1.5.7-1-rootless.deb
-Size: 641708
-MD5sum: 87ca076b7c7ead7138c9408feb45ced9
+Size: 641744
+MD5sum: c518e1fb2ba22aa7aa937c2ccece3035
 SHA1: 
-SHA256: 502c84e8c87f366b5d1db0939cf2326ca488c6dbe1e6191981f2961407c07bf2
+SHA256: 738c5bf032064180ef5b352a4590e17aaf49f811a9d01b0c9084ce276d1352b2
 
 Package: com.be-huge.insulation
 Name: insulation-roothide
