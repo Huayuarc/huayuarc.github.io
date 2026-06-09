@@ -1258,6 +1258,45 @@ MD5sum: 266fad8a4f9520208851a1f313aba11f
 SHA1: 
 SHA256: 4814f7ab591f69015f0eab439360b5d797312a210040f2bc3c2594ff9de4a233
 
+Package: com.afn
+Name: AFN
+Description: AFN(隐根版本)
+ 适用于 iOS 15-16。
+Maintainer: AFN Team
+Author: AFN Team
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Conflicts: com.tencent.xin.dkhelper, com.dkjone.dkhelper, com.afn.helper, com.xiaoxin.helper
+Architecture: iphoneos-arm64e
+Version: 3.2.7
+Installed-Size: 3004
+icon: https://huayuarc.github.io/icon/WeChat.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.afn-3.2.7-roothide.deb
+Size: 934916
+MD5sum: 1dbec45836359c87bc65257a99d2261f
+SHA1: 
+SHA256: f2ec51ae7dcfdcbcdc5cfdf428b4a9089fdc8c2bd3910012fb0866e2ee5e3016
+
+Package: com.afn
+Name: AFN
+Description: AFN(无根版本)
+ 适用于 iOS 15-16。
+Maintainer: AFN Team
+Author: AFN Team
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Conflicts: com.tencent.xin.dkhelper, com.dkjone.dkhelper, com.afn.helper, com.xiaoxin.helper
+Architecture: iphoneos-arm64
+Version: 3.2.7
+icon: https://huayuarc.github.io/icon/WeChat.jpg
+Installed-Size: 3004
+Filename: debs/com.afn-3.2.7-rootless.deb
+Size: 949112
+MD5sum: c0231d481bebd4138701ad6251fe551b
+SHA1: 
+SHA256: 29446a7341df046f8be27c8df1339757088f1ac3b4459d0e2fdb2d5315d48eef
+
 Package: com.amywhile.aemulo
 Name: Aemulo
 Description: NFC Frickery
