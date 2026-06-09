@@ -5550,6 +5550,27 @@ MD5sum: 475cddbfb476f2347fb3a3b222db8af6
 SHA1: 
 SHA256: 3880da47828ac70de5554fb24b455c4cb7a936c01aac9883bbc0d9221636c2b4
 
+Package: com.randy420.tools
+Name: 420 Tools
+Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
+Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
+Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
+Homepage: https://theemeraldisle.family
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Author: Randy420 <randy.skinner@hotmail.com>
+Section: System
+Tag: role::hacker
+Replaces: com.randy420.encrypt
+Architecture: iphoneos-arm64
+Version: 2.3.9
+icon: https://huayuarc.github.io/icon/420icon.png
+Installed-Size: 2392
+Filename: debs/com.randy420.tools-2.3.9-rootless.deb
+Size: 543936
+MD5sum: a7ff213a92ccad3ca811edbd1eb8f789
+SHA1: 
+SHA256: 8a515670176c147d1649b269cf09b4d59df4ead99f4372643e08fb8fabc3a350
+
 Package: com.rpgfarm.a-font
 Name: A-Font
 Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
@@ -13137,6 +13158,63 @@ Size: 14960388
 MD5sum: 69d78853eecae1c76886a9283f8993bb
 SHA1: 
 SHA256: 2ca10ec9754a043cca2868a53c5c71ef32a1a1cc99a76a60b59542ac3ee54901
+
+Package: ru.rj.ftt
+Name: Flex To Theos
+Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
+Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
+  
+ - Use 'ftt -?' For a full list of options.
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Homepage: https://theemeraldisle.family
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Section: Utilities
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+icon: https://huayuarc.github.io/icon/ftt.jpg
+Architecture: iphoneos-arm64
+Version: 1.4
+Installed-Size: 1300
+Filename: debs/ru.rj.ftt-1.4-rootless.deb
+Size: 356460
+MD5sum: fc79679da447e162ecb6ed2f022641e5
+SHA1: 
+SHA256: a6f110ef8ec0255f274c203733a44da752235b0eb86fa0d0f790540e56b24607
+
+Package: tools.cydia.flex3
+Maintainer: t4c
+Name: Flex 3 Beta98
+Depends: mobilesubstrate, firmware (>=15.0)
+Version: 3.0
+Architecture: iphoneos-arm64
+Description: Develop your own tweaks and share them on the Flex Community Cloud
+Author: John Coates
+Section: Tweaks
+sileodepiction: https://tools4cydia.co/repo/txt/Flex3.json
+icon: https://huayuarc.github.io/icon/Flex.jpg
+Filename: debs/tools.cydia.flex3-3.0-rootless.deb
+Size: 16709904
+MD5sum: 45fda5df76b3c814409d89ee517a757e
+SHA1: 
+SHA256: 3e32956f7c1ef836bd91435ff95d77a3dc9b07a191562cb5e393e20618b842d2
+
+Package: tools4cydia.flexpatch.pro
+Name: FlexPatch Pro
+Depends: mobilesubstrate, firmware (>= 14.0)
+Description: FlexPatch Pro is a powerful on-device tweak builder for jailbroken iOS. Browse installed apps, inspect Objective-C and Swift classes, hook methods, override return values, and intercept arguments — then compile and package your tweak as a .deb file without ever touching a Mac.
+Maintainer: tools4cydia
+Author: tools4cydia
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/flexpatch.jpg
+Tag: role::enduser
+Architecture: iphoneos-arm64
+Version: 5.0.0-4+debug
+Installed-Size: 240
+Filename: debs/tools4cydia.flexpatch.pro-5.0.0-4+debug-rootless.deb
+Size: 10168148
+MD5sum: 1d3026ffa6350a4a216631f8d8b5eec1
+SHA1: 
+SHA256: a7b461c9d3172c12f785c2acd77f9ae2f930a52c2f8b38d5f6967a366836c547
 
 Package: tools4cydia.flexpatch.pro
 Name: FlexPatch Pro
