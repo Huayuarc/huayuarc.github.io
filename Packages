@@ -4459,6 +4459,41 @@ MD5sum: 30f19f6431d47092ee7e6f8a27f87c32
 SHA1: 
 SHA256: 3a6c221bec6470774dba45b8e88b4bd3d8216289eb84d61c01d1b0ab1b62add7
 
+Package: com.nathan.dynamicnotland
+Name: DynamicNotLand
+Description: A tweak to hide the Dynamic Island on the 14 Pro series when it's not in use! 在不使用时，在 14 Pro系列中隐藏动态岛的调整！
+Maintainer: Nathan
+Author: Nathan
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.2.5
+Installed-Size: 348
+icon: https://huayuarc.github.io/icon/dynamicnotland.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.nathan.dynamicnotland-1.2.5-roothide.deb
+Size: 12460
+MD5sum: 3955dd15c675a4a95be110d2b6667377
+SHA1: 
+SHA256: 00d8c0cbb8fb7d7659628746522181f488f2bd1807fd1af4bdb7193abb0def45
+
+Package: com.nathan.dynamicnotland
+Name: DynamicNotLand
+Description: A tweak to hide the Dynamic Island on the 14 Pro series when it's not in use! 在不使用时，在 14 Pro系列中隐藏动态岛的调整！
+Maintainer: Nathan
+Author: Nathan
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.2.5
+icon: https://huayuarc.github.io/icon/dynamicnotland.jpg
+Installed-Size: 348
+Filename: debs/com.nathan.dynamicnotland-1.2.5-rootless.deb
+Size: 12360
+MD5sum: 318c56e845a353a771fe733d63ddfefd
+SHA1: 
+SHA256: 5973286317706008ec224601a363615551cd20def15aa6259a06775235ee6380
+
 Package: com.necromancy.tweak
 Name: Necromancy
 Description: 增强 iOS 原生墓碑机制。通过 Jetsam 优先级与内存阈值调整，防止系统杀后台应用，减少耗电发热。安全稳定，不干预进程状态。 感兴趣可以加 QQ 群。2059 28931
