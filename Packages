@@ -3507,13 +3507,13 @@ Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 1.2.1
 Installed-Size: 4148
+icon: https://huayuarc.github.io/icon/snapper.png
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
 Filename: debs/com.jontelang.snapper3-1.2.1-roothide.deb
-Size: 1022692
-MD5sum: 71374dbb4501c860cdf7e2fb4bb5d0e4
+Size: 1022208
+MD5sum: c465b6fded7d36ee3a3df7c579002959
 SHA1: 
-SHA256: 0d4d2f739212bdd9b640393f2527e39b20f8794031b7bc48d9d46303507cc5be
+SHA256: c6463054c5962cea39c467ea49282b828ed70b24325631fa28765b9a86eb46c9
 
 Package: com.jzksnsjswkw.feemcrack
 Name: Feemcrack-roothide
@@ -10509,13 +10509,13 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Architecture: iphoneos-arm64e
 Version: 1.9.0
 Installed-Size: 6304
+icon: https://huayuarc.github.io/icon/CopyVault.png
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
 Filename: debs/com.squidforce.copyvault-1.9.0-roothide.deb
-Size: 1666208
-MD5sum: 36796d1fbab95511d014186fa22bb130
+Size: 1668152
+MD5sum: 4d4c750445aa1019e57dccaa1329c482
 SHA1: 
-SHA256: 7dd2815258fa4f2c11850a2ca1d77059f26db2b39caeaa28bd817e9cfba5c7d4
+SHA256: 5245c1bf3b3ebd69c848be8595e30133d8cd83bf31d15a59baa289d1a92bd505
 
 Author: sunshinesong
 TS: sp-sss
@@ -10731,6 +10731,43 @@ Size: 3900
 MD5sum: 21b3c8d789f87d71b53d0a475f9d02fa
 SHA1: 
 SHA256: cc76712e39ca4964bce010ec8ccf2e05a697b1cdd38d8ecaa7bed0adb85b5ec0
+
+Package: com.xuegao.automessage
+Name: AutoMessage-roothide
+Description: 抖音自动消息发送插件，支持每日自动发送消息
+Maintainer: Xuegao
+Author: Xuegao
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 1.1-2
+Installed-Size: 828
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.xuegao.automessage-1.1-2-roothide.deb
+Size: 165364
+MD5sum: 3305bfd2c24ed8160fcbfb6d5a150d0c
+SHA1: 
+SHA256: 97d83d794922ffd03098a8bb10db63217410adaaf1ddbb87b0e32ed716a67afc
+
+Package: com.xuegao.automessage
+Name: AutoMessage-rootless
+Description: 抖音自动消息发送插件，支持每日自动发送消息
+Maintainer: Xuegao
+Author: Xuegao
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 1.1-2
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Installed-Size: 828
+Filename: debs/com.xuegao.automessage-1.1-2-rootless.deb
+Size: 169064
+MD5sum: 1a63abe343c32958f0a2128d72f532de
+SHA1: 
+SHA256: ad2d5bbec3494eae8d3b98d8898f0af00b649ce8a9b13605102f85904b7f8ffe
 
 Package: com.ylr.wchook
 Name: 悬浮按钮分屏-rootless
