@@ -1014,11 +1014,12 @@ SHA256: a783db0d0535921d1b30b78fc7d2264e8980e493dd2d1179895c8cc1d51702df
 
 Package: com.Axs.floating-view
 Name: Floating-view-roothide
-Description: 温馨提示:
-  * 1、Floating-view 分屏插件仅供个人备份与学习研究使用。
-  * 2、插件经过 Axs设备测试，仅在 iPhone 14 Pro iOS 16.2、iPhone 14 Pro Max iOS 16.5 无根越狱环境下测试正常可用。
-  * 3、本版本仅处理授权验证逻辑，插件其他原有逻辑未作修改。若安装后无效、冲突或导致设备/应用异常，请自行卸载。
-  * 4、免责声明：安装和使用本插件所产生的一切风险由使用者自行承担。如因插件本身兼容性、原始代码逻辑或其他未知问题导致设备、系统、应用出现异常，插件由：Axs破解分享。本人不承担因此产生的任何责任。
+Description: 本版本仅调整授权验证逻辑，插件原有其他功能逻辑未做修改。若安装后出现失效、冲突或设备、应用异常，请自行卸载。
+  * English：This version only modifies the authorization verification logic, and all other original functions of the plugin remain unchanged. Please uninstall it yourself if it malfunctions, conflicts with other software or causes abnormalities to your device and apps after installation.
+  * 免责声明：安装及使用本插件所产生的一切风险均由使用者自行承担。本插件由 Axs 破解分享，若因插件兼容性、原始代码逻辑或其他未知问题造成设备、系统、应用故障，本人不承担任何相关责任。
+  * English：Disclaimer：All risks arising from the installation and use of this plugin shall be borne by the user. This plugin is cracked and shared by Axs. I shall not be held liable for any faults of devices, systems or applications caused by compatibility issues, original code logic or other unknown problems of the plugin.
+  * Floating-view 分屏插件仅供个人备份与学习研究使用。
+  * English：The Floating-view split-screen plugin is for personal backup, study and research only.
 Maintainer: Axs
 Author: be-huge
 Section: Tweaks
@@ -1026,22 +1027,23 @@ Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Architecture: iphoneos-arm64e
 Version: 1.6.0-6
 Installed-Size: 2700
-Icon: https://axs66.github.io/pro/icon/svp.png
+icon: https://huayuarc.github.io/icon/floating-view.jpg
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.json
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.Axs.floating-view-1.6.0-6-roothide.deb
-Size: 651628
-MD5sum: 6f5963c9dec70ee2d32eb471960483c5
+Size: 653372
+MD5sum: cf50913b105b2ecd37df39dc106c0bc2
 SHA1: 
-SHA256: 6c96f2ab51b91daee5642180f51178d2b146d2678d45dd15cb920a0402027d2d
+SHA256: 161db1b883010d7927d1f7f28fbb4f765251297aeaa36fcf49379f5bdea29b89
 
 Package: com.Axs.floating-view
-Name: Floating-view-rootless
-Description: 温馨提示:
-  * 1、Floating-view 分屏插件仅供个人备份与学习研究使用。
-  * 2、插件经过 Axs设备测试，仅在 iPhone 14 Pro iOS 16.2、iPhone 14 Pro Max iOS 16.5 无根越狱环境下测试正常可用。
-  * 3、本版本仅处理授权验证逻辑，插件其他原有逻辑未作修改。若安装后无效、冲突或导致设备/应用异常，请自行卸载。
-  * 4、免责声明：安装和使用本插件所产生的一切风险由使用者自行承担。如因插件本身兼容性、原始代码逻辑或其他未知问题导致设备、系统、应用出现异常，插件由：Axs破解分享。本人不承担因此产生的任何责任。
+Name: Floating-view-Cracks-rootless
+Description: 本版本仅调整授权验证逻辑，插件原有其他功能逻辑未做修改。若安装后出现失效、冲突或设备、应用异常，请自行卸载。
+  * English：This version only modifies the authorization verification logic, and all other original functions of the plugin remain unchanged. Please uninstall it yourself if it malfunctions, conflicts with other software or causes abnormalities to your device and apps after installation.
+  * 免责声明：安装及使用本插件所产生的一切风险均由使用者自行承担。本插件由 Axs 破解分享，若因插件兼容性、原始代码逻辑或其他未知问题造成设备、系统、应用故障，本人不承担任何相关责任。
+  * English：Disclaimer：All risks arising from the installation and use of this plugin shall be borne by the user. This plugin is cracked and shared by Axs. I shall not be held liable for any faults of devices, systems or applications caused by compatibility issues, original code logic or other unknown problems of the plugin.
+  * Floating-view 分屏插件仅供个人备份与学习研究使用。
+  * English：The Floating-view split-screen plugin is for personal backup, study and research only.
 Maintainer: Axs
 Author: be-huge
 Section: Tweaks
@@ -1049,13 +1051,13 @@ Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Architecture: iphoneos-arm64
 Version: 1.6.0-6
 Installed-Size: 2700
-Icon: https://axs66.github.io/pro/icon/svp.png
+icon: https://huayuarc.github.io/icon/floating-view.jpg
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.json
 Filename: debs/com.Axs.floating-view-1.6.0-6-rootless.deb
-Size: 653392
-MD5sum: 65b32b9a291fef42137d57c08d18ab11
+Size: 655000
+MD5sum: 3da0218a6f807fff8edd2055cf147d82
 SHA1: 
-SHA256: e52ae15f75c6802f5c6f29ddf259d5cfe75a9f3b492fd9fbc00e50eb5cb9e2b2
+SHA256: 207cc9f3a2c8180e50c9dd846287b9de6e1c07b24fe02dfa6494b8cec6654326
 
 Package: com.Doki.wxkeyboarduihook
 Name: WXKeyboardUIHook-roothide
