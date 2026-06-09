@@ -11307,6 +11307,23 @@ MD5sum: 60fc6d3399a7dc385d169808539a64f7
 SHA1: 
 SHA256: 27d4b54c5e2f7fd4610437b93ea7c6f190312446a41626fedc3b49d174a2161a
 
+Package: io.github.xmz-team.a1gui
+Section: System
+Maintainer: XMX-Team <ad-ios334@outlook.com>, LF
+Architecture: iphoneos-arm64
+Version: 0.0.2-alpha+debug1
+Pre-Depends: firmware (>= 14.0), a1
+Description: This is the GUI graphical interface version of A1 (new A1 App),for the time being, only rootless is supported.
+Name: A1 App(New)
+Author: LF
+Icon: https://huayuarc.github.io/icon/a1.jpg
+Conflicts: official.ad.and.lf.app.a1
+Filename: debs/io.github.xmz-team.a1gui-0.0.2-alpha+debug1-rootless.deb
+Size: 93956
+MD5sum: bcd1e0ad9f93f7d3962e28eface681b0
+SHA1: 
+SHA256: 25822586ae5a6684560733c9eacfd42342ef1efbb09c7e4f89332c23d930957f
+
 Package: iphonerelease
 Name: 农业银行V10.2.1
 Author: z
