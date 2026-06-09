@@ -3090,6 +3090,41 @@ MD5sum: 958d0edbd725bc3879181b424ec85d2d
 SHA1: 
 SHA256: 9db61522b70c6365adfd2aa5a01ddf18612a95b5647fc53457af70997f45dc3c
 
+Package: com.huayuarc.flashclockpro
+Name: FlashClock Pro
+Author: Huayuarc
+Description: 解锁会员权限
+Depends: mobilesubstrate, firmware (>= 14.0)
+Maintainer: Huayuarc
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/flashclockpro.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.huayuarc.flashclockpro-0.0.1-roothide.deb
+Size: 5308
+MD5sum: 703128b70841c876350ec0961ae52860
+SHA1: 
+SHA256: 541212297a2e3a836e605d08e7f9397693259049f22b55eb85f9438c17037d0a
+
+Package: com.huayuarc.flashclockpro
+Name: FlashClock Pro
+Author: Huayuarc
+Description: 解锁会员权限
+Depends: mobilesubstrate, firmware (>= 14.0)
+Maintainer: Huayuarc
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.1
+icon: https://huayuarc.github.io/icon/flashclockpro.jpg
+Installed-Size: 168
+Filename: debs/com.huayuarc.flashclockpro-0.0.1-rootless.deb
+Size: 5128
+MD5sum: eb82313c6c288bf26f13d1778fff2b1b
+SHA1: 
+SHA256: 8b7c84d82b81cade20057c7808e2f66c376231d61ba2ac64f87bd1779f25dbd4
+
 Package: com.huayuarc.floating-view
 Version: 1.0
 Section: Tweaks
