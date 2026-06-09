@@ -1537,6 +1537,41 @@ SHA256: 5d5ea3137a545f3c8b69810f141a3ed5e984125409a4f0fdae505b4182b09133
 
 Package: com.be-huge.insulation
 Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.31
+icon: https://huayuarc.github.io/icon/Insulation.png
+Installed-Size: 628
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.be-huge.insulation-0.1.31-roothide.deb
+Size: 51436
+MD5sum: 9418c739e38fc47cee56faff734f508f
+SHA1: 
+SHA256: 7f869797fdfc0871cad0828b6f28e7f25d4044c44963f5879383eed98649fbe4
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.1.31
+icon: https://huayuarc.github.io/icon/Insulation.png
+Installed-Size: 628
+Filename: debs/com.be-huge.insulation-0.1.31-rootless.deb
+Size: 52960
+MD5sum: 12f9d19252613f5cb04240f13460c9bf
+SHA1: 
+SHA256: 3fe2ae304fbd0dd91011083df3ea890242f676166619cdf8fb5d08b190d21f10
+
+Package: com.be-huge.insulation
+Name: insulation
 Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 
 Maintainer: doimty
 Author: be-huge & doimty
@@ -1806,23 +1841,6 @@ Size: 50936
 MD5sum: b443d54832728b0d51a32f4f535ce474
 SHA1: 
 SHA256: 47affbb955d63a116bc47517ad699e893aa818e6dd31125cab326b9b513ade5f
-
-Package: com.be-huge.insulation
-Name: insulation
-Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation 进行简单维护
-Maintainer: doimty
-Author: be-huge & doimty
-Section: Tweaks
-Depends: firmware (>= 15.0)
-Architecture: iphoneos-arm64
-Version: 0.1.31
-icon: https://huayuarc.github.io/icon/Insulation.png
-Installed-Size: 628
-Filename: debs/com.be-huge.insulation_0.1.31_iphoneos-arm64.deb
-Size: 52956
-MD5sum: df3f41955f6065275dd65947f70cbe2a
-SHA1: 
-SHA256: 9b398b07ae4aa1468f996172aab88916a728e5ee2e34d7886d020cec5facd940
 
 Package: com.brend0n.nopassafterrespringsafe
 Name: NoPassAfterRespring (Safe)
