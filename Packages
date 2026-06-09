@@ -13169,17 +13169,17 @@ Depiction: https://Randy-420.GitHub.io/depic/ftt.html
 Homepage: https://theemeraldisle.family
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
-Section: Utilities
+Section: Tweaks
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 icon: https://huayuarc.github.io/icon/ftt.jpg
 Architecture: iphoneos-arm64
 Version: 1.4
 Installed-Size: 1300
 Filename: debs/ru.rj.ftt-1.4-rootless.deb
-Size: 356460
-MD5sum: fc79679da447e162ecb6ed2f022641e5
+Size: 356404
+MD5sum: 5d2c47a592aebc857abbe18544166b5e
 SHA1: 
-SHA256: a6f110ef8ec0255f274c203733a44da752235b0eb86fa0d0f790540e56b24607
+SHA256: 7f8454ce37fe616dcffc516e79cfc16f61b9a81d13e5abc5c77d39efc58ab826
 
 Package: tools.cydia.flex3
 Maintainer: t4c
@@ -13192,7 +13192,8 @@ Author: John Coates
 Section: Tweaks
 sileodepiction: https://tools4cydia.co/repo/txt/Flex3.json
 icon: https://huayuarc.github.io/icon/Flex.jpg
-Filename: debs/tools.cydia.flex3-3.0-rootless.deb
+Filename: debs/tools.cydia.flex3-3.0
+-rootless.deb
 Size: 16709904
 MD5sum: 45fda5df76b3c814409d89ee517a757e
 SHA1: 
