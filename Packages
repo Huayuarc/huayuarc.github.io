@@ -11155,6 +11155,30 @@ Name: 虚拟权限 · Fake Permission
 Package: im.mjh.fakeperm
 Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
 Section: Tweaks
+Installed-Size: 1146
+Version: 8.1.0
+Architecture: iphoneos-arm64e
+Description: 虚拟权限 · Fake Permission — 针对任意 App 单独配置虚拟权限，防止隐私被过度索取。
+	支持通知、推送、定位(地图选点+地址历史)、相册、通讯录、日历、相机(强制相册/虚拟拍照)、麦克风、蓝牙、剪贴板、传感器、WiFi模拟(SSID/BSSID+历史)、机型伪装、配置导入导出、App暂停/恢复。 Per-app fake permission control: notification, push, location (map picker + address search + altitude spoofing), photos, contacts, camera (force photo library / fake capture), microphone, bluetooth, clipboard, sensor, device model spoofing, WiFi spoofing (SSID/BSSID).
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakepermDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakepermDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: mjh
+Tag: purpose::extension
+icon: https://huayuarc.github.io/icon/fakeperm.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/im.mjh.fakeperm-8.1.0-roothide.deb
+Size: 210644
+MD5sum: 0b44127977c69d876ece6b746aa9d17c
+SHA1: 
+SHA256: 9bec7bee579a87b4777c5f1f48dc22d1d278c4372bb54947b2edd182ed2ae557
+
+Author: 俊宏 <mail@mjh.im>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: 虚拟权限 · Fake Permission
+Package: im.mjh.fakeperm
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Section: Tweaks
 Installed-Size: 17115
 Version: 2.0.0
 Architecture: iphoneos-arm64
