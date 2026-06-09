@@ -2586,6 +2586,44 @@ MD5sum: 8f69996f2a1caddf0d040f4f2c63c21b
 SHA1: 
 SHA256: e19898a943e2d286980dabb34227fc08fcc9b27969302761eb6c2612004cbf9a
 
+Package: com.daodao.goodwifi
+Name: GoodWiFi
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Description: 更好的 WiFi 配置，可自动适配不同 iOS 版本，查看 WiFi 信道、加密方式和密码、信号值，去除 RSSI 限制，显示 MAC 地址等；简体中文版。
+Maintainer: 妖刀
+Author: julioverne & 妖刀
+Section: Tweaks
+Conflicts: com.julioverne.goodwifi, com.qms.goodwifi, com.hk.goodwifi, com.daodao.goodwifi16
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/goodwifi/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2
+icon: https://huayuarc.github.io/icon/goodwifi.png
+Installed-Size: 424
+Filename: debs/com.daodao.goodwifi-1.6.2-roothide.deb
+Size: 66096
+MD5sum: d69d4d4ed12ea367beff36285495038f
+SHA1: 
+SHA256: 3fa26f97f1af7b3272ec1125af540f1e2ee18cfba7b1ce7127a704bb2bd2f240
+
+Package: com.daodao.goodwifi
+Name: GoodWiFi
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Description: 更好的 WiFi 配置，可自动适配不同 iOS 版本，查看 WiFi 信道、加密方式和密码、信号值，去除 RSSI 限制，显示 MAC 地址等；简体中文版。
+Maintainer: 妖刀
+Author: julioverne & 妖刀
+Section: Tweaks
+Conflicts: com.julioverne.goodwifi, com.qms.goodwifi, com.hk.goodwifi, com.daodao.goodwifi16
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/goodwifi/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2
+icon: https://huayuarc.github.io/icon/goodwifi.png
+Installed-Size: 424
+Filename: debs/com.daodao.goodwifi-1.6.2-rootless.deb
+Size: 68492
+MD5sum: 09d80a93c85194b1a64e48d7f6b075de
+SHA1: 
+SHA256: 3569dd966b62e8013d867152cbad0ea1133e8d54b958d028cf14f0a042af6814
+
 Package: com.Doki.wxkeyboarduihook
 Name: WXKeyboardUIHook
 Depends: mobilesubstrate, firmware (>= 14.0)
@@ -5144,6 +5182,43 @@ Size: 338588
 MD5sum: fcc56d9b3eb582d081071f8f47c7d121
 SHA1: 
 SHA256: 012e66c46c5be78fba6b8cea15eab5999444f96542120cf1eaf0244b48083cd8
+
+Package: com.promotion120
+Name: ProMotion 120Hz
+Author: Unknown
+Description: 强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上 ProMotion 设备。
+Depends: mobilesubstrate
+Maintainer: Unknown
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.0-76+debug
+Installed-Size: 180
+icon: https://huayuarc.github.io/icon/120hz.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.promotion120-1.0.0-76+debug-roothide.deb
+Size: 12548
+MD5sum: 60c8a297d36c88993adfb568f2bd46fd
+SHA1: 
+SHA256: b55df94a5e9838132207a7f2b2aef6bebc1d08fe034bef2e3e658ca6ffaee2bc
+
+Package: com.promotion120
+Name: ProMotion 120Hz
+Author: Unknown
+Description: 强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上 ProMotion 设备。
+Depends: mobilesubstrate
+Maintainer: Unknown
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64
+Version: 1.0.0-76+debug
+icon: https://huayuarc.github.io/icon/120hz.jpg
+Installed-Size: 180
+Filename: debs/com.promotion120-1.0.0-76+debug-rootless.deb
+Size: 12508
+MD5sum: 0e232a8a89a5b52ae1f1346628b9b3b6
+SHA1: 
+SHA256: f297b84ae432df49b81d247af50ef6103f8d23d701d8f85364e459db2f1ad293
 
 Package: com.ps.amber
 Name: Amber
@@ -12209,6 +12284,45 @@ Size: 98856
 MD5sum: f621947d5bf799994793a46ab473187f
 SHA1: 
 SHA256: 6be78d1d69a9956519389c151cb6b18ccb504fba0866ca083436677429e7cbb8
+
+Package: me.luki.arizona
+Name: Arizona
+Description: Move the stock clock, date and lock glyph on the fly
+Maintainer: Luki
+Author: Luki
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+icon: https://huayuarc.github.io/icon/Arizona.png
+Depiction: https://luki120.github.io/depictions/web/?p=me.luki.arizona
+SileoDepiction: https://luki120.github.io/depictions/native/me.luki.arizona/depiction.json
+Architecture: iphoneos-arm64e
+Version: 0.9.2
+Installed-Size: 796
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/me.luki.arizona-0.9.2-roothide.deb
+Size: 427236
+MD5sum: db18b2448576aababa417989d9a86505
+SHA1: 
+SHA256: 8ef31546b854f14fa43c91e832b2acb8a7c0f84a4343529d54f001a20db7dd76
+
+Package: me.luki.arizona
+Name: Arizona
+Description: Move the stock clock, date and lock glyph on the fly
+Maintainer: Luki
+Author: Luki
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+icon: https://huayuarc.github.io/icon/Arizona.png
+Depiction: https://luki120.github.io/depictions/web/?p=me.luki.arizona
+SileoDepiction: https://luki120.github.io/depictions/native/me.luki.arizona/depiction.json
+Architecture: iphoneos-arm64
+Version: 0.9.2
+Installed-Size: 796
+Filename: debs/me.luki.arizona-0.9.2-rootless.deb
+Size: 427784
+MD5sum: 4c03126549abc5230ee337fb68f8e2f9
+SHA1: 
+SHA256: 10669451f2163345268d3451b9d12c9ab75cf523ca2088c42cf2f74bafc6a836
 
 Package: netskao.alipayscan
 Version: 1.2-2
