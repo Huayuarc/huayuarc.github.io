@@ -13373,47 +13373,6 @@ MD5sum: ed5bf497ce629c4d73ab7144973b8d4a
 SHA1: 
 SHA256: a40470c81fb59d6177e0c7de06fdc1b262796383931313a4f22c327b020b5cc7
 
-Package: xyz.cypwn.fugap
-Maintainer: CyPwn
-Depiction: https://repo.cypwn.xyz/depiction/1723
-icon: https://huayuarc.github.io/icon/fugap.jpg
-SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/1723
-Section: Tweaks
-Installed-Size: 712
-Architecture: iphoneos-arm64e
-Version: 2.2.5
-Depends: mobilesubstrate
-Description: Close some gaps, hide some stuff ! 调节控制中心空白部分以及隐藏状态栏。
-Name: FUGap
-Author: smokin1337 <smokin1337@gmail.com>
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/xyz.cypwn.fugap-2.2.5
--roothide.deb
-Size: 143040
-MD5sum: 60218103b81019b24f42d9df4a3eda20
-SHA1: 
-SHA256: 73f5cde01d25a648746dc65d94f81e5809571dc388b85e96960cb304af45987d
-
-Package: xyz.cypwn.fugap
-Maintainer: CyPwn
-Depiction: https://repo.cypwn.xyz/depiction/1723
-icon: https://huayuarc.github.io/icon/fugap.jpg
-SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/1723
-Section: Tweaks
-Installed-Size: 712
-Architecture: iphoneos-arm64
-Version: 2.2.5
-Depends: mobilesubstrate
-Description: Close some gaps, hide some stuff ! 调节控制中心空白部分以及隐藏状态栏。
-Name: FUGap
-Author: smokin1337 <smokin1337@gmail.com>
-Filename: debs/xyz.cypwn.fugap-2.2.5
--rootless.deb
-Size: 143224
-MD5sum: a921b5d56c0c6dfe8726af5a1799f270
-SHA1: 
-SHA256: e636773422f9a572afb1b1d27a46c2b455c0b2f65312d3855fdf7b13f54e9225
-
 Package: xyz.cypwn.networkmanager
 Maintainer: CyPwn
 Depiction: https://repo.cypwn.xyz/depiction/2337
@@ -13466,7 +13425,9 @@ Installed-Size: 95580
 Description: Python 3.12.5 for jailbroken iOS. Includes OpenSSL (ssl), ctypes, and pip.
  - Enable 'pip' by: 'python3.12 -m ensurepip --upgrade'
  - Install packages by: 'pip3.12 install <package>'
-Filename: debs/xyz.cypwn.python3.12-3.12.5-1-rootless.deb
+Filename: debs/xyz.cypwn.python3.12
+-3.12.5-1
+-rootless.deb
 Size: 20274104
 MD5sum: 86a3aca65d8ffb7a1286d04beab4ba0a
 SHA1: 
@@ -13486,7 +13447,8 @@ Description: Python 3.13.12 for jailbroken iOS.
  - Full interpreter with standard library, SSL/TLS, ctypes, compression (lzma, bz2), curses, and dbm/gdbm. Multi-version safe.
  - Install pip: python3.13 -m ensurepip
 Installed-Size: 140728
-Filename: debs/xyz.cypwn.python313-3.13.12-rootless.deb
+Filename: debs/xyz.cypwn.python313-3.13.12
+-rootless.deb
 Size: 25881904
 MD5sum: c0a96858c8e81088807c4ff9bc41af73
 SHA1: 
@@ -13506,7 +13468,8 @@ Description: Python 3.14.3 for jailbroken iOS.
  - Full interpreter with standard library, SSL/TLS, ctypes, compression (lzma, bz2, zstd), curses, and dbm/gdbm. Multi-version safe.
  - Install pip: python3.14 -m ensurepip
 Installed-Size: 147920
-Filename: debs/xyz.cypwn.python314-3.14.3-rootless.deb
+Filename: debs/xyz.cypwn.python314-3.14.3
+-rootless.deb
 Size: 27296012
 MD5sum: 12aa523f4b9d22740339c05314a8f985
 SHA1: 
