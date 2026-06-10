@@ -174,7 +174,7 @@ Name: AI-Config-GUI
 Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，更新面板显示🤔
 Maintainer: DaFei
 Author: DaFei
-Section: Utilities
+Section: Development
 Depends: firmware (>= 14.0), libvterm0,libvterm-bin
 Architecture: iphoneos-arm64e
 Version: 3.4.0-1+debug
@@ -182,27 +182,27 @@ Installed-Size: 1000
 icon: https://huayuarc.github.io/icon/ClaudeAuth.png
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/ai-config-gui-3.4.0-1+debug-roothide.deb
-Size: 201308
-MD5sum: 82e292b9d259b9223a1068d097eeb0f1
+Size: 201112
+MD5sum: ed0cec255d2abd31c83c5718598c7cf8
 SHA1: 
-SHA256: de44834e70e8f5d1702ce767c2b332b6097ebd718ec62d9661ccc37246d696d3
+SHA256: 8c1bc24b4eddd936f3520ccd4ad733a43cb864ef26ed274e5e1bf51e83f2900b
 
 Package: ai-config-gui
 Name: AI-Config-GUI
 Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，更新面板显示🤔
 Maintainer: DaFei
 Author: DaFei
-Section: Utilities
+Section: Development
 Depends: firmware (>= 14.0), libvterm0,libvterm-bin
 Architecture: iphoneos-arm64
 Version: 3.4.0-1+debug
 Installed-Size: 1000
 icon: https://huayuarc.github.io/icon/ClaudeAuth.png
 Filename: debs/ai-config-gui-3.4.0-1+debug-rootless.deb
-Size: 201020
-MD5sum: eea21392a1d940e2beb9b990c885b227
+Size: 200916
+MD5sum: 47e917f8ca075039ffbc1996364e9bf3
 SHA1: 
-SHA256: f4e5b854e11cef45754a0a4900368b068c02fb729ad969be1f233937cab49ff0
+SHA256: d5c13b2e9a74e9e1b97bade3ba9d4653a1426ea7c00081b7b0d9d4934a1521a5
 
 Package: aweme.x
 Conflicts: com.xx.dyhook
