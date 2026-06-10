@@ -13451,6 +13451,67 @@ MD5sum: 536d26881b68d786d30f40b35accfc15
 SHA1: 
 SHA256: efe919d4cee72be722d85b8a21f4f089d098b40d81f7b51c86f110d39c9a0e84
 
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/3338
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3338
+Icon: https://repo.cypwn.xyz/packages/python312-Rootless/icon.png
+Package: xyz.cypwn.python3.12
+Name: python3.12
+Version: 3.12.5-1
+Section: Development
+Priority: optional
+Architecture: iphoneos-arm64
+Author: kitty-xz
+Installed-Size: 95580
+Description: Python 3.12.5 for jailbroken iOS. Includes OpenSSL (ssl), ctypes, and pip.
+ - Enable 'pip' by: 'python3.12 -m ensurepip --upgrade'
+ - Install packages by: 'pip3.12 install <package>'
+Filename: debs/xyz.cypwn.python3.12-3.12.5-1-rootless.deb
+Size: 20274104
+MD5sum: 86a3aca65d8ffb7a1286d04beab4ba0a
+SHA1: 
+SHA256: 2ca3fbe50bd62a385c61dee96a38da8aa4982b5531b00fce7d07916b90a01851
+
+Package: xyz.cypwn.python313
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/3501
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3501
+Icon: https://repo.cypwn.xyz/packages/Python31312-Rootless/icon.png
+Name: Python 3.13.12
+Version: 3.13.12
+Section: Development
+Priority: optional
+Architecture: iphoneos-arm64
+Description: Python 3.13.12 for jailbroken iOS.
+ - Full interpreter with standard library, SSL/TLS, ctypes, compression (lzma, bz2), curses, and dbm/gdbm. Multi-version safe.
+ - Install pip: python3.13 -m ensurepip
+Installed-Size: 140728
+Filename: debs/xyz.cypwn.python313-3.13.12-rootless.deb
+Size: 25881904
+MD5sum: c0a96858c8e81088807c4ff9bc41af73
+SHA1: 
+SHA256: 18a397b3a8926dcb7f9d162f30af1fbf11f2d1f4951dd6218f6ef0bf63cb3127
+
+Package: xyz.cypwn.python314
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/3503
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3503
+Icon: https://repo.cypwn.xyz/packages/Python3143-Rootless/icon.png
+Name: Python 3.14.3
+Version: 3.14.3
+Section: Development
+Priority: optional
+Architecture: iphoneos-arm64
+Description: Python 3.14.3 for jailbroken iOS.
+ - Full interpreter with standard library, SSL/TLS, ctypes, compression (lzma, bz2, zstd), curses, and dbm/gdbm. Multi-version safe.
+ - Install pip: python3.14 -m ensurepip
+Installed-Size: 147920
+Filename: debs/xyz.cypwn.python314-3.14.3-rootless.deb
+Size: 27296012
+MD5sum: 12aa523f4b9d22740339c05314a8f985
+SHA1: 
+SHA256: 5120b879804f079f95333efdd11936094715caf8dc0fa72053f0eec4b689af2c
+
 Package: zp.cocoatop64.unject.xina
 Name: CocoaTop64.zp - xina
 Depends: 
