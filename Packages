@@ -13408,6 +13408,45 @@ MD5sum: ed5bf497ce629c4d73ab7144973b8d4a
 SHA1: 
 SHA256: a40470c81fb59d6177e0c7de06fdc1b262796383931313a4f22c327b020b5cc7
 
+Package: xyz.cypwn.fugap
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/1723
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/1723
+icon: https://huayuarc.github.io/icon/fugap.jpg
+Section: Tweaks
+Installed-Size: 712
+Architecture: iphoneos-arm64
+Version: 2.2.5
+Depends: mobilesubstrate
+Description: Close some gaps, hide some stuff ! 控制中心缩小一些缝隙，隐藏一些东西！
+Name: FUGap
+Author: smokin1337 <smokin1337@gmail.com>
+Filename: debs/xyz.cypwn.fugap_2.2.5_iphoneos-arm64.deb
+Size: 180066
+MD5sum: c0cf122233b5b6448e596e298f1473a0
+SHA1: 
+SHA256: 81658fac9b539e292c3daf2ddf1a83173916a93c4cb8edf6d3a0435b1c70ac34
+
+Package: xyz.cypwn.fugap
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/1723
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/1723
+icon: https://huayuarc.github.io/icon/fugap.jpg
+Section: Tweaks
+Installed-Size: 712
+Architecture: iphoneos-arm64e
+Version: 2.2.5
+Depends: mobilesubstrate
+Description: Close some gaps, hide some stuff ! 控制中心缩小一些缝隙，隐藏一些东西！
+Name: FUGap
+Author: smokin1337 <smokin1337@gmail.com>
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.fugap_2.2.5_iphoneos-arm64e.deb
+Size: 180288
+MD5sum: 94a84d377bf62b8652892ce4705e3be7
+SHA1: 
+SHA256: dd8293bf86a0e02343a5827e4d1f32f0f95e2b3f83895f737a5ef58123e307ce
+
 Package: xyz.cypwn.networkmanager
 Maintainer: CyPwn
 Depiction: https://repo.cypwn.xyz/depiction/2337
