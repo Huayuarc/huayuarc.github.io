@@ -3233,8 +3233,6 @@ Package: com.huayuarc.flashclockpro
 Name: 悬浮时间 Pro
 Author: Huayuarc
 Description: 解锁会员权限
-  * FlashClock APP下载：
-https://apps.apple.com/app/id1568931280
 Depends: mobilesubstrate, firmware (>= 14.0)
 Maintainer: Huayuarc
 Section: Tweaks
@@ -3242,11 +3240,11 @@ Architecture: iphoneos-arm64
 Version: 0.0.1
 icon: https://huayuarc.github.io/icon/flashclockpro.jpg
 Installed-Size: 168
-Filename: debs/com.huayuarc.flashclockpro-0.0.1-rootless.deb
-Size: 5192
-MD5sum: a436520893b6ec34c76d6bdd11ca35e8
+Filename: debs/com.huayuarc.flashclockpro_0.0.1_iphoneos-arm64.deb
+Size: 8258
+MD5sum: 2626dc422f5ade6d66ab88349dc97b06
 SHA1: 
-SHA256: 0cedd9f63fe0b266e8b412afef29a7a2e6f9abe32156e8e8aaa129ff7d21d0ab
+SHA256: 4c4271e63c4fe8d9e3005cc69b66a156ac9a1d488fb6cd6eb0751825d143f625
 
 Package: com.huayuarc.floating-view
 Version: 1.0
