@@ -2724,6 +2724,42 @@ MD5sum: 09d80a93c85194b1a64e48d7f6b075de
 SHA1: 
 SHA256: 3569dd966b62e8013d867152cbad0ea1133e8d54b958d028cf14f0a042af6814
 
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: 强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+icon: https://huayuarc.github.io/icon/120hz.jpg
+Installed-Size: 236
+Filename: debs/com.doimty.promotion-1.0.6-roothide.deb
+Size: 24696
+MD5sum: 8d0a35f7fccf52ffe94755765decda06
+SHA1: 
+SHA256: d283e7a366f587232aae5d442edd2db138f0ba9487dbd9cc81d84dd87be280f2
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: 强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64
+Version: 1.0.6
+icon: https://huayuarc.github.io/icon/120hz.jpg
+Installed-Size: 252
+Filename: debs/com.doimty.promotion-1.0.6-rootless.deb
+Size: 26092
+MD5sum: 9cbae62be048bf5b2faffccaabb767fc
+SHA1: 
+SHA256: 790b9046e3367e3a4e5af1c2d2ec6995f61bb1a35d79ea36a7a725ff81fc0c42
+
 Package: com.Doki.wxkeyboarduihook
 Name: WXKeyboardUIHook
 Depends: mobilesubstrate, firmware (>= 14.0)
