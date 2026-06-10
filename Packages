@@ -2967,14 +2967,14 @@ Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
 Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours. 使用Misaki自定义您的iOS 15和16体验。自定义选项，让您的iPhone真正成为您的。
 Author: Hitori <mikasa-san@outlook.jp>
 Name: Misaki
-Icon: https://huayuarc.github.io/misaki.png
+icon: https://huayuarc.github.io/icon/misaki.jpg
 Taq: cydia::commercial, compatible_min::ios15.0
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.hitori.misaki-2.2-roothide.deb
-Size: 301448
-MD5sum: c331f789217139681d35b00726dfe8c1
+Size: 301300
+MD5sum: 853e27ea8e2b48a36aa1cdef3e05aea6
 SHA1: 
-SHA256: b70e045134b421f38df6f403cafe8f22731022b5cb9107928c6a36bf4597256d
+SHA256: 1f73248c4f534474cf50678507c85c91d378d8b8df084cf6bcf3529f7633930d
 
 Package: com.hitori.misaki
 Section: Tweaks
@@ -2986,13 +2986,13 @@ Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
 Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours. 使用Misaki自定义您的iOS 15和16体验。自定义选项，让您的iPhone真正成为您的。
 Author: Hitori <mikasa-san@outlook.jp>
 Name: Misaki
-Icon: https://huayuarc.github.io/misaki.png
+icon: https://huayuarc.github.io/icon/misaki.jpg
 Taq: cydia::commercial, compatible_min::ios15.0
 Filename: debs/com.hitori.misaki-2.2-rootless.deb
-Size: 305984
-MD5sum: 7cdfbd1c664f3be83e4b0e291e17709e
+Size: 305896
+MD5sum: 7380c887d2923cf7b15973bea372e79e
 SHA1: 
-SHA256: bd465bb2c2a363ba3f711350101616b36baf61d7abb5b72bd1a648f1b43f345f
+SHA256: 9f12b6b16227d7931e68aab71da624c6665cefe28455e359acae5b3da3b7f0ec
 
 Package: com.hitori.zeppelinreborn.roothide
 Name: Zeppelin Reborn
