@@ -6050,7 +6050,7 @@ SHA256: 2156fc497cce2bcb8bce51e7f25d8095f3d538566af0740c8ae84025aa1d5e82
 
 Package: com.simon.ccglow
 Name: 控制中心发光
-Description: 高度自定义控制中心发光。
+Description: 自定义控制中心发光。
 Maintainer: Simon
 Author: Simon
 Section: Tweaks
@@ -6061,14 +6061,14 @@ icon: https://huayuarc.github.io/icon/ccglow.jpg
 Installed-Size: 356
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.simon.ccglow-2.0.2-roothide.deb
-Size: 24592
-MD5sum: 4bd1d81188e6fc9c02c4465d1a8944fa
+Size: 24536
+MD5sum: fb0e5a4f229f9f43bef6937cc2dcbe2a
 SHA1: 
-SHA256: a279f12be24c6fae93fa3fee4b46b083b7d3dfdd1852924f59f1ace49c2e98f8
+SHA256: 2d5e6d216113358f7e5234856ff91e91af4c51d7d26e856ee3ebbe4a89d561e2
 
 Package: com.simon.ccglow
 Name: 控制中心发光
-Description: 高度自定义控制中心发光。
+Description: 自定义控制中心发光。
 Maintainer: Simon
 Author: Simon
 Section: Tweaks
@@ -6078,14 +6078,14 @@ Version: 2.0.2
 icon: https://huayuarc.github.io/icon/ccglow.jpg
 Installed-Size: 356
 Filename: debs/com.simon.ccglow-2.0.2-rootless.deb
-Size: 25096
-MD5sum: b916b23ed0b444b73d8359ed9d3a602d
+Size: 25120
+MD5sum: bf3649187511d7c80a68461740efa335
 SHA1: 
-SHA256: 4e7c1fb9d76f14605694f90ef3651f84bb69bf9156eed44da7a2080219a40a56
+SHA256: d78a3fb849deb00a427f75b2d19fd8354179ef7bf9eec96923b416203e5bae6e
 
 Package: com.simon.ccglow
 Name: 控制中心发光
-Description:控制中心发光
+Description: 自定义控制中心发光。
 Maintainer: Simon
 Author: Simon
 Section: Tweaks
@@ -6096,14 +6096,14 @@ Installed-Size: 384
 icon: https://huayuarc.github.io/icon/ccglow.jpg
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.simon.ccglow-2.0.3-roothide.deb
-Size: 23496
-MD5sum: ac583680c886502a82e5245d47346de9
+Size: 23516
+MD5sum: 9dcb1b076f2be089bc746d38f63d42fd
 SHA1: 
-SHA256: c18c91202f0446647e2ac844e8e0f72e12bf98e203d32bb094b14a0fc4715be9
+SHA256: a37d329ca02a355a7684d817163df927b3f5a73d688bcf330c88c3504de2ec4c
 
 Package: com.simon.ccglow
 Name: 控制中心发光
-Description:控制中心发光
+Description: 自定义控制中心发光。
 Maintainer: Simon
 Author: Simon
 Section: Tweaks
@@ -6113,10 +6113,10 @@ Version: 2.0.3
 Installed-Size: 384
 icon: https://huayuarc.github.io/icon/ccglow.jpg
 Filename: debs/com.simon.ccglow-2.0.3-rootless.deb
-Size: 24212
-MD5sum: 55c0193fa3d73b0ff411be1ff16b06e5
+Size: 24204
+MD5sum: 6fbf70db948df6d1448e455a5afddce0
 SHA1: 
-SHA256: 2bd3188c0e82e31793fe82b6b393143098a651be0e7e8c9eaef4ccc3698e180c
+SHA256: 3b6cc1483e34d14fc0320dec47b5dbb81631b3615db74b5d6bbad0195432c301
 
 Package: com.simon.ccmusic
 Name: 控制中心音乐模块动画
