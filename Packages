@@ -2481,16 +2481,14 @@ Version: 3.3.3-END
 Installed-Size: 1948
 icon: https://huayuarc.github.io/icon/appcardlite.jpg
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.crassna.appcardlite
--3.3.3-END
--roothide.deb
-Size: 401036
-MD5sum: 2df014c3355b5f677bdb0bd5d4dff2b3
+Filename: debs/com.crassna.appcardlite-3.3.3-END-roothide.deb
+Size: 400912
+MD5sum: 84761667a155b65329a5968e91931d1c
 SHA1: 
-SHA256: 5a2d6e209cbdad8d2b88576f3fc33eafb88091014fb35d99bfebeb2e9ba2647f
+SHA256: 9c729ec21ec85d1e471e46ef601cceb33ed80871033d8ac443e1df4cdddae4da
 
 Package: com.crassna.appcardlite
-Version: 3.3.3-end
+Version: 3.3.3-END
 Section: Tweaks
 Maintainer: Crassna
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
@@ -2505,11 +2503,11 @@ Description: Jailbrea!分屏
   * 小窗：小横条上滑关闭当前小窗，小横条快速下滑可切至大屏，单击小横条可切至挂机模式。拖动边缘移动位置，长按边缘上下滑动放大缩小，单击边缘置顶小窗。
   * 挂机：单击图标显示小窗，长按图标关闭当前app。
   * 特色功能：通知激活小窗，窗口自适应大小，横竖屏裁切画面，小窗主动避让主视图键盘等等。
-Filename: debs/com.crassna.appcardlite-3.3.3-end-rootless.deb
-Size: 409508
-MD5sum: dd57c6f2fbefd0273be82bca5e40d664
+Filename: debs/com.crassna.appcardlite-3.3.3-END-rootless.deb
+Size: 409440
+MD5sum: c1bffcf3ec68484ce6735217131fd2b2
 SHA1: 
-SHA256: b4fa2797897cec4f5559bea149c0b7dd5642ea605745dc29ff52946c49a684b0
+SHA256: 81f61553026a8870135279ac9c659473b7cca43ab3c01104d528668dae981968
 
 Author: CreatureSurvive <support@creaturecoding.com>
 Architecture: iphoneos-arm64
