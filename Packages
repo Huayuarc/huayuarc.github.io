@@ -4057,6 +4057,22 @@ MD5sum: 6e867e67d401f260905d0352f764f0e2
 SHA1: 
 SHA256: 9a19579e7b7ba19f92a24055a35d8ccbb2c638f01e4729dc03f1ab239c835717
 
+Package: com.iosdump.zone
+Name: Zone
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.3.0
+Installed-Size: 984
+Filename: debs/com.iosdump.zone_1.3.0_iphoneos-arm.deb
+Size: 169402
+MD5sum: 579c83dd3640767015b4ab4f21d2297b
+SHA1: 
+SHA256: ad569b15a3f5577b0509b7ae12ac46887a409d7d7c751abff5da5d26f735d6cb
+
 Package: com.jontelang.snapper3
 Name: Snapper 3
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
