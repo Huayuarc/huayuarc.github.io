@@ -6048,6 +6048,76 @@ MD5sum: a6d4dfad33872aa2c8b3b48507a2ea80
 SHA1: 
 SHA256: 2156fc497cce2bcb8bce51e7f25d8095f3d538566af0740c8ae84025aa1d5e82
 
+Package: com.simon.ccglow
+Name: 控制中心发光
+Description: 高度自定义控制中心发光。
+Maintainer: Simon
+Author: Simon
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 2.0.2
+icon: https://huayuarc.github.io/icon/ccglow.jpg
+Installed-Size: 356
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.simon.ccglow-2.0.2-roothide.deb
+Size: 24592
+MD5sum: 4bd1d81188e6fc9c02c4465d1a8944fa
+SHA1: 
+SHA256: a279f12be24c6fae93fa3fee4b46b083b7d3dfdd1852924f59f1ace49c2e98f8
+
+Package: com.simon.ccglow
+Name: 控制中心发光
+Description: 高度自定义控制中心发光。
+Maintainer: Simon
+Author: Simon
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 2.0.2
+icon: https://huayuarc.github.io/icon/ccglow.jpg
+Installed-Size: 356
+Filename: debs/com.simon.ccglow-2.0.2-rootless.deb
+Size: 25096
+MD5sum: b916b23ed0b444b73d8359ed9d3a602d
+SHA1: 
+SHA256: 4e7c1fb9d76f14605694f90ef3651f84bb69bf9156eed44da7a2080219a40a56
+
+Package: com.simon.ccglow
+Name: 控制中心发光
+Description:控制中心发光
+Maintainer: Simon
+Author: Simon
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 2.0.3
+Installed-Size: 384
+icon: https://huayuarc.github.io/icon/ccglow.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.simon.ccglow-2.0.3-roothide.deb
+Size: 23496
+MD5sum: ac583680c886502a82e5245d47346de9
+SHA1: 
+SHA256: c18c91202f0446647e2ac844e8e0f72e12bf98e203d32bb094b14a0fc4715be9
+
+Package: com.simon.ccglow
+Name: 控制中心发光
+Description:控制中心发光
+Maintainer: Simon
+Author: Simon
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Installed-Size: 384
+icon: https://huayuarc.github.io/icon/ccglow.jpg
+Filename: debs/com.simon.ccglow-2.0.3-rootless.deb
+Size: 24212
+MD5sum: 55c0193fa3d73b0ff411be1ff16b06e5
+SHA1: 
+SHA256: 2bd3188c0e82e31793fe82b6b393143098a651be0e7e8c9eaef4ccc3698e180c
+
 Package: com.simon.ccmusic
 Name: 控制中心音乐模块动画
 Depends: mobilesubstrate, firmware (>= 13.0)
