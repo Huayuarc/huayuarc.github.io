@@ -2482,7 +2482,9 @@ Installed-Size: 1948
 icon: https://huayuarc.github.io/icon/appcardlite.jpg
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/applecard/js.json
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.crassna.appcardlite-3.3.3-END-roothide.deb
+Filename: debs/com.crassna.appcardlite
+-3.3.3-END
+-roothide.deb
 Size: 400768
 MD5sum: 9b7dfc084f1ae92de754723c88ce379e
 SHA1: 
@@ -3895,6 +3897,41 @@ Size: 7972
 MD5sum: 61e194e670f34229b51875af4d1328c6
 SHA1: 
 SHA256: 34a8f9fc9e3aba8002dc4aae0318546217d480d272bcc2c6b2aee8ed1395b9da
+
+Package: com.llld.fugap
+Version: 2.2.4
+Section: Tweaks
+Description: Adjust the blank part of the control center and hide the status bar调节控制中心空白部分以及隐藏状态栏_________仅测试，有问题请卸载
+Maintainer: 来了老弟
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Installed-Size: 584
+Name: FUGap
+Author: smokin1337
+icon: https://huayuarc.github.io/icon/fugap.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.llld.fugap-2.2.4-roothide.deb
+Size: 143092
+MD5sum: f68dff853ec66fcafd5240cf407c81da
+SHA1: 
+SHA256: 085aa0cb3324cbab81c65a2d0d62fb60a9019c79f6c91c1b195f09f24fc31e38
+
+Package: com.llld.fugap
+Version: 2.2.4
+Section: Tweaks
+Description: Adjust the blank part of the control center and hide the status bar调节控制中心空白部分以及隐藏状态栏_________仅测试，有问题请卸载
+Maintainer: 来了老弟
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 584
+Name: FUGap
+icon: https://huayuarc.github.io/icon/fugap.jpg
+Author: smokin1337
+Filename: debs/com.llld.fugap-2.2.4-rootless.deb
+Size: 143540
+MD5sum: fbf734248517b0e41feb4f76b8165a7d
+SHA1: 
+SHA256: 47bf2713a48cdda2ac505f2f4b8fbe5289aada0602027ef1c8d52e41f5352841
 
 Package: com.lxcloud.WCEhance
 Name: 微信增强
