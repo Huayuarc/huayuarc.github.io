@@ -2481,7 +2481,9 @@ Version: 3.3.3-END
 Installed-Size: 1948
 icon: https://huayuarc.github.io/icon/appcardlite.jpg
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.crassna.appcardlite-3.3.3-END-roothide.deb
+Filename: debs/com.crassna.appcardlite
+-3.3.3-END
+-roothide.deb
 Size: 401036
 MD5sum: 2df014c3355b5f677bdb0bd5d4dff2b3
 SHA1: 
@@ -3137,11 +3139,9 @@ SHA1:
 SHA256: 9db61522b70c6365adfd2aa5a01ddf18612a95b5647fc53457af70997f45dc3c
 
 Package: com.huayuarc.flashclockpro
-Name: FlashClock Pro
+Name: 悬浮时间 Pro
 Author: Huayuarc
 Description: 解锁会员权限
-  * FlashClock APP下载：
-https://apps.apple.com/app/id1568931280
 Depends: mobilesubstrate, firmware (>= 14.0)
 Maintainer: Huayuarc
 Section: Tweaks
@@ -3151,13 +3151,13 @@ Installed-Size: 168
 icon: https://huayuarc.github.io/icon/flashclockpro.jpg
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.huayuarc.flashclockpro-0.0.1-roothide.deb
-Size: 5352
-MD5sum: 3c895840e94764318ad3474378b6b257
+Size: 5312
+MD5sum: 19f608c088239dbe90a201fed6647eea
 SHA1: 
-SHA256: dba853a4fcd95569f2c515eda4d43276783257aba9c8985cffb4e489b5bb0617
+SHA256: 26d547a2b84efb5c737f600975eca7a6dbe5bd72e71c0bade330b8f53bcea0d3
 
 Package: com.huayuarc.flashclockpro
-Name: FlashClock Pro
+Name: 悬浮时间 Pro
 Author: Huayuarc
 Description: 解锁会员权限
   * FlashClock APP下载：
@@ -3170,10 +3170,10 @@ Version: 0.0.1
 icon: https://huayuarc.github.io/icon/flashclockpro.jpg
 Installed-Size: 168
 Filename: debs/com.huayuarc.flashclockpro-0.0.1-rootless.deb
-Size: 5176
-MD5sum: c760e410096a2f4b49f27c4a727378f0
+Size: 5192
+MD5sum: a436520893b6ec34c76d6bdd11ca35e8
 SHA1: 
-SHA256: f5f616c0b1f8c0606ab132ad2597f23ad85bddda1041d40775cccc02f2dceacb
+SHA256: 0cedd9f63fe0b266e8b412afef29a7a2e6f9abe32156e8e8aaa129ff7d21d0ab
 
 Package: com.huayuarc.floating-view
 Version: 1.0
