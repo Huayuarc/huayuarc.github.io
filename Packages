@@ -2480,15 +2480,12 @@ Architecture: iphoneos-arm64e
 Version: 3.3.3-END
 Installed-Size: 1948
 icon: https://huayuarc.github.io/icon/appcardlite.jpg
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/applecard/js.json
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.crassna.appcardlite
--3.3.3-END
--roothide.deb
-Size: 400768
-MD5sum: 9b7dfc084f1ae92de754723c88ce379e
+Filename: debs/com.crassna.appcardlite-3.3.3-END-roothide.deb
+Size: 401140
+MD5sum: 549214d6469a8916942e8e5dd75ba5bb
 SHA1: 
-SHA256: 2e94155ca4ee97cc37dff7c41dc4c883ac43876047de62e3443ba5f9a7c030a1
+SHA256: acbf1fa9abb53d0eea22a44e4ff5826911e6c8d610f459b643821fd172b156ab
 
 Package: com.crassna.appcardlite
 Version: 3.3.3-end
@@ -2499,7 +2496,6 @@ Architecture: iphoneos-arm64
 Name: App Lecard
 Author: Crassna
 icon: https://huayuarc.github.io/icon/appcardlite.jpg
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/applecard/js.json
 Description: Jailbrea!分屏
   * 1. 首次使用：从左至右或从右至左划出圆盘并拖动至边缘进入插件设置页面。当圆盘中心由X变成★代表验证通过。点击★进入app选择页面，将用户或系统应用选至收藏即可在圆环中添加。圆环内app可小窗存在亦可挂机存在。
   * 2. 手势：快切可呼出关闭所有小窗或挂机app，拖动可呼出圆盘。
@@ -2508,10 +2504,10 @@ Description: Jailbrea!分屏
   * 5. 挂机：单击图标显示小窗，长按图标关闭当前app。
   * 6. 特色功能：通知激活小窗，窗口自适应大小，横竖屏裁切画面，小窗主动避让主视图键盘等等。
 Filename: debs/com.crassna.appcardlite-3.3.3-end-rootless.deb
-Size: 409648
-MD5sum: 725c59c59cc6d3da2aaf5c424c606d54
+Size: 409824
+MD5sum: ffbe2f0d21de5df1f11961ff36ae3fde
 SHA1: 
-SHA256: 979e17fcd472e967752254f12c936a5bf0783ec8a894140159f6716fc5615a02
+SHA256: c2100e0bc32b4e75f9e7cb0a99766333158ae0c0af1feae8b483e83b4bd87279
 
 Author: CreatureSurvive <support@creaturecoding.com>
 Architecture: iphoneos-arm64
@@ -3144,8 +3140,7 @@ Package: com.huayuarc.flashclockpro
 Name: FlashClock Pro
 Author: Huayuarc
 Description: 解锁会员权限
-  * FlashClock APP下载：
-  * https://apps.apple.com/app/id1568931280
+  * FlashClock APP下载：https://apps.apple.com/app/id1568931280
 Depends: mobilesubstrate, firmware (>= 14.0)
 Maintainer: Huayuarc
 Section: Tweaks
@@ -3155,17 +3150,16 @@ Installed-Size: 168
 icon: https://huayuarc.github.io/icon/flashclockpro.jpg
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.huayuarc.flashclockpro-0.0.1-roothide.deb
-Size: 5352
-MD5sum: fcfeb2200a5f997198f700119424c690
+Size: 5348
+MD5sum: 2de422c74b71ce03968faa0d0d4bec03
 SHA1: 
-SHA256: 618820678dd4bac4dfb42b1f8977a6bf68a828d11a2f22fc265e2b19033adbb9
+SHA256: e29d30ea14503de0caf91cfaa5087969188c4c0800726c951af933213a313e0d
 
 Package: com.huayuarc.flashclockpro
 Name: FlashClock Pro
 Author: Huayuarc
 Description: 解锁会员权限
-  * FlashClock APP下载：
-  * https://apps.apple.com/app/id1568931280
+  * FlashClock APP下载：https://apps.apple.com/app/id1568931280
 Depends: mobilesubstrate, firmware (>= 14.0)
 Maintainer: Huayuarc
 Section: Tweaks
@@ -3174,10 +3168,10 @@ Version: 0.0.1
 icon: https://huayuarc.github.io/icon/flashclockpro.jpg
 Installed-Size: 168
 Filename: debs/com.huayuarc.flashclockpro-0.0.1-rootless.deb
-Size: 5184
-MD5sum: 5bb08d474052d3f68eb83ff61133fb82
+Size: 5176
+MD5sum: f2030a517960428fcf2d0f5a93eb31f0
 SHA1: 
-SHA256: 6654cfebde7c30055e32f22b00288c30d92769047eb5a1c76bdcc539bd9af715
+SHA256: e881d96e96d46aedf7155f53c725077467197760da7b06f301809f94fe08c255
 
 Package: com.huayuarc.floating-view
 Version: 1.0
