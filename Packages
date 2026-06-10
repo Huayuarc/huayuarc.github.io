@@ -141,15 +141,16 @@ Maintainer: DaFei
 Author: DaFei
 Section: Development
 Depends: firmware (>= 14.0), libvterm0,libvterm-bin
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Version: 3.3.1
 Installed-Size: 680
-Icon: file:///Applications/ClaudeAuth.app/AppIcon60x60@2x.png
-Filename: debs/ai-config-gui_3.3.1_iphoneos-arm64.deb
-Size: 131404
-MD5sum: 9da42e1b0b61125ab60c73826b0a8a36
+icon: https://huayuarc.github.io/icon/ClaudeAuth.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/ai-config-gui-3.3.1-roothide.deb
+Size: 131388
+MD5sum: 10069df8bfa0d9ea58dc02f252c957c2
 SHA1: 
-SHA256: 04bb07cc2e5b6c4fb0189ccd252889f0d84c36510d77974a4681b6a40866835f
+SHA256: 565a28d1fa2ea7d75c1904ba27fa44fe252a62e9f5517a037b7b87979ed87bdd
 
 Package: ai-config-gui
 Name: AI-Config-GUI
@@ -158,16 +159,50 @@ Maintainer: DaFei
 Author: DaFei
 Section: Development
 Depends: firmware (>= 14.0), libvterm0,libvterm-bin
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Version: 3.3.1
 Installed-Size: 680
-Icon: file:///Applications/ClaudeAuth.app/AppIcon60x60@2x.png
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/ai-config-gui_3.3.1_iphoneos-arm64e.deb
-Size: 131296
-MD5sum: 9a50232dc9a1e2f5d12eceb2359da39c
+icon: https://huayuarc.github.io/icon/ClaudeAuth.png
+Filename: debs/ai-config-gui-3.3.1-rootless.deb
+Size: 131384
+MD5sum: edd116f5d2940d72517cfc8d2a08727b
 SHA1: 
-SHA256: 9e77ff61ca24ebdc7c0f54d08b8892690c16bc71328841f16095e5a8ff7be794
+SHA256: a06cf6c9d228c0db774e00337b3b7868af93e2738088ada6408a093fc98813c6
+
+Package: ai-config-gui
+Name: AI-Config-GUI
+Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，更新面板显示🤔
+Maintainer: DaFei
+Author: DaFei
+Section: Utilities
+Depends: firmware (>= 14.0), libvterm0,libvterm-bin
+Architecture: iphoneos-arm64e
+Version: 3.4.0-1+debug
+Installed-Size: 1000
+icon: https://huayuarc.github.io/icon/ClaudeAuth.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/ai-config-gui-3.4.0-1+debug-roothide.deb
+Size: 201308
+MD5sum: 82e292b9d259b9223a1068d097eeb0f1
+SHA1: 
+SHA256: de44834e70e8f5d1702ce767c2b332b6097ebd718ec62d9661ccc37246d696d3
+
+Package: ai-config-gui
+Name: AI-Config-GUI
+Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，更新面板显示🤔
+Maintainer: DaFei
+Author: DaFei
+Section: Utilities
+Depends: firmware (>= 14.0), libvterm0,libvterm-bin
+Architecture: iphoneos-arm64
+Version: 3.4.0-1+debug
+Installed-Size: 1000
+icon: https://huayuarc.github.io/icon/ClaudeAuth.png
+Filename: debs/ai-config-gui-3.4.0-1+debug-rootless.deb
+Size: 201020
+MD5sum: eea21392a1d940e2beb9b990c885b227
+SHA1: 
+SHA256: f4e5b854e11cef45754a0a4900368b068c02fb729ad969be1f233937cab49ff0
 
 Package: aweme.x
 Conflicts: com.xx.dyhook
@@ -674,6 +709,42 @@ Size: 184240
 MD5sum: a138926ead21873ba6c432b45a4ecafb
 SHA1: 
 SHA256: 7ff6efc7fae6ab7174d9a665162b0afdef30440e3c3572c1a5d8af329b3691f1
+
+Package: codes.aurora.kayoko
+Name: Hello Kayoko
+Description: Clipboard manager for iOS.
+Maintainer: Lessica <82flex@gmail.com>
+Author: Alexandra Aurora Göttlicher
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+Architecture: iphoneos-arm64e
+Version: 3.3.9-1
+Installed-Size: 1040
+Filename: debs/codes.aurora.kayoko-3.3.9-1-roothide.deb
+Size: 139240
+MD5sum: e972bc2fba180665090af1da92731c31
+SHA1: 
+SHA256: 5caa4f227e731f537c9d4cc05d48e5ba592d5484528c6b06d9c99eeb59b44377
+
+Package: codes.aurora.kayoko
+Name: Hello Kayoko
+Description: Clipboard manager for iOS.
+Maintainer: Lessica <82flex@gmail.com>
+Author: Alexandra Aurora Göttlicher
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+Architecture: iphoneos-arm64
+Version: 3.3.9-1
+Installed-Size: 1040
+Filename: debs/codes.aurora.kayoko-3.3.9-1-rootless.deb
+Size: 141436
+MD5sum: e1f10e4ccc72a0c6cd462d43f5bdc938
+SHA1: 
+SHA256: f767798f025d41eb836c28c8fed185c4832521c20c28f6ad8fe54cab2223e709
 
 Package: codes.aurora.kayoko
 Name: Hello Kayoko
@@ -2636,15 +2707,16 @@ Maintainer: DaFei
 Author: DaFei
 Section: Terminal Support
 Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Version: 1.0.0-25+debug
 Installed-Size: 732
-icon: https://huayuarc.github.io/icon/DFTerminal.jpg
-Filename: debs/com.dafei.terminal_1.0.0-25+debug_iphoneos-arm64.deb
-Size: 175656
-MD5sum: 0768d0b49261194ee65294073e94f73d
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/mterminal.jpg
+Filename: debs/com.dafei.terminal-1.0.0-25+debug-roothide.deb
+Size: 175808
+MD5sum: bb375e4b551d4130bf6c117d2b578ab3
 SHA1: 
-SHA256: e00bdd2428cb822ce4d06691021747af9169a0a43c345e42910a1733782aab9f
+SHA256: 2fa05ce9bf0d203b0d21adf2b228b2a71915776e8bfa850bca8e0dbf39d5c7c4
 
 Package: com.dafei.terminal
 Name: DFTerminal
@@ -2655,16 +2727,15 @@ Maintainer: DaFei
 Author: DaFei
 Section: Terminal Support
 Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Version: 1.0.0-25+debug
 Installed-Size: 732
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/DFTerminal.jpg
-Filename: debs/com.dafei.terminal_1.0.0-25+debug_iphoneos-arm64e.deb
-Size: 175208
-MD5sum: 14ec93060a8fe32f3a862f12a6500543
+icon: https://huayuarc.github.io/icon/mterminal.jpg
+Filename: debs/com.dafei.terminal-1.0.0-25+debug-rootless.deb
+Size: 175632
+MD5sum: 7b20be5b9c4ed1ec58332b7a85daf903
 SHA1: 
-SHA256: 2dc3bf417233bceecea81ba8325f229f7e7577d311f17d53456f18656d500786
+SHA256: e24075a63bf05a14f41729ba49d82d02738e1239df6b361ae4ff5666d5952bdd
 
 Package: com.dafei.terminal
 Name: DFTerminal
@@ -2679,12 +2750,51 @@ Architecture: iphoneos-arm64e
 Version: 1.0.0-27+debug
 Installed-Size: 732
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/DFTerminal.jpg
-Filename: debs/com.dafei.terminal_1.0.0-27+debug_iphoneos-arm64e.deb
-Size: 175720
-MD5sum: 8f69996f2a1caddf0d040f4f2c63c21b
+icon: https://huayuarc.github.io/icon/mterminal.jpg
+Filename: debs/com.dafei.terminal-1.0.0-27+debug-roothide.deb
+Size: 175308
+MD5sum: da575cb352543a047ac99b554e235278
 SHA1: 
-SHA256: e19898a943e2d286980dabb34227fc08fcc9b27969302761eb6c2612004cbf9a
+SHA256: 87af383f1879fe8305d78bd692e8b9b5fb5c312b40a4e6068d5fd7ff9ad251cd
+
+Package: com.dafei.terminal
+Name: DFTerminal
+Description: 现代化 iOS 终端，支持多标签、主题、中文/emoji、复制粘贴、双指缩放和本地 AI 辅助。更新了一些功能
+ A modern iOS terminal emulator with tabs, themes, CJK/emoji rendering,
+ copy/paste, pinch-to-zoom, scrollback, and local AI context helpers.
+Maintainer: DaFei
+Author: DaFei
+Section: Terminal Support
+Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+icon: https://huayuarc.github.io/icon/mterminal.jpg
+Installed-Size: 596
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.dafei.terminal-2.0.0-roothide.deb
+Size: 181428
+MD5sum: 05abee030818d2d10de99184adcff1a7
+SHA1: 
+SHA256: 33bd9888508799abfa04c7e526a78949405d9edbcb5afbfba83d27e8e8e1ae78
+
+Package: com.dafei.terminal
+Name: DFTerminal
+Description: 现代化 iOS 终端，支持多标签、主题、中文/emoji、复制粘贴、双指缩放和本地 AI 辅助。更新了一些功能
+ A modern iOS terminal emulator with tabs, themes, CJK/emoji rendering,
+ copy/paste, pinch-to-zoom, scrollback, and local AI context helpers.
+Maintainer: DaFei
+Author: DaFei
+Section: Terminal Support
+Depends: firmware (>= 14.0), libvterm-bin (>= 0.1)
+Architecture: iphoneos-arm64
+Version: 2.0.0
+icon: https://huayuarc.github.io/icon/mterminal.jpg
+Installed-Size: 596
+Filename: debs/com.dafei.terminal-2.0.0-rootless.deb
+Size: 181492
+MD5sum: 4aed4d40af146f768410c5f24759c92e
+SHA1: 
+SHA256: 5f50fdf7fb9dfffa4cad6963baa644cce9ae2e60dc378d57f1b7910937c586eb
 
 Package: com.daodao.goodwifi
 Name: GoodWiFi
