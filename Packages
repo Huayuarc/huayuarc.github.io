@@ -3894,6 +3894,41 @@ MD5sum: 61e194e670f34229b51875af4d1328c6
 SHA1: 
 SHA256: 34a8f9fc9e3aba8002dc4aae0318546217d480d272bcc2c6b2aee8ed1395b9da
 
+Package: com.llld.fugap
+Version: 2.2.4
+Section: Tweaks
+Description: Adjust the blank part of the control center and hide the status bar调节控制中心空白部分以及隐藏状态栏_________仅测试，有问题请卸载
+Maintainer: 来了老弟
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 584
+Name: FUGap
+icon: https://huayuarc.github.io/icon/fugap.jpg
+Author: smokin1337
+Filename: debs/com.llld.fugap-2.2.4-rootless.deb
+Size: 143552
+MD5sum: 6d4fba5476a410f8edab1741551e737b
+SHA1: 
+SHA256: 488d802cf42d1d158162a3a05f4a56295d781d9f37ababf71afaca572411f488
+
+Package: com.llld.fugap
+Version: 2.2.4
+Section: Tweaks
+Description: Adjust the blank part of the control center and hide the status bar调节控制中心空白部分以及隐藏状态栏_________仅测试，有问题请卸载
+Maintainer: 来了老弟
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Installed-Size: 584
+Name: FUGap
+icon: https://huayuarc.github.io/icon/fugap.jpg
+Author: smokin1337
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.llld.fugap_2.2.4_iphoneos-arm64e.deb
+Size: 180116
+MD5sum: d627e3cf9960486004110be51c3a13ec
+SHA1: 
+SHA256: 22b56dedee7a783429a911260b8bd953a2ff8ace18db7675d5e2d2f944c2b6cb
+
 Package: com.lxcloud.WCEhance
 Name: 微信增强
 Version: 2.0-6
