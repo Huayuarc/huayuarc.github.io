@@ -4217,6 +4217,39 @@ MD5sum: 61e194e670f34229b51875af4d1328c6
 SHA1: 
 SHA256: 34a8f9fc9e3aba8002dc4aae0318546217d480d272bcc2c6b2aee8ed1395b9da
 
+Package: com.linkwifi.wifikey
+Name: WiFi万能钥匙 Pro
+Version: 2.3.0-1
+Architecture: iphoneos-arm64e
+Description: WiFi万能钥匙极速版致力于为用户提供安全、稳定的上网服务，让用户随时随地轻松接入无线网络，使用各种在线服务，不再为无网、断网而苦恼，是您的 WiFi连接必备工具。
+Maintainer: Huayuarc
+Author: Huayuarc
+Section: Development
+Depends: firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/wifipro.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.linkwifi.wifikey-2.3.0-1-roothide.deb
+Size: 60845412
+MD5sum: 2f1822990db5d96e04a2b8285ac1cd38
+SHA1: 
+SHA256: 4c5c70abe137d535d3cf6e8e83cc003104554cff9dac3e1a62295a42c0e2790a
+
+Package: com.linkwifi.wifikey
+Name: WiFi万能钥匙 Pro
+Version: 2.3.0-1
+Architecture: iphoneos-arm64
+Description: WiFi万能钥匙极速版致力于为用户提供安全、稳定的上网服务，让用户随时随地轻松接入无线网络，使用各种在线服务，不再为无网、断网而苦恼，是您的 WiFi连接必备工具。
+Maintainer: Huayuarc
+Author: Huayuarc
+Section: Development
+icon: https://huayuarc.github.io/icon/wifipro.jpg
+Depends: firmware (>= 15.0)
+Filename: debs/com.linkwifi.wifikey-2.3.0-1-rootless.deb
+Size: 61038492
+MD5sum: 749d20b9abaebe034583caa2ec0b3ff5
+SHA1: 
+SHA256: f46163fed75548f17ace5909e821a8b9720c424ef9752721a6503789de9189df
+
 Package: com.llld.fugap
 Version: 2.2.4
 Section: Tweaks
