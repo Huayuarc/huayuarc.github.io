@@ -3615,6 +3615,40 @@ MD5sum: 7a2f3538f43730ac6343f06e69f55e52
 SHA1: 
 SHA256: d3fa8852ce5a30cc0324a75267a32c9f5de1d0dfc269baa5f8af44d920e3b2a6
 
+Package: com.iosdump.airdrop
+Name: AirDrop
+Depends: mobilesubstrate
+Description: 解除隔空十分钟限制iOS16+
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+icon: https://huayuarc.github.io/icon/AirDrop.jpg
+Installed-Size: 168
+Filename: debs/com.iosdump.airdrop-0.0.1-roothide.deb
+Size: 3408
+MD5sum: e68e116451734d3407dd924f4ad1f594
+SHA1: 
+SHA256: 5d82fb021956d1a1316815f8149a28abec0bae7c8cb730d3664b7b69787a6cbe
+
+Package: com.iosdump.airdrop
+Name: AirDrop
+Depends: mobilesubstrate
+Description: 解除隔空十分钟限制iOS16+
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.1
+icon: https://huayuarc.github.io/icon/AirDrop.jpg
+Installed-Size: 168
+Filename: debs/com.iosdump.airdrop-0.0.1-rootless.deb
+Size: 3484
+MD5sum: 2060322a836a0daa775bce8ef0740ac2
+SHA1: 
+SHA256: 2e70f6d6adb3bb16ec67ec1f53ab8e29c20bf90ccd8c6c93b194f69768263738
+
 Package: com.iosdump.customcallbg
 Name: CustomCallBg
 Depends: mobilesubstrate, preferenceloader
