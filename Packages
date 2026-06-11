@@ -6060,6 +6060,41 @@ MD5sum: 475cddbfb476f2347fb3a3b222db8af6
 SHA1: 
 SHA256: 3880da47828ac70de5554fb24b455c4cb7a936c01aac9883bbc0d9221636c2b4
 
+Package: com.rain.wallpapergenerator
+Name: Rain的锁屏壁纸
+Description: 选择2-6张透明PNG图片，一键生成动态壁纸配合Zone插件使用。
+Maintainer: Rain
+Author: Rain
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.iosdump.zone
+Architecture: iphoneos-arm64e
+Version: 1.0.0-15+debug
+Installed-Size: 672
+icon: https://huayuarc.github.io/icon/Zone.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.rain.wallpapergenerator-1.0.0-15+debug-roothide.deb
+Size: 88980
+MD5sum: 42dcf1b93c96f583158218cae1bcd3c4
+SHA1: 
+SHA256: ba7e0e3f5f2412348e7c1d1af2d803413db86598bff7ae7ab4af3c7633d21b0d
+
+Package: com.rain.wallpapergenerator
+Name: Rain的锁屏壁纸
+Description: 选择2-6张透明PNG图片，一键生成动态壁纸配合Zone插件使用。
+Maintainer: Rain
+Author: Rain
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.iosdump.zone
+Architecture: iphoneos-arm64
+Version: 1.0.0-15+debug
+icon: https://huayuarc.github.io/icon/Zone.png
+Installed-Size: 672
+Filename: debs/com.rain.wallpapergenerator-1.0.0-15+debug-rootless.deb
+Size: 91424
+MD5sum: fe066ea0efcb909a8fdf266b7f2cea07
+SHA1: 
+SHA256: d120ccdf1db129f55cf3732242ce66d0415911b8a438e3041d5f477bfd320842
+
 Package: com.randy420.tools
 Name: 420 Tools
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
