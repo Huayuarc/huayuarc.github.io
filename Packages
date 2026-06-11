@@ -4465,6 +4465,24 @@ MD5sum: 4f72adfc77d424a3178095caca58407a
 SHA1: 
 SHA256: f2f11613d68a7eaa397c3a6c472195b4091c98d086b4d74580fe2007b040b8d3
 
+Package: com.mrshi.lingdongdao
+Name: 灵动岛自定义
+Depends: mobilesubstrate
+Description: 给灵动岛的外框内框添加自定义颜色，通知背景颜色等
+Maintainer: MrShi
+Author: MrShi
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0.2-235
+Installed-Size: 2352
+Icon: https://huayuarc.github.io/icon/CCMusic.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.mrshi.lingdongdao_1.0.0.2-235_iphoneos-arm64e.deb
+Size: 865222
+MD5sum: 7ce097390d58b31728eb9634ab3c6746
+SHA1: 
+SHA256: 46bd2a37a7e5d10288614f95f1a8ce999cd48ee68c90ec1ecd763f06a63d5577
+
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
 Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
