@@ -1713,6 +1713,40 @@ SHA256: 8ca07f156177247ad1eff56f2de6a1d1fa47fd34074b2e865680e54abdb7cb4a
 
 Package: com.be-huge.insulation
 Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.35.50
+icon: https://huayuarc.github.io/icon/Insulation.png
+Installed-Size: 612
+Filename: debs/com.be-huge.insulation-0.1.35.50-roothide.deb
+Size: 48496
+MD5sum: 63274bd6b33008985ca37ba9584f62a3
+SHA1: 
+SHA256: 0b316a4848e641d4b70aa67daac098e8f88f90497b6ea3f0d4b46e9200d154bb
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.1.35.50
+icon: https://huayuarc.github.io/icon/Insulation.png
+Installed-Size: 628
+Filename: debs/com.be-huge.insulation-0.1.35.50-rootless.deb
+Size: 51468
+MD5sum: de8623ae6639a934466dbcb26c8149cc
+SHA1: 
+SHA256: dfbcf7d979c90ae7b32030185315b5bb188f20764197cd2cce2c4e15feed050c
+
+Package: com.be-huge.insulation
+Name: insulation
 Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
 Maintainer: be-huge
 Author: be-huge
@@ -11861,6 +11895,41 @@ Size: 210644
 MD5sum: 0b44127977c69d876ece6b746aa9d17c
 SHA1: 
 SHA256: 9bec7bee579a87b4777c5f1f48dc22d1d278c4372bb54947b2edd182ed2ae557
+
+Package: im.mjh.fakeperm
+Name: 虚拟权限 · Fake Permission
+Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟拍照)、麦克风伪装、蓝牙伪装、剪贴板伪装、传感器防摇一摇、WiFi模拟(SSID/BSSID/历史)、机型伪装、iOS版本伪装(内置数据库)、地区伪装(内置选择器)、语言伪装(内置选择器)、UUID标识符伪装(IDFV/IDFA)、App版本伪装、屏蔽代理检测、屏蔽截图/录屏检测、配置导入导出、App暂停/恢复。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0),  preferenceloader
+Architecture: iphoneos-arm64e
+Version: 8.6.0
+icon: https://huayuarc.github.io/icon/fakeperm.png
+Installed-Size: 1520
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/im.mjh.fakeperm-8.6.0-roothide.deb
+Size: 260008
+MD5sum: 0ebfd6788ba692ba0e1f31f8b45db9d7
+SHA1: 
+SHA256: 9a08405b98e3f0d4b5cc5da8905b1048175ef015a650dec1420ce89889f67860
+
+Package: im.mjh.fakeperm
+Name: 虚拟权限 · Fake Permission
+Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟拍照)、麦克风伪装、蓝牙伪装、剪贴板伪装、传感器防摇一摇、WiFi模拟(SSID/BSSID/历史)、机型伪装、iOS版本伪装(内置数据库)、地区伪装(内置选择器)、语言伪装(内置选择器)、UUID标识符伪装(IDFV/IDFA)、App版本伪装、屏蔽代理检测、屏蔽截图/录屏检测、配置导入导出、App暂停/恢复。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0),  preferenceloader
+Architecture: iphoneos-arm64
+Version: 8.6.0
+icon: https://huayuarc.github.io/icon/fakeperm.png
+Installed-Size: 1520
+Filename: debs/im.mjh.fakeperm-8.6.0-rootless.deb
+Size: 265448
+MD5sum: 987137f7de9569e192548b3784191b7e
+SHA1: 
+SHA256: 9391fcc96ceb66892d5ba1a1fd18726069a1c343e86b136df4c58cf03d244f31
 
 Author: 俊宏 <mail@mjh.im>
 Maintainer: BigBoss <bigboss@thebigboss.org>
