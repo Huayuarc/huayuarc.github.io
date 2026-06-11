@@ -11655,6 +11655,40 @@ MD5sum: b320e75dd67f1cec6d7e2e15f9ba91e8
 SHA1: 
 SHA256: 3b442d5e2fe72c4a41982567883bdc2e5cef2d185d05cd7c20975c69fdf5a2c1
 
+Package: com.tune.notificationfilter
+Name: Notification Filter
+Depends: mobilesubstrate, preferenceloader
+Description: Powerful notification filtering for jailbroken iOS 自定义规则过滤通知插件
+Maintainer: Tune
+Author: Tune
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+icon: https://huayuarc.github.io/icon/NotificationFilter.png
+Installed-Size: 1064
+Filename: debs/com.tune.notificationfilter-1.2.2-roothide.deb
+Size: 257296
+MD5sum: 6a92bd73d65e48e92da20184c9c0b1fa
+SHA1: 
+SHA256: a4421d9d706230a8c125a80debaae84b0219ae5df6505181a966f7f621db895f
+
+Package: com.tune.notificationfilter
+Name: Notification Filter
+Depends: mobilesubstrate, preferenceloader
+Description: Powerful notification filtering for jailbroken iOS 自定义规则过滤通知插件
+Maintainer: Tune
+Author: Tune
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.2
+icon: https://huayuarc.github.io/icon/NotificationFilter.png
+Installed-Size: 1080
+Filename: debs/com.tune.notificationfilter-1.2.2-rootless.deb
+Size: 260348
+MD5sum: be283192d90cbdd740ecc824a495afcc
+SHA1: 
+SHA256: 6e1dafbc0f0a02d30c85d5a74647f28aa869240dc0217ed5065ca2713abb16a2
+
 Package: com.udevs.dockx
 Name: DockX
 Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
