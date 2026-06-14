@@ -14158,7 +14158,8 @@ Description: Python 3.14.3 for jailbroken iOS.
  - Full interpreter with standard library, SSL/TLS, ctypes, compression (lzma, bz2, zstd), curses, and dbm/gdbm. Multi-version safe.
  - Install pip: python3.14 -m ensurepip
 Installed-Size: 147920
-Filename: debs/xyz.cypwn.python314-3.14.3-rootless.deb
+Filename: debs/xyz.cypwn.python314-3.14.3
+-rootless.deb
 Size: 28256360
 MD5sum: b5d8ae874fdc596726d34e68e8d75dc7
 SHA1: 
