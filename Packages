@@ -14144,6 +14144,26 @@ MD5sum: 536d26881b68d786d30f40b35accfc15
 SHA1: 
 SHA256: efe919d4cee72be722d85b8a21f4f089d098b40d81f7b51c86f110d39c9a0e84
 
+Package: xyz.cypwn.python314
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/3503
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3503
+Icon: https://repo.cypwn.xyz/packages/Python3143-Rootless/icon.png
+Name: Python 3.14.3
+Version: 3.14.3
+Section: Development
+Priority: optional
+Architecture: iphoneos-arm64
+Description: Python 3.14.3 for jailbroken iOS.
+ - Full interpreter with standard library, SSL/TLS, ctypes, compression (lzma, bz2, zstd), curses, and dbm/gdbm. Multi-version safe.
+ - Install pip: python3.14 -m ensurepip
+Installed-Size: 147920
+Filename: debs/xyz.cypwn.python314-3.14.3-rootless.deb
+Size: 28256360
+MD5sum: b5d8ae874fdc596726d34e68e8d75dc7
+SHA1: 
+SHA256: e760d4aaf72d09aa39930fccf9084bc1d16eaa7c31122514f9a0152f6e14b554
+
 Package: zp.cocoatop64.unject.xina
 Name: CocoaTop64.zp - xina
 Depends: 
