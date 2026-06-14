@@ -1232,25 +1232,6 @@ MD5sum: 1a7c12505c21ed1d1a5cd27e7258adc7
 SHA1: 
 SHA256: 52888be7e5a0b16c27091ff22b8b3a143bd38ba22c99680c856edb22d2683ae4
 
-Package: com.abc3.vip.ftt
-Version: 9.0
-Section: Tweaks
-Maintainer: 倔强的石头 <478066693@qq.com>
-Depends: mobilesubstrate, com.randy420.tools (>=2.2)
-Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
-Architecture: iphoneos-arm
-Installed-Size: 144
-Description: Flex To Theos汉化+跳转Filza
-Name: Flex To Theos
-Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
-Sponsor: 倔强的石头 <478066693@qq.com>
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Filename: debs/com.abc3.vip.ftt-9.0-rootless.deb
-Size: 30592
-MD5sum: b335a2799cf6e07dd8e19f41a4fecd1d
-SHA1: 
-SHA256: d9655583fb27ca29cf17f8e5e144e5b1e661aed1c4d54bcbf7424e4a56ca716a
-
 Package: com.abc3.vip.heaven
 Version: 1.0.1
 Priority: optional
@@ -6199,27 +6180,6 @@ Size: 91424
 MD5sum: fe066ea0efcb909a8fdf266b7f2cea07
 SHA1: 
 SHA256: d120ccdf1db129f55cf3732242ce66d0415911b8a438e3041d5f477bfd320842
-
-Package: com.randy420.tools
-Name: 420 Tools
-Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
-Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
-Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
-Homepage: https://theemeraldisle.family
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Author: Randy420 <randy.skinner@hotmail.com>
-Section: System
-Tag: role::hacker
-Replaces: com.randy420.encrypt
-Architecture: iphoneos-arm64
-Version: 2.3.9
-icon: https://huayuarc.github.io/icon/420icon.png
-Installed-Size: 2392
-Filename: debs/com.randy420.tools-2.3.9-rootless.deb
-Size: 543936
-MD5sum: a7ff213a92ccad3ca811edbd1eb8f789
-SHA1: 
-SHA256: 8a515670176c147d1649b269cf09b4d59df4ead99f4372643e08fb8fabc3a350
 
 Package: com.rpgfarm.a-font
 Name: A-Font
@@ -13983,28 +13943,6 @@ MD5sum: 69d78853eecae1c76886a9283f8993bb
 SHA1: 
 SHA256: 2ca10ec9754a043cca2868a53c5c71ef32a1a1cc99a76a60b59542ac3ee54901
 
-Package: ru.rj.ftt
-Name: Flex To Theos
-Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
-Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
-  
- - Use 'ftt -?' For a full list of options.
-Depiction: https://Randy-420.GitHub.io/depic/ftt.html
-Homepage: https://theemeraldisle.family
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
-Section: Tweaks
-Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
-icon: https://huayuarc.github.io/icon/ftt.jpg
-Architecture: iphoneos-arm64
-Version: 1.4
-Installed-Size: 1300
-Filename: debs/ru.rj.ftt-1.4-rootless.deb
-Size: 356404
-MD5sum: 5d2c47a592aebc857abbe18544166b5e
-SHA1: 
-SHA256: 7f8454ce37fe616dcffc516e79cfc16f61b9a81d13e5abc5c77d39efc58ab826
-
 Package: tools.cydia.flex3
 Maintainer: t4c
 Name: Flex 3 Beta98
@@ -14205,71 +14143,6 @@ Size: 37668
 MD5sum: 536d26881b68d786d30f40b35accfc15
 SHA1: 
 SHA256: efe919d4cee72be722d85b8a21f4f089d098b40d81f7b51c86f110d39c9a0e84
-
-Maintainer: CyPwn
-Depiction: https://repo.cypwn.xyz/depiction/3338
-SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3338
-Icon: https://repo.cypwn.xyz/packages/python312-Rootless/icon.png
-Package: xyz.cypwn.python3.12
-Name: python3.12
-Version: 3.12.5-1
-Section: Development
-Priority: optional
-Architecture: iphoneos-arm64
-Author: kitty-xz
-Installed-Size: 95580
-Description: Python 3.12.5 for jailbroken iOS. Includes OpenSSL (ssl), ctypes, and pip.
- - Enable 'pip' by: 'python3.12 -m ensurepip --upgrade'
- - Install packages by: 'pip3.12 install <package>'
-Filename: debs/xyz.cypwn.python3.12
--3.12.5-1
--rootless.deb
-Size: 20274104
-MD5sum: 86a3aca65d8ffb7a1286d04beab4ba0a
-SHA1: 
-SHA256: 2ca3fbe50bd62a385c61dee96a38da8aa4982b5531b00fce7d07916b90a01851
-
-Package: xyz.cypwn.python313
-Maintainer: CyPwn
-Depiction: https://repo.cypwn.xyz/depiction/3501
-SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3501
-Icon: https://repo.cypwn.xyz/packages/Python31312-Rootless/icon.png
-Name: Python 3.13.12
-Version: 3.13.12
-Section: Development
-Priority: optional
-Architecture: iphoneos-arm64
-Description: Python 3.13.12 for jailbroken iOS.
- - Full interpreter with standard library, SSL/TLS, ctypes, compression (lzma, bz2), curses, and dbm/gdbm. Multi-version safe.
- - Install pip: python3.13 -m ensurepip
-Installed-Size: 140728
-Filename: debs/xyz.cypwn.python313-3.13.12
--rootless.deb
-Size: 25881904
-MD5sum: c0a96858c8e81088807c4ff9bc41af73
-SHA1: 
-SHA256: 18a397b3a8926dcb7f9d162f30af1fbf11f2d1f4951dd6218f6ef0bf63cb3127
-
-Package: xyz.cypwn.python314
-Maintainer: CyPwn
-Depiction: https://repo.cypwn.xyz/depiction/3503
-SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3503
-Icon: https://repo.cypwn.xyz/packages/Python3143-Rootless/icon.png
-Name: Python 3.14.3
-Version: 3.14.3
-Section: Development
-Priority: optional
-Architecture: iphoneos-arm64
-Description: Python 3.14.3 for jailbroken iOS.
- - Full interpreter with standard library, SSL/TLS, ctypes, compression (lzma, bz2, zstd), curses, and dbm/gdbm. Multi-version safe.
- - Install pip: python3.14 -m ensurepip
-Installed-Size: 147920
-Filename: debs/xyz.cypwn.python314-3.14.3
--rootless.deb
-Size: 27296012
-MD5sum: 12aa523f4b9d22740339c05314a8f985
-SHA1: 
-SHA256: 5120b879804f079f95333efdd11936094715caf8dc0fa72053f0eec4b689af2c
 
 Package: zp.cocoatop64.unject.xina
 Name: CocoaTop64.zp - xina
