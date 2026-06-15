@@ -9320,6 +9320,23 @@ MD5sum: 17d9f1bb7f5f493f35d53df913f3deb4
 SHA1: 
 SHA256: 918e60cd738b054c813918dc4d41932d165a2da4bb1b474ffcb67fe1a8478e2d
 
+Author: ethxnn88 <ethxnn88@gmail.com>
+Architecture: iphoneos-arm64e
+Description: 启动原生灵动岛。仅支持16系统以上，非16系统不要装。
+Maintainer: ethxnn88 <ethxnn88@gmail.com>
+Version: 2.0
+Depends: firmware (>= 16.0), mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Name: VisibleIsland
+Section: Tweaks
+Package: com.sini.visibleisland
+icon: https://sini921.github.io/repo/sileodepiction/icon/ldd.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.visibleisland_2.0_iphoneos-arm64e.deb
+Size: 42790
+MD5sum: a520f8c42df37e5ce0aae013cfe5de7c
+SHA1: 
+SHA256: e347ad185245c6cb6d3dfa11fd0f519e4a2415a36e2d8737401467aea9b8f930
+
 Package: com.sini.vitreux
 Name: Vitreux
 Description: 仿iOS26液态玻璃
