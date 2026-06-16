@@ -11655,6 +11655,41 @@ MD5sum: 644ede343eea9d66a55d0212dca95a65
 SHA1: 
 SHA256: d51820ba2694fcea7ce52702e613b0508f0e9914a0b460b5e6bf402022532510
 
+Package: com.spark.ccmusicartwork
+Name: CCMusicArtwork
+Depends: mobilesubstrate
+Description: Shows album artwork behind the music module in the iOS 11-13 control center 显示 iOS 11-13 控制中心音乐模块后面的专辑插图
+Maintainer: Spark
+Author: Spark
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.4.0-rootless
+Installed-Size: 656
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/CCMusicArtwork.png
+Filename: debs/com.spark.ccmusicartwork-2.4.0-rootless-roothide.deb
+Size: 253724
+MD5sum: 4bba932616642e6428a7057272c29efe
+SHA1: 
+SHA256: d94118aabafa896462e82690a08ff47863da13bacff6ce62b9d0353dd041b238
+
+Package: com.spark.ccmusicartwork
+Name: CCMusicArtwork
+Depends: mobilesubstrate
+Description: Shows album artwork behind the music module in the iOS 11-13 control center 显示 iOS 11-13 控制中心音乐模块后面的专辑插图
+Maintainer: Spark
+Author: Spark
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.4.0-rootless
+Installed-Size: 656
+Icon: https://huayuarc.github.io/icon/CCMusicArtwork.png
+Filename: debs/com.spark.ccmusicartwork-2.4.0-rootless-rootless.deb
+Size: 254396
+MD5sum: aadf289dd71bce5803253d68a7e850ed
+SHA1: 
+SHA256: 11d62cdad97df51c94e3a0411f4f3fd44288f7e65fea11b1330d29768282d45a
+
 Package: com.spark.libsparkcolourpicker
 Name: libsparkcolourpicker
 Depends: 
@@ -14470,6 +14505,47 @@ Size: 13308216
 MD5sum: 3b8953fffcda8a661dc711b0a2971628
 SHA1: 
 SHA256: c8b53c96e66485b5b4aeb2908236fba01c3dfb0218a88b771b6d1e6f336425fc
+
+Package: xyz.cypwn.designer
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/3393
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3393
+Icon: https://huayuarc.github.io/icon/designer.png
+Name: Designer
+Depends: mobilesubstrate, preferenceloader
+Conflicts: 
+Description: Design layouts for lockscreen and homescreen 锁屏和主屏幕的设计布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.5.5
+Installed-Size: 20612
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.designer-1.5.5-roothide.deb
+Size: 7239248
+MD5sum: 6f2b27914e2521ac0fa9399d72f73457
+SHA1: 
+SHA256: 5f9aa664f06dcaf2d7035fc42e6693f0844493f73c546923899cd458c128bd4c
+
+Package: xyz.cypwn.designer
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/3393
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3393
+Icon: https://huayuarc.github.io/icon/designer.png
+Name: Designer
+Depends: mobilesubstrate, preferenceloader
+Conflicts: 
+Description: Design layouts for lockscreen and homescreen 锁屏和主屏幕的设计布局
+Author: JunesiPhone <junesgraphics@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Installed-Size: 20612
+Filename: debs/xyz.cypwn.designer-1.5.5-rootless.deb
+Size: 12796092
+MD5sum: 4b6e6ca1df8d5bef21a3ffbe03a5bea0
+SHA1: 
+SHA256: 8d1f969f825ee5d6084d21e9a67f501ac1e1affebdf7cdefc1f5be8d101880e9
 
 Package: xyz.cypwn.fugap
 Maintainer: CyPwn
