@@ -4615,6 +4615,48 @@ MD5sum: ea942da895ff758e1723596eb1f1d296
 SHA1: 
 SHA256: 36f04a671050c6bed7e84bda2c760d0064da4fec21527ded387880400af1a6f4
 
+Package: com.miguelaka95.bettercc
+Name: BetterCC
+Version: 0.0.51
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Installed-Size: 1828
+Author: Miguelaka95 <miguelaka95@gmail.com>
+Maintainer: 来了老弟
+Description: 自定义您的控制中心！
+ * 隐形模块。
+ * 重新排列连接切换。
+ * 更改模块大小。
+ * 天气小工具。
+Icon: https://media.havoc.app/6212cb4b1a0d080cf953fa61
+Filename: debs/com.miguelaka95.bettercc-0.0.51-roothide.deb
+Size: 142584
+MD5sum: 75cac3c0db2add07fe5ddca4a36f2af4
+SHA1: 
+SHA256: 2d1e691de759261b2eeb0e8e9b9b1c49813e2b8093bddc29819ef38441c4a656
+
+Package: com.miguelaka95.bettercc
+Maintainer: CyPwn
+Name: BetterCC
+Version: 0.0.55
+Section: Tweaks
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Author: Miguelaka95
+Description: 自定义您的控制中心！
+ * 隐形模块。
+ * 重新排列连接切换。
+ * 更改模块大小。
+ * 天气小工具。
+Depiction: https://havoc.app/depiction/bettercc
+Icon: https://media.havoc.app/6212cb4b1a0d080cf953fa61
+Filename: debs/com.miguelaka95.bettercc-0.0.55-rootless.deb
+Size: 149592
+MD5sum: 5f93d246c3eace455829196b33904392
+SHA1: 
+SHA256: 4764cc6eabe70953368190faf76401412b79a56ea1e89efd639835c3e5afd730
+
 Package: com.miro.libmiroshared
 Name: libMiROShared
 Depends: firmware (>=14.0)
