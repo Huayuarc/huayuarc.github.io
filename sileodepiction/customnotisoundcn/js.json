@@ -9,9 +9,15 @@
             "views": [
                 {
                     "text": "点此加入我们的交流反馈群",
-                    "action": "https://qun.qq.com/universal-share/share?ac=1&authKey=BoNtUs2S2bIll%2B8E6TUXCqKs60REpK%2Bf2iPie68OyMKrldWdz9JJbNhFDKz8IJ4%2B&busi_data=eyJncm91cENvZGUiOiI3MzEzNDIyNTYiLCJ0b2tlbiI6ImxjQ2ZOZ2w3MWNDOVNBWkxwaElKMGlXK0VRV3RqamNDZUdzNUd6S09WQzVOVGpMSXZ5SmYvVTB5Z1oxY2RWNkciLCJ1aW4iOiI3Mzg5ODU4MTcifQ%3D%3D&data=PSgxJkfhkAzwuuXyWlG5R6eL2JI2g3nL0oDSgILqX2_CNGXaNMSjkI0ZPgI9cRLvwOGimcUgfWnX_QUAUvP4xw&svctype=4&tempid=h5_group_info",
+                    "action": "mqq://im/chat?chat_type=group&uin=731342256&version=1&src_type=web",
                     "openExternal": 1,
-                    "class":  "DepictionHeaderView",
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
                     "title": "自定义通知声音",
                     "useBoldText": true,
                     "useBottomMargin": false
@@ -24,6 +30,30 @@
                     "markdown": "## 描述\n自定义App、App内联系人通知声音、振动模式。",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "截图",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 8,
+                    "itemSize": "{160, 346}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://huayuarc.github.io/sileodepiction/customnotisoundcn/Screenshot_01.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://huayuarc.github.io/sileodepiction/customnotisoundcn/Screenshot_02.png"
+                        }
+                    ]
                 },
                 {
                     "class": "DepictionSeparatorView"
@@ -70,11 +100,40 @@
             "tabname": "更新日志",
             "views": [
                 {
+                    "text": "点此加入我们的交流反馈群",
+                    "action": "https://qun.qq.com/union/分享链接/",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
                     "markdown": "#### 版本: 1.7-3-1-47+debug\n- 初始版本",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 }
             ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "本源公告",
+            "views": [
+                {
+                    "text": "点此加入我们的交流反馈群",
+                    "action": "https://qun.qq.com/union/分享链接/",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "markdown": "## Huayuarc 源:\n- 本源为个人自用源，搬运一些常用插件方便自用以及学习交流测试备份\n- 源内插件均来自互联网\n- 安装以后请于24小时内删除\n- 安装以后出现异常与本源无关\n- 如有冒犯，请联系我指定下架某个插件",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                }
+            ]
         }
-    ]
+    ],
 }
