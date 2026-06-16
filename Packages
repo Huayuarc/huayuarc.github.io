@@ -8287,6 +8287,24 @@ MD5sum: 003629f688f1c96c262d91857de7c668
 SHA1: 
 SHA256: 1083778fe8dd1287bbce04b4496084e2d21ceefeeae657ce7233291b55190a25
 
+Package: com.sini.iapstore
+Name: IAPStore
+Author: lenglengyu
+Description: 应用内购神器，弹窗付款点击取消即可。
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Maintainer: lenglengyu <lenglengyu@126.com>
+Architecture: iphoneos-arm64e
+Section: Tweaks
+icon: https://sini921.github.io/repo/sileodepiction/icon/iap.png
+Version: 0.0.2
+Installed-Size: 384
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.iapstore_0.0.2_iphoneos-arm64e.deb
+Size: 65196
+MD5sum: b017eabb6806d66ee386cd34e8903044
+SHA1: 
+SHA256: 5d6a348ea0ee02118a2b431dc7478012935994cdbc52091c7d60c2e8d5a87967
+
 Package: com.sini.icleanerpro
 Name: iCleaner Pro
 Description: 破解版iOS系统清理工具，默认简体中文。
