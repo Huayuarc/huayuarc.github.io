@@ -6099,6 +6099,43 @@ MD5sum: fcc56d9b3eb582d081071f8f47c7d121
 SHA1: 
 SHA256: 012e66c46c5be78fba6b8cea15eab5999444f96542120cf1eaf0244b48083cd8
 
+Package: com.p2kdev.arkita
+Name: Arkita
+Depends: mobilesubstrate, firmware (>= 13)
+Conflicts: ch.mdaus.utils, com.johnzaro.perfectmusic13, com.p2kdev.tinywidget, com.p2kdev.tinywidget14
+Description: Get in the Groove!Arkita 为用户在音乐播放中提供了各种自定义选项，使用户可以更方便的来操控音乐播放，而且还提供播放界面外观的自定义。
+Maintainer: P2KDev <p2kdev@gmail.com>
+Author: P2KDev <p2kdev@gmail.com>
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/Arkita.png
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Installed-Size: 528
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.p2kdev.arkita-1.0.4-roothide.deb
+Size: 56132
+MD5sum: dfcaec81e3ff7242e5516f15e0f59966
+SHA1: 
+SHA256: 02c373987f40b206426ae22259f1bd7878e646f0f369e769917a1b1af542c8e0
+
+Package: com.p2kdev.arkita
+Name: Arkita
+Depends: mobilesubstrate, firmware (>= 13)
+Conflicts: ch.mdaus.utils, com.johnzaro.perfectmusic13, com.p2kdev.tinywidget, com.p2kdev.tinywidget14
+Description: Get in the Groove!Arkita 为用户在音乐播放中提供了各种自定义选项，使用户可以更方便的来操控音乐播放，而且还提供播放界面外观的自定义。
+Maintainer: P2KDev <p2kdev@gmail.com>
+Author: P2KDev <p2kdev@gmail.com>
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/Arkita.png
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Installed-Size: 528
+Filename: debs/com.p2kdev.arkita-1.0.4-rootless.deb
+Size: 57440
+MD5sum: 1b642eee1e8063c45b0ab57d7740eb73
+SHA1: 
+SHA256: 6e255d9605f3528ce391b7ff1da76328a23fa355a14af78a5cf930fb58b88335
+
 Package: com.promotion120
 Name: ProMotion 120Hz
 Author: Unknown
