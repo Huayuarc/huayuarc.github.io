@@ -3377,6 +3377,38 @@ MD5sum: dcf593d35a2d5cce43653e9f8d59b07d
 SHA1: 
 SHA256: b007fb5993b7cb0c089ec2e8129b48846a5188bec551c7ee0639bb5027daa3c1
 
+Package: com.huami.WCPulse
+Name: WCPulse
+Version: 1.6-3
+Description: WCPulse
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.huami.WCPulse-1.6-3-roothide.deb
+Size: 4304964
+MD5sum: 183a19a96cc18439ea093bcce99767cd
+SHA1: 
+SHA256: 4fda5661308e1cd0dabdaa579ec133c2eb5685dc9ddba1371ee72c2082053333
+
+Package: com.huami.WCPulse
+Name: WCPulse
+Version: 1.6-3
+Description: WCPulse
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.huami.WCPulse-1.6-3-rootless.deb
+Size: 4302568
+MD5sum: dfb0d63f3177ea0417c00eed271a8a71
+SHA1: 
+SHA256: 2c3966236ef8f979f6b76297af2963aa3089932dc92e9e7ff789114a37ef4e37
+
 Package: com.huami.ChoicyConfigPin
 Name: ChoicyConfigPin
 Description: Pin apps with custom tweak configuration to the top in Choicy
@@ -9518,40 +9550,6 @@ Size: 13528
 MD5sum: a92dc3cf85e3e3fd26d7f31e21ca405c
 SHA1: 
 SHA256: 3a0c34106842e4197e20855372d68595c88964531ec11b7875a6c266a7c71945
-
-Package: com.sini.WCPulse
-Icon: https://huayuarc.github.io/icon/WeChat.jpg
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/WCPulse/js.json
-Name: WCPulse
-Version: 1.5-9
-Description: WCPulse
-Maintainer: huami
-Author: huami
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Filename: debs/com.sini.wcpulse_1.5-9_iphoneos-arm64.deb
-Size: 8748220
-MD5sum: 49c79c06d628941a5500372d98b50d35
-SHA1: 
-SHA256: 8c21f23980fedbc0ac4826f6fde1bb119ce92f66256f2f20182d816d0f80ded8
-
-Package: com.sini.WCPulse
-Icon: https://huayuarc.github.io/icon/WeChat.jpg
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/WCPulse/js.json
-Name: WCPulse
-Version: 1.5-9
-Description: WCPulse
-Maintainer: huami
-Author: huami
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64e
-Filename: debs/com.sini.wcpulse_1.5-9_iphoneos-arm64e.deb
-Size: 8746672
-MD5sum: 7564ada9cef630a59ac83885b6d792d6
-SHA1: 
-SHA256: 1b88f5faeaf97dd0a3cdae263f8c14f6c5051d0e655e254ccc0ce12c268d73fa
 
 Package: com.sini.wcpureextension
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
