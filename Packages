@@ -6190,6 +6190,41 @@ MD5sum: 5aa3cd1a4d59bc92bcfa067473a52b7e
 SHA1: 
 SHA256: 8575628732f6138df0baa82c89c3e67fe3f4d325f3e88636468b86a6e1b5bd86
 
+Package: com.nightwind.folderartworkremade
+Name: FolderArtwork Remade
+Description: FolderArtwork 是 iOS 开发人员 Dcsyhi 最新发布的免费越狱调整，它提供了多种自定义主屏幕文件夹的方式，用户可以选择的自定义背景图样到自定义边框和颜色。
+Maintainer: Nightwind
+Author: Nightwind
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1.1
+Installed-Size: 552
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/FolderArtworkRemade.png
+Filename: debs/com.nightwind.folderartworkremade-0.0.1.1-roothide.deb
+Size: 170756
+MD5sum: d9fa0f3cbad428cf827cf69be9201d16
+SHA1: 
+SHA256: 04bccfd9f8bcc5fece05bb2e78f9dd9a40498595da9318deb0f8d3a8a09e6c71
+
+Package: com.nightwind.folderartworkremade
+Name: FolderArtwork Remade
+Description: FolderArtwork 是 iOS 开发人员 Dcsyhi 最新发布的免费越狱调整，它提供了多种自定义主屏幕文件夹的方式，用户可以选择的自定义背景图样到自定义边框和颜色。
+Maintainer: Nightwind
+Author: Nightwind
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.1.1
+Installed-Size: 552
+Icon: https://huayuarc.github.io/icon/FolderArtworkRemade.png
+Filename: debs/com.nightwind.folderartworkremade-0.0.1.1-rootless.deb
+Size: 170540
+MD5sum: 4a62533c972a9decce79fd8357c1310e
+SHA1: 
+SHA256: c90c6faccb13dc41cedcebc6eb6356f7f4a0c3cd4da0c621a285cf0e68e22a7d
+
 Package: com.p2kdev.arkita
 Name: Arkita
 Depends: mobilesubstrate, firmware (>= 13)
@@ -7854,6 +7889,25 @@ Size: 623412
 MD5sum: a63fe7d7fa2738249e21437555aa982c
 SHA1: 
 SHA256: a9b30f77951e8f4e1ecf7d488afc38a38f3173d54514ee10bf01dc5bfc990fa3
+
+Package: com.sini.desktoplyrics
+Version: 0.3.9~b1
+Section: Tweaks
+Maintainer: Brend0n
+icon: https://sini921.github.io/repo/sileodepiction/icon/desktoplyrics.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/desktoplyrics/js.json
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64e
+Installed-Size: 2748
+Name: DesktopLyrics
+Author: Brend0n
+Description: 桌面歌词，支持QQ音乐。
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.desktoplyrics_0.3.9~b1_iphoneos-arm64e.deb
+Size: 932860
+MD5sum: 9d73ec84513494fa84a8d352d6fe7bd0
+SHA1: 
+SHA256: 4e9952772c7b668b9f322345de62a8b4f27f80ff98d17c6ce912c0a4e8265012
 
 Package: com.sini.disablebottombarlrswipe
 Version: 1.1-2
@@ -14521,7 +14575,8 @@ Architecture: iphoneos-arm64e
 Version: 1.5.5
 Installed-Size: 20612
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/xyz.cypwn.designer-1.5.5-roothide.deb
+Filename: debs/xyz.cypwn.designer-1.5.5
+-roothide.deb
 Size: 7239248
 MD5sum: 6f2b27914e2521ac0fa9399d72f73457
 SHA1: 
@@ -14541,7 +14596,8 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.5.5
 Installed-Size: 20612
-Filename: debs/xyz.cypwn.designer-1.5.5-rootless.deb
+Filename: debs/xyz.cypwn.designer-1.5.5
+-rootless.deb
 Size: 12796092
 MD5sum: 4b6e6ca1df8d5bef21a3ffbe03a5bea0
 SHA1: 
