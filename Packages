@@ -17,23 +17,6 @@ SHA256: 32a342731c35b4366bd98678e304af52b3709cf47e036599de4ad029f3800d45
 
 Package: a1
 Name: A1
-Version: 1.9.7+debug10
-Architecture: iphoneos-arm64e
-Section: System
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Author: LF
-Maintainer: LF, AD
-SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-Icon: https://huayuarc.github.io/icon/a1.jpg
-Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
-Filename: debs/a1_1.9.7+debug10_iphoneos-arm64e.deb
-Size: 50176
-MD5sum: 5b013190269bc419538df9a7c5becb7d
-SHA1: 
-SHA256: 14dc68442708d6828ab04c90d3a68564edab441f55537b31f4225162555aee05
-
-Package: a1
-Name: A1
 Version: 1.9.8-beta1+debug2-1
 Architecture: iphoneos-arm64
 Section: System
@@ -48,23 +31,6 @@ Size: 57044
 MD5sum: cfab2ad554cafba206105a9385f50207
 SHA1: 
 SHA256: e4161188600b7695440a196f0b3f77824a4a3451067999fa406ba718a716e18e
-
-Package: a1
-Name: A1
-Version: 1.9.8-beta1+debug2-1
-Architecture: iphoneos-arm64e
-Section: System
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Author: LF
-Maintainer: LF, AD
-SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-Icon: https://huayuarc.github.io/icon/a1.jpg
-Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
-Filename: debs/a1_1.9.8-beta1+debug2-1_iphoneos-arm64e.deb
-Size: 56800
-MD5sum: 9fc324103e0718d6b319bab82498b489
-SHA1: 
-SHA256: 7d203a1d0594e310dc5283076999f2d3f922c0146c885430921e107937832dd4
 
 Package: a1
 Name: A1
@@ -85,23 +51,6 @@ SHA256: 2f89fa35810ac674a0bc6b30d00cd3d7460aa337ee4d0014d6439d60019c1714
 
 Package: a1
 Name: A1
-Version: 1.9.8-beta3-1
-Architecture: iphoneos-arm64e
-Section: System
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Author: LF
-Maintainer: LF, AD
-SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-Icon: https://huayuarc.github.io/icon/a1.jpg
-Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
-Filename: debs/a1_1.9.8-beta3-1_iphoneos-arm64e.deb
-Size: 56860
-MD5sum: 6da26e5ab28bbe44cecfabf497ff53ce
-SHA1: 
-SHA256: c9aa78aaf1c2b0db69f01512cac363f59d56ec0df06ba8c40f1574a629846650
-
-Package: a1
-Name: A1
 Version: 1.9.8-beta4+debug3-4
 Architecture: iphoneos-arm64
 Section: System
@@ -116,23 +65,6 @@ Size: 57396
 MD5sum: e031507ebb52d303157767cd4fb4e4a8
 SHA1: 
 SHA256: c5313ceed33c9c1ba5cdcb55acfb9e2e1a53fc4b2e0e6411f2d0823c3bb6f381
-
-Package: a1
-Name: A1
-Version: 1.9.8-beta4+debug3-4
-Architecture: iphoneos-arm64e
-Section: System
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Author: LF
-Maintainer: LF, AD
-SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-Icon: https://huayuarc.github.io/icon/a1.jpg
-Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
-Filename: debs/a1_1.9.8-beta4+debug3-4_iphoneos-arm64e.deb
-Size: 57116
-MD5sum: 0c397f78c94bbfd0cc3dd7bc6bc6b05a
-SHA1: 
-SHA256: 1b81019989a74f3cd6669c1210452bad9454236ec49276dc5a6fdbc7f02259ca
 
 Package: ai-config-gui
 Name: AI-Config-GUI
