@@ -3802,6 +3802,56 @@ MD5sum: c60f55fd4dfc2909c7df68fc05a7da0b
 SHA1: 
 SHA256: 780023e2d770a3952d0b423d0d73e06dc1a516c4df5c85968a4934a0f6580d4b
 
+Author: ichitaso
+Maintainer: Havoc
+Name: IconOrder
+Package: com.ichitaso.iconorder
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 12.0)
+Depends: mobilesubstrate
+Provides: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Conflicts: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Section: Tweaks
+Description: Preserve custom icon layouts by Springboard Crash or reboots etc  Springboard 崩溃或重启等情况下保留自定义图标布局
+Depiction: https://cydia.ichitaso.com/depiction/iconorder.html
+SileoDepiction: https://cydia.ichitaso.com/depiction/iconorder.json
+Homepage: https://ichitaso.com/
+dev: ichitaso
+Tag: purpose::extension, compatible_min::ios12.0, compatible_max::ios18.2
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Installed-Size: 168
+Filename: debs/com.ichitaso.iconorder-1.0.4-roothide.deb
+Size: 8616
+MD5sum: 6eb0820f5ea99df466b42fb686b071d2
+SHA1: 
+SHA256: 9a6f55622891e60c1873e2c37fef68b36c4c798f7f8115ecee9f10fe5732f7bb
+
+Author: ichitaso
+Maintainer: Havoc
+Name: IconOrder
+Package: com.ichitaso.iconorder
+Pre-Depends: firmware (>= 12.0)
+Depends: mobilesubstrate
+Provides: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Conflicts: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
+Section: Tweaks
+Description: Preserve custom icon layouts by Springboard Crash or reboots etc 在 Springboard 崩溃或重启等情况下保留自定义图标布局
+Depiction: https://cydia.ichitaso.com/depiction/iconorder.html
+SileoDepiction: https://cydia.ichitaso.com/depiction/iconorder.json
+Homepage: https://ichitaso.com/
+dev: ichitaso
+Tag: purpose::extension, compatible_min::ios12.0, compatible_max::ios18.2
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Installed-Size: 168
+Filename: debs/com.ichitaso.iconorder-1.0.4-rootless.deb
+Size: 8328
+MD5sum: b0e9c3cde1af557267381b93b8867b69
+SHA1: 
+SHA256: 5245dbc61a1dc11dc552b3ff0b5381d1f17d1082756157da87b2f83482c19a3d
+
 Package: com.imkpatil.nooldernotificationstext
 Name: NoOlderNotificationsText
 Depends: mobilesubstrate
@@ -6099,6 +6149,47 @@ MD5sum: fcc56d9b3eb582d081071f8f47c7d121
 SHA1: 
 SHA256: 012e66c46c5be78fba6b8cea15eab5999444f96542120cf1eaf0244b48083cd8
 
+Package: com.nightwind.boldersreborn
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: Nightwind <nightwinddev@gmail.com>
+Author: Nightwind <nightwinddev@gmail.com>
+Installed-Size: 5808
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.ichitaso.iconorder
+Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, gsc.ipad, com.lizynz.folderx.rootless, com.lizynz.folderx
+Name: Bolders Reborn
+Description: Bigger and bolder folders, remade! 可自定义每个文件夹里有多少行，每行的图标数等。配合ClassicFolders3使用。
+Icon: https://img.chariz.cloud/icon/boldersreborn/icon@3x.png
+Depiction: https://chariz.com/get/boldersreborn
+Tag: compatible_min::ios14.0
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.nightwind.boldersreborn-1.1.2-roothide.deb
+Size: 4864952
+MD5sum: 59ed81be4b1ca87535ed7d56011ac333
+SHA1: 
+SHA256: 18bb6577a455f682f67790b64f079d6dd440868c8fa7c02676032b879b042cdc
+
+Package: com.nightwind.boldersreborn
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Section: Tweaks
+Maintainer: Nightwind <nightwinddev@gmail.com>
+Author: Nightwind <nightwinddev@gmail.com>
+Installed-Size: 5808
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.ichitaso.iconorder
+Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, gsc.ipad, com.lizynz.folderx.rootless, com.lizynz.folderx
+Name: Bolders Reborn
+Description: Bigger and bolder folders, remade! 可自定义每个文件夹里有多少行，每行的图标数等。配合ClassicFolders3使用。
+Icon: https://img.chariz.cloud/icon/boldersreborn/icon@3x.png
+Depiction: https://chariz.com/get/boldersreborn
+Tag: compatible_min::ios14.0
+Filename: debs/com.nightwind.boldersreborn-1.1.2-rootless.deb
+Size: 4864968
+MD5sum: 5aa3cd1a4d59bc92bcfa067473a52b7e
+SHA1: 
+SHA256: 8575628732f6138df0baa82c89c3e67fe3f4d325f3e88636468b86a6e1b5bd86
+
 Package: com.p2kdev.arkita
 Name: Arkita
 Depends: mobilesubstrate, firmware (>= 13)
@@ -8190,25 +8281,6 @@ Size: 8664
 MD5sum: 3f160152f19dd44e145e45acdb2a3102
 SHA1: 
 SHA256: 3b3a1e72da850a9ad6eece1daf1ca690a06314baf35e59431f5a68f32e9647f2
-
-Author: ichitaso
-Maintainer: ichitaso
-Name: IconOrder
-icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/iconorder/js.json
-Package: com.sini.iconorder
-Pre-Depends: firmware (>= 12.0)
-Depends: mobilesubstrate
-Section: Tweaks
-Description: 在 Springboard 崩溃或重启等情况下保留自定义图标布局
-Architecture: iphoneos-arm64
-Version: 1.0.3
-Installed-Size: 168
-Filename: debs/com.sini.iconorder_1.0.3_iphoneos-arm64.deb
-Size: 8752
-MD5sum: d0344bd5327a2fb4cf3d5242ff42d2f2
-SHA1: 
-SHA256: 2f2d07db7f59615591e480a5ad3106c903052534ee3a7d5a4cff960f465516aa
 
 Author: Jonathan Winger
 Architecture: iphoneos-arm64
