@@ -11901,6 +11901,23 @@ MD5sum: e49687dcea3a4940f085a42541b83998
 SHA1: 
 SHA256: 61bd3e6f5398da4c486fd8555f5fbb1b7e513ed312159db08244b5814f5135f8
 
+Package: com.xyzl.customnotisoundcn
+Name: 自定义通知声音
+Description: 自定义App、App内联系人通知声音、振动模式。
+Maintainer: xyzl
+Author: xyzl
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 1.7-3-1-47+debug
+Installed-Size: 1384
+Icon: https://huayuarc.github.io/icon/customnotisoundcn.png
+Filename: debs/com.xyzl.customnotisoundcn_1.7-3-1-47+debug_iphoneos-arm64e.deb
+Size: 332150
+MD5sum: cb97ac50e2d90b13e20df68ec5536cde
+SHA1: 
+SHA256: 3872e2200a08bbb417e33234a9b21c4222dddd9225970f6ee69c1d360f470c9a
+
 Package: com.ylr.wchook
 Name: 悬浮按钮分屏
 Description: 悬浮按钮分屏
