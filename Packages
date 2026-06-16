@@ -3378,6 +3378,38 @@ MD5sum: 4c141d67ee0f5b7b6a41da7fdd6243e7
 SHA1: 
 SHA256: 26745dd799b7b0347878b3599dcf7529244a40df474bf2a49eaa873d8aa25527
 
+Package: com.huayuarc.acesecuritybypass
+Architecture: iphoneos-arm64e
+Name: 屏蔽王者荣耀ACE安全检测
+Version: 0.0.1-roothide
+Description: 屏蔽王者荣耀ACE安全检测
+Author: Huayuarc
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Maintainer: Huayuarc
+Icon: https://huayuarc.github.io/icon/wzry.jpg
+Filename: debs/com.huayuarc.acesecuritybypass-0.0.1-roothide-roothide.deb
+Size: 5640
+MD5sum: 2fe9a987b17c2c6e07d787dfcd05c88f
+SHA1: 
+SHA256: a0cf1e6229d4bbfc025332a84805786a36896845f942555656cc7bdae5c225aa
+
+Package: com.huayuarc.acesecuritybypass
+Architecture: iphoneos-arm64
+Name: 屏蔽王者荣耀ACE安全检测
+Version: 0.0.1-rootless
+Description: 屏蔽王者荣耀ACE安全检测
+Author: Huayuarc
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Maintainer: Huayuarc
+Icon: https://huayuarc.github.io/icon/wzry.jpg
+Filename: debs/com.huayuarc.acesecuritybypass-0.0.1-rootless-rootless.deb
+Size: 5708
+MD5sum: b4b9dd0b42568db29873c08b4fbb0f0b
+SHA1: 
+SHA256: a48a42344ab9977897dc8ef3a34b90a6e1f7ee50ad751d974d2d7dff7464062e
+
 Package: com.huayuarc.cputhermal
 Name: CPUthermal
 Author: Huayuarc
