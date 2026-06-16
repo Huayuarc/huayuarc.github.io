@@ -468,7 +468,7 @@ SHA1:
 SHA256: 3787bb9ca2989ac6ff5a41169afe32d6235af8feff5887f8e5d2b6ec75302cbf
 
 Package: cn.llld.fixdh
-Name: phonefix-rootless
+Name: phonefix
 Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度3050-3350）
 Maintainer: 来了老弟
 Author: 来了老弟 h_h_x_t
@@ -480,13 +480,13 @@ Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
 Filename: debs/cn.llld.fixdh-0.0.2-roothide.deb
-Size: 4176
-MD5sum: a55950864adad9908a2b297e4e1ffba6
+Size: 4168
+MD5sum: 0a047776dadc26d564f71074c2b2b89a
 SHA1: 
-SHA256: 1f29aa13b8d351b2ac9fac5e7df9c49bf316ae326ecd4f7d65e3f5ed8c06ec8c
+SHA256: ee01db7237fb2b3dc9ce54c3588d196febfbb09c2c35f0b588a94eaf23babcac
 
 Package: cn.llld.fixdh
-Name: phonefix-rootless
+Name: phonefix
 Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度3050-3350）
 Maintainer: 来了老弟
 Author: 来了老弟 h_h_x_t
@@ -498,12 +498,12 @@ Installed-Size: 168
 Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
 Filename: debs/cn.llld.fixdh-0.0.2-rootless.deb
 Size: 4280
-MD5sum: d862a53dd7cd116f3252a7bb45b6ff96
+MD5sum: ea8b324ccfb93427bacc048c065fcff4
 SHA1: 
-SHA256: 91fc0e1a4effd61f5f2343f9cb8f179ae3a0b860ef08fb9b6cf2fccaf199b696
+SHA256: ddcd2858958fba4f0e52d858d16d6bf58dff3233441f7913be0dc2b1d848fdf5
 
 Package: cn.llld.fixdh1
-Name: phonefix-rootless
+Name: phonefix
 Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度2850-3150）
 Maintainer: 来了老弟
 Author: 来了老弟 h_h_x_t
@@ -516,12 +516,12 @@ Pre-Depends: rootless-compat(>= 0.9)
 Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
 Filename: debs/cn.llld.fixdh1-0.0.2-roothide.deb
 Size: 4176
-MD5sum: b2c5c727fa9b1fe5437b4111a4b87b1d
+MD5sum: df1643d104648da27c8d6343bd8e2582
 SHA1: 
-SHA256: 7098c75577852ba690691f2d5d2da2983c64efee767dad6d8ed37591c01c1870
+SHA256: b832631b3e3576d6173a913665fb5e00782135e25d72afff07fd1f40717beddd
 
 Package: cn.llld.fixdh1
-Name: phonefix-rootless
+Name: phonefix
 Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度2850-3150）
 Maintainer: 来了老弟
 Author: 来了老弟 h_h_x_t
@@ -532,10 +532,10 @@ Version: 0.0.2
 Installed-Size: 168
 Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
 Filename: debs/cn.llld.fixdh1-0.0.2-rootless.deb
-Size: 4280
-MD5sum: f3959514d5735db1f6ab39ef085961cf
+Size: 4276
+MD5sum: af8a3eb2b69ee64ec81f8f30cfc93f40
 SHA1: 
-SHA256: 9f5d91879c990ce235f46d822a1931a629ee1a9d95b46a352dcf4b8d5935a248
+SHA256: 1a6d8a9fdb51bb922dd23ce24c79c607644cb8e59c61e7a43280eecfcdfe94d3
 
 Package: cn.llld.ftt
 Version: 0.1
