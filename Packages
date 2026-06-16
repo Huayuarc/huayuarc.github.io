@@ -4235,15 +4235,16 @@ Description: Control your text or translate as you wish.
 Maintainer: lclrc(SquidForce)
 Author: lclrc(SquidForce)
 Section: Tweaks
-Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
-Architecture: iphoneos-arm64
+Icon: https://huayuarc.github.io/icon/HammerIt.png
+Architecture: iphoneos-arm64e
 Version: 1.7.1
 Installed-Size: 3808
-Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64.deb
-Size: 977970
-MD5sum: d70699b93e4c1d86aa21a963427ca3cd
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.lclrc.hammerit-1.7.1-roothide.deb
+Size: 962368
+MD5sum: 616d9cbdcb537a777506d50d22609aed
 SHA1: 
-SHA256: 541973ff6c9099deae095555627ee2d6c04d405e39ffff5e75a9751d22636cc2
+SHA256: 7158eda33a390217f9fda49c8dad062f8eebaf5f5f402059f20447ff10f32cc8
 
 Package: com.lclrc.hammerit
 Name: Hammer It
@@ -4252,16 +4253,15 @@ Description: Control your text or translate as you wish.
 Maintainer: lclrc(SquidForce)
 Author: lclrc(SquidForce)
 Section: Tweaks
-Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
-Architecture: iphoneos-arm64e
+Icon: https://huayuarc.github.io/icon/HammerIt.png
+Architecture: iphoneos-arm64
 Version: 1.7.1
 Installed-Size: 3808
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e.deb
-Size: 1561646
-MD5sum: 295fa075060e17652cc0aa699191f54b
+Filename: debs/com.lclrc.hammerit-1.7.1-rootless.deb
+Size: 978324
+MD5sum: 6397282156615bacc2d65f923a86c3db
 SHA1: 
-SHA256: 0cef2e1d049c42df5bddf51086fd0806fba2d5056a53a4657c391f36555b4335
+SHA256: 85bb64ba81266567442e8a7209153debb2e6ad073d6bd209afedac2081d2f897
 
 Package: com.lenglengyu.ghallownetwork
 Name: Allow Network
