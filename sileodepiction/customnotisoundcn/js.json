@@ -1,0 +1,80 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://huayuarc.github.io/icon/customnotisoundcn.png",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "插件介绍",
+            "views": [
+                {
+                    "text": "点此加入我们的交流反馈群",
+                    "action": "https://qun.qq.com/universal-share/share?ac=1&authKey=BoNtUs2S2bIll%2B8E6TUXCqKs60REpK%2Bf2iPie68OyMKrldWdz9JJbNhFDKz8IJ4%2B&busi_data=eyJncm91cENvZGUiOiI3MzEzNDIyNTYiLCJ0b2tlbiI6ImxjQ2ZOZ2w3MWNDOVNBWkxwaElKMGlXK0VRV3RqamNDZUdzNUd6S09WQzVOVGpMSXZ5SmYvVTB5Z1oxY2RWNkciLCJ1aW4iOiI3Mzg5ODU4MTcifQ%3D%3D&data=PSgxJkfhkAzwuuXyWlG5R6eL2JI2g3nL0oDSgILqX2_CNGXaNMSjkI0ZPgI9cRLvwOGimcUgfWnX_QUAUvP4xw&svctype=4&tempid=h5_group_info",
+                    "openExternal": 1,
+                    "class":  "DepictionHeaderView",
+                    "title": "自定义通知声音",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "markdown": "## 描述\n自定义App、App内联系人通知声音、振动模式。",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "xyzl",
+                    "title": "作者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.7-3-1-47+debug",
+                    "title": "版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "iphoneos-arm64e",
+                    "title": "架构"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Tweaks",
+                    "title": "类型"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 14.0)",
+                    "title": "依赖"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "markdown": "#### 版本: 1.7-3-1-47+debug\n- 初始版本",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                }
+            ]
+        }
+    ]
+}
