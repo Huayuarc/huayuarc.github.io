@@ -467,6 +467,76 @@ MD5sum: 3da07e2d4165a9370127d17c158bc0e8
 SHA1: 
 SHA256: 3787bb9ca2989ac6ff5a41169afe32d6235af8feff5887f8e5d2b6ec75302cbf
 
+Package: cn.llld.fixdh
+Name: phonefix-rootless
+Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度3050-3350）
+Maintainer: 来了老弟
+Author: 来了老弟 h_h_x_t
+Section: rootless插件
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+Filename: debs/cn.llld.fixdh-0.0.2-roothide.deb
+Size: 4176
+MD5sum: a55950864adad9908a2b297e4e1ffba6
+SHA1: 
+SHA256: 1f29aa13b8d351b2ac9fac5e7df9c49bf316ae326ecd4f7d65e3f5ed8c06ec8c
+
+Package: cn.llld.fixdh
+Name: phonefix-rootless
+Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度3050-3350）
+Maintainer: 来了老弟
+Author: 来了老弟 h_h_x_t
+Section: rootless插件
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Installed-Size: 168
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+Filename: debs/cn.llld.fixdh-0.0.2-rootless.deb
+Size: 4280
+MD5sum: d862a53dd7cd116f3252a7bb45b6ff96
+SHA1: 
+SHA256: 91fc0e1a4effd61f5f2343f9cb8f179ae3a0b860ef08fb9b6cf2fccaf199b696
+
+Package: cn.llld.fixdh1
+Name: phonefix-rootless
+Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度2850-3150）
+Maintainer: 来了老弟
+Author: 来了老弟 h_h_x_t
+Section: rootless插件
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+Filename: debs/cn.llld.fixdh1-0.0.2-roothide.deb
+Size: 4176
+MD5sum: b2c5c727fa9b1fe5437b4111a4b87b1d
+SHA1: 
+SHA256: 7098c75577852ba690691f2d5d2da2983c64efee767dad6d8ed37591c01c1870
+
+Package: cn.llld.fixdh1
+Name: phonefix-rootless
+Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度2850-3150）
+Maintainer: 来了老弟
+Author: 来了老弟 h_h_x_t
+Section: rootless插件
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Installed-Size: 168
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+Filename: debs/cn.llld.fixdh1-0.0.2-rootless.deb
+Size: 4280
+MD5sum: f3959514d5735db1f6ab39ef085961cf
+SHA1: 
+SHA256: 9f5d91879c990ce235f46d822a1931a629ee1a9d95b46a352dcf4b8d5935a248
+
 Package: cn.llld.ftt
 Version: 0.1
 Section: Tweaks
@@ -4507,6 +4577,43 @@ Size: 2082772
 MD5sum: 05d0680bd6594525043f26ee2f3657f1
 SHA1: 
 SHA256: 69c0ce003aa4e0985b2c34458be52f41373e923778661aa44e3fc5d024cac588
+
+Package: com.mallin.phoneresolutionfix
+Name: iPhone 14Pro Resolution Fix
+Version: 1.1
+Architecture: iphoneos-arm64e
+Description: 修复iPhone 14Pro机型将显示分辨率由2556x1179改成2796x1290后导致电话APP的相关显示错位问题。直接安装后Respring即可生效！修改显示分辨率方法（仅供参考）：进入var/Managed Preferences/mobile文件夹找到com.apple.iokit.IOMobileGraphicsFamily.plist这个文件，打开修改，保存，然后“重启空间”或者“重启手机”即可。
+Maintainer: Mallin <mallin@example.local>
+Author: Mallin
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Tag: role::enduser
+Homepage: https://local.mallin/phone-resolution-fix
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+Filename: debs/com.mallin.phoneresolutionfix-1.1-roothide.deb
+Size: 27500
+MD5sum: a6d04119a008e320837fa2caef163342
+SHA1: 
+SHA256: ec9b269d67760e479425e192994f9f2fa2245ea186b3a0b5f1330665f3f1084c
+
+Package: com.mallin.phoneresolutionfix
+Name: iPhone 14Pro Resolution Fix
+Version: 1.1
+Architecture: iphoneos-arm64
+Description: 修复iPhone 14Pro机型将显示分辨率由2556x1179改成2796x1290后导致电话APP的相关显示错位问题。直接安装后Respring即可生效！修改显示分辨率方法（仅供参考）：进入var/Managed Preferences/mobile文件夹找到com.apple.iokit.IOMobileGraphicsFamily.plist这个文件，打开修改，保存，然后“重启空间”或者“重启手机”即可。
+Maintainer: Mallin <mallin@example.local>
+Author: Mallin
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Tag: role::enduser
+Homepage: https://local.mallin/phone-resolution-fix
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+Filename: debs/com.mallin.phoneresolutionfix-1.1-rootless.deb
+Size: 27420
+MD5sum: ea942da895ff758e1723596eb1f1d296
+SHA1: 
+SHA256: 36f04a671050c6bed7e84bda2c760d0064da4fec21527ded387880400af1a6f4
 
 Package: com.miro.libmiroshared
 Name: libMiROShared
