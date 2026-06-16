@@ -2618,6 +2618,42 @@ MD5sum: c1bffcf3ec68484ce6735217131fd2b2
 SHA1: 
 SHA256: 81f61553026a8870135279ac9c659473b7cca43ab3c01104d528668dae981968
 
+Package: com.crctdd.surgectl
+Name: SurgeCTL
+Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
+Maintainer: RrrankkK
+Author: RrrankkK
+Section: Tweaks
+Depends: firmware (>= 14.0), com.opa334.ccsupport
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 720
+Icon: https://huayuarc.github.io/icon/surgectl.png
+Filename: debs/com.crctdd.surgectl_0.0.1_iphoneos-arm64.deb
+Size: 22156
+MD5sum: b2ec3f5450ff0d5741dbecdb996e160c
+SHA1: 
+SHA256: 5d07ce002733b03eeb0114a9ac922c0c645d7e5e25eb861bce64d7a14c4640e0
+
+Package: com.crctdd.surgectl
+Name: SurgeCTL
+Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
+Maintainer: RrrankkK
+Author: RrrankkK
+Section: Tweaks
+Depends: firmware (>= 14.0), com.opa334.ccsupport
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 720
+Icon: https://huayuarc.github.io/icon/surgectl.png
+Filename: debs/com.crctdd.surgectl_0.0.1_iphoneos-arm64e.deb
+Size: 20744
+MD5sum: 33cb4129b9ed2504000ce10eb237bbe5
+SHA1: 
+SHA256: 33590030a353510a54bba4eb406ea52cac55a73a327d56fe821435d8290f7172
+
 Author: CreatureSurvive <support@creaturecoding.com>
 Architecture: iphoneos-arm64
 Maintainer: CreatureSurvive <support@creaturecoding.com>
@@ -8800,6 +8836,26 @@ Size: 163172
 MD5sum: 341a9ff783b7afe9a3369ee9d3fe435b
 SHA1: 
 SHA256: fcaccbb4f3b12f56bf3dedc1c2c55f7d4dbaeca5e5fe10482f68c690b4223cb4
+
+Package: com.sini.sleeperx
+Version: 3.0.5
+Section: Tweaks
+icon: https://sini921.github.io/repo/sileodepiction/icon/sleeperx.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/sleeperx/js.json
+Maintainer: Sini921
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=15.0), firmware (<<17.0)
+Architecture: iphoneos-arm64e
+Installed-Size: 1836
+Name: SleeperX
+Author: Joshua Seltzer
+Sponsor: Sini921
+Description: 闹钟增强
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.sleeperx_3.0.5_iphoneos-arm64e.deb
+Size: 272924
+MD5sum: d51e1e40026066a32243a4e97fc2c8f2
+SHA1: 
+SHA256: 84e10a6bae7ca95395817c697e87bce361ff249f11f1ac6546fbcd8a89b5a93a
 
 Package: com.sini.smallbanners
 Name: SmallBanners
