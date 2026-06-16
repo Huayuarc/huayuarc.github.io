@@ -4235,33 +4235,15 @@ Description: Control your text or translate as you wish.
 Maintainer: lclrc(SquidForce)
 Author: lclrc(SquidForce)
 Section: Tweaks
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Architecture: iphoneos-arm64
-Version: 1.7.0-END
+Version: 1.7.1
 Installed-Size: 3808
-Icon: https://huayuarc.github.io/icon/HammerIt.png
-Filename: debs/com.lclrc.hammerit_1.7.0-END_iphoneos-arm64.deb
-Size: 981400
-MD5sum: 7ef1088f84a06463fcb654482360b970
+Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64.deb
+Size: 977970
+MD5sum: d70699b93e4c1d86aa21a963427ca3cd
 SHA1: 
-SHA256: 92da7b769803030de2c96cd6de4ce3bff6c180ab5a60a0473e65e55c16c51057
-
-Package: com.lclrc.hammerit
-Name: Hammer It
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
-Description: Control your text or translate as you wish.
-Maintainer: lclrc(SquidForce)
-Author: lclrc(SquidForce)
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.7.0-END
-Installed-Size: 3808
-Pre-Depends: rootless-compat(>= 0.9)
-Icon: https://huayuarc.github.io/icon/HammerIt.png
-Filename: debs/com.lclrc.hammerit_1.7.0-END_iphoneos-arm64e.deb
-Size: 965736
-MD5sum: 59f7fa9101d57f2fa3f24a1d275b3e53
-SHA1: 
-SHA256: 321516b577a9bea3e7997109b080a7ee18bd678a248a0aefa6b34ddabca36458
+SHA256: 541973ff6c9099deae095555627ee2d6c04d405e39ffff5e75a9751d22636cc2
 
 Package: com.lclrc.hammerit
 Name: Hammer It
@@ -4271,14 +4253,15 @@ Maintainer: lclrc(SquidForce)
 Author: lclrc(SquidForce)
 Section: Tweaks
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Version: 1.7.1
 Installed-Size: 3808
-Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64.deb
-Size: 978516
-MD5sum: 5a1221bfc43623bd061f4e60c55717a6
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e.deb
+Size: 1561646
+MD5sum: 295fa075060e17652cc0aa699191f54b
 SHA1: 
-SHA256: 58eac4c05f3d4e59408d67c9bee8620d663a3cea1d89216b598ef3e93733f852
+SHA256: 0cef2e1d049c42df5bddf51086fd0806fba2d5056a53a4657c391f36555b4335
 
 Package: com.lenglengyu.ghallownetwork
 Name: Allow Network
