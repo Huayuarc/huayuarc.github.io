@@ -567,6 +567,41 @@ MD5sum: 8bbdf9543c288b024ce00a6cf653d896
 SHA1: 
 SHA256: 1363e6a77bf98cea11802e096835179d6d8f3071bbf2001fc686322e9e1cc811
 
+Package: cn.llld.smartnotifications2
+Maintainer: 来了老弟 X：h_h_x_t
+Name: SmartNotifications 2
+Author: Elias Sfeir
+Architecture: iphoneos-arm64
+Version: 1.7.1
+Depends: mobilesubstrate, com.spark.libsparkapplist, com.cokepokes.libnotifications, cn.llld.hhxt
+Conflicts: com.eliassfeir.SmartNotifications
+Section: Tweaks
+Description: The ultimate tweak to customize your notifications such as adding custom ringtones for apps, enable time frame, snooze notifications, block contacts and much more。（Don't turn on the custom volume level）自定义通知的终极调整，为应用程序添加自定义通知铃声、启用时间框架、暂停某个时间段的通知、阻止联系人，通知闪光灯等。待处理问题：(自定义音量级别不要开，会引发注销，需要等我打个补丁)
+Icon: https://huayuarc.github.io/icon/SmartNotifications.png
+Filename: debs/cn.llld.smartnotifications2_1.7.1_iphoneos-arm64.deb
+Size: 2473732
+MD5sum: 578e2b100f24950d2a8a841c0e68b5bf
+SHA1: 
+SHA256: fca713c03bc5f50fa4769a18ca77fac4d3812d11c6d18f7b626a58b6e3a50e8a
+
+Package: cn.llld.smartnotifications2
+Maintainer: 来了老弟 X：h_h_x_t
+Name: SmartNotifications 2
+Author: Elias Sfeir
+Architecture: iphoneos-arm64e
+Version: 1.7.1
+Depends: mobilesubstrate, com.spark.libsparkapplist, com.cokepokes.libnotifications, cn.llld.hhxt
+Conflicts: com.eliassfeir.SmartNotifications
+Section: Tweaks
+Description: The ultimate tweak to customize your notifications such as adding custom ringtones for apps, enable time frame, snooze notifications, block contacts and much more。（Don't turn on the custom volume level）自定义通知的终极调整，为应用程序添加自定义通知铃声、启用时间框架、暂停某个时间段的通知、阻止联系人，通知闪光灯等。待处理问题：(自定义音量级别不要开，会引发注销，需要等我打个补丁)
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/SmartNotifications.png
+Filename: debs/cn.llld.smartnotifications2_1.7.1_iphoneos-arm64e.deb
+Size: 2473924
+MD5sum: de19b7054ffbffedf93c8e7a05ce9cf7
+SHA1: 
+SHA256: 93da0a06dd8ad8f83263b52d35968b7a327af04e035059f847e3384692d5e5c4
+
 Package: cn.llld.snapshottool
 Name: STTool
 Author: 来了老弟
@@ -4514,6 +4549,41 @@ Size: 865222
 MD5sum: 7ce097390d58b31728eb9634ab3c6746
 SHA1: 
 SHA256: 46bd2a37a7e5d10288614f95f1a8ce999cd48ee68c90ec1ecd763f06a63d5577
+
+Package: com.mumu.wcgg
+Name: WCGG
+Description: WeChat custom badge plugin
+Maintainer: mumu
+Author: mumu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.1.5
+Installed-Size: 828
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.mumu.wcgg-0.1.5-roothide.deb
+Size: 217080
+MD5sum: 8f92d03f40c6a656fd838c14100463a1
+SHA1: 
+SHA256: c00beca4e8e375734e04f86d295876f0268e20b0588198202497458a5164ca36
+
+Package: com.mumu.wcgg
+Name: WCGG
+Description: WeChat custom badge plugin
+Maintainer: mumu
+Author: mumu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.1.5
+Installed-Size: 828
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.mumu.wcgg-0.1.5-rootless.deb
+Size: 221024
+MD5sum: 7e682acf0829777cd492e06f59a02970
+SHA1: 
+SHA256: e7bb5f66b0b0256a8dae20d0c64ecf1e64860f4a192fd3b2b7192c0543a89690
 
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
