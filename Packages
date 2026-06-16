@@ -11845,24 +11845,7 @@ SHA1:
 SHA256: 98a1c112cd3741537af8bfaeb7b04476930887afea0ad709b14a08098bf4cdcb
 
 Package: com.tune.h3kbhook
-Name: H3kbHook
-Description: stable h3kb pro unlock package for app and keyboard extension
-Maintainer: Tune
-Author: Tune
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 1.1.0
-Icon: https://huayuarc.github.io/icon/yuanshu.jpg
-Installed-Size: 172
-Filename: debs/com.tune.h3kbhook_1.1.0_iphoneos-arm64.deb
-Size: 7108
-MD5sum: fbd1413fea194a1762a032deebe9a826
-SHA1: 
-SHA256: 67a32c0d2c1500be5cb5433c1d784522826eb718f442a46539b486db44dbf5c1
-
-Package: com.tune.h3kbhook
-Name: H3kbHook
+Name: 元书输入法 Hooks
 Description: stable h3kb pro unlock package for app and keyboard extension
 Maintainer: Tune
 Author: Tune
@@ -11872,11 +11855,28 @@ Architecture: iphoneos-arm64e
 Version: 1.1.0
 Icon: https://huayuarc.github.io/icon/yuanshu.jpg
 Installed-Size: 172
-Filename: debs/com.tune.h3kbhook_1.1.0_iphoneos-arm64e.deb
-Size: 7040
-MD5sum: b320e75dd67f1cec6d7e2e15f9ba91e8
+Filename: debs/com.tune.h3kbhook-1.1.0-roothide.deb
+Size: 7060
+MD5sum: 73ae258e0544ef4dea9672c3049280d4
 SHA1: 
-SHA256: 3b442d5e2fe72c4a41982567883bdc2e5cef2d185d05cd7c20975c69fdf5a2c1
+SHA256: 8d49da04d9960cab79e778e58ca9dd3cfdc898ea31bec168ef65c130aa3dc300
+
+Package: com.tune.h3kbhook
+Name: 元书输入法 Hooks
+Description: stable h3kb pro unlock package for app and keyboard extension
+Maintainer: Tune
+Author: Tune
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Icon: https://huayuarc.github.io/icon/yuanshu.jpg
+Installed-Size: 172
+Filename: debs/com.tune.h3kbhook-1.1.0-rootless.deb
+Size: 7128
+MD5sum: 176bf333584efe316e1ba29f84463f6c
+SHA1: 
+SHA256: 6127fe643b2366e9c803c11d0a1817170e5527b43182387fbb482e380672a23f
 
 Package: com.tune.notificationfilter
 Name: Notification Filter
