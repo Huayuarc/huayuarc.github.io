@@ -471,33 +471,33 @@ Package: cn.llld.avphotos
 Version: 1.0.1
 Section: Tweaks
 Maintainer: 来了老弟
-Description: Playing photos and videos in the album can produce picture-in-picture effects!在相册中播放照片视频可以画中画效果！_________仅测试，有问题请卸载
-Depends: firmware (>=14.0), mobilesubstrate
-Architecture: iphoneos-arm64
-Name: AVPhotos照片视频画中画-rootless
-Author: MiRO 来了老弟
-Icon: https://huayuarc.github.io/icon/avphotos.jpg
-Filename: debs/cn.llld.avphotos_1.0.1_iphoneos-arm64.deb
-Size: 7228
-MD5sum: 1ec862ed9587c5c9d566e4de9ffe2553
-SHA1: 
-SHA256: a1e1e05ff89ea4e1db5c5488952c40d8748e2772a34742ee451c0a084c5c068c
-
-Package: cn.llld.avphotos
-Version: 1.0.1
-Section: Tweaks
-Maintainer: 来了老弟
 Description: Playing photos and videos in the album can produce picture-in-picture effects!在相册中播放照片视频可以画中画效果！_________仅测试用,有问题卸载---roothide
 Depends: firmware (>=14.0), mobilesubstrate
 Architecture: iphoneos-arm64e
 Name: AVPhotos照片视频画中画
 Author: MiRO 来了老弟
 Icon: https://huayuarc.github.io/icon/avphotos.jpg
-Filename: debs/cn.llld.avphotos_1.0.1_iphoneos-arm64e.deb
-Size: 5532
-MD5sum: 533f936cc5b401786430553799594c0c
+Filename: debs/cn.llld.avphotos-1.0.1-roothide.deb
+Size: 5524
+MD5sum: 42a9e3ade69f4b18c5cf8d6b914e1569
 SHA1: 
-SHA256: ed14a7aec158343528aaa3cffebab0e79d83944b66c6bf661d30b0dba6795169
+SHA256: afade1e4398da3781445f59d0dac30c26b38377e445e2b38fbe74a20f9250efa
+
+Package: cn.llld.avphotos
+Version: 1.0.1
+Section: Tweaks
+Maintainer: 来了老弟
+Description: Playing photos and videos in the album can produce picture-in-picture effects!在相册中播放照片视频可以画中画效果！_________仅测试，有问题请卸载
+Depends: firmware (>=14.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Name: AVPhotos照片视频画中画
+Author: MiRO 来了老弟
+Icon: https://huayuarc.github.io/icon/avphotos.jpg
+Filename: debs/cn.llld.avphotos-1.0.1-rootless.deb
+Size: 7216
+MD5sum: 2e5efbf3c104148e07ee55bb2a26255a
+SHA1: 
+SHA256: 28f36bd11101505a7694b32b4a69a2775297eebcf29881e8c5146ee001d87bd5
 
 Package: cn.llld.fixdh
 Name: phonefix
