@@ -8508,6 +8508,25 @@ MD5sum: 19fa6c1508ca343260fa57d0424ca9c2
 SHA1: 
 SHA256: 34fec58bbbccfd67c960b05e2f741fe347a4b364cc69662d931d01ab661bf4ce
 
+Package: com.sini.jade
+Version: 1.0.5
+Section: Tweaks
+icon: https://sini921.github.io/repo/sileodepiction/icon/jade.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/jade/js.json
+Maintainer: Nightwind & thetimeloop
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Installed-Size: 1502
+Name: Jade
+Author: Nightwind & thetimeloop
+Description: 控制中心
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.jade_1.0.5_iphoneos-arm64e.deb
+Size: 426020
+MD5sum: cf40bffd45e104f42bce5301f931fe0e
+SHA1: 
+SHA256: 1409e2f65db3c036de1513714b0e12c0b437ed72a3f0b18f3e6eab1f4ea09fda
+
 Author: liuf
 Architecture: iphoneos-arm64
 Description: 修改系统键盘圆角，备份防丢失
@@ -14693,6 +14712,78 @@ Size: 13308216
 MD5sum: 3b8953fffcda8a661dc711b0a2971628
 SHA1: 
 SHA256: c8b53c96e66485b5b4aeb2908236fba01c3dfb0218a88b771b6d1e6f336425fc
+
+Package: xyz.cypwn.backgrounderaction15
+Maintainer: CyPwn
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.1.0-1
+Depends: mobilesubstrate, com.opa334.ccsupport
+Provides: jp.akusio.backgrounderaction15 (= 0.1.0)
+Replaces: jp.akusio.backgrounderaction15
+Conflicts:  jp.akusio.backgrounderaction15
+Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.
+Name: BackgrounderAction15 CCSupport
+Author: @akusio_RR
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/backgrounderaction.jpg
+Filename: debs/xyz.cypwn.backgrounderaction15-0.1.0-1-roothide.deb
+Size: 9440
+MD5sum: b8dc8b1172855492018aaf888f1d46f8
+SHA1: 
+SHA256: 80f7f1b83df553da6811a08d1d268d2a434c4e22afe35040f899f782860508fc
+
+Package: xyz.cypwn.backgrounderaction15
+Maintainer: CyPwn
+Icon: https://huayuarc.github.io/icon/backgrounderaction.jpg
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.1.0-1
+Depends: mobilesubstrate, com.opa334.ccsupport
+Provides: jp.akusio.backgrounderaction15 (= 0.1.0)
+Replaces: jp.akusio.backgrounderaction15
+Conflicts:  jp.akusio.backgrounderaction15
+Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.
+Name: BackgrounderAction15 CCSupport
+Author: @akusio_RR
+Filename: debs/xyz.cypwn.backgrounderaction15-0.1.0-1-rootless.deb
+Size: 9892
+MD5sum: 8f59a2bafd0033e1e341ce222956319a
+SHA1: 
+SHA256: 8bf1b27c3839d0911a6dfed220a317657bc451fa130e1eb3279fcbdf90441794
+
+Package: xyz.cypwn.backgrounderaction15autostate
+Maintainer: CyPwn
+Icon: https://huayuarc.github.io/icon/backgrounderaction.jpg
+Name: BackgrounderAction15AutoState
+Description: Save Action state for BackgrounderAction15 CC Toggle
+Author: 0xkuj
+Section: Tweaks
+Depends: xyz.cypwn.backgrounderaction15, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Filename: debs/xyz.cypwn.backgrounderaction15autostate-1.0.3-rootless.deb
+Size: 25696
+MD5sum: 3870dfdd546eee4ea5d36127755bdebc
+SHA1: 
+SHA256: a767ef13006c25617cb5c4a369c279cb4c34a12eba1e49914855afd321789396
+
+Package: xyz.cypwn.backgrounderaction15autostate
+Maintainer: CyPwn
+Name: BackgrounderAction15AutoState
+Description: Save Action state for BackgrounderAction15 CC Toggle
+Author: 0xkuj
+Section: Tweaks
+Depends: xyz.cypwn.backgrounderaction15, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Icon: https://huayuarc.github.io/icon/backgrounderaction.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.backgrounderaction15autostate_1.0.3_iphoneos-arm64e.deb
+Size: 33640
+MD5sum: 582be6eb5b893f0a4757825f2ac91f31
+SHA1: 
+SHA256: 6da8fc29207bf13481ec77293189bfdb420f1ea9b97092384aefdd0f738b5359
 
 Package: xyz.cypwn.designer
 Maintainer: CyPwn
