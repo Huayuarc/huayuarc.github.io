@@ -14677,6 +14677,41 @@ MD5sum: 3b8953fffcda8a661dc711b0a2971628
 SHA1: 
 SHA256: c8b53c96e66485b5b4aeb2908236fba01c3dfb0218a88b771b6d1e6f336425fc
 
+Package: xyz.cypwn.anouk
+Maintainer: CyPwn
+Section: Tweaks
+Installed-Size: 716
+Architecture: iphoneos-arm64
+Version: 1.2
+Depends: mobilesubstrate
+Description: Authentication for the hidden album.Anouk，给已隐藏加锁，保护隐私，完全免费。
+Name: Anouk
+Author: yan
+Icon: https://media.havoc.app/643d10b0f614b42e4259cf83
+Filename: debs/xyz.cypwn.anouk_1.2_iphoneos-arm64.deb
+Size: 370250
+MD5sum: f9f67a3493b3ba6ff4aa170f89cec401
+SHA1: 
+SHA256: 1268bca8d644ac05f90fbf224dabb7ff173aa4a6f4d3c5d79725a1885b8e5ebf
+
+Package: xyz.cypwn.anouk
+Maintainer: CyPwn
+Section: Tweaks
+Installed-Size: 716
+Architecture: iphoneos-arm64e
+Version: 1.2
+Depends: mobilesubstrate
+Description: Authentication for the hidden album.Anouk，给已隐藏加锁，保护隐私，完全免费。
+Name: Anouk
+Author: yan
+Icon: https://media.havoc.app/643d10b0f614b42e4259cf83
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.anouk_1.2_iphoneos-arm64e.deb
+Size: 369638
+MD5sum: 78864fa0e711fb54e88e35e574934198
+SHA1: 
+SHA256: 125d34e494eb2065e6348fe8fe640c462a8e7567ca0243229c4abe5d7e6046e5
+
 Package: xyz.cypwn.backgrounderaction15
 Maintainer: CyPwn
 Section: Tweaks
@@ -14748,6 +14783,41 @@ Size: 33640
 MD5sum: 582be6eb5b893f0a4757825f2ac91f31
 SHA1: 
 SHA256: 6da8fc29207bf13481ec77293189bfdb420f1ea9b97092384aefdd0f738b5359
+
+Package: xyz.cypwn.bigsurcenter
+Maintainer: CyPwn
+Icon: https://huayuarc.github.io/icon/SurCenter.png
+Name: BigSurCenter
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.2)
+Description: BigSurCenter replaces the default iOS control center with a new lightweight and elegant one inspired by the control center in MacOS Big Sur. Cracked by CBZ BigSurCenter用受MacOS Big Sur中控制中心启发的全新轻量级、优雅的控制中心取代了默认的iOS控制中心。
+Author: nicho1asdev
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.4.5k
+Installed-Size: 1820
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.bigsurcenter-1.4.5k-roothide.deb
+Size: 757228
+MD5sum: 99c570f1f1fb0973c4957331da053382
+SHA1: 
+SHA256: c1671058a387e7c92870c204dd19d0ed02a514f18a0279e2f1d55e7cb5568c81
+
+Package: xyz.cypwn.bigsurcenter
+Maintainer: CyPwn
+Icon: https://huayuarc.github.io/icon/SurCenter.png
+Name: BigSurCenter
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.2)
+Description: BigSurCenter replaces the default iOS control center with a new lightweight and elegant one inspired by the control center in MacOS Big Sur. Cracked by CBZ BigSurCenter用受MacOS Big Sur中控制中心启发的全新轻量级、优雅的控制中心取代了默认的iOS控制中心。
+Author: nicho1asdev
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.4.5k
+Installed-Size: 1820
+Filename: debs/xyz.cypwn.bigsurcenter-1.4.5k-rootless.deb
+Size: 753508
+MD5sum: 49ad30aa7a7f72f088c4908c0766cfec
+SHA1: 
+SHA256: 3f632f625a37cb0d723de6657f435ad5af2ac47af24aebfc1c1727262af6a868
 
 Package: xyz.cypwn.designer
 Maintainer: CyPwn
