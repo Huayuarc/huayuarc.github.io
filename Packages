@@ -14727,6 +14727,24 @@ MD5sum: 33d6ccc6dabafdaf692d643a83cc1e1c
 SHA1: 
 SHA256: ead6cc453897f14ad171889a5bac021f437c32e140810269f2813a704eaa4053
 
+Package: xyz.cypwn.minotaur
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/3197
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3197
+Icon: https://huayuarc.github.io/icon/Minotaur.png
+Name: Minotaur
+Version: 1.2.1k
+Section: Tweaks
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Author: Muirey03
+Description: Notifications in your Status Bar Minotaur 是一款状态栏快通知插件。只需点击状态栏的“铃铛”通知图标，就可以快速查看通知，分类归纳，支持快速删除，非常方便。
+Filename: debs/xyz.cypwn.minotaur_1.2.1k_iphoneos-arm64.deb
+Size: 198956
+MD5sum: 9797c379fde8f6757efd3c60c0e078e0
+SHA1: 
+SHA256: 8c4a75c369a4fc93cbb419aa30d6bc6ddcd0cf215df7917a00d65a1c793c9f31
+
 Package: xyz.cypwn.networkmanager
 Maintainer: CyPwn
 Depiction: https://repo.cypwn.xyz/depiction/2337
