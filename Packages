@@ -467,6 +467,38 @@ MD5sum: 3da07e2d4165a9370127d17c158bc0e8
 SHA1: 
 SHA256: 3787bb9ca2989ac6ff5a41169afe32d6235af8feff5887f8e5d2b6ec75302cbf
 
+Package: cn.llld.avphotos
+Version: 1.0.1
+Section: Tweaks
+Maintainer: 来了老弟
+Description: Playing photos and videos in the album can produce picture-in-picture effects!在相册中播放照片视频可以画中画效果！_________仅测试，有问题请卸载
+Depends: firmware (>=14.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Name: AVPhotos照片视频画中画-rootless
+Author: MiRO 来了老弟
+Icon: https://huayuarc.github.io/icon/avphotos.jpg
+Filename: debs/cn.llld.avphotos_1.0.1_iphoneos-arm64.deb
+Size: 7228
+MD5sum: 1ec862ed9587c5c9d566e4de9ffe2553
+SHA1: 
+SHA256: a1e1e05ff89ea4e1db5c5488952c40d8748e2772a34742ee451c0a084c5c068c
+
+Package: cn.llld.avphotos
+Version: 1.0.1
+Section: Tweaks
+Maintainer: 来了老弟
+Description: Playing photos and videos in the album can produce picture-in-picture effects!在相册中播放照片视频可以画中画效果！_________仅测试用,有问题卸载---roothide
+Depends: firmware (>=14.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Name: AVPhotos照片视频画中画
+Author: MiRO 来了老弟
+Icon: https://huayuarc.github.io/icon/avphotos.jpg
+Filename: debs/cn.llld.avphotos_1.0.1_iphoneos-arm64e.deb
+Size: 5532
+MD5sum: 533f936cc5b401786430553799594c0c
+SHA1: 
+SHA256: ed14a7aec158343528aaa3cffebab0e79d83944b66c6bf661d30b0dba6795169
+
 Package: cn.llld.fixdh
 Name: phonefix
 Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度3050-3350）
@@ -536,6 +568,40 @@ Size: 4276
 MD5sum: af8a3eb2b69ee64ec81f8f30cfc93f40
 SHA1: 
 SHA256: 1a6d8a9fdb51bb922dd23ce24c79c607644cb8e59c61e7a43280eecfcdfe94d3
+
+Package: cn.llld.flexcopy
+Name: Flex3Copy
+Description: Specifically customized for Flex3, long press to copy the description or popup content, combined with translation tools or software, making it convenient for you to understand languages you don't know.（专门为Flex3定制，长按描述或者弹窗复制内容，配合翻译工具或者软件，方便你去了解不懂的语言）
+Maintainer: 来了老弟
+Author: 来了老弟
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 168
+Icon: https://huayuarc.github.io/icon/flexcopy.jpg
+Filename: debs/cn.llld.flexcopy_1.0_iphoneos-arm64.deb
+Size: 4736
+MD5sum: 45251d616d953c1cf78266686b1465cc
+SHA1: 
+SHA256: c1d8babffbdd5af82bd3c14fb7f08494b3110042ecbe30e77b3445e09ccd722a
+
+Package: cn.llld.flexcopy
+Name: Flex3Copy
+Description: Specifically customized for Flex3, long press to copy the description or popup content, combined with translation tools or software, making it convenient for you to understand languages you don't know.（专门为Flex3定制，长按描述或者弹窗复制内容，配合翻译工具或者软件，方便你去了解不懂的语言）
+Maintainer: 来了老弟
+Author: 来了老弟
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 168
+Icon: https://huayuarc.github.io/icon/flexcopy.jpg
+Filename: debs/cn.llld.flexcopy_1.0_iphoneos-arm64e.deb
+Size: 4700
+MD5sum: f28b2d434c8eeb1ea03f9ea3b4f31625
+SHA1: 
+SHA256: c7e4f64dd075991f2bc309a4125e5920bfbe5f9aad62de0e46e3de0add1d1550
 
 Package: cn.llld.ftt
 Version: 0.1
@@ -7069,23 +7135,6 @@ Size: 5340
 MD5sum: 2fe4a9a134f7d2485310cd69e0d68d70
 SHA1: 
 SHA256: 90de202f2347b2ea910e952c1f4ae3f8d0045f011dfad7053ed2730af1f9087c
-
-Package: com.sini.avphotos
-Version: 1.0.1
-Section: Tweaks
-icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/avphotos/js.json
-Maintainer: 来了老弟
-Description: 在相册中播放照片视频可以画中画效果！为季伯奥迪哥备份。
-Depends: firmware (>=14.0), mobilesubstrate
-Architecture: iphoneos-arm64
-Name: 相册画中画
-Author: MiRO 来了老弟
-Filename: debs/com.sini.avphotos_1.0.1_iphoneos-arm64.deb
-Size: 7172
-MD5sum: 12c0633b4bc946453bdf674fae17544e
-SHA1: 
-SHA256: 7d767ecc4a45776004e8218541d3a60341fa04a509471fc35c99fd5cb253367d
 
 Package: com.sini.awemealwaysshowtime
 Name: AwemeAlwaysShowTime
