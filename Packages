@@ -4312,6 +4312,40 @@ SHA256: a7cae9847d9d40ae8663116769bdd14d81bb99e11d681deea0808074b6ce93d7
 
 Package: com.iosdump.zone
 Name: Zone
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+Installed-Size: 1144
+Icon: https://huayuarc.github.io/icon/Zone.png
+Filename: debs/com.iosdump.zone-2.0.0-roothide.deb
+Size: 206864
+MD5sum: b075a835d96e93ca1e7c836271c73759
+SHA1: 
+SHA256: a8b3c5a6563a91f2069aca7b653b28a7e21d06269bba4a32a287214d9f98d3d3
+
+Package: com.iosdump.zone
+Name: Zone
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Installed-Size: 1148
+Icon: https://huayuarc.github.io/icon/Zone.png
+Filename: debs/com.iosdump.zone-2.0.0-rootless.deb
+Size: 208316
+MD5sum: 50a41c88792a719b4f5a6d26caee5b87
+SHA1: 
+SHA256: 8593f11b0830eb7822172ec4f41b5c30bb2eef8792d449f308982366807948ad
+
+Package: com.iosdump.zone
+Name: Zone
 Depends: mobilesubstrate, preferenceloader
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Maintainer: iosdump
@@ -4427,6 +4461,23 @@ Size: 169402
 MD5sum: 579c83dd3640767015b4ab4f21d2297b
 SHA1: 
 SHA256: ad569b15a3f5577b0509b7ae12ac46887a409d7d7c751abff5da5d26f735d6cb
+
+Package: com.iosdump.zone
+Name: Zone
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 2.0.0
+Installed-Size: 1148
+Icon: https://huayuarc.github.io/icon/Zone.png
+Filename: debs/com.iosdump.zone_2.0.0_iphoneos-arm.deb
+Size: 348304
+MD5sum: c97fd3e91b8271a7919b688bbaddbc29
+SHA1: 
+SHA256: f4a6b592f2b84b1970c68173000809385915de90cdce6967f04fa89d2f6ec8b4
 
 Package: com.jontelang.snapper3
 Name: Snapper 3
