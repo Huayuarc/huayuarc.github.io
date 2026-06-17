@@ -1,0 +1,10 @@
+.github_token/
+.git-credentials/
+.ssh/
+Packages.bak
+.deb_cache/
+
+# 超过 GitHub 100MB 限制的大文件
+debs/llvm-14-dev*
+debs/libclang-14-dev*
+debs/swift-5.7.2*
