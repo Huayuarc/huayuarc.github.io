@@ -499,75 +499,75 @@ MD5sum: 2e5efbf3c104148e07ee55bb2a26255a
 SHA1: 
 SHA256: 28f36bd11101505a7694b32b4a69a2775297eebcf29881e8c5146ee001d87bd5
 
-Package: cn.llld.fixdh
-Name: phonefix
-Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度3050-3350）
-Maintainer: 来了老弟
-Author: 来了老弟 h_h_x_t
-Section: rootless插件
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64e
-Version: 0.0.2
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
-Filename: debs/cn.llld.fixdh-0.0.2-roothide.deb
-Size: 4168
-MD5sum: 0a047776dadc26d564f71074c2b2b89a
-SHA1: 
-SHA256: ee01db7237fb2b3dc9ce54c3588d196febfbb09c2c35f0b588a94eaf23babcac
-
-Package: cn.llld.fixdh
-Name: phonefix
-Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度3050-3350）
-Maintainer: 来了老弟
-Author: 来了老弟 h_h_x_t
-Section: rootless插件
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 0.0.2
-Installed-Size: 168
-Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
-Filename: debs/cn.llld.fixdh-0.0.2-rootless.deb
-Size: 4280
-MD5sum: ea8b324ccfb93427bacc048c065fcff4
-SHA1: 
-SHA256: ddcd2858958fba4f0e52d858d16d6bf58dff3233441f7913be0dc2b1d848fdf5
-
 Package: cn.llld.fixdh1
 Name: phonefix
 Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度2850-3150）
 Maintainer: 来了老弟
 Author: 来了老弟 h_h_x_t
-Section: rootless插件
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64e
-Version: 0.0.2
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
-Filename: debs/cn.llld.fixdh1-0.0.2-roothide.deb
-Size: 4176
-MD5sum: df1643d104648da27c8d6343bd8e2582
-SHA1: 
-SHA256: b832631b3e3576d6173a913665fb5e00782135e25d72afff07fd1f40717beddd
-
-Package: cn.llld.fixdh1
-Name: phonefix
-Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度2850-3150）
-Maintainer: 来了老弟
-Author: 来了老弟 h_h_x_t
-Section: rootless插件
+Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 0.0.2
 Installed-Size: 168
 Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
-Filename: debs/cn.llld.fixdh1-0.0.2-rootless.deb
+Filename: debs/cn.llld.fixdh1_0.0.2_iphoneos-arm64.deb
 Size: 4276
-MD5sum: af8a3eb2b69ee64ec81f8f30cfc93f40
+MD5sum: 25a3253c04f9ba86873a285d55d0b4a2
 SHA1: 
-SHA256: 1a6d8a9fdb51bb922dd23ce24c79c607644cb8e59c61e7a43280eecfcdfe94d3
+SHA256: f4db1187f52a36ff44159232c8667dd32854543f4436b5e6612a9a9e16d3002a
+
+Package: cn.llld.fixdh1
+Name: phonefix
+Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度2850-3150）
+Maintainer: 来了老弟
+Author: 来了老弟 h_h_x_t
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+Filename: debs/cn.llld.fixdh1_0.0.2_iphoneos-arm64e.deb
+Size: 4184
+MD5sum: 31763cd274292546b50d3d62fa5b6cd5
+SHA1: 
+SHA256: e1b30003a0d073dcafe05b387c357e19d50d04305cf0f0b631709dff4aa34841
+
+Package: cn.llld.fixdh
+Name: phonefix
+Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度3050-3350）
+Maintainer: 来了老弟
+Author: 来了老弟 h_h_x_t
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Installed-Size: 168
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+Filename: debs/cn.llld.fixdh_0.0.2_iphoneos-arm64.deb
+Size: 4284
+MD5sum: 635d07577682bac4d23eb7bd50491168
+SHA1: 
+SHA256: 1545d2b936ffdc69bf3a24e6a89e294e72cc70d88c5fe250e3ac581d3dbcef69
+
+Package: cn.llld.fixdh
+Name: phonefix
+Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度3050-3350）
+Maintainer: 来了老弟
+Author: 来了老弟 h_h_x_t
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+Filename: debs/cn.llld.fixdh_0.0.2_iphoneos-arm64e.deb
+Size: 4180
+MD5sum: 3303004f08716f906592eeaec8773e98
+SHA1: 
+SHA256: 450e8446eae526159c4864a122888fa2bf898d415e4b715b10b2d2824bc9e0f6
 
 Package: cn.llld.flexcopy
 Name: Flex3Copy
@@ -6694,6 +6694,22 @@ Size: 91424
 MD5sum: fe066ea0efcb909a8fdf266b7f2cea07
 SHA1: 
 SHA256: d120ccdf1db129f55cf3732242ce66d0415911b8a438e3041d5f477bfd320842
+
+Package: com.rootless.patcher
+Name: RootHide Patcher
+Version: 2.1.4
+Architecture: iphoneos-arm64
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2), uikittools(>= 2.1.6-4)
+Description: patch rootless package to roothide (rootless build)
+Maintainer: Huayuarc
+Author: roothide
+Section: Development
+Icon: https://huayuarc.github.io/icon/Patcher.jpg
+Filename: debs/com.rootless.patcher_2.1.4_iphoneos-arm64.deb
+Size: 2401154
+MD5sum: c684f0bae18362ab3f8878c2f7b76a16
+SHA1: 
+SHA256: 33978ebc180d97c94d9db2b0d6cb70f367ae3b58f9608e2812ec4a33e6ae2b51
 
 Package: com.rpgfarm.a-font
 Name: A-Font
