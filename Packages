@@ -4831,15 +4831,16 @@ Maintainer: mikey820 <mikey820@users.noreply.github.com>
 Author: mikey820
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Version: 2.1.0
 Installed-Size: 168
 Icon: https://huayuarc.github.io/icon/PleaseDontStopTheMusic.jpg
-Filename: debs/com.mikey820.pleasedontstopthemusic-2.1.0-rootless.deb
-Size: 4540
-MD5sum: 738bb103f069e2badb534d5f842f8748
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.mikey820.pleasedontstopthemusic-2.1.0-roothide.deb
+Size: 32572
+MD5sum: dc428a5ca817280149ca21697107b70d
 SHA1: 
-SHA256: c9478196c81feacdaae16e88b9a793c386769ecba24a7de3bb0de67f6abaa66d
+SHA256: 52ad5e93e2152642b111327dbb70f5d4d1133218b0a7af0a33ad34849535bdf0
 
 Package: com.mikey820.pleasedontstopthemusic
 Name: 请别暂停音乐
@@ -4848,16 +4849,50 @@ Maintainer: mikey820 <mikey820@users.noreply.github.com>
 Author: mikey820
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Version: 2.1.0
 Installed-Size: 168
 Icon: https://huayuarc.github.io/icon/PleaseDontStopTheMusic.jpg
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.mikey820.pleasedontstopthemusic_2.1.0_iphoneos-arm64e.deb
-Size: 7036
-MD5sum: 4739b1fde07bd344fbc1985faf23957c
+Filename: debs/com.mikey820.pleasedontstopthemusic-2.1.0-rootless.deb
+Size: 32668
+MD5sum: 35655b578255b9e8798512bcc13e0ae4
 SHA1: 
-SHA256: a99eae5dd9f87158aa1bb81dd8acd7fce007392d942ae3dc9de2218431503a7c
+SHA256: 2105a4738b4c3c655b88c4426d04d788b4c155e8db3256aa8a9ad78ce5cfc529
+
+Package: com.mikey820.pleasedontstopthemusic
+Version: 2.2.0
+Architecture: iphoneos-arm64
+Section: Tweaks
+Maintainer: Mikey <splatmikey@gmail.com>
+Author: Mikey <splatmikey@gmail.com>
+Installed-Size: 191
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Name: 请别暂停音乐
+Description: Prevent apps (e.g. Roblox) from pausing your background music 阻止应用程序（例如Roblox）暂停你的背景音乐
+Icon: https://huayuarc.github.io/icon/PleaseDontStopTheMusic.jpg
+Filename: debs/com.mikey820.pleasedontstopthemusic-2.2.0-rootless.deb
+Size: 32660
+MD5sum: 9baeec185d9f1ff9a321dd9dda1ac21a
+SHA1: 
+SHA256: e731e32e592a3b1777eed5153ee66fe7a47a226abb7d9ba4676ff8102ff5e5cd
+
+Package: com.mikey820.pleasedontstopthemusic
+Version: 2.2.0
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: Mikey <splatmikey@gmail.com>
+Author: Mikey <splatmikey@gmail.com>
+Installed-Size: 191
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Name: 请别暂停音乐
+Description: Prevent apps (e.g. Roblox) from pausing your background music 阻止应用程序（例如Roblox）暂停你的背景音乐
+Icon: https://huayuarc.github.io/icon/PleaseDontStopTheMusic.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.mikey820.pleasedontstopthemusic_2.2.0_iphoneos-arm64e.deb
+Size: 35084
+MD5sum: b14bc10c26aefcb5dd3ec8096d35b280
+SHA1: 
+SHA256: 80bb7a6337b28b8bf870e04294e83b823a6cea453279ccc38faa441b7336ea44
 
 Package: com.miro.libmiroshared
 Name: libMiROShared
