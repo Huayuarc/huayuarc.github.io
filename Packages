@@ -9401,28 +9401,10 @@ MD5sum: 126ac24e66982687f25985fac8f12b81
 SHA1: 
 SHA256: 8dd0322c3ef738de63ae83270b3c42cbbe3abdfa480580823ace88ad089de3d8
 
-Package: com.sini.settingsrevamp
-Version: 2.1.1
-Section: Tweaks
-Maintainer: SOPPPra
-Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
-Architecture: iphoneos-arm64
-Installed-Size: 540
-Name: SettingsRevamp
 Author: SOPPPra
+Architecture: iphoneos-arm64
 Description: 设置美化，插件归类。
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/settingsrevamp/js.json
-icon: https://sini921.github.io/repo/sileodepiction/icon/settingsrevamp.png
-Filename: debs/com.sini.settingsrevamp_2.1.1_iphoneos-arm64.deb
-Size: 97064
-MD5sum: 314da64a38548d2061d95949a4915465
-SHA1: 
-SHA256: fd82a2beded8afc4efaf49857c7b323657063c834d9126c1cb430807cc3b32d8
-
-Author: SOPPPra
-Architecture: iphoneos-arm64
-Description: 设置归类
-icon: https://sini921.github.io/repo/sileodepiction/icon/settingsrevamp.png
+Icon: https://huayuarc.github.io/icon/settingsrevamp.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/settingsrevamp/js.json
 Maintainer: SOPPPra
 Version: 3.0.1
@@ -9431,10 +9413,28 @@ Name: SettingsRevamp
 Section: Tweaks
 Package: com.sini.settingsrevamp
 Filename: debs/com.sini.settingsrevamp_3.0.1_iphoneos-arm64.deb
-Size: 269484
-MD5sum: 844a4499457c84e458c1452f3abda4de
+Size: 338622
+MD5sum: 60517b9d806a680662cb1ce41864beba
 SHA1: 
-SHA256: 07e4cbf44af384a3a53b5d89be835aeffc94875cae221e78560935930fa0f5f6
+SHA256: 1d331a25f2ee6baf571d8b7c4b6df294b129b037caebbcbb424a1b6dcdf50cc8
+
+Author: SOPPPra
+Architecture: iphoneos-arm64e
+Description: 设置美化，插件归类。
+Icon: https://huayuarc.github.io/icon/settingsrevamp.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/settingsrevamp/js.json
+Maintainer: SOPPPra
+Version: 3.0.1
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Name: SettingsRevamp
+Section: Tweaks
+Package: com.sini.settingsrevamp
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.settingsrevamp_3.0.1_iphoneos-arm64e.deb
+Size: 333658
+MD5sum: 883b874fe56967f0576c25d8bb9f639e
+SHA1: 
+SHA256: 9ee80a4bbd600f7021d4a5d17664de55598345f9d834c338d75888d40118f2b3
 
 Package: com.sini.shortvideodl
 Icon: https://sini921.github.io/repo/sileodepiction/icon/shortvideodl.png
