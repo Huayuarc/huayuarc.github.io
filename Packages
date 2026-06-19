@@ -3822,6 +3822,24 @@ MD5sum: cef0fea99fdd7065b897b0d1475c4c7c
 SHA1: 
 SHA256: 3c7f4b3cedac3fcd328ca09fe672ae927895eefe454f9cdbace43a0315a301ac
 
+Package: com.huayuarc.qqjlq
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Section: Tweaks
+Maintainer: Huayuarc
+Author: Huayuarc
+Depends: sudo
+Tag: cydia::commercial
+Name: QQ交流群(空白包无插件)
+Description: 创建QQ交流群，用途，iOS越狱交流，反馈插件，有好用插件可以联系我，帮忙上传越狱源备份。
+Icon: https://huayuarc.github.io/icon/CydiaIcon.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/qqjlq/js.json
+Filename: debs/com.huayuarc.qqjlq_0.0.1_iphoneos-arm64.deb
+Size: 898
+MD5sum: 5ef53f492541769797c59a2a34f8325d
+SHA1: 
+SHA256: fd275b8dddf418c49dbb3fd837eaffa5e441f7a3544268a18c7221dbd5c10fe5
+
 Package: com.huayuarc.swipeextenderx
 Version: 1.0
 Section: Tweaks
