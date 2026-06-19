@@ -7098,6 +7098,41 @@ MD5sum: e361defffdd595df315045443231038f
 SHA1: 
 SHA256: d5551061437ba6d189176c92dc237ce5334da0196b15d0b24e7aa6195b78adce
 
+Package: com.simon.controlcenterlayout
+Name: 控制中心模块
+Description:用于部分自用控制中心模块2x1布局以及素材替换，半越狱不再卑微。
+Maintainer: Simon
+Author: Simon
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 2.1
+Installed-Size: 620
+Icon: https://huayuarc.github.io/icon/controlcenterlayout.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.simon.controlcenterlayout-2.1-roothide.deb
+Size: 88860
+MD5sum: d6a9d87623a9a879ad418ba900b04177
+SHA1: 
+SHA256: 6bebd1e5bc18e1458f9f2fb14238bccf64d46f7742f237afb463c575eabda6d6
+
+Package: com.simon.controlcenterlayout
+Name: 控制中心模块
+Description:用于部分自用控制中心模块2x1布局以及素材替换，半越狱不再卑微。
+Maintainer: Simon
+Author: Simon
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 2.1
+Installed-Size: 620
+Icon: https://huayuarc.github.io/icon/controlcenterlayout.jpg
+Filename: debs/com.simon.controlcenterlayout-2.1-rootless.deb
+Size: 90612
+MD5sum: ce46d815c9300a29bc5a91158a78813c
+SHA1: 
+SHA256: c0416a4a98fa5eedfcbf7f688187470d29d4008fb9097c54e452c21635b39504
+
 Package: com.simon.dynamicislandanimation
 Name: 灵动岛跳舞动画
 Description:用于灵动岛专辑及屏幕录制动态跳舞动画整合 无需挂载不再卑微！
