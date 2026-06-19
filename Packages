@@ -2916,6 +2916,43 @@ MD5sum: fcf0a7a66092671b61f9add6f5c5f523
 SHA1: 
 SHA256: 6c76308ba9e1185dcd58415b1831bf5471b70b0890817d019d3e6c2e7fdc8aff
 
+Package: com.curtin.pkc.rootless
+Name: PKC
+Version: 0.9-8
+Description:AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Section: Tweaks
+Depends: firmware (>= 5.0)
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Curtin
+Homepage: https://github.com/curtinlv
+Maintainer: curtinlv@126.com
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Filename: debs/com.curtin.pkc.rootless-0.9-8-rootless.deb
+Size: 1378976
+MD5sum: 831c9f672150c9e47d7e94c817aafe73
+SHA1: 
+SHA256: bee0676350eab4ded371435b52d9c7ec65c72b46e37c33b391a9c98d85b76e3b
+
+Package: com.curtin.pkc.rootless
+Name: PKC
+Version: 0.9-8
+Description:AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Section: Tweaks
+Depends: firmware (>= 5.0)
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Curtin
+Homepage: https://github.com/curtinlv
+Maintainer: curtinlv@126.com
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.curtin.pkc.rootless_0.9-8_iphoneos-arm64e.deb
+Size: 1887008
+MD5sum: 96ab8bf96058e41aa7647099132b0325
+SHA1: 
+SHA256: ffa5f4f97dac88e0223dadbe751b44292c6cc9dffb34b04b82f7388106cef4ec
+
 Name: MoreLinesNotifications
 Package: com.cydiageek.morelinesnotifications
 Priority: optional
