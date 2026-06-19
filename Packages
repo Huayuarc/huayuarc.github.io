@@ -6972,6 +6972,24 @@ MD5sum: 2d2406fb9118b4a2d242641fda74c3a4
 SHA1: 
 SHA256: fc4e202229cd09504bbf4639a22c765acea3ba5edbf625736e87ef78ba398411
 
+Package: com.simon.ccweathermodule
+Name: CCWeather Module
+Description: 控制中心的天气模块。 显示当前天气、温度和每小时预报。
+Maintainer: simon
+Author: simon
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 380
+Icon: https://huayuarc.github.io/icon/CCWeatherModule.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.simon.ccweathermodule_1.0.2_iphoneos-arm64e.deb
+Size: 103804
+MD5sum: 51a2effc700a0de50df72064e5d6e606
+SHA1: 
+SHA256: 56a60f6a2c56d081c6a7387a5f44fd0b2641606a491375ae8a15c59c68561b32
+
 Package: com.simon.dynamicislandanimation
 Name: 灵动岛跳舞动画
 Description:用于灵动岛专辑及屏幕录制动态跳舞动画整合 无需挂载不再卑微！
