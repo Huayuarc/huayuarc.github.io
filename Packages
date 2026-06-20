@@ -12862,6 +12862,41 @@ MD5sum: 69c711d91079ecddff2664b7973658e7
 SHA1: 
 SHA256: 4f66f5bcba9ece521ed4895a562fcc52a8120abf79b1abcdf01fd1bddd03f4c6
 
+Package: com.zuner.lunanoad
+Name: LunaNoAd
+Depends: mobilesubstrate
+Description: 禁止开屏广告、秒过激励广告
+Maintainer: liwhs
+Author: Zuner
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.5
+Installed-Size: 2856
+Icon: https://huayuarc.github.io/icon/qishui.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.zuner.lunanoad-1.5-roothide.deb
+Size: 1041568
+MD5sum: 0a4c17ae7bbaa137606f6c80afe70ad5
+SHA1: 
+SHA256: b05ef263bc6be75c4ac7b8eac77bf78d52955a4bdf3a97557bec74e3262af1ce
+
+Package: com.zuner.lunanoad
+Name: LunaNoAd
+Depends: mobilesubstrate
+Description: 禁止开屏广告、秒过激励广告
+Maintainer: liwhs
+Author: Zuner
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.5
+Installed-Size: 2856
+Icon: https://huayuarc.github.io/icon/qishui.jpg
+Filename: debs/com.zuner.lunanoad-1.5-rootless.deb
+Size: 1055536
+MD5sum: 4a77f1c353eb68a561b4375ca20bf192
+SHA1: 
+SHA256: 2b5a939831bb8a0ce6b306fb42bfdd73d17bcc3331ba437783e31d289b8c0f56
+
 Architecture: iphoneos-arm64
 Package: danmutool
 Name: 弹幕助手
