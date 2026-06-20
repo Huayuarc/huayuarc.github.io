@@ -1602,6 +1602,58 @@ MD5sum: 87b2f43b7936332b940e385db38c3ac7
 SHA1: 
 SHA256: d1efba150a6abac289e9ccb2484d5ccce480da55ee0692fa6627c95a45517ea6
 
+Package: com.azzou.rounderls
+Name: RounderLS
+Architecture: iphoneos-arm64
+Description: A little tweak to make your LockScreen rounder ! 下拉通知圆角
+Maintainer: Azzou
+Author: Azzou
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 13), ws.hbang.common (>= 1.14), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Icon: https://huayuarc.github.io/icon/RounderLS.png
+Version: 1.3
+Installed-Size: 3036
+Filename: debs/com.azzou.rounderls-1.3-rootless.deb
+Size: 2741128
+MD5sum: a20a628a4a6db474d963007e8f70b79d
+SHA1: 
+SHA256: 4ab7b5abc5348bb4d8c58d0ffc52014ec42f0891fcf04b39b602b183bb8f1df0
+
+Package: com.azzou.rounderls
+Name: RounderLS
+Architecture: iphoneos-arm64e
+Description: A little tweak to make your LockScreen rounder ! 下拉通知圆角
+Maintainer: Azzou
+Author: Azzou
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 13), ws.hbang.common (>= 1.16), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Icon: https://huayuarc.github.io/icon/RounderLS.png
+Version: 1.5-6+debug
+Installed-Size: 2208
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.azzou.rounderls-1.5-6+debug-roothide.deb
+Size: 1888552
+MD5sum: d3f0e659515359ca5980d5b5cd15fa81
+SHA1: 
+SHA256: 4aa315525d6c26f552f04ca0b5d37899e9d6a9a97c7c9a64c1cc2e00a72df38b
+
+Package: com.azzou.rounderls
+Name: RounderLS
+Architecture: iphoneos-arm
+Description: A little tweak to make your LockScreen rounder ! 下拉通知圆角
+Maintainer: Azzou
+Author: Azzou
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 13), ws.hbang.common (>= 1.14)
+Icon: https://huayuarc.github.io/icon/RounderLS.png
+Version: 1.3
+Installed-Size: 3036
+Filename: debs/com.azzou.rounderls_1.3_iphoneos-arm.deb
+Size: 2754870
+MD5sum: bd82c967d4d28af60f91f5d53121755b
+SHA1: 
+SHA256: b301cba50d6229f22c2ca913a6019175c93482e0b157246bfbb2fad34f5c03da
+
 Package: com.be-huge.custom-notification-sound
 Name: CustomWeChatNotificationSound
 Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）。使用方式：在对话框中，长按对方头像即可。
