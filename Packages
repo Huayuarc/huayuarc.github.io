@@ -15135,6 +15135,52 @@ MD5sum: ed5bf497ce629c4d73ab7144973b8d4a
 SHA1: 
 SHA256: a40470c81fb59d6177e0c7de06fdc1b262796383931313a4f22c327b020b5cc7
 
+Package: ws.hbang.newterm3
+Name: NewTerm 3 Beta
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Description: Powerful terminal app for iOS
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Terminal Support
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Depiction: https://chariz.com/get/newterm-beta
+Support: https://hashbang.productions/support/
+Tag: compatible_min::ios14.0
+Architecture: iphoneos-arm64e
+Version: 3.0~beta1-1042+debug
+Installed-Size: 31496
+Filename: debs/ws.hbang.newterm3-3.0~beta1-1042+debug-roothide.deb
+Size: 5651608
+MD5sum: 22afd28d77453a7949cc1893e3bf25f6
+SHA1: 
+SHA256: 6747da03e05245aed62fca6bda63283f5c979ef192102c0122643754989ac805
+
+Package: ws.hbang.newterm3
+Name: NewTerm 3 Beta
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Description: Powerful terminal app for iOS
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Terminal Support
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Depiction: https://chariz.com/get/newterm-beta
+Support: https://hashbang.productions/support/
+Tag: compatible_min::ios14.0
+Architecture: iphoneos-arm64
+Version: 3.0~beta1-1042+debug
+Installed-Size: 24244
+Filename: debs/ws.hbang.newterm3-3.0~beta1-1042+debug-rootless.deb
+Size: 3941576
+MD5sum: f26c1146043c019fb883d2fc9c5d0447
+SHA1: 
+SHA256: 0b8a06a1ac7a80f004e892a28d7371b6d5358690f44e3ea918a06bf5435eb204
+
 Package: xc.lzsxcl.o2pro
 Name: o2Pro
 Architecture: iphoneos-arm64e
