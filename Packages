@@ -4145,6 +4145,57 @@ MD5sum: 72eb2e03d3446430c95593c0dfd4f1f3
 SHA1: 
 SHA256: 870249163d893867fc53c77d11017a2b1213ec86f9919a8929bc8f3c9384ab4d
 
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 App跳转拦截重定向选择器。
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 444
+Icon: https://huayuarc.github.io/icon/JumpSelect.png
+Filename: debs/com.iosdump.jumpselect-0.0.3-roothide.deb
+Size: 50100
+MD5sum: 6b8b2d3739e4b529a674fbaa123679f8
+SHA1: 
+SHA256: f6a8aa348b17045ea82383a4e9dae86199eea577afd90234b723fe01bc2b3bbb
+
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 App跳转拦截重定向选择器。
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 444
+Icon: https://huayuarc.github.io/icon/JumpSelect.png
+Filename: debs/com.iosdump.jumpselect-0.0.3-rootless.deb
+Size: 51268
+MD5sum: 03496789a971cb34f8335987c9ddc027
+SHA1: 
+SHA256: fd269f90908c956fc815459210ce2c382b154465309e54ff57e6b1ec3ba2bd1f
+
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 App跳转拦截重定向选择器。
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 0.0.3
+Installed-Size: 444
+Icon: https://huayuarc.github.io/icon/JumpSelect.png
+Filename: debs/com.iosdump.jumpselect_0.0.3_iphoneos-arm.deb
+Size: 81592
+MD5sum: 852566c7f63f15392442b7375f6a6a23
+SHA1: 
+SHA256: bc5a797386247192556b6b15474e0efa484c441e0fd8bce98ad5d4e538ca8ae9
+
 Package: com.iosdump.shellx
 Name: SHELLX
 Depends: mobilesubstrate, preferenceloader
