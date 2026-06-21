@@ -4269,6 +4269,74 @@ SHA256: fd269f90908c956fc815459210ce2c382b154465309e54ff57e6b1ec3ba2bd1f
 Package: com.iosdump.jumpselect
 Name: JumpSelect
 Depends: mobilesubstrate, preferenceloader
+Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.4
+Installed-Size: 476
+Icon: https://huayuarc.github.io/icon/JumpSelect.png
+Filename: debs/com.iosdump.jumpselect-0.0.4-roothide.deb
+Size: 55692
+MD5sum: 115ca84e6d78d8fa98aec29cabdacdfe
+SHA1: 
+SHA256: c463729b4d6719247a15b55f63b24adb8359f32f147cd29f181d6ec61ab3676e
+
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
+Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Installed-Size: 476
+Icon: https://huayuarc.github.io/icon/JumpSelect.png
+Filename: debs/com.iosdump.jumpselect-0.0.4-rootless.deb
+Size: 56760
+MD5sum: fea0827acedc23a9b2872f93df8af288
+SHA1: 
+SHA256: dfd69cb83e3c5262c874ba0b3f1772d30c7fbe16cc83e25d42f18adcd7479328
+
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
+Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 476
+Icon: https://huayuarc.github.io/icon/JumpSelect.png
+Filename: debs/com.iosdump.jumpselect-1.0.0-roothide.deb
+Size: 59860
+MD5sum: 8b4b0b39637df29e0dcf25133cfe4dd4
+SHA1: 
+SHA256: e95984d106348a502b0a8da8df6cfdfbbee5ad442345d7dde92fc99f4da3ea57
+
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
+Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 476
+Icon: https://huayuarc.github.io/icon/JumpSelect.png
+Filename: debs/com.iosdump.jumpselect-1.0.0-rootless.deb
+Size: 60992
+MD5sum: fe6059b239abf6775cd8ea36442d2349
+SHA1: 
+SHA256: 9ddd68eba7fe4e85639dfb8b6267a103e1410690359f02a150434338eeab2ad3
+
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 App跳转拦截重定向选择器。
 Maintainer: iosdump
 Author: iosdump
