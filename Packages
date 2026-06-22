@@ -354,43 +354,6 @@ MD5sum: 08f7439427a44e1a78758918dcb08863
 SHA1: 
 SHA256: cd29b90ad458db90cd3fc332af1940798571efd6d0797a3b239c92f65b0989dc
 
-Package: cc26
-Version: 1.0.6
-Description: 据说这是一款模仿iOS26样式的控制中心插件。
-Section: Tweaks
-Maintainer: therealhoodboy
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 13.0), firmware (<< 18.0)
-Architecture: iphoneos-arm64e
-Installed-Size: 1496
-Name: iOS26控制中心
-Author: therealhoodboy
-Sponsor: therealhoodboy
-Icon: https://huayuarc.github.io/icon/cc26.png
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/cc26-1.0.6-roothide.deb
-Size: 830348
-MD5sum: 60f8ad1dbec3cd491a011cd07dbbfc73
-SHA1: 
-SHA256: 6af76d92d7cdecb089cdd5b71ee1bc2028315942a5d41c68aad6718991e64a57
-
-Package: cc26
-Version: 1.0.6
-Description: 据说这是一款模仿iOS26样式的控制中心插件。
-Section: Tweaks
-Maintainer: therealhoodboy
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 13.0), firmware (<< 18.0)
-Architecture: iphoneos-arm64
-Installed-Size: 1496
-Name: iOS26控制中心
-Author: therealhoodboy
-Sponsor: therealhoodboy
-Icon: https://huayuarc.github.io/icon/cc26.png
-Filename: debs/cc26-1.0.6-rootless.deb
-Size: 831700
-MD5sum: 7e97b35a80fcce858f84ad215d6107bc
-SHA1: 
-SHA256: 4bfc4db19bed1e2ca0281804da8031fb717f9310af090d2b91591ab78a88f387
-
 Package: claude-code-roothide
 Name: Claude Code
 Version: 2.1.19-1
