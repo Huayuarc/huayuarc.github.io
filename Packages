@@ -13201,14 +13201,14 @@ Author: dylv
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
 Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Version: 0.0.9a
 Installed-Size: 3756
-Filename: debs/dylv.liquidass_0.0.9a_iphoneos-arm64.deb
-Size: 1367456
-MD5sum: 95fcbbb581c46b9705e8b933c3505545
+Filename: debs/dylv.liquidass-0.0.9a-roothide.deb
+Size: 1356140
+MD5sum: f3082453fbd9ee4e0d568e3267da06b3
 SHA1: 
-SHA256: 409197786881c402b7385efc582cd65c31473774b57f4c54cafd73f17960a442
+SHA256: 772ef2db8cca5020727e372c2be318f3c748b2ddb7f98af42038a5536f1502e1
 
 Package: dylv.liquidass
 Name: Liquid (Gl)ass
@@ -13218,14 +13218,14 @@ Author: dylv
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
 Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Version: 0.0.9a
 Installed-Size: 3756
-Filename: debs/dylv.liquidass_0.0.9a_iphoneos-arm64e.deb
-Size: 1368144
-MD5sum: 6849022d86e2ae7f4ab6534f6949d12b
+Filename: debs/dylv.liquidass-0.0.9a-rootless.deb
+Size: 1354536
+MD5sum: f9d9746982f3e977776e9e8aefdeea2f
 SHA1: 
-SHA256: d4961d687faa58a09e336613e5e325a0888235bc5c30a7eb168be462f515268b
+SHA256: acb6b73f793dd77bdd10dad21fd40bc2d8f69fb35ef92166fb78a92eb3a745f6
 
 Package: Flex3beta
 Name: Flex3 Beta可解析版
