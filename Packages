@@ -3751,10 +3751,10 @@ Installed-Size: 696
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/Insulation.png
 Filename: debs/com.huayuarc.cputhermal-1.1.1-roothide.deb
-Size: 34528
-MD5sum: 0c613dabfc555c004e53b8bf764cc7ba
+Size: 34576
+MD5sum: 8240afbb0ff3efdf38b2e29079db63b3
 SHA1: 
-SHA256: 1faa9d777fdbc13774765a23dc623dc5f16ba83492b74771b726b27784f64376
+SHA256: 5dcc966aa7848255112e0b0953b5bebb0ab1c1627f48c9a923b2a8f04fa9aef8
 
 Package: com.huayuarc.cputhermal
 Name: CPUthermal
@@ -3768,10 +3768,45 @@ Version: 1.1.1
 Installed-Size: 696
 icon: https://huayuarc.github.io/icon/Insulation.png
 Filename: debs/com.huayuarc.cputhermal-1.1.1-rootless.deb
-Size: 35808
-MD5sum: 3ef1355e700ba9a6e3e10a9d22ed871f
+Size: 35800
+MD5sum: 8d64a74e2e315770751ee05d42833f82
 SHA1: 
-SHA256: 300bd4f8850ab2862127138f36501645032e8a581608e255df9e10ec303e1916
+SHA256: 35f16e196ffe4346548c435cc156326a30936060ad47966bbb50581bcc31a6eb
+
+Package: com.huayuarc.cputhermal
+Name: CPUthermal
+Author: Huayuarc
+Description: 温控插件 — 注入 thermalmonitord 阻止高温降频/降亮度。双防护层：IOKit 层拦截传感器读写 + Darwin 通知广播；ObjC 层钩住 ThermalManager/ThermalControl 决策树、控制力度计算、热压力升级。所有钩子有独立开关，75°C 安全阀自动放行紧急保护。支持软化模式（减半不归零）和热配置表修改（+5°C 阈值）。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1.2
+Installed-Size: 748
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.huayuarc.cputhermal-1.1.2-roothide.deb
+Size: 51492
+MD5sum: 71674c27d0bf490abe869df7d733a635
+SHA1: 
+SHA256: edb6a4a3478fd8f2519b0107be47fa69fcf21b5e291f7194a3cfb393b84653c2
+
+Package: com.huayuarc.cputhermal
+Name: CPUthermal
+Author: Huayuarc
+Description: 温控插件 — 注入 thermalmonitord 阻止高温降频/降亮度。双防护层：IOKit 层拦截传感器读写 + Darwin 通知广播；ObjC 层钩住 ThermalManager/ThermalControl 决策树、控制力度计算、热压力升级。所有钩子有独立开关，75°C 安全阀自动放行紧急保护。支持软化模式（减半不归零）和热配置表修改（+5°C 阈值）。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Installed-Size: 748
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Filename: debs/com.huayuarc.cputhermal-1.1.2-rootless.deb
+Size: 53028
+MD5sum: 0734b0e230ef5a27744efd2ae6265136
+SHA1: 
+SHA256: 310cdaada61f69b48fbded7bd4d3a61526cce5d249ecf490e8de5828ebaab92f
 
 Package: com.huayuarc.cputhermal
 Name: CPUthermal
