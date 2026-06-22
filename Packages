@@ -2671,6 +2671,40 @@ MD5sum: 7d5bf3cda3033e6cf801110da8d37998
 SHA1: 
 SHA256: a5778568699223742e4f6656ff68055790397348965d1a8dc75766bc40df9c00
 
+Package: com.colorblack.shouji360noad
+Name: 360Shouji-NoAd
+Description: 去掉 360 手机卫士开屏广告、首页广告位和一些不必要的天气及其他模块，保留了主要功能。 QQ群 205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 236
+Icon: https://huayuarc.github.io/icon/360.jpg
+Filename: debs/com.colorblack.shouji360noad-0.0.3-roothide.deb
+Size: 23084
+MD5sum: fb56acd1546faca02d7c840575fc4370
+SHA1: 
+SHA256: c876d4f232cf834a2f735d121e819b14789eddcd707f80976c0918841a6a3d68
+
+Package: com.colorblack.shouji360noad
+Name: 360Shouji-NoAd
+Description: 去掉 360 手机卫士开屏广告、首页广告位和一些不必要的天气及其他模块，保留了主要功能。 QQ群 205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 236
+Icon: https://huayuarc.github.io/icon/360.jpg
+Filename: debs/com.colorblack.shouji360noad-0.0.3-rootless.deb
+Size: 23304
+MD5sum: 5295df65e6d322fa69ed926739dc6513
+SHA1: 
+SHA256: 5d73901f14335abb6ad17f6d3ace69b5403bbe4fcab027ced06c74b1182da024
+
 Package: com.colorblack.tencentguanjia.nosplash
 Name: TencentGuanjia-NoSplash
 Depends: mobilesubstrate
