@@ -13077,6 +13077,41 @@ Maintainer: ylr
 Author: ylr
 Section: Tweaks
 Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 2.2-9
+Installed-Size: 3708
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.ylr.wchook-2.2-9-roothide.deb
+Size: 1325464
+MD5sum: 75a260baa1f87c71638bc38b8c24407e
+SHA1: 
+SHA256: 3703fad1c5a0d637e624fe27684c11606e41ca8796c09333ed6f0dce9a3d9e41
+
+Package: com.ylr.wchook
+Name: 悬浮按钮分屏
+Description: 悬浮按钮分屏
+Maintainer: ylr
+Author: ylr
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 2.2-9
+Installed-Size: 3708
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.ylr.wchook-2.2-9-rootless.deb
+Size: 1323608
+MD5sum: 9614b5e5c655e694732a85d61976bfee
+SHA1: 
+SHA256: 9cd09a52d8541da8fc6851717eb27043e12805ff4d4f806b0c2a963cba264cd4
+
+Package: com.ylr.wchook
+Name: 悬浮按钮分屏
+Description: 悬浮按钮分屏
+Maintainer: ylr
+Author: ylr
+Section: Tweaks
+Depends: firmware (>= 15.0)
 Architecture: iphoneos-arm64
 Version: 2.2-5
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
