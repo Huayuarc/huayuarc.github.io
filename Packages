@@ -4031,39 +4031,39 @@ SHA256: 3c7f4b3cedac3fcd328ca09fe672ae927895eefe454f9cdbace43a0315a301ac
 
 Package: com.huayuarc.qqjlq
 Version: 0.0.1
-Architecture: iphoneos-arm64
-Section: Tweaks
-Maintainer: Huayuarc
-Author: Huayuarc
-Depends: sudo
-Tag: cydia::commercial
-Name: QQ交流群(空白包无插件)
-Description: 创建QQ交流群，用途，iOS越狱交流，反馈插件，有好用插件可以联系我，帮忙上传越狱源备份。
-Icon: https://huayuarc.github.io/icon/CydiaIcon.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/qqjlq/js.json
-Filename: debs/com.huayuarc.qqjlq_0.0.1_iphoneos-arm64.deb
-Size: 898
-MD5sum: 5ef53f492541769797c59a2a34f8325d
-SHA1: 
-SHA256: fd275b8dddf418c49dbb3fd837eaffa5e441f7a3544268a18c7221dbd5c10fe5
-
-Package: com.huayuarc.qqjlq
-Version: 0.0.1
 Architecture: iphoneos-arm64e
 Section: Tweaks
 Maintainer: Huayuarc
 Author: Huayuarc
 Depends: sudo
 Tag: cydia::commercial
-Name: QQ交流群(空白包无插件)
+Name: A-QQ交流群(空白包无插件)
 Description: 创建QQ交流群，用途，iOS越狱交流，反馈插件，有好用插件可以联系我，帮忙上传越狱源备份。
 Icon: https://huayuarc.github.io/icon/CydiaIcon.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/qqjlq/js.json
-Filename: debs/com.huayuarc.qqjlq_0.0.1_iphoneos-arm64e.deb
-Size: 884
-MD5sum: d47dfe7973f83d4a9521ae679c2d2159
+Filename: debs/com.huayuarc.qqjlq-0.0.1-roothide.deb
+Size: 988
+MD5sum: ced9911cf19fa8ea3d35f5072bb5deec
 SHA1: 
-SHA256: 4211195be29dcb56ea84b36b518cf3853472411ea51a5ac57905b7b021983179
+SHA256: 84869ba393799a8c810bbbf81e40632f394d8c6a47cb549b1123703798ffb195
+
+Package: com.huayuarc.qqjlq
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Section: Tweaks
+Maintainer: Huayuarc
+Author: Huayuarc
+Depends: sudo
+Tag: cydia::commercial
+Name: A-QQ交流群(空白包无插件)
+Description: 创建QQ交流群，用途，iOS越狱交流，反馈插件，有好用插件可以联系我，帮忙上传越狱源备份。
+Icon: https://huayuarc.github.io/icon/CydiaIcon.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/qqjlq/js.json
+Filename: debs/com.huayuarc.qqjlq-0.0.1-rootless.deb
+Size: 1004
+MD5sum: 4625ecfa3d8f5d0525ef33c8bb1ed397
+SHA1: 
+SHA256: 7564096d138afe453a6399158d0bd0235ef18c66af93f29934842784143a627b
 
 Package: com.huayuarc.swipeextenderx
 Version: 1.0
