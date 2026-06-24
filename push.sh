@@ -237,7 +237,7 @@ if [ -d "$SCRIPT_DIR/.git" ]; then
     # 从发布分支移除旧压缩索引；Sileo 会回退使用 Packages.gz。
     git rm --cached --ignore-unmatch Packages.xz Packages.lzma 2>/dev/null || true
 
-    git add index.html css/ CydiaIcon.png Categories debs/ icon/ images/ sileodepiction/ Packages Packages.gz Release push.sh 2>&1
+    git add index.html css/ CydiaIcon.png Categories debs/ icon/ sileodepiction/ Packages Packages.gz Release push.sh 2>&1
 
     CHANGES=$(git diff --name-only --cached 2>/dev/null)
     if [ -z "$CHANGES" ]; then

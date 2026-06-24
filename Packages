@@ -2740,7 +2740,7 @@ SHA1:
 SHA256: a750adfca910a43cf8404ff3b8cc832127b17207b5a137884f04e1aede2f3d52
 
 Package: com.colorblack.wetypecolorgoogle
-Name: 微信输入法_Google配色 Roothide
+Name: 微信输入法_Google配色
 Description: 微信输入法 Google 风格毛玻璃键盘配色 Roothide 版，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
 Maintainer: colorblack
 Author: colorblack
@@ -2751,10 +2751,10 @@ Version: 1.1.2
 Installed-Size: 128
 Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
 Filename: debs/com.colorblack.wetypecolorgoogle-1.1.2-roothide.deb
-Size: 26504
-MD5sum: c397a352990c62dea3325259f5a1f8d7
+Size: 26544
+MD5sum: dca633a4f94d4be891c3f22edf7d4f40
 SHA1: 
-SHA256: c19afe4443790e1ce8dec6dad56db5a73195b03112ba263d1c65face3674f7e5
+SHA256: 6e1c91d0a646aa10bec7499c2fb4f5d42ae3b49011226aff66f74009fe2a3357
 
 Package: com.colorblack.wetypecolorgoogle
 Name: 微信输入法_Google配色
@@ -2772,6 +2772,40 @@ Size: 26340
 MD5sum: a768a8a73b8140fa4641c1b705eb2bd5
 SHA1: 
 SHA256: 352c65a8d3fdea437564d24d5098044ff8776782517bae901cfb166582550c03
+
+Package: com.colorblack.wetypecolorgoogle
+Name: 微信输入法_Google配色
+Description: 微信输入法 Google 风格毛玻璃键盘配色 Roothide 版，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Installed-Size: 144
+Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
+Filename: debs/com.colorblack.wetypecolorgoogle-1.1.3-roothide.deb
+Size: 28888
+MD5sum: 5f5f07f75cebf3bc49a2ff767f6dee9c
+SHA1: 
+SHA256: 1c8f5dedc15cd07d3f279d5fd5d2258dd97be3cd66bda0f1a9b43e123d7225e7
+
+Package: com.colorblack.wetypecolorgoogle
+Name: 微信输入法_Google配色
+Description: 微信输入法 Google 风格毛玻璃键盘配色，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Installed-Size: 144
+Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
+Filename: debs/com.colorblack.wetypecolorgoogle-1.1.3-rootless.deb
+Size: 28648
+MD5sum: ab78f10c44cb397def569c6891a4e6c2
+SHA1: 
+SHA256: efddc313b22cd4ba0bbc2504d0b83c6541ee4724902d7ba08d1b29bbceea1cd3
 
 Package: com.colorblack.xcfnoad
 Name: XCFNoAd
