@@ -2,6 +2,7 @@
 #==========================================
 # Huayuarc Cydia 源一键推送脚本
 # - Python 引擎处理全部 deb（增量缓存）
+# - Release 只发布 Packages/Packages.gz，避免 GitHub Pages 压缩索引缓存不同步
 #==========================================
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -184,9 +185,9 @@ fi
 #=== 2. 压缩 ===
 echo ""
 echo "[2/4] 压缩 Packages..."
-gzip -9kf "$PACKAGES_FILE" 2>/dev/null && echo "  [OK] Packages.gz"
-xz -9kf "$PACKAGES_FILE" 2>/dev/null && echo "  [OK] Packages.xz"
-lzma -9kf "$PACKAGES_FILE" 2>/dev/null && echo "  [OK] Packages.lzma"
+# 使用 -n 不写入 gzip 原文件名/时间戳，降低重复推送时的哈希变化。
+gzip -9knf "$PACKAGES_FILE" 2>/dev/null && echo "  [OK] Packages.gz"
+echo "  [跳过] Packages.xz/Packages.lzma 不再写入 Release，避免 CDN 缓存导致哈希错误"
 
 #=== 3. 生成 Release ===
 echo ""
@@ -207,7 +208,7 @@ Label: Huayuarc
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm64 iphoneos-arm64e
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: QQ交流群：797075691
 Date: $DATE
@@ -216,18 +217,12 @@ NotAutomatic: No
 MD5Sum:
  $(calc_md5 "$PS") $(calc_size "$PS") Packages
  $(calc_md5 "${PS}.gz") $(calc_size "${PS}.gz") Packages.gz
- $(calc_md5 "${PS}.xz") $(calc_size "${PS}.xz") Packages.xz
- $(calc_md5 "${PS}.lzma") $(calc_size "${PS}.lzma") Packages.lzma
 SHA1:
  $(calc_sha1 "$PS") $(calc_size "$PS") Packages
  $(calc_sha1 "${PS}.gz") $(calc_size "${PS}.gz") Packages.gz
- $(calc_sha1 "${PS}.xz") $(calc_size "${PS}.xz") Packages.xz
- $(calc_sha1 "${PS}.lzma") $(calc_size "${PS}.lzma") Packages.lzma
 SHA256:
  $(calc_sha256 "$PS") $(calc_size "$PS") Packages
  $(calc_sha256 "${PS}.gz") $(calc_size "${PS}.gz") Packages.gz
- $(calc_sha256 "${PS}.xz") $(calc_size "${PS}.xz") Packages.xz
- $(calc_sha256 "${PS}.lzma") $(calc_size "${PS}.lzma") Packages.lzma
 EOF
 echo "  [OK] Release 已生成"
 
@@ -239,8 +234,10 @@ if [ -d "$SCRIPT_DIR/.git" ]; then
     # 清理上次残留的 index 锁，防止 git add 报权限错误
     [ -f "$SCRIPT_DIR/.git/index.lock" ] && rm -f "$SCRIPT_DIR/.git/index.lock"
     git reset HEAD 2>/dev/null
+    # 从发布分支移除旧压缩索引；Sileo 会回退使用 Packages.gz。
+    git rm --cached --ignore-unmatch Packages.xz Packages.lzma 2>/dev/null || true
 
-    git add index.html css/ CydiaIcon.png Categories debs/ icon/ sileodepiction/ Packages Packages.gz Packages.xz Packages.lzma Release 2>&1
+    git add index.html css/ CydiaIcon.png Categories debs/ icon/ images/ sileodepiction/ Packages Packages.gz Release push.sh 2>&1
 
     CHANGES=$(git diff --name-only --cached 2>/dev/null)
     if [ -z "$CHANGES" ]; then
