@@ -3327,6 +3327,23 @@ MD5sum: 398ec25a6840174ed91ffc2d918c87df
 SHA1: 
 SHA256: f9220281fe93b808c97adcbc91529cbe3730f802e95c97394c88578f9716f9d6
 
+Package: com.dopamine.manager
+Name: Dopamine Manager
+Depends: firmware (>= 15.0)
+Description: Configure Dopamine rootless app blacklist and var cleanup features It is recommended to use it with choicy. 配置多巴胺无根应用程序黑名单和 var 清理功能 建议与 choicy 一起使用。
+Maintainer: dopamine
+Author: dopamine
+Section: System
+Architecture: iphoneos-arm64
+Version: 1.3.8
+Installed-Size: 532
+Icon: https://huayuarc.github.io/icon/Dopamine.jpg
+Filename: debs/com.dopamine.manager-1.3.8-rootless.deb
+Size: 330820
+MD5sum: 80da57ba592fb38e255fcedfd50b10d4
+SHA1: 
+SHA256: fb1a4f9b506f741fef1212054c24e49272a6f903eec61a9902b848eb1bd82ebd
+
 Package: com.eliassfeir.no2theftios15
 Name: No2Theft
 Depends: ws.hbang.common
