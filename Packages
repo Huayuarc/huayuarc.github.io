@@ -3955,11 +3955,12 @@ Architecture: iphoneos-arm64e
 Version: 1.1.3
 Installed-Size: 936
 Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/cputhermal.png
 Filename: debs/com.huayuarc.cputhermal-1.1.3-roothide.deb
-Size: 81664
-MD5sum: ef3d0945f94c737e9d117d1f34bf4857
+Size: 81680
+MD5sum: 2d88f4f641360d49b28f2a96e1b6cf9e
 SHA1: 
-SHA256: 2e86b6b4f984db83c9d6aa8706f82986bcf535312c5bcd8c694be9d1af793dd0
+SHA256: f189ea14ec0dde21ffb2869c6a31b017ca0f49cdd9143233ceeb6c98c46b18ce
 
 Package: com.huayuarc.cputhermal
 Name: CPU解除温控
@@ -3971,11 +3972,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.1.3
 Installed-Size: 936
+Icon: https://huayuarc.github.io/icon/cputhermal.png
 Filename: debs/com.huayuarc.cputhermal-1.1.3-rootless.deb
-Size: 81676
-MD5sum: 9f3a234394fddbfbce578f860d0c208a
+Size: 81708
+MD5sum: 6171da191cafcd7336d3dad3186e3f56
 SHA1: 
-SHA256: be851edb8a93d46c6e4cbf0e67f82ca7ce54dff099529696c01dcf0b4de15fcf
+SHA256: 21e28ae81edb9156e5544456e906fcbc9f181ecfff580a05b0f46a5d57335ba9
 
 Package: com.huayuarc.flashclockpro
 Name: 悬浮时间 Pro
