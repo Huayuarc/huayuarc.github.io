@@ -2807,6 +2807,40 @@ MD5sum: ab78f10c44cb397def569c6891a4e6c2
 SHA1: 
 SHA256: efddc313b22cd4ba0bbc2504d0b83c6541ee4724902d7ba08d1b29bbceea1cd3
 
+Package: com.colorblack.wetypecolorgoogle
+Name: 微信输入法_Google配色
+Description: 微信输入法 Google 风格毛玻璃键盘配色 Roothide 版，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
+Maintainer: colorblack
+Author: colorblack
+Section: 输入法皮肤
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.1.4
+Installed-Size: 144
+Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
+Filename: debs/com.colorblack.wetypecolorgoogle-1.1.4-roothide.deb
+Size: 29468
+MD5sum: 11d170dd4f9cda7d81f62dbba7b3a155
+SHA1: 
+SHA256: 776c6e1953e79f629a07b040ad82ad1c8a513c94c91def4b074de407852f9852
+
+Package: com.colorblack.wetypecolorgoogle
+Name: 微信输入法_Google配色
+Description: 微信输入法 Google 风格毛玻璃键盘配色，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
+Maintainer: colorblack
+Author: colorblack
+Section: 输入法皮肤
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.1.4
+Installed-Size: 144
+Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
+Filename: debs/com.colorblack.wetypecolorgoogle-1.1.4-rootless.deb
+Size: 29020
+MD5sum: c6ef6ae2e29e3910a02e234b69f7b80a
+SHA1: 
+SHA256: 564095b637274c36bcdca139c6bbfe8ca828221c308ccb3a11b1d5a6a1c6fc86
+
 Package: com.colorblack.xcfnoad
 Name: XCFNoAd
 Depends: mobilesubstrate
