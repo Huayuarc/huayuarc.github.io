@@ -3532,6 +3532,43 @@ MD5sum: aea7c67d5e7ce523f2f3e893871d03e4
 SHA1: 
 SHA256: 967e9332eefbcacfefe435ac324265917380e3ad22323e9de9770c05e561ef95
 
+Package: com.eolnmsuk.antidarksword
+Name: AntiDarkSword
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Description: Security framework to defend against WebKit RCE and iMessage zero-click exploits like Coruna / DarkSword / BLASTPASS. 防御WebKit RCE和iMessage零点击漏洞的安全框架，如Coruna/DarkSword/BLASTPASS。
+Maintainer: EolnMsuk
+Author: EolnMsuk
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/EolnMsuk/AntiDarkSword/refs/heads/main/antidarkswordprefs/Resources/sicon.png
+SileoDepiction: https://raw.githubusercontent.com/EolnMsuk/AntiDarkSword/main/depiction.json
+Architecture: iphoneos-arm64e
+Version: 4.9.3
+Installed-Size: 9148
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.eolnmsuk.antidarksword-4.9.3-roothide.deb
+Size: 7159160
+MD5sum: f67f5335f3a7b6145c94790b93a7b006
+SHA1: 
+SHA256: bf69e3df83feec3d2ee7f5cd2150f5bdf9e9f4ea09d1af527a56045661aa0c91
+
+Package: com.eolnmsuk.antidarksword
+Name: AntiDarkSword
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Description: Security framework to defend against WebKit RCE and iMessage zero-click exploits like Coruna / DarkSword / BLASTPASS. 防御WebKit RCE和iMessage零点击漏洞的安全框架，如Coruna/DarkSword/BLASTPASS。
+Maintainer: EolnMsuk
+Author: EolnMsuk
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/EolnMsuk/AntiDarkSword/refs/heads/main/antidarkswordprefs/Resources/sicon.png
+SileoDepiction: https://raw.githubusercontent.com/EolnMsuk/AntiDarkSword/main/depiction.json
+Architecture: iphoneos-arm64
+Version: 4.9.3
+Installed-Size: 9148
+Filename: debs/com.eolnmsuk.antidarksword-4.9.3-rootless.deb
+Size: 7162724
+MD5sum: 1cef7a8b1a00d44ce95cfb57f547a75b
+SHA1: 
+SHA256: 705594f622361635648dcaec84099fa7e86117d3b464532f2ab8b6fc8b333a42
+
 Package: com.ethanarbuckle.objsee-framework
 Name: objsee
 Depends: firmware (>= 15.0)
