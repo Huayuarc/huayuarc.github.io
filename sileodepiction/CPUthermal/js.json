@@ -1,0 +1,117 @@
+{
+"class": "DepictionTabView",
+"headerImage": "https://huayuarc.github.io/icon/cputhermal.png",
+"minVersion": "0.3",
+"tabs": [
+{
+"class": "DepictionStackView",
+"tabname": "插件介绍",
+"views": [
+{
+"text": "点此加入我们的交流反馈群",
+"action": "https://qm.qq.com/q/D6QOVrETU6",
+"openExternal": 1,
+"class": "DepictionButtonView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionHeaderView",
+"title": "CPU解除温控",
+"useBoldText": true,
+"useBottomMargin": false
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 8
+},
+{
+"markdown": "## 描述\n注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」将 CPU 频率锁定在 1428–2016MHz 区间兼顾省电与性能。可独立开关 CPU 性能保护、屏幕亮度保护、高温通知屏蔽、HID 温度事件、热状态封锁。内置 75°C 硬性安全阀，超温自动放行紧急保护。",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionHeaderView",
+"title": "截图",
+"useBoldText": true,
+"useBottomMargin": false
+},
+{
+"class": "DepictionScreenshotsView",
+"itemCornerRadius": 8,
+"itemSize": "{160, 346}",
+"screenshots": [
+{
+"accessibilityText": "Screenshot",
+"url": "https://huayuarc.github.io/sileodepiction/CPUthermal/Screenshot_C1.png"
+},
+{
+"accessibilityText": "Screenshot",
+"url": "https://huayuarc.github.io/sileodepiction/CPUthermal/Screenshot_C2.png"
+},
+{
+"accessibilityText": "Screenshot",
+"url": "https://huayuarc.github.io/sileodepiction/CPUthermal/Screenshot_C3.png"
+}
+]
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"class": "DepictionHeaderView",
+"title": "详情",
+"useBoldText": true,
+"useBottomMargin": false
+},
+{
+"class": "DepictionSpacerView",
+"spacing": 8
+},
+{
+"class": "DepictionTableTextView",
+"text": "xyzl",
+"title": "Huayuarc"
+},
+{
+"class": "DepictionTableTextView",
+"text": "1..1.5",
+"title": "版本"
+},
+{
+"class": "DepictionTableTextView",
+"text": "2025-06-27",
+"title": "更新时间"
+},
+{
+"class": "DepictionTableTextView",
+"text": "iOS 14.0+",
+"title": "系统兼容"
+}
+]
+},
+{
+"class": "DepictionStackView",
+"tabname": "更新日志",
+"views": [
+{
+"text": "点此加入我们的交流反馈群",
+"action": "https://qun.qq.com/union/分享链接/",
+"openExternal": 1,
+"class": "DepictionButtonView"
+},
+{
+"class": "DepictionSeparatorView"
+},
+{
+"markdown": "#### 版本: 1.1.5\n- 从长按温控CC模块切换改为轻触温控CC模块来改变温控低功耗与解除模式模式\n\n#### 版本: 1.1.4\n- 修复隐根环境无法使用，配置锁死情况\n\n#### 版本: 1.1.3\n- 新增温控CC模块，长按控制中心CC模块来切换低功耗与解除温控模式\n\n#### 版本: 1.1.2\n- 完善代码\n\n#### 版本: 1.1.1\n- 初次发布",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+}
+]
+}]
+}
