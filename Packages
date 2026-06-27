@@ -4503,24 +4503,7 @@ SHA1:
 SHA256: 2e70f6d6adb3bb16ec67ec1f53ab8e29c20bf90ccd8c6c93b194f69768263738
 
 Package: com.iosdump.customcallbg
-Name: CustomCallBg
-Depends: mobilesubstrate, preferenceloader
-Description: iOS 14-17 自定义来去电背景插件
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 0.0.5
-Installed-Size: 460
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.iosdump.customcallbg_0.0.5_iphoneos-arm64.deb
-Size: 41496
-MD5sum: f6a4e3d38a196a042d64c75ebe6e72db
-SHA1: 
-SHA256: e011bf9b878bb9173f6c0e9e71bd4253cd7127b7d81d95d6c5ea7b0d1b5b8309
-
-Package: com.iosdump.customcallbg
-Name: CustomCallBg
+Name: 自定义来去电背景
 Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 自定义来去电背景插件
 Maintainer: iosdump
@@ -4529,32 +4512,32 @@ Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 0.0.5
 Installed-Size: 460
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.iosdump.customcallbg_0.0.5_iphoneos-arm64e.deb
-Size: 39832
-MD5sum: 3ed250cf597e9daeac2b48e794fb0b74
+icon: https://huayuarc.github.io/icon/CustomCallBg.png
+Filename: debs/com.iosdump.customcallbg-0.0.5-roothide.deb
+Size: 39796
+MD5sum: 748c9b38ff9a26a29e66ac12a74a10d4
 SHA1: 
-SHA256: e8571f97823a282975dc8cda14999c68b57f36c36d0a344e3b78a9e350ada22c
+SHA256: 4fdd634dd4ee69b5df8cdb8ca7e41e758eaf8131f600bca1c721c4a902cb7f4c
 
 Package: com.iosdump.customcallbg
-Name: CustomCallBg
+Name: 自定义来去电背景
 Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 自定义来去电背景插件
 Maintainer: iosdump
 Author: iosdump
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 0.0.6
-Installed-Size: 764
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.iosdump.customcallbg_0.0.6_iphoneos-arm64.deb
-Size: 69892
-MD5sum: 69a6708853ea3f7d69cb2840e20407f7
+Version: 0.0.5
+Installed-Size: 460
+icon: https://huayuarc.github.io/icon/CustomCallBg.png
+Filename: debs/com.iosdump.customcallbg-0.0.5-rootless.deb
+Size: 41544
+MD5sum: c5e9e89f725b0f11381b0bc3989eb073
 SHA1: 
-SHA256: 90dcc71a71389ba1163df695b2d8294e431400d3ea23cf333c8306f55bc1dbdd
+SHA256: dfed8ab665e359e8ca12b52fb023f23c2ff6f6f19869a7d8af9b7083a7cfce62
 
 Package: com.iosdump.customcallbg
-Name: CustomCallBg
+Name: 自定义来去电背景
 Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 自定义来去电背景插件
 Maintainer: iosdump
@@ -4563,12 +4546,29 @@ Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 0.0.6
 Installed-Size: 748
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.iosdump.customcallbg_0.0.6_iphoneos-arm64e.deb
-Size: 68224
-MD5sum: 7d965f501f6395c8490afe6e46827f0b
+icon: https://huayuarc.github.io/icon/CustomCallBg.png
+Filename: debs/com.iosdump.customcallbg-0.0.6-roothide.deb
+Size: 68184
+MD5sum: 4784af231359a04d7d47f5745e477ad8
 SHA1: 
-SHA256: 65e073d3019671d015ac4ea9f71726456fad6c5d4d5da729977cd4217501d2ca
+SHA256: 57421c570bcab60d66d05e7b01e2fbed1465e361c226554158b6544ab1962795
+
+Package: com.iosdump.customcallbg
+Name: 自定义来去电背景
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 自定义来去电背景插件
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Installed-Size: 764
+icon: https://huayuarc.github.io/icon/CustomCallBg.png
+Filename: debs/com.iosdump.customcallbg-0.0.6-rootless.deb
+Size: 69976
+MD5sum: cbf92a4de00af12220a8f0309551b961
+SHA1: 
+SHA256: 94882db0bcd69da515f8e249e56893e96680d9b211d8fddb75840c2d2d737d42
 
 Package: com.iosdump.customccbg
 Name: 控制中心背景自定义
