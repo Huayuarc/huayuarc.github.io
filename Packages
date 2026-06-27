@@ -16087,6 +16087,50 @@ MD5sum: 536d26881b68d786d30f40b35accfc15
 SHA1: 
 SHA256: efe919d4cee72be722d85b8a21f4f089d098b40d81f7b51c86f110d39c9a0e84
 
+Package: xyz.cypwn.newterm3
+Name: NewTerm 3
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
+Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
+Description: A powerful terminal emulator for iOS, bug fixes and new features implemented by Korboy.
+ ****`--- New in 3.1 ---`****
+ Custom fonts with live preview
+ Customizable tab widths with border outlines
+ Current directory display in tabs (OSC 7)
+ Keyboard toolbar with haptic feedback
+ Live preferences updates
+ ****`--- Bug Fixes ---`****
+ Fixed VNC keyboard key repeat issues
+ Fixed black lines between rows at small font sizes
+ Fixed tab layout and behavior issues
+ 适用于iOS的强大终端模拟器，由Korboy实施的错误修复和新功能。
+ .
+ ****`--- 3.1的新功能 ---`****
+ 带有实时预览的自定义字体
+ 带有边框轮廓的可定制的标签宽度
+ 表符中的当前目录显示（OSC 7）
+ 带有触觉反馈的键盘工具栏
+ 实时偏好更新
+ .
+ ****`--- 错误修复 ---`****
+ 修复了VNC键盘按键重复问题
+ 在小字体大小的行之间固定了黑线
+ 修复了标签布局和行为问题
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: HASHBANG Productions, Korboy <korboybeats@gmail.com>
+Section: Terminal Support
+Icon: https://huayuarc.github.io/icon/NewTerm.png
+Tag: compatible_min::ios14.0
+Architecture: iphoneos-arm64
+Version: 3.1
+Installed-Size: 10748
+Filename: debs/xyz.cypwn.newterm3-3.1-rootless.deb
+Size: 3379004
+MD5sum: 3101052daf681fdfff5146b52630c432
+SHA1: 
+SHA256: f7d14f80a2b46daf253ff9c64f1d73585f00a8639935737e8e7586105e915805
+
 Package: xyz.cypwn.python314
 Maintainer: CyPwn
 Icon: https://huayuarc.github.io/icon/python.jpg
