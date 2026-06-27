@@ -4127,6 +4127,42 @@ MD5sum: 2e9a4a5794fd233fea3cad66606144bc
 SHA1: 
 SHA256: de49d9f8e7fe9d6c83bd10b4c8f6710792db00443f8b18699fccc54984f968bc
 
+Package: com.huayuarc.cputhermal
+Name: CPU解除温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」将 CPU 频率锁定在 2016MHz 兼顾省电与性能。可独立开关 CPU 性能保护、屏幕亮度保护、高温通知屏蔽、HID 温度事件、热状态封锁。内置 75°C 硬性安全阀，超温自动放行紧急保护。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.1.6
+Installed-Size: 1248
+Filename: debs/com.huayuarc.cputhermal-1.1.6-roothide.deb
+Size: 98000
+MD5sum: ac54ddb14dd9d6ad8fa6d7789ca32573
+SHA1: 
+SHA256: 73160dcf93099dfd42a5417e2e722ec500f88526b48627cb59b3fa2468392de9
+
+Package: com.huayuarc.cputhermal
+Name: CPU解除温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」将 CPU 频率锁定在 2016MHz 兼顾省电与性能。可独立开关 CPU 性能保护、屏幕亮度保护、高温通知屏蔽、HID 温度事件、热状态封锁。内置 75°C 硬性安全阀，超温自动放行紧急保护。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Installed-Size: 1252
+Filename: debs/com.huayuarc.cputhermal-1.1.6-rootless.deb
+Size: 100732
+MD5sum: b0a7c542bdea32b1eeb74084e48b02ff
+SHA1: 
+SHA256: 382ab9c509aeafa99f6bbac5986f5936b1b68a9b949fdc701e7733cf9121a2d9
+
 Package: com.huayuarc.flashclockpro
 Name: 悬浮时间 Pro
 Author: Huayuarc
@@ -4533,6 +4569,40 @@ Size: 68224
 MD5sum: 7d965f501f6395c8490afe6e46827f0b
 SHA1: 
 SHA256: 65e073d3019671d015ac4ea9f71726456fad6c5d4d5da729977cd4217501d2ca
+
+Package: com.iosdump.customccbg
+Name: 控制中心背景自定义
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 控制中心背景自定义
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 388
+Icon: https://huayuarc.github.io/icon/CustomCCBg.png
+Filename: debs/com.iosdump.customccbg-0.0.1-roothide.deb
+Size: 45560
+MD5sum: 4b768f06a30e8034249c22ead600e020
+SHA1: 
+SHA256: d25d70a57f4727b883f9a576d1484ec1d8521f6c6cce4d3e92537a22ee528c14
+
+Package: com.iosdump.customccbg
+Name: 控制中心背景自定义
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 控制中心背景自定义
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 388
+Icon: https://huayuarc.github.io/icon/CustomCCBg.png
+Filename: debs/com.iosdump.customccbg-0.0.1-rootless.deb
+Size: 47324
+MD5sum: 416f18d4180d779591d60ed4d1fb1587
+SHA1: 
+SHA256: 89c4e26015c4911111a9efdab9d8628ca38ffbde87f823c2ffa3ea35897607aa
 
 Package: com.iosdump.filzacarplugin
 Name: FilzaCarPlugin
