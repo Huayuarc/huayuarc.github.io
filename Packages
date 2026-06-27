@@ -3573,6 +3573,85 @@ Package: com.ethanarbuckle.objsee-framework
 Name: objsee
 Depends: firmware (>= 15.0)
 Description: objc_msgSend tracing framework (大飞修改版)
+ objsee - 运行时 ObjC 方法追踪工具
+ Hook all objc_msgSend calls in any app, trace every method invocation in real time.
+ .
+ 原作者: Ethan Arbuckle | iOS 移植: Lessica | 修改适配: 大飞
+ .
+ 用法示例 / Usage:
+ objsee --help                     查看全部选项
+ objsee -c "UIView" com.apple.springboard  按类名过滤
+ objsee -m "viewDidLoad" com.xxx.app       按方法名过滤
+ objsee -C "__NSCF*" com.xxx.app           排除系统类
+ objsee -T com.xxx.app              TUI 交互模式
+ objsee -A0 com.xxx.app             只显示调用链，不显示参数
+ objsee -A3 com.xxx.app             显示完整参数详情
+ .
+ 功能特性:
+ - 无需注入 tweak，通过 task_for_pid 直接附加目标进程
+ - 支持类名/方法名 glob 通配符过滤，含排除模式 (-C)
+ - TUI 交互模式，支持上下翻页浏览
+ - 多级参数显示 (-A0 ~ -A3)
+ - 彩色输出 + 调用深度缩进，调用链一目了然
+ - 支持 arm64 / arm64e 设备
+ 原项目: https://github.com/Lessica/objsee-ios
+Maintainer: Ethan Arbuckle <ethan@objsee.io>
+Author: Ethan Arbuckle, Lessica, 大飞
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 4392
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.ethanarbuckle.objsee-framework-0.0.3-roothide.deb
+Size: 613076
+MD5sum: 9432f03ca1e0ff713e26c15e014c73da
+SHA1: 
+SHA256: 0198d71742377d397cfba4a400d828b8fc24bd507ff04aac1b4edff17ff722b4
+
+Package: com.ethanarbuckle.objsee-framework
+Name: objsee
+Depends: firmware (>= 15.0)
+Description: objc_msgSend tracing framework (大飞修改版)
+ objsee - 运行时 ObjC 方法追踪工具
+ Hook all objc_msgSend calls in any app, trace every method invocation in real time.
+ .
+ 原作者: Ethan Arbuckle | iOS 移植: Lessica | 修改适配: 大飞
+ .
+ 用法示例 / Usage:
+ objsee --help                     查看全部选项
+ objsee -c "UIView" com.apple.springboard  按类名过滤
+ objsee -m "viewDidLoad" com.xxx.app       按方法名过滤
+ objsee -C "__NSCF*" com.xxx.app           排除系统类
+ objsee -T com.xxx.app              TUI 交互模式
+ objsee -A0 com.xxx.app             只显示调用链，不显示参数
+ objsee -A3 com.xxx.app             显示完整参数详情
+ .
+ 功能特性:
+ - 无需注入 tweak，通过 task_for_pid 直接附加目标进程
+ - 支持类名/方法名 glob 通配符过滤，含排除模式 (-C)
+ - TUI 交互模式，支持上下翻页浏览
+ - 多级参数显示 (-A0 ~ -A3)
+ - 彩色输出 + 调用深度缩进，调用链一目了然
+ - 支持 arm64 / arm64e 设备
+ 原项目: https://github.com/Lessica/objsee-ios
+Maintainer: Ethan Arbuckle <ethan@objsee.io>
+Author: Ethan Arbuckle, Lessica, 大飞
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 4392
+Filename: debs/com.ethanarbuckle.objsee-framework-0.0.3-rootless.deb
+Size: 612932
+MD5sum: 645bf7e89cb16876e7681d33f2951409
+SHA1: 
+SHA256: 98bc1a46a7257d786397a42a39374f0db703bdc512c99735bbd7cd6b140629a3
+
+Package: com.ethanarbuckle.objsee-framework
+Name: objsee
+Depends: firmware (>= 15.0)
+Description: objc_msgSend tracing framework (大飞修改版)
   objsee - 运行时 ObjC 方法追踪工具
   Hook all objc_msgSend calls in any app, trace every method invocation in real time.
   .
