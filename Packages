@@ -16041,6 +16041,40 @@ MD5sum: 536d26881b68d786d30f40b35accfc15
 SHA1: 
 SHA256: efe919d4cee72be722d85b8a21f4f089d098b40d81f7b51c86f110d39c9a0e84
 
+Package: xyz.cypwn.newterm3
+Name: NewTerm 3
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
+Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
+Description: A powerful terminal emulator for iOS, bug fixes and new features implemented by Korboy.
+ ****`--- New in 3.1 ---`****
+ Custom fonts with live preview
+ Customizable tab widths with border outlines
+ Current directory display in tabs (OSC 7)
+ Keyboard toolbar with haptic feedback
+ Live preferences updates
+ .
+ ****`--- Bug Fixes ---`****
+ Fixed VNC keyboard key repeat issues
+ Fixed black lines between rows at small font sizes
+ Fixed tab layout and behavior issues
+Depiction: https://repo.cypwn.xyz/depiction/3479
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3479
+Maintainer: Korboy <korboybeats@gmail.com>
+Author: HASHBANG Productions, Korboy <korboybeats@gmail.com>
+Section: Terminal Support
+Icon: https://huayuarc.github.io/icon/NewTerm.png
+Tag: compatible_min::ios14.0
+Architecture: iphoneos-arm64
+Version: 3.1
+Installed-Size: 10748
+Filename: debs/xyz.cypwn.newterm3-3.1-rootless.deb
+Size: 3378536
+MD5sum: fa91413c3ef971db5483df6de512df59
+SHA1: 
+SHA256: eea773a2b8667daab2674c399e27b0ad748bcf18345d5206ad163541195ca86a
+
 Package: xyz.cypwn.python314
 Maintainer: CyPwn
 Icon: https://huayuarc.github.io/icon/python.jpg
