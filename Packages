@@ -5064,24 +5064,7 @@ SHA1:
 SHA256: c49f8b312b786a2ff19d35c6de0f6c1c8d79ad1b3cd624c03890b3e7f5f87904
 
 Package: com.iosdump.trollcmtweak
-Name: TrollCM
-Depends: mobilesubstrate, preferenceloader
-Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.1.4
-icon: https://huayuarc.github.io/icon/TrollCM.png
-Installed-Size: 444
-Filename: debs/com.iosdump.trollcmtweak_1.1.4_iphoneos-arm64.deb
-Size: 53664
-MD5sum: 5dbdc6747ec3e5d9a9fd77a6efab1000
-SHA1: 
-SHA256: 5aa31b797e93d1ced652232677536b888e4bfad01d720d9f24aaa13a95664659
-
-Package: com.iosdump.trollcmtweak
-Name: TrollCM
+Name: 屏幕触摸轨迹
 Depends: mobilesubstrate, preferenceloader
 Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
 Maintainer: iosdump
@@ -5091,11 +5074,96 @@ Architecture: iphoneos-arm64e
 Version: 1.1.4
 icon: https://huayuarc.github.io/icon/TrollCM.png
 Installed-Size: 444
-Filename: debs/com.iosdump.trollcmtweak_1.1.4_iphoneos-arm64e.deb
-Size: 53468
-MD5sum: a2aacb0bda796b2247ac1ee49826fd2f
+Filename: debs/com.iosdump.trollcmtweak-1.1.4-roothide.deb
+Size: 53444
+MD5sum: d595afa4c980eb4b8df4fbc247419546
 SHA1: 
-SHA256: 3af70248ae3b22237aae2e8966ab65a68ff8f34bd0eed987c189e5a209d97f29
+SHA256: b5119697e7c9052c42db9ad48492046b7c424df0b177035bba8d995a574f52ff
+
+Package: com.iosdump.trollcmtweak
+Name: 屏幕触摸轨迹
+Depends: mobilesubstrate, preferenceloader
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1.4
+icon: https://huayuarc.github.io/icon/TrollCM.png
+Installed-Size: 444
+Filename: debs/com.iosdump.trollcmtweak-1.1.4-rootless.deb
+Size: 53716
+MD5sum: 62ab86088f984840782a54d10e56a040
+SHA1: 
+SHA256: 7e59615c11c0fcce592e66b5b4aed89c49a50f369bbb432bf967bde3d6291533
+
+Package: com.iosdump.trollcmtweak
+Name: 屏幕触摸轨迹
+Depends: mobilesubstrate, preferenceloader
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Installed-Size: 444
+icon: https://huayuarc.github.io/icon/TrollCM.png
+Filename: debs/com.iosdump.trollcmtweak-1.1.5-roothide.deb
+Size: 55908
+MD5sum: b139da2d96273e5ba44a3cfe237d9669
+SHA1: 
+SHA256: d70110c979ff06f0ec69396946f8c4fd8cbc3927469b57ba25928bf09af3894f
+
+Package: com.iosdump.trollcmtweak
+Name: 屏幕触摸轨迹
+Depends: mobilesubstrate, preferenceloader
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1.5
+Installed-Size: 444
+icon: https://huayuarc.github.io/icon/TrollCM.png
+Filename: debs/com.iosdump.trollcmtweak-1.1.5-rootless.deb
+Size: 56012
+MD5sum: ca939439a347320b15d53bf5b13bb326
+SHA1: 
+SHA256: 595bc06571dd2dc52e1fb284dea8e3975e2b4f897c6d19c306c2b52b2dcf8358
+
+Package: com.iosdump.trollcmtweak
+Name: 屏幕触摸轨迹
+Depends: mobilesubstrate, preferenceloader
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1.6
+Installed-Size: 444
+icon: https://huayuarc.github.io/icon/TrollCM.png
+Filename: debs/com.iosdump.trollcmtweak-1.1.6-roothide.deb
+Size: 56068
+MD5sum: 28095e29f788fc15a78d8424f7dd13d8
+SHA1: 
+SHA256: 3ad0204967d2db6f68101994ab42f9645a4386dcffa094d70d15b18b80d9d1aa
+
+Package: com.iosdump.trollcmtweak
+Name: 屏幕触摸轨迹
+Depends: mobilesubstrate, preferenceloader
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Installed-Size: 444
+icon: https://huayuarc.github.io/icon/TrollCM.png
+Filename: debs/com.iosdump.trollcmtweak-1.1.6-rootless.deb
+Size: 56756
+MD5sum: ef70d477d70d924231c4dea770005f68
+SHA1: 
+SHA256: 1dfd7f4c7b49626fe4de001d23386d233b82512e4c605f1d1d2c9317bbbdb80e
 
 Package: com.iosdump.zone
 Name: Zone
