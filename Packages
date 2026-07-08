@@ -1565,6 +1565,53 @@ MD5sum: 0a918efaa803b33321107827d0f45789
 SHA1: 
 SHA256: ac8186e64ebb996d066ef2660c0844151f11381d2dbbd4cdaf7e5907eb4c5504
 
+Package: com.axs.ios16dao
+Name: ios16~17动态岛
+Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。
+ * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
+ * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
+ * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
+ * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
+ * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
+Maintainer: Axs
+Author: Axs
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
+SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
+Architecture: iphoneos-arm64e
+Version: 5.2.0-244
+Installed-Size: 704
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.axs.ios16dao-5.2.0-244-roothide.deb
+Size: 86064
+MD5sum: bc454bf7c0beaf7b44d21cde729cffc2
+SHA1: 
+SHA256: 2ffaef4f99e8a1f9e3214a7d7a91220c7fecbd93a5e5f46cdf079325e9cc0b84
+
+Package: com.axs.ios16dao
+Name: ios16~17动态岛
+Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。
+ * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
+ * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
+ * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
+ * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
+ * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
+Maintainer: Axs
+Author: Axs
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
+SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
+Architecture: iphoneos-arm64
+Version: 5.2.0-244
+Installed-Size: 704
+Filename: debs/com.axs.ios16dao-5.2.0-244-rootless.deb
+Size: 87784
+MD5sum: 17ef8c0e70501dd822df476cf71e5b3a
+SHA1: 
+SHA256: 78492596ec3deabf0b450b9dc0186daab0dbbf9e8fb6c00a038e85d2ba14614f
+
 Package: com.ayao.doubaopowerbutton
 Name: DoubaoPowerButton
 Description: 长按关机键触发豆包语音入口，并保留音量键加关机键的系统原始关机操作。
@@ -2259,6 +2306,40 @@ Size: 1120856
 MD5sum: 06f63c129769e030d62339403830e536
 SHA1: 
 SHA256: 523e2a9376ed17d4569b6a5e0f65bb16661e85cc05109ba79abe94e13467ba5d
+
+Package: com.colorblack.alinfcwakefix
+Name: 支付宝助手
+Description: 支付宝助手，优化支付宝碰一碰支付功能，改善碰一碰没反应、反应过慢问题。仅 beta 测试版。QQ群：205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.0.36
+Installed-Size: 996
+Icon: https://huayuarc.github.io/icon/zfbpyp.jpg
+Filename: debs/com.colorblack.alinfcwakefix-0.0.36-roothide.deb
+Size: 334368
+MD5sum: d599de0e0dedfc06b2f4bafc7854a5e0
+SHA1: 
+SHA256: a1048569363499fe3b5a2f5b9c6f35da41c5b30ec98e369a1f03e05229481fe4
+
+Package: com.colorblack.alinfcwakefix
+Name: 支付宝助手
+Description: 支付宝助手，优化支付宝碰一碰支付功能，改善碰一碰没反应、反应过慢问题。仅 beta 测试版。QQ群：205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.0.36
+Installed-Size: 996
+Icon: https://huayuarc.github.io/icon/zfbpyp.jpg
+Filename: debs/com.colorblack.alinfcwakefix-0.0.36-rootless.deb
+Size: 334492
+MD5sum: 8d2e528db62145988445a41d08eceb96
+SHA1: 
+SHA256: 598b3202fa884af5d22b83f2e3c03f6395c666e1fe28fa34a4cb215bf3ea6edf
 
 Package: com.colorblack.amap.nosplashad
 Name: Gaode-NoAd
@@ -7682,6 +7763,41 @@ Size: 173780
 MD5sum: 7ee98fc98e3c7a5db062da95baf4d2d6
 SHA1: 
 SHA256: 06c2d103c55cb0c7f65ff5c817dfe22b9123e789838387cb4a15fd5d49ce2106
+
+Package: com.rain.raindyn
+Name: Rain的灵动卡片
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Description: Rain的灵动卡片 - 自定义通知卡片动画效果，支持自定义背景、粒子特效、宠物、天气显示等丰富功能。
+Maintainer: Rain
+Author: Rain
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.0-9+debug
+Installed-Size: 780
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/lingdd.jpg
+Filename: debs/com.rain.raindyn-1.2.0-9+debug-roothide.deb
+Size: 65888
+MD5sum: fd66c3b2b55d0c0be6f507edf97bf0f6
+SHA1: 
+SHA256: f260cc1db27a037209bf59492d8049803c07a1c0ca7f4ce9e051f714e629750a
+
+Package: com.rain.raindyn
+Name: Rain的灵动卡片
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Description: Rain的灵动卡片 - 自定义通知卡片动画效果，支持自定义背景、粒子特效、宠物、天气显示等丰富功能。
+Maintainer: Rain
+Author: Rain
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.0-9+debug
+Installed-Size: 780
+Icon: https://huayuarc.github.io/icon/lingdd.jpg
+Filename: debs/com.rain.raindyn-1.2.0-9+debug-rootless.deb
+Size: 67488
+MD5sum: ee6af41d0f55ef4b9f865802daa5b2a0
+SHA1: 
+SHA256: 9e7bedbe05b532b34af7be2a056185ce94b8a796bfffcd17f0a18f5725982904
 
 Package: com.rain.rainmhz
 Name: Rain的Mhz
@@ -13607,6 +13723,40 @@ Size: 1876528
 MD5sum: f8ef48efb1d63c3694b4c103655038a0
 SHA1: 
 SHA256: 66eed0c1f62ee15b27095c77a6ef624bd3ffe9408c2d7bd7171b6eb3ba5f98b8
+
+Package: com.wkk.flex
+Name: Flex
+Description: 一个好用的Flex改版，同时按住音量+和-呼出，长按类名即可复制类名，无设置项。
+Maintainer: Joshua Wheeler & wkk
+Author: Joshua Wheeler & wkk
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0-1
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Installed-Size: 3020
+Filename: debs/com.wkk.flex-1.0-1-roothide.deb
+Size: 648116
+MD5sum: a4153ba512171754a175093c09cb4c6d
+SHA1: 
+SHA256: dc32e26369783420baa59f5105a26bfdaf9f1c3ec77968ae1a684b9f470687fd
+
+Package: com.wkk.flex
+Name: Flex
+Description: 一个好用的Flex改版，同时按住音量+和-呼出，长按类名即可复制类名，无设置项。
+Maintainer: Joshua Wheeler & wkk
+Author: Joshua Wheeler & wkk
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0-1
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Installed-Size: 3020
+Filename: debs/com.wkk.flex-1.0-1-rootless.deb
+Size: 649868
+MD5sum: d6e78b368d5b378b2282219dae1c89cd
+SHA1: 
+SHA256: 150726f59578cd3f5bfd2f8e8cb45ff9333074eb07c05d83dfb0dd137802f4a3
 
 Package: com.xamy.othellohelpervipunlock
 Name: OthelloHelper VIP Unlock
