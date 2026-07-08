@@ -13724,40 +13724,6 @@ MD5sum: f8ef48efb1d63c3694b4c103655038a0
 SHA1: 
 SHA256: 66eed0c1f62ee15b27095c77a6ef624bd3ffe9408c2d7bd7171b6eb3ba5f98b8
 
-Package: com.wkk.flex
-Name: Flex
-Description: 一个好用的Flex改版，同时按住音量+和-呼出，长按类名即可复制类名，无设置项。
-Maintainer: Joshua Wheeler & wkk
-Author: Joshua Wheeler & wkk
-Section: Tweaks
-Depends: mobilesubstrate
-Architecture: iphoneos-arm64e
-Version: 1.0-1
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Installed-Size: 3020
-Filename: debs/com.wkk.flex-1.0-1-roothide.deb
-Size: 648116
-MD5sum: a4153ba512171754a175093c09cb4c6d
-SHA1: 
-SHA256: dc32e26369783420baa59f5105a26bfdaf9f1c3ec77968ae1a684b9f470687fd
-
-Package: com.wkk.flex
-Name: Flex
-Description: 一个好用的Flex改版，同时按住音量+和-呼出，长按类名即可复制类名，无设置项。
-Maintainer: Joshua Wheeler & wkk
-Author: Joshua Wheeler & wkk
-Section: Tweaks
-Depends: mobilesubstrate
-Architecture: iphoneos-arm64
-Version: 1.0-1
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Installed-Size: 3020
-Filename: debs/com.wkk.flex-1.0-1-rootless.deb
-Size: 649868
-MD5sum: d6e78b368d5b378b2282219dae1c89cd
-SHA1: 
-SHA256: 150726f59578cd3f5bfd2f8e8cb45ff9333074eb07c05d83dfb0dd137802f4a3
-
 Package: com.xamy.othellohelpervipunlock
 Name: OthelloHelper VIP Unlock
 Depends: mobilesubstrate, com.apple.springboard
