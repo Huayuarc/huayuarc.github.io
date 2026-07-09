@@ -1983,6 +1983,39 @@ SHA256: fafa65e64e618f70066d5496f001dbea011311735c0ddbd6c1ae25432c2570c2
 
 Package: com.be-huge.insulation
 Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.36.33
+Installed-Size: 612
+icon: https://huayuarc.github.io/icon/Insulation.png
+Filename: debs/com.be-huge.insulation-0.1.36.33-roothide.deb
+Size: 50004
+MD5sum: 980933367cf529e3ad455317c802c6bd
+SHA1: 
+SHA256: 4dd97fa062ef38d53f0df3a3186a34247d6f2b7b1fc482615251f139f66be45e
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。代码来自开源项目：https://github.com/be-huge/insulation
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.1.36.33
+icon: https://huayuarc.github.io/icon/Insulation.png
+Filename: debs/com.be-huge.insulation-0.1.36.33-rootless.deb
+Size: 52748
+MD5sum: e29f02c12258ab580ab8cf420bb56a3f
+SHA1: 
+SHA256: 9f718d6b9afd8b6100832882ddfd647a0802a8c576bc971e3f1f023a6a63b2d2
+
+Package: com.be-huge.insulation
+Name: insulation
 Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
 Maintainer: be-huge
 Author: be-huge
