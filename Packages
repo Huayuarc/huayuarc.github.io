@@ -3508,6 +3508,42 @@ MD5sum: 03020a248236a3641f523878aca56aef
 SHA1: 
 SHA256: bc7dd30373cf571fe55bf3817e5d68c8f59275633fba31b57e59c207ab2ca476
 
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: Force 120Hz ProMotion — Overrides the 80Hz system limit. Requires iPhone 13 Pro or later.强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Installed-Size: 236
+icon: https://huayuarc.github.io/icon/120hz.jpg
+Filename: debs/com.doimty.promotion-1.0.7-roothide.deb
+Size: 25476
+MD5sum: 64606f49ea12f5ae0b5adc74532c247c
+SHA1: 
+SHA256: 8aeac5aa5f3c91df9ce53b0ad965984e18164143bbacd05b3b7f15b438e69196
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: Force 120Hz ProMotion — Overrides the 80Hz system limit. Requires iPhone 13 Pro or later.强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Installed-Size: 236
+icon: https://huayuarc.github.io/icon/120hz.jpg
+Filename: debs/com.doimty.promotion-1.0.7-rootless.deb
+Size: 25552
+MD5sum: f33bea042e0f43245311c855eaf20db2
+SHA1: 
+SHA256: f33d176a0dc71150299a8464984336dd57fb35008430686679f2912c71fc95c0
+
 Package: com.Doki.wxkeyboarduihook
 Name: WXKeyboardUIHook
 Depends: mobilesubstrate, firmware (>= 14.0)
@@ -4535,6 +4571,42 @@ Size: 105684
 MD5sum: 7969c411a985e9809f95f178ce42aeb0
 SHA1: 
 SHA256: ffe4ff6d11d5ef6ed73e1e23f84a35f4a1e96924b0b2fcab9a2ca00f718a8c38
+
+Package: com.huayuarc.cputhermal
+Name: CPU防温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「防温控」减少降频/降亮度，「低功耗」限制 CPU 最高 2016MHz 兼顾省电与性能。可独立开关 CPU 性能保护、屏幕亮度保护、高温通知屏蔽、HID 温度事件、热状态封锁。内置 65°C 硬性安全阀，超温或读温失败自动放行系统保护。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Installed-Size: 816
+Filename: debs/com.huayuarc.cputhermal-1.2.2-roothide.deb
+Size: 68560
+MD5sum: 2e07289797a79e183bbcc5d3109a8efd
+SHA1: 
+SHA256: 2396442d51ca44510a82a84fdaf35d527ae97050c80670a5c7ee10aafb5297c6
+
+Package: com.huayuarc.cputhermal
+Name: CPU防温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「防温控」减少降频/降亮度，「低功耗」限制 CPU 最高 2016MHz 兼顾省电与性能。可独立开关 CPU 性能保护、屏幕亮度保护、高温通知屏蔽、HID 温度事件、热状态封锁。内置 65°C 硬性安全阀，超温或读温失败自动放行系统保护。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Installed-Size: 820
+Filename: debs/com.huayuarc.cputhermal-1.2.2-rootless.deb
+Size: 70724
+MD5sum: 71fa82dd86f8d4d646764df7a7bd38ca
+SHA1: 
+SHA256: 4645a8785d90ec18a67b27e440c69336ab042f82d2705d8d1f97ab9058100ac4
 
 Package: com.huayuarc.flashclockpro
 Name: 悬浮时间 Pro
