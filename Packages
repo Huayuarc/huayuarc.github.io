@@ -1601,53 +1601,6 @@ MD5sum: 0a918efaa803b33321107827d0f45789
 SHA1: 
 SHA256: ac8186e64ebb996d066ef2660c0844151f11381d2dbbd4cdaf7e5907eb4c5504
 
-Package: com.axs.ios16dao
-Name: ios16~17动态岛
-Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。
- * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
- * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
- * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
- * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
- * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
-Maintainer: Axs
-Author: Axs
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
-SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
-Architecture: iphoneos-arm64e
-Version: 5.2.0-244
-Installed-Size: 704
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.axs.ios16dao-5.2.0-244-roothide.deb
-Size: 86064
-MD5sum: bc454bf7c0beaf7b44d21cde729cffc2
-SHA1: 
-SHA256: 2ffaef4f99e8a1f9e3214a7d7a91220c7fecbd93a5e5f46cdf079325e9cc0b84
-
-Package: com.axs.ios16dao
-Name: ios16~17动态岛
-Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。
- * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
- * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
- * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
- * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
- * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
-Maintainer: Axs
-Author: Axs
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
-SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
-Architecture: iphoneos-arm64
-Version: 5.2.0-244
-Installed-Size: 704
-Filename: debs/com.axs.ios16dao-5.2.0-244-rootless.deb
-Size: 87784
-MD5sum: 17ef8c0e70501dd822df476cf71e5b3a
-SHA1: 
-SHA256: 78492596ec3deabf0b450b9dc0186daab0dbbf9e8fb6c00a038e85d2ba14614f
-
 Package: com.ayao.doubaopowerbutton
 Name: DoubaoPowerButton
 Description: 长按关机键触发豆包语音入口，并保留音量键加关机键的系统原始关机操作。
