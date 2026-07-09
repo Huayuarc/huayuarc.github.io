@@ -7695,42 +7695,194 @@ SHA256: f297b84ae432df49b81d247af50ef6103f8d23d701d8f85364e459db2f1ad293
 
 Package: com.ps.amber
 Name: Amber
-Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
-Description: Amber-ify your flashlight LEDs.
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Description: Amber-ify your flashlight LEDs.将您的手电筒LED化为琥珀色。
 Author: PoomSmart
 Maintainer: PoomSmart
 Section: Tweaks
 Depiction: https://poomsmart.github.io/repo/depictions/amber.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
-Architecture: iphoneos-arm64
-Version: 1.2.4
-Installed-Size: 304
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.ps.amber_1.2.4_iphoneos-arm64.deb
-Size: 8768
-MD5sum: 431abee15f1f1c69cb8664d2bafb79f6
+Version: 1.2.0
+Installed-Size: 368
+Icon: https://huayuarc.github.io/icon/Amber.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.ps.amber-1.2.0-roothide.deb
+Size: 9176
+MD5sum: 422ef0050381fb36e5983fe69a1f62dc
 SHA1: 
-SHA256: 8b31aac99f232055b9dcbc0df94e089cff65aa399e1bd807d0097186d3f43854
+SHA256: 6e79d4932653fd89653e7374d87e7348240dfe9f9808e371e2bb4d29fdbeae64
 
 Package: com.ps.amber
 Name: Amber
-Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
-Description: Amber-ify your flashlight LEDs.
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 14.0)
+Architecture: iphoneos-arm64
+Description: Amber-ify your flashlight LEDs.将您的手电筒LED化为琥珀色。
+Author: PoomSmart
+Maintainer: PoomSmart
+Section: Tweaks
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+Version: 1.2.0
+Installed-Size: 368
+Icon: https://huayuarc.github.io/icon/Amber.jpg
+Filename: debs/com.ps.amber-1.2.0-rootless.deb
+Size: 9616
+MD5sum: d953c27fb8c68c7aed405e6e2660a621
+SHA1: 
+SHA256: ced715291e6107b452d7be6d2016f3957c4811a5fd7542690e7fae4b0f491285
+
+Package: com.ps.amber
+Name: Amber
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 14.0)
+Description: Amber-ify your flashlight LEDs.将您的手电筒LED化为琥珀色。
 Author: PoomSmart
 Maintainer: PoomSmart
 Section: Tweaks
 Depiction: https://poomsmart.github.io/repo/depictions/amber.html
 SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
 Architecture: iphoneos-arm64e
-Version: 1.2.4
-Installed-Size: 304
+Version: 1.2.1
+Installed-Size: 368
+Icon: https://huayuarc.github.io/icon/Amber.jpg
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.ps.amber_1.2.4_iphoneos-arm64e.deb
-Size: 8412
-MD5sum: c764cf7a27431c24c3a1c585a38d1d41
+Filename: debs/com.ps.amber-1.2.1-roothide.deb
+Size: 9336
+MD5sum: d46f5ef56095ca3594ee88e17fbbeb78
 SHA1: 
-SHA256: 58c8c165600e5901d52c9406022844878933460c8222800d9b6e137132ff2934
+SHA256: 6d42ad2c60dc508112d52a78a1e1138be5c756759ac85941eef5a1450f11efb1
+
+Package: com.ps.amber
+Name: Amber
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 14.0)
+Description: Amber-ify your flashlight LEDs.将您的手电筒LED化为琥珀色。
+Author: PoomSmart
+Maintainer: PoomSmart
+Section: Tweaks
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Installed-Size: 368
+Icon: https://huayuarc.github.io/icon/Amber.jpg
+Filename: debs/com.ps.amber-1.2.1-rootless.deb
+Size: 9796
+MD5sum: d68603eb075aadae80ff0c3ad725d035
+SHA1: 
+SHA256: 10793afa24478892d99cdab352c60d7d147c45e96967cdb7c0963cbd7b443283
+
+Package: com.ps.amber
+Name: Amber
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 14.0)
+Description: Amber-ify your flashlight LEDs.将您的手电筒LED化为琥珀色。
+Author: PoomSmart
+Maintainer: PoomSmart
+Section: Tweaks
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Installed-Size: 304
+Icon: https://huayuarc.github.io/icon/Amber.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.ps.amber-1.2.2-roothide.deb
+Size: 8512
+MD5sum: 61b2271365c4c5d90e31e20df1f622d4
+SHA1: 
+SHA256: f7c085a9f0f80aed0c16ce32138f65e51390c4f56c7f96f2687336ff4d8e814d
+
+Package: com.ps.amber
+Name: Amber
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 14.0)
+Description: Amber-ify your flashlight LEDs.将您的手电筒LED化为琥珀色。
+Author: PoomSmart
+Maintainer: PoomSmart
+Section: Tweaks
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Installed-Size: 304
+Icon: https://huayuarc.github.io/icon/Amber.jpg
+Filename: debs/com.ps.amber-1.2.2-rootless.deb
+Size: 8844
+MD5sum: 925c134030ac85178d910953d773ad2f
+SHA1: 
+SHA256: 16365cb96945a47ef4422a74aea3ad769bb9469d462b1f07374fed749fac9ca2
+
+Package: com.ps.amber
+Name: Amber
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
+Description: Amber-ify your flashlight LEDs.将您的手电筒LED化为琥珀色。
+Author: PoomSmart
+Maintainer: PoomSmart
+Section: Tweaks
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Installed-Size: 304
+Icon: https://huayuarc.github.io/icon/Amber.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.ps.amber-1.2.3-roothide.deb
+Size: 8608
+MD5sum: a5da83726de6be8e6431078c7aa4f3e8
+SHA1: 
+SHA256: d9d88e949ee612e191bcc520644e77f5d952921f0d8c7e97f1cee6ce3f0ee283
+
+Package: com.ps.amber
+Name: Amber
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
+Description: Amber-ify your flashlight LEDs.将您的手电筒LED化为琥珀色。
+Author: PoomSmart
+Maintainer: PoomSmart
+Section: Tweaks
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+SileoDepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Installed-Size: 304
+Icon: https://huayuarc.github.io/icon/Amber.jpg
+Filename: debs/com.ps.amber-1.2.3-rootless.deb
+Size: 8936
+MD5sum: 42624a92ea8c98d622198f05333f5e26
+SHA1: 
+SHA256: e5353a3b972213067627acf2c8f1313b5175dab598d7b5b90dcad762c986bdc7
+
+Package: com.ps.ambercctoggle
+Name: Amber CC Toggle
+Depends: firmware (>= 11.0), gsc.camera-flash, com.opa334.ccsupport, com.ps.amber (>= 1.1.0)
+Description: Control Center toggle for Amber tweak.
+Author: PoomSmart
+Maintainer: PoomSmart
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 184
+Icon: https://huayuarc.github.io/icon/Amber.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.ps.ambercctoggle-1.0.0-roothide.deb
+Size: 7172
+MD5sum: 75cba86fce8ef134a56d0b95f116f3aa
+SHA1: 
+SHA256: ce40801a4e04956aa321336f73ad5349ba639787c0f5f76bcb0506fc33f216a1
+
+Package: com.ps.ambercctoggle
+Name: Amber CC Toggle
+Depends: firmware (>= 11.0), gsc.camera-flash, com.opa334.ccsupport, com.ps.amber (>= 1.1.0)
+Description: Control Center toggle for Amber tweak.
+Author: PoomSmart
+Maintainer: PoomSmart
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 184
+Icon: https://huayuarc.github.io/icon/Amber.jpg
+Filename: debs/com.ps.ambercctoggle-1.0.0-rootless.deb
+Size: 7344
+MD5sum: c636abab9056befff8fab18d502a4ac1
+SHA1: 
+SHA256: 2886fa279827549963cfb721d33d355601421e9e67cf0a46844ddca22f1a95f3
 
 Package: com.ps.cconandoff
 Name: CC On Name: CC On & Off-rootless Off
