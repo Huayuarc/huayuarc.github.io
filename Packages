@@ -930,6 +930,42 @@ Section: Tweaks
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
 Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
 SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+Architecture: iphoneos-arm64e
+Version: 3.6.0-5
+Installed-Size: 1212
+Filename: debs/codes.aurora.kayoko-3.6.0-5-roothide.deb
+Size: 166892
+MD5sum: 512343877e560526ae1148eeeeec9a09
+SHA1: 
+SHA256: 88d28d8f91fc4c21d993759d9125c66c7ba85ff5912485900b1de134b6850a94
+
+Package: codes.aurora.kayoko
+Name: Hello Kayoko
+Description: Clipboard manager for iOS.
+Maintainer: Lessica <82flex@gmail.com>
+Author: Alexandra Aurora Göttlicher
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+Architecture: iphoneos-arm64
+Version: 3.6.0-5
+Installed-Size: 1228
+Filename: debs/codes.aurora.kayoko-3.6.0-5-rootless.deb
+Size: 168160
+MD5sum: d69a2f32aefa43d8de1928b40af2e40c
+SHA1: 
+SHA256: 8b80b9cb2518a6f223b941ce457500d509633ec66b39e1ed3321160b7fb1d59e
+
+Package: codes.aurora.kayoko
+Name: Hello Kayoko
+Description: Clipboard manager for iOS.
+Maintainer: Lessica <82flex@gmail.com>
+Author: Alexandra Aurora Göttlicher
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
 Architecture: iphoneos-arm64
 Version: 3.3.6-3
 Installed-Size: 1040
