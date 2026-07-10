@@ -5091,6 +5091,40 @@ MD5sum: 72eb2e03d3446430c95593c0dfd4f1f3
 SHA1: 
 SHA256: 870249163d893867fc53c77d11017a2b1213ec86f9919a8929bc8f3c9384ab4d
 
+Package: com.iosdump.hotaiqingli
+Name: 后台一键清理
+Depends: mobilesubstrate
+Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 240
+Icon: https://huayuarc.github.io/icon/ql.jpg
+Filename: debs/com.iosdump.hotaiqingli-0.0.2-roothide.deb
+Size: 24592
+MD5sum: 5d0a9748d6b4dfe50fceb7c5c0cd1d2f
+SHA1: 
+SHA256: c249be2d7f42941bae9517927cf5678c30eafe18b18915f3645afd49bd8b9cc5
+
+Package: com.iosdump.hotaiqingli
+Name: 后台一键清理
+Depends: mobilesubstrate
+Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Installed-Size: 240
+Icon: https://huayuarc.github.io/icon/ql.jpg
+Filename: debs/com.iosdump.hotaiqingli-0.0.2-rootless.deb
+Size: 24664
+MD5sum: c4a45b3af17333e734bbb83290d31131
+SHA1: 
+SHA256: fa2790ad120628e3e3e996cdbe8b8dbacc38a843aa82817aa8f580d7eb77f66e
+
 Package: com.iosdump.jumpselect
 Name: JumpSelect
 Depends: mobilesubstrate, preferenceloader
