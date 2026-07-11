@@ -16739,6 +16739,84 @@ MD5sum: 49ad30aa7a7f72f088c4908c0766cfec
 SHA1: 
 SHA256: 3f632f625a37cb0d723de6657f435ad5af2ac47af24aebfc1c1727262af6a868
 
+Package: xyz.cypwn.carbridge13
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/2847
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2847
+Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
+Author: leftyfl1p
+Architecture: iphoneos-arm64e
+Description: Open any app in CarPlay! CarPlay
+Version: 2.0.13
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Name: CarBridge
+Section: Tweaks
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.carbridge13-2.0.13-roothide.deb
+Size: 432148
+MD5sum: 25964b5221fcbf91deca97cf9016b5b6
+SHA1: 
+SHA256: 4dc4c256a58a88033eff4321cb7aeef2c44ba4c9fae6fb12fd09996796520b5c
+
+Package: xyz.cypwn.carbridge13
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/2847
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2847
+Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
+Author: leftyfl1p
+Architecture: iphoneos-arm64
+Description: Open any app in CarPlay! CarPlay
+Version: 2.0.13
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Name: CarBridge
+Section: Tweaks
+Filename: debs/xyz.cypwn.carbridge13-2.0.13-rootless.deb
+Size: 434880
+MD5sum: 48e4a97289b235c311f774759c66fe52
+SHA1: 
+SHA256: b1516ef386d2417ff9e2ee9b5eb3fc9ad2c69d11f2502baa21dc0dc94c47e015
+
+Package: xyz.cypwn.carbridge13
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/2850
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2850
+Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
+Section: Tweaks
+Installed-Size: 7344
+Architecture: iphoneos-arm64e
+Version: 2.0.14
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Description: Open any app in CarPlay!
+Name: CarBridge
+Author: leftyfl1p <carbridge@havoc.app>
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.carbridge13-2.0.14-roothide.deb
+Size: 431408
+MD5sum: e07d63faa85d97eb38c3e13834a0e9f6
+SHA1: 
+SHA256: 02a3d2e6227ed17195ff74d1d52d540f375eeb68a2b98c19f375c2a09886add9
+
+Package: xyz.cypwn.carbridge13
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/2850
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2850
+Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
+Section: Tweaks
+Installed-Size: 7344
+Architecture: iphoneos-arm64
+Version: 2.0.14
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Description: Open any app in CarPlay!
+Name: CarBridge
+Author: leftyfl1p <carbridge@havoc.app>
+Filename: debs/xyz.cypwn.carbridge13-2.0.14-rootless.deb
+Size: 434132
+MD5sum: fb46cb6a050d450b730fae137b22020a
+SHA1: 
+SHA256: 60fa1892d163514be10d0a2b47b67f2614ec53f7beb5bf51c3908bcc7755b9d1
+
 Package: xyz.cypwn.designer
 Maintainer: CyPwn
 Depiction: https://repo.cypwn.xyz/depiction/3393
