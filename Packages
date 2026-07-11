@@ -4702,6 +4702,42 @@ MD5sum: f10fd6d72a19f182dff0a68d8cbfa8fd
 SHA1: 
 SHA256: dff6e602dc9897fe213d03dcc5a39c01c0a3baae5ca3e225651e54abbf439b7d
 
+Package: com.huayuarc.cputhermal
+Name: CPU防温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 + CPMS 功率目标设定 + 持续对抗定时器(0.8s周期)。支持双功率模式：「防温控」GPU功率下限锁定、温度阈值+20°C、安全阀95°C，「低功耗」限制 CPU 最高 2016MHz。可独立开关 CPU 性能保护、屏幕亮度保护、高温通知屏蔽、HID 温度事件、热状态封锁。内置 95°C 硬性安全阀，超温或读温失败自动放行系统保护。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.2.4
+Installed-Size: 832
+Filename: debs/com.huayuarc.cputhermal-1.2.4-roothide.deb
+Size: 70372
+MD5sum: a87b4dbe3174af383861d9d71750f5d6
+SHA1: 
+SHA256: a7d80c35b1728c526afd1e610d3ceb910b9c4194586ed3db037cf14bf3cedb05
+
+Package: com.huayuarc.cputhermal
+Name: CPU防温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 + CPMS 功率目标设定 + 持续对抗定时器(0.8s周期)。支持双功率模式：「防温控」GPU功率下限锁定、温度阈值+20°C、安全阀95°C，「低功耗」限制 CPU 最高 2016MHz。可独立开关 CPU 性能保护、屏幕亮度保护、高温通知屏蔽、HID 温度事件、热状态封锁。内置 95°C 硬性安全阀，超温或读温失败自动放行系统保护。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Installed-Size: 840
+Filename: debs/com.huayuarc.cputhermal-1.2.4-rootless.deb
+Size: 73024
+MD5sum: 050124b48b8b8581c010eefa4c108133
+SHA1: 
+SHA256: 3bfe5b910ecafe4e185ee6628a784c13162c26623c584c4333f2f13eef7514f4
+
 Package: com.huayuarc.flashclockpro
 Name: 悬浮时间 Pro
 Author: Huayuarc
