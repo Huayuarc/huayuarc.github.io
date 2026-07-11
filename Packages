@@ -1029,6 +1029,41 @@ MD5sum: a884e83f92892c997fef26d893628d16
 SHA1: 
 SHA256: 924e90e135801e08f695a3451155841852b80a2ee0bca483d433ac1ad2e3d83d
 
+Package: codes.wingchan.ve-enhanced
+Name: VE Enhanced
+Description: Enhanced notification logger with notification forwarding capabilities. Fork of Ve with added Bark integration.具有通知转发功能的增强通知记录器。可以转发任意app的通知和短信到另一台手机的bark，类似iOS版sms #短信转发器#Bark api key里只需要填写bark url的api.day.app/后面的部分，不需要加/符号。
+Maintainer: Wing CHAN
+Author: Wing CHAN (Original: Alexandra Aurora Göttlicher, 74k1_)
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.1-1+debug
+Installed-Size: 1304
+Icon: https://huayuarc.github.io/icon/VEEnhanced.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/codes.wingchan.ve-enhanced-2.1-1+debug-roothide.deb
+Size: 129352
+MD5sum: 8395ae562f73d34c4cef4c60d4eca6d5
+SHA1: 
+SHA256: 868c2602d71c053e4107754d1ee245fd3092d9a02225da3cf755545951765b91
+
+Package: codes.wingchan.ve-enhanced
+Name: VE Enhanced
+Description: Enhanced notification logger with notification forwarding capabilities. Fork of Ve with added Bark integration.具有通知转发功能的增强通知记录器。可以转发任意app的通知和短信到另一台手机的bark，类似iOS版sms #短信转发器#Bark api key里只需要填写bark url的api.day.app/后面的部分，不需要加/符号。
+Maintainer: Wing CHAN
+Author: Wing CHAN (Original: Alexandra Aurora Göttlicher, 74k1_)
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.1-1+debug
+Installed-Size: 1304
+Icon: https://huayuarc.github.io/icon/VEEnhanced.png
+Filename: debs/codes.wingchan.ve-enhanced-2.1-1+debug-rootless.deb
+Size: 133884
+MD5sum: f20a4640ec6aeb79e58cc26453163b0c
+SHA1: 
+SHA256: a346c42428754cb873a6f6e6f658dffcb8c8065e0597d195266e37cacf226b3b
+
 Package: codex-ios-roothide
 Name: Codex-ios
 Version: 0.134.0-2
