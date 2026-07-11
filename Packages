@@ -5278,6 +5278,40 @@ MD5sum: 99a637f0618bd26ef5e27be8ba4b185d
 SHA1: 
 SHA256: 7c96dd4951d8680c2f1725e94b888e8aea36eaf936f51c7d375dbdf60c77a404
 
+Package: com.iosdump.memorycontrol
+Name: MemoryControlX
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 进程内存与优先级调整
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.2.1
+Installed-Size: 692
+Icon: https://huayuarc.github.io/icon/MemoryControlX.png
+Filename: debs/com.iosdump.memorycontrol-0.2.1-roothide.deb
+Size: 75820
+MD5sum: dfb563d375110b80994a39488ab5bdd5
+SHA1: 
+SHA256: a9b2a06136cecf4f9b0d4fe517cddedd43522b2d6458fd16d3c35cffbaa43f87
+
+Package: com.iosdump.memorycontrol
+Name: MemoryControlX
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 进程内存与优先级调整
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.2.1
+Installed-Size: 708
+Icon: https://huayuarc.github.io/icon/MemoryControlX.png
+Filename: debs/com.iosdump.memorycontrol-0.2.1-rootless.deb
+Size: 77448
+MD5sum: 18b21dc42a8afffdbba18d3c04256a60
+SHA1: 
+SHA256: 8b13cbaabba9578e2a122f11bbbb43647a437ec466282671bf8685c9d4403378
+
 Package: com.iosdump.shellx
 Name: SHELLX
 Depends: mobilesubstrate, preferenceloader
