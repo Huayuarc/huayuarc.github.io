@@ -15969,16 +15969,16 @@ Maintainer: p0358
 Architecture: iphoneos-arm64e
 Version: 1.0.2
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.14)
-Description: 一个牛逼的息屏动画特效！（汉化：lans233）
+Description: 一个牛逼的息屏动画特效！
 Name: DisintegrateLock 息屏特效
 Author: p0358
 Icon: https://huayuarc.github.io/icon/DisintegrateLock.png
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/net.p0358.disintegratelock-1.0.2-roothide.deb
-Size: 65712
-MD5sum: 76f03d5d13fd37cc9c2f13a1d8e61184
+Size: 65736
+MD5sum: 4f2f16f4441e5be5e4c94065b0bb6b18
 SHA1: 
-SHA256: 154207d4e87a3f5cff4ef4aacc2e9fb917b89792a8093e72374f99fd34b1a0e5
+SHA256: d7deb901978d8ecbcf9db665b20d1e190e34957781dc914e14410c5cf96baba4
 
 Package: net.p0358.disintegratelock
 Section: Tweaks
@@ -15987,15 +15987,15 @@ Maintainer: p0358
 Architecture: iphoneos-arm64
 Version: 1.0.2
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.14)
-Description: 一个牛逼的息屏动画特效！（汉化：lans233）
+Description: 一个牛逼的息屏动画特效！
 Name: DisintegrateLock 息屏特效
 Author: p0358
 Icon: https://huayuarc.github.io/icon/DisintegrateLock.png
 Filename: debs/net.p0358.disintegratelock-1.0.2-rootless.deb
-Size: 67128
-MD5sum: 6d43be685fbee2c293a822527e91312d
+Size: 67028
+MD5sum: 6740e06fb3bf44e3a88dd8f3fa5d3bf6
 SHA1: 
-SHA256: aadf2771fd36ec46a0db77ed59f87b97f79213df764e6adb502b8cd7c2b0ac55
+SHA256: eb4aeb6b14595d9f0fcafbdb410192497f59284d760cd2c294f198046bd5b846
 
 Package: net.sourceloc.pinanim
 Section: Tweaks
