@@ -14511,6 +14511,90 @@ MD5sum: f9d9746982f3e977776e9e8aefdeea2f
 SHA1: 
 SHA256: acb6b73f793dd77bdd10dad21fd40bc2d8f69fb35ef92166fb78a92eb3a745f6
 
+Package: emt.paisseon.xinamine
+Name: Xinamine
+Description: Add Xina tweak compatibility to Dopamine 将Xina调整兼容性添加到多巴胺
+Maintainer: Sudo + Paisseon
+Author: Sudo + Paisseon
+Section: System
+Depends: ellekit, oldabi | cy+cpu.arm64, firmware (>= 15.0)
+Icon: https://paisseon.github.io/icons/Xinamine.png
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 244
+Filename: debs/emt.paisseon.xinamine-0.0.1-rootless.deb
+Size: 11140
+MD5sum: 851549daf61dce9ae76b9795f1c2ee39
+SHA1: 
+SHA256: cbade3ccf082c297724a6801390d93919e29802c0de842f0a5ba6fe3cb615af7
+
+Package: emt.paisseon.xinamine
+Name: Xinamine
+Description: Add Xina tweak compatibility to Dopamine 将Xina调整兼容性添加到多巴胺
+Author: Sudo + Paisseon
+Section: System
+Depends: ellekit, oldabi | cy+cpu.arm64, firmware (>= 15.0)
+Icon: https://paisseon.github.io/icons/Xinamine.png
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Installed-Size: 244
+Filename: debs/emt.paisseon.xinamine-0.0.2-rootless.deb
+Size: 11144
+MD5sum: 675e730395b831d823e51767fb91434d
+SHA1: 
+SHA256: ec2a4e8c70d77a9034b1c1216590bc2d9cd083dc368e5c1b4b5bee30d2c82a18
+
+Package: emt.paisseon.xinamine
+Name: Xinamine
+Description: Add Xina tweak compatibility to Dopamine 将Xina调整兼容性添加到多巴胺
+Maintainer: Sudo + Paisseon
+Author: Sudo + Paisseon
+Section: System
+Depends: ellekit, oldabi | cy+cpu.arm64, firmware (>= 15.0)
+Icon: https://paisseon.github.io/icons/Xinamine.png
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 564
+Filename: debs/emt.paisseon.xinamine-0.0.3-rootless.deb
+Size: 69460
+MD5sum: 4502b33b1d8a4f5d44aeb0a5131fc31a
+SHA1: 
+SHA256: cd6a89013738fa3444a5aa76f59f75027dc3056aac1971f06e070907b1d8a4e4
+
+Package: emt.paisseon.xinamine
+Name: Xinamine
+Description: Add Xina tweak compatibility to Dopamine 将Xina调整兼容性添加到多巴胺
+Maintainer: Sudo + Paisseon
+Author: Sudo + Paisseon
+Section: System
+Depends: ellekit, oldabi | cy+cpu.arm64, firmware (>= 15.0)
+Icon: https://paisseon.github.io/icons/Xinamine.png
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Installed-Size: 564
+Filename: debs/emt.paisseon.xinamine-0.0.4-rootless.deb
+Size: 70104
+MD5sum: 57929048f6786ecc215874347ca16733
+SHA1: 
+SHA256: 149eba86be688395be80cf1bcf13a658a65f6a458ca638995d349e772cc388b7
+
+Package: emt.paisseon.xinamine
+Name: Xinamine
+Description: Add Xina tweak compatibility to Dopamine 将Xina调整兼容性添加到多巴胺
+Maintainer: Sudo + Paisseon
+Author: Sudo + Paisseon
+Section: System
+Depends: ellekit, oldabi | cy+cpu.arm64, firmware (>= 15.0)
+Icon: https://paisseon.github.io/icons/Xinamine.png
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Installed-Size: 564
+Filename: debs/emt.paisseon.xinamine-0.0.5-rootless.deb
+Size: 70000
+MD5sum: fc55f20d4f013bbfd54a67e7767e9030
+SHA1: 
+SHA256: f4c47eafc0e62a7e9f9b96000f9e73b0974c618756f4a6aa9fa2586b42279e72
+
 Package: Flex3beta
 Name: Flex3 Beta可解析版
 Depends: mobilesubstrate, firmware (>= 9.0)
@@ -15026,6 +15110,41 @@ MD5sum: a255a97465f822dc7cf880896b1203a4
 SHA1: 
 SHA256: 46874d941c2426891b7542cbb08a217191dd375bc16220816d2c742d00f92006
 
+Package: lilliana.accent
+Name: Accent Reborn
+Description: Change accent colours systemwide 可让你在整个系统和应用程序中更改强调色。更高效的自定义重音版本，因为它只读取一次偏好设置，而不是多次读取
+Maintainer: Paisseon
+Author: Paisseon
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 12.2), ws.hbang.alderis (>= 1.2)
+Icon: https://paisseon.github.io/icons/Accent.png
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 580
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/lilliana.accent-0.0.2-roothide.deb
+Size: 76108
+MD5sum: 374a958d3ad135d8344327aa7ba015eb
+SHA1: 
+SHA256: 45ab0a14b20d2f91312e7327ccdbedad1a4dbf376512ecd5b001735d7c32fb6d
+
+Package: lilliana.accent
+Name: Accent Reborn
+Description: Change accent colours systemwide 可让你在整个系统和应用程序中更改强调色。更高效的自定义重音版本，因为它只读取一次偏好设置，而不是多次读取
+Maintainer: Paisseon
+Author: Paisseon
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 12.2), ws.hbang.alderis (>= 1.2)
+Icon: https://paisseon.github.io/icons/Accent.png
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Installed-Size: 580
+Filename: debs/lilliana.accent-0.0.2-rootless.deb
+Size: 78036
+MD5sum: 0e16cabe1c0731653bcf46ea362152d4
+SHA1: 
+SHA256: 2fcd5aa361f773034adb24c6f4a4294f0a8b2eeb0fee29f543e107e889f08047
+
 Package: lilliana.apphider
 Section: Tweaks
 Installed-Size: 596
@@ -15060,6 +15179,111 @@ Size: 67328
 MD5sum: 2985a3627f2116cdeb594e75bd54eaf5
 SHA1: 
 SHA256: 64e20d0374388f1e0c846bd4abfbab79464ac66d16dc548bfb65d7fb72a17c0c
+
+Package: lilliana.filzacrack
+Name: FilzaCrack
+Description: An awesome Jinx tweak!
+Maintainer: Lilliana
+Author: Lilliana
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 12.2)
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+Architecture: iphoneos-arm64e
+Version: 0.0.6
+Installed-Size: 136
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/lilliana.filzacrack-0.0.6-roothide.deb
+Size: 21020
+MD5sum: fc540bd9a9646904dde2736c308aa647
+SHA1: 
+SHA256: ce1c4ab8e81cfd28bec9af73ea8da22f8d9fe39a4bd4bdec8b7ce7b60580858f
+
+Package: lilliana.filzacrack
+Name: FilzaCrack
+Description: An awesome Jinx tweak!
+Maintainer: Lilliana
+Author: Lilliana
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 12.2)
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Installed-Size: 136
+Filename: debs/lilliana.filzacrack-0.0.6-rootless.deb
+Size: 21292
+MD5sum: fadb2773266b1db0b5771899b00d1b2f
+SHA1: 
+SHA256: b9c2767957d650c404ac71920a949cc78cfd2ea7ff7eaf04f83b68b0b0dbaa25
+
+Package: lilliana.peepreborn
+Name: Peep Reborn
+Description: Hide your status bar with a tap iDownloadBlog 上的特色功能！Peep Reborn 可让你轻点一下即可隐藏状态栏--简洁的外观，方便你在需要时获取信息。
+Maintainer: Paisseon
+Author: Paisseon
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
+Icon: https://paisseon.github.io/icons/PeepReborn.png
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 560
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/lilliana.peepreborn-0.0.3-roothide.deb
+Size: 71988
+MD5sum: e50924fa1d071dcc208d58ce465cee75
+SHA1: 
+SHA256: 55c0cb85e4762747034af55659f72fbe94660a0bb457f22c735456d487e8fac4
+
+Package: lilliana.peepreborn
+Name: Peep Reborn
+Description: Hide your status bar with a tap iDownloadBlog 上的特色功能！Peep Reborn 可让你轻点一下即可隐藏状态栏--简洁的外观，方便你在需要时获取信息。
+Maintainer: Paisseon
+Author: Paisseon
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
+Icon: https://paisseon.github.io/icons/PeepReborn.png
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 560
+Filename: debs/lilliana.peepreborn-0.0.3-rootless.deb
+Size: 73696
+MD5sum: 22bdd90372575cd28784f6681bd140ef
+SHA1: 
+SHA256: 79ecc86d580e7fa3e6188df4cceb44f831f2248843bb9525a96d946e885758c1
+
+Package: lilliana.reverie
+Name: Reverie
+Description: Let your iPhone dream 当电池电量不足时，将设备置于休眠模式以节省电池。上调音量三次即可退出休眠模式*。
+Maintainer: Paisseon
+Author: Paisseon
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.ccsupport
+Icon: https://paisseon.github.io/icons/Reverie.png
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 788
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/lilliana.reverie-0.0.3-roothide.deb
+Size: 92472
+MD5sum: f257c7fdb296c7081651728dc399e443
+SHA1: 
+SHA256: 2aa313245a25d6956ed3b941a94ef27d23c922f7700fe37e7a44004493117217
+
+Package: lilliana.reverie
+Name: Reverie
+Description: Let your iPhone dream 当电池电量不足时，将设备置于休眠模式以节省电池。上调音量三次即可退出休眠模式*。
+Maintainer: Paisseon
+Author: Paisseon
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.ccsupport
+Icon: https://paisseon.github.io/icons/Reverie.png
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 788
+Filename: debs/lilliana.reverie-0.0.3-rootless.deb
+Size: 94864
+MD5sum: 69e9f6d4431d28b78faf73a69254866e
+SHA1: 
+SHA256: b53d5d2f7ed8f10867684da40a7e3f4c81fd8b162a6acb93ff9a3c10991f420f
 
 Package: me.ikghd.pmp
 Section: Tweaks
@@ -17312,6 +17536,60 @@ Size: 48929424
 MD5sum: 0d1f392a4637ec9e99d01732db2586dd
 SHA1: 
 SHA256: 52732561df361e892efcbb00378a2de043d5703562aae219c2eab23fdce8d2eb
+
+Package: xyz.cypwn.xinam1ne
+Maintainer: CyPwn
+Name: Xinam1ne All-in-One
+Version: 2.4-6
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate | ellekit, oldabi | xinaa15 | cy+cpu.arm64, firmware (>= 15.0), file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0)
+Provides: emt.paisseon.xinamine (= 99), xinamine (= 99)
+Replaces: emt.paisseon.xinamine, xinamine
+Description: Xinamine bundle. Includes linker, patcher, 'chex' link checker, 'chix' link fixer, plus other supporting filza scripts.辛胺束。包括链接器、补丁程序、“chex”链接检查器、“chix”链接修复器以及其他支持的filza脚本。
+Section: System
+Author: Paisseon, Sudo, NoW4U2Kid
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/xinam1ne.png
+Filename: debs/xyz.cypwn.xinam1ne-2.4-6-rootless.deb
+Size: 74836
+MD5sum: 8e08d74e3328793ebad654bce0adb9f2
+SHA1: 
+SHA256: 94dc9f48462ed9d8d232f3234bd43b71a58c5e0e1bfd0cab044d648b1b8f12ff
+
+Package: xyz.cypwn.xinam1ne
+Maintainer: CyPwn
+Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
+Name: Xinam1ne AIO
+Version: 2.6-7
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate, firmware (>= 15.0), gawk, gzip, libclang-cpp16, llvm-16, llvm-16-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Provides: emt.paisseon.xinamine (= 99)
+Replaces: emt.paisseon.xinamine
+Description: Xinamine Official All-in-One bundle. Convert rootful tweaks to rootless (and rootless to rootful) with ease using the Xinam1nePatcher in Filza or use the included Xinaf1re app.Xinamine官方一体包。使用Filza中的Xinam1nePatcher或使用随附的Xinaf1re应用程序，轻松将根调整转换为无根（以及无根转换为根）。
+Section: System
+Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
+Filename: debs/xyz.cypwn.xinam1ne-2.6-7-rootless.deb
+Size: 1947556
+MD5sum: 4be8adc376df83b5d2750b39beb4a388
+SHA1: 
+SHA256: 5758991312f9f2c62d68d08edcc161082cf4013d845d182816bebb5e47b428b4
+
+Package: xyz.cypwn.xinam1ne
+Maintainer: CyPwn
+Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
+Name: Xinam1ne AIO
+Version: 2.6-8
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate, firmware (>= 15.0), gawk, gzip, libclang-cpp16, llvm-16, llvm-16-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Provides: emt.paisseon.xinamine (= 99)
+Replaces: emt.paisseon.xinamine
+Description: Xinamine Official All-in-One bundle. Convert rootful tweaks to rootless (and rootless to rootful) with ease using the Xinam1nePatcher in Filza or use the included Xinaf1re app.Xinamine官方一体包。使用Filza中的Xinam1nePatcher或使用随附的Xinaf1re应用程序，轻松将根调整转换为无根（以及无根转换为根）。
+Section: System
+Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
+Filename: debs/xyz.cypwn.xinam1ne-2.6-8-rootless.deb
+Size: 1946744
+MD5sum: 9cdaa02f00d0c7cbd3d42b6728f44263
+SHA1: 
+SHA256: 9436e1d6d63614c91e440247e37ca3367326f768c77a0dd8f179466425e3793c
 
 Package: zp.cocoatop64.unject.xina
 Name: CocoaTop64.zp - xina
