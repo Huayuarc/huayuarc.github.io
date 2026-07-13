@@ -5417,6 +5417,40 @@ MD5sum: 18b21dc42a8afffdbba18d3c04256a60
 SHA1: 
 SHA256: 8b13cbaabba9578e2a122f11bbbb43647a437ec466282671bf8685c9d4403378
 
+Package: com.iosdump.memorycontrol
+Name: MemoryControlX
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 进程内存与优先级调整
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.8.8
+Installed-Size: 708
+Icon: https://huayuarc.github.io/icon/MemoryControlX.png
+Filename: debs/com.iosdump.memorycontrol-0.8.8-roothide.deb
+Size: 76856
+MD5sum: a82016678501cb53401686497a74066b
+SHA1: 
+SHA256: 18f542f920ed7e10660d7455b77468906390d994c2c5af220643d61082d62d52
+
+Package: com.iosdump.memorycontrol
+Name: MemoryControlX
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 进程内存与优先级调整
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.8.8
+Installed-Size: 708
+Icon: https://huayuarc.github.io/icon/MemoryControlX.png
+Filename: debs/com.iosdump.memorycontrol-0.8.8-rootless.deb
+Size: 79576
+MD5sum: 4a93b248fd40efb2827085c270a7c83b
+SHA1: 
+SHA256: 1c4f6f2c204da5b126b171138dc18a74defa2bbfc4834a63587c2bc975c26b39
+
 Package: com.iosdump.shellx
 Name: SHELLX
 Depends: mobilesubstrate, preferenceloader
@@ -16752,7 +16786,8 @@ Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.altli
 Name: CarBridge
 Section: Tweaks
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/xyz.cypwn.carbridge13-2.0.13-roothide.deb
+Filename: debs/xyz.cypwn.carbridge13-2.0.13
+-roothide.deb
 Size: 432148
 MD5sum: 25964b5221fcbf91deca97cf9016b5b6
 SHA1: 
@@ -16770,7 +16805,8 @@ Version: 2.0.13
 Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.altlist
 Name: CarBridge
 Section: Tweaks
-Filename: debs/xyz.cypwn.carbridge13-2.0.13-rootless.deb
+Filename: debs/xyz.cypwn.carbridge13-2.0.13
+-rootless.deb
 Size: 434880
 MD5sum: 48e4a97289b235c311f774759c66fe52
 SHA1: 
@@ -16791,7 +16827,8 @@ Description: Open any app in CarPlay!
 Name: CarBridge
 Author: leftyfl1p <carbridge@havoc.app>
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/xyz.cypwn.carbridge13-2.0.14-roothide.deb
+Filename: debs/xyz.cypwn.carbridge13-2.0.14
+-roothide.deb
 Size: 431408
 MD5sum: e07d63faa85d97eb38c3e13834a0e9f6
 SHA1: 
@@ -16811,7 +16848,8 @@ Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, co
 Description: Open any app in CarPlay!
 Name: CarBridge
 Author: leftyfl1p <carbridge@havoc.app>
-Filename: debs/xyz.cypwn.carbridge13-2.0.14-rootless.deb
+Filename: debs/xyz.cypwn.carbridge13-2.0.14
+-rootless.deb
 Size: 434132
 MD5sum: fb46cb6a050d450b730fae137b22020a
 SHA1: 
