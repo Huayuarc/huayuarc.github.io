@@ -17537,60 +17537,6 @@ MD5sum: 0d1f392a4637ec9e99d01732db2586dd
 SHA1: 
 SHA256: 52732561df361e892efcbb00378a2de043d5703562aae219c2eab23fdce8d2eb
 
-Package: xyz.cypwn.xinam1ne
-Maintainer: CyPwn
-Name: Xinam1ne All-in-One
-Version: 2.4-6
-Architecture: iphoneos-arm64
-Depends: mobilesubstrate | ellekit, oldabi | xinaa15 | cy+cpu.arm64, firmware (>= 15.0), file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0)
-Provides: emt.paisseon.xinamine (= 99), xinamine (= 99)
-Replaces: emt.paisseon.xinamine, xinamine
-Description: Xinamine bundle. Includes linker, patcher, 'chex' link checker, 'chix' link fixer, plus other supporting filza scripts.辛胺束。包括链接器、补丁程序、“chex”链接检查器、“chix”链接修复器以及其他支持的filza脚本。
-Section: System
-Author: Paisseon, Sudo, NoW4U2Kid
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/xinam1ne.png
-Filename: debs/xyz.cypwn.xinam1ne-2.4-6-rootless.deb
-Size: 74836
-MD5sum: 8e08d74e3328793ebad654bce0adb9f2
-SHA1: 
-SHA256: 94dc9f48462ed9d8d232f3234bd43b71a58c5e0e1bfd0cab044d648b1b8f12ff
-
-Package: xyz.cypwn.xinam1ne
-Maintainer: CyPwn
-Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
-Name: Xinam1ne AIO
-Version: 2.6-7
-Architecture: iphoneos-arm64
-Depends: mobilesubstrate, firmware (>= 15.0), gawk, gzip, libclang-cpp16, llvm-16, llvm-16-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
-Provides: emt.paisseon.xinamine (= 99)
-Replaces: emt.paisseon.xinamine
-Description: Xinamine Official All-in-One bundle. Convert rootful tweaks to rootless (and rootless to rootful) with ease using the Xinam1nePatcher in Filza or use the included Xinaf1re app.Xinamine官方一体包。使用Filza中的Xinam1nePatcher或使用随附的Xinaf1re应用程序，轻松将根调整转换为无根（以及无根转换为根）。
-Section: System
-Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
-Filename: debs/xyz.cypwn.xinam1ne-2.6-7-rootless.deb
-Size: 1947556
-MD5sum: 4be8adc376df83b5d2750b39beb4a388
-SHA1: 
-SHA256: 5758991312f9f2c62d68d08edcc161082cf4013d845d182816bebb5e47b428b4
-
-Package: xyz.cypwn.xinam1ne
-Maintainer: CyPwn
-Icon: https://repo.cypwn.xyz/packages/Xinam1neAIO-Rootless/icon.png
-Name: Xinam1ne AIO
-Version: 2.6-8
-Architecture: iphoneos-arm64
-Depends: mobilesubstrate, firmware (>= 15.0), gawk, gzip, libclang-cpp16, llvm-16, llvm-16-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0), cy+cpu.arm64v8 | oldabi-xina | oldabi
-Provides: emt.paisseon.xinamine (= 99)
-Replaces: emt.paisseon.xinamine
-Description: Xinamine Official All-in-One bundle. Convert rootful tweaks to rootless (and rootless to rootful) with ease using the Xinam1nePatcher in Filza or use the included Xinaf1re app.Xinamine官方一体包。使用Filza中的Xinam1nePatcher或使用随附的Xinaf1re应用程序，轻松将根调整转换为无根（以及无根转换为根）。
-Section: System
-Author: Paisseon, Sudo, NoW4U2Kid, Kixrd
-Filename: debs/xyz.cypwn.xinam1ne-2.6-8-rootless.deb
-Size: 1946744
-MD5sum: 9cdaa02f00d0c7cbd3d42b6728f44263
-SHA1: 
-SHA256: 9436e1d6d63614c91e440247e37ca3367326f768c77a0dd8f179466425e3793c
-
 Package: zp.cocoatop64.unject.xina
 Name: CocoaTop64.zp - xina
 Depends: 
