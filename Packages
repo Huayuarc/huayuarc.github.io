@@ -15026,6 +15026,82 @@ MD5sum: a255a97465f822dc7cf880896b1203a4
 SHA1: 
 SHA256: 46874d941c2426891b7542cbb08a217191dd375bc16220816d2c742d00f92006
 
+Package: lilliana.apphider
+Section: Tweaks
+Installed-Size: 596
+Maintainer: Paisseon
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Depends: mobilesubstrate, firmware (>= 12.2), com.opa334.altlist
+Description: 此版本的应用隐藏比bigboss源上的那个好用，完全免费，可以隐藏应用使其消失在搜索，资源库，主屏幕上
+Name: App Hider新的应用隐藏助手
+Author: Paisseon
+Icon: https://huayuarc.github.io/icon/AppHider.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/lilliana.apphider-0.0.2-roothide.deb
+Size: 65444
+MD5sum: 99d420e9f18212e364d80b46fe057efe
+SHA1: 
+SHA256: 59d681f82364d72e0bfdbd51410f3e46326267d4996d2912dafe8cbcaf5516e0
+
+Package: lilliana.apphider
+Section: Tweaks
+Installed-Size: 596
+Maintainer: Paisseon
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Depends: mobilesubstrate, firmware (>= 12.2), com.opa334.altlist
+Description: 此版本的应用隐藏比bigboss源上的那个好用，完全免费，可以隐藏应用使其消失在搜索，资源库，主屏幕上
+Name: App Hider新的应用隐藏助手
+Author: Paisseon
+Icon: https://huayuarc.github.io/icon/AppHider.jpg
+Filename: debs/lilliana.apphider-0.0.2-rootless.deb
+Size: 67328
+MD5sum: 2985a3627f2116cdeb594e75bd54eaf5
+SHA1: 
+SHA256: 64e20d0374388f1e0c846bd4abfbab79464ac66d16dc548bfb65d7fb72a17c0c
+
+Package: me.ikghd.pmp
+Section: Tweaks
+Installed-Size: 792
+Maintainer: iKarwan <ikghd3@gmail.com>
+Architecture: iphoneos-arm64e
+Version: 2.0
+Replaces: pro.ikghd.pmp
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Conflicts: pro.ikghd.pmp
+Description: 可以一键隐藏所有照片等功能，在控制中心开启
+Name: PMP隐私保护隐藏照片
+Author: iKarwan <ikghd3@gmail.com>
+Tag: purpose::extension, compatible_min::ios15.0, compatible_max::ios17.8
+Icon: https://huayuarc.github.io/icon/pmpcc.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/me.ikghd.pmp-2.0-roothide.deb
+Size: 53304
+MD5sum: 950375b7fc9fd0ce4e1cb00256e041b6
+SHA1: 
+SHA256: 872f2567358e6aa94b3e0fd988543a13d16b0892674dece26c9bf11f628e960c
+
+Package: me.ikghd.pmp
+Section: Tweaks
+Installed-Size: 792
+Maintainer: iKarwan <ikghd3@gmail.com>
+Architecture: iphoneos-arm64
+Version: 2.0
+Replaces: pro.ikghd.pmp
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Conflicts: pro.ikghd.pmp
+Description: 可以一键隐藏所有照片等功能，在控制中心开启
+Name: PMP隐私保护隐藏照片
+Author: iKarwan <ikghd3@gmail.com>
+Tag: purpose::extension, compatible_min::ios15.0, compatible_max::ios17.8
+Icon: https://huayuarc.github.io/icon/pmpcc.png
+Filename: debs/me.ikghd.pmp-2.0-rootless.deb
+Size: 54576
+MD5sum: c33e615b56f6f49d8d1b64fd431f4095
+SHA1: 
+SHA256: 4107bcecd910c060aa3b7fe854b88836ad8c8a99cf0fc9d1a8b8f7ad360b7a9a
+
 Package: me.jjolano.fmwk.hookkit
 Name: HookKit Framework
 Depends: firmware (>= 8.0), me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge
@@ -15777,6 +15853,41 @@ MD5sum: f621947d5bf799994793a46ab473187f
 SHA1: 
 SHA256: 6be78d1d69a9956519389c151cb6b18ccb504fba0866ca083436677429e7cbb8
 
+Package: me.luki.aestearevived
+Section: Tweaks
+Installed-Size: 1628
+Maintainer: Luki
+Architecture: iphoneos-arm64e
+Version: 0.9.3
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13), com.mrgcgamer.libgcuniversal
+Description: 给您的控制中心图案带来色彩
+Name: Aestea Revived控制中心美化
+Author: Luki
+Icon: https://huayuarc.github.io/icon/IWantTranslucent.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/me.luki.aestearevived-0.9.3-roothide.deb
+Size: 681648
+MD5sum: e7416644e3358ae0dd305844fb3fec8d
+SHA1: 
+SHA256: 6b97c060909367f5b6c603d252e812cd981ea1039ebb07fccd63be5ddaf05135
+
+Package: me.luki.aestearevived
+Section: Tweaks
+Installed-Size: 1628
+Maintainer: Luki
+Architecture: iphoneos-arm64
+Version: 0.9.3
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13), com.mrgcgamer.libgcuniversal
+Description: 给您的控制中心图案带来色彩
+Name: Aestea Revived控制中心美化
+Author: Luki
+Icon: https://huayuarc.github.io/icon/IWantTranslucent.png
+Filename: debs/me.luki.aestearevived-0.9.3-rootless.deb
+Size: 684564
+MD5sum: 5bae81fedcefbf659548769b3682b766
+SHA1: 
+SHA256: 6327fcba74c0afa8c63436d013ad1abf80726454aa7dbce1d77e66c4e5b5015e
+
 Package: me.luki.arizona
 Name: Arizona
 Description: Move the stock clock, date and lock glyph on the fly
@@ -15815,6 +15926,111 @@ Size: 427784
 MD5sum: 4c03126549abc5230ee337fb68f8e2f9
 SHA1: 
 SHA256: 10669451f2163345268d3451b9d12c9ab75cf523ca2088c42cf2f74bafc6a836
+
+Package: me.luki.stealthcc
+Section: Tweaks
+Installed-Size: 364
+Maintainer: Luki
+Architecture: iphoneos-arm64e
+Version: 0.9.1
+Depends: mobilesubstrate, preferenceloader
+Description: 自定义控制中心背景的模糊程度，当模糊程度为零时会直接删掉背景，达到开着控制中心的时候还能操作别的地方的神奇操作
+Name: StealthCC自定义控制中心模块背景模糊
+Author: Luki
+Icon: https://huayuarc.github.io/icon/StealthCC.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/me.luki.stealthcc-0.9.1-roothide.deb
+Size: 20972
+MD5sum: 33f3ab0333d6def9fe4a9c69328fd0f5
+SHA1: 
+SHA256: 799bc7dc4440fc28ab7ca5aa65fca958406612c778269176988ce7aa46b40937
+
+Package: me.luki.stealthcc
+Section: Tweaks
+Installed-Size: 364
+Maintainer: Luki
+Architecture: iphoneos-arm64
+Version: 0.9.1
+Depends: mobilesubstrate, preferenceloader
+Description: 自定义控制中心背景的模糊程度，当模糊程度为零时会直接删掉背景，达到开着控制中心的时候还能操作别的地方的神奇操作
+Name: StealthCC自定义控制中心模块背景模糊
+Author: Luki
+Icon: https://huayuarc.github.io/icon/StealthCC.png
+Filename: debs/me.luki.stealthcc-0.9.1-rootless.deb
+Size: 21484
+MD5sum: 56607280332dabece2834d2e835dbe78
+SHA1: 
+SHA256: fc72a705a8d7b769f9efb89c138ad5396ea19b2b86c38676d46e419788e5c2d2
+
+Package: net.p0358.disintegratelock
+Section: Tweaks
+Installed-Size: 488
+Maintainer: p0358
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.14)
+Description: 一个牛逼的息屏动画特效！（汉化：lans233）
+Name: DisintegrateLock 息屏特效
+Author: p0358
+Icon: https://huayuarc.github.io/icon/DisintegrateLock.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/net.p0358.disintegratelock-1.0.2-roothide.deb
+Size: 65712
+MD5sum: 76f03d5d13fd37cc9c2f13a1d8e61184
+SHA1: 
+SHA256: 154207d4e87a3f5cff4ef4aacc2e9fb917b89792a8093e72374f99fd34b1a0e5
+
+Package: net.p0358.disintegratelock
+Section: Tweaks
+Installed-Size: 488
+Maintainer: p0358
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.14)
+Description: 一个牛逼的息屏动画特效！（汉化：lans233）
+Name: DisintegrateLock 息屏特效
+Author: p0358
+Icon: https://huayuarc.github.io/icon/DisintegrateLock.png
+Filename: debs/net.p0358.disintegratelock-1.0.2-rootless.deb
+Size: 67128
+MD5sum: 6d43be685fbee2c293a822527e91312d
+SHA1: 
+SHA256: aadf2771fd36ec46a0db77ed59f87b97f79213df764e6adb502b8cd7c2b0ac55
+
+Package: net.sourceloc.pinanim
+Section: Tweaks
+Installed-Size: 604
+Maintainer: sourcelocation
+Architecture: iphoneos-arm64e
+Version: 2.0
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet
+Description: 密码界面的密码弹跳动画，非常丝滑酷炫！
+Name: PinAnim密码弹跳动画
+Author: sourcelocation
+Icon: https://huayuarc.github.io/icon/PinAnimIcon.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/net.sourceloc.pinanim-2.0-roothide.deb
+Size: 77596
+MD5sum: ca5b47d0663214e314184eb296c5d336
+SHA1: 
+SHA256: 358c28e81dce5d70fc91c7641efcc170422376d912b2a9a809c08b643c2d1928
+
+Package: net.sourceloc.pinanim
+Section: Tweaks
+Installed-Size: 604
+Maintainer: sourcelocation
+Architecture: iphoneos-arm64
+Version: 2.0
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet
+Description: 密码界面的密码弹跳动画，非常丝滑酷炫！
+Name: PinAnim密码弹跳动画
+Author: sourcelocation
+Icon: https://huayuarc.github.io/icon/PinAnimIcon.png
+Filename: debs/net.sourceloc.pinanim-2.0-rootless.deb
+Size: 77488
+MD5sum: 5d0f04296f63362f35a7352d38278dd0
+SHA1: 
+SHA256: c3ee1703e7e360d82c5abd256fa4af5911a68c149fdbfb47ac9c97c4d135d6ed
 
 Package: netskao.alipayscan
 Version: 1.2-2
@@ -16575,6 +16791,43 @@ Size: 10135264
 MD5sum: b815410690c37b20aaaf7d3fd4725819
 SHA1: 
 SHA256: db0672621ddc64c62af713beb51dcaee10a3daaf25024b80c3ba767425928bbf
+
+Package: twitter.nowesr1.photosplus
+Section: Tweaks
+Installed-Size: 376
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Description: 增强了照片app，更多的设置
+Author: nowesr1 <nowe9r@hotmail.com>
+Name: PhotosPlus照片增强
+dev: nowesr1
+Icon: https://huayuarc.github.io/icon/PhotosPlus.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/twitter.nowesr1.photosplus-0.0.1-roothide.deb
+Size: 25900
+MD5sum: 11452e4364dd8a72f74ecd3821d7a654
+SHA1: 
+SHA256: c193baa14f5af2bd5d1e8db52cb587fb00c62ea279db1444c6dd6d3fc71f0772
+
+Package: twitter.nowesr1.photosplus
+Section: Tweaks
+Installed-Size: 376
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Description: 增强了照片app，更多的设置
+Author: nowesr1 <nowe9r@hotmail.com>
+Name: PhotosPlus照片增强
+dev: nowesr1
+Icon: https://huayuarc.github.io/icon/PhotosPlus.png
+Filename: debs/twitter.nowesr1.photosplus-0.0.1-rootless.deb
+Size: 26388
+MD5sum: 246a13510e16475e1de283740f65c7a6
+SHA1: 
+SHA256: e820f4e2c67103ca3150259aaa66ceb140168c9f38191f816fb08819bbe8e7e2
 
 Package: uncar
 Name: uncar
