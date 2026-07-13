@@ -1292,6 +1292,41 @@ MD5sum: 86c57bd3d18a44114031a6e411522db2
 SHA1: 
 SHA256: 1cc6fe26125dc9dfe9d561e31c912087fbb1eda4d6f55867cba423802854cd06
 
+Package: com.Doki.wxkeyboarduihook
+Name: 微信输入法自定义
+Depends: mobilesubstrate, firmware (>= 14.0)
+Description: 微信输入法自定义
+Author: Doki
+Maintainer: Doki
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.8
+Installed-Size: 416
+Icon: https://huayuarc.github.io/icon/WXKeyboardUIHook.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.Doki.wxkeyboarduihook-1.8-roothide.deb
+Size: 77524
+MD5sum: 9eafcf35f2d649a67d874153e8405129
+SHA1: 
+SHA256: c1b6bff62897baadc374e3579fce775d86bedd28613f27a9ba51f993ec96df96
+
+Package: com.Doki.wxkeyboarduihook
+Name: 微信输入法自定义
+Depends: mobilesubstrate, firmware (>= 14.0)
+Description: 微信输入法自定义
+Author: Doki
+Maintainer: Doki
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.8
+Installed-Size: 416
+Icon: https://huayuarc.github.io/icon/WXKeyboardUIHook.png
+Filename: debs/com.Doki.wxkeyboarduihook-1.8-rootless.deb
+Size: 77280
+MD5sum: 901825b65fd3a8506b202b66b9547db8
+SHA1: 
+SHA256: 6aa96374462949f845fc5ba9491203ffed2000b56aae1f9865d841e70e9e2421
+
 Package: com.abc3.vip.appsyncunified
 Version: 112.0
 Section: Tweaks
@@ -3601,41 +3636,6 @@ Size: 25552
 MD5sum: f33bea042e0f43245311c855eaf20db2
 SHA1: 
 SHA256: f33d176a0dc71150299a8464984336dd57fb35008430686679f2912c71fc95c0
-
-Package: com.Doki.wxkeyboarduihook
-Name: WXKeyboardUIHook
-Depends: mobilesubstrate, firmware (>= 14.0)
-Description: 微信输入法自定义
-Author: Doki
-Maintainer: Doki
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.8
-Installed-Size: 416
-Icon: https://huayuarc.github.io/icon/WXKeyboardUIHook.png
-Filename: debs/com.doki.wxkeyboarduihook_1.8_iphoneos-arm64.deb
-Size: 77284
-MD5sum: d2f238693021b7461704908cd9a6d8e1
-SHA1: 
-SHA256: 4701282a5ea894e81b9aefd138f4a7816d002fa69261be7b64f6ac797b66bb85
-
-Package: com.Doki.wxkeyboarduihook
-Name: WXKeyboardUIHook
-Depends: mobilesubstrate, firmware (>= 14.0)
-Description: 微信输入法自定义
-Author: Doki
-Maintainer: Doki
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.8
-Installed-Size: 416
-Icon: https://huayuarc.github.io/icon/WXKeyboardUIHook.png
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.doki.wxkeyboarduihook_1.8_iphoneos-arm64e.deb
-Size: 77492
-MD5sum: 398ec25a6840174ed91ffc2d918c87df
-SHA1: 
-SHA256: f9220281fe93b808c97adcbc91529cbe3730f802e95c97394c88578f9716f9d6
 
 Package: com.dopamine.manager
 Name: Dopamine Manager
