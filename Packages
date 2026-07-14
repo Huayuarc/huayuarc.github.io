@@ -3053,34 +3053,34 @@ Name: 微信输入法_Google配色
 Description: 微信输入法 Google 风格毛玻璃键盘配色 Roothide 版，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
 Maintainer: colorblack
 Author: colorblack
-Section: 输入法皮肤
+Section: Tweaks
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 1.1.5
 Installed-Size: 144
 Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
 Filename: debs/com.colorblack.wetypecolorgoogle-1.1.5-roothide.deb
-Size: 30608
-MD5sum: c889ea6d70cea9769460e477a7784423
+Size: 30556
+MD5sum: dc0ec8d23f9621c882f442efd0ccadc1
 SHA1: 
-SHA256: 3d79f6b86d24663179d0588d5f66aed23a1cf8d22f7025e941b7e47d50a6158f
+SHA256: 9e3d41c2fc72c2f9557198cba61b701e71551fc3ea0fcebf0f5e0c89fcd2b58c
 
 Package: com.colorblack.wetypecolorgoogle
 Name: 微信输入法_Google配色
 Description: 微信输入法 Google 风格毛玻璃键盘配色，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
 Maintainer: colorblack
 Author: colorblack
-Section: 输入法皮肤
+Section: Tweaks
 Depends: mobilesubstrate
 Architecture: iphoneos-arm64
 Version: 1.1.5
 Installed-Size: 144
 Icon: https://huayuarc.github.io/icon/wetypecolorgoogle.jpg
 Filename: debs/com.colorblack.wetypecolorgoogle-1.1.5-rootless.deb
-Size: 30288
-MD5sum: 34566c353072b9c5d3a2ceba529b39b2
+Size: 30316
+MD5sum: 7b3455767bbb7c1e93c4cb8fa675c6f3
 SHA1: 
-SHA256: 1a249f5036c28b694a5e14d4c25c24ec281f9af4175ac60b6334283d5a321659
+SHA256: 4afb31a4cb910a47247640d9096a3af7c272c66d23972a7b77dbb71d81b5dcda
 
 Package: com.colorblack.xcfnoad
 Name: XCFNoAd
@@ -10557,14 +10557,33 @@ Section: Tweaks
 icon: https://sini921.github.io/repo/sileodepiction/icon/lynxtwo.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/lynxtwo/js.json
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Architecture: iphoneos-arm64e
+Version: 2.5.4
+Installed-Size: 2952
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.lynxtwo-2.5.4-roothide.deb
+Size: 654756
+MD5sum: db763725175030729df2acaf4a918870
+SHA1: 
+SHA256: b74ee8cbd917bea336036fcef604e466cb2bcb3b00e67d14d84204cbe1b3bc0a
+
+Package: com.sini.lynxtwo
+Name: Lynx 2
+Description: 大杂烩
+Maintainer: MTAC
+Author: MTAC
+Section: Tweaks
+icon: https://sini921.github.io/repo/sileodepiction/icon/lynxtwo.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/lynxtwo/js.json
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
 Architecture: iphoneos-arm64
 Version: 2.5.4
 Installed-Size: 2952
-Filename: debs/com.sini.lynxtwo_2.5.4_iphoneos-arm64.deb
-Size: 675068
-MD5sum: d96aa5b6cfc72ac58c51a5cb7e3aa72c
+Filename: debs/com.sini.lynxtwo-2.5.4-rootless.deb
+Size: 676604
+MD5sum: 6ec5383ca585d4bde7bb8a64f8249d19
 SHA1: 
-SHA256: 6ca2eac14de0317cf56f3609fef9c5acaad6f4446257fa0e6e4c64dc1c31c829
+SHA256: ebb60ecf0ee990653f96cd03e110fda40f2194fba3b2ef3decf64fe48c98b2b4
 
 Package: com.sini.marker
 Name: Marker
