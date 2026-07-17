@@ -5247,6 +5247,40 @@ MD5sum: 416f18d4180d779591d60ed4d1fb1587
 SHA1: 
 SHA256: 89c4e26015c4911111a9efdab9d8628ca38ffbde87f823c2ffa3ea35897607aa
 
+Package: com.iosdump.customvpnicon
+Name: CustomVpnIcon
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 自定义VPN图标
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.1
+Installed-Size: 408
+Icon: https://huayuarc.github.io/icon/CustomVpnIcon.png
+Filename: debs/com.iosdump.customvpnicon-0.1-roothide.deb
+Size: 37312
+MD5sum: 47ddbbecca30cd5c89ad423c06619bde
+SHA1: 
+SHA256: 9111915c0ce187bce89019dbcc808191535093c0caf66bd9ad6478fa0bb6d409
+
+Package: com.iosdump.customvpnicon
+Name: CustomVpnIcon
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 自定义VPN图标
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.1
+Installed-Size: 408
+Icon: https://huayuarc.github.io/icon/CustomVpnIcon.png
+Filename: debs/com.iosdump.customvpnicon-0.1-rootless.deb
+Size: 39012
+MD5sum: 7f41db7e2531acaa3de04eeea147039c
+SHA1: 
+SHA256: 9d97447fbabcba1504152614b8ad6bfa0a16e7622f13461ac09a4d549e9b4075
+
 Package: com.iosdump.filzacarplugin
 Name: FilzaCarPlugin
 Description: 提取与修改 Assets.car 资源 (Filza 插件)
