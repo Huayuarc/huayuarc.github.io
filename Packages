@@ -4037,6 +4037,111 @@ MD5sum: 7f8002160a13be59c534f24b23e1052c
 SHA1: 
 SHA256: befd5a89c4f6fba44581a9e73cef4fc92a50caa87ca8a28676636c2ab26b5362
 
+Package: com.guiqi.cleanjd
+Name: CleanJD
+Description: 精简京东底栏、首页
+Maintainer: guiqi
+Author: guiqi
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1-26+debug
+Installed-Size: 172
+Icon: https://huayuarc.github.io/icon/jd.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.guiqi.cleanjd-0.0.1-26+debug-roothide.deb
+Size: 7004
+MD5sum: eb1d3b22694224add8c8274a23b87845
+SHA1: 
+SHA256: b71d869313018b768dd3433ea77ad4642edf6ee9a5393b752041152b9676ac1e
+
+Package: com.guiqi.cleanjd
+Name: CleanJD
+Description: 精简京东底栏、首页
+Maintainer: guiqi
+Author: guiqi
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.1-26+debug
+Installed-Size: 172
+Icon: https://huayuarc.github.io/icon/jd.jpg
+Filename: debs/com.guiqi.cleanjd-0.0.1-26+debug-rootless.deb
+Size: 6820
+MD5sum: 1f4a3ef1e59299a4bbc87683943620c1
+SHA1: 
+SHA256: 7299d5a624a9d7e286c83463c0d3c62d2b766e62307caf63f243db6c00326cc6
+
+Package: com.guiqi.cleanpdd
+Name: CleanPDD
+Description: 精简拼多多底栏
+Maintainer: guiqi
+Author: guiqi
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1-8+debug
+Installed-Size: 216
+Icon: https://huayuarc.github.io/icon/pdd.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.guiqi.cleanpdd-0.0.1-8+debug-roothide.deb
+Size: 5840
+MD5sum: 78cc94cac67f6e42c096db3ffb1a15bc
+SHA1: 
+SHA256: cca2352bdae20fcee016ebef726a8e90242b43bde600b5534bb41357ec18b7f1
+
+Package: com.guiqi.cleanpdd
+Name: CleanPDD
+Description: 精简拼多多底栏
+Maintainer: guiqi
+Author: guiqi
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.1-8+debug
+Installed-Size: 216
+Icon: https://huayuarc.github.io/icon/pdd.jpg
+Filename: debs/com.guiqi.cleanpdd-0.0.1-8+debug-rootless.deb
+Size: 6008
+MD5sum: 55071eeba3aa49d67388c3938887aba2
+SHA1: 
+SHA256: eb1092d5b4420a7ec482deda8f3f96edd9f087a2878b1afd6a2672c7e541add6
+
+Package: com.guiqi.cleantb
+Name: CleanTB
+Depends: mobilesubstrate
+Description: 淘宝底栏去视频，排版重构。
+Maintainer: GUIQI
+Author: GUIQI
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Installed-Size: 168
+Icon: https://huayuarc.github.io/icon/tb.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.guiqi.cleantb-1.0.9-roothide.deb
+Size: 5864
+MD5sum: b6bfdcd1ceeae636cf71f619522d3359
+SHA1: 
+SHA256: b6f8ca0d6e6cfb44e22ee8cfcb8180aa0e076c5ceb8732b5ed9dd126d01d424b
+
+Package: com.guiqi.cleantb
+Name: CleanTB
+Depends: mobilesubstrate
+Description: 淘宝底栏去视频，排版重构。
+Maintainer: GUIQI
+Author: GUIQI
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Installed-Size: 168
+Icon: https://huayuarc.github.io/icon/tb.jpg
+Filename: debs/com.guiqi.cleantb-1.0.9-rootless.deb
+Size: 5688
+MD5sum: cf614be74b57336e49fec3f371ebd74a
+SHA1: 
+SHA256: d51a389aa11657367c3cddd011e1196dd53a3410fa2ba71d73a85f9607f6b29f
+
 Package: com.HBWechatHelper.ailun
 Version: 2.1.2
 Section: Tweaks
