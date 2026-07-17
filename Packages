@@ -4911,6 +4911,42 @@ MD5sum: 050124b48b8b8581c010eefa4c108133
 SHA1: 
 SHA256: 3bfe5b910ecafe4e185ee6628a784c13162c26623c584c4333f2f13eef7514f4
 
+Package: com.huayuarc.cputhermal
+Name: CPU防温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。性能优先版默认防温控，尽量保持 CPU/GPU 满性能和高帧率；维护定时器从 0.8s 降低到 2s 以减少额外卡顿，85°C 或读温失败会自动交还系统温控。支持低功耗模式限制 CPU 最高 2016MHz，并保留 CPU 性能保护、屏幕亮度保护和高温通知开关。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.2.5
+Installed-Size: 832
+Filename: debs/com.huayuarc.cputhermal-1.2.5-roothide.deb
+Size: 69808
+MD5sum: f8b0f97ed381fb33f97b8287f163666f
+SHA1: 
+SHA256: 14b6ef1e3d4365048a5e016f244c9f0dd5c9538c53d640c74b9973090ab81182
+
+Package: com.huayuarc.cputhermal
+Name: CPU防温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。性能优先版默认防温控，尽量保持 CPU/GPU 满性能和高帧率；维护定时器从 0.8s 降低到 2s 以减少额外卡顿，85°C 或读温失败会自动交还系统温控。支持低功耗模式限制 CPU 最高 2016MHz，并保留 CPU 性能保护、屏幕亮度保护和高温通知开关。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.2.5
+Installed-Size: 840
+Filename: debs/com.huayuarc.cputhermal-1.2.5-rootless.deb
+Size: 72004
+MD5sum: 07886b98f7aed6d8203c2864ed60f71d
+SHA1: 
+SHA256: 341de3842a1871db15ee4647eace46174f88a3a8cffe915759bf23a4ef22630b
+
 Package: com.huayuarc.flashclockpro
 Name: 悬浮时间 Pro
 Author: Huayuarc
@@ -5079,6 +5115,38 @@ Size: 1236
 MD5sum: 5e5a278cbc52c4b21e38ef6d71eb8fcc
 SHA1: 
 SHA256: a1d40b6a7176c1934414da933b9fc19229e9403a3da8dbbe871dc36333aabb7a
+
+Package: com.huayuarc.systempro
+Name: Systempro
+Author: Huayuarc
+Description: 通知不亮屏 + 多项系统增强 + 系统工具（禁用OTA/通话录音提示音/Watch配对）
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Maintainer: Huayuarc
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.3.7
+Installed-Size: 872
+Filename: debs/com.huayuarc.systempro-0.3.7-roothide.deb
+Size: 79924
+MD5sum: 074395e78de3c80e973e20a0a0e4642a
+SHA1: 
+SHA256: a514c21b832f24177cc886f70af497a6815cb6af3b4b0bc8a9dcfbda92630a2a
+
+Package: com.huayuarc.systempro
+Name: Systempro
+Author: Huayuarc
+Description: 通知不亮屏 + 多项系统增强 +  系统工具（禁用OTA/通话录音提示音/Watch配对）
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Maintainer: Huayuarc
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.3.7
+Installed-Size: 872
+Filename: debs/com.huayuarc.systempro-0.3.7-rootless.deb
+Size: 80880
+MD5sum: 9f7b7e752aff04122e2e4321e3c9caba
+SHA1: 
+SHA256: 815d63a7794f0a36b0b55ecef89b44a3e543137cb080c90c37382adbf17872da
 
 Package: com.huayuarc.systempro
 Name: Systempro
