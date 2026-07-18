@@ -6256,6 +6256,40 @@ MD5sum: 4be4004583bf1453f45c090b508c02f1
 SHA1: 
 SHA256: cac3f4c1d3ee8bbd87353128b29793736294c2f48ecc82e03c8d60fb03f4cdc4
 
+Package: com.layii.ccrnd
+Name: CCRecordNoDelay
+Description: 移除录屏的3秒倒计时并自动收起控制中心
+Maintainer: LaYii
+Author: LaYii
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 168
+Icon: https://huayuarc.github.io/icon/ccrnd.jpg
+Filename: debs/com.layii.ccrnd-0.0.1-roothide.deb
+Size: 4120
+MD5sum: c8925be2a84ec3ef74f06559878eeee4
+SHA1: 
+SHA256: b898374cd5d91c22edaceb69a25617cfb1c1d97126038e520d7972693deab323
+
+Package: com.layii.ccrnd
+Name: CCRecordNoDelay
+Description: 移除录屏的3秒倒计时并自动收起控制中心
+Maintainer: LaYii
+Author: LaYii
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 168
+Icon: https://huayuarc.github.io/icon/ccrnd.jpg
+Filename: debs/com.layii.ccrnd-0.0.1-rootless.deb
+Size: 4176
+MD5sum: 7616aa08c30d3e333250e0892995c25f
+SHA1: 
+SHA256: cbd9783a38bcdae5f4b4b0313fa2b30e655abb1ad34b124d2e038ed135dee59c
+
 Package: com.lclrc.hammerit
 Name: Hammer It
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
