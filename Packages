@@ -5067,6 +5067,42 @@ MD5sum: d57b5604b49ceb07341dfc9dd2c3cc85
 SHA1: 
 SHA256: 28ff94d796fc2aef124d1f779e55a9576d6c11b5b01c8225acb5a58604ae141c
 
+Package: com.huayuarc.cputhermal
+Name: CPU 去温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。性能优先版默认防温控，尽量保持 CPU/GPU 满性能和高帧率；支持低功耗模式限制 CPU 最高 2016MHz，并保留 CPU 性能保护、屏幕亮度保护、高温通知、禁用口袋高温和锁定阳光暴晒开关。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.2.6
+Installed-Size: 820
+Filename: debs/com.huayuarc.cputhermal-1.2.6-roothide.deb
+Size: 67176
+MD5sum: e23353177487b9ddfad2688443570735
+SHA1: 
+SHA256: 2a7a1b55b3caf942200f0fbda47d9ab50992626890c46c5b2ed16ad0e00c0a6d
+
+Package: com.huayuarc.cputhermal
+Name: CPU 去温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。性能优先版默认防温控，尽量保持 CPU/GPU 满性能和高帧率；支持低功耗模式限制 CPU 最高 2016MHz，并保留 CPU 性能保护、屏幕亮度保护、高温通知、禁用口袋高温和锁定阳光暴晒开关。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.2.6
+Installed-Size: 824
+Filename: debs/com.huayuarc.cputhermal-1.2.6-rootless.deb
+Size: 69632
+MD5sum: fc0b13237002c3e9701374c6d02351d8
+SHA1: 
+SHA256: 7640ecfd2bda35da0e400421aa96e3be69dace00c2f79e533122e4cc07b4b00b
+
 Package: com.huayuarc.flashclockpro
 Name: 悬浮时间 Pro
 Author: Huayuarc
