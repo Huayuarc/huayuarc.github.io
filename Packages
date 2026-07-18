@@ -634,6 +634,41 @@ MD5sum: dd2a00859094fd24b07762139e4c9185
 SHA1: 
 SHA256: c9b8cf53e1dbd1d127872b3c18e55cfdb3f14aefc4d5a672c4773a191ad6de13
 
+Package: cn.llld.litten.rose
+Version: 1.0.9
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0),cn.llld.hhxt
+Conflicts: love.litten.rose
+Architecture: iphoneos-arm64e
+Name: Rose 振动配置
+Author: Litten 来了老弟
+Description: Global vibration configuration, covering almost any vibration adjustment that can be touched，全局震动配置，几乎覆盖能触摸的任意震感调节
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/Rose.png
+Filename: debs/cn.llld.litten.rose-1.0.9-roothide.deb
+Size: 450388
+MD5sum: 54b38454241e1d7adb77cdde831eded2
+SHA1: 
+SHA256: c3bb619bcbd2e45f7a0d0759a2a71a5ab20fc821367dcd96300156006e9dc5ac
+
+Package: cn.llld.litten.rose
+Version: 1.0.9
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0),cn.llld.hhxt
+Conflicts: love.litten.rose
+Architecture: iphoneos-arm64
+Name: Rose 振动配置
+Author: Litten 来了老弟
+Description: Global vibration configuration, covering almost any vibration adjustment that can be touched，全局震动配置，几乎覆盖能触摸的任意震感调节
+Icon: https://huayuarc.github.io/icon/Rose.png
+Filename: debs/cn.llld.litten.rose-1.0.9-rootless.deb
+Size: 449556
+MD5sum: ee17a45952c04c80f3b8a7af649610db
+SHA1: 
+SHA256: a2fc360fe45d507ff0d062bab500e49eb64160839326eff3121c6f68dd6a2b54
+
 Package: cn.llld.playerbj
 Name: 隐藏播放器通知背景
 Description: Hide player Notification background。全透版本，隐藏播放器通知背景-rootless
@@ -774,6 +809,73 @@ Size: 866512
 MD5sum: 8e4531588521ab4c899961647bb5e4f3
 SHA1: 
 SHA256: 6e5b32508173022a39459350ae7bbde2c225b0f0df542ad5e47934c94a812831
+
+Package: cn.llld.tmts
+Name: 全局透明 Max
+Depends: mobilesubstrate, preferenceloader
+Description: Customize notifications, control center, multitasking background module transparency（alpha）。自定义全局透明度(包含 播放器，负一屏，通知，控制中心，多任务后台模块等，有空就更)，202401192005:增加专注模式和二级模式，拆开负一屏和文件夹背景单独设定.(群是那个芭比Q，满了，待扩张)
+Maintainer: 来了老弟 X：h_h_x_t
+Author: 来了老弟 X：h_h_x_t
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/tmllld.png
+Architecture: iphoneos-arm64e
+Version: 0.2
+Installed-Size: 448
+Filename: debs/cn.llld.tmts-0.2-roothide.deb
+Size: 118164
+MD5sum: c71314d44c4e8be3cc2b553af3a11d19
+SHA1: 
+SHA256: baf8aba140edcff39202817c886931f0473c505edea35617b1090e032859f448
+
+Package: cn.llld.tmts
+Name: 全局透明 Max
+Depends: mobilesubstrate, preferenceloader
+Description: Customize notifications, player，control center, multitasking background module transparency(alpha)，Customize the size and location of the player and control center，Each fill in the blank has a numerical value.自定义播放器大小和控制中心大小及位置，自定义SpringBoard全局透明度(包含 锁屏 ，播放器，负一屏，通知，控制中心，多任务后台模块等)----240305:增加锁屏手电相机透明度，兼顾16.2-16.3.1版本调节播放器透明度，***记得每个填空得有数值，以最新版本为准，之前代码是垃圾***
+Maintainer: 来了老弟 X：h_h_x_t
+Author: 来了老弟 X：h_h_x_t
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/tmllld.png
+Architecture: iphoneos-arm64
+Version: 1.2
+Installed-Size: 480
+Filename: debs/cn.llld.tmts-1.2-rootless.deb
+Size: 125392
+MD5sum: 72b06e9c386504a93d57dc31862271c9
+SHA1: 
+SHA256: 59d81d03f15b54c550ba229466e447512cc3bb4cf3722ea60e511bcc0b42dabf
+
+Package: cn.llld.vibrato
+Version: 2.12
+Description: Global custom vibration feedback全局自定义震动反馈，设置若显示空白，则换PreferenceLoader版本_________仅测试用,有问题卸载
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), preferenceloader
+Architecture: iphoneos-arm64e
+Name: Vibrato 全局自定义震动
+Author: SynnyG 来了老弟
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/Vibrato.png
+Filename: debs/cn.llld.vibrato-2.12-roothide.deb
+Size: 196016
+MD5sum: c3d489e1d73b3c9f19a16b122f18c7e2
+SHA1: 
+SHA256: a1ef92b0429ffa8c4b297ee345cceb8c3f5b7a684ef6ec646915a01cd5bde5d2
+
+Package: cn.llld.vibrato
+Version: 2.12
+Description: Global custom vibration feedback全局自定义震动反馈，设置若显示空白，则换PreferenceLoader版本_________仅测试用,有问题卸载
+Section: Tweaks
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), preferenceloader
+Architecture: iphoneos-arm64
+Name: Vibrato全局自定义震动
+Author: SynnyG 来了老弟
+Icon: https://huayuarc.github.io/icon/Vibrato.png
+Filename: debs/cn.llld.vibrato-2.12-rootless.deb
+Size: 195788
+MD5sum: f9b3d460fb8d05e3d14e3a19021eadde
+SHA1: 
+SHA256: b01e25f8e0dd58c71ff989654eca6ce22d48d23bc2de8128c4067a5da99650da
 
 Package: cn.zqbb.ccatop
 Name: CocoaTop
@@ -6726,6 +6828,41 @@ Size: 865222
 MD5sum: 7ce097390d58b31728eb9634ab3c6746
 SHA1: 
 SHA256: 46bd2a37a7e5d10288614f95f1a8ce999cd48ee68c90ec1ecd763f06a63d5577
+
+Package: com.muirey03.cr4shed
+Name: Cr4shed 崩溃日记
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Description: Cr4shed是有用的崩溃报告程序包，旨在帮助开发人员识别和修复其用户已报告给他们的崩溃，并帮助用户识别 崩溃的罪魁祸首。它在“/var/mobile/Library/Cr4shed” (可从Cr4shed应用程序访问)中生成一个崩溃日志， 包括诸如崩溃进程，崩溃的确切原因，导致崩溃的dylib以及整个调用堆栈之类的信息。当崩溃发生时。如果有人向您 报告崩溃，而您无法仅从system/CrashReporter崩溃日志中找出问题所在，则此功能非常有用。(对于确定开 发崩 溃的原因也非常有用)。该报告应该是您确定崩溃发生原因的所有内容。
+Maintainer: Nets
+Author: Muirey03
+Section: Tweaks
+Version: 4.3.0
+Installed-Size: 1312
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/cr4shed.jpg
+Filename: debs/com.muirey03.cr4shed-4.3.0-roothide.deb
+Size: 132432
+MD5sum: ed0f25c3f85682710e2ccfb4c5b269d2
+SHA1: 
+SHA256: 9e0f406a18f7c8bd9482e26c0922de595f7d7e6f392c64016ab2d255795148e0
+
+Package: com.muirey03.cr4shed
+Name: Cr4shed 崩溃日记
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Description: Cr4shed是有用的崩溃报告程序包，旨在帮助开发人员识别和修复其用户已报告给他们的崩溃，并帮助用户识别 崩溃的罪魁祸首。它在“/var/mobile/Library/Cr4shed” (可从Cr4shed应用程序访问)中生成一个崩溃日志， 包括诸如崩溃进程，崩溃的确切原因，导致崩溃的dylib以及整个调用堆栈之类的信息。当崩溃发生时。如果有人向您 报告崩溃，而您无法仅从system/CrashReporter崩溃日志中找出问题所在，则此功能非常有用。(对于确定开 发崩 溃的原因也非常有用)。该报告应该是您确定崩溃发生原因的所有内容。
+Maintainer: Nets
+Author: Muirey03
+Section: Tweaks
+Version: 4.3.0
+Installed-Size: 1312
+Icon: https://huayuarc.github.io/icon/cr4shed.jpg
+Filename: debs/com.muirey03.cr4shed-4.3.0-rootless.deb
+Size: 129172
+MD5sum: c7d818cb49ec45a5fc321235cebe9be2
+SHA1: 
+SHA256: b9d6054e5a9dc029d96bc14dca11b5fb5244412ff1cb7039b7e59236a0892e9f
 
 Package: com.mumu.wcgg
 Name: WCGG
