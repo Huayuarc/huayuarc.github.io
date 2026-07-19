@@ -1326,24 +1326,6 @@ MD5sum: 21bb60d4819e3200a7e7137910bbb22d
 SHA1: 
 SHA256: 0d69a810e7aa7ba18fd0435571c466104d2a727ea76f8f628b52024a9b455c62
 
-Package: com.82flex.touchvis
-Name: Touch-Viz
-Description: Display your touch interactions!
-Maintainer: Lessica <82flex@gmail.com>
-Author: Lessica <82flex@gmail.com>
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64e
-Version: 4.0.2
-Installed-Size: 4360
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/Touch-Viz.png
-Filename: debs/com.82flex.touchvis_4.0.2_iphoneos-arm64e.deb
-Size: 915092
-MD5sum: 2d728bfe201ab7c2fb7836119e6f1d08
-SHA1: 
-SHA256: 910819ea39722a01ecd2b482e1923af2f250b9670cffa2b749764c76a1ea051b
-
 Package: com.82flex.unseen
 Name: Unseen
 Description: Neutralizes CALayer disableUpdateMask in the render server.Unseen是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
@@ -4592,6 +4574,36 @@ Size: 5708
 MD5sum: b4b9dd0b42568db29873c08b4fbb0f0b
 SHA1: 
 SHA256: a48a42344ab9977897dc8ef3a34b90a6e1f7ee50ad751d974d2d7dff7464062e
+
+Package: com.huayuarc.bdtbnoads
+Architecture: iphoneos-arm64e
+Name: 百度贴吧 NoAds
+Version: 0.0.1
+Description: 1.去除启动广告、2.去除首页推荐广告、3.去除图片浏览广告、4.去除帖子下方广告、5.去除贴吧吧内广告、6.去除帖子评论区广告、7.去除首页视频播放结束广告、8.去除帖子内部直播推荐
+Author: Huayuarc｜poqw312 <xuanhua880@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Filename: debs/com.huayuarc.bdtbnoads-0.0.1-roothide.deb
+Size: 9140
+MD5sum: 3c9a05c3bfe7e79436aba81b434c7d5b
+SHA1: 
+SHA256: efae5ad3c74f6d28068b7af860fa0cbaf983e3fa8880cfc4eb171ebdb31117d0
+
+Package: com.huayuarc.bdtbnoads
+Architecture: iphoneos-arm64
+Name: 百度贴吧 NoAds
+Version: 0.0.1
+Description: 1.去除启动广告、2.去除首页推荐广告、3.去除图片浏览广告、4.去除帖子下方广告、5.去除贴吧吧内广告、6.去除帖子评论区广告、7.去除首页视频播放结束广告、8.去除帖子内部直播推荐
+Author: Huayuarc｜poqw312 <xuanhua880@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Filename: debs/com.huayuarc.bdtbnoads-0.0.1-rootless.deb
+Size: 9216
+MD5sum: 05a3af7650bc20aef25889f8ee1d6539
+SHA1: 
+SHA256: d99ebd12b61811a932d034d8f3fe44f64110315150741d500f69d20a00a3b865
 
 Package: com.huayuarc.cputhermal
 Name: CPU 去温控
