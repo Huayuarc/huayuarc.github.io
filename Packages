@@ -1326,6 +1326,41 @@ MD5sum: 21bb60d4819e3200a7e7137910bbb22d
 SHA1: 
 SHA256: 0d69a810e7aa7ba18fd0435571c466104d2a727ea76f8f628b52024a9b455c62
 
+Package: com.82flex.touchvis
+Name: Touch-Viz
+Description: Display your touch interactions!
+Maintainer: Lessica <82flex@gmail.com>
+Author: Lessica <82flex@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.1
+Installed-Size: 4400
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/Touch-Viz.png
+Filename: debs/com.82flex.touchvis-4.1-roothide.deb
+Size: 920052
+MD5sum: 28f1f2334b5bf74b1d4b00fdaf6777c4
+SHA1: 
+SHA256: c8345255c4ac856b38abfacaf8a95be8694c69f260ebb759c7d5c6411790c8e3
+
+Package: com.82flex.touchvis
+Name: Touch-Viz
+Description: Display your touch interactions!
+Maintainer: Lessica <82flex@gmail.com>
+Author: Lessica <82flex@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 4.1
+Installed-Size: 4400
+icon: https://huayuarc.github.io/icon/Touch-Viz.png
+Filename: debs/com.82flex.touchvis-4.1-rootless.deb
+Size: 937524
+MD5sum: 5038ad5ef8d306c75f4bc01824643831
+SHA1: 
+SHA256: 72fc47f1744e8c3ee9f9d32d2c0b433a9dd2aa5c5677b2f377ef3ee176f4aa1a
+
 Package: com.82flex.unseen
 Name: Unseen
 Description: Neutralizes CALayer disableUpdateMask in the render server.Unseen是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
@@ -4584,11 +4619,12 @@ Author: Huayuarc｜poqw312 <xuanhua880@gmail.com>
 Section: Tweaks
 Depends: mobilesubstrate
 Maintainer: Huayuarc <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/tieba.jpg
 Filename: debs/com.huayuarc.bdtbnoads-0.0.1-roothide.deb
-Size: 9140
-MD5sum: 3c9a05c3bfe7e79436aba81b434c7d5b
+Size: 9188
+MD5sum: 8b5f51d0cee77d92a7d9500e3601e8b4
 SHA1: 
-SHA256: efae5ad3c74f6d28068b7af860fa0cbaf983e3fa8880cfc4eb171ebdb31117d0
+SHA256: f8fd2e2f5e3857c76d1e1ab72840f52d7a83b6c5e1f9a12c7e526f744106971a
 
 Package: com.huayuarc.bdtbnoads
 Architecture: iphoneos-arm64
@@ -4599,11 +4635,12 @@ Author: Huayuarc｜poqw312 <xuanhua880@gmail.com>
 Section: Tweaks
 Depends: mobilesubstrate
 Maintainer: Huayuarc <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/tieba.jpg
 Filename: debs/com.huayuarc.bdtbnoads-0.0.1-rootless.deb
-Size: 9216
-MD5sum: 05a3af7650bc20aef25889f8ee1d6539
+Size: 9252
+MD5sum: a43f3d5a42d826db8e0a3ea78019cd8e
 SHA1: 
-SHA256: d99ebd12b61811a932d034d8f3fe44f64110315150741d500f69d20a00a3b865
+SHA256: 06fc8b018f6937fab89d72db2740a56256b52439b9646ad4478e15694b98543b
 
 Package: com.huayuarc.cputhermal
 Name: CPU 去温控
