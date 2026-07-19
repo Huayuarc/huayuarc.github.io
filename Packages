@@ -4421,6 +4421,40 @@ MD5sum: dfb0d63f3177ea0417c00eed271a8a71
 SHA1: 
 SHA256: 2c3966236ef8f979f6b76297af2963aa3089932dc92e9e7ff789114a37ef4e37
 
+Package: com.huami.chatcapture
+Name: ChatCapture
+Description: 多选微信私聊、群聊消息长截图，完整保留原生聊天界面样式。操作方式：选中多条消息后点击「更多」，选择截图功能；点击页面齿轮图标可进入插件自定义设置页面。Capture selected WeChat messages with their original chat appearance for private & group chat. After multi-select messages, tap More to take long screenshot, tap gear icon to open preference settings.
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.0-3
+Installed-Size: 756
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.huami.chatcapture-1.0-3-roothide.deb
+Size: 157784
+MD5sum: 6cebe8af70a9a9d40ae1e92ec411f7e7
+SHA1: 
+SHA256: 8800540a383fc982ec6c97e16f1a8377b1e20577c01cb4d965f0c98459adef20
+
+Package: com.huami.chatcapture
+Name: ChatCapture
+Description: 多选微信私聊、群聊消息长截图，完整保留原生聊天界面样式。操作方式：选中多条消息后点击「更多」，选择截图功能；点击页面齿轮图标可进入插件自定义设置页面。Capture selected WeChat messages with their original chat appearance for private & group chat. After multi-select messages, tap More to take long screenshot, tap gear icon to open preference settings.
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.0-3
+Installed-Size: 756
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.huami.chatcapture-1.0-3-rootless.deb
+Size: 168428
+MD5sum: 080547ef638c65c19660c653c3df9a9f
+SHA1: 
+SHA256: ea565e2f3aeb712b88485063e06ee8adf13c4d6d2cef520ca008c04292d0e85a
+
 Package: com.huami.ChoicyConfigPin
 Name: ChoicyConfigPin
 Description: Pin apps with custom tweak configuration to the top in Choicy
