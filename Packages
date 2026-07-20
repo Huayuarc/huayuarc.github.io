@@ -17759,26 +17759,6 @@ Version: 17.9.10
 Priority: optional
 Size: 15978496
 Installed-Size: 52524
-Architecture: iphoneos-arm64
-Description: Observe and reprogram running programs.
-Homepage: https://frida.re/
-Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
-Author: Frida Developers <oleavr@nowsecure.com>
-Section: Tweaks
-Conflicts: re.frida.server64
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/re.frida.server_17.9.10_iphoneos-arm64.deb
-Size: 15228500
-MD5sum: 19d92517006f1f51300bb80368b94031
-SHA1: 
-SHA256: de3010b60f380a9ed155d646a65cde9fc1c25f3b9b990cd2408334ab03de9e86
-
-Package: re.frida.server
-Name: Frida
-Version: 17.9.10
-Priority: optional
-Size: 15978496
-Installed-Size: 52524
 Architecture: iphoneos-arm64e
 Description: Observe and reprogram running programs.
 Homepage: https://frida.re/
@@ -17787,12 +17767,32 @@ Author: Frida Developers <oleavr@nowsecure.com>
 Section: Tweaks
 Conflicts: re.frida.server64
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/re.frida.server_17.9.10_iphoneos-arm64e.deb
-Size: 14960388
-MD5sum: 69d78853eecae1c76886a9283f8993bb
+icon: https://huayuarc.github.io/icon/frida.jpg
+Filename: debs/re.frida.server-17.9.10-roothide.deb
+Size: 14960276
+MD5sum: 2e9b392db211af48f649ace093d04cb7
 SHA1: 
-SHA256: 2ca10ec9754a043cca2868a53c5c71ef32a1a1cc99a76a60b59542ac3ee54901
+SHA256: b99cb162b5b6638ffc5a8c8eb4e7b668f3d8b2a188118c1690583cbc858ae16b
+
+Package: re.frida.server
+Name: Frida
+Version: 17.9.10
+Priority: optional
+Size: 15978496
+Installed-Size: 52524
+Architecture: iphoneos-arm64
+Description: Observe and reprogram running programs.
+Homepage: https://frida.re/
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Author: Frida Developers <oleavr@nowsecure.com>
+Section: Tweaks
+Conflicts: re.frida.server64
+icon: https://huayuarc.github.io/icon/frida.jpg
+Filename: debs/re.frida.server-17.9.10-rootless.deb
+Size: 15225596
+MD5sum: 44278c6977b0b5c7dd7be70c1fe06ed8
+SHA1: 
+SHA256: b3432a3f8b9eadf545d92d0f1d4ed79549831892b07f6409cac1e3a2fe945f5d
 
 Package: tools.cydia.flex3
 Maintainer: t4c
