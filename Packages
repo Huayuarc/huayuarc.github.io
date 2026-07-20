@@ -6580,6 +6580,41 @@ MD5sum: c97fd3e91b8271a7919b688bbaddbc29
 SHA1: 
 SHA256: f4a6b592f2b84b1970c68173000809385915de90cdce6967f04fa89d2f6ec8b4
 
+Package: com.jiuyue.lightisle
+Name: 灵动岛手电筒
+Description: 为iOS16添加灵岛手电筒控制
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.1)
+Maintainer: 旧约
+Author: 旧约
+Section: 灵动岛
+Architecture: iphoneos-arm64e
+Version: 1.0.0-2
+Installed-Size: 1304
+icon: https://huayuarc.github.io/icon/lddsdt.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.jiuyue.lightisle-1.0.0-2-roothide.deb
+Size: 952912
+MD5sum: 6d21071bbc5d4696793ee95e9390f651
+SHA1: 
+SHA256: 736377e85899f82c9ec0441e23d0cdccbb3fc65f20c05c1ad6a69c89b91494c8
+
+Package: com.jiuyue.lightisle
+Name: 灵动岛手电筒
+Description: 为iOS16添加灵岛手电筒控制
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.1)
+Maintainer: 旧约
+Author: 旧约
+Section: 灵动岛
+Architecture: iphoneos-arm64
+Version: 1.0.0-2
+Installed-Size: 1304
+icon: https://huayuarc.github.io/icon/lddsdt.jpg
+Filename: debs/com.jiuyue.lightisle-1.0.0-2-rootless.deb
+Size: 953728
+MD5sum: 1d87e211a4f3e84411f574c5d025c4d6
+SHA1: 
+SHA256: 3dc152c74be6278bf85a48fd5c6b1626f66279d3d55a7dee77d3a9af3651dd60
+
 Package: com.jontelang.snapper3
 Name: Snapper 3
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
