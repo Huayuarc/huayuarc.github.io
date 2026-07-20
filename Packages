@@ -4506,6 +4506,44 @@ MD5sum: 4464497e26a8d7210becbf373fdaece1
 SHA1: 
 SHA256: 902b40740135f5022a425aab85133dc927821995d822438a3a321a598887676a
 
+Package: com.huami.chatcaptureplus
+Name: ChatCapture+
+Version: 1.0
+Architecture: iphoneos-arm64e
+Description: 一款用于聊天界面多选(长)截图自动拼接的小插件，增加时间标签     • 支持按选择拼接截图     • 支持快捷分享给联系人     • 支持聊天背景图展示配置     • 支持隐藏群成员名字标签     • 支持选择是否显示群名、输入框     • 适配主题情况下的导航栏资源裁剪等布局     • 支持选择成员显示名类型（备注、网名、群名） 注意：此插件默认开启 触发方式如下：多选消息后点击「更多」→ 截图；齿轮图标进入设置。
+Maintainer: huami, Mallin
+Author: huami, Mallin
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Replaces: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Tag: role::enduser
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.huami.chatcaptureplus-1.0-roothide.deb
+Size: 281596
+MD5sum: 9bc447ff66ddb3a459ddf33b399c310b
+SHA1: 
+SHA256: 5e6da54740dcd61e6956a2bc626660734339b98a0893df51eb011668a39b7e15
+
+Package: com.huami.chatcaptureplus
+Name: ChatCapture+
+Version: 1.0
+Architecture: iphoneos-arm64
+Description: 一款用于聊天界面多选(长)截图自动拼接的小插件，增加时间标签     • 支持按选择拼接截图     • 支持快捷分享给联系人     • 支持聊天背景图展示配置     • 支持隐藏群成员名字标签     • 支持选择是否显示群名、输入框     • 适配主题情况下的导航栏资源裁剪等布局     • 支持选择成员显示名类型（备注、网名、群名） 注意：此插件默认开启 触发方式如下：多选消息后点击「更多」→ 截图；齿轮图标进入设置。
+Maintainer: huami, Mallin
+Author: huami, Mallin
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Replaces: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Tag: role::enduser
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.huami.chatcaptureplus-1.0-rootless.deb
+Size: 281440
+MD5sum: 50567300c457a97eb84a4a59860fc108
+SHA1: 
+SHA256: 61b800a30a08cf3b4afeb4882bcf1e0e40938592ed57b1773a3837195cd28c67
+
 Package: com.huami.ChoicyConfigPin
 Name: ChoicyConfigPin
 Description: Pin apps with custom tweak configuration to the top in Choicy
