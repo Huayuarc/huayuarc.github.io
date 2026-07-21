@@ -2690,6 +2690,40 @@ SHA256: 1718d69852b091f037be84e1e0b46dcd34efd0d1eb1bec07ea5fa2128af295b0
 
 Package: com.colorblack.bottomx
 Name: Bottom-x
+Description: 点击底部小白条逐级返回，到app最顶层就会返回桌面，新增学习返回模式，视觉返回保留。; 感兴趣可以加 QQ 群 2059 28931 
+Maintainer: Color Black
+Author: Color Black
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 0.2.70
+Installed-Size: 3428
+icon: https://huayuarc.github.io/icon/Bottom.png
+Filename: debs/com.colorblack.bottomx-0.2.70-roothide.deb
+Size: 828516
+MD5sum: 658adde915fe0c881f2750894b5055d5
+SHA1: 
+SHA256: b90d39a16183cdbd2ea894ac58d78c9def15f80cbead0f3fb838f1d8ce2da995
+
+Package: com.colorblack.bottomx
+Name: Bottom-x
+Description: 点击底部小白条逐级返回，到app最顶层就会返回桌面，新增学习返回模式，视觉返回保留。; 感兴趣可以加 QQ 群 2059 28931 
+Maintainer: Color Black
+Author: Color Black
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Architecture: iphoneos-arm64
+Version: 0.2.70
+Installed-Size: 3428
+icon: https://huayuarc.github.io/icon/Bottom.png
+Filename: debs/com.colorblack.bottomx-0.2.70-rootless.deb
+Size: 828512
+MD5sum: ce5fe49d17c8ab0b0a103c64a900e795
+SHA1: 
+SHA256: 5833c898d4850456a06f66c233661b41fd9a34e59948a112376b64e765deda8e
+
+Package: com.colorblack.bottomx
+Name: Bottom-x
 Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931 
 Maintainer: Color Black
 Author: Color Black
