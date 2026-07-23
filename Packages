@@ -4174,6 +4174,42 @@ MD5sum: b93509e92644aebccb936f9ea9ccb252
 SHA1: 
 SHA256: 56779e68c32e69c2cbdf759331e54cadd070bc873a01009819e3c5e760a0e5cc
 
+Package: com.example.wifileasekeeper
+Name: wifi 锁屏不断连
+Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000)
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 1.0.10
+Installed-Size: 1060
+icon: https://huayuarc.github.io/icon/wifi.jpg
+Filename: debs/com.example.wifileasekeeper-1.0.10-roothide.deb
+Size: 303348
+MD5sum: f7622ec8f68ae968e9df26936db487a8
+SHA1: 
+SHA256: 7ee048ac1e001e5f86cd49d42e5a0a8d754e689a33d171995bde795aba6c80bd
+
+Package: com.example.wifileasekeeper
+Name: wifi 锁屏不断连
+Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000)
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 1.0.10
+Installed-Size: 1060
+icon: https://huayuarc.github.io/icon/wifi.jpg
+Filename: debs/com.example.wifileasekeeper-1.0.10-rootless.deb
+Size: 304632
+MD5sum: 34f7a4769e9cbfaa08e25fc0be0e78b0
+SHA1: 
+SHA256: 2427b75fb8253d058ebf1a0b84d924572f1354dfd0e6fdc8d713f6136386fbbf
+
 Package: com.go.mango
 Name: mango
 Description: 芒果，轻量分屏，舒适，顺手。qq群：1083674538 群管理售后qq：3047240958/985745559
@@ -14283,6 +14319,41 @@ Size: 1512008
 MD5sum: 8296f9e8123f1b009b17d9616fef609f
 SHA1: 
 SHA256: 58bdc24e2ad9086f575a4e6d06a280cacc2906b4e40fdb8298d27925b847c43a
+
+Package: com.susu.snapper3.picta
+Name: Picta
+Description: Picta适配 Snapper3 的插件
+Maintainer: SuSu
+Author: SuSu
+Section: Tweaks
+Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 180
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/Picta.jpg
+Filename: debs/com.susu.snapper3.picta-1.0.0-roothide.deb
+Size: 10432
+MD5sum: cc2668e407726dc94f81f5b15e6df649
+SHA1: 
+SHA256: a5552c371fe2e6f26be70c5b96373e9057b1cf760c0b8d0f868b454b5f60e9e5
+
+Package: com.susu.snapper3.picta
+Name: Picta
+Description: Picta适配 Snapper3 的插件
+Maintainer: SuSu
+Author: SuSu
+Section: Tweaks
+Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 180
+icon: https://huayuarc.github.io/icon/Picta.jpg
+Filename: debs/com.susu.snapper3.picta-1.0.0-rootless.deb
+Size: 10612
+MD5sum: 06cb5928b1c76ad8ad806480e3bd2e79
+SHA1: 
+SHA256: 3e518353f755684eb358ea63122d711f30f85c5d41bb89eda30ceef5c000f4bf
 
 Package: com.susu.sumusicplayercc
 Installed-Size: 628
