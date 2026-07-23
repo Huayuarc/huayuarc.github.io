@@ -14577,6 +14577,86 @@ Description: MCP server for AI-driven iOS device control. Supports HID buttons, 
 Maintainer: witchan
 Author: witchan
 Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Installed-Size: 5712
+icon: https://huayuarc.github.io/icon/iosmcp.png
+Filename: debs/com.witchan.ios-mcp-1.2.1-roothide.deb
+Size: 1943024
+MD5sum: 5c1dd5f0ac150004e3ec4f2c468c099f
+SHA1: 
+SHA256: 107f8a04044e000ef6c196f82744acf50c2d79a0f5624e55a719b0880bf58a67
+
+Package: com.witchan.ios-mcp
+Name: iOS MCP
+Provides: com.witchan.iphone-mcp
+Conflicts: com.witchan.iphone-mcp
+Replaces: com.witchan.iphone-mcp
+Depends: mobilesubstrate, preferenceloader
+Description: MCP server for AI-driven iOS device control. Supports HID buttons, touch, screenshots, clipboard, app management, accessibility tree, and text input.用于人工智能 驱动的iOS设备控制的MCP服务器。支持HID按钮、触摸、屏幕截图、剪贴板、应用程序管理、辅助功能树和文本输入。
+Maintainer: witchan
+Author: witchan
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Installed-Size: 5692
+icon: https://huayuarc.github.io/icon/iosmcp.png
+Filename: debs/com.witchan.ios-mcp-1.2.1-rootless.deb
+Size: 1931196
+MD5sum: 1edfde31b1b50102e6bd97f914f0985f
+SHA1: 
+SHA256: 403fcdd32e02ecb8798bd8bb27433c412a327304578d26a0bbcda42fcf74c9d8
+
+Package: com.witchan.ios-mcp
+Name: iOS MCP
+Provides: com.witchan.iphone-mcp
+Conflicts: com.witchan.iphone-mcp
+Replaces: com.witchan.iphone-mcp
+Depends: mobilesubstrate, preferenceloader
+Description: MCP server for AI-driven iOS device control. Supports HID buttons, touch, screenshots, clipboard, app management, accessibility tree, and text input.用于人工智能 驱动的iOS设备控制的MCP服务器。支持HID按钮、触摸、屏幕截图、剪贴板、应用程序管理、辅助功能树和文本输入。
+Maintainer: witchan
+Author: witchan
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Installed-Size: 5760
+icon: https://huayuarc.github.io/icon/iosmcp.png
+Filename: debs/com.witchan.ios-mcp-1.2.2-roothide.deb
+Size: 1959180
+MD5sum: 8a952ca41807917ea5e39d3c023fdb3b
+SHA1: 
+SHA256: 9d9335197701ccaa128485edb149a2dc33a81de37d9ae377bb38b015dca103bf
+
+Package: com.witchan.ios-mcp
+Name: iOS MCP
+Provides: com.witchan.iphone-mcp
+Conflicts: com.witchan.iphone-mcp
+Replaces: com.witchan.iphone-mcp
+Depends: mobilesubstrate, preferenceloader
+Description: MCP server for AI-driven iOS device control. Supports HID buttons, touch, screenshots, clipboard, app management, accessibility tree, and text input.用于人工智能 驱动的iOS设备控制的MCP服务器。支持HID按钮、触摸、屏幕截图、剪贴板、应用程序管理、辅助功能树和文本输入。
+Maintainer: witchan
+Author: witchan
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Installed-Size: 5740
+icon: https://huayuarc.github.io/icon/iosmcp.png
+Filename: debs/com.witchan.ios-mcp-1.2.2-rootless.deb
+Size: 1948092
+MD5sum: 622da9e8a6527a24920e8cecce785f7f
+SHA1: 
+SHA256: bd3d86d6958837c62becc03f88de8eb964e42a246e51ccb50b2861e845bd5aae
+
+Package: com.witchan.ios-mcp
+Name: iOS MCP
+Provides: com.witchan.iphone-mcp
+Conflicts: com.witchan.iphone-mcp
+Replaces: com.witchan.iphone-mcp
+Depends: mobilesubstrate, preferenceloader
+Description: MCP server for AI-driven iOS device control. Supports HID buttons, touch, screenshots, clipboard, app management, accessibility tree, and text input.用于人工智能 驱动的iOS设备控制的MCP服务器。支持HID按钮、触摸、屏幕截图、剪贴板、应用程序管理、辅助功能树和文本输入。
+Maintainer: witchan
+Author: witchan
+Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.1.1
 Installed-Size: 5276
