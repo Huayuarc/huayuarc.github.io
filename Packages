@@ -4210,6 +4210,42 @@ MD5sum: 34f7a4769e9cbfaa08e25fc0be0e78b0
 SHA1: 
 SHA256: 2427b75fb8253d058ebf1a0b84d924572f1354dfd0e6fdc8d713f6136386fbbf
 
+Package: com.example.wifileasekeeper
+Name: wifi 锁屏不断连
+Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000)
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 1.0.11
+Installed-Size: 1060
+icon: https://huayuarc.github.io/icon/wifi.jpg
+Filename: debs/com.example.wifileasekeeper-1.0.11-roothide.deb
+Size: 303340
+MD5sum: a4842942c44076f1c1fe1eaafba56299
+SHA1: 
+SHA256: 5e5664e3cb5c0e5bd86e3a855ca537f5ee60dfadf00ff7f4b9c2225e4f740de3
+
+Package: com.example.wifileasekeeper
+Name: wifi 锁屏不断连
+Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000)
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 1.0.11
+Installed-Size: 1060
+icon: https://huayuarc.github.io/icon/wifi.jpg
+Filename: debs/com.example.wifileasekeeper-1.0.11-rootless.deb
+Size: 304764
+MD5sum: d78f4837cd693b04dbf3b45255d212d6
+SHA1: 
+SHA256: c3aa3eff3db2bf9c61ade7a21f26c27487b3b353f75a6aeec784a7a8e01abe1d
+
 Package: com.go.mango
 Name: mango
 Description: 芒果，轻量分屏，舒适，顺手。qq群：1083674538 群管理售后qq：3047240958/985745559
