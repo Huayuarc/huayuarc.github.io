@@ -69,7 +69,7 @@
 },
 {
 "class": "DepictionTableTextView",
-"text": "1.3.1",
+"text": "1.3.2-1",
 "title": "版本"
 },
 {
@@ -98,7 +98,7 @@
 "class": "DepictionSeparatorView"
 },
 {
-"markdown": "\n\n#### 版本: 1.3.1\n- 无更新日记，温控插件推荐使用：be-huge/insulation。\n\n#### 版本: 1.3.0\n- 新增CC控制中心轻触/长按模块切换模式。",
+"markdown": "\n\n#### 版本: 1.3.2-1\n- 这个版本去除轻触CC模块切换模式，如果需要轻触功能降级1.3.2版本。提供给需要的网友。\n\n#### 版本: 1.3.2\n- 优化低功耗无法锁定，自动恢复高频率问题。\n\n#### 版本: 1.3.1\n- 无更新日记，温控插件推荐使用：be-huge/insulation。\n\n#### 版本: 1.3.0\n- 新增CC控制中心轻触/长按模块切换模式。",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 }
