@@ -2516,6 +2516,23 @@ MD5sum: f312ea23e2b01e980a24f9214814710b
 SHA1: 
 SHA256: 17541e9315b2bc4d362f253c74defe1013da9dcc1ab77d362af8ececdc05fe08
 
+Package: com.charlieleung.snapvision
+Name: 长截图 区域截图OCR
+Description: 长截图 区域截图OCR 截图仅复制。
+Maintainer: Charlie Leung
+Author: Charlie Leung
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 1032
+icon: https://huayuarc.github.io/icon/snapvision.jpg
+Filename: debs/com.charlieleung.snapvision-0.0.1-roothide.deb
+Size: 180664
+MD5sum: 7698c80b99aae2b8f2269b782e3617c5
+SHA1: 
+SHA256: 2bb7e869c30c92033b4ba6e1b31aa0dee6c04e10f4f395498521b44c69c45aa4
+
 Package: com.charlieleung.trollopenjb
 Name: TrollOpen 分屏
 Description: TrollOpen 的越狱版本，自带分屏功能，支持 ios16 及以上。
@@ -4245,6 +4262,42 @@ Size: 304764
 MD5sum: d78f4837cd693b04dbf3b45255d212d6
 SHA1: 
 SHA256: c3aa3eff3db2bf9c61ade7a21f26c27487b3b353f75a6aeec784a7a8e01abe1d
+
+Package: com.example.wifileasekeeper
+Name: wifi 锁屏不断连
+Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000)
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 1.0.12
+Installed-Size: 1088
+icon: https://huayuarc.github.io/icon/wifi.jpg
+Filename: debs/com.example.wifileasekeeper-1.0.12-roothide.deb
+Size: 310576
+MD5sum: 2e0da20cd95f763d4915c4a9b9a85525
+SHA1: 
+SHA256: 31720db751dcc74ac29a3c6e6d81eee9d9f44d6a1e4313958d902e202abf6eeb
+
+Package: com.example.wifileasekeeper
+Name: wifi 锁屏不断连
+Description: 仅为白名单 Wi-Fi 防休眠,锁屏8小时耗电4%左右,(本插件实际为解决 连安卓热点苹果锁屏会断开 wifi的痛点) QQ群 205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000)
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 1.0.12
+Installed-Size: 1096
+icon: https://huayuarc.github.io/icon/wifi.jpg
+Filename: debs/com.example.wifileasekeeper-1.0.12-rootless.deb
+Size: 311816
+MD5sum: a1adcf472f023a8f4b018b313622d02b
+SHA1: 
+SHA256: aeefdc896496d42c5bed6ccb415020744333da24e4dc8129f733dc64b5103b34
 
 Package: com.go.mango
 Name: mango
