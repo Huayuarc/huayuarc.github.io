@@ -4771,6 +4771,44 @@ MD5sum: 50567300c457a97eb84a4a59860fc108
 SHA1: 
 SHA256: 61b800a30a08cf3b4afeb4882bcf1e0e40938592ed57b1773a3837195cd28c67
 
+Package: com.huami.chatcaptureplus
+Name: ChatCapture+
+Version: 2.0
+Architecture: iphoneos-arm64e
+Description: 一款用于聊天界面多选(长)截图自动拼接的小插件，增加时间标签     • 支持按选择拼接截图     • 支持快捷分享给联系人     • 支持聊天背景图展示配置     • 支持隐藏群成员名字标签     • 支持选择是否显示群名、输入框     • 适配主题情况下的导航栏资源裁剪等布局     • 支持选择成员显示名类型（备注、网名、群名）  注意：此插件默认开启  触发方式如下：多选消息后点击「更多」→ 截图；齿轮图标进入设置。
+Maintainer: huami, Mallin
+Author: huami, Mallin
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Replaces: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Tag: role::enduser
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.huami.chatcaptureplus-2.0-roothide.deb
+Size: 423128
+MD5sum: e82f5b7134cabe50101420e1959c62c7
+SHA1: 
+SHA256: 4adaae2aa96c065948ed03205736f5285d24834d6db5f8ac1171eebb81f0465e
+
+Package: com.huami.chatcaptureplus
+Name: ChatCapture+
+Version: 2.0
+Architecture: iphoneos-arm64
+Description: 一款用于聊天界面多选(长)截图自动拼接的小插件，增加时间标签     • 支持按选择拼接截图     • 支持快捷分享给联系人     • 支持聊天背景图展示配置     • 支持隐藏群成员名字标签     • 支持选择是否显示群名、输入框     • 适配主题情况下的导航栏资源裁剪等布局     • 支持选择成员显示名类型（备注、网名、群名）  注意：此插件默认开启  触发方式如下：多选消息后点击「更多」→ 截图；齿轮图标进入设置。
+Maintainer: huami, Mallin
+Author: huami, Mallin
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Replaces: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Tag: role::enduser
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.huami.chatcaptureplus-2.0-rootless.deb
+Size: 420236
+MD5sum: 1ddce77a5263584fc087d081c22b7a56
+SHA1: 
+SHA256: 9b74bee2fe8e7599e451cfd68de49e2e6e455bd21278d3b383c3fdc7d2c11e4a
+
 Package: com.huami.ChoicyConfigPin
 Name: ChoicyConfigPin
 Description: Pin apps with custom tweak configuration to the top in Choicy
@@ -6751,6 +6789,80 @@ Size: 27420
 MD5sum: ea942da895ff758e1723596eb1f1d296
 SHA1: 
 SHA256: 36f04a671050c6bed7e84bda2c760d0064da4fec21527ded387880400af1a6f4
+
+Package: com.mallin.phoneresolutionfix
+Name: iPhone 14Pro Resolution Fix
+Version: 1.2.13
+Architecture: iphoneos-arm64e
+Description: 修复iPhone 14Pro机型将显示分辨率由2556x1179改成2796x1290后导致电话APP的相关显示错位问题。直接安装后Respring即可生效！修改显示分辨率方法（仅供参考）：进入var/Managed Preferences/mobile文件夹找到com.apple.iokit.IOMobileGraphicsFamily.plist这个文件，打开修改，保存，然后“重启空间”或者“重启手机”即可。
+Maintainer: Mallin <mallin@example.local>
+Author: Mallin
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Tag: role::enduser
+Homepage: https://local.mallin/phone-resolution-fix
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.mallin.phoneresolutionfix-1.2.13-roothide.deb
+Size: 34380
+MD5sum: acf2fb583531a8792ed5aa955fe6f487
+SHA1: 
+SHA256: 3c708109f8342b88ccd9297e507bb1cb451829e3e48c3c296a05ca26ac01f988
+
+Package: com.mallin.phoneresolutionfix
+Name: iPhone 14Pro Resolution Fix
+Version: 1.2.13
+Architecture: iphoneos-arm64
+Description: 修复iPhone 14Pro机型将显示分辨率由2556x1179改成2796x1290后导致电话APP的相关显示错位问题。直接安装后Respring即可生效！修改显示分辨率方法（仅供参考）：进入var/Managed Preferences/mobile文件夹找到com.apple.iokit.IOMobileGraphicsFamily.plist这个文件，打开修改，保存，然后“重启空间”或者“重启手机”即可。
+Maintainer: Mallin <mallin@example.local>
+Author: Mallin
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Tag: role::enduser
+Homepage: https://local.mallin/phone-resolution-fix
+Icon: https://huayuarc.github.io/icon/phoneresolutionfix.jpg
+Filename: debs/com.mallin.phoneresolutionfix-1.2.13-rootless.deb
+Size: 34264
+MD5sum: cab50cacd103c2648dc3884c7c602d2e
+SHA1: 
+SHA256: 54b57d70113b2a62fd9308f45f99cd9dd37ad75faa29c35f2c6267f892e6c0bf
+
+Package: com.mallin.photonoautoalbums
+Name: 禁止APP在照片内自动新建相册
+Version: 1.34
+Architecture: iphoneos-arm64e
+Description: 禁止APP在照片内自动新建相册。
+Maintainer: Mallin <mallin@example.local>
+Author: Mallin
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Tag: role::enduser
+Homepage: https://local.mallin/photo-no-auto-albums
+icon: https://huayuarc.github.io/icon/xiangce.jpg
+Filename: debs/com.mallin.photonoautoalbums-1.34-roothide.deb
+Size: 42132
+MD5sum: 87c3fb83283e5c422a2b376754c1c7fb
+SHA1: 
+SHA256: 0871d83e30bbcf662846603c5ed9aa04d2711b8924c1ec768df2e80ae61bcce6
+
+Package: com.mallin.photonoautoalbums
+Name: 禁止APP在照片内自动新建相册
+Description: 禁止APP在照片内自动新建相册。
+Maintainer: Mallin <mallin@example.local>
+Author: Mallin
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Tag: role::enduser
+Homepage: https://local.mallin/photo-no-auto-albums
+Architecture: iphoneos-arm64
+Version: 1.34
+Installed-Size: 440
+icon: https://huayuarc.github.io/icon/xiangce.jpg
+Filename: debs/com.mallin.photonoautoalbums-1.34-rootless.deb
+Size: 42208
+MD5sum: 44ff23ed59815cfe2bf140bd29fbfb1e
+SHA1: 
+SHA256: a14c009d32d192bc279bf96fefc7060dde87d5f084f20aeb355d4a207db68968
 
 Package: com.miguelaka95.bettercc
 Maintainer: CyPwn
