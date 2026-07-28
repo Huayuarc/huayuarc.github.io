@@ -5394,6 +5394,40 @@ MD5sum: 2060322a836a0daa775bce8ef0740ac2
 SHA1: 
 SHA256: 2e70f6d6adb3bb16ec67ec1f53ab8e29c20bf90ccd8c6c93b194f69768263738
 
+Package: com.iosdump.airdrop
+Name: AirDrop
+Depends: mobilesubstrate
+Description: 解除隔空投送十分钟限制，支持设置自定义关闭时间，4秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗，支持iOS16.1.1+
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/AirDrop.jpg
+Filename: debs/com.iosdump.airdrop-0.0.2-roothide.deb
+Size: 7488
+MD5sum: 02b1fd573a284231a908c5856468c516
+SHA1: 
+SHA256: 53637bb5cbb2ce4228a6fdfa20abfaf761af21737c1ac59260c5eba321abd4dd
+
+Package: com.iosdump.airdrop
+Name: AirDrop
+Depends: mobilesubstrate
+Description: 解除隔空投送十分钟限制，支持设置自定义关闭时间，4秒内控制中心隔空投送连续点击两次所有人即可触发设置弹窗，支持iOS16.1.1+
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/AirDrop.jpg
+Filename: debs/com.iosdump.airdrop-0.0.2-rootless.deb
+Size: 7572
+MD5sum: 09ac2253728ab09652dc4a8492536e91
+SHA1: 
+SHA256: f211c67108f510439ea13e7d9b9aeb3b954ceb249d76d2c619967eefc1b2724a
+
 Package: com.iosdump.appdata
 Name: AppData
 Version: 2.5.3
@@ -5427,6 +5461,41 @@ Size: 1585168
 MD5sum: 53a56f5c82b2aa36c2a42bf5abfac5ba
 SHA1: 
 SHA256: e4954f73f061a460354b8b8e8f1f2d2baaafedab727bfc1a66cbd3240b84f934
+
+Package: com.iosdump.appdata
+Name: AppData
+Version: 2.6.1
+Description: 从主屏幕查看和管理应用数据
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64e
+Author: iosdump
+Maintainer: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.iosdump.appdata-2.6.1-roothide.deb
+Size: 1602324
+MD5sum: 0c7969f5462f3b7b645b17a2309bab83
+SHA1: 
+SHA256: 59ca854c2f61e465b7c4903e32e0f25b597e30a97cf0491bee043d804707d325
+
+Package: com.iosdump.appdata
+Name: AppData
+Version: 2.6.1
+Description: 从主屏幕查看和管理应用数据
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64
+Author: iosdump
+Maintainer: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
+Filename: debs/com.iosdump.appdata-2.6.1-rootless.deb
+Size: 1611616
+MD5sum: d624a0afdd0364785f9dc3308cb0463a
+SHA1: 
+SHA256: f5caf48dc90d97b8fa56ad5092a1611f4345ef137e882dc4397a162d088fedbc
 
 Package: com.iosdump.customcallbg
 Name: 自定义来去电背景
@@ -14572,6 +14641,23 @@ Size: 86732
 MD5sum: 9524a1e5fe2f7fca21fa18f018e90ffa
 SHA1: 
 SHA256: eb3a68c7b51604a4524dfdba65b68d600102b9650caf560c97560500748e0e40
+
+Package: com.susudear.susuocr
+Name: SuSuOCR
+Description: Snapper 3 OCR plugin using cloud PaddleOCR API.
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 544
+icon: https://huayuarc.github.io/icon/SuSuOCR.png
+Filename: debs/com.susudear.susuocr-0.0.1-roothide.deb
+Size: 66728
+MD5sum: d25d17bd4a7325888061dab4bf3fd5e1
+SHA1: 
+SHA256: 51c7357bfcf90133943247193e4361bb4f2d06fab18ee04e047a33479e4b5344
 
 Package: com.thefool.ccaudioplay
 Name: CCAudioPlay
