@@ -4755,6 +4755,40 @@ MD5sum: dfb0d63f3177ea0417c00eed271a8a71
 SHA1: 
 SHA256: 2c3966236ef8f979f6b76297af2963aa3089932dc92e9e7ff789114a37ef4e37
 
+Package: com.huami.WCallRecorder
+Name: WCallRecorder 微信通话录音
+Description: Standalone WeChat call recorder 独立的微信通话录音机
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.0-8
+Installed-Size: 11948
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.huami.WCallRecorder-1.0-8-roothide.deb
+Size: 3267328
+MD5sum: 2f4766b7e4af81b6ee9ab111be933e99
+SHA1: 
+SHA256: 201cda1d734812364f685ba39b01041d148cbe04d2b98d700ac835da2826b762
+
+Package: com.huami.WCallRecorder
+Name: WCallRecorder 微信通话录音
+Description: Standalone WeChat call recorder 独立的微信通话录音机
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.0-8
+Installed-Size: 11964
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.huami.WCallRecorder-1.0-8-rootless.deb
+Size: 3266192
+MD5sum: 60e2a63f9dbb74201442b8deb1df51ac
+SHA1: 
+SHA256: c3850737613227e643cb07314889aaf3ff5330d25de12369509820cd7686671e
+
 Package: com.huami.actiongesture
 Name: ActionGesture 手势
 Description: Custom gesture actions for the iPhone Action Button iPhone 操作按钮的自定手势操作且支持iPhone15系列
@@ -4771,6 +4805,23 @@ Size: 30924
 MD5sum: 028ca675d6ddba4e6739f7dddaba1371
 SHA1: 
 SHA256: 1f965fec53b707bfe15d3738c4e5111be7a01dc561f9db3ded9691bffe958352
+
+Package: com.huami.actiongesture
+Name: ActionGesture
+Description: Custom gesture actions for the iPhone Action Button 操作按钮的自定手势操作且支持iPhone15系列
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.0-3
+Installed-Size: 268
+icon: https://huayuarc.github.io/icon/actiongesture.jpg
+Filename: debs/com.huami.actiongesture-0.0-3-roothide.deb
+Size: 31192
+MD5sum: f168b96683df459ffa89dc3b99f5d0da
+SHA1: 
+SHA256: 8f79c4cb7d7f2e873fa964d7a8452c9697198cab44084fedcca81c0c11d0889a
 
 Package: com.huami.chatcapture
 Name: ChatCapture
@@ -6164,6 +6215,40 @@ Size: 92028
 MD5sum: f8971831eb8d3058c7e7d159fcadc334
 SHA1: 
 SHA256: fedca307c0ae3dbc7bac563981a723207b729d9725d3d52f24af37835161220a
+
+Package: com.iosdump.memorycontrol
+Name: MemoryControlX 进程优先级
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 进程内存与优先级调整
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.3
+Installed-Size: 764
+Icon: https://huayuarc.github.io/icon/MemoryControlX.png
+Filename: debs/com.iosdump.memorycontrol-1.3-roothide.deb
+Size: 90744
+MD5sum: f1b7f76aeed4974dd1a1c4e447e19dee
+SHA1: 
+SHA256: 9e30fa8583843f1b15f71b8ebca69c4e2220ef2bb31a7b9d6406e6077cbc6560
+
+Package: com.iosdump.memorycontrol
+Name: MemoryControlX 进程优先级
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 进程内存与优先级调整
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.3
+Installed-Size: 780
+Icon: https://huayuarc.github.io/icon/MemoryControlX.png
+Filename: debs/com.iosdump.memorycontrol-1.3-rootless.deb
+Size: 91900
+MD5sum: b24e88e78f24f72b34e792f9aaf5557f
+SHA1: 
+SHA256: 5b97f5d4ece9a1747b6cc4636d8d1506d6bded9667a061e5ffb9212e57f95fe5
 
 Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
