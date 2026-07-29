@@ -18146,23 +18146,6 @@ MD5sum: 44278c6977b0b5c7dd7be70c1fe06ed8
 SHA1: 
 SHA256: b3432a3f8b9eadf545d92d0f1d4ed79549831892b07f6409cac1e3a2fe945f5d
 
-Package: rootless-compat
-Name: rootless-compat
-Description: Compat Layer for Rootless Tweaks
-Maintainer: roothide
-Author: roothide
-Section: RootHide Patches
-Depends: com.roothide.patchloader(>= 0.0.4)
-Architecture: iphoneos-arm64e
-Version: 1.9
-Installed-Size: 284
-Icon: https://paisseon.github.io/icons/Xinamine.png
-Filename: debs/rootless-compat-1.9-roothide.deb
-Size: 39816
-MD5sum: a084fef58d796e32b6ff3d48bf39b017
-SHA1: 
-SHA256: e3860a0c951de4cb4fe2bd4aef14133ddd89e0bec054a24044f3719545412e03
-
 Package: tools.cydia.flex3
 Maintainer: t4c
 Name: Flex 3 Beta98
