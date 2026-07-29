@@ -915,6 +915,23 @@ MD5sum: a138926ead21873ba6c432b45a4ecafb
 SHA1: 
 SHA256: 7ff6efc7fae6ab7174d9a665162b0afdef30440e3c3572c1a5d8af329b3691f1
 
+Package: cn.zqbb.hello.varjb
+Name: 修复 relaxin snapper3
+Description: 可以修复 relaxin 中的 snapper3 问题!
+Maintainer: zqbb
+Author: zqbb
+Section: zqbb Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 72
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.zqbb.hello.varjb-1.0-roothide.deb
+Size: 2584
+MD5sum: e7b670a7b9b4f7d171d436a3488fd7d0
+SHA1: 
+SHA256: 72c3b6c0914c07d04cf539df4bddedd35ebc4889a1b6fc6f9e304b5663e6e727
+
 Package: codes.aurora.kayoko
 Name: Hello Kayoko
 Description: Clipboard manager for iOS.
@@ -1058,6 +1075,42 @@ Size: 168160
 MD5sum: d69a2f32aefa43d8de1928b40af2e40c
 SHA1: 
 SHA256: 8b80b9cb2518a6f223b941ce457500d509633ec66b39e1ed3321160b7fb1d59e
+
+Package: codes.aurora.kayoko
+Name: Hello Kayoko
+Description: Clipboard manager for iOS.
+Maintainer: Lessica <82flex@gmail.com>
+Author: Alexandra Aurora Göttlicher
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+Architecture: iphoneos-arm64e
+Version: 3.6.0-6
+Installed-Size: 1212
+Filename: debs/codes.aurora.kayoko-3.6.0-6-roothide.deb
+Size: 169476
+MD5sum: 75d666ea8d06ac6a0cb2eb701e2fc3b2
+SHA1: 
+SHA256: 010a1d745a16b9af0eff863314d9ab39453c753eb42d0587116904eb4e802aa8
+
+Package: codes.aurora.kayoko
+Name: Hello Kayoko
+Description: Clipboard manager for iOS.
+Maintainer: Lessica <82flex@gmail.com>
+Author: Alexandra Aurora Göttlicher
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+Architecture: iphoneos-arm64
+Version: 3.6.0-6
+Installed-Size: 1228
+Filename: debs/codes.aurora.kayoko-3.6.0-6-rootless.deb
+Size: 170400
+MD5sum: 266ace7965fe565d99f38589c63e807c
+SHA1: 
+SHA256: fb246a90491425beefabc03553d853727acc0cd9df6db4f3711cdbaa964484bc
 
 Package: codes.aurora.kayoko
 Name: Hello Kayoko
@@ -8524,6 +8577,40 @@ Size: 424276
 MD5sum: 2675c42f9d38406a74957369ced88e1f
 SHA1: 
 SHA256: 50c9c59126c6792f283ae0eeeaeb97b9d3dec9feeca7a850deb268b6c4620d83
+
+Package: com.netskao.wcdisablehotupdates
+Name: 微信禁用热更新
+Depends: mobilesubstrate, firmware (>= 13.0)
+Description: 微信禁用热更新, 减少热更新频繁导致的杀后台。搭配Hello memory status使用效果更佳。
+Author: Netskao
+Maintainer: Nets
+Section: Netskao-Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-3
+Installed-Size: 72
+icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.netskao.wcdisablehotupdates-1.1-3-roothide.deb
+Size: 2304
+MD5sum: 87ed333542c561c6d41145f1d6fe80bb
+SHA1: 
+SHA256: 54dbf8199681ee630b63cbad764cbd25b6c36b7a84c59ba17cc5940b2dc7b283
+
+Package: com.netskao.wcdisablehotupdates
+Name: 微信禁用热更新
+Depends: mobilesubstrate, firmware (>= 13.0)
+Description: 微信禁用热更新, 减少热更新频繁导致的杀后台。搭配Hello memory status使用效果更佳。
+Author: Netskao
+Maintainer: Nets
+Section: Netskao-Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-3
+Installed-Size: 72
+icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.netskao.wcdisablehotupdates-1.1-3-rootless.deb
+Size: 2372
+MD5sum: c1ad7c98920c19d36dcff2e5baf76c9c
+SHA1: 
+SHA256: e5ad62644459f9914176b6deb5840a9dff2dda2a53eae3487236373ab8b948f4
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.wcmypageinfocenter
 Package: com.netskao.wcmypageinfocenter
