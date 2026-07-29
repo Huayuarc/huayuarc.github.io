@@ -5894,7 +5894,7 @@ SHA1:
 SHA256: fa2790ad120628e3e3e996cdbe8b8dbacc38a843aa82817aa8f580d7eb77f66e
 
 Package: com.iosdump.jumpselect
-Name: JumpSelect
+Name: JumpSelect 跳转拦截
 Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 App跳转拦截重定向选择器。
 Maintainer: iosdump
@@ -5905,30 +5905,30 @@ Version: 0.0.3
 Installed-Size: 444
 Icon: https://huayuarc.github.io/icon/JumpSelect.png
 Filename: debs/com.iosdump.jumpselect-0.0.3-roothide.deb
-Size: 50100
-MD5sum: 6b8b2d3739e4b529a674fbaa123679f8
+Size: 50084
+MD5sum: fbf8b66f74612a62d9c78dd8141c1e82
 SHA1: 
-SHA256: f6a8aa348b17045ea82383a4e9dae86199eea577afd90234b723fe01bc2b3bbb
+SHA256: 0f36c4baf440f0de3f5aafb070b588bf16b380b4d0cd512d6802b7ba8f6439bc
 
 Package: com.iosdump.jumpselect
-Name: JumpSelect
+Name: JumpSelect 跳转拦截
 Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 App跳转拦截重定向选择器。
 Maintainer: iosdump
 Author: iosdump
 Section: Tweaks
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 0.0.3
 Installed-Size: 444
 Icon: https://huayuarc.github.io/icon/JumpSelect.png
 Filename: debs/com.iosdump.jumpselect-0.0.3-rootless.deb
-Size: 51268
-MD5sum: 03496789a971cb34f8335987c9ddc027
+Size: 51284
+MD5sum: 0df2b8508f4de34ab2c18bdbe3e24ba5
 SHA1: 
-SHA256: fd269f90908c956fc815459210ce2c382b154465309e54ff57e6b1ec3ba2bd1f
+SHA256: 20a8802dc296e6087ce360e809ca6a0542f9e9d5b63d3e92483be12436c7c999
 
 Package: com.iosdump.jumpselect
-Name: JumpSelect
+Name: JumpSelect 跳转拦截
 Depends: mobilesubstrate, preferenceloader
 Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
 Maintainer: iosdump
@@ -5939,13 +5939,13 @@ Version: 0.0.4
 Installed-Size: 476
 Icon: https://huayuarc.github.io/icon/JumpSelect.png
 Filename: debs/com.iosdump.jumpselect-0.0.4-roothide.deb
-Size: 55692
-MD5sum: 115ca84e6d78d8fa98aec29cabdacdfe
+Size: 55720
+MD5sum: 1a6f87dd9d8186b1be5d184a815cbbf1
 SHA1: 
-SHA256: c463729b4d6719247a15b55f63b24adb8359f32f147cd29f181d6ec61ab3676e
+SHA256: 3732e5cb44dded49e155544829b74f1d4ae4471c573315dc4bcec5a06a212ec9
 
 Package: com.iosdump.jumpselect
-Name: JumpSelect
+Name: JumpSelect 跳转拦截
 Depends: mobilesubstrate, preferenceloader
 Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
 Maintainer: iosdump
@@ -5956,13 +5956,13 @@ Version: 0.0.4
 Installed-Size: 476
 Icon: https://huayuarc.github.io/icon/JumpSelect.png
 Filename: debs/com.iosdump.jumpselect-0.0.4-rootless.deb
-Size: 56760
-MD5sum: fea0827acedc23a9b2872f93df8af288
+Size: 56776
+MD5sum: b320d41ea199e542320f8d1ece699704
 SHA1: 
-SHA256: dfd69cb83e3c5262c874ba0b3f1772d30c7fbe16cc83e25d42f18adcd7479328
+SHA256: c27c7a322c644fb96584b493ad6722a515bee162cec47c243734b057dbfa148e
 
 Package: com.iosdump.jumpselect
-Name: JumpSelect
+Name: JumpSelect 跳转拦截
 Depends: mobilesubstrate, preferenceloader
 Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
 Maintainer: iosdump
@@ -5973,13 +5973,13 @@ Version: 1.0.0
 Installed-Size: 476
 Icon: https://huayuarc.github.io/icon/JumpSelect.png
 Filename: debs/com.iosdump.jumpselect-1.0.0-roothide.deb
-Size: 59860
-MD5sum: 8b4b0b39637df29e0dcf25133cfe4dd4
+Size: 59892
+MD5sum: dde5857c2efdb1461ae9311d3fca6ad5
 SHA1: 
-SHA256: e95984d106348a502b0a8da8df6cfdfbbee5ad442345d7dde92fc99f4da3ea57
+SHA256: d6cfff78c528700e819156172f9e929c8d43501c0c2aa0976a72cba705db6885
 
 Package: com.iosdump.jumpselect
-Name: JumpSelect
+Name: JumpSelect 跳转拦截
 Depends: mobilesubstrate, preferenceloader
 Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
 Maintainer: iosdump
@@ -5990,27 +5990,10 @@ Version: 1.0.0
 Installed-Size: 476
 Icon: https://huayuarc.github.io/icon/JumpSelect.png
 Filename: debs/com.iosdump.jumpselect-1.0.0-rootless.deb
-Size: 60992
-MD5sum: fe6059b239abf6775cd8ea36442d2349
+Size: 60936
+MD5sum: 4d090c8d0b9db6d349467c7c7b1cd577
 SHA1: 
-SHA256: 9ddd68eba7fe4e85639dfb8b6267a103e1410690359f02a150434338eeab2ad3
-
-Package: com.iosdump.jumpselect
-Name: JumpSelect
-Depends: mobilesubstrate, preferenceloader
-Description: iOS 14-17 App跳转拦截重定向选择器。
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm
-Version: 0.0.3
-Installed-Size: 444
-Icon: https://huayuarc.github.io/icon/JumpSelect.png
-Filename: debs/com.iosdump.jumpselect_0.0.3_iphoneos-arm.deb
-Size: 81592
-MD5sum: 852566c7f63f15392442b7375f6a6a23
-SHA1: 
-SHA256: bc5a797386247192556b6b15474e0efa484c441e0fd8bce98ad5d4e538ca8ae9
+SHA256: 09afb34369b9b0a6b738537f3e87ced02b25a8e1c071cbe5c3d5bf481d376dd6
 
 Package: com.iosdump.memorycontrol
 Name: MemoryControlX 进程优先级
@@ -6455,7 +6438,109 @@ SHA1:
 SHA256: 1dfd7f4c7b49626fe4de001d23386d233b82512e4c605f1d1d2c9317bbbdb80e
 
 Package: com.iosdump.zone
-Name: Zone
+Name: Zone 交互/视频 壁纸
+Depends: mobilesubstrate, preferenceloader
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.8
+Icon: https://huayuarc.github.io/icon/Zone.png
+Installed-Size: 648
+Filename: debs/com.iosdump.zone-0.0.8-roothide.deb
+Size: 129480
+MD5sum: c65a5a8a6a155ac4cf2049684af479ae
+SHA1: 
+SHA256: 47c186d8475996aff59d9921014c4e653e03c248e307acce22db5fe16b8c1972
+
+Package: com.iosdump.zone
+Name: Zone 交互/视频 壁纸
+Depends: mobilesubstrate, preferenceloader
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.8
+Icon: https://huayuarc.github.io/icon/Zone.png
+Installed-Size: 664
+Filename: debs/com.iosdump.zone-0.0.8-rootless.deb
+Size: 129976
+MD5sum: 14773d3c32a5b9aaa74bba3f3fa82ce8
+SHA1: 
+SHA256: 200575de41eb7275e1f332ad33d366f89f829955f16933b668a21522c71d9b50
+
+Package: com.iosdump.zone
+Name: Zone 交互/视频 壁纸
+Depends: mobilesubstrate, preferenceloader
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.9
+Icon: https://huayuarc.github.io/icon/Zone.png
+Installed-Size: 668
+Filename: debs/com.iosdump.zone-0.0.9-roothide.deb
+Size: 134612
+MD5sum: 10a6a440cc503678ccc0ce1232ea40c1
+SHA1: 
+SHA256: 90db1369c7463ed94d7d17323e144bc1a778917eb592ae4919534c4f59875a8f
+
+Package: com.iosdump.zone
+Name: Zone 交互/视频 壁纸
+Depends: mobilesubstrate, preferenceloader
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.9
+Icon: https://huayuarc.github.io/icon/Zone.png
+Installed-Size: 672
+Filename: debs/com.iosdump.zone-0.0.9-rootless.deb
+Size: 135688
+MD5sum: 7efbb0eaafc24864f74244db9b59dd34
+SHA1: 
+SHA256: 148d5b21f51570840b97bb5bcda40ebe4ac201b9f1d483cdda69156d6971ecb1
+
+Package: com.iosdump.zone
+Name: Zone 交互/视频 壁纸
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Icon: https://huayuarc.github.io/icon/Zone.png
+Installed-Size: 912
+Filename: debs/com.iosdump.zone-1.0.1-roothide.deb
+Size: 153368
+MD5sum: d0164eb5d055527efdd53cebe315b330
+SHA1: 
+SHA256: 278b57ed1e501ad6311adc13801ec14817691e708db30c751272421eaf147236
+
+Package: com.iosdump.zone
+Name: Zone 交互/视频 壁纸
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Icon: https://huayuarc.github.io/icon/Zone.png
+Installed-Size: 932
+Filename: debs/com.iosdump.zone-1.0.1-rootless.deb
+Size: 153916
+MD5sum: 9bb01d428b00e43a343dfd5ce39c5919
+SHA1: 
+SHA256: c7dc6efeadab18a706402f347c3aa196628d8c165d0500382977a7dc1db48540
+
+Package: com.iosdump.zone
+Name: Zone 交互/视频 壁纸
 Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Maintainer: iosdump
@@ -6466,13 +6551,13 @@ Version: 1.1.0
 Icon: https://huayuarc.github.io/icon/Zone.png
 Installed-Size: 980
 Filename: debs/com.iosdump.zone-1.1.0-roothide.deb
-Size: 167776
-MD5sum: d4118dacad8419cf033f6fa379384ad3
+Size: 167784
+MD5sum: 289cdb287183b6fa089eacb752106d5d
 SHA1: 
-SHA256: 39fefa377b9809c68c648a0ae845f8f12d254dfb2bf683ea301bef10a5b0923f
+SHA256: 9c1edbd607a96e8d505faf6b236d050e4effb72d512253b28fdd4e8bbb195847
 
 Package: com.iosdump.zone
-Name: Zone
+Name: Zone 交互/视频 壁纸
 Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Maintainer: iosdump
@@ -6483,13 +6568,13 @@ Version: 1.1.0
 Icon: https://huayuarc.github.io/icon/Zone.png
 Installed-Size: 984
 Filename: debs/com.iosdump.zone-1.1.0-rootless.deb
-Size: 169184
-MD5sum: aa3074f4f4c5391dc0763fecef70f07a
+Size: 169044
+MD5sum: 26238eaa269d463b19725adcf71af7a4
 SHA1: 
-SHA256: a8b909dabf8c244568b6dec562db30ca676bc3171be5a51637ab8c3f727ec0fa
+SHA256: 5f04b0154df82852ee87a4167f16637c8e80fb9a8ef9c132234add87d114f27c
 
 Package: com.iosdump.zone
-Name: Zone
+Name: Zone 交互/视频 壁纸
 Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Maintainer: iosdump
@@ -6500,30 +6585,29 @@ Version: 1.3.0
 icon: https://huayuarc.github.io/icon/Zone.png
 Installed-Size: 976
 Filename: debs/com.iosdump.zone-1.3.0-roothide.deb
-Size: 166460
-MD5sum: 96d739eb1508805ab159329ee81f8c7e
+Size: 166416
+MD5sum: 8a424b896d40a0b5dd2db8fea26bb8cf
 SHA1: 
-SHA256: 34e59cbec9417ea9163aaf114579d7b3ed0a6987895759afcdb300e6b0da2c8c
+SHA256: 3c2bb69587994706489de0fcfcf4f6ba27ddcc9a9971a60627b0bbd5d6a3cb66
 
 Package: com.iosdump.zone
-Name: Zone
+Name: Zone 交互/视频 壁纸
 Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Maintainer: iosdump
 Author: iosdump
 Section: Tweaks
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.3.0
-icon: https://huayuarc.github.io/icon/Zone.png
 Installed-Size: 984
 Filename: debs/com.iosdump.zone-1.3.0-rootless.deb
-Size: 169176
-MD5sum: 6dd12f5c4ed9fb0bfdee6326ca218363
+Size: 169244
+MD5sum: 0bdccf9a504b35a9c920dc90ca00b7b7
 SHA1: 
-SHA256: a7cae9847d9d40ae8663116769bdd14d81bb99e11d681deea0808074b6ce93d7
+SHA256: 7c37a9d8767f91783c8b5eceea26202252d136ee22710bc6ca3c080cd668afdc
 
 Package: com.iosdump.zone
-Name: Zone
+Name: Zone 交互/视频 壁纸
 Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Maintainer: iosdump
@@ -6534,162 +6618,27 @@ Version: 2.0.0
 Installed-Size: 1144
 Icon: https://huayuarc.github.io/icon/Zone.png
 Filename: debs/com.iosdump.zone-2.0.0-roothide.deb
-Size: 206864
-MD5sum: b075a835d96e93ca1e7c836271c73759
+Size: 206372
+MD5sum: 70648066a3e0fdb5a94c74f5c5ff65d4
 SHA1: 
-SHA256: a8b3c5a6563a91f2069aca7b653b28a7e21d06269bba4a32a287214d9f98d3d3
+SHA256: 0b89cf491e784a9864250bded0913cc71ba84bd34be2290a47dd5f98f6a6a054
 
 Package: com.iosdump.zone
-Name: Zone
+Name: Zone 交互/视频 壁纸
 Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Maintainer: iosdump
 Author: iosdump
 Section: Tweaks
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 2.0.0
 Installed-Size: 1148
 Icon: https://huayuarc.github.io/icon/Zone.png
 Filename: debs/com.iosdump.zone-2.0.0-rootless.deb
-Size: 208316
-MD5sum: 50a41c88792a719b4f5a6d26caee5b87
+Size: 208440
+MD5sum: ebdd5ded39331c5ffecf9e48a4938352
 SHA1: 
-SHA256: 8593f11b0830eb7822172ec4f41b5c30bb2eef8792d449f308982366807948ad
-
-Package: com.iosdump.zone
-Name: Zone
-Depends: mobilesubstrate, preferenceloader
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 0.0.8
-Icon: https://huayuarc.github.io/icon/Zone.png
-Installed-Size: 664
-Filename: debs/com.iosdump.zone_0.0.8_iphoneos-arm64.deb
-Size: 130016
-MD5sum: 53f6a624eb69bdf745402eb3c13cec73
-SHA1: 
-SHA256: 8740d52701700cf3a148c8d27eb9499f817b7b764fddb89cea2c438602a4569f
-
-Package: com.iosdump.zone
-Name: Zone
-Depends: mobilesubstrate, preferenceloader
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 0.0.8
-Icon: https://huayuarc.github.io/icon/Zone.png
-Installed-Size: 648
-Filename: debs/com.iosdump.zone_0.0.8_iphoneos-arm64e.deb
-Size: 129488
-MD5sum: 5c46bd0c3050d45f30e9e7c773d0606d
-SHA1: 
-SHA256: 6bb2c1bc3dc82336794444da7f9bcbd2bfcd2ac5b899340409d472c73fc36396
-
-Package: com.iosdump.zone
-Name: Zone
-Depends: mobilesubstrate, preferenceloader
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 0.0.9
-Icon: https://huayuarc.github.io/icon/Zone.png
-Installed-Size: 672
-Filename: debs/com.iosdump.zone_0.0.9_iphoneos-arm64.deb
-Size: 135636
-MD5sum: 1beedc2165a19086ccd8006ebc59c5ae
-SHA1: 
-SHA256: 95157125c1ed3e18a55078d75061c104a8325f13dd53f5dd44d4f9ff6c8b7d27
-
-Package: com.iosdump.zone
-Name: Zone
-Depends: mobilesubstrate, preferenceloader
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 0.0.9
-Icon: https://huayuarc.github.io/icon/Zone.png
-Installed-Size: 668
-Filename: debs/com.iosdump.zone_0.0.9_iphoneos-arm64e.deb
-Size: 134616
-MD5sum: 513961d57a0e0b6dcbeea2cc665b8b06
-SHA1: 
-SHA256: 22ab6a1f6ced4cb0fcc051113a9589716055bc4107271fa2503e3e91144aa047
-
-Package: com.iosdump.zone
-Name: Zone
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.0.1
-Icon: https://huayuarc.github.io/icon/Zone.png
-Installed-Size: 932
-Filename: debs/com.iosdump.zone_1.0.1_iphoneos-arm64.deb
-Size: 153500
-MD5sum: 45c40217533cb83ca5497b5f4972d288
-SHA1: 
-SHA256: 680599a261665e9b4239e9a42ac9afb53f3436012a7d5ea27de9273a86b38047
-
-Package: com.iosdump.zone
-Name: Zone
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.0.1
-Icon: https://huayuarc.github.io/icon/Zone.png
-Installed-Size: 912
-Filename: debs/com.iosdump.zone_1.0.1_iphoneos-arm64e.deb
-Size: 153324
-MD5sum: 6e867e67d401f260905d0352f764f0e2
-SHA1: 
-SHA256: 9a19579e7b7ba19f92a24055a35d8ccbb2c638f01e4729dc03f1ab239c835717
-
-Package: com.iosdump.zone
-Name: Zone
-Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm
-Version: 1.3.0
-Installed-Size: 984
-Filename: debs/com.iosdump.zone_1.3.0_iphoneos-arm.deb
-Size: 169402
-MD5sum: 579c83dd3640767015b4ab4f21d2297b
-SHA1: 
-SHA256: ad569b15a3f5577b0509b7ae12ac46887a409d7d7c751abff5da5d26f735d6cb
-
-Package: com.iosdump.zone
-Name: Zone
-Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm
-Version: 2.0.0
-Installed-Size: 1148
-Icon: https://huayuarc.github.io/icon/Zone.png
-Filename: debs/com.iosdump.zone_2.0.0_iphoneos-arm.deb
-Size: 348304
-MD5sum: c97fd3e91b8271a7919b688bbaddbc29
-SHA1: 
-SHA256: f4a6b592f2b84b1970c68173000809385915de90cdce6967f04fa89d2f6ec8b4
+SHA256: 8633aa5957dbb45c64975eac034bc522b963aed0ac20fac5c11869ddae16165f
 
 Package: com.jiuyue.lightisle
 Name: 灵动岛手电筒
