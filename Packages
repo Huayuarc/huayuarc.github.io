@@ -2228,6 +2228,40 @@ SHA256: 2195560552887c6ff1e63530bfa5715aa070ce9f994f1c63b00a38405be2d3f9
 
 Package: com.be-huge.insulation
 Name: insulation
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.38
+Installed-Size: 780
+icon: https://huayuarc.github.io/icon/Insulation.png
+Filename: debs/com.be-huge.insulation-0.1.38-roothide.deb
+Size: 55804
+MD5sum: 60bc59589671f7566543b47698ac6f6e
+SHA1: 
+SHA256: 8df8197fd2760aac36deedd1922f0fa073d67a989aa78b66a12832cdced296fd
+
+Package: com.be-huge.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.1.38
+Installed-Size: 796
+icon: https://huayuarc.github.io/icon/Insulation.png
+Filename: debs/com.be-huge.insulation-0.1.38-rootless.deb
+Size: 58340
+MD5sum: 9fb22f07f38b9ce0d267de3d96921d80
+SHA1: 
+SHA256: 5b2ea76afc62cc7c72f64e6309ab8fc018c40bf3d4af6a1f007decba4c040169
+
+Package: com.be-huge.insulation
+Name: insulation
 Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
 Maintainer: be-huge
 Author: be-huge
@@ -3802,6 +3836,42 @@ Size: 68492
 MD5sum: 09d80a93c85194b1a64e48d7f6b075de
 SHA1: 
 SHA256: 3569dd966b62e8013d867152cbad0ea1133e8d54b958d028cf14f0a042af6814
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: Force 120Hz ProMotion — Overrides the 80Hz system limit. Requires iPhone 13 Pro or later.强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.11
+Installed-Size: 108
+icon: https://huayuarc.github.io/icon/120hz.jpg
+Filename: debs/com.doimty.promotion-1.0.11-roothide.deb
+Size: 16812
+MD5sum: b5aa4bfa2705311ba33083fbb0218f0e
+SHA1: 
+SHA256: 83605e3673363412cbfa3639227120f488fa4e79b84a685be56f84974ac18c16
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: Force 120Hz ProMotion — Overrides the 80Hz system limit. Requires iPhone 13 Pro or later.强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Depends: mobilesubstrate
+Maintainer: doimty
+Section: Tweaks
+Tag: supports::roothide
+Architecture: iphoneos-arm64
+Version: 1.0.11
+Installed-Size: 108
+icon: https://huayuarc.github.io/icon/120hz.jpg
+Filename: debs/com.doimty.promotion-1.0.11-rootless.deb
+Size: 16880
+MD5sum: 51cfc0c0dec51674c2b7a3819e9495ee
+SHA1: 
+SHA256: 02c3d21e24fdcf66d65edb35730b69ae723d7cd3ce61a2e1060e9ee24daa27e0
 
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
