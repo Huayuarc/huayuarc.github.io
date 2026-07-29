@@ -2551,6 +2551,41 @@ MD5sum: b443d54832728b0d51a32f4f535ce474
 SHA1: 
 SHA256: 47affbb955d63a116bc47517ad699e893aa818e6dd31125cab326b9b513ade5f
 
+Package: com.binglan.kongzhidiy
+Name: Kongzhidiy 控制中心美化
+Section: Tweaks
+Maintainer: binglan
+Author: binglan
+Description: 这是一个简单的控制中心美化插件。
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 2.3.3-end
+Installed-Size: 3028
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.binglan.kongzhidiy-2.3.3-end-roothide.deb
+Size: 671476
+MD5sum: c1a010b0671b5b3ccab52eac1ccffd01
+SHA1: 
+SHA256: 2961027e79be02ff873df3251c2c02ea8b8e4210db0b8d767905733486fbc361
+
+Package: com.binglan.kongzhidiy
+Name: Kongzhidiy 控制中心美化
+Section: Tweaks
+Maintainer: binglan
+Author: binglan
+Description: 这是一个简单的控制中心美化插件。
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 2.3.3-end
+Installed-Size: 3028
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+Filename: debs/com.binglan.kongzhidiy-2.3.3-end-rootless.deb
+Size: 674368
+MD5sum: 68bd5df89507f07ba5a752f61b57caf1
+SHA1: 
+SHA256: 3fbb7f97468141bba24f1d43f14746a0414a0ea67b703824ed013196484a6eaa
+
 Package: com.brend0n.nopassafterrespringsafe
 Name: NoPassAfterRespring (Safe)
 Depends: mobilesubstrate
