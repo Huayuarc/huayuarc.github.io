@@ -4720,6 +4720,23 @@ MD5sum: dfb0d63f3177ea0417c00eed271a8a71
 SHA1: 
 SHA256: 2c3966236ef8f979f6b76297af2963aa3089932dc92e9e7ff789114a37ef4e37
 
+Package: com.huami.actiongesture
+Name: ActionGesture 手势
+Description: Custom gesture actions for the iPhone Action Button iPhone 操作按钮的自定手势操作且支持iPhone15系列
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.0-2
+Installed-Size: 268
+icon: https://huayuarc.github.io/icon/actiongesture.jpg
+Filename: debs/com.huami.actiongesture-0.0-2-roothide.deb
+Size: 30924
+MD5sum: 028ca675d6ddba4e6739f7dddaba1371
+SHA1: 
+SHA256: 1f965fec53b707bfe15d3738c4e5111be7a01dc561f9db3ded9691bffe958352
+
 Package: com.huami.chatcapture
 Name: ChatCapture
 Description: 多选微信私聊、群聊消息长截图，完整保留原生聊天界面样式。操作方式：选中多条消息后点击「更多」，选择截图功能；点击页面齿轮图标可进入插件自定义设置页面。Capture selected WeChat messages with their original chat appearance for private & group chat. After multi-select messages, tap More to take long screenshot, tap gear icon to open preference settings.
@@ -5219,44 +5236,6 @@ Size: 66108
 MD5sum: be70fbb6181fc920479e5f700b385198
 SHA1: 
 SHA256: 57f5a0518ec864bf8b59098d656685d8bf6a787e9eaf964faa21b274de68d4ff
-
-Package: com.huayuarc.cputhermal
-Name: CPU 解除温控
-Author: Huayuarc
-Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」兼顾省电与性能。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: Huayuarc
-Section: Tweaks
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, xyz.cypwn.powercuff, byg.iosios.net.powercuff, cn.zqbb.holdcpu, com.be-huge.insulation, com.wkk.insulation, byg.iosios.net.monitor, byg.iosios.net.insulation
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64
-Version: 1.3.3-5
-Installed-Size: 864
-Filename: debs/com.huayuarc.cputhermal_1.3.3-5_iphoneos-arm64.deb
-Size: 69400
-MD5sum: 6037140633bb6f948a5f033831dc4c16
-SHA1: 
-SHA256: 15eee4fe2414e243f512d16c5217ff3f867d498bfe2d171e4919c5fe85008c73
-
-Package: com.huayuarc.cputhermal
-Name: CPU 解除温控
-Author: Huayuarc
-Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」兼顾省电与性能。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: Huayuarc
-Section: Tweaks
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, xyz.cypwn.powercuff, byg.iosios.net.powercuff, cn.zqbb.holdcpu, com.be-huge.insulation, com.wkk.insulation, byg.iosios.net.monitor, byg.iosios.net.insulation
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64e
-Version: 1.3.3-5
-Installed-Size: 864
-Filename: debs/com.huayuarc.cputhermal_1.3.3-5_iphoneos-arm64e.deb
-Size: 66750
-MD5sum: 9415e4b9de7257106663ac9467654844
-SHA1: 
-SHA256: cad921d67d00c2ad0099adbf6bb43cf1d1b4c89cba5774bd346d2cf456f59d35
 
 Package: com.huayuarc.flashclockpro
 Name: 悬浮时间 Pro
@@ -6041,7 +6020,7 @@ SHA1:
 SHA256: bc5a797386247192556b6b15474e0efa484c441e0fd8bce98ad5d4e538ca8ae9
 
 Package: com.iosdump.memorycontrol
-Name: MemoryControlX
+Name: MemoryControlX 进程优先级
 Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 进程内存与优先级调整
 Maintainer: iosdump
@@ -6052,13 +6031,13 @@ Version: 0.0.2
 Installed-Size: 676
 Icon: https://huayuarc.github.io/icon/MemoryControlX.png
 Filename: debs/com.iosdump.memorycontrol-0.0.2-roothide.deb
-Size: 70800
-MD5sum: 98f9b4e9215c7c8fe80bfb2883823e96
+Size: 70816
+MD5sum: 3707d13df488949b8d8d96e7833ef000
 SHA1: 
-SHA256: 7ca6e9733c63fcba90600fa889ac211c3eda763e57b885d77a9f79bda59d3341
+SHA256: f388805dc9405a61cce8e1348c7e7c293c49e957a9976823dc2cb5ab41a5d1d1
 
 Package: com.iosdump.memorycontrol
-Name: MemoryControlX
+Name: MemoryControlX 进程优先级
 Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 进程内存与优先级调整
 Maintainer: iosdump
@@ -6069,13 +6048,13 @@ Version: 0.0.2
 Installed-Size: 676
 Icon: https://huayuarc.github.io/icon/MemoryControlX.png
 Filename: debs/com.iosdump.memorycontrol-0.0.2-rootless.deb
-Size: 72444
-MD5sum: 99a637f0618bd26ef5e27be8ba4b185d
+Size: 72540
+MD5sum: becad9ac59f6de3425d0d5e6285f3899
 SHA1: 
-SHA256: 7c96dd4951d8680c2f1725e94b888e8aea36eaf936f51c7d375dbdf60c77a404
+SHA256: f56cdf3813f33048241a3a8e48be6876face93ea894634f7e1d7560c570315bd
 
 Package: com.iosdump.memorycontrol
-Name: MemoryControlX
+Name: MemoryControlX 进程优先级
 Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 进程内存与优先级调整
 Maintainer: iosdump
@@ -6086,13 +6065,13 @@ Version: 0.2.1
 Installed-Size: 692
 Icon: https://huayuarc.github.io/icon/MemoryControlX.png
 Filename: debs/com.iosdump.memorycontrol-0.2.1-roothide.deb
-Size: 75820
-MD5sum: dfb563d375110b80994a39488ab5bdd5
+Size: 75848
+MD5sum: a41d7a092614ec8c22004e1cbb443829
 SHA1: 
-SHA256: a9b2a06136cecf4f9b0d4fe517cddedd43522b2d6458fd16d3c35cffbaa43f87
+SHA256: 40ba025db0753ec62eaadea94386c1bdc0ea602e9c9e62abe6306c12361e8bba
 
 Package: com.iosdump.memorycontrol
-Name: MemoryControlX
+Name: MemoryControlX 进程优先级
 Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 进程内存与优先级调整
 Maintainer: iosdump
@@ -6103,13 +6082,13 @@ Version: 0.2.1
 Installed-Size: 708
 Icon: https://huayuarc.github.io/icon/MemoryControlX.png
 Filename: debs/com.iosdump.memorycontrol-0.2.1-rootless.deb
-Size: 77448
-MD5sum: 18b21dc42a8afffdbba18d3c04256a60
+Size: 77408
+MD5sum: 36688c5c377839f784b3cdc38954997a
 SHA1: 
-SHA256: 8b13cbaabba9578e2a122f11bbbb43647a437ec466282671bf8685c9d4403378
+SHA256: 87744173549e4ad651ddff284ded45ca298df7e57eaeb3e030e6297fa78b682d
 
 Package: com.iosdump.memorycontrol
-Name: MemoryControlX
+Name: MemoryControlX 进程优先级
 Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 进程内存与优先级调整
 Maintainer: iosdump
@@ -6120,13 +6099,13 @@ Version: 0.8.8
 Installed-Size: 708
 Icon: https://huayuarc.github.io/icon/MemoryControlX.png
 Filename: debs/com.iosdump.memorycontrol-0.8.8-roothide.deb
-Size: 76856
-MD5sum: a82016678501cb53401686497a74066b
+Size: 76940
+MD5sum: ca8125e1e249ba31c5ea74864e72332f
 SHA1: 
-SHA256: 18f542f920ed7e10660d7455b77468906390d994c2c5af220643d61082d62d52
+SHA256: 7d329c33b2184eb6dafbde49a574d0fcecbbbc6a04cfd43b6ea689c17a354932
 
 Package: com.iosdump.memorycontrol
-Name: MemoryControlX
+Name: MemoryControlX 进程优先级
 Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 进程内存与优先级调整
 Maintainer: iosdump
@@ -6137,13 +6116,13 @@ Version: 0.8.8
 Installed-Size: 708
 Icon: https://huayuarc.github.io/icon/MemoryControlX.png
 Filename: debs/com.iosdump.memorycontrol-0.8.8-rootless.deb
-Size: 79576
-MD5sum: 4a93b248fd40efb2827085c270a7c83b
+Size: 79444
+MD5sum: e6cf7ebbcc24a578eb3f2293cc235488
 SHA1: 
-SHA256: 1c4f6f2c204da5b126b171138dc18a74defa2bbfc4834a63587c2bc975c26b39
+SHA256: 09f76495f4189d07a6ead9c33348b95433808445d43bd6e0baf5f31d9f884aa4
 
 Package: com.iosdump.memorycontrol
-Name: MemoryControlX
+Name: MemoryControlX 进程优先级
 Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 进程内存与优先级调整
 Maintainer: iosdump
@@ -6154,13 +6133,13 @@ Version: 1.1
 Installed-Size: 748
 Icon: https://huayuarc.github.io/icon/MemoryControlX.png
 Filename: debs/com.iosdump.memorycontrol-1.1-roothide.deb
-Size: 87476
-MD5sum: bcb0e3cdada0b1cddcc4371e05450915
+Size: 87244
+MD5sum: 77310f11f342055a40818033afc1f180
 SHA1: 
-SHA256: 2c8cde85902d0136039ad8db078c3df24f406e86bb63952ff1c1b93062238c45
+SHA256: 2a50976330ec6226bc5d1591f163dbe73fa30df9bc1b494563a656dc2e793f28
 
 Package: com.iosdump.memorycontrol
-Name: MemoryControlX
+Name: MemoryControlX 进程优先级
 Depends: mobilesubstrate, preferenceloader
 Description: iOS 14-17 进程内存与优先级调整
 Maintainer: iosdump
@@ -6171,98 +6150,115 @@ Version: 1.1
 Installed-Size: 748
 Icon: https://huayuarc.github.io/icon/MemoryControlX.png
 Filename: debs/com.iosdump.memorycontrol-1.1-rootless.deb
-Size: 88852
-MD5sum: 80039e1a92045c565e1117dc453ebe6a
+Size: 88816
+MD5sum: ec02f9fd96a88bac7d50ea759aa70efd
 SHA1: 
-SHA256: f2dc3c4729e9c1a73b3e6ea59c8fbbaaa30a2dc855762ae05e85a1fa0148a23f
+SHA256: a716fd11268ac9eaf6f19bb35ce3e413a48b5b8c0cdcb064bf5974fae7c8fdd1
 
-Package: com.iosdump.shellx
-Name: SHELLX
+Package: com.iosdump.memorycontrol
+Name: MemoryControlX 进程优先级
 Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 0.0.3
-Installed-Size: 576
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx_0.0.3_iphoneos-arm64.deb
-Size: 73560
-MD5sum: 3a500df54dfb88f4f99690fcb03b2c26
-SHA1: 
-SHA256: 23829e3e5515e4a3686db85f3670bcb3343705975e8aa3b25d8db53c4ed55cd8
-
-Package: com.iosdump.shellx
-Name: SHELLX
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Description: iOS 14-17 进程内存与优先级调整
 Maintainer: iosdump
 Author: iosdump
 Section: Tweaks
 Architecture: iphoneos-arm64e
-Version: 0.0.3
-Installed-Size: 576
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx_0.0.3_iphoneos-arm64e.deb
-Size: 72004
-MD5sum: f13e8aced30720f30acf73a6fa87debe
+Version: 1.2
+Installed-Size: 764
+Icon: https://huayuarc.github.io/icon/MemoryControlX.png
+Filename: debs/com.iosdump.memorycontrol-1.2-roothide.deb
+Size: 90628
+MD5sum: ecabc8aa18303dce35b24549b91b4781
 SHA1: 
-SHA256: b7b1310cd4868e6129eecd6b501717f6a967ba735644d72b1125d037a2ea9f2b
+SHA256: 2d0e55c804ef996ba7e5dbf5aafb3c630583c17997e1bb3ed12581abc6aa401f
 
-Package: com.iosdump.shellx
-Name: SHELLX
+Package: com.iosdump.memorycontrol
+Name: MemoryControlX 进程优先级
 Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Description: iOS 14-17 进程内存与优先级调整
 Maintainer: iosdump
 Author: iosdump
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 0.0.5
-Installed-Size: 608
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx_0.0.5_iphoneos-arm64.deb
-Size: 81420
-MD5sum: dd80b0ac0ac4d0b60e3f9125bc147ad2
-SHA1: 
-SHA256: 15f6b21193f744715985c5f27fdf0c695145a0d6e3a7f2b5d2a7f03963e0e56b
-
-Package: com.iosdump.shellx
-Name: SHELLX
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 0.0.5
-Installed-Size: 608
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx_0.0.5_iphoneos-arm64e.deb
-Size: 80040
-MD5sum: 8928adc38d3d4964a038f11d1cd2525f
-SHA1: 
-SHA256: 45e9ba65ae2504ab337fdcacf9ea78d9ab7b3b388beec4ab5805bc07347277f8
-
-Package: com.iosdump.shellx
-Name: SHELLX
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.0.0
-icon: https://huayuarc.github.io/icon/SHELLX.png
+Version: 1.2
 Installed-Size: 780
-Filename: debs/com.iosdump.shellx_1.0.0_iphoneos-arm64.deb
-Size: 127184
-MD5sum: 22cfef8f5d7aa587649111c73c53ed43
+Icon: https://huayuarc.github.io/icon/MemoryControlX.png
+Filename: debs/com.iosdump.memorycontrol-1.2-rootless.deb
+Size: 92028
+MD5sum: f8971831eb8d3058c7e7d159fcadc334
 SHA1: 
-SHA256: 73c602c007989ba361081079d497cfba068388f8f1c2f10b6cc3c913252a889e
+SHA256: fedca307c0ae3dbc7bac563981a723207b729d9725d3d52f24af37835161220a
 
 Package: com.iosdump.shellx
-Name: SHELLX
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 576
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-0.0.3-roothide.deb
+Size: 71996
+MD5sum: c06cbeca1862c81276a84ee05207a27f
+SHA1: 
+SHA256: aec5be699e59ee4aeb270410b087aecb7172a4afadcbe0a6480d25c04783537b
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 576
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-0.0.3-rootless.deb
+Size: 73772
+MD5sum: f0421645e15ec06162765565021bad83
+SHA1: 
+SHA256: ea39915057c06c11fa33fd5c9ef7f08c1eed78b8f0ac2b6025251348dd94cadb
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Installed-Size: 608
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-0.0.5-roothide.deb
+Size: 80276
+MD5sum: c1476723d8d571135ed3ac4957bd8fec
+SHA1: 
+SHA256: 799b45131e94e22a66491476092eef659b6ca048f8f196dbb54899fcb71f4060
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Installed-Size: 608
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-0.0.5-rootless.deb
+Size: 81632
+MD5sum: d17803c49cc00937bdeefa9b5e6260b6
+SHA1: 
+SHA256: b7756d1baa5b1806529b1fc1f5415a09a874cfd9f44e9e17eb7f06e5ecd1e39d
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
 Depends: mobilesubstrate, preferenceloader
 Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
 Maintainer: iosdump
@@ -6272,31 +6268,31 @@ Architecture: iphoneos-arm64e
 Version: 1.0.0
 icon: https://huayuarc.github.io/icon/SHELLX.png
 Installed-Size: 764
-Filename: debs/com.iosdump.shellx_1.0.0_iphoneos-arm64e.deb
-Size: 126944
-MD5sum: 8c333a65a8cae783d3d440f834e43b0f
+Filename: debs/com.iosdump.shellx-1.0.0-roothide.deb
+Size: 127136
+MD5sum: 8aa9fbc15cc005e468108eb00a9596c9
 SHA1: 
-SHA256: fb3b889ff574762a5799cdce462832e5df29573a908be8b1677adf4966b57138
+SHA256: c669fcb1a3b5c5a5a8ae07a53929a3532e540a24f18b3782a059dca1ed7427c3
 
 Package: com.iosdump.shellx
-Name: SHELLX
+Name: SHELLX 录屏/截图
 Depends: mobilesubstrate, preferenceloader
 Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
 Maintainer: iosdump
 Author: iosdump
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 1.1.0
+Version: 1.0.0
 icon: https://huayuarc.github.io/icon/SHELLX.png
-Installed-Size: 812
-Filename: debs/com.iosdump.shellx_1.1.0_iphoneos-arm64.deb
-Size: 136540
-MD5sum: d3368a323bfcb2204c66438230e0645d
+Installed-Size: 780
+Filename: debs/com.iosdump.shellx-1.0.0-rootless.deb
+Size: 126912
+MD5sum: 1624b3581b8b0bb03c54d1d7ea1501d0
 SHA1: 
-SHA256: 05cd5f7b45b9376bb9f06e62657e4ba13835290b0568a69b4ba9c6bbd639fdff
+SHA256: 19648f0f92324714e71f0eae761406e68ee9fc485eb095cdcc6e9d5610493115
 
 Package: com.iosdump.shellx
-Name: SHELLX
+Name: SHELLX 录屏/截图
 Depends: mobilesubstrate, preferenceloader
 Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
 Maintainer: iosdump
@@ -6306,11 +6302,62 @@ Architecture: iphoneos-arm64e
 Version: 1.1.0
 icon: https://huayuarc.github.io/icon/SHELLX.png
 Installed-Size: 796
-Filename: debs/com.iosdump.shellx_1.1.0_iphoneos-arm64e.deb
+Filename: debs/com.iosdump.shellx-1.1.0-roothide.deb
 Size: 136588
-MD5sum: 029cf22d7bf7990d3f3eca43794a31e5
+MD5sum: c3f9dbd585d640227db1537fd67b3c66
 SHA1: 
-SHA256: c49f8b312b786a2ff19d35c6de0f6c1c8d79ad1b3cd624c03890b3e7f5f87904
+SHA256: f785beb1ae0917d45e854d4e1b24a8457c293c22e16a85f6aa362bb7c5415cba
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1.0
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Installed-Size: 812
+Filename: debs/com.iosdump.shellx-1.1.0-rootless.deb
+Size: 136884
+MD5sum: 6cf5e4501f1d7b0a9dcd8f764c23a7f6
+SHA1: 
+SHA256: 0d57e6266fbb9c949ac65090b1796f2075e32a3531990dcd2edd67cebde99a8a
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Installed-Size: 836
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-1.2.0-roothide.deb
+Size: 140580
+MD5sum: 4e2253ed7675b775655c65ac7d01a4e2
+SHA1: 
+SHA256: ac153332888cceeb172bd68419860ef77dc059c922a92d4972731b046dc65741
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Installed-Size: 852
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-1.2.0-rootless.deb
+Size: 142468
+MD5sum: 4096b61c1f3bcceb53297e4f90c2f796
+SHA1: 
+SHA256: 2922b0931e0cc23e82fb7c7bec83febb5cebcb05a38fb63e1ebe39baf2b0c853
 
 Package: com.iosdump.trollcmtweak
 Name: 屏幕触摸轨迹
