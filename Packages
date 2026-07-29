@@ -6595,6 +6595,43 @@ MD5sum: 912a4d1a18a77fd69f969fe18cc57d8f
 SHA1: 
 SHA256: f47e3b4193bceb687ee3fabc1dbaf08e6beecc5d872ced425a08c398992e92ff
 
+Package: com.jontelang.instalauncher2
+Section: Tweaks
+Installed-Size: 1188
+Maintainer: Jonathan Winger Lang <jontelang@gmail.com>
+Architecture: iphoneos-arm64e
+Version: 1.11.0
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.jontelang.instalauncher2.beta
+Description: Launch ANY app instantly 通过插件激活出来的侧边栏，可以快速打开APP，操作简单+丝滑，设置丰富。
+Author: Jonathan Winger Lang <jontelang@gmail.com>
+Name: InstaLauncher 2 快捷应用
+icon: https://huayuarc.github.io/icon/Icon-small.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.jontelang.instalauncher2-1.11.0-roothide.deb
+Size: 200092
+MD5sum: 92a8032c761d76a51a6f3c40e097983e
+SHA1: 
+SHA256: 4f143595f649f26177468a3cf5b6ac1c3fd2fd825c4043e6bae5bd573dfcba28
+
+Package: com.jontelang.instalauncher2
+Section: Tweaks
+Installed-Size: 1188
+Maintainer: Jonathan Winger Lang <jontelang@gmail.com>
+Architecture: iphoneos-arm64
+Version: 1.11.0
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.jontelang.instalauncher2.beta
+Description: Launch ANY app instantly 通过插件激活出来的侧边栏，可以快速打开APP，操作简单+丝滑，设置丰富。
+Author: Jonathan Winger Lang <jontelang@gmail.com>
+Name: InstaLauncher 2 快捷应用
+icon: https://huayuarc.github.io/icon/Icon-small.png
+Filename: debs/com.jontelang.instalauncher2-1.11.0-rootless.deb
+Size: 204876
+MD5sum: 14d84e262dced118ffd76dbcb339ea00
+SHA1: 
+SHA256: c2f1cc0b1f6ccd355a9ed1addad3bc8d3df4ac9f02d64afab7e68561190a0064
+
 Package: com.jontelang.snapper3
 Name: Snapper 3
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
