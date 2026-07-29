@@ -5158,6 +5158,44 @@ MD5sum: ebe33ef42dbf89f3af801a60b8d08cff
 SHA1: 
 SHA256: 1283c579fe704d32febc805975c005f3c0c4c46f8d36869c16247c13a4c865fd
 
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」兼顾省电与性能。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, xyz.cypwn.powercuff, byg.iosios.net.powercuff, cn.zqbb.holdcpu, com.be-huge.insulation, com.wkk.insulation, byg.iosios.net.monitor, byg.iosios.net.insulation
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.3.3-6
+Installed-Size: 868
+Filename: debs/com.huayuarc.cputhermal_1.3.3-6_iphoneos-arm64.deb
+Size: 70630
+MD5sum: f1fb3bf202e867fa0c2eda551653d5cd
+SHA1: 
+SHA256: 42ad6daff0cbab6595713a40ec731fc26e7bf23b8d0cb3c8f250f96f1dea82dc
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」兼顾省电与性能。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord, xyz.cypwn.powercuff, byg.iosios.net.powercuff, cn.zqbb.holdcpu, com.be-huge.insulation, com.wkk.insulation, byg.iosios.net.monitor, byg.iosios.net.insulation
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.3.3-6
+Installed-Size: 864
+Filename: debs/com.huayuarc.cputhermal_1.3.3-6_iphoneos-arm64e.deb
+Size: 68192
+MD5sum: 1ff0c0fe7e7139925d7a1566e2174769
+SHA1: 
+SHA256: 6756fe421d7deb62f147b663a88724cc4ca1f3294ee355535a696377a82fc34d
+
 Package: com.huayuarc.flashclockpro
 Name: 悬浮时间 Pro
 Author: Huayuarc
@@ -5294,6 +5332,40 @@ Size: 1004
 MD5sum: 4625ecfa3d8f5d0525ef33c8bb1ed397
 SHA1: 
 SHA256: 7564096d138afe453a6399158d0bd0235ef18c66af93f29934842784143a627b
+
+Package: com.huayuarc.speedster
+Name: Speedster
+Description: 更快的动画 + 系统增强：通知不亮锁屏/禁用App资源库/禁锁屏手电&相机/禁快门声/移除解锁延迟/锁屏来电拒接/应用动画方向/彻关Wi-Fi蓝牙/设备朝下锁屏/120hz。
+Maintainer: Huayuarc
+Author: Hoangdus&Unknown
+Section: Tweaks
+Depends: firmware (>=13.0), preferenceloader, mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 2.1.2
+Installed-Size: 460
+icon: https://huayuarc.github.io/icon/Speedster.png
+Filename: debs/com.huayuarc.speedster-2.1.2-roothide.deb
+Size: 50064
+MD5sum: c3433514eb81e98d845962832b32ed8c
+SHA1: 
+SHA256: 8857eccc097d002a6b31c5bbdc7a279a7148acd159eb49fadcbbd8ed8ccc67bc
+
+Package: com.huayuarc.speedster
+Name: Speedster
+Description: 更快的动画 + 系统增强：通知不亮锁屏/禁用App资源库/禁锁屏手电&相机/禁快门声/移除解锁延迟/锁屏来电拒接/应用动画方向/彻关Wi-Fi蓝牙/设备朝下锁屏/120hz。
+Maintainer: Huayuarc
+Author: Hoangdus&Unknown
+Section: Tweaks
+Depends: firmware (>=13.0), preferenceloader, mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 2.1.2
+Installed-Size: 460
+icon: https://huayuarc.github.io/icon/Speedster.png
+Filename: debs/com.huayuarc.speedster-2.1.2-rootless.deb
+Size: 51552
+MD5sum: 31cb144759a932e5fad77c9011bd55c6
+SHA1: 
+SHA256: 4e7bbc40c5abca367d384c59eeae5b846afa423a6a29a12cdca1ef900fd1e38e
 
 Package: com.huayuarc.swipeextenderx
 Version: 1.0
