@@ -5931,6 +5931,40 @@ MD5sum: 416f18d4180d779591d60ed4d1fb1587
 SHA1: 
 SHA256: 89c4e26015c4911111a9efdab9d8628ca38ffbde87f823c2ffa3ea35897607aa
 
+Package: com.iosdump.customccbg
+Name: CustomCCBg
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 控制中心背景自定义
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 420
+Icon: https://huayuarc.github.io/icon/CustomCCBg.png
+Filename: debs/com.iosdump.customccbg-0.0.3-roothide.deb
+Size: 47868
+MD5sum: 9c12a686060b2d6cfe69116fa1dec231
+SHA1: 
+SHA256: 16d005be51859170712b8e049b258890ca87ff81dcfbd348cc4ba4f238b1455b
+
+Package: com.iosdump.customccbg
+Name: CustomCCBg
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 控制中心背景自定义
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 420
+Icon: https://huayuarc.github.io/icon/CustomCCBg.png
+Filename: debs/com.iosdump.customccbg-0.0.3-rootless.deb
+Size: 49784
+MD5sum: 8ac86f449e6338e91a31694b96f0cbe4
+SHA1: 
+SHA256: 4dbd0ab9c290d773889038529ff1b972f6e91e911db44834d45d6604a6fb7aa3
+
 Package: com.iosdump.customvpnicon
 Name: CustomVpnIcon
 Depends: mobilesubstrate, preferenceloader
@@ -6117,6 +6151,40 @@ Size: 60936
 MD5sum: 4d090c8d0b9db6d349467c7c7b1cd577
 SHA1: 
 SHA256: 09afb34369b9b0a6b738537f3e87ced02b25a8e1c071cbe5c3d5bf481d376dd6
+
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
+Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱，插件仅支持应用之间 URL Scheme / Universal Links 拦截跳转
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2
+Installed-Size: 492
+Icon: https://huayuarc.github.io/icon/JumpSelect.png
+Filename: debs/com.iosdump.jumpselect-1.2-roothide.deb
+Size: 63408
+MD5sum: 691e8c301f668fb02b30eb2c3d2d5e4d
+SHA1: 
+SHA256: d971b70aa682c0968c80f4e720bbde08810ff71ef59c3302a4961fde9cf1505e
+
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
+Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱，插件仅支持应用之间 URL Scheme / Universal Links 拦截跳转
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2
+Installed-Size: 508
+Icon: https://huayuarc.github.io/icon/JumpSelect.png
+Filename: debs/com.iosdump.jumpselect-1.2-rootless.deb
+Size: 64112
+MD5sum: 29caf43d0c879a2130c6e34545da79ae
+SHA1: 
+SHA256: f2ddd301a902a7d2291e26b0c4bbaaf62cb984f4a67b43f389cefea3147b9c14
 
 Package: com.iosdump.memorycontrol
 Name: MemoryControlX 进程优先级
@@ -8924,16 +8992,16 @@ Depends: mobilesubstrate, firmware (>= 13.0)
 Description: 微信禁用热更新, 减少热更新频繁导致的杀后台。搭配Hello memory status使用效果更佳。
 Author: Netskao
 Maintainer: Nets
-Section: Netskao-Tweaks
+Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 1.1-3
 Installed-Size: 72
 icon: https://huayuarc.github.io/icon/WeChat.jpg
 Filename: debs/com.netskao.wcdisablehotupdates-1.1-3-roothide.deb
-Size: 2304
-MD5sum: 87ed333542c561c6d41145f1d6fe80bb
+Size: 2296
+MD5sum: a418cb8d6c66faec61325297b7800902
 SHA1: 
-SHA256: 54dbf8199681ee630b63cbad764cbd25b6c36b7a84c59ba17cc5940b2dc7b283
+SHA256: 8351bee4690f22056ceb0ae66fc60b712b41834194c96cc1328d9af1f503825f
 
 Package: com.netskao.wcdisablehotupdates
 Name: 微信禁用热更新
@@ -8941,16 +9009,16 @@ Depends: mobilesubstrate, firmware (>= 13.0)
 Description: 微信禁用热更新, 减少热更新频繁导致的杀后台。搭配Hello memory status使用效果更佳。
 Author: Netskao
 Maintainer: Nets
-Section: Netskao-Tweaks
+Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.1-3
 Installed-Size: 72
 icon: https://huayuarc.github.io/icon/WeChat.jpg
 Filename: debs/com.netskao.wcdisablehotupdates-1.1-3-rootless.deb
-Size: 2372
-MD5sum: c1ad7c98920c19d36dcff2e5baf76c9c
+Size: 2368
+MD5sum: 619c3f840c1354b2b99e0757f894cfb8
 SHA1: 
-SHA256: e5ad62644459f9914176b6deb5840a9dff2dda2a53eae3487236373ab8b948f4
+SHA256: 434e206864b31e9f4517ce777f03289be3ee7b03df4aa11aa837c29d24900375
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.wcmypageinfocenter
 Package: com.netskao.wcmypageinfocenter
@@ -15562,15 +15630,15 @@ Architecture: iphoneos-arm64e
 Installed-Size: 14132
 Author: mlgm
 Maintainer: mlgm
-Section: Utilities
+Section: Tweaks
 Depends: firmware (>= 14.0), roothide (>= 0.0.1)
 Description: 用于iOS的内存分析和调试工具，它是VansonMod + H5GG的结合版
 Icon: https://mlgm66.github.io/icon/vmgg.png
 Filename: debs/com.vmgg.mlgm-2.0.1-roothide.deb
-Size: 4935644
-MD5sum: 3edce01c37142fa5fabd42cfb50e6986
+Size: 4935648
+MD5sum: 4346c833ea5d5fee5a454a79b6b4501d
 SHA1: 
-SHA256: 452a0fc0417ba42d41c708c75cff262b9a5d3ead32b74012050c5d8f1efbd31e
+SHA256: 70ab874bd0db40d8dfa86aebf13634fa7a38f841bab452bb96adf28277e4b03f
 
 Package: com.vmgg.mlgm
 Name: VMGG 内存分析调试
@@ -15579,15 +15647,15 @@ Architecture: iphoneos-arm64
 Installed-Size: 14148
 Author: mlgm
 Maintainer: mlgm
-Section: Utilities
+Section: Tweaks
 Depends: firmware (>= 14.0)
 Description: 用于iOS的内存分析和调试工具，它是VansonMod + H5GG的结合版
 Icon: https://mlgm66.github.io/icon/vmgg.png
 Filename: debs/com.vmgg.mlgm-2.0.1-rootless.deb
-Size: 4942924
-MD5sum: 372d3928704f1495204a8e3b2036b9bc
+Size: 4942908
+MD5sum: 59af3064cdb03c0b2a09f0b4a2297118
 SHA1: 
-SHA256: 66a83d55f85a347d248670f130b29591bada1179df10270285c650a3e7727a82
+SHA256: 8903cb0fc3e824341b167ef6c95888946ac7d5902d1198304184c720e63d6af6
 
 Package: com.witchan.ios-mcp
 Name: iOS MCP
@@ -18954,40 +19022,36 @@ SHA256: 8c4a75c369a4fc93cbb419aa30d6bc6ddcd0cf215df7917a00d65a1c793c9f31
 
 Package: xyz.cypwn.networkmanager
 Maintainer: CyPwn
-Depiction: https://repo.cypwn.xyz/depiction/2337
-SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2337
 Name: NetworkManagerReborn
 Depends: mobilesubstrate, com.opa334.ccsupport
-Description: Force 2G/3G/4G/5G connection from the Control Center
+Description: Force 2G/3G/4G/5G connection from the Control Center 从控制中心强制连接2G/3G/4G/5G
 Author: NoisyFlake, Nixuge
-Section: Control Center (Modules)
+Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 1.4.3
 icon: https://huayuarc.github.io/icon/networkmanager.jpg
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/xyz.cypwn.networkmanager-1.4.3-roothide.deb
-Size: 36688
-MD5sum: f8e7b1fcbfc83bd78fa9f204f247f9ed
+Size: 36728
+MD5sum: dfb22837ada18c693d492591d5c511e0
 SHA1: 
-SHA256: 07a58ce40c3766ed19ed9fe74dd354be710c5e465b4ad4a4ab094efa4a82cd59
+SHA256: 434ca559cf23a292f76c1a72083bc5812289df10a304ce5bbdac2f8548bdc537
 
 Package: xyz.cypwn.networkmanager
 Maintainer: CyPwn
-Depiction: https://repo.cypwn.xyz/depiction/2337
-SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2337
 Name: NetworkManagerReborn
 Depends: mobilesubstrate, com.opa334.ccsupport
-Description: Force 2G/3G/4G/5G connection from the Control Center
+Description: Force 2G/3G/4G/5G connection from the Control Center 从控制中心强制连接2G/3G/4G/5G
 Author: NoisyFlake, Nixuge
-Section: Control Center (Modules)
+Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.4.3
 icon: https://huayuarc.github.io/icon/networkmanager.jpg
 Filename: debs/xyz.cypwn.networkmanager-1.4.3-rootless.deb
-Size: 37668
-MD5sum: 536d26881b68d786d30f40b35accfc15
+Size: 37700
+MD5sum: bf6764a419d4a43466f2d607000946d8
 SHA1: 
-SHA256: efe919d4cee72be722d85b8a21f4f089d098b40d81f7b51c86f110d39c9a0e84
+SHA256: f7cf33bf602a0480380417cc40383b85ba9a8407a89ed1ddc2cc73443e456422
 
 Package: xyz.cypwn.newterm3
 Name: NewTerm 3
