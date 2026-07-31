@@ -7277,43 +7277,6 @@ MD5sum: cab50cacd103c2648dc3884c7c602d2e
 SHA1: 
 SHA256: 54b57d70113b2a62fd9308f45f99cd9dd37ad75faa29c35f2c6267f892e6c0bf
 
-Package: com.mallin.photonoautoalbums
-Name: 禁止APP在照片内自动新建相册
-Version: 1.34
-Architecture: iphoneos-arm64e
-Description: 禁止APP在照片内自动新建相册。
-Maintainer: Mallin <mallin@example.local>
-Author: Mallin
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
-Tag: role::enduser
-Homepage: https://local.mallin/photo-no-auto-albums
-icon: https://huayuarc.github.io/icon/xiangce.jpg
-Filename: debs/com.mallin.photonoautoalbums-1.34-roothide.deb
-Size: 42132
-MD5sum: 87c3fb83283e5c422a2b376754c1c7fb
-SHA1: 
-SHA256: 0871d83e30bbcf662846603c5ed9aa04d2711b8924c1ec768df2e80ae61bcce6
-
-Package: com.mallin.photonoautoalbums
-Name: 禁止APP在照片内自动新建相册
-Description: 禁止APP在照片内自动新建相册。
-Maintainer: Mallin <mallin@example.local>
-Author: Mallin
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
-Tag: role::enduser
-Homepage: https://local.mallin/photo-no-auto-albums
-Architecture: iphoneos-arm64
-Version: 1.34
-Installed-Size: 440
-icon: https://huayuarc.github.io/icon/xiangce.jpg
-Filename: debs/com.mallin.photonoautoalbums-1.34-rootless.deb
-Size: 42208
-MD5sum: 44ff23ed59815cfe2bf140bd29fbfb1e
-SHA1: 
-SHA256: a14c009d32d192bc279bf96fefc7060dde87d5f084f20aeb355d4a207db68968
-
 Package: com.miguelaka95.bettercc
 Maintainer: CyPwn
 Name: BetterCC
