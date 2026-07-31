@@ -9506,6 +9506,23 @@ MD5sum: a55cf6056b5d5042f27f2a311da5b3cc
 SHA1: 
 SHA256: b6ed74a6f6318b571816115fc72f9d43fbf2e5d4bd2a5b081890bbbad863c134
 
+Package: com.rain.actionbutton
+Name: Rain的操作按钮
+Description: 为 iPhone 15 Pro/Pro Max 操作按钮提供三页面板，包含剪贴板、自定义背景和系统动作。仅支持 iOS 17.0-17.3.1。
+Maintainer: Rain
+Author: Rain
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 17.0)
+Architecture: iphoneos-arm64e
+Version: 0.5.2
+Installed-Size: 852
+icon: https://huayuarc.github.io/icon/actionbutton.jpg
+Filename: debs/com.rain.actionbutton-0.5.2-roothide.deb
+Size: 93584
+MD5sum: e41762640af0190b95db940e71f1d93d
+SHA1: 
+SHA256: b68eff63c4953ff8e4d99f24a24f82ecd3ec41839d4d4e54f954be65e3a70286
+
 Package: com.rain.raincall
 Name: Rain的通话
 Section: Tweaks
@@ -9585,45 +9602,43 @@ SHA256: 9e7bedbe05b532b34af7be2a056185ce94b8a796bfffcd17f0a18f5725982904
 Package: com.rain.rainmhz
 Name: Rain的Mhz
 Section: Tweaks
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.altlist (>= 1.0.4)
 Author: Rain
 Maintainer: Rain
 Tag: role::hacker, purpose::extension
-Description: Rain的CPU频率控制插件 - 14层策略锁定CPU性能状态
- 通过IOKit控制Apple ARM DVFS，支持低功耗/均衡/高性能模式
- 14层策略: 热节流绕过、P/E核独立调控、GPU联动调频、内存带宽控制、Jetsam内存提升
- 游戏模式、应用级智能调频、迷你跑分、实时仪表盘、电量预估
-Architecture: iphoneos-arm64
-Version: 3.0-1-2
-Installed-Size: 620
-icon: https://huayuarc.github.io/icon/cpu_mode.png
-Filename: debs/com.rain.rainmhz_3.0-1-2_iphoneos-arm64.deb
-Size: 72272
-MD5sum: c67070d6142b527f4ee5f2e5459e7834
+Description: Rain的CPU性能与稳帧控制插件
+ 通过IOKit控制Apple ARM DVFS，支持低发热、均衡、极限性能、智能与稳帧模式
+ 包含动态仪表盘、分级设置、场景预设、温控、性能监控与智能后台管控
+Architecture: iphoneos-arm64e
+Version: 6.13.0-1
+Installed-Size: 1116
+icon: https://huayuarc.github.io/icon/cpumhz.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.rain.rainmhz-6.13.0-1-roothide.deb
+Size: 167156
+MD5sum: 85e27aff4298e862d69b3c771ab13d78
 SHA1: 
-SHA256: 19130b000a5694991dc9a50978fcf4ddaabd2400c1473ef0ad4b083d125ef59b
+SHA256: d718de949f2f91a4c777e328c763bcb8e174adeee8aa1a6858c9e34cf0142e30
 
 Package: com.rain.rainmhz
 Name: Rain的Mhz
 Section: Tweaks
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.opa334.altlist (>= 1.0.4)
 Author: Rain
 Maintainer: Rain
 Tag: role::hacker, purpose::extension
-Description: Rain的CPU频率控制插件 - 14层策略锁定CPU性能状态
- 通过IOKit控制Apple ARM DVFS，支持低功耗/均衡/高性能模式
- 14层策略: 热节流绕过、P/E核独立调控、GPU联动调频、内存带宽控制、Jetsam内存提升
- 游戏模式、应用级智能调频、迷你跑分、实时仪表盘、电量预估
-Architecture: iphoneos-arm64e
-Version: 3.0-1-2
-Installed-Size: 620
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/cpu_mode.png
-Filename: debs/com.rain.rainmhz_3.0-1-2_iphoneos-arm64e.deb
-Size: 70544
-MD5sum: 475cddbfb476f2347fb3a3b222db8af6
+Description: Rain的CPU性能与稳帧控制插件
+ 通过IOKit控制Apple ARM DVFS，支持低发热、均衡、极限性能、智能与稳帧模式
+ 包含动态仪表盘、分级设置、场景预设、温控、性能监控与智能后台管控
+Architecture: iphoneos-arm64
+Version: 6.13.0-1
+Installed-Size: 1116
+icon: https://huayuarc.github.io/icon/cpumhz.jpg
+Filename: debs/com.rain.rainmhz-6.13.0-1-rootless.deb
+Size: 173336
+MD5sum: a82a5913ad7cac90f361360af609750e
 SHA1: 
-SHA256: 3880da47828ac70de5554fb24b455c4cb7a936c01aac9883bbc0d9221636c2b4
+SHA256: 4dea9b633e56227588e32abe1de421fa1a7a5162a1517efb1720e0ed2ce40591
 
 Package: com.rain.wallpapergenerator
 Name: Rain的锁屏壁纸
