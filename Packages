@@ -936,6 +936,22 @@ MD5sum: a138926ead21873ba6c432b45a4ecafb
 SHA1: 
 SHA256: 7ff6efc7fae6ab7174d9a665162b0afdef30440e3c3572c1a5d8af329b3691f1
 
+Package: cn.zqbb.hello.mnt
+Name: HelloMnt Filza 挂载器
+Description: Relaxin 挂载器!
+Maintainer: zqbb
+Author: zqbb
+Section: zqbb Tweaks
+icon: https://huayuarc.github.io/icon/HelloMnt.jpg
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Installed-Size: 3124
+Filename: debs/cn.zqbb.hello.mnt-1.1.0-roothide.deb
+Size: 821656
+MD5sum: 6e8b73b856d5bd62f6897804ac017fc7
+SHA1: 
+SHA256: 11363ae51f6b4fe52a815cd82b7501bafa786662809888d821a6823bac2f20a4
+
 Package: cn.zqbb.hello.varjb
 Name: Hello VarJB snapper3
 Description: 可以修复 relaxin 中的 snapper3 问题!
@@ -1399,6 +1415,23 @@ Size: 282224
 MD5sum: 21bb60d4819e3200a7e7137910bbb22d
 SHA1: 
 SHA256: 0d69a810e7aa7ba18fd0435571c466104d2a727ea76f8f628b52024a9b455c62
+
+Package: com.82flex.cranepkdserverfix
+Name: Crane PKDServer Fix
+Description: Repairs Crane PKDServer discovery on iOS 17.在 iOS 17 上修复 Crane PKDServer 发现。
+Maintainer: 82flex
+Author: 82flex
+Section: Tweaks
+Depends: firmware (>= 17.0), mobilesubstrate, com.opa334.crane
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 72
+icon: https://huayuarc.github.io/icon/Crane.jpg
+Filename: debs/com.82flex.cranepkdserverfix-0.0.1-roothide.deb
+Size: 2876
+MD5sum: 74d069b5ca9a395ce1fc3bf30771c58d
+SHA1: 
+SHA256: fb473058108e7a614ad4d77056dca034e0c44172ee667d1e85ee35db40e27d1e
 
 Package: com.82flex.touchvis
 Name: Touch-Viz
