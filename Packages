@@ -15278,6 +15278,41 @@ MD5sum: b513e40949bad3cf87f35fdb0cbf4fc3
 SHA1: 
 SHA256: 14666bac4586ad18464af72238aa847cc2bb9d6dd03cbb25be533ec7c65c4202
 
+Package: com.subdiox.storeswitcher2
+Name: StoreSwitcher 2
+Depends: firmware (>= 11), mobilesubstrate
+Description: Adds a button to switch account in App Store account page on iOS 11+.StoreSwitcher2插件在主屏幕快捷操作添加切换apple账号
+Maintainer: iosdump
+Author: subdiox
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 216
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/storeswitcher2.jpg
+Filename: debs/com.subdiox.storeswitcher2-1.0.1-roothide.deb
+Size: 22704
+MD5sum: 3451248b1f9d2f5845d94442d327b755
+SHA1: 
+SHA256: edbca5cabc9bc414b1a873e1470dddface06086b3a61a6201a8e5accd48ee6e8
+
+Package: com.subdiox.storeswitcher2
+Name: StoreSwitcher 2
+Depends: firmware (>= 11), mobilesubstrate
+Description: Adds a button to switch account in App Store account page on iOS 11+.StoreSwitcher2插件在主屏幕快捷操作添加切换apple账号
+Maintainer: iosdump
+Author: subdiox
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 216
+icon: https://huayuarc.github.io/icon/storeswitcher2.jpg
+Filename: debs/com.subdiox.storeswitcher2-1.0.1-rootless.deb
+Size: 23060
+MD5sum: c7155f13020afa5e09749e1c31531a1a
+SHA1: 
+SHA256: 09a4eef2a56081564e01ba94259d5196c9f4aeedd3b9b381da8876193313ad5b
+
 Package: com.summit.h5ggapp
 Name: H5GG悬浮版
 Description: H5GG跨进程iOS15+悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版), Credits: BawAppie and Akusio, Discord https://discord.gg/h5gg
