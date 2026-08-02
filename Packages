@@ -5259,6 +5259,42 @@ MD5sum: a43f3d5a42d826db8e0a3ea78019cd8e
 SHA1: 
 SHA256: 06fc8b018f6937fab89d72db2740a56256b52439b9646ad4478e15694b98543b
 
+Package: com.huayuarc.cputhermal
+Name: CPU解除温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」将 CPU 频率锁定在 2016MHz 兼顾省电与性能。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Installed-Size: 836
+Filename: debs/com.huayuarc.cputhermal_1.5.5_iphoneos-arm64.deb
+Size: 65136
+MD5sum: 4f5c1c2e3a0b2cf344db8ff00765227c
+SHA1: 
+SHA256: 6b40265d639ab894c9d1dddc81650835b9df8ed9885969a413b9a267a6011d35
+
+Package: com.huayuarc.cputhermal
+Name: CPU解除温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」将 CPU 频率锁定在 2016MHz 兼顾省电与性能。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.5.5
+Installed-Size: 836
+Filename: debs/com.huayuarc.cputhermal_1.5.5_iphoneos-arm64e.deb
+Size: 62492
+MD5sum: ca55fca3154ddab2ab243a352c57addd
+SHA1: 
+SHA256: ed2fd573c99c0ddc64392996445b88871e711273e80dff8106b6271b45a2cd69
+
 Package: com.huayuarc.flashclockpro
 Name: 悬浮时间 Pro
 Author: Huayuarc
