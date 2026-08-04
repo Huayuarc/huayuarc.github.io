@@ -254,7 +254,11 @@ if [ -d "$SCRIPT_DIR/.git" ]; then
         if [ -f "$SSH_KEY" ]; then
             cat > "$SSH_WRAPPER" << WRAPEOF
 #!/bin/bash
-exec /var/jb/usr/bin/ssh -i "$SSH_KEY" -o StrictHostKeyChecking=no "\$@"
+# BatchMode=yes          禁止任何交互式提示（密码/指纹等），避免 push 卡在等待输入
+# ConnectTimeout=15      连接阶段 15 秒超时，网络抖动时快速失败而不是无限等
+# ServerAlive*           保活探测，连接假死时主动断开
+# AddressFamily inet     强制走 IPv4，避免 iOS 半配置 IPv6 路由导致 TCP 连接反复重试
+exec /var/jb/usr/bin/ssh -i "$SSH_KEY" -o StrictHostKeyChecking=no -o BatchMode=yes -o ConnectTimeout=15 -o ServerAliveInterval=15 -o ServerAliveCountMax=3 -o AddressFamily=inet "\$@"
 WRAPEOF
             chmod +x "$SSH_WRAPPER" 2>/dev/null
             git config core.sshCommand "$SSH_WRAPPER"
@@ -274,8 +278,41 @@ WRAPEOF
                 git branch --unset-upstream 2>/dev/null
             fi
 
-            if ! git push origin "$CURRENT_BRANCH" 2>&1; then
-                echo "  [错误] 推送失败！请检查 SSH 密钥配置。"
+            #=== 带超时和重试的推送 ===
+            if command -v timeout >/dev/null 2>&1; then
+                PUSH_TIMEOUT=300
+                PUSH_ATTEMPTS=3
+            else
+                PUSH_TIMEOUT=0   # 0 = 不限时（无 timeout 命令时兜底）
+                PUSH_ATTEMPTS=1
+            fi
+            PUSH_OK=0
+            attempt=1
+            while [ "$attempt" -le "$PUSH_ATTEMPTS" ]; do
+                if [ "$PUSH_TIMEOUT" -gt 0 ]; then
+                    if timeout "$PUSH_TIMEOUT" git push origin "$CURRENT_BRANCH" 2>&1; then
+                        PUSH_OK=1; break
+                    else
+                        RC=$?
+                        if [ "$RC" -eq 124 ]; then
+                            echo "  [警告] 推送超时(>${PUSH_TIMEOUT}s)，第 $attempt/$PUSH_ATTEMPTS 次失败"
+                        else
+                            echo "  [警告] 推送失败(exit=$RC)，第 $attempt/$PUSH_ATTEMPTS 次失败"
+                        fi
+                    fi
+                else
+                    if git push origin "$CURRENT_BRANCH" 2>&1; then
+                        PUSH_OK=1; break
+                    else
+                        echo "  [警告] 推送失败，第 $attempt/$PUSH_ATTEMPTS 次失败"
+                    fi
+                fi
+                attempt=$((attempt+1))
+                [ "$attempt" -le "$PUSH_ATTEMPTS" ] && sleep 5
+            done
+
+            if [ "$PUSH_OK" -ne 1 ]; then
+                echo "  [错误] 推送多次失败！请检查网络连接 / SSH 密钥配置。"
                 echo "  [提示] 运行: ssh -T git@github.com"
                 echo "  [提示] 检查密钥: ls -la ~/.ssh/"
                 exit 1
