@@ -7008,22 +7008,6 @@ Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS1
 Maintainer: iosdump
 Author: iosdump
 Section: Tweaks
-Architecture: iphoneos-arm
-Version: 1.3.0
-Installed-Size: 984
-Filename: debs/com.iosdump.zone-1.3.0-rootless.deb
-Size: 169244
-MD5sum: 0bdccf9a504b35a9c920dc90ca00b7b7
-SHA1: 
-SHA256: 7c37a9d8767f91783c8b5eceea26202252d136ee22710bc6ca3c080cd668afdc
-
-Package: com.iosdump.zone
-Name: Zone 交互/视频 壁纸
-Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
-Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 2.0.0
 Installed-Size: 1144
@@ -7050,6 +7034,40 @@ Size: 208440
 MD5sum: ebdd5ded39331c5ffecf9e48a4938352
 SHA1: 
 SHA256: 8633aa5957dbb45c64975eac034bc522b963aed0ac20fac5c11869ddae16165f
+
+Package: com.iosdump.zone
+Name: Zone 交互壁纸/视频壁纸
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.1.0
+Installed-Size: 1160
+Icon: https://huayuarc.github.io/icon/Zone.png
+Filename: debs/com.iosdump.zone-2.1.0-roothide.deb
+Size: 209084
+MD5sum: 512f6c2870c95b2b08e28b29a50824e2
+SHA1: 
+SHA256: c194a54a98ff80290046c5025150c840c26c47247e97424a55b32e0dd216bb79
+
+Package: com.iosdump.zone
+Name: Zone 交互壁纸/视频壁纸
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Installed-Size: 1164
+Icon: https://huayuarc.github.io/icon/Zone.png
+Filename: debs/com.iosdump.zone-2.1.0-rootless.deb
+Size: 210932
+MD5sum: 8795328be7eab78bebb5191dc47a3d1a
+SHA1: 
+SHA256: 2ce3d45e74ce141ecfbba100803f661e2822e2839600e187b221da6921feaa7a
 
 Package: com.jiuyue.lightisle
 Name: 灵动岛手电筒
