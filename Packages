@@ -7726,6 +7726,44 @@ MD5sum: f9f0cc530c6b6b9665e2c0c893bf1f2d
 SHA1: 
 SHA256: 16f1469635ec45e29c50d97367e90881fbcb82c37ce051d9c3bf809447a33ffd
 
+Package: com.mlgm.kayoko
+Name: Kayoko 剪切板
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.7.2
+Installed-Size: 3172
+Filename: debs/com.mlgm.kayoko-4.7.2-roothide.deb
+Size: 671948
+MD5sum: 71f9caea3a2b08483fed24833ac071df
+SHA1: 
+SHA256: ac2bb6fdb939f3f2029f00eef02ae3cfe5bff195f7c05516e2ab0a3f6f364c8a
+
+Package: com.mlgm.kayoko
+Name: Kayoko 剪切板
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64
+Version: 4.7.2
+Installed-Size: 3172
+Filename: debs/com.mlgm.kayoko-4.7.2-rootless.deb
+Size: 673084
+MD5sum: e70f06eda0596dd202c679a980c77649
+SHA1: 
+SHA256: 5010b6c6f57afe794701142eaa9edff7d42d5cd52f612bdcc3d9135adda0f850
+
 Package: com.mlgm.pulloverx
 Name: PullOver X 分屏
 Version: 1.0.0
