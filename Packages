@@ -16037,6 +16037,45 @@ MD5sum: e49687dcea3a4940f085a42541b83998
 SHA1: 
 SHA256: 61bd3e6f5398da4c486fd8555f5fbb1b7e513ed312159db08244b5814f5135f8
 
+Package: com.xuuz.douyinhelper
+Name: 抖音助手
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64e
+Version: 2.2-4
+Installed-Size: 17544
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.2-4-roothide.deb
+Size: 6801844
+MD5sum: 97fa8168b2a1f92031c5e59acec4e79e
+SHA1: 
+SHA256: 5b896bdc436d8855bbbba02dc13c8cbc287a7971e7820022d2bb7dc05bad63c0
+
+Package: com.xuuz.douyinhelper
+Name: 抖音助手
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64
+Version: 2.2-4
+Installed-Size: 17544
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.2-4-rootless.deb
+Size: 6796112
+MD5sum: de0bde3053a8ff7d32d43cdbdb923e0c
+SHA1: 
+SHA256: 1ec85f83b3abec65b0357ab013a6a937a5de49295a71f5e962c01ae4ee6b1cc7
+
 Package: com.ylr.wchook
 Name: 悬浮按钮分屏
 Description: 悬浮按钮分屏
