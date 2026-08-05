@@ -5610,6 +5610,40 @@ SHA256: f2d4df2babf668f7c9354cb5f7d2e293d3f42f8eca4795ab1cc727cb6d9a1d29
 
 Package: com.huayuarc.speedster
 Name: Speedster
+Description: 更快的动画 + 系统增强：通知不亮锁屏/禁用App资源库/禁锁屏手电&相机/禁快门声/移除解锁延迟/锁屏来电拒接/应用动画方向/彻关Wi-Fi蓝牙/设备朝下锁屏/通话录音静音/Watch配对/禁用OTA/网格后台/iPad Dock/画中画/禁用企业签名/杜比全景声&空间音频&EQ增强。
+Maintainer: Huayuarc
+Author: Hoangdus&Unknown
+Section: Tweaks
+Depends: firmware (>=13.0), preferenceloader, mobilesubstrate
+icon: https://huayuarc.github.io/icon/Speedster.png
+Architecture: iphoneos-arm64e
+Version: 2.1.3-3
+Installed-Size: 536
+Filename: debs/com.huayuarc.speedster-2.1.3-3-roothide.deb
+Size: 67672
+MD5sum: 9b307df34fbeee1a04f88c13dcc271c3
+SHA1: 
+SHA256: e902c1d9ab73193241e4f1add48edea87890e84a8160af9d41e9b9c18edd7fa9
+
+Package: com.huayuarc.speedster
+Name: Speedster
+Description: 更快的动画 + 系统增强：通知不亮锁屏/禁用App资源库/禁锁屏手电&相机/禁快门声/移除解锁延迟/锁屏来电拒接/应用动画方向/彻关Wi-Fi蓝牙/设备朝下锁屏/通话录音静音/Watch配对/禁用OTA/网格后台/iPad Dock/画中画/禁用企业签名/杜比全景声&空间音频&EQ增强。
+Maintainer: Huayuarc
+Author: Hoangdus&Unknown
+Section: Tweaks
+Depends: firmware (>=13.0), preferenceloader, mobilesubstrate
+icon: https://huayuarc.github.io/icon/Speedster.png
+Architecture: iphoneos-arm64
+Version: 2.1.3-3
+Installed-Size: 536
+Filename: debs/com.huayuarc.speedster-2.1.3-3-rootless.deb
+Size: 68916
+MD5sum: 3a8a0273ce45b6672e629aa876adc7bf
+SHA1: 
+SHA256: 31170752878cdd68ead5e9be95d073572796850f24f073e77babbc649858c666
+
+Package: com.huayuarc.speedster
+Name: Speedster
 Description: 更快的动画 + 系统增强：通知不亮锁屏/禁用App资源库/禁锁屏手电&相机/禁快门声/移除解锁延迟/锁屏来电拒接/应用动画方向/彻关Wi-Fi蓝牙/设备朝下锁屏/120hz/通话录音静音/Watch配对/禁用OTA/网格后台/iPad Dock/分屏侧拉/画中画/禁用企业签名。
 Maintainer: Huayuarc
 Author: Hoangdus&Unknown
