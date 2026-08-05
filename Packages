@@ -16517,6 +16517,40 @@ MD5sum: 0850dbc1c7fb448ae1f2dd16276a89ac
 SHA1: 
 SHA256: 590f4158ce398761ab737f055ec3dec86106b37974deeeb9296de982d1263d64
 
+Package: dev.mineek.appstoretroller
+Name: appstoretroller
+Description: An awesome MobileSubstrate tweak! 将设置移至桌面AppStore长按快捷菜单
+Maintainer: iosdump
+Author: Mineek
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.2-1+debug
+Installed-Size: 212
+icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
+Filename: debs/dev.mineek.appstoretroller-0.0.2-1+debug-rootless.deb
+Size: 14320
+MD5sum: 05ff24b023e08df1b578857332de4f1b
+SHA1: 
+SHA256: 10c02f50bf1530d1572a9083a94cb2839f88c95cf6abf7f11c43c9bd8ce24888
+
+Package: dev.mineek.appstoretroller
+Name: appstoretroller
+Description: An awesome MobileSubstrate tweak! 将设置移至桌面AppStore长按快捷菜单
+Maintainer: iosdump
+Author: Mineek
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.2-2+debug
+Installed-Size: 176
+icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
+Filename: debs/dev.mineek.appstoretroller-0.0.2-2+debug-roothide.deb
+Size: 13024
+MD5sum: 7378b79810b44b9197e29890b0beadeb
+SHA1: 
+SHA256: 27bdc9afa6ac1cd3a62ef7f1a88079821c68ddb7ce420f6cc9854fe302e82adf
+
 Package: dylv.liquidass
 Name: Liquid (Gl)ass
 Description: next level diarrhea
