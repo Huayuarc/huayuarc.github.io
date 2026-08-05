@@ -3496,6 +3496,40 @@ MD5sum: 7b3455767bbb7c1e93c4cb8fa675c6f3
 SHA1: 
 SHA256: 4afb31a4cb910a47247640d9096a3af7c272c66d23972a7b77dbb71d81b5dcda
 
+Package: com.colorblack.xbnoads
+Name: 小白学习打印 NoAds
+Description: 小白学习打印 4.45.0 去开屏、首页广告、升级/活动弹窗及页面推广； 关闭原生开屏加载完成后的无需额外等待。软件广告有些毒瘤，QQ群：205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.15.0
+Installed-Size: 144
+icon: https://huayuarc.github.io/icon/xbnoads.jpg
+Filename: debs/com.colorblack.xbnoads-1.15.0-roothide.deb
+Size: 29900
+MD5sum: 9399bdcb98b962088aac62cea9504a74
+SHA1: 
+SHA256: a977e3482e5c36add7d5d1862e2d1f89557775f915860dca65bba5187f66b2d1
+
+Package: com.colorblack.xbnoads
+Name: 小白学习打印 NoAds
+Description: 小白学习打印 4.45.0 去开屏、首页广告、升级/活动弹窗及页面推广； 关闭原生开屏加载完成后的无需额外等待。软件广告有些毒瘤，QQ群：205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.15.0
+Installed-Size: 144
+icon: https://huayuarc.github.io/icon/xbnoads.jpg
+Filename: debs/com.colorblack.xbnoads-1.15.0-rootless.deb
+Size: 29968
+MD5sum: 4b7bcb3cb3d031a17a8247699417b8a9
+SHA1: 
+SHA256: 90252dc10c0b8e3a94e0a952e60559a936d4fc0204f1875ec0ba49b3abfdf793
+
 Package: com.colorblack.xcfnoad
 Name: XCFNoAd
 Depends: mobilesubstrate
@@ -3529,6 +3563,40 @@ Size: 7224
 MD5sum: fa01e5d7032ec3b5fa00e5ff1c15998d
 SHA1: 
 SHA256: a72251a6e4679dea71b187fef87a0700959a73a0e4f998102412d25de75aa09b
+
+Package: com.colorblack.xiaoxiongyouhao.nosplashad
+Name: 小熊油耗 NoAd
+Description: 移除小熊油耗启动开屏广告，测试版本号 3.8.3 感兴趣可加 QQ群：205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/xiaoxiongyouhao.jpg
+Filename: debs/com.colorblack.xiaoxiongyouhao.nosplashad-1.0.0-roothide.deb
+Size: 9804
+MD5sum: fbad9ba2abe8bf46066803d251625ca0
+SHA1: 
+SHA256: 1bb9649e19997b77d62dbf12370c424fbb4b7ca70aeda5ae481c905efb784799
+
+Package: com.colorblack.xiaoxiongyouhao.nosplashad
+Name: 小熊油耗 NoAd
+Description: 移除小熊油耗启动开屏广告，测试版本号 3.8.3 感兴趣可加 QQ群：205928931
+Maintainer: colorblack
+Author: colorblack
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/xiaoxiongyouhao.jpg
+Filename: debs/com.colorblack.xiaoxiongyouhao.nosplashad-1.0.0-rootless.deb
+Size: 9876
+MD5sum: a46e87aeceb04dae5a1061062ac0d39e
+SHA1: 
+SHA256: 3e5c472cb5cc1089823c66f803f74822d8213f9d8237abec718d1e759ffbb517
 
 Package: com.colorblack.youdaoyunbiji
 Name: youdaoyunbiji-NoAd
