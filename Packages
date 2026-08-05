@@ -10040,45 +10040,78 @@ SHA1:
 SHA256: b68eff63c4953ff8e4d99f24a24f82ecd3ec41839d4d4e54f954be65e3a70286
 
 Package: com.rain.raincall
-Name: Rain的通话
+Name: Rain 通话录音
 Section: Tweaks
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Version: 2.6-2-1
+Architecture: iphoneos-arm64e
 Author: Rain
 Maintainer: Rain
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Pre-Depends: rootless-compat (>= 0.9)
 Tag: role::hacker, purpose::extension
-Description: Rain的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音
- 通过 ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音
- 支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机
-Architecture: iphoneos-arm64
-Version: 2.6-2-1
 Installed-Size: 1264
-icon: https://huayuarc.github.io/icon/raincall.png
-Filename: debs/com.rain.raincall_2.6-2-1_iphoneos-arm64.deb
-Size: 177684
-MD5sum: e0017d2366e08d5550d44f32049ecef0
+Icon: https://huayuarc.github.io/icon/raincall.png
+Description: Rain的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音，通过 ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音，支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机。
+Filename: debs/com.rain.raincall-2.6-2-1-roothide.deb
+Size: 173460
+MD5sum: 0fa56d82b10f7580121f58ef60a0d20e
 SHA1: 
-SHA256: d0937d2f22a4b5d0693875fada6b5687456f18a64237581933d964a1d3354d96
+SHA256: 7c8f25540a06d63b3e806fe0b35246b5d209554703a0be4c90475334ae4256bc
 
 Package: com.rain.raincall
-Name: Rain的通话
+Name: Rain 通话录音
+Section: Tweaks
+Version: 2.6-2-1
+Architecture: iphoneos-arm64
+Author: Rain
+Maintainer: Rain
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Tag: role::hacker, purpose::extension
+Installed-Size: 1264
+Icon: https://huayuarc.github.io/icon/raincall.png
+Description: Rain的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音，通过 ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音，支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机。
+Filename: debs/com.rain.raincall-2.6-2-1-rootless.deb
+Size: 178288
+MD5sum: b592717be5e8bdede2e8f59b15c7f720
+SHA1: 
+SHA256: ce2db8b2edf6cbe50254749f122c1536465bcc99356152efaba3c5b77b4ed88c
+
+Package: com.rain.raincall
+Name: Rain 通话录音
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Author: Rain
 Maintainer: Rain
 Tag: role::hacker, purpose::extension
-Description: Rain的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音
- 通过 ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音
- 支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机
+Description: Rain的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音，通过 ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音，支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机。
 Architecture: iphoneos-arm64e
-Version: 2.6-2-1
-Installed-Size: 1264
+Version: 2.6-2-14
+Installed-Size: 2224
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/raincall.png
-Filename: debs/com.rain.raincall_2.6-2-1_iphoneos-arm64e.deb
-Size: 173780
-MD5sum: 7ee98fc98e3c7a5db062da95baf4d2d6
+Filename: debs/com.rain.raincall-2.6-2-14-roothide.deb
+Size: 320132
+MD5sum: 8a60acc9510e28f459dd9daa19fced69
 SHA1: 
-SHA256: 06c2d103c55cb0c7f65ff5c817dfe22b9123e789838387cb4a15fd5d49ce2106
+SHA256: 2a6e7157f03bf1ea3ff67f5446830718e62370b9ba31c983e520e12af55505f1
+
+Package: com.rain.raincall
+Name: Rain 通话录音
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Author: Rain
+Maintainer: Rain
+Tag: role::hacker, purpose::extension
+Description: Rain的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音，通过 ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音，支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机。
+Architecture: iphoneos-arm64
+Version: 2.6-2-14
+Installed-Size: 2224
+icon: https://huayuarc.github.io/icon/raincall.png
+Filename: debs/com.rain.raincall-2.6-2-14-rootless.deb
+Size: 328372
+MD5sum: a6acb53ed450a61c4b75d4a850b20e03
+SHA1: 
+SHA256: 648c1ba992be9847c0cf823b2e777708b12af73cccaa51acccb5b064857ad78c
 
 Package: com.rain.raindyn
 Name: Rain的灵动卡片
@@ -15967,6 +16000,46 @@ Size: 25082028
 MD5sum: 7da8891f5cd6e95528cd6c60d5fcbcf3
 SHA1: 
 SHA256: 98a1c112cd3741537af8bfaeb7b04476930887afea0ad709b14a08098bf4cdcb
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 1.4.6
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-1.4.6-roothide.deb
+Size: 231908
+MD5sum: 4230c608d0d7cafcc024bc0f9f030792
+SHA1: 
+SHA256: 6d15781db08f0916b70340ce21999ea672c2d9bde707c3e3bb07ea69ecd4ccac
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 1.4.6
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-1.4.6-rootless.deb
+Size: 233824
+MD5sum: 6f4086e6461795d417c71fdc29ed7f37
+SHA1: 
+SHA256: 464dadc780964daec6596763caf7784b893de97bc4a633b1e9ba7026a0df4ad7
 
 Package: com.tune.h3kbhook
 Name: 元书输入法 Hooks
