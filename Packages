@@ -10362,6 +10362,45 @@ MD5sum: fe066ea0efcb909a8fdf266b7f2cea07
 SHA1: 
 SHA256: d120ccdf1db129f55cf3732242ce66d0415911b8a438e3041d5f477bfd320842
 
+Package: com.resul.camerapause
+Name: CameraPause 录制暂停
+Depends: firmware (>= 16.0), firmware (<< 17.4), mobilesubstrate | ellekit
+Conflicts: com.resul.camerapausetr, com.ps.recordpause, org.thebigboss.recordpause, com.spicat.recordpause
+Replaces: com.resul.camerapausetr
+Description: Pauses and resumes a normal video recording in the stock Camera app on iOS/iPadOS 16.0 through 17.3.1 in rootless or RootHide environments. 在无根或 RootHide 环境中，在 iOS/iPadOS 16.0 至 17.3.1 上的“相机”库存应用中暂停并恢复正常视频录制。
+Maintainer: Resul
+Author: Resul
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.3.0
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/camerapause.jpg
+Filename: debs/com.resul.camerapause-0.3.0-roothide.deb
+Size: 12464
+MD5sum: 6a7d82c7f32582f0128cf609f615efac
+SHA1: 
+SHA256: 707354b166acd54c9f32e0c804027a9d5b521b15294ce2f7d04dda86b03f293c
+
+Package: com.resul.camerapause
+Name: CameraPause 录制暂停
+Depends: firmware (>= 16.0), firmware (<< 17.4), mobilesubstrate | ellekit
+Conflicts: com.resul.camerapausetr, com.ps.recordpause, org.thebigboss.recordpause, com.spicat.recordpause
+Replaces: com.resul.camerapausetr
+Description: Pauses and resumes a normal video recording in the stock Camera app on iOS/iPadOS 16.0 through 17.3.1 in rootless or RootHide environments. 在无根或 RootHide 环境中，在 iOS/iPadOS 16.0 至 17.3.1 上的“相机”库存应用中暂停并恢复正常视频录制。
+Maintainer: Resul
+Author: Resul
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.3.0
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/camerapause.jpg
+Filename: debs/com.resul.camerapause-0.3.0-rootless.deb
+Size: 12716
+MD5sum: 4abcfd7c7f5120c7304bcdef52221cae
+SHA1: 
+SHA256: bee95e98431f080bf67858ff079e209e8a48606c148ddded762e0a978cd04881
+
 Package: com.rootless.patcher
 Name: RootHide Patcher
 Version: 2.1.4
