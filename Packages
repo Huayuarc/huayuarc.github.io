@@ -10411,6 +10411,43 @@ MD5sum: ee309b5d3074d3091793adf0cc096bcd
 SHA1: 
 SHA256: 017bab354afd913bfa785d955b21b1b5fc80c773d27483bd6fc93c1f9f6fe057
 
+Package: com.qimiao.WCRefine
+Name: WCRefine 微信优化
+Version: 2.0-3
+Description: 微信优化的重制版，基于微信8.0.64+版本制作。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Priority: optional
+Author: 热心网友
+dev: 君临
+Maintainer: 热心网友
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Architecture: iphoneos-arm64e
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.qimiao.WCRefine-2.0-3-roothide.deb
+Size: 8486960
+MD5sum: 98f6a7a0fbf3f9f686b8f11f6c5071e2
+SHA1: 
+SHA256: 70eebd5d7588c67ad4d3873e7a1b6a8b3cdb43fe53a980b3fda9ebf8513ae89a
+
+Package: com.qimiao.WCRefine
+Name: WCRefine
+Version: 2.0-3
+Description: 微信优化的重制版，基于微信8.0.64+版本制作。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Priority: optional
+Author: 热心网友
+dev: 君临
+Maintainer: 热心网友
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Architecture: iphoneos-arm64
+Filename: debs/com.qimiao.WCRefine-2.0-3-rootless.deb
+Size: 8652804
+MD5sum: 5752bcd972e248a6903240ee6e6d9fea
+SHA1: 
+SHA256: f95bce2a68310528d83fbec005eb3164039a9bb59b57a06ca7e809b93e83afc1
+
 Package: com.qiop1379.swipeextenderx
 Version: 1.6.1~2
 Architecture: iphoneos-arm64
@@ -14156,25 +14193,6 @@ Size: 7999428
 MD5sum: 204ee27f7647352a4eabe1a0581c3043
 SHA1: 
 SHA256: fb9fbcb540c162eea33ed135ef8b3f339bbb93960889d6d4eb928e6fe77905a0
-
-Package: com.sini.WCRefine
-Icon: https://huayuarc.github.io/icon/WeChat.jpg
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/WCRefine/js.json
-Name: WCRefine
-Version: 1.4-3
-Description:微信优化的重制版，基于微信8.0.64+版本制作。
-Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate
-Priority: optional
-Author: 热心网友
-dev: 君临
-Maintainer: 热心网友
-Architecture: iphoneos-arm64
-Filename: debs/com.sini.wcrefine_1.4-3_iphoneos-arm64.deb
-Size: 2883044
-MD5sum: 18f3883f936993f696ff268a92867016
-SHA1: 
-SHA256: ba10b871635048e754d31b390078d2f1a2516b895b78206a48274bca3c5de291
 
 Package: com.sini.wechat-pop-vc
 Name: WeChatPopVC
