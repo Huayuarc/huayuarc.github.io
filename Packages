@@ -5969,6 +5969,40 @@ MD5sum: 0df5718599c738c44ff5632376526b0e
 SHA1: 
 SHA256: 93f8a664ff7a7f8ad26281839821a082c576e9d1aa750bcb15e53e36b5c95727
 
+Package: com.huayuarc.speedster
+Name: Speedster
+Description: 更快的动画 + 系统增强：浮动Dock与透明Dock/Home Bar与通知外观精简/通知不亮锁屏/禁用App资源库/自动清理僵尸进程/禁锁屏手电&相机/禁快门声/移除解锁延迟/锁屏来电拒接/应用动画方向/彻关Wi-Fi蓝牙/设备朝下锁屏/通话录音静音/Watch配对/禁用OTA/禁用企业签名/杜比全景声&空间音频&EQ增强。
+Maintainer: Huayuarc
+Author: Hoangdus&Unknown
+Section: Tweaks
+Depends: firmware (>=13.0), preferenceloader, mobilesubstrate
+icon: https://huayuarc.github.io/icon/Speedster.png
+Architecture: iphoneos-arm64
+Version: 2.1.3-6
+Installed-Size: 568
+Filename: debs/com.huayuarc.speedster_2.1.3-6_iphoneos-arm64.deb
+Size: 77890
+MD5sum: ada91a017f92a468fe35848c20572ac9
+SHA1: 
+SHA256: a6101306bd9c8e6fc8bbd1391ea13ff48193b5bd5454ae16671cf26aeae23cf6
+
+Package: com.huayuarc.speedster
+Name: Speedster
+Description: 更快的动画 + 系统增强：浮动Dock与透明Dock/Home Bar与通知外观精简/通知不亮锁屏/禁用App资源库/自动清理僵尸进程/禁锁屏手电&相机/禁快门声/移除解锁延迟/锁屏来电拒接/应用动画方向/彻关Wi-Fi蓝牙/设备朝下锁屏/通话录音静音/Watch配对/禁用OTA/禁用企业签名/杜比全景声&空间音频&EQ增强。
+Maintainer: Huayuarc
+Author: Hoangdus&Unknown
+Section: Tweaks
+Depends: firmware (>=13.0), preferenceloader, mobilesubstrate
+icon: https://huayuarc.github.io/icon/Speedster.png
+Architecture: iphoneos-arm64e
+Version: 2.1.3-6
+Installed-Size: 568
+Filename: debs/com.huayuarc.speedster_2.1.3-6_iphoneos-arm64e.deb
+Size: 76310
+MD5sum: ceb8e292aa6260cc83b4d6290d53d0df
+SHA1: 
+SHA256: c2b910328f9cde92e54282bc219cba05bd89720e6227b07235205d79674c6f9c
+
 Package: com.huayuarc.swipeextenderx
 Version: 1.0
 Section: Tweaks
@@ -6068,6 +6102,39 @@ Size: 42136
 MD5sum: 4333a87934b5af1bb451e6915e1172f2
 SHA1: 
 SHA256: 74078dc20e12655b3e686b77c647230323b15cd81d61f75cdd91cc09f38ed8b7
+
+Package: com.huayuarc.zombiereaper
+Name: ZombieReaper 清理子进程
+Description: Auto-reap zombie child processes for SpringBoard 后台每5秒自动清理SpringBoard产生的僵尸子进程，防止大量调用外部脚本后堆积僵尸进程、耗尽系统PID，避免后续命令无法正常拉起。仅作用于SpringBoard进程。
+Maintainer: Mr_佳先生  ♥
+Author: Mr_佳先生  ♥
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0-1+debug
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/zombiereaper.jpg
+Filename: debs/com.huayuarc.zombiereaper-1.0.0-1+debug-roothide.deb
+Size: 3568
+MD5sum: 4569b5b27b72de43a8c7e646c782ae09
+SHA1: 
+SHA256: 8ac7bd2936f46daea115746f1f1b7b8db235161a9b043d7da7622f07cb6b035b
+
+Package: com.huayuarc.zombiereaper
+Name: ZombieReaper 清理子进程
+Description: Auto-reap zombie child processes for SpringBoard 后台每5秒自动清理SpringBoard产生的僵尸子进程，防止大量调用外部脚本后堆积僵尸进程、耗尽系统PID，避免后续命令无法正常拉起。仅作用于SpringBoard进程。
+Maintainer: Mr_佳先生  ♥
+Author: Mr_佳先生  ♥
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0-1+debug
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/zombiereaper.jpg
+Filename: debs/com.huayuarc.zombiereaper-1.0.0-1+debug-rootless.deb
+Size: 3524
+MD5sum: 3a948a3660804b68c45ba3ff509329c1
+SHA1: 
+SHA256: ec47a74c6668e04f629f8a68bc9a9ea730052d8e7abcff6574d0e99f322f7e38
 
 Package: com.hw.ysllq
 Name: 🅷🆆 亚瑟浏览器
