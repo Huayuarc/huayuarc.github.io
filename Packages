@@ -6816,6 +6816,40 @@ MD5sum: b24e88e78f24f72b34e792f9aaf5557f
 SHA1: 
 SHA256: 5b97f5d4ece9a1747b6cc4636d8d1506d6bded9667a061e5ffb9212e57f95fe5
 
+Package: com.iosdump.neofont
+Name: NeoFont 修改字体
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17+ 免挂载修改系统字体
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 396
+icon: https://huayuarc.github.io/icon/NeoFont.png
+Filename: debs/com.iosdump.neofont-0.0.1-roothide.deb
+Size: 32216
+MD5sum: 45377b97ab8bf2ba0d4ec7d754e8331e
+SHA1: 
+SHA256: 94048d224f030d444fa641661d3643e88710c2213803675d2c5b92941b491718
+
+Package: com.iosdump.neofont
+Name: NeoFont 修改字体
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17+ 免挂载修改系统字体
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 396
+icon: https://huayuarc.github.io/icon/NeoFont.png
+Filename: debs/com.iosdump.neofont-0.0.1-rootless.deb
+Size: 34032
+MD5sum: cc48eb519b1c00ac7dd9fc2188bcc3ad
+SHA1: 
+SHA256: fd81364f6a98b5af572dd0d3d44b497f483506c604f5a1bc1b71c99b18ee342b
+
 Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
 Depends: mobilesubstrate, preferenceloader
@@ -6985,6 +7019,40 @@ Size: 142468
 MD5sum: 4096b61c1f3bcceb53297e4f90c2f796
 SHA1: 
 SHA256: 2922b0931e0cc23e82fb7c7bec83febb5cebcb05a38fb63e1ebe39baf2b0c853
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Installed-Size: 852
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-1.2.1-roothide.deb
+Size: 144220
+MD5sum: 95f6583a3f93e5a59b57f277b903c47b
+SHA1: 
+SHA256: dde2dd93d098e92bc413d6140e43f68e113ae964c8b9da5a31a7ae13acf01a5c
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Installed-Size: 868
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-1.2.1-rootless.deb
+Size: 146088
+MD5sum: 344d6909a977b464f13436766d7a3845
+SHA1: 
+SHA256: ab6f0373b419646a8456f4473ec3189457cdd3c0ab5746ea5abddc9d06204690
 
 Package: com.iosdump.trollcmtweak
 Name: 屏幕触摸轨迹
