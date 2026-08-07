@@ -4078,57 +4078,57 @@ SHA1:
 SHA256: 5f50fdf7fb9dfffa4cad6963baa644cce9ae2e60dc378d57f1b7910937c586eb
 
 Package: com.dao.cchide
-Name: CCLess++
+Name: CCLess++(bootstrap)
 Depends: firmware (>= 17.0), mobilesubstrate, com.opa334.ccsupport
 Architecture: iphoneos-arm64e
 Description: 📱控制中心模块集合：定位、注销、设置、VPN、自动亮度、截屏、锁屏、一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动 QX/推特/油管/Filza/Sileo/Tg 等、静音、实时 CPU 使用率、系统运行时间、Snapper2、微信/支付宝付款码等。适合iOS17(Bootstrap)
 Maintainer: 妖刀
 Author: 妖刀
 Section: Tweaks
-Version: 2.1-bootstrap
+Version: 2.1
 Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/CCLess.jpg
-Filename: debs/com.dao.cchide-2.1-bootstrap-roothide.deb
-Size: 493476
-MD5sum: 6f0b6bfef4d22ce223f44d86ff7e2d4d
+Filename: debs/com.dao.cchide-2.1-roothide.deb
+Size: 493180
+MD5sum: 3e8e7e966715d2614040cd47247fbb4a
 SHA1: 
-SHA256: dbc46595a67452a7949f7876528540d584b74c08475d7943323d9338bccafb4f
+SHA256: 7bd73f47e701c2dbdfb82c58c09b93c5d066bc625856eec0876f66751843d837
 
 Package: com.dao.ccless
-Name: CCLess++
+Name: CCLess++(roothide)
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Architecture: iphoneos-arm64e
 Description: 📱控制中心模块集合：定位、注销、设置、VPN、自动亮度、截屏、锁屏、一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动 QX/推特/油管/Filza/Sileo/Tg 等、静音、实时 CPU 使用率、系统运行时间、Snapper2、微信/支付宝付款码等。
 Maintainer: 妖刀
 Author: 妖刀
 Section: Tweaks
-Version: 2.1.0.1-roothide
+Version: 2.1.0.1
 Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/CCLess.jpg
-Filename: debs/com.dao.ccless-2.1.0.1-roothide-roothide.deb
-Size: 498404
-MD5sum: a8d13d870d89c199666e6fcc35386f0b
+Filename: debs/com.dao.ccless-2.1.0.1-roothide.deb
+Size: 499128
+MD5sum: 75db2705236a5d23f7746ce952a81ca8
 SHA1: 
-SHA256: e8e347dc84a3183aa53ffcbb7a91a2ce69985d0a9df5ac44b227bf83bf41c97f
+SHA256: f56f380b78daf1edd926717488d2b5baf06efa5c121d15b9e2f3555ca75d4fca
 
 Package: com.dao.ccless
-Name: CCLess++
+Name: CCLess++(rootless)
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Architecture: iphoneos-arm64
 Description: 📱控制中心模块集合：定位、注销、设置、VPN、自动亮度、截屏、锁屏、一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动 QX/推特/油管/Filza/Sileo/Tg 等、静音、实时 CPU 使用率、系统运行时间、Snapper2、微信/支付宝付款码等。
 Maintainer: 妖刀
 Author: 妖刀
 Section: Tweaks
-Version: 2.1.0.1-rootless
+Version: 2.1.0.1
 Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.rootless.cc
 icon: https://huayuarc.github.io/icon/CCLess.jpg
-Filename: debs/com.dao.ccless-2.1.0.1-rootless-rootless.deb
-Size: 512548
-MD5sum: 1e88019bff2d6d7cd83c0cf1b8f41bdc
+Filename: debs/com.dao.ccless-2.1.0.1-rootless.deb
+Size: 513092
+MD5sum: 7d36fb5b4a4c32d004bd690550a793e0
 SHA1: 
-SHA256: 547100c9cc1623fc80c1a4f18c932e4df713f75cf7c1eefdc31a1a539c99b0a0
+SHA256: a28c03dfdbdeef07c5988e95933083036a76eb9e0d135d240003ff5ec276f331
 
 Package: com.daodao.goodwifi
 Name: GoodWiFi
