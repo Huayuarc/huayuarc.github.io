@@ -797,6 +797,41 @@ SHA256: 93da0a06dd8ad8f83263b52d35968b7a327af04e035059f847e3384692d5e5c4
 Package: cn.llld.snapshottool
 Name: STTool
 Author: 来了老弟
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Depends: mobilesubstrate
+Maintainer: 来了老弟
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/SnapshotTool.png
+Architecture: iphoneos-arm64e
+Version: 4.2-5+debug
+Installed-Size: 2640
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/cn.llld.snapshottool-4.2-5+debug-roothide.deb
+Size: 1522964
+MD5sum: 4df84a23b702cf700ee5c4b7cc3d0c7c
+SHA1: 
+SHA256: 0e202377297d6e681c38ccd483cf4c3e7ac5f33ee2b6faa68dd1a53c320b58db
+
+Package: cn.llld.snapshottool
+Name: STTool
+Author: 来了老弟
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Depends: mobilesubstrate
+Maintainer: 来了老弟
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/SnapshotTool.png
+Architecture: iphoneos-arm64
+Version: 4.2-5+debug
+Installed-Size: 2640
+Filename: debs/cn.llld.snapshottool-4.2-5+debug-rootless.deb
+Size: 1531220
+MD5sum: 205fa8985e3b897418ffcd1ec65b2648
+SHA1: 
+SHA256: 30d5a2fe76039e860d60cab40e51632846f7e2056034db3d25de53dd824b852a
+
+Package: cn.llld.snapshottool
+Name: STTool
+Author: 来了老弟
 Description: ---对于应用软件的图片，（无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
 Depends: mobilesubstrate
 Maintainer: 来了老弟
@@ -897,6 +932,41 @@ Size: 195788
 MD5sum: f9b3d460fb8d05e3d14e3a19021eadde
 SHA1: 
 SHA256: b01e25f8e0dd58c71ff989654eca6ce22d48d23bc2de8128c4067a5da99650da
+
+Package: cn.llld.ycvpn
+Name: 隐藏项
+Description: 隐藏手机设置内VPN或某些选项或应用
+Maintainer: 来了老弟
+Author: 来了老弟
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+icon: https://huayuarc.github.io/icon/ycicon.png
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 436
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/cn.llld.ycvpn-0.0.2-roothide.deb
+Size: 161948
+MD5sum: 410f117b821c363726122980327dc676
+SHA1: 
+SHA256: c79d922ef6ccc57d65285fe33681c6786287dea86fdc1f6b12a4c44f812e04d5
+
+Package: cn.llld.ycvpn
+Name: 隐藏项
+Description: 隐藏手机设置内VPN或某些选项或应用
+Maintainer: 来了老弟
+Author: 来了老弟
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+icon: https://huayuarc.github.io/icon/ycicon.png
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Installed-Size: 436
+Filename: debs/cn.llld.ycvpn-0.0.2-rootless.deb
+Size: 162452
+MD5sum: 4ca723f8174f7729d187ddf758a5dff2
+SHA1: 
+SHA256: 83626a8cc0a46bd65e16265a85558406990d69ff2e35ed568d2932eb2239b75d
 
 Package: cn.zqbb.ccatop
 Name: CocoaTop
