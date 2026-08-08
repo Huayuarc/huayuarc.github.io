@@ -4999,6 +4999,90 @@ MD5sum: f17450847e284a1008d43d8ea76d034e
 SHA1: 
 SHA256: f97ca38853371e5274d363a8dc6e164d0515bdac34b02afbbf42dac0ca968138
 
+Package: com.hmmzzz.fontmanager
+Name: MarkFont 全局字体管理器
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: Utilities
+Homepage: https://hmmzzz.github.io/repo/
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.3.0
+Installed-Size: 2308
+Filename: debs/com.hmmzzz.fontmanager-0.3.0-roothide.deb
+Size: 434512
+MD5sum: 2fcbeba254e89fb9f5ba69bdae25f583
+SHA1: 
+SHA256: b7fcda87ee087b68b2e66893d248200a2fb64371cbb9eca519ee7e19eed82bb9
+
+Package: com.hmmzzz.fontmanager
+Name: MarkFont 全局字体管理器
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: Utilities
+Homepage: https://hmmzzz.github.io/repo/
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.3.0
+Installed-Size: 2324
+Filename: debs/com.hmmzzz.fontmanager-0.3.0-rootless.deb
+Size: 434924
+MD5sum: 756f0880101fc450a70ac17bf61c94a2
+SHA1: 
+SHA256: 70f2c901ee09be75376bf34538648a6826f819231b2322ef5e4aad226f2af09a
+
+Package: com.hmmzzz.fontmanager
+Name: MarkFont 全局字体管理器
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: Utilities
+Homepage: https://hmmzzz.github.io/repo/
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.3.1
+Installed-Size: 2308
+Filename: debs/com.hmmzzz.fontmanager-0.3.1-roothide.deb
+Size: 434880
+MD5sum: 125a8e45b7ce89de1113e68e6ccbfa7a
+SHA1: 
+SHA256: 067fafd047bb75209edd270b1053448e6b2e72e645065195ab7224bbd7971e99
+
+Package: com.hmmzzz.fontmanager
+Name: MarkFont 全局字体管理器
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: Utilities
+Homepage: https://hmmzzz.github.io/repo/
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.3.1
+Installed-Size: 2328
+Filename: debs/com.hmmzzz.fontmanager-0.3.1-rootless.deb
+Size: 435432
+MD5sum: df35a03d4eb17a28affde8849d357e15
+SHA1: 
+SHA256: fca26f53a7b344383b6725c371e1c9fc36491d5ee34ef9bb4799eb6a8ac318c3
+
 Package: com.hoangdus.konban
 Name: KonbanXV
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 15.0), com.opa334.altlist, preferenceloader
