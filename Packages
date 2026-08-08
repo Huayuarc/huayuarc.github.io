@@ -10170,6 +10170,23 @@ MD5sum: a8ea54e381898e6179ec30323e419511
 SHA1: 
 SHA256: 32db86e633e5ebfc503fe85b5f2b393c3da1e3b59576f6080514a905405a6a90
 
+Package: com.opa334.trollstorelite
+Name: TrollStore Lite
+Description: TrollStore for RootHide jailbroken iOS
+Depends: ldid
+Maintainer: opa334
+Author: opa334
+Section: Applications
+Architecture: iphoneos-arm64e
+Version: 2.1.1
+Installed-Size: 556
+icon: https://huayuarc.github.io/icon/trollstorehelper.png
+Filename: debs/com.opa334.trollstorelite-2.1.1-roothide.deb
+Size: 212132
+MD5sum: 9aaf590f216885ab5b47c63a7a4662ec
+SHA1: 
+SHA256: dcc5bf1e9612e6710e78189752f40affb6d2821f5077b65abd74c4a327015169
+
 Package: com.p2kdev.arkita
 Name: Arkita
 Depends: mobilesubstrate, firmware (>= 13)
