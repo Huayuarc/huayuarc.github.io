@@ -17015,6 +17015,43 @@ MD5sum: 59af3064cdb03c0b2a09f0b4a2297118
 SHA1: 
 SHA256: 8903cb0fc3e824341b167ef6c95888946ac7d5902d1198304184c720e63d6af6
 
+Package: com.wee1ka.ifetch
+Name: iFetch 诊断工具
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate, com.opa334.ccsupport
+Description: 高级系统诊断工具、进程监视器，支持命令行查询，适配iOS14–17 rootless / RootHide越狱设备。
+Maintainer: wee1ka
+Author: wee1ka
+Section: Tweaks
+Icon: https://weekanya.github.io/iFetch/ifetch-icon.png
+SileoDepiction: https://weekanya.github.io/iFetch/sileodepiction.json
+Architecture: iphoneos-arm64e
+Version: 5.1.0
+Installed-Size: 3852
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.wee1ka.ifetch-5.1.0-roothide.deb
+Size: 1866292
+MD5sum: ea0d44e45679652de786fd82b0f70090
+SHA1: 
+SHA256: 5de655e2af25bd5cee6d10eb7e376782481c8e940771be28acd18516b0097ab0
+
+Package: com.wee1ka.ifetch
+Name: iFetch 诊断工具
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate, com.opa334.ccsupport
+Description: 高级系统诊断工具、进程监视器，支持命令行查询，适配iOS14–17 rootless / RootHide越狱设备。
+Maintainer: wee1ka
+Author: wee1ka
+Section: Tweaks
+Icon: https://weekanya.github.io/iFetch/ifetch-icon.png
+SileoDepiction: https://weekanya.github.io/iFetch/sileodepiction.json
+Architecture: iphoneos-arm64
+Version: 5.1.0
+Installed-Size: 3852
+Filename: debs/com.wee1ka.ifetch-5.1.0-rootless.deb
+Size: 1877176
+MD5sum: 11b3cd75ed27178383e01321eb850c89
+SHA1: 
+SHA256: 90fb5275897b7af61c34004b9018bf56ff636bb28b84fcff2e7b0d806b618422
+
 Package: com.witchan.ios-mcp
 Name: iOS MCP
 Provides: com.witchan.iphone-mcp
