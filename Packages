@@ -4770,6 +4770,24 @@ MD5sum: a1adcf472f023a8f4b018b313622d02b
 SHA1: 
 SHA256: aeefdc896496d42c5bed6ccb415020744333da24e4dc8129f733dc64b5103b34
 
+Package: com.fluoxetine.jumor
+Name: 巨魔 R
+Description: 巨魔 R由Fluoxetine为Relaxin越狱特别制作。支持免签安装IPA,Tipa应用。支持注入任意dylib和deb插件。Bug反馈及意见建议:1103945342@qq.com。感谢Relaxin越狱，感谢opa334。
+Depends: ldid, ellekit
+Replaces: com.opa334.trollstorelite
+Maintainer: Fluoxetine <1103945342@qq.com>
+Author: Fluoxetine为Relaxin越狱特别制作
+Section: Applications
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Installed-Size: 1361
+icon: https://huayuarc.github.io/icon/jumor.jpg
+Filename: debs/com.fluoxetine.jumor-1.0.4-roothide.deb
+Size: 592396
+MD5sum: b880387e0baefa58c31990a340d5486e
+SHA1: 
+SHA256: b71d426dd1f6e990275d19ef9c103de0fc7ab3825be686ab13f13f0d533baab8
+
 Package: com.go.mango
 Name: mango
 Description: 芒果，轻量分屏，舒适，顺手。qq群：1083674538 群管理售后qq：3047240958/985745559
@@ -7229,6 +7247,74 @@ Size: 34032
 MD5sum: cc48eb519b1c00ac7dd9fc2188bcc3ad
 SHA1: 
 SHA256: fd81364f6a98b5af572dd0d3d44b497f483506c604f5a1bc1b71c99b18ee342b
+
+Package: com.iosdump.screenrecordnostatusbar
+Name: Recording 录制隐藏状态栏
+Depends: mobilesubstrate
+Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项（防止一些人盯着敏感的状态栏猜用户）。
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/luzhi.jpg
+Filename: debs/com.iosdump.screenrecordnostatusbar-0.1-roothide.deb
+Size: 5616
+MD5sum: 058e7842b64f29938755a699153dcb8b
+SHA1: 
+SHA256: f35f1ecf2a5a73bfe65880bcbb4863f5da8b0eaaf061ed649cbc93c48e501a8b
+
+Package: com.iosdump.screenrecordnostatusbar
+Name: Recording 录制隐藏状态栏
+Depends: mobilesubstrate
+Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项（防止一些人盯着敏感的状态栏猜用户）。
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/luzhi.jpg
+Filename: debs/com.iosdump.screenrecordnostatusbar-0.1-rootless.deb
+Size: 5668
+MD5sum: 72041396f2eae3a0cfea5ebee775c013
+SHA1: 
+SHA256: 08c4174da416a277fbd148b236606df9a0978a9fb85b0bfad3eed5c8cd71396a
+
+Package: com.iosdump.screenshotnostatusbar
+Name: Status bar 截图隐藏状态栏
+Depends: mobilesubstrate
+Description: iOS 14-17 截图时隐藏状态栏，无设置项（可防止一些人盯着敏感的状态栏猜用户）。
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/jietu.jpg
+Filename: debs/com.iosdump.screenshotnostatusbar-0.1-roothide.deb
+Size: 5176
+MD5sum: 6b617a7265effc806057449f17823c50
+SHA1: 
+SHA256: 5dcf6ae8a7e6270d8abe722ec915d1d1dc3d4e79cd156e1e18f2172443fe287d
+
+Package: com.iosdump.screenshotnostatusbar
+Name: Status bar 截图隐藏状态栏
+Depends: mobilesubstrate
+Description: iOS 14-17 截图时隐藏状态栏，无设置项（可防止一些人盯着敏感的状态栏猜用户）。
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/jietu.jpg
+Filename: debs/com.iosdump.screenshotnostatusbar-0.1-rootless.deb
+Size: 5236
+MD5sum: cf777cb8a67f32b5fe46afcbc4e5c336
+SHA1: 
+SHA256: fff52fd6e944993c2a3b955ca6833725dea3a28550a096deb571c90643fe3aa9
 
 Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
@@ -10240,57 +10326,6 @@ SHA1:
 SHA256: ee41f92e54bce370298d0295a075e66a52ab589fa7d2ba0409be43c00a81a2fd
 
 Package: com.opa334.trollstorelite
-Name: 巨魔R
-Description: 巨魔R由Fluoxetine为Relaxin越狱特别制作。支持免签安装IPA,Tipa应用。支持注入任意dylib和deb插件。Bug反馈及意见建议:1103945342@qq.com。感谢Relaxin越狱，感谢opa334。
-Depends: ldid, ellekit
-Maintainer: Fluoxetine <1103945342@qq.com>
-Author: Fluoxetine为Relaxin越狱特别制作
-Section: Applications
-Architecture: iphoneos-arm64e
-Version: 1.0.1
-Installed-Size: 1237
-icon: https://huayuarc.github.io/icon/jumor.jpg
-Filename: debs/com.opa334.trollstorelite-1.0.1-roothide.deb
-Size: 579388
-MD5sum: d72cd6a5fd236dd6d347e0b0b6af031e
-SHA1: 
-SHA256: 13f44b3fe1116342fb4563ac0696060c28c0f7fdd4680759c3807cf0dc45c377
-
-Package: com.opa334.trollstorelite
-Name: 巨魔R
-Description: 巨魔R由Fluoxetine为Relaxin越狱特别制作。支持免签安装IPA,Tipa应用。支持注入任意dylib和deb插件。Bug反馈及意见建议:1103945342@qq.com。感谢Relaxin越狱，感谢opa334。
-Depends: ldid, ellekit
-Maintainer: Fluoxetine <1103945342@qq.com>
-Author: Fluoxetine为Relaxin越狱特别制作
-Section: Applications
-Architecture: iphoneos-arm64e
-Version: 1.0.2
-Installed-Size: 1329
-icon: https://huayuarc.github.io/icon/jumor.jpg
-Filename: debs/com.opa334.trollstorelite-1.0.2-roothide.deb
-Size: 589568
-MD5sum: cd3adc1d3b7e196375e370fd54b92744
-SHA1: 
-SHA256: 321d72b33bfa27c62a2b6d02d82db6cf93334599cfabb13110914be18c58d85e
-
-Package: com.opa334.trollstorelite
-Name: 巨魔R
-Description: 巨魔R由Fluoxetine为Relaxin越狱特别制作。支持免签安装IPA,Tipa应用。支持注入任意dylib和deb插件。Bug反馈及意见建议:1103945342@qq.com。感谢Relaxin越狱，感谢opa334。
-Depends: ldid, ellekit
-Maintainer: Fluoxetine <1103945342@qq.com>
-Author: Fluoxetine为Relaxin越狱特别制作
-Section: Applications
-Architecture: iphoneos-arm64e
-Version: 1.0.3
-Installed-Size: 1329
-icon: https://huayuarc.github.io/icon/jumor.jpg
-Filename: debs/com.opa334.trollstorelite-1.0.3-roothide.deb
-Size: 590236
-MD5sum: a8ea54e381898e6179ec30323e419511
-SHA1: 
-SHA256: 32db86e633e5ebfc503fe85b5f2b393c3da1e3b59576f6080514a905405a6a90
-
-Package: com.opa334.trollstorelite
 Name: TrollStore Lite
 Description: TrollStore for RootHide jailbroken iOS
 Depends: ldid
@@ -10302,10 +10337,10 @@ Version: 2.1.1
 Installed-Size: 556
 icon: https://huayuarc.github.io/icon/trollstorehelper.png
 Filename: debs/com.opa334.trollstorelite-2.1.1-roothide.deb
-Size: 212132
-MD5sum: 9aaf590f216885ab5b47c63a7a4662ec
+Size: 212040
+MD5sum: 6f9a5236f708d57ae529fe14f2a77fe1
 SHA1: 
-SHA256: dcc5bf1e9612e6710e78189752f40affb6d2821f5077b65abd74c4a327015169
+SHA256: 5c7573cc1d59a59ca9069efe7aecbfe7403cae5774f09c5b18554a0e6ec04276
 
 Package: com.opa334.trollstorelite
 Name: TrollStore Lite
@@ -10319,10 +10354,10 @@ Version: 2.1.1
 Installed-Size: 592
 icon: https://huayuarc.github.io/icon/trollstorehelper.png
 Filename: debs/com.opa334.trollstorelite-2.1.1-rootless.deb
-Size: 213096
-MD5sum: 2568058355e13f4af7937d48389d81cd
+Size: 213152
+MD5sum: 3e5cbaf37a944cc8c7df94c0ba55f8fe
 SHA1: 
-SHA256: 506aef14db1a76ae45398f2027d878516981aed1324e09accdfafef0b05ea134
+SHA256: ed524cf37a397160f6820f071921121b97cb4d89cd86fdcdb81635f2c2c97d8a
 
 Package: com.p2kdev.arkita
 Name: Arkita
