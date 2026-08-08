@@ -17,7 +17,7 @@
 "class": "DepictionSeparatorView"
 },
 {
-"markdown": "## 描述\n注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」将 CPU 频率锁定在 2016MHz 兼顾省电与性能。",
+"markdown": "## 描述\n注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「解除温控」解除全部温控限制，「低功耗」兼顾省电与性能。",
 "useSpacing": true,
 "class": "DepictionMarkdownView"
 },
