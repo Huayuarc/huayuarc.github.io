@@ -555,6 +555,38 @@ MD5sum: 99f81b007baebefff6d6949f8fcf3817
 SHA1: 
 SHA256: 89bd5d132be8e8ce0d208369244ae9ed2864005bf7746876d18fa7a1d9585c50
 
+Package: cn.llld.cocoatop
+Name: CocoaTop 简易汉化
+Description: CocoaTop 简易汉化（多巴胺专用）
+Maintainer: 来了老弟
+Author: 来了老弟
+Section: Utilities
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.1-1
+Installed-Size: 240
+Filename: debs/cn.llld.cocoatop-0.0.1-1-rootless.deb
+Size: 19240
+MD5sum: eda23e678d516a76fd63452bfd005a29
+SHA1: 
+SHA256: d11e7fe02b092a127b1f14a4eee980e71cebc637705be2665071a225766eaa71
+
+Package: cn.llld.cocoatop
+Name: CocoaTop 简易汉化
+Description: CocoaTop 简易汉化（roothide专用）
+Maintainer: 来了老弟
+Author: 来了老弟
+Section: Utilities
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1-2
+Installed-Size: 240
+Filename: debs/cn.llld.cocoatop-0.0.1-2-roothide.deb
+Size: 19444
+MD5sum: 15bd20909d25b38cb3042ef8abc35d95
+SHA1: 
+SHA256: c4b945d9f040e9923d9f3a4b386cfaed511feaebffa95f402d69e2611edbc43e
+
 Package: cn.llld.fixdh1
 Name: phonefix
 Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度2850-3150）
@@ -20019,6 +20051,40 @@ Size: 15225596
 MD5sum: 44278c6977b0b5c7dd7be70c1fe06ed8
 SHA1: 
 SHA256: b3432a3f8b9eadf545d92d0f1d4ed79549831892b07f6409cac1e3a2fe945f5d
+
+Package: ru.domo.cocoatop64
+Section: Utilities
+Maintainer: Ash
+Architecture: iphoneos-arm64e
+Version: 2.2.4-2
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Description: CocoaTop查看进程信息 后台运行  CPU占用，进程PID，空闲运存等。
+Author: Domo <domo@rambler.ru>
+Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
+Name: CocoaTop64 查看进程信息
+Filename: debs/ru.domo.cocoatop64-2.2.4-2-roothide.deb
+Size: 261712
+MD5sum: 72bddf3fdf37e555da7dede0767cd7b4
+SHA1: 
+SHA256: ce6a61de640b5c78ea95aa4049dcb50ae8cf6da746dde4dd0033be2d325c261b
+
+Author: Domo <domo@rambler.ru>
+Maintainer: Hitori
+Name: CocoaTop64 查看进程信息
+Package: ru.domo.cocoatop64
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Section: Utilities
+Version: 2.2.4
+Architecture: iphoneos-arm64
+Description: Process Viewer for iOS CocoaTop查看进程信息 后台运行  CPU占用，进程PID，空闲运存等。
+Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
+Filename: debs/ru.domo.cocoatop64-2.2.4-rootless.deb
+Size: 138200
+MD5sum: a1ffa1e90a16c586e885b79424a00720
+SHA1: 
+SHA256: ba97ee6b6fd1c58a9b1971e00b5c76e5b63bf6f6195475c48f190388b4fdbc55
 
 Package: tools.cydia.flex3
 Maintainer: t4c
