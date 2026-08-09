@@ -1022,25 +1022,6 @@ MD5sum: 8e97cc70da357ddc09b54b719672a7ba
 SHA1: 
 SHA256: d91b21ef4dc3054988d05a71d330908cb8f9e1a038b7fc8bbc9964d332f3c6cb
 
-Package: cn.zqbb.cocoatop64.inject.roothide
-Name: CocoaTop64 查看进程信息
-Depends:
-Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, zp.cocoatop64, zp.cocoatop64.unject, zp.cocoatop64.inject
-Description: (RootHide) 白名单注入辅助器，CocoaTop查看进程信息 后台运行  CPU占用，进程PID，空闲运存等。
-Maintainer: zp, SXX, Domo
-Author: Domo, SXX , zp
-Section: Tweaks
-SileoDepiction: https://rootless.zqbb.cf/web/cn.zqbb.cocoatop64.inject.roothide
-Architecture: iphoneos-arm64e
-Version: 3.2.0
-Installed-Size: 840
-Icon: https://apt.002599.xyz/web/icon/cn.zqbb.ccatop.png
-Filename: debs/cn.zqbb.cocoatop64.inject.roothide-3.2.0-roothide.deb
-Size: 200356
-MD5sum: 112dd204b1b8870c5bfec67b7ce8e8a9
-SHA1: 
-SHA256: dd1dd5cc36aa666989ae7eaf24bb83bd0a2722136f9ff1b91e01d5a9164aadd6
-
 Package: cn.zqbb.hello.mnt
 Name: HelloMnt Filza 挂载器
 Description: Relaxin 挂载器!
@@ -20700,61 +20681,4 @@ Size: 1946744
 MD5sum: 9cdaa02f00d0c7cbd3d42b6728f44263
 SHA1: 
 SHA256: 9436e1d6d63614c91e440247e37ca3367326f768c77a0dd8f179466425e3793c
-
-Package: zp.cocoatop64.unject
-Name: CocoaTop64 查看进程信息
-Depends:
-Conflicts: ru.domo.cocoatop , ru.domo.cocoatop64 , zp.cocoatop64 , zp.cocoatop64.inject
-Description: CocoaTop查看进程信息 后台运行  CPU占用，进程PID，空闲运存等。
-Maintainer: zp, SXX, Domo
-Author: Domo, SXX , zp
-Section: Tweaks
-SileoDepiction: https://rootless.zqbb.cf/web/zp.cocoatop64.unject
-Architecture: iphoneos-arm64
-Version: 3.1.2
-Installed-Size: 840
-icon: https://huayuarc.github.io/icon/CocoaTop.jpg
-Filename: debs/zp.cocoatop64.unject-3.1.2-rootless.deb
-Size: 199668
-MD5sum: 7be511c05efb7dcf41dc81b3ffcfd1fa
-SHA1: 
-SHA256: eae5176bfd22556f24c2fda9c0ca1eeb96ccc9f32daa5b11a95b2345440e55aa
-
-Package: zp.cocoatop64.unject.xina
-Name: CocoaTop64 xina 查看进程信息
-Depends:
-Conflicts: ru.domo.cocoatop , ru.domo.cocoatop64 , zp.cocoatop64 , zp.cocoatop64.unject
-Description: CocoaTop查看进程信息 后台运行  CPU占用，进程PID，空闲运存等。
-Maintainer: zp, SXX, Domo
-Author: Domo, SXX , zp
-Section: Tweaks
-SileoDepiction: https://rootless.002599.xyz/web/zp.cocoatop64.unject
-Architecture: iphoneos-arm64
-Version: 3.1.1
-Installed-Size: 840
-icon: https://huayuarc.github.io/icon/CocoaTop.jpg
-Filename: debs/zp.cocoatop64.unject.xina-3.1.1-rootless.deb
-Size: 202404
-MD5sum: f5e137d2b3264353271a910aafc95741
-SHA1: 
-SHA256: e036cb8bda22ea434dbc7c02f9793e64feb89dd5bd890d027fe0ce7fa1a09b7f
-
-Package: zp.cocoatop64.unject.xina
-Name: CocoaTop64 xina215+ 查看进程信息
-Depends:
-Conflicts: ru.domo.cocoatop , ru.domo.cocoatop64 , zp.cocoatop64 , zp.cocoatop64.unject
-Description: CocoaTop查看进程信息 后台运行  CPU占用，进程PID，空闲运存等。
-Maintainer: zp, SXX, Domo
-Author: Domo, SXX , zp
-Section: Tweaks
-SileoDepiction: https://rootless.002599.xyz/web/zp.cocoatop64.unject
-Architecture: iphoneos-arm64
-Version: 3.1.2+1
-Installed-Size: 840
-icon: https://huayuarc.github.io/icon/CocoaTop.jpg
-Filename: debs/zp.cocoatop64.unject.xina-3.1.2+1-rootless.deb
-Size: 202844
-MD5sum: 8a4896b8958575ccc190ea3123ca0609
-SHA1: 
-SHA256: b03331e0029b932db384d12d0ff027e10298d1189944b9f45bf4dcfd400c4f36
 
