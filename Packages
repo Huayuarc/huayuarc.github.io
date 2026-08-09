@@ -6642,7 +6642,7 @@ SHA1:
 SHA256: f211c67108f510439ea13e7d9b9aeb3b954ceb249d76d2c619967eefc1b2724a
 
 Package: com.iosdump.appdata
-Name: AppData
+Name: AppData 管理应用数据
 Version: 2.5.3
 Description: 从主屏幕查看和管理应用数据
 Section: Tweaks
@@ -6653,13 +6653,13 @@ Author: iosdump
 Maintainer: iosdump
 Icon: https://huayuarc.github.io/icon/AppData.png
 Filename: debs/com.iosdump.appdata-2.5.3-roothide.deb
-Size: 1576024
-MD5sum: 9da4ee6408a50df7d65b878f9fa1292b
+Size: 1576224
+MD5sum: 05feae69569cd7953512bd33258e3926
 SHA1: 
-SHA256: 8d6275c8b57f8ec41f586338282d6c2801335eeca01e21d90b8fb6a4833dc186
+SHA256: 41cd18459fa12f834ec65f8a669776f173892974db6248ea2c12e001424ee6aa
 
 Package: com.iosdump.appdata
-Name: AppData
+Name: AppData 管理应用数据
 Version: 2.5.3
 Description: 从主屏幕查看和管理应用数据
 Section: Tweaks
@@ -6670,13 +6670,13 @@ Author: iosdump
 Maintainer: iosdump
 Icon: https://huayuarc.github.io/icon/AppData.png
 Filename: debs/com.iosdump.appdata-2.5.3-rootless.deb
-Size: 1585168
-MD5sum: 53a56f5c82b2aa36c2a42bf5abfac5ba
+Size: 1585420
+MD5sum: 490b8ff54946e8de012b45eff0a11125
 SHA1: 
-SHA256: e4954f73f061a460354b8b8e8f1f2d2baaafedab727bfc1a66cbd3240b84f934
+SHA256: 3fe93c8d97e3ece994262ade6a4c005331254598d23e8f2ee21995b1fd865a27
 
 Package: com.iosdump.appdata
-Name: AppData
+Name: AppData 管理应用数据
 Version: 2.6.1
 Description: 从主屏幕查看和管理应用数据
 Section: Tweaks
@@ -6688,13 +6688,13 @@ Maintainer: iosdump
 Icon: https://huayuarc.github.io/icon/AppData.png
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.iosdump.appdata-2.6.1-roothide.deb
-Size: 1602324
-MD5sum: 0c7969f5462f3b7b645b17a2309bab83
+Size: 1602444
+MD5sum: 14adebecb154d35adf11226a01806f45
 SHA1: 
-SHA256: 59ca854c2f61e465b7c4903e32e0f25b597e30a97cf0491bee043d804707d325
+SHA256: a58c462e1b9f5f2b496be9330fe0a30164fc6359aa31fa637f1fec37553420be
 
 Package: com.iosdump.appdata
-Name: AppData
+Name: AppData 管理应用数据
 Version: 2.6.1
 Description: 从主屏幕查看和管理应用数据
 Section: Tweaks
@@ -6705,10 +6705,80 @@ Author: iosdump
 Maintainer: iosdump
 Icon: https://huayuarc.github.io/icon/AppData.png
 Filename: debs/com.iosdump.appdata-2.6.1-rootless.deb
-Size: 1611616
-MD5sum: d624a0afdd0364785f9dc3308cb0463a
+Size: 1611912
+MD5sum: af5606e9e620cd2b76d67d8ffc41294a
 SHA1: 
-SHA256: f5caf48dc90d97b8fa56ad5092a1611f4345ef137e882dc4397a162d088fedbc
+SHA256: 384b1b6ff3704a0d71a561a8711a38c1d262a32e5f9163008a74150cf4342046
+
+Package: com.iosdump.appdata
+Name: AppData 管理应用数据
+Version: 2.6.6
+Description: 在主屏幕查看应用数据与管理应用
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64e
+Author: iosdump
+Maintainer: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.iosdump.appdata-2.6.6-roothide.deb
+Size: 1694608
+MD5sum: 9d97e6f9c5410fd5da9d0c968310d4dc
+SHA1: 
+SHA256: 4bf81d6ee9498e2655b0fc5877dae4c8dc8574163ba7e8064924d030258d1ab6
+
+Package: com.iosdump.appdata
+Name: AppData 管理应用数据
+Version: 2.6.6
+Description: 在主屏幕查看应用数据与管理应用
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64
+Author: iosdump
+Maintainer: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
+Filename: debs/com.iosdump.appdata-2.6.6-rootless.deb
+Size: 1706640
+MD5sum: f9d74df7517d15dc7431221472c0a869
+SHA1: 
+SHA256: ec9324bba8a0f3c20ec0fd96206a8cb42144812705f5e7cd925cd7e42c56d953
+
+Package: com.iosdump.appdata
+Name: AppData 管理应用数据
+Version: 2.6.7
+Description: 在主屏幕查看应用数据与管理应用
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64e
+Author: iosdump
+Maintainer: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.iosdump.appdata-2.6.7-roothide.deb
+Size: 1691932
+MD5sum: de098eb09e1e5da9519fb199b5295de9
+SHA1: 
+SHA256: fb96f946c33c8afa95c75cef2894595e9cf3b978fbf2ee28a814b2a0ac111bec
+
+Package: com.iosdump.appdata
+Name: AppData 管理应用数据
+Version: 2.6.7
+Description: 在主屏幕查看应用数据与管理应用
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64
+Author: iosdump
+Maintainer: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Filename: debs/com.iosdump.appdata-2.6.7-rootless.deb
+Size: 1704344
+MD5sum: 8301cb4c4852c18a3a0547ce3a351301
+SHA1: 
+SHA256: 37a327ee75c1698b9176984f9b6f2c13db056ea985cc0496802943824c01ef92
 
 Package: com.iosdump.customcallbg
 Name: 自定义来去电背景
@@ -11592,27 +11662,8 @@ SHA1:
 SHA256: f590211b0b4d13a831cc463134d72cc76a1a1249863a9241c95e3c4ebaee3f7c
 
 Package: com.sini.appdata
-Icon: https://sini921.github.io/repo/sileodepiction/icon/appdata.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/appdata/js.json
-Name: AppData
-Description: 从主屏幕查看和管理应用程序数据
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Author: Fouad Raheb
-Maintainer: Nets
-Architecture: iphoneos-arm64
-Version: 1.4.7
-Installed-Size: 5156
-Filename: debs/com.sini.appdata_1.4.7_iphoneos-arm64.deb
-Size: 1497240
-MD5sum: 21e810b9aafaccb2f7d14459f31e6bdb
-SHA1: 
-SHA256: 13977ac3fa40d04a37c0ac4964214ada30ebcffeb1a689087a12c1a157592de4
-
-Package: com.sini.appdata
-Icon: https://sini921.github.io/repo/sileodepiction/icon/appdata.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/appdata/js.json
-Name: AppData
+Icon: https://huayuarc.github.io/icon/AppData.png
+Name: AppData 管理应用数据
 Description: 从主屏幕查看和管理应用程序数据
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
@@ -11622,11 +11673,28 @@ Architecture: iphoneos-arm64e
 Version: 1.4.7
 Installed-Size: 5156
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.sini.appdata_1.4.7_iphoneos-arm64e.deb
-Size: 1498936
-MD5sum: f2d6b5f2d25497c8014e67d3f3b90682
+Filename: debs/com.sini.appdata-1.4.7-roothide.deb
+Size: 1497592
+MD5sum: 0f41375ea02e9d3fdb158b78b98dc1ce
 SHA1: 
-SHA256: 23e37d09e43d53cf7364acceed6ccb0a391707ab9d0295e1bd99d0a4389b71c8
+SHA256: ae5e5776f1c7e273122eb6ee4266aeda17450d359761d0d5b8e8ae96b4849c89
+
+Package: com.sini.appdata
+Icon: https://huayuarc.github.io/icon/AppData.png
+Name: AppData 管理应用数据
+Description: 从主屏幕查看和管理应用程序数据
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Author: Fouad Raheb
+Maintainer: Nets
+Architecture: iphoneos-arm64
+Version: 1.4.7
+Installed-Size: 5156
+Filename: debs/com.sini.appdata-1.4.7-rootless.deb
+Size: 1497700
+MD5sum: c95ac56a91360dc0f61c4458bd4d3695
+SHA1: 
+SHA256: a9625d7c295d4a20a40dc7eb040cf244c1b0e0a33fe13f60fc8fd2c15ba53bf2
 
 Package: com.sini.AppIndex
 Version: 1.0
