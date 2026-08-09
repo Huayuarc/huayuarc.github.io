@@ -565,11 +565,12 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 0.0.1-1
 Installed-Size: 240
+Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
 Filename: debs/cn.llld.cocoatop-0.0.1-1-rootless.deb
-Size: 19240
-MD5sum: eda23e678d516a76fd63452bfd005a29
+Size: 19312
+MD5sum: 1dbd971aec0927d9a42e2b55e85935fc
 SHA1: 
-SHA256: d11e7fe02b092a127b1f14a4eee980e71cebc637705be2665071a225766eaa71
+SHA256: d6a0bd50465132944f32a9f17587920f30598599df97f78404f7b31f44228ca1
 
 Package: cn.llld.cocoatop
 Name: CocoaTop 简易汉化
@@ -581,11 +582,12 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64e
 Version: 0.0.1-2
 Installed-Size: 240
+Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
 Filename: debs/cn.llld.cocoatop-0.0.1-2-roothide.deb
-Size: 19444
-MD5sum: 15bd20909d25b38cb3042ef8abc35d95
+Size: 19276
+MD5sum: c17fb7b48faedda2f92d076e747a3068
 SHA1: 
-SHA256: c4b945d9f040e9923d9f3a4b386cfaed511feaebffa95f402d69e2611edbc43e
+SHA256: 84877f6250247aeb15ca7526aef428b35ae01585898e91c795b070bbe740500f
 
 Package: cn.llld.fixdh1
 Name: phonefix
