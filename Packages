@@ -8061,6 +8061,43 @@ MD5sum: d31cab945f9dc1543d87d8a90b4d5e9a
 SHA1: 
 SHA256: acd349a894bc20f1c0990a0865add185cca378517293e6f399254b20128eb232
 
+Package: com.jontelang.snapper3free
+Name: Snapper 3 Free
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3
+Description: Snapper 3 是一款区域截图插件。
+Maintainer: Jonathan Winger-lang
+Author: Jonathan Winger-lang
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/com.jontelang.snapper3free-1.2.1-roothide.deb
+Size: 1022880
+MD5sum: 9cae9d7fbe67ba7778c5c0cbe364ca84
+SHA1: 
+SHA256: 67347cb224a6c7b20cb99b01327722782331a15486b16aab01f2c22c780cba83
+
+Package: com.jontelang.snapper3free
+Name: Snapper 3 Free
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3
+Description: Snapper 3 是一款区域截图插件
+Maintainer: Jonathan Winger-lang
+Author: Jonathan Winger-lang
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Installed-Size: 4148
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/com.jontelang.snapper3free-1.2.1-rootless.deb
+Size: 1032220
+MD5sum: e04523610e46411fce2a3348c9487ef8
+SHA1: 
+SHA256: 756256f4dd2906cc9ff345b588a2910f798c6c6169c05949e65efc3496300d5f
+
 Package: com.jzksnsjswkw.feemcrack
 Name: Feemcrack
 Description: An awesome MobileSubstrate tweak!
