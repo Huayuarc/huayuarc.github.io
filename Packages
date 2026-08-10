@@ -20543,6 +20543,29 @@ MD5sum: ed5bf497ce629c4d73ab7144973b8d4a
 SHA1: 
 SHA256: a40470c81fb59d6177e0c7de06fdc1b262796383931313a4f22c327b020b5cc7
 
+Package: ws.hbang.newterm3
+Name: NewTerm 3 Beta iOS 终端
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Description: Powerful terminal app for iOS 直接在手机上操作Shell命令 iOS终端
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Terminal Support
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Depiction: https://chariz.com/get/newterm-beta
+Support: https://hashbang.productions/support/
+Tag: compatible_min::ios14.0
+Architecture: iphoneos-arm64e
+Version: 3.0~beta1-1+debug
+Installed-Size: 25756
+Filename: debs/ws.hbang.newterm3-3.0~beta1-1+debug-roothide.deb
+Size: 5283932
+MD5sum: 59fb53c511a6025b35deb76fc4807106
+SHA1: 
+SHA256: e6386d72a4590995d2cca3347117a5ee92fc7ad2f4f3773bb037df39b486a9ac
+
 Package: xc.lzsxcl.o2pro
 Name: o2Pro
 Architecture: iphoneos-arm64e
@@ -20958,25 +20981,12 @@ SHA1:
 SHA256: f7cf33bf602a0480380417cc40383b85ba9a8407a89ed1ddc2cc73443e456422
 
 Package: xyz.cypwn.newterm3
-Name: NewTerm 3
+Name: NewTerm 3 iOS 终端
 Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
 Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
 Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
-Description: A powerful terminal emulator for iOS, bug fixes and new features implemented by Korboy.
- ****`--- New in 3.1 ---`****
- Custom fonts with live preview
- Customizable tab widths with border outlines
- Current directory display in tabs (OSC 7)
- Keyboard toolbar with haptic feedback
- Live preferences updates
- .
- ****`--- Bug Fixes ---`****
- Fixed VNC keyboard key repeat issues
- Fixed black lines between rows at small font sizes
- Fixed tab layout and behavior issues
-Depiction: https://repo.cypwn.xyz/depiction/3479
-SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3479
+Description: Description: Powerful terminal app for iOS 直接在手机上操作Shell命令 iOS终端
 Maintainer: Korboy <korboybeats@gmail.com>
 Author: HASHBANG Productions, Korboy <korboybeats@gmail.com>
 Section: Terminal Support
@@ -20986,10 +20996,10 @@ Architecture: iphoneos-arm64
 Version: 3.1
 Installed-Size: 10748
 Filename: debs/xyz.cypwn.newterm3-3.1-rootless.deb
-Size: 3378536
-MD5sum: fa91413c3ef971db5483df6de512df59
+Size: 3379064
+MD5sum: da7521db327bd11e517c1494ef1739ab
 SHA1: 
-SHA256: eea773a2b8667daab2674c399e27b0ad748bcf18345d5206ad163541195ca86a
+SHA256: 17da8bc10b5afd255933fd1917ff3d842c260fd424d4024772959ef0b670f7da
 
 Package: xyz.cypwn.python314
 Maintainer: CyPwn
