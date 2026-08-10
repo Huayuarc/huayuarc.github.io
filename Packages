@@ -14330,7 +14330,25 @@ SHA1:
 SHA256: d4be0105345bf42799a3988995cf1ba80cf539d63cfc36e4a544290ab67869e3
 
 Package: com.sini.stella
-Name: Stella
+Name: Stella 下雪动画
+icon: https://sini921.github.io/repo/sileodepiction/icon/stella.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/stella/js.json
+Description: 2003年的第一场雪，比2002年来的稍季伯晚了一些
+Maintainer: yan & 刀刀
+Author: yan
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.stella-1.1.5-roothide.deb
+Size: 396640
+MD5sum: b0b0cb8a24947f232b63b9a0bf46b005
+SHA1: 
+SHA256: ab7173ff54f6d9ed0e16856fe78be4400e096fc3e5d280782fa5de3dbd106531
+
+Package: com.sini.stella
+Name: Stella 下雪动画
 icon: https://sini921.github.io/repo/sileodepiction/icon/stella.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/stella/js.json
 Description: 2003年的第一场雪，比2002年来的稍季伯晚了一些
@@ -14340,11 +14358,11 @@ Section: Tweaks
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
 Architecture: iphoneos-arm64
 Version: 1.1.5
-Filename: debs/com.sini.stella_1.1.5_iphoneos-arm64.deb
-Size: 401068
-MD5sum: a756dc462181b93e51079c3e8297683c
+Filename: debs/com.sini.stella-1.1.5-rootless.deb
+Size: 400920
+MD5sum: 50fdf66110138b249d347b4f4c6e8da3
 SHA1: 
-SHA256: 8ed2013d1a2677d73673879488dc4bf10e58cc0c0ab7e74fdac33aa3ed94e676
+SHA256: 4f7f49ebc9f142d7863bfcd597eca11cafd195fad65a3b56bf61e996381b54d8
 
 Author: ETHN <ethanwhited2208@gmail.com>
 Architecture: iphoneos-arm64
