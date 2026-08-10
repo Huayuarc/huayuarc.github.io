@@ -1,71 +1,3 @@
-Package: a1
-Name: A1
-Version: 1.9.7+debug10
-Architecture: iphoneos-arm64
-Section: System
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Author: LF
-Maintainer: LF, AD
-SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-Icon: https://huayuarc.github.io/icon/a1.jpg
-Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
-Filename: debs/a1_1.9.7+debug10_iphoneos-arm64.deb
-Size: 50384
-MD5sum: d0d00d0add6f1fdd9f5206c81e5652a7
-SHA1: 
-SHA256: 32a342731c35b4366bd98678e304af52b3709cf47e036599de4ad029f3800d45
-
-Package: a1
-Name: A1
-Version: 1.9.8-beta1+debug2-1
-Architecture: iphoneos-arm64
-Section: System
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Author: LF
-Maintainer: LF, AD
-SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-Icon: https://huayuarc.github.io/icon/a1.jpg
-Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
-Filename: debs/a1_1.9.8-beta1+debug2-1_iphoneos-arm64.deb
-Size: 57044
-MD5sum: cfab2ad554cafba206105a9385f50207
-SHA1: 
-SHA256: e4161188600b7695440a196f0b3f77824a4a3451067999fa406ba718a716e18e
-
-Package: a1
-Name: A1
-Version: 1.9.8-beta3-1
-Architecture: iphoneos-arm64
-Section: System
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Author: LF
-Maintainer: LF, AD
-SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-Icon: https://huayuarc.github.io/icon/a1.jpg
-Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
-Filename: debs/a1_1.9.8-beta3-1_iphoneos-arm64.deb
-Size: 57116
-MD5sum: 15e24a18d10f4487b87cfad20c7f1a79
-SHA1: 
-SHA256: 2f89fa35810ac674a0bc6b30d00cd3d7460aa337ee4d0014d6439d60019c1714
-
-Package: a1
-Name: A1
-Version: 1.9.8-beta4+debug3-4
-Architecture: iphoneos-arm64
-Section: System
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Author: LF
-Maintainer: LF, AD
-SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-Icon: https://huayuarc.github.io/icon/a1.jpg
-Description: 1. Description: Optimize Jetsam and kernel parameters to enhance background task performance. ◦ Reduce priority of non-essential processes to improve system fluidity. ◦ Modify kernel memory management parameters for better background task handling. 2. 通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。◦ 降低非核心进程优先级，优化系统流畅度。◦ 优化内核内存管理参数，改善后台任务调度机制。• 终端输入a1手动执行，输入a1ctl打开管理面板。
-Filename: debs/a1_1.9.8-beta4+debug3-4_iphoneos-arm64.deb
-Size: 57396
-MD5sum: e031507ebb52d303157767cd4fb4e4a8
-SHA1: 
-SHA256: c5313ceed33c9c1ba5cdcb55acfb9e2e1a53fc4b2e0e6411f2d0823c3bb6f381
-
 Package: ai-config-gui
 Name: AI-Config-GUI
 Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，修复roothide闪退问题.
@@ -519,6 +451,78 @@ Size: 7216
 MD5sum: 2e5efbf3c104148e07ee55bb2a26255a
 SHA1: 
 SHA256: 28f36bd11101505a7694b32b4a69a2775297eebcf29881e8c5146ee001d87bd5
+
+Package: cn.llld.biaoji
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snappr 截图插件增加标记功能，快速对图进行箭头，打码，复制，保存等，免去了装第三方软件，或者跳转程序的繁琐
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 96
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.llld.biaoji-1.0-roothide.deb
+Size: 15720
+MD5sum: f6d8ec95a6e2e9dd38e8f29f57ef7ece
+SHA1: 
+SHA256: 83a3e018ddccc494e2a1999902f3620b30a055a07346913f07c1042168ddf20b
+
+Package: cn.llld.biaoji
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snappr 截图插件增加标记功能，快速对图进行箭头，打码，复制，保存等，免去了装第三方软件，或者跳转程序的繁琐
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 96
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.llld.biaoji-1.0-rootless.deb
+Size: 15924
+MD5sum: a96eb27491a411d62cf6a81195105a6a
+SHA1: 
+SHA256: 39f424863f6fab4fec1bcbf39e233d8b38602b6354417068989c499a83482935
+
+Package: cn.llld.biaoji
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 112
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: cn.llld.bioaji
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.llld.biaoji-1.1-roothide.deb
+Size: 17648
+MD5sum: 783d8ad6ed9ec5453bcf0dcf24d57bd8
+SHA1: 
+SHA256: b9fe9bb4f903954d29db8d4f00357531f8c16d4f805392c2da2495ebe149f339
+
+Package: cn.llld.biaoji
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 112
+Conflicts: cn.llld.bioaji
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.llld.biaoji-1.1-rootless.deb
+Size: 17944
+MD5sum: f8138807cf42cd3042316f64bec8a053
+SHA1: 
+SHA256: 7fe06fac87ed1216c7edee3204449759d82d2217dede822bf406f3d3a09a3761
 
 Package: cn.llld.bioaji
 Name: Snapper 截图标记
@@ -8117,6 +8121,43 @@ SHA256: c2f1cc0b1f6ccd355a9ed1addad3bc8d3df4ac9f02d64afab7e68561190a0064
 Package: com.jontelang.snapper3
 Name: Snapper 3
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3free
+Description: Pin screenshots on the screen. Snapper 3 是一款区域截图插件
+Maintainer: Jonathan Winger-lang
+Author: Jonathan Winger-lang
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Installed-Size: 4148
+icon: https://huayuarc.github.io/icon/snapper.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.jontelang.snapper3-1.2.1-roothide.deb
+Size: 1023044
+MD5sum: dbdaae9b8685f9ff3bc9c537de8bc635
+SHA1: 
+SHA256: 57efbb18a9d5c306a9698268049e6cfd02f964150ac7581ec7047bd5b66970df
+
+Package: com.jontelang.snapper3
+Name: Snapper 3
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3free
+Description: Pin screenshots on the screen. Snapper 3 是一款区域截图插件
+Maintainer: Jonathan Winger-lang
+Author: Jonathan Winger-lang
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Installed-Size: 4148
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/com.jontelang.snapper3-1.2.1-rootless.deb
+Size: 1030872
+MD5sum: e7a63e5e8027b7c683406bd5c649840e
+SHA1: 
+SHA256: b432fde39fc88a01704e038d7833a477cd6d03bab0561b312bb1278485cafe78
+
+Package: com.jontelang.snapper3
+Name: Snapper 3
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
 Description: Pin screenshots on the screen.
 Maintainer: Jonathan Winger-lang
@@ -8137,7 +8178,7 @@ Package: com.jontelang.snapper3free
 Name: Snapper 3 Free
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3
-Description: Snapper 3 是一款区域截图插件。
+Description: Pin screenshots on the screen. Snapper 3 是一款区域截图插件
 Maintainer: Jonathan Winger-lang
 Author: Jonathan Winger-lang
 Section: Tweaks
@@ -8147,16 +8188,16 @@ Installed-Size: 4148
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/com.jontelang.snapper3free-1.2.1-roothide.deb
-Size: 1022880
-MD5sum: 9cae9d7fbe67ba7778c5c0cbe364ca84
+Size: 1023520
+MD5sum: 49abac3f159acb414b76c0b6d2d753ff
 SHA1: 
-SHA256: 67347cb224a6c7b20cb99b01327722782331a15486b16aab01f2c22c780cba83
+SHA256: c2af7ca15d9ca38a83e821c93212c2eb8985d037131978c5a63d5cf8aefa0e5f
 
 Package: com.jontelang.snapper3free
 Name: Snapper 3 Free
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3
-Description: Snapper 3 是一款区域截图插件
+Description: Pin screenshots on the screen. Snapper 3 是一款区域截图插件
 Maintainer: Jonathan Winger-lang
 Author: Jonathan Winger-lang
 Section: Tweaks
@@ -8165,10 +8206,10 @@ Version: 1.2.1
 Installed-Size: 4148
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/com.jontelang.snapper3free-1.2.1-rootless.deb
-Size: 1032220
-MD5sum: e04523610e46411fce2a3348c9487ef8
+Size: 1030372
+MD5sum: f608d0c48a11a911ebe6ed742547d2b4
 SHA1: 
-SHA256: 756256f4dd2906cc9ff345b588a2910f798c6c6169c05949e65efc3496300d5f
+SHA256: 0b84108bb6437ebd6e59fcdc156577308549b418869991f68e795e987477ef54
 
 Package: com.jzksnsjswkw.feemcrack
 Name: Feemcrack
@@ -14142,11 +14183,46 @@ Section: Tweaks
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2, com.jontelang.snapper2.packix
 Package: com.sini.snapper2
 icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+Filename: debs/com.sini.snapper2-2.7.0-rootless.deb
+Size: 586452
+MD5sum: d7e73c713d9e2381b6a978e82a1d98af
+SHA1: 
+SHA256: 2ea338106b08d4860bc5255cd68845eb0e3369c3cfbf3b78d6b476e309d9c44c
+
+Author: Jonathan Winger-lang
+Architecture: iphoneos-arm64
+Description: 备份
+Maintainer: Jonathan Winger-lang
+Version: 2.7.0
+Depends: mobilesubstrate, firmware (>= 12.1)
+Name: Snapper 2
+Section: Tweaks
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2, com.jontelang.snapper2.packix
+Package: com.sini.snapper2
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
 Filename: debs/com.sini.snapper2_2.7.0_iphoneos-arm64.deb
 Size: 586612
 MD5sum: 0636ab437001734b82159e2d1fb8c07a
 SHA1: 
 SHA256: 83b12d74a1929c3ca085214620c247936aef76e765ef782a982dc4a3db1682c6
+
+Package: com.sini.snapper3
+Maintainer: CyPwn
+Name: Snapper 3
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
+Description: snapper3破解版
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/sn3/js.json
+Author: Jonathan Winger-lang
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Filename: debs/com.sini.snapper3-1.0.2-rootless.deb
+Size: 911740
+MD5sum: f0f9afcaa361ca2f56f44df8c4fa656d
+SHA1: 
+SHA256: 2653a15f8d9ca069045c3f42992ab7c75d47080334ad7991c8e45ec53eeee1a7
 
 Package: com.sini.snapper3
 Maintainer: CyPwn
@@ -15941,11 +16017,47 @@ Version: 1.0.4
 Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ntonia2forsnapper3/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+Filename: debs/com.sini921.ntonia2forsnapper3-1.0.4-rootless.deb
+Size: 521404
+MD5sum: cc476ce6682767c048fab8cc3560f4aa
+SHA1: 
+SHA256: e979e1dc000b1026fc1aa161ce5799342136cc0b3ec66042a14e6300ce5daacf
+
+Package: com.sini921.ntonia2forsnapper3
+Name: Ntoniaforsnapper3
+Description: Ntonia自用snapper3美化分享
+Maintainer: sini921
+Author: Ntonia
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ntonia2forsnapper3/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
 Filename: debs/com.sini921.ntonia2forsnapper3_1.0.4_iphoneos-arm64.deb
 Size: 521396
 MD5sum: 694a4b4f9a2aea27cf97c9af7add9ae2
 SHA1: 
 SHA256: 77193b800449ef009ca3ab42474f0b50bf3742eddd9675ef1dfbc57691c82f6a
+
+Package: com.sini921.ntoniaforsnapper3
+Name: Ntoniaforsnapper3
+Description: 自用snapper3美化
+Maintainer: sini921
+Author: Ntonia
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ntoniaforsnapper3/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+Filename: debs/com.sini921.ntoniaforsnapper3-1.0.4-rootless.deb
+Size: 5652040
+MD5sum: 8ceb151d15a6e6ce951e45793f201864
+SHA1: 
+SHA256: 06c2d0bed2863aec7a3a345b0e6d46fdeb876bfaf9a826c186e1481d84e7ec60
 
 Package: com.sini921.ntoniaforsnapper3
 Name: Ntoniaforsnapper3
@@ -16193,6 +16305,24 @@ Version: 1.0.1
 Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/smtforsnapper3/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+Filename: debs/com.sini921.smtforsnapper3-1.0.1-rootless.deb
+Size: 58036
+MD5sum: 7f0b5594885da823280988d91069ed2f
+SHA1: 
+SHA256: 9ff71733fea1646d9bb066bd3cb981e08d103cffad88533b406877b722eda28e
+
+Package: com.sini921.smtforsnapper3
+Name: snapper3杀马特版
+Description: 杀马特风格，葬爱家族必备
+Maintainer: Sini921
+Author: Sini921
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/smtforsnapper3/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
 Filename: debs/com.sini921.smtforsnapper3_1.0.1_iphoneos-arm64.deb
 Size: 58020
 MD5sum: 4ae55c74da202f5104796d87b05ce985
@@ -16247,11 +16377,47 @@ Version: 1.0.2
 Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/textforsnapper3/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+Filename: debs/com.sini921.textforsnapper3-1.0.2-rootless.deb
+Size: 18908
+MD5sum: 424e947c137627e45ad2198736134434
+SHA1: 
+SHA256: e5ab10717ef30fafc6c48d8d12c5abb88c18f5537e7624e9be74f8136274cb35
+
+Package: com.sini921.textforsnapper3
+Name: textforsnapper3
+Description: 自用snapper3美化
+Maintainer: sini921
+Author: sini921
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/textforsnapper3/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
 Filename: debs/com.sini921.textforsnapper3_1.0.2_iphoneos-arm64.deb
 Size: 18896
 MD5sum: 37b42d4e311734d2bf6b5b9a1d3d9e4d
 SHA1: 
 SHA256: 726b4d349dd7acde44ca416ddde2a43314a4681bed575ae212738cc248cd7119
+
+Package: com.sini921.thexforsnapper3
+Name: snapper3霓虹蓝发光效果主题
+Description: 季伯仰备份
+Maintainer: theX
+Author: theX
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/thexforsnapper3/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+Filename: debs/com.sini921.thexforsnapper3-1.0.1-rootless.deb
+Size: 99724
+MD5sum: ca35255c8cbfff0499600cbddaf272a5
+SHA1: 
+SHA256: 910d3db7855aefd4907d9dc96557eb26c4486d7cfe4a62371b2c22a65e56e875
 
 Package: com.sini921.thexforsnapper3
 Name: snapper3霓虹蓝发光效果主题
@@ -16283,11 +16449,47 @@ Version: 1.0.1
 Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/xxforsnapper3/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+Filename: debs/com.sini921.xxforsnapper3-1.0.1-rootless.deb
+Size: 60636
+MD5sum: 635d1771e7167823fb81bf719e22bb10
+SHA1: 
+SHA256: 3c9e0d9a4592abf0b6e78775d94b26f0bcb96817fb26f8920aebd963e9e97478
+
+Package: com.sini921.xxforsnapper3
+Name: snapper3美化
+Description: 自用备份
+Maintainer: Sini921
+Author: Sini921
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/xxforsnapper3/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
 Filename: debs/com.sini921.xxforsnapper3_1.0.1_iphoneos-arm64.deb
 Size: 60628
 MD5sum: 885f187ae0f1d4ee7e38f0a5f9c15998
 SHA1: 
 SHA256: 16a7d437a126d7bcc63d951c15f09a255469611d9df40fe106dad1d03ba34630
+
+Package: com.sini921.zhforsnapper3
+Name: snapper3中文图标
+Description: 自用snapper3美化
+Maintainer: sini921
+Author: 网友
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zhforsnapper3/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+Filename: debs/com.sini921.zhforsnapper3-1.0.4-rootless.deb
+Size: 26292
+MD5sum: 23ab6d60e0c8515bb956718dc548913a
+SHA1: 
+SHA256: 35f14bccc7a1679e146ec258847a668bab3fc29d4736121acd3b0e0b0e163770
 
 Package: com.sini921.zhforsnapper3
 Name: snapper3中文图标
