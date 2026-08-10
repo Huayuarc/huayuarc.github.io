@@ -8563,6 +8563,41 @@ MD5sum: 317e417883f57c9f48bf74752c6eec4d
 SHA1: 
 SHA256: 66dbe1c0dd833b10842f0cb3339b4190d32326c807d4bb9ef16a83adb3f2d3ea
 
+Package: com.m4fn3.badgecolorfix17
+Name: BadgeColorFix17
+Description: Fix badge color tweaks on iOS 17 (or 16) 修复 iOS 17（或 16）上的徽章颜色调整
+Maintainer: mafu
+Author: mafu
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/badgec.jpg
+Filename: debs/com.m4fn3.badgecolorfix17-1.0.0-roothide.deb
+Size: 3556
+MD5sum: 9a2d33669fd300cfc2e7e30621b53e0c
+SHA1: 
+SHA256: 3a8c3e4d3b55ccae2e0fefa7b8599af7f859fc993010e6900ac25438decbc381
+
+Package: com.m4fn3.badgecolorfix17
+Name: BadgeColorFix17
+Description: Fix badge color tweaks on iOS 17 (or 16) 修复 iOS 17（或 16）上的徽章颜色调整
+Maintainer: mafu
+Author: mafu
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/badgec.jpg
+Filename: debs/com.m4fn3.badgecolorfix17-1.0.0-rootless.deb
+Size: 3680
+MD5sum: 12cb2f2f4fff475fbeb176f3133f3ba4
+SHA1: 
+SHA256: 7e050e69a3d43ae6987c9f3c455219e05e3833ddf1a378068790b00cfc6ccc6a
+
 Package: com.m4fn3.k2gecamen
 Name: K2gecamen
 Description: Capture moments with photos, videos, and audio in the background with ease.
@@ -10140,29 +10175,10 @@ MD5sum: 1a72872f58f14e2828e7c1949281965e
 SHA1: 
 SHA256: f9c255322d35acd60da7dd95fb94b37a5fc5d541bfbe11782b01e103952f07ae
 
-SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ccbadgeclear
 Package: com.netskao.ccbadgeclear
-Name: CCBadgeClear
+Name: CCBadgeClear 清理角标
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Description: Quickly clean up all red badge on desktop via Control Center, Support iOS15+
-Maintainer: Nets
-Author: Netskao
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.2-6
-Installed-Size: 224
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.ccbadgeclear_1.2-6_iphoneos-arm64.deb
-Size: 25748
-MD5sum: 782736062756d6182a0766a5412147d8
-SHA1: 
-SHA256: da988742420e87a2368af80535e1d54ed1a35476ce5e3adf77689463c0d9d215
-
-SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ccbadgeclear
-Package: com.netskao.ccbadgeclear
-Name: CCBadgeClear
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Description: Quickly clean up all red badge on desktop via Control Center, Support iOS15+
+Description: Quickly clean up all red badge on desktop via Control Center, Support iOS15+ 通过控制中心快速清理桌面上的所有红色徽章，支持iOS15+
 Maintainer: Nets
 Author: Netskao
 Section: Tweaks
@@ -10170,12 +10186,29 @@ Architecture: iphoneos-arm64e
 Version: 1.2-6
 Installed-Size: 224
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.ccbadgeclear_1.2-6_iphoneos-arm64e.deb
-Size: 25864
-MD5sum: 9ff8037b7f41a8b068165ffa500af3df
+icon: https://huayuarc.github.io/icon/badgec.jpg
+Filename: debs/com.netskao.ccbadgeclear-1.2-6-roothide.deb
+Size: 25996
+MD5sum: a760117c293f48f61a6698a5e9c5c7f8
 SHA1: 
-SHA256: 7c9fbbd7e6c84552a86e94e85ce825e1591125e51c52a7f2d1726d4d83b72be3
+SHA256: efcc75d08b6f5fad95e888e36922c33658a54f6b10754b25c86ffedd4f6ffdfe
+
+Package: com.netskao.ccbadgeclear
+Name: CCBadgeClear 清理角标
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Description: Quickly clean up all red badge on desktop via Control Center, Support iOS15+ 通过控制中心快速清理桌面上的所有红色徽章，支持iOS15+
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2-6
+Installed-Size: 224
+icon: https://huayuarc.github.io/icon/icon: https://huayuarc.github.io/icon/badgec.jpg
+Filename: debs/com.netskao.ccbadgeclear-1.2-6-rootless.deb
+Size: 25832
+MD5sum: 4872d940853b2f3400450bbc77dadcce
+SHA1: 
+SHA256: 77e9c2afddc162d78e5b8d920df2637d7081491cc6147eca342032505a521782
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.cclifttowake
 Package: com.netskao.cclifttowake
