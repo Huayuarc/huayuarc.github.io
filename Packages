@@ -7069,6 +7069,41 @@ MD5sum: eb4e169ad0a6803f520ebc14cd0930d5
 SHA1: 
 SHA256: d373448e00dbaa6ce8098f983842ae24dff1e07272fdee73e062bfd3878d5e97
 
+Package: com.iosdump.appdata
+Name: AppData 管理应用数据
+Version: 2.6.8
+Description: 在主屏幕查看应用数据与管理应用
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64e
+Author: iosdump
+Maintainer: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.iosdump.appdata-2.6.8-roothide.deb
+Size: 1702156
+MD5sum: 1cd14d9e82a76f2ae5dde01c6b76a4d4
+SHA1: 
+SHA256: a28f75542db84b041daeb46339a193b746fa963d35f0a52c745294a75b23bf1e
+
+Package: com.iosdump.appdata
+Name: AppData 管理应用数据
+Version: 2.6.8
+Description: 在主屏幕查看应用数据与管理应用
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64
+Author: iosdump
+Maintainer: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
+Filename: debs/com.iosdump.appdata-2.6.8-rootless.deb
+Size: 1711640
+MD5sum: b0bc5e6d5877510dea08f7e046716eef
+SHA1: 
+SHA256: 08b25af2a514c1662d1535aa1f8b28be4a5c3ff725662f9d24531f2bf7c6a183
+
 Package: com.iosdump.customcallbg
 Name: 自定义来去电背景
 Depends: mobilesubstrate, preferenceloader
