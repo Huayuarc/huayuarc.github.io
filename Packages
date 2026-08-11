@@ -4901,7 +4901,7 @@ SHA1:
 SHA256: aeefdc896496d42c5bed6ccb415020744333da24e4dc8129f733dc64b5103b34
 
 Package: com.fluoxetine.jumor
-Name: 巨魔 R
+Name: 巨魔R
 Description: 巨魔 R由Fluoxetine为Relaxin越狱特别制作。支持免签安装IPA,Tipa应用。支持注入任意dylib和deb插件。Bug反馈及意见建议:1103945342@qq.com。感谢Relaxin越狱，感谢opa334。
 Depends: ldid, ellekit
 Replaces: com.opa334.trollstorelite
@@ -4913,10 +4913,10 @@ Version: 1.0.4
 Installed-Size: 1361
 icon: https://huayuarc.github.io/icon/jumor.jpg
 Filename: debs/com.fluoxetine.jumor-1.0.4-roothide.deb
-Size: 592396
-MD5sum: b880387e0baefa58c31990a340d5486e
+Size: 592412
+MD5sum: 0888a037f980438f722f7d21f447def3
 SHA1: 
-SHA256: b71d426dd1f6e990275d19ef9c103de0fc7ab3825be686ab13f13f0d533baab8
+SHA256: eceaa74fcb5c204b475dfd0c15c98c8c1ae64300331476f267cb5ccf37f41bc4
 
 Package: com.go.mango
 Name: mango
@@ -5230,6 +5230,48 @@ Size: 435600
 MD5sum: d43f581bde523b1fee12bffe5433f22c
 SHA1: 
 SHA256: 38a7a8747758b555781cb6e7e26c30ea0bcb2cf2901a8471462bdc0f40baad8b
+
+Package: com.hmmzzz.fontmanager
+Name: MarkFont 全局字体管理器
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: Utilities
+Homepage: https://hmmzzz.github.io/repo/
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.3.3
+Installed-Size: 2376
+Filename: debs/com.hmmzzz.fontmanager-0.3.3-roothide.deb
+Size: 454468
+MD5sum: 0d6e69d0f9073b60c97096910ba26266
+SHA1: 
+SHA256: 2d5b39fac4fedca8a0dc817b8d2bae62e6af8a08e703b9acc63b4d2f99cc4295
+
+Package: com.hmmzzz.fontmanager
+Name: MarkFont 全局字体管理器
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: Utilities
+Homepage: https://hmmzzz.github.io/repo/
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.3.3
+Installed-Size: 2392
+Filename: debs/com.hmmzzz.fontmanager-0.3.3-rootless.deb
+Size: 463196
+MD5sum: d96e701bf55994a17b8448cdee8ad3b6
+SHA1: 
+SHA256: 16f4fdb88406c512c78f176f971a65785c7eedfafca0b1ec4a64fb305b03a3bd
 
 Package: com.hoangdus.konban
 Name: KonbanXV
@@ -7103,6 +7145,41 @@ Size: 1711640
 MD5sum: b0bc5e6d5877510dea08f7e046716eef
 SHA1: 
 SHA256: 08b25af2a514c1662d1535aa1f8b28be4a5c3ff725662f9d24531f2bf7c6a183
+
+Package: com.iosdump.appdata
+Name: AppData 管理应用数据
+Version: 2.6.9
+Description: 在主屏幕查看应用数据与管理应用
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64e
+Author: iosdump
+Maintainer: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.iosdump.appdata-2.6.9-roothide.deb
+Size: 1701568
+MD5sum: d5be3cccf519618d552c8daa7649f0cd
+SHA1: 
+SHA256: c2c3314415d5437e6bc01a90090e211d343fa3ede7d6bbefacde2bded47ff2f6
+
+Package: com.iosdump.appdata
+Name: AppData 管理应用数据
+Version: 2.6.9
+Description: 在主屏幕查看应用数据与管理应用
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64
+Author: iosdump
+Maintainer: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
+Filename: debs/com.iosdump.appdata-2.6.9-rootless.deb
+Size: 1713996
+MD5sum: f147155eb43d13317c620d3494687a02
+SHA1: 
+SHA256: 00cc318bc720661e1b6aa386dbcfd8d389483f13fef6903dcd02fddc7cc93d47
 
 Package: com.iosdump.customcallbg
 Name: 自定义来去电背景
