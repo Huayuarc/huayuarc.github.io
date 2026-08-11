@@ -5942,6 +5942,42 @@ Section: Tweaks
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Architecture: iphoneos-arm64e
+Version: 1.5.8-3
+Installed-Size: 1004
+Filename: debs/com.huayuarc.cputhermal-1.5.8-3-roothide.deb
+Size: 70624
+MD5sum: efa54c8a0a5858ac746e51b0ea1cd392
+SHA1: 
+SHA256: d9c48150a76bc83d60c55cab2220a58a9a7fd93793fa88945b06ef2588152985
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」兼顾省电与性能。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.5.8-3
+Installed-Size: 1024
+Filename: debs/com.huayuarc.cputhermal-1.5.8-3-rootless.deb
+Size: 73456
+MD5sum: d68a38540e89a6b52e1127f2894529ba
+SHA1: 
+SHA256: 78cacb7d19bfb7c06accb46cc74bb86d540a5ff5b0e41f7b2544f3cee5eb6b37
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」兼顾省电与性能。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
 Version: 1.5.8
 Installed-Size: 988
 Filename: debs/com.huayuarc.cputhermal-1.5.8-roothide.deb
@@ -18355,7 +18391,7 @@ SHA1:
 SHA256: 27bdc9afa6ac1cd3a62ef7f1a88079821c68ddb7ce420f6cc9854fe302e82adf
 
 Package: dylv.liquidass
-Name: Liquid (Gl)ass
+Name: Liquid (Gl)ass 液态玻璃
 Description: next level diarrhea
 Maintainer: dylv
 Author: dylv
@@ -18366,13 +18402,13 @@ Architecture: iphoneos-arm64e
 Version: 0.0.9a
 Installed-Size: 3756
 Filename: debs/dylv.liquidass-0.0.9a-roothide.deb
-Size: 1356140
-MD5sum: f3082453fbd9ee4e0d568e3267da06b3
+Size: 1356040
+MD5sum: b7060db4c9397059edf95ecfb48ee826
 SHA1: 
-SHA256: 772ef2db8cca5020727e372c2be318f3c748b2ddb7f98af42038a5536f1502e1
+SHA256: 1d6ff4b4c35a724a6210c0b95e87fcfa4e90f6d49e38e645fbf2d2e7f8ba2536
 
 Package: dylv.liquidass
-Name: Liquid (Gl)ass
+Name: Liquid (Gl)ass 液态玻璃
 Description: next level diarrhea
 Maintainer: dylv
 Author: dylv
@@ -18383,10 +18419,44 @@ Architecture: iphoneos-arm64
 Version: 0.0.9a
 Installed-Size: 3756
 Filename: debs/dylv.liquidass-0.0.9a-rootless.deb
-Size: 1354536
-MD5sum: f9d9746982f3e977776e9e8aefdeea2f
+Size: 1357216
+MD5sum: acf29ec4df8f2bf3a8a8f351e7437d21
 SHA1: 
-SHA256: acb6b73f793dd77bdd10dad21fd40bc2d8f69fb35ef92166fb78a92eb3a745f6
+SHA256: c75077da469dee6291bc38234b5e6572bec39b8d142a3ef1bd2003388adae687
+
+Package: dylv.liquidass
+Name: Liquid (Gl)ass 液态玻璃
+Description: next level diarrhea
+Maintainer: dylv
+Author: dylv
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Architecture: iphoneos-arm64e
+Version: 0.1.0b
+Installed-Size: 3580
+Filename: debs/dylv.liquidass-0.1.0b-roothide.deb
+Size: 1298348
+MD5sum: d5e81f664e143b07a483ee2c6039ea90
+SHA1: 
+SHA256: 335c34e20b8ea5241a308690a4117261c2e312183e41f31440d3c108bc2c4252
+
+Package: dylv.liquidass
+Name: Liquid (Gl)ass 液态玻璃
+Description: next level diarrhea
+Maintainer: dylv
+Author: dylv
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Architecture: iphoneos-arm64
+Version: 0.1.0b
+Installed-Size: 3596
+Filename: debs/dylv.liquidass-0.1.0b-rootless.deb
+Size: 1302444
+MD5sum: 19a2bdd5f8e04501816411f4d02bedca
+SHA1: 
+SHA256: 2e1ef79ef1bea1a9a7194b50e370ee676eda3dcd741c4a0200f8ece92bdc283f
 
 Package: emt.paisseon.xinamine
 Name: Xinamine
