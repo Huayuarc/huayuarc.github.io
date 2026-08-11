@@ -562,25 +562,24 @@ SHA256: 24f2e720b732f512b5d85f4fdea1f52d75c99e47c0fc459a01d6620bbcc5967d
 Package: cn.llld.biaoji
 Name: Snapper 截图标记
 Author: 来了老弟 X: h_h_x_t
-Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
 Depends: mobilesubstrate
 Maintainer: 来了老弟 X: h_h_x_t
-Section: rootless插件
+Section: roothide插件
 Architecture: iphoneos-arm64e
 Version: 1.3
-Installed-Size: 128
-Pre-Depends: rootless-compat(>= 0.9)
+Installed-Size: 144
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/cn.llld.biaoji-1.3-roothide.deb
-Size: 26540
-MD5sum: c3f798b14b31aba75c4bc3827e11572a
+Size: 27240
+MD5sum: 44e51011b845e17e3c7d17b37f008ec8
 SHA1: 
-SHA256: 60938049bf2b67d8b661f1fe63e1ce77b7c826742d9a3bd349394f0cc301482d
+SHA256: b7d638562305d65dcf1e71689e5c64162a7f731884353e1287b99c95c354e1a7
 
 Package: cn.llld.biaoji
 Name: Snapper 截图标记
 Author: 来了老弟 X: h_h_x_t
-Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
 Depends: mobilesubstrate
 Maintainer: 来了老弟 X: h_h_x_t
 Section: rootless插件
@@ -589,10 +588,10 @@ Version: 1.3
 Installed-Size: 128
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/cn.llld.biaoji-1.3-rootless.deb
-Size: 26948
-MD5sum: 0fbfff2a77f703a1cfb920d3645d538a
+Size: 27160
+MD5sum: 5505eea4faaf4cf4b44b44a7c0956c51
 SHA1: 
-SHA256: 4f7195e9c9932a8971c52a56ee0f6209ecd9bba49a065e1e9eb23c1032b37196
+SHA256: 6bfdbc3940666a73dd92a7472814086e30137df2eb2532cf4a9e907bc3daa432
 
 Package: cn.llld.bioaji
 Name: Snapper 截图标记
