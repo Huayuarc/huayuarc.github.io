@@ -524,6 +524,76 @@ MD5sum: f8138807cf42cd3042316f64bec8a053
 SHA1: 
 SHA256: 7fe06fac87ed1216c7edee3204449759d82d2217dede822bf406f3d3a09a3761
 
+Package: cn.llld.biaoji
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: rootless插件
+Architecture: iphoneos-arm64e
+Version: 1.2
+Installed-Size: 112
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.llld.biaoji-1.2-roothide.deb
+Size: 19524
+MD5sum: bd5a4b8b60b587051e3ac5fea947b1c9
+SHA1: 
+SHA256: 54f969cd013c30ebf6af42d4ca8845905130cee72615dffe0d1e0bc334a85cc0
+
+Package: cn.llld.biaoji
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: rootless插件
+Architecture: iphoneos-arm64
+Version: 1.2
+Installed-Size: 112
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.llld.biaoji-1.2-rootless.deb
+Size: 19780
+MD5sum: cd6cd7c76aa698fce04e8035179557a5
+SHA1: 
+SHA256: 24f2e720b732f512b5d85f4fdea1f52d75c99e47c0fc459a01d6620bbcc5967d
+
+Package: cn.llld.biaoji
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: rootless插件
+Architecture: iphoneos-arm64e
+Version: 1.3
+Installed-Size: 128
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.llld.biaoji-1.3-roothide.deb
+Size: 26540
+MD5sum: c3f798b14b31aba75c4bc3827e11572a
+SHA1: 
+SHA256: 60938049bf2b67d8b661f1fe63e1ce77b7c826742d9a3bd349394f0cc301482d
+
+Package: cn.llld.biaoji
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: rootless插件
+Architecture: iphoneos-arm64
+Version: 1.3
+Installed-Size: 128
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.llld.biaoji-1.3-rootless.deb
+Size: 26948
+MD5sum: 0fbfff2a77f703a1cfb920d3645d538a
+SHA1: 
+SHA256: 4f7195e9c9932a8971c52a56ee0f6209ecd9bba49a065e1e9eb23c1032b37196
+
 Package: cn.llld.bioaji
 Name: Snapper 截图标记
 Author: 来了老弟 X: h_h_x_t
@@ -8491,6 +8561,43 @@ Size: 61038492
 MD5sum: 749d20b9abaebe034583caa2ec0b3ff5
 SHA1: 
 SHA256: f46163fed75548f17ace5909e821a8b9720c424ef9752721a6503789de9189df
+
+Package: com.liuermei.snapper3doubao
+Name: Snapper3 → AI（豆包/DeepSeek/Gemini/GPT）
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Description: Snapper 3 插件：截图复制到剪贴板并打开豆包/DeepSeek/Gemini/ChatGPT。已移除易导致安全模式的强制注入；请在输入框长按粘贴。
+Maintainer: 星辰
+Author: 星辰
+Section: Tweaks
+Homepage: https://chatgpt.com
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Installed-Size: 420
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/snapper3doubao.jpg
+Filename: debs/com.liuermei.snapper3doubao-1.2.1-roothide.deb
+Size: 66128
+MD5sum: 40f2a7e84a9a254f0020d25f7ee91612
+SHA1: 
+SHA256: b6b1956252f4f6c9d3f2f73ec6d9a9c4251202c37acc793a0fc8f41bdcd39729
+
+Package: com.liuermei.snapper3doubao
+Name: Snapper3 → AI（豆包/DeepSeek/Gemini/GPT）
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Description: Snapper 3 插件：截图复制到剪贴板并打开豆包/DeepSeek/Gemini/ChatGPT。已移除易导致安全模式的强制注入；请在输入框长按粘贴。
+Maintainer: 星辰
+Author: 星辰
+Section: Tweaks
+Homepage: https://chatgpt.com
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Installed-Size: 420
+icon: https://huayuarc.github.io/icon/snapper3doubao.jpg
+Filename: debs/com.liuermei.snapper3doubao-1.2.1-rootless.deb
+Size: 65948
+MD5sum: 9f10dba0fba0fddec2da07dc860d577b
+SHA1: 
+SHA256: 1319307e2907339feba3a8986228e7e34c5b4ad1f9dec4ec7e30a8576cba5b09
 
 Package: com.llld.fugap
 Version: 2.2.4
