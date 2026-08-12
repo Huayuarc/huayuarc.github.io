@@ -14670,10 +14670,29 @@ SHA256: 83b12d74a1929c3ca085214620c247936aef76e765ef782a982dc4a3db1682c6
 
 Package: com.sini.snapper3
 Maintainer: CyPwn
-Name: Snapper 3
+Name: Snapper 3 Free
 Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
-Description: snapper3破解版
+Description: Pin screenshots on the screen. Snapper 3 是一款区域截图插件
+icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/sn3/js.json
+Author: Jonathan Winger-lang
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.snapper3-1.0.2-roothide.deb
+Size: 904960
+MD5sum: 2e1a41e89077adfe5b49881e83491602
+SHA1: 
+SHA256: 961ccbc6d1caf0eee1457f29192b780285ebdd58712e48a2884ff761c146165d
+
+Package: com.sini.snapper3
+Maintainer: CyPwn
+Name: Snapper 3 Free
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
+Description: Pin screenshots on the screen. Snapper 3 是一款区域截图插件
 icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/sn3/js.json
 Author: Jonathan Winger-lang
@@ -14681,46 +14700,10 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.0.2
 Filename: debs/com.sini.snapper3-1.0.2-rootless.deb
-Size: 911740
-MD5sum: f0f9afcaa361ca2f56f44df8c4fa656d
+Size: 911552
+MD5sum: 3808bb3e5316094500adf3305732633b
 SHA1: 
-SHA256: 2653a15f8d9ca069045c3f42992ab7c75d47080334ad7991c8e45ec53eeee1a7
-
-Package: com.sini.snapper3
-Maintainer: CyPwn
-Name: Snapper 3
-Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
-Description: snapper3破解版
-icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/sn3/js.json
-Author: Jonathan Winger-lang
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.0.2
-Filename: debs/com.sini.snapper3_1.0.2_iphoneos-arm64.deb
-Size: 911864
-MD5sum: eed33ebee09e77866128ec99396854ee
-SHA1: 
-SHA256: 7769a99fe701320ca029853ec8fdcbb40e8671d7d606bd464f7899d66bca5e6f
-
-Author: Spark
-Architecture: iphoneos-arm64
-Description: 隐私相机插件，需要搭配pulloverpro或者svp来开启相机权限，此插件为转插，有可能会出现黑屏，卡注销情况，谨慎使用，有问题请缷载！
-Maintainer: Spark
-icon: https://sini921.github.io/repo/sileodepiction/icon/sneakycam.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/sneakycam/js.json
-Version: 2.0.7
-Depends: mobilesubstrate, preferenceloader, oldabi
-Name: SneakyCam
-Section: Tweaks
-Installed-Size: 560
-Package: com.sini.sneakycam
-Filename: debs/com.sini.sneakycam_2.0.7_iphoneos-arm64.deb
-Size: 104448
-MD5sum: 561b637f11075885cc155daa8a86a7b3
-SHA1: 
-SHA256: d77165436ccbb26d4315ef467939cc6365c051ca16a901922eea00b6a76d4d71
+SHA256: ed440458b912402bffbcaa75bd9413d69e60e8ba72045229f7f3d8a52510dc08
 
 Package: com.sini.solstice
 Version: 3.0.6
