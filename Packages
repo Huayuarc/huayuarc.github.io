@@ -530,17 +530,17 @@ Author: 来了老弟 X: h_h_x_t
 Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
 Depends: mobilesubstrate
 Maintainer: 来了老弟 X: h_h_x_t
-Section: rootless插件
+Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 1.2
 Installed-Size: 112
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/cn.llld.biaoji-1.2-roothide.deb
-Size: 19524
-MD5sum: bd5a4b8b60b587051e3ac5fea947b1c9
+Size: 19476
+MD5sum: 0f1faf8ab3a8a2bbc0359ac04107ef6f
 SHA1: 
-SHA256: 54f969cd013c30ebf6af42d4ca8845905130cee72615dffe0d1e0bc334a85cc0
+SHA256: 1cc65ba7b7c2d260bea9095deb78e899027d966a0bafe0205411d0559123718a
 
 Package: cn.llld.biaoji
 Name: Snapper 截图标记
@@ -548,16 +548,16 @@ Author: 来了老弟 X: h_h_x_t
 Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
 Depends: mobilesubstrate
 Maintainer: 来了老弟 X: h_h_x_t
-Section: rootless插件
+Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.2
 Installed-Size: 112
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/cn.llld.biaoji-1.2-rootless.deb
-Size: 19780
-MD5sum: cd6cd7c76aa698fce04e8035179557a5
+Size: 19728
+MD5sum: e587d258e83af7aa4b7e572b871a2129
 SHA1: 
-SHA256: 24f2e720b732f512b5d85f4fdea1f52d75c99e47c0fc459a01d6620bbcc5967d
+SHA256: 9d4e52991734b1a982dfbb56427d07ea85128d451ee21fca7764d6ba6e3eccd6
 
 Package: cn.llld.biaoji
 Name: Snapper 截图标记
@@ -565,17 +565,17 @@ Author: 来了老弟 X: h_h_x_t
 Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
 Depends: mobilesubstrate
 Maintainer: 来了老弟 X: h_h_x_t
-Section: rootless插件
+Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 1.3
 Installed-Size: 128
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/cn.llld.biaoji-1.3-roothide.deb
-Size: 26360
-MD5sum: 4442ea7e9d324b17396e445e8ba1a8a8
+Size: 26356
+MD5sum: d7999a3924e525fe386150296f746f4a
 SHA1: 
-SHA256: 10a640c54174934c9e0350a5255201b4b7d2a3c4f720ad2bccad9d101218331a
+SHA256: 17cd263b80d4fab8c8579bbd5be14f964df2fe8408a4b9852b6bf1d49c89b399
 
 Package: cn.llld.biaoji
 Name: Snapper 截图标记
@@ -583,16 +583,16 @@ Author: 来了老弟 X: h_h_x_t
 Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
 Depends: mobilesubstrate
 Maintainer: 来了老弟 X: h_h_x_t
-Section: rootless插件
+Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.3
 Installed-Size: 128
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/cn.llld.biaoji-1.3-rootless.deb
-Size: 26720
-MD5sum: 5b1c9d0e4e3eed9c093bac77e019fd36
+Size: 26736
+MD5sum: 8dbf00f312d9eaa1daed08edc2dffb0b
 SHA1: 
-SHA256: 7d40b6589f3992b44be40e43e03a456b000a375866bc29d931ce7acff9c50b95
+SHA256: 0736ddc8c60991e18395f50437c7b6e6b0ab07344a742e4f3da73825e4f7238d
 
 Package: cn.llld.bioaji
 Name: Snapper 截图标记
@@ -5057,7 +5057,7 @@ Name: MarkFont 全局字体管理器
 Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
 Maintainer: Hmmzzz
 Author: Hmmzzz
-Section: Utilities
+Section: System
 Homepage: https://hmmzzz.github.io/repo/
 Depends: firmware (>= 16.0), uikittools
 Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
@@ -5068,17 +5068,17 @@ Architecture: iphoneos-arm64e
 Version: 0.3.3
 Installed-Size: 2376
 Filename: debs/com.hmmzzz.fontmanager-0.3.3-roothide.deb
-Size: 454468
-MD5sum: 0d6e69d0f9073b60c97096910ba26266
+Size: 453956
+MD5sum: 84f21bb33978fe239895d691b4f84f05
 SHA1: 
-SHA256: 2d5b39fac4fedca8a0dc817b8d2bae62e6af8a08e703b9acc63b4d2f99cc4295
+SHA256: a891d258e3a205c01b4375bd9b15df4f395c6747a922c45002f924bb16e7d936
 
 Package: com.hmmzzz.fontmanager
 Name: MarkFont 全局字体管理器
 Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
 Maintainer: Hmmzzz
 Author: Hmmzzz
-Section: Utilities
+Section: System
 Homepage: https://hmmzzz.github.io/repo/
 Depends: firmware (>= 16.0), uikittools
 Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
@@ -5089,10 +5089,10 @@ Architecture: iphoneos-arm64
 Version: 0.3.3
 Installed-Size: 2392
 Filename: debs/com.hmmzzz.fontmanager-0.3.3-rootless.deb
-Size: 463196
-MD5sum: d96e701bf55994a17b8448cdee8ad3b6
+Size: 463624
+MD5sum: 508c5729debcbfdc77d20dde175e3da9
 SHA1: 
-SHA256: 16f4fdb88406c512c78f176f971a65785c7eedfafca0b1ec4a64fb305b03a3bd
+SHA256: 481854af55ff0e33cf575340672c3742a4ca00963300d633e255a41c14f3ff5c
 
 Package: com.hoangdus.konban
 Name: KonbanXV
@@ -11106,16 +11106,16 @@ Description: TrollStore for RootHide jailbroken iOS
 Depends: ldid
 Maintainer: opa334
 Author: opa334
-Section: Applications
+Section: System
 Architecture: iphoneos-arm64e
 Version: 2.1.1
 Installed-Size: 556
 icon: https://huayuarc.github.io/icon/trollstorehelper.png
 Filename: debs/com.opa334.trollstorelite-2.1.1-roothide.deb
-Size: 212040
-MD5sum: 6f9a5236f708d57ae529fe14f2a77fe1
+Size: 212084
+MD5sum: 329a25367270d1788f3b3f196347feb9
 SHA1: 
-SHA256: 5c7573cc1d59a59ca9069efe7aecbfe7403cae5774f09c5b18554a0e6ec04276
+SHA256: d24e48ba1d507eac9ac02796af5ea24c2b83d7f1c1142c774e7397e5d2fe0bba
 
 Package: com.opa334.trollstorelite
 Name: TrollStore Lite
@@ -11123,16 +11123,16 @@ Description: TrollStore for jailbroken iOS
 Depends: ldid
 Maintainer: opa334
 Author: opa334
-Section: Applications
+Section: System
 Architecture: iphoneos-arm64
 Version: 2.1.1
 Installed-Size: 592
 icon: https://huayuarc.github.io/icon/trollstorehelper.png
 Filename: debs/com.opa334.trollstorelite-2.1.1-rootless.deb
-Size: 213152
-MD5sum: 3e5cbaf37a944cc8c7df94c0ba55f8fe
+Size: 213296
+MD5sum: b061c95c958383950fcc11e45226ab32
 SHA1: 
-SHA256: ed524cf37a397160f6820f071921121b97cb4d89cd86fdcdb81635f2c2c97d8a
+SHA256: 97f8325de07f2a89de857896b17f528035b55256ba037432ee06a9ee168bbd43
 
 Package: com.p2kdev.arkita
 Name: Arkita
@@ -20508,41 +20508,6 @@ Size: 98856
 MD5sum: f621947d5bf799994793a46ab473187f
 SHA1: 
 SHA256: 6be78d1d69a9956519389c151cb6b18ccb504fba0866ca083436677429e7cbb8
-
-Package: me.luki.aestearevived
-Section: Tweaks
-Installed-Size: 1628
-Maintainer: Luki
-Architecture: iphoneos-arm64e
-Version: 0.9.3
-Depends: mobilesubstrate, preferenceloader, firmware (>= 13), com.mrgcgamer.libgcuniversal
-Description: 给您的控制中心图案带来色彩
-Name: 控制中心美化
-Author: Luki
-Icon: https://huayuarc.github.io/icon/IWantTranslucent.png
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/me.luki.aestearevived-0.9.3-roothide.deb
-Size: 681640
-MD5sum: 67581dd7818f4640b5df1507b444b82f
-SHA1: 
-SHA256: 41c9d5d454dfdc81e54ee397e140d621932eef5d5b7ae4c402e59d3ae1b36748
-
-Package: me.luki.aestearevived
-Section: Tweaks
-Installed-Size: 1628
-Maintainer: Luki
-Architecture: iphoneos-arm64
-Version: 0.9.3
-Depends: mobilesubstrate, preferenceloader, firmware (>= 13), com.mrgcgamer.libgcuniversal
-Description: 给您的控制中心图案带来色彩
-Name: 控制中心美化
-Author: Luki
-Icon: https://huayuarc.github.io/icon/IWantTranslucent.png
-Filename: debs/me.luki.aestearevived-0.9.3-rootless.deb
-Size: 684656
-MD5sum: e1a0f00d7d3fd2e0bb2402fa01faf90b
-SHA1: 
-SHA256: 347cd6603d221a9d74df0964de569fee48cf53e9d87027262c5c30066adc8d11
 
 Package: me.luki.arizona
 Name: Arizona
