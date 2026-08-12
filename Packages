@@ -2620,7 +2620,7 @@ SHA1:
 SHA256: 47affbb955d63a116bc47517ad699e893aa818e6dd31125cab326b9b513ade5f
 
 Package: com.binglan.kongzhidiy
-Name: Kongzhidiy 控制中心美化
+Name: 控制中心美化
 Section: Tweaks
 Maintainer: binglan
 Author: binglan
@@ -2629,16 +2629,16 @@ Depends: mobilesubstrate, firmware (>= 15.0)
 Architecture: iphoneos-arm64e
 Version: 2.3.3-end
 Installed-Size: 3028
-icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+icon: https://huayuarc.github.io/icon/komgzhimh.jpg
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.binglan.kongzhidiy-2.3.3-end-roothide.deb
-Size: 671476
-MD5sum: c1a010b0671b5b3ccab52eac1ccffd01
+Size: 671608
+MD5sum: 0d66448038b0c616c9346242f14eadb4
 SHA1: 
-SHA256: 2961027e79be02ff873df3251c2c02ea8b8e4210db0b8d767905733486fbc361
+SHA256: b0b229dfe613a170e56cd765cccc7a24301cb5c61ee16d1138cea9413f76cbcc
 
 Package: com.binglan.kongzhidiy
-Name: Kongzhidiy 控制中心美化
+Name: 控制中心美化
 Section: Tweaks
 Maintainer: binglan
 Author: binglan
@@ -2647,12 +2647,12 @@ Depends: mobilesubstrate, firmware (>= 15.0)
 Architecture: iphoneos-arm64
 Version: 2.3.3-end
 Installed-Size: 3028
-icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+icon: https://huayuarc.github.io/icon/komgzhimh.jpg
 Filename: debs/com.binglan.kongzhidiy-2.3.3-end-rootless.deb
-Size: 674368
-MD5sum: 68bd5df89507f07ba5a752f61b57caf1
+Size: 674356
+MD5sum: 36c624733fd665b20b75e594433ee005
 SHA1: 
-SHA256: 3fbb7f97468141bba24f1d43f14746a0414a0ea67b703824ed013196484a6eaa
+SHA256: a95fcbccee17c794129b84feb7766aa878fca2fe6049559383e58b4d917a17d9
 
 Package: com.brend0n.nopassafterrespringsafe
 Name: NoPassAfterRespring (Safe)
@@ -20498,15 +20498,15 @@ Architecture: iphoneos-arm64e
 Version: 0.9.3
 Depends: mobilesubstrate, preferenceloader, firmware (>= 13), com.mrgcgamer.libgcuniversal
 Description: 给您的控制中心图案带来色彩
-Name: Aestea Revived控制中心美化
+Name: 控制中心美化
 Author: Luki
 Icon: https://huayuarc.github.io/icon/IWantTranslucent.png
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/me.luki.aestearevived-0.9.3-roothide.deb
-Size: 681648
-MD5sum: e7416644e3358ae0dd305844fb3fec8d
+Size: 681640
+MD5sum: 67581dd7818f4640b5df1507b444b82f
 SHA1: 
-SHA256: 6b97c060909367f5b6c603d252e812cd981ea1039ebb07fccd63be5ddaf05135
+SHA256: 41c9d5d454dfdc81e54ee397e140d621932eef5d5b7ae4c402e59d3ae1b36748
 
 Package: me.luki.aestearevived
 Section: Tweaks
@@ -20516,14 +20516,14 @@ Architecture: iphoneos-arm64
 Version: 0.9.3
 Depends: mobilesubstrate, preferenceloader, firmware (>= 13), com.mrgcgamer.libgcuniversal
 Description: 给您的控制中心图案带来色彩
-Name: Aestea Revived控制中心美化
+Name: 控制中心美化
 Author: Luki
 Icon: https://huayuarc.github.io/icon/IWantTranslucent.png
 Filename: debs/me.luki.aestearevived-0.9.3-rootless.deb
-Size: 684564
-MD5sum: 5bae81fedcefbf659548769b3682b766
+Size: 684656
+MD5sum: e1a0f00d7d3fd2e0bb2402fa01faf90b
 SHA1: 
-SHA256: 6327fcba74c0afa8c63436d013ad1abf80726454aa7dbce1d77e66c4e5b5015e
+SHA256: 347cd6603d221a9d74df0964de569fee48cf53e9d87027262c5c30066adc8d11
 
 Package: me.luki.arizona
 Name: Arizona
@@ -20572,15 +20572,15 @@ Architecture: iphoneos-arm64e
 Version: 0.9.1
 Depends: mobilesubstrate, preferenceloader
 Description: 自定义控制中心背景的模糊程度，当模糊程度为零时会直接删掉背景，达到开着控制中心的时候还能操作别的地方的神奇操作
-Name: StealthCC自定义控制中心模块背景模糊
+Name: 自定义控制中心模块背景模糊
 Author: Luki
 Icon: https://huayuarc.github.io/icon/StealthCC.png
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/me.luki.stealthcc-0.9.1-roothide.deb
 Size: 20972
-MD5sum: 33f3ab0333d6def9fe4a9c69328fd0f5
+MD5sum: ae5fa5f23548e96bd5569341af11aa7b
 SHA1: 
-SHA256: 799bc7dc4440fc28ab7ca5aa65fca958406612c778269176988ce7aa46b40937
+SHA256: a95e2d6fa5f0437a6de5115ffafd5172632b91789789c8fdc1f4ff623c5b7d84
 
 Package: me.luki.stealthcc
 Section: Tweaks
@@ -20590,14 +20590,14 @@ Architecture: iphoneos-arm64
 Version: 0.9.1
 Depends: mobilesubstrate, preferenceloader
 Description: 自定义控制中心背景的模糊程度，当模糊程度为零时会直接删掉背景，达到开着控制中心的时候还能操作别的地方的神奇操作
-Name: StealthCC自定义控制中心模块背景模糊
+Name: 自定义控制中心模块背景模糊
 Author: Luki
 Icon: https://huayuarc.github.io/icon/StealthCC.png
 Filename: debs/me.luki.stealthcc-0.9.1-rootless.deb
-Size: 21484
-MD5sum: 56607280332dabece2834d2e835dbe78
+Size: 21496
+MD5sum: 66c602dad1ab5155c0aff0dbbe1aebf2
 SHA1: 
-SHA256: fc72a705a8d7b769f9efb89c138ad5396ea19b2b86c38676d46e419788e5c2d2
+SHA256: ed19b973e41687e039c515b40879a7617df0a35b0cdbd348c1287239240cbf42
 
 Package: net.p0358.disintegratelock
 Section: Tweaks
