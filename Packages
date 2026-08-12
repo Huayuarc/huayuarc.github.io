@@ -562,24 +562,25 @@ SHA256: 24f2e720b732f512b5d85f4fdea1f52d75c99e47c0fc459a01d6620bbcc5967d
 Package: cn.llld.biaoji
 Name: Snapper 截图标记
 Author: 来了老弟 X: h_h_x_t
-Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
 Depends: mobilesubstrate
 Maintainer: 来了老弟 X: h_h_x_t
-Section: roothide插件
+Section: rootless插件
 Architecture: iphoneos-arm64e
 Version: 1.3
-Installed-Size: 144
+Installed-Size: 128
+Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/cn.llld.biaoji-1.3-roothide.deb
-Size: 27240
-MD5sum: 44e51011b845e17e3c7d17b37f008ec8
+Size: 26360
+MD5sum: 4442ea7e9d324b17396e445e8ba1a8a8
 SHA1: 
-SHA256: b7d638562305d65dcf1e71689e5c64162a7f731884353e1287b99c95c354e1a7
+SHA256: 10a640c54174934c9e0350a5255201b4b7d2a3c4f720ad2bccad9d101218331a
 
 Package: cn.llld.biaoji
 Name: Snapper 截图标记
 Author: 来了老弟 X: h_h_x_t
-Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
 Depends: mobilesubstrate
 Maintainer: 来了老弟 X: h_h_x_t
 Section: rootless插件
@@ -588,10 +589,10 @@ Version: 1.3
 Installed-Size: 128
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/cn.llld.biaoji-1.3-rootless.deb
-Size: 27160
-MD5sum: 5505eea4faaf4cf4b44b44a7c0956c51
+Size: 26720
+MD5sum: 5b1c9d0e4e3eed9c093bac77e019fd36
 SHA1: 
-SHA256: 6bfdbc3940666a73dd92a7472814086e30137df2eb2532cf4a9e907bc3daa432
+SHA256: 7d40b6589f3992b44be40e43e03a456b000a375866bc29d931ce7acff9c50b95
 
 Package: cn.llld.bioaji
 Name: Snapper 截图标记
@@ -1129,80 +1130,8 @@ SHA1:
 SHA256: 2e90723484781713dca670f443cb9487d5e96a583a06de6cca9fb38133320561
 
 Package: codes.aurora.kayoko
-Name: Hello Kayoko
-Description: Clipboard manager for iOS.
-Maintainer: Lessica <82flex@gmail.com>
-Author: Alexandra Aurora Göttlicher
-Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
-SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
-Architecture: iphoneos-arm64e
-Version: 3.3.9-1
-Installed-Size: 1040
-Filename: debs/codes.aurora.kayoko-3.3.9-1-roothide.deb
-Size: 139240
-MD5sum: e972bc2fba180665090af1da92731c31
-SHA1: 
-SHA256: 5caa4f227e731f537c9d4cc05d48e5ba592d5484528c6b06d9c99eeb59b44377
-
-Package: codes.aurora.kayoko
-Name: Hello Kayoko
-Description: Clipboard manager for iOS.
-Maintainer: Lessica <82flex@gmail.com>
-Author: Alexandra Aurora Göttlicher
-Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
-SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
-Architecture: iphoneos-arm64
-Version: 3.3.9-1
-Installed-Size: 1040
-Filename: debs/codes.aurora.kayoko-3.3.9-1-rootless.deb
-Size: 141436
-MD5sum: e1f10e4ccc72a0c6cd462d43f5bdc938
-SHA1: 
-SHA256: f767798f025d41eb836c28c8fed185c4832521c20c28f6ad8fe54cab2223e709
-
-Package: codes.aurora.kayoko
-Name: Hello Kayoko
-Description: Clipboard manager for iOS.
-Maintainer: Lessica <82flex@gmail.com>
-Author: Alexandra Aurora Göttlicher
-Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
-SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
-Architecture: iphoneos-arm64e
-Version: 3.3.9-2
-Installed-Size: 1040
-Filename: debs/codes.aurora.kayoko-3.3.9-2-roothide.deb
-Size: 139376
-MD5sum: 99585f388b588ad7a722920c9bc75edb
-SHA1: 
-SHA256: 1e683ec032d7b48be98112da82fc9c048d14d9229d4c0c7698b3b426d8431fc1
-
-Package: codes.aurora.kayoko
-Name: Hello Kayoko
-Description: Clipboard manager for iOS.
-Maintainer: Lessica <82flex@gmail.com>
-Author: Alexandra Aurora Göttlicher
-Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
-SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
-Architecture: iphoneos-arm64
-Version: 3.3.9-2
-Installed-Size: 1040
-Filename: debs/codes.aurora.kayoko-3.3.9-2-rootless.deb
-Size: 142008
-MD5sum: 9c5d3725f40566c436563080522eb929
-SHA1: 
-SHA256: 01bdb0f162951e86142f7ee716bb89ceb76493365a326dec12c726a542d2a8d6
-
-Package: codes.aurora.kayoko
-Name: Hello Kayoko
-Description: Clipboard manager for iOS.
+Name: Hello Kayoko 剪切板
+Description: Kayoko 剪切板，基于「乌龙工作室」版进行修改
 Maintainer: Lessica <82flex@gmail.com>
 Author: Alexandra Aurora Göttlicher
 Section: Tweaks
@@ -1213,14 +1142,14 @@ Architecture: iphoneos-arm64e
 Version: 3.3.9-3
 Installed-Size: 1040
 Filename: debs/codes.aurora.kayoko-3.3.9-3-roothide.deb
-Size: 141420
-MD5sum: dfc70e03ddfb69f1bc7ae8abbd5b0aad
+Size: 141288
+MD5sum: bdcc08486098dc87ba12914b1bb66060
 SHA1: 
-SHA256: 48e5df25cee5fb0120eaa3b67ffbd70596607beb3dd5223b17308bc2a56b7478
+SHA256: 06dfb9674ca82af4adb4628fd9f3a6ad51be47af127ec66f0a883c381bcc3f9d
 
 Package: codes.aurora.kayoko
-Name: Hello Kayoko
-Description: Clipboard manager for iOS.
+Name: Hello Kayoko 剪切板
+Description: Kayoko 剪切板，基于「乌龙工作室」版进行修改
 Maintainer: Lessica <82flex@gmail.com>
 Author: Alexandra Aurora Göttlicher
 Section: Tweaks
@@ -1231,14 +1160,14 @@ Architecture: iphoneos-arm64
 Version: 3.3.9-3
 Installed-Size: 1044
 Filename: debs/codes.aurora.kayoko-3.3.9-3-rootless.deb
-Size: 143468
-MD5sum: a206822a0da79f900a53e4831e022164
+Size: 143368
+MD5sum: fc9b79503ce75abc95873303af4349b2
 SHA1: 
-SHA256: 9631f91ae2db488639aed495b246572ca48e311656290df757a51f958cc556ae
+SHA256: 429eeaa8cfde5cae9cd83c2ee0d12cc443c4b221422ef5f4c3359ec7eabeb163
 
 Package: codes.aurora.kayoko
-Name: Hello Kayoko
-Description: Clipboard manager for iOS.
+Name: Hello Kayoko 剪切板
+Description: Kayoko 剪切板，基于「乌龙工作室」版进行修改
 Maintainer: Lessica <82flex@gmail.com>
 Author: Alexandra Aurora Göttlicher
 Section: Tweaks
@@ -1246,17 +1175,17 @@ Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsa
 Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
 SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
 Architecture: iphoneos-arm64e
-Version: 3.6.0-5
+Version: 3.6.0-9
 Installed-Size: 1212
-Filename: debs/codes.aurora.kayoko-3.6.0-5-roothide.deb
-Size: 166892
-MD5sum: 512343877e560526ae1148eeeeec9a09
+Filename: debs/codes.aurora.kayoko-3.6.0-9-roothide.deb
+Size: 177200
+MD5sum: 705c82164101dc540392d2bd8b7b6e13
 SHA1: 
-SHA256: 88d28d8f91fc4c21d993759d9125c66c7ba85ff5912485900b1de134b6850a94
+SHA256: 1023cce552b35d71d0339ec2f9ae9ce5df2c0e05e43acac1c947f277daa2035b
 
 Package: codes.aurora.kayoko
-Name: Hello Kayoko
-Description: Clipboard manager for iOS.
+Name: Hello Kayoko 剪切板
+Description: Kayoko 剪切板，基于「乌龙工作室」版进行修改
 Maintainer: Lessica <82flex@gmail.com>
 Author: Alexandra Aurora Göttlicher
 Section: Tweaks
@@ -1264,121 +1193,13 @@ Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsa
 Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
 SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
 Architecture: iphoneos-arm64
-Version: 3.6.0-5
-Installed-Size: 1228
-Filename: debs/codes.aurora.kayoko-3.6.0-5-rootless.deb
-Size: 168160
-MD5sum: d69a2f32aefa43d8de1928b40af2e40c
+Version: 3.6.0-9
+Installed-Size: 1244
+Filename: debs/codes.aurora.kayoko-3.6.0-9-rootless.deb
+Size: 176160
+MD5sum: c4de1a492806e86e7337046cbc51bc30
 SHA1: 
-SHA256: 8b80b9cb2518a6f223b941ce457500d509633ec66b39e1ed3321160b7fb1d59e
-
-Package: codes.aurora.kayoko
-Name: Hello Kayoko
-Description: Clipboard manager for iOS.
-Maintainer: Lessica <82flex@gmail.com>
-Author: Alexandra Aurora Göttlicher
-Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
-SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
-Architecture: iphoneos-arm64e
-Version: 3.6.0-6
-Installed-Size: 1212
-Filename: debs/codes.aurora.kayoko-3.6.0-6-roothide.deb
-Size: 169476
-MD5sum: 75d666ea8d06ac6a0cb2eb701e2fc3b2
-SHA1: 
-SHA256: 010a1d745a16b9af0eff863314d9ab39453c753eb42d0587116904eb4e802aa8
-
-Package: codes.aurora.kayoko
-Name: Hello Kayoko
-Description: Clipboard manager for iOS.
-Maintainer: Lessica <82flex@gmail.com>
-Author: Alexandra Aurora Göttlicher
-Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
-SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
-Architecture: iphoneos-arm64
-Version: 3.6.0-6
-Installed-Size: 1228
-Filename: debs/codes.aurora.kayoko-3.6.0-6-rootless.deb
-Size: 170400
-MD5sum: 266ace7965fe565d99f38589c63e807c
-SHA1: 
-SHA256: fb246a90491425beefabc03553d853727acc0cd9df6db4f3711cdbaa964484bc
-
-Package: codes.aurora.kayoko
-Name: Hello Kayoko
-Description: Clipboard manager for iOS.
-Maintainer: Lessica <82flex@gmail.com>
-Author: Alexandra Aurora Göttlicher
-Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
-SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
-Architecture: iphoneos-arm64
-Version: 3.3.6-3
-Installed-Size: 1040
-Filename: debs/codes.aurora.kayoko_3.3.6-3_iphoneos-arm64.deb
-Size: 139544
-MD5sum: bb987ad8a31d131eb2d903e09be62bf6
-SHA1: 
-SHA256: 372bf69cd1724b7f46807a6cccc7a75e0cd4260dc69336f1fbf01ac078652195
-
-Package: codes.aurora.kayoko
-Name: Hello Kayoko
-Description: Clipboard manager for iOS.
-Maintainer: Lessica <82flex@gmail.com>
-Author: Alexandra Aurora Göttlicher
-Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
-SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
-Architecture: iphoneos-arm64e
-Version: 3.3.6-3
-Installed-Size: 1040
-Filename: debs/codes.aurora.kayoko_3.3.6-3_iphoneos-arm64e.deb
-Size: 136452
-MD5sum: 96935fb8c62fe8b518668c195087252b
-SHA1: 
-SHA256: b50297da754da7bfd056265579c18d5ed6435904d1c351f54628d1b3db1a3210
-
-Package: codes.aurora.kayoko
-Name: Hello Kayoko
-Description: Clipboard manager for iOS.
-Maintainer: Lessica <82flex@gmail.com>
-Author: Alexandra Aurora Göttlicher
-Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
-SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
-Architecture: iphoneos-arm64
-Version: 3.3.6-5
-Installed-Size: 1044
-Filename: debs/codes.aurora.kayoko_3.3.6-5_iphoneos-arm64.deb
-Size: 140856
-MD5sum: 6f16d58dfa8ab71fa01afa57a057be65
-SHA1: 
-SHA256: c6ea2090acdcf099335c4dcfaee2ec218604e76ee34ae5f484fd87f2557458a0
-
-Package: codes.aurora.kayoko
-Name: Hello Kayoko
-Description: Clipboard manager for iOS.
-Maintainer: Lessica <82flex@gmail.com>
-Author: Alexandra Aurora Göttlicher
-Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
-SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
-Architecture: iphoneos-arm64e
-Version: 3.3.6-5
-Installed-Size: 1044
-Filename: debs/codes.aurora.kayoko_3.3.6-5_iphoneos-arm64e.deb
-Size: 138636
-MD5sum: a884e83f92892c997fef26d893628d16
-SHA1: 
-SHA256: 924e90e135801e08f695a3451155841852b80a2ee0bca483d433ac1ad2e3d83d
+SHA256: bd38db02a6f7750dfbb49c327c4b2bf1481424746dabc7a7b8c41ab8472eb4fd
 
 Package: codes.wingchan.ve-enhanced
 Name: VE Enhanced
@@ -6045,6 +5866,42 @@ Size: 72468
 MD5sum: 7b00cdb4a24f5c18aad4914a107b53b4
 SHA1: 
 SHA256: 40147c7b8b61289a2f98ef8798728b28bf1b4e92817c1e467956603fd660e2fd
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」兼顾省电与性能。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.5.8-5
+Installed-Size: 1012
+Filename: debs/com.huayuarc.cputhermal-1.5.8-5-roothide.deb
+Size: 71524
+MD5sum: 1f7e016a592cb478949db353c8858b8f
+SHA1: 
+SHA256: 691931d9a8f146c74676115c170923ec42240e017a1219ad882487d9c533ceff
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」兼顾省电与性能。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.5.8-5
+Installed-Size: 1032
+Filename: debs/com.huayuarc.cputhermal-1.5.8-5-rootless.deb
+Size: 74664
+MD5sum: b17bfac64ef6c8ccaa56b485a8eba8ab
+SHA1: 
+SHA256: c8cf32110830f99935d06e1469c56c3c7ad9732a905ac05b0d5cb6da99bef242
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
@@ -18855,6 +18712,42 @@ Size: 1275680
 MD5sum: e2bdf7fc61d82bab3ba0dba9eba40b59
 SHA1: 
 SHA256: 019943ccb42bd26e92860450f44b08ab53d18d861868500f1aaeee2771c4b63d
+
+Package: com.zqbb.savephotos
+Name: Hello Snapper3
+Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
+Maintainer: zqbb
+Author: zqbb
+Section: Tweaks
+Depends: mobilesubstrate
+SileoDepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
+Architecture: iphoneos-arm64e
+Version: 1.1-1
+Installed-Size: 72
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/com.zqbb.savephotos-1.1-1-roothide.deb
+Size: 3420
+MD5sum: 88aa6bb7443f51c90a9ac9447208876a
+SHA1: 
+SHA256: c4159b836b1aa2995c17bbaa490e9f987fd76d8c1a779bb67765b5c08f27fc0b
+
+Package: com.zqbb.savephotos
+Name: Hello Snapper3
+Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
+Maintainer: zqbb
+Author: zqbb
+Section: Tweaks
+Depends: mobilesubstrate
+SileoDepiction: https://rootless.002599.xyz/web/com.zqbb.savephotos
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Installed-Size: 72
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/com.zqbb.savephotos-1.1-1-rootless.deb
+Size: 4304
+MD5sum: 7302d7ae222d954c0e7f0df4bcda190c
+SHA1: 
+SHA256: 5ae08f3370e8828a6af6dcbdcdd774159ebf00d561d9a2f47372718a7f307977
 
 Package: com.zuner.lunanoad
 Name: LunaNoAd 汽水音乐
