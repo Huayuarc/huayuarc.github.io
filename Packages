@@ -6184,6 +6184,42 @@ MD5sum: cef0fea99fdd7065b897b0d1475c4c7c
 SHA1: 
 SHA256: 3c7f4b3cedac3fcd328ca09fe672ae927895eefe454f9cdbace43a0315a301ac
 
+Package: com.huayuarc.picturemodule16
+Name: 控制中心图片视频模块
+Description: 适配 iOS 16 的原版风格图片与视频控制中心模块。
+Maintainer: Huayuarc
+Author: 4nni3
+Section: Tweaks
+Depends: firmware (>= 16.0), com.opa334.ccsupport
+Conflicts: com.4nni3.picturemodule
+Architecture: iphoneos-arm64e
+Version: 1.3
+Installed-Size: 1220
+icon: https://huayuarc.github.io/icon/PictureModule.jpg
+Filename: debs/com.huayuarc.picturemodule16-1.3-roothide.deb
+Size: 46864
+MD5sum: 394acf981bd630d5a157056c253385c4
+SHA1: 
+SHA256: 36add8e8ce8166cc19c28d37b95920033a554f032fe5cc1227bb05e2112ce8c5
+
+Package: com.huayuarc.picturemodule16
+Name: 控制中心图片视频模块
+Description: 适配 iOS 16 的原版风格图片与视频控制中心模块。
+Maintainer: Huayuarc
+Author: 4nni3
+Section: Tweaks
+Depends: firmware (>= 16.0), com.opa334.ccsupport
+Conflicts: com.4nni3.picturemodule
+Architecture: iphoneos-arm64
+Version: 1.3
+Installed-Size: 1220
+icon: https://huayuarc.github.io/icon/PictureModule.jpg
+Filename: debs/com.huayuarc.picturemodule16-1.3-rootless.deb
+Size: 46968
+MD5sum: dbd863e756f7570b708b6f1c5e957210
+SHA1: 
+SHA256: c591557905e92f516f48e2001c114f213fac0d09ffa89baf1afd856e6ec1d51b
+
 Package: com.huayuarc.qqjlq
 Version: 0.0.1
 Architecture: iphoneos-arm64e
