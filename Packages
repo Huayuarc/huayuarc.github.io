@@ -1381,7 +1381,7 @@ SHA256: b4f6efee866bf968b856a2cdf4aff93a199b2635945e0c7c4e4aa8fe6ff68b3d
 
 Package: com.4nni3.picturemodule
 Architecture: iphoneos-arm64e
-Name: PictureModule
+Name: PictureModule 控制中心照片/视频
 Version: 1.2
 Description: 用照片/视频和小部件装饰控制中心模块。
 Author: 4nni3 <kk99588077@gmail.com>
@@ -1390,11 +1390,11 @@ Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport, oldabi
 Maintainer: 4nni3 <kk99588077@gmail.com>
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/SettingsIcon.png
-Filename: debs/com.4nni3.picturemodule_1.2_iphoneos-arm64e.deb
-Size: 282224
-MD5sum: 21bb60d4819e3200a7e7137910bbb22d
+Filename: debs/com.4nni3.picturemodule-1.2-roothide.deb
+Size: 282116
+MD5sum: d0fb6e98e43d14170fc474752d8ef09c
 SHA1: 
-SHA256: 0d69a810e7aa7ba18fd0435571c466104d2a727ea76f8f628b52024a9b455c62
+SHA256: d463aee34d53fbf531da802efc1cc2601c767864be66a4d23ec7956dc118ee61
 
 Package: com.82flex.cranepkdserverfix
 Name: Crane PKDServer Fix
@@ -17556,41 +17556,6 @@ Size: 1512008
 MD5sum: 8296f9e8123f1b009b17d9616fef609f
 SHA1: 
 SHA256: 58bdc24e2ad9086f575a4e6d06a280cacc2906b4e40fdb8298d27925b847c43a
-
-Package: com.susu.collection
-Name: SuCollection
-Depends: firmware (>= 14.0), mobilesubstrate
-Description: 自用合集插件
-Maintainer: SuSu
-Author: SuSu
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Icon: https://repo.susubaby.cn/icons/SuCollection.png
-Version: 1.1
-Installed-Size: 520
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.susu.collection-1.1-roothide.deb
-Size: 55284
-MD5sum: 86078f0348fc7acace91e45cdb088102
-SHA1: 
-SHA256: 80a546764a7ab7d6ae55b6fa7a41f2508d1ca7862ab2b353217eb914c141e7aa
-
-Package: com.susu.collection
-Name: SuCollection
-Depends: firmware (>= 14.0), mobilesubstrate
-Description: 自用合集插件
-Maintainer: SuSu
-Author: SuSu
-Section: Tweaks
-Architecture: iphoneos-arm64
-Icon: https://repo.susubaby.cn/icons/SuCollection.png
-Version: 1.1
-Installed-Size: 520
-Filename: debs/com.susu.collection-1.1-rootless.deb
-Size: 56528
-MD5sum: 817ac20011cbf36fa810b23e22673ab8
-SHA1: 
-SHA256: a76b0810e05d5cc1ee86449eff09bbf6eb89937aaf49c6169ff7ecb9a8146ac5
 
 Package: com.susu.snapper3.picta
 Name: Picta
