@@ -18298,6 +18298,46 @@ MD5sum: 20979c189d165197f886ecd277473164
 SHA1: 
 SHA256: 178f3468bcf5872b3985e2a9c637b079c633d19614377018b09d73ebd8c4af67
 
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 1.8.5
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-1.8.5-roothide.deb
+Size: 309392
+MD5sum: 10b7dfaad9a435ce90f7f611bc3650de
+SHA1: 
+SHA256: 7c43f3ce1006fca88d721c7687f2c2b1404891dcac34b124c6109c4d9962e044
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 1.8.5
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-1.8.5-rootless.deb
+Size: 311108
+MD5sum: b6202f18f74de2b263c8ab40391c94d3
+SHA1: 
+SHA256: b4142eac5f72cc4b17b164f6c50c0fe2531cae74f57d87abafb05579c467f0b2
+
 Package: com.tune.h3kbhook
 Name: 元书输入法 Hooks
 Description: stable h3kb pro unlock package for app and keyboard extension
