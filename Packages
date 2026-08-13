@@ -1096,22 +1096,6 @@ MD5sum: 8e97cc70da357ddc09b54b719672a7ba
 SHA1: 
 SHA256: d91b21ef4dc3054988d05a71d330908cb8f9e1a038b7fc8bbc9964d332f3c6cb
 
-Package: cn.zqbb.hello.mnt
-Name: HelloMnt Filza 挂载器
-Description: Relaxin 挂载器!
-Maintainer: zqbb
-Author: zqbb
-Section: zqbb Tweaks
-icon: https://huayuarc.github.io/icon/HelloMnt.jpg
-Architecture: iphoneos-arm64e
-Version: 1.1.0
-Installed-Size: 3124
-Filename: debs/cn.zqbb.hello.mnt-1.1.0-roothide.deb
-Size: 821656
-MD5sum: 6e8b73b856d5bd62f6897804ac017fc7
-SHA1: 
-SHA256: 11363ae51f6b4fe52a815cd82b7501bafa786662809888d821a6823bac2f20a4
-
 Package: cn.zqbb.hello.varjb
 Name: Hello VarJB snapper3
 Description: 可以修复 relaxin 中的 snapper3 问题!
@@ -4728,16 +4712,16 @@ Depends: ldid, ellekit
 Replaces: com.opa334.trollstorelite
 Maintainer: Fluoxetine <1103945342@qq.com>
 Author: Fluoxetine为Relaxin越狱特别制作
-Section: Applications
+Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 1.0.4
 Installed-Size: 1361
 icon: https://huayuarc.github.io/icon/jumor.jpg
 Filename: debs/com.fluoxetine.jumor-1.0.4-roothide.deb
-Size: 592412
-MD5sum: 0888a037f980438f722f7d21f447def3
+Size: 592392
+MD5sum: d0690a7dcc1aa0244626ad9cd5a480b8
 SHA1: 
-SHA256: eceaa74fcb5c204b475dfd0c15c98c8c1ae64300331476f267cb5ccf37f41bc4
+SHA256: ef6152e622082e81bdb2b0cb908b18618535ee30d190ddaf46c3a3dfd3c63889
 
 Package: com.go.mango
 Name: mango
@@ -22012,27 +21996,6 @@ Size: 37700
 MD5sum: bf6764a419d4a43466f2d607000946d8
 SHA1: 
 SHA256: f7cf33bf602a0480380417cc40383b85ba9a8407a89ed1ddc2cc73443e456422
-
-Package: xyz.cypwn.newterm3
-Name: NewTerm 3 iOS 终端
-Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
-Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
-Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
-Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
-Description: Description: Powerful terminal app for iOS 直接在手机上操作Shell命令 iOS终端
-Maintainer: Korboy <korboybeats@gmail.com>
-Author: HASHBANG Productions, Korboy <korboybeats@gmail.com>
-Section: Terminal Support
-Icon: https://huayuarc.github.io/icon/NewTerm.png
-Tag: compatible_min::ios14.0
-Architecture: iphoneos-arm64
-Version: 3.1
-Installed-Size: 10748
-Filename: debs/xyz.cypwn.newterm3-3.1-rootless.deb
-Size: 3379064
-MD5sum: da7521db327bd11e517c1494ef1739ab
-SHA1: 
-SHA256: 17da8bc10b5afd255933fd1917ff3d842c260fd424d4024772959ef0b670f7da
 
 Package: xyz.cypwn.python314
 Maintainer: CyPwn
