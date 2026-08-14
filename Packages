@@ -8844,6 +8844,41 @@ MD5sum: 4be4004583bf1453f45c090b508c02f1
 SHA1: 
 SHA256: cac3f4c1d3ee8bbd87353128b29793736294c2f48ecc82e03c8d60fb03f4cdc4
 
+Package: com.layii.ccrnd
+Name: 去除录屏三秒倒计时
+Description: 去除录屏延迟
+Maintainer: LaYii
+Author: LaYii
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.1-27+debug
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/luzhi.jpg
+Filename: debs/com.layii.ccrnd-0.0.1-27+debug-roothide.deb
+Size: 4424
+MD5sum: 2b41913809a328f5a521dbafd256231c
+SHA1: 
+SHA256: b2b983cb35b7266b3e1afcbf259ae271513e2a42d1bd1a2fa6354d746c66cfce
+
+Package: com.layii.ccrnd
+Name: 去除录屏三秒倒计时
+Description: 去除录屏延迟
+Maintainer: LaYii
+Author: LaYii
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm64
+Version: 0.0.1-27+debug
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/luzhi.jpg
+Filename: debs/com.layii.ccrnd-0.0.1-27+debug-rootless.deb
+Size: 4260
+MD5sum: 2738d91753b22eb5f3eaef66c7f083fa
+SHA1: 
+SHA256: aae154014060dd82ec208ed5f6a3c48642ea026d0fb5fd27c0a6ae428e850c7a
+
 Package: com.lclrc.hammerit
 Name: Hammer It
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
