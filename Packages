@@ -6108,37 +6108,37 @@ Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
 Author: Huayuarc
 Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」兼顾省电与性能。
-Depends: mobilesubstrate, preferenceloader
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Maintainer: Huayuarc
 Section: Tweaks
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Architecture: iphoneos-arm64e
 Version: 1.5.8-8
-Installed-Size: 1212
+Installed-Size: 1044
 Filename: debs/com.huayuarc.cputhermal-1.5.8-8-roothide.deb
-Size: 88656
-MD5sum: c5546d76cf127ce42c84d77b991a613e
+Size: 84644
+MD5sum: 7684d5a230fdf1d5b7ac9623fc3c93b8
 SHA1: 
-SHA256: 73a227aa72a6095ca1b64b86594bd150fc05f49068e5710e1d29ff9381d62770
+SHA256: 6fd8807243e62a50984646533fe87ff3cf6367462909a6d8aef6b8ea7088d24c
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
 Author: Huayuarc
 Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」兼顾省电与性能。
-Depends: mobilesubstrate, preferenceloader
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Maintainer: Huayuarc
 Section: Tweaks
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Architecture: iphoneos-arm64
 Version: 1.5.8-8
-Installed-Size: 1248
+Installed-Size: 1080
 Filename: debs/com.huayuarc.cputhermal-1.5.8-8-rootless.deb
-Size: 92116
-MD5sum: 5eb83b6a01f2fd3533558f85645c3fb6
+Size: 87568
+MD5sum: 23ca3cc491ee8be75e088c55232ee136
 SHA1: 
-SHA256: 2b6e752b5da1b458c8b0e5aa67526f09cbf3c9770e0b1a3b5d85145bb8d496b7
+SHA256: 1f2fd8bc269188b55c21cc3edb636122d9249c3adf4de279af2a3e6d3a56117f
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
