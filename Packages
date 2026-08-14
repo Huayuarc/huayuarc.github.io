@@ -1472,23 +1472,6 @@ MD5sum: e7828cdaa86ac83ee4c2d30fec18875e
 SHA1: 
 SHA256: b4f6efee866bf968b856a2cdf4aff93a199b2635945e0c7c4e4aa8fe6ff68b3d
 
-Package: com.4nni3.picturemodule
-Architecture: iphoneos-arm64e
-Name: PictureModule 控制中心照片/视频
-Version: 1.2
-Description: 用照片/视频和小部件装饰控制中心模块。
-Author: 4nni3 <kk99588077@gmail.com>
-Section: Tweaks
-Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport, oldabi
-Maintainer: 4nni3 <kk99588077@gmail.com>
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/SettingsIcon.png
-Filename: debs/com.4nni3.picturemodule-1.2-roothide.deb
-Size: 282116
-MD5sum: d0fb6e98e43d14170fc474752d8ef09c
-SHA1: 
-SHA256: d463aee34d53fbf531da802efc1cc2601c767864be66a4d23ec7956dc118ee61
-
 Package: com.82flex.cranepkdserverfix
 Name: Crane PKDServer Fix
 Description: Repairs Crane PKDServer discovery on iOS 17.在 iOS 17 上修复 Crane PKDServer 发现。
@@ -6568,6 +6551,40 @@ Size: 1004
 MD5sum: 4625ecfa3d8f5d0525ef33c8bb1ed397
 SHA1: 
 SHA256: 7564096d138afe453a6399158d0bd0235ef18c66af93f29934842784143a627b
+
+Package: com.huayuarc.sneakycam
+Name: SneakyCam 隐私相机
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Maintainer: Huayuarc
+Author: Huayuarc,Spark
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.1.0
+Installed-Size: 336
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+Filename: debs/com.huayuarc.sneakycam-2.1.0-roothide.deb
+Size: 92872
+MD5sum: d5fb20098d2ca99e6be358ab19794f22
+SHA1: 
+SHA256: e164d0a31b9f6ee71f0d2133c118504c29dbcacf4c2d3fbe1c2dc7aa4202c122
+
+Package: com.huayuarc.sneakycam
+Name: SneakyCam 隐私相机
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Maintainer: Huayuarc
+Author: Huayuarc,Spark
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Installed-Size: 336
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+Filename: debs/com.huayuarc.sneakycam-2.1.0-rootless.deb
+Size: 92672
+MD5sum: 6989f265e4f7b869b6d9facb2303c2ec
+SHA1: 
+SHA256: 03ef7712507afcf051114908b0b7e3f01f5d0a9508054b6e24051ad475e7ddc8
 
 Package: com.huayuarc.speedster
 Name: Speedster
