@@ -594,6 +594,41 @@ MD5sum: 8dbf00f312d9eaa1daed08edc2dffb0b
 SHA1: 
 SHA256: 0736ddc8c60991e18395f50437c7b6e6b0ab07344a742e4f3da73825e4f7238d
 
+Package: cn.llld.biaoji
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.5
+Installed-Size: 164
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.llld.biaoji-1.5-roothide.deb
+Size: 35876
+MD5sum: 713a8479246f0f691e133ea2cb0dbb82
+SHA1: 
+SHA256: b90eea39b3b5285a9ce50116b0cfd7797f42fe62d6c22d167338029f13dce3d3
+
+Package: cn.llld.biaoji
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.5
+Installed-Size: 164
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.llld.biaoji-1.5-rootless.deb
+Size: 36492
+MD5sum: 596f2c95e1b8dbd615b43363baea1d91
+SHA1: 
+SHA256: 21fe9615c88fc1e3740f0dcc7658da4de01f66137a1d633f60e98e424cd019f0
+
 Package: cn.llld.bioaji
 Name: Snapper 截图标记
 Author: 来了老弟 X: h_h_x_t
