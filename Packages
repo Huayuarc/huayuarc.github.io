@@ -1,3 +1,23 @@
+Package: com.opa334.ccsupport
+Name: CCSupport
+Depends: mobilesubstrate, firmware (>=11.0)
+Provides: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Conflicts: com.ioscreatix.silo
+Description: Support tweak for CC modules!
+Maintainer: opa334
+Author: opa334
+Section: Tweaks
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Architecture: iphoneos-arm64e
+Version: 1.3.13-2-15+debug
+Installed-Size: 716
+Filename: debs/CCSupport-1.3.13-2-15+debug-iphoneos-arm64e.deb
+Size: 78138
+MD5sum: c08c9a3794e51d9d6ec64434f812b2ce
+SHA1: 
+SHA256: 51ff0060cb88235b1e098b8c5a550ed6280313ed29b42d5d4c809109b0e498bc
+
 Package: ai-config-gui
 Name: AI-Config-GUI
 Description: Claude Code / Codex API 配置管理工具 内置ai终端，双指缩放页面，需要先安装大飞源里面的ai，claude和codex然后执行一次“claude”和“codex”命令初始化文件，修复roothide闪退问题.
