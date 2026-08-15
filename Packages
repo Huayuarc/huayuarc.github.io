@@ -9173,6 +9173,45 @@ MD5sum: 61e194e670f34229b51875af4d1328c6
 SHA1: 
 SHA256: 34a8f9fc9e3aba8002dc4aae0318546217d480d272bcc2c6b2aee8ed1395b9da
 
+Package: com.liam.chatgbefree
+Name: ChatGBeFree 绕过 GPT
+Description: 让 iOS 16 可以使用旧版 ChatGPT
+ * 绕过 ChatGPT 应用中强制的升级界面
+ * Bypass the forced 'sunset' upgrade screen in the ChatGPT app.
+Maintainer: Liam
+Author: Liam
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 168
+Icon: https://TrollStoreX.Github.io/sileodepiction/ChatGBeFree/icon.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.liam.chatgbefree-1.0.0-roothide.deb
+Size: 3576
+MD5sum: c4403297839ac86bd43a90911fbaf2c6
+SHA1: 
+SHA256: caf5d19cd7da3ce87bb079ba541cf9314f3026b0d33e274ab69f6432d723c36c
+
+Package: com.liam.chatgbefree
+Name: ChatGBeFree 绕过 GPT
+Description: 让 iOS 16 可以使用旧版 ChatGPT
+ * 绕过 ChatGPT 应用中强制的升级界面
+ * Bypass the forced 'sunset' upgrade screen in the ChatGPT app.
+Maintainer: Liam
+Author: Liam
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 168
+Icon: https://TrollStoreX.Github.io/sileodepiction/ChatGBeFree/icon.png
+Filename: debs/com.liam.chatgbefree-1.0.0-rootless.deb
+Size: 3692
+MD5sum: 91fa4398c43b1bd559e4acfc57641fe6
+SHA1: 
+SHA256: 4973a4f1e3e8435d67bc2eae1033904a80b9849063fe53e385e35aa93dec5f88
+
 Package: com.linkwifi.wifikey
 Name: WiFi万能钥匙 Pro
 Version: 2.3.0-1
