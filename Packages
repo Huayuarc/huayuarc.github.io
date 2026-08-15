@@ -13234,17 +13234,18 @@ Section: Tweaks
 Maintainer: sini921
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
-Architecture: iphoneos-arm64
-Name: BigShot
+Architecture: iphoneos-arm64e
+Name: BigShot 长截图按钮
 Author: Jonathan Winger-lang
 Sponsor: sini921
 icon: https://sini921.github.io/repo/sileodepiction/icon/cjt.png
 Description: 安装以后呼出Snapper3(仅支持正版)会有一个长截图按钮。也支持通过控制中心添加BigShot模块使用。
-Filename: debs/com.sini.bigshot_1.1_iphoneos-arm64.deb
-Size: 19220
-MD5sum: a806a22a91cc2207ca2f679241eae909
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.bigshot-1.1-roothide.deb
+Size: 19364
+MD5sum: 4878333049adb374a993bb11d8d5fa92
 SHA1: 
-SHA256: dad925a1954d69e81466e3b644e631228b5999ff5111dfc2111508e8f6ef9d0b
+SHA256: 19799c1f08fa0f67bdeabaaf1496c7461f8eb24ecd1174043db0b8dd4209c559
 
 Package: com.sini.bigshot
 Version: 1.1
@@ -13252,18 +13253,17 @@ Section: Tweaks
 Maintainer: sini921
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
-Architecture: iphoneos-arm64e
-Name: BigShot
+Architecture: iphoneos-arm64
+Name: BigShot 长截图按钮
 Author: Jonathan Winger-lang
 Sponsor: sini921
 icon: https://sini921.github.io/repo/sileodepiction/icon/cjt.png
 Description: 安装以后呼出Snapper3(仅支持正版)会有一个长截图按钮。也支持通过控制中心添加BigShot模块使用。
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.sini.bigshot_1.1_iphoneos-arm64e.deb
-Size: 19364
-MD5sum: 7c304d8bd0136013c46183e5b044fa4a
+Filename: debs/com.sini.bigshot-1.1-rootless.deb
+Size: 19232
+MD5sum: 96f12031351ae2546f1c53aca07a1241
 SHA1: 
-SHA256: ac9ea0b491c7deb6dee0cd2a6ff3a0edd00630b1513b684ed03b03b0359db84f
+SHA256: e8d903c9f2ece676df68c099cba4cf960acde7595974027493ae704555e0aa26
 
 Package: com.sini.BubbleBox
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
