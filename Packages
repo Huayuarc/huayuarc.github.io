@@ -649,41 +649,6 @@ MD5sum: 596f2c95e1b8dbd615b43363baea1d91
 SHA1: 
 SHA256: 21fe9615c88fc1e3740f0dcc7658da4de01f66137a1d633f60e98e424cd019f0
 
-Package: cn.llld.bioaji
-Name: Snapper 截图标记
-Author: 来了老弟 X: h_h_x_t
-Description: 给Snappr 截图插件增加标记功能，快速对图进行箭头，打码，复制，保存等，免去了装第三方软件，或者跳转程序的繁琐
-Depends: mobilesubstrate
-Maintainer: 来了老弟 X: h_h_x_t
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.0
-Installed-Size: 96
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/snapper.png
-Filename: debs/cn.llld.bioaji-1.0-roothide.deb
-Size: 15684
-MD5sum: ea960d2edc15eacfd6fc20d7a5a85ed2
-SHA1: 
-SHA256: de6df3f32285cb9d90dd63f1bbd746ddfe81031b7035e5afe09f99be82b2438c
-
-Package: cn.llld.bioaji
-Name: Snapper 截图标记
-Author: 来了老弟 X: h_h_x_t
-Description: 给Snappr 截图插件增加标记功能，快速对图进行箭头，打码，复制，保存等，免去了装第三方软件，或者跳转程序的繁琐
-Depends: mobilesubstrate
-Maintainer: 来了老弟 X: h_h_x_t
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 96
-icon: https://huayuarc.github.io/icon/snapper.png
-Filename: debs/cn.llld.bioaji-1.0-rootless.deb
-Size: 15940
-MD5sum: 99f81b007baebefff6d6949f8fcf3817
-SHA1: 
-SHA256: 89bd5d132be8e8ce0d208369244ae9ed2864005bf7746876d18fa7a1d9585c50
-
 Package: cn.llld.fixdh1
 Name: phonefix
 Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度2850-3150）
