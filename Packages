@@ -1510,40 +1510,7 @@ SHA1:
 SHA256: 72fc47f1744e8c3ee9f9d32d2c0b433a9dd2aa5c5677b2f377ef3ee176f4aa1a
 
 Package: com.82flex.unseen
-Name: Unseen
-Description: Neutralizes CALayer disableUpdateMask in the render server.Unseen是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
-Maintainer: 82flex
-Author: 82flex
-Section: Tweaks
-Depends: firmware (>= 15.0), preferenceloader
-Architecture: iphoneos-arm
-Version: 0.0.2
-Installed-Size: 484
-Filename: debs/com.82flex.unseen_0.0.2_iphoneos-arm.deb
-Size: 73094
-MD5sum: 6a3141638d627aa654be52cf05c8e59e
-SHA1: 
-SHA256: a783db0d0535921d1b30b78fc7d2264e8980e493dd2d1179895c8cc1d51702df
-
-Package: com.82flex.unseen
-Name: Unseen
-Description: Neutralizes CALayer disableUpdateMask in the render server.Unseen是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
-Maintainer: 82flex
-Author: 82flex
-Section: Tweaks
-Depends: firmware (>= 15.0), preferenceloader
-Architecture: iphoneos-arm64
-Version: 0.0.2
-Icon: https://huayuarc.github.io/icon/Unseen.jpg
-Installed-Size: 484
-Filename: debs/com.82flex.unseen_0.0.2_iphoneos-arm64.deb
-Size: 43520
-MD5sum: ac78ed0129741602d4a1f7a1460312d2
-SHA1: 
-SHA256: 99967817c96740bca6f7e13a2a1cbc13a47514a48288a99a23ca19005096827c
-
-Package: com.82flex.unseen
-Name: Unseen
+Name: Unseen 屏蔽截图录制检测
 Description: Neutralizes CALayer disableUpdateMask in the render server.Unseen是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
 Maintainer: 82flex
 Author: 82flex
@@ -1553,11 +1520,62 @@ Architecture: iphoneos-arm64e
 Version: 0.0.2
 Icon: https://huayuarc.github.io/icon/Unseen.jpg
 Installed-Size: 484
-Filename: debs/com.82flex.unseen_0.0.2_iphoneos-arm64e.deb
-Size: 43480
-MD5sum: 86c57bd3d18a44114031a6e411522db2
+Filename: debs/com.82flex.unseen-0.0.2-roothide.deb
+Size: 43512
+MD5sum: 6a727715cddccd0ac2ff1049930a83b0
 SHA1: 
-SHA256: 1cc6fe26125dc9dfe9d561e31c912087fbb1eda4d6f55867cba423802854cd06
+SHA256: eccac564b6dd65bf3516e0dd7263252faecbc2d43075056eda319f4baf798587
+
+Package: com.82flex.unseen
+Name: Unseen 屏蔽截图录制检测
+Description: Neutralizes CALayer disableUpdateMask in the render server.Unseen是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
+Maintainer: 82flex
+Author: 82flex
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Icon: https://huayuarc.github.io/icon/Unseen.jpg
+Installed-Size: 484
+Filename: debs/com.82flex.unseen-0.0.2-rootless.deb
+Size: 43544
+MD5sum: 2af2a2f94387eedcd78753f91797763c
+SHA1: 
+SHA256: 862d42ef839fb4b5757f014aae109d8d6c13b5a93738e51e53b9d53f34ee6d4f
+
+Package: com.82flex.unseen
+Name: Unseen 屏蔽截图录制检测
+Description: Neutralizes CALayer disableUpdateMask in the render server.Unseen是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
+Maintainer: 82flex
+Author: 82flex
+Section: Tweaks
+Depends: firmware (>= 14.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 484
+Icon: https://huayuarc.github.io/icon/Unseen.jpg
+Filename: debs/com.82flex.unseen-0.0.3-roothide.deb
+Size: 44400
+MD5sum: b794b974cff1ce0a1fe75fdf012a6bf6
+SHA1: 
+SHA256: 613824212db80cd485c2a82630da148e6ecc6e45a777fbaa879359ab9d5902d1
+
+Package: com.82flex.unseen
+Name: Unseen 屏蔽截图录制检测
+Description: Neutralizes CALayer disableUpdateMask in the render server.Unseen是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
+Maintainer: 82flex
+Author: 82flex
+Section: Tweaks
+Depends: firmware (>= 14.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 484
+Icon: https://huayuarc.github.io/icon/Unseen.jpg
+Filename: debs/com.82flex.unseen-0.0.3-rootless.deb
+Size: 44452
+MD5sum: 2a62a5be87d0ded451ebc22e5ba15e1a
+SHA1: 
+SHA256: b485869d2c81ae16fb780f2029710b77df763d7d83fd2cf3e6feb77cbd96f5bf
 
 Package: com.Doki.wxkeyboarduihook
 Name: 微信输入法自定义
