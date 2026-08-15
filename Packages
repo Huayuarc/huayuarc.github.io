@@ -4411,40 +4411,6 @@ MD5sum: 8dc60ff7acde10cf811b7e9fbf19fb09
 SHA1: 
 SHA256: 50f73d28842e382c36ba8609d8e4f2cffa34e8e9c82087f90f342b485c76336f
 
-Package: com.dopamine.manager
-Name: Dopamine Manager
-Depends: firmware (>= 15.0)
-Description: Configure Dopamine rootless app blacklist and var cleanup features It is recommended to use it with choicy. 配置多巴胺无根应用程序黑名单和 var 清理功能 建议与 choicy 一起使用。
-Maintainer: dopamine
-Author: dopamine
-Section: Development
-Icon: https://huayuarc.github.io/icon/Dopamine.jpg
-Architecture: iphoneos-arm64
-Version: 1.4.0
-Installed-Size: 600
-Filename: debs/com.dopamine.manager-1.4.0-rootless.deb
-Size: 359496
-MD5sum: 8c4d7e68c1dcc14925938108a9fc439f
-SHA1: 
-SHA256: ee30921e8cc3a895ab66a65662ab6dd53909ead44c8c774c64d0f92e734de176
-
-Package: com.dopamine.manager
-Name: Dopamine Manager
-Depends: firmware (>= 15.0)
-Description: Configure Dopamine rootless app blacklist and var cleanup features It is recommended to use it with choicy. 配置多巴胺无根应用程序黑名单和 var 清理功能 建议与 choicy 一起使用。
-Maintainer: dopamine
-Author: dopamine
-Section: Development
-Icon: https://huayuarc.github.io/icon/Dopamine.jpg
-Architecture: iphoneos-arm64
-Version: 1.4.1
-Installed-Size: 600
-Filename: debs/com.dopamine.manager-1.4.1-rootless.deb
-Size: 361552
-MD5sum: 3551dd451f8cdc8e7a382c55812e6d78
-SHA1: 
-SHA256: 949ba34a6ab621ae8d21f384676a3a790f27741fd8846a21e7c33e0f0840690c
-
 Package: com.eliassfeir.no2theftios15
 Name: No2Theft
 Depends: ws.hbang.common
@@ -14746,6 +14712,41 @@ Size: 117252
 MD5sum: df8d27fd6fe0122ea5ff8299afe9b157
 SHA1: 
 SHA256: 336f2660ee291261142b195ef063bf0aea546382ecf5445098cf26efc89827db
+
+Package: com.sini.recordanywhere
+Name: RecordAnywhere 锁屏录制
+icon: https://huayuarc.github.io/icon/camerapause.jpg
+Depends: mobilesubstrate
+Description: 使手机在锁屏状态也可以继续录屏。
+Maintainer: Muirey03 & lclrc
+Author: Muirey03 & lclrc
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.recordanywhere-1.1.0-roothide.deb
+Size: 4448
+MD5sum: 3ba4ba1fc0e4f3fcc782665426bf562d
+SHA1: 
+SHA256: e970891fe0c7140fe7017b6876eadc3585a09c64e0ea4a1c4cf027e8cb2b1bf6
+
+Package: com.sini.recordanywhere
+Name: RecordAnywhere 锁屏录制
+icon: https://huayuarc.github.io/icon/camerapause.jpg
+Depends: mobilesubstrate
+Description: 使手机在锁屏状态也可以继续录屏。
+Maintainer: Muirey03 & lclrc
+Author: Muirey03 & lclrc
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Installed-Size: 168
+Filename: debs/com.sini.recordanywhere-1.1.0-rootless.deb
+Size: 4548
+MD5sum: 9c4796761b1d9687a8088f027263d0cc
+SHA1: 
+SHA256: b7be6a54022228d23b86218c7ecba333ab91bb6e6ea2c475d158940cecc501ff
 
 Package: com.sini.recorder-bubble
 Section: Tweaks
