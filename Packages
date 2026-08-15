@@ -1385,6 +1385,41 @@ MD5sum: 55acbd31403ae94160a7d2dd830cb336
 SHA1: 
 SHA256: a0b60a0b389c5223d2907af7b2c78d1a3d8e968d11d985adc38f27b2f943489a
 
+Package: com.25mao.leftpan
+Version: 2.0-1
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>=1.0.4)
+Architecture: iphoneos-arm64e
+Installed-Size: 376
+Name: 左滑返回
+Author: Mao
+Sponsor: admin@25mao.com
+icon: https://huayuarc.github.io/icon/leftPan.png
+Description: 左滑返回
+Filename: debs/com.25mao.leftpan-2.0-1-roothide.deb
+Size: 32872
+MD5sum: f88660c20b28fc8a11bdf57a8979b4b0
+SHA1: 
+SHA256: 4c470eb9e4e3890397624fea584bcc3fcc368f1b97814cd7fa2f4f1dcdaf710d
+
+Package: com.25mao.leftpan
+Version: 2.0
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Architecture: iphoneos-arm64
+Name: 左滑返回
+Author: Mao
+icon: https://huayuarc.github.io/icon/leftPan.png
+Description: 左滑返回
+Filename: debs/com.25mao.leftpan-2.0-rootless.deb
+Size: 32516
+MD5sum: fb28c9fbcfa3d986f01e1d8ba8aec6f2
+SHA1: 
+SHA256: 6f2546d6159303d5fd52c60bb01dc691cddfc474cd06a24fa01326c8ba73bccb
+
 Package: com.25mao.leftpan.roothide
 Description: 左滑返回上一页面
 Version: 1.0-6
@@ -5191,6 +5226,48 @@ Size: 463624
 MD5sum: 508c5729debcbfdc77d20dde175e3da9
 SHA1: 
 SHA256: 481854af55ff0e33cf575340672c3742a4ca00963300d633e255a41c14f3ff5c
+
+Package: com.hmmzzz.fontmanager
+Name: MarkFont 全局字体管理器
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: Utilities
+Homepage: https://hmmzzz.github.io/repo/
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.3.5
+Installed-Size: 2376
+Filename: debs/com.hmmzzz.fontmanager-0.3.5-roothide.deb
+Size: 454368
+MD5sum: 555f89dd7aa61884857e8f14988c36b9
+SHA1: 
+SHA256: f53acd46cb6364c30df3a011e886a05bb29096595e3f60c32b5c9873800fe7ba
+
+Package: com.hmmzzz.fontmanager
+Name: MarkFont 全局字体管理器
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: Utilities
+Homepage: https://hmmzzz.github.io/repo/
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.3.5
+Installed-Size: 2392
+Filename: debs/com.hmmzzz.fontmanager-0.3.5-rootless.deb
+Size: 464140
+MD5sum: 2cf25f5a4b1ce19edb8187c1f6795fd1
+SHA1: 
+SHA256: fb18876df6179bcd4fcd99499578e53f689ab4e17b56d6ce020bca220d7486d8
 
 Package: com.hoangdus.konban
 Name: KonbanXV
