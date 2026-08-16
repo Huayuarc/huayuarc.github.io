@@ -4854,6 +4854,26 @@ MD5sum: d0690a7dcc1aa0244626ad9cd5a480b8
 SHA1: 
 SHA256: ef6152e622082e81bdb2b0cb908b18618535ee30d190ddaf46c3a3dfd3c63889
 
+Package: com.gdzhujun.sneakycam
+Name: SneakyCam 隐私相机
+Description: Discretely take a photo or record a video from anywhere, even with your screen off. iOS 17 roothide port of SparkDev's SneakyCam 2.0.6 (Activator replaced by Control Center modules).即使屏幕关闭，也可以在任何地方隐蔽地拍照或录制视频。SparkDev的SneakyCam 2.0.6的iOS 17根隐藏端口（激活器被控制中心模块取代）。
+Maintainer: gdzhujun
+Author: gdzhujun (original tweak by Spark, hook targets referenced from the 2.0.6 analysis)
+Section: Tweaks
+Conflicts: com.spark.sneakycam
+Replaces: com.spark.sneakycam
+Provides: com.spark.sneakycam
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 1.3.6
+Installed-Size: 816
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+Filename: debs/com.gdzhujun.sneakycam-1.3.6-roothide.deb
+Size: 58916
+MD5sum: a6551272638467e1ab4526226de5452c
+SHA1: 
+SHA256: f733c59d51e52de0c94e0dc5f94703b57749700f7f278ce71c79140625c859d6
+
 Package: com.go.mango
 Name: mango
 Description: 芒果，轻量分屏，舒适，顺手。qq群：1083674538 群管理售后qq：3047240958/985745559
