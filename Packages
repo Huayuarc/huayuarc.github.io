@@ -6386,6 +6386,42 @@ SHA1:
 SHA256: c738e22d57675d4c917658cd777306a8689eb604ebd3d08d86f849f78f91f53b
 
 Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.5.9-3
+Installed-Size: 1272
+Filename: debs/com.huayuarc.cputhermal-1.5.9-3-roothide.deb
+Size: 95900
+MD5sum: cf76c95a107f86fdfcf755c2ec999c22
+SHA1: 
+SHA256: 355cd1f7f95de6402392425e1bc58cd5c49c6ed3c11a8bc5db700ecc46665e22
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.5.9-3
+Installed-Size: 1328
+Filename: debs/com.huayuarc.cputhermal-1.5.9-3-rootless.deb
+Size: 99352
+MD5sum: 3dc55484bef8093493af4f9222af594e
+SHA1: 
+SHA256: ac66eac4ee1af4d9d556021a4aed8d9454f8a58c09211c8e58678229a075f85f
+
+Package: com.huayuarc.cputhermal
 Name: CPU解除温控
 Author: Huayuarc
 Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」将 CPU 频率锁定在 2016MHz 兼顾省电与性能。
@@ -22431,6 +22467,47 @@ Size: 5283932
 MD5sum: 59fb53c511a6025b35deb76fc4807106
 SHA1: 
 SHA256: e6386d72a4590995d2cca3347117a5ee92fc7ad2f4f3773bb037df39b486a9ac
+
+Package: wxyh
+Name: 微信优化
+Description: 微信核心与 HBB 本地兼容、二维码与视频优化
+Maintainer: jiajia
+Author: jiajia
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.m86nq.core, com.siwenjiajia.wechatyh
+Replaces: com.m86nq.core, com.siwenjiajia.wechatyh
+Provides: com.m86nq.core, com.siwenjiajia.wechatyh
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 1384
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/wxyh-1.0.1-roothide.deb
+Size: 335816
+MD5sum: 884c600f4b07764669e7dd727ee83e55
+SHA1: 
+SHA256: d1b704cabc661964e2302eae690b5918c1c585747949d44e39436c8c817338c8
+
+Package: wxyh
+Name: 微信优化
+Description: 微信核心与 HBB 本地兼容、二维码与视频优化
+Maintainer: jiajia
+Author: jiajia
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.m86nq.core, com.siwenjiajia.wechatyh
+Replaces: com.m86nq.core, com.siwenjiajia.wechatyh
+Provides: com.m86nq.core, com.siwenjiajia.wechatyh
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 1384
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/wxyh-1.0.1-rootless.deb
+Size: 342060
+MD5sum: 82cfadaa3250025a603d0136201d6d49
+SHA1: 
+SHA256: 415e99ebd3b5e6a60e3258e4d6a511d9d27dc81bf67024d3f32fdbdd9ef3ff9e
 
 Package: xc.lzsxcl.o2pro
 Name: o2Pro
