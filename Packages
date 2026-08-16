@@ -10246,6 +10246,42 @@ MD5sum: 7e682acf0829777cd492e06f59a02970
 SHA1: 
 SHA256: e7bb5f66b0b0256a8dae20d0c64ecf1e64860f4a192fd3b2b7192c0543a89690
 
+Package: com.muzi.mutescheduler
+Name: MuteScheduler 定时静音
+Description: 定时静音/取消静音插件，可在设置中配置时间、静音模式与闹钟式重复周期。
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Icon: https://muzikeji.github.io/Sileo/icons/mutescheduler.png
+Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.muzi.mutescheduler.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 440
+Filename: debs/com.muzi.mutescheduler-1.0.1-roothide.deb
+Size: 59128
+MD5sum: c61db8862bd05bb6db84e2d43cdbdb6e
+SHA1: 
+SHA256: 68a93d938c7b19edf05a0a360ed203d9d1cd32fcc9b4045f961c2769d11be5d9
+
+Package: com.muzi.mutescheduler
+Name: MuteScheduler 定时静音
+Description: 定时静音/取消静音插件，可在设置中配置时间、静音模式与闹钟式重复周期。
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Icon: https://muzikeji.github.io/Sileo/icons/mutescheduler.png
+Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.muzi.mutescheduler.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 440
+Filename: debs/com.muzi.mutescheduler-1.0.1-rootless.deb
+Size: 59252
+MD5sum: 6ca6c74f7cc2efe68916a6bfeb6c66f5
+SHA1: 
+SHA256: 855cfae6d7c6bacee6c84778f90b7134477493c0a981c3aecbf02bdbb4665dff
+
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
 Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
