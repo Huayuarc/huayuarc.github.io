@@ -1035,6 +1035,41 @@ SHA256: 66e49926fe88c6586d60ec70af3dea7ac98b511583eec0d6ca446983041735e4
 Package: cn.llld.snapshottool
 Name: STTool
 Author: 来了老弟
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Depends: mobilesubstrate
+Maintainer: 来了老弟
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/SnapshotTool.png
+Architecture: iphoneos-arm64e
+Version: 4.4
+Installed-Size: 1092
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/cn.llld.snapshottool-4.4-roothide.deb
+Size: 460044
+MD5sum: 64392081823a5746d85a69374cc70aa3
+SHA1: 
+SHA256: bdea382a122002c3228ee6e5dd1de1cd1b4cb9177a572151d5357b2bf8d3df33
+
+Package: cn.llld.snapshottool
+Name: STTool
+Author: 来了老弟
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Depends: mobilesubstrate
+Maintainer: 来了老弟
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/SnapshotTool.png
+Architecture: iphoneos-arm64
+Version: 4.4
+Installed-Size: 1092
+Filename: debs/cn.llld.snapshottool-4.4-rootless.deb
+Size: 465716
+MD5sum: 9eabe35588d118a11d87eb785fff3b57
+SHA1: 
+SHA256: 4223adcceaed9d6fb49e85afdfe3f21984c51d012366d42ebe8a97965f5117fa
+
+Package: cn.llld.snapshottool
+Name: STTool
+Author: 来了老弟
 Description: ---对于应用软件的图片，（无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
 Depends: mobilesubstrate
 Maintainer: 来了老弟
