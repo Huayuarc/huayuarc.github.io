@@ -6330,6 +6330,42 @@ SHA1:
 SHA256: d9f6a96da6cf085bc65e3c50bbebd1b1a1ddc3c5f82fe3f1a590fd6da9e847c1
 
 Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.5.9-2
+Installed-Size: 1272
+Filename: debs/com.huayuarc.cputhermal-1.5.9-2-roothide.deb
+Size: 95324
+MD5sum: 4ba388ed0f4e67d795d1a4851a027697
+SHA1: 
+SHA256: e2ba2577ad356491d6d7ae193be6181e9c0cea98540f400cd732d3adc9705401
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.5.9-2
+Installed-Size: 1328
+Filename: debs/com.huayuarc.cputhermal-1.5.9-2-rootless.deb
+Size: 98924
+MD5sum: 59371ad8b6ba25a0af1e18a78e2b91b6
+SHA1: 
+SHA256: c738e22d57675d4c917658cd777306a8689eb604ebd3d08d86f849f78f91f53b
+
+Package: com.huayuarc.cputhermal
 Name: CPU解除温控
 Author: Huayuarc
 Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」将 CPU 频率锁定在 2016MHz 兼顾省电与性能。
@@ -6857,6 +6893,40 @@ Size: 103336
 MD5sum: 5a3be8251831d6f81c23e044ae1baad8
 SHA1: 
 SHA256: f6f3576f81dca9d71b81fe3646fed2f1d28abeb6c680182b04e32348b732d845
+
+Package: com.huayuarc.sneakycam
+Name: SneakyCam 隐私相机
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Maintainer: Huayuarc
+Author: Huayuarc,Spark
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 2.1.3
+Installed-Size: 420
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+Filename: debs/com.huayuarc.sneakycam-2.1.3-roothide.deb
+Size: 94484
+MD5sum: f0663b296c913b5d61e40214eace21d0
+SHA1: 
+SHA256: c59cd967f84be8e588d5e58361dc1a8fe406a2bc48ec1bacd84d149a646616e5
+
+Package: com.huayuarc.sneakycam
+Name: SneakyCam 隐私相机
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Downloads
+Maintainer: Huayuarc
+Author: Huayuarc,Spark
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 2.1.3
+Installed-Size: 820
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+Filename: debs/com.huayuarc.sneakycam-2.1.3-rootless.deb
+Size: 103468
+MD5sum: 01b9b94cfe759cf233d66309458168aa
+SHA1: 
+SHA256: a3d96c35f727835982aca144e91e861b10cc1c047b276cd2e2ed8fab79e07912
 
 Package: com.huayuarc.speedster
 Name: Speedster
