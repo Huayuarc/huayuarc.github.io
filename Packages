@@ -8945,6 +8945,40 @@ MD5sum: 344d6909a977b464f13436766d7a3845
 SHA1: 
 SHA256: ab6f0373b419646a8456f4473ec3189457cdd3c0ab5746ea5abddc9d06204690
 
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Installed-Size: 2328
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-2.0.1-roothide.deb
+Size: 770760
+MD5sum: 3e9f2518cefaa5ae2bb92dd3e978ec3d
+SHA1: 
+SHA256: a34539dc74d04fe87c8d4b7d63684897b3a4432634fe9fa9708bcdf068ae55f9
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.0.1
+Installed-Size: 2348
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-2.0.1-rootless.deb
+Size: 773680
+MD5sum: 30408743a6317b88beec75f2a53a6d4b
+SHA1: 
+SHA256: f75180d732321cff92aeee05970999e70ca86287ab9c0f8444a7649ed59cac12
+
 Package: com.iosdump.trollcmtweak
 Name: TrollCM 触摸轨迹
 Depends: mobilesubstrate, preferenceloader
@@ -19671,6 +19705,24 @@ Size: 1876528
 MD5sum: f8ef48efb1d63c3694b4c103655038a0
 SHA1: 
 SHA256: 66eed0c1f62ee15b27095c77a6ef624bd3ffe9408c2d7bd7171b6eb3ba5f98b8
+
+Package: com.wkk.smoffice17
+Name: Smoffice for 丝滑光标
+Description: 丝滑光标，去掉下划线。
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.wkk.moderncaret.animation, com.wkk.dynamiccaret.kvc, com.wkk.dynamiccaret.getter
+Architecture: iphoneos-arm64e
+Version: 1.0-1
+icon: https://huayuarc.github.io/icon/smoffice17.jpg
+Installed-Size: 76
+Filename: debs/com.wkk.smoffice17-1.0-1-roothide.deb
+Size: 9224
+MD5sum: dd84928085fbb846f8a97dd502df920f
+SHA1: 
+SHA256: 829d254e1d20918c233069863e1846c7a37ec416a9d50d23d777bf3c269ac6dd
 
 Package: com.xamy.othellohelpervipunlock
 Name: OthelloHelper VIP Unlock
