@@ -6502,6 +6502,42 @@ Section: Tweaks
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Architecture: iphoneos-arm64e
+Version: 1.6.0-2
+Installed-Size: 1292
+Filename: debs/com.huayuarc.cputhermal-1.6.0-2-roothide.deb
+Size: 97504
+MD5sum: ad849a00f9802e14770240506a533849
+SHA1: 
+SHA256: fb38ee7db046a15c54d86484f0446ea96a9a4f52c94667e4c892bc0cee61b9a9
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.0-2
+Installed-Size: 1312
+Filename: debs/com.huayuarc.cputhermal-1.6.0-2-rootless.deb
+Size: 101392
+MD5sum: 7657ab3893d2866f6c13f8ded0ffb0a4
+SHA1: 
+SHA256: 61370f9cf321aef927d6bc0f80e4d760b9c9abbb6af5d206c3ad9fd536a5528c
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
 Version: 1.6.0
 Installed-Size: 1308
 Filename: debs/com.huayuarc.cputhermal-1.6.0-roothide.deb
