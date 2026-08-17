@@ -1178,16 +1178,16 @@ Maintainer: 来了老弟
 Author: 来了老弟
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
-icon: https://huayuarc.github.io/icon/ycicon.png
+icon: https://huayuarc.github.io/icon/ycvpn.jpg
 Architecture: iphoneos-arm64e
 Version: 0.0.2
 Installed-Size: 436
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/cn.llld.ycvpn-0.0.2-roothide.deb
-Size: 161948
-MD5sum: 410f117b821c363726122980327dc676
+Size: 161944
+MD5sum: 6bba45b3dcedc5bb91c751631481b253
 SHA1: 
-SHA256: c79d922ef6ccc57d65285fe33681c6786287dea86fdc1f6b12a4c44f812e04d5
+SHA256: b1df78392096a8d3ce321b25ebffd51f218ea2e885da3e9fba5f7fc20cd668ec
 
 Package: cn.llld.ycvpn
 Name: 隐藏项
@@ -1196,15 +1196,15 @@ Maintainer: 来了老弟
 Author: 来了老弟
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
-icon: https://huayuarc.github.io/icon/ycicon.png
+icon: https://huayuarc.github.io/icon/ycvpn.jpg
 Architecture: iphoneos-arm64
 Version: 0.0.2
 Installed-Size: 436
 Filename: debs/cn.llld.ycvpn-0.0.2-rootless.deb
-Size: 162452
-MD5sum: 4ca723f8174f7729d187ddf758a5dff2
+Size: 162432
+MD5sum: 35ca660ea428717016aefab6a3a4360e
 SHA1: 
-SHA256: 83626a8cc0a46bd65e16265a85558406990d69ff2e35ed568d2932eb2239b75d
+SHA256: cd09dd8e976ab2bfe75093833a942282be1f62d736923a81ab3d5f92588aaea3
 
 Package: cn.zqbb.ccatop
 Name: CocoaTop
@@ -4464,6 +4464,41 @@ MD5sum: 8dc60ff7acde10cf811b7e9fbf19fb09
 SHA1: 
 SHA256: 50f73d28842e382c36ba8609d8e4f2cffa34e8e9c82087f90f342b485c76336f
 
+Package: com.dvntm.lsnoswipe
+Name: LSNoSwipe 锁屏禁用摄像头
+Description: Disables swipe to open cam on the lock screen 禁用滑动以在锁定屏幕上打开摄像头
+Maintainer: dvntm
+Author: dvntm
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/lsnoswipe.jpg
+Filename: debs/com.dvntm.lsnoswipe-0.0.1-roothide.deb
+Size: 4032
+MD5sum: adefc0298461f29b809020c764752a63
+SHA1: 
+SHA256: 0bd2feb8407fd858e4c5a912aa78521cef4cc7b90627acdc1fac5d8cf65ec966
+
+Package: com.dvntm.lsnoswipe
+Name: LSNoSwipe 锁屏禁用摄像头
+Description: Disables swipe to open cam on the lock screen 禁用滑动以在锁定屏幕上打开摄像头
+Maintainer: dvntm
+Author: dvntm
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 152
+icon: https://huayuarc.github.io/icon/lsnoswipe.jpg
+Filename: debs/com.dvntm.lsnoswipe-0.0.1-rootless.deb
+Size: 4136
+MD5sum: 72f4f7d00933bf8663f21c702604e3b5
+SHA1: 
+SHA256: 952cf6919412438d837f8c29d146bfaeea9f14d456d0d22ce0dc757cdcccd64e
+
 Package: com.eliassfeir.no2theftios15
 Name: No2Theft
 Depends: ws.hbang.common
@@ -5287,7 +5322,7 @@ Name: MarkFont 全局字体管理器
 Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
 Maintainer: Hmmzzz
 Author: Hmmzzz
-Section: Utilities
+Section: System
 Homepage: https://hmmzzz.github.io/repo/
 Depends: firmware (>= 16.0), uikittools
 Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
@@ -5298,17 +5333,17 @@ Architecture: iphoneos-arm64e
 Version: 0.3.5
 Installed-Size: 2376
 Filename: debs/com.hmmzzz.fontmanager-0.3.5-roothide.deb
-Size: 454368
-MD5sum: 555f89dd7aa61884857e8f14988c36b9
+Size: 454576
+MD5sum: 27a2de55142a87a579b926038e029ced
 SHA1: 
-SHA256: f53acd46cb6364c30df3a011e886a05bb29096595e3f60c32b5c9873800fe7ba
+SHA256: d5f7e99ab98c1400a3226f78337313f356b0127027f8563a2218b53bd348563e
 
 Package: com.hmmzzz.fontmanager
 Name: MarkFont 全局字体管理器
 Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体。MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
 Maintainer: Hmmzzz
 Author: Hmmzzz
-Section: Utilities
+Section: System
 Homepage: https://hmmzzz.github.io/repo/
 Depends: firmware (>= 16.0), uikittools
 Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
@@ -5319,10 +5354,10 @@ Architecture: iphoneos-arm64
 Version: 0.3.5
 Installed-Size: 2392
 Filename: debs/com.hmmzzz.fontmanager-0.3.5-rootless.deb
-Size: 464140
-MD5sum: 2cf25f5a4b1ce19edb8187c1f6795fd1
+Size: 462420
+MD5sum: aabd66a4befcd42b4a5db3181891446e
 SHA1: 
-SHA256: fb18876df6179bcd4fcd99499578e53f689ab4e17b56d6ce020bca220d7486d8
+SHA256: cbeec8900e458f970eaf800114a8f58ec9095b3a2beec3986219c410b30a4894
 
 Package: com.hoangdus.konban
 Name: KonbanXV
