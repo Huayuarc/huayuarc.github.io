@@ -9374,6 +9374,40 @@ MD5sum: 65ece9bb9cd620df79b9f62434b1d736
 SHA1: 
 SHA256: 79db2584dcd42489d09c434e39c39281fb1f2229b097370aba513c882ccf3259
 
+Package: com.iosdump.trollcmtweak
+Name: TrollCM 触摸轨迹
+Depends: mobilesubstrate, preferenceloader
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Installed-Size: 476
+icon: https://huayuarc.github.io/icon/TrollCM.png
+Filename: debs/com.iosdump.trollcmtweak-1.1.8-roothide.deb
+Size: 56612
+MD5sum: 6d5e682086dab04684c1b53265d8beb8
+SHA1: 
+SHA256: 934b030857828d7319bffa726c735e638447009568a66896a4eecf944b456677
+
+Package: com.iosdump.trollcmtweak
+Name: TrollCM 触摸轨迹
+Depends: mobilesubstrate, preferenceloader
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1.8
+Installed-Size: 476
+icon: https://huayuarc.github.io/icon/TrollCM.png
+Filename: debs/com.iosdump.trollcmtweak-1.1.8-rootless.deb
+Size: 56800
+MD5sum: e420ee0f3ef262b8b8dbbd8c37437c2d
+SHA1: 
+SHA256: f447862c197a6b904b0b98af34039a5005f1973ce040da048c9b5df34f004492
+
 Package: com.iosdump.zone
 Name: Zone 交互/视频 壁纸
 Depends: mobilesubstrate, preferenceloader
