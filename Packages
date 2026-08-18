@@ -10976,6 +10976,42 @@ MD5sum: 7e682acf0829777cd492e06f59a02970
 SHA1: 
 SHA256: e7bb5f66b0b0256a8dae20d0c64ecf1e64860f4a192fd3b2b7192c0543a89690
 
+Package: com.muzi.dndscheduler
+Name: DNDScheduler 定时勿扰
+Description: 定时开启/关闭勿扰模式插件，可在设置中配置时间、勿扰开关与闹钟式重复周期。
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Icon: https://muzikeji.github.io/Sileo/icons/dndscheduler.png
+Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.muzi.dndscheduler.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 440
+Filename: debs/com.muzi.dndscheduler-1.0.1-roothide.deb
+Size: 59300
+MD5sum: 8e7babd7f1be7397c8ed20f83f7ece25
+SHA1: 
+SHA256: 448b56e8930d16dfc0ed8af5817eb6f734211162814447282a240bd8fad23072
+
+Package: com.muzi.dndscheduler
+Name: DNDScheduler 定时勿扰
+Description: 定时开启/关闭勿扰模式插件，可在设置中配置时间、勿扰开关与闹钟式重复周期。
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Icon: https://muzikeji.github.io/Sileo/icons/dndscheduler.png
+Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.muzi.dndscheduler.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 440
+Filename: debs/com.muzi.dndscheduler-1.0.1-rootless.deb
+Size: 59392
+MD5sum: be00de7aae601efc6d8ca30b0f881b57
+SHA1: 
+SHA256: 359fd8f52cd418b3d960abb89e0f07e66da255a3c46d86b4bb141c7e32e518d1
+
 Package: com.muzi.mutescheduler
 Name: MuteScheduler 定时静音
 Description: 定时静音/取消静音插件，可在设置中配置时间、静音模式与闹钟式重复周期。
