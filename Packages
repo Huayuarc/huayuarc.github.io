@@ -6846,7 +6846,7 @@ SHA1:
 SHA256: 3c7f4b3cedac3fcd328ca09fe672ae927895eefe454f9cdbace43a0315a301ac
 
 Package: com.huayuarc.manager
-Name: RootHide Manager 黑名单
+Name: RootHide Manager
 Depends: firmware (>= 15.0)
 Description: Configuare RootHide's Features
 Maintainer: roothide
@@ -6856,17 +6856,16 @@ icon: https://huayuarc.github.io/icon/roothide.jpg
 Depiction: https://github.com/roothide/RootHideManagerApp
 Support: https://github.com/roothide/RootHideManagerApp
 Architecture: iphoneos-arm64e
-Version: 0.0.1
-Installed-Size: 1152
-Conflicts: com.roothide.manager, cn.zqbb.inject.manager, com.sini921.disabledwarning
-Filename: debs/com.huayuarc.manager-0.0.1-roothide.deb
-Size: 754752
-MD5sum: c9022cc9370cae6401e02031b2c62401
+Version: 0.0.2
+Installed-Size: 1176
+Filename: debs/com.huayuarc.manager-0.0.2-roothide.deb
+Size: 759328
+MD5sum: cd6b144502fbf3f0883a40fd1ed7069a
 SHA1: 
-SHA256: 35f2d808b6bcf05a8ea5922ea1e68c21e3b3d4ded8f5fef06a4429479474b20d
+SHA256: 0ee19cb17394128c9d992c08739875783a4fe6b1a0e64befbc14046afe7198a0
 
 Package: com.huayuarc.manager
-Name: RootHide Manager 黑名单
+Name: RootHide Manager
 Depends: firmware (>= 15.0)
 Description: Configuare RootHide's Features
 Maintainer: roothide
@@ -6876,14 +6875,13 @@ icon: https://huayuarc.github.io/icon/roothide.jpg
 Depiction: https://github.com/roothide/RootHideManagerApp
 Support: https://github.com/roothide/RootHideManagerApp
 Architecture: iphoneos-arm64
-Version: 0.0.1
-Installed-Size: 944
-Conflicts: com.roothide.manager, cn.zqbb.inject.manager, com.sini921.disabledwarning
-Filename: debs/com.huayuarc.manager-0.0.1-rootless.deb
-Size: 736256
-MD5sum: 7f3b4d244bee7f39f27dc74393c9964d
+Version: 0.0.2
+Installed-Size: 952
+Filename: debs/com.huayuarc.manager-0.0.2-rootless.deb
+Size: 739340
+MD5sum: 64a4ce265e29e7d2ebfdac0c57991821
 SHA1: 
-SHA256: a140419a4d44d93cf7c65f98e39c1353103070e77ce8a3f626a82b9023d13731
+SHA256: 7341eab17e8dfb00ac95e89183e5244bbf7edea7bdb600551b3c5250b68f52e6
 
 Package: com.huayuarc.picturemodule16
 Name: 控制中心图片视频模块
