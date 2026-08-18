@@ -7857,6 +7857,40 @@ MD5sum: 4333a87934b5af1bb451e6915e1172f2
 SHA1: 
 SHA256: 74078dc20e12655b3e686b77c647230323b15cd81d61f75cdd91cc09f38ed8b7
 
+Package: com.huayuarc.vpncontrolcenter
+Name: VPN Control Center
+Description: Control Center VPN toggle and VPN configuration selector 控制中心VPN切换和VPN配置
+Maintainer: Huayuarc
+Author: Huayuarc
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Installed-Size: 148
+icon: https://huayuarc.github.io/icon/vpncontrolcenter.jpg
+Filename: debs/com.huayuarc.vpncontrolcenter-1.1.1-roothide.deb
+Size: 25552
+MD5sum: 19cb5d9f2cc8ee0fe6327b25bd0f3b9d
+SHA1: 
+SHA256: 3cccde8237929210af25f0605bc0daa09c74bb591282f9173afa28ab7603801d
+
+Package: com.huayuarc.vpncontrolcenter
+Name: VPN Control Center
+Description: Control Center VPN toggle and VPN configuration selector 控制中心VPN切换和VPN配置
+Maintainer: Huayuarc
+Author: Huayuarc
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Installed-Size: 148
+icon: https://huayuarc.github.io/icon/vpncontrolcenter.jpg
+Filename: debs/com.huayuarc.vpncontrolcenter-1.1.1-rootless.deb
+Size: 25480
+MD5sum: 539959d4d3eed88ccd13cb7efe7312a9
+SHA1: 
+SHA256: 32b7cf54541dfd9692e0c61598e89d68ab5cbdc55c1fe29f7e4f837f2d480e25
+
 Package: com.huayuarc.zombiereaper
 Name: ZombieReaper 清理子进程
 Description: Auto-reap zombie child processes for SpringBoard 后台每5秒自动清理SpringBoard产生的僵尸子进程，防止大量调用外部脚本后堆积僵尸进程、耗尽系统PID，避免后续命令无法正常拉起。仅作用于SpringBoard进程。
