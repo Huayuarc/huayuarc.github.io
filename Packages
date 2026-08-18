@@ -15756,18 +15756,37 @@ Version: 2.6
 Section: Tweaks
 Maintainer: sini921
 Depends: firmware (>=13.0), mobilesubstrate
-Architecture: iphoneos-arm64
-Name: ReachPlayer
+Architecture: iphoneos-arm64e
+Name: ReachPlayer 便捷访问
 Author: ETHN
 Sponsor: sini921
 Description: 一个好看的音乐窗口
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/reach/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/reach.png
-Filename: debs/com.sini.reachplayer_2.6_iphoneos-arm64.deb
-Size: 117252
-MD5sum: df8d27fd6fe0122ea5ff8299afe9b157
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.reachplayer-2.6-roothide.deb
+Size: 115456
+MD5sum: 8eae7d891130ee1cf824cdac4e61f753
 SHA1: 
-SHA256: 336f2660ee291261142b195ef063bf0aea546382ecf5445098cf26efc89827db
+SHA256: 39e7c53aef053b119b8ceefff54e2b080b8d3ab2c318c980ae18830cc3d7fd6a
+
+Package: com.sini.reachplayer
+Version: 2.6
+Section: Tweaks
+Maintainer: sini921
+Depends: firmware (>=13.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Name: ReachPlayer 便捷访问
+Author: ETHN
+Sponsor: sini921
+Description: 一个好看的音乐窗口
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/reach/js.json
+icon: https://sini921.github.io/repo/sileodepiction/icon/reach.png
+Filename: debs/com.sini.reachplayer-2.6-rootless.deb
+Size: 117228
+MD5sum: a0ea2c09643092488be3409f26dee0e9
+SHA1: 
+SHA256: 4a6aefe45b5d46fd896a61271f60528ee1e0b8d47e32eb6a3108259edcbe8111
 
 Package: com.sini.recordanywhere
 Name: RecordAnywhere 锁屏录制
@@ -18125,6 +18144,42 @@ Size: 89236
 MD5sum: 54f33e868a0756e45011ed6d55c71f57
 SHA1: 
 SHA256: 3db1731e132be26335177074a005ed3e0ca14333ffd1281837e5c18b299e2762
+
+Package: com.sini921.reachplayer
+Name: ReachPlayer 便捷访问
+Description: 在便捷访问模式上方的空白处增加音乐控制器，基于开源优化编译。
+Maintainer: Muzi
+Author: ETHN & SINI & 鲨鱼
+Section: Tweaks
+Icon: https://muzikeji.github.io/Sileo/icons/reachplayer.png
+Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.sini921.reachplayer.json
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.26-6
+Installed-Size: 3348
+Filename: debs/com.sini921.reachplayer-2.26-6-roothide.deb
+Size: 2536052
+MD5sum: 135cd5920530fc83a70cfe9ba7372bc3
+SHA1: 
+SHA256: e192c212ad29450a45a066dfe279ffd9118ca2dc2c977e26bf9fed4b664289ff
+
+Package: com.sini921.reachplayer
+Name: ReachPlayer 便捷访问
+Description: 在便捷访问模式上方的空白处增加音乐控制器，基于开源优化编译。
+Maintainer: Muzi
+Author: ETHN & SINI & 鲨鱼
+Section: Tweaks
+Icon: https://muzikeji.github.io/Sileo/icons/reachplayer.png
+Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.sini921.reachplayer.json
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.26-6
+Installed-Size: 3348
+Filename: debs/com.sini921.reachplayer-2.26-6-rootless.deb
+Size: 2538316
+MD5sum: e0206de4feb26c84b8088b94d4b9e7fb
+SHA1: 
+SHA256: 1b050f00420a70e103fe9c39762ea4d8a8e7e10a2469331618c0ae6fea4c609f
 
 Package: com.sini921.removequickactionsbutton
 Name: RemoveQuickActionsButton
