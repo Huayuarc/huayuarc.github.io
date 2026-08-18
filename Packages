@@ -10978,6 +10978,40 @@ MD5sum: 6ca6c74f7cc2efe68916a6bfeb6c66f5
 SHA1: 
 SHA256: 855cfae6d7c6bacee6c84778f90b7134477493c0a981c3aecbf02bdbb4665dff
 
+Package: com.muzi.mutool
+Name: MUtool 定时任务
+Description: 定时任务、禁用 SIM 切换、充电提示音与 MagSafe 动画、锁屏功能（自动进桌面/禁用/隐藏/通知亮屏/双击操作）
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Installed-Size: 828
+icon: https://huayuarc.github.io/icon/mutoolprefs.png
+Filename: debs/com.muzi.mutool-1.0.7-roothide.deb
+Size: 120600
+MD5sum: 878600a1fb1b0008e0763014b1ee800b
+SHA1: 
+SHA256: d4df2be39d87f095a8b93b0736bd3cc7a85d1bbbb3afd1c6d49a3a3957c949b1
+
+Package: com.muzi.mutool
+Name: MUtool 定时任务
+Description: 定时任务、禁用 SIM 切换、充电提示音与 MagSafe 动画、锁屏功能（自动进桌面/禁用/隐藏/通知亮屏/双击操作）
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Installed-Size: 828
+icon: https://huayuarc.github.io/icon/mutoolprefs.png
+Filename: debs/com.muzi.mutool-1.0.7-rootless.deb
+Size: 123400
+MD5sum: 789d97f175a67524e962cd9582798a31
+SHA1: 
+SHA256: 98e75e5df8ea5b647b9a69ad1ea73744616b4806eb003ac615c3d2e6754a353f
+
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
 Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
@@ -22935,6 +22969,52 @@ Size: 6572
 MD5sum: ed5bf497ce629c4d73ab7144973b8d4a
 SHA1: 
 SHA256: a40470c81fb59d6177e0c7de06fdc1b262796383931313a4f22c327b020b5cc7
+
+Package: wiki.qaq.ighostty
+Name: iGhostty
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Description: Ghostty-powered terminal for jailbroken iOS
+ * Terminal emulator built on libghostty's terminal core with a host-managed
+ * I/O backend. Packaged for both roothide and rootless bootstraps; the
+ * architecture field says which build this is.
+ * Shells are spawned by the bundled ighosttyd daemon and survive app
+ * relaunches; SSH transport is planned on the same transport interface.
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Terminal Support
+Priority: optional
+Depends: firmware (>= 15.0), uikittools
+Installed-Size: 18028
+icon: https://huayuarc.github.io/icon/iGhostty.png
+Filename: debs/wiki.qaq.ighostty-0.1.0-roothide.deb
+Size: 7082736
+MD5sum: e1771013f2256f0948c22bc352cad405
+SHA1: 
+SHA256: a58c1a308499564f05072f731a1ac5bb2450b49f708031716ed9df3479eab165
+
+Package: wiki.qaq.ighostty
+Name: iGhostty
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Description: Ghostty-powered terminal for jailbroken iOS
+ * Terminal emulator built on libghostty's terminal core with a host-managed
+ * I/O backend. Packaged for both roothide and rootless bootstraps; the
+ * architecture field says which build this is.
+ * Shells are spawned by the bundled ighosttyd daemon and survive app
+ * relaunches; SSH transport is planned on the same transport interface.
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Terminal Support
+Priority: optional
+Depends: firmware (>= 15.0), uikittools
+Installed-Size: 18028
+icon: https://huayuarc.github.io/icon/iGhostty.png
+Filename: debs/wiki.qaq.ighostty-0.1.0-rootless.deb
+Size: 7080552
+MD5sum: 3b8b4e0800290bc76db78a8724fb1356
+SHA1: 
+SHA256: bbd7481948124ab35097a540a5093c887180db13a31bfcaba50533553f2ececa
 
 Package: ws.hbang.newterm3
 Name: NewTerm 3 Beta iOS 终端
