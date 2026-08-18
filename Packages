@@ -22823,6 +22823,57 @@ MD5sum: 93ba85ed2e5575ef8c43cea46e40ef04
 SHA1: 
 SHA256: fc86cb036498381bb02888f9d5b0abdccd506991e4485e39eb37c478dd272379
 
+Package: wxyh
+Name: 微信优化
+Description: 微信核心与 HBB 本地兼容、二维码与视频优化
+ * 新增内置解析（两个公益接口） 
+ * 新增自动检测群友/好友空白昵称支持一键更改为自定义备注
+ * 新增更改固定群成员备注在昵称前缀加自定义字符
+ * 新增自定义网页（添加网页后右侧收纳线常驻,点击后呼出,如果是视频网页的话,观看视频会直接调用小窗口）为什么写这个功能,意义我不知道,我只是在看白月光朋友圈的时候突然想撸了,想一边看白月光一边看片,没办法这就是性情
+ * 新增哟哟哟（输入你想自动追问的wixd检测到对方说话你讲自动追问他）（支持艾特）
+Maintainer: jiajia
+Author: jiajia
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.m86nq.core, com.siwenjiajia.wechatyh
+Replaces: com.m86nq.core, com.siwenjiajia.wechatyh
+Provides: com.m86nq.core, com.siwenjiajia.wechatyh
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Installed-Size: 2208
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/wxyh-1.0.3-roothide.deb
+Size: 537532
+MD5sum: 9a454fc9455bc83b328bf596ef5fb7b6
+SHA1: 
+SHA256: 49e57c248ad76eaa1e7ebcf7a0a4c25c95c6fac8f42b955c90959f537ac0c195
+
+Package: wxyh
+Name: 微信优化
+Description: 微信核心与 HBB 本地兼容、二维码与视频优化
+ * 新增内置解析（两个公益接口） 
+ * 新增自动检测群友/好友空白昵称支持一键更改为自定义备注
+ * 新增更改固定群成员备注在昵称前缀加自定义字符
+ * 新增自定义网页（添加网页后右侧收纳线常驻,点击后呼出,如果是视频网页的话,观看视频会直接调用小窗口）为什么写这个功能,意义我不知道,我只是在看白月光朋友圈的时候突然想撸了,想一边看白月光一边看片,没办法这就是性情
+ * 新增哟哟哟（输入你想自动追问的wixd检测到对方说话你讲自动追问他）（支持艾特）
+Maintainer: jiajia
+Author: jiajia
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.m86nq.core, com.siwenjiajia.wechatyh
+Replaces: com.m86nq.core, com.siwenjiajia.wechatyh
+Provides: com.m86nq.core, com.siwenjiajia.wechatyh
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Installed-Size: 2208
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/wxyh-1.0.3-rootless.deb
+Size: 546984
+MD5sum: f9abeffcf165afbcb9038e59476ae69b
+SHA1: 
+SHA256: 9359661c39332979a069afe8006fc34722e6d77061dd682509c51be264631b65
+
 Package: xc.lzsxcl.o2pro
 Name: o2Pro
 Architecture: iphoneos-arm64e
