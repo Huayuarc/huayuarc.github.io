@@ -5359,6 +5359,56 @@ MD5sum: aabd66a4befcd42b4a5db3181891446e
 SHA1: 
 SHA256: cbeec8900e458f970eaf800114a8f58ec9095b3a2beec3986219c410b30a4894
 
+Package: com.hmmzzz.fontmanager
+Name: MarkFont 字体管理器
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://hmmzzz.github.io/repo/
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.3.7
+Installed-Size: 2512
+Filename: debs/com.hmmzzz.fontmanager-0.3.7-roothide.deb
+Size: 494332
+MD5sum: c0726ae3a112a488c5bfc7951052151b
+SHA1: 
+SHA256: c11e2df12a5bbde71b5e0893f26a25e7d838fc5e193f1d91dc30e3f5806dc8c5
+
+Package: com.hmmzzz.fontmanager
+Name: MarkFont 字体管理器
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://hmmzzz.github.io/repo/
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.3.7
+Installed-Size: 2528
+Filename: debs/com.hmmzzz.fontmanager-0.3.7-rootless.deb
+Size: 504328
+MD5sum: 0629b24546f205f3be694685e8e9f6e7
+SHA1: 
+SHA256: 649391dae103b84f1fef4dcd06fd96d9504d94b2e484bc6d1d9800c2fed91c40
+
 Package: com.hoangdus.konban
 Name: KonbanXV
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 15.0), com.opa334.altlist, preferenceloader
@@ -6563,6 +6613,42 @@ Size: 101360
 MD5sum: 2fa538dcdc8e4deaa40d833d6fe9a1ea
 SHA1: 
 SHA256: d6e403c50451fc35762879672f894f0cefb94fefec5bbbd4d75b1f2c35d5b9c5
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.0-4
+Installed-Size: 1292
+Filename: debs/com.huayuarc.cputhermal-1.6.0-4-roothide.deb
+Size: 98196
+MD5sum: 0e0440d3734f3f1da5fd9e1610a3079c
+SHA1: 
+SHA256: 2bf44f834f957e201e51c8e19266cfe8e33a50b0bbb4e287087abdab20b12212
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.0-4
+Installed-Size: 1312
+Filename: debs/com.huayuarc.cputhermal-1.6.0-4-rootless.deb
+Size: 101964
+MD5sum: 7fcb815099a84fb7dffb12e0ce483ef4
+SHA1: 
+SHA256: 077bc9b89a8f2637611f44cd1965192135cecd3428092138f23eb820f2de1f84
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
@@ -8149,6 +8235,40 @@ MD5sum: f147155eb43d13317c620d3494687a02
 SHA1: 
 SHA256: 00cc318bc720661e1b6aa386dbcfd8d389483f13fef6903dcd02fddc7cc93d47
 
+Package: com.iosdump.appmute
+Name: AppMute 静音媒体音量
+Depends: mobilesubstrate
+Description: 支持iOS14-17桌面长按图标快捷开启启动应用自动静音媒体音量开关。
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/appmute.jpg
+Filename: debs/com.iosdump.appmute-0.0.1-roothide.deb
+Size: 10696
+MD5sum: ff60b773d67a97bacd5441405f821227
+SHA1: 
+SHA256: 81d3a20e66b9b16c674a09fd3a48f83fe5a98dbee2582aa366ba8cfd223b60eb
+
+Package: com.iosdump.appmute
+Name: AppMute 静音媒体音量
+Depends: mobilesubstrate
+Description: 支持iOS14-17桌面长按图标快捷开启启动应用自动静音媒体音量开关。
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/appmute.jpg
+Filename: debs/com.iosdump.appmute-0.0.1-rootless.deb
+Size: 11800
+MD5sum: 2863286fdb7e18d87d13dc9c365e55ac
+SHA1: 
+SHA256: e857872f8509e472d1bf7fe0e881b4fdecfa1ac0f48f4fce50f9d3076bba20f3
+
 Package: com.iosdump.customcallbg
 Name: 自定义来去电背景
 Depends: mobilesubstrate, preferenceloader
@@ -9083,6 +9203,40 @@ Size: 773680
 MD5sum: 30408743a6317b88beec75f2a53a6d4b
 SHA1: 
 SHA256: f75180d732321cff92aeee05970999e70ca86287ab9c0f8444a7649ed59cac12
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.0.9
+Installed-Size: 2560
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-2.0.9-roothide.deb
+Size: 822280
+MD5sum: 19d7c2bf0674c72e438e457d0571edc5
+SHA1: 
+SHA256: d0c1fc7908dc7a3badfab0aea21b629b96ea98582e4a4909dce70041b9057c69
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.0.9
+Installed-Size: 2592
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-2.0.9-rootless.deb
+Size: 824416
+MD5sum: 2890e31bfb219f9d5e1ce507c1b53bbd
+SHA1: 
+SHA256: 7eab9f2059e9889320fee6d6648c0de83cc83c537bfd45fff6ab723a365f5e45
 
 Package: com.iosdump.trollcmtweak
 Name: TrollCM 触摸轨迹
@@ -19459,6 +19613,46 @@ Size: 311108
 MD5sum: b6202f18f74de2b263c8ab40391c94d3
 SHA1: 
 SHA256: b4142eac5f72cc4b17b164f6c50c0fe2531cae74f57d87abafb05579c467f0b2
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 1.8.6
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-1.8.6-roothide.deb
+Size: 324224
+MD5sum: 5c99d1f6ed521744d2c524816e03d713
+SHA1: 
+SHA256: 2106ded80b457f6ec103488b1079ec254ab2599c765b49a36ffd81830552ebce
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 1.8.6
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-1.8.6-rootless.deb
+Size: 325924
+MD5sum: fc02fc5aa9078c8f795ad066378f8686
+SHA1: 
+SHA256: 2f7c244da26c8f0e9304c17cc0575b0c473428c5f36dda578b3c5517cb3698e3
 
 Package: com.tune.h3kbhook
 Name: 元书输入法 Hooks
