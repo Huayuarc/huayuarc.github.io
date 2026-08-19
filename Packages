@@ -9280,6 +9280,40 @@ Maintainer: iosdump
 Author: iosdump
 Section: Tweaks
 Architecture: iphoneos-arm64e
+Version: 2.0.10
+Installed-Size: 2560
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-2.0.10-roothide.deb
+Size: 822568
+MD5sum: a588b515206bae264867b9b2ef2ae2fb
+SHA1: 
+SHA256: 512db96d517b40d4509a775f8bd646d882c80141e511210fff282e9b4b3f227f
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.0.10
+Installed-Size: 2592
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-2.0.10-rootless.deb
+Size: 824896
+MD5sum: 28a9401a61607acb9b78d9356f2e6928
+SHA1: 
+SHA256: 06e79d1c09196295416618e009aad904d1257471e6dc5e63aa9d2d4aa382268a
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
 Version: 2.0.9
 Installed-Size: 2560
 icon: https://huayuarc.github.io/icon/SHELLX.png
@@ -11115,6 +11149,40 @@ Size: 59252
 MD5sum: 6ca6c74f7cc2efe68916a6bfeb6c66f5
 SHA1: 
 SHA256: 855cfae6d7c6bacee6c84778f90b7134477493c0a981c3aecbf02bdbb4665dff
+
+Package: com.muzi.mutool
+Name: MUtool 定时任务
+Description: 定时任务、禁用 SIM 切换、充电提示音与 MagSafe 动画、锁屏功能（自动进桌面/禁用/隐藏/通知亮屏/双击操作）
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.14
+Installed-Size: 1124
+icon: https://huayuarc.github.io/icon/mutoolprefs.png
+Filename: debs/com.muzi.mutool-1.0.14-roothide.deb
+Size: 159948
+MD5sum: 56bb26f7bc172469cfb694677efe460b
+SHA1: 
+SHA256: 8dcaab322d9a2612e8f9748ce22f187729a863f88ed1aaac87a9393cd66986d0
+
+Package: com.muzi.mutool
+Name: MUtool 定时任务
+Description: 定时任务、禁用 SIM 切换、充电提示音与 MagSafe 动画、锁屏功能（自动进桌面/禁用/隐藏/通知亮屏/双击操作）
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.14
+Installed-Size: 1124
+icon: https://huayuarc.github.io/icon/mutoolprefs.png
+Filename: debs/com.muzi.mutool-1.0.14-rootless.deb
+Size: 161968
+MD5sum: 1b8665d6a3b7a0fa4b37e71bb2b83ddd
+SHA1: 
+SHA256: 346c1a8144ea1f5e0da6454406d9b68673d1a409c291b87699ba9b6640aeb6ea
 
 Package: com.muzi.mutool
 Name: MUtool 定时任务
