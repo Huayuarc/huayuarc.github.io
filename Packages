@@ -23759,6 +23759,47 @@ MD5sum: f9abeffcf165afbcb9038e59476ae69b
 SHA1: 
 SHA256: 9359661c39332979a069afe8006fc34722e6d77061dd682509c51be264631b65
 
+Package: wxyh
+Name: 微信优化
+Description: 微信核心与 HBB 本地兼容、二维码与视频优化
+Maintainer: jiajia
+Author: jiajia
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.m86nq.core, com.siwenjiajia.wechatyh
+Replaces: com.m86nq.core, com.siwenjiajia.wechatyh
+Provides: com.m86nq.core, com.siwenjiajia.wechatyh
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Installed-Size: 2340
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/wxyh-1.0.5-roothide.deb
+Size: 569784
+MD5sum: ca052dbc2ca43c4afc913c05b300e953
+SHA1: 
+SHA256: 2e19f99d26db661e7ac731bc6c7047612bc3de1ddc2fd9e387c692dd8c086d5c
+
+Package: wxyh
+Name: 微信优化
+Description: 微信核心与 HBB 本地兼容、二维码与视频优化
+Maintainer: jiajia
+Author: jiajia
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.m86nq.core, com.siwenjiajia.wechatyh
+Replaces: com.m86nq.core, com.siwenjiajia.wechatyh
+Provides: com.m86nq.core, com.siwenjiajia.wechatyh
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Installed-Size: 2340
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/wxyh-1.0.5-rootless.deb
+Size: 579608
+MD5sum: c8c6a5e0f7a89383fc08822385a65982
+SHA1: 
+SHA256: 194fe93ed35a50864ed694fa973e747e3ea6222f7eb5734233fbd6cd31d5cfaa
+
 Package: xc.lzsxcl.o2pro
 Name: o2Pro
 Architecture: iphoneos-arm64e
