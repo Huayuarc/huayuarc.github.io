@@ -10788,15 +10788,15 @@ Author: mikifp
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 15.0)
 Conflicts: com.dao.griddy, xyz.cypwn.griddy
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/griddy/js.json
+icon: https://huayuarc.github.io/icon/Griddy.jpg
 Architecture: iphoneos-arm64e
 Version: 1.2.1
 Installed-Size: 272
 Filename: debs/com.mikifp.griddy-1.2.1-roothide.deb
 Size: 26372
-MD5sum: 9003abc6f5332e527d76a4b7ff94b42b
+MD5sum: c648477bd3ec1ee45f1ca16f0980eb50
 SHA1: 
-SHA256: a7141fa2ac11fe841c7303fb59b0831416f6f9023be0bc779d1d0725f6eaf74f
+SHA256: 1bfc073a070baeae89c509bacea3ec1037fc3fb7b3a03efbfdf6a7d28b4c840b
 
 Package: com.mikifp.griddy
 Name: Griddy 图标随意摆
@@ -10806,15 +10806,15 @@ Author: mikifp
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 15.0)
 Conflicts: com.dao.griddy, xyz.cypwn.griddy
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/griddy/js.json
 Architecture: iphoneos-arm64
 Version: 1.2.1
 Installed-Size: 272
+icon: https://huayuarc.github.io/icon/Griddy.jpg
 Filename: debs/com.mikifp.griddy-1.2.1-rootless.deb
-Size: 27420
-MD5sum: df269a940b4a852bbce6a8aeefab7342
+Size: 27352
+MD5sum: 90d03bb0d4a294d805f2bee09e922fbb
 SHA1: 
-SHA256: 355d47381d8fc5e63c9150f138a1c7e212d6faa58b53d563ad1946780c92c2d6
+SHA256: a64520a5956c01cd75a6a27d2d6cfb631835a536724f37812fcdfbd4d8643738
 
 Package: com.miro.libmiroshared
 Name: libMiROShared
