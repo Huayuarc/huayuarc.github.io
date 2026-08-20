@@ -649,6 +649,41 @@ MD5sum: 596f2c95e1b8dbd615b43363baea1d91
 SHA1: 
 SHA256: 21fe9615c88fc1e3740f0dcc7658da4de01f66137a1d633f60e98e424cd019f0
 
+Package: cn.llld.biaoji
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存，高亮，文字等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.6
+Installed-Size: 164
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.llld.biaoji-1.6-roothide.deb
+Size: 37576
+MD5sum: 33fdfdf486b83a05bfe23ea1ddc3d0f8
+SHA1: 
+SHA256: d860b83425df5687341f07244d829b6d271c6318f5a895362c7ccf05e93dd44a
+
+Package: cn.llld.biaoji
+Name: Snapper 截图标记
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存，高亮，文字等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.6
+Installed-Size: 164
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.llld.biaoji-1.6-rootless.deb
+Size: 38256
+MD5sum: 31bf4951bb9d914c397dfaddaaabc340
+SHA1: 
+SHA256: f2bb973ae3ae491cb7b4c349c2696390070262311cb74f1f63c7ce084f0898ee
+
 Package: cn.llld.fixdh1
 Name: phonefix
 Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度2850-3150）
@@ -1646,6 +1681,40 @@ Size: 44452
 MD5sum: 2a62a5be87d0ded451ebc22e5ba15e1a
 SHA1: 
 SHA256: b485869d2c81ae16fb780f2029710b77df763d7d83fd2cf3e6feb77cbd96f5bf
+
+Package: com.82flex.unseen
+Name: Unseen 屏蔽截图录制检测
+Description: Neutralizes CALayer disableUpdateMask in the render server.Unseen是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
+Maintainer: 82flex
+Author: 82flex
+Section: Tweaks
+Depends: firmware (>= 14.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.0.4
+Installed-Size: 512
+Icon: https://huayuarc.github.io/icon/Unseen.jpg
+Filename: debs/com.82flex.unseen-0.0.4-roothide.deb
+Size: 52536
+MD5sum: ac153e3d4ddf5502a269f909201521a3
+SHA1: 
+SHA256: 2702bf6f5e7e9a3a0ffd44cede1a814a26751bb7c10e7be0d5a1abeecd0fa469
+
+Package: com.82flex.unseen
+Name: Unseen 屏蔽截图录制检测
+Description: Neutralizes CALayer disableUpdateMask in the render server.Unseen是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
+Maintainer: 82flex
+Author: 82flex
+Section: Tweaks
+Depends: firmware (>= 14.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Installed-Size: 528
+Icon: https://huayuarc.github.io/icon/Unseen.jpg
+Filename: debs/com.82flex.unseen-0.0.4-rootless.deb
+Size: 52404
+MD5sum: dcfc9f80138560db1ee4df4476a100f0
+SHA1: 
+SHA256: 915f64bc3f458f67ebc345126b228416b4b1305c76ed7a3168600fae03fea445
 
 Package: com.Doki.wxkeyboarduihook
 Name: 微信输入法自定义
@@ -5481,6 +5550,60 @@ Size: 2357012
 MD5sum: 2b4e36caf025c6de12dcb356bbce857f
 SHA1: 
 SHA256: 333ec8285bfd044c921708d1a9db9e168277c6af9aa363ccd03cb03560d6cd32
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.1.6
+Installed-Size: 8820
+Filename: debs/com.hmmzzz.marktheme-0.1.6-roothide.deb
+Size: 2385992
+MD5sum: a184af28ad378aa680e251ff05cb0268
+SHA1: 
+SHA256: 9245cad36f65f304b049012a7497295ce47a101ad86325d164828894a83a64a6
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.1.6
+Installed-Size: 8836
+Filename: debs/com.hmmzzz.marktheme-0.1.6-rootless.deb
+Size: 2393348
+MD5sum: 67521e6f3f88378fa4713a17c8f9accb
+SHA1: 
+SHA256: 1a5e530e1b945ec2a44dd51c66df56a12f02db5e620dc8a641e42cabd7524c52
 
 Package: com.hoangdus.konban
 Name: KonbanXV
@@ -9378,6 +9501,42 @@ Size: 824416
 MD5sum: 2890e31bfb219f9d5e1ce507c1b53bbd
 SHA1: 
 SHA256: 7eab9f2059e9889320fee6d6648c0de83cc83c537bfd45fff6ab723a365f5e45
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.1.1
+Installed-Size: 2788
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-2.1.1-roothide.deb
+Size: 878580
+MD5sum: 38dbb567960ab44b8685597d6761a8dc
+SHA1: 
+SHA256: a2e77c376a5113a2ba724ab9ee4c7218dd5af38d769b687ef1f6da4da271d427
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.1.1
+Installed-Size: 2788
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx-2.1.1-rootless.deb
+Size: 880544
+MD5sum: 09eb24a623bfba9b53eb340081e8813f
+SHA1: 
+SHA256: 7bac4b7f3a6a9a39829102f33d22ac06f042ffb22d3cbecd95cacf3c0387dd34
 
 Package: com.iosdump.trollcmtweak
 Name: TrollCM 触摸轨迹
