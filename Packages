@@ -5428,6 +5428,60 @@ MD5sum: 0629b24546f205f3be694685e8e9f6e7
 SHA1: 
 SHA256: 649391dae103b84f1fef4dcd06fd96d9504d94b2e484bc6d1d9800c2fed91c40
 
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.1.5
+Installed-Size: 8656
+Filename: debs/com.hmmzzz.marktheme-0.1.5-roothide.deb
+Size: 2354668
+MD5sum: 7e5a046d451fb103152b60e7201eb19b
+SHA1: 
+SHA256: e4e267b4f208f63daa0aaaaa44e571db4031e7497c4414843ba51e54fd8ed938
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.1.5
+Installed-Size: 8692
+Filename: debs/com.hmmzzz.marktheme-0.1.5-rootless.deb
+Size: 2357012
+MD5sum: 2b4e36caf025c6de12dcb356bbce857f
+SHA1: 
+SHA256: 333ec8285bfd044c921708d1a9db9e168277c6af9aa363ccd03cb03560d6cd32
+
 Package: com.hoangdus.konban
 Name: KonbanXV
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 15.0), com.opa334.altlist, preferenceloader
@@ -7875,40 +7929,6 @@ Size: 42136
 MD5sum: 4333a87934b5af1bb451e6915e1172f2
 SHA1: 
 SHA256: 74078dc20e12655b3e686b77c647230323b15cd81d61f75cdd91cc09f38ed8b7
-
-Package: com.huayuarc.vpncontrolcenter
-Name: VPN Control Center
-Description: Control Center VPN toggle and VPN configuration selector 控制中心VPN切换和VPN配置
-Maintainer: Huayuarc
-Author: Huayuarc
-Section: Tweaks
-Depends: firmware (>= 15.0)
-Architecture: iphoneos-arm64e
-Version: 1.1.1
-Installed-Size: 148
-icon: https://huayuarc.github.io/icon/vpncontrolcenter.jpg
-Filename: debs/com.huayuarc.vpncontrolcenter-1.1.1-roothide.deb
-Size: 25552
-MD5sum: 19cb5d9f2cc8ee0fe6327b25bd0f3b9d
-SHA1: 
-SHA256: 3cccde8237929210af25f0605bc0daa09c74bb591282f9173afa28ab7603801d
-
-Package: com.huayuarc.vpncontrolcenter
-Name: VPN Control Center
-Description: Control Center VPN toggle and VPN configuration selector 控制中心VPN切换和VPN配置
-Maintainer: Huayuarc
-Author: Huayuarc
-Section: Tweaks
-Depends: firmware (>= 15.0)
-Architecture: iphoneos-arm64
-Version: 1.1.1
-Installed-Size: 148
-icon: https://huayuarc.github.io/icon/vpncontrolcenter.jpg
-Filename: debs/com.huayuarc.vpncontrolcenter-1.1.1-rootless.deb
-Size: 25480
-MD5sum: 539959d4d3eed88ccd13cb7efe7312a9
-SHA1: 
-SHA256: 32b7cf54541dfd9692e0c61598e89d68ab5cbdc55c1fe29f7e4f837f2d480e25
 
 Package: com.huayuarc.zombiereaper
 Name: ZombieReaper 清理子进程
@@ -10601,6 +10621,42 @@ MD5sum: b14bc10c26aefcb5dd3ec8096d35b280
 SHA1: 
 SHA256: 80bb7a6337b28b8bf870e04294e83b823a6cea453279ccc38faa441b7336ea44
 
+Package: com.mikifp.griddy
+Name: Griddy 图标随意摆
+Description: 让你的程序图标在桌面随意摆放。
+Maintainer: mikifp
+Author: mikifp
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.dao.griddy, xyz.cypwn.griddy
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/griddy/js.json
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Installed-Size: 272
+Filename: debs/com.mikifp.griddy-1.2.1-roothide.deb
+Size: 26372
+MD5sum: 9003abc6f5332e527d76a4b7ff94b42b
+SHA1: 
+SHA256: a7141fa2ac11fe841c7303fb59b0831416f6f9023be0bc779d1d0725f6eaf74f
+
+Package: com.mikifp.griddy
+Name: Griddy 图标随意摆
+Description: 让你的程序图标在桌面随意摆放。
+Maintainer: mikifp
+Author: mikifp
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.dao.griddy, xyz.cypwn.griddy
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/griddy/js.json
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Installed-Size: 272
+Filename: debs/com.mikifp.griddy-1.2.1-rootless.deb
+Size: 27420
+MD5sum: df269a940b4a852bbce6a8aeefab7342
+SHA1: 
+SHA256: 355d47381d8fc5e63c9150f138a1c7e212d6faa58b53d563ad1946780c92c2d6
+
 Package: com.miro.libmiroshared
 Name: libMiROShared
 Depends: firmware (>=14.0)
@@ -10770,6 +10826,46 @@ Size: 673084
 MD5sum: e70f06eda0596dd202c679a980c77649
 SHA1: 
 SHA256: 5010b6c6f57afe794701142eaa9edff7d42d5cd52f612bdcc3d9135adda0f850
+
+Package: com.mlgm.kayoko
+Name: Kayoko 剪切板
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.8.1
+Installed-Size: 3220
+Filename: debs/com.mlgm.kayoko-4.8.1-roothide.deb
+Size: 684648
+MD5sum: eff36f2d40a036f4d2afaa8bac4b5c4d
+SHA1: 
+SHA256: 8941782408e8d15337b039a5fcb3b748ef36f1e7da45c2fcfd76d1f7ccac728b
+
+Package: com.mlgm.kayoko
+Name: Kayoko 剪切板
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64
+Version: 4.8.1
+Installed-Size: 3236
+Filename: debs/com.mlgm.kayoko-4.8.1-rootless.deb
+Size: 689424
+MD5sum: 39c77ad03121a78215d37cfa60089003
+SHA1: 
+SHA256: cb8e7b66ee04766b264793c1e29de59a40129fe97912dd9214f0cf575980181e
 
 Package: com.mlgm.pulloverx
 Name: PullOver X 分屏
@@ -10970,6 +11066,48 @@ Size: 185716
 MD5sum: 7c35f2ed19b8b4612a1127da9f785b29
 SHA1: 
 SHA256: d7b0f29e45f45aacb34cea8e07d561fad22880b31e4593e987e73d9a0a9788fa
+
+Package: com.mlgm.pulloverx
+Name: PullOver X 分屏
+Version: 1.4
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Maintainer: mlgm
+Filename: debs/com.mlgm.pulloverx-1.4-roothide.deb
+Size: 278012
+MD5sum: 82fdce00d5adc03c363c4a0dc1ac65a7
+SHA1: 
+SHA256: 3afa8cf67b6c299346fbfebfbadcfeb763bd8b916c63db17ee2a755773a6c157
+
+Package: com.mlgm.pulloverx
+Name: PullOver X 分屏
+Version: 1.4
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Maintainer: mlgm
+Filename: debs/com.mlgm.pulloverx-1.4-rootless.deb
+Size: 279836
+MD5sum: 489899765726207a0591c60628f95b46
+SHA1: 
+SHA256: 451b5d88b36ae2c3e3384c34cfafe77501bdf5263ad63e4be16ff11433695f11
 
 Package: com.mrgcgamer.libgcuniversal
 Name: LibGcUniversal
