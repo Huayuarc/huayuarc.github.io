@@ -5605,6 +5605,60 @@ MD5sum: 67521e6f3f88378fa4713a17c8f9accb
 SHA1: 
 SHA256: 1a5e530e1b945ec2a44dd51c66df56a12f02db5e620dc8a641e42cabd7524c52
 
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 16.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.1.7
+Installed-Size: 8844
+Filename: debs/com.hmmzzz.marktheme-0.1.7-roothide.deb
+Size: 2392632
+MD5sum: 333549da71d60c2eca0557cf128fc461
+SHA1: 
+SHA256: c86e8c773ce8f4fd0c62455f1e3c2a0e412ca8a5432be5baecfdd85364a897b5
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 16.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.1.7
+Installed-Size: 8860
+Filename: debs/com.hmmzzz.marktheme-0.1.7-rootless.deb
+Size: 2387272
+MD5sum: 9e36b7e3a6cb1efc8371f2dd8db41d59
+SHA1: 
+SHA256: c2d3950e8e7f3fb74dfa18849a9fc5b786ac5abb76bd4feeb5244e8c4b36fe91
+
 Package: com.hoangdus.konban
 Name: KonbanXV
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 15.0), com.opa334.altlist, preferenceloader
@@ -11267,6 +11321,46 @@ Size: 279836
 MD5sum: 489899765726207a0591c60628f95b46
 SHA1: 
 SHA256: 451b5d88b36ae2c3e3384c34cfafe77501bdf5263ad63e4be16ff11433695f11
+
+Package: com.mlgm.pulloverx
+Name: PullOverX 分屏
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Author: mlgm
+Maintainer: daodao
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Icon: https://mlgm66.github.io/icon/pullover.png
+Architecture: iphoneos-arm64e
+Version: 2.2.1
+Installed-Size: 796
+Filename: debs/com.mlgm.pulloverx-2.2.1-roothide.deb
+Size: 175836
+MD5sum: 5a5ec4a21a58568f630aea5ac478e4f8
+SHA1: 
+SHA256: cc032a795f0e3cf1aed8c5d24fbfdaf0e08eddd14ec397f5c2f2109fa63fec3d
+
+Package: com.mlgm.pulloverx
+Name: PullOverX 分屏
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Author: mlgm
+Maintainer: daodao
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Icon: https://mlgm66.github.io/icon/pullover.png
+Architecture: iphoneos-arm64
+Version: 2.2.1
+Installed-Size: 796
+Filename: debs/com.mlgm.pulloverx-2.2.1-rootless.deb
+Size: 175736
+MD5sum: 164bfdf6479203d28963b397761f0740
+SHA1: 
+SHA256: 4654479766a9f1075c5eb6692260fe5912c438a4277cda4bc9856351aa73ba5e
 
 Package: com.mrgcgamer.libgcuniversal
 Name: LibGcUniversal
