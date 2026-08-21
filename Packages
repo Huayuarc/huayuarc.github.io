@@ -12933,6 +12933,40 @@ MD5sum: b00a8c6670f3037bc8042110d1f6e0ad
 SHA1: 
 SHA256: b20776e4793c8e6eab1a611c60dafc4a8b4949cf3c5ca75184201e14d0fdcf60
 
+Package: com.netskao.perfectgrabber
+Name: Ntonia-PreferenceLoader
+Description: Shows time and battery information around the pull-down grabber. Rebuilt for RootHide.
+Maintainer: NetSkao / RootHide adaptation
+Author: NetSkao
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/NtoniaPGIcon.png
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.1-15
+Installed-Size: 360
+Filename: debs/com.netskao.perfectgrabber-1.1-15-roothide.deb
+Size: 193300
+MD5sum: c90b01b0679e4a85d61ccd136f0e53ab
+SHA1: 
+SHA256: b7e5c246cbbe86528cf2fc9aa7ea10f420db22d0c911da763d369a0361984c9c
+
+Package: com.netskao.perfectgrabber
+Name: Ntonia-PreferenceLoader
+Description: Shows time and battery information around the pull-down grabber. Rebuilt for RootHide.
+Maintainer: NetSkao / RootHide adaptation
+Author: NetSkao
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/NtoniaPGIcon.png
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.1-15
+Installed-Size: 360
+Filename: debs/com.netskao.perfectgrabber-1.1-15-rootless.deb
+Size: 193368
+MD5sum: a25941d248470046f403ada600c5a497
+SHA1: 
+SHA256: c5c6ec833c6c249fa2fdb3e39a8f79618185e3d345df8a1ec97ca80dfeff1adc
+
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.qqnotiavatar
 Package: com.netskao.qqnotiavatar
 Name: QQNotiAvatar
