@@ -24358,6 +24358,43 @@ MD5sum: 0d1f392a4637ec9e99d01732db2586dd
 SHA1: 
 SHA256: 52732561df361e892efcbb00378a2de043d5703562aae219c2eab23fdce8d2eb
 
+Package: xyz.cypwn.sneakycam
+Maintainer: CyPwn
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.2.2
+Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Description: Discretely take a photo or record a video from anywhere, even with your screen off. 从任何地方，甚至用你的相机，谨慎地拍照或录制视频
+Name: SneakyCam 隐私相机
+Author: Spark
+Depiction: https://repo.cypwn.xyz/depiction/2450
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2450
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/sneakycam.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.sneakycam-2.2.2-roothide.deb
+Size: 106200
+MD5sum: 72a3b7f1e0986f186f7ac94320824d9d
+SHA1: 
+SHA256: cbfbbe11df24a022eaa95ec31fb99f162721fdc1fb6ad704aff0f0da084537f0
+
+Package: xyz.cypwn.sneakycam
+Maintainer: CyPwn
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.2.2
+Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Description: Discretely take a photo or record a video from anywhere, even with your screen off. 从任何地方，甚至用你的相机，谨慎地拍照或录制视频
+Name: SneakyCam 隐私相机
+Author: Spark
+Depiction: https://repo.cypwn.xyz/depiction/2450
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2450
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/sneakycam.png
+Filename: debs/xyz.cypwn.sneakycam-2.2.2-rootless.deb
+Size: 107336
+MD5sum: 4e9c9c3fe5085a818532860ed25459a7
+SHA1: 
+SHA256: 01f35592a6dfc9f531dd64ea7f88df1b6ce08b6fe023e8594e43d6141119098e
+
 Package: xyz.cypwn.xinam1ne
 Maintainer: CyPwn
 Name: Xinam1ne All-in-One
