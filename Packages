@@ -1716,6 +1716,40 @@ MD5sum: dcfc9f80138560db1ee4df4476a100f0
 SHA1: 
 SHA256: 915f64bc3f458f67ebc345126b228416b4b1305c76ed7a3168600fae03fea445
 
+Package: com.82flex.unseen
+Name: Unseen 屏蔽截图录制检测
+Description: Neutralizes CALayer disableUpdateMask in the render server 是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
+Maintainer: 82flex
+Author: 82flex
+Section: Tweaks
+Depends: firmware (>= 14.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Installed-Size: 492
+Icon: https://huayuarc.github.io/icon/Unseen.jpg
+Filename: debs/com.82flex.unseen-0.0.5-roothide.deb
+Size: 50076
+MD5sum: 9c75864c185305467e5e56a62096cd3e
+SHA1: 
+SHA256: 6e3daeb28c2f4208e04be94e4416dbbf4360c6091d221e7464aa3a2812fe520e
+
+Package: com.82flex.unseen
+Name: Unseen 屏蔽截图录制检测
+Description: Neutralizes CALayer disableUpdateMask in the render server 是一个iOS调整，它降低了普通应用程序检测或干扰屏幕截图、屏幕录制和隐藏图层标志的能力。
+Maintainer: 82flex
+Author: 82flex
+Section: Tweaks
+Depends: firmware (>= 14.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Installed-Size: 492
+Icon: https://huayuarc.github.io/icon/Unseen.jpg
+Filename: debs/com.82flex.unseen-0.0.5-rootless.deb
+Size: 50144
+MD5sum: 069954eb82987eb8c2210082fc3508d0
+SHA1: 
+SHA256: 90a5a4f40e55d7e4d584aba87fe264b9bc7bf9ba54209ece1cda15979366d181
+
 Package: com.Doki.wxkeyboarduihook
 Name: 微信输入法自定义
 Depends: mobilesubstrate, firmware (>= 14.0)
@@ -9625,6 +9659,42 @@ Size: 880544
 MD5sum: 09eb24a623bfba9b53eb340081e8813f
 SHA1: 
 SHA256: 7bac4b7f3a6a9a39829102f33d22ac06f042ffb22d3cbecd95cacf3c0387dd34
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.2.1
+Installed-Size: 4180
+icon: https://huayuarc.github.io/icon/shellx.png
+Filename: debs/com.iosdump.shellx-2.2.1-roothide.deb
+Size: 981456
+MD5sum: 8678cdb052d625eb11b2e16735c45758
+SHA1: 
+SHA256: 1a0e33fe7849df6d9a610c7ba698f8d4e3223c92873d0e6e865f3e24ef19ae23
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.2.1
+Installed-Size: 4180
+icon: https://huayuarc.github.io/icon/shellx.png
+Filename: debs/com.iosdump.shellx-2.2.1-rootless.deb
+Size: 983084
+MD5sum: c7f6face370b90b8f10bb5bf4bf975f3
+SHA1: 
+SHA256: 2026f56be64ac06b21ed8df340d510e2e716065d90db668225805ddac6db7360
 
 Package: com.iosdump.trollcmtweak
 Name: TrollCM 触摸轨迹
@@ -20392,6 +20462,46 @@ Size: 325924
 MD5sum: fc02fc5aa9078c8f795ad066378f8686
 SHA1: 
 SHA256: 2f7c244da26c8f0e9304c17cc0575b0c473428c5f36dda578b3c5517cb3698e3
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 1.8.9
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-1.8.9-roothide.deb
+Size: 333120
+MD5sum: 493a4ff40c36824d9658ada6131ba3e8
+SHA1: 
+SHA256: ba01bc3f0a78c20dcf568174d636dc92f893eb4e5bc909f2c4773c681df5060d
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 1.8.9
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-1.8.9-rootless.deb
+Size: 335212
+MD5sum: 37d219cdae62f4d618b39127c1d8f73e
+SHA1: 
+SHA256: 67e4d838dcc57bc808f1a3426e4f507e167fa55950d53e93c9f9e7ac303b82ec
 
 Package: com.tune.h3kbhook
 Name: 元书输入法 Hooks
