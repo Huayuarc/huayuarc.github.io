@@ -13073,6 +13073,40 @@ MD5sum: a25941d248470046f403ada600c5a497
 SHA1: 
 SHA256: c5c6ec833c6c249fa2fdb3e39a8f79618185e3d345df8a1ec97ca80dfeff1adc
 
+Package: com.netskao.perfectgrabber
+Name: Ntonia-PreferenceLoader
+Description: Shows time and battery information around the pull-down grabber.
+Maintainer: NetSkao
+Author: NetSkao
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/NtoniaPGIcon.png
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.1-23
+Installed-Size: 368
+Filename: debs/com.netskao.perfectgrabber-1.1-23-roothide.deb
+Size: 194344
+MD5sum: d501ce3da226fef1b0ca67abb3b64c18
+SHA1: 
+SHA256: 73eb7ed0060b5d6abb37005c2366195857592524c6b60d81271cf50c3be2b6ac
+
+Package: com.netskao.perfectgrabber
+Name: Ntonia-PreferenceLoader
+Description: Shows time and battery information around the pull-down grabber.
+Maintainer: NetSkao
+Author: NetSkao
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/NtoniaPGIcon.png
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.1-23
+Installed-Size: 368
+Filename: debs/com.netskao.perfectgrabber-1.1-23-rootless.deb
+Size: 194332
+MD5sum: cda98ba46119761a1fec24f0d488a99e
+SHA1: 
+SHA256: 5fa7683349f748c9692a9f70e154949a28b8a122fbbd68bb14e601d4dc732ee9
+
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.qqnotiavatar
 Package: com.netskao.qqnotiavatar
 Name: QQNotiAvatar
