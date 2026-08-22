@@ -9730,6 +9730,42 @@ MD5sum: c7f6face370b90b8f10bb5bf4bf975f3
 SHA1: 
 SHA256: 2026f56be64ac06b21ed8df340d510e2e716065d90db668225805ddac6db7360
 
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.3.1
+Installed-Size: 6476
+icon: https://huayuarc.github.io/icon/shellx.png
+Filename: debs/com.iosdump.shellx-2.3.1-roothide.deb
+Size: 2833332
+MD5sum: 936c05cd187b0b7205c7f091a2670a20
+SHA1: 
+SHA256: 96fdc2618e580f2b51cb515126819509cf61f9c92761d78e63ed32e659541089
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.3.1
+Installed-Size: 6492
+icon: https://huayuarc.github.io/icon/shellx.png
+Filename: debs/com.iosdump.shellx-2.3.1-rootless.deb
+Size: 2836832
+MD5sum: 844b204e0f98cffa114bd43b3a11de79
+SHA1: 
+SHA256: e295e08c22bc6daa0a6dd4dc1ced272df2939e0dd745fc88ca195dbf350cc492
+
 Package: com.iosdump.trollcmtweak
 Name: TrollCM 触摸轨迹
 Depends: mobilesubstrate, preferenceloader
