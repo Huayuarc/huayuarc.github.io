@@ -7923,10 +7923,10 @@ Architecture: iphoneos-arm64e
 Version: 2.2.0
 Installed-Size: 688
 Filename: debs/com.huayuarc.sneakycam-2.2.0-roothide.deb
-Size: 103492
-MD5sum: 95688c0566eec747ad0a234f050bd69a
+Size: 103392
+MD5sum: 2f5cae51e5f38086e730d53fa5f0e9f8
 SHA1: 
-SHA256: 75dc6aff9575628715f21e82e00d6242230a4c5e63257d443a5dec499259223b
+SHA256: d274532692f30714ac4eb1f787b457138d064a4d9e63c1e6623df6b234404cfb
 
 Package: com.huayuarc.sneakycam
 Name: SneakyCam 隐私相机
@@ -7940,10 +7940,10 @@ Architecture: iphoneos-arm64
 Version: 2.2.0
 Installed-Size: 1424
 Filename: debs/com.huayuarc.sneakycam-2.2.0-rootless.deb
-Size: 121292
-MD5sum: 46256967f15ba869109c3366fc59f079
+Size: 121572
+MD5sum: a1dc52d07f242e9da872e48e24465e82
 SHA1: 
-SHA256: a08596aa79e9fb14c3744a0af6ab4897ccdd17f5f9cf163d86b442426d70aca6
+SHA256: f97f09ffecdb7232c2017bf16cc4d9bb134199b1e2eb6e6ce1c0315b6f5e68f1
 
 Package: com.huayuarc.speedster
 Name: Speedster
@@ -24725,15 +24725,13 @@ Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldab
 Description: Discretely take a photo or record a video from anywhere, even with your screen off. 从任何地方，甚至用你的相机，谨慎地拍照或录制视频
 Name: SneakyCam 隐私相机
 Author: Spark
-Depiction: https://repo.cypwn.xyz/depiction/2450
-SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2450
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/sneakycam.png
+icon: https://huayuarc.github.io/icon/SneakyCam.png
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/xyz.cypwn.sneakycam-2.2.2-roothide.deb
-Size: 106200
-MD5sum: 72a3b7f1e0986f186f7ac94320824d9d
+Size: 106164
+MD5sum: b2fced86805bc516b10b33aec1160a36
 SHA1: 
-SHA256: cbfbbe11df24a022eaa95ec31fb99f162721fdc1fb6ad704aff0f0da084537f0
+SHA256: 07541d64b199e2fad92b259d20510bc634e8b8f2598854c676f7a4334ad503f9
 
 Package: xyz.cypwn.sneakycam
 Maintainer: CyPwn
@@ -24744,14 +24742,12 @@ Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldab
 Description: Discretely take a photo or record a video from anywhere, even with your screen off. 从任何地方，甚至用你的相机，谨慎地拍照或录制视频
 Name: SneakyCam 隐私相机
 Author: Spark
-Depiction: https://repo.cypwn.xyz/depiction/2450
-SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/2450
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/sneakycam.png
+icon: https://huayuarc.github.io/icon/SneakyCam.png
 Filename: debs/xyz.cypwn.sneakycam-2.2.2-rootless.deb
-Size: 107336
-MD5sum: 4e9c9c3fe5085a818532860ed25459a7
+Size: 107380
+MD5sum: e5bb9dc40769f49c6b66063161e43d47
 SHA1: 
-SHA256: 01f35592a6dfc9f531dd64ea7f88df1b6ce08b6fe023e8594e43d6141119098e
+SHA256: 34fa29860641bd137856fa191094203f8cd1e6b3687628cc7fd4becaef17b3ad
 
 Package: xyz.cypwn.xinam1ne
 Maintainer: CyPwn
