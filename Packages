@@ -6973,6 +6973,42 @@ SHA256: 0ca6698552dd726da134bc9e4a3276bef36d2109e83ed77ee1092cea8cf3569b
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
 Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU/Package 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。解除温控默认保持高性能（不降频、不掉帧、不暗屏），空闲时由原生 DVFS 自动降频以减少发热。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.0-6
+Installed-Size: 1072
+Filename: debs/com.huayuarc.cputhermal-1.6.0-6-roothide.deb
+Size: 92120
+MD5sum: 5adc437596b6e9c21f872841e1b3b69f
+SHA1: 
+SHA256: 1109ac4bc911f8acb8c4ddf16b8594f79ca48fd1b961c2f7072f8bbc3e034d98
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU/Package 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。解除温控默认保持高性能（不降频、不掉帧、不暗屏），空闲时由原生 DVFS 自动降频以减少发热。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.0-6
+Installed-Size: 1124
+Filename: debs/com.huayuarc.cputhermal-1.6.0-6-rootless.deb
+Size: 95092
+MD5sum: fb831d28ee9a69d066669c56c0e283c5
+SHA1: 
+SHA256: 64c6ed56cdc9bd675225123610453cda31dbb0fc0d9f49e36f9cb0713ccda323
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
 Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Maintainer: Huayuarc
@@ -9801,6 +9837,42 @@ Size: 2836832
 MD5sum: 844b204e0f98cffa114bd43b3a11de79
 SHA1: 
 SHA256: e295e08c22bc6daa0a6dd4dc1ced272df2939e0dd745fc88ca195dbf350cc492
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.4.1
+Installed-Size: 6572
+icon: https://huayuarc.github.io/icon/shellx.png
+Filename: debs/com.iosdump.shellx-2.4.1-roothide.deb
+Size: 2858092
+MD5sum: ce0373dacb44187ea4fbae512d7e2c40
+SHA1: 
+SHA256: 50266d887e25818f43fd7e03954612af4574d5b17b00a0692a5141163d422d4b
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.4.1
+Installed-Size: 6588
+icon: https://huayuarc.github.io/icon/shellx.png
+Filename: debs/com.iosdump.shellx-2.4.1-rootless.deb
+Size: 2858376
+MD5sum: 90da6b4b33a99718e56903846a3e9e0e
+SHA1: 
+SHA256: 15e281ba437a86d6240f18ef46c24dc3dc3eded5dd82295aeb44361858aa911b
 
 Package: com.iosdump.trollcmtweak
 Name: TrollCM 触摸轨迹
