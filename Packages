@@ -7911,6 +7911,40 @@ MD5sum: 01b9b94cfe759cf233d66309458168aa
 SHA1: 
 SHA256: a3d96c35f727835982aca144e91e861b10cc1c047b276cd2e2ed8fab79e07912
 
+Package: com.huayuarc.sneakycam
+Name: SneakyCam 隐私相机
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Maintainer: Huayuarc
+Author: Spark
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+Architecture: iphoneos-arm64e
+Version: 2.2.0
+Installed-Size: 688
+Filename: debs/com.huayuarc.sneakycam-2.2.0-roothide.deb
+Size: 103356
+MD5sum: 82a3aeeae28e5b2457343010ceb785c8
+SHA1: 
+SHA256: 2d8c2a891c0c3308337edca6da74da07525628faf46280f600a1088ef3ec7c54
+
+Package: com.huayuarc.sneakycam
+Name: SneakyCam 隐私相机
+Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。控制中心CC模块可一键启用/关闭。视频或者照片默认保存路径：/var/mobile/Media/Camera
+Maintainer: Huayuarc
+Author: Spark
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+Architecture: iphoneos-arm64
+Version: 2.2.0
+Installed-Size: 1424
+Filename: debs/com.huayuarc.sneakycam-2.2.0-rootless.deb
+Size: 121440
+MD5sum: d15d047c3f87ec116378629eb6440ea4
+SHA1: 
+SHA256: 959d41d60773d61563fdc2399e82a0604e0a9d6a36dca5793c1a071d0bfd74ed
+
 Package: com.huayuarc.speedster
 Name: Speedster
 Description: 更快的动画 + 系统增强：通知不亮锁屏/禁用App资源库/禁锁屏手电&相机/禁快门声/移除解锁延迟/锁屏来电拒接/应用动画方向/彻关Wi-Fi蓝牙/设备朝下锁屏/120hz。
