@@ -328,37 +328,39 @@ SHA1:
 SHA256: cd29b90ad458db90cd3fc332af1940798571efd6d0797a3b239c92f65b0989dc
 
 Package: chaoge.ChargeLimiter
-Name: ChargeLimiter
+Name: ChargeLimiter 电池助手
 Version: 1.7
 Description: ChargeLimiter
-Section: Applications
+Section: Tweaks
 Depends: firmware (>= 5.0)
 Priority: optional
 Architecture: iphoneos-arm64e
 Author: chaoge
 Maintainer: chaoge
 Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/ChargeLimiter.jpg
 Filename: debs/chaoge.ChargeLimiter-1.7-roothide.deb
-Size: 2011204
-MD5sum: 51ed72b6c5148349248825e05749faa2
+Size: 2011488
+MD5sum: aab99e3ed16aaa9bf0b3498348e624e5
 SHA1: 
-SHA256: 5c619d3034cedc8727d1547106e5cecf966353d63cc48cbc470321772af10b7a
+SHA256: c8480832599135b7d481ec5c9f211d14f0d7acba3c33941e6d5cc0b8e403b9f9
 
 Package: chaoge.ChargeLimiter
-Name: ChargeLimiter
+Name: ChargeLimiter 电池助手
 Version: 1.7
 Description: ChargeLimiter
-Section: Applications
+Section: Tweaks
 Depends: firmware (>= 5.0)
 Priority: optional
 Architecture: iphoneos-arm64
 Author: chaoge
 Maintainer: chaoge
-Filename: debs/chaoge.chargelimiter_1.7_iphoneos-arm64.deb
-Size: 2471570
-MD5sum: f79b74d6860358a36abe8bedcda086b3
+icon: https://huayuarc.github.io/icon/ChargeLimiter.jpg
+Filename: debs/chaoge.ChargeLimiter-1.7-rootless.deb
+Size: 2014356
+MD5sum: 23b3c4b48b73d615b9074cc62a07c225
 SHA1: 
-SHA256: 9426134aa578b0b7dd200f07b8f3e4680dec0fce75f96e958b08384625cb8ec4
+SHA256: 8784bd8fbe5f4aa0b4d23f9a522d71bc061f31b851d9a8ee0c98fdfbc289af62
 
 Package: claude-code-roothide
 Name: Claude Code
