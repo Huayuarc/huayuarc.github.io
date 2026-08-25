@@ -24757,11 +24757,12 @@ Architecture: iphoneos-arm64e
 Version: 1.0
 Installed-Size: 788
 Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/AppHideHeaderIcon.png
 Filename: debs/xyz.cypwn.apphide-1.0-roothide.deb
-Size: 95412
-MD5sum: d516385b3f2973267d6f64d91fcf2332
+Size: 95448
+MD5sum: 33aeed2538d913dd418184040cce8fa9
 SHA1: 
-SHA256: 65512184c37e96d78b5a229020889a071b385268650d5e8b92311cea49611478
+SHA256: 179b3f0fdecd43fded7269107f8d239f3de37d8c1839b435990f96cb18c2869d
 
 Package: xyz.cypwn.apphide
 Maintainer: CyPwn
@@ -24773,11 +24774,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 788
+icon: https://huayuarc.github.io/icon/AppHideHeaderIcon.png
 Filename: debs/xyz.cypwn.apphide-1.0-rootless.deb
-Size: 97832
-MD5sum: c6f1bc2bf3e639fc5d33817ed9e989be
+Size: 98028
+MD5sum: 633ee7bea440968da8588ae65ef0be0a
 SHA1: 
-SHA256: 261664b8cf052ea8e4d624dbcc7cbd86b28270b75b0bd9fbaca235efbee4fe32
+SHA256: fa5b18bb2d16f84d8fd03cfc535400a85e48a6a2ea47e6db6c3a67879e6ab463
 
 Package: xyz.cypwn.backgrounderaction15
 Maintainer: CyPwn
