@@ -22538,15 +22538,15 @@ Architecture: iphoneos-arm64e
 Version: 0.0.2
 Depends: mobilesubstrate, firmware (>= 12.2), com.opa334.altlist
 Description: 此版本的应用隐藏比bigboss源上的那个好用，完全免费，可以隐藏应用使其消失在搜索，资源库，主屏幕上
-Name: App Hider新的应用隐藏助手
+Name: App Hider 应用隐藏助手
 Author: Paisseon
 Icon: https://huayuarc.github.io/icon/AppHider.jpg
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/lilliana.apphider-0.0.2-roothide.deb
-Size: 65444
-MD5sum: 99d420e9f18212e364d80b46fe057efe
+Size: 65528
+MD5sum: 7ea79abce4724eda6333ef1a23d18490
 SHA1: 
-SHA256: 59d681f82364d72e0bfdbd51410f3e46326267d4996d2912dafe8cbcaf5516e0
+SHA256: ab028b31a4c12c44eb93ddecb921485030f8c8add770e3b21fd6c6b88fe38274
 
 Package: lilliana.apphider
 Section: Tweaks
@@ -22556,14 +22556,14 @@ Architecture: iphoneos-arm64
 Version: 0.0.2
 Depends: mobilesubstrate, firmware (>= 12.2), com.opa334.altlist
 Description: 此版本的应用隐藏比bigboss源上的那个好用，完全免费，可以隐藏应用使其消失在搜索，资源库，主屏幕上
-Name: App Hider新的应用隐藏助手
+Name: App Hider 应用隐藏助手
 Author: Paisseon
 Icon: https://huayuarc.github.io/icon/AppHider.jpg
 Filename: debs/lilliana.apphider-0.0.2-rootless.deb
-Size: 67328
-MD5sum: 2985a3627f2116cdeb594e75bd54eaf5
+Size: 67372
+MD5sum: fcd111bcb8c222e664bc05f37b73d8f7
 SHA1: 
-SHA256: 64e20d0374388f1e0c846bd4abfbab79464ac66d16dc548bfb65d7fb72a17c0c
+SHA256: b780da46281d585c2010925a9cf663815b89687944cdc1edf3f1d72c547bf464
 
 Package: lilliana.filzacrack
 Name: FilzaCrack
@@ -24745,6 +24745,39 @@ Size: 369638
 MD5sum: 78864fa0e711fb54e88e35e574934198
 SHA1: 
 SHA256: 125d34e494eb2065e6348fe8fe640c462a8e7567ca0243229c4abe5d7e6046e5
+
+Package: xyz.cypwn.apphide
+Maintainer: CyPwn
+Name: AppHide 应用隐藏助手
+Depends: firmware (>= 16.0), firmware (<< 17.4), mobilesubstrate, preferenceloader
+Description: Completely hide and password-protect your apps.完全隐藏和密码保护您的应用程序。
+Author: Jailbreak Tweaker
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 788
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.apphide-1.0-roothide.deb
+Size: 95412
+MD5sum: d516385b3f2973267d6f64d91fcf2332
+SHA1: 
+SHA256: 65512184c37e96d78b5a229020889a071b385268650d5e8b92311cea49611478
+
+Package: xyz.cypwn.apphide
+Maintainer: CyPwn
+Name: AppHide 应用隐藏助手
+Depends: firmware (>= 16.0), firmware (<< 17.4), mobilesubstrate, preferenceloader
+Description: Completely hide and password-protect your apps.完全隐藏和密码保护您的应用程序。
+Author: Jailbreak Tweaker
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 788
+Filename: debs/xyz.cypwn.apphide-1.0-rootless.deb
+Size: 97832
+MD5sum: c6f1bc2bf3e639fc5d33817ed9e989be
+SHA1: 
+SHA256: 261664b8cf052ea8e4d624dbcc7cbd86b28270b75b0bd9fbaca235efbee4fe32
 
 Package: xyz.cypwn.backgrounderaction15
 Maintainer: CyPwn
