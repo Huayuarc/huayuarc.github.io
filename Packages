@@ -1785,6 +1785,41 @@ MD5sum: 901825b65fd3a8506b202b66b9547db8
 SHA1: 
 SHA256: 6aa96374462949f845fc5ba9491203ffed2000b56aae1f9865d841e70e9e2421
 
+Package: com.aa22qq.batterycc
+Name: BatteryCC 控制中心电量显示
+Depends: mobilesubstrate, firmware (>= 15.0)
+Description: 一个可以在 iOS 控制中心以独立模块形式实时显示电池百分比的越狱插件。
+Maintainer: aa22qq
+Author: aa22qq
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0-12+debug
+Installed-Size: 196
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/batterycc.jpg
+Filename: debs/com.aa22qq.batterycc-1.0.0-12+debug-roothide.deb
+Size: 9472
+MD5sum: 441c12add3b698443b53eb30972ea271
+SHA1: 
+SHA256: df14635e9e19835f448949f6d8ceb41fb17f3520e879e163cf290e5bdf20bc61
+
+Package: com.aa22qq.batterycc
+Name: BatteryCC 控制中心电量显示
+Depends: mobilesubstrate, firmware (>= 15.0)
+Description: 一个可以在 iOS 控制中心以独立模块形式实时显示电池百分比的越狱插件。
+Maintainer: aa22qq
+Author: aa22qq
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0-12+debug
+Installed-Size: 196
+icon: https://huayuarc.github.io/icon/batterycc.jpg
+Filename: debs/com.aa22qq.batterycc-1.0.0-12+debug-rootless.deb
+Size: 9412
+MD5sum: 92b79abc53f9dcb486d5336b34cf29db
+SHA1: 
+SHA256: a9509e62651319fe15741c09060f97154d24abcad6c09d7e565c87dfb3c54bed
+
 Package: com.abc3.vip.appsyncunified
 Version: 112.0
 Section: Tweaks
@@ -24758,7 +24793,8 @@ Version: 1.0
 Installed-Size: 788
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/AppHideHeaderIcon.png
-Filename: debs/xyz.cypwn.apphide-1.0-roothide.deb
+Filename: debs/xyz.cypwn.apphide-1.0
+-roothide.deb
 Size: 95448
 MD5sum: 33aeed2538d913dd418184040cce8fa9
 SHA1: 
@@ -24775,7 +24811,8 @@ Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 788
 icon: https://huayuarc.github.io/icon/AppHideHeaderIcon.png
-Filename: debs/xyz.cypwn.apphide-1.0-rootless.deb
+Filename: debs/xyz.cypwn.apphide-1.0
+-rootless.deb
 Size: 98028
 MD5sum: 633ee7bea440968da8588ae65ef0be0a
 SHA1: 
