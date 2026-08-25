@@ -327,6 +327,39 @@ MD5sum: 08f7439427a44e1a78758918dcb08863
 SHA1: 
 SHA256: cd29b90ad458db90cd3fc332af1940798571efd6d0797a3b239c92f65b0989dc
 
+Package: chaoge.ChargeLimiter
+Name: ChargeLimiter
+Version: 1.7
+Description: ChargeLimiter
+Section: Applications
+Depends: firmware (>= 5.0)
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: chaoge
+Maintainer: chaoge
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/chaoge.ChargeLimiter-1.7-roothide.deb
+Size: 2011204
+MD5sum: 51ed72b6c5148349248825e05749faa2
+SHA1: 
+SHA256: 5c619d3034cedc8727d1547106e5cecf966353d63cc48cbc470321772af10b7a
+
+Package: chaoge.ChargeLimiter
+Name: ChargeLimiter
+Version: 1.7
+Description: ChargeLimiter
+Section: Applications
+Depends: firmware (>= 5.0)
+Priority: optional
+Architecture: iphoneos-arm64
+Author: chaoge
+Maintainer: chaoge
+Filename: debs/chaoge.chargelimiter_1.7_iphoneos-arm64.deb
+Size: 2471570
+MD5sum: f79b74d6860358a36abe8bedcda086b3
+SHA1: 
+SHA256: 9426134aa578b0b7dd200f07b8f3e4680dec0fce75f96e958b08384625cb8ec4
+
 Package: claude-code-roothide
 Name: Claude Code
 Version: 2.1.19-1
@@ -21947,6 +21980,25 @@ Size: 1302444
 MD5sum: 19a2bdd5f8e04501816411f4d02bedca
 SHA1: 
 SHA256: 2e1ef79ef1bea1a9a7194b50e370ee676eda3dcd741c4a0200f8ece92bdc283f
+
+Package: dylv.liquidass
+Name: Liquid (Gl)ass 液态玻璃
+Description: next level diarrhea
+Maintainer: dylv
+Author: dylv
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Replaces: dylv.blurless
+Conflicts: dylv.blurless
+Architecture: iphoneos-arm64e
+Version: 0.1.1b
+Installed-Size: 8144
+Filename: debs/dylv.liquidass-0.1.1b-roothide.deb
+Size: 3597396
+MD5sum: 4286aaf16a0c9cb7e5d77b5181aae48e
+SHA1: 
+SHA256: d83eff4af3473d3c28a457fae9f550c633cf139f6f474c21559bf2bc9cf93e42
 
 Package: emt.paisseon.xinamine
 Name: Xinamine
