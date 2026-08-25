@@ -24835,6 +24835,41 @@ MD5sum: 78864fa0e711fb54e88e35e574934198
 SHA1: 
 SHA256: 125d34e494eb2065e6348fe8fe640c462a8e7567ca0243229c4abe5d7e6046e5
 
+Package: xyz.cypwn.appaegis
+Maintainer: CyPwn
+Name: AppAegis 应用面容 ID
+Description: Lock selected Home Screen app launches with Face ID, Touch ID, or the device passcode. Cracked by Nya 使用面容 ID、触控 ID 或设备密码锁定所选主屏幕应用的启动。被Nya破解
+Author: emp0ry
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 17.0), firmware (<< 17.3.2)
+Conflicts: com.ichitaso.bioprotect, net.limneos.bioprotectxs
+Architecture: iphoneos-arm64e
+Version: 1.0.0k
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/appaegis.png
+Filename: debs/xyz.cypwn.appaegis-1.0.0k-roothide.deb
+Size: 57264
+MD5sum: 9d562ee4c76c784a58f7b178f92a9302
+SHA1: 
+SHA256: 1db1b7d96232d339cc0c33b27e60f7a4cd46c1f3b23bca8b8ee78fdffc31f204
+
+Package: xyz.cypwn.appaegis
+Maintainer: CyPwn
+Name: AppAegis 应用面容 ID
+Description: Lock selected Home Screen app launches with Face ID, Touch ID, or the device passcode. Cracked by Nya 使用面容 ID、触控 ID 或设备密码锁定所选主屏幕应用的启动。被Nya破解
+Author: emp0ry
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 17.0), firmware (<< 17.3.2)
+Conflicts: com.ichitaso.bioprotect, net.limneos.bioprotectxs
+Architecture: iphoneos-arm64
+Version: 1.0.0k
+icon: https://huayuarc.github.io/icon/appaegis.png
+Filename: debs/xyz.cypwn.appaegis-1.0.0k-rootless.deb
+Size: 57384
+MD5sum: f15a6bd8365ad2b986bb6149dbbf7f4f
+SHA1: 
+SHA256: a66b249782484bbaa558ac4a08ca43e0baff87b7955b88e701795615976f05ed
+
 Package: xyz.cypwn.apphide
 Maintainer: CyPwn
 Name: AppHide 应用隐藏助手
