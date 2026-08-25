@@ -1312,6 +1312,24 @@ MD5sum: 62dcdc7e2ce7fb688d95664a7248fa60
 SHA1: 
 SHA256: 2e90723484781713dca670f443cb9487d5e96a583a06de6cca9fb38133320561
 
+Package: cn.zqbb.jailfools
+Name: JailFools 越狱版 TrollFools
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Author: zqbb
+Maintainer: zqbb
+Description: 越狱版 TrollFools 注入工具
+ * 支持将 dylib 注入到应用内
+Architecture: iphoneos-arm64e
+Version: 5.2.1
+Installed-Size: 16700
+icon: https://huayuarc.github.io/icon/JailFools.jpg
+Filename: debs/cn.zqbb.jailfools-5.2.1-roothide.deb
+Size: 5100192
+MD5sum: f048e747e409e921ae8615ebdbc66819
+SHA1: 
+SHA256: ccb5914caa3e8467da5605d1dc38f1a69b9f06c194e56701449cb3444476bdcb
+
 Package: codes.aurora.kayoko
 Name: Hello Kayoko 剪切板
 Description: Kayoko 剪切板，基于「乌龙工作室」版进行修改
@@ -3080,6 +3098,52 @@ Size: 1120856
 MD5sum: 06f63c129769e030d62339403830e536
 SHA1: 
 SHA256: 523e2a9376ed17d4569b6a5e0f65bb16661e85cc05109ba79abe94e13467ba5d
+
+Package: com.choco.tgextra
+Name: Telegram TGExtra
+Description: Telegram 增强插件
+ * 最后在 Telegram 12.9.3 进行测试
+ * 去除广告
+ * 虚拟定位
+ * 隐藏一些输入状态
+ * 允许保存频道限制下载的文件
+ * 设置界面-长按倒数第三个选项“客服”或者三指长按打开插件
+ * 支持 Telegram、Turrit 等第三方客户端，具体自测
+Maintainer: choco
+Author: choco
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.7.8
+Installed-Size: 3256
+icon: https://huayuarc.github.io/icon/tgextra.jpg
+Filename: debs/com.choco.tgextra-1.7.8-roothide.deb
+Size: 832332
+MD5sum: 544bf0b1ef3cb606808e0c3b62c8335b
+SHA1: 
+SHA256: 67f906ada84219b2fc3f54bbb06204ed6f7dca6f0f7a4daae080feb54069a831
+
+Package: com.choco.tgextra
+Name: Telegram TGExtra
+Description: Telegram 增强插件
+ * 最后在 Telegram 12.9.3 进行测试
+ * 去除广告
+ * 虚拟定位
+ * 隐藏一些输入状态
+ * 允许保存频道限制下载的文件
+ * 设置界面-长按倒数第三个选项“客服”或者三指长按打开插件
+ * 支持 Telegram、Turrit 等第三方客户端，具体自测
+Maintainer: choco
+Author: choco
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.7.8
+Installed-Size: 3256
+icon: https://huayuarc.github.io/icon/tgextra.jpg
+Filename: debs/com.choco.tgextra-1.7.8-rootless.deb
+Size: 837008
+MD5sum: 64f67ec012a2c085a5cada18766c866c
+SHA1: 
+SHA256: bc2b9f3ba25234a750b9a90fba80d16422bf9187218e974f93e113a315006a9b
 
 Package: com.colorblack.alinfcwakefix
 Name: 支付宝助手
