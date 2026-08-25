@@ -5112,6 +5112,41 @@ SHA1:
 SHA256: f733c59d51e52de0c94e0dc5f94703b57749700f7f278ce71c79140625c859d6
 
 Package: com.go.mango
+Name: Mango 芒果分屏
+Description: 分屏，真液态玻璃，视频壁纸等一些实用功能。
+Maintainer: go
+Author: go
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0-Beta1-1
+Installed-Size: 2816
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/MangoOS.png
+Filename: debs/com.go.mango-1.0-Beta1-1-roothide.deb
+Size: 710352
+MD5sum: 3c645b38ec632f232adc81975dc157a4
+SHA1: 
+SHA256: 4db0317eeb90378a01f2d4004307e8e36a072f4ffa6bffe94fc20632d5a619b2
+
+Package: com.go.mango
+Name: Mango 芒果分屏
+Description: 分屏，真液态玻璃，视频壁纸等一些实用功能。
+Maintainer: go
+Author: go
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0-Beta1-1
+Installed-Size: 2816
+icon: https://huayuarc.github.io/icon/MangoOS.png
+Filename: debs/com.go.mango-1.0-Beta1-1-rootless.deb
+Size: 723368
+MD5sum: 4eae08ea8574d8c13084a7c326d48cd5
+SHA1: 
+SHA256: d9762730fbec518e35e4f7aa84cafbdb7f49fedaa474332946c4d7f05b0d9530
+
+Package: com.go.mango
 Name: mango
 Description: 芒果，轻量分屏，舒适，顺手。qq群：1083674538 群管理售后qq：3047240958/985745559
 Maintainer: go
