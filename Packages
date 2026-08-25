@@ -4381,6 +4381,86 @@ MD5sum: 7d36fb5b4a4c32d004bd690550a793e0
 SHA1: 
 SHA256: a28c03dfdbdeef07c5988e95933083036a76eb9e0d135d240003ff5ec276f331
 
+Package: com.dao.pulloverx
+Name: PullOverX 分屏
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Author: mlgm
+Maintainer: daodao
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Icon: https://mlgm66.github.io/icon/pullover.png
+Architecture: iphoneos-arm64e
+Version: 2.2.1
+Installed-Size: 796
+Filename: debs/com.dao.pulloverx-2.2.1-roothide.deb
+Size: 175848
+MD5sum: 3f747049beed88146d9656bd4c4b4a31
+SHA1: 
+SHA256: 360cf0e57b6cacea6f2e868de6f6bac7230abf247d9a3a1b3249385a60e57f9f
+
+Package: com.dao.pulloverx
+Name: PullOverX 分屏
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Author: mlgm
+Maintainer: daodao
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Icon: https://mlgm66.github.io/icon/pullover.png
+Architecture: iphoneos-arm64
+Version: 2.2.1
+Installed-Size: 796
+Filename: debs/com.dao.pulloverx-2.2.1-rootless.deb
+Size: 175892
+MD5sum: 70b2f0293170ae787fc17abbd25435a2
+SHA1: 
+SHA256: eeef19480c201db3f3171900ebd20dc80a2ec99100699798f14fa20233b0324b
+
+Package: com.dao.pulloverx
+Name: PullOverX 分屏
+Description: 悬浮多任务窗口工具，基于 mlgm 的 PullOver X 打造的客制化版本。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Author: mlgm
+Maintainer: daodao
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Icon: https://mlgm66.github.io/icon/pullover.png
+Architecture: iphoneos-arm64e
+Version: 2.2.3
+Installed-Size: 796
+Filename: debs/com.dao.pulloverx-2.2.3-roothide.deb
+Size: 176312
+MD5sum: e767db6e6dc05062023772736919f2a3
+SHA1: 
+SHA256: ce5dace085ed9027c809fed57e577307048637dc6b5220d0c3d9b6fe18abadb7
+
+Package: com.dao.pulloverx
+Name: PullOverX 分屏
+Description: 悬浮多任务窗口工具，基于 mlgm 的 PullOver X 打造的客制化版本。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Author: mlgm
+Maintainer: daodao
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Icon: https://mlgm66.github.io/icon/pullover.png
+Architecture: iphoneos-arm64
+Version: 2.2.3
+Installed-Size: 796
+Filename: debs/com.dao.pulloverx-2.2.3-rootless.deb
+Size: 178256
+MD5sum: a9822c2cee5c4bc5727361d76c16d2eb
+SHA1: 
+SHA256: bd216ada41858dc8192252cd0958b21490b142eff0c4f4e97fc30fbd04d9d2d1
+
 Package: com.daodao.goodwifi
 Name: GoodWiFi
 Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
@@ -10154,6 +10234,42 @@ MD5sum: 90da6b4b33a99718e56903846a3e9e0e
 SHA1: 
 SHA256: 15e281ba437a86d6240f18ef46c24dc3dc3eded5dd82295aeb44361858aa911b
 
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.4.6
+Installed-Size: 6652
+icon: https://huayuarc.github.io/icon/shellx.png
+Filename: debs/com.iosdump.shellx-2.4.6-roothide.deb
+Size: 2877884
+MD5sum: 607b903e999b4dd956d6f316a96b5367
+SHA1: 
+SHA256: a4109b7e7387b2ec8907cef6e3ac589ea050002862a96d0e4567a88f6e355779
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.4.6
+Installed-Size: 6652
+icon: https://huayuarc.github.io/icon/shellx.png
+Filename: debs/com.iosdump.shellx-2.4.6-rootless.deb
+Size: 2879936
+MD5sum: bc4994725e898e6383952e177d162f99
+SHA1: 
+SHA256: e20c7704b5057466b9245ead3f703c1200b7d8edf2beacce28000f0ff4cf02bf
+
 Package: com.iosdump.trollcmtweak
 Name: TrollCM 触摸轨迹
 Depends: mobilesubstrate, preferenceloader
@@ -11737,10 +11853,10 @@ dev: mlgm
 Icon: https://mlgm66.github.io/icon/pullover.png
 Maintainer: mlgm
 Filename: debs/com.mlgm.pulloverx-1.2.2-roothide.deb
-Size: 179112
-MD5sum: 5bae49b610b2d1a3f5d0cb70bea87f9d
+Size: 179176
+MD5sum: 88987e444e673c7ed7e4321cfb1bea13
 SHA1: 
-SHA256: 3b59111d9cc13ddaa4eeb41141a3a3d8cb3e31d20687f1d8008db1e19ecdc8cc
+SHA256: 27ec4d44b6f74db07441d58b9e7fefadf24f58da123fda8c356d9c0ad512c652
 
 Package: com.mlgm.pulloverx
 Name: PullOver X 分屏
@@ -11757,10 +11873,10 @@ dev: mlgm
 Icon: https://mlgm66.github.io/icon/pullover.png
 Maintainer: mlgm
 Filename: debs/com.mlgm.pulloverx-1.2.2-rootless.deb
-Size: 180772
-MD5sum: 6a2092ebdf91e5df83bb0a1fd894b31d
+Size: 180832
+MD5sum: a31921239f98079f8b5b0fbdb22ed305
 SHA1: 
-SHA256: 3623e1c6588c6b773460fcd2605ab25aec521b5c77dac47b40e6262643913524
+SHA256: db4cb7ce1799f986fc1b575b15c20dba7ecf3959fe5be711b965ba3509e35cff
 
 Package: com.mlgm.pulloverx
 Name: PullOver X 分屏
@@ -11883,46 +11999,6 @@ Size: 279836
 MD5sum: 489899765726207a0591c60628f95b46
 SHA1: 
 SHA256: 451b5d88b36ae2c3e3384c34cfafe77501bdf5263ad63e4be16ff11433695f11
-
-Package: com.mlgm.pulloverx
-Name: PullOverX 分屏
-Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
-Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Conflicts: com.dao.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
-Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
-Author: mlgm
-Maintainer: daodao
-SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
-Icon: https://mlgm66.github.io/icon/pullover.png
-Architecture: iphoneos-arm64e
-Version: 2.2.1
-Installed-Size: 796
-Filename: debs/com.mlgm.pulloverx-2.2.1-roothide.deb
-Size: 175836
-MD5sum: 5a5ec4a21a58568f630aea5ac478e4f8
-SHA1: 
-SHA256: cc032a795f0e3cf1aed8c5d24fbfdaf0e08eddd14ec397f5c2f2109fa63fec3d
-
-Package: com.mlgm.pulloverx
-Name: PullOverX 分屏
-Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
-Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Conflicts: com.dao.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
-Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
-Author: mlgm
-Maintainer: daodao
-SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
-Icon: https://mlgm66.github.io/icon/pullover.png
-Architecture: iphoneos-arm64
-Version: 2.2.1
-Installed-Size: 796
-Filename: debs/com.mlgm.pulloverx-2.2.1-rootless.deb
-Size: 175736
-MD5sum: 164bfdf6479203d28963b397761f0740
-SHA1: 
-SHA256: 4654479766a9f1075c5eb6692260fe5912c438a4277cda4bc9856351aa73ba5e
 
 Package: com.mrgcgamer.libgcuniversal
 Name: LibGcUniversal
@@ -21403,8 +21479,15 @@ SHA1:
 SHA256: 61bd3e6f5398da4c486fd8555f5fbb1b7e513ed312159db08244b5814f5135f8
 
 Package: com.xuuz.douyinhelper
-Name: 抖音助手
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Name: Xuu 抖音助手
+Description: 基于 DYYY 的抖音插件
+ * 四种插件打开方式
+ * 三指长按
+ * 长按视频
+ * 设置页面
+ * 聊天长按➕/✖️图标
+ * 支持信息防撤回
+ * 支持猜拳骰子作弊
 Homepage: https://tc.uddz.cc/xuuz
 Section: Tweaks
 Depends: firmware (>= 5.0), mobilesubstrate
@@ -21417,14 +21500,21 @@ Installed-Size: 17544
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/douyin.jpg
 Filename: debs/com.xuuz.douyinhelper-2.2-4-roothide.deb
-Size: 6801844
-MD5sum: 97fa8168b2a1f92031c5e59acec4e79e
+Size: 6804968
+MD5sum: 81bdcb9f097c1c56ccbc23a9b5e7be6d
 SHA1: 
-SHA256: 5b896bdc436d8855bbbba02dc13c8cbc287a7971e7820022d2bb7dc05bad63c0
+SHA256: b0946150f0ad18222937ae568f7bdc89f8fb68e5ef0873404f46e624cf50c77e
 
 Package: com.xuuz.douyinhelper
-Name: 抖音助手
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Name: Xuu 抖音助手
+Description: 基于 DYYY 的抖音插件
+ * 四种插件打开方式
+ * 三指长按
+ * 长按视频
+ * 设置页面
+ * 聊天长按➕/✖️图标
+ * 支持信息防撤回
+ * 支持猜拳骰子作弊
 Homepage: https://tc.uddz.cc/xuuz
 Section: Tweaks
 Depends: firmware (>= 5.0), mobilesubstrate
@@ -21436,10 +21526,61 @@ Version: 2.2-4
 Installed-Size: 17544
 icon: https://huayuarc.github.io/icon/douyin.jpg
 Filename: debs/com.xuuz.douyinhelper-2.2-4-rootless.deb
-Size: 6796112
-MD5sum: de0bde3053a8ff7d32d43cdbdb923e0c
+Size: 6798616
+MD5sum: 56ba137c0074848f753037739adfc758
 SHA1: 
-SHA256: 1ec85f83b3abec65b0357ab013a6a937a5de49295a71f5e962c01ae4ee6b1cc7
+SHA256: 5d1b121f0b08ce6bc4ef06c32866d9a7ae1eb521cc40e314939643c7b948a0a2
+
+Package: com.xuuz.douyinhelper
+Name: Xuu 抖音助手
+Description: 基于 DYYY 的抖音插件
+ * 四种插件打开方式
+ * 三指长按
+ * 长按视频
+ * 设置页面
+ * 聊天长按➕/✖️图标
+ * 支持信息防撤回
+ * 支持猜拳骰子作弊
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64e
+Version: 2.2-5
+Installed-Size: 624
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.xuuz.douyinhelper-2.2-5-roothide.deb
+Size: 6817624
+MD5sum: 34171180ce09c54aeff551a709506d08
+SHA1: 
+SHA256: f67fb10a9d9e29edcdabe0526a5c8a8229a844a9f574723b9b2bfaf76d85c49d
+
+Package: com.xuuz.douyinhelper
+Name: Xuu 抖音助手
+Description: 基于 DYYY 的抖音插件
+ * 四种插件打开方式
+ * 三指长按
+ * 长按视频
+ * 设置页面
+ * 聊天长按➕/✖️图标
+ * 支持信息防撤回
+ * 支持猜拳骰子作弊
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64
+Version: 2.2-5
+Installed-Size: 624
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.2-5-rootless.deb
+Size: 6817300
+MD5sum: fee86c27e22a1e9d5de8f55b0c930db6
+SHA1: 
+SHA256: 58583611e82ac6d72b20ab9fc3563dfb06298c77284df0c22cd59b84c6e2f73c
 
 Package: com.ylr.wchook
 Name: 悬浮按钮分屏
