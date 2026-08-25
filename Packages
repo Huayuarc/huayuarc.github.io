@@ -7400,6 +7400,42 @@ SHA1:
 SHA256: 71b38fce6a5e3ea2f110f4824a3d29ab98ebbe9c540f346817de8c9b28f7319e
 
 Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU/Package 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。解除温控默认保持高性能（不降频、不掉帧、不暗屏），空闲时由原生 DVFS 自动降频以减少发热。
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.1
+Installed-Size: 1644
+Filename: debs/com.huayuarc.cputhermal-1.6.1-roothide.deb
+Size: 122488
+MD5sum: 671133ced62ea1039d50c189e6ba1d79
+SHA1: 
+SHA256: 0df91853e4ca2dfaf1427a7c77d3d928c7f12dc9237498d234beb7c624838d0c
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU/Package 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。解除温控默认保持高性能（不降频、不掉帧、不暗屏），空闲时由原生 DVFS 自动降频以减少发热。
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.1
+Installed-Size: 1684
+Filename: debs/com.huayuarc.cputhermal-1.6.1-rootless.deb
+Size: 125592
+MD5sum: 04d1c58721df6889c370348bf9f75168
+SHA1: 
+SHA256: bdfdf8e68e84c317a1940911880aa0ac315ce00983458ccf1235beafc5215777
+
+Package: com.huayuarc.cputhermal
 Name: CPU解除温控
 Author: Huayuarc
 Description: 注入 thermalmonitord 的 iOS 温控管理插件。双防护层架构：IOKit 层拦截传感器温度读取 CPMS 功率目标设定。支持双功率模式：「满血」解除全部温控限制，「低功耗」将 CPU 频率锁定在 2016MHz 兼顾省电与性能。
@@ -13569,9 +13605,9 @@ SHA1:
 SHA256: b20776e4793c8e6eab1a611c60dafc4a8b4949cf3c5ca75184201e14d0fdcf60
 
 Package: com.netskao.perfectgrabber
-Name: Ntonia-PreferenceLoader
-Description: Shows time and battery information around the pull-down grabber. Rebuilt for RootHide.
-Maintainer: NetSkao / RootHide adaptation
+Name: Ntonia-PreferenceLoader 横屏游戏下拉
+Description: 在横屏游戏下拉一次时显示时间和电量（某些游戏不规范会无法唤出），支持自定义字体颜色，背景颜色，字体大小，字体样式，震动反馈等
+Maintainer: Huayuarc
 Author: NetSkao
 Section: Tweaks
 icon: https://huayuarc.github.io/icon/NtoniaPGIcon.png
@@ -13580,15 +13616,15 @@ Architecture: iphoneos-arm64e
 Version: 1.1-15
 Installed-Size: 360
 Filename: debs/com.netskao.perfectgrabber-1.1-15-roothide.deb
-Size: 193300
-MD5sum: c90b01b0679e4a85d61ccd136f0e53ab
+Size: 193384
+MD5sum: 5715da82994a86590037ed0861679a3b
 SHA1: 
-SHA256: b7e5c246cbbe86528cf2fc9aa7ea10f420db22d0c911da763d369a0361984c9c
+SHA256: 385d9eb19bd62be62565c934c50d822d08dd4b1761ae7ea6dd8cf0a185802bb8
 
 Package: com.netskao.perfectgrabber
-Name: Ntonia-PreferenceLoader
-Description: Shows time and battery information around the pull-down grabber. Rebuilt for RootHide.
-Maintainer: NetSkao / RootHide adaptation
+Name: Ntonia-PreferenceLoader 横屏游戏下拉
+Description: 在横屏游戏下拉一次时显示时间和电量（某些游戏不规范会无法唤出），支持自定义字体颜色，背景颜色，字体大小，字体样式，震动反馈等
+Maintainer: Huayuarc
 Author: NetSkao
 Section: Tweaks
 icon: https://huayuarc.github.io/icon/NtoniaPGIcon.png
@@ -13597,15 +13633,15 @@ Architecture: iphoneos-arm64
 Version: 1.1-15
 Installed-Size: 360
 Filename: debs/com.netskao.perfectgrabber-1.1-15-rootless.deb
-Size: 193368
-MD5sum: a25941d248470046f403ada600c5a497
+Size: 193424
+MD5sum: 5b64ee6c1241a51959e70451b093cdbd
 SHA1: 
-SHA256: c5c6ec833c6c249fa2fdb3e39a8f79618185e3d345df8a1ec97ca80dfeff1adc
+SHA256: 768181b1822d61adb1eaab38e66af7b5f5c66cbcb356461cc651fc07687512f7
 
 Package: com.netskao.perfectgrabber
-Name: Ntonia-PreferenceLoader
-Description: Shows time and battery information around the pull-down grabber.
-Maintainer: NetSkao
+Name: Ntonia-PreferenceLoader 横屏游戏下拉
+Description: 在横屏游戏下拉一次时显示时间和电量（某些游戏不规范会无法唤出），支持自定义字体颜色，背景颜色，字体大小，字体样式，震动反馈等
+Maintainer: Huayuarc
 Author: NetSkao
 Section: Tweaks
 icon: https://huayuarc.github.io/icon/NtoniaPGIcon.png
@@ -13614,15 +13650,15 @@ Architecture: iphoneos-arm64e
 Version: 1.1-23
 Installed-Size: 368
 Filename: debs/com.netskao.perfectgrabber-1.1-23-roothide.deb
-Size: 194344
-MD5sum: d501ce3da226fef1b0ca67abb3b64c18
+Size: 194452
+MD5sum: 233be69c33a304642d05e7ac986e5e0e
 SHA1: 
-SHA256: 73eb7ed0060b5d6abb37005c2366195857592524c6b60d81271cf50c3be2b6ac
+SHA256: 92b79b54168499987e8dbb26ba84c457b8aab676d6ccc7c2aea232f491ec86b2
 
 Package: com.netskao.perfectgrabber
-Name: Ntonia-PreferenceLoader
-Description: Shows time and battery information around the pull-down grabber.
-Maintainer: NetSkao
+Name: Ntonia-PreferenceLoader 横屏游戏下拉
+Description: 在横屏游戏下拉一次时显示时间和电量（某些游戏不规范会无法唤出），支持自定义字体颜色，背景颜色，字体大小，字体样式，震动反馈等
+Maintainer: Huayuarc
 Author: NetSkao
 Section: Tweaks
 icon: https://huayuarc.github.io/icon/NtoniaPGIcon.png
@@ -13631,10 +13667,10 @@ Architecture: iphoneos-arm64
 Version: 1.1-23
 Installed-Size: 368
 Filename: debs/com.netskao.perfectgrabber-1.1-23-rootless.deb
-Size: 194332
-MD5sum: cda98ba46119761a1fec24f0d488a99e
+Size: 194416
+MD5sum: 34d0165e80912a7ae6d14ee3d72a02ae
 SHA1: 
-SHA256: 5fa7683349f748c9692a9f70e154949a28b8a122fbbd68bb14e601d4dc732ee9
+SHA256: 0b201b225dd04e16345931325a803d5cdaa7d243f84192b290279460b81799b6
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.qqnotiavatar
 Package: com.netskao.qqnotiavatar
@@ -24050,22 +24086,23 @@ MD5sum: 4f9e5df913dd59b9902a99a2bb7f6017
 SHA1: 
 SHA256: f9c66c11d59278f848c738658b86e4d031d77ef970300f2e9dc20b4f1e507836
 
-Package: netskao.perfectgrabber
-Version: 1.1-7
+Package: netskao.perfectxtime
+Version: 1.1-3
 Section: Tweaks
 Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64
-Installed-Size: 2116
-Name: PerfectGrabber
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Installed-Size: 168
+Name: PerfectXTime 状态栏时间格式
 Author: Netskao
-Description: 在横屏游戏下拉一次时显示时间和电量（某些游戏不规范会无法唤出），支持自定义字体颜色，背景颜色，字体大小，字体样式，震动反馈等
+Description: PerfectXTime修改于PerfectTimeXS，修复13之后的小问题，无设置，仅时间+星期格式，纯自用，录屏时自动恢复默认时间，以免错位
 icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/netskao.perfectgrabber_1.1-7_iphoneos-arm64.deb
-Size: 836400
-MD5sum: f2e25816f54f42b954818c87cb6a7af3
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/netskao.perfectxtime-1.1-3-roothide.deb
+Size: 8872
+MD5sum: 61fd8ebf13a6dd6eb13b17ecfec4ecfb
 SHA1: 
-SHA256: c70d5b6c525066e431a19ece439717879f57f4792eea53dbdaf619e92693e85f
+SHA256: 3e8cc94727d018a7021186ea01ad53f249110e38771648bb3eb5a0a94e566fea
 
 Package: netskao.perfectxtime
 Version: 1.1-3
@@ -24074,15 +24111,15 @@ Maintainer: Nets
 Depends: mobilesubstrate, firmware (>= 15.0)
 Architecture: iphoneos-arm64
 Installed-Size: 168
-Name: PerfectXTime
+Name: PerfectXTime 状态栏时间格式
 Author: Netskao
 Description: PerfectXTime修改于PerfectTimeXS，修复13之后的小问题，无设置，仅时间+星期格式，纯自用，录屏时自动恢复默认时间，以免错位
 icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/netskao.perfectxtime_1.1-3_iphoneos-arm64.deb
-Size: 8632
-MD5sum: 727ae719fb9446db6486fc9179445ebb
+Filename: debs/netskao.perfectxtime-1.1-3-rootless.deb
+Size: 8676
+MD5sum: 54973b19be5fcdcfe863ea3abb193ffa
 SHA1: 
-SHA256: 772f24424b0becab18e9225c67d20f7982aa1d2e2fde6a648b5cd1c344d74016
+SHA256: 0df5b0bb35064444aa5f3465672bab12369d33bf9cab17e42b64ca008b5f14ab
 
 Package: netskao.picsartcrack
 Version: 1.1-5
