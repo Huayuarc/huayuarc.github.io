@@ -4873,6 +4873,47 @@ MD5sum: 72f4f7d00933bf8663f21c702604e3b5
 SHA1: 
 SHA256: 952cf6919412438d837f8c29d146bfaeea9f14d456d0d22ce0dc757cdcccd64e
 
+Package: com.dylv.liquidglass
+Name: 液态玻璃
+Description: 液态玻璃体玻璃，基于LiquidAss项目修改
+Maintainer: dylv
+Author: dylv
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Replaces: com.iosdump.customccbg
+Provides: com.iosdump.customccbg
+Conflicts: com.iosdump.customccbg
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Architecture: iphoneos-arm64e
+Version: 0.1.2.1
+Installed-Size: 4816
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.dylv.liquidglass-0.1.2.1-roothide.deb
+Size: 1650136
+MD5sum: 25f1d7ae415b277cf0c396f6b28a3a49
+SHA1: 
+SHA256: 3db3d7441e255a151084de579068c8657cff5e2ea66af9e11f41383059236065
+
+Package: com.dylv.liquidglass
+Name: 液态玻璃
+Description: 液态玻璃体玻璃，基于LiquidAss项目修改
+Maintainer: dylv
+Author: dylv
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Replaces: com.iosdump.customccbg
+Provides: com.iosdump.customccbg
+Conflicts: com.iosdump.customccbg
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Architecture: iphoneos-arm64
+Version: 0.1.2.1
+Installed-Size: 4848
+Filename: debs/com.dylv.liquidglass-0.1.2.1-rootless.deb
+Size: 1660368
+MD5sum: 4fdf38136d944d8106f45c9040a9828e
+SHA1: 
+SHA256: 503a7c84d0bca8c8d166339947b21617d5ef713450fcbc62aa1e2a050dfbd031
+
 Package: com.eliassfeir.no2theftios15
 Name: No2Theft
 Depends: ws.hbang.common
