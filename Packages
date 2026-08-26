@@ -1330,6 +1330,24 @@ MD5sum: f048e747e409e921ae8615ebdbc66819
 SHA1: 
 SHA256: ccb5914caa3e8467da5605d1dc38f1a69b9f06c194e56701449cb3444476bdcb
 
+Package: cn.zqbb.jailfools
+Name: JailFools 越狱版 TrollFools
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Author: zqbb <zqbbzz@gmail.com>
+Maintainer: zqbb <zqbbzz@gmail.com>
+Description: 越狱版 TrollFools 注入工具
+ * 支持将 dylib 注入到应用内
+icon: https://huayuarc.github.io/icon/JailFools.jpg
+Architecture: iphoneos-arm64e
+Version: 5.2.2
+Installed-Size: 16700
+Filename: debs/cn.zqbb.jailfools-5.2.2-roothide.deb
+Size: 5100068
+MD5sum: 6104acf409c93ad63e1b86b72f2e71cb
+SHA1: 
+SHA256: 9d02187e628b0a3dc2b439a0c36bb6bd61924db317dbc07c4f7d2078408be9d8
+
 Package: codes.aurora.kayoko
 Name: Hello Kayoko 剪切板
 Description: Kayoko 剪切板，基于「乌龙工作室」版进行修改
