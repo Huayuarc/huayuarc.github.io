@@ -14786,6 +14786,40 @@ MD5sum: a6d4dfad33872aa2c8b3b48507a2ea80
 SHA1: 
 SHA256: 2156fc497cce2bcb8bce51e7f25d8095f3d538566af0740c8ae84025aa1d5e82
 
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Description: SpringBoard CPU and Battery Monitor tweak. Monitors SpringBoard CPU usage, battery temperature, charging status and power information.SpringBoard CPU和电池监视器调整。监控SpringBoard CPU使用情况、电池温度、充电状态和电源信息。
+Maintainer: SBCPUFloating
+Author: SBCPUFloating
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.7.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-1.7.0-roothide.deb
+Size: 40756
+MD5sum: aa4619bcfbb661270c601a46a924cd6a
+SHA1: 
+SHA256: f0beebb839e87bfc0fce9d9f7abd879745f6cc82923e0302293685b052317067
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Description: SpringBoard CPU and Battery Monitor tweak. Monitors SpringBoard CPU usage, battery temperature, charging status and power information.SpringBoard CPU和电池监视器调整。监控SpringBoard CPU使用情况、电池温度、充电状态和电源信息。
+Maintainer: SBCPUFloating
+Author: SBCPUFloating
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.7.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-1.7.0-rootless.deb
+Size: 41052
+MD5sum: 1e9e86ece34dd40c8400971f695468a9
+SHA1: 
+SHA256: 7633fde785fc4e5e9f68f167441e0b4cb320403b6f02096812394fc4fbfeece1
+
 Package: com.shadow.h5ggapp
 Name: H5GG跨进程悬浮版(iOS15)
 Description: H5GG跨进程iOS15专用悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版), Credits: BawAppie and Akusio, Discord https://discord.gg/h5gg
