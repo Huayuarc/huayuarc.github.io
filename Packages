@@ -25747,6 +25747,59 @@ MD5sum: bf6764a419d4a43466f2d607000946d8
 SHA1: 
 SHA256: f7cf33bf602a0480380417cc40383b85ba9a8407a89ed1ddc2cc73443e456422
 
+Package: xyz.cypwn.photoscore
+Maintainer: CyPwn
+Name: PhotosCore 相册工具增强
+Author: zjer
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Provides: com.zijian.photoscore
+Conflicts: com.zijian.photoscore
+Replaces: com.zijian.photoscore
+Description: 通过可定制的查看、导航、布局和相册工具增强 Apple Photos。
+ * 主要特点
+ * 隐藏“照片”底部栏，将全屏照片居中，按名称对相册进行排序，并在底部打开相册。
+ * 仅在“照片”中强制深色外观，无需更改其他应用程序。
+ * 使用原生缩略图、1-9列预设或具有可配置列和间距的自定义5-10级布局。
+ * 显示、隐藏和重新排序搜索项目；在相册中显示或隐藏人物和地点。
+ * 在iPad上自定义边栏目标和群组。
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Installed-Size: 1120
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/photoscore.png
+Filename: debs/xyz.cypwn.photoscore-1.1.0-roothide.deb
+Size: 197300
+MD5sum: a3df45370248223767fae45b5a0f022c
+SHA1: 
+SHA256: 9528c101c8b61b43c181641834896515fbfca90f8dcbfbda3699f74e4c0b3a08
+
+Package: xyz.cypwn.photoscore
+Maintainer: CyPwn
+Name: PhotosCore 相册工具增强
+Author: zjer
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Provides: com.zijian.photoscore
+Conflicts: com.zijian.photoscore
+Replaces: com.zijian.photoscore
+Description: 通过可定制的查看、导航、布局和相册工具增强 Apple Photos。
+ * 主要特点
+ * 隐藏“照片”底部栏，将全屏照片居中，按名称对相册进行排序，并在底部打开相册。
+ * 仅在“照片”中强制深色外观，无需更改其他应用程序。
+ * 使用原生缩略图、1-9列预设或具有可配置列和间距的自定义5-10级布局。
+ * 显示、隐藏和重新排序搜索项目；在相册中显示或隐藏人物和地点。
+ * 在iPad上自定义边栏目标和群组。
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Installed-Size: 1120
+icon: https://huayuarc.github.io/icon/photoscore.png
+Filename: debs/xyz.cypwn.photoscore-1.1.0-rootless.deb
+Size: 201376
+MD5sum: b613c3025f22e04e994b1713f7d66a09
+SHA1: 
+SHA256: 996ac4bf8bc00a7ed9a099086912003208ac5c5aac7f1913f6566ca4617008b0
+
 Package: xyz.cypwn.python314
 Maintainer: CyPwn
 Icon: https://huayuarc.github.io/icon/python.jpg
