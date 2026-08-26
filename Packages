@@ -4595,6 +4595,44 @@ MD5sum: a9822c2cee5c4bc5727361d76c16d2eb
 SHA1: 
 SHA256: bd216ada41858dc8192252cd0958b21490b142eff0c4f4e97fc30fbd04d9d2d1
 
+Package: com.dao.pulloverx
+Name: PullOverX 分屏
+Description: 悬浮多任务窗口工具，基于 mlgm 的 PullOver X 打造的客制化版本。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Author: mlgm
+Maintainer: daodao
+Icon: https://mlgm66.github.io/icon/pullover.png
+Architecture: iphoneos-arm64e
+Version: 2.2.9
+Installed-Size: 796
+Filename: debs/com.dao.pulloverx-2.2.9-roothide.deb
+Size: 177368
+MD5sum: a74430318b46cf29ce412b829702c00d
+SHA1: 
+SHA256: 3c3fa1be0ef371f7a21e06abb7fb36870df8a265b282a40d24f002e48a133327
+
+Package: com.dao.pulloverx
+Name: PullOverX 分屏
+Description: 悬浮多任务窗口工具，基于 mlgm 的 PullOver X 打造的客制化版本。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Author: mlgm
+Maintainer: daodao
+Architecture: iphoneos-arm64
+Version: 2.2.9
+Installed-Size: 812
+Icon: https://mlgm66.github.io/icon/pullover.png
+Filename: debs/com.dao.pulloverx-2.2.9-rootless.deb
+Size: 180260
+MD5sum: 54b838dd571b632e172f27fac09915ec
+SHA1: 
+SHA256: 20dab2fa5c8dd20dfde3ef4dc4928f60ac7477ba6073cb8226b27b82ad99629b
+
 Package: com.daodao.goodwifi
 Name: GoodWiFi
 Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
@@ -5941,6 +5979,60 @@ Size: 2387272
 MD5sum: 9e36b7e3a6cb1efc8371f2dd8db41d59
 SHA1: 
 SHA256: c2d3950e8e7f3fb74dfa18849a9fc5b786ac5abb76bd4feeb5244e8c4b36fe91
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 16.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.1.9
+Installed-Size: 8960
+Filename: debs/com.hmmzzz.marktheme-0.1.9-roothide.deb
+Size: 2417412
+MD5sum: 2be50e2d07eb984c563658da2e3ce444
+SHA1: 
+SHA256: fa4bb4500c48607c65ad6ea72e75511919212c1da52b9ea22a2b283843a5122c
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 16.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.1.9
+Installed-Size: 8964
+Filename: debs/com.hmmzzz.marktheme-0.1.9-rootless.deb
+Size: 2418172
+MD5sum: 5cda466558533f0173fc6f933d4ce417
+SHA1: 
+SHA256: 87bd4de2823bbe536ff61b5a560b4a8a1759e1cc3d26442910f7695e7c078020
 
 Package: com.hoangdus.konban
 Name: KonbanXV
