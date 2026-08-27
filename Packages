@@ -3064,6 +3064,23 @@ MD5sum: f312ea23e2b01e980a24f9214814710b
 SHA1: 
 SHA256: 17541e9315b2bc4d362f253c74defe1013da9dcc1ab77d362af8ececdc05fe08
 
+Package: com.charlieleung.liquidify
+Name: Liquidify 88 元 液态玻璃
+Description: 为 iOS 界面注入液态玻璃质感。
+Maintainer: Charlie Leung
+Author: Charlie Leung
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.3.5
+Installed-Size: 37676
+icon: https://huayuarc.github.io/icon/Liquidify.png
+Filename: debs/com.charlieleung.liquidify-1.3.5-roothide.deb
+Size: 10046104
+MD5sum: 1e1ca106e5504e6a4788261887feb0b4
+SHA1: 
+SHA256: 162590e035a2d5267ed957eba6772f5b78b08ae412331119a7e154671bb11ed6
+
 Package: com.charlieleung.snapvision
 Name: 长截图 区域截图OCR
 Description: 长截图 区域截图OCR 截图仅复制。
@@ -4532,6 +4549,42 @@ Size: 513092
 MD5sum: 7d36fb5b4a4c32d004bd690550a793e0
 SHA1: 
 SHA256: a28c03dfdbdeef07c5988e95933083036a76eb9e0d135d240003ff5ec276f331
+
+Package: com.dao.donut
+Name: Donut 图标通知角标
+Description: 桌面图标通知角标变成空心小圆圈，自适应颜色。
+Maintainer: daodao
+Author: daodao
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.noisyflake.cozybadges, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd, com.dao.ocd5lite, com.dao.ocd5, com.sini921.donut
+icon: https://huayuarc.github.io/icon/Donut.png
+Architecture: iphoneos-arm64e
+Version: 2.0
+Installed-Size: 380
+Filename: debs/com.dao.donut-2.0-roothide.deb
+Size: 43456
+MD5sum: 7131aa1b836c8db1fd4647abc56582c9
+SHA1: 
+SHA256: 6f45bd5374657a789960c0ba5cbfe7f0269d4e9203216cb8d521f28f76a0c9f9
+
+Package: com.dao.donut
+Name: Donut 图标通知角标
+Description: 桌面图标通知角标变成空心小圆圈，自适应颜色。
+Maintainer: daodao
+Author: daodao
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.noisyflake.cozybadges, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd, com.dao.ocd5lite, com.dao.ocd5, com.sini921.donut
+icon: https://huayuarc.github.io/icon/Donut.png
+Architecture: iphoneos-arm64
+Version: 2.0
+Installed-Size: 412
+Filename: debs/com.dao.donut-2.0-rootless.deb
+Size: 44712
+MD5sum: fa83251d55128137a447f7b125696450
+SHA1: 
+SHA256: 41ec0c61f3beb1df7402f442e45c9c22ec95982b0b037ceed1df5136e82306ed
 
 Package: com.dao.pulloverx
 Name: PullOverX 分屏
