@@ -4674,6 +4674,42 @@ MD5sum: fa83251d55128137a447f7b125696450
 SHA1: 
 SHA256: 41ec0c61f3beb1df7402f442e45c9c22ec95982b0b037ceed1df5136e82306ed
 
+Package: com.dao.donut
+Name: Donut 图标通知角标
+Description: 桌面图标通知角标变成空心小圆圈，自适应颜色。
+Maintainer: daodao
+Author: daodao
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.noisyflake.cozybadges, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd, com.dao.ocd5lite, com.dao.ocd5, com.sini921.donut
+icon: https://huayuarc.github.io/icon/Donut.png
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Installed-Size: 380
+Filename: debs/com.dao.donut-2.0.1-roothide.deb
+Size: 44552
+MD5sum: ca12506ee6b6d38904ab9c6c5c3a9d00
+SHA1: 
+SHA256: 0970e99fd7c95caf8f33489608dbe4d608f69c70ca526bb55425ae1330b14884
+
+Package: com.dao.donut
+Name: Donut 图标通知角标
+Description: 桌面图标通知角标变成空心小圆圈，自适应颜色。
+Maintainer: daodao
+Author: daodao
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.noisyflake.cozybadges, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd, com.dao.ocd5lite, com.dao.ocd5, com.sini921.donut
+icon: https://huayuarc.github.io/icon/Donut.png
+Architecture: iphoneos-arm64
+Version: 2.0.1
+Installed-Size: 412
+Filename: debs/com.dao.donut-2.0.1-rootless.deb
+Size: 45788
+MD5sum: f41cc68ac7bb6870cf7974f0a41c456a
+SHA1: 
+SHA256: 143d87cc700c00c1449fb06a27c4db598d6348e4eda78aabd18f6743004e8c9e
+
 Package: com.dao.pulloverx
 Name: PullOverX 分屏
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
@@ -5793,6 +5829,54 @@ Size: 1472692
 MD5sum: f17450847e284a1008d43d8ea76d034e
 SHA1: 
 SHA256: f97ca38853371e5274d363a8dc6e164d0515bdac34b02afbbf42dac0ca968138
+
+Package: com.hmmzzz.fontmanager
+Name: MarkFont 字体管理器
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.2.2
+Installed-Size: 7548
+Filename: debs/com.hmmzzz.fontmanager-0.2.2-roothide.deb
+Size: 2313600
+MD5sum: 80087140c694f2bab4f361db09e5035b
+SHA1: 
+SHA256: 19784763cc0ae8ade55ab3732348ba1fa8a5f983b0e36d0165a0dd4dc01616e7
+
+Package: com.hmmzzz.fontmanager
+Name: MarkFont 字体管理器
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.2.2
+Installed-Size: 7584
+Filename: debs/com.hmmzzz.fontmanager-0.2.2-rootless.deb
+Size: 2308464
+MD5sum: 9f16dc69b8b5c4ad7e059591c427f8b2
+SHA1: 
+SHA256: a63b77cf3ba03b4af95195ce8180dc46c3075199d889fa7e3a3e2aa39cee52c5
 
 Package: com.hmmzzz.fontmanager
 Name: MarkFont 全局字体管理器
