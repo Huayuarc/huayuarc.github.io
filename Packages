@@ -1348,6 +1348,24 @@ MD5sum: 6104acf409c93ad63e1b86b72f2e71cb
 SHA1: 
 SHA256: 9d02187e628b0a3dc2b439a0c36bb6bd61924db317dbc07c4f7d2078408be9d8
 
+Package: cn.zqbb.jailfools
+Name: JailFools 越狱版 TrollFools
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Author: zqbb <zqbbzz@gmail.com>
+Maintainer: zqbb <zqbbzz@gmail.com>
+Description: 越狱版 TrollFools 注入工具
+  * 支持将 dylib 注入到应用内
+icon: https://huayuarc.github.io/icon/JailFools.jpg
+Architecture: iphoneos-arm64e
+Version: 5.2.3
+Installed-Size: 17696
+Filename: debs/cn.zqbb.jailfools-5.2.3-roothide.deb
+Size: 5288668
+MD5sum: f41761c4bb6a021b1ddbead132f5a7f9
+SHA1: 
+SHA256: 8f6af6b2982d79aec67f94b859d979fd2f634385b6705120553f874cd7d28bce
+
 Package: codes.aurora.kayoko
 Name: Hello Kayoko 剪切板
 Description: Kayoko 剪切板，基于「乌龙工作室」版进行修改
@@ -5994,6 +6012,56 @@ MD5sum: 0629b24546f205f3be694685e8e9f6e7
 SHA1: 
 SHA256: 649391dae103b84f1fef4dcd06fd96d9504d94b2e484bc6d1d9800c2fed91c40
 
+Package: com.hmmzzz.fontmanager
+Name: MarkFont 字体管理器
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://hmmzzz.github.io/repo/
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.3.8
+Installed-Size: 2512
+Filename: debs/com.hmmzzz.fontmanager-0.3.8-roothide.deb
+Size: 496768
+MD5sum: fd37c0b069da3c2778cf971c94f3574b
+SHA1: 
+SHA256: 70a5d96cfc65f56e196cdc450b534d4a225574254b5fb96543d1d99e04093f47
+
+Package: com.hmmzzz.fontmanager
+Name: MarkFont 字体管理器
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://hmmzzz.github.io/repo/
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.3.8
+Installed-Size: 2528
+Filename: debs/com.hmmzzz.fontmanager-0.3.8-rootless.deb
+Size: 503524
+MD5sum: 482ed7c78534b40ba35d8e4992440a27
+SHA1: 
+SHA256: f8eebe8b562d8a73ac0ddad86d8a8dac5b0fa9973d06ccd96292913a5e593155
+
 Package: com.hmmzzz.marktheme
 Name: MarkTheme 主题引擎管理器
 Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
@@ -6209,6 +6277,60 @@ Size: 2418172
 MD5sum: 5cda466558533f0173fc6f933d4ce417
 SHA1: 
 SHA256: 87bd4de2823bbe536ff61b5a560b4a8a1759e1cc3d26442910f7695e7c078020
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.2.1
+Installed-Size: 9048
+Filename: debs/com.hmmzzz.marktheme-0.2.1-roothide.deb
+Size: 2433820
+MD5sum: d5fb3b81b70cac1c57417219600843f2
+SHA1: 
+SHA256: fb6aca4f07e10ddf9c748d30fc64e0aaeb22e06603a505ef0e3ba5932f82180a
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.2.1
+Installed-Size: 9052
+Filename: debs/com.hmmzzz.marktheme-0.2.1-rootless.deb
+Size: 2437144
+MD5sum: b46f13ec1d1bbd33e6d3af5e649cce1e
+SHA1: 
+SHA256: bce2046f94c14603171cc633e2fd61fc67e5c4bb256b34f1522cebbcae9c69db
 
 Package: com.hoangdus.konban
 Name: KonbanXV
