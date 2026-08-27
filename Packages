@@ -14713,6 +14713,43 @@ MD5sum: 1b642eee1e8063c45b0ab57d7740eb73
 SHA1: 
 SHA256: 6e255d9605f3528ce391b7ff1da76328a23fa355a14af78a5cf930fb58b88335
 
+Package: com.p2kdev.sugarcane
+Version: 1.3.1
+Description: SugarCane 是一款控制中心亮度和音量添加百分比显示的插件。
+Section: Tweaks
+Maintainer: p2kdev
+Depends: mobilesubstrate,firmware (>= 13.0)
+Architecture: iphoneos-arm64e
+Installed-Size: 172
+Name: SugarCane 音量 亮度显示百分比
+Author: iOS Creatix, kasiimh1, p2kdev
+Sponsor: p2kdev
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/sugarcane.jpg
+Filename: debs/com.p2kdev.sugarcane-1.3.1-roothide.deb
+Size: 8108
+MD5sum: 15fe301cc05a1a2664a8999e97cc2fbe
+SHA1: 
+SHA256: 58066c24bfa3ddda3a01d6b287641e1b738a98e71d9e81a8dac35550d1303ee4
+
+Package: com.p2kdev.sugarcane
+Version: 1.3.1
+Description: SugarCane 是一款控制中心亮度和音量添加百分比显示的插件。
+Section: Tweaks
+Maintainer: p2kdev
+Depends: mobilesubstrate,firmware (>= 13.0)
+Architecture: iphoneos-arm64
+Installed-Size: 172
+Name: SugarCane 音量 亮度显示百分比
+Author: iOS Creatix, kasiimh1, p2kdev
+Sponsor: p2kdev
+icon: https://huayuarc.github.io/icon/sugarcane.jpg
+Filename: debs/com.p2kdev.sugarcane-1.3.1-rootless.deb
+Size: 8304
+MD5sum: a5d95ca1e99a625c2fe180b664fdfbc8
+SHA1: 
+SHA256: 85b4a20382dd7e236ea37fd2a2b5ca2dc9c127ac027d24ba62e5b8bfd00a7bcc
+
 Package: com.promotion120
 Name: ProMotion 120Hz
 Author: Unknown
