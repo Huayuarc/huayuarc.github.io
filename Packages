@@ -7663,6 +7663,42 @@ Section: Tweaks
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Architecture: iphoneos-arm64e
+Version: 1.6.2-1
+Installed-Size: 2236
+Filename: debs/com.huayuarc.cputhermal-1.6.2-1-roothide.deb
+Size: 152752
+MD5sum: da26a66a2f0339325c9546e8fdae602f
+SHA1: 
+SHA256: c9cc60f7b6476b065bbc294bb3f04e02e0ffa68179b4750e6dc6f13a393218d7
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU/Package 功率策略、SmartBatteryAPI 智能停充与停充自动禁流。
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-1
+Installed-Size: 2268
+Filename: debs/com.huayuarc.cputhermal-1.6.2-1-rootless.deb
+Size: 155892
+MD5sum: d2cebd33115431d2e26a2264ab2fb162
+SHA1: 
+SHA256: 4f27926e384ba8df56d0b0b65f9abecf7c1513d7ed3017bf960b5eee6bc73fcb
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU/Package 功率策略、SmartBatteryAPI 智能停充与停充自动禁流。
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
 Version: 1.6.2
 Installed-Size: 2068
 Filename: debs/com.huayuarc.cputhermal-1.6.2-roothide.deb
@@ -25768,7 +25804,8 @@ Version: 1.1.0
 Installed-Size: 1120
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/photoscore.png
-Filename: debs/xyz.cypwn.photoscore-1.1.0-roothide.deb
+Filename: debs/xyz.cypwn.photoscore-1.1.0
+-roothide.deb
 Size: 197300
 MD5sum: a3df45370248223767fae45b5a0f022c
 SHA1: 
@@ -25794,7 +25831,8 @@ Architecture: iphoneos-arm64
 Version: 1.1.0
 Installed-Size: 1120
 icon: https://huayuarc.github.io/icon/photoscore.png
-Filename: debs/xyz.cypwn.photoscore-1.1.0-rootless.deb
+Filename: debs/xyz.cypwn.photoscore-1.1.0
+-rootless.deb
 Size: 201376
 MD5sum: b613c3025f22e04e994b1713f7d66a09
 SHA1: 
