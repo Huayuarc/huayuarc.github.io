@@ -4783,6 +4783,41 @@ MD5sum: b19ab91cc43e4e730e7197a96235d7b8
 SHA1: 
 SHA256: e6bf00a85854493746cc015814df3667601993fd62d88ed31f056aa35c6bce89
 
+Package: com.dgr.fipad
+Name: Fipad 仿IPAD可调节后台
+Description: 仿ipad可调节后台！
+Maintainer: dgr
+Author: dgr
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.3.0
+Installed-Size: 352
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/fipad.png
+Filename: debs/com.dgr.fipad-1.3.0-roothide.deb
+Size: 11332
+MD5sum: 952dcc263661ed23a315229cd189a841
+SHA1: 
+SHA256: 24171515585784d3ea4509f1c97149ae2b9a8f1ad11b08ae31ca0052380b9986
+
+Package: com.dgr.fipad
+Name: Fipad 仿IPAD可调节后台
+Description: 仿ipad可调节后台！
+Maintainer: dgr
+Author: dgr
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.3.0
+Installed-Size: 352
+icon: https://huayuarc.github.io/icon/fipad.png
+Filename: debs/com.dgr.fipad-1.3.0-rootless.deb
+Size: 11864
+MD5sum: af271e8e3474906a021bdbc741188fb5
+SHA1: 
+SHA256: 8ba157e65a3f99c16fd2cbedbacf88a08ff39d266b96d3b08e9a68325107ec00
+
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
 Author: doimty
@@ -22274,6 +22309,59 @@ Size: 6817300
 MD5sum: fee86c27e22a1e9d5de8f55b0c930db6
 SHA1: 
 SHA256: 58583611e82ac6d72b20ab9fc3563dfb06298c77284df0c22cd59b84c6e2f73c
+
+Package: com.xuuz.douyinhelper
+Name: Xuu 抖音助手
+Description: 基于 DYYY 的抖音插件
+ * 四种插件打开方式
+ * 三指长按
+ * 长按视频
+ * 设置页面
+ * 聊天长按➕/✖️图标
+ * 支持信息防撤回
+ * 支持猜拳骰子作弊
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64e
+Version: 2.2-6
+Installed-Size: 17640
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.2-6-roothide.deb
+Size: 6830060
+MD5sum: 604272cdf531bdd30047d91b7c6496df
+SHA1: 
+SHA256: bafd06b82fdf7aa12e9240517fa456e1bfc503936c1b3e93e58e13ffe6ae0fce
+
+Package: com.xuuz.douyinhelper
+Name: Xuu 抖音助手
+Description: 基于 DYYY 的抖音插件
+ * 四种插件打开方式
+ * 三指长按
+ * 长按视频
+ * 设置页面
+ * 聊天长按➕/✖️图标
+ * 支持信息防撤回
+ * 支持猜拳骰子作弊
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64
+Version: 2.2-6
+Installed-Size: 17640
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.2-6-rootless.deb
+Size: 6822968
+MD5sum: 718ee3127ec4f06a98f194ee8b176290
+SHA1: 
+SHA256: ea67a6c8e092c90cedae447a7b680e8bf2cb6ec70c9b101db0811fbe77b2f458
 
 Package: com.ylr.wchook
 Name: 悬浮按钮分屏
