@@ -2324,6 +2324,76 @@ MD5sum: bd82c967d4d28af60f91f5d53121755b
 SHA1: 
 SHA256: b301cba50d6229f22c2ca913a6019175c93482e0b157246bfbb2fad34f5c03da
 
+Package: com.baiy.switchtheme
+Name: SwitchTheme——牙齿
+Description: 灵感源自牙齿线条的极简开关，圆润而洁净，温润而纯粹。滑动之间，如唇齿轻启，带来指尖柔滑的精致体验
+Maintainer: baiy（qq：961666883））
+Author: 白衣
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/switchtheme.jpg
+Filename: debs/com.baiy.switchtheme-1.0.0-roothide.deb
+Size: 27944
+MD5sum: ac05d68ab77952bc767420e13e288d28
+SHA1: 
+SHA256: 486edddb8923ada1b1e5a814b9b622a734d82ac34611e3c2a434d6f773e1057b
+
+Package: com.baiy.switchtheme
+Name: SwitchTheme——牙齿
+Description: 灵感源自牙齿线条的极简开关，圆润而洁净，温润而纯粹。滑动之间，如唇齿轻启，带来指尖柔滑的精致体验
+Maintainer: baiy（qq：961666883））
+Author: 白衣
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 240
+icon: https://huayuarc.github.io/icon/switchtheme.jpg
+Filename: debs/com.baiy.switchtheme-1.0.0-rootless.deb
+Size: 27732
+MD5sum: 1e9af5ff9e6fbc962379322e8747ff3f
+SHA1: 
+SHA256: 764a31736e55bc124ac43c7f472145563a07e00e3e619d4703b204db702d5bff
+
+Package: com.ban.mydock
+Name: MyDock 键盘增强
+Depends: mobilesubstrate
+Description: 键盘增强 自用
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/mydock.jpg
+Filename: debs/com.ban.mydock-1.0.0-roothide.deb
+Size: 5292
+MD5sum: fd43dd7b3892c21fe9415986b3ad8b68
+SHA1: 
+SHA256: a36f6776714d2347b4ee4a05c1c8e01a3f4228211cc360cc0d797ba0140dba7f
+
+Package: com.ban.mydock
+Name: MyDock 键盘增强
+Depends: mobilesubstrate
+Description: 键盘增强 自用
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/mydock.jpg
+Filename: debs/com.ban.mydock-1.0.0-rootless.deb
+Size: 5128
+MD5sum: bab3f5a482e58ce29b79dadfeb7aedcc
+SHA1: 
+SHA256: c6d3da9bc867aa6222fcb0c5c196b4d0c140ed874e6f7094f296723e9a116456
+
 Package: com.be-huge.custom-notification-sound
 Name: CustomWeChatNotificationSound
 Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）。使用方式：在对话框中，长按对方头像即可。
@@ -11768,6 +11838,41 @@ MD5sum: 9f10dba0fba0fddec2da07dc860d577b
 SHA1: 
 SHA256: 1319307e2907339feba3a8986228e7e34c5b4ad1f9dec4ec7e30a8576cba5b09
 
+Package: com.liuf.ldd
+Name: Liuf's 灵动岛
+Author: liuf <1602389292>
+Description: 自定义灵动岛背景边框背景!
+Depends: mobilesubstrate
+Maintainer: liuf <1602389292>
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+Installed-Size: 452
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/ldd.png
+Filename: debs/com.liuf.ldd-2.0.0-roothide.deb
+Size: 37784
+MD5sum: d27da11c71899ba1c590e8fe704b9786
+SHA1: 
+SHA256: 1e362a2b433714619ab812d08e3bab66f4ff93d245af35931489b2e1e3827f8d
+
+Package: com.liuf.ldd
+Name: Liuf's 灵动岛
+Author: liuf <1602389292>
+Description: 自定义灵动岛背景边框背景!
+Depends: mobilesubstrate
+Maintainer: liuf <1602389292>
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Installed-Size: 452
+icon: https://huayuarc.github.io/icon/ldd.png
+Filename: debs/com.liuf.ldd-2.0.0-rootless.deb
+Size: 37936
+MD5sum: af242b70631cd78e4992819257f398ec
+SHA1: 
+SHA256: 3c360ba1382499cc6a2acbd66a7aea824f4c0ad2063e3233100857986a52ebef
+
 Package: com.llld.fugap
 Version: 2.2.4
 Section: Tweaks
@@ -15197,6 +15302,40 @@ MD5sum: 1e9e86ece34dd40c8400971f695468a9
 SHA1: 
 SHA256: 7633fde785fc4e5e9f68f167441e0b4cb320403b6f02096812394fc4fbfeece1
 
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: sbcpu
+Author: sbcpu
+Description: SpringBoard CPU and Battery Monitor tweak. Monitors SpringBoard CPU usage, battery temperature, charging status and power information.SpringBoard CPU和电池监视器调整。监控SpringBoard CPU使用情况、电池温度、充电状态和电源信息。
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 2.3
+Installed-Size: 560
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-2.3-roothide.deb
+Size: 66544
+MD5sum: 7bf876a9b5ecaf9af91292917715cbff
+SHA1: 
+SHA256: fce8f7b915c74cf0b081e8d38ed3e0fa7aee515dbe371c4b074348be4978817f
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: sbcpu
+Author: sbcpu
+Description: SpringBoard CPU and Battery Monitor tweak. Monitors SpringBoard CPU usage, battery temperature, charging status and power information.SpringBoard CPU和电池监视器调整。监控SpringBoard CPU使用情况、电池温度、充电状态和电源信息。
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 2.3
+Installed-Size: 560
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-2.3-rootless.deb
+Size: 66552
+MD5sum: e3374c0fbcce5cc587f5e922eeda347b
+SHA1: 
+SHA256: 8b69946d0ec4a5969a6de50c286b8970bdb56cf244823cdfe6144793521073c8
+
 Package: com.shadow.h5ggapp
 Name: H5GG跨进程悬浮版(iOS15)
 Description: H5GG跨进程iOS15专用悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版), Credits: BawAppie and Akusio, Discord https://discord.gg/h5gg
@@ -15462,6 +15601,76 @@ Size: 90612
 MD5sum: ce46d815c9300a29bc5a91158a78813c
 SHA1: 
 SHA256: c0416a4a98fa5eedfcbf7f688187470d29d4008fb9097c54e452c21635b39504
+
+Package: com.simon.dynamicislandanimation
+Name: 灵动岛跳舞动画PLUS
+Description:用于灵动岛专辑及屏幕录制动态跳舞动画整合，无需挂载不再卑微！
+Maintainer: Simon
+Author: Simon
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Installed-Size: 432
+icon: https://huayuarc.github.io/icon/dynamicislandanimation.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.simon.dynamicislandanimation-1.1.8-roothide.deb
+Size: 28868
+MD5sum: c9421e17f2f7ab44697d9ccf2622ed1d
+SHA1: 
+SHA256: d241db513dc5fde807b38f705e8f285d9c176555dfa3a8c71b2d97f88befaefd
+
+Package: com.simon.dynamicislandanimation
+Name: 灵动岛跳舞动画PLUS
+Description:用于灵动岛专辑及屏幕录制动态跳舞动画整合，无需挂载不再卑微！
+Maintainer: Simon
+Author: Simon
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.1.8
+icon: https://huayuarc.github.io/icon/dynamicislandanimation.jpg
+Installed-Size: 432
+Filename: debs/com.simon.dynamicislandanimation-1.1.8-rootless.deb
+Size: 29084
+MD5sum: 30c5564304d5e4d1921afe465caf1dfd
+SHA1: 
+SHA256: c952b2f0d4a79fd3799de6dcedf06e06f75ee995edb680d46963d2382da62a6c
+
+Package: com.simon.dynamicislandanimation
+Name: 灵动岛跳舞动画PLUS
+Description:用于灵动岛专辑及屏幕录制动态跳舞动画整合 无需挂载不再卑微！
+Maintainer: Simon
+Author: Simon
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 2.4
+Installed-Size: 560
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/dynamicislandanimation.jpg
+Filename: debs/com.simon.dynamicislandanimation-2.4-roothide.deb
+Size: 78644
+MD5sum: 1c1c678b46099f34804a00cfeac846f9
+SHA1: 
+SHA256: 1f785a903cf5ec68e0c359f23243c01473bb719dddf56775ad3495c8478d3bb4
+
+Package: com.simon.dynamicislandanimation
+Name: 灵动岛跳舞动画PLUS
+Description:用于灵动岛专辑及屏幕录制动态跳舞动画整合 无需挂载不再卑微！
+Maintainer: Simon
+Author: Simon
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 2.4
+Installed-Size: 560
+icon: https://huayuarc.github.io/icon/dynamicislandanimation.jpg
+Filename: debs/com.simon.dynamicislandanimation-2.4-rootless.deb
+Size: 80372
+MD5sum: fbf4ab04e1f2758279bed29684665631
+SHA1: 
+SHA256: 4797eb52bb2ecf4b0991167a4fd2137ce038f22304da0fce69769caa1c71c8e8
 
 Package: com.simon.dynamicislandanimation
 Name: 灵动岛跳舞动画
@@ -19005,44 +19214,6 @@ MD5sum: ee0047603c22f018e6f48a1f26c574e5
 SHA1: 
 SHA256: 5b3a75d00cfc3871996a0b90667a08d927d5521cca09daec7f5b37db8fd510e7
 
-Package: com.sini.yuki
-Name: Yuki
-Icon: https://huayuarc.github.io/icon/douyin.jpg
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/yuki/js.json
-Description: 免费插件，随缘更新。
-Section: Tweaks
-Depends: firmware (>= 5.0), mobilesubstrate
-Priority: optional
-Maintainer: vita
-Author: vita
-Architecture: iphoneos-arm64
-Version: 0.0-9
-Installed-Size: 684
-Filename: debs/com.sini.yuki_0.0-9_iphoneos-arm64.deb
-Size: 124104
-MD5sum: 3317311df1be921ccd509d8b285f3f89
-SHA1: 
-SHA256: 59197d55af5dabad29e2127f9a090a088bdd9d69c54d6ad7c07b21e8d985ba35
-
-Package: com.sini.yuki
-Name: Yuki
-Icon: https://huayuarc.github.io/icon/douyin.jpg
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/yuki/js.json
-Description: 免费插件，随缘更新。
-Section: Tweaks
-Depends: firmware (>= 5.0), mobilesubstrate
-Priority: optional
-Maintainer: vita
-Author: vita
-Architecture: iphoneos-arm64e
-Version: 0.0-9
-Installed-Size: 684
-Filename: debs/com.sini.yuki_0.0-9_iphoneos-arm64e.deb
-Size: 124564
-MD5sum: 57ad14df1117e20a074af21248bcb10a
-SHA1: 
-SHA256: 602d3d892036c81c97f521a553e1b4b7e3fad581a371b5a4a9b62fa80e5e5b7b
-
 Author: Dcsyhi 
 Architecture: iphoneos-arm64
 Description: Zetsu1.5中文版(简体中文来自刀刀源)，此版本仅有小窗模式，不会提示更新，为不需要原作者后续新出的功能的人上传备份。
@@ -21920,6 +22091,80 @@ Size: 1820468
 MD5sum: 28931350f703b017c914ee6be9a8deeb
 SHA1: 
 SHA256: 806aab61a722a98ff00da9cdd305b66299a60e1d96ee8287a5b397284f14625b
+
+Package: com.vita.yuki
+Name: Yuki 抖音插件
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Description: 免费插件，随缘更新。
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: vita
+Author: vita
+Architecture: iphoneos-arm64e
+Version: 0.0-9
+Installed-Size: 684
+Filename: debs/com.vita.yuki-0.0-9-roothide.deb
+Size: 123892
+MD5sum: 3f11d84f328d1533f9dbf2a966759b40
+SHA1: 
+SHA256: b7403c265cee2baa40c2492e401a379cbfa05032c6af786a96d30a6296c72b24
+
+Package: com.vita.yuki
+Name: Yuki 抖音插件
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Description: 免费插件，随缘更新。
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: vita
+Author: vita
+Architecture: iphoneos-arm64
+Version: 0.0-9
+Installed-Size: 684
+Filename: debs/com.vita.yuki-0.0-9-rootless.deb
+Size: 124424
+MD5sum: 5b772577c49349f2f066222c3a48bd89
+SHA1: 
+SHA256: 2951ba5a7a18a7924559f5ad47c9392e66718153cbb477ad829c917b8defc28b
+
+Package: com.vita.yuki
+Name: Yuki 抖音插件
+Description: 免费插件，随缘更新。
+Homepage: https://github.com/wtrwx
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: vita
+Author: vita
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Architecture: iphoneos-arm64e
+Version: 0.1-0
+Installed-Size: 700
+Filename: debs/com.vita.yuki-0.1-0-roothide.deb
+Size: 132556
+MD5sum: 600d163132cff80e7c4f68e9dc8570c2
+SHA1: 
+SHA256: fe59350b2758f22bd47d649af5971c183708c5bbc5d3a95f1ccfb008f58de26f
+
+Package: com.vita.yuki
+Name: Yuki 抖音插件
+Description: 免费插件，随缘更新。
+Homepage: https://github.com/wtrwx
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: vita
+Author: vita
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Architecture: iphoneos-arm64
+Version: 0.1-0
+Installed-Size: 700
+Filename: debs/com.vita.yuki-0.1-0-rootless.deb
+Size: 133000
+MD5sum: ebc4d86c8e2c4210026011a89b46c402
+SHA1: 
+SHA256: 586c419d4896db1aa4531f0f7d690eb5354d7d056241d5ad48dbee349d761db5
 
 Package: com.vmgg.mlgm
 Name: VMGG 内存分析调试
