@@ -14321,6 +14321,40 @@ Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUther
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64e
+Version: 3.1-1
+Installed-Size: 1300
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-3.1-1-roothide.deb
+Size: 147880
+MD5sum: 67a1960b91b4f2470eea6dd27aed284b
+SHA1: 
+SHA256: 93e60d3849e6f6996292737a44a7f0725f34c99ff766edb7dba36ea1fe0a5a3d
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; preserves ChargeBoost and Force Fast Charge controls
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 3.1-1
+Installed-Size: 1300
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-3.1-1-rootless.deb
+Size: 150488
+MD5sum: d99be334357a16ba1f73cfc3978ee067
+SHA1: 
+SHA256: 7382e9a19d900578c7e7b03049595db369f193b5be8f22ae6b0310991fc70d79
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; preserves ChargeBoost and Force Fast Charge controls
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
 Version: 3.1
 Installed-Size: 1268
 icon: https://huayuarc.github.io/icon/floating.jpg
