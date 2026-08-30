@@ -7071,6 +7071,42 @@ Section: Tweaks
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Architecture: iphoneos-arm64
+Version: 1.6.2-10
+Installed-Size: 1864
+Filename: debs/com.huayuarc.cputhermal_1.6.2-10_iphoneos-arm64.deb
+Size: 135768
+MD5sum: b73eb881d91ee8ae50dd070b46bf5ee7
+SHA1: 
+SHA256: 60e9bca686b55da774465eb1f468c270db3839d6a35e6f51c09608c0d5f08430
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-10
+Installed-Size: 1840
+Filename: debs/com.huayuarc.cputhermal_1.6.2-10_iphoneos-arm64e.deb
+Size: 130864
+MD5sum: de63e1cc188b3fca969b135ac90eff16
+SHA1: 
+SHA256: bd0e478755ae58ebfeb04eb5fb38cf71340afa28de79e00b96f2207833665a25
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
 Version: 1.6.2-9
 Installed-Size: 1864
 Filename: debs/com.huayuarc.cputhermal_1.6.2-9_iphoneos-arm64.deb
@@ -10635,6 +10671,41 @@ Size: 953784
 MD5sum: 912a4d1a18a77fd69f969fe18cc57d8f
 SHA1: 
 SHA256: f47e3b4193bceb687ee3fabc1dbaf08e6beecc5d872ced425a08c398992e92ff
+
+Package: com.jl.liquidglass
+Name: 液态玻璃
+Description: 一刀破解，全部功能已解锁。TG群：https://t.me/gyddpu
+Maintainer: jl
+Author: jl
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+icon: https://huayuarc.github.io/icon/LiquidAss.png
+Architecture: iphoneos-arm64
+Version: 0.1.2.3-22+debug
+Installed-Size: 7016
+Filename: debs/com.jl.liquidglass_0.1.2.3-22+debug_iphoneos-arm64.deb
+Size: 1896236
+MD5sum: a14b26acf4bff137f652e7c78e9e4505
+SHA1: 
+SHA256: c03e23fc77c329dc698c58cfb23e42776a0cb1158bc687e3e4b97c6eff9176a9
+
+Package: com.jl.liquidglass
+Name: 液态玻璃
+Description: 一刀破解，全部功能已解锁。TG群：https://t.me/gyddpu
+Maintainer: jl
+Author: jl
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+icon: https://huayuarc.github.io/icon/LiquidAss.png
+Architecture: iphoneos-arm64e
+Version: 0.1.2.3-22+debug
+Installed-Size: 7016
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.jl.liquidglass_0.1.2.3-22+debug_iphoneos-arm64e.deb
+Size: 1874884
+MD5sum: d3fcfb303f60ceefee4fc1cd01d6c5a9
+SHA1: 
+SHA256: b5f32b6fa294b87d574692fbd3f92cb6a5c6c9b2491aaef1bf8e9221f8e7fbb8
 
 Package: com.jontelang.instalauncher2
 Section: Tweaks
@@ -20565,6 +20636,41 @@ Size: 1668856
 MD5sum: b513e40949bad3cf87f35fdb0cbf4fc3
 SHA1: 
 SHA256: 14666bac4586ad18464af72238aa847cc2bb9d6dd03cbb25be533ec7c65c4202
+
+Package: com.stheno
+Name: Stheno 分屏
+Description: Medusa,Jump Whenever。
+Maintainer: Crassna
+Author: Crassna
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Architecture: iphoneos-arm64
+Version: 77.1.4.8
+Installed-Size: 2788
+icon: https://huayuarc.github.io/icon/Stheno.png
+Filename: debs/com.stheno_77.1.4.8_iphoneos-arm64.deb
+Size: 530764
+MD5sum: b79272bbd51b07ad8ffad62eefd1a9dd
+SHA1: 
+SHA256: 4b7878ecdd8a8562cdae92b0c7022583d9cce83e0b1bd18241f455243efe1150
+
+Package: com.stheno
+Name: Stheno 分屏
+Description: Medusa,Jump Whenever。
+Maintainer: Crassna
+Author: Crassna
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Architecture: iphoneos-arm64e
+Version: 77.1.4.8
+Installed-Size: 2788
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/Stheno.png
+Filename: debs/com.stheno_77.1.4.8_iphoneos-arm64e.deb
+Size: 519124
+MD5sum: b69bbd51973fdf425ced2185394bd8dc
+SHA1: 
+SHA256: 8255444563e6672ec1192fde36dab670c3346f37775ff7f07a3f30115d7aa254
 
 Package: com.subdiox.storeswitcher2
 Name: StoreSwitcher 2
