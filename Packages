@@ -6487,6 +6487,60 @@ MD5sum: b46f13ec1d1bbd33e6d3af5e649cce1e
 SHA1: 
 SHA256: bce2046f94c14603171cc633e2fd61fc67e5c4bb256b34f1522cebbcae9c69db
 
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.2.6
+Installed-Size: 7868
+Filename: debs/com.hmmzzz.marktheme_0.2.6_iphoneos-arm64.deb
+Size: 2372368
+MD5sum: 649c5703569aab4dd801ce28e647ba38
+SHA1: 
+SHA256: dbaa5d141cb34075af66e639e83c2a5387e1cb56230db2016d9b1e744306f6ed
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.2.6
+Installed-Size: 7864
+Filename: debs/com.hmmzzz.marktheme_0.2.6_iphoneos-arm64e.deb
+Size: 2371316
+MD5sum: 7be0129036ef95bb85df8922c0da8e1e
+SHA1: 
+SHA256: 0f033732b9481f17d0090381d22265582e85769f823fac6f7a14f348b7c0994a
+
 Package: com.hoangdus.konban
 Name: KonbanXV
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 15.0), com.opa334.altlist, preferenceloader
@@ -9938,6 +9992,78 @@ Size: 3090520
 MD5sum: aa7bfb981e6635054f3c9aa9ba857327
 SHA1: 
 SHA256: bf4355120b198e7884c55c430073684908368a65bd6ac14d22e978dd6b1d1482
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.6.1
+Installed-Size: 7524
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx_2.6.1_iphoneos-arm64.deb
+Size: 3228624
+MD5sum: bfc84112359ddc2576411dba5583989b
+SHA1: 
+SHA256: 5a5726fe468c6d3368fd0b2fb4b1940b82d56d780d3fe89bbafefffeb063deda
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.6.1
+Installed-Size: 7524
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx_2.6.1_iphoneos-arm64e.deb
+Size: 3229116
+MD5sum: 876b45873b30e384356ad670d08d140d
+SHA1: 
+SHA256: bc26ce1efef0faf70c00de6d1dff324ff2b37e410d3679e07656140bb1ef4d1e
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.6.4
+Installed-Size: 7944
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx_2.6.4_iphoneos-arm64.deb
+Size: 3341276
+MD5sum: 2ed1a38e14d1c70f290a52e5cce8a16a
+SHA1: 
+SHA256: 6ee546d8d1e739c5fb5da6e7b2b6a2c9af609131148f76e3b71cf3ad9e820b8a
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.6.4
+Installed-Size: 7928
+icon: https://huayuarc.github.io/icon/SHELLX.png
+Filename: debs/com.iosdump.shellx_2.6.4_iphoneos-arm64e.deb
+Size: 3342588
+MD5sum: 74ec56e66e6b1128476b777c1c3789a5
+SHA1: 
+SHA256: 4b6d1fb5edc723044c6332e7e520b043cb8201f38fde3f40a02bdb98dc2d0d3b
 
 Package: com.iosdump.trollcmtweak
 Name: TrollCM 触摸轨迹
