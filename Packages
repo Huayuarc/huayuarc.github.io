@@ -292,6 +292,41 @@ MD5sum: afa33d1273d2414422d063c885aacfc9
 SHA1: 
 SHA256: 1b05c774d19e1777e5434db52e38bf79a36b43ba73fcbfc352aad1fc1a805e40
 
+Package: ayao.hidedoubaopip
+Name: HideDoubaoPiP
+Description: 隐藏豆包/微信输入法画中画悬浮窗。保留正常视频画中画功能。
+Maintainer: ayao
+Author: ayao
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/doubao.jpg
+Filename: debs/ayao.hidedoubaopip_1.0.5_iphoneos-arm64.deb
+Size: 11692
+MD5sum: fa3320343835c7459a81d481f55bf9b8
+SHA1: 
+SHA256: b832b2ae98bf5fbd41378369be01143497b2f1dc19158aa41c5ee82c517fc493
+
+Package: ayao.hidedoubaopip
+Name: HideDoubaoPiP
+Description: 隐藏豆包/微信输入法画中画悬浮窗。保留正常视频画中画功能。
+Maintainer: ayao
+Author: ayao
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Installed-Size: 172
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/doubao.jpg
+Filename: debs/ayao.hidedoubaopip_1.0.5_iphoneos-arm64e.deb
+Size: 11460
+MD5sum: d595fa3160c5c4a2ff4539450a121bdf
+SHA1: 
+SHA256: d4c60c528ca0f401ba2cd41cb4c9a4adf1576c7776e5877bd67c5c46ec96d063
+
 Package: callshidevoicemailios
 Name: 隐藏语音留言
 Author: z
@@ -25076,6 +25111,45 @@ Size: 1050984
 MD5sum: 25b53c15d9af515e17b1da322bb48e73
 SHA1: 
 SHA256: cc34dc9f65daf51a7138c4dcf1b3bc60d6355d6dcf7f59481b393a14308905c6
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.2.5
+Installed-Size: 2760
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x_1.2.5_iphoneos-arm64.deb
+Size: 1061888
+MD5sum: 5c9b50fc6defa2807b56289c921d6e50
+SHA1: 
+SHA256: 60372cf2e3bae6bc35add4c205c7d2e4ff21eb8635ca43dca42dcb94225490be
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.2.5
+Installed-Size: 2760
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x_1.2.5_iphoneos-arm64e.deb
+Size: 1048576
+MD5sum: 5e792c5aac8ca6568a22ceb32b42cf1f
+SHA1: 
+SHA256: b86e2fbf344c4d77f6f7021a24cc3cd6cb48a5c89252e757b84a6a5e1804a7b2
 
 Package: xyz.cypwn.anouk
 Maintainer: CyPwn
