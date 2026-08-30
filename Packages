@@ -8414,6 +8414,41 @@ MD5sum: c60f55fd4dfc2909c7df68fc05a7da0b
 SHA1: 
 SHA256: 780023e2d770a3952d0b423d0d73e06dc1a516c4df5c85968a4934a0f6580d4b
 
+Package: com.hx.shihua
+Name: SilkCursor 键盘光标
+Depends: mobilesubstrate
+Description: 光标丝滑。qq172942805
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/shihua.jpg
+Filename: debs/com.hx.shihua_1.0_iphoneos-arm64.deb
+Size: 3296
+MD5sum: 62f685ab7f4de1e0d6925c3baf0a601a
+SHA1: 
+SHA256: 63968f90fbed123a8321751f5143b12145205a48f648acc2e1a3065f4170a870
+
+Package: com.hx.shihua
+Name: SilkCursor 键盘光标
+Depends: mobilesubstrate
+Description: 光标丝滑。qq172942805
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/shihua.jpg
+Filename: debs/com.hx.shihua_1.0_iphoneos-arm64e.deb
+Size: 3460
+MD5sum: 55533a4bd9fb0bd5f20740cfda0d8676
+SHA1: 
+SHA256: b896ee96ef9922f71c2019f2fcdf5e5c269e7bd05b00cf689bb050771d247aac
+
 Author: ichitaso
 Maintainer: Havoc
 Name: IconOrder
