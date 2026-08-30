@@ -7061,6 +7061,42 @@ MD5sum: a43f3d5a42d826db8e0a3ea78019cd8e
 SHA1: 
 SHA256: 06fc8b018f6937fab89d72db2740a56256b52439b9646ad4478e15694b98543b
 
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-9
+Installed-Size: 1864
+Filename: debs/com.huayuarc.cputhermal_1.6.2-9_iphoneos-arm64.deb
+Size: 134496
+MD5sum: 6d4277c40b57948e61dc5a8adf423658
+SHA1: 
+SHA256: 567992154c8e3ac2c016a7902b33874d269d17a39e797d7f38edef62a522d290
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-9
+Installed-Size: 1840
+Filename: debs/com.huayuarc.cputhermal_1.6.2-9_iphoneos-arm64e.deb
+Size: 129852
+MD5sum: a07539f5968018131b1c86e223d02b13
+SHA1: 
+SHA256: a0ec9f6f7f06e460128c9702e43dc4e260714ef950c73de3ebc308fd09a567a6
+
 Package: com.huayuarc.flashclockpro
 Name: 悬浮时间 Pro
 Author: Huayuarc
@@ -10490,6 +10526,45 @@ Size: 210932
 MD5sum: 8795328be7eab78bebb5191dc47a3d1a
 SHA1: 
 SHA256: 2ce3d45e74ce141ecfbba100803f661e2822e2839600e187b221da6921feaa7a
+
+Package: com.jaysuen.ccflex16
+Name: EvoCenter16 控制中心模块
+Description: A modern, resizable and highly customizable Control Center for iOS 16.适用于iOS 16的现代、可调整大小和高度可定制的控制中心。
+Maintainer: JaySuen
+Author: JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.wkk.betterccbrightness
+Replaces: com.wkk.betterccbrightness
+Architecture: iphoneos-arm64
+Version: 1.0.0-beta.1
+Installed-Size: 6444
+icon: https://huayuarc.github.io/icon/ccflex16.jpg
+Filename: debs/com.jaysuen.ccflex16_1.0.0-beta.1_iphoneos-arm64.deb
+Size: 169016
+MD5sum: 9f4b3eab5e446bfd3fa1721eb5975604
+SHA1: 
+SHA256: 50428263495ecbc9220905279f781114e6ffc471029821f2747c7ddc4de714dd
+
+Package: com.jaysuen.ccflex16
+Name: EvoCenter16 控制中心模块
+Description: A modern, resizable and highly customizable Control Center for iOS 16.适用于iOS 16的现代、可调整大小和高度可定制的控制中心。
+Maintainer: JaySuen
+Author: JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.wkk.betterccbrightness
+Replaces: com.wkk.betterccbrightness
+Architecture: iphoneos-arm64e
+Version: 1.0.0-beta.1
+Installed-Size: 6444
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/ccflex16.jpg
+Filename: debs/com.jaysuen.ccflex16_1.0.0-beta.1_iphoneos-arm64e.deb
+Size: 168920
+MD5sum: 00a4037d6ef5d4de0556d57aa700d230
+SHA1: 
+SHA256: c63bb55273af65b816a10f21ec56d8e7aadf179a299780a319153ea48acb010b
 
 Package: com.jiuyue.lightisle
 Name: 灵动岛手电筒
