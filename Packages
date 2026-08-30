@@ -3136,6 +3136,41 @@ MD5sum: 36c624733fd665b20b75e594433ee005
 SHA1: 
 SHA256: a95fcbccee17c794129b84feb7766aa878fca2fe6049559383e58b4d917a17d9
 
+Package: com.boss.wctweak
+Name: 微信手势增强
+Depends: mobilesubstrate | ellekit | libhooker
+Description: 微信手势(左滑自己撤回/对方删除、双击复读) + 小丑改字 + 插件聚合 (基于 CW-5200 移植)
+Maintainer: boss
+Author: boss
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.330-1+debug
+Installed-Size: 4216
+icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.boss.wctweak_1.0.330-1+debug_iphoneos-arm64.deb
+Size: 733408
+MD5sum: b1618cb5e5ea7af23f496daa08e79af1
+SHA1: 
+SHA256: 740e7cd142ccabee528609a544139acaf1083be48fb56f3e4924d9e6f2f43661
+
+Package: com.boss.wctweak
+Name: 微信手势增强
+Depends: mobilesubstrate | ellekit | libhooker
+Description: 微信手势(左滑自己撤回/对方删除、双击复读) + 小丑改字 + 插件聚合 (基于 CW-5200 移植)
+Maintainer: boss
+Author: boss
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.330-1+debug
+Installed-Size: 4216
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.boss.wctweak_1.0.330-1+debug_iphoneos-arm64e.deb
+Size: 714868
+MD5sum: 3c025aa3d7018162edabb39640aa1d96
+SHA1: 
+SHA256: 09659d5948bd052cc41c3f184f2af329699a86425d1a73b0f14e73548c0489f9
+
 Package: com.brend0n.nopassafterrespringsafe
 Name: NoPassAfterRespring (Safe)
 Depends: mobilesubstrate
@@ -18151,24 +18186,6 @@ MD5sum: ad58c0b71e0f7361a18786e7a766dfad
 SHA1: 
 SHA256: 183c184483cbbabc09a3bb52042ab03fdc9f3324eaeb578bb106396afd006990
 
-Package: com.sini.xhs.x
-Icon: https://sini921.github.io/repo/sileodepiction/icon/xhs.x.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/xhs.x/js.json
-Name: 小红薯
-Description: 自用
-Maintainer: 𝙓
-Author: 𝙓
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 1.2.0
-Installed-Size: 2608
-Filename: debs/com.sini.xhs.x_1.2.0_iphoneos-arm64.deb
-Size: 1787052
-MD5sum: 394d43f6d0d01a410436e0d2533b70c9
-SHA1: 
-SHA256: f0cbc4f1751ffcdefb3e059cc4294b552404750aee3b15c2c41b5ed24323a9e8
-
 Package: com.sini.xianyuadkiller
 Name: XianYuAdKiller
 Icon: https://sini921.github.io/repo/sileodepiction/icon/xianyuadkiller.png
@@ -24229,23 +24246,6 @@ MD5sum: f2f8175760d04eb116c586af51701392
 SHA1: 
 SHA256: 62c93e7fc45b2bff313c92cf349be2deff7c6f7b44e8b08f957d81da75b5a001
 
-Package: netskao.xhsnoads
-Version: 1.3-7
-Section: Tweaks
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate
-Architecture: iphoneos-arm64
-Installed-Size: 392
-Name: 小红书 NoAds
-Author: Netskao
-Description: 小红书去除启动广告, 去除信息流视频流广告, 修改原始按钮保存无水印视频和图片和live图和评论区图片, 解除部分视频无法下载, 添加长按文案快捷复制作者名或文案, 仅支持8.5及以上版本
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/netskao.xhsnoads_1.3-7_iphoneos-arm64.deb
-Size: 89612
-MD5sum: 967fbfcd6822cdb24a4a039628761330
-SHA1: 
-SHA256: 0d0264f07e9bab46169cb7d536af592b071b9e65fbdcc13655c63c45e4c53a4e
-
 Package: nodejs22-ios-roothide
 Name: Nodejs22-ios
 Version: 22.12.0-27
@@ -24838,6 +24838,84 @@ Size: 13308216
 MD5sum: 3b8953fffcda8a661dc711b0a2971628
 SHA1: 
 SHA256: c8b53c96e66485b5b4aeb2908236fba01c3dfb0218a88b771b6d1e6f336425fc
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Installed-Size: 3940
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x_1.2.2_iphoneos-arm64.deb
+Size: 1481300
+MD5sum: a5f4a6106b574d603c94bfc628c036d2
+SHA1: 
+SHA256: 4ed2f9127eaf838b39e9d57ac5e962354156509afdf6a75a1810ab9b0ec1291f
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Installed-Size: 3940
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x_1.2.2_iphoneos-arm64e.deb
+Size: 1459668
+MD5sum: 0000b132c1d792774f4b11bc337f53ad
+SHA1: 
+SHA256: 4a66cf5df18be967fd8a7e4b3eda17773afa44167b4ae27b891e1f20ceb0a4eb
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Installed-Size: 2744
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x_1.2.3_iphoneos-arm64.deb
+Size: 1063920
+MD5sum: 3b4b98026b5b8a91d866c81ad21ee9c1
+SHA1: 
+SHA256: cb520235d8858d5cc3d7d076e927f8aedf0cecb9e64e8e567b6cd93d2ccf9d8b
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Installed-Size: 2744
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x_1.2.3_iphoneos-arm64e.deb
+Size: 1050984
+MD5sum: 25b53c15d9af515e17b1da322bb48e73
+SHA1: 
+SHA256: cc34dc9f65daf51a7138c4dcf1b3bc60d6355d6dcf7f59481b393a14308905c6
 
 Package: xyz.cypwn.anouk
 Maintainer: CyPwn
