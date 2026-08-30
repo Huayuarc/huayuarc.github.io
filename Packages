@@ -1208,6 +1208,42 @@ MD5sum: 72b06e9c386504a93d57dc31862271c9
 SHA1: 
 SHA256: 59d81d03f15b54c550ba229466e447512cc3bb4cf3722ea60e511bcc0b42dabf
 
+Package: cn.llld.urljg
+Name: URL管家
+Description: URL管家 — 统一接管本机 URL Scheme（隐藏 / 重定向），支持单应用或者全局，也可防范某些应用检测某东东
+Maintainer: 来了老弟
+Author: 来了老弟
+Section: System
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Tag: purpose::uikit, compatible::ios14
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Installed-Size: 1072
+icon: https://huayuarc.github.io/icon/urljg.png
+Filename: debs/cn.llld.urljg-1.1.0-rootless.deb
+Size: 668572
+MD5sum: 7f0936ca854998f7fc5dfba1c3c53cdb
+SHA1: 
+SHA256: 0758ce51869b1748293b2577821f2d33d3237bd40858788c67cc5deab3471a17
+
+Package: cn.llld.urljg.roothide
+Name: URL管家-隐根
+Description: URL管家（RootHide 版）— 统一接管本机 URL Scheme（隐藏 / 重定向），支持单应用或者全局，也可防范某些应用检测某东东
+Maintainer: 来了老弟
+Author: 来了老弟
+Section: RootHide
+Depends: firmware (>= 14.0), roothide (>= 0.0.1), ellekit | mobilesubstrate
+Tag: purpose::uikit, compatible::ios14
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Installed-Size: 1104
+icon: https://huayuarc.github.io/icon/urljg.png
+Filename: debs/cn.llld.urljg.roothide-1.1.0-roothide.deb
+Size: 672896
+MD5sum: 98c0b66c517c49a021656e084e66a3bc
+SHA1: 
+SHA256: f97a3fb1ffe5cda66795609a11ffaaad6a185d1c9f2ae5be01c26e67e514b2cc
+
 Package: cn.llld.vibrato
 Version: 2.12
 Description: Global custom vibration feedback全局自定义震动反馈，设置若显示空白，则换PreferenceLoader版本_________仅测试用,有问题卸载
