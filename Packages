@@ -7061,6 +7061,42 @@ MD5sum: a43f3d5a42d826db8e0a3ea78019cd8e
 SHA1: 
 SHA256: 06fc8b018f6937fab89d72db2740a56256b52439b9646ad4478e15694b98543b
 
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。支持解除温控、低功耗、CPU/GPU/Package 功率策略、电池充电温度屏蔽与 SmartBatteryAPI 智能停充。
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.6-3
+Installed-Size: 2276
+Filename: debs/com.huayuarc.cputhermal_1.6.6-3_iphoneos-arm64.deb
+Size: 163440
+MD5sum: a582433451c9303a8b2d8b5dd92fe945
+SHA1: 
+SHA256: 73d1f40fe30dad98e9837ee5778a02dcc25aded9d78e16b2d24fafe8b604f36c
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。支持解除温控、低功耗、CPU/GPU/Package 功率策略、电池充电温度屏蔽与 SmartBatteryAPI 智能停充。
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.6-3
+Installed-Size: 2232
+Filename: debs/com.huayuarc.cputhermal_1.6.6-3_iphoneos-arm64e.deb
+Size: 160464
+MD5sum: 06a4353381cc442dc50cd1bcb39db152
+SHA1: 
+SHA256: 8c27d4361d5c2b0e440504cda76d380e91d1b0145ae8dadad84df724aaf814fb
+
 Package: com.huayuarc.flashclockpro
 Name: 悬浮时间 Pro
 Author: Huayuarc
