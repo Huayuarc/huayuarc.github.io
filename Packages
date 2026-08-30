@@ -10672,41 +10672,6 @@ MD5sum: 912a4d1a18a77fd69f969fe18cc57d8f
 SHA1: 
 SHA256: f47e3b4193bceb687ee3fabc1dbaf08e6beecc5d872ced425a08c398992e92ff
 
-Package: com.jl.liquidglass
-Name: 液态玻璃
-Description: 一刀破解，全部功能已解锁。TG群：https://t.me/gyddpu
-Maintainer: jl
-Author: jl
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
-icon: https://huayuarc.github.io/icon/LiquidAss.png
-Architecture: iphoneos-arm64
-Version: 0.1.2.3-22+debug
-Installed-Size: 7016
-Filename: debs/com.jl.liquidglass_0.1.2.3-22+debug_iphoneos-arm64.deb
-Size: 1896236
-MD5sum: a14b26acf4bff137f652e7c78e9e4505
-SHA1: 
-SHA256: c03e23fc77c329dc698c58cfb23e42776a0cb1158bc687e3e4b97c6eff9176a9
-
-Package: com.jl.liquidglass
-Name: 液态玻璃
-Description: 一刀破解，全部功能已解锁。TG群：https://t.me/gyddpu
-Maintainer: jl
-Author: jl
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
-icon: https://huayuarc.github.io/icon/LiquidAss.png
-Architecture: iphoneos-arm64e
-Version: 0.1.2.3-22+debug
-Installed-Size: 7016
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.jl.liquidglass_0.1.2.3-22+debug_iphoneos-arm64e.deb
-Size: 1874884
-MD5sum: d3fcfb303f60ceefee4fc1cd01d6c5a9
-SHA1: 
-SHA256: b5f32b6fa294b87d574692fbd3f92cb6a5c6c9b2491aaef1bf8e9221f8e7fbb8
-
 Package: com.jontelang.instalauncher2
 Section: Tweaks
 Installed-Size: 1188
