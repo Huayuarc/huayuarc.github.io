@@ -1220,29 +1220,29 @@ Architecture: iphoneos-arm64
 Version: 1.1.0
 Installed-Size: 1072
 icon: https://huayuarc.github.io/icon/urljg.png
-Filename: debs/cn.llld.urljg-1.1.0-rootless.deb
+Filename: debs/cn.llld.urljg_1.1.0_iphoneos-arm64.deb
 Size: 668572
-MD5sum: 7f0936ca854998f7fc5dfba1c3c53cdb
+MD5sum: 725a2153115d1dc6025f8681abe3d217
 SHA1: 
-SHA256: 0758ce51869b1748293b2577821f2d33d3237bd40858788c67cc5deab3471a17
+SHA256: 32f78b2e0c3340a4cf00fcf524cc54d1c9e931da25837a1c3a2a16ee6a62eaf6
 
-Package: cn.llld.urljg.roothide
-Name: URL管家-隐根
-Description: URL管家（RootHide 版）— 统一接管本机 URL Scheme（隐藏 / 重定向），支持单应用或者全局，也可防范某些应用检测某东东
+Package: cn.llld.urljg
+Name: URL管家
+Description: URL管家 — 统一接管本机 URL Scheme（隐藏 / 重定向），支持单应用或者全局，也可防范某些应用检测某东东
 Maintainer: 来了老弟
 Author: 来了老弟
-Section: RootHide
+Section: System
 Depends: firmware (>= 14.0), roothide (>= 0.0.1), ellekit | mobilesubstrate
 Tag: purpose::uikit, compatible::ios14
 Architecture: iphoneos-arm64e
 Version: 1.1.0
 Installed-Size: 1104
 icon: https://huayuarc.github.io/icon/urljg.png
-Filename: debs/cn.llld.urljg.roothide-1.1.0-roothide.deb
-Size: 672896
-MD5sum: 98c0b66c517c49a021656e084e66a3bc
+Filename: debs/cn.llld.urljg_1.1.0_iphoneos-arm64e.deb
+Size: 672920
+MD5sum: b0569481f1e61b1b9044b806858b80d0
 SHA1: 
-SHA256: f97a3fb1ffe5cda66795609a11ffaaad6a185d1c9f2ae5be01c26e67e514b2cc
+SHA256: c951ed612b115b9b1daaad2fdc635648eb6607ccbe6fef37b02462ccd955d97e
 
 Package: cn.llld.vibrato
 Version: 2.12
