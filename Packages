@@ -14647,6 +14647,40 @@ MD5sum: 127c6fad4af4d879eb7a819d5c257f64
 SHA1: 
 SHA256: cfd9cd820011f67f18c61576b06e4bf521de6ba50637915900e364fbf1db5766
 
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; adds a dedicated powerd injection core for Force Fast Charge while preserving ChargeBoost, thermal engine, floating UI, and notifications
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 3.1.15
+Installed-Size: 1504
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating_3.1.15_iphoneos-arm64.deb
+Size: 165048
+MD5sum: b9cb7b13dbc7d18c174811ac0493df63
+SHA1: 
+SHA256: fd49dce36d78cbcdab4b36b2e23af9307840e300843668c07c6866c512f36db3
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; adds a dedicated powerd injection core for Force Fast Charge while preserving ChargeBoost, thermal engine, floating UI, and notifications
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 3.1.15
+Installed-Size: 1504
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating_3.1.15_iphoneos-arm64e.deb
+Size: 163368
+MD5sum: 354c58b9b24225971346a0bc863ed203
+SHA1: 
+SHA256: 23f07bf8edbdcae9c7cc7167e8eed2c214fcdce1e96bd6d9934342b7e34a5be4
+
 Package: com.shadow.h5ggapp
 Name: H5GG跨进程悬浮版(iOS15)
 Description: H5GG跨进程iOS15专用悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版), Credits: BawAppie and Akusio, Discord https://discord.gg/h5gg
