@@ -4816,6 +4816,42 @@ MD5sum: f41cc68ac7bb6870cf7974f0a41c456a
 SHA1: 
 SHA256: 143d87cc700c00c1449fb06a27c4db598d6348e4eda78aabd18f6743004e8c9e
 
+Package: com.dao.donut
+Name: Donut 图标通知角标
+Description: 桌面图标通知角标变成空心小圆圈，自适应颜色。
+Maintainer: daodao
+Author: daodao
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.noisyflake.cozybadges, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd, com.dao.ocd5lite, com.dao.ocd5, com.sini921.donut
+icon: https://huayuarc.github.io/icon/Donut.png
+Architecture: iphoneos-arm64
+Version: 2.0.2
+Installed-Size: 412
+Filename: debs/com.dao.donut_2.0.2_iphoneos-arm64.deb
+Size: 46104
+MD5sum: c4642e97c20bda75718fce77b2857d0a
+SHA1: 
+SHA256: 9ab2ac2c1aaae6bf00633bf779e8d69283b7c8d329f0042b9095dd5f7e21e395
+
+Package: com.dao.donut
+Name: Donut 图标通知角标
+Description: 桌面图标通知角标变成空心小圆圈，自适应颜色。
+Maintainer: daodao
+Author: daodao
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.noisyflake.cozybadges, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd, com.dao.ocd5lite, com.dao.ocd5, com.sini921.donut
+icon: https://huayuarc.github.io/icon/Donut.png
+Architecture: iphoneos-arm64e
+Version: 2.0.2
+Installed-Size: 380
+Filename: debs/com.dao.donut_2.0.2_iphoneos-arm64e.deb
+Size: 44924
+MD5sum: 4f3ba98ef34aba90fcee19d83b3c96bd
+SHA1: 
+SHA256: 23aaa3e5687b61cf7b256e07a4a46483535cf6e8a90c3b5fa4c17b8eb5ea1c58
+
 Package: com.dao.pulloverx
 Name: PullOverX 分屏
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
@@ -5861,6 +5897,42 @@ Size: 244632
 MD5sum: 6d8654a9f3e35f2497f8fc7342af6e0f
 SHA1: 
 SHA256: 75330876b2139f54368e3af58617dc0bfb0379a9985ee38923893bdefd5c94ea
+
+Package: com.hierarch.dykiller
+Name: DYKiller 抖音 UI 增强
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 0.5.8
+Installed-Size: 1216
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller_0.5.8_iphoneos-arm64.deb
+Size: 292012
+MD5sum: 679c7d3c36a0b3d47ee683a32804a592
+SHA1: 
+SHA256: 5173cbd2dde2781158be8b4167fd7c1bc3cd32cf4485b53964303ae0763c42eb
+
+Package: com.hierarch.dykiller
+Name: DYKiller 抖音 UI 增强
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 0.5.8
+Installed-Size: 1216
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller_0.5.8_iphoneos-arm64e.deb
+Size: 292812
+MD5sum: 4167e7ce657c056c50d84c7ecd53d9d6
+SHA1: 
+SHA256: e7131ee202ecf09689fc12eabebcdc26d5a39b408a9ab8a312109e4d53d8918b
 
 Package: com.hitori.misaki
 Section: Tweaks
@@ -25043,6 +25115,56 @@ MD5sum: 3b8b4e0800290bc76db78a8724fb1356
 SHA1: 
 SHA256: bbd7481948124ab35097a540a5093c887180db13a31bfcaba50533553f2ececa
 
+Package: wiki.qaq.ighostvt
+Name: iGhostVT 越狱终端
+Version: 0.6.0
+Architecture: iphoneos-arm64
+Description: Ghostty-powered terminal for jailbroken iOS and visionOS
+ Terminal emulator built on libghostty's terminal core with a host-managed
+ I/O backend. Packaged for both roothide and rootless bootstraps, for iOS
+ (iphoneos-*) and for Apple Vision Pro (xros-*); the architecture field says
+ which build this is.
+ .
+ Shells are spawned by the bundled ighostvtd daemon and survive app
+ relaunches; SSH transport is planned on the same transport interface.
+Icon: https://owngoalstudio.github.io/GhostVT/icon.png
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools
+Installed-Size: 21528
+Filename: debs/wiki.qaq.ighostvt_0.6.0_iphoneos-arm64.deb
+Size: 7973508
+MD5sum: 753167a5867c7eb27c5f28971bb277f8
+SHA1: 
+SHA256: c60ab9aa35a80bd10bfc73d695c97342ba3294eb36f268a6979fef547fa88e95
+
+Package: wiki.qaq.ighostvt
+Name: iGhostVT 越狱终端
+Version: 0.6.0
+Architecture: iphoneos-arm64e
+Description: Ghostty-powered terminal for jailbroken iOS and visionOS
+ Terminal emulator built on libghostty's terminal core with a host-managed
+ I/O backend. Packaged for both roothide and rootless bootstraps, for iOS
+ (iphoneos-*) and for Apple Vision Pro (xros-*); the architecture field says
+ which build this is.
+ .
+ Shells are spawned by the bundled ighostvtd daemon and survive app
+ relaunches; SSH transport is planned on the same transport interface.
+Icon: https://owngoalstudio.github.io/GhostVT/icon.png
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools
+Installed-Size: 21528
+Filename: debs/wiki.qaq.ighostvt_0.6.0_iphoneos-arm64e.deb
+Size: 7974836
+MD5sum: f8370337f2443c3bce015e82211cba11
+SHA1: 
+SHA256: 7b43111322df21b1d103779b4c55bdec44c64ae6896a617215f9900d03e65752
+
 Package: ws.hbang.newterm3
 Name: NewTerm 3 Beta iOS 终端
 Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
@@ -25405,6 +25527,45 @@ Size: 1048576
 MD5sum: 5e792c5aac8ca6568a22ceb32b42cf1f
 SHA1: 
 SHA256: b86e2fbf344c4d77f6f7021a24cc3cd6cb48a5c89252e757b84a6a5e1804a7b2
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.2.6
+Installed-Size: 3932
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x_1.2.6_iphoneos-arm64.deb
+Size: 1578108
+MD5sum: c93d169a318c3c1a6c0edf6caaa9ec0f
+SHA1: 
+SHA256: 7ca54e601895f6170ebdaf990140bba526ed8e90c081235acea903f1c5150542
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.2.6
+Installed-Size: 3932
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x_1.2.6_iphoneos-arm64e.deb
+Size: 1558992
+MD5sum: 83205297c520fa2be0750f31a5b1c812
+SHA1: 
+SHA256: fb1bb46a9f717a10b64c151ec5f86b26a44f6de78e55a8e88fd315ac09a35b63
 
 Package: xyz.cypwn.anouk
 Maintainer: CyPwn
