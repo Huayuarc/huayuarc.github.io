@@ -510,6 +510,24 @@ MD5sum: 3da07e2d4165a9370127d17c158bc0e8
 SHA1: 
 SHA256: 3787bb9ca2989ac6ff5a41169afe32d6235af8feff5887f8e5d2b6ec75302cbf
 
+Package: cn.llld.appfix
+Name: 应用修改器
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Maintainer: 来了老弟
+Author: 来了老弟
+Section: Development
+icon: https://huayuarc.github.io/icon/appfix.png
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Tag: purpose::uikit, compatible::ios14
+Architecture: iphoneos-arm64
+Version: 0.0.36
+Installed-Size: 1452
+Filename: debs/cn.llld.appfix_0.0.36_iphoneos-arm64.deb
+Size: 456304
+MD5sum: d1f863bba431bfef1527e7d58d54ee00
+SHA1: 
+SHA256: 093f6abed1a76e866778723338b3d2ede0b849baabcee492f28ecbcd762bd5c1
+
 Package: cn.llld.avphotos
 Version: 1.0.1
 Section: Tweaks
