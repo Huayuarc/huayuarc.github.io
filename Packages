@@ -6630,6 +6630,60 @@ Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
 Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
 Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
 SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.2.7
+Installed-Size: 8640
+Filename: debs/com.hmmzzz.marktheme-0.2.7-roothide.deb
+Size: 2429336
+MD5sum: b9868db6bac54b273956f5bd9f3b7b28
+SHA1: 
+SHA256: 42d2643fbf9389ca7eff3e65a5d34cbc3833ac607516dffe99936afe16a530d7
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.2.7
+Installed-Size: 8644
+Filename: debs/com.hmmzzz.marktheme-0.2.7-rootless.deb
+Size: 2437380
+MD5sum: e6c2d6d79fd695122cbe1b26044002a3
+SHA1: 
+SHA256: 1330f74bb3e7fc82a5741bb24da74bc969035ad332573f4db6b7d5a566a16180
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
 Architecture: iphoneos-arm64
 Version: 0.2.6
 Installed-Size: 7868
@@ -12100,6 +12154,54 @@ Size: 279836
 MD5sum: 489899765726207a0591c60628f95b46
 SHA1: 
 SHA256: 451b5d88b36ae2c3e3384c34cfafe77501bdf5263ad63e4be16ff11433695f11
+
+Package: com.mlgm.pulloverx
+Name: PullOver X 分屏
+Version: 1.6.0
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 二次开发
+ 优化 UI 动画效果，聊天界面翻转已解决。
+ 优化卡片弹出时卡片自动隐藏。
+ 新增卡片弹出动画效果，可以在设置中自行选择。
+ 新增收藏栏左边设置项，可以自定义收藏栏显示的位置。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.6.0-roothide.deb
+Size: 202444
+MD5sum: 7d6d287b851da13369f0a461f57651c6
+SHA1: 
+SHA256: f337b2b9b40db48afe05deadc164b2b5fa78904d9cf2e2cb8165be11e8f78d44
+
+Package: com.mlgm.pulloverx
+Name: PullOver X 分屏
+Version: 1.6.0
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 二次开发
+ 优化 UI 动画效果，聊天界面翻转已解决。
+ 优化卡片弹出时卡片自动隐藏。
+ 新增卡片弹出动画效果，可以在设置中自行选择。
+ 新增收藏栏左边设置项，可以自定义收藏栏显示的位置。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.6.0-rootless.deb
+Size: 204756
+MD5sum: 212483b6210dcc6f36f13efbbb2091a7
+SHA1: 
+SHA256: dd4d47bb5a9e716c011719a3cb1a1fd0ad3a67320fe5f94d12f7283dee953c67
 
 Package: com.mrgcgamer.libgcuniversal
 Name: LibGcUniversal
@@ -21214,7 +21316,42 @@ SHA1:
 SHA256: 3968a1ae1f1062458ce798919945b711eb7e2d3130e1e347e4948e6089ae595b
 
 Package: com.thefool.ccaudioplay
-Name: CCAudioPlay
+Name: CCAudioPlay 播放器美化
+Description: 播放器美化 不支IOS15
+Maintainer: thefool
+Author: thefool
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1-7+debug
+Installed-Size: 29768
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/CCAudioPlay.png
+Filename: debs/com.thefool.ccaudioplay-0.0.1-7+debug-roothide.deb
+Size: 25097344
+MD5sum: fa941715b8b5119e6393764da48d910d
+SHA1: 
+SHA256: 6f378eb8b071c5da84470164a634a83999891995ba94a2fbbc53b6f9557ea42a
+
+Package: com.thefool.ccaudioplay
+Name: CCAudioPlay 播放器美化
+Description: 播放器美化 不支IOS15
+Maintainer: thefool
+Author: thefool
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.1-7+debug
+Installed-Size: 29768
+icon: https://huayuarc.github.io/icon/CCAudioPlay.png
+Filename: debs/com.thefool.ccaudioplay-0.0.1-7+debug-rootless.deb
+Size: 25107688
+MD5sum: b6659247a117703375eef230c91ef784
+SHA1: 
+SHA256: 1a2e429cca95f34827f1e246787364bd707c2847f29c23776c605aaeff556f71
+
+Package: com.thefool.ccaudioplay
+Name: CCAudioPlay 播放器美化
 Description: 播放器美化 不支IOS15
 Maintainer: thefool
 Author: thefool
@@ -21226,13 +21363,13 @@ Installed-Size: 29540
 icon: https://huayuarc.github.io/icon/CCAudioPlay.png
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.thefool.ccaudioplay-0.0.1-94+debug-roothide.deb
-Size: 25072836
-MD5sum: 47d3c6ec5c359b9bab498b48ab579602
+Size: 25080596
+MD5sum: c1fd4b0378d107ac778272a680e5663e
 SHA1: 
-SHA256: e0f090d4a59f8409ba617490756bdf44dff2b2fc6a8d318dbad3d4744f59551a
+SHA256: f22d1a48797a5ebf72a51c65cec1bf8c666ac02bd1968793224dbcd84303c35b
 
 Package: com.thefool.ccaudioplay
-Name: CCAudioPlay
+Name: CCAudioPlay 播放器美化
 Description: 播放器美化 不支IOS15
 Maintainer: thefool
 Author: thefool
@@ -21243,10 +21380,10 @@ Version: 0.0.1-94+debug
 Installed-Size: 29540
 icon: https://huayuarc.github.io/icon/CCAudioPlay.png
 Filename: debs/com.thefool.ccaudioplay-0.0.1-94+debug-rootless.deb
-Size: 25082028
-MD5sum: 7da8891f5cd6e95528cd6c60d5fcbcf3
+Size: 25090828
+MD5sum: 176804ce594cf95fce22c3e195669c69
 SHA1: 
-SHA256: 98a1c112cd3741537af8bfaeb7b04476930887afea0ad709b14a08098bf4cdcb
+SHA256: 51ac27a58198ecc751afcf769ab9522beb1246b2d0a368458f4bc21066e14a3b
 
 Package: com.tsangbaby.pulloverx
 Name: PullOver X 分屏
@@ -21569,6 +21706,46 @@ Size: 343796
 MD5sum: b1ac1a9cdb4e8b8a2a94d428180562ab
 SHA1: 
 SHA256: e632c3d92ccb985d0e94ff3b70ef019c511f8cafe7b57a0985f5d5dc26aa9da8
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 1.9.7
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-1.9.7-roothide.deb
+Size: 359668
+MD5sum: ce445b8546b48793a47934f95123bece
+SHA1: 
+SHA256: 571b3542179a896732de00ea9312a1bbe4608d49d46befde249fe518d53a9779
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 1.9.7
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-1.9.7-rootless.deb
+Size: 360972
+MD5sum: 808a959e14b7badab609bbadd979d403
+SHA1: 
+SHA256: 868c974d8f85ca3cef3f9943ea3e71aebe1ac8ac192bf0f2cc7aea2b5d74e10f
 
 Package: com.tsangbaby.pulloverx
 Name: PullOver X 分屏
