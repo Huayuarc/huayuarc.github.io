@@ -14955,6 +14955,40 @@ Package: com.sbcpu.floating
 Name: SB CPU Floating
 Maintainer: MoWang
 Author: MoWang
+Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; adds a dedicated powerd injection core for Force Fast Charge while preserving ChargeBoost, thermal engine, floating UI, and notifications
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 3.2
+Installed-Size: 1540
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-3.2-roothide.deb
+Size: 172860
+MD5sum: 60e6e6cd64d9c93142252c5b30612e70
+SHA1: 
+SHA256: 84e20888f225e630171eb3ab25afb0a15254e6ec05b8f115ddb3dbae149279df
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; adds a dedicated powerd injection core for Force Fast Charge while preserving ChargeBoost, thermal engine, floating UI, and notifications
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 3.2
+Installed-Size: 1540
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-3.2-rootless.deb
+Size: 172656
+MD5sum: ffb8379f9291ff641e677e40ffdf9e0d
+SHA1: 
+SHA256: a961a2caf9f2878095caea74500281efe0c40c9c5740572de089693813fb0e64
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
 Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; preserves ChargeBoost and Force Fast Charge controls
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
@@ -16315,25 +16349,7 @@ SHA1:
 SHA256: 5e22c7fc43c6ef6a9840c277d4c3e8c96dd554ffd533b1d3e6e276faa7a79247
 
 Package: com.sini.classickeyboardxs
-Name: ClassicKeyboardXS
-Icon: https://sini921.github.io/repo/sileodepiction/icon/classickeyboardxs.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/classickeyboardxs/js.json
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Description: 自定义键盘底部的高度、地球底部的高度等。
-Maintainer: Nets
-Author: Netskao
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.1-9
-Installed-Size: 1044
-Filename: debs/com.sini.classickeyboardxs_1.1-9_iphoneos-arm64.deb
-Size: 275796
-MD5sum: 578633e47eff8c93a1298486c837c672
-SHA1: 
-SHA256: 5dd3c21f95e9b8bc371d40c492efb59b22b674d8475eb5c01798c9c9488c5bf4
-
-Package: com.sini.classickeyboardxs
-Name: ClassicKeyboardXS
+Name: ClassicKeyboardXS 键盘底部高度
 Icon: https://sini921.github.io/repo/sileodepiction/icon/classickeyboardxs.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/classickeyboardxs/js.json
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
@@ -16345,11 +16361,29 @@ Architecture: iphoneos-arm64e
 Version: 1.1-9
 Installed-Size: 1044
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.sini.classickeyboardxs_1.1-9_iphoneos-arm64e.deb
-Size: 276156
-MD5sum: 4ebdb2bc103b46d940825e2193a19344
+Filename: debs/com.sini.classickeyboardxs-1.1-9-roothide.deb
+Size: 276012
+MD5sum: f1bda38cc40c03a950d478f346af009d
 SHA1: 
-SHA256: 4981f6f796ff774d33661f8f586ef58d9c162783a6b43293995ad2c993b2ca44
+SHA256: aafbd19b6a78fa2f1064c90f1a844dc18b49ee2d0a072e87205b993190c081a6
+
+Package: com.sini.classickeyboardxs
+Name: ClassicKeyboardXS 键盘底部高度
+Icon: https://sini921.github.io/repo/sileodepiction/icon/classickeyboardxs.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/classickeyboardxs/js.json
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Description: 自定义键盘底部的高度、地球底部的高度等。
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Installed-Size: 1044
+Filename: debs/com.sini.classickeyboardxs-1.1-9-rootless.deb
+Size: 275652
+MD5sum: fadb6d91ff8d0b9b988535fdf4c4e313
+SHA1: 
+SHA256: ba192613924f290950437d6c97d9b350967a5fd39291d9f1e13bb06a19150dcb
 
 Package: com.sini.cornbar
 Name: CornBar
@@ -19169,25 +19203,7 @@ SHA1:
 SHA256: 282989f7d060d113f82fede7d96c61494729d8a2a43ba102e5566ece216277b3
 
 Package: com.sini921.classicfolders3
-Name: ClassicFolders3
-icon: https://sini921.github.io/repo/sileodepiction/icon/classicfolders3.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/classicfolders3/js.json
-Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
-Description: 经典文件夹，基于开源代码优化编译。
-Maintainer: CoolStar & Lizynz & SINI
-Author: CoolStar & Lizynz & SINI
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 3.0.6-12
-Installed-Size: 4272
-Filename: debs/com.sini921.classicfolders3_3.0.6-12_iphoneos-arm64.deb
-Size: 3233108
-MD5sum: 48c9f594017cd7ea9b608e010f4c64a9
-SHA1: 
-SHA256: aaf35a3b3079ea94ee4a8862de83d0a5b46e2d003eb2bee7454d6ac2b314975e
-
-Package: com.sini921.classicfolders3
-Name: ClassicFolders3
+Name: ClassicFolders3 经典文件夹
 icon: https://sini921.github.io/repo/sileodepiction/icon/classicfolders3.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/classicfolders3/js.json
 Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
@@ -19198,11 +19214,29 @@ Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 3.0.6-12
 Installed-Size: 4272
-Filename: debs/com.sini921.classicfolders3_3.0.6-12_iphoneos-arm64e.deb
-Size: 3230988
-MD5sum: ad3542e3125c126e73afa48174f972fb
+Filename: debs/com.sini921.classicfolders3-3.0.6-12-roothide.deb
+Size: 3231112
+MD5sum: bacd6fae259e0754673c568201eb8a9c
 SHA1: 
-SHA256: f5430d768a8d9c22da8ef8f20590410de947091736dadd2608fa47ef5a10d763
+SHA256: 310936731959f3f289428e62fd97c501035919204c6b538c897cb18a8afb0037
+
+Package: com.sini921.classicfolders3
+Name: ClassicFolders3 经典文件夹
+icon: https://sini921.github.io/repo/sileodepiction/icon/classicfolders3.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/classicfolders3/js.json
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Description: 经典文件夹，基于开源代码优化编译。
+Maintainer: CoolStar & Lizynz & SINI
+Author: CoolStar & Lizynz & SINI
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 3.0.6-12
+Installed-Size: 4272
+Filename: debs/com.sini921.classicfolders3-3.0.6-12-rootless.deb
+Size: 3233060
+MD5sum: e5582d9c0e849d1a8ef500e3c003c1bf
+SHA1: 
+SHA256: bb0509578b8ab6ae6d93082eadd96aea913777c11a41036d5e809ad3f9bdf6d6
 
 Package: com.sini921.cozybadges
 Name: CozyBadges
