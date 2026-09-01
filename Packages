@@ -1383,6 +1383,47 @@ MD5sum: 35ca660ea428717016aefab6a3a4360e
 SHA1: 
 SHA256: cd09dd8e976ab2bfe75093833a942282be1f62d736923a81ab3d5f92588aaea3
 
+Author: Tinyapps.cn
+Maintainer: BigBoss
+Name: AntiTracker(查岗报警器)-Alerts you when tracked by others in real time
+Package: cn.tinyapps.antitracker
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Section: Tweaks
+Installed-Size: 4020
+Version: 2.2
+Architecture: iphoneos-arm64e
+Description: Notifies you immediately when tracked by others via [FindMyiPhone] or [FindMyFriends], and stores all tracking records as well, running in BACKGROUND。support all iOS versions(5.1.1~17.6), and all iOS devices 当被其他人通过[FindMyiPhone]或[FindMyFriends]跟踪时，会立即通知您，并存储所有跟踪记录，在后台运行。支持所有iOS版本（5.1.1‑17.6）和所有iOS设备。
+Sponsor: thebigboss.org
+dev: tinyapps
+Tag: purpose::extension, role::enduser
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/AntiTracker.png
+Filename: debs/cn.tinyapps.antitracker-2.2-roothide.deb
+Size: 1028128
+MD5sum: 6a9602acced0524d7df35abc53788d9f
+SHA1: 
+SHA256: 4789b2732682fb5d923e165a928d56923f386c0392a67e37f29e7652bab5257f
+
+Author: Tinyapps.cn
+Maintainer: BigBoss
+Name: AntiTracker(查岗报警器)-Alerts you when tracked by others in real time
+Package: cn.tinyapps.antitracker
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Section: Tweaks
+Installed-Size: 4020
+Version: 2.2
+Architecture: iphoneos-arm64
+Description: Notifies you immediately when tracked by others via [FindMyiPhone] or [FindMyFriends], and stores all tracking records as well, running in BACKGROUND。support all iOS versions(5.1.1~17.6), and all iOS devices 当被其他人通过[FindMyiPhone]或[FindMyFriends]跟踪时，会立即通知您，并存储所有跟踪记录，在后台运行。支持所有iOS版本（5.1.1‑17.6）和所有iOS设备。
+Sponsor: thebigboss.org
+dev: tinyapps
+Tag: purpose::extension, role::enduser
+icon: https://huayuarc.github.io/icon/AntiTracker.png
+Filename: debs/cn.tinyapps.antitracker-2.2-rootless.deb
+Size: 1045676
+MD5sum: 63993361c03e43d4a758276563ba2899
+SHA1: 
+SHA256: 4a76806d5657fbd8e744eb78d29701a1dbd7b024732bc98659b1c90c99449760
+
 Package: cn.zqbb.ccatop
 Name: CocoaTop
 Depends: 
@@ -5940,6 +5981,40 @@ Size: 5688
 MD5sum: cf614be74b57336e49fec3f371ebd74a
 SHA1: 
 SHA256: d51a389aa11657367c3cddd011e1196dd53a3410fa2ba71d73a85f9607f6b29f
+
+Package: com.gyddpu.keyboardhook
+Name: KeyboardHook 原生输入法自定义
+Description: 关于系统输入法和微信输入法的一些自定义，包括：键盘背景自定义、预选词语自定义；付费插件，仅做个人备份。
+Maintainer: t.me/gyddpu
+Author: t.me/gyddpu
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 2.1-3+debug
+Installed-Size: 524Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/keyboardhook.png
+Filename: debs/com.gyddpu.keyboardhook-2.1-3+debug-roothide.deb
+Size: 43164
+MD5sum: 303cc47374e96d6619eadeb043cadf52
+SHA1: 
+SHA256: d486ed83fb66c32c58512b12de143b1f51da394ed0d90fca5b34cc9b5d0bb819
+
+Package: com.gyddpu.keyboardhook
+Name: KeyboardHook 原生输入法自定义
+Description: 关于系统输入法和微信输入法的一些自定义，包括：键盘背景自定义、预选词语自定义；付费插件，仅做个人备份。
+Maintainer: t.me/gyddpu
+Author: t.me/gyddpu
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 2.1-3+debug
+Installed-Size: 524
+icon: https://huayuarc.github.io/icon/keyboardhook.png
+Filename: debs/com.gyddpu.keyboardhook-2.1-3+debug-rootless.deb
+Size: 43548
+MD5sum: 662d8891d0f4fe1aee436a1ed8c0e948
+SHA1: 
+SHA256: 57c09b158b4536870ae4bd54a247877a30c4641bac61e3f814c5aab6e77123d4
 
 Package: com.hang.squidgesturepro-ios17fix
 Name: 乌贼手势 iOS 17 补丁
