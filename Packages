@@ -1652,6 +1652,41 @@ SHA1:
 SHA256: a0b60a0b389c5223d2907af7b2c78d1a3d8e968d11d985adc38f27b2f943489a
 
 Package: com.25mao.leftpan
+Description: 左滑返回上一页面
+Version: 1.0-6
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Architecture: iphoneos-arm64e
+Name: 左滑返回
+Author: Mao
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/leftpan.png
+Filename: debs/com.25mao.leftpan-1.0-6-roothide.deb
+Size: 43080
+MD5sum: 06ac0c0ca13fb2f50645440dc94b8ba2
+SHA1: 
+SHA256: 18bc45b501e324f024f5c40d10b1ab5d2d0e84b2e87881f01b765f69e6f2b83a
+
+Package: com.25mao.leftpan
+Description: 左滑返回上一页面
+Version: 1.0-6
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Architecture: iphoneos-arm64
+Name: 左滑返回
+Author: Mao
+icon: https://huayuarc.github.io/icon/leftpan.png
+Filename: debs/com.25mao.leftpan-1.0-6-rootless.deb
+Size: 44316
+MD5sum: 149c84924bb03feb0c71003a8c0618f0
+SHA1: 
+SHA256: 3376823e0ba23ba4ef6929b004b49369f6110c9653bef35179d98d4416a9203e
+
+Package: com.25mao.leftpan
 Version: 2.0-1
 Section: Tweaks
 Maintainer: admin@25mao.com
@@ -1664,62 +1699,27 @@ Sponsor: admin@25mao.com
 icon: https://huayuarc.github.io/icon/leftPan.png
 Description: 左滑返回
 Filename: debs/com.25mao.leftpan-2.0-1-roothide.deb
-Size: 32872
-MD5sum: f88660c20b28fc8a11bdf57a8979b4b0
+Size: 32856
+MD5sum: a64570056fc9c2aca626f59b6fdf15ed
 SHA1: 
-SHA256: 4c470eb9e4e3890397624fea584bcc3fcc368f1b97814cd7fa2f4f1dcdaf710d
+SHA256: 87809e5979a20abf4d192c8003c3a2a5867e367403f01242fc0f95f0e11bedfc
 
 Package: com.25mao.leftpan
+Description: 左滑返回上一页面
 Version: 2.0
 Priority: optional
-Section: Tweaks
+Section: Rootless
 Maintainer: admin@25mao.com
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
 Architecture: iphoneos-arm64
 Name: 左滑返回
 Author: Mao
 icon: https://huayuarc.github.io/icon/leftPan.png
-Description: 左滑返回
 Filename: debs/com.25mao.leftpan-2.0-rootless.deb
-Size: 32516
-MD5sum: fb28c9fbcfa3d986f01e1d8ba8aec6f2
+Size: 32528
+MD5sum: 0efac3b0d450ff2f8ef983f061f62a41
 SHA1: 
-SHA256: 6f2546d6159303d5fd52c60bb01dc691cddfc474cd06a24fa01326c8ba73bccb
-
-Package: com.25mao.leftpan.roothide
-Description: 左滑返回上一页面
-Version: 1.0-6
-Priority: optional
-Section: Tweaks
-Maintainer: admin@25mao.com
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
-Architecture: iphoneos-arm64e
-Name: 左滑返回
-Author: Mao
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/leftpan.png
-Filename: debs/com.25mao.leftpan.roothide_1.0-6_iphoneos-arm64e.deb
-Size: 43148
-MD5sum: 3e01d377926fb69f88271e582411e70c
-SHA1: 
-SHA256: b67e6985d9b96b17804ec75003b1328f82fa19ee2cbfa528b714ce6c9dec2d4e
-
-Package: com.25mao.leftpan.rootless
-Description: 左滑返回上一页面
-Version: 1.0-6
-Priority: optional
-Section: Tweaks
-Maintainer: admin@25mao.com
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
-Architecture: iphoneos-arm64
-Name: 左滑返回
-Author: Mao
-icon: https://huayuarc.github.io/icon/leftpan.png
-Filename: debs/com.25mao.leftpan.rootless_1.0-6_iphoneos-arm64.deb
-Size: 44284
-MD5sum: 0fec3df61de26d76fdec3a8f67a2b479
-SHA1: 
-SHA256: 44fa01f3d4f80385a6bc9cebdf65db91290e0efa2fbcadbc5e5dd77d5fccacfe
+SHA256: ff54feed870c8f9f97657896d6350ad092667c9008151040aade12f16e76ab47
 
 Package: com.25mao.msgfilt.roothide
 Description: 消息屏蔽助手
@@ -1757,6 +1757,82 @@ Size: 144908
 MD5sum: e7828cdaa86ac83ee4c2d30fec18875e
 SHA1: 
 SHA256: b4f6efee866bf968b856a2cdf4aff93a199b2635945e0c7c4e4aa8fe6ff68b3d
+
+Package: com.25mao.wcplugins
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Name: 微信插件管理
+Version: 0.1-6
+Description: 微信插件管理
+Section: Tweaks
+Depends: firmware (>= 5.0)
+Priority: optional
+Author: Mao
+Maintainer: admin@25mao.com
+Architecture: iphoneos-arm64e
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.25mao.wcplugins-0.1-6-roothide.deb
+Size: 13240
+MD5sum: 514b24b6cf6507992ad79c9ea11e9ede
+SHA1: 
+SHA256: 659765bb1dc380ac71ef017840629fadef48bc0362be0f15c6add2654c2594ba
+
+Package: com.25mao.wcplugins
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/wcplugins.rootless/js.json
+Name: 微信插件管理
+Version: 0.1-6
+Description: 微信插件管理
+Section: Tweaks
+Depends: firmware (>= 5.0)
+Priority: optional
+Author: Mao
+Maintainer: admin@25mao.com
+Architecture: iphoneos-arm64
+Filename: debs/com.25mao.wcplugins-0.1-6-rootless.deb
+Size: 13548
+MD5sum: 3ce50027944f6ac8279cc414a8c6d08f
+SHA1: 
+SHA256: 9642c0336c2823675f318df431dd57b18ef6c96c8c1c252cd9791f5e67c815bd
+
+Package: com.25mao.wcplugins
+Name: 微信插件管理
+Version: 0.1-7
+Description: 
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Author: Mao
+Depiction: 
+Maintainer: admin@25mao.com
+Architecture: iphoneos-arm64e
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.25mao.wcplugins-0.1-7-roothide.deb
+Size: 15160
+MD5sum: 0e31db868e824e2aba151b103b7cade1
+SHA1: 
+SHA256: c96c7d14d03febf1711f41d6f8cd9f6e1c7c1467cc525c97dd2341891b2b26ee
+
+Package: com.25mao.wcplugins
+Name: 微信插件管理
+Version: 0.1-7
+Description: 
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: 
+Replaces: 
+Priority: optional
+Author: Mao
+Depiction: 
+Maintainer: admin@25mao.com
+Architecture: iphoneos-arm64
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.25mao.wcplugins-0.1-7-rootless.deb
+Size: 15176
+MD5sum: 601385ff47993fb3ba1867ec3993f78c
+SHA1: 
+SHA256: 0574f0b793ec521e03b641087444882c070ae16fb4aa87d409eefd4c74c7bc2f
 
 Package: com.82flex.cranepkdserverfix
 Name: Crane PKDServer Fix
@@ -2450,7 +2526,7 @@ SHA1:
 SHA256: b301cba50d6229f22c2ca913a6019175c93482e0b157246bfbb2fad34f5c03da
 
 Package: com.baiy.switchtheme
-Name: SwitchTheme——牙齿
+Name: SwitchTheme 半透简约开关
 Description: 灵感源自牙齿线条的极简开关，圆润而洁净，温润而纯粹。滑动之间，如唇齿轻启，带来指尖柔滑的精致体验
 Maintainer: baiy（qq：961666883））
 Author: 白衣
@@ -2462,13 +2538,13 @@ Installed-Size: 240
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/switchtheme.jpg
 Filename: debs/com.baiy.switchtheme-1.0.0-roothide.deb
-Size: 27944
-MD5sum: ac05d68ab77952bc767420e13e288d28
+Size: 27972
+MD5sum: 24fc48e77d4b0ccdf2922f627c49a6a3
 SHA1: 
-SHA256: 486edddb8923ada1b1e5a814b9b622a734d82ac34611e3c2a434d6f773e1057b
+SHA256: 71b30b4d87e4ba7b87d5a7f635a4bc7a58e57d6d59afe817f772e7e7a1ca4d2e
 
 Package: com.baiy.switchtheme
-Name: SwitchTheme——牙齿
+Name: SwitchTheme 半透简约开关
 Description: 灵感源自牙齿线条的极简开关，圆润而洁净，温润而纯粹。滑动之间，如唇齿轻启，带来指尖柔滑的精致体验
 Maintainer: baiy（qq：961666883））
 Author: 白衣
@@ -2479,10 +2555,10 @@ Version: 1.0.0
 Installed-Size: 240
 icon: https://huayuarc.github.io/icon/switchtheme.jpg
 Filename: debs/com.baiy.switchtheme-1.0.0-rootless.deb
-Size: 27732
-MD5sum: 1e9af5ff9e6fbc962379322e8747ff3f
+Size: 27720
+MD5sum: 5982d1b4ec1a3162e86e97027f34956b
 SHA1: 
-SHA256: 764a31736e55bc124ac43c7f472145563a07e00e3e619d4703b204db702d5bff
+SHA256: 1d0766f396a910ca37ef80eb918a96ca38bc1b118d2025c6c85427e6a9bbed5c
 
 Package: com.ban.mydock
 Name: MyDock 键盘增强
@@ -10341,6 +10417,42 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图等
 Maintainer: iosdump
 Author: iosdump
 Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.7.0
+Installed-Size: 8040
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-2.7.0-roothide.deb
+Size: 3375748
+MD5sum: 58a28c8cc2fb11603b8e2a2664254971
+SHA1: 
+SHA256: 0fc4a9e8569394ad9faa4eb8c930ec48e15b2d81299a470207f2410ea24caf4d
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.7.0
+Installed-Size: 8040
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-2.7.0-rootless.deb
+Size: 3379256
+MD5sum: 0be69dc5ebd31376a14e0e8fe7ef9a25
+SHA1: 
+SHA256: 496121dff8b3a6ededa669be8154afc6a538401fd026b12f5b43cf375f53d7b7
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 2.6.1
 Installed-Size: 7524
@@ -15126,6 +15238,40 @@ Size: 179048
 MD5sum: 15cebedb8e38cc80620894093d9cea0e
 SHA1: 
 SHA256: 70f9bee404687efbf0c76dd174ab7c74076406e912d7322d6f29039b0e7dfda1
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; adds a dedicated powerd injection core for Force Fast Charge while preserving ChargeBoost, thermal engine, floating UI, and notifications
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 3.3.3
+Installed-Size: 1556
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-3.3.3-roothide.deb
+Size: 180320
+MD5sum: 5b3b796fce82f17df28f638dc066513b
+SHA1: 
+SHA256: 517a60b0865479d4299af548cee938c8541701c36fae2f7a1a46a22bafa36d7f
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; adds a dedicated powerd injection core for Force Fast Charge while preserving ChargeBoost, thermal engine, floating UI, and notifications
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 3.3.3
+Installed-Size: 1572
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-3.3.3-rootless.deb
+Size: 183396
+MD5sum: 6ce3b51b2be9c3c1c54a7f8e33db5724
+SHA1: 
+SHA256: b2346312a336ab38c348cad45aa16d3fd73abc136fff613f259ad199ebcec14d
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
@@ -25781,6 +25927,45 @@ Size: 13308216
 MD5sum: 3b8953fffcda8a661dc711b0a2971628
 SHA1: 
 SHA256: c8b53c96e66485b5b4aeb2908236fba01c3dfb0218a88b771b6d1e6f336425fc
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.2.8
+Installed-Size: 4012
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x-1.2.8-roothide.deb
+Size: 1587368
+MD5sum: d09bbbfa4458b5499101c4dce1c336c5
+SHA1: 
+SHA256: 4fddd341550ba7a6e56cf76f4443ea4e9049bc0d67dcd45a2398ac1bf7c16a6a
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.2.8
+Installed-Size: 4012
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x-1.2.8-rootless.deb
+Size: 1605872
+MD5sum: c92e4e1eaddfb5e13468be669c4e9409
+SHA1: 
+SHA256: afbf25113eb06650f4c8b259f66aba1aebde795d7a9c04790ac7af43f2bee9ec
 
 Package: xhs.x
 Conflicts: com.xx.xhshook
