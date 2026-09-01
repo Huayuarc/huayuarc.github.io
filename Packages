@@ -6778,6 +6778,60 @@ Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
 Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
 Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
 SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.2.9
+Installed-Size: 8620
+Filename: debs/com.hmmzzz.marktheme-0.2.9-roothide.deb
+Size: 2425652
+MD5sum: 5000c352aba3aa4ee767426e6166b388
+SHA1: 
+SHA256: 695dc212eb513cc42dfd521482d54c733a1f8e230c84de2e6fc742c9567ea16e
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.2.9
+Installed-Size: 8644
+Filename: debs/com.hmmzzz.marktheme-0.2.9-rootless.deb
+Size: 2437676
+MD5sum: 858f574919109ec979e08e5978721b61
+SHA1: 
+SHA256: ee8bd19faa19cecdb60a975d90c65b7dc76e6647a10ad6989c42219baf0cfa91
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
+ * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
+ * 支持作者遮罩和系统原生圆角遮罩。
+ * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
+ * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
+ * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
+ * 身份、ABI 或资源校验失败时自动保留系统原生外观。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
 Architecture: iphoneos-arm64
 Version: 0.2.6
 Installed-Size: 7868
@@ -12422,6 +12476,52 @@ Size: 204836
 MD5sum: 71b382fd0b05d042368e9856bbe20ac2
 SHA1: 
 SHA256: 8fae414af43f3a59ff57381a3e23dcaeb5c160b9813bdeef35713b49ba6d55ee
+
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.6.2
+Description: Pullover-X窗口调度版
+ 键盘改成内置全屏。
+ 键盘不受卡片比例影响。
+ 键盘错位问题已解决。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.6.2-roothide.deb
+Size: 205516
+MD5sum: 25ec0939f1285019d8bd9716904d4bed
+SHA1: 
+SHA256: 7b3fa46fc7a9f4ddf710ab65afbbf8b4c740138029b6741ee57929f355cdb72b
+
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.6.2
+Description: Pullover-X窗口调度版
+ 键盘改成内置全屏。
+ 键盘不受卡片比例影响。
+ 键盘错位问题已解决。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.6.2-rootless.deb
+Size: 207152
+MD5sum: e997ab638efe89f3021fb0030e4a9a4f
+SHA1: 
+SHA256: 4193d7365ecd624780703529fd6d4d44021c6aca76f1640b6ccd0c93480fb5f0
 
 Package: com.mrgcgamer.libgcuniversal
 Name: LibGcUniversal
@@ -22068,6 +22168,48 @@ Size: 360972
 MD5sum: 808a959e14b7badab609bbadd979d403
 SHA1: 
 SHA256: 868c974d8f85ca3cef3f9943ea3e71aebe1ac8ac192bf0f2cc7aea2b5d74e10f
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 1.9.8
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-1.9.8-roothide.deb
+Size: 365308
+MD5sum: 8684ac7017048ed5937d4850359937e1
+SHA1: 
+SHA256: 4fe73b570c343b6acbae2660a1a05515d452483bbd1eaf48d368d6af525ca05d
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 1.9.8
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-1.9.8-rootless.deb
+Size: 366856
+MD5sum: 9a7eb46bd8e6a83814a768d028c1ada8
+SHA1: 
+SHA256: 2af0327024846c02943da0674598fdfb2679657c3b49e0b3f0dfe0d74f598386
 
 Package: com.tsangbaby.pulloverx
 Name: PullOver X 分屏
