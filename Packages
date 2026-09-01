@@ -512,6 +512,24 @@ SHA256: 3787bb9ca2989ac6ff5a41169afe32d6235af8feff5887f8e5d2b6ec75302cbf
 
 Package: cn.llld.appfix
 Name: 应用修改器
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强，1.0版本之后支持导入Flex3配置），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Maintainer: 来了老弟
+Author: 来了老弟
+Section: Development
+icon: https://huayuarc.github.io/icon/appfix.png
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Tag: purpose::uikit, compatible::ios14
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 1548
+Filename: debs/cn.llld.appfix-1.0.0-rootless.deb
+Size: 478484
+MD5sum: 050f08347f854096829f2c756c985653
+SHA1: 
+SHA256: a5bfab39f4994c6fad6c488c7d797c06695685f7e4d464b71fe5f8a9922fc5d9
+
+Package: cn.llld.appfix
+Name: 应用修改器
 Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
 Maintainer: 来了老弟
 Author: 来了老弟
@@ -11304,6 +11322,41 @@ MD5sum: d627e3cf9960486004110be51c3a13ec
 SHA1: 
 SHA256: 22b56dedee7a783429a911260b8bd953a2ff8ace18db7675d5e2d2f944c2b6cb
 
+Package: com.local.temperatureislandstandalone
+Name: 温度上岛
+Description: 当手机电池温度到了40度会有一个温度计的标识上岛提醒 120秒下岛或者温度低于40下岛
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.local.temperatureislandbridge, com.local.temperatureislandbridge2
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 152
+icon: https://huayuarc.github.io/icon/lingdd.jpg
+Filename: debs/com.local.temperatureislandstandalone-1.0-rootless.deb
+Size: 11856
+MD5sum: 578d4dee80f1dbbf28fdc91da86a5260
+SHA1: 
+SHA256: ebee2620464eb44c9fd305c1e00ce039c65dad7c8a797de0f3d4595a7df67ab5
+
+Package: com.local.tongz
+Name: 通知上岛
+Description: 通知上岛
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 188
+icon: https://huayuarc.github.io/icon/lingdd.jpg
+Filename: debs/com.local.tongz-1.0-roothide.deb
+Size: 19260
+MD5sum: c741e960f918a9cf425df3b7b95495a4
+SHA1: 
+SHA256: 22281571862ab26368b17cb0b8cd79915d41a6771494a8fc46d6eea8469f307d
+
 Package: com.lxcloud.WCEhance
 Name: 微信增强
 Version: 2.0-6
@@ -15020,6 +15073,40 @@ Size: 172656
 MD5sum: ffb8379f9291ff641e677e40ffdf9e0d
 SHA1: 
 SHA256: a961a2caf9f2878095caea74500281efe0c40c9c5740572de089693813fb0e64
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; adds a dedicated powerd injection core for Force Fast Charge while preserving ChargeBoost, thermal engine, floating UI, and notifications
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 3.3.2
+Installed-Size: 1540
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-3.3.2-roothide.deb
+Size: 177312
+MD5sum: 27cb577cd85e742e0e1554e138f03d18
+SHA1: 
+SHA256: d8c53b6633b8355b732c4846a261f8bcbd38b862ffb5ddb6bba8a8078d541716
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; adds a dedicated powerd injection core for Force Fast Charge while preserving ChargeBoost, thermal engine, floating UI, and notifications
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 3.3.2
+Installed-Size: 1556
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-3.3.2-rootless.deb
+Size: 179048
+MD5sum: 15cebedb8e38cc80620894093d9cea0e
+SHA1: 
+SHA256: 70f9bee404687efbf0c76dd174ab7c74076406e912d7322d6f29039b0e7dfda1
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
