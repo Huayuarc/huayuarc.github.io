@@ -11330,15 +11330,34 @@ Author: 半生年华
 Section: Tweaks
 Depends: mobilesubstrate
 Conflicts: com.local.temperatureislandbridge, com.local.temperatureislandbridge2
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 152
+icon: https://huayuarc.github.io/icon/lingdd.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.local.temperatureislandstandalone-1.0-roothide.deb
+Size: 12032
+MD5sum: 1346a86daa87c540d3cb9e87b2460f7c
+SHA1: 
+SHA256: 46c8fa89504695073d6c2dbd99b524660259ff29f06b0a5bbc1c1e90be244561
+
+Package: com.local.temperatureislandstandalone
+Name: 温度上岛
+Description: 当手机电池温度到了40度会有一个温度计的标识上岛提醒 120秒下岛或者温度低于40下岛
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.local.temperatureislandbridge, com.local.temperatureislandbridge2
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 152
 icon: https://huayuarc.github.io/icon/lingdd.jpg
 Filename: debs/com.local.temperatureislandstandalone-1.0-rootless.deb
-Size: 11856
-MD5sum: 578d4dee80f1dbbf28fdc91da86a5260
+Size: 11860
+MD5sum: 255e4ba34da3e4283c008b73e18e1b0f
 SHA1: 
-SHA256: ebee2620464eb44c9fd305c1e00ce039c65dad7c8a797de0f3d4595a7df67ab5
+SHA256: 22e1ce71703761c3ced1b5c645fc38094b9a94936d87bc300543856dbe679f9d
 
 Package: com.local.tongz
 Name: 通知上岛
@@ -11353,9 +11372,9 @@ Installed-Size: 188
 icon: https://huayuarc.github.io/icon/lingdd.jpg
 Filename: debs/com.local.tongz-1.0-roothide.deb
 Size: 19260
-MD5sum: c741e960f918a9cf425df3b7b95495a4
+MD5sum: 5848025f204b94287d22115d2742584b
 SHA1: 
-SHA256: 22281571862ab26368b17cb0b8cd79915d41a6771494a8fc46d6eea8469f307d
+SHA256: 5a8a2eb848e028778df5f357266c683aee5bd8e3df1c6f804b8dae77507170fd
 
 Package: com.lxcloud.WCEhance
 Name: 微信增强
