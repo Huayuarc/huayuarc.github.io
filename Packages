@@ -12637,6 +12637,52 @@ MD5sum: e997ab638efe89f3021fb0030e4a9a4f
 SHA1: 
 SHA256: 4193d7365ecd624780703529fd6d4d44021c6aca76f1640b6ccd0c93480fb5f0
 
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.6.5
+Description: Pullover-X窗口调度版
+ 收藏栏长按第二个 app 可自由移动位置。
+ 收藏栏新增横屏窗口呼出功能（放在第一个位置）。
+ 点击视频 app 全屏播放，再点击收藏栏第一个 app 立即新分一个窗口，可横竖切换。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.6.5-roothide.deb
+Size: 238636
+MD5sum: b8163b7909b0888c9fbb3ed3d3334ee3
+SHA1: 
+SHA256: 4e66a8a28129b93901d46ae324da9894c60af7eb180c7694ac203ca2c38a60f0
+
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.6.5
+Description: Pullover-X窗口调度版
+ 收藏栏长按第二个 app 可自由移动位置。
+ 收藏栏新增横屏窗口呼出功能（放在第一个位置）。
+ 点击视频 app 全屏播放，再点击收藏栏第一个 app 立即新分一个窗口，可横竖切换。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.6.5-rootless.deb
+Size: 239728
+MD5sum: d9dceff71aadee2e48a30035eb6b6f4d
+SHA1: 
+SHA256: 8d91709252f25df7f4242667de1b56ad9824d437d29bf22c20521cf811afccea
+
 Package: com.mrgcgamer.libgcuniversal
 Name: LibGcUniversal
 Icon: https://sini921.github.io/repo/sileodepiction/icon/libgcuniversal.png
