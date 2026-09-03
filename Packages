@@ -6897,6 +6897,60 @@ SHA256: ee8bd19faa19cecdb60a975d90c65b7dc76e6647a10ad6989c42219baf0cfa91
 Package: com.hmmzzz.marktheme
 Name: MarkTheme 主题引擎管理器
 Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ MarkTheme 0.3.0 支持导入 SnowBoard / IconBundles 风格主题，可主题化应用图标、
+ 文件夹、角标、状态栏、拨号盘、设置与分享界面。
+ .
+ 支持跨主题混搭和功能独立开关；切换主题或混搭后，按提示 Respring 即可应用新外观。
+ .
+ 提供 conventional rootless 与 RootHide 独立软件包，支持 iOS 17.0 至 18.x。
+ 请安装与你的越狱环境匹配的软件包，两个版本不可混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.3.0
+Installed-Size: 8648
+Filename: debs/com.hmmzzz.marktheme-0.3.0-roothide.deb
+Size: 2435172
+MD5sum: 686138dc715ea54dba9831fbf02e1e5c
+SHA1: 
+SHA256: ac6c4af21474608424d3d96cb875f6171c5aa37007abf92006fb9fde31334c2c
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ MarkTheme 0.3.0 支持导入 SnowBoard / IconBundles 风格主题，可主题化应用图标、
+ 文件夹、角标、状态栏、拨号盘、设置与分享界面。
+ .
+ 支持跨主题混搭和功能独立开关；切换主题或混搭后，按提示 Respring 即可应用新外观。
+ .
+ 提供 conventional rootless 与 RootHide 独立软件包，支持 iOS 17.0 至 18.x。
+ 请安装与你的越狱环境匹配的软件包，两个版本不可混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: System
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.3.0
+Installed-Size: 8668
+Filename: debs/com.hmmzzz.marktheme-0.3.0-rootless.deb
+Size: 2444292
+MD5sum: d8b4f92047833ffe70f00bbe9f2eb159
+SHA1: 
+SHA256: 29339282f0be7f181b25d92bc5125cf7166490b624bd9f66770a77e75e73cddf
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme 主题引擎管理器
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
  * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
  * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
  * 支持作者遮罩和系统原生圆角遮罩。
@@ -7576,6 +7630,42 @@ Size: 148920
 MD5sum: f6cd2e8534df1e15f89966d77c9aecc0
 SHA1: 
 SHA256: bebd3ee4b295bab8537c615a079dbd68302842d43ca35a2f332e3e65bfcfe202
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-35
+Installed-Size: 2136
+Filename: debs/com.huayuarc.cputhermal_1.6.2-35_iphoneos-arm64.deb
+Size: 155506
+MD5sum: becccf08c6974e42818f2ce89fac7fe6
+SHA1: 
+SHA256: 1ef8457b7a8c87e165e6f91652bc607597ad59ee7e0be10473ef90b38c591289
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-35
+Installed-Size: 2084
+Filename: debs/com.huayuarc.cputhermal_1.6.2-35_iphoneos-arm64e.deb
+Size: 150192
+MD5sum: a97deb2356be563ee775d207c27fcafc
+SHA1: 
+SHA256: 1bf1f3b389505557cda4120047f858a19c724ecc5c1fa7d668edc89186f88b8f
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
@@ -10718,6 +10808,42 @@ Size: 3379256
 MD5sum: 0be69dc5ebd31376a14e0e8fe7ef9a25
 SHA1: 
 SHA256: 496121dff8b3a6ededa669be8154afc6a538401fd026b12f5b43cf375f53d7b7
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.8.0
+Installed-Size: 7596
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-2.8.0-roothide.deb
+Size: 2971224
+MD5sum: 641a1b46f10b8b47e4d8edcbbc32c0fc
+SHA1: 
+SHA256: ff1357b28cd43674a766d8568c49efdb3b8cb4e5442938b89e6038ddc04f5b8b
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.8.0
+Installed-Size: 7628
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-2.8.0-rootless.deb
+Size: 2972720
+MD5sum: ca63308d064a83b43bdb8cbadf515a9e
+SHA1: 
+SHA256: 32bc0cac447f55a4db1f15d88ebf8a948f067c91912703f189118ef97c8f4b1f
 
 Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
@@ -22476,6 +22602,48 @@ Size: 366856
 MD5sum: 9a7eb46bd8e6a83814a768d028c1ada8
 SHA1: 
 SHA256: 2af0327024846c02943da0674598fdfb2679657c3b49e0b3f0dfe0d74f598386
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 2.0.0
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.0.0-roothide.deb
+Size: 372892
+MD5sum: 693d658883969ad47768fcaf210b5338
+SHA1: 
+SHA256: 462436b27c118fd4fd8aec4ae36ae5a1c6433e4fb3cef7fd8c4490d3f43127b0
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 2.0.0
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.0.0-rootless.deb
+Size: 374628
+MD5sum: 809a33fb8aadc08ba4348c977843615a
+SHA1: 
+SHA256: fea9c975bc824a011f3383893369b43aaddf795d2bbbd65ecf2296c1a3e0cf22
 
 Package: com.tsangbaby.pulloverx
 Name: PullOver X 分屏
