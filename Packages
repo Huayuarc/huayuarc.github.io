@@ -12323,6 +12323,43 @@ MD5sum: 90d03bb0d4a294d805f2bee09e922fbb
 SHA1: 
 SHA256: a64520a5956c01cd75a6a27d2d6cfb631835a536724f37812fcdfbd4d8643738
 
+Package: com.minis.fxxxksvideotool
+Name: FxxxKSVideotool 快手工具
+Version: 3.62
+Architecture: iphoneos-arm64e
+Description: Kuaishou video tool.
+ * 插件入口：精选页面一>长按插件面板一>更多功能一>其他功能一>呼出方式（长按、双击、悬浮）
+ * 悬浮方式为显示一个小眼睛图标
+Maintainer: Minis
+Section: Tweaks
+Depends: mobilesubstrate
+Priority: optional
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/fxxxksvideotool.jpg
+Filename: debs/com.minis.fxxxksvideotool-3.62-roothide.deb
+Size: 124788
+MD5sum: 3e725b1061ab3b7cac96d10710c6d184
+SHA1: 
+SHA256: 139916b10f04a407c4da9e2b0b80f9e2879816afeecb9f010c662614a99eb319
+
+Package: com.minis.fxxxksvideotool
+Name: FxxxKSVideotool 快手工具
+Version: 3.62
+Architecture: iphoneos-arm64
+Description: Kuaishou video tool.
+ * 插件入口：精选页面一>长按插件面板一>更多功能一>其他功能一>呼出方式（长按、双击、悬浮）
+ * 悬浮方式为显示一个小眼睛图标
+Maintainer: Minis
+Section: Tweaks
+Depends: mobilesubstrate
+Priority: optional
+icon: https://huayuarc.github.io/icon/fxxxksvideotool.jpg
+Filename: debs/com.minis.fxxxksvideotool-3.62-rootless.deb
+Size: 120172
+MD5sum: 951c0c349e7dd7d41aebad700b61fa06
+SHA1: 
+SHA256: a3d7719e62276cb1f1de75d9b5a1560f0997297297c321d50c3d0e1f60d8b9a1
+
 Package: com.miro.libmiroshared
 Name: libMiROShared
 Depends: firmware (>=14.0)
