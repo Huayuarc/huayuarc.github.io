@@ -23200,6 +23200,40 @@ MD5sum: e3211ff1b34f3512b90a2fc4add85382
 SHA1: 
 SHA256: f03f8dc61af70c475d7329f0e0f783cfec93e51650f1af79672ba7d21afc6b73
 
+Package: com.xlzs001.dystorage
+Name: 抖音插件收纳
+Description: 将你的抖音插件收纳起来
+Maintainer: DYStorage Contributors
+Author: DYStorage Contributors
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.2.76
+Installed-Size: 240
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xlzs001.dystorage-1.2.76-roothide.deb
+Size: 27864
+MD5sum: e40028ea75396c28d45c70692b6a3852
+SHA1: 
+SHA256: f482e322b9320af837b179c16d6ca69d17c179175ce86aab7785bacd150074d7
+
+Package: com.xlzs001.dystorage
+Name: 抖音插件收纳
+Description: 将你的抖音插件收纳起来
+Maintainer: DYStorage Contributors
+Author: DYStorage Contributors
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.2.76
+Installed-Size: 240
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xlzs001.dystorage-1.2.76-rootless.deb
+Size: 27892
+MD5sum: 435e759618f49c0cf69001704ff8a462
+SHA1: 
+SHA256: f1e26583f0e6a2ec2a3c829b894d4c81aa3c8ebb8c679da9072eb9ebaaa51eeb
+
 Package: com.xuegao.automessage
 Name: AutoMessage
 Description: 抖音自动消息发送插件，支持每日自动发送消息
