@@ -27321,7 +27321,7 @@ SHA256: ead6cc453897f14ad171889a5bac021f437c32e140810269f2813a704eaa4053
 Package: xyz.cypwn.lockglass17
 Maintainer: CyPwn
 icon: https://huayuarc.github.io/icon/lockglass17.png
-Name: LockGlass iOS17 锁屏
+Name: LockGlass
 Description: Customize and change your Lock Screen.自定义和更改您的锁屏。
 Author: Jailbreak Tweaker
 Section: Tweaks
@@ -27330,15 +27330,15 @@ Architecture: iphoneos-arm64e
 Version: 1.3
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/xyz.cypwn.lockglass17-1.3-roothide.deb
-Size: 230220
-MD5sum: eb781cbbe337f964859a1da9078a3eb5
+Size: 230160
+MD5sum: c707da90e581055ade8e211d802f5c7e
 SHA1: 
-SHA256: a97e8ff4bbe77736ca2639173b7e495e7c0e4643029964b0e80b05fd16edc0da
+SHA256: 8e9ae5cff848daeb1248cdb2040402e0fa3c22f0ef7c25119dfbafcdd2b2ad6a
 
 Package: xyz.cypwn.lockglass17
 Maintainer: CyPwn
 icon: https://huayuarc.github.io/icon/lockglass17.png
-Name: LockGlass iOS17 锁屏
+Name: LockGlass
 Description: Customize and change your Lock Screen.自定义和更改您的锁屏。
 Author: Jailbreak Tweaker
 Section: Tweaks
@@ -27346,10 +27346,10 @@ Depends: firmware (>= 16.0), firmware (<= 18.7.1) | firmware (>= 26.0), firmware
 Architecture: iphoneos-arm64
 Version: 1.3
 Filename: debs/xyz.cypwn.lockglass17-1.3-rootless.deb
-Size: 235232
-MD5sum: bde2a319103758bf8e659c633b963812
+Size: 235816
+MD5sum: 4aab6217c3bcb9bfe4e4e2915f80b73e
 SHA1: 
-SHA256: 9f49f195f3c11bf2122e0c183347226a57bd2fc622c6786fbdd4ac685472ec57
+SHA256: 8868253c126de77620216248da307c6d4bebbff5350936da9cb3c67bcd985d59
 
 Package: xyz.cypwn.minotaur
 Maintainer: CyPwn
