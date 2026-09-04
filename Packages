@@ -23777,6 +23777,40 @@ MD5sum: 1d5e8da326f54c85356c2574beafe9df
 SHA1: 
 SHA256: 6977d047d0810ed2e77a18d53a492c76fe1b86d91efba31608a536c1a4560d26
 
+Package: dylv.sbliquidglass
+Name: SBLiquidGlass 液态玻璃
+Description: A staged Liquid Glass system UI tweak with a safe surface architecture.
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.7.0
+Installed-Size: 3908
+icon: https://huayuarc.github.io/icon/sbliquidglass.png
+Filename: debs/dylv.sbliquidglass-1.7.0-roothide.deb
+Size: 1387852
+MD5sum: 708ec8e4cb9da72c87dc3a0d8d5096c0
+SHA1: 
+SHA256: 031def568f929509f3e06e4c7372faceea920ea3eb659005ca5401455c1c542d
+
+Package: dylv.sbliquidglass
+Name: SBLiquidGlass 液态玻璃
+Description: A staged Liquid Glass system UI tweak with a safe surface architecture.
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.7.0
+Installed-Size: 3924
+icon: https://huayuarc.github.io/icon/sbliquidglass.png
+Filename: debs/dylv.sbliquidglass-1.7.0-rootless.deb
+Size: 1390184
+MD5sum: 8dbafa274a699b950231b1f602138d5c
+SHA1: 
+SHA256: 247dd951a90e2ecc2eb8537bceab8b1cf75a9a7510bf53af00d3ec9068dfa648
+
 Package: emt.paisseon.xinamine
 Name: Xinamine
 Description: Add Xina tweak compatibility to Dopamine 将Xina调整兼容性添加到多巴胺
