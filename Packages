@@ -12952,6 +12952,56 @@ MD5sum: d9dceff71aadee2e48a30035eb6b6f4d
 SHA1: 
 SHA256: 8d91709252f25df7f4242667de1b56ad9824d437d29bf22c20521cf811afccea
 
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.7.0
+Description: Pullover-X窗口调度版
+ 1、新增副窗口横幅控制栏，支持全屏、横竖屏切换、吸附边缘等。
+ 2、优化过场动画与卡片效果。
+ 3、优化副窗口弹出方式：长按收藏栏图标自动弹窗，副窗口与主卡运行不同 App。
+ 4、快捷操作：主卡双击收藏栏转全屏；长按 App 跳转副窗口；副窗口底部两角拖拽缩放；顶部多功能键快捷切换场景。
+ 5、本次插件开发暂告一段落。插件完全免费开放使用，如遇 BUG 或体验瑕疵，还请大家多多包涵。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.7.0-roothide.deb
+Size: 255176
+MD5sum: 564160f4d3738fcae3cb3ee548ec75ea
+SHA1: 
+SHA256: 13f4fbc8751539b8ffc3243d0453f3639981514d34a44aa88acba52cf1f25c57
+
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.7.0
+Description: Pullover-X窗口调度版
+ 1、新增副窗口横幅控制栏，支持全屏、横竖屏切换、吸附边缘等。
+ 2、优化过场动画与卡片效果。
+ 3、优化副窗口弹出方式：长按收藏栏图标自动弹窗，副窗口与主卡运行不同 App。
+ 4、快捷操作：主卡双击收藏栏转全屏；长按 App 跳转副窗口；副窗口底部两角拖拽缩放；顶部多功能键快捷切换场景。
+ 5、本次插件开发暂告一段落。插件完全免费开放使用，如遇 BUG 或体验瑕疵，还请大家多多包涵。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.7.0-rootless.deb
+Size: 255672
+MD5sum: e619eb914fb941bad58eae53c4664768
+SHA1: 
+SHA256: 3e14e232252644f02084d8d7060e7708450200aad7f8221508643ff2ebda7ff6
+
 Package: com.mrgcgamer.libgcuniversal
 Name: LibGcUniversal
 Icon: https://sini921.github.io/repo/sileodepiction/icon/libgcuniversal.png
@@ -27267,6 +27317,39 @@ Size: 1222414
 MD5sum: 33d6ccc6dabafdaf692d643a83cc1e1c
 SHA1: 
 SHA256: ead6cc453897f14ad171889a5bac021f437c32e140810269f2813a704eaa4053
+
+Package: xyz.cypwn.lockglass17
+Maintainer: CyPwn
+icon: https://huayuarc.github.io/icon/lockglass17.png
+Name: LockGlass iOS17 锁屏
+Description: Customize and change your Lock Screen.自定义和更改您的锁屏。
+Author: Jailbreak Tweaker
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<= 18.7.1) | firmware (>= 26.0), firmware (<= 26.0.1), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.3
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.lockglass17-1.3-roothide.deb
+Size: 230220
+MD5sum: eb781cbbe337f964859a1da9078a3eb5
+SHA1: 
+SHA256: a97e8ff4bbe77736ca2639173b7e495e7c0e4643029964b0e80b05fd16edc0da
+
+Package: xyz.cypwn.lockglass17
+Maintainer: CyPwn
+icon: https://huayuarc.github.io/icon/lockglass17.png
+Name: LockGlass iOS17 锁屏
+Description: Customize and change your Lock Screen.自定义和更改您的锁屏。
+Author: Jailbreak Tweaker
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<= 18.7.1) | firmware (>= 26.0), firmware (<= 26.0.1), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.3
+Filename: debs/xyz.cypwn.lockglass17-1.3-rootless.deb
+Size: 235232
+MD5sum: bde2a319103758bf8e659c633b963812
+SHA1: 
+SHA256: 9f49f195f3c11bf2122e0c183347226a57bd2fc622c6786fbdd4ac685472ec57
 
 Package: xyz.cypwn.minotaur
 Maintainer: CyPwn
