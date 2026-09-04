@@ -21944,6 +21944,42 @@ MD5sum: 9524a1e5fe2f7fca21fa18f018e90ffa
 SHA1: 
 SHA256: eb3a68c7b51604a4524dfdba65b68d600102b9650caf560c97560500748e0e40
 
+Package: com.susudear.crash
+Name: SuSuCrash 崩溃日志
+Description: 轻量级崩溃日志查看器
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/SuSuCrash.png
+Pre-Depends: rootless-compat (>= 0.9)
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Installed-Size: 2732
+Filename: debs/com.susudear.crash-1.0.6-roothide.deb
+Size: 587220
+MD5sum: fe7163d1fbb54ff281c69bf5389c66db
+SHA1: 
+SHA256: 9a79fb620a04b7209b046fe20512a3a5c94c4e14e67e7a03ef0def06d301fc5a
+
+Package: com.susudear.crash
+Name: SuSuCrash 崩溃日志
+Description: 轻量级崩溃日志查看器
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/SuSuCrash.png
+Pre-Depends: rootless-compat (>= 0.9)
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Installed-Size: 2732
+Filename: debs/com.susudear.crash-1.0.6-rootless.deb
+Size: 586648
+MD5sum: 91dfd6194d4f79e971897291a9933831
+SHA1: 
+SHA256: e820a21fd5a7b94134d3b48447d0f9df86415c94f346fa3d7d5c198960c39d5b
+
 Package: com.susudear.sharingdalertwatchdog
 Name: SharingdAlertWatchdog
 Description: 各位开发者是否遇到了 Airdrop 投送后，移动端无法出现菜单，界面卡住崩溃？那试试SharingdAlertWatchdog 吧，他或许可以解决你的困扰
