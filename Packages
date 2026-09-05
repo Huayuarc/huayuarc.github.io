@@ -7496,6 +7496,42 @@ Maintainer: Huayuarc
 Section: Tweaks
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-46
+Installed-Size: 1860
+Filename: debs/com.huayuarc.cputhermal-1.6.2-46-roothide.deb
+Size: 137076
+MD5sum: 9a625966d13cfe9759c68889a40529df
+SHA1: 
+SHA256: 4935481cf556fd80331e184d751fd85edf7c9e7f1201e638d746f976ca7bf136
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-46
+Installed-Size: 1928
+Filename: debs/com.huayuarc.cputhermal-1.6.2-46-rootless.deb
+Size: 141712
+MD5sum: f4af9dd58bb55d1def3677045fb2dd8d
+SHA1: 
+SHA256: 6c36eea5695a3bcccb701107ef24a27e5fc14a59cadf37b746be2c08bdd3c295
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Architecture: iphoneos-arm64
 Version: 1.6.2-17
 Installed-Size: 1676
@@ -7702,6 +7738,40 @@ Size: 129852
 MD5sum: a07539f5968018131b1c86e223d02b13
 SHA1: 
 SHA256: a0ec9f6f7f06e460128c9702e43dc4e260714ef950c73de3ebc308fd09a567a6
+
+Package: com.huayuarc.facedownlock
+Name: 设备朝下自动锁屏
+Author: Huayuarc
+Description: 设备屏幕朝下或进入口袋态时，自动模拟按下锁屏键。独立提取自 CPUthermal 1.6.2-44，仅注入 SpringBoard，支持设置面板实时开关。
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 384
+icon: https://huayuarc.github.io/icon/facedownlock.jpg
+Filename: debs/com.huayuarc.facedownlock-1.0.0-roothide.deb
+Size: 31280
+MD5sum: ae35a5bb81349ef47cb4d32319d9a773
+SHA1: 
+SHA256: 0ab6e9a5e75fd057b10ccd58658442410b14389908951a8fb69e1405ebaf572f
+
+Package: com.huayuarc.facedownlock
+Name: 设备朝下自动锁屏
+Author: Huayuarc
+Description: 设备屏幕朝下或进入口袋态时，自动模拟按下锁屏键。独立提取自 CPUthermal 1.6.2-44，仅注入 SpringBoard，支持设置面板实时开关。
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 384
+icon: https://huayuarc.github.io/icon/facedownlock.jpg
+Filename: debs/com.huayuarc.facedownlock-1.0.0-rootless.deb
+Size: 31844
+MD5sum: 17e3499f5b4b48afa39ea07d3ac224d7
+SHA1: 
+SHA256: 9e9734ad97014fbe51e7b0228e2fa54465ed9ac36d584b6ba32a64f71375c960
 
 Package: com.huayuarc.flashclockpro
 Name: 悬浮时间 Pro
@@ -23817,6 +23887,40 @@ Size: 13024
 MD5sum: 7378b79810b44b9197e29890b0beadeb
 SHA1: 
 SHA256: 27bdc9afa6ac1cd3a62ef7f1a88079821c68ddb7ce420f6cc9854fe302e82adf
+
+Package: dylv.deepliquid
+Name: Ai 液态玻璃
+Description: 深度优化的液态玻璃效果，智能帧率控制 + 全局数量预算，告别发烫
+Maintainer: Ai
+Author: Ai
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Icon: https://winaviation.github.io/repo/depictions/dylv.Deepliquid/icon.png
+Architecture: iphoneos-arm64e
+Version: 0.1.93b
+Installed-Size: 5320
+Filename: debs/dylv.deepliquid-0.1.93b-roothide.deb
+Size: 1753720
+MD5sum: 846d1ed1f1836f736109867c6ae5a14e
+SHA1: 
+SHA256: 8a89cd59777cd3555cf077c7b9ab58ba20e93467205e4c35dd51fc8c06ca4e5a
+
+Package: dylv.deepliquid
+Name: Ai 液态玻璃
+Description: 深度优化的液态玻璃效果，智能帧率控制 + 全局数量预算，告别发烫
+Maintainer: Ai
+Author: Ai
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Icon: https://winaviation.github.io/repo/depictions/dylv.Deepliquid/icon.png
+Architecture: iphoneos-arm64
+Version: 0.1.93b
+Installed-Size: 5320
+Filename: debs/dylv.deepliquid-0.1.93b-rootless.deb
+Size: 1754660
+MD5sum: 1dc71f0b5af6888a71cf0151a4881f9d
+SHA1: 
+SHA256: f277d3799d8fa63a19aeefecd354b59502584964389011931d3a04955cb1b0f5
 
 Package: dylv.liquidass
 Name: Liquid (Gl)ass 液态玻璃
