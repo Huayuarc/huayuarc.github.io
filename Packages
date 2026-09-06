@@ -27865,6 +27865,39 @@ MD5sum: 0d1f392a4637ec9e99d01732db2586dd
 SHA1: 
 SHA256: 52732561df361e892efcbb00378a2de043d5703562aae219c2eab23fdce8d2eb
 
+Package: xyz.cypwn.quickprefs
+Maintainer: CyPwn
+Architecture: iphoneos-arm64e
+Name: QuickPrefs
+Version: 1.3.3
+Description: Quickly access settings prefs from 3D Touch Menu 从3D触摸菜单快速访问设置首選項
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Author: AnthoPak
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/quickprefs.jpg
+Filename: debs/xyz.cypwn.quickprefs-1.3.3-roothide.deb
+Size: 511492
+MD5sum: 8f54c099b56d5a8d6b53ef5493c6cc3f
+SHA1: 
+SHA256: 6c18d5d654e15a61d210338109439d7e5573f60c2c9e69be6280548585033363
+
+Package: xyz.cypwn.quickprefs
+Maintainer: CyPwn
+Architecture: iphoneos-arm64
+Name: QuickPrefs
+Version: 1.3.3
+Description: Quickly access settings prefs from 3D Touch Menu 从3D触摸菜单快速访问设置首選項
+Section: Tweaks
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Author: AnthoPak
+icon: https://huayuarc.github.io/icon/quickprefs.jpg
+Filename: debs/xyz.cypwn.quickprefs-1.3.3-rootless.deb
+Size: 512724
+MD5sum: 932b2958da98da9408079785892444d6
+SHA1: 
+SHA256: 4512b4a9c33ea3e116ff9f3aeda16cc2c72ef36e426d3c53b070a1cad4eef817
+
 Package: xyz.cypwn.sneakycam
 Maintainer: CyPwn
 Section: Tweaks
