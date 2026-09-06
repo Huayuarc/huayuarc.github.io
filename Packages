@@ -24033,15 +24033,15 @@ Maintainer: Ai
 Author: Ai
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
-Icon: https://winaviation.github.io/repo/depictions/dylv.Deepliquid/icon.png
+icon: https://huayuarc.github.io/icon/LiquidAss.png
 Architecture: iphoneos-arm64e
 Version: 0.1.93b
 Installed-Size: 5320
 Filename: debs/dylv.deepliquid-0.1.93b-roothide.deb
-Size: 1753720
-MD5sum: 846d1ed1f1836f736109867c6ae5a14e
+Size: 1753880
+MD5sum: a2e2934c0a072cd907ec881e5346d23b
 SHA1: 
-SHA256: 8a89cd59777cd3555cf077c7b9ab58ba20e93467205e4c35dd51fc8c06ca4e5a
+SHA256: 3b0ab87078297a53cb93bfd8e4878cb63940ac65f40c9692405b9ac2d9216520
 
 Package: dylv.deepliquid
 Name: Ai 液态玻璃
@@ -24050,15 +24050,15 @@ Maintainer: Ai
 Author: Ai
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
-Icon: https://winaviation.github.io/repo/depictions/dylv.Deepliquid/icon.png
+icon: https://huayuarc.github.io/icon/LiquidAss.png
 Architecture: iphoneos-arm64
 Version: 0.1.93b
 Installed-Size: 5320
 Filename: debs/dylv.deepliquid-0.1.93b-rootless.deb
-Size: 1754660
-MD5sum: 1dc71f0b5af6888a71cf0151a4881f9d
+Size: 1754464
+MD5sum: 599a8d829c893ece62aebdc4c4b71192
 SHA1: 
-SHA256: f277d3799d8fa63a19aeefecd354b59502584964389011931d3a04955cb1b0f5
+SHA256: 157b176896328a914ca4f7d12991204203c5dc79738c2a9c5e7cb355d02a9386
 
 Package: dylv.liquidass
 Name: Liquid (Gl)ass 液态玻璃
