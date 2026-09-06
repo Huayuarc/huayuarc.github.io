@@ -26555,6 +26555,41 @@ MD5sum: ca8bb8c97f8ecbc405c98d79112d6b53
 SHA1: 
 SHA256: fe1d6e0bcfdbac54c7cdc6e95750864c888fa0724a735d028901b0ad59aa7785
 
+Package: qqantirecall.x
+Name: NTQQ_AntiRecall QQ防撤回图层
+Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.6
+Installed-Size: 1084
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+Filename: debs/qqantirecall.x-1.6-roothide.deb
+Size: 1320664
+MD5sum: ddb88cfee22f05edf8f24e28f4eee4df
+SHA1: 
+SHA256: 5330f1da27c1187c4db4b7fa94651951c7189a0d0153f33c1e7eea9c5b730fa0
+
+Package: qqantirecall.x
+Name: NTQQ_AntiRecall QQ防撤回图层
+Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.6
+Installed-Size: 1084
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+Filename: debs/qqantirecall.x-1.6-rootless.deb
+Size: 1334448
+MD5sum: 81262bb53265b13167376a2b878882bb
+SHA1: 
+SHA256: e2ca2a274cc4be05ff20bd503f39cb85e28526e091d72f25ebbb6ed364c9d7d5
+
 Package: re.frida.server
 Name: Frida
 Version: 17.9.10
