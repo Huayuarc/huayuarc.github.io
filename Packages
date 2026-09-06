@@ -21554,21 +21554,6 @@ SHA256: e6c96f864e91981666f805ef2488489a41140b8fc115963932c03a59f947649a
 
 Package: com.snail.easynotify.rootless
 Version: 1.0.0
-Architecture: iphoneos-arm64
-Name: 3D开关APP消息通知 EasyNotify
-Description: 按压APP图标3D Touch菜单快速开关消息通知。此为rootless版本，不要安装错哦~
-Depends: mobilesubstrate
-Installed-Size: 152
-Section: Tweaks
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.snail.easynotify.rootless_1.0.0_iphoneos-arm64.deb
-Size: 8140
-MD5sum: f04597a963b4023fc75e1877e0aae3ea
-SHA1: 
-SHA256: 203a4a19c869e5aed2e205e35feaa29eb867a9beb51b9da6d241979f294ae3fd
-
-Package: com.snail.easynotify.rootless
-Version: 1.0.0
 Architecture: iphoneos-arm64e
 Name: 3D开关APP消息通知 EasyNotify
 Description: 按压APP图标3D Touch菜单快速开关消息通知。此为rootless版本，不要安装错哦~
@@ -21576,12 +21561,27 @@ Depends: mobilesubstrate
 Installed-Size: 152
 Section: Tweaks
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.snail.easynotify.rootless_1.0.0_iphoneos-arm64e.deb
-Size: 8004
-MD5sum: 03b89684e64615eeea141e5739be68ac
+icon: https://huayuarc.github.io/icon/EasyNotify.jpg
+Filename: debs/com.snail.easynotify.rootless-1.0.0-roothide.deb
+Size: 8028
+MD5sum: 0fed3e535b082ec9950bc40f9443f107
 SHA1: 
-SHA256: 089ac2c895e01bc06644239a80e98fa5cd66753eea14169dcc2fc2bbc54556fb
+SHA256: e2362e4e35657dcf5893261a7f7ea8f4d598fe6c5ce29b2cbc22b8265a3fce5c
+
+Package: com.snail.easynotify.rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Name: 3D开关APP消息通知 EasyNotify
+Description: 按压APP图标3D Touch菜单快速开关消息通知。此为rootless版本，不要安装错哦~
+Depends: mobilesubstrate
+Installed-Size: 152
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/EasyNotify.jpg
+Filename: debs/com.snail.easynotify.rootless-1.0.0-rootless.deb
+Size: 8144
+MD5sum: a2a51fa7fe2080628f1f3ed41eac44e7
+SHA1: 
+SHA256: 8558938e304986f20e6761dbcf3ff4b9a64cf6cc428a614f7e8f153bcd7eb055
 
 Package: com.snail.homeremovediscover.rootless
 Version: 1.0.2
