@@ -25764,6 +25764,45 @@ MD5sum: f621947d5bf799994793a46ab473187f
 SHA1: 
 SHA256: 6be78d1d69a9956519389c151cb6b18ccb504fba0866ca083436677429e7cbb8
 
+Package: me.lau.atria
+Version: 1.4.1-11
+Section: Tweaks
+Maintainer: ren7995
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro,acreson.rootless.cj.atria
+Architecture: iphoneos-arm64e
+Installed-Size: 1008
+Name: Atria
+Author: ren7995
+Sponsor: ren7995
+Description: iOS 13-16 自定义桌面图标布局，可以修改5x5布局，移除APP名称显示！美化桌面，[1.4.1-11: 二进制补丁版,在原版 dylib 上最小化修补,修复 iOS17 待机模式(StandBy)崩溃;不重编译,规避 1.4.1-9/10 无法加载/开机卡死的问题]
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/Atria.png
+Filename: debs/me.lau.atria-1.4.1-11-roothide.deb
+Size: 211356
+MD5sum: a59168d5a58f8a635b5059cb77137c49
+SHA1: 
+SHA256: 1e08a4fd14131e08888638dc7e283134435f1d0d7121da0d3f9cc1be0c65de72
+
+Package: me.lau.atria
+Version: 1.4.1-11
+Section: Tweaks
+Maintainer: ren7995
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro,acreson.rootless.cj.atria
+Architecture: iphoneos-arm64
+Installed-Size: 1008
+Name: Atria
+Author: ren7995
+Sponsor: ren7995
+icon: https://huayuarc.github.io/icon/Atria.png
+Description: iOS 13-16 自定义桌面图标布局，可以修改5x5布局，移除APP名称显示！美化桌面，[1.4.1-11: 二进制补丁版,在原版 dylib 上最小化修补,修复 iOS17 待机模式(StandBy)崩溃;不重编译,规避 1.4.1-9/10 无法加载/开机卡死的问题]
+Filename: debs/me.lau.atria-1.4.1-11-rootless.deb
+Size: 213756
+MD5sum: 83d2572344861545c01bed7e9c94f184
+SHA1: 
+SHA256: b1dc7acbdacc1f9f96c3c8584608dc5f1fe455df41bad14c618bae2b79ce7c69
+
 Package: me.luki.arizona
 Name: Arizona
 Description: Move the stock clock, date and lock glyph on the fly
