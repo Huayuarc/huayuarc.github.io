@@ -2133,6 +2133,40 @@ MD5sum: 92b79abc53f9dcb486d5336b34cf29db
 SHA1: 
 SHA256: a9509e62651319fe15741c09060f97154d24abcad6c09d7e565c87dfb3c54bed
 
+Package: com.aa22qq.batterycc
+Name: BatteryCC 控制中心电量显示
+Depends: mobilesubstrate, firmware (>= 15.0)
+Description: 一个可以在 iOS 控制中心以独立模块形式实时显示电池百分比的越狱插件。
+Maintainer: aa22qq
+Author: aa22qq
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 3.0.0
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/batterycc.jpg
+Filename: debs/com.aa22qq.batterycc-3.0.0-roothide.deb
+Size: 8056
+MD5sum: 608f7b39e2e46821ef8e1219eef7cbb1
+SHA1: 
+SHA256: 7738de467fed145626861482a4085c533c232495c501d832a405a133ba3c8e70
+
+Package: com.aa22qq.batterycc
+Name: BatteryCC 控制中心电量显示
+Depends: mobilesubstrate, firmware (>= 15.0)
+Description: 一个可以在 iOS 控制中心以独立模块形式实时显示电池百分比的越狱插件。
+Maintainer: aa22qq
+Author: aa22qq
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 3.0.0
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/batterycc.jpg
+Filename: debs/com.aa22qq.batterycc-3.0.0-rootless.deb
+Size: 8124
+MD5sum: b09f633f466257cb2caecb32fb5fdc23
+SHA1: 
+SHA256: 37d977f0d20bdc892d5fb3c50eb68f627880c246a7d290f6895b036dbd9855ac
+
 Package: com.abc3.vip.appsyncunified
 Version: 112.0
 Section: Tweaks
@@ -7423,6 +7457,38 @@ MD5sum: 4c141d67ee0f5b7b6a41da7fdd6243e7
 SHA1: 
 SHA256: 26745dd799b7b0347878b3599dcf7529244a40df474bf2a49eaa873d8aa25527
 
+Package: com.huami.wcpulse
+Name: WCPulse
+Version: 1.7-2
+Description: WCPulse 1.7-2 with same-version grouping-bar startup timing compatibility for WeChatGroups.
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.huami.wcpulse-1.7-2-roothide.deb
+Size: 3561452
+MD5sum: c56d025548840b16c25df99f9165a6a2
+SHA1: 
+SHA256: 74132a634400b05cf808f3df5e20027cbcd510d1b891c960d43b666df48107fc
+
+Package: com.huami.wcpulse
+Name: WCPulse
+Version: 1.7-2
+Description: WCPulse 1.7-2 with same-version grouping-bar startup timing compatibility for WeChatGroups.
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.huami.wcpulse-1.7-2-rootless.deb
+Size: 3562288
+MD5sum: 6f384f49377e83168f43153a636c66d6
+SHA1: 
+SHA256: 5daa71cbc920b5bf485e38c7113ec10f4c4d6b3005621ed84ecf5c39bbe8fd02
+
 Package: com.huayuarc.acesecuritybypass
 Architecture: iphoneos-arm64e
 Name: 屏蔽王者荣耀ACE安全检测
@@ -7522,6 +7588,42 @@ Size: 141712
 MD5sum: f4af9dd58bb55d1def3677045fb2dd8d
 SHA1: 
 SHA256: 6c36eea5695a3bcccb701107ef24a27e5fc14a59cadf37b746be2c08bdd3c295
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-47
+Installed-Size: 2084
+Filename: debs/com.huayuarc.cputhermal-1.6.2-47-roothide.deb
+Size: 151144
+MD5sum: ecf2ed495fdc1e37cbe8889d03b4aac4
+SHA1: 
+SHA256: 122bb5bde3d2870003c9ceeeb094c228e61995ed305d5857d8901357fb6af8e7
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-47
+Installed-Size: 2136
+Filename: debs/com.huayuarc.cputhermal-1.6.2-47-rootless.deb
+Size: 156156
+MD5sum: ca3067e1f9fdf47cad2d80f331abe44b
+SHA1: 
+SHA256: c24c9ed8c811abbba8398c9f08e57037e4e8005a4a71cfac15af27dc22ab3a9a
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
@@ -10914,6 +11016,42 @@ Size: 2972720
 MD5sum: ca63308d064a83b43bdb8cbadf515a9e
 SHA1: 
 SHA256: 32bc0cac447f55a4db1f15d88ebf8a948f067c91912703f189118ef97c8f4b1f
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.9.0
+Installed-Size: 10984
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-2.9.0-roothide.deb
+Size: 3690620
+MD5sum: d4417213f83fe90be612c77c46d17b53
+SHA1: 
+SHA256: 07efb3a9f15a238ef7c619548308d2f752b15577b91a13e8162cc5d9f2e9d343
+
+Package: com.iosdump.shellx
+Name: SHELLX 录屏/截图
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.9.0
+Installed-Size: 10984
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-2.9.0-rootless.deb
+Size: 3690344
+MD5sum: 55d147eef2f1ce6e6e4b43715eea8d75
+SHA1: 
+SHA256: 11f63a3950db4f9c71f187bee57bac1e7eb5328d591bfc3d96192fd90af3f928
 
 Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
