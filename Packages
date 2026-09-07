@@ -12664,6 +12664,74 @@ MD5sum: 13b9dd724ec753b874af5ee37ed98c9d
 SHA1: 
 SHA256: 43dd92e3ddd8f1113ba97db43acb937a3bc96ec5d18be4f753c4e32babc01a73
 
+Package: com.mlgm.idata
+Name: iData 数据管理工具
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0)
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 6384
+Filename: debs/com.mlgm.idata-1.0-roothide.deb
+Size: 2056344
+MD5sum: 09d7dea5b64498919a3e3bdffab99405
+SHA1: 
+SHA256: 93720b511409fac3fc8b63fdb169700c512953a84c536e1c6e8dfe545afa538b
+
+Package: com.mlgm.idata
+Name: iData 数据管理工具
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0)
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 6384
+Filename: debs/com.mlgm.idata-1.0-rootless.deb
+Size: 2056056
+MD5sum: 9d3f11d3e41d09fb702f27e4cbdf4184
+SHA1: 
+SHA256: 88df9b3c29db284f9c86572b3b9860dca0afccf96e30f67b232dfe80d6e46599
+
+Package: com.mlgm.ilog
+Name: iLog 日志
+Description: 查看、预览、分享和清理 iOS 日志
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0)
+Icon: https://mlgm66.github.io/icon/ilog.png
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 2364
+Filename: debs/com.mlgm.ilog-1.0-roothide.deb
+Size: 1514716
+MD5sum: f7bb1a8cd1438ff40d17045d21e3b606
+SHA1: 
+SHA256: f755b33c582f6af3bc40bb9d08a560918b69c1445ee21e94f67180d28bfc87a7
+
+Package: com.mlgm.ilog
+Name: iLog 日志
+Description: 查看、预览、分享和清理 iOS 日志
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0)
+Icon: https://mlgm66.github.io/icon/ilog.png
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 2364
+Filename: debs/com.mlgm.ilog-1.0-rootless.deb
+Size: 1514192
+MD5sum: c8429fff165844bcbb256d40d145d58f
+SHA1: 
+SHA256: cf21e47ef1f43c004438895815c94091decdbb2b50db62050262cb2700930793
+
 Package: com.mlgm.kayoko
 Name: Kayoko 剪切板
 Description: Kayoko剪切板，基于「乌龙工作室」版进行修改
@@ -13097,6 +13165,48 @@ Size: 279836
 MD5sum: 489899765726207a0591c60628f95b46
 SHA1: 
 SHA256: 451b5d88b36ae2c3e3384c34cfafe77501bdf5263ad63e4be16ff11433695f11
+
+Package: com.mlgm.pulloverx
+Name: PullOver X 分屏
+Version: 1.6
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Maintainer: mlgm
+Filename: debs/com.mlgm.pulloverx-1.6-roothide.deb
+Size: 312620
+MD5sum: 6d4e2c18f70b5ff40dbda9a7fa78e878
+SHA1: 
+SHA256: b95533ebd8926f2061cec1de96d920c7408cde2c3bad5a86fad7d713e1dc3089
+
+Package: com.mlgm.pulloverx
+Name: PullOver X 分屏
+Version: 1.6
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Maintainer: mlgm
+Filename: debs/com.mlgm.pulloverx-1.6-rootless.deb
+Size: 314848
+MD5sum: 8548dd0232dff4ef0ca1abe7d4459bd9
+SHA1: 
+SHA256: 4a99a8e0bd45d78e5b6f38097583c328fc7d89e10bb19a05048cc3ede8e814a2
 
 Package: com.mlgm.pulloverx
 Name: PullOver X 分屏
