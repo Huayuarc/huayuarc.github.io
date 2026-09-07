@@ -2431,6 +2431,48 @@ MD5sum: 266fad8a4f9520208851a1f313aba11f
 SHA1: 
 SHA256: 4814f7ab591f69015f0eab439360b5d797312a210040f2bc3c2594ff9de4a233
 
+Package: com.adlayer.roothide
+Name: Flex 4 Beta
+Description: Flex 4 Beta：越狱环境下的 UIKit 视图层级过滤与开屏倒计时辅助工具。
+Maintainer: Flex 4 Beta Contributors
+Author: ColorBlack
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), ellekit, libflex
+Conflicts: com.adlayer.rootless
+Provides: com.adlayer
+Replaces: com.adlayer
+Tag: role::enduser
+Architecture: iphoneos-arm64e
+Version: 0.1.98+roothide
+Installed-Size: 3084
+icon: https://huayuarc.github.io/icon/AdLayer.png
+Filename: debs/com.adlayer.roothide-0.1.98+roothide-roothide.deb
+Size: 1886968
+MD5sum: c5cf9b5495606d718b6a4180bd13cdca
+SHA1: 
+SHA256: 612da50963ad5d9a714261d05788fd8b9eb14b5e715f18a2be7c03958b421f07
+
+Package: com.adlayer.rootless
+Name: Flex 4 Beta
+Description: Flex 4 Beta：越狱环境下的 UIKit 视图层级过滤与开屏倒计时辅助工具。
+Maintainer: Flex 4 Beta Contributors
+Author: ColorBlack
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), ellekit, libflex
+Conflicts: com.adlayer.roothide
+Provides: com.adlayer
+Replaces: com.adlayer
+Tag: role::enduser
+Architecture: iphoneos-arm64
+Version: 0.1.98+rootless
+Installed-Size: 3084
+icon: https://huayuarc.github.io/icon/AdLayer.png
+Filename: debs/com.adlayer.rootless-0.1.98+rootless-rootless.deb
+Size: 1887028
+MD5sum: b9f8fde82860b161f211396a03729b82
+SHA1: 
+SHA256: 2a02a361b722da080ee203a4721ad3701e4732ee39c6ea38e9787f454e45a694
+
 Package: com.afn
 Name: AFN
 Description: AFN(隐根版本)
