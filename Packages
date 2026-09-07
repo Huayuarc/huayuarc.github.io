@@ -2212,7 +2212,7 @@ SHA1:
 SHA256: a9509e62651319fe15741c09060f97154d24abcad6c09d7e565c87dfb3c54bed
 
 Package: com.aa22qq.batterycc
-Name: BatteryCC 控制中心电量显示
+Name: BatteryCC
 Depends: mobilesubstrate, firmware (>= 15.0)
 Description: 一个可以在 iOS 控制中心以独立模块形式实时显示电池百分比的越狱插件。
 Maintainer: aa22qq
@@ -2223,13 +2223,13 @@ Version: 3.0.0
 Installed-Size: 172
 icon: https://huayuarc.github.io/icon/batterycc.jpg
 Filename: debs/com.aa22qq.batterycc-3.0.0-roothide.deb
-Size: 8056
-MD5sum: 608f7b39e2e46821ef8e1219eef7cbb1
+Size: 8048
+MD5sum: aa8c2ce46a44d1716f9072fcabc815d9
 SHA1: 
-SHA256: 7738de467fed145626861482a4085c533c232495c501d832a405a133ba3c8e70
+SHA256: 9497a845886cd2597936843cba52fe3350e2cb8a730303276bed3d2ebba9e5fc
 
 Package: com.aa22qq.batterycc
-Name: BatteryCC 控制中心电量显示
+Name: BatteryCC
 Depends: mobilesubstrate, firmware (>= 15.0)
 Description: 一个可以在 iOS 控制中心以独立模块形式实时显示电池百分比的越狱插件。
 Maintainer: aa22qq
@@ -2241,9 +2241,9 @@ Installed-Size: 172
 icon: https://huayuarc.github.io/icon/batterycc.jpg
 Filename: debs/com.aa22qq.batterycc-3.0.0-rootless.deb
 Size: 8124
-MD5sum: b09f633f466257cb2caecb32fb5fdc23
+MD5sum: de755646f26cdde9c681b3d57d6f1c40
 SHA1: 
-SHA256: 37d977f0d20bdc892d5fb3c50eb68f627880c246a7d290f6895b036dbd9855ac
+SHA256: 0f57070557b6d366a9ceec0eece5aa325e8c75c5ecaa05d392836433b3305f79
 
 Package: com.abc3.vip.appsyncunified
 Version: 112.0
@@ -12743,72 +12743,72 @@ SHA1:
 SHA256: 43dd92e3ddd8f1113ba97db43acb937a3bc96ec5d18be4f753c4e32babc01a73
 
 Package: com.mlgm.idata
-Name: iData 数据管理工具
+Name: iData
 Description: 应用、插件数据管理工具，一键备份/恢复
 Maintainer: mlgm
 Author: mlgm
-Section: Tweaks
+Section: Applications
 Depends: firmware (>= 15.0)
 Icon: https://mlgm66.github.io/icon/idata.png
 Architecture: iphoneos-arm64e
 Version: 1.0
 Installed-Size: 6384
 Filename: debs/com.mlgm.idata-1.0-roothide.deb
-Size: 2056212
-MD5sum: c0986c5cad550a2bba2732892fb5679d
+Size: 2056808
+MD5sum: ed31b5c56fe1cbce2d6f86c38ba559c2
 SHA1: 
-SHA256: 8de28418fe8a1edf6d4a7f081de74f330f48480093e70ad85f04e2898e279df9
+SHA256: 16aca7c81949e0aed95e10104df1e9b48d268a2386d615c64e0ae3b27f6c4bd6
 
 Package: com.mlgm.idata
-Name: iData 数据管理工具
+Name: iData
 Description: 应用、插件数据管理工具，一键备份/恢复
 Maintainer: mlgm
 Author: mlgm
-Section: Tweaks
+Section: Applications
 Depends: firmware (>= 15.0)
 Icon: https://mlgm66.github.io/icon/idata.png
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 6384
 Filename: debs/com.mlgm.idata-1.0-rootless.deb
-Size: 2056740
-MD5sum: 2967dfc3fbb58a65fb7aec66eacd9af1
+Size: 2058004
+MD5sum: e3d87409b5eba6dbeace954cdcbfddcc
 SHA1: 
-SHA256: a880ad1dcf29357111b59b2d592c0b6a7bc87779929ec47ed2d1cde96bdea214
+SHA256: f43c59123865b8ab8bf68cc99557b821524a442b597784ec4f114397c767eeff
 
 Package: com.mlgm.ilog
-Name: iLog 日志
+Name: iLog
 Description: 查看、预览、分享和清理 iOS 日志
 Maintainer: mlgm
 Author: mlgm
-Section: Tweaks
+Section: Applications
 Depends: firmware (>= 15.0)
 Icon: https://mlgm66.github.io/icon/ilog.png
 Architecture: iphoneos-arm64e
 Version: 1.0
 Installed-Size: 2364
 Filename: debs/com.mlgm.ilog-1.0-roothide.deb
-Size: 1514696
-MD5sum: 358a63f13e95fc45a8bbc7aa6e57382f
+Size: 1514756
+MD5sum: d32e490ef069109ed5ac774a31511174
 SHA1: 
-SHA256: 366f591d3fa486c140ecde0f0fbfa242c5752afec108a6617a25e9bf88f22921
+SHA256: 3c6f1da16ea47d4d6a648be96e6b0321bd5816b68cfdb4ebc9b342916dbbc0d9
 
 Package: com.mlgm.ilog
-Name: iLog 日志
+Name: iLog
 Description: 查看、预览、分享和清理 iOS 日志
 Maintainer: mlgm
 Author: mlgm
-Section: Tweaks
+Section: Applications
 Depends: firmware (>= 15.0)
 Icon: https://mlgm66.github.io/icon/ilog.png
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 2364
 Filename: debs/com.mlgm.ilog-1.0-rootless.deb
-Size: 1514688
-MD5sum: d535f8ca07d6cf6bcf14f56227d97000
+Size: 1514548
+MD5sum: 6f3e578a3c034e3c73c13647bf4c1b9b
 SHA1: 
-SHA256: b5651ec482be47f8f0b3a89403d795ab153c3b6c042ad4109cc2f2897bc8c8c2
+SHA256: 8448d37b0371032ce6ee8b7470b95eb3c467151dd06c796d2e05659f88632d85
 
 Package: com.mlgm.kayoko
 Name: Kayoko 剪切板
