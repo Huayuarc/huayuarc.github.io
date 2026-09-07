@@ -12747,68 +12747,68 @@ Name: iData
 Description: 应用、插件数据管理工具，一键备份/恢复
 Maintainer: mlgm
 Author: mlgm
-Section: Applications
+Section: Tweaks
 Depends: firmware (>= 15.0)
 Icon: https://mlgm66.github.io/icon/idata.png
 Architecture: iphoneos-arm64e
 Version: 1.0
 Installed-Size: 6384
 Filename: debs/com.mlgm.idata-1.0-roothide.deb
-Size: 2056808
-MD5sum: ed31b5c56fe1cbce2d6f86c38ba559c2
+Size: 2056032
+MD5sum: ef7586d7a88ab2613cc9231452bb870f
 SHA1: 
-SHA256: 16aca7c81949e0aed95e10104df1e9b48d268a2386d615c64e0ae3b27f6c4bd6
+SHA256: 2588de6f091e469bfd345cec81078094f8eed35ab3def8eee66d33b870e27e76
 
 Package: com.mlgm.idata
 Name: iData
 Description: 应用、插件数据管理工具，一键备份/恢复
 Maintainer: mlgm
 Author: mlgm
-Section: Applications
+Section: Tweaks
 Depends: firmware (>= 15.0)
 Icon: https://mlgm66.github.io/icon/idata.png
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 6384
 Filename: debs/com.mlgm.idata-1.0-rootless.deb
-Size: 2058004
-MD5sum: e3d87409b5eba6dbeace954cdcbfddcc
+Size: 2058276
+MD5sum: c6a201eb36f96e5c96424873822ee6d6
 SHA1: 
-SHA256: f43c59123865b8ab8bf68cc99557b821524a442b597784ec4f114397c767eeff
+SHA256: 4fd51a666baf2c628e4354e391068a94fc1285748784c025401c151547f61f39
 
 Package: com.mlgm.ilog
 Name: iLog
 Description: 查看、预览、分享和清理 iOS 日志
 Maintainer: mlgm
 Author: mlgm
-Section: Applications
+Section: Tweaks
 Depends: firmware (>= 15.0)
 Icon: https://mlgm66.github.io/icon/ilog.png
 Architecture: iphoneos-arm64e
 Version: 1.0
 Installed-Size: 2364
 Filename: debs/com.mlgm.ilog-1.0-roothide.deb
-Size: 1514756
-MD5sum: d32e490ef069109ed5ac774a31511174
+Size: 1514580
+MD5sum: fd96f36e459858822b1516cdc16c8a91
 SHA1: 
-SHA256: 3c6f1da16ea47d4d6a648be96e6b0321bd5816b68cfdb4ebc9b342916dbbc0d9
+SHA256: fdd5ac3e9d9e0a8a10fc81fc16993345461e944fa712e94063a8dc59b7a350e0
 
 Package: com.mlgm.ilog
 Name: iLog
 Description: 查看、预览、分享和清理 iOS 日志
 Maintainer: mlgm
 Author: mlgm
-Section: Applications
+Section: Tweaks
 Depends: firmware (>= 15.0)
 Icon: https://mlgm66.github.io/icon/ilog.png
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 2364
 Filename: debs/com.mlgm.ilog-1.0-rootless.deb
-Size: 1514548
-MD5sum: 6f3e578a3c034e3c73c13647bf4c1b9b
+Size: 1514340
+MD5sum: 4c260bd0af87480aa6d328d79c60c279
 SHA1: 
-SHA256: 8448d37b0371032ce6ee8b7470b95eb3c467151dd06c796d2e05659f88632d85
+SHA256: c9e3852d67315cbcc817a1f17f800aec5dff2ab9b0445d8950019e446964173a
 
 Package: com.mlgm.kayoko
 Name: Kayoko 剪切板
