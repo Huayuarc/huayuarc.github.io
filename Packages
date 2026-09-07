@@ -12669,68 +12669,68 @@ Name: iData 数据管理工具
 Description: 应用、插件数据管理工具，一键备份/恢复
 Maintainer: mlgm
 Author: mlgm
-Section: Applications
+Section: Tweaks
 Depends: firmware (>= 15.0)
 Icon: https://mlgm66.github.io/icon/idata.png
 Architecture: iphoneos-arm64e
 Version: 1.0
 Installed-Size: 6384
 Filename: debs/com.mlgm.idata-1.0-roothide.deb
-Size: 2056344
-MD5sum: 09d7dea5b64498919a3e3bdffab99405
+Size: 2056212
+MD5sum: c0986c5cad550a2bba2732892fb5679d
 SHA1: 
-SHA256: 93720b511409fac3fc8b63fdb169700c512953a84c536e1c6e8dfe545afa538b
+SHA256: 8de28418fe8a1edf6d4a7f081de74f330f48480093e70ad85f04e2898e279df9
 
 Package: com.mlgm.idata
 Name: iData 数据管理工具
 Description: 应用、插件数据管理工具，一键备份/恢复
 Maintainer: mlgm
 Author: mlgm
-Section: Applications
+Section: Tweaks
 Depends: firmware (>= 15.0)
 Icon: https://mlgm66.github.io/icon/idata.png
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 6384
 Filename: debs/com.mlgm.idata-1.0-rootless.deb
-Size: 2056056
-MD5sum: 9d3f11d3e41d09fb702f27e4cbdf4184
+Size: 2056740
+MD5sum: 2967dfc3fbb58a65fb7aec66eacd9af1
 SHA1: 
-SHA256: 88df9b3c29db284f9c86572b3b9860dca0afccf96e30f67b232dfe80d6e46599
+SHA256: a880ad1dcf29357111b59b2d592c0b6a7bc87779929ec47ed2d1cde96bdea214
 
 Package: com.mlgm.ilog
 Name: iLog 日志
 Description: 查看、预览、分享和清理 iOS 日志
 Maintainer: mlgm
 Author: mlgm
-Section: Applications
+Section: Tweaks
 Depends: firmware (>= 15.0)
 Icon: https://mlgm66.github.io/icon/ilog.png
 Architecture: iphoneos-arm64e
 Version: 1.0
 Installed-Size: 2364
 Filename: debs/com.mlgm.ilog-1.0-roothide.deb
-Size: 1514716
-MD5sum: f7bb1a8cd1438ff40d17045d21e3b606
+Size: 1514696
+MD5sum: 358a63f13e95fc45a8bbc7aa6e57382f
 SHA1: 
-SHA256: f755b33c582f6af3bc40bb9d08a560918b69c1445ee21e94f67180d28bfc87a7
+SHA256: 366f591d3fa486c140ecde0f0fbfa242c5752afec108a6617a25e9bf88f22921
 
 Package: com.mlgm.ilog
 Name: iLog 日志
 Description: 查看、预览、分享和清理 iOS 日志
 Maintainer: mlgm
 Author: mlgm
-Section: Applications
+Section: Tweaks
 Depends: firmware (>= 15.0)
 Icon: https://mlgm66.github.io/icon/ilog.png
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 2364
 Filename: debs/com.mlgm.ilog-1.0-rootless.deb
-Size: 1514192
-MD5sum: c8429fff165844bcbb256d40d145d58f
+Size: 1514688
+MD5sum: d535f8ca07d6cf6bcf14f56227d97000
 SHA1: 
-SHA256: cf21e47ef1f43c004438895815c94091decdbb2b50db62050262cb2700930793
+SHA256: b5651ec482be47f8f0b3a89403d795ab153c3b6c042ad4109cc2f2897bc8c8c2
 
 Package: com.mlgm.kayoko
 Name: Kayoko 剪切板
@@ -27047,56 +27047,6 @@ Size: 7080552
 MD5sum: 3b8b4e0800290bc76db78a8724fb1356
 SHA1: 
 SHA256: bbd7481948124ab35097a540a5093c887180db13a31bfcaba50533553f2ececa
-
-Package: wiki.qaq.ighostvt
-Name: iGhostVT 越狱终端
-Version: 0.6.0
-Architecture: iphoneos-arm64
-Description: Ghostty-powered terminal for jailbroken iOS and visionOS
- Terminal emulator built on libghostty's terminal core with a host-managed
- I/O backend. Packaged for both roothide and rootless bootstraps, for iOS
- (iphoneos-*) and for Apple Vision Pro (xros-*); the architecture field says
- which build this is.
- .
- Shells are spawned by the bundled ighostvtd daemon and survive app
- relaunches; SSH transport is planned on the same transport interface.
-Icon: https://owngoalstudio.github.io/GhostVT/icon.png
-Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Utilities
-Priority: optional
-Depends: firmware (>= 15.0), uikittools
-Installed-Size: 21528
-Filename: debs/wiki.qaq.ighostvt_0.6.0_iphoneos-arm64.deb
-Size: 7973508
-MD5sum: 753167a5867c7eb27c5f28971bb277f8
-SHA1: 
-SHA256: c60ab9aa35a80bd10bfc73d695c97342ba3294eb36f268a6979fef547fa88e95
-
-Package: wiki.qaq.ighostvt
-Name: iGhostVT 越狱终端
-Version: 0.6.0
-Architecture: iphoneos-arm64e
-Description: Ghostty-powered terminal for jailbroken iOS and visionOS
- Terminal emulator built on libghostty's terminal core with a host-managed
- I/O backend. Packaged for both roothide and rootless bootstraps, for iOS
- (iphoneos-*) and for Apple Vision Pro (xros-*); the architecture field says
- which build this is.
- .
- Shells are spawned by the bundled ighostvtd daemon and survive app
- relaunches; SSH transport is planned on the same transport interface.
-Icon: https://owngoalstudio.github.io/GhostVT/icon.png
-Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Utilities
-Priority: optional
-Depends: firmware (>= 15.0), uikittools
-Installed-Size: 21528
-Filename: debs/wiki.qaq.ighostvt_0.6.0_iphoneos-arm64e.deb
-Size: 7974836
-MD5sum: f8370337f2443c3bce015e82211cba11
-SHA1: 
-SHA256: 7b43111322df21b1d103779b4c55bdec44c64ae6896a617215f9900d03e65752
 
 Package: ws.hbang.newterm3
 Name: NewTerm 3 Beta iOS 终端
