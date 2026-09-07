@@ -27400,6 +27400,45 @@ Maintainer: 𝙓
 Author: 𝙓
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.2.9
+Installed-Size: 3560
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x-1.2.9-roothide.deb
+Size: 1376140
+MD5sum: c19db60428f0d274270b1eb4198f1f8a
+SHA1: 
+SHA256: 43ead35cc96a9f076335b26314a7b239212f13c336d737ea236818b7c2711016
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.2.9
+Installed-Size: 3560
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x-1.2.9-rootless.deb
+Size: 1392500
+MD5sum: 4ea3f4fa9d588953fc8627c51d5c25cc
+SHA1: 
+SHA256: aed8c633a86386c7064b89ba9360b87574a622cf1385d0fdf5a1e778b86b7f85
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 1.2.2
 Installed-Size: 3940
