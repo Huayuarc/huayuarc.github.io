@@ -12662,26 +12662,25 @@ SHA1:
 SHA256: 54b57d70113b2a62fd9308f45f99cd9dd37ad75faa29c35f2c6267f892e6c0bf
 
 Package: com.miguelaka95.bettercc
-Maintainer: CyPwn
 Name: BetterCC
-Version: 0.0.55
+Version: 0.0.51
 Section: Tweaks
 Architecture: iphoneos-arm64e
 Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport
-Author: Miguelaka95
+Installed-Size: 1828
+Author: Miguelaka95 <miguelaka95@gmail.com>
+Maintainer: 来了老弟
 Description: 自定义您的控制中心！
  * 隐形模块。
  * 重新排列连接切换。
  * 更改模块大小。
  * 天气小工具。
-Depiction: https://havoc.app/depiction/bettercc
 Icon: https://media.havoc.app/6212cb4b1a0d080cf953fa61
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.miguelaka95.bettercc-0.0.55-roothide.deb
-Size: 151296
-MD5sum: 6e26b1e4c645430e35d12dad6f6e0eb5
+Filename: debs/com.miguelaka95.bettercc-0.0.51-roothide.deb
+Size: 141828
+MD5sum: ec56c5bfa2334e35acc0704e60fca47d
 SHA1: 
-SHA256: 512ccb123194f2845f92e4a1f8802f8585a8212b05a4d96c15066a71943fab61
+SHA256: 3c99a16049378454b634cdaf24ff06535563b345845b7ddb964d77bc8c77dba9
 
 Package: com.miguelaka95.bettercc
 Maintainer: CyPwn
