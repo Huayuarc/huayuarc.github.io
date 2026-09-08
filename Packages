@@ -7316,6 +7316,38 @@ MD5sum: dfb0d63f3177ea0417c00eed271a8a71
 SHA1: 
 SHA256: 2c3966236ef8f979f6b76297af2963aa3089932dc92e9e7ff789114a37ef4e37
 
+Package: com.huami.WCPulse
+Name: WCPulse
+Version: 1.7-3
+Description: WCPulse with same-version grouping-bar startup timing compatibility for WeChatGroups.
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.huami.WCPulse-1.7-3-roothide.deb
+Size: 3552764
+MD5sum: cd784d810e9fcfdac5eeebed6b3027e8
+SHA1: 
+SHA256: ffe7127ffc7c7a89ee6b967121aaf0d25d3b943dbeb82b24721eac8720a0341f
+
+Package: com.huami.WCPulse
+Name: WCPulse
+Version: 1.7-3
+Description: WCPulse with same-version grouping-bar startup timing compatibility for WeChatGroups.
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.huami.WCPulse-1.7-3-rootless.deb
+Size: 3553912
+MD5sum: 38188f229e6a98473472e3811a4f3b5e
+SHA1: 
+SHA256: 6d6dfb77b8c39301333a4e5c48ec575fc6962a9fc0145455f84f8e04144fb55d
+
 Package: com.huami.WCallRecorder
 Name: WCallRecorder 微信通话录音
 Description: Standalone WeChat call recorder 独立的微信通话录音机
