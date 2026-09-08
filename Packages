@@ -21014,6 +21014,42 @@ Description: 锁屏界面相关的简单优化
 Maintainer: SINI
 Author: SINI
 Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy
+Icon: https://sini921.github.io/repo/sileodepiction/icon/lockscreenhelper.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/lockscreenhelper/js.json
+Architecture: iphoneos-arm64e
+Version: 0.0.1-15
+Installed-Size: 716
+Filename: debs/com.sini921.lockscreenhelper-0.0.1-15-roothide.deb
+Size: 85684
+MD5sum: ef7ee10d10e0ea39eb3cb326af6ae1f1
+SHA1: 
+SHA256: 82f65146890634e0a7324b3dd176d1f670a4b676f6cf07c827ad5cadc70f2525
+
+Package: com.sini921.lockscreenhelper
+Name: LockScreenHelper
+Description: 锁屏界面相关的简单优化
+Maintainer: SINI
+Author: SINI
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy
+Icon: https://sini921.github.io/repo/sileodepiction/icon/lockscreenhelper.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/lockscreenhelper/js.json
+Architecture: iphoneos-arm64
+Version: 0.0.1-15
+Installed-Size: 716
+Filename: debs/com.sini921.lockscreenhelper-0.0.1-15-rootless.deb
+Size: 86868
+MD5sum: 492defb74ec9118c6d7d5c41af5d61ac
+SHA1: 
+SHA256: 86bab79ce622804c7741f6a4c162a77cf55b772dd973827b3f90e20fa3d4b561
+
+Package: com.sini921.lockscreenhelper
+Name: LockScreenHelper
+Description: 锁屏界面相关的简单优化
+Maintainer: SINI
+Author: SINI
+Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist
 Icon: https://sini921.github.io/repo/sileodepiction/icon/lockscreenhelper.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/lockscreenhelper/js.json
@@ -26802,6 +26838,44 @@ Size: 71112
 MD5sum: 1c33f9f6cc279e8cc4baba7214578d61
 SHA1: 
 SHA256: 2e93afbc8cd221995e46ec44cb6236ff5da7d462c2c09ef3cd309abe90cae462
+
+Package: preferenceloader.top
+Description: load preferences in style
+Maintainer: ProcursusTeam <support@procurs.us>
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader (Top)
+Depends: mobilesubstrate
+Section: System
+Conflicts: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Replaces: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Provides: preferenceloader (= 2.2.6)
+Architecture: iphoneos-arm64e
+Version: 2.2.8-2
+Installed-Size: 340
+Filename: debs/preferenceloader.top-2.2.8-2-roothide.deb
+Size: 15180
+MD5sum: e954fa42f5044abe9ec0021638fb28ae
+SHA1: 
+SHA256: d4ffa6dd89da96fdaeb6cb2f7875dd5353526f0a918d56c2fd1acfb9e1fccf3b
+
+Package: preferenceloader.top
+Description: load preferences in style
+Maintainer: ProcursusTeam <support@procurs.us>
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader (Top)
+Depends: mobilesubstrate
+Section: System
+Conflicts: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Replaces: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Provides: preferenceloader (= 2.2.6)
+Architecture: iphoneos-arm64
+Version: 2.2.8-2
+Installed-Size: 340
+Filename: debs/preferenceloader.top-2.2.8-2-rootless.deb
+Size: 16808
+MD5sum: f2aa5ef7d262ebbec399e375e07a8c12
+SHA1: 
+SHA256: df91e71c7e627555472294d06ecfe3fe655435f4bdca6dfa4e33f2a207d0e21a
 
 Package: qqantirecall.x
 Name: NTQQ_AntiRecall 图层QQ防撤回
