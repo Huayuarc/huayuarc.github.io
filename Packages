@@ -4998,6 +4998,43 @@ MD5sum: 4aed4d40af146f768410c5f24759c92e
 SHA1: 
 SHA256: 5f50fdf7fb9dfffa4cad6963baa644cce9ae2e60dc378d57f1b7910937c586eb
 
+Package: com.dangkhoa.hotspotpro
+Name: HotspotPro
+Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Author: DangKhoa <dangkhoa116@gmail.com>
+Section: Networking
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Tag: purpose::extension, role::enduser
+Architecture: iphoneos-arm64e
+Version: 0.6.9
+Installed-Size: 1060
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/HotspotPro.jpg
+Filename: debs/com.dangkhoa.hotspotpro-0.6.9-roothide.deb
+Size: 97392
+MD5sum: c48a83d9fb3139e4d3fcb10820a65e12
+SHA1: 
+SHA256: 9012db883317c74e383981b99f46d482b5e08d1545bffb1bebe6842103a7ab67
+
+Package: com.dangkhoa.hotspotpro
+Name: HotspotPro
+Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Author: DangKhoa <dangkhoa116@gmail.com>
+Section: Networking
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Tag: purpose::extension, role::enduser
+Architecture: iphoneos-arm64
+Version: 0.6.9
+Installed-Size: 1060
+icon: https://huayuarc.github.io/icon/HotspotPro.jpg
+Filename: debs/com.dangkhoa.hotspotpro-0.6.9-rootless.deb
+Size: 100056
+MD5sum: 334de3a356c0bc4268fd4774583225a5
+SHA1: 
+SHA256: 00527e6fc7a02a8bfa29d9e277cdc58b00f042d6b34b429ffdea5f869f4cb4d2
+
 Package: com.dao.cchide
 Name: CCLess++(bootstrap)
 Depends: firmware (>= 17.0), mobilesubstrate, com.opa334.ccsupport
