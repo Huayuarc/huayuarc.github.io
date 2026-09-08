@@ -21314,26 +21314,7 @@ SHA256: 1eb1414e160b2757d8d7e8d237c3ec129abcda342d963bec58b04c458b750888
 
 Package: com.sini921.quickpowerbutton
 Name: QuickPowerButton
-Icon: https://sini921.github.io/repo/sileodepiction/icon/quickpowerbutton.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/quickpowerbutton/js.json
-Description: 在锁屏界面手电筒与相机中间添加一个快捷按钮，点击后弹出电源选项
-Maintainer: SINI
-Author: SINI
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 0.0.1-39
-Installed-Size: 620
-Filename: debs/com.sini921.quickpowerbutton_0.0.1-39_iphoneos-arm64.deb
-Size: 91900
-MD5sum: dd921551be87d48278853fca87484cfa
-SHA1: 
-SHA256: b19477f1b178430a758c085bfa5929b86232c84bf6e49e84da5b30a63c6a168a
-
-Package: com.sini921.quickpowerbutton
-Name: QuickPowerButton
-Icon: https://sini921.github.io/repo/sileodepiction/icon/quickpowerbutton.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/quickpowerbutton/js.json
+icon: https://huayuarc.github.io/icon/QuickPowerButton.png
 Description: 在锁屏界面手电筒与相机中间添加一个快捷按钮，点击后弹出电源选项
 Maintainer: SINI
 Author: SINI
@@ -21342,11 +21323,28 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64e
 Version: 0.0.1-39
 Installed-Size: 600
-Filename: debs/com.sini921.quickpowerbutton_0.0.1-39_iphoneos-arm64e.deb
-Size: 89236
-MD5sum: 54f33e868a0756e45011ed6d55c71f57
+Filename: debs/com.sini921.quickpowerbutton-0.0.1-39-roothide.deb
+Size: 89204
+MD5sum: 90f070f0f0fb6e24a02134e96548be03
 SHA1: 
-SHA256: 3db1731e132be26335177074a005ed3e0ca14333ffd1281837e5c18b299e2762
+SHA256: f914a9c21d42f34af1562cab8f131bf8a58810b56ab2bb5ed7834c1d2af23b1b
+
+Package: com.sini921.quickpowerbutton
+Name: QuickPowerButton
+icon: https://huayuarc.github.io/icon/QuickPowerButton.png
+Description: 在锁屏界面手电筒与相机中间添加一个快捷按钮，点击后弹出电源选项
+Maintainer: SINI
+Author: SINI
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.1-39
+Installed-Size: 620
+Filename: debs/com.sini921.quickpowerbutton-0.0.1-39-rootless.deb
+Size: 91876
+MD5sum: 3b6fc98a9277f5292cd4f0c64b4644c9
+SHA1: 
+SHA256: 451e4884ee3a00a8cdaf4a27555f02016ffa6c3e91bfcccb70b70ebd255e0d28
 
 Package: com.sini921.reachplayer
 Name: ReachPlayer 便捷访问
