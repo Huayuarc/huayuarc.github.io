@@ -23805,6 +23805,48 @@ SHA256: db64feef626580b8330c0051b1b5cf8f3678f5ab188b5be1ae83fdffd3fd4e90
 
 Package: com.tsangbaby.pulloverx
 Name: PullOver X 分屏
+Version: 2.0.3
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.0.3-roothide.deb
+Size: 398248
+MD5sum: 0d5732d34009f014a8fd82b81e1cef6b
+SHA1: 
+SHA256: 9e71c6ac60beb9f99d3e3b204b4f7772c5cff8d8d4067b6995a9d8d7fc387953
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 2.0.3
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.0.3-rootless.deb
+Size: 400032
+MD5sum: 85ac1158f0e865b8f649d0d6e9df8c58
+SHA1: 
+SHA256: 27f1a8beda73c321e559ac969c35b71ab972d5f2af59638d47e0147018c651fe
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
 Version: 1.9.5
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
 Section: Tweaks
@@ -28604,7 +28646,8 @@ Depends: firmware (>= 16.0), firmware (<= 18.7.1) | firmware (>= 26.0), firmware
 Architecture: iphoneos-arm64e
 Version: 1.4
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/xyz.cypwn.lockglass17-1.4-roothide.deb
+Filename: debs/xyz.cypwn.lockglass17-1.4
+-roothide.deb
 Size: 1354160
 MD5sum: bb8fbe0246dc9e121aa8cd294823e5f3
 SHA1: 
@@ -28620,7 +28663,8 @@ Depends: firmware (>= 16.0), firmware (<= 18.7.1) | firmware (>= 26.0), firmware
 Architecture: iphoneos-arm64
 Version: 1.4
 icon: https://huayuarc.github.io/icon/lockglass17.png
-Filename: debs/xyz.cypwn.lockglass17-1.4-rootless.deb
+Filename: debs/xyz.cypwn.lockglass17-1.4
+-rootless.deb
 Size: 1354696
 MD5sum: 05fc772938f473413f2781ae0017eeb8
 SHA1: 
@@ -28698,7 +28742,8 @@ Version: 1.1.0
 Installed-Size: 1120
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/photoscore.png
-Filename: debs/xyz.cypwn.photoscore-1.1.0-roothide.deb
+Filename: debs/xyz.cypwn.photoscore-1.1.0
+-roothide.deb
 Size: 196992
 MD5sum: 379c729a2f9046b370a64b07d617115a
 SHA1: 
@@ -28724,7 +28769,8 @@ Architecture: iphoneos-arm64
 Version: 1.1.0
 Installed-Size: 1120
 icon: https://huayuarc.github.io/icon/photoscore.png
-Filename: debs/xyz.cypwn.photoscore-1.1.0-rootless.deb
+Filename: debs/xyz.cypwn.photoscore-1.1.0
+-rootless.deb
 Size: 201764
 MD5sum: 4b47197f664fe49a547ee68b19dc6e6f
 SHA1: 
