@@ -16736,6 +16736,51 @@ MD5sum: b62454984fb229ea01bbc38d0ad4e6c1
 SHA1: 
 SHA256: 3e86d6607c7bbe154e62470cc9782c3597a17a82b0cf2cf09de2768ede368351
 
+Package: com.senseTechLab.duodash
+Version: 1.1.3
+Description: DuoDash 将你的 CarPlay 屏幕变成一个可自定义的多应用仪表盘，支持将屏幕分割为最多 3 个独立面板，每个面板运行不同应用，并提供 8 种灵活的屏幕布局方案。专为宽屏/竖屏车载显示设计，打造真正的多任务仪表盘，而非简单的手机界面镜像，建议使用 有线 CarPlay。
+Section: Tweaks
+Maintainer: SenseTechLab
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 14.0), preferenceloader
+Conflicts: com.carnav.hud, com.carnav.core, com.carnav.bridge, com.carnav.hook, com.carnav.hud.prefs, com.carnav.prefs.refresh, com.carnav.hud.carplaydashboard, com.carnav.hud.appbridge, com.sensetechlab.carsleeper, com.sensetechlab.carplaytweak, com.sensetechlab.core, com.sensetechlab.bridge, com.sensetechlab.prefs.refresh, com.sensetechlab.duodash.prefs, com.sensetechlab.duodash.appbridge
+Provides: com.carnav.hud, com.carnav.core, com.carnav.bridge, com.carnav.hud.prefs, com.carnav.prefs.refresh, com.sensetechlab.core, com.sensetechlab.bridge, com.sensetechlab.prefs.refresh, com.sensetechlab.duodash.prefs
+Replaces: com.carnav.hud, com.carnav.core, com.carnav.bridge, com.carnav.hook, com.carnav.hud.prefs, com.carnav.prefs.refresh, com.carnav.hud.carplaydashboard, com.carnav.hud.appbridge, com.sensetechlab.carsleeper, com.sensetechlab.carplaytweak, com.sensetechlab.core, com.sensetechlab.bridge, com.sensetechlab.prefs.refresh, com.sensetechlab.duodash.prefs, com.sensetechlab.duodash.appbridge
+Architecture: iphoneos-arm64e
+Installed-Size: 2996
+Name: DuoDash 车机互联
+Author: SenseTechLab
+Sponsor: SenseTechLab
+Tag: compatible_min::ios14.0
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/DuoDash.jpg
+Filename: debs/com.senseTechLab.duodash-1.1.3-roothide.deb
+Size: 935496
+MD5sum: 48c0ddd465f2accbfa58f15c8c82fe27
+SHA1: 
+SHA256: d5b4ed82043e67f304631a23474ecf6022e29c4f0b88e206e2c4621098d228ad
+
+Package: com.senseTechLab.duodash
+Version: 1.1.3
+Description: DuoDash 将你的 CarPlay 屏幕变成一个可自定义的多应用仪表盘，支持将屏幕分割为最多 3 个独立面板，每个面板运行不同应用，并提供 8 种灵活的屏幕布局方案。专为宽屏/竖屏车载显示设计，打造真正的多任务仪表盘，而非简单的手机界面镜像，建议使用 有线 CarPlay。
+Section: Tweaks
+Maintainer: SenseTechLab
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 14.0), preferenceloader
+Conflicts: com.carnav.hud, com.carnav.core, com.carnav.bridge, com.carnav.hook, com.carnav.hud.prefs, com.carnav.prefs.refresh, com.carnav.hud.carplaydashboard, com.carnav.hud.appbridge, com.sensetechlab.carsleeper, com.sensetechlab.carplaytweak, com.sensetechlab.core, com.sensetechlab.bridge, com.sensetechlab.prefs.refresh, com.sensetechlab.duodash.prefs, com.sensetechlab.duodash.appbridge
+Provides: com.carnav.hud, com.carnav.core, com.carnav.bridge, com.carnav.hud.prefs, com.carnav.prefs.refresh, com.sensetechlab.core, com.sensetechlab.bridge, com.sensetechlab.prefs.refresh, com.sensetechlab.duodash.prefs
+Replaces: com.carnav.hud, com.carnav.core, com.carnav.bridge, com.carnav.hook, com.carnav.hud.prefs, com.carnav.prefs.refresh, com.carnav.hud.carplaydashboard, com.carnav.hud.appbridge, com.sensetechlab.carsleeper, com.sensetechlab.carplaytweak, com.sensetechlab.core, com.sensetechlab.bridge, com.sensetechlab.prefs.refresh, com.sensetechlab.duodash.prefs, com.sensetechlab.duodash.appbridge
+Architecture: iphoneos-arm64
+Installed-Size: 2996
+Name: DuoDash 车机互联
+Author: SenseTechLab
+Sponsor: SenseTechLab
+Tag: compatible_min::ios14.0
+icon: https://huayuarc.github.io/icon/DuoDash.jpg
+Filename: debs/com.senseTechLab.duodash-1.1.3-rootless.deb
+Size: 946432
+MD5sum: 213ab41cad72b0963f6788fade08faef
+SHA1: 
+SHA256: 8d351ce5bdd357168aafce88acc5e51691fdc602ef95158c3e5516eff2ffcd81
+
 Package: com.shadow.h5ggapp
 Name: H5GG跨进程悬浮版(iOS15)
 Description: H5GG跨进程iOS15专用悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版), Credits: BawAppie and Akusio, Discord https://discord.gg/h5gg
