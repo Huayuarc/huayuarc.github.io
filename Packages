@@ -2530,6 +2530,27 @@ MD5sum: c5cf9b5495606d718b6a4180bd13cdca
 SHA1: 
 SHA256: 612da50963ad5d9a714261d05788fd8b9eb14b5e715f18a2be7c03958b421f07
 
+Package: com.adlayer.roothide
+Name: Flex 4 Beta
+Description: Flex 4 Beta：越狱环境下的 UIKit 视图层级过滤与开屏倒计时辅助工具。
+Maintainer: Flex 4 Beta Contributors
+Author: ColorBlack
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), ellekit, libflex
+Conflicts: com.adlayer.rootless
+Provides: com.adlayer
+Replaces: com.adlayer
+Tag: role::enduser
+Architecture: iphoneos-arm64e
+Version: 0.1.99+roothide
+Installed-Size: 3084
+icon: https://huayuarc.github.io/icon/AdLayer.png
+Filename: debs/com.adlayer.roothide-0.1.99+roothide-roothide.deb
+Size: 1888056
+MD5sum: b3736986d6be4a932ed33123bf572701
+SHA1: 
+SHA256: 688a261ccc73da1cea927a1044feaae606a7227a80f8879c8ed8464ad91e8675
+
 Package: com.adlayer.rootless
 Name: Flex 4 Beta
 Description: Flex 4 Beta：越狱环境下的 UIKit 视图层级过滤与开屏倒计时辅助工具。
@@ -2550,6 +2571,27 @@ Size: 1887028
 MD5sum: b9f8fde82860b161f211396a03729b82
 SHA1: 
 SHA256: 2a02a361b722da080ee203a4721ad3701e4732ee39c6ea38e9787f454e45a694
+
+Package: com.adlayer.rootless
+Name: Flex 4 Beta
+Description: Flex 4 Beta：越狱环境下的 UIKit 视图层级过滤与开屏倒计时辅助工具。
+Maintainer: Flex 4 Beta Contributors
+Author: ColorBlack
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), ellekit, libflex
+Conflicts: com.adlayer.roothide
+Provides: com.adlayer
+Replaces: com.adlayer
+Tag: role::enduser
+Architecture: iphoneos-arm64
+Version: 0.1.99+rootless
+Installed-Size: 3084
+icon: https://huayuarc.github.io/icon/AdLayer.png
+Filename: debs/com.adlayer.rootless-0.1.99+rootless-rootless.deb
+Size: 1889044
+MD5sum: c5af7176312a06abc2ce80c93f4c8c73
+SHA1: 
+SHA256: 113375393ba17be6060f8609904697ec65ef918fcaf290f3eff04b6ad777f770
 
 Package: com.afn
 Name: AFN
@@ -28483,6 +28525,39 @@ MD5sum: 33d6ccc6dabafdaf692d643a83cc1e1c
 SHA1: 
 SHA256: ead6cc453897f14ad171889a5bac021f437c32e140810269f2813a704eaa4053
 
+Package: xyz.cypwn.killbackground13
+Maintainer: CyPwn
+Author: ichitaso
+Name: KillBackground13
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Section: Tweaks
+Description: Kill background apps with style for iOS 13 to 26! Cracked by Nya 用iOS 13到26的风格杀死后台应用程序！
+Architecture: iphoneos-arm64e
+Version: 1.1.4k
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/KillBackground.png
+Filename: debs/xyz.cypwn.killbackground13-1.1.4k-roothide.deb
+Size: 293288
+MD5sum: 62167e4925b4c548d2110c92f37ba729
+SHA1: 
+SHA256: 2b5e02d1cb98a5ca4f4a0a93da13776242c4d09a55482fc5e7a22400b01320bb
+
+Package: xyz.cypwn.killbackground13
+Maintainer: CyPwn
+Author: ichitaso
+Name: KillBackground13
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Section: Tweaks
+Description: Kill background apps with style for iOS 13 to 26! Cracked by Nya 用iOS 13到26的风格杀死后台应用程序！
+Architecture: iphoneos-arm64
+Version: 1.1.4k
+icon: https://huayuarc.github.io/icon/KillBackground.png
+Filename: debs/xyz.cypwn.killbackground13-1.1.4k-rootless.deb
+Size: 293216
+MD5sum: ac4c2227a0a0b09409d0341304030d57
+SHA1: 
+SHA256: 74a89acad98ee01fce97917aeaa68c67d0cffe832e9791418b2f10c6b6b31a18
+
 Package: xyz.cypwn.lockglass17
 Maintainer: CyPwn
 icon: https://huayuarc.github.io/icon/lockglass17.png
@@ -28517,6 +28592,39 @@ Size: 235816
 MD5sum: 4aab6217c3bcb9bfe4e4e2915f80b73e
 SHA1: 
 SHA256: 8868253c126de77620216248da307c6d4bebbff5350936da9cb3c67bcd985d59
+
+Package: xyz.cypwn.lockglass17
+Maintainer: CyPwn
+icon: https://huayuarc.github.io/icon/lockglass17.png
+Name: LockGlass
+Description: Customize and change your Lock Screen.自定义和更改您的锁屏。
+Author: Jailbreak Tweaker
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<= 18.7.1) | firmware (>= 26.0), firmware (<= 26.0.1), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.4
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.lockglass17-1.4-roothide.deb
+Size: 1354160
+MD5sum: bb8fbe0246dc9e121aa8cd294823e5f3
+SHA1: 
+SHA256: 28f7a3c2ea31ecc08862d02c1d3bbc2e6f21c27f4853f195677b2aa69fdf4eca
+
+Package: xyz.cypwn.lockglass17
+Maintainer: CyPwn
+Name: LockGlass
+Description: Customize and change your Lock Screen.自定义和更改您的锁屏。
+Author: Jailbreak Tweaker
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<= 18.7.1) | firmware (>= 26.0), firmware (<= 26.0.1), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.4
+icon: https://huayuarc.github.io/icon/lockglass17.png
+Filename: debs/xyz.cypwn.lockglass17-1.4-rootless.deb
+Size: 1354696
+MD5sum: 05fc772938f473413f2781ae0017eeb8
+SHA1: 
+SHA256: 10b1470ceae46bbb10520dd70165ffdd66db1c606e3fc8df76f96fa3dd28bfb5
 
 Package: xyz.cypwn.minotaur
 Maintainer: CyPwn
@@ -28571,7 +28679,7 @@ SHA256: f7cf33bf602a0480380417cc40383b85ba9a8407a89ed1ddc2cc73443e456422
 
 Package: xyz.cypwn.photoscore
 Maintainer: CyPwn
-Name: PhotosCore 相册工具增强
+Name: PhotosCore
 Author: zjer
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
@@ -28590,16 +28698,15 @@ Version: 1.1.0
 Installed-Size: 1120
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/photoscore.png
-Filename: debs/xyz.cypwn.photoscore-1.1.0
--roothide.deb
-Size: 197300
-MD5sum: a3df45370248223767fae45b5a0f022c
+Filename: debs/xyz.cypwn.photoscore-1.1.0-roothide.deb
+Size: 196992
+MD5sum: 379c729a2f9046b370a64b07d617115a
 SHA1: 
-SHA256: 9528c101c8b61b43c181641834896515fbfca90f8dcbfbda3699f74e4c0b3a08
+SHA256: 016a20cb761829f876943681ae12dc2a650cda68cf7669419e17dc971c132e4b
 
 Package: xyz.cypwn.photoscore
 Maintainer: CyPwn
-Name: PhotosCore 相册工具增强
+Name: PhotosCore
 Author: zjer
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
@@ -28617,12 +28724,56 @@ Architecture: iphoneos-arm64
 Version: 1.1.0
 Installed-Size: 1120
 icon: https://huayuarc.github.io/icon/photoscore.png
-Filename: debs/xyz.cypwn.photoscore-1.1.0
--rootless.deb
-Size: 201376
-MD5sum: b613c3025f22e04e994b1713f7d66a09
+Filename: debs/xyz.cypwn.photoscore-1.1.0-rootless.deb
+Size: 201764
+MD5sum: 4b47197f664fe49a547ee68b19dc6e6f
 SHA1: 
-SHA256: 996ac4bf8bc00a7ed9a099086912003208ac5c5aac7f1913f6566ca4617008b0
+SHA256: 0052cff6f6c8dc5e3bf710c8571229351bb9217bf6f03be9ca70954bfbdee01d
+
+Package: xyz.cypwn.photoscore
+Maintainer: CyPwn
+Name: PhotosCore
+Author: zjer
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Description: 通过可定制的查看、导航、布局和相册工具增强 Apple Photos。
+ * 主要特点
+ * 隐藏“照片”底部栏，将全屏照片居中，按名称对相册进行排序，并在底部打开相册。
+ * 仅在“照片”中强制深色外观，无需更改其他应用程序。
+ * 使用原生缩略图、1-9列预设或具有可配置列和间距的自定义5-10级布局。
+ * 显示、隐藏和重新排序搜索项目；在相册中显示或隐藏人物和地点。
+ * 在iPad上自定义边栏目标和群组。
+Architecture: iphoneos-arm64e
+Version: 1.2.2k
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/photoscore.png
+Filename: debs/xyz.cypwn.photoscore-1.2.2k-roothide.deb
+Size: 207700
+MD5sum: 3dc99968e4b825cabce42bdf8ac7c636
+SHA1: 
+SHA256: a201a1eb9cda91b8c937bf057083218d60f2cb9356b5d111b1f1ccf42c002689
+
+Package: xyz.cypwn.photoscore
+Maintainer: CyPwn
+Name: PhotosCore
+Author: zjer
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Description: 通过可定制的查看、导航、布局和相册工具增强 Apple Photos。
+ * 主要特点
+ * 隐藏“照片”底部栏，将全屏照片居中，按名称对相册进行排序，并在底部打开相册。
+ * 仅在“照片”中强制深色外观，无需更改其他应用程序。
+ * 使用原生缩略图、1-9列预设或具有可配置列和间距的自定义5-10级布局。
+ * 显示、隐藏和重新排序搜索项目；在相册中显示或隐藏人物和地点。
+ * 在iPad上自定义边栏目标和群组。
+Architecture: iphoneos-arm64
+Version: 1.2.2k
+icon: https://huayuarc.github.io/icon/photoscore.png
+Filename: debs/xyz.cypwn.photoscore-1.2.2k-rootless.deb
+Size: 212220
+MD5sum: 0dbd5cc6266c3bd7fba03c4cfd6df126
+SHA1: 
+SHA256: 6e64e478906f670a1782357bf540ffeb755a7cda752fcba280de2e3227fc671f
 
 Package: xyz.cypwn.python314
 Maintainer: CyPwn
