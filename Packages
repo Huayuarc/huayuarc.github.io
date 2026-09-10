@@ -7983,6 +7983,42 @@ SHA256: dd3dda2ae26aeff73f0777898a8f2a14bae31e14ac03af8afc4f50cdf5de42a3
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
 Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，固定解除温控模式，支持 CPU/GPU/Package 温控旁路、ProMotion 120Hz 与 /System/Library/ThermalMonitor 一键挂载优化。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-64
+Installed-Size: 1876
+Filename: debs/com.huayuarc.cputhermal-1.6.2-64-roothide.deb
+Size: 131428
+MD5sum: 4fcc9de0abb1bb2569bcd973a4fefafe
+SHA1: 
+SHA256: 0139515c780cce413b5457bd4c83f235e1cb44d4a475937641591ea6c1d756fc
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，固定解除温控模式，支持 CPU/GPU/Package 温控旁路、ProMotion 120Hz 与 /System/Library/ThermalMonitor 一键挂载优化。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-64
+Installed-Size: 1912
+Filename: debs/com.huayuarc.cputhermal-1.6.2-64-rootless.deb
+Size: 135748
+MD5sum: 0f4a6ac9c731e99ef25dfe40b1c76009
+SHA1: 
+SHA256: ab1859becc4307729e4e9521374d8189d8def216417e2faedef649c7fe2f92bf
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
 Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Maintainer: Huayuarc
@@ -13861,6 +13897,48 @@ Size: 263304
 MD5sum: 632613d6931f76d5a943a178efa33286
 SHA1: 
 SHA256: 624f65de0fe4c8ab403bd0882ecef2442bb94d29e3fdcaf46dc8a3fc0bde8d5c
+
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.8.0
+Description: Pullover-X窗口调度版
+ 全新 UI 精修：矢量图标统一、选 App 面板重做、横条质感升级、比例吸附、触觉反馈、无障碍适配。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.8.0-roothide.deb
+Size: 269204
+MD5sum: 0478da33dff8583b5f3d3e7416e6fbdd
+SHA1: 
+SHA256: edec2853a81c8556866adf1151665e1296a56524a145e0778ba73b84307b7bbb
+
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.8.0
+Description: Pullover-X窗口调度版
+ 全新 UI 精修：矢量图标统一、选 App 面板重做、横条质感升级、比例吸附、触觉反馈、无障碍适配。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.8.0-rootless.deb
+Size: 270720
+MD5sum: 73860bbafa703aa3b7734ff31057f94c
+SHA1: 
+SHA256: 1157c0eb0a886617197d38d5ec18fada77b39a1b79e9acfa13fb42f82b7e6e90
 
 Package: com.mrgcgamer.libgcuniversal
 Name: LibGcUniversal
@@ -22966,6 +23044,40 @@ Size: 586648
 MD5sum: 91dfd6194d4f79e971897291a9933831
 SHA1: 
 SHA256: e820a21fd5a7b94134d3b48447d0f9df86415c94f346fa3d7d5c198960c39d5b
+
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Installed-Size: 2720
+Filename: debs/com.susudear.screencore-1.1.1-roothide.deb
+Size: 414416
+MD5sum: 30fed54f5861a807f5a88454f427143c
+SHA1: 
+SHA256: 19c07faf83d413345099cc010326af5666bb734c4c330dda0f7310704faeafac
+
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Installed-Size: 2752
+Filename: debs/com.susudear.screencore-1.1.1-rootless.deb
+Size: 420276
+MD5sum: e8fcfb62895bdac51e8b8732d64a0f18
+SHA1: 
+SHA256: ba721ad73644461a829551ab95aa5654824675d5df20755d436a237733dd808e
 
 Package: com.susudear.sharingdalertwatchdog
 Name: SharingdAlertWatchdog
