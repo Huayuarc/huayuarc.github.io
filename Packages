@@ -6305,41 +6305,6 @@ MD5sum: 714a997bb37f8e6321132cdbd29d49a3
 SHA1: 
 SHA256: 83007a6abe2b5f286d55a09fa05902274baa223355ebff6f8d4e8930396428ed
 
-Package: com.hang.zzzj
-Name: 转转找鸡
-Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接
-Maintainer: hang
-Author: hang
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64e
-Version: 0.0.1-8+debug
-Installed-Size: 180
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/zhuanzhuan.jpg
-Filename: debs/com.hang.zzzj-0.0.1-8+debug-roothide.deb
-Size: 33196
-MD5sum: 43f9406ad0e1703ecc864d48e5e521a8
-SHA1: 
-SHA256: bf684b9e1e47b304e0e9c49a4492894a484fe1288e1ef109e50c059119855f96
-
-Package: com.hang.zzzj
-Name: 转转找鸡
-Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接
-Maintainer: hang
-Author: hang
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 0.0.1-8+debug
-Installed-Size: 180
-icon: https://huayuarc.github.io/icon/zhuanzhuan.jpg
-Filename: debs/com.hang.zzzj-0.0.1-8+debug-rootless.deb
-Size: 33828
-MD5sum: cc5551e3a98ae4117cd128a7d3e23b6d
-SHA1: 
-SHA256: a2a128e725c4ad74765814498f217f3e0c85c8975956ba64f8d41559b651aeda
-
 Package: com.HBWechatHelper.ailun
 Version: 2.1.2
 Section: Tweaks
