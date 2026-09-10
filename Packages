@@ -6305,6 +6305,41 @@ MD5sum: 714a997bb37f8e6321132cdbd29d49a3
 SHA1: 
 SHA256: 83007a6abe2b5f286d55a09fa05902274baa223355ebff6f8d4e8930396428ed
 
+Package: com.hang.zzzj
+Name: 转转找鸡
+Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接
+Maintainer: hang
+Author: hang
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1-8+debug
+Installed-Size: 180
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/zhuanzhuan.jpg
+Filename: debs/com.hang.zzzj-0.0.1-8+debug-roothide.deb
+Size: 33196
+MD5sum: 43f9406ad0e1703ecc864d48e5e521a8
+SHA1: 
+SHA256: bf684b9e1e47b304e0e9c49a4492894a484fe1288e1ef109e50c059119855f96
+
+Package: com.hang.zzzj
+Name: 转转找鸡
+Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接
+Maintainer: hang
+Author: hang
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.1-8+debug
+Installed-Size: 180
+icon: https://huayuarc.github.io/icon/zhuanzhuan.jpg
+Filename: debs/com.hang.zzzj-0.0.1-8+debug-rootless.deb
+Size: 33828
+MD5sum: cc5551e3a98ae4117cd128a7d3e23b6d
+SHA1: 
+SHA256: a2a128e725c4ad74765814498f217f3e0c85c8975956ba64f8d41559b651aeda
+
 Package: com.HBWechatHelper.ailun
 Version: 2.1.2
 Section: Tweaks
@@ -10082,6 +10117,41 @@ Size: 1718284
 MD5sum: 81be6460fd664513e5491de37faef6c9
 SHA1: 
 SHA256: 80c50c68a6cde6af49c1cc00b03f0fa2a440f5fd7ee007fe0403c31fda45cdb2
+
+Package: com.iosdump.appdata
+Name: AppData
+Version: 2.7.3
+Description: 在主屏幕查看应用数据与管理应用
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64e
+Author: iosdump
+Maintainer: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.iosdump.appdata-2.7.3-roothide.deb
+Size: 1700756
+MD5sum: e53b7d72e36e6cb643b30113759c690f
+SHA1: 
+SHA256: bfab87f070c05301eefe57302615d05925c87858ad559b2c1085139e13179a93
+
+Package: com.iosdump.appdata
+Name: AppData
+Version: 2.7.3
+Description: 在主屏幕查看应用数据与管理应用
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64
+Author: iosdump
+Maintainer: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
+Filename: debs/com.iosdump.appdata-2.7.3-rootless.deb
+Size: 1711288
+MD5sum: d8d2c330c78143d1a0a390cdb0a5aff6
+SHA1: 
+SHA256: 30c320fea017116193ab4ce9d0cbdddd34d67d05e989825ad0de4fa594be405b
 
 Package: com.iosdump.appmute
 Name: AppMute 静音媒体音量
@@ -13939,6 +14009,48 @@ Size: 270720
 MD5sum: 73860bbafa703aa3b7734ff31057f94c
 SHA1: 
 SHA256: 1157c0eb0a886617197d38d5ec18fada77b39a1b79e9acfa13fb42f82b7e6e90
+
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.8.14
+Description: Pullover-X窗口调度版
+ 优化UI界面。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.8.14-roothide.deb
+Size: 274812
+MD5sum: 4c0e5d0edad126b83db4008cd46c372d
+SHA1: 
+SHA256: 837f78b840707d0fd37778ff52a5b3aba0b4d7dc5aef7cb029013ae9f1e9c1b6
+
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.8.14
+Description: Pullover-X窗口调度版
+ 优化UI界面。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.8.14-rootless.deb
+Size: 277752
+MD5sum: 1684070875f561437662b3e01829cb9a
+SHA1: 
+SHA256: 6fcd459aece1d8c656c47758e66177275d9e15ee9d598d8c08f81fc386ee3bb6
 
 Package: com.mrgcgamer.libgcuniversal
 Name: LibGcUniversal
