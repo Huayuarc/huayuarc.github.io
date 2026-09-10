@@ -14052,6 +14052,62 @@ MD5sum: 1684070875f561437662b3e01829cb9a
 SHA1: 
 SHA256: 6fcd459aece1d8c656c47758e66177275d9e15ee9d598d8c08f81fc386ee3bb6
 
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.8.19
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.8.19-roothide.deb
+Size: 275164
+MD5sum: 8b1d73a52db37fa90a734cb94c9f4162
+SHA1: 
+SHA256: bb770a80ad7bee65e2afe84569ed3f757996a3a03012bf90a92d7632adc9bafe
+
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.8.19
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: kanuo
+dev: kanuo
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.8.19-rootless.deb
+Size: 277948
+MD5sum: e9b67e89326533b089e2bdd92e8f8144
+SHA1: 
+SHA256: cbb6235867ad69a2a2179e53a1affc31b9fafd7eb1096736536319b907dac1c6
+
 Package: com.mrgcgamer.libgcuniversal
 Name: LibGcUniversal
 Icon: https://sini921.github.io/repo/sileodepiction/icon/libgcuniversal.png
