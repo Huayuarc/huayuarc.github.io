@@ -25313,12 +25313,29 @@ Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Installed-Size: 168
-icon: https://huayuarc.github.io/icon/hideavcontrols.jpg
+icon: https://huayuarc.github.io/icon/hideavcontrols.png
 Filename: debs/com.yaowell.hideavcontrols-1.0.1-roothide.deb
-Size: 4956
-MD5sum: 779cfa8a7ce2ec774c7f5cb50722c225
+Size: 4948
+MD5sum: 1583c6db02d72096ab91cb1cee511431
 SHA1: 
-SHA256: 302f65fa52428aa7cfddea7b7555c61f682ff91ce19015700ea7a270873bd9b4
+SHA256: 08ce00d12990881edaaeec1e55b229fd260b2a0859218b1ac33d501368cac04f
+
+Package: com.yaowell.hideavcontrols
+Name: HideAVControls
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Description: 隐藏控制中心顶部的麦克风模式与视频效果模块 / Hide Microphone Mode and Video Effects in Control Center
+Maintainer: yaowell
+Author: yaowell
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/hideavcontrols.png
+Filename: debs/com.yaowell.hideavcontrols-1.0.1-rootless.deb
+Size: 5004
+MD5sum: 1325866e1c7f3cc52a41b8f0d001335a
+SHA1: 
+SHA256: bb18b1c62e4920b695be3cb5702605f8939575d68ec53d10559e0407b57fc4db
 
 Package: com.ylr.wchook
 Name: 悬浮按钮分屏
