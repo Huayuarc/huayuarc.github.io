@@ -5776,6 +5776,40 @@ MD5sum: 72f4f7d00933bf8663f21c702604e3b5
 SHA1: 
 SHA256: 952cf6919412438d837f8c29d146bfaeea9f14d456d0d22ce0dc757cdcccd64e
 
+Package: com.dvntm.oledkeyboard
+Name: OledKeyboard
+Description: OLED Dark Mode for iOS System Keyboard 适用于iOS系统键盘的OLED黑暗模式
+Maintainer: dvntm
+Author: dvntm
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 152
+icon: https://huayuarc.github.io/icon/oledkeyboard.jpg
+Filename: debs/com.dvntm.oledkeyboard-0.0.3-roothide.deb
+Size: 4716
+MD5sum: c700f3b42b4344b1c72e414ebc468bc2
+SHA1: 
+SHA256: b5e735cc1b6dac52011332e02623457fb72d87fe2d99ad335adda8a786ca15dd
+
+Package: com.dvntm.oledkeyboard
+Name: OledKeyboard
+Description: OLED Dark Mode for iOS System Keyboard 适用于iOS系统键盘的OLED黑暗模式
+Maintainer: dvntm
+Author: dvntm
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 152
+icon: https://huayuarc.github.io/icon/oledkeyboard.jpg
+Filename: debs/com.dvntm.oledkeyboard-0.0.3-rootless.deb
+Size: 4772
+MD5sum: 551e1daae73f8880e93d4e18fa828b7b
+SHA1: 
+SHA256: 4c508596522cd8db6fa7fba4b7080c7f5191b72c8a13ede15872fad0b8634370
+
 Package: com.dynamicx.tweak
 Name: DynamicX
 Description: 万物皆上岛
