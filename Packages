@@ -13402,6 +13402,40 @@ MD5sum: 1fa0a1ff8585d94ec3390c92b1851e6c
 SHA1: 
 SHA256: 59e2d371bac6f8e7ba6342bb04acc1c384e3ffffd49b959254fa978e0c759ca6
 
+Package: com.mlgm.idata
+Name: iData
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), apt, dpkg
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64e
+Version: 1.2
+Installed-Size: 8180
+Filename: debs/com.mlgm.idata-1.2-roothide.deb
+Size: 2450156
+MD5sum: 0f8546880819085458ff9309ad212428
+SHA1: 
+SHA256: 11142ef2950c2e4321d4af378d4f5ae12e3d41f273e852a453a01c067be3575f
+
+Package: com.mlgm.idata
+Name: iData
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), apt, dpkg
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64
+Version: 1.2
+Installed-Size: 8180
+Filename: debs/com.mlgm.idata-1.2-rootless.deb
+Size: 2451368
+MD5sum: 52bb14e3527c0c1f03850bfa7244a4fe
+SHA1: 
+SHA256: 367a1403aad5c71906a14fba83958f535ee10500fbf1d59d5b1e79e74999c0f9
+
 Package: com.mlgm.ilog
 Name: iLog
 Description: 查看、预览、分享和清理 iOS 日志
@@ -13469,6 +13503,40 @@ Size: 1553964
 MD5sum: 0e74c351c3729b3d7124f1adaa4537f3
 SHA1: 
 SHA256: bd89493c10c5c976d3c5cf6746faa271729188b15a5599ce9afd33e37ddb0c7f
+
+Package: com.mlgm.ilog
+Name: iLog
+Description: 查看、预览、分享和清理 iOS 日志
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Icon: https://mlgm66.github.io/icon/ilog.png
+Architecture: iphoneos-arm64e
+Version: 1.2
+Installed-Size: 2516
+Filename: debs/com.mlgm.ilog-1.2-roothide.deb
+Size: 1555468
+MD5sum: 790ed02873386fcdef88f925674694d5
+SHA1: 
+SHA256: 388ab19b88630fc08fddb0801be219e506b3c3b5495e6dae06b23803a05cb41b
+
+Package: com.mlgm.ilog
+Name: iLog
+Description: 查看、预览、分享和清理 iOS 日志
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Icon: https://mlgm66.github.io/icon/ilog.png
+Architecture: iphoneos-arm64
+Version: 1.2
+Installed-Size: 2516
+Filename: debs/com.mlgm.ilog-1.2-rootless.deb
+Size: 1555396
+MD5sum: 2ff4a75bc71bc65d0d28b5bc28bc94d0
+SHA1: 
+SHA256: 91c85671d8448c9a9cd590c8e515f3ef323bed74a04adcef5c80e96a6538409b
 
 Package: com.mlgm.kayoko
 Name: Kayoko 剪切板
@@ -13661,6 +13729,46 @@ Size: 689424
 MD5sum: 39c77ad03121a78215d37cfa60089003
 SHA1: 
 SHA256: cb8e7b66ee04766b264793c1e29de59a40129fe97912dd9214f0cf575980181e
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.9
+Installed-Size: 3220
+Filename: debs/com.mlgm.kayoko-4.9-roothide.deb
+Size: 688860
+MD5sum: a2685c5c8be77c48f2fd487ba2f6ca21
+SHA1: 
+SHA256: 75bea6760419a8e2267287377482f7afb1d0649e3aef2ba84912e4292de31cbd
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64
+Version: 4.9
+Installed-Size: 3236
+Filename: debs/com.mlgm.kayoko-4.9-rootless.deb
+Size: 687912
+MD5sum: 8879f2afa8d6f276f9d78663981aec22
+SHA1: 
+SHA256: 752b625419785a39a68878365715f3295ee8664331fab35ad26906d573aa8c4d
 
 Package: com.mlgm.pulloverx
 Name: PullOver X 分屏
@@ -14037,50 +14145,46 @@ SHA1:
 SHA256: 875a15f34c42d00771bd619e0e77d97dd4ff324e2a45717ad1b5e1421989a2ed
 
 Package: com.mlgm.pulloverx
-Name: Pullover-X 窗口调度版
+Name: PullOver X 分屏
 Version: 1.6.2
-Description: Pullover-X窗口调度版
- 键盘改成内置全屏。
- 键盘不受卡片比例影响。
- 键盘错位问题已解决。
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
 Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Priority: optional
 Architecture: iphoneos-arm64e
-Author: kanuo
-dev: kanuo
-Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
-Maintainer: kanuo
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Maintainer: mlgm
 Filename: debs/com.mlgm.pulloverx-1.6.2-roothide.deb
-Size: 205516
-MD5sum: 25ec0939f1285019d8bd9716904d4bed
+Size: 313684
+MD5sum: 6326a73f487ff06e47fcd88a49e8b9c9
 SHA1: 
-SHA256: 7b3fa46fc7a9f4ddf710ab65afbbf8b4c740138029b6741ee57929f355cdb72b
+SHA256: de809ce4934bd51f745d626a1753d26d81aefec2d1c8235ebe74e497d1149b2e
 
 Package: com.mlgm.pulloverx
-Name: Pullover-X 窗口调度版
+Name: PullOver X 分屏
 Version: 1.6.2
-Description: Pullover-X窗口调度版
- 键盘改成内置全屏。
- 键盘不受卡片比例影响。
- 键盘错位问题已解决。
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
 Section: Tweaks
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Priority: optional
 Architecture: iphoneos-arm64
-Author: kanuo
-dev: kanuo
-Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
-Maintainer: kanuo
+Author: mlgm
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.pulloverx/depiction.json
+Maintainer: mlgm
 Filename: debs/com.mlgm.pulloverx-1.6.2-rootless.deb
-Size: 207152
-MD5sum: e997ab638efe89f3021fb0030e4a9a4f
+Size: 315932
+MD5sum: 9fd4598cfaf614c30ebdce3f8d46b865
 SHA1: 
-SHA256: 4193d7365ecd624780703529fd6d4d44021c6aca76f1640b6ccd0c93480fb5f0
+SHA256: 13d03fb1ef963ed6ede0efe4db439994d644c3c20327fb28da13fefe2bdb29a6
 
 Package: com.mlgm.pulloverx
 Name: Pullover-X 窗口调度版
