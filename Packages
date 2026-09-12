@@ -1753,6 +1753,41 @@ MD5sum: ee0296911e97282ef9789a0daba3e0ec
 SHA1: 
 SHA256: 45bb1a43e4ac434db9f33bf2e1192f439da4d02847b199b78a0c5e15619afeb7
 
+Package: com.0xkuj.bettercccrashprotect
+Name: BetterCCCrashProtect
+Description: Prevent Weather Module with BetterCC crash your idevice 使用BetterCC防止天气模块崩溃您的idevice
+Maintainer: 0xkuj
+Author: 0xkuj
+icon: https://huayuarc.github.io/icon/Bettercc.png
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.0xkuj.bettercccrashprotect-1.0.0-roothide.deb
+Size: 3560
+MD5sum: 943001184e18566313a77dff5e8fcd08
+SHA1: 
+SHA256: 970a049020e570feaab472d84bd4f3c96174951392712adf2c57f5de814e4dc4
+
+Package: com.0xkuj.bettercccrashprotect
+Name: BetterCCCrashProtect
+Description: Prevent Weather Module with BetterCC crash your idevice 使用BetterCC防止天气模块崩溃您的idevice
+Maintainer: 0xkuj
+Author: 0xkuj
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/Bettercc.png
+Filename: debs/com.0xkuj.bettercccrashprotect-1.0.0-rootless.deb
+Size: 3644
+MD5sum: 2688fcfed23c136ba947f5212b501945
+SHA1: 
+SHA256: 3cb2d5384e3b239894d31aa759de69499d54245e0431a91178df5d56a2d6bf00
+
 Package: com.0xkuj.safarix
 Version: 1.9.9.1
 Icon: https://huayuarc.github.io/icon/SafariX.png
