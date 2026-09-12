@@ -14129,6 +14129,62 @@ MD5sum: e9b67e89326533b089e2bdd92e8f8144
 SHA1: 
 SHA256: cbb6235867ad69a2a2179e53a1affc31b9fafd7eb1096736536319b907dac1c6
 
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.8.21
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.8.21-roothide.deb
+Size: 277008
+MD5sum: e312c72e5b1ab2c17843a22ee5e52b10
+SHA1: 
+SHA256: 0a42f3af5a49c5a7446b24bb5533204559d88c2c03055cbe7cca099ecb9aa8a4
+
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.8.21
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.8.21-rootless.deb
+Size: 279272
+MD5sum: 2f516df3ab7810e1d733e5dde562965d
+SHA1: 
+SHA256: fd80a89664a41dd8588c8911db5c4b68653d4eda90db687236acf163738d7a92
+
 Package: com.mrgcgamer.libgcuniversal
 Name: LibGcUniversal
 Icon: https://sini921.github.io/repo/sileodepiction/icon/libgcuniversal.png
@@ -28892,7 +28948,8 @@ Architecture: iphoneos-arm64e
 Version: 1.0.4k
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/FreeformGridIcon.png
-Filename: debs/xyz.cypwn.freeformgrid-1.0.4k-roothide.deb
+Filename: debs/xyz.cypwn.freeformgrid-1.0.4k
+-roothide.deb
 Size: 60216
 MD5sum: 1ceb44019181e242e3767b60339eb031
 SHA1: 
@@ -28908,7 +28965,8 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, firmware (>= 17.0), firmware (<< 18.0)
 Architecture: iphoneos-arm64
 Version: 1.0.4k
-Filename: debs/xyz.cypwn.freeformgrid-1.0.4k-rootless.deb
+Filename: debs/xyz.cypwn.freeformgrid-1.0.4k
+-rootless.deb
 Size: 61436
 MD5sum: e8d3f74bbd7011988bf09eb961970c15
 SHA1: 
