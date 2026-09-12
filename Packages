@@ -3607,6 +3607,42 @@ MD5sum: f312ea23e2b01e980a24f9214814710b
 SHA1: 
 SHA256: 17541e9315b2bc4d362f253c74defe1013da9dcc1ab77d362af8ececdc05fe08
 
+Package: com.bvn.dynamicstagefix17
+Name: Dynamic Stage Fix17
+Description: Sửa lỗi Dynamic Stage không hoạt động trên ios 17 修复Dynamic Stage在iOS 17上无法运行的错误
+Maintainer: BVN Repo
+Author: BVN Repo
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 17.0)
+SileoDepiction: https://bvnrepo999.github.io/sileodepictions/Fix17.json
+Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 336
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.bvn.dynamicstagefix17-1.0.0-roothide.deb
+Size: 7596
+MD5sum: ab973201dec0d88544e8fd20d72b2fc7
+SHA1: 
+SHA256: 726f3d710fe7a8a00bc26c63f89dae9037112924c5dc9849335355b5d51cabb6
+
+Package: com.bvn.dynamicstagefix17
+Name: Dynamic Stage Fix17
+Description: Sửa lỗi Dynamic Stage không hoạt động trên ios 17 修复Dynamic Stage在iOS 17上无法运行的错误
+Maintainer: BVN Repo
+Author: BVN Repo
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 17.0)
+Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 336
+Filename: debs/com.bvn.dynamicstagefix17-1.0.0-rootless.deb
+Size: 7936
+MD5sum: 423aa4a13e405b01cdd125ae3d77a795
+SHA1: 
+SHA256: 785bf7b221ad53f5fb9ffd3e8a3318788d9b759ba7c83ca3a3a88aa32ed29e4d
+
 Package: com.callassist.caiphoneduostatus
 Name: CAiPhoneDuoStatus
 Description: 本插件仅为体验版,不得用于商业收费,插件本身也不会收取任何费用,如遇收费,请立即拒绝,本插件发布后不会再进行更新,所以不用提要求和bug报告,如果不满意请自行卸载,信号,WIFI,数据,电量均为安装设备的真实交互
@@ -25018,6 +25054,23 @@ MD5sum: 718ee3127ec4f06a98f194ee8b176290
 SHA1: 
 SHA256: ea67a6c8e092c90cedae447a7b680e8bf2cb6ec70c9b101db0811fbe77b2f458
 
+Package: com.yaowell.hideavcontrols
+Name: HideAVControls
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Description: 隐藏控制中心顶部的麦克风模式与视频效果模块 / Hide Microphone Mode and Video Effects in Control Center
+Maintainer: yaowell
+Author: yaowell
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/hideavcontrols.jpg
+Filename: debs/com.yaowell.hideavcontrols-1.0.1-roothide.deb
+Size: 4956
+MD5sum: 779cfa8a7ce2ec774c7f5cb50722c225
+SHA1: 
+SHA256: 302f65fa52428aa7cfddea7b7555c61f682ff91ce19015700ea7a270873bd9b4
+
 Package: com.ylr.wchook
 Name: 悬浮按钮分屏
 Description: 悬浮按钮分屏
@@ -27061,6 +27114,43 @@ Size: 21496
 MD5sum: 66c602dad1ab5155c0aff0dbbe1aebf2
 SHA1: 
 SHA256: ed19b973e41687e039c515b40879a7617df0a35b0cdbd348c1287239240cbf42
+
+Package: me.tomt000.stageduo
+Name: Dynamic Stage VH
+Architecture: iphoneos-arm64e
+Description: Stage Manager Reimagined for iPhone 面向 iPhone 的 Stage Manager 重新构想
+Maintainer: tomt000
+Author: tomt000
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Version: 1.3K
+Depiction: https://bvnrepo.xyz/infodeb/Html/Stage.html
+SileoDepiction: https://bvnrepo.xyz/sileodepictions/Stage.json
+Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+Installed-Size: 4900
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/me.tomt000.stageduo-1.3K-roothide.deb
+Size: 3064160
+MD5sum: d0ca6b910d20db3fd2659752394e2a1a
+SHA1: 
+SHA256: e24ca5de0f753a7f02fd420a22aa022bf89223e45af7764edc6ac471b5936340
+
+Package: me.tomt000.stageduo
+Name: Dynamic Stage VH
+Architecture: iphoneos-arm64
+Description: Stage Manager Reimagined for iPhone 面向 iPhone 的 Stage Manager 重新构想
+Maintainer: tomt000
+Author: tomt000
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Version: 1.3K
+Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+Installed-Size: 4900
+Filename: debs/me.tomt000.stageduo-1.3K-rootless.deb
+Size: 3075052
+MD5sum: b3df6c7381b75856b3b5fa970d9b280f
+SHA1: 
+SHA256: 30558dcb42f5f9314f54cee76960b7039a2a76cb1358b6877f05610881c9ec38
 
 Package: net.p0358.disintegratelock
 Section: Tweaks
