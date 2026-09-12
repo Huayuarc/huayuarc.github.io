@@ -3614,17 +3614,16 @@ Maintainer: BVN Repo
 Author: BVN Repo
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 17.0)
-SileoDepiction: https://bvnrepo999.github.io/sileodepictions/Fix17.json
-Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+icon: https://huayuarc.github.io/icon/stageduo.png
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Installed-Size: 336
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.bvn.dynamicstagefix17-1.0.0-roothide.deb
-Size: 7596
-MD5sum: ab973201dec0d88544e8fd20d72b2fc7
+Size: 7548
+MD5sum: 7f1791a7a8047693d7779f07ec14fb9c
 SHA1: 
-SHA256: 726f3d710fe7a8a00bc26c63f89dae9037112924c5dc9849335355b5d51cabb6
+SHA256: 9cb2a518b493a01aa8c3fe8914fb623001148ed94a4d2a99b1416df011a26665
 
 Package: com.bvn.dynamicstagefix17
 Name: Dynamic Stage Fix17
@@ -3633,15 +3632,15 @@ Maintainer: BVN Repo
 Author: BVN Repo
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 17.0)
-Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+icon: https://huayuarc.github.io/icon/stageduo.png
 Architecture: iphoneos-arm64
 Version: 1.0.0
 Installed-Size: 336
 Filename: debs/com.bvn.dynamicstagefix17-1.0.0-rootless.deb
-Size: 7936
-MD5sum: 423aa4a13e405b01cdd125ae3d77a795
+Size: 7920
+MD5sum: d02b717b194f6489539999074e0a0945
 SHA1: 
-SHA256: 785bf7b221ad53f5fb9ffd3e8a3318788d9b759ba7c83ca3a3a88aa32ed29e4d
+SHA256: 073830e3810f3419be5a2ed1f5fc3dd0d990435586bcc77737ff853512128704
 
 Package: com.callassist.caiphoneduostatus
 Name: CAiPhoneDuoStatus
@@ -27124,16 +27123,14 @@ Author: tomt000
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
 Version: 1.3K
-Depiction: https://bvnrepo.xyz/infodeb/Html/Stage.html
-SileoDepiction: https://bvnrepo.xyz/sileodepictions/Stage.json
-Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+icon: https://huayuarc.github.io/icon/stageduo.png
 Installed-Size: 4900
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/me.tomt000.stageduo-1.3K-roothide.deb
-Size: 3064160
-MD5sum: d0ca6b910d20db3fd2659752394e2a1a
+Size: 3064400
+MD5sum: 60bfe5c8d4793df77682bf3c0a319450
 SHA1: 
-SHA256: e24ca5de0f753a7f02fd420a22aa022bf89223e45af7764edc6ac471b5936340
+SHA256: 544c146dc0a142135492f38503d70869f4149c5b6d9da93da5ea0365c7e0e496
 
 Package: me.tomt000.stageduo
 Name: Dynamic Stage VH
@@ -27144,13 +27141,13 @@ Author: tomt000
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
 Version: 1.3K
-Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+icon: https://huayuarc.github.io/icon/stageduo.png
 Installed-Size: 4900
 Filename: debs/me.tomt000.stageduo-1.3K-rootless.deb
-Size: 3075052
-MD5sum: b3df6c7381b75856b3b5fa970d9b280f
+Size: 3075184
+MD5sum: 5e97fb39bf4d3e3c08e9ff3b01f9512a
 SHA1: 
-SHA256: 30558dcb42f5f9314f54cee76960b7039a2a76cb1358b6877f05610881c9ec38
+SHA256: 367815299c4f85a4f6a67742e5ed374ab26836f391c3afde4219e4d6643cf52c
 
 Package: net.p0358.disintegratelock
 Section: Tweaks
