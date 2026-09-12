@@ -25940,41 +25940,6 @@ MD5sum: 0e16cabe1c0731653bcf46ea362152d4
 SHA1: 
 SHA256: 2fcd5aa361f773034adb24c6f4a4294f0a8b2eeb0fee29f543e107e889f08047
 
-Package: lilliana.apphider
-Section: Tweaks
-Installed-Size: 596
-Maintainer: Paisseon
-Architecture: iphoneos-arm64e
-Version: 0.0.2
-Depends: mobilesubstrate, firmware (>= 12.2), com.opa334.altlist
-Description: 此版本的应用隐藏比bigboss源上的那个好用，完全免费，可以隐藏应用使其消失在搜索，资源库，主屏幕上
-Name: App Hider 应用隐藏助手
-Author: Paisseon
-Icon: https://huayuarc.github.io/icon/AppHider.jpg
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/lilliana.apphider-0.0.2-roothide.deb
-Size: 65528
-MD5sum: 7ea79abce4724eda6333ef1a23d18490
-SHA1: 
-SHA256: ab028b31a4c12c44eb93ddecb921485030f8c8add770e3b21fd6c6b88fe38274
-
-Package: lilliana.apphider
-Section: Tweaks
-Installed-Size: 596
-Maintainer: Paisseon
-Architecture: iphoneos-arm64
-Version: 0.0.2
-Depends: mobilesubstrate, firmware (>= 12.2), com.opa334.altlist
-Description: 此版本的应用隐藏比bigboss源上的那个好用，完全免费，可以隐藏应用使其消失在搜索，资源库，主屏幕上
-Name: App Hider 应用隐藏助手
-Author: Paisseon
-Icon: https://huayuarc.github.io/icon/AppHider.jpg
-Filename: debs/lilliana.apphider-0.0.2-rootless.deb
-Size: 67372
-MD5sum: fcd111bcb8c222e664bc05f37b73d8f7
-SHA1: 
-SHA256: b780da46281d585c2010925a9cf663815b89687944cdc1edf3f1d72c547bf464
-
 Package: lilliana.filzacrack
 Name: FilzaCrack
 Description: An awesome Jinx tweak!
