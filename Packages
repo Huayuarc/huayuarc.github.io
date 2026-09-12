@@ -11697,6 +11697,42 @@ SHA1:
 SHA256: da9c828a8bd731504ad9bd3def776c0eb8687142252bf8f9743806d18ede74e8
 
 Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 3.1.0
+Installed-Size: 13896
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-3.1.0-roothide.deb
+Size: 3074920
+MD5sum: 3295d6cca248750f449b76b276e83391
+SHA1: 
+SHA256: 819b86fef346aa11c75b6526d2d0bc63bd5ddd2be3fc2d92bcd07f0dd1e8ef3c
+
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 3.1.0
+Installed-Size: 13912
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-3.1.0-rootless.deb
+Size: 3081076
+MD5sum: 6e2d819e23b11b7c1888c6de71c6c067
+SHA1: 
+SHA256: 07d8cad75e4089e8e59711a3d652e4ef96151afea5bc32912d9d9af1c5bd6dee
+
+Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
@@ -24541,6 +24577,25 @@ Size: 345160
 MD5sum: ee511b2eecbc3ce57a049d1e87c2d3e1
 SHA1: 
 SHA256: 596af40d6598aae739ae4c16f0db481158cbffca88121300e52493f0003e76d0
+
+Package: com.tsangbaby.randomiconsflip
+Name: Random Icon Flip
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Randomly flips visible Home Screen icons. Swift-core rewrite for iOS 15 and later.随机翻转可见的主屏幕图标。适用于iOS 15及更高版本的Swift-core重写。
+Maintainer: Tsangbaby
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/RandomIconFlip.png
+Conflicts: net.limneos.randomiconsflip
+Replaces: net.limneos.randomiconsflip
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 120
+Filename: debs/com.tsangbaby.randomiconsflip-0.0.2-roothide.deb
+Size: 22132
+MD5sum: 5963c5b7759220fe40bed7b54b13958c
+SHA1: 
+SHA256: f2fe332282e9261262a8bbe25603c29a57d1f3f57258227ce064caa36fb2489c
 
 Package: com.tune.h3kbhook
 Name: 元书输入法 Hooks
