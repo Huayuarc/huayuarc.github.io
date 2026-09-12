@@ -5096,6 +5096,43 @@ MD5sum: 334de3a356c0bc4268fd4774583225a5
 SHA1: 
 SHA256: 00527e6fc7a02a8bfa29d9e277cdc58b00f042d6b34b429ffdea5f869f4cb4d2
 
+Package: com.dangkhoa.hotspotpro
+Name: HotspotPro
+Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Author: DangKhoa <dangkhoa116@gmail.com>
+Section: Networking
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Tag: purpose::extension, role::enduser
+Architecture: iphoneos-arm64e
+Version: 0.7.0
+Installed-Size: 1064
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/HotspotPro.jpg
+Filename: debs/com.dangkhoa.hotspotpro-0.7.0-roothide.deb
+Size: 103328
+MD5sum: f0ace6ea230ad9e5f72d9e1caae35883
+SHA1: 
+SHA256: 74e6107f37aef87427ec33ee60399ca1dc2f4e320b8cd65b23b561ef15122217
+
+Package: com.dangkhoa.hotspotpro
+Name: HotspotPro
+Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Author: DangKhoa <dangkhoa116@gmail.com>
+Section: Networking
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Tag: purpose::extension, role::enduser
+Architecture: iphoneos-arm64
+Version: 0.7.0
+Installed-Size: 1064
+icon: https://huayuarc.github.io/icon/HotspotPro.jpg
+Filename: debs/com.dangkhoa.hotspotpro-0.7.0-rootless.deb
+Size: 106452
+MD5sum: b1ce98eac699fa9b7bfcfe1d96cc93e9
+SHA1: 
+SHA256: 834bc7a864e983ae58d7a97ca4b7a7566fe987aabddf687ce368ca451a72391d
+
 Package: com.dao.cchide
 Name: CCLess++(bootstrap)
 Depends: firmware (>= 17.0), mobilesubstrate, com.opa334.ccsupport
@@ -28843,6 +28880,39 @@ Size: 12796092
 MD5sum: 4b6e6ca1df8d5bef21a3ffbe03a5bea0
 SHA1: 
 SHA256: 8d1f969f825ee5d6084d21e9a67f501ac1e1affebdf7cdefc1f5be8d101880e9
+
+Package: xyz.cypwn.freeformgrid
+Maintainer: CyPwn
+Name: FreeformGrid
+Description: Place Home Screen icons in any open grid position on rootless iOS 17 jailbreaks. Cracked by CBZ 在无根iOS 17越狱中，将主屏幕图标放在任何开放网格位置。
+Author: emp0ry
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 17.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.4k
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/FreeformGridIcon.png
+Filename: debs/xyz.cypwn.freeformgrid-1.0.4k-roothide.deb
+Size: 60216
+MD5sum: 1ceb44019181e242e3767b60339eb031
+SHA1: 
+SHA256: e4ff81194626e0525f060735905f494b455fa60497381ec244360a08294e16d0
+
+Package: xyz.cypwn.freeformgrid
+Maintainer: CyPwn
+icon: https://huayuarc.github.io/icon/FreeformGridIcon.png
+Name: FreeformGrid
+Description: Place Home Screen icons in any open grid position on rootless iOS 17 jailbreaks. Cracked by CBZ 在无根iOS 17越狱中，将主屏幕图标放在任何开放网格位置。
+Author: emp0ry
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 17.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 1.0.4k
+Filename: debs/xyz.cypwn.freeformgrid-1.0.4k-rootless.deb
+Size: 61436
+MD5sum: e8d3f74bbd7011988bf09eb961970c15
+SHA1: 
+SHA256: 6f6549127e5b12bf2e6ee98efdf27049bc546b73f9d381761785b2d507e74dde
 
 Package: xyz.cypwn.fugap
 Maintainer: CyPwn
