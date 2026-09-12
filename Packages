@@ -3607,6 +3607,25 @@ MD5sum: f312ea23e2b01e980a24f9214814710b
 SHA1: 
 SHA256: 17541e9315b2bc4d362f253c74defe1013da9dcc1ab77d362af8ececdc05fe08
 
+Package: com.callassist.caiphoneduostatus
+Name: CAiPhoneDuoStatus
+Description: 本插件仅为体验版,不得用于商业收费,插件本身也不会收取任何费用,如遇收费,请立即拒绝,本插件发布后不会再进行更新,所以不用提要求和bug报告,如果不满意请自行卸载,信号,WIFI,数据,电量均为安装设备的真实交互
+Maintainer: 热心网友CallAssist
+Author: 热心网友CallAssist
+Section: Tweaks
+Depends: firmware (>= 16.0)
+Conflicts: com.xybp888.caanimatedstatus
+Replaces: com.xybp888.caanimatedstatus
+Architecture: iphoneos-arm64e
+Version: 1.5.9
+Installed-Size: 204
+icon: https://huayuarc.github.io/icon/iPhoneDuoStatus.jpg
+Filename: debs/com.callassist.caiphoneduostatus-1.5.9-roothide.deb
+Size: 17684
+MD5sum: f257f44fe932dbd9f8d9420654d3f5d1
+SHA1: 
+SHA256: 66b6d4990dea24ea4b7c393bb507bdaaaa50f499e70434f9befb7276b219c9fd
+
 Package: com.charlieleung.liquidify
 Name: Liquidify 88 元 液态玻璃
 Description: 为 iOS 界面注入液态玻璃质感。
@@ -27739,6 +27758,41 @@ Size: 1334448
 MD5sum: 81262bb53265b13167376a2b878882bb
 SHA1: 
 SHA256: e2ca2a274cc4be05ff20bd503f39cb85e28526e091d72f25ebbb6ed364c9d7d5
+
+Package: qqantirecall.x
+Name: NTQQ_AntiRecall QQ图层
+Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.6.2
+Installed-Size: 1148
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+Filename: debs/qqantirecall.x-1.6.2-roothide.deb
+Size: 375700
+MD5sum: 883398f8b71186d88cb4f5d9d32c8aff
+SHA1: 
+SHA256: d3591d5e86721014333392e049d3e11e91f9a4d681cdd8dfa3ac815025254605
+
+Package: qqantirecall.x
+Name: NTQQ_AntiRecall QQ图层
+Description: 模块入口位于QQ内设置: NTQQ_AntiRecall
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.6.2
+Installed-Size: 1148
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+Filename: debs/qqantirecall.x-1.6.2-rootless.deb
+Size: 382200
+MD5sum: 8203db3aebb56c994a4e155b0712b64b
+SHA1: 
+SHA256: c0653e5ab4ddb50b418dcc8a7a37914406555500f38c77030e18ac6f65bd1edf
 
 Package: re.frida.server
 Name: Frida
