@@ -3687,6 +3687,25 @@ Depends: firmware (>= 16.0)
 Conflicts: com.xybp888.caanimatedstatus
 Replaces: com.xybp888.caanimatedstatus
 Architecture: iphoneos-arm64e
+Version: 1.5.10
+Installed-Size: 204
+icon: https://huayuarc.github.io/icon/iPhoneDuoStatus.jpg
+Filename: debs/com.callassist.caiphoneduostatus-1.5.10-roothide.deb
+Size: 18908
+MD5sum: efc47b314e52c9f066b76157178917bc
+SHA1: 
+SHA256: 4209571f89ec0476d22013bcbc32720fa56f528714cd84bb980a4fa01d761972
+
+Package: com.callassist.caiphoneduostatus
+Name: CAiPhoneDuoStatus
+Description: 本插件仅为体验版,不得用于商业收费,插件本身也不会收取任何费用,如遇收费,请立即拒绝,本插件发布后不会再进行更新,所以不用提要求和bug报告,如果不满意请自行卸载,信号,WIFI,数据,电量均为安装设备的真实交互
+Maintainer: 热心网友CallAssist
+Author: 热心网友CallAssist
+Section: Tweaks
+Depends: firmware (>= 16.0)
+Conflicts: com.xybp888.caanimatedstatus
+Replaces: com.xybp888.caanimatedstatus
+Architecture: iphoneos-arm64e
 Version: 1.5.9
 Installed-Size: 204
 icon: https://huayuarc.github.io/icon/iPhoneDuoStatus.jpg
