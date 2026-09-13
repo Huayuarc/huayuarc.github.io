@@ -2211,6 +2211,41 @@ MD5sum: 901825b65fd3a8506b202b66b9547db8
 SHA1: 
 SHA256: 6aa96374462949f845fc5ba9491203ffed2000b56aae1f9865d841e70e9e2421
 
+Package: com.Mr.Zhang.lookinloader
+Name: LookinLoader
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Description: Lookin UI调试工具
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.8-2
+Installed-Size: 4332
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/LookinLoader.png
+Filename: debs/com.Mr.Zhang.lookinloader-1.2.8-2-roothide.deb
+Size: 508068
+MD5sum: aca7320d6067f763d33e88ada7dd540e
+SHA1: 
+SHA256: 4b0cf4762be4704ee9904e89b9a0d1572dcbaff6f10c4b808935c91172775610
+
+Package: com.Mr.Zhang.lookinloader
+Name: LookinLoader
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Description: Lookin UI调试工具
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.8-2
+Installed-Size: 4332
+icon: https://huayuarc.github.io/icon/LookinLoader.png
+Filename: debs/com.Mr.Zhang.lookinloader-1.2.8-2-rootless.deb
+Size: 525356
+MD5sum: 61c2c1c6a6d714c1fdbf75c3b8861bfe
+SHA1: 
+SHA256: 8c1e9563229f8d9da91a0a68b06f7f9420272b2a301be3e06584a7f4cbbf6bc5
+
 Package: com.aa22qq.axiskey
 Name: AxisKey 多维轴向按键
 Description: 结合物理按键与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌️
@@ -2900,6 +2935,46 @@ Size: 5128
 MD5sum: bab3f5a482e58ce29b79dadfeb7aedcc
 SHA1: 
 SHA256: c6d3da9bc867aa6222fcb0c5c196b4d0c140ed874e6f7094f296723e9a116456
+
+Package: com.banana.trollpadex
+Name: TrollPadEx
+Description: Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.iPhone 带来更灵活的多任务、窗口与外接显示体验。
+Maintainer: banana
+Author: khanhduytran0 & banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Provides: com.kdt.trollpad
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Installed-Size: 612
+icon: https://huayuarc.github.io/icon/TrollPad.png
+Filename: debs/com.banana.trollpadex-2.0.1-roothide.deb
+Size: 47140
+MD5sum: 22da43439ec99d2d5f5953e1850d1321
+SHA1: 
+SHA256: 656848dc527c21ab6009276d9e2f7c3cdb97a9a785e5c328bd4d26979a935892
+
+Package: com.banana.trollpadex
+Name: TrollPadEx
+Description: Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.iPhone 带来更灵活的多任务、窗口与外接显示体验。
+Maintainer: banana
+Author: khanhduytran0 & banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Provides: com.kdt.trollpad
+Architecture: iphoneos-arm64
+Version: 2.0.1
+Installed-Size: 612
+icon: https://huayuarc.github.io/icon/TrollPad.png
+Filename: debs/com.banana.trollpadex-2.0.1-rootless.deb
+Size: 47192
+MD5sum: 795fc2c86488797e8956ae6ea5c96bc6
+SHA1: 
+SHA256: 40d689f3485ebcb51b9b9d8e714f0fa334ca8515619d6b5ff50e5b1fde2fc062
 
 Package: com.be-huge.custom-notification-sound
 Name: CustomWeChatNotificationSound
@@ -12299,6 +12374,40 @@ MD5sum: 8795328be7eab78bebb5191dc47a3d1a
 SHA1: 
 SHA256: 2ce3d45e74ce141ecfbba100803f661e2822e2839600e187b221da6921feaa7a
 
+Package: com.iyaway.frameviewer
+Name: FrameViewer
+Description: A filmstrip video scrubber in the Photos playback interface.启用照片原生连续胺片，拖动定位视频并连贯切换相邻内容。
+Maintainer: iyaway
+Author: iyaway
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.6
+Installed-Size: 428
+icon: https://huayuarc.github.io/icon/FrameViewer.png
+Filename: debs/com.iyaway.frameviewer-0.1.6-roothide.deb
+Size: 22380
+MD5sum: 9daa267420ebc79611da7869ecc70d09
+SHA1: 
+SHA256: 6b84c25ef1d250458c2017e3c57632417385e0204786f9fc05f1da73bd2cf6eb
+
+Package: com.iyaway.frameviewer
+Name: FrameViewer
+Description: A filmstrip video scrubber in the Photos playback interface.启用照片原生连续胺片，拖动定位视频并连贯切换相邻内容。
+Maintainer: iyaway
+Author: iyaway
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 18.0)
+Architecture: iphoneos-arm64
+Version: 0.1.6
+Installed-Size: 428
+icon: https://huayuarc.github.io/icon/FrameViewer.png
+Filename: debs/com.iyaway.frameviewer-0.1.6-rootless.deb
+Size: 22424
+MD5sum: d76a8804975d99f1f0b4723913ce3581
+SHA1: 
+SHA256: 469658fb2f0ed793906a448e71d76940584cadf0595bc6330436adf4802aa0b8
+
 Package: com.jaysuen.ccflex16
 Name: EvoCenter16 控制中心模块
 Description: A modern, resizable and highly customizable Control Center for iOS 16.适用于iOS 16的现代、可调整大小和高度可定制的控制中心。
@@ -12536,6 +12645,40 @@ Size: 2868
 MD5sum: 4be4004583bf1453f45c090b508c02f1
 SHA1: 
 SHA256: cac3f4c1d3ee8bbd87353128b29793736294c2f48ecc82e03c8d60fb03f4cdc4
+
+Package: com.kdt.unrestrictmirroring
+Name: UnrestrictMirroring
+Description: Enables iPhone Mirroring while unlocked and Device Hub remote control ios 18.0+ 解锁设备时继续使用 iPhoneMirroring，并启用 Device Hub 远程控制。
+Maintainer: khanhduytran0
+Author: khanhduytran0
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/unrestrictmirroring.jpg
+Filename: debs/com.kdt.unrestrictmirroring-0.0.2-roothide.deb
+Size: 4408
+MD5sum: e794b841ef7461b5b3232589870f881d
+SHA1: 
+SHA256: 1bb68e8f07ab97ebb8387d38b170595c180342cc22d5adc8455c20845d1d0523
+
+Package: com.kdt.unrestrictmirroring
+Name: UnrestrictMirroring
+Description: Enables iPhone Mirroring while unlocked and Device Hub remote control ios 18.0+ 解锁设备时继续使用 iPhoneMirroring，并启用 Device Hub 远程控制。
+Maintainer: khanhduytran0
+Author: khanhduytran0
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 18.0)
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/unrestrictmirroring.jpg
+Filename: debs/com.kdt.unrestrictmirroring-0.0.2-rootless.deb
+Size: 4476
+MD5sum: b507a7fe16579af68833f30df1f9adb2
+SHA1: 
+SHA256: a16fb9191fd30188e38655816fbb36c35cba24eb3b829f33767f0e83df5f576b
 
 Package: com.layii.ccrnd
 Name: 去除录屏三秒倒计时
@@ -26477,6 +26620,250 @@ Size: 3744
 MD5sum: 3216e6c548a3d7cacdd47ca089cc30b1
 SHA1: 
 SHA256: bb3a60f6f006925705d528e7bbb6fde2666dc2f94d731176aa591cec98ca552d
+
+Package: iya.banana.dockicon
+Name: DarkIcon
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.ios 15-18提供深色图标与图片壁纸暗化。
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Architecture: iphoneos-arm64e
+Version: 0.9.2
+Installed-Size: 720
+icon: https://huayuarc.github.io/icon/DarkIcon.png
+Filename: debs/iya.banana.dockicon-0.9.2-roothide.deb
+Size: 124196
+MD5sum: 9ec3804903f0fcebbac50377b4bef932
+SHA1: 
+SHA256: f579f4de734f645da390ca0bdc9d354aecebc56f05ef1f0284ce7ecb03273e01
+
+Package: iya.banana.dockicon
+Name: DarkIcon
+Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.ios 15-18提供深色图标与图片壁纸暗化。
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Architecture: iphoneos-arm64
+Version: 0.9.2
+Installed-Size: 720
+icon: https://huayuarc.github.io/icon/DarkIcon.png
+Filename: debs/iya.banana.dockicon-0.9.2-rootless.deb
+Size: 123616
+MD5sum: 159f8ce68afe0fae5eba1df37d97c845
+SHA1: 
+SHA256: 923dfd6b686c770bc42aa6d203e6d818cd8d1a55120b85116bf4574f4db75c8a
+
+Package: iya.banana.dynamicmusicbg
+Name: DynamicMusicBG
+Description: Album-art-driven animated color fields for Lock Screen Now Playing on iOS 15 through iOS 18.根据当前音乐封面，在锁屏正在播放控件后方生成流动的动态色彩背景。
+Maintainer: banana
+Author: banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.15
+Installed-Size: 500
+icon: https://huayuarc.github.io/icon/DynamicMusicBG.png
+Filename: debs/iya.banana.dynamicmusicbg-1.0.15-roothide.deb
+Size: 59996
+MD5sum: 7c297e24a20365b71fc189721e9430c5
+SHA1: 
+SHA256: a5718eedf2a4dd05a3431ca9aa73aad5e6261ce1c1eb2a66be4a02734bb8592d
+
+Package: iya.banana.dynamicmusicbg
+Name: DynamicMusicBG
+Description: Album-art-driven animated color fields for Lock Screen Now Playing on iOS 15 through iOS 18.根据当前音乐封面，在锁屏正在播放控件后方生成流动的动态色彩背景。
+Maintainer: banana
+Author: banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.15
+Installed-Size: 500
+icon: https://huayuarc.github.io/icon/DynamicMusicBG.png
+Filename: debs/iya.banana.dynamicmusicbg-1.0.15-rootless.deb
+Size: 60048
+MD5sum: 9fc8c38f26149fbb2bd726a06a571d4b
+SHA1: 
+SHA256: 8553a070b77e07f9a4ad4488d23f48574810c706da6d796dc8297a6d15ba883e
+
+Package: iya.banana.facetimeaudioenabler
+Name: FaceTime Audio Enabler
+Description: Enables FaceTime Audio with a scoped runtime override on iOS 15-17 and a guarded MobileGestalt workflow on iOS 18+. iOS 15-17 上启用 FaceTime 音频，并具有范围的运行时覆盖，在 iOS 18+ 上启用受保护的 MobileGestalt 工作流程。
+Maintainer: hxhlb
+Author: hxhlb
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Installed-Size: 832
+icon: https://huayuarc.github.io/icon/FaceTimeAudioEnabler.png
+Filename: debs/iya.banana.facetimeaudioenabler-1.0.6-roothide.deb
+Size: 66880
+MD5sum: cdbad160dce670d99fb5cd1bf19ebaa6
+SHA1: 
+SHA256: 205364d244fe9f977d81a3f1ce6801bc95586f8cb933a9101f4340150f6d85ef
+
+Package: iya.banana.facetimeaudioenabler
+Name: FaceTime Audio Enabler
+Description: Enables FaceTime Audio with a scoped runtime override on iOS 15-17 and a guarded MobileGestalt workflow on iOS 18+. iOS 15-17 上启用 FaceTime 音频，并具有范围的运行时覆盖，在 iOS 18+ 上启用受保护的 MobileGestalt 工作流程。
+Maintainer: hxhlb
+Author: hxhlb
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Installed-Size: 832
+icon: https://huayuarc.github.io/icon/FaceTimeAudioEnabler.png
+Filename: debs/iya.banana.facetimeaudioenabler-1.0.6-rootless.deb
+Size: 66976
+MD5sum: 30c5c5aed49857d850a916acb22d1f9a
+SHA1: 
+SHA256: bde81c4c929402e533f8c70a20b9ae85e8d33f615fb52fd056dcccdfb1c8e161
+
+Package: iya.banana.iphoneduoicon
+Name: iPhoneDuoIcon
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、Wi-Fi、蜂窝信号三合一，支持双卡独立信号显示。
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64e
+Version: 0.1.6
+Installed-Size: 540
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-0.1.6-roothide.deb
+Size: 65640
+MD5sum: b82c8d5243736bfaa58ef2e7aded257d
+SHA1: 
+SHA256: d556cd18fc343e6c3bd6196563805b7581ee622ee047ecb0b48baf9bec55041a
+
+Package: iya.banana.iphoneduoicon
+Name: iPhoneDuoIcon
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、Wi-Fi、蜂窝信号三合一，支持双卡独立信号显示。
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64
+Version: 0.1.6
+Installed-Size: 556
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-0.1.6-rootless.deb
+Size: 67624
+MD5sum: 6a38eac40442dc5f8629f84c97109359
+SHA1: 
+SHA256: 4eea9a373987eb289feb2c55d82c59d60b5b9e5b82a6437dbb70f016a17dc285
+
+Package: iya.banana.jumpguard
+Name: JumpGuard
+Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Installed-Size: 1620
+icon: https://huayuarc.github.io/icon/JumpGuard.png
+Filename: debs/iya.banana.jumpguard-0.1.1-roothide.deb
+Size: 518780
+MD5sum: 8b7f7bfe677e37891472462c021786f6
+SHA1: 
+SHA256: 8a529845282ec46f7ddbbbb149ee080d0b9308010033792b9a8a98954d3060b5
+
+Package: iya.banana.jumpguard
+Name: JumpGuard
+Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Installed-Size: 1620
+icon: https://huayuarc.github.io/icon/JumpGuard.png
+Filename: debs/iya.banana.jumpguard-0.1.1-rootless.deb
+Size: 521100
+MD5sum: 8a3a7ed37f50350826d9788a760f28e8
+SHA1: 
+SHA256: 82d3da376daa2023c3e0a81a71ee727f6a9a30f48aeadec9b35adf2855ec3013
+
+Package: iya.banana.lenticularwallpaper
+Name: Lenticular Wallpaper
+Description: 趣味壁纸，为 SpringBoard 提供重力感应的多层、APNG、转场与光照壁纸效果。 / Fun Wallpaper with gravity-driven layered, APNG, transition, and lighting effects for SpringBoard.
+Maintainer: banana
+Author: banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64e
+Version: 0.0.9
+Installed-Size: 616
+icon: https://huayuarc.github.io/icon/LenticularWallpaper.png
+Filename: debs/iya.banana.lenticularwallpaper-0.0.9-roothide.deb
+Size: 78752
+MD5sum: 1df41186e7359843be80590fb49240be
+SHA1: 
+SHA256: e1db61d4e36b48dd8ab4739d647d564496d61dd980692a2499f4493c05338610
+
+Package: iya.banana.lenticularwallpaper
+Name: Lenticular Wallpaper
+Description: 趣味壁纸，为 SpringBoard 提供重力感应的多层、APNG、转场与光照壁纸效果。 / Fun Wallpaper with gravity-driven layered, APNG, transition, and lighting effects for SpringBoard.
+Maintainer: banana
+Author: banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64
+Version: 0.0.9
+Installed-Size: 616
+icon: https://huayuarc.github.io/icon/LenticularWallpaper.png
+Filename: debs/iya.banana.lenticularwallpaper-0.0.9-rootless.deb
+Size: 79000
+MD5sum: edef7af7498254854a15d973732d0f7b
+SHA1: 
+SHA256: 3c643ca0d945d40db1c5874408b785333d18f0f815958be1a04dfb256d96830d
+
+Package: iya.banana.openspace
+Name: OpenSpace
+Description: Bring free Home Screen placement and native widget resizing to iOS 17 while preserving the system layout.ios 17.0-17.3.1 上实现主屏幕自由布局与小组件尺寸切換。
+Maintainer: banana
+Author: banana
+Section: Tweaks
+Depends: firmware (>= 17.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: iya.banana.ios18sb
+Replaces: iya.banana.ios18sb
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Installed-Size: 1248
+icon: https://huayuarc.github.io/icon/OpenSpace.png
+Filename: debs/iya.banana.openspace-0.1.3-roothide.deb
+Size: 358492
+MD5sum: 3f5d3d5b806d6f873ef7decbdaaa6432
+SHA1: 
+SHA256: 46869b4d7e82528a3091a1b8d2c7e17b10683ded93757d4bf9607f7855e550a3
+
+Package: iya.banana.openspace
+Name: OpenSpace
+Description: Bring free Home Screen placement and native widget resizing to iOS 17 while preserving the system layout.ios 17.0-17.3.1 上实现主屏幕自由布局与小组件尺寸切換。
+Maintainer: banana
+Author: banana
+Section: Tweaks
+Depends: firmware (>= 17.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: iya.banana.ios18sb
+Replaces: iya.banana.ios18sb
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Installed-Size: 1248
+icon: https://huayuarc.github.io/icon/OpenSpace.png
+Filename: debs/iya.banana.openspace-0.1.3-rootless.deb
+Size: 361804
+MD5sum: 9b1a1f42dc9eb43a5abe7aea4be18a49
+SHA1: 
+SHA256: 7ed5949516c6ea3433377e00dc79d7cfda2abae0abd4c7dda69a811a123c5d1f
 
 Package: iya.banana.spatialscene
 Name: SpatialScene
