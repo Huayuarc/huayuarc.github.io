@@ -3664,6 +3664,76 @@ MD5sum: 52af048b8bd7bf259e8afb06f1a65828
 SHA1: 
 SHA256: f597483d84419e609e114e90bfb7fb873122b19421eb5a061808258347830f64
 
+Package: com.binglan.kongzhidiy
+Name: CCPrimeX
+Section: Tweaks
+Maintainer: binglan
+Author: binglan
+Description: 控制中心中心美化？
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 2.3.3-end
+Installed-Size: 3028
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.binglan.kongzhidiy-2.3.3-end-roothide.deb
+Size: 813104
+MD5sum: bb6aac981e1a2c708ac4c292fdfb2cd9
+SHA1: 
+SHA256: fa6fb01d5d2699f573602a2ee1a204c438a6ffe68ab6f09a5fc779745921bd0c
+
+Package: com.binglan.kongzhidiy
+Name: CCPrimeX
+Section: Tweaks
+Maintainer: binglan
+Author: binglan
+Description: 控制中心中心美化？
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 2.3.3-end
+Installed-Size: 3028
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+Filename: debs/com.binglan.kongzhidiy-2.3.3-end-rootless.deb
+Size: 816276
+MD5sum: 9ecfa3ad63167d5203efbedd34cf9e42
+SHA1: 
+SHA256: ca6454dc08a1f9bcdefa0f5d9f68a26d0c4811caeac5e741903647cf7ac279c0
+
+Package: com.binglan.kongzhidiy
+Name: CCPrimeX
+Section: Tweaks
+Maintainer: binglan
+Author: binglan
+Description: 控制中心中心美化？
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+Architecture: iphoneos-arm64e
+Version: 2.3.6-end
+Installed-Size: 8024
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.binglan.kongzhidiy-2.3.6-end-roothide.deb
+Size: 3733296
+MD5sum: 7c881c8b252f9f1a33f909ebbbbe44fb
+SHA1: 
+SHA256: 7fa738c9656cb092ce6d995210025d3110b7ea77466591bca0864936569675e3
+
+Package: com.binglan.kongzhidiy
+Name: CCPrimeX
+Section: Tweaks
+Maintainer: binglan
+Author: binglan
+Description: 控制中心中心美化？
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+Architecture: iphoneos-arm64
+Version: 2.3.6-end
+Installed-Size: 8024
+Filename: debs/com.binglan.kongzhidiy-2.3.6-end-rootless.deb
+Size: 3739616
+MD5sum: 08a71c77d5c704436e811c0e2b48f356
+SHA1: 
+SHA256: 6610555adbb206f8cf6cbab512932eebbdd52c34ceb93a3f4365cd95e6907523
+
 Package: com.binglanqjsy.deb
 Name: 全局水印
 Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
