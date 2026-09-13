@@ -25160,6 +25160,60 @@ MD5sum: 232031bb570fb6c0453f696f2d2e8210
 SHA1: 
 SHA256: 881d1f3545d663133ba3724d898e2f5a1dc38cc7734e5c2267dd1fb69339578b
 
+Package: com.udevs.vedette
+Name: Vedette
+Description: Monitor CPU hogging processes
+Maintainer: udevs
+Author: udevs
+Section: Tweaks
+Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
+Architecture: iphoneos-arm64e
+Version: 1.1.10
+Installed-Size: 576
+Filename: debs/com.udevs.vedette-1.1.10-roothide.deb
+Size: 82916
+MD5sum: 330980f036df6130c4dcafb5afcc3f4c
+SHA1: 
+SHA256: ce4c95d08112167497dc5df859dc6c626601f0318509c94d8482388c68bb33d4
+
+Package: com.udevs.vedette
+Name: Vedette
+Description: Monitor CPU hogging processes
+Maintainer: udevs
+Author: udevs
+Section: Tweaks
+Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
+Architecture: iphoneos-arm64e
+Version: 1.1.4
+Installed-Size: 504
+Filename: debs/com.udevs.vedette-1.1.4-roothide.deb
+Size: 66464
+MD5sum: 0f4883d4f5af4b88b6046d7962f29426
+SHA1: 
+SHA256: 8666858a5fda371d70e14f99ab12ce27183e01b76059ceff87092dbc3c96012b
+
+Package: com.udevs.vedette
+Name: Vedette
+Description: Monitor CPU hogging processes
+Maintainer: udevs
+Author: udevs
+Section: Tweaks
+Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Installed-Size: 504
+Filename: debs/com.udevs.vedette-1.1.5-roothide.deb
+Size: 70088
+MD5sum: 739b929439b88bcc5786f4c8e703f36e
+SHA1: 
+SHA256: 0daab3cd60ba599cbd53361e6c08996fabc95e58aa30802cb4c2df34796808dd
+
 Package: com.vanson.modifier
 Name: VansonModifier
 Description: Vanson U Know?
@@ -27241,6 +27295,44 @@ Size: 980360
 MD5sum: 73d963d46b5af125fa7bc9a98b987afe
 SHA1: 
 SHA256: 6d45c34c30e476f0ec3a45cfe36313af46b846c26932abfca6ff6e8ea8970768
+
+Package: jp.dcsyhi.culprit
+Name: Culprit
+Depends: firmware (>=15.0)
+Description: 按进程分组查看崩溃报告，点开可看概要、崩溃栈、工程摘要和 .ips 全文。中文汉化：灰灰 与 MIAO。配色与排版参考 slog (Ethan Arbuckle, https://github.com/EthanArbuckle/slog)。
+Icon: https://dcsyhi1998.github.io/icons/Culprit/Culprit.png
+Maintainer: 灰灰 (汉化维护)
+Author: Dcsyhi
+Section: Utilities
+Architecture: iphoneos-arm64e
+Version: 1.0.0-zh
+Installed-Size: 1172
+Translator: 灰灰 与 MIAO (=^･ω･^=)
+Filename: debs/jp.dcsyhi.culprit-1.0.0-zh-roothide.deb
+Size: 694268
+MD5sum: d4a4e2859d4b61030eb7c5e4989c0785
+SHA1: 
+SHA256: 500ba205903d9f830c38035f5f337e9134a3996c0a8da97edaeb0e6512da1e95
+
+Package: jp.dcsyhi.culprit
+Name: Culprit
+Depends: firmware (>=15.0)
+Description: 按进程分组查看崩溃报告，点开可看概要、崩溃栈、工程摘要和 .ips 全文。中文汉化：灰灰 与 MIAO。配色与排版参考 slog (Ethan Arbuckle, https://github.com/EthanArbuckle/slog)。
+Depiction: https://dcsyhi1998.github.io/depiction/Culprit.html
+SileoDepiction: https://dcsyhi1998.github.io/Sileodepiction/Culprit.json
+Icon: https://dcsyhi1998.github.io/icons/Culprit/Culprit.png
+Maintainer: 灰灰 (汉化维护)
+Author: Dcsyhi
+Section: Utilities
+Architecture: iphoneos-arm64e
+Version: 1.0.1-zh
+Installed-Size: 500
+Translator: 灰灰 与 MIAO (=^･ω･^=)
+Filename: debs/jp.dcsyhi.culprit-1.0.1-zh-roothide.deb
+Size: 156720
+MD5sum: a038a01534c8fead76aca0d917c6fd43
+SHA1: 
+SHA256: 26327e229dad6b690a522220736715a3bd8b98c197901f6508b0916349c8ae2d
 
 Package: jp.r-plus.sleipnizer5.rootless
 Version: 12.0.1
