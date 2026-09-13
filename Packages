@@ -24853,6 +24853,26 @@ MD5sum: f0bef5d750c7f27dd59a7422aecb699d
 SHA1: 
 SHA256: a209dfdc1c286ba206f09a2167efd4b340d6f7de088590a662e7c194e7fc48a0
 
+Package: com.tsangbaby.randomiconsflip
+Name: Random Icon Flip
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: Randomly flips visible Home Screen icons. Swift-core rewrite for iOS 15 and later.随机翻转可见的主屏幕图标。适用于iOS 15及更高版本的Swift-core重写。
+Maintainer: Tsangbaby
+Author: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/RandomIconFlip.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.randomiconsflip/depiction.json
+Conflicts: net.limneos.randomiconsflip
+Replaces: net.limneos.randomiconsflip
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Installed-Size: 140
+Filename: debs/com.tsangbaby.randomiconsflip-0.0.5-roothide.deb
+Size: 28632
+MD5sum: e1505b718489c9066bd6331c04cf40b2
+SHA1: 
+SHA256: 0e4bd3183019ee217e009f3f2d203ad35db68f96b50c2ef040aff3276b85952b
+
 Package: com.tune.h3kbhook
 Name: 元书输入法 Hooks
 Description: stable h3kb pro unlock package for app and keyboard extension
@@ -26681,6 +26701,42 @@ Size: 66976
 MD5sum: 30c5c5aed49857d850a916acb22d1f9a
 SHA1: 
 SHA256: bde81c4c929402e533f8c70a20b9ae85e8d33f615fb52fd056dcccdfb1c8e161
+
+Package: iya.banana.iphoneduoicon
+Name: iPhoneDuoIcon
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、Wi-Fi、蜂窝信号三合一，支持双卡独立信号显示。
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64e
+Version: 0.1.13
+Installed-Size: 616
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-0.1.13-roothide.deb
+Size: 80156
+MD5sum: 96e394bde7caa1d9499c05bc47962385
+SHA1: 
+SHA256: 33d951a1359476efcee598b03e8ac019f9ce77e6c2876c760db306208006d45e
+
+Package: iya.banana.iphoneduoicon
+Name: iPhoneDuoIcon
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、Wi-Fi、蜂窝信号三合一，支持双卡独立信号显示。
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64
+Version: 0.1.13
+Installed-Size: 616
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-0.1.13-rootless.deb
+Size: 81952
+MD5sum: e0c48a6a539b9f862fd4964a8ad68b08
+SHA1: 
+SHA256: 59f97b9c5832d412ca71be5f51024577e1002e6ed6bf85c8fe5bad3d6c32417d
 
 Package: iya.banana.iphoneduoicon
 Name: iPhoneDuoIcon
@@ -30445,6 +30501,41 @@ Size: 212220
 MD5sum: 0dbd5cc6266c3bd7fba03c4cfd6df126
 SHA1: 
 SHA256: 6e64e478906f670a1782357bf540ffeb755a7cda752fcba280de2e3227fc671f
+
+Package: xyz.cypwn.prism
+Maintainer: CyPwn
+icon: https://huayuarc.github.io/icon/Prism.png
+Name: Prism
+Description: Capture, annotate, scrolling screenshots, OCR, translate, and pin. Cracked by Nya 捕获、注释、滚动屏幕截图、OCR、翻译和固定。
+Author: blacknoisy
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Conflicts: cn.blacknoisy.prism
+Architecture: iphoneos-arm64e
+Version: 1.4.2k
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.prism-1.4.2k-roothide.deb
+Size: 912224
+MD5sum: 8950080ac82768afc90cea29b6632c19
+SHA1: 
+SHA256: 4aa389fabfe2375c120bdd534e812f74046ff44022106b38ad769aa42abc72a4
+
+Package: xyz.cypwn.prism
+Maintainer: CyPwn
+icon: https://huayuarc.github.io/icon/Prism.png
+Name: Prism
+Description: Capture, annotate, scrolling screenshots, OCR, translate, and pin. Cracked by Nya 捕获、注释、滚动屏幕截图、OCR、翻译和固定。
+Author: blacknoisy
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Conflicts: cn.blacknoisy.prism
+Architecture: iphoneos-arm64
+Version: 1.4.2k
+Filename: debs/xyz.cypwn.prism-1.4.2k-rootless.deb
+Size: 911968
+MD5sum: 901ae2937ddce9d4f47af047da2ed0a1
+SHA1: 
+SHA256: d2a4eae7faa1449640eaf73a0c2a4345bcc6146a0b63c45cadf284fd22b942e5
 
 Package: xyz.cypwn.python314
 Maintainer: CyPwn
