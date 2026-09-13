@@ -3629,40 +3629,145 @@ MD5sum: b443d54832728b0d51a32f4f535ce474
 SHA1: 
 SHA256: 47affbb955d63a116bc47517ad699e893aa818e6dd31125cab326b9b513ade5f
 
+Maintainer: 冰蓝
+Section: Tweaks
+Name: DynamicFX
+Version: 1.0.7
+Package: com.binglan.dynamicfx
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Author: 冰蓝
+Installed-Size: 772
+Architecture: iphoneos-arm64e
+Pre-Depends: rootless-compat (>= 0.9)
+Icon: https://huayuarc.github.io/icon/DynamicFX.png
+Description: DynamicFX 用于美化 iPhone 灵动岛，支持自定义灵动岛背景、颜色、透明度、圆角以及过渡动画。
+Filename: debs/com.binglan.dynamicfx-1.0.7-roothide.deb
+Size: 113380
+MD5sum: 7918930acf22f9b0c5da2c3966ce70c8
+SHA1: 
+SHA256: 98bbeb84c34e1c83d91e032c4c99973bb7647b4bba8212411ffb7d95cd534bcd
+
+Maintainer: 冰蓝
+Section: Tweaks
+Name: DynamicFX
+Version: 1.0.7
+Package: com.binglan.dynamicfx
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Author: 冰蓝
+Installed-Size: 772
+Architecture: iphoneos-arm64
+Icon: https://huayuarc.github.io/icon/DynamicFX.png
+Description: DynamicFX 是一款灵动岛美化插件，可自由修改灵动岛背景颜色、透明度、圆角大小、过渡动画。
+Filename: debs/com.binglan.dynamicfx-1.0.7-rootless.deb
+Size: 116088
+MD5sum: 52af048b8bd7bf259e8afb06f1a65828
+SHA1: 
+SHA256: f597483d84419e609e114e90bfb7fb873122b19421eb5a061808258347830f64
+
 Package: com.binglan.kongzhidiy
-Name: 控制中心美化
+Name: CCPrimeX
 Section: Tweaks
 Maintainer: binglan
 Author: binglan
-Description: 这是一个简单的控制中心美化插件。
+Description: 控制中心中心美化？
 Depends: mobilesubstrate, firmware (>= 15.0)
 Architecture: iphoneos-arm64e
 Version: 2.3.3-end
 Installed-Size: 3028
-icon: https://huayuarc.github.io/icon/komgzhimh.jpg
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.binglan.kongzhidiy-2.3.3-end-roothide.deb
-Size: 671608
-MD5sum: 0d66448038b0c616c9346242f14eadb4
+Size: 813136
+MD5sum: 1e0fedfff1647caeed66e565574274d7
 SHA1: 
-SHA256: b0b229dfe613a170e56cd765cccc7a24301cb5c61ee16d1138cea9413f76cbcc
+SHA256: 656d77e10474c12e7e8a41ee58c92dd07a5ec45d91f2f1633a150b6bcc10d8f0
 
 Package: com.binglan.kongzhidiy
-Name: 控制中心美化
+Name: CCPrimeX
 Section: Tweaks
 Maintainer: binglan
 Author: binglan
-Description: 这是一个简单的控制中心美化插件。
+Description: 控制中心中心美化？
 Depends: mobilesubstrate, firmware (>= 15.0)
 Architecture: iphoneos-arm64
 Version: 2.3.3-end
 Installed-Size: 3028
-icon: https://huayuarc.github.io/icon/komgzhimh.jpg
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
 Filename: debs/com.binglan.kongzhidiy-2.3.3-end-rootless.deb
-Size: 674356
-MD5sum: 36c624733fd665b20b75e594433ee005
+Size: 816076
+MD5sum: e44b064265654855b9ef959be28ed58d
 SHA1: 
-SHA256: a95fcbccee17c794129b84feb7766aa878fca2fe6049559383e58b4d917a17d9
+SHA256: 14fc3819930f5887760f1974d0b698c6c1b5d3973f2bcf9a1775f1f0168dc5fc
+
+Package: com.binglan.kongzhidiy
+Name: CCPrimeX
+Section: Tweaks
+Maintainer: binglan
+Author: binglan
+Description: 控制中心中心美化？
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+Architecture: iphoneos-arm64e
+Version: 2.3.6-end
+Installed-Size: 8024
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.binglan.kongzhidiy-2.3.6-end-roothide.deb
+Size: 3733740
+MD5sum: 9ec01f6e56a85bb12da545e024cd0477
+SHA1: 
+SHA256: 021f412aced55c7a9f0de35a93fb6fc743eab431ecb5f9f676e2b97e324ea320
+
+Package: com.binglan.kongzhidiy
+Name: CCPrimeX
+Section: Tweaks
+Maintainer: binglan
+Author: binglan
+Description: 控制中心中心美化？
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+icon: https://huayuarc.github.io/icon/binglanKongzhi.png
+Architecture: iphoneos-arm64
+Version: 2.3.6-end
+Installed-Size: 8024
+Filename: debs/com.binglan.kongzhidiy-2.3.6-end-rootless.deb
+Size: 3739420
+MD5sum: 418a6317d96486f3cc10190fb313cdfb
+SHA1: 
+SHA256: f02a349eabc581959c4c14603fdbdf5ff0c0ca45abe65f88038092bd46cad132
+
+Package: com.binglanqjsy.deb
+Name: 全局水印
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
+Maintainer: 冰蓝
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Section: Tweaks
+Author: 冰蓝
+Architecture: iphoneos-arm64e
+Version: 3.0.0
+Installed-Size: 908
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/IceBlue.png
+Filename: debs/com.binglanqjsy.deb-3.0.0-roothide.deb
+Size: 160164
+MD5sum: 396fd40e77da31b4802fd9ffcb2eed79
+SHA1: 
+SHA256: 8995054c241a419c169d4f926815db6c1857c35a552d7eef9ba71e8cb566dc7c
+
+Package: com.binglanqjsy.deb
+Name: 全局水印
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
+Maintainer: 冰蓝
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Section: Tweaks
+Author: 冰蓝
+Architecture: iphoneos-arm64
+Version: 3.0.0
+Installed-Size: 908
+icon: https://huayuarc.github.io/icon/IceBlue.png
+Filename: debs/com.binglanqjsy.deb-3.0.0-rootless.deb
+Size: 163872
+MD5sum: d646cfc06345a96844daa52aff6e838e
+SHA1: 
+SHA256: b147ad4e908511aac94dc96cc6e9f6dc9b7b8dc34e948fa40c0188acb467c357
 
 Package: com.boss.wctweak
 Name: 微信手势增强
@@ -6538,8 +6643,8 @@ SHA1:
 SHA256: d51a389aa11657367c3cddd011e1196dd53a3410fa2ba71d73a85f9607f6b29f
 
 Package: com.gyddpu.keyboardhook
-Name: KeyboardHook 原生输入法自定义
-Description: 关于系统输入法和微信输入法的一些自定义，包括：键盘背景自定义、预选词语自定义；付费插件，仅做个人备份。
+Name: KeyboardHook
+Description: 关于系统输入法和微信输入法的一些自定义，包括：键盘背景自定义、预选词语自定义。
 Maintainer: t.me/gyddpu
 Author: t.me/gyddpu
 Section: Tweaks
@@ -6547,19 +6652,17 @@ Depends: mobilesubstrate, firmware (>= 15.0)
 Architecture: iphoneos-arm64e
 Version: 2.1-3+debug
 Installed-Size: 524
-Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/keyboardhook.png
-Filename: debs/com.gyddpu.keyboardhook
--2.1-3+debug
--roothide.deb
-Size: 43164
-MD5sum: 303cc47374e96d6619eadeb043cadf52
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.gyddpu.keyboardhook-2.1-3+debug-roothide.deb
+Size: 45336
+MD5sum: 5efbfa79223dcea28d2ad9e592f30819
 SHA1: 
-SHA256: d486ed83fb66c32c58512b12de143b1f51da394ed0d90fca5b34cc9b5d0bb819
+SHA256: ca828bea83fe8eaa36727aeb20f4d1caf500844d3f7bdbcb3fbac5ee42fb4462
 
 Package: com.gyddpu.keyboardhook
-Name: KeyboardHook 原生输入法自定义
-Description: 关于系统输入法和微信输入法的一些自定义，包括：键盘背景自定义、预选词语自定义；付费插件，仅做个人备份。
+Name: KeyboardHook
+Description: 关于系统输入法和微信输入法的一些自定义，包括：键盘背景自定义、预选词语自定义。
 Maintainer: t.me/gyddpu
 Author: t.me/gyddpu
 Section: Tweaks
@@ -6568,13 +6671,11 @@ Architecture: iphoneos-arm64
 Version: 2.1-3+debug
 Installed-Size: 524
 icon: https://huayuarc.github.io/icon/keyboardhook.png
-Filename: debs/com.gyddpu.keyboardhook
--2.1-3+debug
--rootless.deb
-Size: 43548
-MD5sum: 662d8891d0f4fe1aee436a1ed8c0e948
+Filename: debs/com.gyddpu.keyboardhook-2.1-3+debug-rootless.deb
+Size: 43400
+MD5sum: 44d262a0aa67a57ef4983f423733fda7
 SHA1: 
-SHA256: 57c09b158b4536870ae4bd54a247877a30c4641bac61e3f814c5aab6e77123d4
+SHA256: d15a93ec7b8f51a256553459eaab4b8a18642c7d795bb99879ce8eb5e0993144
 
 Package: com.hang.squidgesturepro-ios17fix
 Name: 乌贼手势 iOS 17 补丁
