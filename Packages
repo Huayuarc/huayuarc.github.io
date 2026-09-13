@@ -15864,6 +15864,76 @@ MD5sum: 302320625031da11854ba8fea8519906
 SHA1: 
 SHA256: 503b68a870f097058355c0801549ec9885c8368325701ae5542160e4d46ccef6
 
+Package: com.netskao.ccsim
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Netskao
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Installed-Size: 188
+Name: CCSIM
+Author: Netskao
+Pre-Depends: rootless-compat (>= 0.9)
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+Description: 控制中心快速启用或禁用其中一张SIM卡
+Filename: debs/com.netskao.ccsim-1.1-9-roothide.deb
+Size: 23532
+MD5sum: 492f7306a19f3f6f593b1edae6961069
+SHA1: 
+SHA256: eaf7bad0384c398b9a04506b17bb8bb235cf18f10955a3728a2aa63ebc59f68d
+
+Package: com.netskao.ccsim
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Netskao
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Installed-Size: 188
+Name: CCSIM
+Author: Netskao
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+Description: 控制中心快速启用或禁用其中一张SIM卡
+Filename: debs/com.netskao.ccsim-1.1-9-rootless.deb
+Size: 23452
+MD5sum: 5a6b6656aa451b5fdbef3dcfd8942677
+SHA1: 
+SHA256: ae2935153a017daf16321742cb38205b86782b253ebfe601972215f44a4b4980
+
+Package: com.netskao.ccswitchdata
+Version: 1.1-4
+Section: Tweaks
+Maintainer: Netskao
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Installed-Size: 132
+Name: CCswitchdata
+Author: Netskao
+Pre-Depends: rootless-compat (>= 0.9)
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+Description: 控制中心切换双卡流量
+Filename: debs/com.netskao.ccswitchdata-1.1-4-roothide.deb
+Size: 20920
+MD5sum: 24bbaf4ff4c1c89a013e7d914a68854e
+SHA1: 
+SHA256: a328929ef86dfaeeafff67034697b79c1701101a2571d02c0c84042ecfadcd47
+
+Package: com.netskao.ccswitchdata
+Version: 1.1-4
+Section: Tweaks
+Maintainer: Netskao
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Installed-Size: 132
+Name: CCswitchdata
+Author: Netskao
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+Description: 控制中心切换双卡流量
+Filename: debs/com.netskao.ccswitchdata-1.1-4-rootless.deb
+Size: 20764
+MD5sum: b4501050fd9925a088f622709cd6f9dc
+SHA1: 
+SHA256: 2d8ccfa181f71737889f4c25533e9b7b46f33417b14f906382d1ab399d6b37f0
+
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.dazzcameracrack
 Package: com.netskao.dazzcameracrack
 Name: DazzCamera Crack
