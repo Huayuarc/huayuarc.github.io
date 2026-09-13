@@ -27589,41 +27589,6 @@ MD5sum: 66c602dad1ab5155c0aff0dbbe1aebf2
 SHA1: 
 SHA256: ed19b973e41687e039c515b40879a7617df0a35b0cdbd348c1287239240cbf42
 
-Package: me.tomt000.stageduo
-Name: Dynamic Stage VH
-Architecture: iphoneos-arm64e
-Description: Stage Manager Reimagined for iPhone 面向 iPhone 的 Stage Manager 重新构想
-Maintainer: tomt000
-Author: tomt000
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
-Version: 1.3K
-icon: https://huayuarc.github.io/icon/stageduo.png
-Installed-Size: 4900
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/me.tomt000.stageduo-1.3K-roothide.deb
-Size: 3064400
-MD5sum: 60bfe5c8d4793df77682bf3c0a319450
-SHA1: 
-SHA256: 544c146dc0a142135492f38503d70869f4149c5b6d9da93da5ea0365c7e0e496
-
-Package: me.tomt000.stageduo
-Name: Dynamic Stage VH
-Architecture: iphoneos-arm64
-Description: Stage Manager Reimagined for iPhone 面向 iPhone 的 Stage Manager 重新构想
-Maintainer: tomt000
-Author: tomt000
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
-Version: 1.3K
-icon: https://huayuarc.github.io/icon/stageduo.png
-Installed-Size: 4900
-Filename: debs/me.tomt000.stageduo-1.3K-rootless.deb
-Size: 3075184
-MD5sum: 5e97fb39bf4d3e3c08e9ff3b01f9512a
-SHA1: 
-SHA256: 367815299c4f85a4f6a67742e5ed374ab26836f391c3afde4219e4d6643cf52c
-
 Package: net.p0358.disintegratelock
 Section: Tweaks
 Installed-Size: 488
