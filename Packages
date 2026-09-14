@@ -8449,6 +8449,43 @@ Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
 Author: Huayuarc
 Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Mr li
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-98
+Installed-Size: 1936
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.huayuarc.cputhermal-1.6.2-98-roothide.deb
+Size: 156752
+MD5sum: d0f01f480ec14062ed2953e3c1738daa
+SHA1: 
+SHA256: 25e9ea16701482670955ed08205c584b0d26f8df30f8fe6da0ea1ded1da95c22
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Mr li
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-98
+Installed-Size: 1936
+Filename: debs/com.huayuarc.cputhermal-1.6.2-98-rootless.deb
+Size: 161832
+MD5sum: 6910a9bf32fb0cd68a123e0130b2dadd
+SHA1: 
+SHA256: d0a1037f77fcfa091a68cf312e5b025243c20da3fd7f3b2e87e1c6d758ac78a7
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Maintainer: Huayuarc
 Section: Tweaks
@@ -30514,7 +30551,8 @@ Conflicts: cn.blacknoisy.prism
 Architecture: iphoneos-arm64e
 Version: 1.4.2k
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/xyz.cypwn.prism-1.4.2k-roothide.deb
+Filename: debs/xyz.cypwn.prism-1.4.2k
+-roothide.deb
 Size: 912224
 MD5sum: 8950080ac82768afc90cea29b6632c19
 SHA1: 
@@ -30531,7 +30569,8 @@ Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
 Conflicts: cn.blacknoisy.prism
 Architecture: iphoneos-arm64
 Version: 1.4.2k
-Filename: debs/xyz.cypwn.prism-1.4.2k-rootless.deb
+Filename: debs/xyz.cypwn.prism-1.4.2k
+-rootless.deb
 Size: 911968
 MD5sum: 901ae2937ddce9d4f47af047da2ed0a1
 SHA1: 
