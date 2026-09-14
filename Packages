@@ -30474,43 +30474,6 @@ MD5sum: 0dbd5cc6266c3bd7fba03c4cfd6df126
 SHA1: 
 SHA256: 6e64e478906f670a1782357bf540ffeb755a7cda752fcba280de2e3227fc671f
 
-Package: xyz.cypwn.prism
-Maintainer: CyPwn
-icon: https://huayuarc.github.io/icon/Prism.png
-Name: Prism
-Description: Capture, annotate, scrolling screenshots, OCR, translate, and pin. Cracked by Nya 捕获、注释、滚动屏幕截图、OCR、翻译和固定。
-Author: blacknoisy
-Section: Tweaks
-Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
-Conflicts: cn.blacknoisy.prism
-Architecture: iphoneos-arm64e
-Version: 1.4.2k
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/xyz.cypwn.prism-1.4.2k
--roothide.deb
-Size: 912224
-MD5sum: 8950080ac82768afc90cea29b6632c19
-SHA1: 
-SHA256: 4aa389fabfe2375c120bdd534e812f74046ff44022106b38ad769aa42abc72a4
-
-Package: xyz.cypwn.prism
-Maintainer: CyPwn
-icon: https://huayuarc.github.io/icon/Prism.png
-Name: Prism
-Description: Capture, annotate, scrolling screenshots, OCR, translate, and pin. Cracked by Nya 捕获、注释、滚动屏幕截图、OCR、翻译和固定。
-Author: blacknoisy
-Section: Tweaks
-Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
-Conflicts: cn.blacknoisy.prism
-Architecture: iphoneos-arm64
-Version: 1.4.2k
-Filename: debs/xyz.cypwn.prism-1.4.2k
--rootless.deb
-Size: 911968
-MD5sum: 901ae2937ddce9d4f47af047da2ed0a1
-SHA1: 
-SHA256: d2a4eae7faa1449640eaf73a0c2a4345bcc6146a0b63c45cadf284fd22b942e5
-
 Package: xyz.cypwn.python314
 Maintainer: CyPwn
 Icon: https://huayuarc.github.io/icon/python.jpg
