@@ -17098,25 +17098,6 @@ MD5sum: 4abcfd7c7f5120c7304bcdef52221cae
 SHA1: 
 SHA256: bee95e98431f080bf67858ff079e209e8a48606c148ddded762e0a978cd04881
 
-Package: com.roothide.manager
-Name: RootHide Manager
-Depends: firmware (>= 15.0)
-Description: Configuare RootHide's Features
-Maintainer: roothide
-Author: roothide
-Section: System
-icon: https://huayuarc.github.io/icon/manager.png
-Depiction: https://github.com/roothide/RootHideManagerApp
-Support: https://github.com/roothide/RootHideManagerApp
-Architecture: iphoneos-arm64e
-Version: 2.0
-Installed-Size: 1968
-Filename: debs/com.roothide.manager-2.0-roothide.deb
-Size: 1154868
-MD5sum: f29d0f7f2028016e659369533eb3cd66
-SHA1: 
-SHA256: 550e05301858e81335d0b75b66ab34903e2f197f0cae9325fabb737eb3507627
-
 Package: com.rootless.patcher
 Name: RootHide Patcher
 Version: 2.1.4
