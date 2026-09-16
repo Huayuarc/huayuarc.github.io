@@ -2383,6 +2383,58 @@ MD5sum: de755646f26cdde9c681b3d57d6f1c40
 SHA1: 
 SHA256: 0f57070557b6d366a9ceec0eece5aa325e8c75c5ecaa05d392836433b3305f79
 
+Package: com.aa22qq.lockeventringer
+Name: LockEventRinger
+Description: 自动控制 iPhone 响铃静音状态，支持命令行静音控制与设置启动停止开关，控制中心开关,灵动岛/HUD 弹窗的自定义隐藏开关，添加锁屏时振动开关，添加铃声音量跟媒体音量控制。
+  系统兼容:
+   - 支持 iOS 15.0 至 iOS 17.x 
+  功能一 (LockEventRinger):
+   - 锁屏时自动开启响铃，解锁时自动恢复静音；内置状态校验逻辑，完美规避下拉通知中心。
+  功能二 (RingerManagerControl):
+   - 支持配合 Powercuts / RemoteCompanion / notifyutil 等控制静音状态与灵动岛 HUD 响应。
+   - 开启静音: notifyutil -p com.ringer.control.mute
+   - 关闭静音: notifyutil -p com.ringer.control.unmute
+   - 状态切换: notifyutil -p com.ringer.control.toggle
+Maintainer: aa22qq
+Author: aa22qq
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 15.0.0
+Installed-Size: 688
+icon: https://huayuarc.github.io/icon/lockeventringer.jpg
+Filename: debs/com.aa22qq.lockeventringer-15.0.0-roothide.deb
+Size: 41576
+MD5sum: c7c441ca7d80e1185cfff56d71a171bd
+SHA1: 
+SHA256: 26ef20f4dd65fa083bad7536a7262dfa59432482e624dbfc9dc800604970864b
+
+Package: com.aa22qq.lockeventringer
+Name: LockEventRinger
+Description: 自动控制 iPhone 响铃静音状态，支持命令行静音控制与设置启动停止开关，控制中心开关,灵动岛/HUD 弹窗的自定义隐藏开关，添加锁屏时振动开关，添加铃声音量跟媒体音量控制。
+  系统兼容:
+   - 支持 iOS 15.0 至 iOS 17.x 
+  功能一 (LockEventRinger):
+   - 锁屏时自动开启响铃，解锁时自动恢复静音；内置状态校验逻辑，完美规避下拉通知中心。
+  功能二 (RingerManagerControl):
+   - 支持配合 Powercuts / RemoteCompanion / notifyutil 等控制静音状态与灵动岛 HUD 响应。
+   - 开启静音: notifyutil -p com.ringer.control.mute
+   - 关闭静音: notifyutil -p com.ringer.control.unmute
+   - 状态切换: notifyutil -p com.ringer.control.toggle
+Maintainer: aa22qq
+Author: aa22qq
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 15.0.0
+Installed-Size: 688
+icon: https://huayuarc.github.io/icon/lockeventringer.jpg
+Filename: debs/com.aa22qq.lockeventringer-15.0.0-rootless.deb
+Size: 41656
+MD5sum: 167166844f2ae59aa7c135346be383ab
+SHA1: 
+SHA256: d6c6e543385cebb11f0328cd085e7b8647c5ad4c6971ac46add06903591eb862
+
 Package: com.abc3.vip.appsyncunified
 Version: 112.0
 Section: Tweaks
@@ -16989,6 +17041,25 @@ Size: 12716
 MD5sum: 4abcfd7c7f5120c7304bcdef52221cae
 SHA1: 
 SHA256: bee95e98431f080bf67858ff079e209e8a48606c148ddded762e0a978cd04881
+
+Package: com.roothide.manager
+Name: RootHide Manager
+Depends: firmware (>= 15.0)
+Description: Configuare RootHide's Features
+Maintainer: roothide
+Author: roothide
+Section: System
+icon: https://huayuarc.github.io/icon/manager.png
+Depiction: https://github.com/roothide/RootHideManagerApp
+Support: https://github.com/roothide/RootHideManagerApp
+Architecture: iphoneos-arm64e
+Version: 2.0
+Installed-Size: 1968
+Filename: debs/com.roothide.manager-2.0-roothide.deb
+Size: 1154868
+MD5sum: f29d0f7f2028016e659369533eb3cd66
+SHA1: 
+SHA256: 550e05301858e81335d0b75b66ab34903e2f197f0cae9325fabb737eb3507627
 
 Package: com.rootless.patcher
 Name: RootHide Patcher
