@@ -12131,7 +12131,7 @@ Description: 重新定义你的控制中心：自由调整模块布局，让常�
 Maintainer: chatgpt5.6（sol）, JaySuen
 Author: chatgpt5.6（sol）, JaySuen
 Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 16.0), firmware (<= 17.4)
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<= 17.4)
 Homepage: https://eleveny123.github.io/EvoCenter/
 Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
 Depiction: https://eleveny123.github.io/EvoCenter/
@@ -12142,10 +12142,10 @@ Architecture: iphoneos-arm64e
 Version: 2.0.0-beta.2-6
 Installed-Size: 9392
 Filename: debs/com.jaysuen.evocenter-2.0.0-beta.2-6-roothide.deb
-Size: 230104
-MD5sum: 51ea5425acce84fa0173d49017e96ab6
+Size: 230200
+MD5sum: 420a0e89d1e5c14085b40367aa22108b
 SHA1: 
-SHA256: 12a199561b58b622c085d2cb1f10f0249813dc23fac56b3e0d1cf7bd27b5b0b2
+SHA256: 048eafd12dde882871b5eb248e099a1b4f498dc4dd328a5260d8c5a729e5ed71
 
 Package: com.jaysuen.evocenter
 Name: Evo Center
@@ -12158,7 +12158,7 @@ Description: 重新定义你的控制中心：自由调整模块布局，让常�
 Maintainer: chatgpt5.6（sol）, JaySuen
 Author: chatgpt5.6（sol）, JaySuen
 Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 16.0), firmware (<= 17.4)
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<= 17.4)
 Homepage: https://eleveny123.github.io/EvoCenter/
 Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
 Depiction: https://eleveny123.github.io/EvoCenter/
@@ -12169,10 +12169,10 @@ Architecture: iphoneos-arm64
 Version: 2.0.0-beta.2-6
 Installed-Size: 9492
 Filename: debs/com.jaysuen.evocenter-2.0.0-beta.2-6-rootless.deb
-Size: 235200
-MD5sum: 05d90c0ab43bfcb3abf9c3bb1e2e2746
+Size: 235028
+MD5sum: 44f7f74962c34d384833b5c45eb62bb2
 SHA1: 
-SHA256: efac9f07996948663855d1abbe3bbbd564f99668ded88f07f154bf183dbc3a97
+SHA256: 6c86f6c693052704ee3e57df0eb9a66c811fa507f82d3af7ba26280f02a83eeb
 
 Package: com.jiuyue.lightisle
 Name: 灵动岛手电筒
