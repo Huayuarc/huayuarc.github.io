@@ -17564,6 +17564,40 @@ Package: com.sbcpu.floating
 Name: SB CPU Floating
 Maintainer: MoWang
 Author: MoWang
+Description: 新增网络频段锁定(Beta)：长按详情-蜂窝详情-网络工具进入，按卡勾选5G NR/4G LTE/3G/2G频段并真实下发基带(setActiveBandInfo)，支持全选/全不选、保存应用、恢复默认，无基带SPI权限时明示错误；另含浮窗信号行增强(运营商+dBm+频段+SA/NSA)与蜂窝详情页(信号质量/基站参数/IMEI)
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.20.0
+Installed-Size: 2228
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.20.0-roothide.deb
+Size: 307656
+MD5sum: 916d6a9400ff6837396e504583dedb2a
+SHA1: 
+SHA256: eff0f1e74ed693bb4f2040ed917cf3f5aadf446d69cafc912f69dc727f23f94d
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: 新增网络频段锁定(Beta)：长按详情-蜂窝详情-网络工具进入，按卡勾选5G NR/4G LTE/3G/2G频段并真实下发基带(setActiveBandInfo)，支持全选/全不选、保存应用、恢复默认，无基带SPI权限时明示错误；另含浮窗信号行增强(运营商+dBm+频段+SA/NSA)与蜂窝详情页(信号质量/基站参数/IMEI)
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 4.20.0
+Installed-Size: 2228
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.20.0-rootless.deb
+Size: 312520
+MD5sum: 97e38977534dfc90e25cb33cd928919a
+SHA1: 
+SHA256: de479236baf5da6c3f08d13d756899ca6b8f535f0282056b97e7c7ab95c3c6d8
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
 Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; preserves ChargeBoost and Force Fast Charge controls
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
