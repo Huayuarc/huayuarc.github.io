@@ -4302,6 +4302,42 @@ MD5sum: 375ce09dfaf03e00ccfc38ed972f8c0b
 SHA1: 
 SHA256: 45c9b5e466589b6bb37a2af36902dfd3bccf4144062af7d6d9c19e6df4baaa7a
 
+Package: com.colorblack.bottomx.floatingball
+Name: Bottom-x 悬浮球
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动淡回低透明度，不遮挡界面
+ - 内置哆啦A梦圆形图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【已知问题】
+ - 桌面悬浮球暂无法去除（透明度已调至很低，基本不影响使用，有强迫症者请谨慎安装）
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 17.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+icon: https://huayuarc.github.io/icon/Bottom.png
+Architecture: iphoneos-arm64e
+Version: 6.37
+Installed-Size: 804
+Filename: debs/com.colorblack.bottomx.floatingball-6.37-roothide.deb
+Size: 403516
+MD5sum: 50f8281feebc8eef8cd5c298bd9fb0eb
+SHA1: 
+SHA256: a66b82bd1e5e598ceff5bc13127dd2fed0120be1c8502c9ab16535f47e09fe03
+
 Package: com.colorblack.bottomx
 Name: Bottom-x
 Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931 
@@ -27113,6 +27149,42 @@ Size: 118076
 MD5sum: 05245b7638e61faab2cdc3fc1721915e
 SHA1: 
 SHA256: c7556000848ac2ace98ee1ce2f91f4b19cb3163dd1a4dc9ae4c6451b5e855e7d
+
+Package: iya.banana.iphoneduoicon
+Name: iPhoneDuoIcon
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64e
+Version: 0.1.24
+Installed-Size: 864
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-0.1.24-roothide.deb
+Size: 146408
+MD5sum: e6b45f732b80e09f3e3a6d25b5fa2179
+SHA1: 
+SHA256: cd7ddc0c96ed30b25b54334277afe6a406577338719fece196d2de208eed838a
+
+Package: iya.banana.iphoneduoicon
+Name: iPhoneDuoIcon
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64
+Version: 0.1.24
+Installed-Size: 864
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-0.1.24-rootless.deb
+Size: 148584
+MD5sum: 6ffe37fe50af1261defcf26c8710c22a
+SHA1: 
+SHA256: 023e63b219c87ee30b224f36dc02cd2655226280b55080302b2d6d4109706ae5
 
 Package: iya.banana.iphoneduoicon
 Name: iPhoneDuoIcon
