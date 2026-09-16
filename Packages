@@ -12032,27 +12032,17 @@ SHA1:
 SHA256: 469658fb2f0ed793906a448e71d76940584cadf0595bc6330436adf4802aa0b8
 
 Package: com.jaysuen.ccflex16
-Name: EvoCenter16 控制中心模块
-Description: A modern, resizable and highly customizable Control Center for iOS 16.适用于iOS 16的现代、可调整大小和高度可定制的控制中心。
-Maintainer: JaySuen
-Author: JaySuen
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: com.wkk.betterccbrightness
-Replaces: com.wkk.betterccbrightness
-Architecture: iphoneos-arm64
-Version: 1.0.0-beta.1
-Installed-Size: 6444
-icon: https://huayuarc.github.io/icon/ccflex16.jpg
-Filename: debs/com.jaysuen.ccflex16_1.0.0-beta.1_iphoneos-arm64.deb
-Size: 169016
-MD5sum: 9f4b3eab5e446bfd3fa1721eb5975604
-SHA1: 
-SHA256: 50428263495ecbc9220905279f781114e6ffc471029821f2747c7ddc4de714dd
-
-Package: com.jaysuen.ccflex16
-Name: EvoCenter16 控制中心模块
-Description: A modern, resizable and highly customizable Control Center for iOS 16.适用于iOS 16的现代、可调整大小和高度可定制的控制中心。
+Name: Evo Center
+Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。
+ Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。
+ 支持 iOS 16.0 - 16.6、iOS 17.0 - 17.4。
+ 署名：chatgpt5.6（sol） · JaySuen。
+ 反馈 Bug 和建议：在酷安 App 搜索 JAYSuen 私信，或搜索 Evo Center 找到最新帖子评论。
+ 向 ccborder16、horizontalsliders、bettercc 致敬，感谢其设计与实现带来的启发。
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=2.0.0-beta.2-6
 Maintainer: JaySuen
 Author: JaySuen
 Section: Tweaks
@@ -12063,12 +12053,92 @@ Architecture: iphoneos-arm64e
 Version: 1.0.0-beta.1
 Installed-Size: 6444
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/ccflex16.jpg
-Filename: debs/com.jaysuen.ccflex16_1.0.0-beta.1_iphoneos-arm64e.deb
-Size: 168920
-MD5sum: 00a4037d6ef5d4de0556d57aa700d230
+Filename: debs/com.jaysuen.ccflex16-1.0.0-beta.1-roothide.deb
+Size: 169160
+MD5sum: fe38c56c536a7075949abad438d895b8
 SHA1: 
-SHA256: c63bb55273af65b816a10f21ec56d8e7aadf179a299780a319153ea48acb010b
+SHA256: 8e712a876644f1f3fd661e4e87ce33d1384c66e7cc80a8703a8a3561456b198b
+
+Package: com.jaysuen.ccflex16
+Name: Evo Center
+Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。
+ Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。
+ 支持 iOS 16.0 - 16.6、iOS 17.0 - 17.4。
+ 署名：chatgpt5.6（sol） · JaySuen。
+ 反馈 Bug 和建议：在酷安 App 搜索 JAYSuen 私信，或搜索 Evo Center 找到最新帖子评论。
+ 向 ccborder16、horizontalsliders、bettercc 致敬，感谢其设计与实现带来的启发。
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=2.0.0-beta.2-6
+Maintainer: JaySuen
+Author: JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.wkk.betterccbrightness
+Replaces: com.wkk.betterccbrightness
+Architecture: iphoneos-arm64
+Version: 1.0.0-beta.1
+Installed-Size: 6444
+Filename: debs/com.jaysuen.ccflex16-1.0.0-beta.1-rootless.deb
+Size: 169344
+MD5sum: 1ae16a43d770fda4475c323073e85298
+SHA1: 
+SHA256: ca0e4ab6db8f19124376821440201b9124a37fda63edb59125637ce51d8a64d7
+
+Package: com.jaysuen.evocenter
+Name: Evo Center
+Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。
+ Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。
+ 支持 iOS 16.0 - 16.6、iOS 17.0 - 17.4。
+ 署名：chatgpt5.6（sol） · JaySuen。
+ 反馈 Bug 和建议：在酷安 App 搜索 JAYSuen 私信，或搜索 Evo Center 找到最新帖子评论。
+ 向 ccborder16、horizontalsliders、bettercc 致敬，感谢其设计与实现带来的启发。
+Maintainer: chatgpt5.6（sol）, JaySuen
+Author: chatgpt5.6（sol）, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<= 17.4)
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=2.0.0-beta.2-6
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Architecture: iphoneos-arm64e
+Version: 2.0.0-beta.2-6
+Installed-Size: 9392
+Filename: debs/com.jaysuen.evocenter-2.0.0-beta.2-6-roothide.deb
+Size: 230104
+MD5sum: 51ea5425acce84fa0173d49017e96ab6
+SHA1: 
+SHA256: 12a199561b58b622c085d2cb1f10f0249813dc23fac56b3e0d1cf7bd27b5b0b2
+
+Package: com.jaysuen.evocenter
+Name: Evo Center
+Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。
+ Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。
+ 支持 iOS 16.0 - 16.6、iOS 17.0 - 17.4。
+ 署名：chatgpt5.6（sol） · JaySuen。
+ 反馈 Bug 和建议：在酷安 App 搜索 JAYSuen 私信，或搜索 Evo Center 找到最新帖子评论。
+ 向 ccborder16、horizontalsliders、bettercc 致敬，感谢其设计与实现带来的启发。
+Maintainer: chatgpt5.6（sol）, JaySuen
+Author: chatgpt5.6（sol）, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<= 17.4)
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=2.0.0-beta.2-6
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Architecture: iphoneos-arm64
+Version: 2.0.0-beta.2-6
+Installed-Size: 9492
+Filename: debs/com.jaysuen.evocenter-2.0.0-beta.2-6-rootless.deb
+Size: 235200
+MD5sum: 05d90c0ab43bfcb3abf9c3bb1e2e2746
+SHA1: 
+SHA256: efac9f07996948663855d1abbe3bbbd564f99668ded88f07f154bf183dbc3a97
 
 Package: com.jiuyue.lightisle
 Name: 灵动岛手电筒
