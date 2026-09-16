@@ -2280,6 +2280,40 @@ MD5sum: 274a7be9176932006b22b748d327217a
 SHA1: 
 SHA256: 2cc1bcc89991e3269c2485bac59e244bff3dceacda534ce4c3b35cc8c0950f9a
 
+Package: com.aa22qq.axiskey
+Name: AxisKey (多维轴向按键)
+Description: 结合物理按键与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌️
+Maintainer: aa22qq
+Author: aa22qq
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 3.0.0
+Installed-Size: 432
+icon: https://huayuarc.github.io/icon/axiskey.png
+Filename: debs/com.aa22qq.axiskey-3.0.0-roothide.deb
+Size: 35388
+MD5sum: ec59bba744679d04ac14d735fa177ac1
+SHA1: 
+SHA256: 04f3f3d9363c0af6f9bdf767a15f18d4c2db6bd1bb754d24675f5a61b0861ecf
+
+Package: com.aa22qq.axiskey
+Name: AxisKey (多维轴向按键)
+Description: 结合物理按键与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌️
+Maintainer: aa22qq
+Author: aa22qq
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64
+Version: 3.0.0
+Installed-Size: 432
+icon: https://huayuarc.github.io/icon/axiskey.png
+Filename: debs/com.aa22qq.axiskey-3.0.0-rootless.deb
+Size: 35428
+MD5sum: d8c17765876134321318cf5dc4ebb8d0
+SHA1: 
+SHA256: eaf56f69cf96697f7f0314d5438dee3a25970d634bd61b63f653d16b1d6da82b
+
 Package: com.aa22qq.batterycc
 Name: BatteryCC 控制中心电量显示
 Depends: mobilesubstrate, firmware (>= 15.0)
