@@ -24722,6 +24722,48 @@ SHA256: 5a41a20917beb6084b602e733a760f0abd979825e4b512b8536cea6c5e6371c0
 
 Package: com.tsangbaby.pulloverx
 Name: PullOver X 分屏
+Version: 2.1.1
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.1.1-roothide.deb
+Size: 621508
+MD5sum: cd778b64baf6a1f3b4c91bbcac0077a8
+SHA1: 
+SHA256: 968dd02964ae2e44413ac73db1968024a851ad122ed2ceff6dc6ec1c797a7273
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
+Version: 2.1.1
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.1.1-rootless.deb
+Size: 623416
+MD5sum: 765c724ed28fb54573c1fd1d8742a0a4
+SHA1: 
+SHA256: 015751cc5b24733ec29d6097e11e699987154253265a668d6d496aca39fc932d
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X 分屏
 Version: 1.9.5
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
 Section: Tweaks
@@ -26863,6 +26905,42 @@ Size: 105436
 MD5sum: c9494f5c5e16586680ec569d49f09b81
 SHA1: 
 SHA256: b45c4375fe40649be044eaf3c15e6a2e81c02568c0929137c1112a554913d080
+
+Package: iya.banana.iphoneduoicon
+Name: iPhoneDuoIcon
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64e
+Version: 0.1.22
+Installed-Size: 756
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-0.1.22-roothide.deb
+Size: 116272
+MD5sum: a78964128d491405750348f6e0d014bc
+SHA1: 
+SHA256: 15e5c8b02bfaa92b60ec9bc7cfedcb40ce28f78bea71dfb6ca4e64040a21c7f9
+
+Package: iya.banana.iphoneduoicon
+Name: iPhoneDuoIcon
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64
+Version: 0.1.22
+Installed-Size: 760
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-0.1.22-rootless.deb
+Size: 118076
+MD5sum: 05245b7638e61faab2cdc3fc1721915e
+SHA1: 
+SHA256: c7556000848ac2ace98ee1ce2f91f4b19cb3163dd1a4dc9ae4c6451b5e855e7d
 
 Package: iya.banana.iphoneduoicon
 Name: iPhoneDuoIcon
