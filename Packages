@@ -13123,6 +13123,43 @@ MD5sum: cab50cacd103c2648dc3884c7c602d2e
 SHA1: 
 SHA256: 54b57d70113b2a62fd9308f45f99cd9dd37ad75faa29c35f2c6267f892e6c0bf
 
+Package: com.mg.adskips
+Name: AdSkip 跳过启动广告
+Description: 快速跳过开屏广告
+ * 适配大多数应用，具体自测
+ * 插件注入 com.apple.UIKit，有冲突自行禁用
+Maintainer: M哥
+Author: M哥
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 3.3.0
+Installed-Size: 144
+Icon: https://TrollStoreX.Github.io/sileodepiction/AdSkip/icon.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.mg.adskips-3.3.0-roothide.deb
+Size: 23632
+MD5sum: c63a1adb4cf253ffa13fcd6255be7b3e
+SHA1: 
+SHA256: 5c9aaa87a5ad6d4c829af728ff7d5c3c861176d109caa71d7bea938cdc8223a5
+
+Package: com.mg.adskips
+Name: AdSkip 跳过启动广告
+Description: 快速跳过开屏广告
+ * 适配大多数应用，具体自测
+ * 插件注入 com.apple.UIKit，有冲突自行禁用
+Maintainer: M哥
+Author: M哥
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 3.3.0
+Installed-Size: 144
+Icon: https://TrollStoreX.Github.io/sileodepiction/AdSkip/icon.png
+Filename: debs/com.mg.adskips-3.3.0-rootless.deb
+Size: 23988
+MD5sum: f145cc1ad935b17866d8228c814d4060
+SHA1: 
+SHA256: daae919c21b7d6268c89f131825131f46a55bf496130cbfef9ae1a117877fe9b
+
 Package: com.miguelaka95.bettercc
 Name: BetterCC
 Version: 0.0.51
@@ -26002,6 +26039,78 @@ Size: 1275680
 MD5sum: e2bdf7fc61d82bab3ba0dba9eba40b59
 SHA1: 
 SHA256: 019943ccb42bd26e92860450f44b08ab53d18d861868500f1aaeee2771c4b63d
+
+Package: com.yourepo.lly.adsspee-rootless
+Name: 快速跳过广告 VideoAdsSpeed
+Author: lenglengyu
+Description: 快速跳过激励视频广告，奖励正常领取
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.lenglengyu.adsspeed
+Maintainer: lenglengyu
+Section: Tweaks
+icon: https://TrollStoreX.Github.io/sileodepiction/VideoAdsSpeed/icon.png
+Architecture: iphoneos-arm64e
+Version: 1.1.2
+Installed-Size: 616
+Filename: debs/com.yourepo.lly.adsspee-rootless-1.1.2-roothide.deb
+Size: 108952
+MD5sum: 0efb9584c6bee6a5aeac056cabcb0312
+SHA1: 
+SHA256: d3bf517ff3037c9ecd0940b2f657464b4cdb3a5fa5ba2322e637046266c1f4d7
+
+Package: com.yourepo.lly.adsspee-rootless
+Name: 快速跳过广告 VideoAdsSpeed
+Author: lenglengyu
+Description: 快速跳过激励视频广告，奖励正常领取
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.lenglengyu.adsspeed
+Maintainer: lenglengyu
+Section: Tweaks
+icon: https://TrollStoreX.Github.io/sileodepiction/VideoAdsSpeed/icon.png
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Installed-Size: 616
+Filename: debs/com.yourepo.lly.adsspee-rootless-1.1.2-rootless.deb
+Size: 108756
+MD5sum: 37c87906ff47af411242b23005688f08
+SHA1: 
+SHA256: b90fd2bab1260a6d7d23e0b0b6a05ca7edc1c058a588548d31b33eefeed2dc4c
+
+Package: com.yourepo.lly.adsspee-rootless
+Name: 快速跳过广告 VideoAdsSpeed
+Author: lenglengyu
+Description: 快速跳过激励视频广告，奖励正常领取
+Depends: mobilesubstrate, preferenceloader
+Maintainer: lenglengyu
+Conflicts: com.yourepo.lenglengyu.adsspeed
+Section: Tweaks
+icon: https://TrollStoreX.Github.io/sileodepiction/VideoAdsSpeed/icon.png
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Installed-Size: 616
+Filename: debs/com.yourepo.lly.adsspee-rootless-1.1.3-roothide.deb
+Size: 110416
+MD5sum: 7b332ea351fc659b2745b1e78daa8c08
+SHA1: 
+SHA256: 7f13445f4e8f840bca6cb86899f3e5e4e7b6d8bb66118bb4979b7e6ea75207ed
+
+Package: com.yourepo.lly.adsspee-rootless
+Name: 快速跳过广告 VideoAdsSpeed
+Author: lenglengyu
+Description: 快速跳过激励视频广告，奖励正常领取
+Depends: mobilesubstrate, preferenceloader
+Maintainer: lenglengyu
+Conflicts: com.yourepo.lenglengyu.adsspeed
+Section: Tweaks
+icon: https://TrollStoreX.Github.io/sileodepiction/VideoAdsSpeed/icon.png
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Installed-Size: 616
+Filename: debs/com.yourepo.lly.adsspee-rootless-1.1.3-rootless.deb
+Size: 110320
+MD5sum: 65f42f7a4bbb8f8355190d53f9cccf7c
+SHA1: 
+SHA256: 517c851e1771fd9ffe2d1167905f116f295e56c07ae827e8b6eed58ab4f9dd27
 
 Package: com.zqbb.savephotos
 Name: Hello Snapper3
