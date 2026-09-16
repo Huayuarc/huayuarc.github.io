@@ -8852,42 +8852,6 @@ MD5sum: 5437a5735d28e36171d4b664745e7acf
 SHA1: 
 SHA256: 071616ebbfdaf1c44dff3b3334c65dbd1b370250fd9434c7cae8193392cadc37
 
-Package: com.huayuarc.qqjlq
-Version: 0.0.1
-Architecture: iphoneos-arm64e
-Section: Tweaks
-Maintainer: Huayuarc
-Author: Huayuarc
-Depends: sudo
-Tag: cydia::commercial
-Name: A-QQ交流群(空白包无插件)
-Description: 创建QQ交流群，用途，iOS越狱交流，反馈插件，有好用插件可以联系我，帮忙上传越狱源备份。
-Icon: https://huayuarc.github.io/icon/CydiaIcon.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/qqjlq/js.json
-Filename: debs/com.huayuarc.qqjlq-0.0.1-roothide.deb
-Size: 988
-MD5sum: ced9911cf19fa8ea3d35f5072bb5deec
-SHA1: 
-SHA256: 84869ba393799a8c810bbbf81e40632f394d8c6a47cb549b1123703798ffb195
-
-Package: com.huayuarc.qqjlq
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Section: Tweaks
-Maintainer: Huayuarc
-Author: Huayuarc
-Depends: sudo
-Tag: cydia::commercial
-Name: A-QQ交流群(空白包无插件)
-Description: 创建QQ交流群，用途，iOS越狱交流，反馈插件，有好用插件可以联系我，帮忙上传越狱源备份。
-Icon: https://huayuarc.github.io/icon/CydiaIcon.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/qqjlq/js.json
-Filename: debs/com.huayuarc.qqjlq-0.0.1-rootless.deb
-Size: 1004
-MD5sum: 4625ecfa3d8f5d0525ef33c8bb1ed397
-SHA1: 
-SHA256: 7564096d138afe453a6399158d0bd0235ef18c66af93f29934842784143a627b
-
 Package: com.huayuarc.sneakycam
 Name: SneakyCam 隐私相机
 Description: iOS 16 native SneakyCam build for Dopamine rootless and RootHide. SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。视频或者照片默认保存路径：/var/mobile/Media/Camera
