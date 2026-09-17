@@ -2384,7 +2384,7 @@ SHA1:
 SHA256: 0f57070557b6d366a9ceec0eece5aa325e8c75c5ecaa05d392836433b3305f79
 
 Package: com.aa22qq.lockeventringer
-Name: LockEventRinger
+Name: LockEventRinger 静音控制
 Description: 自动控制 iPhone 响铃静音状态，支持命令行静音控制与设置启动停止开关，控制中心开关,灵动岛/HUD 弹窗的自定义隐藏开关，添加锁屏时振动开关，添加铃声音量跟媒体音量控制。
   系统兼容:
    - 支持 iOS 15.0 至 iOS 17.x 
@@ -2404,13 +2404,13 @@ Version: 15.0.0
 Installed-Size: 688
 icon: https://huayuarc.github.io/icon/lockeventringer.jpg
 Filename: debs/com.aa22qq.lockeventringer-15.0.0-roothide.deb
-Size: 41576
-MD5sum: c7c441ca7d80e1185cfff56d71a171bd
+Size: 41608
+MD5sum: 30c3b208a6496b45b695fb9eaa0703ce
 SHA1: 
-SHA256: 26ef20f4dd65fa083bad7536a7262dfa59432482e624dbfc9dc800604970864b
+SHA256: cd4a1c46ac65374c52874f6ed63ebc04dfa42ce129a216994db6dc9f3dbc5974
 
 Package: com.aa22qq.lockeventringer
-Name: LockEventRinger
+Name: LockEventRinger 静音控制
 Description: 自动控制 iPhone 响铃静音状态，支持命令行静音控制与设置启动停止开关，控制中心开关,灵动岛/HUD 弹窗的自定义隐藏开关，添加锁屏时振动开关，添加铃声音量跟媒体音量控制。
   系统兼容:
    - 支持 iOS 15.0 至 iOS 17.x 
@@ -2430,10 +2430,10 @@ Version: 15.0.0
 Installed-Size: 688
 icon: https://huayuarc.github.io/icon/lockeventringer.jpg
 Filename: debs/com.aa22qq.lockeventringer-15.0.0-rootless.deb
-Size: 41656
-MD5sum: 167166844f2ae59aa7c135346be383ab
+Size: 41664
+MD5sum: 38388cc04459ab8a4eaf30864f586339
 SHA1: 
-SHA256: d6c6e543385cebb11f0328cd085e7b8647c5ad4c6971ac46add06903591eb862
+SHA256: b9a97fae3e3188d08907e125603f54b7ffbd4e88b926416d7a029ac1c2487860
 
 Package: com.abc3.vip.appsyncunified
 Version: 112.0
@@ -13120,10 +13120,10 @@ Installed-Size: 144
 Icon: https://TrollStoreX.Github.io/sileodepiction/AdSkip/icon.png
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.mg.adskips-3.3.0-roothide.deb
-Size: 23632
-MD5sum: c63a1adb4cf253ffa13fcd6255be7b3e
+Size: 23624
+MD5sum: 7c03dd941ae6417c2573d58702797ea6
 SHA1: 
-SHA256: 5c9aaa87a5ad6d4c829af728ff7d5c3c861176d109caa71d7bea938cdc8223a5
+SHA256: 1dd931f3be149dfda42fc2caef2eb737a0e10023e7586be44574563cbde58efa
 
 Package: com.mg.adskips
 Name: AdSkip 跳过启动广告
@@ -13138,10 +13138,10 @@ Version: 3.3.0
 Installed-Size: 144
 Icon: https://TrollStoreX.Github.io/sileodepiction/AdSkip/icon.png
 Filename: debs/com.mg.adskips-3.3.0-rootless.deb
-Size: 23988
-MD5sum: f145cc1ad935b17866d8228c814d4060
+Size: 24032
+MD5sum: 810441b1c82ee3cbe8abb069bfd73911
 SHA1: 
-SHA256: daae919c21b7d6268c89f131825131f46a55bf496130cbfef9ae1a117877fe9b
+SHA256: cf933b9542a17c2dfbe6da41cfee857b42f30decba25c463b67aad1494a47ed2
 
 Package: com.miguelaka95.bettercc
 Name: BetterCC
