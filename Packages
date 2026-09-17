@@ -4603,6 +4603,25 @@ MD5sum: 54496b9e0e0342376428d8e324dd33fc
 SHA1: 
 SHA256: 711db1769871cc9e72b09ba1dafccfe364dc4858b90bb6686b8caacf80c241b3
 
+Package: com.colorblack.bottomx.ios17
+Name: Bottom-x iOS17 Relaxin
+Description: Bottom-x iOS 17 专用版，兼容 Relaxin RootHide；点击底部小白条逐级返回，到 App 最顶层返回桌面，保留学习返回与视觉返回。; QQ 群 2059 28931
+Maintainer: Color Black
+Author: Color Black
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 17.0), firmware (<< 18.0)
+Conflicts: com.colorblack.bottomx
+Replaces: com.colorblack.bottomx
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 3044
+icon: https://huayuarc.github.io/icon/Bottom.png
+Filename: debs/com.colorblack.bottomx.ios17-1.0-roothide.deb
+Size: 730024
+MD5sum: dd4550106fe9108506d15630b7dc65b2
+SHA1: 
+SHA256: 4e67f96b4bca7e781f99b291edeb0c897c6c7545dd9c01f584ef3ba3824a38df
+
 Package: com.colorblack.bottomx
 Name: Bottom-x
 Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931 
