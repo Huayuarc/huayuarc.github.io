@@ -3875,6 +3875,41 @@ MD5sum: d646cfc06345a96844daa52aff6e838e
 SHA1: 
 SHA256: b147ad4e908511aac94dc96cc6e9f6dc9b7b8dc34e948fa40c0188acb467c357
 
+Package: com.binglanqjsy.deb
+Name: 全局水印 Pro
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
+Maintainer: 冰蓝
+Depends: mobilesubstrate, preferenceloader
+Section: Tweaks
+Author: 冰蓝
+Architecture: iphoneos-arm64e
+Version: 4.1.6-end
+Installed-Size: 2496
+icon: https://huayuarc.github.io/icon/IceBlue.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.binglanqjsy.deb-4.1.6-end-roothide.deb
+Size: 289908
+MD5sum: 9e0c3a628b0dc41747d3eece259e4002
+SHA1: 
+SHA256: 06cd825f04d6bc6f2da4d15a50ffa5f5c19a2cc308f1475d520df07857c66842
+
+Package: com.binglanqjsy.deb
+Name: 全局水印 Pro
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
+Maintainer: 冰蓝
+Depends: mobilesubstrate, preferenceloader
+Section: Tweaks
+Author: 冰蓝
+Architecture: iphoneos-arm64
+Version: 4.1.6-end
+Installed-Size: 2496
+icon: https://huayuarc.github.io/icon/IceBlue.png
+Filename: debs/com.binglanqjsy.deb-4.1.6-end-rootless.deb
+Size: 337000
+MD5sum: a3a1d5f827b528898cfcba69dac33341
+SHA1: 
+SHA256: 30811c63ed6991e4d7bbf39dbb24c3b70c4624ac1d098fc978322074c21268a0
+
 Package: com.boss.wctweak
 Name: 微信手势增强
 Depends: mobilesubstrate | ellekit | libhooker
@@ -6802,6 +6837,42 @@ Size: 723368
 MD5sum: 4eae08ea8574d8c13084a7c326d48cd5
 SHA1: 
 SHA256: d9762730fbec518e35e4f7aa84cafbdb7f49fedaa474332946c4d7f05b0d9530
+
+Package: com.go.mango
+Name: mango
+Description: 分屏，微信小液，真液态玻璃，视频壁纸等一些实用功能。
+Maintainer: go
+Author: go
+Section: 分屏工具
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0-Beta7-1
+Installed-Size: 3888
+Sileodepiction: http://apt.bitilly.cn/Description/mango/mango.json
+Icon: http://apt.bitilly.cn/Description/mango/icon.png
+Filename: debs/com.go.mango-1.0-Beta7-1-roothide.deb
+Size: 960572
+MD5sum: af694ce8a734214f6e1c5cf5ff6d8a31
+SHA1: 
+SHA256: e6a9549ea6ba1aaf0e80e8e8d4f184e512854116db4313aaf16ee0a704f1fabd
+
+Package: com.go.mango
+Name: mango
+Description: 分屏，微信小液，真液态玻璃，视频壁纸等一些实用功能。
+Maintainer: go
+Author: go
+Section: 分屏工具
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0-Beta7-1
+Installed-Size: 3888
+Sileodepiction: http://apt.bitilly.cn/Description/mango/mango.json
+Icon: http://apt.bitilly.cn/Description/mango/icon.png
+Filename: debs/com.go.mango-1.0-Beta7-1-rootless.deb
+Size: 962648
+MD5sum: 0d4835c4e46a3a15eff99aaf22724c40
+SHA1: 
+SHA256: 9154784822ea893402c0e8aeebf66217cffc987c4f075bb267ae0e616304e49e
 
 Package: com.go.mango
 Name: mango
