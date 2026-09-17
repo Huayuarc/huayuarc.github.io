@@ -6412,6 +6412,41 @@ MD5sum: d56ae9dd0f065970918ac76c19facd5b
 SHA1: 
 SHA256: 1ee2527185296f2572504e2954dbd2c866b820000a2923908ea7f67f9d930bac
 
+Package: com.dynamicx.tweak
+Name: DynamicX
+Description: 万物皆上岛
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+Architecture: iphoneos-arm64e
+Version: 1.4.6
+Installed-Size: 1604
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.dynamicx.tweak-1.4.6-roothide.deb
+Size: 174140
+MD5sum: d79ad789d998092409652edb09f9b78e
+SHA1: 
+SHA256: 942da6b4be443834f333ffd75435e3a1784edd9783c5c92f9a255a3bc12c89f7
+
+Package: com.dynamicx.tweak
+Name: DynamicX
+Description: 万物皆上岛
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+Architecture: iphoneos-arm64
+Version: 1.4.6
+Installed-Size: 1604
+Filename: debs/com.dynamicx.tweak-1.4.6-rootless.deb
+Size: 181792
+MD5sum: 30313d8472436414b0eca2b5d34f5cb0
+SHA1: 
+SHA256: 8dba4ee7102d697b6e7098e8b18659e15d9cee9ba4e8f5f204b108e9263318ae
+
 Package: com.eliassfeir.no2theftios15
 Name: No2Theft
 Depends: ws.hbang.common
@@ -18185,6 +18220,76 @@ Package: com.sbcpu.floating
 Name: SB CPU Floating
 Maintainer: MoWang
 Author: MoWang
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.63
+Installed-Size: 2852
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.63-roothide.deb
+Size: 378544
+MD5sum: 3ecdc2bf35f601cf5f6fee0d1512afbd
+SHA1: 
+SHA256: 5ffa1df5f0818b77acb5d7ceb92c76ff1bb5f41317717178765f70629864154e
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 4.63
+Installed-Size: 2852
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.63-rootless.deb
+Size: 382760
+MD5sum: 9c9c217fe797500e01721773160772b4
+SHA1: 
+SHA256: e0949b4d3129b87c30a031d4a59d42b796bc89dde674d06a04099f73d4ddbf55
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
 Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; preserves ChargeBoost and Force Fast Charge controls
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
@@ -22891,6 +22996,42 @@ Size: 86868
 MD5sum: 492defb74ec9118c6d7d5c41af5d61ac
 SHA1: 
 SHA256: 86bab79ce622804c7741f6a4c162a77cf55b772dd973827b3f90e20fa3d4b561
+
+Package: com.sini921.lockscreenhelper
+Name: LockScreenHelper
+Description: 锁屏界面相关的简单优化
+Maintainer: SINI
+Author: SINI
+Section: 越狱插件
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy
+Icon: https://sini921.github.io/repo/sileodepiction/icon/lockscreenhelper.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/lockscreenhelper/js.json
+Architecture: iphoneos-arm64e
+Version: 0.0.1-18
+Installed-Size: 732
+Filename: debs/com.sini921.lockscreenhelper-0.0.1-18-roothide.deb
+Size: 88140
+MD5sum: ef091dc586d2ecb283f3c676b7e670e9
+SHA1: 
+SHA256: 251cd71e096f2ee0d903ae9db6872dcb87be80d53f3403fed1875503a3264ac6
+
+Package: com.sini921.lockscreenhelper
+Name: LockScreenHelper
+Description: 锁屏界面相关的简单优化
+Maintainer: SINI
+Author: SINI
+Section: 越狱插件
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy
+Icon: https://sini921.github.io/repo/sileodepiction/icon/lockscreenhelper.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/lockscreenhelper/js.json
+Architecture: iphoneos-arm64
+Version: 0.0.1-18
+Installed-Size: 732
+Filename: debs/com.sini921.lockscreenhelper-0.0.1-18-rootless.deb
+Size: 89468
+MD5sum: 5e74842a5639773f38da9840eabfc60a
+SHA1: 
+SHA256: 970056f81910b8e5dae13bd325eac96426e453c0f3275b0dc1872839e4c5aa15
 
 Package: com.sini921.lockscreenhelper
 Name: LockScreenHelper
