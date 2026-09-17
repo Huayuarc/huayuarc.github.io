@@ -4468,6 +4468,86 @@ MD5sum: 4a37875194ae94477a163d2782473aaf
 SHA1: 
 SHA256: 6777f470fe4c24bc86014f4b5c1124d44425d4f8555692ca954e4c315b651d9a
 
+Package: com.colorblack.bottomx.floatingball
+Name: Bottom-x 悬浮球
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.53 设置与分屏更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+Architecture: iphoneos-arm64e
+Version: 6.56
+Installed-Size: 1052
+Filename: debs/com.colorblack.bottomx.floatingball-6.56-roothide.deb
+Size: 429244
+MD5sum: aa3e1494dfa395117a52a495cd2339e7
+SHA1: 
+SHA256: 89407896d310d1a4073c9ebab04a542dfe78f362820a67e01902af1b650316e0
+
+Package: com.colorblack.bottomx.floatingball
+Name: Bottom-x 悬浮球
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.53 设置与分屏更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+Architecture: iphoneos-arm64
+Version: 6.56
+Installed-Size: 1052
+Filename: debs/com.colorblack.bottomx.floatingball-6.56-rootless.deb
+Size: 428760
+MD5sum: 54496b9e0e0342376428d8e324dd33fc
+SHA1: 
+SHA256: 711db1769871cc9e72b09ba1dafccfe364dc4858b90bb6686b8caacf80c241b3
+
 Package: com.colorblack.bottomx
 Name: Bottom-x
 Description: 点击底部小白条返回，如在二级，三级页面是返回上一级，如是 app 最顶层就会返回桌面。可以注入 app 使用。 银行类app可能不起作用; 感兴趣可以加 QQ 群 2059 28931 
@@ -27620,6 +27700,40 @@ Size: 521100
 MD5sum: 8a3a7ed37f50350826d9788a760f28e8
 SHA1: 
 SHA256: 82d3da376daa2023c3e0a81a71ee727f6a9a30f48aeadec9b35adf2855ec3013
+
+Package: iya.banana.jumpguard
+Name: JumpGuard
+Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Installed-Size: 560
+icon: https://huayuarc.github.io/icon/JumpGuard.png
+Filename: debs/iya.banana.jumpguard-0.1.2-roothide.deb
+Size: 67088
+MD5sum: d9deb14c0e60d54e5fc836004903cafb
+SHA1: 
+SHA256: c1e84eab3d369d463dc447d08baaa73f12f2ce406fcdde5c7d66fffc4af3ec88
+
+Package: iya.banana.jumpguard
+Name: JumpGuard
+Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Installed-Size: 560
+icon: https://huayuarc.github.io/icon/JumpGuard.png
+Filename: debs/iya.banana.jumpguard-0.1.2-rootless.deb
+Size: 66892
+MD5sum: 2c98ba5c140b95c0ed7b1a2cafb651e8
+SHA1: 
+SHA256: 197bb043133c10c4edf1eaf71188d8566d46c8057dc9635297d356cc3b8858ed
 
 Package: iya.banana.lenticularwallpaper
 Name: Lenticular Wallpaper
