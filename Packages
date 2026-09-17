@@ -18151,6 +18151,40 @@ Package: com.sbcpu.floating
 Name: SB CPU Floating
 Maintainer: MoWang
 Author: MoWang
+Description: V4.61 Charge Engine 稳定版：①修复电池事件回调签名错误（3参强转4参导致电量变化收不到通知、80/70 不随电量触发）——改为原生 4 参数 IOServiceInterestCallback 并检查注册返回值；②智能充电改用独立状态变量 gLimitBlocked/gLimitUsesPowerBlock，不再从 CH0C 反推，修复 keepAC=NO 时 CH0I 停充后无法恢复；③SBCPUPowerd 与智能停充完全解耦，只保留满血快充，删除伪造 ChargeInhibit/ChargeBlocked/ChargeLimit/FullyCharged 的 Hook；④overrideOBC/keepAC 真正贯穿 UI→socket→daemon→SMC（不再 drainMode 写死）；⑤socket 读写改为 read_full/write_full 防拆包；⑥补回 10 秒 watchdog 兜底（防 IOKit 通知不可用时 daemon 秒退）；⑦daemon 启动即决策一次，浮窗关闭/respring 后限制仍生效；⑧修复 SMC 读取长度越界风险；⑨修复拔插电/daemon 重启后的 CH0C/CH0I 状态漂移；⑩移除 powerd 对电池状态与充电准入属性的伪装
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.61
+Installed-Size: 2852
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.61-roothide.deb
+Size: 378908
+MD5sum: dd894bccdcc7af60371c445425297380
+SHA1: 
+SHA256: 47c58a4a88735b35017b262c41277ae4aaeb6069a3cb266bbed4acd08732e8a9
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: V4.61 Charge Engine 稳定版：①修复电池事件回调签名错误（3参强转4参导致电量变化收不到通知、80/70 不随电量触发）——改为原生 4 参数 IOServiceInterestCallback 并检查注册返回值；②智能充电改用独立状态变量 gLimitBlocked/gLimitUsesPowerBlock，不再从 CH0C 反推，修复 keepAC=NO 时 CH0I 停充后无法恢复；③SBCPUPowerd 与智能停充完全解耦，只保留满血快充，删除伪造 ChargeInhibit/ChargeBlocked/ChargeLimit/FullyCharged 的 Hook；④overrideOBC/keepAC 真正贯穿 UI→socket→daemon→SMC（不再 drainMode 写死）；⑤socket 读写改为 read_full/write_full 防拆包；⑥补回 10 秒 watchdog 兜底（防 IOKit 通知不可用时 daemon 秒退）；⑦daemon 启动即决策一次，浮窗关闭/respring 后限制仍生效；⑧修复 SMC 读取长度越界风险；⑨修复拔插电/daemon 重启后的 CH0C/CH0I 状态漂移；⑩移除 powerd 对电池状态与充电准入属性的伪装
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 4.61
+Installed-Size: 2852
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.61-rootless.deb
+Size: 380712
+MD5sum: 8b5546d4ffccc7f5c9638ae2888edc47
+SHA1: 
+SHA256: 6b960c0667596d0d47b30889459cee10cefe410eb498e70235b7f04f441e6942
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
 Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; preserves ChargeBoost and Force Fast Charge controls
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
