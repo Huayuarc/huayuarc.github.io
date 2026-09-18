@@ -4788,6 +4788,46 @@ MD5sum: 54496b9e0e0342376428d8e324dd33fc
 SHA1: 
 SHA256: 711db1769871cc9e72b09ba1dafccfe364dc4858b90bb6686b8caacf80c241b3
 
+Package: com.colorblack.bottomx.floatingball
+Name: Bottom-x 悬浮球
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.59 SmartDeck Home】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+Architecture: iphoneos-arm64e
+Version: 6.59
+Installed-Size: 1084
+Filename: debs/com.colorblack.bottomx.floatingball-6.59-roothide.deb
+Size: 435656
+MD5sum: 164be1d8c280c051568b6654d8754468
+SHA1: 
+SHA256: f9e17e45797bbecee37438c76d967e229ccff7c798245bae58de53b765011486
+
 Package: com.colorblack.bottomx.ios17
 Name: Bottom-x iOS17 Relaxin
 Description: Bottom-x iOS 17 专用版，兼容 Relaxin RootHide；点击底部小白条逐级返回，到 App 最顶层返回桌面，保留学习返回与视觉返回。; QQ 群 2059 28931
@@ -17236,6 +17276,25 @@ Size: 9896
 MD5sum: ee309b5d3074d3091793adf0cc096bcd
 SHA1: 
 SHA256: 017bab354afd913bfa785d955b21b1b5fc80c773d27483bd6fc93c1f9f6fe057
+
+Package: com.qianuo.smartdeck.app
+Name: SmartDeck App
+Description: 带有SpringBoard场景托管伴侣的实验性独立桌面。不会取代原生主屏幕。需要设备验证。
+ * Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Maintainer: Qianuo
+Author: Qianuo
+Section: Applications
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Architecture: iphoneos-arm64e
+Version: 0.7.8
+Installed-Size: 1080
+icon: https://huayuarc.github.io/icon/smartdeck.jpg
+Filename: debs/com.qianuo.smartdeck.app-0.7.8-roothide.deb
+Size: 197456
+MD5sum: 3379183c3129a2ae237501424671634c
+SHA1: 
+SHA256: 8d0923698533d13eda2c54b511476ae2599f0df09775d8598acfdb658ab9f5ac
 
 Package: com.qimiao.WCRefine
 Name: WCRefine 微信优化
