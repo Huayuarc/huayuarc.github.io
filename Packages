@@ -13298,6 +13298,43 @@ MD5sum: d627e3cf9960486004110be51c3a13ec
 SHA1: 
 SHA256: 22b56dedee7a783429a911260b8bd953a2ff8ace18db7675d5e2d2f944c2b6cb
 
+Author: Local Workspace
+Architecture: iphoneos-arm64e
+Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
+Maintainer: Local Workspace
+Version: 0.1.9
+Priority: optional
+Depends: mobilesubstrate
+Name: 支付宝身份验证兼容
+Section: Tweaks
+Installed-Size: 268
+Package: com.local.alipay.identity-compat
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.local.alipay.identity-compat-0.1.9-roothide.deb
+Size: 29292
+MD5sum: 85b1ce8b98b7853686f9d7221a645637
+SHA1: 
+SHA256: 803e3a963111ee5d41b138a71d82eb10111b1dac3e93f2a993dcabb815956596
+
+Author: Local Workspace
+Architecture: iphoneos-arm64
+Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
+Maintainer: Local Workspace
+Version: 0.1.9
+Priority: optional
+Depends: mobilesubstrate
+Name: 支付宝身份验证兼容
+Section: Tweaks
+Installed-Size: 268
+Package: com.local.alipay.identity-compat
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
+Filename: debs/com.local.alipay.identity-compat-0.1.9-rootless.deb
+Size: 29964
+MD5sum: a521511c82f1734e69006b58a00842a2
+SHA1: 
+SHA256: 581c14abdd2549e9d2b131cce04a092f1f13fdc9c70b7cb1903abbbaa0b74dbc
+
 Package: com.local.temperatureislandstandalone
 Name: 温度上岛
 Description: 当手机电池温度到了40度会有一个温度计的标识上岛提醒 120秒下岛或者温度低于40下岛
@@ -17278,23 +17315,43 @@ SHA1:
 SHA256: 017bab354afd913bfa785d955b21b1b5fc80c773d27483bd6fc93c1f9f6fe057
 
 Package: com.qianuo.smartdeck.app
-Name: SmartDeck App
-Description: 带有SpringBoard场景托管伴侣的实验性独立桌面。不会取代原生主屏幕。需要设备验证。
- * Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
-Maintainer: Qianuo
-Author: Qianuo
+Name: SmartDeck
+Version: 0.7.8
+Architecture: iphoneos-arm64e
+Description: 独立桌面 + SpringBoard 场景托管（实验版）
+ 通过 roothide 安装独立 SmartDeck 桌面，原生 iOS 桌面保留，真实 App 的托管区域覆盖整个九宫格，桌面顶部、翻页栏及底部圆形 Home 保留在外面。
+ .
+ 【重要：必须配合 Bottom-x 悬浮球 6.59】
+ - 托管返回继续使用 Bottom-x 悬浮球 6.59，否则 Home 返回键不生效
+ - 已安装 Bottom-x 悬浮球 6.59 的用户无需重复安装
+ .
+ 【核心功能】
+ - 三窗口协同：一个大主窗口 + 两个小副窗口，各自独立宿主会话，点击切换、互不影响
+ - 九宫格桌面：整页纸张式翻页，双指捏合进入每页 36 入口总览，长按拖动排序
+ - 键盘自适应：键盘弹出时当前窗口临时全屏，另外两窗隐藏保持会话，收起后恢复一大两小
+ - 外置键盘覆盖屏幕底部，收起后可操作圆形 Home
+ - 点击图标内容从该位置展开铺满九宫格，无弹窗标题栏
+ .
+ 【使用说明】
+ - 安装后正常注销一次，从多任务彻底关闭待测 App，再从 SmartDeck 打开
+ - 用右下角管理按钮从「已安装的 App」列表添加应用，首轮建议 Safari
+ - 首次验收不要让其他托管插件同时托管同一个 App
+ .
+ 【兼容性】
+ - iOS 16.0 – 17.3.1，roothide (arm64e)
+ - 实验版：双实时 App、键盘、多场景、视频、相机、支付等未完成真机验证
+Maintainer: kanuo
+Author: kanuo
 Section: Applications
 Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
 Conflicts: com.qianuo.smartdeck
-Architecture: iphoneos-arm64e
-Version: 0.7.8
-Installed-Size: 1080
-icon: https://huayuarc.github.io/icon/smartdeck.jpg
+Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 Filename: debs/com.qianuo.smartdeck.app-0.7.8-roothide.deb
-Size: 197456
-MD5sum: 3379183c3129a2ae237501424671634c
+Size: 198392
+MD5sum: a20202658270f99ac53d8b031a5ef3b9
 SHA1: 
-SHA256: 8d0923698533d13eda2c54b511476ae2599f0df09775d8598acfdb658ab9f5ac
+SHA256: 39a1b33694d27e555cee2cc0d1d5241d120b87bfb204d5c16bfd9a5b74e3ad51
 
 Package: com.qimiao.WCRefine
 Name: WCRefine 微信优化
@@ -18500,6 +18557,160 @@ Size: 380716
 MD5sum: cffc046d4223e4107f55ccfc84939aab
 SHA1: 
 SHA256: 88bc829f478fc8bfb1c080d36eea905cf7408f04656a63b3cf079b4aaa72c8ff
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
+ 【本次更新 V4.65】
+  - 修复系统设置里设置后又恢复默认 bug
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.65
+Installed-Size: 2852
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.65-roothide.deb
+Size: 379056
+MD5sum: f859840a7e9962731ee032a8a637db90
+SHA1: 
+SHA256: fec41488b3c01c2e0e3ae9a3fd6b278a3894c9818e237623e6d2b1cdade3e653
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
+ 【本次更新 V4.65】
+  - 修复系统设置里设置后又恢复默认 bug
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 4.65
+Installed-Size: 2852
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.65-rootless.deb
+Size: 381068
+MD5sum: 9702ff42ad330aa76c5af7a050cfd0c8
+SHA1: 
+SHA256: c715be198dece8c6febb6ca5a9d7557368f836420c53f844666eb579dd34d214
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
+ 【本次更新 V4.66】
+  - 新增设置：越狱源
+ 【历史修复】
+  - V4.65：修复系统设置里设置后又恢复默认 bug
+  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.66
+Installed-Size: 2852
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.66-roothide.deb
+Size: 378636
+MD5sum: 952c804accbddd79140fdc37ad7f1078
+SHA1: 
+SHA256: ead2b1787954f350a9ef61e0d50c930dce23220a8ae816bf7892bca2feb40e98
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
+ 【本次更新 V4.66】
+  - 新增设置：越狱源
+ 【历史修复】
+  - V4.65：修复系统设置里设置后又恢复默认 bug
+  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 4.66
+Installed-Size: 2852
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.66-rootless.deb
+Size: 381104
+MD5sum: 51fca787bf8100f8157256c55e2f5e06
+SHA1: 
+SHA256: 32a3d8b1e30556c9164ec534bd83989eac5634ccb94b428800e435df3ea4404f
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
@@ -22462,14 +22673,33 @@ Maintainer: ylr
 Author: ylr
 Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 1.5.5
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.zfbhook-1.5.5-roothide.deb
+Size: 17720
+MD5sum: 3fc42a8d03152858e98128964b1d8aca
+SHA1: 
+SHA256: 50fe1ac17bf503d6d4b4748e74fb9670610c402d865ee7cb6fa02eace3661db8
+
+Package: com.sini.zfbhook
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zfbhook/js.json
+Name: 支付宝步数
+Description: 领一下能量哦、长按底栏1秒
+Maintainer: ylr
+Author: ylr
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
 Architecture: iphoneos-arm64
 Version: 1.5.5
 Installed-Size: 204
-Filename: debs/com.sini.zfbhook_1.5.5_iphoneos-arm64.deb
-Size: 17512
-MD5sum: aff934e5f09f086d88280ad95f6c9221
+Filename: debs/com.sini.zfbhook-1.5.5-rootless.deb
+Size: 17536
+MD5sum: 7ded2eb43fe4e8147978be63c114e736
 SHA1: 
-SHA256: 462ac5e649845c9e3dc646771c35b0a480d938d887a3ae78aab148ed718f9d40
+SHA256: 70afbfe1a7a28794f38fe891d5901c199b0339a1269a991dc7bed471044dd4c4
 
 Package: com.sini.zgltadkiiler
 Name: ZGLTAdKiller
@@ -24511,6 +24741,76 @@ Size: 2104380
 MD5sum: 015119677d19b72ad5350585dafea3c0
 SHA1: 
 SHA256: 7e69e53054e80af1ee8e32a5318c607f2836b88be42a161dc45d68171505d361
+
+Package: com.sunshinesong.native-island
+Name: native-island-notifier
+Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
+Maintainer: sunshinesong
+Author: sunshinesong
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Installed-Size: 908
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/dynamicnotland.jpg
+Filename: debs/com.sunshinesong.native-island-1.0.5-roothide.deb
+Size: 148588
+MD5sum: aca5bc0642bb60286d69cc2554539216
+SHA1: 
+SHA256: cc7d43342b836af8b6a865ffe1ffad04961e7baa93e6b64f572e173942d05aeb
+
+Package: com.sunshinesong.native-island
+Name: native-island-notifier
+Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
+Maintainer: sunshinesong
+Author: sunshinesong
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Installed-Size: 908
+icon: https://huayuarc.github.io/icon/dynamicnotland.jpg
+Filename: debs/com.sunshinesong.native-island-1.0.5-rootless.deb
+Size: 151764
+MD5sum: f5d5402f99e6feaef2a658621196cbff
+SHA1: 
+SHA256: 43a0e617ff9041106a1a2ef89e821024775ac79292cdf290d4da84c88c7daa94
+
+Package: com.sunshinesong.native-island
+Name: native-island-notifier
+Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
+Maintainer: sunshinesong
+Author: sunshinesong
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Installed-Size: 908
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/dynamicnotland.jpg
+Filename: debs/com.sunshinesong.native-island-1.0.6-roothide.deb
+Size: 148196
+MD5sum: 3d22f7e5fc542d82f3a0130e520d8f4a
+SHA1: 
+SHA256: 44edc8c4d1cce0dea995fa5451904511f86583582b99f191636cc25cf39fcf62
+
+Package: com.sunshinesong.native-island
+Name: native-island-notifier
+Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
+Maintainer: sunshinesong
+Author: sunshinesong
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Installed-Size: 908
+icon: https://huayuarc.github.io/icon/dynamicnotland.jpg
+Filename: debs/com.sunshinesong.native-island-1.0.6-rootless.deb
+Size: 151668
+MD5sum: 421b8be344ee8d298b44ffb580d178dc
+SHA1: 
+SHA256: 9e10fb55e050d8a64fcfd4486d7628850eee5c4816ac5c9a691a3e8aa8a1d669
 
 Author: sunshinesong
 TS: sp-sss
@@ -28412,6 +28712,40 @@ Size: 6313444
 MD5sum: e5171d99df188361547c4be55b4d3eb1
 SHA1: 
 SHA256: 0c01f329c64f36bfd814165a599fb0cd4cd89b66b34d278d9ce947423b724c42
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: banana
+Author: banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Installed-Size: 12948
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.7-roothide.deb
+Size: 6316932
+MD5sum: 5d96b6e1de9e28b61bb06cf435ecf8fc
+SHA1: 
+SHA256: 554d2820ee49fb94420cf6f34fbcafa448b4437f4e228910a5d32cd9febfc227
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: banana
+Author: banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Installed-Size: 12948
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.7-rootless.deb
+Size: 6317120
+MD5sum: a74da000320688dc8d18f03dc862df67
+SHA1: 
+SHA256: 8a6961ec47845a40f2d8cf0d7f0f30260824098ad70d7d8d4b203abb0b6fd50e
 
 Package: iya.banana.springboardgame
 Name: SpringBoardGame
