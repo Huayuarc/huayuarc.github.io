@@ -17342,16 +17342,16 @@ Description: 独立桌面 + SpringBoard 场景托管（实验版）
  - 实验版：双实时 App、键盘、多场景、视频、相机、支付等未完成真机验证
 Maintainer: kanuo
 Author: kanuo
-Section: Applications
+Section: Tweaks
 Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
 Conflicts: com.qianuo.smartdeck
 Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 Filename: debs/com.qianuo.smartdeck.app-0.7.8-roothide.deb
-Size: 198392
-MD5sum: a20202658270f99ac53d8b031a5ef3b9
+Size: 198072
+MD5sum: e6a65ccfffe99a7b4c2e386bff3c2328
 SHA1: 
-SHA256: 39a1b33694d27e555cee2cc0d1d5241d120b87bfb204d5c16bfd9a5b74e3ad51
+SHA256: 140abdc30e0f4b437c4f8e10bdd225e495e8d046d1cd43952c3b2fb8132f003c
 
 Package: com.qimiao.WCRefine
 Name: WCRefine 微信优化
