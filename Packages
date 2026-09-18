@@ -3997,6 +3997,45 @@ MD5sum: f312ea23e2b01e980a24f9214814710b
 SHA1: 
 SHA256: 17541e9315b2bc4d362f253c74defe1013da9dcc1ab77d362af8ececdc05fe08
 
+Package: com.bvn.copyvault.rl
+Name: CopyVault VH
+Description: CopyVault is a modern, powerful and easy-to-use pasteboard jailbreak tweak, works on both iphone and ipad!
+ * CopyVault 是一款现代、强大且易用的剪贴板越狱插件，同时支持 iPhone 和 iPad！
+Maintainer: SquidForce, Backup
+Author: SquidForce, Backup
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.bvn.squidforcecrack.rl
+Conflicts: com.squidforce.copyvault
+Architecture: iphoneos-arm64e
+Version: 1.9.0k
+Installed-Size: 6220
+icon: https://huayuarc.github.io/icon/CopyVault@2x.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.bvn.copyvault.rl-1.9.0k-roothide.deb
+Size: 1641180
+MD5sum: 4a72a65e22785656b3b327a550055ce3
+SHA1: 
+SHA256: 18ea7a930ed18ba42d74bf0b52b1ff0af7d96b22fca73deee870556fb97799eb
+
+Package: com.bvn.copyvault.rl
+Name: CopyVault VH
+Description: CopyVault is a modern, powerful and easy-to-use pasteboard jailbreak tweak, works on both iphone and ipad!
+ * CopyVault 是一款现代、强大且易用的剪贴板越狱插件，同时支持 iPhone 和 iPad！
+Maintainer: SquidForce, Backup
+Author: SquidForce, Backup
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.bvn.squidforcecrack.rl
+Conflicts: com.squidforce.copyvault
+Architecture: iphoneos-arm64
+Version: 1.9.0k
+Installed-Size: 6220
+icon: https://huayuarc.github.io/icon/CopyVault@2x.png
+Filename: debs/com.bvn.copyvault.rl-1.9.0k-rootless.deb
+Size: 1670108
+MD5sum: 8558a318b67b834a28c10fafd686f146
+SHA1: 
+SHA256: 8092b1b6b10e265aa79b81911853cedd6e6e83fa0d8897425f5dabbb288147cd
+
 Package: com.bvn.dynamicstagefix17
 Name: Dynamic Stage Fix17
 Description: Sửa lỗi Dynamic Stage không hoạt động trên ios 17 修复Dynamic Stage在iOS 17上无法运行的错误
@@ -4031,6 +4070,127 @@ Size: 7920
 MD5sum: d02b717b194f6489539999074e0a0945
 SHA1: 
 SHA256: 073830e3810f3419be5a2ed1f5fc3dd0d990435586bcc77737ff853512128704
+
+Package: com.bvn.squidextender.rl
+Name: SquidExtender VH
+Description: An immersive, highly customizable interface and functionality with extended keyboard tweak. It will bring a toolbar to your keyboard.
+ * 沉浸式、高度可自定义的键盘增强插件，会在键盘上方增加工具栏。
+Maintainer: SquidForce, Backup
+Author: SquidForce, Backup
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy, com.bvn.squidforcecrack.rl
+Conflicts: com.squidforce.squidextender,cn.octoforce.squidextender
+Architecture: iphoneos-arm64e
+Version: 3.7.4K
+icon: https://huayuarc.github.io/icon/SquidExtender@2x.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.bvn.squidextender.rl-3.7.4K-roothide.deb
+Size: 2569600
+MD5sum: 6f5a37461d9a3b1ca9b233c8f7ee6602
+SHA1: 
+SHA256: 6db9d60ccdd66e732693522fd2972a1d48d07923f30777e8733024893c3f85f6
+
+Package: com.bvn.squidextender.rl
+Name: SquidExtender VH
+Description: An immersive, highly customizable interface and functionality with extended keyboard tweak. It will bring a toolbar to your keyboard.
+ * 沉浸式、高度可自定义的键盘增强插件，会在键盘上方增加工具栏。
+Maintainer: SquidForce, Backup
+Author: SquidForce, Backup
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy, com.bvn.squidforcecrack.rl
+Conflicts: com.squidforce.squidextender,cn.octoforce.squidextender
+Architecture: iphoneos-arm64
+Version: 3.7.4K
+icon: https://huayuarc.github.io/icon/SquidExtender@2x.png
+Filename: debs/com.bvn.squidextender.rl-3.7.4K-rootless.deb
+Size: 2624176
+MD5sum: c417a25fafdb28fa5277bdfaeb754fc5
+SHA1: 
+SHA256: 5f543dabe610a48a7ca467a3fa257590657a34b6f8a06ce94d85adda435d3279
+
+Package: com.bvn.squidforcecrack.rl
+Name: SquidForce Crack
+Description: Crack All Tweak SquidForce
+Maintainer: BVN
+Author: BVN
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 328
+icon: https://huayuarc.github.io/icon/squidforcecrack.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.bvn.squidforcecrack.rl-1.0.1-roothide.deb
+Size: 36924
+MD5sum: 1188536eb6f7771ee445140ab765c4e6
+SHA1: 
+SHA256: f1729918a21f62c47b533e31cb0851ff332845723109acd1d1b302e83db7ebed
+
+Package: com.bvn.squidforcecrack.rl
+Name: SquidForce Crack
+Description: Crack All Tweak SquidForce
+Maintainer: BVN
+Author: BVN
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 328
+icon: https://huayuarc.github.io/icon/squidforcecrack.jpg
+Filename: debs/com.bvn.squidforcecrack.rl-1.0.1-rootless.deb
+Size: 38136
+MD5sum: 39d8144d7538e5838e6e4495cd158213
+SHA1: 
+SHA256: 4e04576672624363e8fc5c5585cb073a7d4a0c956143af770c61daaf3efc3a1e
+
+Package: com.bvn.squidgesturepro.rl
+Name: SquidGesturePro
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.bvn.squidforcecrack.rl
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Description: 一款手势增强插件。专业版支持将多项操作聚合到同一个手势，并以面板形式展示；后续还会支持动作流。
+ * A gesture tweak. Pro version supports centralizing multiple actions into a single gesture, displayed as a panel. Action flows will be supported in the future.
+ * 触发方式 / Trigger method
+ * 底部边缘手势：逻辑和系统应用切换手势一致，根据滑动距离触发不同操作。
+ * Bottom edge gesture: same as system app switcher gesture, trigger different actions based on swipe distance.
+ * 状态栏手势：单击、双击、长按、左滑、右滑。
+ * Status bar gestures: single click, double click, long press, swipe left, swipe right.
+Maintainer: SquidForce, Backup
+Author: SquidForce, Backup
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.7.6K
+Installed-Size: 6620
+icon: https://huayuarc.github.io/icon/SquidGesture@2x.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.bvn.squidgesturepro.rl-2.7.6K-roothide.deb
+Size: 1742728
+MD5sum: 43e782c229ff0e8d962c2d2a0832fa9d
+SHA1: 
+SHA256: b1c6891e2c8417a88eb78fc277b6f580f289beb07f84ca2bae1c73d881efaade
+
+Package: com.bvn.squidgesturepro.rl
+Name: SquidGesturePro
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.bvn.squidforcecrack.rl
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Description: 一款手势增强插件。专业版支持将多项操作聚合到同一个手势，并以面板形式展示；后续还会支持动作流。
+ * A gesture tweak. Pro version supports centralizing multiple actions into a single gesture, displayed as a panel. Action flows will be supported in the future.
+ * 触发方式 / Trigger method
+ * 底部边缘手势：逻辑和系统应用切换手势一致，根据滑动距离触发不同操作。
+ * Bottom edge gesture: same as system app switcher gesture, trigger different actions based on swipe distance.
+ * 状态栏手势：单击、双击、长按、左滑、右滑。
+ * Status bar gestures: single click, double click, long press, swipe left, swipe right.
+Maintainer: SquidForce, Backup
+Author: SquidForce, Backup
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.7.6K
+Installed-Size: 6620
+icon: https://huayuarc.github.io/icon/SquidGesture@2x.png
+Filename: debs/com.bvn.squidgesturepro.rl-2.7.6K-rootless.deb
+Size: 1773088
+MD5sum: ae2ec6cb8b35a1f1e3e67d57eeb01ce6
+SHA1: 
+SHA256: c3f31475968d2f3189a1eb05be413f6fcf659397b8b313dfa3095e073568c77d
 
 Package: com.callassist.caiphoneduostatus
 Name: CAiPhoneDuoStatus
