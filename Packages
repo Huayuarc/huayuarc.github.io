@@ -4110,6 +4110,41 @@ SHA256: 7389a10d33172d1063d67e40fe309d2d8b4062c22b8e7d2961b00d37fba24268
 
 Package: com.bvn.squidforcecrack.rl
 Name: SquidForce VIP
+Description: SquidForce无弹窗解锁VIP
+Maintainer: BVN
+Author: BVN
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0.1-1
+Installed-Size: 328
+icon: https://huayuarc.github.io/icon/squidforcecrack.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.bvn.squidforcecrack.rl-1.0.1-1-roothide.deb
+Size: 36928
+MD5sum: bd74b89cf89a6d9c539b97d0179f10e2
+SHA1: 
+SHA256: 5ffe9229ec2b0b0d01feab0e08b953b4329ffa227b306b1eb27017352ad72300
+
+Package: com.bvn.squidforcecrack.rl
+Name: SquidForce VIP
+Description: SquidForce无弹窗解锁VIP
+Maintainer: BVN
+Author: BVN
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.1-1
+Installed-Size: 328
+icon: https://huayuarc.github.io/icon/squidforcecrack.jpg
+Filename: debs/com.bvn.squidforcecrack.rl-1.0.1-1-rootless.deb
+Size: 38044
+MD5sum: 9b826e3b6665a53acd6e75daa0960e13
+SHA1: 
+SHA256: 8ac06cfebc0137cf9300a34dd54cb63d9db2c2b01b870d441cd75bf9b1f51a50
+
+Package: com.bvn.squidforcecrack.rl
+Name: SquidForce VIP
 Description: Crack All Tweak SquidForce 
 Maintainer: BVN
 Author: BVN
@@ -27077,6 +27112,44 @@ Size: 1302444
 MD5sum: 19a2bdd5f8e04501816411f4d02bedca
 SHA1: 
 SHA256: 2e1ef79ef1bea1a9a7194b50e370ee676eda3dcd741c4a0200f8ece92bdc283f
+
+Package: dylv.liquidass
+Name: Liquid (Gl)ass 液态玻璃
+Description: next level diarrhea
+Maintainer: dylv
+Author: dylv
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Replaces: dylv.blurless
+Conflicts: dylv.blurless
+Architecture: iphoneos-arm64e
+Version: 0.1.1-2b
+Installed-Size: 8576
+Filename: debs/dylv.liquidass-0.1.1-2b-roothide.deb
+Size: 3713720
+MD5sum: 0cc5664ebd428489b21cee23c418cb13
+SHA1: 
+SHA256: 7e6cf3808d99f7d28778e592355198772f535952d2653bfbe9420a682e10b344
+
+Package: dylv.liquidass
+Name: Liquid (Gl)ass 液态玻璃
+Description: next level diarrhea
+Maintainer: dylv
+Author: dylv
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Replaces: dylv.blurless
+Conflicts: dylv.blurless
+Architecture: iphoneos-arm64
+Version: 0.1.1-2b
+Installed-Size: 8576
+Filename: debs/dylv.liquidass-0.1.1-2b-rootless.deb
+Size: 3707364
+MD5sum: 576b0d26e0b50187c9dea359954c85da
+SHA1: 
+SHA256: e9d879f27e4e152d76dc18797517c587c23dc11b1c986a6cb19edf3fd6651ccc
 
 Package: dylv.liquidass
 Name: Liquid (Gl)ass液态玻璃
