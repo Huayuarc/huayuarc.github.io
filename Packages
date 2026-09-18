@@ -14904,6 +14904,62 @@ MD5sum: 2f516df3ab7810e1d733e5dde562965d
 SHA1: 
 SHA256: fd80a89664a41dd8588c8911db5c4b68653d4eda90db687236acf163738d7a92
 
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.8.69~lockfavorites
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: kanuo
+dev: kanuo
+Maintainer: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon-v2.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+Filename: debs/com.mlgm.pulloverx-1.8.69~lockfavorites-roothide.deb
+Size: 310040
+MD5sum: ac9dd2dc95f4e1181c48213821e478e3
+SHA1: 
+SHA256: e5dd3f383bb97d48ace577b633450d1e3039aa1bf4448f17c54a5e6c497bf0be
+
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.8.69~lockfavorites
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: kanuo
+dev: kanuo
+Maintainer: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon-v2.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+Filename: debs/com.mlgm.pulloverx-1.8.69~lockfavorites-rootless.deb
+Size: 312912
+MD5sum: 51d99eb3f84be7615368bf98f429fd55
+SHA1: 
+SHA256: 42f715444d41bce59440807f99da70495e5adfd0e85cd71082e5814a7148c3fb
+
 Package: com.mrgcgamer.libgcuniversal
 Name: LibGcUniversal
 Icon: https://sini921.github.io/repo/sileodepiction/icon/libgcuniversal.png
@@ -17116,6 +17172,44 @@ Size: 9896
 MD5sum: ee309b5d3074d3091793adf0cc096bcd
 SHA1: 
 SHA256: 017bab354afd913bfa785d955b21b1b5fc80c773d27483bd6fc93c1f9f6fe057
+
+Package: com.qianuo.smartdeck.app
+Name: SmartDeck App
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Maintainer: kanuo
+Author: kanuo
+Section: Applications
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Architecture: iphoneos-arm64e
+Version: 0.7.12
+Installed-Size: 1112
+Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v2.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
+Filename: debs/com.qianuo.smartdeck.app-0.7.12-roothide.deb
+Size: 207208
+MD5sum: 6da02c14396d093253a761052d39e6fd
+SHA1: 
+SHA256: 1625a0fa26879683cf9cce2652f81a34141ac86a05a9d83068565c84837fe5a5
+
+Package: com.qianuo.smartdeck.app
+Name: SmartDeck App
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Maintainer: kanuo
+Author: kanuo
+Section: Applications
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Architecture: iphoneos-arm64
+Version: 0.7.12
+Installed-Size: 1112
+Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v2.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
+Filename: debs/com.qianuo.smartdeck.app-0.7.12-rootless.deb
+Size: 206944
+MD5sum: f883d0b85713b172697f5ccf764cf23f
+SHA1: 
+SHA256: 0a77be49e5edd2c3d76b4a0fa6b886508a0d80c84d1eafa0b00a49a623fe5b8f
 
 Package: com.qianuo.smartdeck.app
 Name: SmartDeck
