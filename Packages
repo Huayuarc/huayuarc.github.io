@@ -23133,7 +23133,7 @@ Name: LockScreenHelper
 Description: 锁屏界面相关的简单优化
 Maintainer: SINI
 Author: SINI
-Section: 越狱插件
+Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy
 Icon: https://sini921.github.io/repo/sileodepiction/icon/lockscreenhelper.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/lockscreenhelper/js.json
@@ -23141,17 +23141,17 @@ Architecture: iphoneos-arm64e
 Version: 0.0.1-18
 Installed-Size: 732
 Filename: debs/com.sini921.lockscreenhelper-0.0.1-18-roothide.deb
-Size: 88140
-MD5sum: ef091dc586d2ecb283f3c676b7e670e9
+Size: 88136
+MD5sum: 04400261deb0cebe5dd491ec70ad3416
 SHA1: 
-SHA256: 251cd71e096f2ee0d903ae9db6872dcb87be80d53f3403fed1875503a3264ac6
+SHA256: 3233ec1079f8b730b00fb6edcb1a0653cfe6c87e778ff678973fd04107b1a2cc
 
 Package: com.sini921.lockscreenhelper
 Name: LockScreenHelper
 Description: 锁屏界面相关的简单优化
 Maintainer: SINI
 Author: SINI
-Section: 越狱插件
+Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy
 Icon: https://sini921.github.io/repo/sileodepiction/icon/lockscreenhelper.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/lockscreenhelper/js.json
@@ -23159,10 +23159,10 @@ Architecture: iphoneos-arm64
 Version: 0.0.1-18
 Installed-Size: 732
 Filename: debs/com.sini921.lockscreenhelper-0.0.1-18-rootless.deb
-Size: 89468
-MD5sum: 5e74842a5639773f38da9840eabfc60a
+Size: 89444
+MD5sum: 10b9f49c6bf56da93b8221331db9e63c
 SHA1: 
-SHA256: 970056f81910b8e5dae13bd325eac96426e453c0f3275b0dc1872839e4c5aa15
+SHA256: 1595c001ca732dc036f350ad7d01853ac55bfb3da7c6e0e47cf2a539c1b64646
 
 Package: com.sini921.lockscreenhelper
 Name: LockScreenHelper
