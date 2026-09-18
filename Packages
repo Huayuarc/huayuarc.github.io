@@ -3997,41 +3997,6 @@ MD5sum: f312ea23e2b01e980a24f9214814710b
 SHA1: 
 SHA256: 17541e9315b2bc4d362f253c74defe1013da9dcc1ab77d362af8ececdc05fe08
 
-Package: com.bvn.squidforcecrack.rl
-Name: SquidForce VIP
-Description: SquidForce无弹窗解锁VIP
-Maintainer: BVN
-Author: BVN
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
-Architecture: iphoneos-arm64e
-Version: 1.0.1-1
-Installed-Size: 328
-icon: https://huayuarc.github.io/icon/squidforcecrack.jpg
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.bvn.squidforcecrack.rl-1.0.1-1-roothide.deb
-Size: 36928
-MD5sum: bd74b89cf89a6d9c539b97d0179f10e2
-SHA1: 
-SHA256: 5ffe9229ec2b0b0d01feab0e08b953b4329ffa227b306b1eb27017352ad72300
-
-Package: com.bvn.squidforcecrack.rl
-Name: SquidForce VIP
-Description: SquidForce无弹窗解锁VIP
-Maintainer: BVN
-Author: BVN
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
-Architecture: iphoneos-arm64
-Version: 1.0.1-1
-Installed-Size: 328
-icon: https://huayuarc.github.io/icon/squidforcecrack.jpg
-Filename: debs/com.bvn.squidforcecrack.rl-1.0.1-1-rootless.deb
-Size: 38044
-MD5sum: 9b826e3b6665a53acd6e75daa0960e13
-SHA1: 
-SHA256: 8ac06cfebc0137cf9300a34dd54cb63d9db2c2b01b870d441cd75bf9b1f51a50
-
 Package: com.callassist.caiphoneduostatus
 Name: CAiPhoneDuoStatus
 Description: 本插件仅为体验版,不得用于商业收费,插件本身也不会收取任何费用,如遇收费,请立即拒绝,本插件发布后不会再进行更新,所以不用提要求和bug报告,如果不满意请自行卸载,信号,WIFI,数据,电量均为安装设备的真实交互
@@ -7080,23 +7045,6 @@ Size: 43400
 MD5sum: 44d262a0aa67a57ef4983f423733fda7
 SHA1: 
 SHA256: d15a93ec7b8f51a256553459eaab4b8a18642c7d795bb99879ce8eb5e0993144
-
-Package: com.hang.squidgesturepro-ios17fix
-Name: 乌贼手势 iOS 17 补丁
-Description: 修复 SquidGesturePro 在 iOS 17 启动快捷指令时导致的安全模式。
-Maintainer: 航
-Author: 航
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
-Architecture: iphoneos-arm64e
-Version: 1.0.10
-Installed-Size: 92
-icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
-Filename: debs/com.hang.squidgesturepro-ios17fix-1.0.10-roothide.deb
-Size: 11384
-MD5sum: 714a997bb37f8e6321132cdbd29d49a3
-SHA1: 
-SHA256: 83007a6abe2b5f286d55a09fa05902274baa223355ebff6f8d4e8930396428ed
 
 Package: com.HBWechatHelper.ailun
 Version: 2.1.2
