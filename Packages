@@ -4618,17 +4618,17 @@ Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自
 Maintainer: kanuo
 Author: kanuo
 Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 17.0), firmware (<< 18.0)
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 17.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
 icon: https://huayuarc.github.io/icon/Bottom.png
 Architecture: iphoneos-arm64e
 Version: 6.37
 Installed-Size: 804
 Filename: debs/com.colorblack.bottomx.floatingball-6.37-roothide.deb
-Size: 403516
-MD5sum: 50f8281feebc8eef8cd5c298bd9fb0eb
+Size: 403696
+MD5sum: 91fcdcaf1d4c40983886056d5c51a36c
 SHA1: 
-SHA256: a66b82bd1e5e598ceff5bc13127dd2fed0120be1c8502c9ab16535f47e09fe03
+SHA256: 7595d84f318c2387db7cb1dddd2d6265af51d81b20566575b6554150b7aff723
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -4657,17 +4657,17 @@ Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自
 Maintainer: kanuo
 Author: kanuo
 Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
 Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
 Architecture: iphoneos-arm64e
 Version: 6.51
 Installed-Size: 1048
 Filename: debs/com.colorblack.bottomx.floatingball-6.51-roothide.deb
-Size: 424204
-MD5sum: 60e88059b137a75c0ede19b51981a9f4
+Size: 424104
+MD5sum: f04f7a43314d9433e230518514122ad8
 SHA1: 
-SHA256: 908b95d7fd7efd9b5324fde5c8835200d7a14673355b3eb7d401727b93001b5a
+SHA256: f6fa42cf9ba375236457bd4e10a49d6af037a653bf14af2fc481d8ab7d5337c7
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -4696,17 +4696,17 @@ Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自
 Maintainer: kanuo
 Author: kanuo
 Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
 Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
 Architecture: iphoneos-arm64
 Version: 6.51
 Installed-Size: 1048
 Filename: debs/com.colorblack.bottomx.floatingball-6.51-rootless.deb
-Size: 424280
-MD5sum: 4a37875194ae94477a163d2782473aaf
+Size: 423832
+MD5sum: 2b9f94db23f79086722ebe10833bc0af
 SHA1: 
-SHA256: 6777f470fe4c24bc86014f4b5c1124d44425d4f8555692ca954e4c315b651d9a
+SHA256: f88890c11693617f1fcb000e84bee58db922c6d9718155846468707fb5e5f6cc
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -4735,7 +4735,7 @@ Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自
 Maintainer: kanuo
 Author: kanuo
 Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
 Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
@@ -4743,10 +4743,10 @@ Architecture: iphoneos-arm64e
 Version: 6.56
 Installed-Size: 1052
 Filename: debs/com.colorblack.bottomx.floatingball-6.56-roothide.deb
-Size: 429244
-MD5sum: aa3e1494dfa395117a52a495cd2339e7
+Size: 428884
+MD5sum: 8f3f168fafd55c1936f1884eebfb831a
 SHA1: 
-SHA256: 89407896d310d1a4073c9ebab04a542dfe78f362820a67e01902af1b650316e0
+SHA256: 9bc5b61a6ba48ccda0398568f590f394fbe5ce964cdd45c9e8b91caf1c9c5ef2
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -4775,7 +4775,7 @@ Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自
 Maintainer: kanuo
 Author: kanuo
 Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
 Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
@@ -4783,10 +4783,10 @@ Architecture: iphoneos-arm64
 Version: 6.56
 Installed-Size: 1052
 Filename: debs/com.colorblack.bottomx.floatingball-6.56-rootless.deb
-Size: 428760
-MD5sum: 54496b9e0e0342376428d8e324dd33fc
+Size: 428904
+MD5sum: cc76a12451aed9629d19b3419ebd5b22
 SHA1: 
-SHA256: 711db1769871cc9e72b09ba1dafccfe364dc4858b90bb6686b8caacf80c241b3
+SHA256: 1dfa94985714c839bd2f076175240829ad99349d0bb0b17d700c2aa1f37fa91b
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -4815,7 +4815,7 @@ Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自
 Maintainer: kanuo
 Author: kanuo
 Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
 Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
@@ -4823,10 +4823,10 @@ Architecture: iphoneos-arm64e
 Version: 6.59
 Installed-Size: 1084
 Filename: debs/com.colorblack.bottomx.floatingball-6.59-roothide.deb
-Size: 435656
-MD5sum: 164be1d8c280c051568b6654d8754468
+Size: 435600
+MD5sum: ec09ff8a485f635122c5430dac3ac656
 SHA1: 
-SHA256: f9e17e45797bbecee37438c76d967e229ccff7c798245bae58de53b765011486
+SHA256: 0f45bff4914b53264f40746f8fdc7f41774608bbf16bb64d28dd138642163493
 
 Package: com.colorblack.bottomx.ios17
 Name: Bottom-x iOS17 Relaxin
