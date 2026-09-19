@@ -28077,15 +28077,15 @@ Description: 去越狱窗口，以测14.7系统越狱可用,不支持巨魔
 Depends: mobilesubstrate
 Maintainer: z
 Section: Tweaks
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Version: 1.1
 Installed-Size: 168
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/iphonerelease_1.1_iphoneos-arm64.deb
-Size: 3788
-MD5sum: e5eaa024436a238773ac2eab29d6f393
+icon: https://huayuarc.github.io/icon/nyyh.jpg
+Filename: debs/iphonerelease-1.1-roothide.deb
+Size: 3756
+MD5sum: cdad4602c0edc008dc149e25cc5b2011
 SHA1: 
-SHA256: 057fe88cb92c136a200a181c5d89a03f320439c4aa783f35517ac29a46dc314b
+SHA256: 9820e461e9b35cb5e982566513a95575dac56fd9d7d72aa2ba63c2b1cbd74ce5
 
 Package: iphonerelease
 Name: 农业银行V10.2.1
@@ -28094,15 +28094,15 @@ Description: 去越狱窗口，以测14.7系统越狱可用,不支持巨魔
 Depends: mobilesubstrate
 Maintainer: z
 Section: Tweaks
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Version: 1.1
 Installed-Size: 168
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/iphonerelease_1.1_iphoneos-arm64e.deb
-Size: 3744
-MD5sum: 3216e6c548a3d7cacdd47ca089cc30b1
+icon: https://huayuarc.github.io/icon/nyyh.jpg
+Filename: debs/iphonerelease-1.1-rootless.deb
+Size: 3800
+MD5sum: 2909eccffa8c4bc13fedaa935ba68409
 SHA1: 
-SHA256: bb3a60f6f006925705d528e7bbb6fde2666dc2f94d731176aa591cec98ca552d
+SHA256: cb6cec3fc02350dbdcc034b11d137c09b5dab054e03ceb2f235a3b7cee612843
 
 Package: iya.banana.dockicon
 Name: DarkIcon
@@ -30066,6 +30066,41 @@ Size: 21496
 MD5sum: 66c602dad1ab5155c0aff0dbbe1aebf2
 SHA1: 
 SHA256: ed19b973e41687e039c515b40879a7617df0a35b0cdbd348c1287239240cbf42
+
+Package: net.nyyh
+Version: 1.2.522-1+debug
+Description: 中国农业银行11.2.x 启动与越狱提示兼容插件，如无效果下载插件单独注入应用即可解决。
+Maintainer: liuwenyi
+Installed-Size: 304
+Depends: mobilesubstrate
+Author: liuwenyi
+Name: 中国农业银行闪退修复1.2.522
+Architecture: iphoneos-arm64e
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/nyyh.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/net.nyyh-1.2.522-1+debug-roothide.deb
+Size: 31716
+MD5sum: 2498ac3849d46b23eb1c2231bba503a8
+SHA1: 
+SHA256: e97b4b49a6d54772982a8b9e43fb64e831e75bb13c2120c219540d3abe75afa4
+
+Package: net.nyyh
+Version: 1.2.522-1+debug
+Description: 中国农业银行11.2.x 启动与越狱提示兼容插件，如无效果下载插件单独注入应用即可解决。
+Maintainer: liuwenyi
+Installed-Size: 304
+Depends: mobilesubstrate
+Author: liuwenyi
+Name: 中国农业银行闪退修复1.2.522
+Architecture: iphoneos-arm64
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/nyyh.jpg
+Filename: debs/net.nyyh-1.2.522-1+debug-rootless.deb
+Size: 32628
+MD5sum: cbb89e7750c2ea92a9fcc6c01776d092
+SHA1: 
+SHA256: a87cd9ed3a8af36551cd9ab5522728a8d538f4b1f4bcd9cb7a4efe165837cb26
 
 Package: net.p0358.disintegratelock
 Section: Tweaks
