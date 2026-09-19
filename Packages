@@ -12977,6 +12977,58 @@ MD5sum: 44f7f74962c34d384833b5c45eb62bb2
 SHA1: 
 SHA256: 6c86f6c693052704ee3e57df0eb9a66c811fa507f82d3af7ba26280f02a83eeb
 
+Package: com.jaysuen.evocenter
+Name: Evo Center
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-16.6、iOS 17.0-17.4，其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Maintainer: chatgpt5.6（sol）, JaySuen
+Author: chatgpt5.6（sol）, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=2.5.0-beta.2
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Architecture: iphoneos-arm64e
+Version: 2.5.0-beta.2
+Installed-Size: 11068
+Filename: debs/com.jaysuen.evocenter-2.5.0-beta.2-roothide.deb
+Size: 331584
+MD5sum: 4655b2b8a090e8e9e33bd80db79bb112
+SHA1: 
+SHA256: 550accbf8268523c2c3d8ff3d8a142965db08c9bc8b4e98274243d0106f2718e
+
+Package: com.jaysuen.evocenter
+Name: Evo Center
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-16.6、iOS 17.0-17.4，其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Maintainer: chatgpt5.6（sol）, JaySuen
+Author: chatgpt5.6（sol）, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=2.5.0-beta.2
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Architecture: iphoneos-arm64
+Version: 2.5.0-beta.2
+Installed-Size: 10468
+Filename: debs/com.jaysuen.evocenter-2.5.0-beta.2-rootless.deb
+Size: 302440
+MD5sum: 0ff0d2a932655ad67949156cea4e23d7
+SHA1: 
+SHA256: a0b971c64b2f83a4f5b4932b0c3e2db481c0a36c185aba365aa93763903d6733
+
 Package: com.jiuyue.lightisle
 Name: 灵动岛手电筒
 Description: 为iOS16添加灵岛手电筒控制
