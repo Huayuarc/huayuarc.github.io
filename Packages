@@ -1423,6 +1423,44 @@ MD5sum: 35ca660ea428717016aefab6a3a4360e
 SHA1: 
 SHA256: cd09dd8e976ab2bfe75093833a942282be1f62d736923a81ab3d5f92588aaea3
 
+Package: cn.octoforce.copyvault
+Name: CopyVault(激活码版)
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Maintainer: SquidForce, Backup
+Author: SquidForce, Backup
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+Architecture: iphoneos-arm64e
+Version: 1.9.0
+Installed-Size: 6380
+icon: https://huayuarc.github.io/icon/CopyVault@2x.png
+Filename: debs/cn.octoforce.copyvault-1.9.0-roothide.deb
+Size: 1706972
+MD5sum: 1a521f308c287f34e1afb8eb271f98ac
+SHA1: 
+SHA256: 2c657a466a43716939232d79cbadfd87f0cb01f30c737ef91662ff9bf17c5fc4
+
+Package: cn.octoforce.copyvault
+Name: CopyVault(激活码版)
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Maintainer: SquidForce, Backup
+Author: SquidForce, Backup
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+Architecture: iphoneos-arm64
+Version: 1.9.0
+Installed-Size: 6220
+icon: https://huayuarc.github.io/icon/CopyVault@2x.png
+Filename: debs/cn.octoforce.copyvault-1.9.0-rootless.deb
+Size: 1668684
+MD5sum: 5cf2692950c4a200c0afdd255f981c8b
+SHA1: 
+SHA256: 7a36ee951ff3222dd61e9bc603edbc58b796fdc19e0cd96390e36e7cd71a5471
+
 Package: cn.octoforce.squidextender
 Name: SquidExtender(激活码版)
 Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
@@ -25085,6 +25123,41 @@ Size: 608044
 MD5sum: 85b09b8ad1a1e5ae58dd3455f5cba3f1
 SHA1: 
 SHA256: a4fe085e184e34d7a8454393c7c9d2a2a853112ea2e57bb6a767ef29ff021b6f
+
+Package: com.squidforce.copyvault
+Name: CopyVault Havor
+Description: Your Copy Vault, Your Pasteboard
+Maintainer: SquidForce
+Author: SquidForce
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.9.0
+Installed-Size: 6304
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/CopyVault@2x.png
+Filename: debs/com.squidforce.copyvault-1.9.0-roothide.deb
+Size: 1666692
+MD5sum: 1a201c6075bfd1bea9432097949b5e2a
+SHA1: 
+SHA256: 22b663f5105932e5cefa460829bfd3abfd6e09855f2ffb6128ef20ced2b02319
+
+Package: com.squidforce.copyvault
+Name: CopyVault Havor
+Description: Your Copy Vault, Your Pasteboard
+Maintainer: SquidForce
+Author: SquidForce
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 1.9.0
+Installed-Size: 6304
+icon: https://huayuarc.github.io/icon/CopyVault@2x.png
+Filename: debs/com.squidforce.copyvault-1.9.0-rootless.deb
+Size: 1696080
+MD5sum: 1ee7e16a44dd00310bae4bf221304498
+SHA1: 
+SHA256: 50d868ab8a24920744e74c13c9e6971f11cc697c451e7f551292ed52e7b71090
 
 Package: com.stheno
 Name: Stheno 分屏
