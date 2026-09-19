@@ -7066,6 +7066,44 @@ MD5sum: 44d262a0aa67a57ef4983f423733fda7
 SHA1: 
 SHA256: d15a93ec7b8f51a256553459eaab4b8a18642c7d795bb99879ce8eb5e0993144
 
+Package: com.hang.kayoko
+Name: Kayoko
+Description: 感谢kayoko开源，魔改自用
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.7.0
+Installed-Size: 1744
+icon: https://huayuarc.github.io/icon/Kayoko.png
+Filename: debs/com.hang.kayoko-4.7.0-roothide.deb
+Size: 475644
+MD5sum: ad5214509fe260102ea2a1a496a7b887
+SHA1: 
+SHA256: 55b561c5d7f59a6a4f4628533b46006d1e24ab9c0c7c798f3088e0bb7cb177da
+
+Package: com.hang.kayoko
+Name: Kayoko
+Description: 感谢kayoko开源，魔改自用
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko
+Architecture: iphoneos-arm64
+Version: 4.7.0
+Installed-Size: 3152
+icon: https://huayuarc.github.io/icon/Kayoko.png
+Filename: debs/com.hang.kayoko-4.7.0-rootless.deb
+Size: 649980
+MD5sum: 96f41de973907d111880e98720bc97cf
+SHA1: 
+SHA256: 78c5b4207d89dfac1a1727db9ba99779b4a2ede7ca0aa25401154d25be122032
+
 Package: com.HBWechatHelper.ailun
 Version: 2.1.2
 Section: Tweaks
@@ -18777,6 +18815,90 @@ Size: 381104
 MD5sum: 51fca787bf8100f8157256c55e2f5e06
 SHA1: 
 SHA256: 32a3d8b1e30556c9164ec534bd83989eac5634ccb94b428800e435df3ea4404f
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
+ 【本次更新 V4.70】
+  - 新增智能温控限制充电
+ 【历史更新】
+  - V4.66：新增设置：莫忘越狱源
+  - V4.65：修复系统设置里设置后又恢复默认 bug
+  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.70
+Installed-Size: 2884
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.70-roothide.deb
+Size: 384996
+MD5sum: 217f2150bd07ac3a7eeecd9b79c6e84e
+SHA1: 
+SHA256: 468b685ff4c55316dcec048913db72f55c41a844aa60f18b8c022e0b76f328eb
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
+ 【本次更新 V4.70】
+  - 新增智能温控限制充电
+ 【历史更新】
+  - V4.66：新增设置：莫忘越狱源
+  - V4.65：修复系统设置里设置后又恢复默认 bug
+  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 4.70
+Installed-Size: 2884
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.70-rootless.deb
+Size: 383872
+MD5sum: feb39f4a6faac88da79ac655e1bfdb5a
+SHA1: 
+SHA256: 9a51df1555b2cf1f2a44b36e9533a74ac55e71206a1d7c70c7eb4d542870a9d9
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
