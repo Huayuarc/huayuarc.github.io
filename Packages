@@ -11976,6 +11976,42 @@ SHA1:
 SHA256: 45090206a4b96a2a4290e330a64029a27f1f71794c41c749610dea4364796193
 
 Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 6.0.0
+Installed-Size: 14628
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-6.0.0-roothide.deb
+Size: 3245544
+MD5sum: d89ff7c47b65f4d2759464c0aa88c9cc
+SHA1: 
+SHA256: 19fb29c04f65d379905fd6cf71fd09cecfd2251f55e335a3a62266d37f10aa83
+
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 6.0.0
+Installed-Size: 14628
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-6.0.0-rootless.deb
+Size: 3251480
+MD5sum: 3f0e6475fe8a3a24959f1d1587b5636e
+SHA1: 
+SHA256: 6b08a3b98f0f74f7476cab1c76a6e5ede92de9675e3db9f4b1efdf0b7c9c3927
+
+Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
@@ -25120,6 +25156,48 @@ MD5sum: 6234cb4122dd17b2ae17fe1b2a2d7c15
 SHA1: 
 SHA256: ecbe057bb7ae5d6a54fe51ffd6b5886f16b6949dd7aed0c6ee3deb746643be2e
 
+Package: com.susudear.stayshot
+Name: StayShot
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+SileoDepiction: https://repo.susubaby.cn/json/stayshot.json
+Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3
+Replaces: com.jontelang.snapper3
+Provides: com.jontelang.snapper3 (= 1.2.1)
+Architecture: iphoneos-arm64e
+Version: 0.5.4
+Installed-Size: 2340
+Filename: debs/com.susudear.stayshot-0.5.4-roothide.deb
+Size: 229232
+MD5sum: e11765491711d7d24cfa90b008b6f1ea
+SHA1: 
+SHA256: baee78df3916f30fac9da3808f0480352973565b5f1d8a9175ba2dc1fa960d60
+
+Package: com.susudear.stayshot
+Name: StayShot
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+SileoDepiction: https://repo.susubaby.cn/json/stayshot.json
+Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3
+Replaces: com.jontelang.snapper3
+Provides: com.jontelang.snapper3 (= 1.2.1)
+Architecture: iphoneos-arm64
+Version: 0.5.4
+Installed-Size: 2340
+Filename: debs/com.susudear.stayshot-0.5.4-rootless.deb
+Size: 229476
+MD5sum: 94bf0780c6a3cf97893bdc35d69ff806
+SHA1: 
+SHA256: b16f54bfe2b52e840e3372595c99d9b240c25d17e5e784210500c575d5cfba5b
+
 Package: com.susudear.susuocr
 Name: SuSuOCR 百度OCR识别
 Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
@@ -25496,6 +25574,41 @@ Size: 127364
 MD5sum: 7f09d1ebf02d84bec010c537f058b33a
 SHA1: 
 SHA256: 9dd4c9589a259c3d42d570a2ad86257c314679ff96cdf4fbe375cf12953c4b52
+
+Package: com.susudear.themecore
+Name: ThemeCore
+Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Icon: https://repo.susubaby.cn/icons/ThemeCore.png
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.5.0
+Installed-Size: 736
+Pre-Depends: rootless-compat (>= 0.9)
+Filename: debs/com.susudear.themecore-0.5.0-roothide.deb
+Size: 127200
+MD5sum: 17402f7184dc1e7d385a8ad8115fbc61
+SHA1: 
+SHA256: acd94e5e0a17c94d5263b57c055a13f862df386a177ae0540931b046613e2f8e
+
+Package: com.susudear.themecore
+Name: ThemeCore
+Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Icon: https://repo.susubaby.cn/icons/ThemeCore.png
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.5.0
+Installed-Size: 736
+Filename: debs/com.susudear.themecore-0.5.0-rootless.deb
+Size: 129272
+MD5sum: 9448806ddad86975ebbfcbca3cdd1e83
+SHA1: 
+SHA256: 679658a250229549f2bc002d3f0bdde36eff803501dbf812b905767172c3fec0
 
 Package: com.thefool.ccaudioplay
 Name: CCAudioPlay 播放器美化
