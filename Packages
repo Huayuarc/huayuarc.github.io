@@ -138,6 +138,45 @@ Maintainer: 𝙓
 Author: 𝙓
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 2.3.9-6
+Installed-Size: 10472
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/aweme.x-2.3.9-6-roothide.deb
+Size: 3270848
+MD5sum: 1c48c1ba96b57b7facd8a1247d8e190f
+SHA1: 
+SHA256: 50741415d75d06e616cf42b5f9b6350f275a942590a1b5e6a9483f0e07f04f7c
+
+Package: aweme.x
+Conflicts: com.xx.dyhook
+Replaces: com.xx.dyhook
+Name: 抖音图层
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.3.9-6
+Installed-Size: 10472
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/aweme.x-2.3.9-6-rootless.deb
+Size: 3327044
+MD5sum: 3bc7216edaf146953de1d00af6fc9ac4
+SHA1: 
+SHA256: bede739017ba7be54924c0a361f603ac1fd60ccb9e73270ae65794ffdf9d61a6
+
+Package: aweme.x
+Conflicts: com.xx.dyhook
+Replaces: com.xx.dyhook
+Name: 抖音图层
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 2.3.9-3
 Installed-Size: 9976
@@ -167,25 +206,6 @@ Size: 3150288
 MD5sum: a74f92f6aef41248efbb323c1117c000
 SHA1: 
 SHA256: 1b23f242dfa93e8ad542d2f3738d62508f4feb4cc05fc09fc762c9378b131995
-
-Package: aweme.x
-Conflicts: com.xx.dyhook
-Replaces: com.xx.dyhook
-Name: 抖音图层
-Description: 自用
-Maintainer: 𝙓
-Author: 𝙓
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 2.3.9-6
-Installed-Size: 10472
-Icon: https://huayuarc.github.io/icon/douyin.jpg
-Filename: debs/aweme.x_2.3.9-6_iphoneos-arm64.deb
-Size: 3326476
-MD5sum: 16b4171afd418d7b92e6d6d2810e380d
-SHA1: 
-SHA256: 2f65561d62b8cce1df1498efecf17eb753e1a67c0418efe7900612ebb0b6cda1
 
 Package: ayao.aipowerbutton
 Name: AiPowerButton
@@ -17172,6 +17192,98 @@ Size: 9896
 MD5sum: ee309b5d3074d3091793adf0cc096bcd
 SHA1: 
 SHA256: 017bab354afd913bfa785d955b21b1b5fc80c773d27483bd6fc93c1f9f6fe057
+
+Package: com.qianuo.dyadaptive
+Name: 抖音窗口自适应（测试版）
+Version: 0.1.2~test2
+Architecture: iphoneos-arm64e
+Description: 抖音窗口自适应（测试版）。让抖音在小窗 / 分屏里按实际内容窗口尺寸重新布局，
+ 而不是按物理全屏尺寸，解决小窗里画面被拉伸、按钮错位、点击区域对不上的问题。
+  .
+  【适用场景】
+  - 配合 PullOver-X 等小窗 / 分屏工具使用
+  - 抖音在非全屏窗口内比例失真、UI 被裁切或拉伸
+  .
+  【本版实现】
+  - 仅注入抖音，不注入 SpringBoard 与其他 App
+  - 仅当抖音自身代码在主线程查询 UIScreen.bounds 时返回内容窗口尺寸；
+    系统框架、后台线程、窗口不明确时保留原始屏幕尺寸
+  - 窗口尺寸变化后合并一次根视图布局，不重载视频列表、不改滚动位置、
+    不创建播放器、不伪造前后台事件
+  - 保留 iPad 字符串兼容，但只对抖音自身调用生效
+  - Playback 音频类别移除混音 / 压低其他音源选项，不主动激活音频会话
+  .
+  【配置】
+  无设置页。与 dylib 同目录的 DYAdaptive.config.plist 有三个开关：
+  Enabled / PadCompatibility / ExclusivePlayback
+  修改后需完全退出并重新打开抖音。
+  .
+  【⚠️ 测试版说明】
+  - 本版尚未完成真机验证，属实验性测试包
+  - 早期 0.1.0-test1 曾导致抖音无法启动，本版改为启动后延迟安装以规避
+  - 出现闪退、白屏、播放异常：卸载本插件后重新启动抖音即可恢复
+  - 安装前建议先卸载原版 DYnamicUI（com.bulid.dynamicui），不要同时运行
+  .
+  【依赖】
+  mobilesubstrate，iOS 15.0 及以上
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.bulid.dynamicui
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.dyadaptive.json
+Filename: debs/com.qianuo.dyadaptive-0.1.2~test2-roothide.deb
+Size: 9212
+MD5sum: 902b1949e895b31bdc13082ec2454e0a
+SHA1: 
+SHA256: e36843a9871f793eb72e8f80ee6b72f3b22518046e600dbacb8035a64cbdd61c
+
+Package: com.qianuo.dyadaptive
+Name: 抖音窗口自适应（测试版）
+Version: 0.1.2~test2
+Architecture: iphoneos-arm64
+Description: 抖音窗口自适应（测试版）。让抖音在小窗 / 分屏里按实际内容窗口尺寸重新布局，
+ 而不是按物理全屏尺寸，解决小窗里画面被拉伸、按钮错位、点击区域对不上的问题。
+  .
+  【适用场景】
+  - 配合 PullOver-X 等小窗 / 分屏工具使用
+  - 抖音在非全屏窗口内比例失真、UI 被裁切或拉伸
+  .
+  【本版实现】
+  - 仅注入抖音，不注入 SpringBoard 与其他 App
+  - 仅当抖音自身代码在主线程查询 UIScreen.bounds 时返回内容窗口尺寸；
+    系统框架、后台线程、窗口不明确时保留原始屏幕尺寸
+  - 窗口尺寸变化后合并一次根视图布局，不重载视频列表、不改滚动位置、
+    不创建播放器、不伪造前后台事件
+  - 保留 iPad 字符串兼容，但只对抖音自身调用生效
+  - Playback 音频类别移除混音 / 压低其他音源选项，不主动激活音频会话
+  .
+  【配置】
+  无设置页。与 dylib 同目录的 DYAdaptive.config.plist 有三个开关：
+  Enabled / PadCompatibility / ExclusivePlayback
+  修改后需完全退出并重新打开抖音。
+  .
+  【⚠️ 测试版说明】
+  - 本版尚未完成真机验证，属实验性测试包
+  - 早期 0.1.0-test1 曾导致抖音无法启动，本版改为启动后延迟安装以规避
+  - 出现闪退、白屏、播放异常：卸载本插件后重新启动抖音即可恢复
+  - 安装前建议先卸载原版 DYnamicUI（com.bulid.dynamicui），不要同时运行
+  .
+  【依赖】
+  mobilesubstrate，iOS 15.0 及以上
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.bulid.dynamicui
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.dyadaptive.json
+Filename: debs/com.qianuo.dyadaptive-0.1.2~test2-rootless.deb
+Size: 9256
+MD5sum: 9a5d173c4bf0216404ce86658490949d
+SHA1: 
+SHA256: b21e7490a9400b582fcb93080b82a23c1c1b11872f1869b3db2a067d525eb2b8
 
 Package: com.qianuo.smartdeck.app
 Name: SmartDeck App
