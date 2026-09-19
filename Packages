@@ -3132,27 +3132,7 @@ SHA1:
 SHA256: 29446a7341df046f8be27c8df1339757088f1ac3b4459d0e2fdb2d5315d48eef
 
 Package: com.amywhile.aemulo
-Name: Aemulo
-Description: NFC Frickery
-Maintainer: Amy While <support@anamy.gay>
-Author: Amy While <support@anamy.gay>
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
-Conflicts: com.amywhile.aemulotrial
-Icon: https://huayuarc.github.io/icon/Aemulo.jpg
-Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
-Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
-Architecture: iphoneos-arm64
-Version: 1.2.5
-Installed-Size: 2224
-Filename: debs/com.amywhile.aemulo_1.2.5_iphoneos-arm64.deb
-Size: 624900
-MD5sum: d23b8366af50b7615ffe7e1d64604b7c
-SHA1: 
-SHA256: 4ad1aef77fdf6634d9bd1be81e7bf7aaa2b36c983197f5042813b9102c5546ab
-
-Package: com.amywhile.aemulo
-Name: Aemulo
+Name: Aemulo Havor
 Description: NFC Frickery
 Maintainer: Amy While <support@anamy.gay>
 Author: Amy While <support@anamy.gay>
@@ -3166,11 +3146,31 @@ Architecture: iphoneos-arm64e
 Version: 1.2.5
 Installed-Size: 2224
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.amywhile.aemulo_1.2.5_iphoneos-arm64e.deb
-Size: 617280
-MD5sum: 0a918efaa803b33321107827d0f45789
+Filename: debs/com.amywhile.aemulo-1.2.5-roothide.deb
+Size: 617384
+MD5sum: 09b4a49a7e9671bd997d327feb4fac74
 SHA1: 
-SHA256: ac8186e64ebb996d066ef2660c0844151f11381d2dbbd4cdaf7e5907eb4c5504
+SHA256: 0c107455b455f62bbbcf17d6c25137228307f74cf922b38fd80fc5d4c74c098d
+
+Package: com.amywhile.aemulo
+Name: Aemulo Havor
+Description: NFC Frickery
+Maintainer: Amy While <support@anamy.gay>
+Author: Amy While <support@anamy.gay>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Conflicts: com.amywhile.aemulotrial
+Icon: https://huayuarc.github.io/icon/Aemulo.jpg
+Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
+Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
+Architecture: iphoneos-arm64
+Version: 1.2.5
+Installed-Size: 2224
+Filename: debs/com.amywhile.aemulo-1.2.5-rootless.deb
+Size: 624988
+MD5sum: d8f2aaafa4c7b32e55b91cf0f0b736a8
+SHA1: 
+SHA256: 03b81732e4491ec8e95d76e38795cb83f0eb378d6a127d963bab3ca2520f1dd5
 
 Package: com.ayao.doubaopowerbutton
 Name: DoubaoPowerButton
@@ -13031,10 +13031,10 @@ SHA1:
 SHA256: c2f1cc0b1f6ccd355a9ed1addad3bc8d3df4ac9f02d64afab7e68561190a0064
 
 Package: com.jontelang.snapper3
-Name: Snapper 3
+Name: Snapper 3 Havor
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3free
-Description: Pin screenshots on the screen. Snapper 3 是一款区域截图插件
+Description: Snapper 3 是一款区域截图插件
 Maintainer: Jonathan Winger-lang
 Author: Jonathan Winger-lang
 Section: Tweaks
@@ -13044,16 +13044,16 @@ Installed-Size: 4148
 icon: https://huayuarc.github.io/icon/snapper.png
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.jontelang.snapper3-1.2.1-roothide.deb
-Size: 1023044
-MD5sum: dbdaae9b8685f9ff3bc9c537de8bc635
+Size: 1023332
+MD5sum: 03b7c1b73f7e18455655070bfbc69b9a
 SHA1: 
-SHA256: 57efbb18a9d5c306a9698268049e6cfd02f964150ac7581ec7047bd5b66970df
+SHA256: c21191317b8a2cf3759a0931170d52a967605e32c92f2891d04c8108adbc8653
 
 Package: com.jontelang.snapper3
-Name: Snapper 3
+Name: Snapper 3 Havor
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3free
-Description: Pin screenshots on the screen. Snapper 3 是一款区域截图插件
+Description: Snapper 3 是一款区域截图插件
 Maintainer: Jonathan Winger-lang
 Author: Jonathan Winger-lang
 Section: Tweaks
@@ -13062,35 +13062,16 @@ Version: 1.2.1
 Installed-Size: 4148
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/com.jontelang.snapper3-1.2.1-rootless.deb
-Size: 1030872
-MD5sum: e7a63e5e8027b7c683406bd5c649840e
+Size: 1031504
+MD5sum: 7acc756aab2bb8b5e6052e8cbd22f14d
 SHA1: 
-SHA256: b432fde39fc88a01704e038d7833a477cd6d03bab0561b312bb1278485cafe78
-
-Package: com.jontelang.snapper3
-Name: Snapper 3
-Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: Pin screenshots on the screen.
-Maintainer: Jonathan Winger-lang
-Author: Jonathan Winger-lang
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.2.1
-Installed-Size: 4148
-icon: https://huayuarc.github.io/icon/snapper.png
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.jontelang.snapper3_1.2.1_iphoneos-arm64e.deb
-Size: 1023120
-MD5sum: d31cab945f9dc1543d87d8a90b4d5e9a
-SHA1: 
-SHA256: acd349a894bc20f1c0990a0865add185cca378517293e6f399254b20128eb232
+SHA256: 36a13f561d1e69d414e50072cb83b2c3123aa0f2f7596d3b89e37aa3baeef31f
 
 Package: com.jontelang.snapper3free
 Name: Snapper 3 Free
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3
-Description: Pin screenshots on the screen. Snapper 3 是一款区域截图插件
+Description: Snapper 3 是一款区域截图免费插件
 Maintainer: Jonathan Winger-lang
 Author: Jonathan Winger-lang
 Section: Tweaks
@@ -13100,16 +13081,16 @@ Installed-Size: 4148
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/com.jontelang.snapper3free-1.2.1-roothide.deb
-Size: 1023520
-MD5sum: 49abac3f159acb414b76c0b6d2d753ff
+Size: 1023956
+MD5sum: d21446a1b3197452570a7397b58e2c11
 SHA1: 
-SHA256: c2af7ca15d9ca38a83e821c93212c2eb8985d037131978c5a63d5cf8aefa0e5f
+SHA256: c7843c098239bb367a129f6a51b4d0255dbce717c0a109c0b89fb0f5024597af
 
 Package: com.jontelang.snapper3free
 Name: Snapper 3 Free
 Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.jontelang.snapper3
-Description: Pin screenshots on the screen. Snapper 3 是一款区域截图插件
+Description: Snapper 3 是一款区域截图免费插件
 Maintainer: Jonathan Winger-lang
 Author: Jonathan Winger-lang
 Section: Tweaks
@@ -13118,10 +13099,10 @@ Version: 1.2.1
 Installed-Size: 4148
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/com.jontelang.snapper3free-1.2.1-rootless.deb
-Size: 1030372
-MD5sum: f608d0c48a11a911ebe6ed742547d2b4
+Size: 1031200
+MD5sum: dcceb1f4f2bf6cd98508eed1b5e2475e
 SHA1: 
-SHA256: 0b84108bb6437ebd6e59fcdc156577308549b418869991f68e795e987477ef54
+SHA256: 43b97aa6c0ab9537d55204e01589d25138f1c30044b67ad7d165a89ed8bf4095
 
 Package: com.jzksnsjswkw.feemcrack
 Name: Feemcrack
