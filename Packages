@@ -25031,6 +25031,40 @@ MD5sum: b7ad3e31f717c980bbc755ab331ea797
 SHA1: 
 SHA256: 23afc80f6862613e8d4f7084cce4e904bfab060c90d5875fe907dab33c94f0f3
 
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Installed-Size: 2836
+Filename: debs/com.susudear.screencore-1.1.8-roothide.deb
+Size: 440456
+MD5sum: 80af5641e681858d1a2bce9fc659f824
+SHA1: 
+SHA256: 7431cf57d9f56b9378a2fb1adb4193f65ba14de4c94eaf23732b8999eca47c34
+
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 1.1.8
+Installed-Size: 2836
+Filename: debs/com.susudear.screencore-1.1.8-rootless.deb
+Size: 442704
+MD5sum: 1dddd592c7067ff5be0b8def0535236e
+SHA1: 
+SHA256: b85fb8199fb502d124936a05019660e72c04fc5b55006b1934cd3057c11c291f
+
 Package: com.susudear.sharingdalertwatchdog
 Name: SharingdAlertWatchdog
 Description: 各位开发者是否遇到了 Airdrop 投送后，移动端无法出现菜单，界面卡住崩溃？那试试SharingdAlertWatchdog 吧，他或许可以解决你的困扰
