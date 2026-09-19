@@ -13840,6 +13840,40 @@ MD5sum: 52bb14e3527c0c1f03850bfa7244a4fe
 SHA1: 
 SHA256: 367a1403aad5c71906a14fba83958f535ee10500fbf1d59d5b1e79e74999c0f9
 
+Package: com.mlgm.idata
+Name: iData
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), apt, dpkg
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Installed-Size: 8228
+Filename: debs/com.mlgm.idata-1.2.1-roothide.deb
+Size: 2460812
+MD5sum: c82a05db882cb8e729af23d5b8848ecc
+SHA1: 
+SHA256: dc08e62cab8d6ece8be78c6672b76fd717c409c5c72b1870e60ce94dbf9b5831
+
+Package: com.mlgm.idata
+Name: iData
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), apt, dpkg
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Installed-Size: 8228
+Filename: debs/com.mlgm.idata-1.2.1-rootless.deb
+Size: 2460484
+MD5sum: b4cc531fbc0ce7de942083b89643fa0e
+SHA1: 
+SHA256: c81d67d901b75d39e6905ac3767398d6eb4aefe2faa17fe5d36df4aa49d5b4ff
+
 Package: com.mlgm.ilog
 Name: iLog
 Description: 查看、预览、分享和清理 iOS 日志
@@ -17290,7 +17324,7 @@ Name: SmartDeck App
 Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
 Maintainer: kanuo
 Author: kanuo
-Section: Applications
+Section: Tweaks
 Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
 Conflicts: com.qianuo.smartdeck
 Architecture: iphoneos-arm64e
@@ -17299,17 +17333,17 @@ Installed-Size: 1112
 Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v2.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 Filename: debs/com.qianuo.smartdeck.app-0.7.12-roothide.deb
-Size: 207208
-MD5sum: 6da02c14396d093253a761052d39e6fd
+Size: 207172
+MD5sum: 5ad0e7825d450e3e59ee063411c70e07
 SHA1: 
-SHA256: 1625a0fa26879683cf9cce2652f81a34141ac86a05a9d83068565c84837fe5a5
+SHA256: 183c700bb1e244a510aff7adbcb6a9a035d74dd51fc475ef7f1d32a70c852cb2
 
 Package: com.qianuo.smartdeck.app
 Name: SmartDeck App
 Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
 Maintainer: kanuo
 Author: kanuo
-Section: Applications
+Section: Tweaks
 Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
 Conflicts: com.qianuo.smartdeck
 Architecture: iphoneos-arm64
@@ -17318,49 +17352,36 @@ Installed-Size: 1112
 Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v2.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 Filename: debs/com.qianuo.smartdeck.app-0.7.12-rootless.deb
-Size: 206944
-MD5sum: f883d0b85713b172697f5ccf764cf23f
+Size: 207356
+MD5sum: e34b39591428c0fd2d4d25eb320cc18f
 SHA1: 
-SHA256: 0a77be49e5edd2c3d76b4a0fa6b886508a0d80c84d1eafa0b00a49a623fe5b8f
+SHA256: 20b75d70262285e61214239b482b587ce307c80e1ce07af94b29ab4a16f3de2d
 
-Package: com.qianuo.smartdeck.app
-Name: SmartDeck
-Version: 0.7.8
-Architecture: iphoneos-arm64e
-Description: 独立桌面 + SpringBoard 场景托管（实验版）
- 通过 roothide 安装独立 SmartDeck 桌面，原生 iOS 桌面保留，真实 App 的托管区域覆盖整个九宫格，桌面顶部、翻页栏及底部圆形 Home 保留在外面。
- .
- 【重要：必须配合 Bottom-x 悬浮球 6.59】
- - 托管返回继续使用 Bottom-x 悬浮球 6.59，否则 Home 返回键不生效
- - 已安装 Bottom-x 悬浮球 6.59 的用户无需重复安装
- .
+Package: com.qianuo.soulpaste
+Name: SoulPaste
+Description: Soul 私聊直接粘贴图片：在 Soul 私聊输入框直接粘贴剪贴板里的图片发送，无需先存相册再选图。
  【核心功能】
- - 三窗口协同：一个大主窗口 + 两个小副窗口，各自独立宿主会话，点击切换、互不影响
- - 九宫格桌面：整页纸张式翻页，双指捏合进入每页 36 入口总览，长按拖动排序
- - 键盘自适应：键盘弹出时当前窗口临时全屏，另外两窗隐藏保持会话，收起后恢复一大两小
- - 外置键盘覆盖屏幕底部，收起后可操作圆形 Home
- - 点击图标内容从该位置展开铺满九宫格，无弹窗标题栏
- .
+  - 私聊直接粘贴：复制或截图图片后，在 Soul 私聊输入框直接粘贴发送
+  - 省去存相册步骤：不用先把图片保存到系统相册再从相册选择
+  - 通用兼容：不绑定 Soul 特定版本号，App 更新后一般仍可用
  【使用说明】
- - 安装后正常注销一次，从多任务彻底关闭待测 App，再从 SmartDeck 打开
- - 用右下角管理按钮从「已安装的 App」列表添加应用，首轮建议 Safari
- - 首次验收不要让其他托管插件同时托管同一个 App
- .
- 【兼容性】
- - iOS 16.0 – 17.3.1，roothide (arm64e)
- - 实验版：双实时 App、键盘、多场景、视频、相机、支付等未完成真机验证
-Maintainer: kanuo
-Author: kanuo
+  - 安装后请 Respring 一次
+  - 适用 iOS 17 及以上
+  - 使用方式：复制/截图图片后，进入 Soul 私聊，在输入框长按选择粘贴即可
+  - 本包为 RootHide（arm64e）版
+Maintainer: qianuo
+Author: qianuo
 Section: Tweaks
-Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
-Conflicts: com.qianuo.smartdeck
-Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
-Filename: debs/com.qianuo.smartdeck.app-0.7.8-roothide.deb
-Size: 198072
-MD5sum: e6a65ccfffe99a7b4c2e386bff3c2328
+Depends: firmware (>= 17.0)
+Architecture: iphoneos-arm64e
+Version: 0.2.0
+Installed-Size: 212
+icon: https://huayuarc.github.io/icon/soulpaste.jpg
+Filename: debs/com.qianuo.soulpaste-0.2.0-roothide.deb
+Size: 22936
+MD5sum: 1bc860ba7903edf0a67e83dec3ec8541
 SHA1: 
-SHA256: 140abdc30e0f4b437c4f8e10bdd225e495e8d046d1cd43952c3b2fb8132f003c
+SHA256: f4feac51ac67f23a140c9293b835d0f3c5ec9f9d388a6f5cea931a9208b35c35
 
 Package: com.qimiao.WCRefine
 Name: WCRefine 微信优化
