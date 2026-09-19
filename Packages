@@ -7407,6 +7407,25 @@ MD5sum: 96f41de973907d111880e98720bc97cf
 SHA1: 
 SHA256: 78c5b4207d89dfac1a1727db9ba99779b4a2ede7ca0aa25401154d25be122032
 
+Package: com.hang.squidgesturepro-ios17fix
+Name: 乌贼手势 iOS 17 补丁
+Description: 修复SquidGesturePro在iOS17状态栏不生效与启动快捷指令时导致的安全模式。
+ 不生效就把手势内总开关跟小开关重新开启一下，有问题请卸载。
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
+Conflicts: com.codex.squidgesture17fix
+Architecture: iphoneos-arm64e
+Version: 2.3
+Installed-Size: 92
+icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+Filename: debs/com.hang.squidgesturepro-ios17fix-2.3-roothide.deb
+Size: 15036
+MD5sum: f64e63681d86479a64a1640d32cfdb45
+SHA1: 
+SHA256: 3d0f4c47fc73d9fa34254e4b6f703d9a67f834a27aba0bdd444bc08ce1f240cb
+
 Package: com.HBWechatHelper.ailun
 Version: 2.1.2
 Section: Tweaks
@@ -32329,7 +32348,8 @@ Version: 1.0
 Installed-Size: 788
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/AppHideHeaderIcon.png
-Filename: debs/xyz.cypwn.apphide-1.0-roothide.deb
+Filename: debs/xyz.cypwn.apphide-1.0
+-roothide.deb
 Size: 95400
 MD5sum: 622bc031b6658d386dae6e91e25766fd
 SHA1: 
@@ -32346,7 +32366,8 @@ Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 788
 icon: https://huayuarc.github.io/icon/AppHideHeaderIcon.png
-Filename: debs/xyz.cypwn.apphide-1.0-rootless.deb
+Filename: debs/xyz.cypwn.apphide-1.0
+-rootless.deb
 Size: 97888
 MD5sum: 03a2e0cac854b9d55b41e35bc121b1a0
 SHA1: 
