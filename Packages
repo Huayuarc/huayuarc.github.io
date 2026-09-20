@@ -17774,6 +17774,128 @@ MD5sum: 67a50c3517a2b5785a331da1be9a1056
 SHA1: 
 SHA256: 71937d62f704c766cd9331e6aac502b7db741407250649a0483dc3775f8bf082
 
+Package: com.qianuo.chatassist
+Name: 聊伴 ChatAssist
+Description: 选区 OCR + AI 回复助手（实验版）。框选屏幕上的聊天内容，本机 OCR 识别文字，
+ 再通过你自备的 AI 接口生成多条候选回复，点击即复制，由你自己决定是否发送。
+  .
+  【适用场景】
+  - 任意聊天类 App（微信 / QQ / Soul / 短信等），无需为每个 App 单独适配消息结构
+  - 把希望参考的多条聊天一起框入选区，综合全部文字生成候选，而非只回复最后一行
+  .
+  【核心功能】
+  - 屏幕选区 OCR：框选聊天区域，框选支持拖动移动、四角缩放、选区外拖出新区域
+  - 三种识别模式：本机 Vision OCR / 模型 OCR / 本机失败后用模型
+  - 候选回复：可选 1 / 3 / 10 条，支持 46 套内置提示词模板，可自行新增、编辑、排序
+  - 只复制不发送：点击候选回复仅写入剪贴板，不代替用户发送、不改写草稿
+  - 液态玻璃皮肤：窗口支持液态玻璃材质，由独立渲染进程驱动，边缘折射与底色可调
+  - 回复语直达输入框：先点一下输入框，再点窗口里的回复语，会自动粘贴进输入框（不发送）
+  - 悬浮窗口：可拖动、贴边收起，宽高与不透明度可调
+  - 边缘标签：点击展开，向内横滑超过约 60 点展开，上下拖动移位，拖到另一边换边
+  - 持续扫描：默认 5 秒间隔（可设 3～30 秒），需连续两次 OCR 结果一致才提交，不变不重复请求
+  - 联网查询（可选）：开启后按百度、必应、360 依次尝试获取摘要，失败会明确说明原因
+  - 主动问答：输入文字或粘贴图片直接提问，支持「聊天模式 / 生图模式」切换
+  - 截图模式：从剪贴板粘贴截图，默认不上传图片，仅把文字发给 API
+  .
+  【API 配置】
+  HTTPS + Bearer API Key + OpenAI 兼容 Chat Completions 协议。
+  内置 DeepSeek / OpenAI / Gemini 兼容入口 / Kimi / 豆包·火山方舟 / 百度千帆 v2 预设，
+  也可填写任意自定义兼容服务地址。密钥保存在系统钥匙串，设置文件不保存密钥。
+  .
+  【隐私说明】
+  - 默认本机 OCR，不上传图片；启用模型 OCR 并授权后才发送裁切后的选区图片
+  - 选区图片仅留在内存，退出、清空会话、切换 App 或锁屏时清除，不写磁盘
+  - 不读取聊天数据库，不记录 API 响应正文、聊天文字或密钥日志
+  - 不累积历史记录，仅使用当前可见区域；不会自动滚屏或点击发送
+  .
+  【⚠️ 请文明使用】
+  本插件仅供个人学习与效率辅助使用。
+  请勿用于骚扰、诈骗、冒充他人、批量营销或其他违法违规用途。
+  使用本插件产生的一切不良行为与后果，由使用者自行承担，作者概不负责。
+  请遵守你所在地区的法律法规及相关平台的服务条款。
+  .
+  【系统与架构】
+  iOS 15.0 – 17.3.1，隐根 (roothide / RootHide / Relaxin)。
+  首次仅面向竖屏；横屏、受保护内容、多屏多场景、视频画面不保证支持。
+  .
+  【依赖】
+  firmware (>= 15.0), preferenceloader, uikittools
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Architecture: iphoneos-arm64e
+Version: 0.1.39
+Installed-Size: 2080
+Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
+Filename: debs/com.qianuo.chatassist-0.1.39-roothide.deb
+Size: 330008
+MD5sum: 30fd893ebe6481aa1a4c5a51c1006111
+SHA1: 
+SHA256: 3832ba1fdd6137e0ff95b5e68e02b8c1ad506b20d1d6cd487ce34d3618c2e181
+
+Package: com.qianuo.chatassist
+Name: 聊伴 ChatAssist
+Description: 选区 OCR + AI 回复助手（实验版）。框选屏幕上的聊天内容，本机 OCR 识别文字，
+ 再通过你自备的 AI 接口生成多条候选回复，点击即复制，由你自己决定是否发送。
+  .
+  【适用场景】
+  - 任意聊天类 App（微信 / QQ / Soul / 短信等），无需为每个 App 单独适配消息结构
+  - 把希望参考的多条聊天一起框入选区，综合全部文字生成候选，而非只回复最后一行
+  .
+  【核心功能】
+  - 屏幕选区 OCR：框选聊天区域，框选支持拖动移动、四角缩放、选区外拖出新区域
+  - 三种识别模式：本机 Vision OCR / 模型 OCR / 本机失败后用模型
+  - 候选回复：可选 1 / 3 / 10 条，支持 46 套内置提示词模板，可自行新增、编辑、排序
+  - 只复制不发送：点击候选回复仅写入剪贴板，不代替用户发送、不改写草稿
+  - 液态玻璃皮肤：窗口支持液态玻璃材质，由独立渲染进程驱动，边缘折射与底色可调
+  - 回复语直达输入框：先点一下输入框，再点窗口里的回复语，会自动粘贴进输入框（不发送）
+  - 悬浮窗口：可拖动、贴边收起，宽高与不透明度可调
+  - 边缘标签：点击展开，向内横滑超过约 60 点展开，上下拖动移位，拖到另一边换边
+  - 持续扫描：默认 5 秒间隔（可设 3～30 秒），需连续两次 OCR 结果一致才提交，不变不重复请求
+  - 联网查询（可选）：开启后按百度、必应、360 依次尝试获取摘要，失败会明确说明原因
+  - 主动问答：输入文字或粘贴图片直接提问，支持「聊天模式 / 生图模式」切换
+  - 截图模式：从剪贴板粘贴截图，默认不上传图片，仅把文字发给 API
+  .
+  【API 配置】
+  HTTPS + Bearer API Key + OpenAI 兼容 Chat Completions 协议。
+  内置 DeepSeek / OpenAI / Gemini 兼容入口 / Kimi / 豆包·火山方舟 / 百度千帆 v2 预设，
+  也可填写任意自定义兼容服务地址。密钥保存在系统钥匙串，设置文件不保存密钥。
+  .
+  【隐私说明】
+  - 默认本机 OCR，不上传图片；启用模型 OCR 并授权后才发送裁切后的选区图片
+  - 选区图片仅留在内存，退出、清空会话、切换 App 或锁屏时清除，不写磁盘
+  - 不读取聊天数据库，不记录 API 响应正文、聊天文字或密钥日志
+  - 不累积历史记录，仅使用当前可见区域；不会自动滚屏或点击发送
+  .
+  【⚠️ 请文明使用】
+  本插件仅供个人学习与效率辅助使用。
+  请勿用于骚扰、诈骗、冒充他人、批量营销或其他违法违规用途。
+  使用本插件产生的一切不良行为与后果，由使用者自行承担，作者概不负责。
+  请遵守你所在地区的法律法规及相关平台的服务条款。
+  .
+  【系统与架构】
+  iOS 15.0 – 17.3.1，无根 (rootless / Dopamine / palera1n rootless)。
+  首次仅面向竖屏；横屏、受保护内容、多屏多场景、视频画面不保证支持。
+  .
+  【依赖】
+  firmware (>= 15.0), preferenceloader, uikittools
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Architecture: iphoneos-arm64
+Version: 0.1.39
+Installed-Size: 2080
+Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
+Filename: debs/com.qianuo.chatassist-0.1.39-rootless.deb
+Size: 329480
+MD5sum: 78965d626fb83ba755c3592246b4ddfc
+SHA1: 
+SHA256: 359ec03103c8c695214a33f91bac5c94a9e95b3ff92a8393e238ce2bbdc91852
+
 Package: com.qianuo.dyadaptive
 Name: 抖音窗口自适应（测试版）
 Version: 0.1.2~test2
