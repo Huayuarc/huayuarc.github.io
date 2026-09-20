@@ -17656,6 +17656,124 @@ MD5sum: ee309b5d3074d3091793adf0cc096bcd
 SHA1: 
 SHA256: 017bab354afd913bfa785d955b21b1b5fc80c773d27483bd6fc93c1f9f6fe057
 
+Package: com.qianuo.chatassist
+Name: 聊伴 ChatAssist
+Description: 选区 OCR + AI 回复助手（实验版）。框选屏幕上的聊天内容，本机 OCR 识别文字，
+ 再通过你自备的 AI 接口生成多条候选回复，点击即复制，由你自己决定是否发送。
+  .
+  【适用场景】
+  - 任意聊天类 App（微信 / QQ / Soul / 短信等），无需为每个 App 单独适配消息结构
+  - 把希望参考的多条聊天一起框入选区，综合全部文字生成候选，而非只回复最后一行
+  .
+  【核心功能】
+  - 屏幕选区 OCR：框选聊天区域，框选支持拖动移动、四角缩放、选区外拖出新区域
+  - 三种识别模式：本机 Vision OCR / 模型 OCR / 本机失败后用模型
+  - 候选回复：可选 1 / 3 / 10 条，支持 46 套内置提示词模板，可自行新增、编辑、排序
+  - 只复制不发送：点击候选回复仅写入剪贴板，不代替用户发送、不改写草稿
+  - 悬浮窗口：液态玻璃质感，可拖动、贴边收起，宽高与不透明度可调
+  - 边缘标签：点击展开，向内横滑超过约 60 点展开，上下拖动移位，拖到另一边换边
+  - 持续扫描：默认 5 秒间隔（可设 3～30 秒），需连续两次 OCR 结果一致才提交，不变不重复请求
+  - 联网查询（可选）：开启后按百度、必应、360 依次尝试获取摘要，失败会明确说明原因
+  - 主动问答：输入文字或粘贴图片直接提问，支持「聊天模式 / 生图模式」切换
+  - 截图模式：从剪贴板粘贴截图，默认不上传图片，仅把文字发给 API
+  .
+  【API 配置】
+  HTTPS + Bearer API Key + OpenAI 兼容 Chat Completions 协议。
+  内置 DeepSeek / OpenAI / Gemini 兼容入口 / Kimi / 豆包·火山方舟 / 百度千帆 v2 预设，
+  也可填写任意自定义兼容服务地址。密钥保存在系统钥匙串，设置文件不保存密钥。
+  .
+  【隐私说明】
+  - 默认本机 OCR，不上传图片；启用模型 OCR 并授权后才发送裁切后的选区图片
+  - 选区图片仅留在内存，退出、清空会话、切换 App 或锁屏时清除，不写磁盘
+  - 不读取聊天数据库，不记录 API 响应正文、聊天文字或密钥日志
+  - 不累积历史记录，仅使用当前可见区域；不会自动滚屏或点击发送
+  .
+  【⚠️ 请文明使用】
+  本插件仅供个人学习与效率辅助使用。
+  请勿用于骚扰、诈骗、冒充他人、批量营销或其他违法违规用途。
+  使用本插件产生的一切不良行为与后果，由使用者自行承担，作者概不负责。
+  请遵守你所在地区的法律法规及相关平台的服务条款。
+  .
+  【系统与架构】
+  iOS 15.0 – 17.3.1，roothide (arm64e)。
+  首次仅面向竖屏；横屏、受保护内容、多屏多场景、视频画面不保证支持。
+  .
+  【依赖】
+  firmware (>= 15.0), preferenceloader, uikittools
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Architecture: iphoneos-arm64e
+Version: 0.1.33
+Installed-Size: 1468
+Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
+Filename: debs/com.qianuo.chatassist-0.1.33-roothide.deb
+Size: 250244
+MD5sum: b567145d9792e1eb91419ed42899ddf1
+SHA1: 
+SHA256: 0b3400ac5a8cd943b8d3766e47c6e32105243ec10562cdfd1fc00ccbbbf33441
+
+Package: com.qianuo.chatassist
+Name: 聊伴 ChatAssist
+Description: 选区 OCR + AI 回复助手（实验版）。框选屏幕上的聊天内容，本机 OCR 识别文字，
+ 再通过你自备的 AI 接口生成多条候选回复，点击即复制，由你自己决定是否发送。
+  .
+  【适用场景】
+  - 任意聊天类 App（微信 / QQ / Soul / 短信等），无需为每个 App 单独适配消息结构
+  - 把希望参考的多条聊天一起框入选区，综合全部文字生成候选，而非只回复最后一行
+  .
+  【核心功能】
+  - 屏幕选区 OCR：框选聊天区域，框选支持拖动移动、四角缩放、选区外拖出新区域
+  - 三种识别模式：本机 Vision OCR / 模型 OCR / 本机失败后用模型
+  - 候选回复：可选 1 / 3 / 10 条，支持 46 套内置提示词模板，可自行新增、编辑、排序
+  - 只复制不发送：点击候选回复仅写入剪贴板，不代替用户发送、不改写草稿
+  - 悬浮窗口：液态玻璃质感，可拖动、贴边收起，宽高与不透明度可调
+  - 边缘标签：点击展开，向内横滑超过约 60 点展开，上下拖动移位，拖到另一边换边
+  - 持续扫描：默认 5 秒间隔（可设 3～30 秒），需连续两次 OCR 结果一致才提交，不变不重复请求
+  - 联网查询（可选）：开启后按百度、必应、360 依次尝试获取摘要，失败会明确说明原因
+  - 主动问答：输入文字或粘贴图片直接提问，支持「聊天模式 / 生图模式」切换
+  - 截图模式：从剪贴板粘贴截图，默认不上传图片，仅把文字发给 API
+  .
+  【API 配置】
+  HTTPS + Bearer API Key + OpenAI 兼容 Chat Completions 协议。
+  内置 DeepSeek / OpenAI / Gemini 兼容入口 / Kimi / 豆包·火山方舟 / 百度千帆 v2 预设，
+  也可填写任意自定义兼容服务地址。密钥保存在系统钥匙串，设置文件不保存密钥。
+  .
+  【隐私说明】
+  - 默认本机 OCR，不上传图片；启用模型 OCR 并授权后才发送裁切后的选区图片
+  - 选区图片仅留在内存，退出、清空会话、切换 App 或锁屏时清除，不写磁盘
+  - 不读取聊天数据库，不记录 API 响应正文、聊天文字或密钥日志
+  - 不累积历史记录，仅使用当前可见区域；不会自动滚屏或点击发送
+  .
+  【⚠️ 请文明使用】
+  本插件仅供个人学习与效率辅助使用。
+  请勿用于骚扰、诈骗、冒充他人、批量营销或其他违法违规用途。
+  使用本插件产生的一切不良行为与后果，由使用者自行承担，作者概不负责。
+  请遵守你所在地区的法律法规及相关平台的服务条款。
+  .
+  【系统与架构】
+  iOS 15.0 – 17.3.1，无根 (rootless / Dopamine / palera1n rootless)。
+  首次仅面向竖屏；横屏、受保护内容、多屏多场景、视频画面不保证支持。
+  .
+  【依赖】
+  firmware (>= 15.0), preferenceloader, uikittools
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Architecture: iphoneos-arm64
+Version: 0.1.33
+Installed-Size: 1468
+Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
+Filename: debs/com.qianuo.chatassist-0.1.33-rootless.deb
+Size: 251616
+MD5sum: 2736ff86d18dd693e2de578b60afe65e
+SHA1: 
+SHA256: d148088a5a23f99f6c8d1302669d95b0f8dbe4a0417441b08b902a9d79d8122c
+
 Package: com.qianuo.dyadaptive
 Name: 抖音窗口自适应（测试版）
 Version: 0.1.2~test2
@@ -19254,6 +19372,92 @@ Size: 383872
 MD5sum: feb39f4a6faac88da79ac655e1bfdb5a
 SHA1: 
 SHA256: 9a51df1555b2cf1f2a44b36e9533a74ac55e71206a1d7c70c7eb4d542870a9d9
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
+ 【本次更新 V4.71】
+  - 修复已知 bug
+ 【历史更新】
+  - V4.70：新增智能温控限制充电
+  - V4.66：新增设置：莫忘越狱源
+  - V4.65：修复系统设置里设置后又恢复默认 bug
+  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.71
+Installed-Size: 2884
+Filename: debs/com.sbcpu.floating-4.71-roothide.deb
+Size: 385528
+MD5sum: 423a7c5b2a23b91d9fa18aeeac7e110e
+SHA1: 
+SHA256: 65ecdb82388ed25dee3e78566d7e964dfc848df44bad94d3126bfc79856ccc91
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
+ 【本次更新 V4.71】
+  - 修复已知 bug
+ 【历史更新】
+  - V4.70：新增智能温控限制充电
+  - V4.66：新增设置：莫忘越狱源
+  - V4.65：修复系统设置里设置后又恢复默认 bug
+  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 4.71
+Installed-Size: 2884
+Filename: debs/com.sbcpu.floating-4.71-rootless.deb
+Size: 384088
+MD5sum: 6ac508b6c5eb80408e2a898fa6ff14c1
+SHA1: 
+SHA256: bc4bdafb548cf84b737fb85b287e035cb03bd0c6e3f10e3bdf464ba4b6fbc6f2
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
@@ -25710,6 +25914,48 @@ MD5sum: 94bf0780c6a3cf97893bdc35d69ff806
 SHA1: 
 SHA256: b16f54bfe2b52e840e3372595c99d9b240c25d17e5e784210500c575d5cfba5b
 
+Package: com.susudear.stayshot
+Name: StayShot
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+SileoDepiction: https://repo.susubaby.cn/json/stayshot.json
+Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3
+Replaces: com.jontelang.snapper3
+Provides: com.jontelang.snapper3 (= 1.2.1)
+Architecture: iphoneos-arm64e
+Version: 0.5.5
+Installed-Size: 2340
+Filename: debs/com.susudear.stayshot-0.5.5-roothide.deb
+Size: 229668
+MD5sum: 151355ba9d5c3b3b72c76ef3a9bbe246
+SHA1: 
+SHA256: 7fff05d652ae70ca62c40f692de3818a76083d64ee97db687d6cab9301496cfa
+
+Package: com.susudear.stayshot
+Name: StayShot
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+SileoDepiction: https://repo.susubaby.cn/json/stayshot.json
+Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3
+Replaces: com.jontelang.snapper3
+Provides: com.jontelang.snapper3 (= 1.2.1)
+Architecture: iphoneos-arm64
+Version: 0.5.5
+Installed-Size: 2340
+Filename: debs/com.susudear.stayshot-0.5.5-rootless.deb
+Size: 229816
+MD5sum: 75a3016c532f6adf4eea0a14aad78bd1
+SHA1: 
+SHA256: c0cda1efcf774c43d5373914397d28c6e7a81d51d8b40c808e14778cd74dfa16
+
 Package: com.susudear.susuocr
 Name: SuSuOCR 百度OCR识别
 Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
@@ -28817,6 +29063,40 @@ Size: 123616
 MD5sum: 159f8ce68afe0fae5eba1df37d97c845
 SHA1: 
 SHA256: 923dfd6b686c770bc42aa6d203e6d818cd8d1a55120b85116bf4574f4db75c8a
+
+Package: iya.banana.dockicon
+Name: DarkIcon
+Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Architecture: iphoneos-arm64e
+Version: 0.9.4
+Installed-Size: 1052
+icon: https://huayuarc.github.io/icon/DarkIcon.png
+Filename: debs/iya.banana.dockicon-0.9.4-roothide.deb
+Size: 188144
+MD5sum: 55f7a035d84e8de50e47f07ac3782cd6
+SHA1: 
+SHA256: 0c96f24e80234dbf7802d819b0b8cbde4e1ea95e6e5a2171d89619ce5c7f7ec9
+
+Package: iya.banana.dockicon
+Name: DarkIcon
+Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Architecture: iphoneos-arm64
+Version: 0.9.4
+Installed-Size: 1052
+icon: https://huayuarc.github.io/icon/DarkIcon.png
+Filename: debs/iya.banana.dockicon-0.9.4-rootless.deb
+Size: 187908
+MD5sum: 38b4171a1caddab985a2e04e1119019d
+SHA1: 
+SHA256: 9c4489b31d48924f928d9f4d7f1471609f7611e9f81d39d02c53787da7155e8c
 
 Package: iya.banana.dynamicmusicbg
 Name: DynamicMusicBG
