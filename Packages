@@ -18173,6 +18173,44 @@ MD5sum: e34b39591428c0fd2d4d25eb320cc18f
 SHA1: 
 SHA256: 20b75d70262285e61214239b482b587ce307c80e1ce07af94b29ab4a16f3de2d
 
+Package: com.qianuo.smartdeck.app
+Name: SmartDeck App
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Architecture: iphoneos-arm64e
+Version: 0.8.19
+Installed-Size: 1688
+Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
+Filename: debs/com.qianuo.smartdeck.app-0.8.19-roothide.deb
+Size: 357388
+MD5sum: 267d008a9c4c601479f4b8c6e237cde2
+SHA1: 
+SHA256: 7b55ce289c83dde084eeda1464c5f630c2e8659876dfaaa0b094b1a661636f7d
+
+Package: com.qianuo.smartdeck.app
+Name: SmartDeck App
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Architecture: iphoneos-arm64
+Version: 0.8.19
+Installed-Size: 1688
+Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
+Filename: debs/com.qianuo.smartdeck.app-0.8.19-rootless.deb
+Size: 357508
+MD5sum: 23ffbba33ac92cdefca3ed690ee81309
+SHA1: 
+SHA256: d95692b975d1e3b9ae34264d3c2772094e82eccd5f3d78cdec07b60301907970
+
 Package: com.qianuo.soulpaste
 Name: SoulPaste
 Description: Soul 私聊直接粘贴图片：在 Soul 私聊输入框直接粘贴剪贴板里的图片发送，无需先存相册再选图。
