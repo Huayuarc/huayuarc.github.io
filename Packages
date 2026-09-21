@@ -30017,6 +30017,42 @@ MD5sum: 6a38eac40442dc5f8629f84c97109359
 SHA1: 
 SHA256: 4eea9a373987eb289feb2c55d82c59d60b5b9e5b82a6437dbb70f016a17dc285
 
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 2192
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.0-roothide.deb
+Size: 396568
+MD5sum: 3a70ab734edb06b71763985d7e904248
+SHA1: 
+SHA256: 963532ed5ea2253d7f2cf9b9260876e30303639ffb342587c876b39201628e21
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 2208
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.0-rootless.deb
+Size: 395780
+MD5sum: ed1a711963b551ca010783278a64783b
+SHA1: 
+SHA256: 4c7c00f9bc4d1338b3bad61a958524c65635230e986900401741dd635f86e5a7
+
 Package: iya.banana.jumpguard
 Name: JumpGuard
 Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
