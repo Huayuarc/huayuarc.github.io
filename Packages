@@ -6851,6 +6851,41 @@ MD5sum: 30313d8472436414b0eca2b5d34f5cb0
 SHA1: 
 SHA256: 8dba4ee7102d697b6e7098e8b18659e15d9cee9ba4e8f5f204b108e9263318ae
 
+Package: com.dynamicx.tweak
+Name: DynamicX
+Description: 万物皆上岛
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+Architecture: iphoneos-arm64e
+Version: 1.4.8
+Installed-Size: 1628
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.dynamicx.tweak-1.4.8-roothide.deb
+Size: 177348
+MD5sum: a3597b75d7a63c9b3d3f867e288ac4d6
+SHA1: 
+SHA256: f68cd954f76c787ec7a818584014a8b2a1c552ef2eed349fe8071254b50cbdee
+
+Package: com.dynamicx.tweak
+Name: DynamicX
+Description: 万物皆上岛
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+Architecture: iphoneos-arm64
+Version: 1.4.8
+Installed-Size: 1628
+Filename: debs/com.dynamicx.tweak-1.4.8-rootless.deb
+Size: 185340
+MD5sum: 5a3b3661b94dd7fd6146eb86926f527d
+SHA1: 
+SHA256: 7458e5b3be8d76bb3ac6bde88256b19c04894c445f9b48dbff8cc2b4a5d20dd7
+
 Package: com.eliassfeir.no2theftios15
 Name: No2Theft
 Depends: ws.hbang.common
@@ -14220,6 +14255,50 @@ Size: 120172
 MD5sum: 951c0c349e7dd7d41aebad700b61fa06
 SHA1: 
 SHA256: a3d7719e62276cb1f1de75d9b5a1560f0997297297c321d50c3d0e1f60d8b9a1
+
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘光效
+Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
+ 自定义键盘底色、键帽颜色、霓虹亮度与浓淡。
+ 支持粗彩色键框、键缝背光、候选词渐变及独立开关。
+ 设置内含离线详情与效果预览。
+ 支持跨 App 配色同步，每个滑条附有作用与调节说明。
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.20~samsung12
+Installed-Size: 900
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
+Filename: debs/com.minis.rainbowkeyboard-1.0.20~samsung12-roothide.deb
+Size: 584240
+MD5sum: 8986502950bab98cc7a6b9a9f3102e6c
+SHA1: 
+SHA256: 44c021476b863ddace3bbcab6e7901c1bcda26bf56f86e0a161be218c8f74b9d
+
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘光效
+Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
+ 自定义键盘底色、键帽颜色、霓虹亮度与浓淡。
+ 支持粗彩色键框、键缝背光、候选词渐变及独立开关。
+ 设置内含离线详情与效果预览。
+ 支持跨 App 配色同步，每个滑条附有作用与调节说明。
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.20~samsung12
+Installed-Size: 904
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
+Filename: debs/com.minis.rainbowkeyboard-1.0.20~samsung12-rootless.deb
+Size: 583816
+MD5sum: 9c5e41a5a878b4decf21d3212c19f0a6
+SHA1: 
+SHA256: 14a3f953e410018eea5d3c4cc34375ba5729fcc6e69f5432c68f9124ced0eb3c
 
 Package: com.miro.libmiroshared
 Name: libMiROShared
