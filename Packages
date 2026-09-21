@@ -11802,6 +11802,42 @@ SHA1:
 SHA256: ab6f0373b419646a8456f4473ec3189457cdd3c0ab5746ea5abddc9d06204690
 
 Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 10.0.0
+Installed-Size: 16160
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-10.0.0-roothide.deb
+Size: 3780324
+MD5sum: 7720dc9882248b61648941db78140c6b
+SHA1: 
+SHA256: c7290dfaa59b56e563a93d9410b38512ff12bfcbcf7c1a62f15fb14b98ccea0e
+
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 10.0.0
+Installed-Size: 16160
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-10.0.0-rootless.deb
+Size: 3785992
+MD5sum: 5e0dbb8bbd690d851dc0376580e62cfc
+SHA1: 
+SHA256: 75d2e75e4e74dfbdac78d7e54bae4a52264dd95453d1b667b4690c5a166993e7
+
+Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
 Depends: mobilesubstrate, preferenceloader
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
@@ -19704,6 +19740,96 @@ Size: 383680
 MD5sum: f680889f10c5cd34d7170de7fcabf45f
 SHA1: 
 SHA256: f73cd5497f95458926fbcbfba38e3d64729ef13d1651dc04c0fa67164d3e39d1
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
+ 【本次更新 V4.73】
+  - 回归双击全屏设置
+ 【历史更新】
+  - V4.72：修复智能停充 bug
+  - V4.71：修复已知 bug
+  - V4.70：新增智能温控限制充电
+  - V4.66：新增设置：莫忘越狱源
+  - V4.65：修复系统设置里设置后又恢复默认 bug
+  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.73
+Installed-Size: 2852
+Filename: debs/com.sbcpu.floating-4.73-roothide.deb
+Size: 383828
+MD5sum: b152854cf0f54f776137d7276b93780f
+SHA1: 
+SHA256: b1bc8054ab2c67551efa6c28e9d23c5aea560f0e998600adb1800b95c1b9d8f5
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
+ 【本次更新 V4.73】
+  - 回归双击全屏设置
+ 【历史更新】
+  - V4.72：修复智能停充 bug
+  - V4.71：修复已知 bug
+  - V4.70：新增智能温控限制充电
+  - V4.66：新增设置：莫忘越狱源
+  - V4.65：修复系统设置里设置后又恢复默认 bug
+  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 4.73
+Installed-Size: 2884
+Filename: debs/com.sbcpu.floating-4.73-rootless.deb
+Size: 383744
+MD5sum: 11b06e1a3f225705b59fef7aa99d42f3
+SHA1: 
+SHA256: 9cdfae8016b33f0bac28d1753079ebf368a903e941624fcbaca7a3bb0aad989e
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
