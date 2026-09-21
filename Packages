@@ -20324,58 +20324,6 @@ MD5sum: 30c5564304d5e4d1921afe465caf1dfd
 SHA1: 
 SHA256: c952b2f0d4a79fd3799de6dcedf06e06f75ee995edb680d46963d2382da62a6c
 
-Package: com.simon.dynamicislandanimation
-Name: 灵动岛跳舞动画PLUS
-Description:用于灵动岛专辑及屏幕录制动态跳舞动画整合 无需挂载不再卑微！
-Maintainer: Simon
-Author: Simon
-Section: Tweaks
-Depends: mobilesubstrate
-Architecture: iphoneos-arm64e
-Version: 2.4
-Installed-Size: 560
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/dynamicislandanimation.jpg
-Filename: debs/com.simon.dynamicislandanimation-2.4-roothide.deb
-Size: 78644
-MD5sum: 1c1c678b46099f34804a00cfeac846f9
-SHA1: 
-SHA256: 1f785a903cf5ec68e0c359f23243c01473bb719dddf56775ad3495c8478d3bb4
-
-Package: com.simon.dynamicislandanimation
-Name: 灵动岛跳舞动画PLUS
-Description:用于灵动岛专辑及屏幕录制动态跳舞动画整合 无需挂载不再卑微！
-Maintainer: Simon
-Author: Simon
-Section: Tweaks
-Depends: mobilesubstrate
-Architecture: iphoneos-arm64
-Version: 2.4
-Installed-Size: 560
-icon: https://huayuarc.github.io/icon/dynamicislandanimation.jpg
-Filename: debs/com.simon.dynamicislandanimation-2.4-rootless.deb
-Size: 80372
-MD5sum: fbf4ab04e1f2758279bed29684665631
-SHA1: 
-SHA256: 4797eb52bb2ecf4b0991167a4fd2137ce038f22304da0fce69769caa1c71c8e8
-
-Package: com.simon.dynamicislandanimation
-Name: 灵动岛跳舞动画
-Description:用于灵动岛专辑及屏幕录制动态跳舞动画整合 无需挂载不再卑微！
-Maintainer: Simon
-Author: Simon
-Section: Tweaks
-Depends: mobilesubstrate
-Architecture: iphoneos-arm64
-Version: 1.1.8
-Installed-Size: 432
-Icon: https://huayuarc.github.io/icon/CCMusic.png
-Filename: debs/com.simon.dynamicislandanimation_1.1.8_iphoneos-arm64.deb
-Size: 29068
-MD5sum: ee52e58d42717fb47bbc05999731679c
-SHA1: 
-SHA256: 2e291499a41574b091041f1847adecbf359026715e4b003983a48ffac413561b
-
 Package: com.simon.musiclizi
 Section: Tweaks
 Installed-Size: 396
