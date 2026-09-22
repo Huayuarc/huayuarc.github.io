@@ -17449,25 +17449,6 @@ MD5sum: 4390e6c7c618dffb7bac32709e48a415
 SHA1: 
 SHA256: 9dac8041eb9d7381988f90a9798288dbefa0a5fa86e458c5ae3ca5498c2e78b9
 
-SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.swiftgramcrack
-Package: com.netskao.swiftgramcrack
-Name: Swiftgram Crack
-Depends: firmware (>= 13.0), mobilesubstrate
-Description: Swiftgram Pro. 附加解除下载保护/解除截图保护/去除官方广告, 支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
-Maintainer: Nets
-Author: Netskao
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.1-7
-Installed-Size: 1080
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.swiftgramcrack_1.1-7_iphoneos-arm64e.deb
-Size: 424276
-MD5sum: 2675c42f9d38406a74957369ced88e1f
-SHA1: 
-SHA256: 50c9c59126c6792f283ae0eeeaeb97b9d3dec9feeca7a850deb268b6c4620d83
-
 Package: com.netskao.wcdisablehotupdates
 Name: 微信禁用热更新
 Depends: mobilesubstrate, firmware (>= 13.0)
@@ -23529,14 +23510,33 @@ Description: Swiftgram Pro. 附加解除下载保护/解除截图保护/去除�
 Maintainer: Nets
 Author: Netskao
 Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-7
+Installed-Size: 1080
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.swiftgramcrack-1.1-7-roothide.deb
+Size: 424192
+MD5sum: f7ce78af6b77a615aa8d6e76b90d9c61
+SHA1: 
+SHA256: 2a449c1b3918572ebd671bbd77e3e066477e29090cd1b6cb0d9f8d5af24e8a7d
+
+Package: com.sini.swiftgramcrack
+Name: Swiftgram Crack
+Icon: https://sini921.github.io/repo/sileodepiction/icon/swiftgramcrack.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/swiftgramcrack/js.json
+Depends: firmware (>= 13.0), mobilesubstrate
+Description: Swiftgram Pro. 附加解除下载保护/解除截图保护/去除官方广告, 支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.1-7
 Installed-Size: 1080
-Filename: debs/com.sini.swiftgramcrack_1.1-7_iphoneos-arm64.deb
-Size: 424000
-MD5sum: 56aa15101faac78626c93dba0e26340f
+Filename: debs/com.sini.swiftgramcrack-1.1-7-rootless.deb
+Size: 423852
+MD5sum: 514684b405f4c7c2b64813f6bb484c50
 SHA1: 
-SHA256: 9f54b157296d6289207a76228642bbcf1afdd98be82665b148b574a36899451c
+SHA256: 119f27d32cf60cbca84171542e4b86743d8324f195b9878e16ad9c23cd4de716
 
 Package: com.sini.swipeselection
 Name: SwipeSelection
