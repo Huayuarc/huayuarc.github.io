@@ -29562,6 +29562,40 @@ MD5sum: 2909eccffa8c4bc13fedaa935ba68409
 SHA1: 
 SHA256: cb6cec3fc02350dbdcc034b11d137c09b5dab054e03ceb2f235a3b7cee612843
 
+Package: iya.banana.billie.ambientbadge
+Name: AmbientBadge
+Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.12
+Installed-Size: 616
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
+Filename: debs/iya.banana.billie.ambientbadge-0.1.12-roothide.deb
+Size: 95136
+MD5sum: 7a410d0ee5733932fdfb6483030b8245
+SHA1: 
+SHA256: b731f849e49aaa8e680e8167f12525254f544a76b6dc593b556d49cde10e6ac6
+
+Package: iya.banana.billie.ambientbadge
+Name: AmbientBadge
+Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Architecture: iphoneos-arm64
+Version: 0.1.12
+Installed-Size: 616
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
+Filename: debs/iya.banana.billie.ambientbadge-0.1.12-rootless.deb
+Size: 95072
+MD5sum: cdd6799680cf8f3ef5938cae00722f60
+SHA1: 
+SHA256: 37801505f0a2e330eb59803eb687702e14ce584006c89b5491d51cccd4040e90
+
 Package: iya.banana.dockicon
 Name: DarkIcon
 Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.ios 15-18提供深色图标与图片壁纸暗化。
@@ -29663,6 +29697,40 @@ Size: 213564
 MD5sum: a81234a825279ace1f522a37981b1921
 SHA1: 
 SHA256: ec18d6334eb0faa8f8dee900fbd566742da3edf1884f79dc836955ba05899d89
+
+Package: iya.banana.dockicon
+Name: DarkIcon
+Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Architecture: iphoneos-arm64e
+Version: 0.9.8
+Installed-Size: 1040
+icon: https://huayuarc.github.io/icon/DarkIcon.png
+Filename: debs/iya.banana.dockicon-0.9.8-roothide.deb
+Size: 220196
+MD5sum: 292f6ea4a78c879a0499e6c7a124896a
+SHA1: 
+SHA256: 607a5ccc8e62791a458e610c58316838fa7f0199840521031e533825b924f93a
+
+Package: iya.banana.dockicon
+Name: DarkIcon
+Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Architecture: iphoneos-arm64
+Version: 0.9.8
+Installed-Size: 1040
+icon: https://huayuarc.github.io/icon/DarkIcon.png
+Filename: debs/iya.banana.dockicon-0.9.8-rootless.deb
+Size: 220456
+MD5sum: 8fd02957e80001a65f5a1a128911e34a
+SHA1: 
+SHA256: d42be002b12a56537ace7763f5f41cac3064febb218cd40bdbb0ea705f35722c
 
 Package: iya.banana.dynamicmusicbg
 Name: DynamicMusicBG
@@ -30092,6 +30160,42 @@ MD5sum: ed1a711963b551ca010783278a64783b
 SHA1: 
 SHA256: 4c7c00f9bc4d1338b3bad61a958524c65635230e986900401741dd635f86e5a7
 
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 2492
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.1-roothide.deb
+Size: 448360
+MD5sum: 2a546f6fcabee894a196b8170824b95c
+SHA1: 
+SHA256: 636da14897dfdc725a007e5876ebcf797e922774a67b719ece4704b109573a1d
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 2524
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.1-rootless.deb
+Size: 448228
+MD5sum: 3e8d694beca557796102454e50b67c63
+SHA1: 
+SHA256: 2b844c059204204993593cd77d0415712bb2a85fd0733ce515a52ba3ff0b6513
+
 Package: iya.banana.jumpguard
 Name: JumpGuard
 Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
@@ -30299,6 +30403,40 @@ Size: 6317120
 MD5sum: a74da000320688dc8d18f03dc862df67
 SHA1: 
 SHA256: 8a6961ec47845a40f2d8cf0d7f0f30260824098ad70d7d8d4b203abb0b6fd50e
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: banana
+Author: banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Installed-Size: 12948
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.8-roothide.deb
+Size: 6316816
+MD5sum: 2e920b07423a012caeee16741ca4b3ff
+SHA1: 
+SHA256: 1143c168eeed715924576d44a4fd075438fc9c6cd37b2b05430e569afe2fd361
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: banana
+Author: banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64
+Version: 1.1.8
+Installed-Size: 12948
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.8-rootless.deb
+Size: 6316396
+MD5sum: 9083c0662f2f32e94c1a06a1d9efc333
+SHA1: 
+SHA256: dcc689de32c2dc61c8a768c36993952d95f8c79ddfaf6b28665a919b2417b60c
 
 Package: iya.banana.springboardgame
 Name: SpringBoardGame
