@@ -1,7 +1,7 @@
 #!/bin/bash
 #==========================================
 # Huayuarc Cydia 源一键推送脚本
-# - Python 引擎处理全部 deb（增量缓存）
+# - Python 引擎处理全部 deb（无缓存，每次全量重建）
 # - Release 只发布 Packages/Packages.gz，避免 GitHub Pages 压缩索引缓存不同步
 #==========================================
 
@@ -17,8 +17,6 @@ DEBS_DIR="$SCRIPT_DIR/debs"
 [ -d "$DEBS_DIR" ] || { echo "[错误] debs/ 目录不存在!"; exit 1; }
 
 PACKAGES_FILE="$SCRIPT_DIR/Packages"
-CACHE_DIR="$SCRIPT_DIR/.deb_cache"
-mkdir -p "$CACHE_DIR"
 
 DEB_FILES=("$DEBS_DIR"/*.deb)
 TOTAL=${#DEB_FILES[@]}
@@ -44,55 +42,27 @@ echo "[1/4] 重建 Packages..."
 if [ -z "$PYTHON3" ]; then
     echo "  [警告] python3 未安装，跳过 Packages 重建（使用现有 Packages）"
     echo "  [提示] 安装: apt install python3"
-    CACHED=0; CHANGED=0; SKIPPED=0
+    OK=0; SKIPPED=0
 else
     STATS_FILE=$(mktemp "$SCRIPT_DIR/.stats.XXXXXX")
 
-"$PYTHON3" - "$DEBS_DIR" "$CACHE_DIR" "$PACKAGES_FILE" "$STATS_FILE" << 'PYEOF'
+"$PYTHON3" - "$DEBS_DIR" "$PACKAGES_FILE" "$STATS_FILE" << 'PYEOF'
 import sys, os, hashlib, tarfile, io
 
 debs_dir = sys.argv[1]
-cache_dir = sys.argv[2]
-packages_file = sys.argv[3]
-stats_file = sys.argv[4]
+packages_file = sys.argv[2]
+stats_file = sys.argv[3]
 
 deb_names = sorted([
     f for f in os.listdir(debs_dir) if f.endswith('.deb')
 ])
-changed = 0
-cached = 0
+ok = 0
 skipped = 0
 
 entries = []
 
 for name in deb_names:
     deb_path = os.path.join(debs_dir, name)
-    cache_key = name.replace('/', '_')
-    cache_path = os.path.join(cache_dir, cache_key + '.cache')
-
-    try:
-        file_mtime = int(os.stat(deb_path).st_mtime)
-    except OSError:
-        skipped += 1
-        continue
-
-    #--- 检查快取 ---
-    cache_mtime = None
-    if os.path.isfile(cache_path):
-        try:
-            with open(cache_path, 'r') as cf:
-                first = cf.readline().strip()
-                if first:
-                    cache_mtime = int(first)
-        except (ValueError, OSError):
-            pass
-
-    if cache_mtime == file_mtime and cache_mtime is not None:
-        with open(cache_path, 'r') as cf:
-            cf.readline()
-            entries.append(cf.read())
-        cached += 1
-        continue
 
     #--- 读取 .deb 一次 ---
     try:
@@ -149,7 +119,7 @@ for name in deb_names:
         skipped += 1
         continue
 
-    #--- 组装并快取 ---
+    #--- 组装条目 ---
     entry = control.rstrip('\n') + '\n'
     entry += f'Filename: debs/{name}\n'
     entry += f'Size: {size}\n'
@@ -157,14 +127,8 @@ for name in deb_names:
     entry += 'SHA1: \n'
     entry += f'SHA256: {sha256}\n\n'
 
-    try:
-        with open(cache_path, 'w') as cf:
-            cf.write(f'{file_mtime}\n{entry}')
-    except OSError:
-        pass
-
     entries.append(entry)
-    changed += 1
+    ok += 1
 
 #--- 写入 Packages ---
 with open(packages_file, 'w') as pf:
@@ -172,13 +136,13 @@ with open(packages_file, 'w') as pf:
         pf.write(entry)
 
 with open(stats_file, 'w') as sf:
-    sf.write(f'{cached} {changed} {skipped}')
+    sf.write(f'{ok} {skipped}')
 PYEOF
 
 # 读取统计
-read -r CACHED CHANGED SKIPPED < "$STATS_FILE"
+read -r OK SKIPPED < "$STATS_FILE"
 rm -f "$STATS_FILE"
-echo "  [完成]（快取命中: $CACHED / 重新计算: $CHANGED${SKIPPED:+/ 跳过: $SKIPPED}）"
+echo "  [完成]（处理: $OK${SKIPPED:+/ 跳过: $SKIPPED}）"
 wc -c < "$PACKAGES_FILE" | xargs printf "  [信息] Packages 大小: %s 字节\n"
 fi
 
@@ -236,6 +200,8 @@ if [ -d "$SCRIPT_DIR/.git" ]; then
     git reset HEAD 2>/dev/null
     # 从发布分支移除旧压缩索引；Sileo 会回退使用 Packages.gz。
     git rm --cached --ignore-unmatch Packages.xz Packages.lzma 2>/dev/null || true
+    # 从发布分支移除历史遗留的本地缓存目录（不再使用）
+    git rm -r --cached --ignore-unmatch .deb_cache 2>/dev/null || true
 
     git add index.html css/ CydiaIcon.png Categories debs/ icon/ sileodepiction/ Packages Packages.gz Release push.sh 2>&1
 
