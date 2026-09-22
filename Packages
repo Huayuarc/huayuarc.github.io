@@ -2555,6 +2555,47 @@ MD5sum: 61c2c1c6a6d714c1fdbf75c3b8861bfe
 SHA1: 
 SHA256: 8c1e9563229f8d9da91a0a68b06f7f9420272b2a301be3e06584a7f4cbbf6bc5
 
+Package: com.a0.resumerecafterflip
+Name: Camera Resume Rec
+Description: 系统相机录像中双击翻转会打断录像（-11818）。本插件在被打断后自动续录，并在按停止时把各分段无损拼成一个完整视频写入相册，原分段自动清理。全程无需手动操作，翻转前后不丢画面。
+Maintainer: 王
+Author: 王
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.local.resumerecafterflip
+Replaces: com.local.resumerecafterflip
+Provides: com.local.resumerecafterflip
+Architecture: iphoneos-arm64e
+Version: 0.8.0
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/resumerecafterflip.jpg
+Filename: debs/com.a0.resumerecafterflip-0.8.0-roothide.deb
+Size: 16628
+MD5sum: 2feaf2d18c31653d7f4aa9356a3cb1f5
+SHA1: 
+SHA256: 4c8c58fe458b79d9fe504b2630afba5e908ef18672c495630708c7d058f764c2
+
+Package: com.a0.resumerecafterflip
+Name: Camera Resume Rec
+Description: 系统相机录像中双击翻转会打断录像（-11818）。本插件在被打断后自动续录，并在按停止时把各分段无损拼成一个完整视频写入相册，原分段自动清理。全程无需手动操作，翻转前后不丢画面。
+Maintainer: 王
+Author: 王
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.local.resumerecafterflip
+Replaces: com.local.resumerecafterflip
+Provides: com.local.resumerecafterflip
+Architecture: iphoneos-arm64
+Version: 0.8.0
+Installed-Size: 204
+icon: https://huayuarc.github.io/icon/resumerecafterflip.jpg
+Filename: debs/com.a0.resumerecafterflip-0.8.0-rootless.deb
+Size: 16976
+MD5sum: a87a617a17cb64a15a639178c421c560
+SHA1: 
+SHA256: 6dd6cdd081c0828adba21c16d63139ce2e946d62343218c28db452938d5ffb92
+
 Package: com.aa22qq.axiskey
 Name: AxisKey 多维轴向按键
 Description: 结合物理按键与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌️
@@ -28289,6 +28330,59 @@ Size: 4942908
 MD5sum: 59af3064cdb03c0b2a09f0b4a2297118
 SHA1: 
 SHA256: 8903cb0fc3e824341b167ef6c95888946ac7d5902d1198304184c720e63d6af6
+
+Package: com.wangyuan.trollvnc
+Name: TrollVNC 王源构建版
+Section: Tweaks
+Depends: firmware (>= 14.0), preferenceloader
+Conflicts: com.82flex.trollvnc
+Replaces: com.82flex.trollvnc
+Provides: com.82flex.trollvnc
+Author: 王源 <oaawallet@gmail.com>
+Maintainer: 王源 <oaawallet@gmail.com>
+Homepage: https://wangyuan-repo.pages.dev/
+Description: 手机端 VNC 服务端（王源基于 GPL-2.0 开源上游自行构建）
+ 本包由王源基于开源项目 OwnGoalStudio/TrollVNC（GPL-2.0）自行编译，并额外加入
+ Mirror17 需要的原生 H.264 推流通道（127.0.0.1:38917）。
+ 与 82Flex 的官方付费版无关，不包含其任何代码或资源；想支持原作者请到
+ https://havoc.app/package/trollvnc 购买官方版。
+ 对应源码（GPL-2.0）随包公开在源站 source/ 目录，任何人可自行获取、编译、再分发。
+Architecture: iphoneos-arm64e
+Version: 3.2-293-2
+Installed-Size: 6280
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/trollvnc.jpg
+Filename: debs/com.wangyuan.trollvnc-3.2-293-2-roothide.deb
+Size: 1589904
+MD5sum: 392d9d61ebb69f563cab29c6ab8dd0b9
+SHA1: 
+SHA256: e7bdf7a00d802cadffbfc47b5953b60154aeb55ae88b40c0334a137e616e1377
+
+Package: com.wangyuan.trollvnc
+Name: TrollVNC 王源构建版
+Section: Tweaks
+Depends: firmware (>= 14.0), preferenceloader
+Conflicts: com.82flex.trollvnc
+Replaces: com.82flex.trollvnc
+Provides: com.82flex.trollvnc
+Author: 王源 <oaawallet@gmail.com>
+Maintainer: 王源 <oaawallet@gmail.com>
+Homepage: https://wangyuan-repo.pages.dev/
+Description: 手机端 VNC 服务端（王源基于 GPL-2.0 开源上游自行构建）
+ 本包由王源基于开源项目 OwnGoalStudio/TrollVNC（GPL-2.0）自行编译，并额外加入
+ Mirror17 需要的原生 H.264 推流通道（127.0.0.1:38917）。
+ 与 82Flex 的官方付费版无关，不包含其任何代码或资源；想支持原作者请到
+ https://havoc.app/package/trollvnc 购买官方版。
+ 对应源码（GPL-2.0）随包公开在源站 source/ 目录，任何人可自行获取、编译、再分发。
+Architecture: iphoneos-arm64
+Version: 3.2-293-2
+Installed-Size: 6280
+icon: https://huayuarc.github.io/icon/trollvnc.jpg
+Filename: debs/com.wangyuan.trollvnc-3.2-293-2-rootless.deb
+Size: 1613264
+MD5sum: 8ac5bd3fdaa8b452ef9b8ed90fe5849d
+SHA1: 
+SHA256: b5c2327e021c2c14b0103d74f9d24641bd8af6fa75f801b4410b21cadbacfa21
 
 Package: com.wee1ka.ifetch
 Name: iFetch 诊断工具
