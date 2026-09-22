@@ -6674,6 +6674,42 @@ MD5sum: 8dc60ff7acde10cf811b7e9fbf19fb09
 SHA1: 
 SHA256: 50f73d28842e382c36ba8609d8e4f2cffa34e8e9c82087f90f342b485c76336f
 
+Package: com.dvntm.infuseplus
+Name: Infuse Plus
+Author: dvntm
+Depends: mobilesubstrate
+Maintainer: dvntm
+Section: Tweaks
+Description: Enhancer for Infuse app
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
+Architecture: iphoneos-arm64e
+Version: 2.6
+Installed-Size: 972
+Filename: debs/com.dvntm.infuseplus-2.6-roothide.deb
+Size: 495044
+MD5sum: a8844cd7c93dad8e17628a2fc2dee907
+SHA1: 
+SHA256: 78f18b3b7a9cc86cc52cf4348d6bec16689019c7295f7077c7980bd0a70f0b51
+
+Package: com.dvntm.infuseplus
+Name: Infuse Plus
+Author: dvntm
+Depends: mobilesubstrate
+Maintainer: dvntm
+Section: Tweaks
+Description: Enhancer for Infuse app
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+SileoDepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
+Architecture: iphoneos-arm64
+Version: 2.6
+Installed-Size: 972
+Filename: debs/com.dvntm.infuseplus-2.6-rootless.deb
+Size: 495744
+MD5sum: 3be022dcf5ae7c16acdec9a205d81667
+SHA1: 
+SHA256: 80d0a3d618426cf309a699c06253fb8a036438996ecd728333f3b27b20029d50
+
 Package: com.dvntm.lsnoswipe
 Name: LSNoSwipe 锁屏禁用摄像头
 Description: Disables swipe to open cam on the lock screen 禁用滑动以在锁定屏幕上打开摄像头
