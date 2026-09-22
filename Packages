@@ -3412,73 +3412,36 @@ Description: 分屏，不必太复杂，一切从简即可。
 Maintainer: be-huge
 Author: be-huge
 Section: Tweaks
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.opa334.altlist
-Architecture: iphoneos-arm64
-Version: 1.5.7-1
-Installed-Size: 2692
-icon: https://huayuarc.github.io/icon/floating-view.jpg
-SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
-Filename: debs/com.be-huge.floating-view_1.5.7-1_iphoneos-arm64.deb
-Size: 642060
-MD5sum: 67bbd4c2d56e4e83ce9824c07a96b17e
-SHA1: 
-SHA256: bcd5036fb2b64c6a5742ef2afd984f44ff8bb527f437a49493ccd0e3150c1687
-
-Package: com.be-huge.floating-view
-Name: floatingView
-Description: 分屏，不必太复杂，一切从简即可。
-Maintainer: be-huge
-Author: be-huge
-Section: Tweaks
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.opa334.altlist
-Architecture: iphoneos-arm64e
-Version: 1.5.7-1
-Installed-Size: 2692
-icon: https://huayuarc.github.io/icon/floating-view.jpg
-SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.be-huge.floating-view_1.5.7-1_iphoneos-arm64e.deb
-Size: 629220
-MD5sum: 2a7c683da80feb2ecff8241b2c559791
-SHA1: 
-SHA256: 2a91beeda80db07086d3f4c76912acfa69e21242ddd6d0506718e5fc043501b6
-
-Package: com.be-huge.floating-view
-Name: floatingView
-Description: 分屏，不必太复杂，一切从简即可。
-Maintainer: be-huge
-Author: be-huge
-Section: Tweaks
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.opa334.altlist
-Architecture: iphoneos-arm64
-Version: 1.6.0-6
-Installed-Size: 2692
-icon: https://huayuarc.github.io/icon/floating-view.jpg
-SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
-Filename: debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64.deb
-Size: 670244
-MD5sum: f56aa22fa3b85e4d3607df869c179861
-SHA1: 
-SHA256: 0e848151f9f82c8b14359494c0c247a72226bb3672333c7e8abba0f6b5c4524d
-
-Package: com.be-huge.floating-view
-Name: floatingView
-Description: 分屏，不必太复杂，一切从简即可。
-Maintainer: be-huge
-Author: be-huge
-Section: Tweaks
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.opa334.altlist
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Architecture: iphoneos-arm64e
 Version: 1.6.0-6
-Installed-Size: 2692
+Installed-Size: 3360
+Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/floating-view.jpg
 SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e.deb
-Size: 656868
-MD5sum: 43efbfcbf10ef08d283d803e1bad9cd6
+Filename: debs/com.be-huge.floating-view-1.6.0-6-roothide.deb
+Size: 649368
+MD5sum: c216c13ac22c2fa47f630ab71f19b2fc
 SHA1: 
-SHA256: 5d5ea3137a545f3c8b69810f141a3ed5e984125409a4f0fdae505b4182b09133
+SHA256: 96af1e85255ba5bb70c0dac9820955dd2537cd15db50722ae9c70ae5ed04d2c9
+
+Package: com.be-huge.floating-view
+Name: floatingView
+Description: 分屏，不必太复杂，一切从简即可。
+Maintainer: be-huge
+Author: be-huge
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Architecture: iphoneos-arm64
+Version: 1.6.0-6
+Installed-Size: 3360
+icon: https://huayuarc.github.io/icon/floating-view.jpg
+SileoDepiction:https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+Filename: debs/com.be-huge.floating-view-1.6.0-6-rootless.deb
+Size: 661332
+MD5sum: b615fa0bceba7103e3a16bcfc8b587a2
+SHA1: 
+SHA256: 52799dfaa6ab8c7ad1e2aa1f22129e7555d4d4c867500452848dc474243074d0
 
 Package: com.be-huge.insulation
 Name: insulation
@@ -5711,7 +5674,9 @@ Version: 3.3.3-END
 Installed-Size: 1948
 icon: https://huayuarc.github.io/icon/appcardlite.jpg
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.crassna.appcardlite-3.3.3-END-roothide.deb
+Filename: debs/com.crassna.appcardlite
+-3.3.3-END
+-roothide.deb
 Size: 400912
 MD5sum: 84761667a155b65329a5968e91931d1c
 SHA1: 
@@ -32578,7 +32543,8 @@ Author: John Coates
 Section: Tweaks
 sileodepiction: https://tools4cydia.co/repo/txt/Flex3.json
 icon: https://huayuarc.github.io/icon/Flex.jpg
-Filename: debs/tools.cydia.flex3-3.0-rootless.deb
+Filename: debs/tools.cydia.flex3-3.0
+-rootless.deb
 Size: 16709904
 MD5sum: 45fda5df76b3c814409d89ee517a757e
 SHA1: 
@@ -33318,7 +33284,8 @@ Version: 1.0
 Installed-Size: 788
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/AppHideHeaderIcon.png
-Filename: debs/xyz.cypwn.apphide-1.0-roothide.deb
+Filename: debs/xyz.cypwn.apphide-1.0
+-roothide.deb
 Size: 95400
 MD5sum: 622bc031b6658d386dae6e91e25766fd
 SHA1: 
@@ -33335,7 +33302,8 @@ Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 788
 icon: https://huayuarc.github.io/icon/AppHideHeaderIcon.png
-Filename: debs/xyz.cypwn.apphide-1.0-rootless.deb
+Filename: debs/xyz.cypwn.apphide-1.0
+-rootless.deb
 Size: 97888
 MD5sum: 03a2e0cac854b9d55b41e35bc121b1a0
 SHA1: 
@@ -33461,7 +33429,8 @@ Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.altli
 Name: CarBridge
 Section: Tweaks
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/xyz.cypwn.carbridge13-2.0.13-roothide.deb
+Filename: debs/xyz.cypwn.carbridge13-2.0.13
+-roothide.deb
 Size: 432148
 MD5sum: 25964b5221fcbf91deca97cf9016b5b6
 SHA1: 
@@ -33479,7 +33448,8 @@ Version: 2.0.13
 Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.altlist
 Name: CarBridge
 Section: Tweaks
-Filename: debs/xyz.cypwn.carbridge13-2.0.13-rootless.deb
+Filename: debs/xyz.cypwn.carbridge13-2.0.13
+-rootless.deb
 Size: 434880
 MD5sum: 48e4a97289b235c311f774759c66fe52
 SHA1: 
@@ -33500,7 +33470,8 @@ Description: Open any app in CarPlay!
 Name: CarBridge
 Author: leftyfl1p <carbridge@havoc.app>
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/xyz.cypwn.carbridge13-2.0.14-roothide.deb
+Filename: debs/xyz.cypwn.carbridge13-2.0.14
+-roothide.deb
 Size: 431408
 MD5sum: e07d63faa85d97eb38c3e13834a0e9f6
 SHA1: 
@@ -33520,7 +33491,8 @@ Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, co
 Description: Open any app in CarPlay!
 Name: CarBridge
 Author: leftyfl1p <carbridge@havoc.app>
-Filename: debs/xyz.cypwn.carbridge13-2.0.14-rootless.deb
+Filename: debs/xyz.cypwn.carbridge13-2.0.14
+-rootless.deb
 Size: 434132
 MD5sum: fb46cb6a050d450b730fae137b22020a
 SHA1: 
@@ -33541,7 +33513,8 @@ Architecture: iphoneos-arm64e
 Version: 1.5.5
 Installed-Size: 20612
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/xyz.cypwn.designer-1.5.5-roothide.deb
+Filename: debs/xyz.cypwn.designer-1.5.5
+-roothide.deb
 Size: 7239248
 MD5sum: 6f2b27914e2521ac0fa9399d72f73457
 SHA1: 
@@ -33561,7 +33534,8 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.5.5
 Installed-Size: 20612
-Filename: debs/xyz.cypwn.designer-1.5.5-rootless.deb
+Filename: debs/xyz.cypwn.designer-1.5.5
+-rootless.deb
 Size: 12796092
 MD5sum: 4b6e6ca1df8d5bef21a3ffbe03a5bea0
 SHA1: 
@@ -33578,7 +33552,8 @@ Architecture: iphoneos-arm64e
 Version: 1.0.4k
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/FreeformGridIcon.png
-Filename: debs/xyz.cypwn.freeformgrid-1.0.4k-roothide.deb
+Filename: debs/xyz.cypwn.freeformgrid-1.0.4k
+-roothide.deb
 Size: 60216
 MD5sum: 1ceb44019181e242e3767b60339eb031
 SHA1: 
@@ -33594,7 +33569,8 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, firmware (>= 17.0), firmware (<< 18.0)
 Architecture: iphoneos-arm64
 Version: 1.0.4k
-Filename: debs/xyz.cypwn.freeformgrid-1.0.4k-rootless.deb
+Filename: debs/xyz.cypwn.freeformgrid-1.0.4k
+-rootless.deb
 Size: 61436
 MD5sum: e8d3f74bbd7011988bf09eb961970c15
 SHA1: 
@@ -33701,7 +33677,8 @@ Depends: firmware (>= 16.0), firmware (<= 18.7.1) | firmware (>= 26.0), firmware
 Architecture: iphoneos-arm64e
 Version: 1.3
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/xyz.cypwn.lockglass17-1.3-roothide.deb
+Filename: debs/xyz.cypwn.lockglass17-1.3
+-roothide.deb
 Size: 230160
 MD5sum: c707da90e581055ade8e211d802f5c7e
 SHA1: 
@@ -33717,7 +33694,8 @@ Section: Tweaks
 Depends: firmware (>= 16.0), firmware (<= 18.7.1) | firmware (>= 26.0), firmware (<= 26.0.1), preferenceloader
 Architecture: iphoneos-arm64
 Version: 1.3
-Filename: debs/xyz.cypwn.lockglass17-1.3-rootless.deb
+Filename: debs/xyz.cypwn.lockglass17-1.3
+-rootless.deb
 Size: 235816
 MD5sum: 4aab6217c3bcb9bfe4e4e2915f80b73e
 SHA1: 
@@ -33734,7 +33712,8 @@ Depends: firmware (>= 16.0), firmware (<= 18.7.1) | firmware (>= 26.0), firmware
 Architecture: iphoneos-arm64e
 Version: 1.4
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/xyz.cypwn.lockglass17-1.4-roothide.deb
+Filename: debs/xyz.cypwn.lockglass17-1.4
+-roothide.deb
 Size: 1354160
 MD5sum: bb8fbe0246dc9e121aa8cd294823e5f3
 SHA1: 
@@ -33750,7 +33729,8 @@ Depends: firmware (>= 16.0), firmware (<= 18.7.1) | firmware (>= 26.0), firmware
 Architecture: iphoneos-arm64
 Version: 1.4
 icon: https://huayuarc.github.io/icon/lockglass17.png
-Filename: debs/xyz.cypwn.lockglass17-1.4-rootless.deb
+Filename: debs/xyz.cypwn.lockglass17-1.4
+-rootless.deb
 Size: 1354696
 MD5sum: 05fc772938f473413f2781ae0017eeb8
 SHA1: 
@@ -33828,7 +33808,8 @@ Version: 1.1.0
 Installed-Size: 1120
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/photoscore.png
-Filename: debs/xyz.cypwn.photoscore-1.1.0-roothide.deb
+Filename: debs/xyz.cypwn.photoscore-1.1.0
+-roothide.deb
 Size: 196992
 MD5sum: 379c729a2f9046b370a64b07d617115a
 SHA1: 
@@ -33854,7 +33835,8 @@ Architecture: iphoneos-arm64
 Version: 1.1.0
 Installed-Size: 1120
 icon: https://huayuarc.github.io/icon/photoscore.png
-Filename: debs/xyz.cypwn.photoscore-1.1.0-rootless.deb
+Filename: debs/xyz.cypwn.photoscore-1.1.0
+-rootless.deb
 Size: 201764
 MD5sum: 4b47197f664fe49a547ee68b19dc6e6f
 SHA1: 
