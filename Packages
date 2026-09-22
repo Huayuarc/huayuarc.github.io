@@ -11830,6 +11830,42 @@ SHA1:
 SHA256: 75d2e75e4e74dfbdac78d7e54bae4a52264dd95453d1b667b4690c5a166993e7
 
 Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 10.1.0
+Installed-Size: 19492
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-10.1.0-roothide.deb
+Size: 4290940
+MD5sum: 283bfe2ddff81ad1f9141c5812a6fe3d
+SHA1: 
+SHA256: 7805c9c9d40555b813f0883a834c2bb725ea1727804f4845230ea310e6d239a2
+
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 10.1.0
+Installed-Size: 19496
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-10.1.0-rootless.deb
+Size: 4296248
+MD5sum: fa0c12578c88cf84ff5c9204bddbe082
+SHA1: 
+SHA256: 415146a16ad66418e1ce38c184955a3eda1b3aede33d12486622dd662cd9bd83
+
+Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
 Depends: mobilesubstrate, preferenceloader
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
@@ -14256,6 +14292,54 @@ Size: 583816
 MD5sum: 9c5e41a5a878b4decf21d3212c19f0a6
 SHA1: 
 SHA256: 14a3f953e410018eea5d3c4cc34375ba5729fcc6e69f5432c68f9124ced0eb3c
+
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘 · 轻量版
+Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
+ 四种固定预设、三星风格扩散与霓虹圆环两种样式。
+ 自定义键盘底色和键帽颜色，保留按下态及跨 App 配色兼容。
+ 键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。
+ 九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。
+ 最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。
+ 移除键帽弹跳、调节滑条、诊断写盘和内置大预览图。
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.26~lite4
+Installed-Size: 384
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
+Filename: debs/com.minis.rainbowkeyboard-1.0.26~lite4-roothide.deb
+Size: 93096
+MD5sum: f36c6ad426a9a431e2e00fbd9d02b97d
+SHA1: 
+SHA256: 275cf589ecffd80b5ba0b88428cf35e3267b161420bdd909f9b151e798129c4e
+
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘 · 轻量版
+Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
+ 四种固定预设、三星风格扩散与霓虹圆环两种样式。
+ 自定义键盘底色和键帽颜色，保留按下态及跨 App 配色兼容。
+ 键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。
+ 九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。
+ 最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。
+ 移除键帽弹跳、调节滑条、诊断写盘和内置大预览图。
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.26~lite4
+Installed-Size: 672
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
+Filename: debs/com.minis.rainbowkeyboard-1.0.26~lite4-rootless.deb
+Size: 134904
+MD5sum: 25bb0677cf80a7e58e8fd4575511b0d7
+SHA1: 
+SHA256: d45176703220b954033a0b51a411a92d2da62097d9167a23aac9d324b58a7c8c
 
 Package: com.miro.libmiroshared
 Name: libMiROShared
@@ -29045,6 +29129,56 @@ Size: 1390184
 MD5sum: 8dbafa274a699b950231b1f602138d5c
 SHA1: 
 SHA256: 247dd951a90e2ecc2eb8537bceab8b1cf75a9a7510bf53af00d3ec9068dfa648
+
+Package: dylv.sbliquidglass
+Name: SBLiquidGlass
+icon: https://huayuarc.github.io/icon/SBLiquidGlass.png
+Description: iOS 26 风格「液态玻璃」系统 UI 美化插件：分阶段渲染的液态玻璃材质，安全表层架构，全局生效。
+ 【核心功能】
+  - 系统液态玻璃：为通知中心、控制中心、Dock、状态栏等系统界面套用 iOS 26 风格透明折射玻璃材质
+  - 安全表层架构：分层渲染，降低白屏/重启风险，稳定运行
+  - 多进程注入：覆盖 Backboardd、Dock 等多个系统进程，效果全局统一
+ 【使用说明】
+  - 安装后请 Respring 一次（建议注销后观察是否稳定）
+  - 设置路径：设置 → SBLiquidGlass
+  - 本包为 RootHide（arm64e）版
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.8
+Installed-Size: 4100
+Filename: debs/dylv.sbliquidglass-1.8-roothide.deb
+Size: 1368760
+MD5sum: 61b54a577b66119f0ea409a853108cf3
+SHA1: 
+SHA256: 7a47777196abbf289ceb33da2de9aa76b5953066144cb86fb1c4c94b26b7f9ef
+
+Package: dylv.sbliquidglass
+Name: SBLiquidGlass
+icon: https://huayuarc.github.io/icon/SBLiquidGlass.png
+Description: iOS 26 风格「液态玻璃」系统 UI 美化插件：分阶段渲染的液态玻璃材质，安全表层架构，全局生效。
+ 【核心功能】
+  - 系统液态玻璃：为通知中心、控制中心、Dock、状态栏等系统界面套用 iOS 26 风格透明折射玻璃材质
+  - 安全表层架构：分层渲染，降低白屏/重启风险，稳定运行
+  - 多进程注入：覆盖 Backboardd、Dock 等多个系统进程，效果全局统一
+ 【使用说明】
+  - 安装后请 Respring 一次（建议注销后观察是否稳定）
+  - 设置路径：设置 → SBLiquidGlass
+  - 本包为 Rootless（arm64）版
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.8
+Installed-Size: 4132
+Filename: debs/dylv.sbliquidglass-1.8-rootless.deb
+Size: 1371116
+MD5sum: 087b88441edfb61202e518fcefb6d796
+SHA1: 
+SHA256: e68bd816b667349c14148f9b8c6abc85dc82055f6af43b70b69e5234489603ae
 
 Package: emt.paisseon.xinamine
 Name: Xinamine
