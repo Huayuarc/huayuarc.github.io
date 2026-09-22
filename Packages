@@ -10553,6 +10553,90 @@ MD5sum: 7a2f3538f43730ac6343f06e69f55e52
 SHA1: 
 SHA256: d3fa8852ce5a30cc0324a75267a32c9f5de1d0dfc269baa5f8af44d920e3b2a6
 
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.initnil.flreadercrack
+Package: com.initnil.flreadercrack
+Conflicts: com.netskao.flreadercrack
+Replaces: com.netskao.flreadercrack
+Name: 千阅 Crack
+Author: INITNIL
+Description: 千阅解锁全功能
+Depends: firmware (>= 13.0), mobilesubstrate
+Maintainer: INITNIL
+Section: Tweaks
+Markdowndescription: 千阅解锁全功能<br><br>• v1.1-1: 修复自签疯狂弹出AppleID登陆的问题
+Architecture: iphoneos-arm64e
+Version: 1.1-1
+Installed-Size: 576
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/flreadercrack.jpg
+Filename: debs/com.initnil.flreadercrack-1.1-1-roothide.deb
+Size: 204080
+MD5sum: 27c8df3e4c69800ce2bd2cc62440a423
+SHA1: 
+SHA256: bae2a52e7f1481b37fc1240207bf6b96532e733fb87673d542ddcab204b99819
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.initnil.flreadercrack
+Package: com.initnil.flreadercrack
+Conflicts: com.netskao.flreadercrack
+Replaces: com.netskao.flreadercrack
+Name: 千阅 Crack
+Author: INITNIL
+Description: 千阅解锁全功能
+Depends: firmware (>= 13.0), mobilesubstrate
+Maintainer: INITNIL
+Section: Tweaks
+Markdowndescription: 千阅解锁全功能<br><br>• v1.1-1: 修复自签疯狂弹出AppleID登陆的问题
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Installed-Size: 576
+icon: https://huayuarc.github.io/icon/flreadercrack.jpg
+Filename: debs/com.initnil.flreadercrack-1.1-1-rootless.deb
+Size: 203664
+MD5sum: cf10c19ad5d7ac37b9f2cd5adc4abc80
+SHA1: 
+SHA256: 324b3015c166bffad7386cf7339d69743bd81263ce3d31466b28b1425693524b
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.initnil.imgplaycrack
+Package: com.initnil.imgplaycrack
+Conflicts: com.netskao.imgplaycrack
+Replaces: com.netskao.imgplaycrack
+Name: ImgPlay Crack
+Author: INITNIL
+Description: ImgPlay Crack
+Depends: firmware (>= 15.0), mobilesubstrate
+Maintainer: INITNIL
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-1
+Installed-Size: 964
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/imgplaycrack.jpg
+Filename: debs/com.initnil.imgplaycrack-1.1-1-roothide.deb
+Size: 333576
+MD5sum: 7367a6e7cc12d966b4412f688046dcfa
+SHA1: 
+SHA256: 0455af87949857771e68f68ddf79f5956c49cab9026823523225e36a005eb57a
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.initnil.imgplaycrack
+Package: com.initnil.imgplaycrack
+Conflicts: com.netskao.imgplaycrack
+Replaces: com.netskao.imgplaycrack
+Name: ImgPlay Crack
+Author: INITNIL
+Description: ImgPlay Crack
+Depends: firmware (>= 15.0), mobilesubstrate
+Maintainer: INITNIL
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Installed-Size: 964
+icon: https://huayuarc.github.io/icon/imgplaycrack.jpg
+Filename: debs/com.initnil.imgplaycrack-1.1-1-rootless.deb
+Size: 332944
+MD5sum: 4ad3f4bf0748f99c25e17d3d294a63d7
+SHA1: 
+SHA256: 198b184603a07877f8edd348441254fc678644bf98d2c18a68b85170855abb63
+
 Package: com.iosdump.airdrop
 Name: AirDrop
 Depends: mobilesubstrate
@@ -16817,15 +16901,16 @@ Description: DazzCamera Crack
 Depends: firmware (>= 16.0), mobilesubstrate
 Maintainer: Nets
 Section: Tweaks
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Version: 1.1-6
 Installed-Size: 804
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.dazzcameracrack_1.1-6_iphoneos-arm64.deb
-Size: 278388
-MD5sum: 8192672684a87d42a9b184b746a8ec2d
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/dazzcameracrack.jpg
+Filename: debs/com.netskao.dazzcameracrack-1.1-6-roothide.deb
+Size: 278380
+MD5sum: a8137235905fa2e2f0316136110eb4a4
 SHA1: 
-SHA256: fbd9ee295d0d71126f6ec3e5fea56027688257f5fe6432305e57c6291686fa50
+SHA256: d802ef64364cdbe30a92ebf45b8bdd1197529bb39fc4d5ca3fe4bc8d01c5ea24
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.dazzcameracrack
 Package: com.netskao.dazzcameracrack
@@ -16835,16 +16920,34 @@ Description: DazzCamera Crack
 Depends: firmware (>= 16.0), mobilesubstrate
 Maintainer: Nets
 Section: Tweaks
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Version: 1.1-6
 Installed-Size: 804
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.dazzcameracrack_1.1-6_iphoneos-arm64e.deb
-Size: 277904
-MD5sum: cacc347bded8d051c3274818f8b7b68a
+icon: https://huayuarc.github.io/icon/dazzcameracrack.jpg
+Filename: debs/com.netskao.dazzcameracrack-1.1-6-rootless.deb
+Size: 278148
+MD5sum: 2129977624e908a82d238501bfd4db2d
 SHA1: 
-SHA256: 6aa2814cedd1edceed23a2c198a64ab9ecc0578fe64109d0c537b42ee7b85d37
+SHA256: 0b323513acaeb36089e5f13ce427e1eea35cec877414b2f33c34b647e6b3a930
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.evilmeowcrack
+Package: com.netskao.evilmeowcrack
+Name: 让我喵喵 Crack
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: 让我喵喵解锁会员, 支持1.6.8及以上版本(当前最新版1.7.0已测试)
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-2
+Installed-Size: 108
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/evilmeowcrack.jpg
+Filename: debs/com.netskao.evilmeowcrack-1.1-2-roothide.deb
+Size: 22660
+MD5sum: c553cb9a6445d64b6af31ee569313eea
+SHA1: 
+SHA256: 177a8f53db494c1ec09fbe9ec1e08970d184f111d1ec2cad8ba15570b9da99f8
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.evilmeowcrack
 Package: com.netskao.evilmeowcrack
@@ -16857,31 +16960,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.1-2
 Installed-Size: 108
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.evilmeowcrack_1.1-2_iphoneos-arm64.deb
-Size: 22456
-MD5sum: f90874e28b65e9228d363687bb390af3
+icon: https://huayuarc.github.io/icon/evilmeowcrack.jpg
+Filename: debs/com.netskao.evilmeowcrack-1.1-2-rootless.deb
+Size: 22436
+MD5sum: ce79e45cf13ec6a31d60481a1d285dd9
 SHA1: 
-SHA256: 9eec1413fbe8dc3738a4d11f818673207b88af5d3f1609ec5ad37a0ed891739a
-
-SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.evilmeowcrack
-Package: com.netskao.evilmeowcrack
-Name: 让我喵喵 Crack
-Depends: firmware (>= 15.0), mobilesubstrate
-Description: 让我喵喵解锁会员, 支持1.6.8及以上版本(当前最新版1.7.0已测试)
-Maintainer: Nets
-Author: Netskao
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.1-2
-Installed-Size: 108
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.evilmeowcrack_1.1-2_iphoneos-arm64e.deb
-Size: 22672
-MD5sum: c2d8f4029b03a5110ef47bd2d2b7056d
-SHA1: 
-SHA256: 52b1d8fe2e01bec485ecf9d0f5f2042da467dcde029e2760013bee89580432e8
+SHA256: 408c58870eae3f02087bf5995a54333b95de8ef7adfe415b9580b920e0d8feea
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
 Package: com.netskao.filzacrack
@@ -16957,6 +17041,43 @@ MD5sum: 5cdabedcbdba63ccd85b0030b16a7906
 SHA1: 
 SHA256: 91153247038e88d97fe26d919153f7a3fa11718506346ccdc427e891120a8cbf
 
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ibispaintxcrack
+Package: com.netskao.ibispaintxcrack
+Name: 爱笔思画X Crack
+Author: Netskao
+Description: 爱笔思画X解锁高级功能
+Depends: firmware (>= 15.0), mobilesubstrate
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-1
+Installed-Size: 480
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/ibispaintxcrack.jpg
+Filename: debs/com.netskao.ibispaintxcrack-1.1-1-roothide.deb
+Size: 172320
+MD5sum: df0710a2d033a9fe74fee36b19b51673
+SHA1: 
+SHA256: a8e32be127209b781d3ebc87bd11bbdc9a8df8e856f5c41f3f2be25063d7f748
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.ibispaintxcrack
+Package: com.netskao.ibispaintxcrack
+Name: 爱笔思画X Crack
+Author: Netskao
+Description: 爱笔思画X解锁高级功能
+Depends: firmware (>= 15.0), mobilesubstrate
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Installed-Size: 480
+icon: https://huayuarc.github.io/icon/ibispaintxcrack.jpg
+Filename: debs/com.netskao.ibispaintxcrack-1.1-1-rootless.deb
+Size: 172348
+MD5sum: 8cd620080156cb3bc737b25267052290
+SHA1: 
+SHA256: 95c67ef0e4731468f94236cc36095b43da481e132db5b1151b1846a4a2f79853
+
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.injectipa
 Package: com.netskao.injectipa
 Name: injectipa
@@ -17002,15 +17123,16 @@ Description: 李白浏览器解锁全功能
 Maintainer: Nets
 Author: Netskao
 Section: Tweaks
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Version: 1.1-2
 Installed-Size: 208
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.lbbrowsercrack_1.1-2_iphoneos-arm64.deb
-Size: 44116
-MD5sum: c79e97873d908dc96068ee8a283a5f0c
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/lbbrowsercrack.jpg
+Filename: debs/com.netskao.lbbrowsercrack-1.1-2-roothide.deb
+Size: 44348
+MD5sum: 370d1060ad6dcffa406e10bb02ee7d39
 SHA1: 
-SHA256: bb4d7dae8f81a7affcacf7df184bee40be21092cd73638d001981ed851e4b5af
+SHA256: c57f4009a2990720f42b05422b1b3f6964566af2c8a47619ac3b6cfcf5547c08
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.lbbrowsercrack
 Package: com.netskao.lbbrowsercrack
@@ -17020,34 +17142,15 @@ Description: 李白浏览器解锁全功能
 Maintainer: Nets
 Author: Netskao
 Section: Tweaks
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Version: 1.1-2
 Installed-Size: 208
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.lbbrowsercrack_1.1-2_iphoneos-arm64e.deb
-Size: 44272
-MD5sum: d8e27a02f7e125429160b7bc64807a32
+icon: https://huayuarc.github.io/icon/lbbrowsercrack.jpg
+Filename: debs/com.netskao.lbbrowsercrack-1.1-2-rootless.deb
+Size: 44264
+MD5sum: 4f45f8935804df8bac7b6fdb2fab8dc7
 SHA1: 
-SHA256: 9d5fb789fbbb42b2478505158be542f841525e0eb9012d110f314c64d06bf7f1
-
-SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.leoreadercrack
-Package: com.netskao.leoreadercrack
-Name: 极简阅读 Crack
-Depends: firmware (>= 13.0), mobilesubstrate
-Description: 极简阅读解锁全功能
-Maintainer: Nets
-Author: Netskao
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.1-3
-Installed-Size: 740
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.leoreadercrack_1.1-3_iphoneos-arm64.deb
-Size: 300548
-MD5sum: b0c8509d0cbf5e5f174ee909af183c47
-SHA1: 
-SHA256: 99f48c707c2b619173798174c889b03d5996ddb88193d810b77e614475c94c2f
+SHA256: f142654ab9afab4c6aec07ef6893eaff20a76b6289ba9932a8cf3cf8a8c26d0f
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.leoreadercrack
 Package: com.netskao.leoreadercrack
@@ -17061,31 +17164,30 @@ Architecture: iphoneos-arm64e
 Version: 1.1-3
 Installed-Size: 740
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.leoreadercrack_1.1-3_iphoneos-arm64e.deb
-Size: 300824
-MD5sum: 51274e8084a9baab499b3cd2f27362a8
+icon: https://huayuarc.github.io/icon/leoreadercrack.jpg
+Filename: debs/com.netskao.leoreadercrack-1.1-3-roothide.deb
+Size: 300828
+MD5sum: 5719d0c7cd2bb8eb1be39ab23adc4e55
 SHA1: 
-SHA256: 0b723ee91a55ebb7147f4ad6bda7801fd8ef6561ada69325f417bfe4411cac6a
+SHA256: 7939d938469f427abc140a545eda1c9197ea2d191880025dd4dad74438340205
 
-SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.mangaboxcrack
-Package: com.netskao.mangaboxcrack
-Name: MangaBox Crack
-Author: Netskao
-Description: MangaBox Crack, Supports version 1.2.4 and above
-Depends: firmware (>= 12.0), mobilesubstrate
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.leoreadercrack
+Package: com.netskao.leoreadercrack
+Name: 极简阅读 Crack
+Depends: firmware (>= 13.0), mobilesubstrate
+Description: 极简阅读解锁全功能
 Maintainer: Nets
+Author: Netskao
 Section: Tweaks
-Markdowndescription: MangaBox Crack, Supports version 1.2.4 and above<br><br>• v1.1.5: Quickly launch the app
 Architecture: iphoneos-arm64
-Version: 1.1-5
-Installed-Size: 320
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.mangaboxcrack_1.1-5_iphoneos-arm64.deb
-Size: 95384
-MD5sum: 56aead19192d7553aa86130fe3034a7b
+Version: 1.1-3
+Installed-Size: 740
+icon: https://huayuarc.github.io/icon/leoreadercrack.jpg
+Filename: debs/com.netskao.leoreadercrack-1.1-3-rootless.deb
+Size: 300600
+MD5sum: eb79f6e6b3516873b4b0ec0087f9c9a4
 SHA1: 
-SHA256: bc6d2a6e8a5082cd4e10fcce5d3ec5a8b13cd36bc6928f131bba6b101da169a6
+SHA256: 87d377afaf4f951196318586f5bbb60b29fda606ab4395feb24b13bcaa46e627
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.mangaboxcrack
 Package: com.netskao.mangaboxcrack
@@ -17100,12 +17202,31 @@ Architecture: iphoneos-arm64e
 Version: 1.1-5
 Installed-Size: 320
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.mangaboxcrack_1.1-5_iphoneos-arm64e.deb
-Size: 95584
-MD5sum: 4de8fd403e22fa980f50374ad0623045
+icon: https://huayuarc.github.io/icon/MangaBox.jpg
+Filename: debs/com.netskao.mangaboxcrack-1.1-5-roothide.deb
+Size: 95500
+MD5sum: 8ff6d1be0fa9c0ee54112b845e56ca91
 SHA1: 
-SHA256: 694ca669ff37d6affe454f8e56bfaa28616b183f1f448f60ed6f1bcddff5463d
+SHA256: 43cb9084eb9c01ead4adb295f5d52df541e69663287ddf3726d821c35d7780c8
+
+SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.mangaboxcrack
+Package: com.netskao.mangaboxcrack
+Name: MangaBox Crack
+Author: Netskao
+Description: MangaBox Crack, Supports version 1.2.4 and above
+Depends: firmware (>= 12.0), mobilesubstrate
+Maintainer: Nets
+Section: Tweaks
+Markdowndescription: MangaBox Crack, Supports version 1.2.4 and above<br><br>• v1.1.5: Quickly launch the app
+Architecture: iphoneos-arm64
+Version: 1.1-5
+Installed-Size: 320
+icon: https://huayuarc.github.io/icon/MangaBox.jpg
+Filename: debs/com.netskao.mangaboxcrack-1.1-5-rootless.deb
+Size: 96332
+MD5sum: 37ea7f89b767c8de302e08156e5c58c7
+SHA1: 
+SHA256: d492fb1a5b0ea8db22762a4efd9e15ffcc0999dff5f3abdddda924753a21793c
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.noappthinning
 Package: com.netskao.noappthinning
