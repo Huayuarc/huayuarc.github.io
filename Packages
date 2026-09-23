@@ -15998,6 +15998,94 @@ MD5sum: 7e682acf0829777cd492e06f59a02970
 SHA1: 
 SHA256: e7bb5f66b0b0256a8dae20d0c64ecf1e64860f4a192fd3b2b7192c0543a89690
 
+Package: com.muratkurt.shiv
+Name: shiv
+Version: 2.3.0
+Architecture: iphoneos-arm64e
+Maintainer: muratkurt
+Author: muratkurt
+Section: Utilities
+Depends: firmware (>= 15.0)
+Icon: https://muratkurt.github.io/assets/shiv/icon.png
+Depiction: https://muratkurt.github.io/depictions/com.muratkurt.shiv.html
+SileoDepiction: https://muratkurt.github.io/depictions/com.muratkurt.shiv.json
+Homepage: https://muratkurt.github.io/
+Installed‑Size: 87676
+Description: Shiv是一款完全运行在终端内的聊天助手。
+ .
+ 无需额外安装其他组件——软件包内置Node.js运行环境。
+ .
+  * 可在浏览器登录OpenRouter：执行/login命令会跳转授权页面，登录账号完成确认即可自动带回密钥，无需手动复制密钥。也可自行填入DeepSeek、OpenAI、Moonshot、xAI、通义千问、Z.ai、Groq、Mistral、Together的密钥，或是本地Ollama/llama.cpp服务，以及任意兼容OpenAI接口的服务地址。
+ .
+  * 支持读取文件、遍历目录、执行Shell命令；凡是可能修改设备数据的操作都会先向你确认。对话会话自动保存，支持恢复历史会话；配备回退功能，可以将对话恢复到之前任意节点。
+ .
+  * 针对插件开发工作：它会真实检测设备环境而非盲目猜测；/env命令可输出Theos、Frida、旧ABI以及已识别工具的状态。内置辅助工具，可以从dyld缓存或者正在运行的App导出Objective‑C类信息，还可以直接在设备上解密App Store应用二进制文件。
+ .
+  * 可通过/performance调节绘图渲染与流式输出速度，保证长对话会话依然流畅。界面支持土耳其语、英语（/lang切换语言）。提供rootless、RootHide两套独立构建版本。
+ .
+  * 版权所有 ©2026 Murat Kurt。保留所有权利。本产品为授权使用，并非售卖。在程序内执行/licence查看完整许可条款。
+ .
+  * shiv is a chat assistant that runs entirely in your terminal. Nothing else to install - Node.js ships inside the package.
+ .
+  * Sign in to OpenRouter from the browser: /login opens the approval page, you confirm with your account and the key comes back - no copying keys by hand. Or paste your own key for DeepSeek, OpenAI, Moonshot, xAI, Qwen, Z.ai, Groq, Mistral, Together, a local Ollama / llama.cpp, or any OpenAI‑compatible endpoint.
+ .
+  * It reads files, searches directories and runs shell commands, asking before anything that could modify your device. Sessions are saved and can be resumed, and there is a rewind that takes the conversation back to an earlier point.
+ .
+  * For tweak work it measures the device instead of guessing: /env reports theos, frida, oldabi and the tools it found. Bundled helpers dump ObjC classes from the dyld cache or from a live app, and decrypt an App Store binary on the device itself.
+ .
+  * Drawing and streaming speed can be tuned from /performance, so it stays responsive in long sessions. Interface is Turkish or English (/lang). Separate builds for rootless and RootHide.
+ .
+  * Copyright (c) 2026 Murat Kurt. All rights reserved. Licensed, not sold. Run /licence in the app for terms.
+Filename: debs/com.muratkurt.shiv-2.3.0-roothide.deb
+Size: 16666764
+MD5sum: 9fdc61b397a9a84f4048ce8d98356386
+SHA1: 
+SHA256: 7a364338fd92e8dee6c22ff201830d52f07ac919f9faf1e39190dda5c6788591
+
+Package: com.muratkurt.shiv
+Name: shiv
+Version: 2.3.0
+Architecture: iphoneos‑arm64
+Maintainer: muratkurt
+Author: muratkurt
+Section: Utilities
+Depends: firmware (>= 15.0)
+Icon: https://muratkurt.github.io/assets/shiv/icon.png
+Depiction: https://muratkurt.github.io/depictions/com.muratkurt.shiv.html
+SileoDepiction: https://muratkurt.github.io/depictions/com.muratkurt.shiv.json
+Homepage: https://muratkurt.github.io/
+Installed‑Size: 87608
+Description: Shiv是一款完全运行在终端内的聊天助手。
+ .
+ 无需额外安装其他组件——软件包内置Node.js运行环境。
+ .
+  * 可在浏览器登录OpenRouter：执行/login命令会跳转授权页面，登录账号完成确认即可自动带回密钥，无需手动复制密钥。也可自行填入DeepSeek、OpenAI、Moonshot、xAI、通义千问、Z.ai、Groq、Mistral、Together的密钥，或是本地Ollama/llama.cpp服务，以及任意兼容OpenAI接口的服务地址。
+ .
+  * 支持读取文件、遍历目录、执行Shell命令；凡是可能修改设备数据的操作都会先向你确认。对话会话自动保存，支持恢复历史会话；配备回退功能，可以将对话恢复到之前任意节点。
+ .
+  * 针对插件开发工作：它会真实检测设备环境而非盲目猜测；/env命令可输出Theos、Frida、旧ABI以及已识别工具的状态。内置辅助工具，可以从dyld缓存或者正在运行的App导出Objective‑C类信息，还可以直接在设备上解密App Store应用二进制文件。
+ .
+  * 可通过/performance调节绘图渲染与流式输出速度，保证长对话会话依然流畅。界面支持土耳其语、英语（/lang切换语言）。提供rootless、RootHide两套独立构建版本。
+ .
+  * 版权所有 ©2026 Murat Kurt。保留所有权利。本产品为授权使用，并非售卖。在程序内执行/licence查看完整许可条款。
+ .
+  * shiv is a chat assistant that runs entirely in your terminal. Nothing else to install - Node.js ships inside the package.
+ .
+  * Sign in to OpenRouter from the browser: /login opens the approval page, you confirm with your account and the key comes back - no copying keys by hand. Or paste your own key for DeepSeek, OpenAI, Moonshot, xAI, Qwen, Z.ai, Groq, Mistral, Together, a local Ollama / llama.cpp, or any OpenAI‑compatible endpoint.
+ .
+  * It reads files, searches directories and runs shell commands, asking before anything that could modify your device. Sessions are saved and can be resumed, and there is a rewind that takes the conversation back to an earlier point.
+ .
+  * For tweak work it measures the device instead of guessing: /env reports theos, frida, oldabi and the tools it found. Bundled helpers dump ObjC classes from the dyld cache or from a live app, and decrypt an App Store binary on the device itself.
+ .
+  * Drawing and streaming speed can be tuned from /performance, so it stays responsive in long sessions. Interface is Turkish or English (/lang). Separate builds for rootless and RootHide.
+ .
+  * Copyright (c) 2026 Murat Kurt. All rights reserved. Licensed, not sold. Run /licence in the app for terms.
+Filename: debs/com.muratkurt.shiv-2.3.0-rootless.deb
+Size: 16683304
+MD5sum: 603a6e506aee0e4129e9d781465ed0e3
+SHA1: 
+SHA256: 640c85d7afe7e2e21e6862738cbf3e55ca3fe42e20a4fc0c3b72cf70c6f9106f
+
 Package: com.muzi.dndscheduler
 Name: DNDScheduler 定时勿扰
 Description: 定时开启/关闭勿扰模式插件，可在设置中配置时间、勿扰开关与闹钟式重复周期。
