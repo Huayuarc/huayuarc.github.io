@@ -33817,45 +33817,11 @@ Conflicts: com.xx.xhshook
 Replaces: com.xx.xhshook
 Name: 小红薯
 Description: 自用
-Maintainer: 𝙓
-Author: 𝙓
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64e
-Version: 1.2.8
-Installed-Size: 4012
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/xhs.jpg
-Filename: debs/xhs.x-1.2.8-roothide.deb
-Size: 1587368
-MD5sum: d09bbbfa4458b5499101c4dce1c336c5
-SHA1: 
-SHA256: 4fddd341550ba7a6e56cf76f4443ea4e9049bc0d67dcd45a2398ac1bf7c16a6a
-
-Package: xhs.x
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Name: 小红薯
-Description: 自用
-Maintainer: 𝙓
-Author: 𝙓
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 1.2.8
-Installed-Size: 4012
-icon: https://huayuarc.github.io/icon/xhs.jpg
-Filename: debs/xhs.x-1.2.8-rootless.deb
-Size: 1605872
-MD5sum: c92e4e1eaddfb5e13468be669c4e9409
-SHA1: 
-SHA256: afbf25113eb06650f4c8b259f66aba1aebde795d7a9c04790ac7af43f2bee9ec
-
-Package: xhs.x
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Name: 小红薯
-Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
 Maintainer: 𝙓
 Author: 𝙓
 Section: Tweaks
@@ -33866,16 +33832,21 @@ Installed-Size: 3560
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/xhs.jpg
 Filename: debs/xhs.x-1.2.9-roothide.deb
-Size: 1376140
-MD5sum: c19db60428f0d274270b1eb4198f1f8a
+Size: 1376288
+MD5sum: a730944a1a9beeaf734e481843e09316
 SHA1: 
-SHA256: 43ead35cc96a9f076335b26314a7b239212f13c336d737ea236818b7c2711016
+SHA256: 6cd007e9fae9fc662521703710820e85695143ba7569a49b933486f4d2876811
 
 Package: xhs.x
 Conflicts: com.xx.xhshook
 Replaces: com.xx.xhshook
 Name: 小红薯
 Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
 Maintainer: 𝙓
 Author: 𝙓
 Section: Tweaks
@@ -33885,166 +33856,108 @@ Version: 1.2.9
 Installed-Size: 3560
 icon: https://huayuarc.github.io/icon/xhs.jpg
 Filename: debs/xhs.x-1.2.9-rootless.deb
-Size: 1392500
-MD5sum: 4ea3f4fa9d588953fc8627c51d5c25cc
+Size: 1393540
+MD5sum: 10ed6e6a6881ed98f21e8a60c0093a09
 SHA1: 
-SHA256: aed8c633a86386c7064b89ba9360b87574a622cf1385d0fdf5a1e778b86b7f85
+SHA256: c6bb3b05e6c1b7a2809087da1ccb85af72ffe1ac1f8b88bac48bd827fa507a4d
 
 Package: xhs.x
 Conflicts: com.xx.xhshook
 Replaces: com.xx.xhshook
 Name: 小红薯
 Description: 自用
-Maintainer: 𝙓
-Author: 𝙓
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 1.2.2
-Installed-Size: 3940
-icon: https://huayuarc.github.io/icon/xhs.jpg
-Filename: debs/xhs.x_1.2.2_iphoneos-arm64.deb
-Size: 1481300
-MD5sum: a5f4a6106b574d603c94bfc628c036d2
-SHA1: 
-SHA256: 4ed2f9127eaf838b39e9d57ac5e962354156509afdf6a75a1810ab9b0ec1291f
-
-Package: xhs.x
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Name: 小红薯
-Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
 Maintainer: 𝙓
 Author: 𝙓
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64e
-Version: 1.2.2
-Installed-Size: 3940
+Version: 2.0.1
+Installed-Size: 5692
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/xhs.jpg
-Filename: debs/xhs.x_1.2.2_iphoneos-arm64e.deb
-Size: 1459668
-MD5sum: 0000b132c1d792774f4b11bc337f53ad
+Filename: debs/xhs.x-2.0.1-roothide.deb
+Size: 2239580
+MD5sum: 79254eab9020b1b7cab055a2dfb49022
 SHA1: 
-SHA256: 4a66cf5df18be967fd8a7e4b3eda17773afa44167b4ae27b891e1f20ceb0a4eb
+SHA256: b9d92ac9b809de51b763de44cb06aac00d77bdec1fdfc4134b51dbab1e3fad32
 
 Package: xhs.x
 Conflicts: com.xx.xhshook
 Replaces: com.xx.xhshook
 Name: 小红薯
 Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
 Maintainer: 𝙓
 Author: 𝙓
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
-Version: 1.2.3
-Installed-Size: 2744
+Version: 2.0.1
+Installed-Size: 5692
 icon: https://huayuarc.github.io/icon/xhs.jpg
-Filename: debs/xhs.x_1.2.3_iphoneos-arm64.deb
-Size: 1063920
-MD5sum: 3b4b98026b5b8a91d866c81ad21ee9c1
+Filename: debs/xhs.x-2.0.1-rootless.deb
+Size: 2267760
+MD5sum: 449f1a28875d162e5a55b0cd4bd92b9a
 SHA1: 
-SHA256: cb520235d8858d5cc3d7d076e927f8aedf0cecb9e64e8e567b6cd93d2ccf9d8b
+SHA256: bdd50eaea62d201cbfc9fac3cd19c1b5db7681a1493fef09acb096b7a89a7f45
 
 Package: xhs.x
 Conflicts: com.xx.xhshook
 Replaces: com.xx.xhshook
 Name: 小红薯
 Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
 Maintainer: 𝙓
 Author: 𝙓
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64e
-Version: 1.2.3
-Installed-Size: 2744
+Version: 2.0.2
+Installed-Size: 5744
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/xhs.jpg
-Filename: debs/xhs.x_1.2.3_iphoneos-arm64e.deb
-Size: 1050984
-MD5sum: 25b53c15d9af515e17b1da322bb48e73
+Filename: debs/xhs.x-2.0.2-roothide.deb
+Size: 2255800
+MD5sum: f2a4a52eaca928f7fe5115f0f4ed9dac
 SHA1: 
-SHA256: cc34dc9f65daf51a7138c4dcf1b3bc60d6355d6dcf7f59481b393a14308905c6
+SHA256: a5a38d6b933f492fa9722b57741599fb55653ea1b25d39ec5190ae43dc2b49b1
 
 Package: xhs.x
 Conflicts: com.xx.xhshook
 Replaces: com.xx.xhshook
 Name: 小红薯
 Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
 Maintainer: 𝙓
 Author: 𝙓
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
-Version: 1.2.5
-Installed-Size: 2760
+Version: 2.0.2
+Installed-Size: 5744
 icon: https://huayuarc.github.io/icon/xhs.jpg
-Filename: debs/xhs.x_1.2.5_iphoneos-arm64.deb
-Size: 1061888
-MD5sum: 5c9b50fc6defa2807b56289c921d6e50
+Filename: debs/xhs.x-2.0.2-rootless.deb
+Size: 2283964
+MD5sum: 18517468645b07caf64d8cd01857279c
 SHA1: 
-SHA256: 60372cf2e3bae6bc35add4c205c7d2e4ff21eb8635ca43dca42dcb94225490be
-
-Package: xhs.x
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Name: 小红薯
-Description: 自用
-Maintainer: 𝙓
-Author: 𝙓
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64e
-Version: 1.2.5
-Installed-Size: 2760
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/xhs.jpg
-Filename: debs/xhs.x_1.2.5_iphoneos-arm64e.deb
-Size: 1048576
-MD5sum: 5e792c5aac8ca6568a22ceb32b42cf1f
-SHA1: 
-SHA256: b86e2fbf344c4d77f6f7021a24cc3cd6cb48a5c89252e757b84a6a5e1804a7b2
-
-Package: xhs.x
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Name: 小红薯
-Description: 自用
-Maintainer: 𝙓
-Author: 𝙓
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 1.2.6
-Installed-Size: 3932
-icon: https://huayuarc.github.io/icon/xhs.jpg
-Filename: debs/xhs.x_1.2.6_iphoneos-arm64.deb
-Size: 1578108
-MD5sum: c93d169a318c3c1a6c0edf6caaa9ec0f
-SHA1: 
-SHA256: 7ca54e601895f6170ebdaf990140bba526ed8e90c081235acea903f1c5150542
-
-Package: xhs.x
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Name: 小红薯
-Description: 自用
-Maintainer: 𝙓
-Author: 𝙓
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64e
-Version: 1.2.6
-Installed-Size: 3932
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/xhs.jpg
-Filename: debs/xhs.x_1.2.6_iphoneos-arm64e.deb
-Size: 1558992
-MD5sum: 83205297c520fa2be0750f31a5b1c812
-SHA1: 
-SHA256: fb1bb46a9f717a10b64c151ec5f86b26a44f6de78e55a8e88fd315ac09a35b63
+SHA256: f141b46746efefd4785f4ec92a7ff88281bc6451b450948f0d0a12d7cee1f79d
 
 Package: xyz.cypwn.anouk
 Maintainer: CyPwn
