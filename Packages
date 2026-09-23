@@ -5777,6 +5777,40 @@ MD5sum: 2411773087ec2046dcef65c453158eb5
 SHA1: 
 SHA256: fe01de620cca4fc8388e686b72aa3cfcb5c0886df11889721c066af2ddc9a834
 
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.1.7
+Installed-Size: 300
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.1.7-roothide.deb
+Size: 65732
+MD5sum: 3174b869d8a5b625e3cb558892414e24
+SHA1: 
+SHA256: f7954655d8ff7fdcc64ca31ba22fe82039c079748d58acd430908b3e7579affb
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.1.7
+Installed-Size: 604
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.1.7-rootless.deb
+Size: 88760
+MD5sum: 439e32bc5709074f6155f7b50c13c155
+SHA1: 
+SHA256: a51b0891e10f50bc706cdd7661716dce1027e38a0b4e22a831a5d68042be58fe
+
 Package: com.crctdd.surgectl
 Name: SurgeCTL
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
@@ -20427,6 +20461,100 @@ Size: 386860
 MD5sum: d7ee6130f235281dd9711d875cd7a0fd
 SHA1: 
 SHA256: 95a84ccb4fe41956106253258b705ed828edeb62666330b6031584c857ffc784
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
+ 【本次更新 V4.75】
+  - 修复了一下 120 帧的 bug
+ 【历史更新】
+  - V4.74：新增温控运行方式极限满频；修复浮窗频率显示；频率实时刷新
+  - V4.73：回归双击全屏设置
+  - V4.72：修复智能停充 bug
+  - V4.71：修复已知 bug
+  - V4.70：新增智能温控限制充电
+  - V4.66：新增设置：莫忘越狱源
+  - V4.65：修复系统设置里设置后又恢复默认 bug
+  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原；支持极限满频运行方式
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.75
+Installed-Size: 2888
+Filename: debs/com.sbcpu.floating-4.75-roothide.deb
+Size: 389032
+MD5sum: 3a000237e054dd879bc08f880e432ad6
+SHA1: 
+SHA256: 0677ce112a803f3929a936f3469da484dd77ecbc8ebbfbe22aebf18709a3e0de
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+icon: https://huayuarc.github.io/icon/floating.jpg
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
+ 【本次更新 V4.75】
+  - 修复了一下 120 帧的 bug
+ 【历史更新】
+  - V4.74：新增温控运行方式极限满频；修复浮窗频率显示；频率实时刷新
+  - V4.73：回归双击全屏设置
+  - V4.72：修复智能停充 bug
+  - V4.71：修复已知 bug
+  - V4.70：新增智能温控限制充电
+  - V4.66：新增设置：莫忘越狱源
+  - V4.65：修复系统设置里设置后又恢复默认 bug
+  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原；支持极限满频运行方式
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 4.75
+Installed-Size: 2888
+Filename: debs/com.sbcpu.floating-4.75-rootless.deb
+Size: 389572
+MD5sum: 03d2c05c9e622cfb3ed08171ec2865fb
+SHA1: 
+SHA256: f341906e805b95546d43cfcb544b124e6573bd7c07c7847aa7db70a9d729bce3
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
