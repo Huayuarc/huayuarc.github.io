@@ -5811,6 +5811,40 @@ MD5sum: 439e32bc5709074f6155f7b50c13c155
 SHA1: 
 SHA256: a51b0891e10f50bc706cdd7661716dce1027e38a0b4e22a831a5d68042be58fe
 
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.1.9
+Installed-Size: 416
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.1.9-roothide.deb
+Size: 72104
+MD5sum: 0aa0b8d2e681bade8bd52267ff79a5b5
+SHA1: 
+SHA256: 2d6959cc8255fdf348aa7cc7b66ef43b4a89f1f1b23560e6f1d4af0eaf00874d
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.1.9
+Installed-Size: 816
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.1.9-rootless.deb
+Size: 98920
+MD5sum: 344ce414dd59620904520bcc1ea543c3
+SHA1: 
+SHA256: 24c5f8a12759a10d0c73363d17af23ba45f8cf726fdee334c8c35e4cc87e6485
+
 Package: com.crctdd.surgectl
 Name: SurgeCTL
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
@@ -28202,6 +28236,48 @@ Size: 588304
 MD5sum: 7c9e30308d863909fcdf535e8e2fe598
 SHA1: 
 SHA256: b0fd6a70dcfef9290582cc2ea3a7efbbd7575a443e69dc5a080b49d98899831a
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X
+Version: 2.1.4
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.1.4-roothide.deb
+Size: 587060
+MD5sum: dd23956fe8848d0a62382c73203ce9a9
+SHA1: 
+SHA256: e6584ebf2573d78e646b166310826a7f8a15ddb7010c59203b1bbc8001573fb9
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X
+Version: 2.1.4
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.1.4-rootless.deb
+Size: 588200
+MD5sum: 0c7c6e82782e415b41d581ff12184c63
+SHA1: 
+SHA256: cd40e8cc17dedcbe2044c055af227875385086dacda855d814f45addfb164b78
 
 Package: com.tsangbaby.pulloverx
 Name: PullOver X 分屏
