@@ -30154,6 +30154,55 @@ MD5sum: 60fc6d3399a7dc385d169808539a64f7
 SHA1: 
 SHA256: 27d4b54c5e2f7fd4610437b93ea7c6f190312446a41626fedc3b49d174a2161a
 
+Package: io.github.imcynic.nodejs
+Name: Node.js 18
+Version: 18.20.4-1
+Architecture: iphoneos-arm64e
+Description: Node.js JavaScript runtime for iOS
+ Node.js 18.20.4 compiled for jailbroken iOS devices.
+ Includes V8 JavaScript engine with iOS-optimized flags.
+ Perfect for running JavaScript applications, npm packages, and CLI tools.
+Maintainer: imcynic
+Author: imcynic
+Section: Development
+Depends: firmware (>= 15.0), zsh, ldid
+Provides: nodejs, node
+Tag: purpose::console, role::developer
+Homepage: https://nodejs.org
+Depiction: https://github.com/imcynic/nodejs-ios
+SileoDepiction: https://github.com/imcynic/nodejs-ios
+Installed-Size: 72496
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/io.github.imcynic.nodejs-18.20.4-1-roothide.deb
+Size: 12942960
+MD5sum: 58a661d54eb2a2ab69066a5c2e66286a
+SHA1: 
+SHA256: 53eb1c44e92d1c0cc06df9abb2d38e2d046067268d718577ff17a2118d2010eb
+
+Package: io.github.imcynic.nodejs
+Name: Node.js 18
+Version: 18.20.4-1
+Architecture: iphoneos-arm64
+Description: Node.js JavaScript runtime for iOS
+ Node.js 18.20.4 compiled for jailbroken iOS devices.
+ Includes V8 JavaScript engine with iOS-optimized flags.
+ Perfect for running JavaScript applications, npm packages, and CLI tools.
+Maintainer: imcynic
+Author: imcynic
+Section: Development
+Depends: firmware (>= 15.0), zsh, ldid
+Provides: nodejs, node
+Tag: purpose::console, role::developer
+Homepage: https://nodejs.org
+Depiction: https://github.com/imcynic/nodejs-ios
+SileoDepiction: https://github.com/imcynic/nodejs-ios
+Installed-Size: 72496
+Filename: debs/io.github.imcynic.nodejs-18.20.4-1-rootless.deb
+Size: 12921860
+MD5sum: 95e89305f5a6a26421212a0b7cd5a3d6
+SHA1: 
+SHA256: f26257bee6e378b1a899a042bcfe236bc3fc77a91385d478891ec838d4175c9f
+
 Package: iphonerelease
 Name: 农业银行V10.2.1
 Author: z
