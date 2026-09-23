@@ -5743,6 +5743,40 @@ MD5sum: c1bffcf3ec68484ce6735217131fd2b2
 SHA1: 
 SHA256: 81f61553026a8870135279ac9c659473b7cca43ab3c01104d528668dae981968
 
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 为指定App开启守护后台，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Installed-Size: 284
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.1.3-roothide.deb
+Size: 61576
+MD5sum: 344026c522088705ebd49e783b8188e0
+SHA1: 
+SHA256: 0118746fd808088b583e089c62051b73926736b6c693d06625ce5cbb517130f5
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 为指定App开启守护后台，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Installed-Size: 572
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.1.3-rootless.deb
+Size: 82520
+MD5sum: 2411773087ec2046dcef65c453158eb5
+SHA1: 
+SHA256: fe01de620cca4fc8388e686b72aa3cfcb5c0886df11889721c066af2ddc9a834
+
 Package: com.crctdd.surgectl
 Name: SurgeCTL
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
@@ -27182,6 +27216,41 @@ MD5sum: 9448806ddad86975ebbfcbca3cdd1e83
 SHA1: 
 SHA256: 679658a250229549f2bc002d3f0bdde36eff803501dbf812b905767172c3fec0
 
+Package: com.susudear.themecore
+Name: ThemeCore
+Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Icon: https://repo.susubaby.cn/icons/ThemeCore.png
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.5.1
+Installed-Size: 736
+Pre-Depends: rootless-compat (>= 0.9)
+Filename: debs/com.susudear.themecore-0.5.1-roothide.deb
+Size: 126956
+MD5sum: 973d0b344fbfba246b9566f0c8db7ca2
+SHA1: 
+SHA256: 7e50aa228ff69f6f087c67ea973bb9a63b03eb8c92d2c11e524cf7c42d9c47f5
+
+Package: com.susudear.themecore
+Name: ThemeCore
+Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Icon: https://repo.susubaby.cn/icons/ThemeCore.png
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.5.1
+Installed-Size: 736
+Filename: debs/com.susudear.themecore-0.5.1-rootless.deb
+Size: 129380
+MD5sum: a932d06c3612814d5736546ffa51c5fa
+SHA1: 
+SHA256: 60ea8c1f71141a276c07cfca84cb0ac1a6d14184e2703855488c63b933a4be42
+
 Package: com.thefool.ccaudioplay
 Name: CCAudioPlay 播放器美化
 Description: 播放器美化 不支IOS15
@@ -27949,6 +28018,48 @@ Size: 637036
 MD5sum: 01c74ed549a6323fbec7a6acef428295
 SHA1: 
 SHA256: a8f2362182fb821e036a6f85f93f82a61522b18e50cc6cc991fb5b8f9728c63a
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X
+Version: 2.1.3
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.1.3-roothide.deb
+Size: 587104
+MD5sum: 42c37dc6bebe747574b0e70c5c4f76cc
+SHA1: 
+SHA256: df0d55db23dfbea5bb43746e687235883139d5243d5a275e1cfba4c283f4b078
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X
+Version: 2.1.3
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.1.3-rootless.deb
+Size: 588304
+MD5sum: 7c9e30308d863909fcdf535e8e2fe598
+SHA1: 
+SHA256: b0fd6a70dcfef9290582cc2ea3a7efbbd7575a443e69dc5a080b49d98899831a
 
 Package: com.tsangbaby.pulloverx
 Name: PullOver X 分屏
@@ -30864,6 +30975,40 @@ Size: 6316396
 MD5sum: 9083c0662f2f32e94c1a06a1d9efc333
 SHA1: 
 SHA256: dcc689de32c2dc61c8a768c36993952d95f8c79ddfaf6b28665a919b2417b60c
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: banana
+Author: banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64e
+Version: 1.1.9
+Installed-Size: 13032
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.9-roothide.deb
+Size: 6332232
+MD5sum: 22039e465bd1ad9a86c090641202f4ac
+SHA1: 
+SHA256: a7a63c0dbe72cfc18bbcce3d9afd1c30ab8161786d82145ab0446f4f7690f0e5
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: banana
+Author: banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64
+Version: 1.1.9
+Installed-Size: 13032
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.9-rootless.deb
+Size: 6331904
+MD5sum: 453766c7ac069b8cca6c0c33c1cdea1f
+SHA1: 
+SHA256: a8b4cdaab249347bd41506f4677bbe76b7429a6d62d2fdd33d4235e6b8a8c837
 
 Package: iya.banana.springboardgame
 Name: SpringBoardGame
