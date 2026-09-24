@@ -9252,13 +9252,13 @@ Section: Tweaks
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Architecture: iphoneos-arm64e
-Version: 1.6.2-103
+Version: 1.6.2-105
 Installed-Size: 1900
-Filename: debs/com.huayuarc.cputhermal-1.6.2-103-roothide.deb
-Size: 133776
-MD5sum: 66c95a35b8b2426f05076979bbedeb0c
+Filename: debs/com.huayuarc.cputhermal-1.6.2-105-roothide.deb
+Size: 134004
+MD5sum: 5870273ad2085a04880b9d733420db1b
 SHA1: 
-SHA256: 9e1315bd53762a5bc0e35fcfcaed230f4c32de5141f053678a71a47b9936b2a2
+SHA256: 239a3ed028bafc79b6cf4a4294b46a3cb645e5dd16a168d36c11f58b14f3f595
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
@@ -9270,13 +9270,13 @@ Section: Tweaks
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Architecture: iphoneos-arm64
-Version: 1.6.2-103
+Version: 1.6.2-105
 Installed-Size: 1900
-Filename: debs/com.huayuarc.cputhermal-1.6.2-103-rootless.deb
-Size: 138232
-MD5sum: 786880d69df5d6c5befe2eb827ffd3c9
+Filename: debs/com.huayuarc.cputhermal-1.6.2-105-rootless.deb
+Size: 138432
+MD5sum: 3ea547e23047aeaef6c1d94bfeed1e55
 SHA1: 
-SHA256: 1547e95c2ac5ebb0e060828e3235e459fbea8dd49862bf455dcab4cbb1c6b0ca
+SHA256: fc74698a4b0867a18bc8a018e451114db6ff3ff35a95fffcaf74d48b74257a18
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
@@ -14571,6 +14571,68 @@ Size: 134904
 MD5sum: 25bb0677cf80a7e58e8fd4575511b0d7
 SHA1: 
 SHA256: d45176703220b954033a0b51a411a92d2da62097d9167a23aac9d324b58a7c8c
+
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘光效
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Description: 三星风格纯黑键帽 + 霓虹扩散键盘光效，支持原生键盘、微信输入法与 QQ。
+ 【本次更新】
+  - 感谢卡诺（Kanuo）后期持续对本插件的更新与维护
+  - 卡诺的越狱源：https://jimkanuo.github.io/apt-repo/
+ 【核心功能】
+  - 纯黑键帽搭配霓虹扩散，自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变，均可独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 跨 App 配色同步，每个滑条都附作用说明，设置内置离线效果预览
+  - 优化配置读取与键盘重刷，兼容 QQ 浅色键盘配色
+  - 优化输入事件路径，减少打字时主线程扫描与整键盘重绘，更流畅省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 RootHide（arm64e）版
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Installed-Size: 948
+Filename: debs/com.minis.rainbowkeyboard-1.1.3-roothide.deb
+Size: 593536
+MD5sum: bb4c904bbe1b57744a7469f11f38fb46
+SHA1: 
+SHA256: 314faec57a1a77f1a90febcd7646a15601e6d53ba7fcb521794caf7a71f49083
+
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘光效
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Description: 三星风格纯黑键帽 + 霓虹扩散键盘光效，支持原生键盘、微信输入法与 QQ。
+ 【本次更新】
+  - 感谢卡诺（Kanuo）后期持续对本插件的更新与维护
+  - 卡诺的越狱源：https://jimkanuo.github.io/apt-repo/
+ 【核心功能】
+  - 纯黑键帽搭配霓虹扩散，自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变，均可独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 跨 App 配色同步，每个滑条都附作用说明，设置内置离线效果预览
+  - 优化配置读取与键盘重刷，兼容 QQ 浅色键盘配色
+  - 优化输入事件路径，减少打字时主线程扫描与整键盘重绘，更流畅省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 Rootless（arm64）版
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Installed-Size: 948
+Filename: debs/com.minis.rainbowkeyboard-1.1.3-rootless.deb
+Size: 592944
+MD5sum: ad9264426c9630f412743a4e18efb070
+SHA1: 
+SHA256: 1f793c9277893047129c3b6ebb0e0d250a34b3728392d364bbdaa8464893a27b
 
 Package: com.miro.libmiroshared
 Name: libMiROShared
