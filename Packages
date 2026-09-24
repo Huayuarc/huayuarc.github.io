@@ -2445,6 +2445,51 @@ MD5sum: 180a1a0b42414aa31e4fc9150ae202a5
 SHA1: 
 SHA256: 1917dd731114f918a5f0f41d2552e7749202e99ac377870a1b9f06747a0ec807
 
+Package: com.391160.cputhermal
+Name: CPU智能温控
+Author: 391160
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: 391160
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-286
+Installed-Size: 2180
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.391160.cputhermal-1.6.2-286-roothide.deb
+Size: 227496
+MD5sum: dcd2cd9347f74d04453e9a231fdaef00
+SHA1: 
+SHA256: 5e60456e703e8db158b4e8b10fac2cba50bdb7e4d7317b00532863d0c4aa3440
+
+Package: com.391160.cputhermal
+Name: CPU智能温控
+Author: 391160
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: 391160
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-286
+Installed-Size: 2180
+Filename: debs/com.391160.cputhermal-1.6.2-286-rootless.deb
+Size: 234260
+MD5sum: 62f8fa3bbbc81ec5338d8f45624d7265
+SHA1: 
+SHA256: 8cea233a874d0ee40320c78a1f57cc47d21d1d3168ff47ef133dad75201f4b36
+
 Package: com.82flex.cranepkdserverfix
 Name: Crane PKDServer Fix
 Description: Repairs Crane PKDServer discovery on iOS 17.在 iOS 17 上修复 Crane PKDServer 发现。
