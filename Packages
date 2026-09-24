@@ -9252,13 +9252,13 @@ Section: Tweaks
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Architecture: iphoneos-arm64e
-Version: 1.6.2-102
+Version: 1.6.2-103
 Installed-Size: 1900
-Filename: debs/com.huayuarc.cputhermal-1.6.2-102-roothide.deb
-Size: 133784
-MD5sum: c07ffea927686f5ae8b41b787306b7e9
+Filename: debs/com.huayuarc.cputhermal-1.6.2-103-roothide.deb
+Size: 133776
+MD5sum: 66c95a35b8b2426f05076979bbedeb0c
 SHA1: 
-SHA256: 7fc50d9a316b64136d00736eee18984ee0b45fed94704683ac91155b99eb40e9
+SHA256: 9e1315bd53762a5bc0e35fcfcaed230f4c32de5141f053678a71a47b9936b2a2
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
@@ -9270,13 +9270,13 @@ Section: Tweaks
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Architecture: iphoneos-arm64
-Version: 1.6.2-102
+Version: 1.6.2-103
 Installed-Size: 1900
-Filename: debs/com.huayuarc.cputhermal-1.6.2-102-rootless.deb
-Size: 138520
-MD5sum: 83d53ea4c1366bd62c43911ee2d6555c
+Filename: debs/com.huayuarc.cputhermal-1.6.2-103-rootless.deb
+Size: 138232
+MD5sum: 786880d69df5d6c5befe2eb827ffd3c9
 SHA1: 
-SHA256: 5f2dbb9aeca429ebecc741adfd260041c1b4f7b90a1c16a73b6dc52ab7993989
+SHA256: 1547e95c2ac5ebb0e060828e3235e459fbea8dd49862bf455dcab4cbb1c6b0ca
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
