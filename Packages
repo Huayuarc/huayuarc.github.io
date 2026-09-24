@@ -6072,6 +6072,40 @@ MD5sum: bec4666d629a2857a9c2322f4d3faec6
 SHA1: 
 SHA256: c0750401ffdb7d41d7fc54faa8c5b145a457201580549ee4753912a70b7abc1d
 
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.2.4
+Installed-Size: 496
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.2.4-roothide.deb
+Size: 80736
+MD5sum: 6dda0b54213524ec627312ac97fffa7a
+SHA1: 
+SHA256: 196075e332d593e85d58363d16ee7984cf643049e68f21dbf2f11f7140cc6f44
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.2.4
+Installed-Size: 1008
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.2.4-rootless.deb
+Size: 110776
+MD5sum: 6e5ff76f40f97b69990e890eb9764255
+SHA1: 
+SHA256: f82906ec7d03f5df6d4b02e3be45f7b55006de0446b548d756390b37a6530528
+
 Package: com.crctdd.surgectl
 Name: SurgeCTL
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
@@ -28456,6 +28490,48 @@ SHA1:
 SHA256: cd40e8cc17dedcbe2044c055af227875385086dacda855d814f45addfb164b78
 
 Package: com.tsangbaby.pulloverx
+Name: PullOver X
+Version: 2.1.6
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.1.6-roothide.deb
+Size: 590540
+MD5sum: a40e1612a0d630dd908971fdb6baa6c8
+SHA1: 
+SHA256: 0d66e443122e61fb2e4bfab383a30902a5923d475322f7838147e7e224663576
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X
+Version: 2.1.6
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.1.6-rootless.deb
+Size: 592092
+MD5sum: af51dd4eb0007fa8c012d6e4d3aa75a4
+SHA1: 
+SHA256: e082ebf6e50958bb89423d81b731b29cd56a00fb0d0a2c3866475d6b4040be3f
+
+Package: com.tsangbaby.pulloverx
 Name: PullOver X 分屏
 Version: 1.9.5
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
@@ -31212,6 +31288,42 @@ Size: 550052
 MD5sum: 988bf5e3ab262815321df3c021bca77b
 SHA1: 
 SHA256: 1cb0cee86c4bd0a5cc9ee03fd0d6d38a70099cedbae8450f3b2cd487e4e2ff6d
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Installed-Size: 3248
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.3-roothide.deb
+Size: 561044
+MD5sum: b146d395fcda4949f094f6bb4a72a996
+SHA1: 
+SHA256: 194d324326dd28c318b0649759f95ceb3e57afc54c5a0ea42272f0b4419b2720
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Installed-Size: 3248
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.3-rootless.deb
+Size: 561820
+MD5sum: 79d5aa365f537ae92945df9dbc10ebbf
+SHA1: 
+SHA256: c945b1bc6e7863d255eeb14d1c22d29fe8e4cb02ec65298fa1cdd40497b18f52
 
 Package: iya.banana.jumpguard
 Name: JumpGuard
