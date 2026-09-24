@@ -5913,6 +5913,40 @@ MD5sum: 6e5ff76f40f97b69990e890eb9764255
 SHA1: 
 SHA256: f82906ec7d03f5df6d4b02e3be45f7b55006de0446b548d756390b37a6530528
 
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.2.5
+Installed-Size: 512
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.2.5-roothide.deb
+Size: 84396
+MD5sum: c63880efdb6310fadb1045e76bf8a0ef
+SHA1: 
+SHA256: 18db9ddf86efcf6dffc958a31cb9d6e3f28718a9aa56217ab1626aebb465442d
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.2.5
+Installed-Size: 1040
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.2.5-rootless.deb
+Size: 116468
+MD5sum: 99612adeaa6b66618bffc41a3ba09a86
+SHA1: 
+SHA256: 8e190934871f034087623b7d2735a111fe714ff6aed0b9f65cbbe190d9cd2291
+
 Package: com.crctdd.surgectl
 Name: SurgeCTL
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
@@ -12171,6 +12205,42 @@ SHA1:
 SHA256: 415146a16ad66418e1ce38c184955a3eda1b3aede33d12486622dd662cd9bd83
 
 Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 10.2.0
+Installed-Size: 19916
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-10.2.0-roothide.deb
+Size: 4394384
+MD5sum: e60709b166539e0f16175a8a7d7b840d
+SHA1: 
+SHA256: 9e0f98e12e5e7347d8fed0f556c7ba065327796851c44dd07a05cfbcb84bb7b1
+
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 10.2.0
+Installed-Size: 19948
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-10.2.0-rootless.deb
+Size: 4400632
+MD5sum: 586f97f70ee1595f9890504d20d7dd3a
+SHA1: 
+SHA256: 90d3850bdcbbc61f98c39ef03ecf4b241d07cf33e256bdb0c081cba3e3d56e6b
+
+Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
 Depends: mobilesubstrate, preferenceloader
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
@@ -14707,6 +14777,68 @@ Size: 592944
 MD5sum: ad9264426c9630f412743a4e18efb070
 SHA1: 
 SHA256: 1f793c9277893047129c3b6ebb0e0d250a34b3728392d364bbdaa8464893a27b
+
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘光效
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
+ 【本次更新 V1.1.7】
+  - 高级设置里的候选词颜色已删除，移到主页"候选词"里面
+  - 修复不跟手问题
+ 【核心功能】
+  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变及独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 动态候选渐变、主题光效
+  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
+  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 RootHide（arm64e）版
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Installed-Size: 968
+Filename: debs/com.minis.rainbowkeyboard-1.1.7-roothide.deb
+Size: 599352
+MD5sum: 3c4f90fc248143a1c4a4ef46a7ac4f77
+SHA1: 
+SHA256: 1d6e4a21bf38a61e3af731aa034830a49eb979d6a3317007445aad23f90d36b9
+
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘光效
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
+ 【本次更新 V1.1.7】
+  - 高级设置里的候选词颜色已删除，移到主页"候选词"里面
+  - 修复不跟手问题
+ 【核心功能】
+  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变及独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 动态候选渐变、主题光效
+  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
+  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 Rootless（arm64）版
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Installed-Size: 968
+Filename: debs/com.minis.rainbowkeyboard-1.1.7-rootless.deb
+Size: 598680
+MD5sum: 1334742fc91f522d624385190bcfd33e
+SHA1: 
+SHA256: c1c32c511584258c2c1d97eb57d4adba4ffceb42651e8abae58d2e382b7674e5
 
 Package: com.miro.libmiroshared
 Name: libMiROShared
