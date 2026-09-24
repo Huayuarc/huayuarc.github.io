@@ -5993,6 +5993,40 @@ MD5sum: 344ce414dd59620904520bcc1ea543c3
 SHA1: 
 SHA256: 24c5f8a12759a10d0c73363d17af23ba45f8cf726fdee334c8c35e4cc87e6485
 
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.2.2
+Installed-Size: 492
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.2.2-roothide.deb
+Size: 79224
+MD5sum: 822b9bd46be5e5b0d534d6cf987ab499
+SHA1: 
+SHA256: 85ebce9752254dbe002bec246d931bccd69afbfeb65b4458f362950e41746a3e
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.2.2
+Installed-Size: 1004
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.2.2-rootless.deb
+Size: 107680
+MD5sum: bec4666d629a2857a9c2322f4d3faec6
+SHA1: 
+SHA256: c0750401ffdb7d41d7fc54faa8c5b145a457201580549ee4753912a70b7abc1d
+
 Package: com.crctdd.surgectl
 Name: SurgeCTL
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
@@ -11088,6 +11122,41 @@ Size: 1711288
 MD5sum: d8d2c330c78143d1a0a390cdb0a5aff6
 SHA1: 
 SHA256: 30c320fea017116193ab4ce9d0cbdddd34d67d05e989825ad0de4fa594be405b
+
+Package: com.iosdump.appdata
+Name: AppData
+Version: 2.7.5
+Description: 在主屏幕查看应用数据与管理应用
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64e
+Author: iosdump
+Maintainer: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.iosdump.appdata-2.7.5-roothide.deb
+Size: 1707624
+MD5sum: 18acc8143f16f8363e84eeb410e04152
+SHA1: 
+SHA256: cab015fc1f8634d924bda946af99c7136550b9115470136b379d86797a5950b9
+
+Package: com.iosdump.appdata
+Name: AppData
+Version: 2.7.5
+Description: 在主屏幕查看应用数据与管理应用
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64
+Author: iosdump
+Maintainer: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
+Filename: debs/com.iosdump.appdata-2.7.5-rootless.deb
+Size: 1719404
+MD5sum: 22dc71b5ecf9f94180698ac11b8b45dd
+SHA1: 
+SHA256: b960358e95eadf8665145f57ad07f01c90b5fc709b4f6a8a123f3c53b29f4cd1
 
 Package: com.iosdump.appmute
 Name: AppMute 静音媒体音量
@@ -31063,6 +31132,42 @@ MD5sum: 3e8d694beca557796102454e50b67c63
 SHA1: 
 SHA256: 2b844c059204204993593cd77d0415712bb2a85fd0733ce515a52ba3ff0b6513
 
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 3184
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.2-roothide.deb
+Size: 548248
+MD5sum: 541db4726c48a64a69f71268055cacbd
+SHA1: 
+SHA256: 4f48dddfd55470670bdcbb37aa1b1441722fabce2fb9e1ce23c664e62ee832ac
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Installed-Size: 3200
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.2-rootless.deb
+Size: 550052
+MD5sum: 988bf5e3ab262815321df3c021bca77b
+SHA1: 
+SHA256: 1cb0cee86c4bd0a5cc9ee03fd0d6d38a70099cedbae8450f3b2cd487e4e2ff6d
+
 Package: iya.banana.jumpguard
 Name: JumpGuard
 Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
@@ -31164,6 +31269,40 @@ Size: 79000
 MD5sum: edef7af7498254854a15d973732d0f7b
 SHA1: 
 SHA256: 3c643ca0d945d40db1c5874408b785333d18f0f815958be1a04dfb256d96830d
+
+Package: iya.banana.musichaptics
+Name: MusicHaptics
+Description: 让支持的歌曲化作触感，随音乐感受节奏与人声。Music haptic tracks, vocal mode and Control Center toggle for iOS 15 and later.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Installed-Size: 968
+icon: https://huayuarc.github.io/icon/musichaptics.png
+Filename: debs/iya.banana.musichaptics-0.1.2-roothide.deb
+Size: 90672
+MD5sum: 64c790251c3d263d0544fd31b339643d
+SHA1: 
+SHA256: 8548bebbdf0a52dd16710183c6d4b83941f555d2bc45768196ad1a838e344526
+
+Package: iya.banana.musichaptics
+Name: MusicHaptics
+Description: 让支持的歌曲化作触感，随音乐感受节奏与人声。Music haptic tracks, vocal mode and Control Center toggle for iOS 15 and later.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Installed-Size: 968
+icon: https://huayuarc.github.io/icon/musichaptics.png
+Filename: debs/iya.banana.musichaptics-0.1.2-rootless.deb
+Size: 90492
+MD5sum: d912c8cb09a365400ac1965c310fcdcb
+SHA1: 
+SHA256: 1c08f967d72234649d956dce7ce3d20b915b520f69dc0f8941561430bd305031
 
 Package: iya.banana.openspace
 Name: OpenSpace
