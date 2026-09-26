@@ -5777,6 +5777,40 @@ MD5sum: 7349a7d21bb5960ce8bbf27b5f75193c
 SHA1: 
 SHA256: 7e1317dc8d1543669123f04792a27586d3e18f637192c392f3aec3310a60cb91
 
+Package: com.crctdd.mobileslideshowhook
+Name: 系统相册视频进度条
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 240
+icon: https://huayuarc.github.io/icon/xc.jpg
+Filename: debs/com.crctdd.mobileslideshowhook-0.0.3-roothide.deb
+Size: 31800
+MD5sum: 6aad7c7ea08a30883b626977123d51ed
+SHA1: 
+SHA256: cde1a98a86a0ba01172188f97a50c6a65ef4cdad89d39085a8aa459f2da8eb19
+
+Package: com.crctdd.mobileslideshowhook
+Name: 系统相册视频进度条
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 240
+icon: https://huayuarc.github.io/icon/xc.jpg
+Filename: debs/com.crctdd.mobileslideshowhook-0.0.3-rootless.deb
+Size: 31884
+MD5sum: bc6f6f4574ef1629fdc3570b446a7d18
+SHA1: 
+SHA256: 52019f50902afaf08aaf77dcfd7efec00274ace6df1fb3498febbf80750be490
+
 Package: com.crctdd.shorbar
 Name: ShortBar
 Depends: mobilesubstrate, preferenceloader
