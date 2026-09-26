@@ -5743,6 +5743,74 @@ MD5sum: c1bffcf3ec68484ce6735217131fd2b2
 SHA1: 
 SHA256: 81f61553026a8870135279ac9c659473b7cca43ab3c01104d528668dae981968
 
+Package: com.crctdd.mobileslideshowhook
+Name: 系统相册视频进度条
+Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 204
+icon: https://huayuarc.github.io/icon/xc.jpg
+Filename: debs/com.crctdd.mobileslideshowhook-0.0.1-roothide.deb
+Size: 22332
+MD5sum: 5c725302e3179c322530762d098125e0
+SHA1: 
+SHA256: ff4f116f48520d4fe8bf3aa009f4737da9bc854d858423fc85cbe520b764f542
+
+Package: com.crctdd.mobileslideshowhook
+Name: 系统相册视频进度条
+Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 204
+icon: https://huayuarc.github.io/icon/xc.jpg
+Filename: debs/com.crctdd.mobileslideshowhook-0.0.1-rootless.deb
+Size: 22432
+MD5sum: 7349a7d21bb5960ce8bbf27b5f75193c
+SHA1: 
+SHA256: 7e1317dc8d1543669123f04792a27586d3e18f637192c392f3aec3310a60cb91
+
+Package: com.crctdd.shorbar
+Name: ShortBar
+Depends: mobilesubstrate, preferenceloader
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.7
+Installed-Size: 380
+icon: https://huayuarc.github.io/icon/ShortBar.png
+Filename: debs/com.crctdd.shorbar-0.0.7-roothide.deb
+Size: 36016
+MD5sum: d774052c01d4b172b6b455aa07027650
+SHA1: 
+SHA256: 1a75c00c8465960cae4c91ffd6be319f24de81cf4ae4f38bded5f587892af69b
+
+Package: com.crctdd.shorbar
+Name: ShortBar
+Depends: mobilesubstrate, preferenceloader
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.7
+Installed-Size: 380
+icon: https://huayuarc.github.io/icon/ShortBar.png
+Filename: debs/com.crctdd.shorbar-0.0.7-rootless.deb
+Size: 36072
+MD5sum: 10e06aeaa0a41e1246ba089751a15187
+SHA1: 
+SHA256: 9542a838d77e36c2e2740fb9bac14b09fbd88fa2a1e1da404dcd7fc2b535e530
+
 Package: com.crctdd.stayalivelite
 Name: StayAlive Lite
 Description: 为指定App开启守护后台，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
@@ -14840,6 +14908,72 @@ MD5sum: 1334742fc91f522d624385190bcfd33e
 SHA1: 
 SHA256: c1c32c511584258c2c1d97eb57d4adba4ffceb42651e8abae58d2e382b7674e5
 
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘光效
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
+ 【本次更新】
+  - 修复光效卡顿问题
+  - 修复波纹光效
+  - 修复扩散光效
+  - 新增流光底韵光效
+ 【核心功能】
+  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变及独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 动态候选渐变、主题光效、智能模式、流光底韵光效
+  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
+  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 RootHide（arm64e）版
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Installed-Size: 984
+Filename: debs/com.minis.rainbowkeyboard-1.2.0-roothide.deb
+Size: 604840
+MD5sum: a91cef2411440a043aa4ed38d38256d7
+SHA1: 
+SHA256: 7d57ab43a2ba0249a38b67afa7c8d17ad787d5e4477a3a7434abe9f0201b015a
+
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘光效
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
+ 【本次更新】
+  - 修复光效卡顿问题
+  - 修复波纹光效
+  - 修复扩散光效
+  - 新增流光底韵光效
+ 【核心功能】
+  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变及独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 动态候选渐变、主题光效、智能模式、流光底韵光效
+  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
+  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 Rootless（arm64）版
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Installed-Size: 984
+Filename: debs/com.minis.rainbowkeyboard-1.2.0-rootless.deb
+Size: 604220
+MD5sum: 1628cf1474f4cd8840f5e2c448e33d4e
+SHA1: 
+SHA256: 6cd2ee31c7000a3dc1b48393bf026c4065152f299d0bbcca6a34ea5efe27583c
+
 Package: com.miro.libmiroshared
 Name: libMiROShared
 Depends: firmware (>=14.0)
@@ -22249,7 +22383,26 @@ SHA256: 536b0f174d2a9e6d04e95ccddbe6ce102809f1179922e76f5c31d6859a4571a6
 Package: com.sini.deletephotoscompletely
 Version: 1.2-2
 Section: Tweaks
-icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+icon: https://huayuarc.github.io/icon/xc.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/deletephotoscompletely/js.json
+Maintainer: Nets
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Installed-Size: 184
+Name: DeletePhotosCompletely
+Author: Netskao
+Description: 为相册添加彻底删除照片选项
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.deletephotoscompletely-1.2-2-roothide.deb
+Size: 17356
+MD5sum: 1a6e112ad7c4651b3127b9e7c3deaf9e
+SHA1: 
+SHA256: d7b8ec510ead8944dcf3531d8bfacb8fa54daf64567b96795be7e268ea044e1f
+
+Package: com.sini.deletephotoscompletely
+Version: 1.2-2
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/xc.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/deletephotoscompletely/js.json
 Maintainer: Nets
 Depends: mobilesubstrate, firmware (>= 15.0)
@@ -22258,11 +22411,11 @@ Installed-Size: 184
 Name: DeletePhotosCompletely
 Author: Netskao
 Description: 为相册添加彻底删除照片选项
-Filename: debs/com.sini.deletephotoscompletely_1.2-2_iphoneos-arm64.deb
-Size: 17096
-MD5sum: 6bd643b6f89c81d60d287f8bcdc3e699
+Filename: debs/com.sini.deletephotoscompletely-1.2-2-rootless.deb
+Size: 17076
+MD5sum: 803751f4603abf020a7cad25ab64ab65
 SHA1: 
-SHA256: 3669278415b2aa068fa53091d670859e81c54638490db8e6962b1c27edf7d928
+SHA256: e142a0d654afa6f78c03632f77543db1f97b8c0bfb3b036e72005a066ad433f0
 
 Package: com.sini.desktoplyrics
 Version: 0.3.9~b1
@@ -23200,9 +23353,9 @@ SHA1:
 SHA256: 74aae99b5381bbd4e5959617a364958684c1959d4114deb1be6cb0dcb078e163
 
 Author: iOSign
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Description: 自用备份。
-icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
+icon: https://huayuarc.github.io/icon/xc.jpg
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/photos/js.json
 Maintainer: iOSign
 Version: 0.0.6-2
@@ -23210,11 +23363,29 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Name: 相册增强
 Section: Tweaks
 Package: com.sini.photos
-Filename: debs/com.sini.photos_0.0.6-2_iphoneos-arm64.deb
-Size: 3988
-MD5sum: 97691c81537c2ef4d7459c534d9ed1b7
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.photos-0.0.6-2-roothide.deb
+Size: 3900
+MD5sum: 95c92d1f8c474cb08ed614bb8617366b
 SHA1: 
-SHA256: 5428c16dda8615a6de2e4bc815b992a6a009f9c3e6f5516e8e5525fcf43bcde3
+SHA256: 6731b5bded1d50ba51a93c3974a0a92a32d716c6fcb5b53aac1e871a048abc75
+
+Author: iOSign
+Architecture: iphoneos-arm64
+Description: 自用备份。
+icon: https://huayuarc.github.io/icon/xc.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/photos/js.json
+Maintainer: iOSign
+Version: 0.0.6-2
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: 相册增强
+Section: Tweaks
+Package: com.sini.photos
+Filename: debs/com.sini.photos-0.0.6-2-rootless.deb
+Size: 4000
+MD5sum: f3646de20c4f2b19e2d0236904f67a8b
+SHA1: 
+SHA256: 603727e771ebd45e485f19b42af5a467dfa5888d8feef7c14b52b9cdc79868d6
 
 Package: com.sini.picsewpro
 Name: PicsewPro
