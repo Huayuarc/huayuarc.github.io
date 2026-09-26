@@ -16528,6 +16528,39 @@ MD5sum: c7d818cb49ec45a5fc321235cebe9be2
 SHA1: 
 SHA256: b9d6054e5a9dc029d96bc14dca11b5fb5244412ff1cb7039b7e59236a0892e9f
 
+Package: com.muirey03.cr4shed
+Name: Cr4shed
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy (>= 1.1.6-4)
+Version: 5.0.0
+Architecture: iphoneos-arm64e
+Description: Cr4shed是有用的崩溃报告程序包，旨在帮助开发人员识别和修复其用户已报告给他们的崩溃，并帮助用户识别 崩溃的罪魁祸首。它在“/var/mobile/Library/Cr4shed” (可从Cr4shed应用程序访问)中生成一个崩溃日志， 包括诸如崩溃进程，崩溃的确切原因，导致崩溃的dylib以及整个调用堆栈之类的信息。当崩溃发生时。如果有人向您 报告崩溃，而您无法仅从system/CrashReporter崩溃日志中找出问题所在，则此功能非常有用。(对于确定开 发崩 溃的原因也非常有用)。该报告应该是您确定崩溃发生原因的所有内容。
+Maintainer: Muirey03
+Author: Muirey03
+Section: Tweaks
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/cr4shed.jpg
+Filename: debs/com.muirey03.cr4shed-5.0.0-roothide.deb
+Size: 546720
+MD5sum: 30d0a7d277251e655ce0efbde22f9196
+SHA1: 
+SHA256: 6ce5a503316bdf194d345bd53c55b930ac8fee85204de80caef3102c4f2dc013
+
+Package: com.muirey03.cr4shed
+Name: Cr4shed
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy (>= 1.1.6-4)
+Version: 5.0.0
+Architecture: iphoneos-arm64
+Description: Cr4shed是有用的崩溃报告程序包，旨在帮助开发人员识别和修复其用户已报告给他们的崩溃，并帮助用户识别 崩溃的罪魁祸首。它在“/var/mobile/Library/Cr4shed” (可从Cr4shed应用程序访问)中生成一个崩溃日志， 包括诸如崩溃进程，崩溃的确切原因，导致崩溃的dylib以及整个调用堆栈之类的信息。当崩溃发生时。如果有人向您 报告崩溃，而您无法仅从system/CrashReporter崩溃日志中找出问题所在，则此功能非常有用。(对于确定开 发崩 溃的原因也非常有用)。该报告应该是您确定崩溃发生原因的所有内容。
+Maintainer: Muirey03
+Author: Muirey03
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cr4shed.jpg
+Filename: debs/com.muirey03.cr4shed-5.0.0-rootless.deb
+Size: 547412
+MD5sum: afcc0cd53c03ca5d23a5c36986eefc2f
+SHA1: 
+SHA256: 78c6a05a04efd167dbcdb994e6f6b099184edb67409b41f8516f180277995686
+
 Package: com.mumu.wcgg
 Name: WCGG
 Description: WeChat custom badge plugin
@@ -16562,6 +16595,46 @@ Size: 221024
 MD5sum: 7e682acf0829777cd492e06f59a02970
 SHA1: 
 SHA256: e7bb5f66b0b0256a8dae20d0c64ecf1e64860f4a192fd3b2b7192c0543a89690
+
+Package: com.muratkurt.kaswitcher
+Name: KASwitcher
+Author: muratkurt
+Maintainer: muratkurt
+Section: Tweaks
+Depends: firmware (>= 16.0), preferenceloader
+Icon: https://muratkurt.github.io/assets/kaswitcher/icon.png
+Depiction: https://muratkurt.github.io/depictions/com.muratkurt.kaswitcher.html
+SileoDepiction: https://muratkurt.github.io/depictions/com.muratkurt.kaswitcher.json
+Homepage: https://muratkurt.github.io/
+Description: 一次性关闭应用程序切换器中的所有应用程序。应用程序切换器中的X按钮关闭每个应用程序，并撤销。固定应用程序，保护应用程序，级联动画，12种语言。Close all apps in the app switcher at onceAn X button in the app switcher closes every app, with undo.Pin apps, protect apps, cascade animation, 12 languages.
+Architecture: iphoneos-arm64e
+Version: 0.5.1
+Installed-Size: 580
+Filename: debs/com.muratkurt.kaswitcher-0.5.1-roothide.deb
+Size: 75816
+MD5sum: ff1aa0fd3906a38f9d79f72cf4391230
+SHA1: 
+SHA256: f6ed89d4e39874fd47f4c22b5a5986e8571b3dacceaabe6f020feb0a3d2ff46c
+
+Package: com.muratkurt.kaswitcher
+Name: KASwitcher
+Author: muratkurt
+Maintainer: muratkurt
+Section: Tweaks
+Depends: firmware (>= 16.0), preferenceloader
+Icon: https://muratkurt.github.io/assets/kaswitcher/icon.png
+Depiction: https://muratkurt.github.io/depictions/com.muratkurt.kaswitcher.html
+SileoDepiction: https://muratkurt.github.io/depictions/com.muratkurt.kaswitcher.json
+Homepage: https://muratkurt.github.io/
+Description: 一次性关闭应用程序切换器中的所有应用程序。应用程序切换器中的X按钮关闭每个应用程序，并撤销。固定应用程序，保护应用程序，级联动画，12种语言。Close all apps in the app switcher at onceAn X button in the app switcher closes every app, with undo.Pin apps, protect apps, cascade animation, 12 languages.
+Architecture: iphoneos-arm64
+Version: 0.5.1
+Installed-Size: 580
+Filename: debs/com.muratkurt.kaswitcher-0.5.1-rootless.deb
+Size: 75932
+MD5sum: 509138fe7697d1fb9bf0e296677a4fd3
+SHA1: 
+SHA256: 31a380224ac1a67e8fd9e66a19b41ce62d24b00cf0d93433d3c9efe7a9070ed3
 
 Package: com.muratkurt.shiv
 Name: shiv
