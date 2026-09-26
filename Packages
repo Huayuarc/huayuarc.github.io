@@ -9565,6 +9565,96 @@ MD5sum: a8c86c4f9c03a05de749a4b107fde295
 SHA1: 
 SHA256: 8ab3710937397489674feb54629c443c315a0a6fefc70f02c889b354d3d6dacc
 
+Package: com.huayuarc.cputhermal
+Name: CPU智能温控
+Author: Huayuarc
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-300
+Installed-Size: 2320
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.huayuarc.cputhermal-1.6.2-300-roothide.deb
+Size: 279764
+MD5sum: 0e5b0146581a8d005668de2256fd17a8
+SHA1: 
+SHA256: 637b4519b724d33754c7054e81b25e291f806c489708ef9b6c27ad5ae66e8842
+
+Package: com.huayuarc.cputhermal
+Name: CPU智能温控
+Author: Huayuarc
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-300
+Installed-Size: 2320
+Filename: debs/com.huayuarc.cputhermal-1.6.2-300-rootless.deb
+Size: 272648
+MD5sum: 2a4aee28c5ff13828f479f1575dbc654
+SHA1: 
+SHA256: a140c7006840c53dbd3fbf5ebba1e782fb389df4e95f42f1314d65487850a926
+
+Package: com.huayuarc.cputhermal
+Name: CPU智能温控
+Author: Huayuarc
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-303
+Installed-Size: 2320
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.huayuarc.cputhermal-1.6.2-303-roothide.deb
+Size: 280184
+MD5sum: cd05e910665700e81f75b89b66e41185
+SHA1: 
+SHA256: 546bf4194099fc00a4a3b849b88c0f622ef611c669205bc9222990a5c322edb8
+
+Package: com.huayuarc.cputhermal
+Name: CPU智能温控
+Author: Huayuarc
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-303
+Installed-Size: 2320
+Filename: debs/com.huayuarc.cputhermal-1.6.2-303-rootless.deb
+Size: 273236
+MD5sum: cb24c111ce1216f93ecd62ce938c20c8
+SHA1: 
+SHA256: 671f4ca436f696241ce7c8082ae4fc7d2a4979cb4e209f258c7ad32f9738e61b
+
 Package: com.huayuarc.cputhermalpro
 Name: CPU 解除温控
 Author: Huayuarc
