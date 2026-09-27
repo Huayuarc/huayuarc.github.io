@@ -9804,6 +9804,42 @@ MD5sum: 60379e6cd80865efbad9fd0678ff8903
 SHA1: 
 SHA256: 119e5f93bf593f2d6f2cfd033cfe1828a22985fb64a4317c6ae8c2436aba0a32
 
+Package: com.huayuarc.cputhermalpro
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，固定解除温控模式，支持 CPU/GPU/Package 温控旁路、ProMotion 120Hz 与 /System/Library/ThermalMonitor 一键挂载优化。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-121
+Installed-Size: 1884
+Filename: debs/com.huayuarc.cputhermalpro-1.6.2-121-roothide.deb
+Size: 128888
+MD5sum: 5ae0639c4adbfe837a5ab27ba376421e
+SHA1: 
+SHA256: ded25c3a9adabe77ac3a222db9aa1bab10adafbe2829183cfdab6f67a67f457a
+
+Package: com.huayuarc.cputhermalpro
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，固定解除温控模式，支持 CPU/GPU/Package 温控旁路、ProMotion 120Hz 与 /System/Library/ThermalMonitor 一键挂载优化。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-121
+Installed-Size: 1884
+Filename: debs/com.huayuarc.cputhermalpro-1.6.2-121-rootless.deb
+Size: 133532
+MD5sum: 3d5556ff1c0a0cb0b61328f0d656f9cc
+SHA1: 
+SHA256: ffa4b3e1fe0ebac66d06049c53eaf23a70f5c6d40eedb2758c58bf31bcae69a1
+
 Package: com.huayuarc.facedownlock
 Name: 设备朝下自动锁屏
 Author: Huayuarc
