@@ -5811,6 +5811,40 @@ MD5sum: bc6f6f4574ef1629fdc3570b446a7d18
 SHA1: 
 SHA256: 52019f50902afaf08aaf77dcfd7efec00274ace6df1fb3498febbf80750be490
 
+Package: com.crctdd.mobileslideshowhook
+Name: 系统相册视频进度条
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.4
+Installed-Size: 256
+icon: https://huayuarc.github.io/icon/xc.jpg
+Filename: debs/com.crctdd.mobileslideshowhook-0.0.4-roothide.deb
+Size: 32924
+MD5sum: f8204d825937fee3250efce37d49aed6
+SHA1: 
+SHA256: 5425a202ff5692f276c8b7bf0d13e9cc1eaec36d42a45b591ad08775a8ed39d5
+
+Package: com.crctdd.mobileslideshowhook
+Name: 系统相册视频进度条
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Installed-Size: 256
+icon: https://huayuarc.github.io/icon/xc.jpg
+Filename: debs/com.crctdd.mobileslideshowhook-0.0.4-rootless.deb
+Size: 32944
+MD5sum: ea5f31f6e95ed068176f252fa87dbf09
+SHA1: 
+SHA256: 03e5543ff4909b2528efd20b3162f42753ff27832c4d15c5a81413aa0172b318
+
 Package: com.crctdd.shorbar
 Name: ShortBar
 Depends: mobilesubstrate, preferenceloader
@@ -6048,6 +6082,40 @@ Size: 116468
 MD5sum: 99612adeaa6b66618bffc41a3ba09a86
 SHA1: 
 SHA256: 8e190934871f034087623b7d2735a111fe714ff6aed0b9f65cbbe190d9cd2291
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.2.9
+Installed-Size: 672
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.2.9-roothide.deb
+Size: 106540
+MD5sum: 069afa0e6a92e208029899cdfa46dd72
+SHA1: 
+SHA256: 00b0a04a4457559ee3863b45557fc7784c20f7ad4a14178c62d02a1d4a7ba704
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.2.9
+Installed-Size: 1376
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.2.9-rootless.deb
+Size: 150368
+MD5sum: 51b36bc14b3de6af62c581fe96cf150a
+SHA1: 
+SHA256: 0acedb164f4dce39a0a28285c908abc7c11488897f6145a73d0b650453421ba0
 
 Package: com.crctdd.surgectl
 Name: SurgeCTL
@@ -12165,6 +12233,46 @@ MD5sum: cf777cb8a67f32b5fe46afcbc4e5c336
 SHA1: 
 SHA256: fff52fd6e944993c2a3b955ca6833725dea3a28550a096deb571c90643fe3aa9
 
+Package: com.iosdump.sfsymbolreplacer
+Name: SF 图标替换
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Conflicts: com.zxms.sfsymbolreplacer
+Replaces: com.zxms.sfsymbolreplacer
+Provides: com.zxms.sfsymbolreplacer
+Description: 替换系统 SF 图标。
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Installed-Size: 832
+icon: https://huayuarc.github.io/icon/SFSymbolReplacer.png
+Filename: debs/com.iosdump.sfsymbolreplacer-1.0.9-roothide.deb
+Size: 108056
+MD5sum: f5d28a0a32ba1251c7712d558a37a9d9
+SHA1: 
+SHA256: 732d82f057b2faf31e468f307d2a3425d711dcdd68d7cca956e99c6e53006ed9
+
+Package: com.iosdump.sfsymbolreplacer
+Name: SF 图标替换
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Conflicts: com.zxms.sfsymbolreplacer
+Replaces: com.zxms.sfsymbolreplacer
+Provides: com.zxms.sfsymbolreplacer
+Description: 替换系统 SF 图标。
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Installed-Size: 832
+icon: https://huayuarc.github.io/icon/SFSymbolReplacer.png
+Filename: debs/com.iosdump.sfsymbolreplacer-1.0.9-rootless.deb
+Size: 109676
+MD5sum: 875180afffd98cb7ce216dc2bd27f07e
+SHA1: 
+SHA256: d7e8f772e8b882d8111a108ca154a4b5f42e3d0f7eaf93e5ea817dce1e507dbf
+
 Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
 Depends: mobilesubstrate, preferenceloader
@@ -15143,6 +15251,28 @@ MD5sum: 1628cf1474f4cd8840f5e2c448e33d4e
 SHA1: 
 SHA256: 6cd2ee31c7000a3dc1b48393bf026c4065152f299d0bbcca6a34ea5efe27583c
 
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘光效
+Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
+ 自定义键盘底色、键帽颜色、霓虹亮度与浓淡。 支持粗彩色键框、键缝背光、候选词渐变及独立开关。
+ 设置内含离线详情与效果预览。 支持跨 App 配色同步，每个滑条附有作用与调节说明。 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光至强光，无键内混色。
+ 优化配置重复读取与键盘重刷，增加 QQ 浅色键盘配色兼容。
+ 优化输入事件路径，减少巨魔/越狱 App 打字时的主线程扫描与整键盘重绘。
+ 更新说明：更新键帽主题 and 键盘主题
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Installed-Size: 1016
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Filename: debs/com.minis.rainbowkeyboard-1.2.3-roothide.deb
+Size: 611556
+MD5sum: c3936c8cfbbef6807102a9ac921da81e
+SHA1: 
+SHA256: 6ff53395beaaa1cbf7672e0aa91950e66eca0be181893318dcf4a74166efe884
+
 Package: com.miro.libmiroshared
 Name: libMiROShared
 Depends: firmware (>=14.0)
@@ -16492,74 +16622,6 @@ Size: 865222
 MD5sum: 7ce097390d58b31728eb9634ab3c6746
 SHA1: 
 SHA256: 46bd2a37a7e5d10288614f95f1a8ce999cd48ee68c90ec1ecd763f06a63d5577
-
-Package: com.muirey03.cr4shed
-Name: Cr4shed 崩溃日记
-Depends: mobilesubstrate, firmware (>= 15.0)
-Architecture: iphoneos-arm64e
-Description: Cr4shed是有用的崩溃报告程序包，旨在帮助开发人员识别和修复其用户已报告给他们的崩溃，并帮助用户识别 崩溃的罪魁祸首。它在“/var/mobile/Library/Cr4shed” (可从Cr4shed应用程序访问)中生成一个崩溃日志， 包括诸如崩溃进程，崩溃的确切原因，导致崩溃的dylib以及整个调用堆栈之类的信息。当崩溃发生时。如果有人向您 报告崩溃，而您无法仅从system/CrashReporter崩溃日志中找出问题所在，则此功能非常有用。(对于确定开 发崩 溃的原因也非常有用)。该报告应该是您确定崩溃发生原因的所有内容。
-Maintainer: Nets
-Author: Muirey03
-Section: Tweaks
-Version: 4.3.0
-Installed-Size: 1312
-Pre-Depends: rootless-compat(>= 0.9)
-Icon: https://huayuarc.github.io/icon/cr4shed.jpg
-Filename: debs/com.muirey03.cr4shed-4.3.0-roothide.deb
-Size: 132432
-MD5sum: ed0f25c3f85682710e2ccfb4c5b269d2
-SHA1: 
-SHA256: 9e0f406a18f7c8bd9482e26c0922de595f7d7e6f392c64016ab2d255795148e0
-
-Package: com.muirey03.cr4shed
-Name: Cr4shed 崩溃日记
-Depends: mobilesubstrate, firmware (>= 15.0)
-Architecture: iphoneos-arm64
-Description: Cr4shed是有用的崩溃报告程序包，旨在帮助开发人员识别和修复其用户已报告给他们的崩溃，并帮助用户识别 崩溃的罪魁祸首。它在“/var/mobile/Library/Cr4shed” (可从Cr4shed应用程序访问)中生成一个崩溃日志， 包括诸如崩溃进程，崩溃的确切原因，导致崩溃的dylib以及整个调用堆栈之类的信息。当崩溃发生时。如果有人向您 报告崩溃，而您无法仅从system/CrashReporter崩溃日志中找出问题所在，则此功能非常有用。(对于确定开 发崩 溃的原因也非常有用)。该报告应该是您确定崩溃发生原因的所有内容。
-Maintainer: Nets
-Author: Muirey03
-Section: Tweaks
-Version: 4.3.0
-Installed-Size: 1312
-Icon: https://huayuarc.github.io/icon/cr4shed.jpg
-Filename: debs/com.muirey03.cr4shed-4.3.0-rootless.deb
-Size: 129172
-MD5sum: c7d818cb49ec45a5fc321235cebe9be2
-SHA1: 
-SHA256: b9d6054e5a9dc029d96bc14dca11b5fb5244412ff1cb7039b7e59236a0892e9f
-
-Package: com.muirey03.cr4shed
-Name: Cr4shed
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy (>= 1.1.6-4)
-Version: 5.0.0
-Architecture: iphoneos-arm64e
-Description: Cr4shed是有用的崩溃报告程序包，旨在帮助开发人员识别和修复其用户已报告给他们的崩溃，并帮助用户识别 崩溃的罪魁祸首。它在“/var/mobile/Library/Cr4shed” (可从Cr4shed应用程序访问)中生成一个崩溃日志， 包括诸如崩溃进程，崩溃的确切原因，导致崩溃的dylib以及整个调用堆栈之类的信息。当崩溃发生时。如果有人向您 报告崩溃，而您无法仅从system/CrashReporter崩溃日志中找出问题所在，则此功能非常有用。(对于确定开 发崩 溃的原因也非常有用)。该报告应该是您确定崩溃发生原因的所有内容。
-Maintainer: Muirey03
-Author: Muirey03
-Section: Tweaks
-Pre-Depends: rootless-compat(>= 0.9)
-Icon: https://huayuarc.github.io/icon/cr4shed.jpg
-Filename: debs/com.muirey03.cr4shed-5.0.0-roothide.deb
-Size: 546720
-MD5sum: 30d0a7d277251e655ce0efbde22f9196
-SHA1: 
-SHA256: 6ce5a503316bdf194d345bd53c55b930ac8fee85204de80caef3102c4f2dc013
-
-Package: com.muirey03.cr4shed
-Name: Cr4shed
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy (>= 1.1.6-4)
-Version: 5.0.0
-Architecture: iphoneos-arm64
-Description: Cr4shed是有用的崩溃报告程序包，旨在帮助开发人员识别和修复其用户已报告给他们的崩溃，并帮助用户识别 崩溃的罪魁祸首。它在“/var/mobile/Library/Cr4shed” (可从Cr4shed应用程序访问)中生成一个崩溃日志， 包括诸如崩溃进程，崩溃的确切原因，导致崩溃的dylib以及整个调用堆栈之类的信息。当崩溃发生时。如果有人向您 报告崩溃，而您无法仅从system/CrashReporter崩溃日志中找出问题所在，则此功能非常有用。(对于确定开 发崩 溃的原因也非常有用)。该报告应该是您确定崩溃发生原因的所有内容。
-Maintainer: Muirey03
-Author: Muirey03
-Section: Tweaks
-Icon: https://huayuarc.github.io/icon/cr4shed.jpg
-Filename: debs/com.muirey03.cr4shed-5.0.0-rootless.deb
-Size: 547412
-MD5sum: afcc0cd53c03ca5d23a5c36986eefc2f
-SHA1: 
-SHA256: 78c6a05a04efd167dbcdb994e6f6b099184edb67409b41f8516f180277995686
 
 Package: com.mumu.wcgg
 Name: WCGG
