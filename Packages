@@ -5743,6 +5743,40 @@ MD5sum: c1bffcf3ec68484ce6735217131fd2b2
 SHA1: 
 SHA256: 81f61553026a8870135279ac9c659473b7cca43ab3c01104d528668dae981968
 
+Package: com.crctdd.mobileslideshowhook
+Name: 系统相册视频进度条
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Installed-Size: 240
+icon: https://huayuarc.github.io/icon/xc.jpg
+Filename: debs/com.crctdd.mobileslideshowhook-0.0.5-roothide.deb
+Size: 31984
+MD5sum: 9f395501d03a6cb6e1ad3548c24463b9
+SHA1: 
+SHA256: fb13fd11b6ecb23263969a382afc53807166ffa8491a9003626b5537af3b4ebc
+
+Package: com.crctdd.mobileslideshowhook
+Name: 系统相册视频进度条
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Installed-Size: 240
+icon: https://huayuarc.github.io/icon/xc.jpg
+Filename: debs/com.crctdd.mobileslideshowhook-0.0.5-rootless.deb
+Size: 32084
+MD5sum: 41b4b85f13b65feb687b6d42330c609c
+SHA1: 
+SHA256: adda645d10c71b1b4fe8947a99ee9f3717e888c76e075ed14cf8f7206a2d28bc
+
 Package: com.crctdd.shorbar
 Name: ShortBar
 Depends: mobilesubstrate, preferenceloader
@@ -5776,6 +5810,40 @@ Size: 36072
 MD5sum: 10e06aeaa0a41e1246ba089751a15187
 SHA1: 
 SHA256: 9542a838d77e36c2e2740fb9bac14b09fbd88fa2a1e1da404dcd7fc2b535e530
+
+Package: com.crctdd.shorbar
+Name: ShortBar
+Depends: mobilesubstrate, preferenceloader
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 460
+icon: https://huayuarc.github.io/icon/shorbar.png
+Filename: debs/com.crctdd.shorbar-1.0.0-roothide.deb
+Size: 60020
+MD5sum: 66abcb411d656687a2f62e9e8d9db35b
+SHA1: 
+SHA256: 008e58e4ee1c7c7d1ac7d570e0b242bfc57abefc7a5d187f4bb22961d6025ec1
+
+Package: com.crctdd.shorbar
+Name: ShortBar
+Depends: mobilesubstrate, preferenceloader
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 460
+icon: https://huayuarc.github.io/icon/shorbar.png
+Filename: debs/com.crctdd.shorbar-1.0.0-rootless.deb
+Size: 60132
+MD5sum: 99294ce186e40a93dcd75ee954dca0f9
+SHA1: 
+SHA256: 20d1a4158e58b2839eaba31b2e2cfc97a68415f7ff07d222b7257a46ea342198
 
 Package: com.crctdd.stayalivelite
 Name: StayAlive Lite
@@ -12482,6 +12550,42 @@ Size: 4400632
 MD5sum: 586f97f70ee1595f9890504d20d7dd3a
 SHA1: 
 SHA256: 90d3850bdcbbc61f98c39ef03ecf4b241d07cf33e256bdb0c081cba3e3d56e6b
+
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 11.0
+Installed-Size: 20244
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-11.0-roothide.deb
+Size: 4468924
+MD5sum: b6751060573dfe83ee33eb86fcb09cbd
+SHA1: 
+SHA256: 086fdd73f27f57bd8a8603de122d4f52c647f2b628fc5a1dd4b3e269eedde824
+
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 11.0
+Installed-Size: 20276
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-11.0-rootless.deb
+Size: 4492452
+MD5sum: cb4b36649e6da93f5f6200f0f3291613
+SHA1: 
+SHA256: 4de428d7d92c023faedd33dacb40c130b3a32e6ee64f59414fe7e7d586c4e31c
 
 Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
@@ -30771,6 +30875,40 @@ MD5sum: cdd6799680cf8f3ef5938cae00722f60
 SHA1: 
 SHA256: 37801505f0a2e330eb59803eb687702e14ce584006c89b5491d51cccd4040e90
 
+Package: iya.banana.billie.ambientbadge
+Name: AmbientBadge
+Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.13
+Installed-Size: 652
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
+Filename: debs/iya.banana.billie.ambientbadge-0.1.13-roothide.deb
+Size: 97580
+MD5sum: bb32db408220be93832424b8c04c322a
+SHA1: 
+SHA256: df4acdebd9083590fc055f867cefa08d72dc12803f89ba6c46ff7c03d471cab0
+
+Package: iya.banana.billie.ambientbadge
+Name: AmbientBadge
+Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.1.13
+Installed-Size: 652
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
+Filename: debs/iya.banana.billie.ambientbadge-0.1.13-rootless.deb
+Size: 97916
+MD5sum: 261be948d32989783b97cbce46cc3d16
+SHA1: 
+SHA256: cf320d9a6aa7c5afbd0d966f59da0025d7740e2f8b6fdd50f77ad8470a28d881
+
 Package: iya.banana.dockicon
 Name: DarkIcon
 Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.ios 15-18提供深色图标与图片壁纸暗化。
@@ -30906,6 +31044,40 @@ Size: 220456
 MD5sum: 8fd02957e80001a65f5a1a128911e34a
 SHA1: 
 SHA256: d42be002b12a56537ace7763f5f41cac3064febb218cd40bdbb0ea705f35722c
+
+Package: iya.banana.dockicon
+Name: DarkIcon
+Description: 为 ios 15-18提供深色图标与图片壁纸暗化。Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Architecture: iphoneos-arm64e
+Version: 0.9.9
+Installed-Size: 1056
+icon: https://huayuarc.github.io/icon/dockicon
+Filename: debs/iya.banana.dockicon-0.9.9-roothide.deb
+Size: 222736
+MD5sum: a682a10fc5fbf024fb9a4bc966020570
+SHA1: 
+SHA256: 8c512e884d3430da20336dabfc22b6e0c0c4066da3a6d63590ec0addf547a1f9
+
+Package: iya.banana.dockicon
+Name: DarkIcon
+Description: 为 ios 15-18提供深色图标与图片壁纸暗化。Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Architecture: iphoneos-arm64
+Version: 0.9.9
+Installed-Size: 1056
+icon: https://huayuarc.github.io/icon/dockicon
+Filename: debs/iya.banana.dockicon-0.9.9-rootless.deb
+Size: 222512
+MD5sum: 40928524a0346f5b8de3f43269196279
+SHA1: 
+SHA256: d0194b604d7b3b2ee8d66fc1c16eeb7fbd93d2b930bd36009f8e69f1e764f080
 
 Package: iya.banana.dynamicmusicbg
 Name: DynamicMusicBG
@@ -31443,6 +31615,42 @@ MD5sum: 79d5aa365f537ae92945df9dbc10ebbf
 SHA1: 
 SHA256: c945b1bc6e7863d255eeb14d1c22d29fe8e4cb02ec65298fa1cdd40497b18f52
 
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Installed-Size: 3936
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.5-roothide.deb
+Size: 681908
+MD5sum: cd3b91e8ff68c3c88d83274da6187042
+SHA1: 
+SHA256: 4160e73149a7580c59c1513609bf62ddf1a33a8babd6eb7930ebe346db7c9627
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Installed-Size: 3952
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.5-rootless.deb
+Size: 681088
+MD5sum: 59e3dd2f0d57108de61960764f6d0175
+SHA1: 
+SHA256: 201f66f6455aab553e2deafa86ed5f29fd3add9b89b367332c1084c3d0b575fe
+
 Package: iya.banana.jumpguard
 Name: JumpGuard
 Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
@@ -31578,6 +31786,40 @@ Size: 90492
 MD5sum: d912c8cb09a365400ac1965c310fcdcb
 SHA1: 
 SHA256: 1c08f967d72234649d956dce7ce3d20b915b520f69dc0f8941561430bd305031
+
+Package: iya.banana.musichaptics
+Name: MusicHaptics
+Description: 让支持的歌曲化作触感，随音乐感受节奏与人声。Music haptic tracks, vocal mode and Control Center toggle for iOS 15 and later.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Installed-Size: 968
+icon: https://huayuarc.github.io/icon/musichaptics.png
+Filename: debs/iya.banana.musichaptics-0.1.3-roothide.deb
+Size: 93096
+MD5sum: b9a211749270529bb8821759c973d7ff
+SHA1: 
+SHA256: cbc1d5d9ddef8dbc79989641a5dd28ce27a452e1ceefdbd40388cd97c990af51
+
+Package: iya.banana.musichaptics
+Name: MusicHaptics
+Description: 让支持的歌曲化作触感，随音乐感受节奏与人声。Music haptic tracks, vocal mode and Control Center toggle for iOS 15 and later.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Installed-Size: 968
+icon: https://huayuarc.github.io/icon/musichaptics.png
+Filename: debs/iya.banana.musichaptics-0.1.3-rootless.deb
+Size: 92652
+MD5sum: 97251e168a2bb8e20a0bcaab9727c412
+SHA1: 
+SHA256: 1ca112583f8647267f2d53ecc806de2bf28cdd7d7eadd0754e8477fe5fc63454
 
 Package: iya.banana.openspace
 Name: OpenSpace
