@@ -31055,12 +31055,12 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.
 Architecture: iphoneos-arm64e
 Version: 0.9.9
 Installed-Size: 1056
-icon: https://huayuarc.github.io/icon/dockicon
+icon: https://huayuarc.github.io/icon/dockicon.png
 Filename: debs/iya.banana.dockicon-0.9.9-roothide.deb
-Size: 222736
-MD5sum: a682a10fc5fbf024fb9a4bc966020570
+Size: 222836
+MD5sum: 9b89a8d928f104e33e02c172e2f21b3f
 SHA1: 
-SHA256: 8c512e884d3430da20336dabfc22b6e0c0c4066da3a6d63590ec0addf547a1f9
+SHA256: 507180373482160aea063929b323f8055a68b7b960911d508b35cd51f0e9a1ad
 
 Package: iya.banana.dockicon
 Name: DarkIcon
@@ -31072,12 +31072,12 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.
 Architecture: iphoneos-arm64
 Version: 0.9.9
 Installed-Size: 1056
-icon: https://huayuarc.github.io/icon/dockicon
+icon: https://huayuarc.github.io/icon/dockicon.png
 Filename: debs/iya.banana.dockicon-0.9.9-rootless.deb
-Size: 222512
-MD5sum: 40928524a0346f5b8de3f43269196279
+Size: 222744
+MD5sum: e2a62df506d923ac0874bfe254c98e2d
 SHA1: 
-SHA256: d0194b604d7b3b2ee8d66fc1c16eeb7fbd93d2b930bd36009f8e69f1e764f080
+SHA256: 13b05edf4eaacac3779bfe710011800f0ebee027bb9eccbae01fc6dfd6ef8399
 
 Package: iya.banana.dynamicmusicbg
 Name: DynamicMusicBG
