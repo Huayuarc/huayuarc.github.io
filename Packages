@@ -13960,6 +13960,39 @@ MD5sum: 2738d91753b22eb5f3eaef66c7f083fa
 SHA1: 
 SHA256: aae154014060dd82ec208ed5f6a3c48642ea026d0fb5fd27c0a6ae428e850c7a
 
+Package: com.layii.ccrnd
+Name: 去除录屏延迟
+Description: 去除录屏延迟，并可实时配置控制中心收起行为
+Maintainer: LaYii
+Author: LaYii
+Section: Tweaks
+Depends: firmware (>= 14.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Installed-Size: 344
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.layii.ccrnd-0.1.0-roothide.deb
+Size: 30584
+MD5sum: df516e63732ac727bf1e1158ba13cfe3
+SHA1: 
+SHA256: a25f68600e7579fc7edb91fd79e6558a36addea68c565b37d056a223689f23a1
+
+Package: com.layii.ccrnd
+Name: 去除录屏延迟
+Description: 去除录屏延迟，并可实时配置控制中心收起行为
+Maintainer: LaYii
+Author: LaYii
+Section: Tweaks
+Depends: firmware (>= 14.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Installed-Size: 344
+Filename: debs/com.layii.ccrnd-0.1.0-rootless.deb
+Size: 31036
+MD5sum: b7fc1875f97cfb4f1b30e97d03da6b9c
+SHA1: 
+SHA256: 3b65dabeb353ba3ea92d8329b48061508a30831502c8d9dbbbc88f995c654399
+
 Package: com.lclrc.hammerit
 Name: Hammer It
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
