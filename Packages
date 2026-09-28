@@ -4386,15 +4386,16 @@ Maintainer: 一刀
 Author: 一刀
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 1.3.7-4+dao88.1
-Installed-Size: 40597
+Architecture: iphoneos-arm64e
+Version: 1.3.7-4
+Installed-Size: 40967
+Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/LiquidAss.png
-Filename: debs/com.charlieleung.liquidify-1.3.7-4+dao88.1-rootless.deb
-Size: 10725488
-MD5sum: 5bc6b5e4ed27d3d94a49fdd1f35dc621
+Filename: debs/com.charlieleung.liquidify-1.3.7-4-roothide.deb
+Size: 10538308
+MD5sum: 923c9e563317f50f10939e425962b9f8
 SHA1: 
-SHA256: 9d89ec102535a03ad57a3297f2a87f1395fa21f04f85bcf0da83b9761d152be2
+SHA256: f0605c6650afd8a6e8b3c75484c7bb79422289cf055b2c59a5a4ff14740fd7ba
 
 Package: com.charlieleung.liquidify
 Name: 88液态玻璃
@@ -4403,16 +4404,15 @@ Maintainer: 一刀
 Author: 一刀
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Version: 1.3.7-4
-Installed-Size: 40967
-Pre-Depends: rootless-compat(>= 0.9)
+Installed-Size: 40597
 icon: https://huayuarc.github.io/icon/LiquidAss.png
-Filename: debs/com.charlieleung.liquidify-1.3.7-4-roothide.deb
-Size: 10541992
-MD5sum: d9ad6eca55cea9b2f1bbf03ee80c8a0b
+Filename: debs/com.charlieleung.liquidify-1.3.7-4-rootless.deb
+Size: 10722016
+MD5sum: b36eb008f26dc754f08b2b1ceb887a83
 SHA1: 
-SHA256: 82130ff02b4e7826015b219845090f0eca4516ce4e39fbdf468580a7c98ee73a
+SHA256: 3cf748fa3bcb44d5dc700f62a266d07bcae08b867d193169a5a544af8081d8a9
 
 Package: com.charlieleung.snapvision
 Name: 长截图 区域截图OCR
