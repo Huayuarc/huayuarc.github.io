@@ -9666,6 +9666,42 @@ MD5sum: f2d40f4c995cc007e3560540b8227729
 SHA1: 
 SHA256: f54829caf3145480d8a210a1b37fb0ad6714896b352d8b0bb7285acc79b39115
 
+Package: com.huayuarc.cputhermalpro
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，固定解除温控模式，支持 CPU/GPU/Package 温控旁路、ProMotion 120Hz。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-137
+Installed-Size: 1880
+Filename: debs/com.huayuarc.cputhermalpro-1.6.2-137-roothide.deb
+Size: 129308
+MD5sum: d989bb4acb2a8679c5abe4e44dce0697
+SHA1: 
+SHA256: 01c811068caae828bcd47ba4eacc28cd0dc57f934e63d90c885c92134e2a1b88
+
+Package: com.huayuarc.cputhermalpro
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，固定解除温控模式，支持 CPU/GPU/Package 温控旁路、ProMotion 120Hz。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-137
+Installed-Size: 1880
+Filename: debs/com.huayuarc.cputhermalpro-1.6.2-137-rootless.deb
+Size: 134904
+MD5sum: 0fd8ecffcfed2a1c7aaccb57cf974b3d
+SHA1: 
+SHA256: 4f952509e919128a9a3a3317295c0acc3f1f0cdc0747ca78442861d00908b3b1
+
 Package: com.huayuarc.facedownlock
 Name: 设备朝下自动锁屏
 Author: Huayuarc
@@ -33191,17 +33227,34 @@ Version: 1.2-2
 Section: Tweaks
 Maintainer: Nets
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Installed-Size: 160
 Name: AlipayScan
 Author: Netskao
 Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中心-自定控制内添加后使用
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/netskao.alipayscan_1.2-2_iphoneos-arm64.deb
-Size: 15780
-MD5sum: 93d2b280528f22174dd227215cce8de1
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/alipayscan.png
+Filename: debs/netskao.alipayscan-1.2-2-roothide.deb
+Size: 16772
+MD5sum: b74ec4fccbd9317a4a832cc857425933
 SHA1: 
-SHA256: 1583347cdd1d69957db5be25fce660bb321e9a43837ced5525a3780cd88e08ea
+SHA256: 4afeedacd4df0168103c5088bea30d74e166d0339be9a7fd9e55dd4766e0d10f
+
+Package: netskao.alipayscan
+Architecture: iphoneos-arm64
+Name: AlipayScan
+Version: 1.2-2
+Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中心-自定控制内添加后使用
+Author: Netskao <xuanhua880@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Maintainer: Nets <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/alipayscan.png
+Filename: debs/netskao.alipayscan-1.2-2-rootless.deb
+Size: 16612
+MD5sum: 823a2d7eef39b0c1e73b0d8959a54318
+SHA1: 
+SHA256: a7068f0e836a3e3f8f742bd7672a5f3a661cb90d9f993d5a460c70966db635c0
 
 Package: netskao.autofaceunlock
 Version: 1.1-7
@@ -33653,17 +33706,34 @@ Version: 1.2-2
 Section: Tweaks
 Maintainer: Nets
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Installed-Size: 160
 Name: WeChatScan
 Author: Netskao
 Description: 通过控制中心快捷打开微信扫一扫，设置-控制中心-自定控制内添加后使用
-Icon: https://huayuarc.github.io/icon/WeChat.jpg
-Filename: debs/netskao.wechatscan_1.2-2_iphoneos-arm64.deb
-Size: 16344
-MD5sum: b16ddd6118720b5d7b8263662f67119b
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/wechatscan.png
+Filename: debs/netskao.wechatscan-1.2-2-roothide.deb
+Size: 17456
+MD5sum: 7a7cdc6d81e1bd35b8ea5200a28cc0dc
 SHA1: 
-SHA256: cf1515ba9991ef5cf0eb44d6849a579d2d63acbcebffb5260ececb4ab2c69c8b
+SHA256: 0e515a979c121c5e266d6c77537862e7de001e7d2405510353209dc017609c5b
+
+Package: netskao.wechatscan
+Architecture: iphoneos-arm64
+Name: WeChatScan
+Version: 1.2-2
+Description: 通过控制中心快捷打开微信扫一扫，设置-控制中心-自定控制内添加后使用
+Author: Netskao <xuanhua880@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Maintainer: Nets <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/wechatscan.png
+Filename: debs/netskao.wechatscan-1.2-2-rootless.deb
+Size: 17280
+MD5sum: f53802b157e4b982a2815b822db27dfe
+SHA1: 
+SHA256: dc6ccf3386093e4b26d7c7e5ad7338eaae7ed9df82ef64607b078b92522d1a4b
 
 Package: netskao.wrecycrack
 Version: 1.1-1
