@@ -27624,6 +27624,40 @@ MD5sum: 1dddd592c7067ff5be0b8def0535236e
 SHA1: 
 SHA256: b85fb8199fb502d124936a05019660e72c04fc5b55006b1934cd3057c11c291f
 
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Installed-Size: 2944
+Filename: debs/com.susudear.screencore-2.0.1-roothide.deb
+Size: 461000
+MD5sum: dc650b74de7a9dcde50b3139469b1e40
+SHA1: 
+SHA256: a1393d4e387f092fc10f5921c5630125ce84396cc289a3449ab49d2854818b31
+
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 2.0.1
+Installed-Size: 2960
+Filename: debs/com.susudear.screencore-2.0.1-rootless.deb
+Size: 463588
+MD5sum: 8acaa5c4ba4192dcf76b1df862f89b2a
+SHA1: 
+SHA256: 70a445230f82a5d379ffc2a6779e597cb0a36fcd6c813a6bd4e34bbf583dd791
+
 Package: com.susudear.sharingdalertwatchdog
 Name: SharingdAlertWatchdog
 Description: 各位开发者是否遇到了 Airdrop 投送后，移动端无法出现菜单，界面卡住崩溃？那试试SharingdAlertWatchdog 吧，他或许可以解决你的困扰
@@ -31253,330 +31287,6 @@ SHA1:
 SHA256: bde81c4c929402e533f8c70a20b9ae85e8d33f615fb52fd056dcccdfb1c8e161
 
 Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、Wi-Fi、蜂窝信号三合一，支持双卡独立信号显示。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 0.1.13
-Installed-Size: 616
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.13-roothide.deb
-Size: 80156
-MD5sum: 96e394bde7caa1d9499c05bc47962385
-SHA1: 
-SHA256: 33d951a1359476efcee598b03e8ac019f9ce77e6c2876c760db306208006d45e
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、Wi-Fi、蜂窝信号三合一，支持双卡独立信号显示。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 0.1.13
-Installed-Size: 616
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.13-rootless.deb
-Size: 81952
-MD5sum: e0c48a6a539b9f862fd4964a8ad68b08
-SHA1: 
-SHA256: 59f97b9c5832d412ca71be5f51024577e1002e6ed6bf85c8fe5bad3d6c32417d
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、Wi-Fi、蜂窝信号三合一，支持双卡独立信号显示。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 0.1.15
-Installed-Size: 616
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.15-roothide.deb
-Size: 81224
-MD5sum: 0ebda5db2eb66ad98ab0c776587806ef
-SHA1: 
-SHA256: 8049fd253d578aa906e0bdbead68af8d16bbf6d208293cde81caeea148495e54
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、Wi-Fi、蜂窝信号三合一，支持双卡独立信号显示。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 0.1.15
-Installed-Size: 632
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.15-rootless.deb
-Size: 81684
-MD5sum: 2a99b1d3278612c240f28ac904ab1a89
-SHA1: 
-SHA256: 04accdad860848c22330fe8edf756b03fdae396f030abdc0d9ed2603b0ff40c1
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 0.1.16
-Installed-Size: 632
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.16-roothide.deb
-Size: 82888
-MD5sum: 436402c66f1526d72a4b1f1789d87987
-SHA1: 
-SHA256: 2dc3597ae84c4df7bb470abe9b834ce7b9cbf16604f63acc0045f87f181a7a93
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 0.1.16
-Installed-Size: 632
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.16-rootless.deb
-Size: 84432
-MD5sum: 9171c634036ea32e8c65990c8f9bd2ce
-SHA1: 
-SHA256: e15f8da30e17bf87fb6ea92ca72ba41aa024ffe4204e787f54b09ba868d3fdfb
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 0.1.19
-Installed-Size: 636
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.19-roothide.deb
-Size: 87420
-MD5sum: 4e71dc7bdd64ac0062d12f8226c8322b
-SHA1: 
-SHA256: de18ce1009af8be848132317d627b7f84cbe57bdce2923678cb72604d16af055
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 0.1.19
-Installed-Size: 636
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.19-rootless.deb
-Size: 89152
-MD5sum: 72e48af855c28f87e88c5d237db29d79
-SHA1: 
-SHA256: 7ace3e5b269eeea12bb12c87a905233a99d7c0422ba5c830e47cbd7491b21854
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 0.1.20
-Installed-Size: 684
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.20-roothide.deb
-Size: 96628
-MD5sum: 01223fec9d90697778603b99ca5d6a87
-SHA1: 
-SHA256: 1bebe77d7346ba842583df685003ddad600516c635d25b61cdd622513acd4309
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 0.1.20
-Installed-Size: 700
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.20-rootless.deb
-Size: 99328
-MD5sum: 6a237338829b2b258eb83b0e067c89e8
-SHA1: 
-SHA256: 78cf21d0ee26d0d5752bccf06a48d639c8ddf60d1fad958f44121510aac1c050
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 0.1.21
-Installed-Size: 720
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.21-roothide.deb
-Size: 103836
-MD5sum: 951d114f3d1e61b67f07e296544913bb
-SHA1: 
-SHA256: 85323f6c76e27429d0c52930c741514e6c47a4e39d2485deeed8dea6f3f6dfff
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 0.1.21
-Installed-Size: 728
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.21-rootless.deb
-Size: 105436
-MD5sum: c9494f5c5e16586680ec569d49f09b81
-SHA1: 
-SHA256: b45c4375fe40649be044eaf3c15e6a2e81c02568c0929137c1112a554913d080
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 0.1.22
-Installed-Size: 756
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.22-roothide.deb
-Size: 116272
-MD5sum: a78964128d491405750348f6e0d014bc
-SHA1: 
-SHA256: 15e5c8b02bfaa92b60ec9bc7cfedcb40ce28f78bea71dfb6ca4e64040a21c7f9
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 0.1.22
-Installed-Size: 760
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.22-rootless.deb
-Size: 118076
-MD5sum: 05245b7638e61faab2cdc3fc1721915e
-SHA1: 
-SHA256: c7556000848ac2ace98ee1ce2f91f4b19cb3163dd1a4dc9ae4c6451b5e855e7d
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 0.1.24
-Installed-Size: 864
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.24-roothide.deb
-Size: 146408
-MD5sum: e6b45f732b80e09f3e3a6d25b5fa2179
-SHA1: 
-SHA256: cd7ddc0c96ed30b25b54334277afe6a406577338719fece196d2de208eed838a
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 0.1.24
-Installed-Size: 864
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.24-rootless.deb
-Size: 148584
-MD5sum: 6ffe37fe50af1261defcf26c8710c22a
-SHA1: 
-SHA256: 023e63b219c87ee30b224f36dc02cd2655226280b55080302b2d6d4109706ae5
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、Wi-Fi、蜂窝信号三合一，支持双卡独立信号显示。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 0.1.6
-Installed-Size: 540
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.6-roothide.deb
-Size: 65640
-MD5sum: b82c8d5243736bfaa58ef2e7aded257d
-SHA1: 
-SHA256: d556cd18fc343e6c3bd6196563805b7581ee622ee047ecb0b48baf9bec55041a
-
-Package: iya.banana.iphoneduoicon
-Name: iPhoneDuoIcon
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、Wi-Fi、蜂窝信号三合一，支持双卡独立信号显示。
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 0.1.6
-Installed-Size: 556
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-0.1.6-rootless.deb
-Size: 67624
-MD5sum: 6a38eac40442dc5f8629f84c97109359
-SHA1: 
-SHA256: 4eea9a373987eb289feb2c55d82c59d60b5b9e5b82a6437dbb70f016a17dc285
-
-Package: iya.banana.iphoneduoicon
 Name: Lunora
 Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
 Maintainer: Banana
@@ -31755,6 +31465,42 @@ Size: 681088
 MD5sum: 59e3dd2f0d57108de61960764f6d0175
 SHA1: 
 SHA256: 201f66f6455aab553e2deafa86ed5f29fd3add9b89b367332c1084c3d0b575fe
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Installed-Size: 3984
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.6-roothide.deb
+Size: 682548
+MD5sum: 4f14e24c2f47f8fc3a3b9a1a6ffce3ac
+SHA1: 
+SHA256: e7dbab7e261019f7b21125c2f8950e22376b48a7b493905525e5fe98544b6975
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Installed-Size: 3984
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.6-rootless.deb
+Size: 685108
+MD5sum: 58e14f02a458b9d5a6fedbf22b7bc3bc
+SHA1: 
+SHA256: 902b3ac54913b376a527e88b1f822c9eb7c8ed2607ed504148d21fdaf87c78c1
 
 Package: iya.banana.jumpguard
 Name: JumpGuard
