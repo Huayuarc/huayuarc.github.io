@@ -4379,6 +4379,41 @@ MD5sum: 1e1ca106e5504e6a4788261887feb0b4
 SHA1: 
 SHA256: 162590e035a2d5267ed957eba6772f5b78b08ae412331119a7e154671bb11ed6
 
+Package: com.charlieleung.liquidify
+Name: 88液态玻璃
+Description: 88液态玻璃
+Maintainer: 一刀
+Author: 一刀
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.3.7-4+dao88.1
+Installed-Size: 40597
+icon: https://huayuarc.github.io/icon/LiquidAss.png
+Filename: debs/com.charlieleung.liquidify-1.3.7-4+dao88.1-rootless.deb
+Size: 10725488
+MD5sum: 5bc6b5e4ed27d3d94a49fdd1f35dc621
+SHA1: 
+SHA256: 9d89ec102535a03ad57a3297f2a87f1395fa21f04f85bcf0da83b9761d152be2
+
+Package: com.charlieleung.liquidify
+Name: 88液态玻璃
+Description: 88液态玻璃
+Maintainer: 一刀
+Author: 一刀
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.3.7-4
+Installed-Size: 40967
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/LiquidAss.png
+Filename: debs/com.charlieleung.liquidify-1.3.7-4-roothide.deb
+Size: 10541992
+MD5sum: d9ad6eca55cea9b2f1bbf03ee80c8a0b
+SHA1: 
+SHA256: 82130ff02b4e7826015b219845090f0eca4516ce4e39fbdf468580a7c98ee73a
+
 Package: com.charlieleung.snapvision
 Name: 长截图 区域截图OCR
 Description: 长截图 区域截图OCR 截图仅复制。
@@ -15005,6 +15040,40 @@ Size: 120172
 MD5sum: 951c0c349e7dd7d41aebad700b61fa06
 SHA1: 
 SHA256: a3d7719e62276cb1f1de75d9b5a1560f0997297297c321d50c3d0e1f60d8b9a1
+
+Package: com.minis.lockscreengradientclock
+Name: 88 液态锁屏时间渐变
+Description: 更新说明：修复注销后日期和农历不渐变
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.7.7
+Installed-Size: 756
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
+Filename: debs/com.minis.lockscreengradientclock-1.7.7-roothide.deb
+Size: 212860
+MD5sum: 4457563a3a0c72d9a4b23a165087920a
+SHA1: 
+SHA256: 9a7bc242ec117ee8d3d5c77623fa54bbf79582afd649ea70425e292ff9fff479
+
+Package: com.minis.lockscreengradientclock
+Name: 88 液态锁屏时间渐变
+Description: 更新说明：修复注销后日期和农历不渐变
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.7.7
+Installed-Size: 756
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
+Filename: debs/com.minis.lockscreengradientclock-1.7.7-rootless.deb
+Size: 213092
+MD5sum: c0da529ac5ad0d4d8c4c2f6fea4cf7fa
+SHA1: 
+SHA256: 98ecd3480312bc2168db1f87254fb904bc7b798744e4da9ceaa0d2aa1513e470
 
 Package: com.minis.rainbowkeyboard
 Name: 彩虹键盘光效
