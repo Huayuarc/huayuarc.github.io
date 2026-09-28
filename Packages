@@ -21659,41 +21659,6 @@ MD5sum: 3ad742a1791f41fb1338b7b73b064492
 SHA1: 
 SHA256: f590211b0b4d13a831cc463134d72cc76a1a1249863a9241c95e3c4ebaee3f7c
 
-Package: com.sini.appdata
-Icon: https://huayuarc.github.io/icon/AppData.png
-Name: AppData 管理应用数据
-Description: 从主屏幕查看和管理应用程序数据
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Author: Fouad Raheb
-Maintainer: Nets
-Architecture: iphoneos-arm64e
-Version: 1.4.7
-Installed-Size: 5156
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.sini.appdata-1.4.7-roothide.deb
-Size: 1497592
-MD5sum: 0f41375ea02e9d3fdb158b78b98dc1ce
-SHA1: 
-SHA256: ae5e5776f1c7e273122eb6ee4266aeda17450d359761d0d5b8e8ae96b4849c89
-
-Package: com.sini.appdata
-Icon: https://huayuarc.github.io/icon/AppData.png
-Name: AppData 管理应用数据
-Description: 从主屏幕查看和管理应用程序数据
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Author: Fouad Raheb
-Maintainer: Nets
-Architecture: iphoneos-arm64
-Version: 1.4.7
-Installed-Size: 5156
-Filename: debs/com.sini.appdata-1.4.7-rootless.deb
-Size: 1497700
-MD5sum: c95ac56a91360dc0f61c4458bd4d3695
-SHA1: 
-SHA256: a9625d7c295d4a20a40dc7eb040cf244c1b0e0a33fe13f60fc8fd2c15ba53bf2
-
 Package: com.sini.AppIndex
 Version: 1.0
 Architecture: iphoneos-arm64
