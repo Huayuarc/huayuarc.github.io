@@ -6852,6 +6852,43 @@ MD5sum: 09d80a93c85194b1a64e48d7f6b075de
 SHA1: 
 SHA256: 3569dd966b62e8013d867152cbad0ea1133e8d54b958d028cf14f0a042af6814
 
+Package: com.dcsyhi.airaw
+Version: 1.6.7
+Section: Tweaks
+Maintainer: Dcsyhi
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common,com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Installed-Size: 13502
+Name: Airaw（CarPlay）
+Author: Dcsyhi
+Sponsor: Dcsyhi
+icon: https://huayuarc.github.io/icon/airaw.png
+Description: 一款Carplay拓展插件，可以改壁纸，让不是全屏显示的软件变成全屏，配合carbrige插件使用，改图标个数比例，有汽车的人会用的到，原价4美元，小组件好像不行！大家可以下载体验一下这个功能菜单，有经济能力的购买正版，支持作者！
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.dcsyhi.airaw-1.6.7-roothide.deb
+Size: 10348684
+MD5sum: 5f8806c61322f6b95c4d3593187d5f48
+SHA1: 
+SHA256: ee2ed960988cde0651d87a26469bbf6119d75eba0627c31282237dd6289bdf27
+
+Package: com.dcsyhi.airaw
+Version: 1.6.7
+Section: Tweaks
+Maintainer: Dcsyhi
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common,com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Installed-Size: 13502
+Name: Airaw（CarPlay）
+Author: Dcsyhi
+Sponsor: Dcsyhi
+icon: https://huayuarc.github.io/icon/airaw.png
+Description: 一款Carplay拓展插件，可以改壁纸，让不是全屏显示的软件变成全屏，配合carbrige插件使用，改图标个数比例，有汽车的人会用的到，原价4美元，小组件好像不行！大家可以下载体验一下这个功能菜单，有经济能力的购买正版，支持作者！
+Filename: debs/com.dcsyhi.airaw-1.6.7-rootless.deb
+Size: 10357836
+MD5sum: f6469e7dd4af71a06d69ae6473c8bf42
+SHA1: 
+SHA256: 78cdd164e7d2e1c0db73462dd0f2e44c8e79514b3d194d0ad1a948f5b415a8b9
+
 Package: com.dgr.fipad
 Name: Fipad 仿IPAD可调节后台
 Description: 仿ipad可调节后台！
@@ -17981,6 +18018,41 @@ Size: 20764
 MD5sum: b4501050fd9925a088f622709cd6f9dc
 SHA1: 
 SHA256: 2d8ccfa181f71737889f4c25533e9b7b46f33417b14f906382d1ab399d6b37f0
+
+Author: Netskao
+Architecture: iphoneos-arm64e
+Description: 长图拼接开启高级版权限
+Maintainer: Netskao
+Version: 0.1.1
+Depends: mobilesubstrate
+Name: 长图拼接 Crack
+Section: Tweaks
+Sponsor: Netskao
+Package: com.netskao.ctpjcrack
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/ctpjcrack.jpg
+Filename: debs/com.netskao.ctpjcrack-0.1.1-roothide.deb
+Size: 3496
+MD5sum: c2e5864b14983e71f4d841ba1c0dacac
+SHA1: 
+SHA256: 0750e1b7158a4bd43a4cd0d83b5412e729ed43886391f9427872e3797262f4cb
+
+Author: Netskao
+Architecture: iphoneos-arm64
+Description: 长图拼接开启高级版权限
+Maintainer: Netskao
+Version: 0.1.1
+Depends: mobilesubstrate
+Name: 长图拼接 Crack
+Section: Tweaks
+Sponsor: Netskao
+Package: com.netskao.ctpjcrack
+icon: https://huayuarc.github.io/icon/ctpjcrack.jpg
+Filename: debs/com.netskao.ctpjcrack-0.1.1-rootless.deb
+Size: 3288
+MD5sum: f1944f8fc17a79f37ac8b5a719a76c47
+SHA1: 
+SHA256: e5151685a8ecdc8bba274ae9d212a469363abff41ee26e05d2738c1a238abaca
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.dazzcameracrack
 Package: com.netskao.dazzcameracrack
@@ -30240,6 +30312,40 @@ Size: 5004
 MD5sum: 1325866e1c7f3cc52a41b8f0d001335a
 SHA1: 
 SHA256: bb18b1c62e4920b695be3cb5702605f8939575d68ec53d10559e0407b57fc4db
+
+Package: com.yaowell.hideavcontrols
+Name: HideAVControls
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Description: 隐藏控制中心顶部的麦克风模式与视频效果模块 / Hide Microphone Mode and Video Effects in Control Center
+Maintainer: yaowell
+Author: yaowell
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/hideavcontrols.png
+Filename: debs/com.yaowell.hideavcontrols-1.1-roothide.deb
+Size: 4776
+MD5sum: fa0ecc7bb2e38759b59b641c2717377c
+SHA1: 
+SHA256: ea505ec3443953422aaf4f927a3a517521764c7e1b7c803e0059adf27375e538
+
+Package: com.yaowell.hideavcontrols
+Name: HideAVControls
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Description: 隐藏控制中心顶部的麦克风模式与视频效果模块 / Hide Microphone Mode and Video Effects in Control Center
+Maintainer: yaowell
+Author: yaowell
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/hideavcontrols.png
+Filename: debs/com.yaowell.hideavcontrols-1.1-rootless.deb
+Size: 4848
+MD5sum: 1b432201fb0bfea725e124c6934bf236
+SHA1: 
+SHA256: 44401e67b9c9341d020751159fc4f7ccf14d00582a1ef7dc000f7e55f75205a0
 
 Package: com.ylr.wchook
 Name: 悬浮按钮分屏
