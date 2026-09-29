@@ -30382,6 +30382,41 @@ MD5sum: 65f42f7a4bbb8f8355190d53f9cccf7c
 SHA1: 
 SHA256: 517c851e1771fd9ffe2d1167905f116f295e56c07ae827e8b6eed58ab4f9dd27
 
+Package: com.yzdmm.keyboardstatus
+Name: 键盘下方状态
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Maintainer: yzdmm
+Author: yzdmm
+Section: Tweaks
+Description: 系统键盘底栏加功能按钮（全选/剪切/粘贴/光标移动/剪贴板历史/快捷短语/收起键盘）+ 可选状态条。rootless 适配，逐功能可关，安全不崩。
+Architecture: iphoneos-arm64e
+Version: 1.3.2
+Installed-Size: 544
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/keyboardstatus.png
+Filename: debs/com.yzdmm.keyboardstatus-1.3.2-roothide.deb
+Size: 69036
+MD5sum: 6bda192523242b58ec1f48e1af937b5e
+SHA1: 
+SHA256: 2f356ce2f026edd57b25a19a9fa9d17cfb504ebc7c83a93b0ff84eb506a88989
+
+Package: com.yzdmm.keyboardstatus
+Name: 键盘下方状态
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Maintainer: yzdmm
+Author: yzdmm
+Section: Tweaks
+Description: 系统键盘底栏加功能按钮（全选/剪切/粘贴/光标移动/剪贴板历史/快捷短语/收起键盘）+ 可选状态条。rootless 适配，逐功能可关，安全不崩。
+Architecture: iphoneos-arm64
+Version: 1.3.2
+Installed-Size: 544
+icon: https://huayuarc.github.io/icon/keyboardstatus.png
+Filename: debs/com.yzdmm.keyboardstatus-1.3.2-rootless.deb
+Size: 71008
+MD5sum: df425651fb7369f9c20a6eedb20b3b40
+SHA1: 
+SHA256: 72c6ad48a40e79af8b3f4e364136fbc4e1a30a9a3bf6fcb64224b386a7425af5
+
 Package: com.zqbb.savephotos
 Name: Hello Snapper3
 Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
