@@ -31743,6 +31743,48 @@ MD5sum: 27a7f2965ad7717438779c9f54bf18ac
 SHA1: 
 SHA256: 9ea5bcb4f71d8e3e324f436e8239b7e89e4408ede99870c5e4621c0a1e37f04d
 
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn, com.ryannair05.audiosnapshotserver2
+Replaces: com.ryannair05.audiosnapshotserver2
+Provides: com.ryannair05.audiosnapshotserver2 (= 2.1+lunora1)
+Breaks: com.ryannair05.libmitsuha6 (<< 2.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Installed-Size: 4664
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.8-roothide.deb
+Size: 756572
+MD5sum: ed5423e6f64fcfb397c87e120c40d5a9
+SHA1: 
+SHA256: 641b04b8ad8ccd8748bfa92fb8e1c7a754f5636d267db110cd09b59c076063a2
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn, com.ryannair05.audiosnapshotserver2
+Replaces: com.ryannair05.audiosnapshotserver2
+Provides: com.ryannair05.audiosnapshotserver2 (= 2.1+lunora1)
+Breaks: com.ryannair05.libmitsuha6 (<< 2.0)
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Installed-Size: 4680
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.8-rootless.deb
+Size: 760676
+MD5sum: 0ee92b9725055620c7dc93dab50a6b0b
+SHA1: 
+SHA256: f877b7a01d3d06322c9d666d5f6a7ed12be32576bb8539624f75ee40960455e9
+
 Package: iya.banana.jumpguard
 Name: JumpGuard
 Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
