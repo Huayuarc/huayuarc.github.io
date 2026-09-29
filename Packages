@@ -16836,6 +16836,106 @@ MD5sum: 7e682acf0829777cd492e06f59a02970
 SHA1: 
 SHA256: e7bb5f66b0b0256a8dae20d0c64ecf1e64860f4a192fd3b2b7192c0543a89690
 
+Package: com.muratkurt.ios-mcp
+Name: iOS MCP (shivtools)
+Version: 1.2.8-2
+Architecture: iphoneos-arm64e
+Maintainer: muratkurt
+Author: witchan · shivtools uyarlamasi: muratkurt
+Section: Development
+Priority: optional
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Provides: ios-mcp
+Conflicts: com.witchan.ios-mcp
+Replaces: com.witchan.ios-mcp
+Installed-Size: 40832
+Tag: role::developer
+Homepage: https://muratkurt.github.io/
+Icon: https://muratkurt.github.io/assets/ios-mcp/icon.png
+Depiction: https://muratkurt.github.io/depictions/com.muratkurt.ios-mcp.html
+SileoDepiction: https://muratkurt.github.io/depictions/com.muratkurt.ios-mcp.json
+Description: iOS MCP 1.2.8, packaged for shivtools
+ An MCP server that runs inside SpringBoard, so an agent can read the
+ screen, the view hierarchy and the live system log, drive the UI, and
+ install IPAs from the device itself. Upstream is witchan/ios-mcp; this
+ is the same code with two changes and a different package name.
+ .
+ What is different here:
+ .
+ - The server listens on 127.0.0.1 by default. Upstream binds
+   INADDR_ANY, which exposes an unauthenticated server to everyone on
+   the network. Network mode is still one setting away; from a Mac the
+   cheaper route is an SSH tunnel, which costs nothing and gives
+   authentication and encryption for free.
+ - mcp-root is installed WITHOUT the setuid bit. With it set, any
+   process on the device can become root through the helper's own
+   allow-list. Turn it on deliberately with: shiv-mcp root-ac
+ .
+ Neither is a lock: both are settings, and the responsibility is the
+ developer's. They are defaults, not walls.
+ .
+ The PaddleOCR engine, its two models and the IPA chain (AppSync,
+ appinst, ldid, roothelper) are all included; nothing is downloaded on
+ install.
+ .
+ Installing or upgrading this package loads a new SpringBoard dylib.
+ RESPRING IS REQUIRED and it is not done for you.
+Filename: debs/com.muratkurt.ios-mcp-1.2.8-2-roothide.deb
+Size: 23689164
+MD5sum: 378ba2c66ca22cb357a843dca9ddeb8a
+SHA1: 
+SHA256: ff1b72478eeb681ff95dec74b54c644d1b69339e5e1dadb68e91d0ab4297e1bc
+
+Package: com.muratkurt.ios-mcp
+Name: iOS MCP (shivtools)
+Version: 1.2.8-2
+Architecture: iphoneos-arm64
+Maintainer: muratkurt
+Author: witchan · shivtools uyarlamasi: muratkurt
+Section: Development
+Priority: optional
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Provides: ios-mcp
+Conflicts: com.witchan.ios-mcp
+Replaces: com.witchan.ios-mcp
+Installed-Size: 40808
+Tag: role::developer
+Homepage: https://muratkurt.github.io/
+Icon: https://muratkurt.github.io/assets/ios-mcp/icon.png
+Depiction: https://muratkurt.github.io/depictions/com.muratkurt.ios-mcp.html
+SileoDepiction: https://muratkurt.github.io/depictions/com.muratkurt.ios-mcp.json
+Description: iOS MCP 1.2.8, packaged for shivtools
+ An MCP server that runs inside SpringBoard, so an agent can read the
+ screen, the view hierarchy and the live system log, drive the UI, and
+ install IPAs from the device itself. Upstream is witchan/ios-mcp; this
+ is the same code with two changes and a different package name.
+ .
+ What is different here:
+ .
+ - The server listens on 127.0.0.1 by default. Upstream binds
+   INADDR_ANY, which exposes an unauthenticated server to everyone on
+   the network. Network mode is still one setting away; from a Mac the
+   cheaper route is an SSH tunnel, which costs nothing and gives
+   authentication and encryption for free.
+ - mcp-root is installed WITHOUT the setuid bit. With it set, any
+   process on the device can become root through the helper's own
+   allow-list. Turn it on deliberately with: shiv-mcp root-ac
+ .
+ Neither is a lock: both are settings, and the responsibility is the
+ developer's. They are defaults, not walls.
+ .
+ The PaddleOCR engine, its two models and the IPA chain (AppSync,
+ appinst, ldid, roothelper) are all included; nothing is downloaded on
+ install.
+ .
+ Installing or upgrading this package loads a new SpringBoard dylib.
+ RESPRING IS REQUIRED and it is not done for you.
+Filename: debs/com.muratkurt.ios-mcp-1.2.8-2-rootless.deb
+Size: 23644216
+MD5sum: 43621e07972eab9624d08a0f6552fb56
+SHA1: 
+SHA256: de2a564d2f827bd52082216e36b3584f016f0971aac5c75d85b1a6f71cfb04b9
+
 Package: com.muratkurt.kaswitcher
 Name: KASwitcher
 Author: muratkurt
@@ -31084,6 +31184,40 @@ MD5sum: 261be948d32989783b97cbce46cc3d16
 SHA1: 
 SHA256: cf320d9a6aa7c5afbd0d966f59da0025d7740e2f8b6fdd50f77ad8470a28d881
 
+Package: iya.banana.billie.ambientbadge
+Name: AmbientBadge
+Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.14
+Installed-Size: 704
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
+Filename: debs/iya.banana.billie.ambientbadge-0.1.14-roothide.deb
+Size: 106192
+MD5sum: 5c166624747d021f31e9879f9a88d1bf
+SHA1: 
+SHA256: a5aa2e8920b77143f6808f8cfcc003119456f0d87fb1c1d2ea520a63bc69cf85
+
+Package: iya.banana.billie.ambientbadge
+Name: AmbientBadge
+Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.1.14
+Installed-Size: 704
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
+Filename: debs/iya.banana.billie.ambientbadge-0.1.14-rootless.deb
+Size: 106376
+MD5sum: 61ff0e3456d41aebf618a58c9ce49174
+SHA1: 
+SHA256: 3efe687820d6681c861c0cd905250819cab23a698270b6813cd3b7ce69198be5
+
 Package: iya.banana.dockicon
 Name: DarkIcon
 Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.ios 15-18提供深色图标与图片壁纸暗化。
@@ -31538,6 +31672,42 @@ MD5sum: 58e14f02a458b9d5a6fedbf22b7bc3bc
 SHA1: 
 SHA256: 902b3ac54913b376a527e88b1f822c9eb7c8ed2607ed504148d21fdaf87c78c1
 
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Installed-Size: 4044
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.7-roothide.deb
+Size: 701688
+MD5sum: f3296e84016b6364c03b14b2ec18384a
+SHA1: 
+SHA256: d252c6501524e68247125bd403375f691e2676e0ef6d0a6a92200fdcabe33cb1
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Installed-Size: 4044
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.7-rootless.deb
+Size: 704624
+MD5sum: 27a7f2965ad7717438779c9f54bf18ac
+SHA1: 
+SHA256: 9ea5bcb4f71d8e3e324f436e8239b7e89e4408ede99870c5e4621c0a1e37f04d
+
 Package: iya.banana.jumpguard
 Name: JumpGuard
 Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
@@ -31745,6 +31915,40 @@ Size: 361804
 MD5sum: 9b1a1f42dc9eb43a5abe7aea4be18a49
 SHA1: 
 SHA256: 7ed5949516c6ea3433377e00dc79d7cfda2abae0abd4c7dda69a811a123c5d1f
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64e
+Version: 1.1.12
+Installed-Size: 13396
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.12-roothide.deb
+Size: 6384660
+MD5sum: 34491d61eb5fdde62ea243724144e161
+SHA1: 
+SHA256: 60bda22a76c3a3c8ff712f5cff93c8006788d9ae18aa0858f9d6809e02c7c6cb
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64
+Version: 1.1.12
+Installed-Size: 13396
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.12-rootless.deb
+Size: 6384520
+MD5sum: 87dee07b00ae73953884c3d63230ae9f
+SHA1: 
+SHA256: ec85b70b7159a48e6566e48218b67fb6ff5b8e044e7e50597f06146fd50e2fc2
 
 Package: iya.banana.spatialscene
 Name: SpatialScene
