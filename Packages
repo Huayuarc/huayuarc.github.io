@@ -6118,6 +6118,74 @@ MD5sum: 51b36bc14b3de6af62c581fe96cf150a
 SHA1: 
 SHA256: 0acedb164f4dce39a0a28285c908abc7c11488897f6145a73d0b650453421ba0
 
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.3.0
+Installed-Size: 692
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.3.0-roothide.deb
+Size: 108716
+MD5sum: 0bc5d24b35931fe3bacecb8fb37024b6
+SHA1: 
+SHA256: 507b1878a287bd62aa4a71884c1b37b2f46639b37f1072ae06ad290fa9eb400f
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.3.0
+Installed-Size: 1408
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.3.0-rootless.deb
+Size: 155088
+MD5sum: a1ee0bd8259dbeafb4094f7d430d94a1
+SHA1: 
+SHA256: b3beba1372e564668fd354583287f966cc8014c6dcfec5681bd157d7c3178cc3
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.3.2
+Installed-Size: 692
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.3.2-roothide.deb
+Size: 110648
+MD5sum: ad90ed24678659506d064e60d384e791
+SHA1: 
+SHA256: 0db1670edf9e4cafa54188525124a9773c2f205a8224235dbaab5ef7822b1a72
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.3.2
+Installed-Size: 1408
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.3.2-rootless.deb
+Size: 157956
+MD5sum: acd3bac95021a9cc5601da899c4c76b3
+SHA1: 
+SHA256: 29d5fb7210d4677db46f971fd5e236881a47a7fa28a1f846afe5f6de8091bb2a
+
 Package: com.crctdd.surgectl
 Name: SurgeCTL
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
