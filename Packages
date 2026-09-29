@@ -30279,6 +30279,40 @@ MD5sum: 718ee3127ec4f06a98f194ee8b176290
 SHA1: 
 SHA256: ea67a6c8e092c90cedae447a7b680e8bf2cb6ec70c9b101db0811fbe77b2f458
 
+Package: com.yaowell.dndhaptics
+Name: DND Haptics
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), com.opa334.ccsupport
+Description: 将勿扰模式、来电震动和静音震动合并为一个 控制中心模块开关，一键在“打开勿扰模式 + 无震动”和“关闭勿扰模式+恢复震动”之间切换Combines Do Not Disturb, ring vibration, and silent-mode vibration into a single Control Center toggle, allowing one-tap switching between “DND + no vibration” and “normal mode + restored vibration.”
+Maintainer: yaowell
+Author: yaowell
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 276
+icon: https://huayuarc.github.io/icon/dndhaptics.png
+Filename: debs/com.yaowell.dndhaptics-1.0-roothide.deb
+Size: 45984
+MD5sum: a82de1a533fdb2c723c45bceb4e9e9d0
+SHA1: 
+SHA256: f00075e8f5b907fae9f862b2cf31ee95174c85989f4ce22cf34a0222a0ad7489
+
+Package: com.yaowell.dndhaptics
+Name: DND Haptics
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), com.opa334.ccsupport
+Description: 将勿扰模式、来电震动和静音震动合并为一个 控制中心模块开关，一键在“打开勿扰模式 + 无震动”和“关闭勿扰模式+恢复震动”之间切换Combines Do Not Disturb, ring vibration, and silent-mode vibration into a single Control Center toggle, allowing one-tap switching between “DND + no vibration” and “normal mode + restored vibration.”
+Maintainer: yaowell
+Author: yaowell
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 276
+icon: https://huayuarc.github.io/icon/dndhaptics.png
+Filename: debs/com.yaowell.dndhaptics-1.0-rootless.deb
+Size: 46032
+MD5sum: 9d6beb6fc4bbdb7536efdab368f6aed2
+SHA1: 
+SHA256: 125b426e14637ba70b454758575425656ff222e832c06a98c6c8da75f8c68621
+
 Package: com.yaowell.hideavcontrols
 Name: HideAVControls
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
