@@ -2520,6 +2520,39 @@ MD5sum: 901825b65fd3a8506b202b66b9547db8
 SHA1: 
 SHA256: 6aa96374462949f845fc5ba9491203ffed2000b56aae1f9865d841e70e9e2421
 
+Package: com.HBWechatHelper.ailun
+Version: 2.1.7
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Name: 黄白助手(微信插件)
+Author: HuangBai <QQ:1343309363@qq.com>
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.HBWechatHelper.ailun-2.1.7-roothide.deb
+Size: 5802508
+MD5sum: 34a94036f1bc78dca0314586b6c03d75
+SHA1: 
+SHA256: 4a6bd2d912633c83ba54fa8386dd0d5aecab0ad85b36ab33dba2a9a5c6cd31fc
+
+Package: com.HBWechatHelper.ailun
+Version: 2.1.7
+Section: Tweaks
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Name: 黄白助手(微信插件)
+Author: HuangBai <QQ:1343309363@qq.com>
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.HBWechatHelper.ailun-2.1.7-rootless.deb
+Size: 5799544
+MD5sum: 425834119edb13f7da9d53fca9525482
+SHA1: 
+SHA256: 8fff9a87d9284301e35d1ce9583e274318ad7a3758649897b4ee75d2c8ac6738
+
 Package: com.Mr.Zhang.lookinloader
 Name: LookinLoader
 Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
@@ -8010,22 +8043,6 @@ Size: 15036
 MD5sum: f64e63681d86479a64a1640d32cfdb45
 SHA1: 
 SHA256: 3d0f4c47fc73d9fa34254e4b6f703d9a67f834a27aba0bdd444bc08ce1f240cb
-
-Package: com.HBWechatHelper.ailun
-Version: 2.1.2
-Section: Tweaks
-Architecture: iphoneos-arm64
-Maintainer: HuangBai <QQ:1343309363@qq.com>
-Depends: mobilesubstrate
-Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
-Name: 黄白助手(微信插件)
-Author: HuangBai <QQ:1343309363@qq.com>
-Icon: https://huayuarc.github.io/icon/WeChat.jpg
-Filename: debs/com.hbwechathelper.ailun_2.1.2_iphoneos-arm64.deb
-Size: 11026744
-MD5sum: 77fc73ed344af76622e24c772ca737cd
-SHA1: 
-SHA256: 7ecde944e3d3df25559e1de89c5babe68cfa4ea98cf8638fd6264d62f994f7fc
 
 Package: com.hierarch.dykiller
 Name: DYKiller 抖音 UI 增强
