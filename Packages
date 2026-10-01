@@ -19692,6 +19692,40 @@ MD5sum: 5752bcd972e248a6903240ee6e6d9fea
 SHA1: 
 SHA256: f95bce2a68310528d83fbec005eb3164039a9bb59b57a06ca7e809b93e83afc1
 
+Package: com.qimiao.WCRefine
+Name: WCRefine
+Version: 2.1-9
+Description:微信优化的重制版，上百种功能优化你的微信。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Priority: optional
+Author: 热心网友
+Maintainer: 热心网友
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Architecture: iphoneos-arm64e
+Filename: debs/com.qimiao.WCRefine-2.1-9-roothide.deb
+Size: 10870640
+MD5sum: f53b7dfedfd47decc72acfff99b3f985
+SHA1: 
+SHA256: bbd94f5b61058b4e1846c68f5669a9047d588b9d22969df98e73dc485bb6c569
+
+Package: com.qimiao.WCRefine
+Name: WCRefine
+Version: 2.1-9
+Description:微信优化的重制版，上百种功能优化你的微信。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Priority: optional
+Author: 热心网友
+Maintainer: 热心网友
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Architecture: iphoneos-arm64
+Filename: debs/com.qimiao.WCRefine-2.1-9-rootless.deb
+Size: 10861872
+MD5sum: dc56fc04f945076c8076c449a61fb51b
+SHA1: 
+SHA256: 4250acb1abf92e639ab43b81583bd485a7ac2349aaeb2d2b70784eb6f2ea7f69
+
 Package: com.qiop1379.swipeextenderx
 Version: 1.6.1~2
 Architecture: iphoneos-arm64
