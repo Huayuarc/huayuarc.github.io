@@ -15556,6 +15556,40 @@ MD5sum: c3936c8cfbbef6807102a9ac921da81e
 SHA1: 
 SHA256: 6ff53395beaaa1cbf7672e0aa91950e66eca0be181893318dcf4a74166efe884
 
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘光效
+Description:修复表情渐变 bug
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.2.60
+Installed-Size: 1044
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Filename: debs/com.minis.rainbowkeyboard-1.2.60-roothide.deb
+Size: 619400
+MD5sum: e39c2f3cdbd3e4bdfd11f6593ec9ab7a
+SHA1: 
+SHA256: 297125d0eae6d7f837f6563d31d93752855742642b265a26bf1a7d73f57f72b1
+
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘光效
+Description:修复表情渐变 bug
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.2.60
+Installed-Size: 1028
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Filename: debs/com.minis.rainbowkeyboard-1.2.60-rootless.deb
+Size: 618996
+MD5sum: 02982bafa9a745cd03972dfa70a064d2
+SHA1: 
+SHA256: 2337e977f2fe970a264c4672a266a3bacead834941382f3ffc050ba4a9c970d5
+
 Package: com.miro.libmiroshared
 Name: libMiROShared
 Depends: firmware (>=14.0)
@@ -16849,6 +16883,40 @@ Size: 312912
 MD5sum: 51d99eb3f84be7615368bf98f429fd55
 SHA1: 
 SHA256: 42f715444d41bce59440807f99da70495e5adfd0e85cd71082e5814a7148c3fb
+
+Package: com.mowang.rainbowkeyboard
+Name: 彩虹键盘光效（安全版）
+Description: 修复渐变表情 bug
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 944
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Filename: debs/com.mowang.rainbowkeyboard-1.0-roothide.deb
+Size: 586180
+MD5sum: fd60e6ef14c5f222e054d4e41e690ae7
+SHA1: 
+SHA256: aaceeccf18cadcf11078cf39f99fd36a8cb6b37e41bce71c7425a716b6e8ad7b
+
+Package: com.mowang.rainbowkeyboard
+Name: 彩虹键盘光效（安全版）
+Description:修复渐变表情 bug
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 1344
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+Filename: debs/com.mowang.rainbowkeyboard-1.0-rootless.deb
+Size: 621812
+MD5sum: 97cc90d8468fd1331af797e177107b0d
+SHA1: 
+SHA256: be26a4aa5ccc7a1df36f9c9a2cf9ec5e1709b6cff72a3400731e51d57b46c368
 
 Package: com.mrgcgamer.libgcuniversal
 Name: LibGcUniversal
