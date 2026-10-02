@@ -35411,6 +35411,11 @@ Conflicts: com.xx.xhshook
 Replaces: com.xx.xhshook
 Name: 小红薯
 Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
 Maintainer: 𝙓
 Author: 𝙓
 Section: Tweaks
@@ -35421,16 +35426,21 @@ Installed-Size: 8292
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/xhs.jpg
 Filename: debs/xhs.x-2.0.5-roothide.deb
-Size: 3254592
-MD5sum: f0840261732b4894edd576fca509d585
+Size: 3253140
+MD5sum: 6ef9831b03699df12f947c5a4f09f78d
 SHA1: 
-SHA256: 8c2376d1745414f79759d0060c35b17ff261b8fc152dcb9d6f55e65607bf17e8
+SHA256: d617045963f114e785109bcb205c19e2c7dcfc4ac8915956618ea503273c305e
 
 Package: xhs.x
 Conflicts: com.xx.xhshook
 Replaces: com.xx.xhshook
 Name: 小红薯
 Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
 Maintainer: 𝙓
 Author: 𝙓
 Section: Tweaks
@@ -35440,10 +35450,10 @@ Version: 2.0.5
 Installed-Size: 8292
 icon: https://huayuarc.github.io/icon/xhs.jpg
 Filename: debs/xhs.x-2.0.5-rootless.deb
-Size: 3293628
-MD5sum: 02a27703e3bfe528c36551046bde435d
+Size: 3294276
+MD5sum: e8b5ce434d51c632a460a3f903032c1e
 SHA1: 
-SHA256: b8fab32a610a9da36c9576bdb583020da0012a3cf6479693d668ed5f22f1cf42
+SHA256: 54520594126aa5e2b436bf66a411510b1c029dbe106251e27d76e36ebce0a5f3
 
 Package: xyz.cypwn.anouk
 Maintainer: CyPwn
