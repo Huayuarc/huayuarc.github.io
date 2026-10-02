@@ -6219,6 +6219,40 @@ MD5sum: acd3bac95021a9cc5601da899c4c76b3
 SHA1: 
 SHA256: 29d5fb7210d4677db46f971fd5e236881a47a7fa28a1f846afe5f6de8091bb2a
 
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.3.6
+Installed-Size: 840
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.3.6-roothide.deb
+Size: 122952
+MD5sum: 49aefce15768deec86f5bbadfaa8c34d
+SHA1: 
+SHA256: 6753fd3862bc5db80530ee3210567c9289b445515f7da78bfd0b9bb27068ce08
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.3.6
+Installed-Size: 1688
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.3.6-rootless.deb
+Size: 179748
+MD5sum: 6bcb5c03f5720ffe444abdb930e528b5
+SHA1: 
+SHA256: 0825240cff873316cfe7fe2b0a444d8b854910df2db9b80dd366070f87cb9929
+
 Package: com.crctdd.surgectl
 Name: SurgeCTL
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
@@ -35371,6 +35405,45 @@ Size: 2283964
 MD5sum: 18517468645b07caf64d8cd01857279c
 SHA1: 
 SHA256: f141b46746efefd4785f4ec92a7ff88281bc6451b450948f0d0a12d7cee1f79d
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 2.0.5
+Installed-Size: 8292
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x-2.0.5-roothide.deb
+Size: 3254592
+MD5sum: f0840261732b4894edd576fca509d585
+SHA1: 
+SHA256: 8c2376d1745414f79759d0060c35b17ff261b8fc152dcb9d6f55e65607bf17e8
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.0.5
+Installed-Size: 8292
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x-2.0.5-rootless.deb
+Size: 3293628
+MD5sum: 02a27703e3bfe528c36551046bde435d
+SHA1: 
+SHA256: b8fab32a610a9da36c9576bdb583020da0012a3cf6479693d668ed5f22f1cf42
 
 Package: xyz.cypwn.anouk
 Maintainer: CyPwn
