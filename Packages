@@ -6289,6 +6289,40 @@ MD5sum: 33cb4129b9ed2504000ce10eb237bbe5
 SHA1: 
 SHA256: 33590030a353510a54bba4eb406ea52cac55a73a327d56fe821435d8290f7172
 
+Package: com.crctdd.taplink
+Name: TapLink
+Description: 通过悬浮触发点，将点击映射到指定位置，内置多种触发结果。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.0.6
+Installed-Size: 960
+icon: https://huayuarc.github.io/icon/taplink.png
+Filename: debs/com.crctdd.taplink-0.0.6-roothide.deb
+Size: 147084
+MD5sum: e0e7f97e0d92793937a1ab1dcc044a6b
+SHA1: 
+SHA256: d66814370ebed0dbe10369a67f307a6ff082b845c98856d0a14a3b67bb911ce2
+
+Package: com.crctdd.taplink
+Name: TapLink
+Description: 通过悬浮触发点，将点击映射到指定位置，内置多种触发结果。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Installed-Size: 960
+icon: https://huayuarc.github.io/icon/taplink.png
+Filename: debs/com.crctdd.taplink-0.0.6-rootless.deb
+Size: 146540
+MD5sum: 049c3d9a1d45f48e0fafb12d5f514534
+SHA1: 
+SHA256: 463a85e55b202828e092c6d355fb92f941dda2f35ae0cfd7392cd3d4ef421f67
+
 Author: CreatureSurvive <support@creaturecoding.com>
 Architecture: iphoneos-arm64
 Maintainer: CreatureSurvive <support@creaturecoding.com>
@@ -14006,6 +14040,58 @@ MD5sum: 0ff0d2a932655ad67949156cea4e23d7
 SHA1: 
 SHA256: a0b971c64b2f83a4f5b4932b0c3e2db481c0a36c185aba365aa93763903d6733
 
+Package: com.jaysuen.evocenter
+Name: Evo Center
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-16.6、iOS 17.0-17.4，其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=3.0.0-beta.2
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Architecture: iphoneos-arm64e
+Version: 3.0.0-beta.2
+Installed-Size: 12524
+Filename: debs/com.jaysuen.evocenter-3.0.0-beta.2-roothide.deb
+Size: 700444
+MD5sum: c8ea052be9cea685e311d6a77eaf779a
+SHA1: 
+SHA256: 7288dc8b04ea56d59f27e727be794fbf074d4140ae954567be91eaf1dc1c7c39
+
+Package: com.jaysuen.evocenter
+Name: Evo Center
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-16.6、iOS 17.0-17.4，其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=3.0.0-beta.2
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Architecture: iphoneos-arm64
+Version: 3.0.0-beta.2
+Installed-Size: 11932
+Filename: debs/com.jaysuen.evocenter-3.0.0-beta.2-rootless.deb
+Size: 671048
+MD5sum: df86cb3f5954e65c3cd7510c9067fa49
+SHA1: 
+SHA256: 4af6a1ef9082918a0d4d56149f55bef867f132682b3a1e7f7f8fa464ce4b2151
+
 Package: com.jiuyue.lightisle
 Name: 灵动岛手电筒
 Description: 为iOS16添加灵岛手电筒控制
@@ -16860,6 +16946,40 @@ Size: 76580
 MD5sum: 6661879d066e1b943ee33b6987236f5f
 SHA1: 
 SHA256: e235c3ec7f16bca6d14df57bbac9c4254e0cbb86051de08b3eac9270c5b13c57
+
+Package: com.mowang.crashanalyzer
+Name: AI 日志分析
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.1.6
+Installed-Size: 260
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+Filename: debs/com.mowang.crashanalyzer-1.1.6-roothide.deb
+Size: 82728
+MD5sum: 18de890253f857f5cd32cd0a5454ffb2
+SHA1: 
+SHA256: ad9658097107da222d1eb4fab92b59fbd6f5950429f798a696ffb7544d471f62
+
+Package: com.mowang.crashanalyzer
+Name: AI 日志分析
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Installed-Size: 260
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+Filename: debs/com.mowang.crashanalyzer-1.1.6-rootless.deb
+Size: 82820
+MD5sum: 980fedb6f61b9fa031a9031e555a847d
+SHA1: 
+SHA256: fa3e0760f73057b14c152cb930758fce594918f4675f8d9a0644e09c5af026db
 
 Package: com.mowang.rainbowkeyboard
 Name: 彩虹键盘光效（安全版）
@@ -21630,6 +21750,40 @@ Size: 389572
 MD5sum: 03d2c05c9e622cfb3ed08171ec2865fb
 SHA1: 
 SHA256: f341906e805b95546d43cfcb544b124e6573bd7c07c7847aa7db70a9d729bce3
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: 新增智能切换，新增夜间分时充电，新增吸附顶部状态栏
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.78
+Installed-Size: 2924
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.78-roothide.deb
+Size: 404228
+MD5sum: 345abb919d6598eb176014157d664f6c
+SHA1: 
+SHA256: 0ac16dc353ec916710e1c3a233f90a6334072c8373eac5e5a42146dee92e107a
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: 新增智能切换，新增夜间分时充电，新增吸附顶部状态栏
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 4.78
+Installed-Size: 2924
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.78-rootless.deb
+Size: 402604
+MD5sum: 0d71f5c02f09e19cfbcdcd39b3f19ea9
+SHA1: 
+SHA256: 7d03949a9d38dc4a00a5210bf1512545ba4374857e089ea581c4a1f09634fda6
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
