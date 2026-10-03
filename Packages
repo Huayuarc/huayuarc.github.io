@@ -29669,6 +29669,48 @@ SHA1:
 SHA256: ac051792a8c1a92316b20c6785e410751bb73d8b86037dc17ac228600fd73a3a
 
 Package: com.tsangbaby.pulloverx
+Name: PullOver X
+Version: 2.1.9
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.1.9-roothide.deb
+Size: 595276
+MD5sum: 0e79d0d5ff63d1a51d28fa0bb31034b3
+SHA1: 
+SHA256: a90b68786e42699dccdc11b9a4447d612fd8afce7d87feb0c15c8c597a5a8299
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X
+Version: 2.1.9
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.1.9-rootless.deb
+Size: 597552
+MD5sum: 2fc7e91bc02ee1f9d167373e8eb751b6
+SHA1: 
+SHA256: 4d6b0d9ce2c81d1b83e436dcd7b574fd7b096f5510d3cd62d3223e27db14f236
+
+Package: com.tsangbaby.pulloverx
 Name: PullOver X 分屏
 Version: 1.9.5
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
@@ -30579,6 +30621,40 @@ Size: 6822968
 MD5sum: 718ee3127ec4f06a98f194ee8b176290
 SHA1: 
 SHA256: ea67a6c8e092c90cedae447a7b680e8bf2cb6ec70c9b101db0811fbe77b2f458
+
+Package: com.yaowell.alarmvibrate
+Name: AlarmVibrate
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Description: 震动关闭时 闹钟仍保持正常震动Keeps the native Clock alarm vibration working when system vibration is disabled.
+Maintainer: yaowell
+Author: yaowell
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/alarmvibrate.jpg
+Filename: debs/com.yaowell.alarmvibrate-1.0-roothide.deb
+Size: 3280
+MD5sum: 114cd44eedc9c659bd50c4ebbbb7f0f0
+SHA1: 
+SHA256: a1e74c5b9e08315e9224e54e32452f3940ad6e413b280cf304dd1e2b327f816d
+
+Package: com.yaowell.alarmvibrate
+Name: AlarmVibrate
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Description: 震动关闭时 闹钟仍保持正常震动Keeps the native Clock alarm vibration working when system vibration is disabled.
+Maintainer: yaowell
+Author: yaowell
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/alarmvibrate.jpg
+Filename: debs/com.yaowell.alarmvibrate-1.0-rootless.deb
+Size: 3336
+MD5sum: 750178853c485b34ab9a603e5b2e8ad6
+SHA1: 
+SHA256: cc8d55c132977422f8ae57b876c7c4c696aa030c9258b62d6043d37dc1d36820
 
 Package: com.yaowell.dndhaptics
 Name: DND Haptics
@@ -35498,6 +35574,55 @@ Size: 3294276
 MD5sum: e8b5ce434d51c632a460a3f903032c1e
 SHA1: 
 SHA256: 54520594126aa5e2b436bf66a411510b1c029dbe106251e27d76e36ebce0a5f3
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 2.0.6
+Installed-Size: 9060
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x-2.0.6-roothide.deb
+Size: 3558316
+MD5sum: cbe8d3dc78f15a0baec83744b371155e
+SHA1: 
+SHA256: 45501c339017808a842dcd592389e43f91e5b89649944a0ee5e18ad75d4e5a97
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.0.6
+Installed-Size: 9060
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x-2.0.6-rootless.deb
+Size: 3558236
+MD5sum: 4e3dce45494dfef0814359f8fd4f1967
+SHA1: 
+SHA256: b6506a02976e37cbb3df0a7bc413681b7df632c1b68fc7d9f27d92dbdb6d8078
 
 Package: xyz.cypwn.anouk
 Maintainer: CyPwn
