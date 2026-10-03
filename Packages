@@ -5811,6 +5811,40 @@ MD5sum: c1bffcf3ec68484ce6735217131fd2b2
 SHA1: 
 SHA256: 81f61553026a8870135279ac9c659473b7cca43ab3c01104d528668dae981968
 
+Package: com.crctdd.cranedd
+Name: Crane Drop Down
+Description: 下拉桌面图标弹出多开应用容器，无设置项。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0), com.opa334.crane
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 112
+icon: https://huayuarc.github.io/icon/cranedd.jpg
+Filename: debs/com.crctdd.cranedd-0.0.1-roothide.deb
+Size: 17668
+MD5sum: cbb88606de5b0e788db51c6a52c72e7e
+SHA1: 
+SHA256: bd42cb3e4af711654ac6f3f4ac2ed21a91247f76f02d9cd6c3d196db9c54f9de
+
+Package: com.crctdd.cranedd
+Name: Crane Drop Down
+Description: 下拉桌面图标弹出多开应用容器，无设置项。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0), com.opa334.crane
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 240
+icon: https://huayuarc.github.io/icon/cranedd.jpg
+Filename: debs/com.crctdd.cranedd-0.0.1-rootless.deb
+Size: 24832
+MD5sum: 2d790ecf5ba2fec03ef41043de68b7b4
+SHA1: 
+SHA256: 37f8fd2c9f551a1940b6325957fcf9d69cbc1fa4fba3e8c8f4e836194415174b
+
 Package: com.crctdd.mobileslideshowhook
 Name: 系统相册视频进度条
 Description: 系统相册增加视频进度条 (支持iOS 15-17)
@@ -21789,6 +21823,40 @@ Package: com.sbcpu.floating
 Name: SB CPU Floating
 Maintainer: MoWang
 Author: MoWang
+Description:更新说明：修复温控极限满帧情况下，强制关闭过热保护低频功能。（说白了就是不降频）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.80
+Installed-Size: 2924
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.80-roothide.deb
+Size: 403752
+MD5sum: 02173a84de4b1df5c8fe657716602e5f
+SHA1: 
+SHA256: a1e681d4af242ac945134bfc5c74482448f925b5d99ef2e539eae0e6c441c2f9
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: 更新说明：修复温控极限满帧情况下，强制关闭过热保护低频功能。（说白了就是不降频）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 4.80
+Installed-Size: 2924
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.80-rootless.deb
+Size: 402512
+MD5sum: 4ce3d8451a87cda112f886df00f8903a
+SHA1: 
+SHA256: 745e9ea5a66dc042cbc156eaae4969bc464f0fe8cf6da3350e9f908395aacd68
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
 Description: SpringBoard CPU Floating Monitor, Notification Manager with CPUthermal 1.6.4-53 thermal engine; preserves ChargeBoost and Force Fast Charge controls
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
@@ -30655,6 +30723,40 @@ Size: 3336
 MD5sum: 750178853c485b34ab9a603e5b2e8ad6
 SHA1: 
 SHA256: cc8d55c132977422f8ae57b876c7c4c696aa030c9258b62d6043d37dc1d36820
+
+Package: com.yaowell.batterymirrorlite
+Name: BatteryMirror Lite
+Description: 将控制中心低电量模块图标替换为状态栏电池胶囊图标（适合非全面屏或隐藏了控制中心状态栏、且未开启顶部电量百分比时，方便查看实时电量）。基于 futur3sn0w 开源项目修改，去除设置项 Replaces Low Power Mode toggle icon with statusbar battery pill icon for easier battery viewing in Control Center.
+Maintainer: yaowell
+Author: yaowell futur3sn0w
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/batterycc.jpg
+Filename: debs/com.yaowell.batterymirrorlite-1.1-roothide.deb
+Size: 12844
+MD5sum: af81e206cb8d7fe3aa3f6ec2f18be317
+SHA1: 
+SHA256: 3c511bb7c7dbe0c9fd5947d61f3cbd9e77a8eff670e1d6496fc6d2aeb548b6cb
+
+Package: com.yaowell.batterymirrorlite
+Name: BatteryMirror Lite
+Description: 将控制中心低电量模块图标替换为状态栏电池胶囊图标（适合非全面屏或隐藏了控制中心状态栏、且未开启顶部电量百分比时，方便查看实时电量）。基于 futur3sn0w 开源项目修改，去除设置项 Replaces Low Power Mode toggle icon with statusbar battery pill icon for easier battery viewing in Control Center.
+Maintainer: yaowell
+Author: yaowell futur3sn0w
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/batterycc.jpg
+Filename: debs/com.yaowell.batterymirrorlite-1.1-rootless.deb
+Size: 12952
+MD5sum: e82dfe81fb926d7d8e1a3e0cd3b62277
+SHA1: 
+SHA256: 16127c3a6c90939293aebfa3eb2e4bab0cb097e27cc85cf0d1eecf047c82d9be
 
 Package: com.yaowell.dndhaptics
 Name: DND Haptics
