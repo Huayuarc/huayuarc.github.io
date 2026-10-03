@@ -19004,37 +19004,35 @@ SHA256: ee41f92e54bce370298d0295a075e66a52ab589fa7d2ba0409be43c00a81a2fd
 
 Package: com.opa334.trollstorelite
 Name: TrollStore Lite
-Description: TrollStore for RootHide jailbroken iOS 越狱专用，白巨魔增强版！！将TrollStore修改版本功能完全移至TrollStoreLite！！
-Depends: ldid
+Description: A modified TrollStore by iosdump for jailbroken iOS
 Maintainer: opa334
-Author: opa334
-Section: Tweaks
+Author: opa334&iosdump
+Section: Applications
 Architecture: iphoneos-arm64e
 Version: 2.1.1
-Installed-Size: 8140
+Installed-Size: 11424
 icon: https://huayuarc.github.io/icon/trollstorehelper.png
 Filename: debs/com.opa334.trollstorelite-2.1.1-roothide.deb
-Size: 2216468
-MD5sum: ad9639d10f9e14bd86214221db4e48fd
+Size: 3680804
+MD5sum: ede1d3047c0539f10b7b1e8a9c4855b1
 SHA1: 
-SHA256: c9fd696879c61dfb21b5dcdb090e0c253177b210e65cab9f60909aa6397b1f0d
+SHA256: af8ead069d7b5ec8e3936b1d9451dd18267bd2dca889cce8fa3176649a0c43dd
 
 Package: com.opa334.trollstorelite
 Name: TrollStore Lite
-Description: TrollStore for jailbroken iOS 越狱专用，白巨魔增强版！！将TrollStore修改版本功能完全移至TrollStoreLite！！
-Depends: ldid
+Description: A modified TrollStore by iosdump for jailbroken iOS
 Maintainer: opa334
-Author: opa334
-Section: Tweaks
+Author: opa334&iosdump
+Section: Applications
 Architecture: iphoneos-arm64
 Version: 2.1.1
-Installed-Size: 8140
+Installed-Size: 11424
 icon: https://huayuarc.github.io/icon/trollstorehelper.png
 Filename: debs/com.opa334.trollstorelite-2.1.1-rootless.deb
-Size: 2216036
-MD5sum: fe22c112a0bdcb6215b2cb7833683633
+Size: 3680496
+MD5sum: dcee4122ca03751fcb4de2ed4129d0f8
 SHA1: 
-SHA256: ca9aa15f9bfb7661e54e697a96bdacfb56d0a48b422d5b7c229505ebf08bdfbc
+SHA256: 259f7cd2b4d3907f8a1ed8c6906712c6080ccf1720edd077219bc868322f43e6
 
 Package: com.p2kdev.arkita
 Name: Arkita
