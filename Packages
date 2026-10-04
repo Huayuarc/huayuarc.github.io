@@ -17160,6 +17160,40 @@ MD5sum: 980fedb6f61b9fa031a9031e555a847d
 SHA1: 
 SHA256: fa3e0760f73057b14c152cb930758fce594918f4675f8d9a0644e09c5af026db
 
+Package: com.mowang.crashanalyzer
+Name: AI 日志分析
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.3.3
+Installed-Size: 276
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+Filename: debs/com.mowang.crashanalyzer-1.3.3-roothide.deb
+Size: 85440
+MD5sum: d1c985fb8ffb443c0e8ee19ba3d15c46
+SHA1: 
+SHA256: 30433c68af017a5bc617c2807768213a2a00d1071122c195a673b43b49efba85
+
+Package: com.mowang.crashanalyzer
+Name: AI 日志分析
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.3.3
+Installed-Size: 276
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+Filename: debs/com.mowang.crashanalyzer-1.3.3-rootless.deb
+Size: 85552
+MD5sum: bb5472c3e3f1dca527dbb8c2a02a3eac
+SHA1: 
+SHA256: fdc844828284b9695ae425c804eee42352475946e1c89a829c907f6a3475d094
+
 Package: com.mowang.rainbowkeyboard
 Name: 彩虹键盘光效（安全版）
 Description: 修复渐变表情 bug
@@ -19146,6 +19180,38 @@ Size: 24156
 MD5sum: 0f4435d71412e41e1aa1e3bab1ece261
 SHA1: 
 SHA256: ee41f92e54bce370298d0295a075e66a52ab589fa7d2ba0409be43c00a81a2fd
+
+Package: com.opa334.trollstorelite
+Name: TrollStore Lite
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Maintainer: opa334
+Author: opa334&iosdump
+Section: Applications
+Architecture: iphoneos-arm64e
+Version: 2.1.1-2
+Installed-Size: 11424
+icon: https://huayuarc.github.io/icon/trollstorehelper.png
+Filename: debs/com.opa334.trollstorelite-2.1.1-2-roothide.deb
+Size: 3679168
+MD5sum: c3e1eaa6e526ce4d509c2875f02bf90b
+SHA1: 
+SHA256: 746fb1b54d91f34e7e996668c7beedc483da8883954749f407ee756273b53ea9
+
+Package: com.opa334.trollstorelite
+Name: TrollStore Lite
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Maintainer: opa334
+Author: opa334&iosdump
+Section: Applications
+Architecture: iphoneos-arm64
+Version: 2.1.1-2
+Installed-Size: 11424
+icon: https://huayuarc.github.io/icon/trollstorehelper.png
+Filename: debs/com.opa334.trollstorelite-2.1.1-2-rootless.deb
+Size: 3681208
+MD5sum: b5f2e47291463fa8079d1b33bb236c9a
+SHA1: 
+SHA256: 3fb8424f2dfe01a234b4d41f4dc4a12d3a9c04c77dfe852336f9b52e86b52a4c
 
 Package: com.opa334.trollstorelite
 Name: TrollStore Lite
@@ -21995,6 +22061,40 @@ Size: 402512
 MD5sum: 4ce3d8451a87cda112f886df00f8903a
 SHA1: 
 SHA256: 745e9ea5a66dc042cbc156eaae4969bc464f0fe8cf6da3350e9f908395aacd68
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: 修改温控 bug：极限满频全局状态同步与 App/桌面切换掉频修复；新控制器注册后立即继承当前性能模式。保留系统与硬件临界温度安全保护。
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.81
+Installed-Size: 2996
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.81-roothide.deb
+Size: 407652
+MD5sum: 21913bf6249e996c2a37841a343b8e30
+SHA1: 
+SHA256: 7414c98a3db03054b393823853b709ac839afd0f75fa7cdc3718aa0a85ab2f00
+
+Package: com.sbcpu.floating
+Name: SB CPU Floating
+Maintainer: MoWang
+Author: MoWang
+Description: 修改温控 bug：极限满频全局状态同步与 App/桌面切换掉频修复；新控制器注册后立即继承当前性能模式。保留系统与硬件临界温度安全保护。
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 4.81
+Installed-Size: 2996
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-4.81-rootless.deb
+Size: 411328
+MD5sum: 26987f96523773b0fdac2409a1e3a8b2
+SHA1: 
+SHA256: a254e8c016f4e3107d7548b1a32c8ffaa5232e16f445ffa31071d3415919e9a0
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
