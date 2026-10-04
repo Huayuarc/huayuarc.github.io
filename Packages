@@ -9886,6 +9886,42 @@ SHA256: 06fc8b018f6937fab89d72db2740a56256b52439b9646ad4478e15694b98543b
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，阻止高温系统降频与降亮度、阻止系统原生调频，并内置 CPU/GPU/Package 温控旁路、ProMotion 120Hz 与亮度守护（拦截一切降低亮度/背光的写入）。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-164
+Installed-Size: 1648
+Filename: debs/com.huayuarc.cputhermal-1.6.2-164-roothide.deb
+Size: 115636
+MD5sum: 7f9b18ff72a261f28d9530e95f79a19b
+SHA1: 
+SHA256: e37a732298faa6bb072c85c706c70ecc401846017304fd91e5549cb2cf307819
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，阻止高温系统降频与降亮度、阻止系统原生调频，并内置 CPU/GPU/Package 温控旁路、ProMotion 120Hz 与亮度守护（拦截一切降低亮度/背光的写入）。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-164
+Installed-Size: 1664
+Filename: debs/com.huayuarc.cputhermal-1.6.2-164-rootless.deb
+Size: 120068
+MD5sum: 597be903257c9546ab70634175556079
+SHA1: 
+SHA256: c1e255f7804a8a339a88ebae4eff43b5b03c588180e5ab9eae10a200260d7229
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
 Author: 391160
 Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
 Depends: mobilesubstrate, preferenceloader
@@ -9957,51 +9993,6 @@ Size: 182140
 MD5sum: 7932b5ce87f474e55c64ec54c774d643
 SHA1: 
 SHA256: e691999e7718ca957103a561ab65c3da596dc9cf78d5fb7b74c44a4b4d483749
-
-Package: com.huayuarc.cputhermal
-Name: CPU智能温控
-Author: 391160
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: 391160
-Section: Tweaks
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64e
-Version: 1.6.2-286
-Installed-Size: 2180
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.huayuarc.cputhermal-1.6.2-286-roothide.deb
-Size: 227720
-MD5sum: 0f533ae3fb0bfc17947ecc99720b6baa
-SHA1: 
-SHA256: a6ebfa772c9f31d4b65e62f50a5a4ded87a38c875036bcec3ce80a0c0166131f
-
-Package: com.huayuarc.cputhermal
-Name: CPU智能温控
-Author: 391160
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: 391160
-Section: Tweaks
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64
-Version: 1.6.2-286
-Installed-Size: 2180
-Filename: debs/com.huayuarc.cputhermal-1.6.2-286-rootless.deb
-Size: 234068
-MD5sum: a8c86c4f9c03a05de749a4b107fde295
-SHA1: 
-SHA256: 8ab3710937397489674feb54629c443c315a0a6fefc70f02c889b354d3d6dacc
 
 Package: com.huayuarc.cputhermal
 Name: CPU智能温控
@@ -10092,51 +10083,6 @@ Size: 273236
 MD5sum: cb24c111ce1216f93ecd62ce938c20c8
 SHA1: 
 SHA256: 671f4ca436f696241ce7c8082ae4fc7d2a4979cb4e209f258c7ad32f9738e61b
-
-Package: com.huayuarc.cputhermal
-Name: CPU智能温控
-Author: Huayuarc
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: Huayuarc
-Section: Tweaks
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64e
-Version: 1.6.2-306
-Installed-Size: 2340
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.huayuarc.cputhermal-1.6.2-306-roothide.deb
-Size: 283056
-MD5sum: 7d141cf3096666fd5c6fd2d3f3e848b6
-SHA1: 
-SHA256: 86204501854f85a5f9e3e061ed9028c1a79ac727398c2be0815b930623c282df
-
-Package: com.huayuarc.cputhermal
-Name: CPU智能温控
-Author: Huayuarc
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: Huayuarc
-Section: Tweaks
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64
-Version: 1.6.2-306
-Installed-Size: 2340
-Filename: debs/com.huayuarc.cputhermal-1.6.2-306-rootless.deb
-Size: 276256
-MD5sum: f2d40f4c995cc007e3560540b8227729
-SHA1: 
-SHA256: f54829caf3145480d8a210a1b37fb0ad6714896b352d8b0bb7285acc79b39115
 
 Package: com.huayuarc.facedownlock
 Name: 设备朝下自动锁屏
@@ -17091,6 +17037,62 @@ Size: 312912
 MD5sum: 51d99eb3f84be7615368bf98f429fd55
 SHA1: 
 SHA256: 42f715444d41bce59440807f99da70495e5adfd0e85cd71082e5814a7148c3fb
+
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.8.80~cardposition
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon-v2.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.8.80~cardposition-roothide.deb
+Size: 324992
+MD5sum: 7503456d4d6ba300e60eb477205ec701
+SHA1: 
+SHA256: 7b12f304cec3c3eb66e008b19d805b7887e4eb576744fc23e386898baee4458e
+
+Package: com.mlgm.pulloverx
+Name: Pullover-X 窗口调度版
+Version: 1.8.80~cardposition
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon-v2.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+Maintainer: kanuo
+Filename: debs/com.mlgm.pulloverx-1.8.80~cardposition-rootless.deb
+Size: 326080
+MD5sum: b22fb53f5283c7cbdd97e61850aae4e6
+SHA1: 
+SHA256: 6c80573d12ec18c5cdcb2e6b3240cca162470b0ac0fc80ed2b16a8bf6ddafa4e
 
 Package: com.mowang.crashanalyzer
 Name: AI 日志分析
