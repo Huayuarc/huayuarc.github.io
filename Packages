@@ -552,10 +552,66 @@ SHA256: 3787bb9ca2989ac6ff5a41169afe32d6235af8feff5887f8e5d2b6ec75302cbf
 
 Package: cn.llld.appfix
 Name: 应用修改器
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Maintainer: 来了老弟
+Author: 来了老弟
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/appfix.png
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Tag: purpose::uikit, compatible::ios14
+Architecture: iphoneos-arm64e
+Version: 0.0.36
+Installed-Size: 1452
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/cn.llld.appfix-0.0.36-roothide.deb
+Size: 450052
+MD5sum: b39c5829c7d8b59406d3a6ab2467a1d7
+SHA1: 
+SHA256: 72ee2a4473010b0c3a713ae228813fb18b3252fcaee8dd600eb5a4f4f4beac23
+
+Package: cn.llld.appfix
+Name: 应用修改器
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Maintainer: 来了老弟
+Author: 来了老弟
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/appfix.png
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Tag: purpose::uikit, compatible::ios14
+Architecture: iphoneos-arm64
+Version: 0.0.36
+Installed-Size: 1452
+Filename: debs/cn.llld.appfix-0.0.36-rootless.deb
+Size: 455960
+MD5sum: 0d5f76be530988d3e2cabd83f6f04ac3
+SHA1: 
+SHA256: fe3132a3d0326bd6eff314127116b70576ab6a1c0bc9a6220fdcbfbd429ccba6
+
+Package: cn.llld.appfix
+Name: 应用修改器
 Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强，1.0版本之后支持导入Flex3配置），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
 Maintainer: 来了老弟
 Author: 来了老弟
-Section: Development
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/appfix.png
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Tag: purpose::uikit, compatible::ios14
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 1548
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/cn.llld.appfix-1.0.0-roothide.deb
+Size: 472352
+MD5sum: 2f996ee5925926f5da233cac18a6e81e
+SHA1: 
+SHA256: e00d0e1d14dd4ce8f3bf621692d024a2135d737933dfeed7c7a247fc0c294677
+
+Package: cn.llld.appfix
+Name: 应用修改器
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强，1.0版本之后支持导入Flex3配置），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Maintainer: 来了老弟
+Author: 来了老弟
+Section: Tweaks
 icon: https://huayuarc.github.io/icon/appfix.png
 Depends: firmware (>= 14.0), ellekit | mobilesubstrate
 Tag: purpose::uikit, compatible::ios14
@@ -563,28 +619,47 @@ Architecture: iphoneos-arm64
 Version: 1.0.0
 Installed-Size: 1548
 Filename: debs/cn.llld.appfix-1.0.0-rootless.deb
-Size: 478484
-MD5sum: 050f08347f854096829f2c756c985653
+Size: 478588
+MD5sum: 7e129ebef10e08d790e3d55cfc79fb56
 SHA1: 
-SHA256: a5bfab39f4994c6fad6c488c7d797c06695685f7e4d464b71fe5f8a9922fc5d9
+SHA256: d8f9c0df96f338787fd40979049078f7d39ade795ff792d9a0884d37ac633e5c
 
 Package: cn.llld.appfix
 Name: 应用修改器
-Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强，1.0版本之后支持导入Flex3配置），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
 Maintainer: 来了老弟
 Author: 来了老弟
-Section: Development
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/appfix.png
+Depends: firmware (>= 14.0), ellekit | mobilesubstrate
+Tag: purpose::uikit, compatible::ios14
+Architecture: iphoneos-arm64e
+Version: 1.2.21
+Installed-Size: 1940
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/cn.llld.appfix-1.2.21-roothide.deb
+Size: 566784
+MD5sum: cce51cb256e64f1845d1872e81095065
+SHA1: 
+SHA256: ead13a54329daaddcad30798260ed29b83c55a46df0bac23292757acfea78c22
+
+Package: cn.llld.appfix
+Name: 应用修改器
+Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强，1.0版本之后支持导入Flex3配置），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
+Maintainer: 来了老弟
+Author: 来了老弟
+Section: Tweaks
 icon: https://huayuarc.github.io/icon/appfix.png
 Depends: firmware (>= 14.0), ellekit | mobilesubstrate
 Tag: purpose::uikit, compatible::ios14
 Architecture: iphoneos-arm64
-Version: 0.0.36
-Installed-Size: 1452
-Filename: debs/cn.llld.appfix_0.0.36_iphoneos-arm64.deb
-Size: 456304
-MD5sum: d1f863bba431bfef1527e7d58d54ee00
+Version: 1.2.21
+Installed-Size: 1940
+Filename: debs/cn.llld.appfix-1.2.21-rootless.deb
+Size: 574840
+MD5sum: a196793c5ad1514280a30e304327a62c
 SHA1: 
-SHA256: 093f6abed1a76e866778723338b3d2ede0b849baabcee492f28ecbcd762bd5c1
+SHA256: 31462d764f42660407146fff2be5112d79ab18a907796bef53a46be5db8b28ce
 
 Package: cn.llld.avphotos
 Version: 1.0.1
@@ -829,6 +904,41 @@ Size: 38256
 MD5sum: 31bf4951bb9d914c397dfaddaaabc340
 SHA1: 
 SHA256: f2bb973ae3ae491cb7b4c349c2696390070262311cb74f1f63c7ce084f0898ee
+
+Package: cn.llld.biaoji
+Name: 截图标记
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存，高亮，文字等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.0-1+debug
+Installed-Size: 328
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.llld.biaoji-2.0-1+debug-roothide.deb
+Size: 68672
+MD5sum: 888abc585794dd53ff0286375fcaba58
+SHA1: 
+SHA256: 090920ca993bfa4b5bfd4ef3302c6a7b48364a0d57e411fa91fd4d4b7fb564d4
+
+Package: cn.llld.biaoji
+Name: 截图标记
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存，高亮，文字等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.0-1+debug
+Installed-Size: 328
+icon: https://huayuarc.github.io/icon/snapper.png
+Filename: debs/cn.llld.biaoji-2.0-1+debug-rootless.deb
+Size: 70328
+MD5sum: 272ae78432e857959adfd38cc0e19e67
+SHA1: 
+SHA256: 45e5a85ce5d91015e177002a062e2af0043f6792b3a77510b2095eb3bf20f4a0
 
 Package: cn.llld.fixdh1
 Name: phonefix
@@ -1422,6 +1532,41 @@ Size: 162432
 MD5sum: 35ca660ea428717016aefab6a3a4360e
 SHA1: 
 SHA256: cd09dd8e976ab2bfe75093833a942282be1f62d736923a81ab3d5f92588aaea3
+
+Package: cn.llld.zfbb
+Name: 支付宝步数XD
+Author: 来了老弟 X：h_h_x_t
+Description: 可注入可越狱使用。自定义步数，精简主页显示内容，视频内容下载.***长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置***,支持任意版本。250524:最好巨魔注入使用。260927:加个视频下载按钮
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X：h_h_x_t
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.5
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/zfb.png
+Filename: debs/cn.llld.zfbb-1.5-roothide.deb
+Size: 20120
+MD5sum: 867e63e62397c61a653356135af13a38
+SHA1: 
+SHA256: 8924dfde5d8c28a7cd20169ed745ba2c8d96e2d065fad494a3be2f1cbb4113eb
+
+Package: cn.llld.zfbb
+Name: 支付宝步数XD
+Author: 来了老弟 X：h_h_x_t
+Description: 可注入可越狱使用。自定义步数，精简主页显示内容，视频内容下载.***长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置***,支持任意版本。250524:最好巨魔注入使用。260927:加个视频下载按钮
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X：h_h_x_t
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.5
+Installed-Size: 204
+icon: https://huayuarc.github.io/icon/zfb.png
+Filename: debs/cn.llld.zfbb-1.5-rootless.deb
+Size: 20600
+MD5sum: e1a2668e765f2f753886ca23996e8cb7
+SHA1: 
+SHA256: 0ca786071cf5f5fb010403db15d0bcfb57a9e7001a46e1eef1b73a994c1e3442
 
 Package: cn.octoforce.copyvault
 Name: CopyVault(激活码版)
