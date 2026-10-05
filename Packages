@@ -17809,6 +17809,44 @@ MD5sum: e3c1648c6f52e536f417584cb29f9585
 SHA1: 
 SHA256: c651f0dd896bc80f8f5f97ffde2b9f06d40de7ac489d2f0f9ce382c327aebad0
 
+Package: com.muzi.mutool
+Name: MUtool(roothide)
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64e
+Version: 2.1.51
+Installed-Size: 4436
+Filename: debs/com.muzi.mutool-2.1.51-roothide.deb
+Size: 673728
+MD5sum: db77d2163c755ae1b78dde49c6ec3bed
+SHA1: 
+SHA256: e77e8243a7f575da819ebaad9afe11906e9be39c7f1e8284b8cbe932096f5433
+
+Package: com.muzi.mutool
+Name: MUtool(rootless)
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64
+Version: 2.1.51
+Installed-Size: 4468
+Filename: debs/com.muzi.mutool-2.1.51-rootless.deb
+Size: 678952
+MD5sum: 2bde92425acb658ca238e609472f3b70
+SHA1: 
+SHA256: 4ef53f29a0e8dcee88951d6b80a6acba1524a34e40e423e57fd635e112c9c7a6
+
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
 Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
@@ -31350,6 +31388,40 @@ Size: 12952
 MD5sum: e82dfe81fb926d7d8e1a3e0cd3b62277
 SHA1: 
 SHA256: 16127c3a6c90939293aebfa3eb2e4bab0cb097e27cc85cf0d1eecf047c82d9be
+
+Package: com.yaowell.cellbell
+Name: CellBell
+Depends: mobilesubstrate
+Description: 关闭电池百分比时启用 iOS 27 风格电池图标。(Enables an iOS 27-style battery icon when battery percentage is off.)
+Maintainer: yaowell
+Author: yaowell
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/cellbell.jpg
+Filename: debs/com.yaowell.cellbell-1.0-roothide.deb
+Size: 6152
+MD5sum: c7ba325547e15211dd818047d1d90df5
+SHA1: 
+SHA256: 531737854bab807f9318a6d26313efa46ff6eabbf19dcabaa59040ff926a5821
+
+Package: com.yaowell.cellbell
+Name: CellBell
+Depends: mobilesubstrate
+Description: 关闭电池百分比时启用 iOS 27 风格电池图标。(Enables an iOS 27-style battery icon when battery percentage is off.)
+Maintainer: yaowell
+Author: yaowell
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/cellbell.jpg
+Filename: debs/com.yaowell.cellbell-1.0-rootless.deb
+Size: 6204
+MD5sum: b7b08113f63cd2435e17656a4be65e99
+SHA1: 
+SHA256: f3f0f75b5b11de3a130ffe25910e11b35a6193c035276ee970e297804499d48c
 
 Package: com.yaowell.dndhaptics
 Name: DND Haptics
