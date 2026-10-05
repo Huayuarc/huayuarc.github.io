@@ -5990,6 +5990,42 @@ MD5sum: 2d790ecf5ba2fec03ef41043de68b7b4
 SHA1: 
 SHA256: 37f8fd2c9f551a1940b6325957fcf9d69cbc1fa4fba3e8c8f4e836194415174b
 
+Package: com.crctdd.memtrim
+Name: MemTrim
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Homepage: https://crctdd.github.io/repo/
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 388
+icon: https://huayuarc.github.io/icon/memtrim.png
+Filename: debs/com.crctdd.memtrim-0.0.1-roothide.deb
+Size: 51484
+MD5sum: 60782a74b691e53ffe81604e35064345
+SHA1: 
+SHA256: 21650dafd81ef3a428d0c7df1514046f19152b4c6ee70c70cc7f0f805f8865fd
+
+Package: com.crctdd.memtrim
+Name: MemTrim
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Homepage: https://crctdd.github.io/repo/
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 820
+icon: https://huayuarc.github.io/icon/memtrim.png
+Filename: debs/com.crctdd.memtrim-0.0.1-rootless.deb
+Size: 65048
+MD5sum: 679c6126fd3364d3ee02670792f5c4ec
+SHA1: 
+SHA256: e61f9c18c93d6c932a5f3b67b1f599df10c26ed298721958d9731a8f1974dde8
+
 Package: com.crctdd.mobileslideshowhook
 Name: 系统相册视频进度条
 Description: 系统相册增加视频进度条 (支持iOS 15-17)
