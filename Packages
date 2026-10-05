@@ -3391,6 +3391,41 @@ MD5sum: d8f2aaafa4c7b32e55b91cf0f0b736a8
 SHA1: 
 SHA256: 03b81732e4491ec8e95d76e38795cb83f0eb378d6a127d963bab3ca2520f1dd5
 
+Package: com.anubis.boardswipe
+Name: BoardSwipe 滑动键盘
+Description: 向下滑动可关闭键盘，向上滑动可切换键盘。Swipe down to dismiss keyboard, swipe up to switch keyboards。
+Maintainer: Anubis
+Author: Anubis
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 1036
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/boardswipe.jpg
+Filename: debs/com.anubis.boardswipe-1.0.0-roothide.deb
+Size: 486864
+MD5sum: 5e84121486d14c27bc3d6019cd6fbd8e
+SHA1: 
+SHA256: f3d9abcd8c19a016a46552a79a4d4627e3ddbdf2f7c8d2d5b1a83781fd73c211
+
+Package: com.anubis.boardswipe
+Name: BoardSwipe 滑动键盘
+Description: 向下滑动可关闭键盘，向上滑动可切换键盘。Swipe down to dismiss keyboard, swipe up to switch keyboards。
+Maintainer: Anubis
+Author: Anubis
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+icon: https://huayuarc.github.io/icon/boardswipe.jpg
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 1036
+Filename: debs/com.anubis.boardswipe-1.0.0-rootless.deb
+Size: 486800
+MD5sum: d16efccd653b941027e0c982add18138
+SHA1: 
+SHA256: 19c9c8d1b7bba1007aa79a64c83762ccff073ea6090a50097871fa64eba04cc9
+
 Package: com.ayao.doubaopowerbutton
 Name: DoubaoPowerButton
 Description: 长按关机键触发豆包语音入口，并保留音量键加关机键的系统原始关机操作。
@@ -11407,6 +11442,43 @@ MD5sum: 8e22574c60fc449a36615e37542079b6
 SHA1: 
 SHA256: c1fec6984b12e0e6454d4c14e54578203a02a70342110642efd5ad92e6bbb70d
 
+Package: com.icraze.smallboards
+Name: SmallBoard 键盘下沉
+Depends: mobilesubstrate
+Description: 缩小键盘与底部的间隙，无设置项，安装注销生效。
+Maintainer: iCraze
+Author: iCraze
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 152
+Conflicts: com.icraze.smallboard
+icon: https://huayuarc.github.io/icon/smallboards.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.icraze.smallboards-1.1-roothide.deb
+Size: 3892
+MD5sum: e20936c2c95fae41f4abe3a52402165e
+SHA1: 
+SHA256: 2afd76e2edb6f9cef32c712485607e2dc9b902ea6bbf300c021375bee4619409
+
+Package: com.icraze.smallboards
+Name: SmallBoard 键盘下沉
+Depends: mobilesubstrate
+Description: 缩小键盘与底部的间隙，无设置项，安装注销生效。
+Maintainer: iCraze
+Author: iCraze
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 152
+Conflicts: com.icraze.smallboard
+icon: https://huayuarc.github.io/icon/smallboards.jpg
+Filename: debs/com.icraze.smallboards-1.1-rootless.deb
+Size: 3688
+MD5sum: d54972f089de6a829717df167c94ca24
+SHA1: 
+SHA256: 9d0563361d57738c896c811a700122e65f26092c68bd1c290d1e54ddc4076703
+
 Package: com.imkpatil.nooldernotificationstext
 Name: NoOlderNotificationsText
 Depends: mobilesubstrate
@@ -13062,6 +13134,42 @@ Size: 2721336
 MD5sum: 97d6c22267dae1d5a42fd1fc4b34a89d
 SHA1: 
 SHA256: 61ececcd174c105a22036b7d35c59add549d22fbc86296634a4fbc802f2be3f2
+
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 11.2
+Installed-Size: 12292
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-11.2-roothide.deb
+Size: 2724064
+MD5sum: 93b9b575f815d74cdce8674e6abdf4f0
+SHA1: 
+SHA256: 9621ffc899adfac004f2f1baf2f2408c95499eb260fe655558c5598c3ed1b176
+
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 11.2
+Installed-Size: 12324
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-11.2-rootless.deb
+Size: 2725228
+MD5sum: 5e482563ba3f634edd110235562a9e9e
+SHA1: 
+SHA256: cb1eea475fb1b1d52fc95eea610a83732dc0dcd5a48082d8f9b3e6110496cec0
 
 Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
@@ -19669,6 +19777,45 @@ MD5sum: a5d95ca1e99a625c2fe180b664fdfbc8
 SHA1: 
 SHA256: 85b4a20382dd7e236ea37fd2a2b5ca2dc9c127ac027d24ba62e5b8bfd00a7bcc
 
+Package: com.p2kdev.underdock
+Version: 1.3
+Section: Tweaks
+Maintainer: P2KDev
+Depends: mobilesubstrate
+Conflicts: com.restiveconch.actionbar, com.udevs.dockx
+Architecture: iphoneos-arm64e
+Installed-Size: 680
+Name: UnderDock
+Author: P2KDev
+Sponsor: P2KDev
+icon: https://huayuarc.github.io/icon/underdock.png
+Description: 给原生键盘和第三方键盘增加复制、粘贴、换行、撤销等按钮，还不错的一款键盘增强插件。
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.p2kdev.underdock-1.3-roothide.deb
+Size: 59816
+MD5sum: 9aaac6c2408686fab66dd6c97a2b6160
+SHA1: 
+SHA256: 7c8ef7f3fe80f32f0fdd785c78b84d8370ff30de5f77b7c76d0faf01220b4c97
+
+Package: com.p2kdev.underdock
+Version: 1.3
+Section: Tweaks
+Maintainer: P2KDev
+Depends: mobilesubstrate
+Conflicts: com.restiveconch.actionbar, com.udevs.dockx
+Architecture: iphoneos-arm64
+Installed-Size: 680
+Name: UnderDock
+Author: P2KDev
+Sponsor: P2KDev
+icon: https://huayuarc.github.io/icon/underdock.png
+Description: 给原生键盘和第三方键盘增加复制、粘贴、换行、撤销等按钮，还不错的一款键盘增强插件。
+Filename: debs/com.p2kdev.underdock-1.3-rootless.deb
+Size: 61524
+MD5sum: eb4fae4a65913ab6865e7806ebf9bc86
+SHA1: 
+SHA256: 081785556f8d3d97beadbee118b555fe5f8ffb87b3eabb6162a9f20ea43c53cd
+
 Package: com.promotion120
 Name: ProMotion 120Hz
 Author: Unknown
@@ -19978,6 +20125,41 @@ Size: 9896
 MD5sum: ee309b5d3074d3091793adf0cc096bcd
 SHA1: 
 SHA256: 017bab354afd913bfa785d955b21b1b5fc80c773d27483bd6fc93c1f9f6fe057
+
+Package: com.pxcex.autoscroll
+Name: AutoScroll
+Version: 1.0
+Description: 手指滑动自动滚动页面，直到再次触摸屏幕停止滚动，安装生效无设置项。
+Author: pxcex
+Maintainer: pxcex
+Depends: mobilesubstrate
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Conflicts: com.autoscroll.jb, com.wkk.autoscroll
+icon: https://huayuarc.github.io/icon/autoscroll.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.pxcex.autoscroll-1.0-roothide.deb
+Size: 5240
+MD5sum: 2cc36d30d54ddea88f00220d626e705c
+SHA1: 
+SHA256: db33882e71c7a01579cc59c64997771e10093f57eeeee49040992350e197e7e7
+
+Package: com.pxcex.autoscroll
+Name: AutoScroll
+Version: 1.0
+Description: 手指滑动自动滚动页面，直到再次触摸屏幕停止滚动，安装生效无设置项。
+Author: pxcex
+Maintainer: pxcex
+Depends: mobilesubstrate
+Section: Tweaks
+Architecture: iphoneos-arm64
+Conflicts: com.autoscroll.jb, com.wkk.autoscroll
+icon: https://huayuarc.github.io/icon/autoscroll.jpg
+Filename: debs/com.pxcex.autoscroll-1.0-rootless.deb
+Size: 5364
+MD5sum: 5a0a89ed5785aef112dc554d4e30bbf6
+SHA1: 
+SHA256: a5ae4b8671f3b8f3cb73c9903fef92f521a4ea787fee97fe01b1d640705ef5b8
 
 Package: com.qianuo.chatassist
 Name: 聊伴 ChatAssist
@@ -23145,6 +23327,23 @@ Size: 3040
 MD5sum: b779bc08d8011361b4ebb3782368e3be
 SHA1: 
 SHA256: 17edb18e575e49e14c54e0a5261f4d9958afa6d467878e1cc7dda409d32082ed
+
+Package: com.sini.autoscroll15
+Maintainer: CyPwn
+Name: AutoScroll
+Version: 1.0.0
+Description: 只需滑一下即可不停的一直滑，手终于可以闲下来去打了
+Author: pxcex
+Depends: mobilesubstrate
+Section: Tweaks
+Architecture: iphoneos-arm64e
+icon: https://sini921.github.io/repo/sileodepiction/icon/auto.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.autoscroll15-1.0.0-roothide.deb
+Size: 5204
+MD5sum: e7147b4ed9488335766b3d9c968585f3
+SHA1: 
+SHA256: 354fc3ec4461f5668dcc7779e97395e021f9cb00cb182f9bb0be81ffe94aeaca
 
 Package: com.sini.autoscroll15
 Maintainer: CyPwn
