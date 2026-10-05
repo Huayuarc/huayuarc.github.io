@@ -20413,46 +20413,6 @@ MD5sum: a55cf6056b5d5042f27f2a311da5b3cc
 SHA1: 
 SHA256: b6ed74a6f6318b571816115fc72f9d43fbf2e5d4bd2a5b081890bbbad863c134
 
-Package: com.qq391160.cpucore
-Name: CPU智能温控(iOS16/17)
-Author: qq391160
-Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
-Maintainer: qq391160
-Section: Tweaks
-Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpucore, com.qq391160.cpusentry
-Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpucore, com.qq391160.cpusentry
-Priority: optional
-Icon: https://qq391160.github.io/repo/icons/thermal.png
-Depends: firmware (>= 16.0)
-Architecture: iphoneos-arm64e
-Version: 1.4.81
-Installed-Size: 3104
-Filename: debs/com.qq391160.cpucore-1.4.81-roothide.deb
-Size: 438128
-MD5sum: f2f8c2b7b6f685a48233897d4c68accf
-SHA1: 
-SHA256: a15e925fab13a6ae53e8d4d4a1db75fee398826ad9c536706662fa5e4a9a318e
-
-Package: com.qq391160.cpucore
-Name: CPU智能温控(iOS16/17)
-Author: qq391160
-Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
-Maintainer: qq391160
-Section: Tweaks
-Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpucore, com.qq391160.cpusentry
-Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpucore, com.qq391160.cpusentry
-Priority: optional
-Icon: https://qq391160.github.io/repo/icons/thermal.png
-Depends: firmware (>= 16.0)
-Architecture: iphoneos-arm64
-Version: 1.4.81
-Installed-Size: 3104
-Filename: debs/com.qq391160.cpucore-1.4.81-rootless.deb
-Size: 438208
-MD5sum: c23db24ed2b85f5eb185e049229ae1cb
-SHA1: 
-SHA256: e08ba56b9752bc92a8b55cfed9a712a725cd566bcb59373bc377d7a506d5b497
-
 Package: com.qq391160.pulloverplus
 Name: PullOver Plus
 Version: 1.0.566
