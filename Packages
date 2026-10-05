@@ -19459,6 +19459,40 @@ MD5sum: 0f4435d71412e41e1aa1e3bab1ece261
 SHA1: 
 SHA256: ee41f92e54bce370298d0295a075e66a52ab589fa7d2ba0409be43c00a81a2fd
 
+Package: com.noads.tweka
+Name: NoAdsX
+Description: 去除广告。交流反馈QQ群：1106363887
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.2.7
+Installed-Size: 1620
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+Filename: debs/com.noads.tweka-1.2.7-roothide.deb
+Size: 288612
+MD5sum: e00cf1980f1a0697e40198575625906c
+SHA1: 
+SHA256: 1e29825cfa0a04f5d23b84a1991aa554cd860a4ea124f6f91087e8b2fa04bf57
+
+Package: com.noads.tweka
+Name: NoAdsX
+Description: 去除广告。交流反馈QQ群：1106363887
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.2.7
+Installed-Size: 1620
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+Filename: debs/com.noads.tweka-1.2.7-rootless.deb
+Size: 290180
+MD5sum: bfd38ad11de48d6668dcdea7a8eee5e3
+SHA1: 
+SHA256: ab1d3ab073d0972f262d5559ff89514234253c6c0e04a9a483652be6ebb5d05e
+
 Package: com.opa334.trollstorelite
 Name: TrollStore Lite
 Description: A modified TrollStore by iosdump for jailbroken iOS
