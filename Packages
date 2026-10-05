@@ -6026,6 +6026,42 @@ MD5sum: 679c6126fd3364d3ee02670792f5c4ec
 SHA1: 
 SHA256: e61f9c18c93d6c932a5f3b67b1f599df10c26ed298721958d9731a8f1974dde8
 
+Package: com.crctdd.memtrim
+Name: MemTrim
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Homepage: https://crctdd.github.io/repo/
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 388
+icon: https://huayuarc.github.io/icon/memtrim.png
+Filename: debs/com.crctdd.memtrim-0.0.2-roothide.deb
+Size: 51480
+MD5sum: 29c10fd77a6990a159fc213ddbd9b057
+SHA1: 
+SHA256: e73f48e6aea4285abb68c81581efcac0ea2675e949d94b181c295cff7cd35686
+
+Package: com.crctdd.memtrim
+Name: MemTrim
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Homepage: https://crctdd.github.io/repo/
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Installed-Size: 820
+icon: https://huayuarc.github.io/icon/memtrim.png
+Filename: debs/com.crctdd.memtrim-0.0.2-rootless.deb
+Size: 65332
+MD5sum: 688e498b0416c703f51276704d44c5cd
+SHA1: 
+SHA256: bc9a978118c4240e79eb183bd90b90447dd5dd39bd4cb64a8308d5683e2422ad
+
 Package: com.crctdd.mobileslideshowhook
 Name: 系统相册视频进度条
 Description: 系统相册增加视频进度条 (支持iOS 15-17)
@@ -9274,6 +9310,60 @@ Size: 2440216
 MD5sum: 61e8e11b85408c6aa32ecf2e7e10762e
 SHA1: 
 SHA256: c1eec34adee7b3ac49a632d4bfa79f9bcd3395612a5d2ef31cd795e473c11e05
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ MarkTheme 0.3.2 支持导入 SnowBoard / IconBundles 风格主题，可主题化应用图标、
+ 文件夹、角标、状态栏、拨号盘、设置与分享界面。
+ .
+ 支持跨主题混搭和功能独立开关；切换主题或混搭后，按提示 Respring 即可应用新外观。
+ .
+ 提供 conventional rootless 与 RootHide 独立软件包，支持 iOS 17.0 至 18.x。
+ 请安装与你的越狱环境匹配的软件包，两个版本不可混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: Tweaks
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.3.2
+Installed-Size: 8620
+Filename: debs/com.hmmzzz.marktheme-0.3.2-roothide.deb
+Size: 2428356
+MD5sum: 910e35f4d6fed60c49d8f6df11679df8
+SHA1: 
+SHA256: 5b4c5679c5174b1a3ea019646a5303afd17211c94e97579262cfe34d26aa31e9
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ MarkTheme 0.3.2 支持导入 SnowBoard / IconBundles 风格主题，可主题化应用图标、
+ 文件夹、角标、状态栏、拨号盘、设置与分享界面。
+ .
+ 支持跨主题混搭和功能独立开关；切换主题或混搭后，按提示 Respring 即可应用新外观。
+ .
+ 提供 conventional rootless 与 RootHide 独立软件包，支持 iOS 17.0 至 18.x。
+ 请安装与你的越狱环境匹配的软件包，两个版本不可混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: Tweaks
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64
+Version: 0.3.2
+Installed-Size: 8640
+Filename: debs/com.hmmzzz.marktheme-0.3.2-rootless.deb
+Size: 2442928
+MD5sum: a818a10fe3596fec3fea66c24f5b6f01
+SHA1: 
+SHA256: fae8c031443f6a97aa8de77d47eead2528e147fa8788a70f1ea568d7746ca89c
 
 Package: com.hmmzzz.marktheme
 Name: MarkTheme 主题引擎管理器
@@ -12936,6 +13026,42 @@ Size: 4492452
 MD5sum: cb4b36649e6da93f5f6200f0f3291613
 SHA1: 
 SHA256: 4de428d7d92c023faedd33dacb40c130b3a32e6ee64f59414fe7e7d586c4e31c
+
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 11.1
+Installed-Size: 12292
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-11.1-roothide.deb
+Size: 2720412
+MD5sum: 2eed93c0b1a01817ceb16a7534900c37
+SHA1: 
+SHA256: 660837385c4fadec0cb6d5db0c2bbb7f73f784846735af93488c2e928e6bd219
+
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 11.1
+Installed-Size: 12324
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-11.1-rootless.deb
+Size: 2721336
+MD5sum: 97d6c22267dae1d5a42fd1fc4b34a89d
+SHA1: 
+SHA256: 61ececcd174c105a22036b7d35c59add549d22fbc86296634a4fbc802f2be3f2
 
 Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
