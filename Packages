@@ -19971,6 +19971,42 @@ MD5sum: 55ae61da0489ff3bd8c646baaa7bba95
 SHA1: 
 SHA256: ef9e2b9117697484add0c6fd9f28e2b0664215ef77e820c76cc5622e2c445fa7
 
+Package: com.ngkhoi.26home
+Name: 26Home
+Depends: mobilesubstrate | ellekit, preferenceloader
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（隐根 RootHide）
+Maintainer: ngkhoi
+Author: ngkhoi
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.3.8-cutout-custom-icon-zh
+Installed-Size: 29408
+Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+Filename: debs/com.ngkhoi.26home-1.3.8-cutout-custom-icon-zh-roothide.deb
+Size: 20544184
+MD5sum: 9a28628510c594f0fb50675c115bc764
+SHA1: 
+SHA256: 2aeb6b54cd2f8ccfc7a5806dd8b4fc195c6a28e52601ed1b3d3b0eced20a350c
+
+Package: com.ngkhoi.26home
+Name: 26Home
+Depends: mobilesubstrate | ellekit, preferenceloader
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（无根 rootless）
+Maintainer: ngkhoi
+Author: ngkhoi
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.3.8-cutout-custom-icon-zh
+Installed-Size: 29408
+Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+Filename: debs/com.ngkhoi.26home-1.3.8-cutout-custom-icon-zh-rootless.deb
+Size: 20543140
+MD5sum: 1a253da4f63e47735b4cd007a59861a5
+SHA1: 
+SHA256: 521f8517b221ee75fe93c076bf11edcc1af846e98c4202c83434e7e3a5462728
+
 Package: com.nightwind.boldersreborn
 Version: 1.1.2
 Architecture: iphoneos-arm64e
@@ -32987,6 +33023,38 @@ Size: 23544
 MD5sum: 5da7773a268686703abd37013bb426a4
 SHA1: 
 SHA256: b81229d366ab4da71e617378570048aa229041738d59d36c0aa6eb76ac46348a
+
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: 5hux1n
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Roothide
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 3.0.2
+Installed-Size: 240
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+Filename: debs/fanqiefn-3.0.2-roothide.deb
+Size: 25996
+MD5sum: d924380697714df54930c6406c754f9c
+SHA1: 
+SHA256: 47557445506c8f3627ab490a509a98ad36e69a3b8398bf15328475e6f2637ae2
+
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: 5hux1n
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 3.0.2
+Installed-Size: 240
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+Filename: debs/fanqiefn-3.0.2-rootless.deb
+Size: 26032
+MD5sum: 89fccf1414df31c095808bd6d60929b4
+SHA1: 
+SHA256: e7084284e4ea86960432ceb4315df1f7d8786bc129bc8dcee03ed2ed4dc56925
 
 Package: Flex3beta
 Name: Flex3 Beta可解析版
