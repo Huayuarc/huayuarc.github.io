@@ -18153,6 +18153,42 @@ MD5sum: be00de7aae601efc6d8ca30b0f881b57
 SHA1: 
 SHA256: 359fd8f52cd418b3d960abb89e0f07e66da255a3c46d86b4bb141c7e32e518d1
 
+Package: com.muzi.mupill
+Name: 悬浮药丸独立版
+Description: 桌面悬浮信息药丸独立版：实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutool
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 1256
+icon: https://huayuarc.github.io/icon/mupill.png
+Filename: debs/com.muzi.mupill-1.0.1-roothide.deb
+Size: 249168
+MD5sum: 77b101ef9d12cee9a7fb47a52d5967f2
+SHA1: 
+SHA256: aa563b8db910242c7cbbd940b08b7548fa4b749cd983abf3a5caab77d5ed055e
+
+Package: com.muzi.mupill
+Name: 悬浮药丸独立版
+Description: 桌面悬浮信息药丸独立版：实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutool
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 1256
+icon: https://huayuarc.github.io/icon/mupill.png
+Filename: debs/com.muzi.mupill-1.0.1-rootless.deb
+Size: 252932
+MD5sum: 5259261197c4f6cf79b61f543e098085
+SHA1: 
+SHA256: d499fd4b9038a6fd749db603c81cf4cc02c06455e4a9b9f7d13759268d2ce767
+
 Package: com.muzi.mutescheduler
 Name: MuteScheduler 定时静音
 Description: 定时静音/取消静音插件，可在设置中配置时间、静音模式与闹钟式重复周期。
@@ -19943,6 +19979,42 @@ Maintainer: ngkhoi
 Author: ngkhoi
 Section: Tweaks
 Architecture: iphoneos-arm64e
+Version: 1.3.14-launch-flicker-fix-zh
+Installed-Size: 29440
+Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+Filename: debs/com.ngkhoi.26home-1.3.14-launch-flicker-fix-zh-roothide.deb
+Size: 20548580
+MD5sum: a607573ab503de91a7da272fecab681a
+SHA1: 
+SHA256: 479f316d91f1014b547de1942fad6a45aee18858cb36f9de0ceeb868e2cda480
+
+Package: com.ngkhoi.26home
+Name: 26Home
+Depends: mobilesubstrate | ellekit, preferenceloader
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（无根 rootless）
+Maintainer: ngkhoi
+Author: ngkhoi
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.3.14-launch-flicker-fix-zh
+Installed-Size: 29440
+Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+Filename: debs/com.ngkhoi.26home-1.3.14-launch-flicker-fix-zh-rootless.deb
+Size: 20552200
+MD5sum: 4a4428b3d9239fd30e30eabc41109ec4
+SHA1: 
+SHA256: c430b993846a05fdd7670814e9c067369647382efbc5a01fa772001dd0989e71
+
+Package: com.ngkhoi.26home
+Name: 26Home
+Depends: mobilesubstrate | ellekit, preferenceloader
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（隐根 RootHide）
+Maintainer: ngkhoi
+Author: ngkhoi
+Section: Tweaks
+Architecture: iphoneos-arm64e
 Version: 1.3.7-clear-icon-controls-zh
 Installed-Size: 29340
 Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
@@ -21200,6 +21272,47 @@ Size: 83732
 MD5sum: a55cf6056b5d5042f27f2a311da5b3cc
 SHA1: 
 SHA256: b6ed74a6f6318b571816115fc72f9d43fbf2e5d4bd2a5b081890bbbad863c134
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.3
+Installed-Size: 3112
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.qq391160.cpucore-2.0.3-roothide.deb
+Size: 445880
+MD5sum: 40a41f7e3bbf53cc3914d1e89fa06cd7
+SHA1: 
+SHA256: 4431a7ef558e305ec34ca758716006b2fabc95f17765ce2a7f7475e681bd7ed2
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0.0)
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Installed-Size: 3112
+Filename: debs/com.qq391160.cpucore-2.0.3-rootless.deb
+Size: 458824
+MD5sum: 67275518c269bffe96822adda119d941
+SHA1: 
+SHA256: 0b04f947ff049e32cb8dccab1d001dd329c622f7435ce75d25602655b758a77a
 
 Package: com.qq391160.pulloverplus
 Name: PullOver Plus
@@ -30195,6 +30308,46 @@ Size: 25090828
 MD5sum: 176804ce594cf95fce22c3e195669c69
 SHA1: 
 SHA256: 51ac27a58198ecc751afcf769ab9522beb1246b2d0a368458f4bc21066e14a3b
+
+Package: com.tsangbaby.kayoko
+Name: Kayoko
+Description: Kayoko 剪切板，Tsangbaby 基于 mlgm 版进行二次修改
+Maintainer: Tsangbaby
+Author: Tsangbaby
+Section: Tweaks
+Icon: https://tsangbaby.github.io/Icon/Kayoko.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.0
+Installed-Size: 3516
+Filename: debs/com.tsangbaby.kayoko-5.0-roothide.deb
+Size: 744656
+MD5sum: 786f5b7d3d88b1f8f74dff48138a6120
+SHA1: 
+SHA256: 7c5f4deac144dd99eb15ed982dd2856ef6ae879ff49b7d777d034a18b98240f1
+
+Package: com.tsangbaby.kayoko
+Name: Kayoko
+Description: Kayoko 剪切板，Tsangbaby 基于 mlgm 版进行二次修改
+Maintainer: Tsangbaby
+Author: Tsangbaby
+Section: Tweaks
+Icon: https://tsangbaby.github.io/Icon/Kayoko.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64
+Version: 5.0
+Installed-Size: 3532
+Filename: debs/com.tsangbaby.kayoko-5.0-rootless.deb
+Size: 747408
+MD5sum: 43c27bbe06df11479167b2bec634445c
+SHA1: 
+SHA256: d26f9bc07dee91d75269ba9ba20db58b571eff985f7d3173b8a3aa52c8670ffa
 
 Package: com.tsangbaby.pulloverx
 Name: PullOver X 分屏
