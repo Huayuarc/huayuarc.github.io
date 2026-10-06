@@ -18341,6 +18341,44 @@ MD5sum: 2bde92425acb658ca238e609472f3b70
 SHA1: 
 SHA256: 4ef53f29a0e8dcee88951d6b80a6acba1524a34e40e423e57fd635e112c9c7a6
 
+Package: com.muzi.mutool
+Name: MUtool(roothide)
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64e
+Version: 2.1.66
+Installed-Size: 4436
+Filename: debs/com.muzi.mutool-2.1.66-roothide.deb
+Size: 683952
+MD5sum: 0e798fa25ae4406fd435e156b3951149
+SHA1: 
+SHA256: 257fa46b226f310d5bacd31dabe60ae16f19b5c638c79bbd7f4cde44c1a6f0cd
+
+Package: com.muzi.mutool
+Name: MUtool(rootless)
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64
+Version: 2.1.66
+Installed-Size: 4484
+Filename: debs/com.muzi.mutool-2.1.66-rootless.deb
+Size: 685420
+MD5sum: 3936183b1a01cb9a8f502f91df26b794
+SHA1: 
+SHA256: 45bd91109f3a887de7e2004e8ee95ed43bc645ff91d67a916a96f4c68f053e2c
+
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
 Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
