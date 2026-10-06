@@ -6539,6 +6539,40 @@ MD5sum: 6bcb5c03f5720ffe444abdb930e528b5
 SHA1: 
 SHA256: 0825240cff873316cfe7fe2b0a444d8b854910df2db9b80dd366070f87cb9929
 
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.3.8
+Installed-Size: 948
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.3.8-roothide.deb
+Size: 158120
+MD5sum: 1f7e3acc58c56de51181df432ae05303
+SHA1: 
+SHA256: d6adc0e1cc4238ff0e65a642882aee0fd9bd3daf4d8ed59834723f2443272f10
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.3.8
+Installed-Size: 1924
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.3.8-rootless.deb
+Size: 233024
+MD5sum: 23a0a3966404ebed99418a8ff4acd38a
+SHA1: 
+SHA256: 79ec106cb72090a989966ca6fc5b8add739f20abf9f284f3c1b2502d33c2f45e
+
 Package: com.crctdd.surgectl
 Name: SurgeCTL
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
@@ -12405,6 +12439,40 @@ MD5sum: 29caf43d0c879a2130c6e34545da79ae
 SHA1: 
 SHA256: f2ddd301a902a7d2291e26b0c4bbaaf62cb984f4a67b43f389cefea3147b9c14
 
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
+Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.3
+Installed-Size: 612
+Icon: https://huayuarc.github.io/icon/JumpSelect.png
+Filename: debs/com.iosdump.jumpselect-1.3-roothide.deb
+Size: 98912
+MD5sum: 041aba0eb6cd4e0bab8cad3d2ffe94c8
+SHA1: 
+SHA256: fb671d1b8b528037483daa64c4b33a35c5ee75a66736517565a8890a6f7848bc
+
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
+Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.3
+Installed-Size: 612
+Icon: https://huayuarc.github.io/icon/JumpSelect.png
+Filename: debs/com.iosdump.jumpselect-1.3-rootless.deb
+Size: 99624
+MD5sum: 2693516a1ef1dd950e55f817ba2b036a
+SHA1: 
+SHA256: 43fafcaa454efa1442a8308e2f30a5c550bed928b8f5bb448fc91e9541b27335
+
 Package: com.iosdump.memorycontrol
 Name: MemoryControlX 进程优先级
 Depends: mobilesubstrate, preferenceloader
@@ -14522,6 +14590,40 @@ MD5sum: 912a4d1a18a77fd69f969fe18cc57d8f
 SHA1: 
 SHA256: f47e3b4193bceb687ee3fabc1dbaf08e6beecc5d872ced425a08c398992e92ff
 
+Package: com.johndie.triggr
+Name: Triggr
+Description: 面向 rootless Dopamine 的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 A12 及更新机型（arm64e）。
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/triggr.png
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Installed-Size: 532
+Filename: debs/com.johndie.triggr-1.0.3-roothide.deb
+Size: 88564
+MD5sum: 192f8c22744494e01cfb614556e5caf6
+SHA1: 
+SHA256: 10601bb4245b9616b77ca90c9b0b405bdc6c617835489cd91e4cff3deccc3032
+
+Package: com.johndie.triggr
+Name: Triggr
+Description: 面向 rootless Dopamine 的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 A12 及更新机型（arm64e）。
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/triggr.png
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Installed-Size: 516
+Filename: debs/com.johndie.triggr-1.0.3-rootless.deb
+Size: 87044
+MD5sum: 346e50faa2cbb1e2ec7d79cec2f34d0d
+SHA1: 
+SHA256: ea5d761d66e7998e87c6081b348c7c0b0b75807f27afa817478f6da4b68adff0
+
 Package: com.jontelang.instalauncher2
 Section: Tweaks
 Installed-Size: 1188
@@ -16032,6 +16134,80 @@ MD5sum: 13b9dd724ec753b874af5ee37ed98c9d
 SHA1: 
 SHA256: 43dd92e3ddd8f1113ba97db43acb937a3bc96ec5d18be4f753c4e32babc01a73
 
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 3552
+Filename: debs/com.mlgm.actra-1.0-roothide.deb
+Size: 700172
+MD5sum: 91db8e3f6f9f8b62c1586f0670c1d2f8
+SHA1: 
+SHA256: 6c87636ca5847e7f011731af5bf0418924db48f6ceee49da07ade6f1693f4499
+
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 3564
+Filename: debs/com.mlgm.actra-1.0-rootless.deb
+Size: 699164
+MD5sum: 1cbe42f837d69b311c52f753c5eea655
+SHA1: 
+SHA256: 5a93b98feaf34f7c15a1b71c354bc3b3eaa895be14df71c1a4d23d8c402c855e
+
+Package: com.mlgm.appdata
+Name: AppData
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+Architecture: iphoneos-arm64e
+Version: 1.3.7
+Installed-Size: 1188
+Filename: debs/com.mlgm.appdata-1.3.7-roothide.deb
+Size: 210576
+MD5sum: d4bc430eeddb33377aeada53ff96a5ea
+SHA1: 
+SHA256: 092d226f456db15bd32f2999fb19235ac559d711312dffeba3bde520b6ef0904
+
+Package: com.mlgm.appdata
+Name: AppData
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Icon: https://mlgm66.github.io/icon/appdata.png
+Architecture: iphoneos-arm64
+Version: 1.3.7
+Installed-Size: 1188
+Filename: debs/com.mlgm.appdata-1.3.7-rootless.deb
+Size: 212736
+MD5sum: a8d58bedcd7c3c21338ba12145a7351f
+SHA1: 
+SHA256: 5fb9ec0adf4afa7310dfedc7154fb96f0f580c290cb11e2cc2d7e3fa2c05c6fe
+
 Package: com.mlgm.idata
 Name: iData
 Description: 应用、插件数据管理工具，一键备份/恢复
@@ -16168,6 +16344,40 @@ MD5sum: b4cc531fbc0ce7de942083b89643fa0e
 SHA1: 
 SHA256: c81d67d901b75d39e6905ac3767398d6eb4aefe2faa17fe5d36df4aa49d5b4ff
 
+Package: com.mlgm.idata
+Name: iData
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0), apt, dpkg
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64e
+Version: 1.3
+Installed-Size: 8244
+Filename: debs/com.mlgm.idata-1.3-roothide.deb
+Size: 2464152
+MD5sum: 87ab48c0ab08eaa70dd95bf5a372aa1b
+SHA1: 
+SHA256: caf97d1cf058d221a905523cd761cbab5668e117ddfa25264487f23695ec2633
+
+Package: com.mlgm.idata
+Name: iData
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0), apt, dpkg
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64
+Version: 1.3
+Installed-Size: 8244
+Filename: debs/com.mlgm.idata-1.3-rootless.deb
+Size: 2463252
+MD5sum: cdf81e826069016878769f2ddaa592f0
+SHA1: 
+SHA256: 428c4c0730ce28e0340977afaedf11d48d6b999229355800252b0aed9e577daa
+
 Package: com.mlgm.ilog
 Name: iLog
 Description: 查看、预览、分享和清理 iOS 日志
@@ -16269,6 +16479,108 @@ Size: 1555396
 MD5sum: 2ff4a75bc71bc65d0d28b5bc28bc94d0
 SHA1: 
 SHA256: 91c85671d8448c9a9cd590c8e515f3ef323bed74a04adcef5c80e96a6538409b
+
+Package: com.mlgm.ilog
+Name: iLog
+Description: 查看、预览、分享和清理 iOS 日志
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0)
+Icon: https://mlgm66.github.io/icon/ilog.png
+Architecture: iphoneos-arm64e
+Version: 1.3
+Installed-Size: 2564
+Filename: debs/com.mlgm.ilog-1.3-roothide.deb
+Size: 1558376
+MD5sum: 45d2a920541d65a7dd99aceea3a4ef97
+SHA1: 
+SHA256: c20498f3750e0e6d7272bd6c55bf548c925d63ac69fb63a8f55c731c1c4904d0
+
+Package: com.mlgm.ilog
+Name: iLog
+Description: 查看、预览、分享和清理 iOS 日志
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0)
+Icon: https://mlgm66.github.io/icon/ilog.png
+Architecture: iphoneos-arm64
+Version: 1.3
+Installed-Size: 2564
+Filename: debs/com.mlgm.ilog-1.3-rootless.deb
+Size: 1558904
+MD5sum: 5bb4f9a635182fe07501645b4e8d053f
+SHA1: 
+SHA256: 5efad92cf238a42f0152fde8b143f0ed4735cb4ddfb13e3d7f710f2c109c8af3
+
+Package: com.mlgm.isgkb
+Name: iSgkb
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/isgkb.png
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 464
+Filename: debs/com.mlgm.isgkb-1.0-roothide.deb
+Size: 42112
+MD5sum: c773ddc1f68926643ab477390251d770
+SHA1: 
+SHA256: 5bc124181fd8e8891b2ee41ea292295068a70354d64b28acd8790b73266f9fe6
+
+Package: com.mlgm.isgkb
+Name: iSgkb
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/isgkb.png
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 484
+Filename: debs/com.mlgm.isgkb-1.0-rootless.deb
+Size: 43960
+MD5sum: db38d7a64a67118d4f391efcd6541cfb
+SHA1: 
+SHA256: d09ec14a5ef4bb303e3d29e94cc34e874917e39c8db480bb1207c51845606d71
+
+Package: com.mlgm.iwxkb
+Name: iWxkb
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 436
+Filename: debs/com.mlgm.iwxkb-1.0-roothide.deb
+Size: 45460
+MD5sum: a144213b5a6ec20aa80fc9ece2ffc2aa
+SHA1: 
+SHA256: 1a67185d895de121d852d6b4b432ceced37c6924f2297ca1f63ef639bbadb338
+
+Package: com.mlgm.iwxkb
+Name: iWxkb
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 460
+Filename: debs/com.mlgm.iwxkb-1.0-rootless.deb
+Size: 47164
+MD5sum: f5cf511021aad6111c919ff24d302990
+SHA1: 
+SHA256: 973018f612bc1cdc3f9f512ed3788157ddabf9bc03c65e3ac64341977f68cec4
 
 Package: com.mlgm.kayoko
 Name: Kayoko 剪切板
@@ -16501,6 +16813,80 @@ Size: 687912
 MD5sum: 8879f2afa8d6f276f9d78663981aec22
 SHA1: 
 SHA256: 752b625419785a39a68878365715f3295ee8664331fab35ad26906d573aa8c4d
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.0
+Installed-Size: 3500
+Filename: debs/com.mlgm.kayoko-5.0-roothide.deb
+Size: 746096
+MD5sum: 5617ae733037e95123f956d104a06e4f
+SHA1: 
+SHA256: b33f66004ac3cab1c14004d1b3130143a41fcaf5bfa90d33475fe1ef8a77c2c1
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64
+Version: 5.0
+Installed-Size: 3516
+Filename: debs/com.mlgm.kayoko-5.0-rootless.deb
+Size: 746184
+MD5sum: cc6953e6c35f1b6f4f48f7ef217a91ab
+SHA1: 
+SHA256: f21f93f5a2ceacb3f97ed257c8e464ff46fc78cc3d1588018696dc086090df55
+
+Package: com.mlgm.prefnest
+Name: PrefNest
+Description: 整理设置首页，集中收纳越狱插件。
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 808
+Filename: debs/com.mlgm.prefnest-1.1-roothide.deb
+Size: 151784
+MD5sum: fd922d44ed60ef0aabea8ba67c642ae3
+SHA1: 
+SHA256: 86dbdf8c11ce435eb827a5c683659c8c6df37937211250feda6f50d88ac4ecfa
+
+Package: com.mlgm.prefnest
+Name: PrefNest
+Description: 整理设置首页，集中收纳越狱插件。
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 808
+Filename: debs/com.mlgm.prefnest-1.1-rootless.deb
+Size: 152236
+MD5sum: ee3f3d958c0cb5e3a37b743d1fd6fb35
+SHA1: 
+SHA256: 231163505b5357e0d4e080740d3b6c9990424f46b737e04b2ff9f5cebeb3ebc1
 
 Package: com.mlgm.pulloverx
 Name: PullOver X 分屏
@@ -19510,6 +19896,42 @@ Size: 338588
 MD5sum: fcc56d9b3eb582d081071f8f47c7d121
 SHA1: 
 SHA256: 012e66c46c5be78fba6b8cea15eab5999444f96542120cf1eaf0244b48083cd8
+
+Package: com.ngkhoi.26home
+Name: 26Home
+Depends: mobilesubstrate | ellekit, preferenceloader
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（隐根 RootHide）
+Maintainer: ngkhoi
+Author: ngkhoi
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.3.7-clear-icon-controls-zh
+Installed-Size: 29340
+Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+Filename: debs/com.ngkhoi.26home-1.3.7-clear-icon-controls-zh-roothide.deb
+Size: 20523052
+MD5sum: 52d30935c5f569f81cdad121139f15ef
+SHA1: 
+SHA256: 4d98dc037baa9ae3c323702fb942fbcc81d6b737c67fd0bf172ed5421cfe494d
+
+Package: com.ngkhoi.26home
+Name: 26Home
+Depends: mobilesubstrate | ellekit, preferenceloader
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（无根 rootless）
+Maintainer: ngkhoi
+Author: ngkhoi
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.3.7-clear-icon-controls-zh
+Installed-Size: 29340
+Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+Filename: debs/com.ngkhoi.26home-1.3.7-clear-icon-controls-zh-rootless.deb
+Size: 20519968
+MD5sum: 55ae61da0489ff3bd8c646baaa7bba95
+SHA1: 
+SHA256: ef9e2b9117697484add0c6fd9f28e2b0664215ef77e820c76cc5622e2c445fa7
 
 Package: com.nightwind.boldersreborn
 Version: 1.1.2
@@ -30609,6 +31031,48 @@ SHA1:
 SHA256: 4d6b0d9ce2c81d1b83e436dcd7b574fd7b096f5510d3cd62d3223e27db14f236
 
 Package: com.tsangbaby.pulloverx
+Name: PullOver X
+Version: 2.2.1
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.2.1-roothide.deb
+Size: 601208
+MD5sum: caef0e7e4a833a7cea4cfde106b293c0
+SHA1: 
+SHA256: 8268b2b635a65abe663b613a5f4e3b196684a1457c36b3a2aa846d7b246d2703
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X
+Version: 2.2.1
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Filename: debs/com.tsangbaby.pulloverx-2.2.1-rootless.deb
+Size: 601724
+MD5sum: 04c49914a3c75ae49403715302508c93
+SHA1: 
+SHA256: 6afcf49025f4e4044f85ae397c5d749329d9403ab290ac03fa036ea7a924ba5f
+
+Package: com.tsangbaby.pulloverx
 Name: PullOver X 分屏
 Version: 1.9.5
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
@@ -30988,6 +31452,40 @@ Size: 4942908
 MD5sum: 59af3064cdb03c0b2a09f0b4a2297118
 SHA1: 
 SHA256: 8903cb0fc3e824341b167ef6c95888946ac7d5902d1198304184c720e63d6af6
+
+Package: com.vmgg.mlgm
+Name: VMGG
+Version: 2.0.2
+Architecture: iphoneos-arm64e
+Installed-Size: 14152
+Author: mlgm
+Maintainer: mlgm
+Section: Tweaks
+Depends: firmware (>= 14.0), roothide (>= 0.0.1)
+Description: 用于iOS的内存分析与调试工具，它是VansonMod + H5GG的结合版
+Icon: https://mlgm66.github.io/icon/vmgg.png
+Filename: debs/com.vmgg.mlgm-2.0.2-roothide.deb
+Size: 4941484
+MD5sum: af8f758cab4ec664761e8d24892dd427
+SHA1: 
+SHA256: 05be910a347c75f96f984dc10740288dc44ba152bdc86f54dbad2f7dfcd08a9b
+
+Package: com.vmgg.mlgm
+Name: VMGG
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Installed-Size: 14152
+Author: mlgm
+Maintainer: mlgm
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Description: 用于iOS的内存分析与调试工具，它是VansonMod + H5GG的结合版
+Icon: https://mlgm66.github.io/icon/vmgg.png
+Filename: debs/com.vmgg.mlgm-2.0.2-rootless.deb
+Size: 4938704
+MD5sum: 6cc59a3330fc5c3e8112de7b8cbc819d
+SHA1: 
+SHA256: c87ff672f24588f14741507f4e13771c7d4fe7b23a66da2f2586dd88b596d16e
 
 Package: com.wangyuan.trollvnc
 Name: TrollVNC 王源构建版
