@@ -33028,17 +33028,18 @@ Package: fanqiefn
 Name: 番茄净化
 Maintainer: 5hux1n
 Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
-Section: Roothide
+Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 3.0.2
 Installed-Size: 240
 icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+Author: 5hux1n
 Filename: debs/fanqiefn-3.0.2-roothide.deb
-Size: 25996
-MD5sum: d924380697714df54930c6406c754f9c
+Size: 26032
+MD5sum: e986c99a73e5ba7e4d94c05ae5cfaa1b
 SHA1: 
-SHA256: 47557445506c8f3627ab490a509a98ad36e69a3b8398bf15328475e6f2637ae2
+SHA256: 64687a4329dac8fe072c89f47b99f28721b1029cd25ebcc0723af7f1eb44d5e5
 
 Package: fanqiefn
 Name: 番茄净化
@@ -33050,11 +33051,12 @@ Architecture: iphoneos-arm64
 Version: 3.0.2
 Installed-Size: 240
 icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+Author: 5hux1n
 Filename: debs/fanqiefn-3.0.2-rootless.deb
-Size: 26032
-MD5sum: 89fccf1414df31c095808bd6d60929b4
+Size: 25996
+MD5sum: d6a92e3f93240eca5d926e36ae2a0ace
 SHA1: 
-SHA256: e7084284e4ea86960432ceb4315df1f7d8786bc129bc8dcee03ed2ed4dc56925
+SHA256: 61cb91837b234f41e2674b2b4d06dba060310338b791d0f790067d54f862780e
 
 Package: Flex3beta
 Name: Flex3 Beta可解析版
