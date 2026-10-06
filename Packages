@@ -3625,6 +3625,40 @@ MD5sum: 795fc2c86488797e8956ae6ea5c96bc6
 SHA1: 
 SHA256: 40d689f3485ebcb51b9b9d8e714f0fa334ca8515619d6b5ff50e5b1fde2fc062
 
+Package: com.banshengnianhua.tracex
+Name: TraceX
+Description: 可选择目标 App 的原生交互与函数入口追踪工具。记录触摸/View 层级、UIControl 与手势 target/action、页面跳转、NSURLSession/WKWebView 请求和外部 URL。只有明确开启的普通用户 App 才加载重型追踪核心；系统/越狱 App 不加载 TraceXCore。每次目标 App 新进程启动都会重置 Documents/TraceX.log。
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.8
+Installed-Size: 584
+icon: https://huayuarc.github.io/icon/tracex.png
+Filename: debs/com.banshengnianhua.tracex-1.0.8-roothide.deb
+Size: 46720
+MD5sum: 0e302252b683440b64e7f53e8669a660
+SHA1: 
+SHA256: 158bffe4a768c2386619c449d88b5ba23f05381ace4c0401848bc8b9cb493152
+
+Package: com.banshengnianhua.tracex
+Name: TraceX
+Description: 可选择目标 App 的原生交互与函数入口追踪工具。记录触摸/View 层级、UIControl 与手势 target/action、页面跳转、NSURLSession/WKWebView 请求和外部 URL。只有明确开启的普通用户 App 才加载重型追踪核心；系统/越狱 App 不加载 TraceXCore。每次目标 App 新进程启动都会重置 Documents/TraceX.log。
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Installed-Size: 584
+icon: https://huayuarc.github.io/icon/tracex.png
+Filename: debs/com.banshengnianhua.tracex-1.0.8-rootless.deb
+Size: 46716
+MD5sum: 92c274426715695063c9ae24c872dd01
+SHA1: 
+SHA256: e1706b32d97515c107a4d76db486bba949df9b2941a09028538d44d0df7c80f7
+
 Package: com.be-huge.custom-notification-sound
 Name: CustomWeChatNotificationSound
 Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）。使用方式：在对话框中，长按对方头像即可。
