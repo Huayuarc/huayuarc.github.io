@@ -6199,6 +6199,40 @@ MD5sum: 99294ce186e40a93dcd75ee954dca0f9
 SHA1: 
 SHA256: 20d1a4158e58b2839eaba31b2e2cfc97a68415f7ff07d222b7257a46ea342198
 
+Package: com.crctdd.shorbar
+Name: ShortBar
+Depends: mobilesubstrate, preferenceloader
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 560
+icon: https://huayuarc.github.io/icon/shorbar.png
+Filename: debs/com.crctdd.shorbar-1.0.1-roothide.deb
+Size: 87480
+MD5sum: 4d823f7d59712e23f3cf41a501fd4982
+SHA1: 
+SHA256: d31ef40e9128f3db297a83fab04ed32bf5d97f71c80afa5885e743201b8f0855
+
+Package: com.crctdd.shorbar
+Name: ShortBar
+Depends: mobilesubstrate, preferenceloader
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 560
+icon: https://huayuarc.github.io/icon/shorbar.png
+Filename: debs/com.crctdd.shorbar-1.0.1-rootless.deb
+Size: 87424
+MD5sum: e6c98a8d4e5c6cd02467a9d8779b23f6
+SHA1: 
+SHA256: 8a5c09ac5dde35a158c56a107a2e140ca52d1120ca6b9e752997137ae1a70cc2
+
 Package: com.crctdd.stayalivelite
 Name: StayAlive Lite
 Description: 为指定App开启守护后台，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
@@ -7184,6 +7218,42 @@ Size: 44924
 MD5sum: 4f3ba98ef34aba90fcee19d83b3c96bd
 SHA1: 
 SHA256: 23aaa3e5687b61cf7b256e07a4a46483535cf6e8a90c3b5fa4c17b8eb5ea1c58
+
+Package: com.dao.little16
+Name: Little16
+Author: michaelmelita1 & daodao
+Description: 为直屏设备（iPhone7/8/SE2 等）带来 iPhone X 手势，并支持 iPad 风格状态栏、Dock 和锁屏快捷按钮（手电筒/相机），无需设置。
+Depends: mobilesubstrate, firmware (>= 15.0)
+Maintainer: daodao
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/little16.jpg
+Conflicts: com.michaelmelita1.little16
+Architecture: iphoneos-arm64e
+Version: 0.0.10
+Installed-Size: 168
+Filename: debs/com.dao.little16-0.0.10-roothide.deb
+Size: 7712
+MD5sum: 6fb12983adbf3024578ea7e76b60756b
+SHA1: 
+SHA256: 2da982f141b5c05bd97a3a291611d17216cf9643929747df317638f8173b8389
+
+Package: com.dao.little16
+Name: Little16
+Author: michaelmelita1 & daodao
+Description: 为直屏设备（iPhone7/8/SE2 等）带来 iPhone X 手势，并支持 iPad 风格状态栏、Dock 和锁屏快捷按钮（手电筒/相机），无需设置。
+Depends: mobilesubstrate, firmware (>= 15.0)
+Maintainer: daodao
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/little16.jpg
+Conflicts: com.michaelmelita1.little16
+Architecture: iphoneos-arm64
+Version: 0.0.10
+Installed-Size: 168
+Filename: debs/com.dao.little16-0.0.10-rootless.deb
+Size: 7772
+MD5sum: c0222b755c93cf46e244c0f096613a6e
+SHA1: 
+SHA256: ad2898a2546068ce6391e06f7344a3e7e443fa66a8eaa1d63b2df1a35abec5f5
 
 Package: com.dao.pulloverx
 Name: PullOverX 分屏
@@ -21313,6 +21383,47 @@ Size: 458824
 MD5sum: 67275518c269bffe96822adda119d941
 SHA1: 
 SHA256: 0b04f947ff049e32cb8dccab1d001dd329c622f7435ce75d25602655b758a77a
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.5
+Installed-Size: 3112
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.qq391160.cpucore-2.0.5-roothide.deb
+Size: 448036
+MD5sum: 80e5fefb63b19980ef4b226a67e0253e
+SHA1: 
+SHA256: a76fd399edaa4e5f00c59164584f1561bdaad1ef7d417cde4d7b3c9c11b4e398
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0.0)
+Architecture: iphoneos-arm64
+Version: 2.0.5
+Installed-Size: 3112
+Filename: debs/com.qq391160.cpucore-2.0.5-rootless.deb
+Size: 461356
+MD5sum: f5098b4b521c571dcbdce3f89cef9784
+SHA1: 
+SHA256: ccad11b4a5c25ad861bb735b32154ce96113c280f959fc7d28293d95b31291d1
 
 Package: com.qq391160.pulloverplus
 Name: PullOver Plus
