@@ -14781,21 +14781,42 @@ SHA1:
 SHA256: ea5d761d66e7998e87c6081b348c7c0b0b75807f27afa817478f6da4b68adff0
 
 Package: com.johndie.triggr
-Name: Triggr 汉化版
-Description: 面向 rootless Dopamine 的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 A12 及更新机型（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
-Maintainer: 777qwq
+Name: Triggr
+Description: 面向现代越狱的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 iOS 15–18，A12 及更新机型（arm64e）。
+Maintainer: John d_ie
 Author: John d_ie
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Depiction: https://muzikeji.github.io/sileo/depictions/com.johndie.triggr.html
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.johndie.triggr.json
 Architecture: iphoneos-arm64e
-Version: 1.0.4+cn1
-Installed-Size: 1556
+Version: 1.0.4.1
+Installed-Size: 756
 icon: https://huayuarc.github.io/icon/triggr.png
-Filename: debs/com.johndie.triggr-1.0.4+cn1-roothide.deb
-Size: 178284
-MD5sum: 2c69d726d3f08ac87ccc2a8d51ecd8f7
+Filename: debs/com.johndie.triggr-1.0.4.1-roothide.deb
+Size: 132832
+MD5sum: badef6e62a7dfe9471abb0ea6429e093
 SHA1: 
-SHA256: 7e75a4df0da201f2c2ff5209247a250c8697f447aae0c0021fb4cbfb07e2f2bc
+SHA256: 8fa019f2c66a817df21711bcc4e98f8e71d2d0caac7311c7c8ef053b2b6f73f5
+
+Package: com.johndie.triggr
+Name: Triggr
+Description: 面向现代越狱的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 iOS 15–18，A12 及更新机型（arm64e）。
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Depiction: https://muzikeji.github.io/sileo/depictions/com.johndie.triggr.html
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.johndie.triggr.json
+Architecture: iphoneos-arm64
+Version: 1.0.4.1
+Installed-Size: 724
+icon: https://huayuarc.github.io/icon/triggr.png
+Filename: debs/com.johndie.triggr-1.0.4.1-rootless.deb
+Size: 131304
+MD5sum: 8c2cf51cef131bb66e593df36e3b843b
+SHA1: 
+SHA256: 3503e6fbea3c2e709132b429f2447e615fc809cdbc5e574ce07463f070601464
 
 Package: com.jontelang.instalauncher2
 Section: Tweaks
