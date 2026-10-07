@@ -2316,7 +2316,7 @@ Package: com.25mao.leftpan
 Description: 左滑返回上一页面
 Version: 2.0
 Priority: optional
-Section: Rootless
+Section: Tweaks
 Maintainer: admin@25mao.com
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
 Architecture: iphoneos-arm64
@@ -2324,10 +2324,10 @@ Name: 左滑返回
 Author: Mao
 icon: https://huayuarc.github.io/icon/leftPan.png
 Filename: debs/com.25mao.leftpan-2.0-rootless.deb
-Size: 32528
-MD5sum: 0efac3b0d450ff2f8ef983f061f62a41
+Size: 32536
+MD5sum: 973f84a087868f65f8735b2c6344d762
 SHA1: 
-SHA256: ff54feed870c8f9f97657896d6350ad092667c9008151040aade12f16e76ab47
+SHA256: e2ea6254c3218a21dc7521a28a140de05f3d389ae68d9102e860d5c383585f68
 
 Package: com.25mao.msgfilt.roothide
 Description: 消息屏蔽助手
@@ -7023,7 +7023,7 @@ Name: HotspotPro
 Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
 Maintainer: DangKhoa <dangkhoa116@gmail.com>
 Author: DangKhoa <dangkhoa116@gmail.com>
-Section: Networking
+Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
 Tag: purpose::extension, role::enduser
 Architecture: iphoneos-arm64e
@@ -7032,17 +7032,17 @@ Installed-Size: 1060
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/HotspotPro.jpg
 Filename: debs/com.dangkhoa.hotspotpro-0.6.9-roothide.deb
-Size: 97392
-MD5sum: c48a83d9fb3139e4d3fcb10820a65e12
+Size: 97304
+MD5sum: a1fff10ca294db2315b76bffe645936d
 SHA1: 
-SHA256: 9012db883317c74e383981b99f46d482b5e08d1545bffb1bebe6842103a7ab67
+SHA256: 520da5224b672db8856126d4b2c148c4556ec38e19ca634c8da012c9e50d0fa1
 
 Package: com.dangkhoa.hotspotpro
 Name: HotspotPro
 Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
 Maintainer: DangKhoa <dangkhoa116@gmail.com>
 Author: DangKhoa <dangkhoa116@gmail.com>
-Section: Networking
+Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
 Tag: purpose::extension, role::enduser
 Architecture: iphoneos-arm64
@@ -7050,17 +7050,17 @@ Version: 0.6.9
 Installed-Size: 1060
 icon: https://huayuarc.github.io/icon/HotspotPro.jpg
 Filename: debs/com.dangkhoa.hotspotpro-0.6.9-rootless.deb
-Size: 100056
-MD5sum: 334de3a356c0bc4268fd4774583225a5
+Size: 100084
+MD5sum: 9f190cddf07e6799fc8a0df05d41ce0b
 SHA1: 
-SHA256: 00527e6fc7a02a8bfa29d9e277cdc58b00f042d6b34b429ffdea5f869f4cb4d2
+SHA256: d50957fdcc71aa26d6057512aed595637085f6ffa4d675faee9c97b5c23aec08
 
 Package: com.dangkhoa.hotspotpro
 Name: HotspotPro
 Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
 Maintainer: DangKhoa <dangkhoa116@gmail.com>
 Author: DangKhoa <dangkhoa116@gmail.com>
-Section: Networking
+Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
 Tag: purpose::extension, role::enduser
 Architecture: iphoneos-arm64e
@@ -7069,17 +7069,17 @@ Installed-Size: 1064
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/HotspotPro.jpg
 Filename: debs/com.dangkhoa.hotspotpro-0.7.0-roothide.deb
-Size: 103328
-MD5sum: f0ace6ea230ad9e5f72d9e1caae35883
+Size: 103548
+MD5sum: 28c8e8bbd4501031b1309c3d1b7fe789
 SHA1: 
-SHA256: 74e6107f37aef87427ec33ee60399ca1dc2f4e320b8cd65b23b561ef15122217
+SHA256: 1d6976e83615470436f7f90957663cbe5ed79dc20b244fb2c9e932d8aa64a9eb
 
 Package: com.dangkhoa.hotspotpro
 Name: HotspotPro
 Description: See how much data your Personal Hotspot has shared, who is using it, and cap them. 查看个人热点已共享的数据用量、接入设备，并可为设备设置流量上限。
 Maintainer: DangKhoa <dangkhoa116@gmail.com>
 Author: DangKhoa <dangkhoa116@gmail.com>
-Section: Networking
+Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
 Tag: purpose::extension, role::enduser
 Architecture: iphoneos-arm64
@@ -7087,10 +7087,10 @@ Version: 0.7.0
 Installed-Size: 1064
 icon: https://huayuarc.github.io/icon/HotspotPro.jpg
 Filename: debs/com.dangkhoa.hotspotpro-0.7.0-rootless.deb
-Size: 106452
-MD5sum: b1ce98eac699fa9b7bfcfe1d96cc93e9
+Size: 106760
+MD5sum: 8c8f6dfceb4d2ee79b8372c654cca089
 SHA1: 
-SHA256: 834bc7a864e983ae58d7a97ca4b7a7566fe987aabddf687ce368ca451a72391d
+SHA256: 73c55fa6613a2b334fe2e6dd6c2281bc293dd85b3d137510410cdb2f9f18ae55
 
 Package: com.dao.cchide
 Name: CCLess++(bootstrap)
@@ -10346,42 +10346,6 @@ Size: 273236
 MD5sum: cb24c111ce1216f93ecd62ce938c20c8
 SHA1: 
 SHA256: 671f4ca436f696241ce7c8082ae4fc7d2a4979cb4e209f258c7ad32f9738e61b
-
-Package: com.huayuarc.cputhermalpro
-Name: CPU 解除温控
-Author: Huayuarc
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，阻止高温系统降频与降亮度、阻止系统原生调频，并内置 CPU/GPU/Package 温控旁路、ProMotion 120Hz 与亮度守护（拦截一切降低亮度/背光的写入）。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: Huayuarc
-Section: Tweaks
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64e
-Version: 1.6.2-164
-Installed-Size: 1648
-Filename: debs/com.huayuarc.cputhermalpro-1.6.2-164-roothide.deb
-Size: 115080
-MD5sum: 8f41012e0a553d0a978e46727a45df56
-SHA1: 
-SHA256: 05f0b7c641aa60e1394346d05a7b35f40dbf4ca4b1a9cc46dfb25be8e1d95320
-
-Package: com.huayuarc.cputhermalpro
-Name: CPU 解除温控
-Author: Huayuarc
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，阻止高温系统降频与降亮度、阻止系统原生调频，并内置 CPU/GPU/Package 温控旁路、ProMotion 120Hz 与亮度守护（拦截一切降低亮度/背光的写入）。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: Huayuarc
-Section: Tweaks
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64
-Version: 1.6.2-164
-Installed-Size: 1664
-Filename: debs/com.huayuarc.cputhermalpro-1.6.2-164-rootless.deb
-Size: 119848
-MD5sum: ccf2fc92c2ad00cb7ba5923080878e28
-SHA1: 
-SHA256: 93f8b0294404137696ab4abf1d3d32c61f057fa8ac20ae7601ee5b617c7802b6
 
 Package: com.huayuarc.facedownlock
 Name: 设备朝下自动锁屏
