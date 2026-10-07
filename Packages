@@ -21493,44 +21493,6 @@ MD5sum: f5098b4b521c571dcbdce3f89cef9784
 SHA1: 
 SHA256: ccad11b4a5c25ad861bb735b32154ce96113c280f959fc7d28293d95b31291d1
 
-Package: com.qq391160.pulloverplus
-Name: PullOver Plus
-Version: 1.0.566
-Description: 此插件基于 PullOver X（原作者 mlgm）与 PullOver Pro 修改；本版为 qq391160 的增强版。
-Section: Tweaks
-Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro, com.huayuarc.pulloverplus
-Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro, com.huayuarc.pulloverplus
-Priority: optional
-Architecture: iphoneos-arm64e
-Author: qq391160（基于 mlgm 的 PullOver X）
-dev: mlgm
-Icon: https://mlgm66.github.io/icon/pullover.png
-Maintainer: qq391160
-Filename: debs/com.qq391160.pulloverplus-1.0.566-roothide.deb
-Size: 378704
-MD5sum: 759167d5ee56e968b79c46b5b22154ce
-SHA1: 
-SHA256: 5efa8d841dd8d95eeb57616218e8110bf3f374cafa14cb69192db7ecae02908a
-
-Package: com.qq391160.pulloverplus
-Name: PullOver Plus
-Version: 1.0.566
-Description: 此插件基于 PullOver X（原作者 mlgm）与 PullOver Pro 修改；本版为 qq391160 的增强版。
-Section: Tweaks
-Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro, com.huayuarc.pulloverplus
-Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro, com.huayuarc.pulloverplus
-Priority: optional
-Architecture: iphoneos-arm64
-Author: qq391160（基于 mlgm 的 PullOver X）
-dev: mlgm
-Icon: https://mlgm66.github.io/icon/pullover.png
-Maintainer: qq391160
-Filename: debs/com.qq391160.pulloverplus-1.0.566-rootless.deb
-Size: 378540
-MD5sum: 831c69177ee5f3eb0990d23fb0acb9b6
-SHA1: 
-SHA256: 6c4dd35aa30fd031eaffc9c4f2dcda180c448ac436c3f196b2e88f740d3f8401
-
 Package: com.rain.actionbutton
 Name: Rain的操作按钮
 Description: 为 iPhone 15 Pro/Pro Max 操作按钮提供三页面板，包含剪贴板、自定义背景和系统动作。仅支持 iOS 17.0-17.3.1。
