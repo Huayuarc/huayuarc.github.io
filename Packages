@@ -33588,6 +33588,38 @@ MD5sum: 7e4df2137cb6aeac62de280d7e47e47e
 SHA1: 
 SHA256: bc1a89cce741ecec9cd8670902e5c4fa43221d145946a69bf603d0a78be15ff6
 
+Package: hongguofn
+Name: 红果净化
+Maintainer: 5hux1n
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 340
+Filename: debs/hongguofn-1.0.0-roothide.deb
+Size: 54728
+MD5sum: 443d0a05725125125e50998deee40118
+SHA1: 
+SHA256: 04e0a5ac9af6a10fd773859cdf57f9a44ccd6c63b00dba2e3379b22390359ad8
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: 5hux1n
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 340
+Filename: debs/hongguofn-1.0.0-rootless.deb
+Size: 54952
+MD5sum: 3dae3ce5eaf7bb3c82c74c28e1ee1f45
+SHA1: 
+SHA256: 7ebabd1bd464e32460824811bae2677bbd11cdc9bb32b7ef7d3728c9837af60d
+
 Package: im.mjh.fakeperm
 Name: 虚拟权限 · Fake Permission
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
