@@ -14780,6 +14780,23 @@ MD5sum: 346e50faa2cbb1e2ec7d79cec2f34d0d
 SHA1: 
 SHA256: ea5d761d66e7998e87c6081b348c7c0b0b75807f27afa817478f6da4b68adff0
 
+Package: com.johndie.triggr
+Name: Triggr 汉化版
+Description: 面向 rootless Dopamine 的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 A12 及更新机型（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Maintainer: 777qwq
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.4+cn1
+Installed-Size: 1556
+icon: https://huayuarc.github.io/icon/triggr.png
+Filename: debs/com.johndie.triggr-1.0.4+cn1-roothide.deb
+Size: 178284
+MD5sum: 2c69d726d3f08ac87ccc2a8d51ecd8f7
+SHA1: 
+SHA256: 7e75a4df0da201f2c2ff5209247a250c8697f447aae0c0021fb4cbfb07e2f2bc
+
 Package: com.jontelang.instalauncher2
 Section: Tweaks
 Installed-Size: 1188
@@ -30579,6 +30596,41 @@ Size: 25090828
 MD5sum: 176804ce594cf95fce22c3e195669c69
 SHA1: 
 SHA256: 51ac27a58198ecc751afcf769ab9522beb1246b2d0a368458f4bc21066e14a3b
+
+Package: com.triggr.cn.l10n
+Name: Triggr 汉化补丁
+Description: Triggr 的汉化补丁，配合 Triggr 1.0.4+ 使用。
+Maintainer: 777qwq
+Author: 777qwq
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.4.1-cn.6
+Installed-Size: 264
+icon: https://huayuarc.github.io/icon/triggr.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.triggr.cn.l10n-1.0.4.1-cn.6-roothide.deb
+Size: 21512
+MD5sum: 78ae662e73b424d186b6b11444ed9de3
+SHA1: 
+SHA256: 5d60ba99734a224c171df6907e58215bab92ace8e6e0b5cf2008f0971056a718
+
+Package: com.triggr.cn.l10n
+Name: Triggr 汉化补丁
+Description: Triggr 的汉化补丁，配合 Triggr 1.0.4+ 使用。
+Maintainer: 777qwq
+Author: 777qwq
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.4.1-cn.6
+Installed-Size: 264
+icon: https://huayuarc.github.io/icon/triggr.png
+Filename: debs/com.triggr.cn.l10n-1.0.4.1-cn.6-rootless.deb
+Size: 22184
+MD5sum: 401d8e263e54be38af07547a441bf582
+SHA1: 
+SHA256: 82183b50a329b1f5bd53b38395740a0191df385f6f455639e33ca5060cb1228b
 
 Package: com.tsangbaby.kayoko
 Name: Kayoko
