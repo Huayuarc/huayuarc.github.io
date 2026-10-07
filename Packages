@@ -7929,6 +7929,40 @@ MD5sum: 5a3b3661b94dd7fd6146eb86926f527d
 SHA1: 
 SHA256: 7458e5b3be8d76bb3ac6bde88256b19c04894c445f9b48dbff8cc2b4a5d20dd7
 
+Package: com.dynamicx.tweak
+Name: DynamicX
+Description: 万物皆上岛
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+Architecture: iphoneos-arm64e
+Version: 1.5
+Installed-Size: 2280
+Filename: debs/com.dynamicx.tweak-1.5-roothide.deb
+Size: 197632
+MD5sum: 5012016afe8b3a729d482d42bca1ae6e
+SHA1: 
+SHA256: 7547b5d50e96aa910d758357c799a1d175881a4f538dc99e8ebfe4a7717076ea
+
+Package: com.dynamicx.tweak
+Name: DynamicX
+Description: 万物皆上岛
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+Architecture: iphoneos-arm64
+Version: 1.5
+Installed-Size: 2292
+Filename: debs/com.dynamicx.tweak-1.5-rootless.deb
+Size: 197532
+MD5sum: 822d3860697a6209135ec465576dac5e
+SHA1: 
+SHA256: 692e01b9a2a02b509d6747bc8ae1630f8ad729b44ff77bacd30a1bb9f5c38345
+
 Package: com.eliassfeir.no2theftios15
 Name: No2Theft
 Depends: ws.hbang.common
