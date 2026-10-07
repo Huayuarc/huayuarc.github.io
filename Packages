@@ -33519,6 +33519,38 @@ MD5sum: d6a92e3f93240eca5d926e36ae2a0ace
 SHA1: 
 SHA256: 61cb91837b234f41e2674b2b4d06dba060310338b791d0f790067d54f862780e
 
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: 5hux1n
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://fanqie.goforit.si
+Architecture: iphoneos-arm64e
+Version: 3.0.3
+Installed-Size: 240
+Filename: debs/fanqiefn-3.0.3-roothide.deb
+Size: 28796
+MD5sum: 129b6ee4470c27c1b14601bc70a6ba25
+SHA1: 
+SHA256: 73fce2ade031c016abc1149b946b88dd0bf5195b246c13ae736a367b8a513f4e
+
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: 5hux1n
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://fanqie.goforit.si
+Architecture: iphoneos-arm64
+Version: 3.0.3
+Installed-Size: 240
+Filename: debs/fanqiefn-3.0.3-rootless.deb
+Size: 28792
+MD5sum: 03c63c2a9f671df9035e7b9f63c77003
+SHA1: 
+SHA256: aa94912edf5706e66e73605ac0dbcf334ad59f56c0684e505fd08c1e5a7e39ea
+
 Package: Flex3beta
 Name: Flex3 Beta可解析版
 Depends: mobilesubstrate, firmware (>= 9.0)
@@ -33629,6 +33661,46 @@ Size: 34956
 MD5sum: f5745ebd0746c59acc5594f19033f389
 SHA1: 
 SHA256: 8eeded9b2173f12940479286f6a581219673372634179e2576c8aed0d1326af8
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64e
+Version: 3.0.0
+Installed-Size: 488
+Filename: debs/im.mjh.xianyuadblock-3.0.0-roothide.deb
+Size: 82968
+MD5sum: e184065a4d01197a6606094d309842f6
+SHA1: 
+SHA256: 36d92a4d5da5612aaa69b8307a8641d19d9ea556d8f01b04c344fe89281b9e93
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64
+Version: 3.0.0
+Installed-Size: 488
+Filename: debs/im.mjh.xianyuadblock-3.0.0-rootless.deb
+Size: 83076
+MD5sum: ccd705af8a5ce6db7c0b7229b179fdda
+SHA1: 
+SHA256: 7a9b942736b169c14b38ea98af0787de1a2816d2d7b48e25016519067e30e653
 
 Architecture: iphoneos-arm64
 Package: im.mjh.xianyuhelper
