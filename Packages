@@ -36050,40 +36050,6 @@ MD5sum: 5d0f04296f63362f35a7352d38278dd0
 SHA1: 
 SHA256: c3ee1703e7e360d82c5abd256fa4af5911a68c149fdbfb47ac9c97c4d135d6ed
 
-Package: netskao.alipayfuk
-Version: 1.2-2
-Section: Tweaks
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Architecture: iphoneos-arm64e
-Installed-Size: 160
-Name: AlipayFuk
-Author: Netskao
-Description: 通过控制中心快捷打开支付宝付款码，设置-控制中心-自定控制内添加后使用
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/alipayfuk.png
-Filename: debs/netskao.alipayfuk-1.2-2-roothide.deb
-Size: 36532
-MD5sum: e73e9682170d1c8ceb0e162d5b16a3a4
-SHA1: 
-SHA256: 2233338f7871085e036281d226a82271377d73e91b5186d9b0a0ccc58dce5045
-
-Package: netskao.alipayfuk
-Architecture: iphoneos-arm64
-Name: AlipayFuk
-Version: 1.2-2
-Description: 通过控制中心快捷打开支付宝付款码，设置-控制中心-自定控制内添加后使用
-Author: Netskao <xuanhua880@gmail.com>
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Maintainer: Nets <xuanhua880@gmail.com>
-icon: https://huayuarc.github.io/icon/alipayfuk.png
-Filename: debs/netskao.alipayfuk-1.2-2-rootless.deb
-Size: 36420
-MD5sum: 21023901bc9a29769e05ce0271e57ecd
-SHA1: 
-SHA256: af04d0cf001b2af62dfe3a60569808d92c630484a13f29d738ca7d64280300d3
-
 Package: netskao.alipayscan
 Version: 1.2-2
 Section: Tweaks
@@ -36562,40 +36528,6 @@ Size: 92548
 MD5sum: 6492c28fe4b4e0a03540e7d5f800d818
 SHA1: 
 SHA256: cd7c3b2b3c65f093c3340932ed057176fefcbceba750dfb367fc43beb8081983
-
-Package: netskao.wechatfuk
-Version: 1.2-2
-Section: Tweaks
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Architecture: iphoneos-arm64e
-Installed-Size: 160
-Name: WeChatFuk
-Author: Netskao
-Description: 通过控制中心快捷打开微信付款码，设置-控制中心-自定控制内添加后使用
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/wechatfuk.png
-Filename: debs/netskao.wechatfuk-1.2-2-roothide.deb
-Size: 23092
-MD5sum: ddbfa51bb64de071d13997c8d3183447
-SHA1: 
-SHA256: 58704b6283e3f5c8704b59b929a07cdd4aacf0c14265ea073852dddb2d55e6ec
-
-Package: netskao.wechatfuk
-Architecture: iphoneos-arm64
-Name: WeChatFuk
-Version: 1.2-2
-Description: 通过控制中心快捷打开微信付款码，设置-控制中心-自定控制内添加后使用
-Author: Netskao <xuanhua880@gmail.com>
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Maintainer: Nets <xuanhua880@gmail.com>
-icon: https://huayuarc.github.io/icon/wechatfuk.png
-Filename: debs/netskao.wechatfuk-1.2-2-rootless.deb
-Size: 22984
-MD5sum: c8c227b6fbc9314228fbe6142ad0ebb0
-SHA1: 
-SHA256: 14ef4f5a1a28a1aeb12ef84c26ab85d81749bc78e39fe2535974addc67f02042
 
 Package: netskao.wechatscan
 Version: 1.2-2
@@ -38497,4 +38429,72 @@ Size: 1613428
 MD5sum: 4281e22a42df03a2aec73a6439fda9d1
 SHA1: 
 SHA256: e4146710fbae4f9e0f33fb3ccc3b61c6376074e8ab4b73b2d8609e0f86354c6b
+
+Package: zqbb.alipayfuk
+Version: 1.0.2
+Section: Tweaks
+Maintainer: zqbb
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Installed-Size: 160
+Name: AlipayFuk
+Author: zqbb
+Description: 通过控制中心快捷打开支付宝付款码，设置-控制中心-自定控制内添加后使用
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/alipayfuk.png
+Filename: debs/zqbb.alipayfuk-1.0.2-roothide.deb
+Size: 36520
+MD5sum: 31c9a64aab0af369c4d6598f1bde723e
+SHA1: 
+SHA256: 376ba538e21fc1d25e8fc3ff51c01ab578e2e1b23acba9f1a37d101b3def8b9b
+
+Package: zqbb.alipayfuk
+Architecture: iphoneos-arm64
+Name: AlipayFuk
+Version: 1.0.2
+Description: 通过控制中心快捷打开支付宝付款码，设置-控制中心-自定控制内添加后使用
+Author: zqbb <xuanhua880@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Maintainer: zqbb <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/alipayfuk.png
+Filename: debs/zqbb.alipayfuk-1.0.2-rootless.deb
+Size: 36404
+MD5sum: 834a355720014d68ea3a658b9d012379
+SHA1: 
+SHA256: 8dc4c47840c158d215a380005a9f0e3b8a66560a5a34953137890b6f9a200d2a
+
+Package: zqbb.wechatfuk
+Version: 1.0.2
+Section: Tweaks
+Maintainer: zqbb
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Installed-Size: 160
+Name: WeChatFuk
+Author: zqbb
+Description: 通过控制中心快捷打开微信付款码，设置-控制中心-自定控制内添加后使用
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/wechatfuk.png
+Filename: debs/zqbb.wechatfuk-1.0.2-roothide.deb
+Size: 23072
+MD5sum: 6867fe254f70dc4488d7334aa439aea5
+SHA1: 
+SHA256: 764740abcdad40ff8d288622039bf6a76303075b42cb922a8f50151af7f5d97f
+
+Package: zqbb.wechatfuk
+Architecture: iphoneos-arm64
+Name: WeChatFuk
+Version: 1.0.2
+Description: 通过控制中心快捷打开微信付款码，设置-控制中心-自定控制内添加后使用
+Author: zqbb <xuanhua880@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Maintainer: zqbb <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/wechatfuk.png
+Filename: debs/zqbb.wechatfuk-1.0.2-rootless.deb
+Size: 22964
+MD5sum: cd10e6611f9f4cecbb226da73c28c4fc
+SHA1: 
+SHA256: 70466e8f4fd66f800cc92fca67fd9efcb5c59d166e88a17a322a19373f64602f
 
