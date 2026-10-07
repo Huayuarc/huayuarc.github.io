@@ -36050,6 +36050,40 @@ MD5sum: 5d0f04296f63362f35a7352d38278dd0
 SHA1: 
 SHA256: c3ee1703e7e360d82c5abd256fa4af5911a68c149fdbfb47ac9c97c4d135d6ed
 
+Package: netskao.alipayfuk
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Installed-Size: 160
+Name: AlipayFuk
+Author: Netskao
+Description: 通过控制中心快捷打开支付宝付款码，设置-控制中心-自定控制内添加后使用
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/alipayfuk.png
+Filename: debs/netskao.alipayfuk-1.2-2-roothide.deb
+Size: 36532
+MD5sum: e73e9682170d1c8ceb0e162d5b16a3a4
+SHA1: 
+SHA256: 2233338f7871085e036281d226a82271377d73e91b5186d9b0a0ccc58dce5045
+
+Package: netskao.alipayfuk
+Architecture: iphoneos-arm64
+Name: AlipayFuk
+Version: 1.2-2
+Description: 通过控制中心快捷打开支付宝付款码，设置-控制中心-自定控制内添加后使用
+Author: Netskao <xuanhua880@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Maintainer: Nets <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/alipayfuk.png
+Filename: debs/netskao.alipayfuk-1.2-2-rootless.deb
+Size: 36420
+MD5sum: 21023901bc9a29769e05ce0271e57ecd
+SHA1: 
+SHA256: af04d0cf001b2af62dfe3a60569808d92c630484a13f29d738ca7d64280300d3
+
 Package: netskao.alipayscan
 Version: 1.2-2
 Section: Tweaks
@@ -36063,10 +36097,10 @@ Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/alipayscan.png
 Filename: debs/netskao.alipayscan-1.2-2-roothide.deb
-Size: 16772
-MD5sum: b74ec4fccbd9317a4a832cc857425933
+Size: 43200
+MD5sum: d429a56fd166c5a7a06008421d336fda
 SHA1: 
-SHA256: 4afeedacd4df0168103c5088bea30d74e166d0339be9a7fd9e55dd4766e0d10f
+SHA256: 66bebccf4c53b9fd99f8fb91154f87c96970a28b9b1cfc15a34bae955956b12a
 
 Package: netskao.alipayscan
 Architecture: iphoneos-arm64
@@ -36079,10 +36113,10 @@ Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Maintainer: Nets <xuanhua880@gmail.com>
 icon: https://huayuarc.github.io/icon/alipayscan.png
 Filename: debs/netskao.alipayscan-1.2-2-rootless.deb
-Size: 16612
-MD5sum: 823a2d7eef39b0c1e73b0d8959a54318
+Size: 43020
+MD5sum: 5d35fa50086b46f6c20038c2e4eb8fc8
 SHA1: 
-SHA256: a7068f0e836a3e3f8f742bd7672a5f3a661cb90d9f993d5a460c70966db635c0
+SHA256: 359970d131ad12a01ec8517bd43e0b1b762b7f9b4dd541b96b7adde0ba1381c3
 
 Package: netskao.autofaceunlock
 Version: 1.1-7
@@ -36529,6 +36563,40 @@ MD5sum: 6492c28fe4b4e0a03540e7d5f800d818
 SHA1: 
 SHA256: cd7c3b2b3c65f093c3340932ed057176fefcbceba750dfb367fc43beb8081983
 
+Package: netskao.wechatfuk
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Installed-Size: 160
+Name: WeChatFuk
+Author: Netskao
+Description: 通过控制中心快捷打开微信付款码，设置-控制中心-自定控制内添加后使用
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/wechatfuk.png
+Filename: debs/netskao.wechatfuk-1.2-2-roothide.deb
+Size: 23092
+MD5sum: ddbfa51bb64de071d13997c8d3183447
+SHA1: 
+SHA256: 58704b6283e3f5c8704b59b929a07cdd4aacf0c14265ea073852dddb2d55e6ec
+
+Package: netskao.wechatfuk
+Architecture: iphoneos-arm64
+Name: WeChatFuk
+Version: 1.2-2
+Description: 通过控制中心快捷打开微信付款码，设置-控制中心-自定控制内添加后使用
+Author: Netskao <xuanhua880@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Maintainer: Nets <xuanhua880@gmail.com>
+icon: https://huayuarc.github.io/icon/wechatfuk.png
+Filename: debs/netskao.wechatfuk-1.2-2-rootless.deb
+Size: 22984
+MD5sum: c8c227b6fbc9314228fbe6142ad0ebb0
+SHA1: 
+SHA256: 14ef4f5a1a28a1aeb12ef84c26ab85d81749bc78e39fe2535974addc67f02042
+
 Package: netskao.wechatscan
 Version: 1.2-2
 Section: Tweaks
@@ -36542,10 +36610,10 @@ Description: 通过控制中心快捷打开微信扫一扫，设置-控制中心
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/wechatscan.png
 Filename: debs/netskao.wechatscan-1.2-2-roothide.deb
-Size: 17456
-MD5sum: 7a7cdc6d81e1bd35b8ea5200a28cc0dc
+Size: 28872
+MD5sum: 55ab3d84c8846e389ae7d0ffea60f1e8
 SHA1: 
-SHA256: 0e515a979c121c5e266d6c77537862e7de001e7d2405510353209dc017609c5b
+SHA256: 6ea933faf180656b0abce118a15f56d4b6b0a0d81bbb9e607366416a354c3871
 
 Package: netskao.wechatscan
 Architecture: iphoneos-arm64
@@ -36558,10 +36626,10 @@ Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Maintainer: Nets <xuanhua880@gmail.com>
 icon: https://huayuarc.github.io/icon/wechatscan.png
 Filename: debs/netskao.wechatscan-1.2-2-rootless.deb
-Size: 17280
-MD5sum: f53802b157e4b982a2815b822db27dfe
+Size: 28712
+MD5sum: 08b2d582c4c967808f3b2ff2f6a5303d
 SHA1: 
-SHA256: dc6ccf3386093e4b26d7c7e5ad7338eaae7ed9df82ef64607b078b92522d1a4b
+SHA256: 90e538bd34b13f524676b9e1ac75ecaea3dfe04e683e2ded8b92a5f45a99b6c4
 
 Package: netskao.wrecycrack
 Version: 1.1-1
