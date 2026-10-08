@@ -3426,6 +3426,90 @@ MD5sum: d16efccd653b941027e0c982add18138
 SHA1: 
 SHA256: 19c9c8d1b7bba1007aa79a64c83762ccff073ea6090a50097871fa64eba04cc9
 
+Package: com.axs.ahsfilter
+Name: AhsFilter
+Description: 爱回收助手：点击悬浮球只开面板、长按悬浮球或点「开始爬取」才按关键词直连严选接口翻页抓全（不依赖 App 是否加载过列表）。
+ * 1.自动补全系统版本/电池效率/充电次数等机况，列表带序号
+ * 2.按机型/内存/成色/电池/价格/系统版本区间筛选
+ * 3.复制单条或全部详情链接，并可在 App 内直接打开对应商品详情页
+ * 4.数据仅保存在本机沙盒，不上传任何内容
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 5.2.0-3
+Installed-Size: 712
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/ahsfilter.jpg
+Filename: debs/com.axs.ahsfilter-5.2.0-3-roothide.deb
+Size: 124660
+MD5sum: aea7b8a2ecb9362199602e4cc7e130e3
+SHA1: 
+SHA256: f08a861573e52c27217f12043d7952435049b1b21f7b5439413ccaa996c29ec5
+
+Package: com.axs.ahsfilter
+Name: AhsFilter
+Description: 爱回收助手：点击悬浮球只开面板、长按悬浮球或点「开始爬取」才按关键词直连严选接口翻页抓全（不依赖 App 是否加载过列表）。
+ * 1.自动补全系统版本/电池效率/充电次数等机况，列表带序号
+ * 2.按机型/内存/成色/电池/价格/系统版本区间筛选
+ * 3.复制单条或全部详情链接，并可在 App 内直接打开对应商品详情页
+ * 4.数据仅保存在本机沙盒，不上传任何内容
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 5.2.0-3
+Installed-Size: 712
+icon: https://huayuarc.github.io/icon/ahsfilter.jpg
+Filename: debs/com.axs.ahsfilter-5.2.0-3-rootless.deb
+Size: 128004
+MD5sum: 601b14b40f50a3d35b46bf1bb4c63f1d
+SHA1: 
+SHA256: ae788d6e99b5526543c0651d419e3ae21dba64b450e188cb6198f572f8a7756c
+
+Package: com.axs.zzfilter
+Name: ZZFilter
+Description: 转转筛选助手
+ * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ * 2.按机型/电池/系统版本/成色/内存筛选
+ * 3.支持单条复制链接、单条打开详情页与一键复制全部链接 
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 5.2.0-8
+Installed-Size: 372
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/zhuanzhuan.png
+Filename: debs/com.axs.zzfilter-5.2.0-8-roothide.deb
+Size: 62420
+MD5sum: 556eeca2a25f6d925ba6aa2d1ac31616
+SHA1: 
+SHA256: ceb376b155bee1f100245555c50885d07646fbd6524a821271ec1b50ad69fd2f
+
+Package: com.axs.zzfilter
+Name: ZZFilter
+Description: 转转筛选助手
+ * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ * 2.按机型/电池/系统版本/成色/内存筛选
+ * 3.支持单条复制链接、单条打开详情页与一键复制全部链接 
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 5.2.0-8
+Installed-Size: 372
+icon: https://huayuarc.github.io/icon/zhuanzhuan.png
+Filename: debs/com.axs.zzfilter-5.2.0-8-rootless.deb
+Size: 63924
+MD5sum: bba345b039eaa50ce590c53d3f3c7bb4
+SHA1: 
+SHA256: 8b85818ddc5c829bb98d58bfcc2dba2599c45f1cf601fd8c92af1b396845d069
+
 Package: com.ayao.doubaopowerbutton
 Name: DoubaoPowerButton
 Description: 长按关机键触发豆包语音入口，并保留音量键加关机键的系统原始关机操作。
@@ -24186,6 +24270,41 @@ MD5sum: 2485364c160e56eabe2f7fe5e2901bde
 SHA1: 
 SHA256: 3e423fff6c3e0fb6be945fa2e1f374d9cc6263157ea5bbcf9cbd3eb755bbcab3
 
+Package: com.simon.spectrums
+Name: Spectrums
+Description: 去掉音轨在17系统上面的小黑块，动感专辑圆环均衡器，17系统不再卑微！
+Maintainer: Simon
+Author: Simon
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.0
+Installed-Size: 768
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/spectrums.png
+Filename: debs/com.simon.spectrums-2.0-roothide.deb
+Size: 120504
+MD5sum: a933a43752718c2258a49cb11f8f4ee7
+SHA1: 
+SHA256: 8a792a358eec2308b1818089e2d61548a8158f79fd6a9d91f7a3f3094e4240b0
+
+Package: com.simon.spectrums
+Name: Spectrums
+Description: 去掉音轨在17系统上面的小黑块，动感专辑圆环均衡器，17系统不再卑微！
+Maintainer: Simon
+Author: Simon
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.0
+Installed-Size: 768
+icon: https://huayuarc.github.io/icon/spectrums.png
+Filename: debs/com.simon.spectrums-2.0-rootless.deb
+Size: 123284
+MD5sum: c0226229acaf2d85acf685a3d4e04480
+SHA1: 
+SHA256: a3b44c7300c7af57c75f05f1e13ba6e7356132765555d4719a34215440c27555
+
 Package: com.sini..cccellularrate
 Version: 1.1-1
 Section: Tweaks
@@ -29204,6 +29323,41 @@ Size: 58404
 MD5sum: 68e5709eff133851508f71ada6595a5f
 SHA1: 
 SHA256: f5b194ed32b51f69b8fb6e4dce47a8fb005dd4ff148ed270a37d8b5c12d2ebf0
+
+Package: com.siwenjiajia.tweak.comm
+Name: 抖音优化
+Version: 28.35
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Conflicts: com.siwenjiajia.tweak.free
+Description: 抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。
+Author: siwenjiajia
+Maintainer: personal
+Section: Tweaks
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.siwenjiajia.tweak.comm-28.35-roothide.deb
+Size: 3589280
+MD5sum: 215f12bc72a1eabf8815d3c0f7d383ca
+SHA1: 
+SHA256: 631bbd947f3bd6bd847a25f41b8a4e8e54aeb7382574cfb94e5bd695c058f0f1
+
+Package: com.siwenjiajia.tweak.comm
+Name: 抖音优化
+Version: 28.35
+Architecture: iphoneos-arm64
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Conflicts: com.siwenjiajia.tweak.free
+Description: 抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。
+Author: siwenjiajia
+Maintainer: personal
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.siwenjiajia.tweak.comm-28.35-rootless.deb
+Size: 3587480
+MD5sum: 9168d7b559aff23311e60aae751b58e0
+SHA1: 
+SHA256: 5cf9e2be5fadbe900000ea2734dfa515cb022bbda87c6870c9add4101364f754
 
 Package: com.snail.allowlocationonce.roothide
 Version: 1.0.2
