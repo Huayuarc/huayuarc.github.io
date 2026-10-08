@@ -3426,6 +3426,90 @@ MD5sum: d16efccd653b941027e0c982add18138
 SHA1: 
 SHA256: 19c9c8d1b7bba1007aa79a64c83762ccff073ea6090a50097871fa64eba04cc9
 
+Package: com.axs.ahsfilter
+Name: AhsFilter
+Description: 爱回收助手：点击悬浮球只开面板、长按悬浮球或点「开始爬取」才按关键词直连严选接口翻页抓全（不依赖 App 是否加载过列表）。
+ * 1.自动补全系统版本/电池效率/充电次数等机况，列表带序号
+ * 2.按机型/内存/成色/电池/价格/系统版本区间筛选
+ * 3.复制单条或全部详情链接，并可在 App 内直接打开对应商品详情页
+ * 4.数据仅保存在本机沙盒，不上传任何内容
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 5.2.0-3
+Installed-Size: 712
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/ahsfilter.jpg
+Filename: debs/com.axs.ahsfilter-5.2.0-3-roothide.deb
+Size: 124660
+MD5sum: aea7b8a2ecb9362199602e4cc7e130e3
+SHA1: 
+SHA256: f08a861573e52c27217f12043d7952435049b1b21f7b5439413ccaa996c29ec5
+
+Package: com.axs.ahsfilter
+Name: AhsFilter
+Description: 爱回收助手：点击悬浮球只开面板、长按悬浮球或点「开始爬取」才按关键词直连严选接口翻页抓全（不依赖 App 是否加载过列表）。
+ * 1.自动补全系统版本/电池效率/充电次数等机况，列表带序号
+ * 2.按机型/内存/成色/电池/价格/系统版本区间筛选
+ * 3.复制单条或全部详情链接，并可在 App 内直接打开对应商品详情页
+ * 4.数据仅保存在本机沙盒，不上传任何内容
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 5.2.0-3
+Installed-Size: 712
+icon: https://huayuarc.github.io/icon/ahsfilter.jpg
+Filename: debs/com.axs.ahsfilter-5.2.0-3-rootless.deb
+Size: 128004
+MD5sum: 601b14b40f50a3d35b46bf1bb4c63f1d
+SHA1: 
+SHA256: ae788d6e99b5526543c0651d419e3ae21dba64b450e188cb6198f572f8a7756c
+
+Package: com.axs.zzfilter
+Name: ZZFilter
+Description: 转转筛选助手
+ * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ * 2.按机型/电池/系统版本/成色/内存筛选
+ * 3.支持单条复制链接、单条打开详情页与一键复制全部链接 
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 5.2.0-8
+Installed-Size: 372
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/zhuanzhuan.png
+Filename: debs/com.axs.zzfilter-5.2.0-8-roothide.deb
+Size: 62420
+MD5sum: 556eeca2a25f6d925ba6aa2d1ac31616
+SHA1: 
+SHA256: ceb376b155bee1f100245555c50885d07646fbd6524a821271ec1b50ad69fd2f
+
+Package: com.axs.zzfilter
+Name: ZZFilter
+Description: 转转筛选助手
+ * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ * 2.按机型/电池/系统版本/成色/内存筛选
+ * 3.支持单条复制链接、单条打开详情页与一键复制全部链接 
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 5.2.0-8
+Installed-Size: 372
+icon: https://huayuarc.github.io/icon/zhuanzhuan.png
+Filename: debs/com.axs.zzfilter-5.2.0-8-rootless.deb
+Size: 63924
+MD5sum: bba345b039eaa50ce590c53d3f3c7bb4
+SHA1: 
+SHA256: 8b85818ddc5c829bb98d58bfcc2dba2599c45f1cf601fd8c92af1b396845d069
+
 Package: com.ayao.doubaopowerbutton
 Name: DoubaoPowerButton
 Description: 长按关机键触发豆包语音入口，并保留音量键加关机键的系统原始关机操作。
@@ -22094,17 +22178,17 @@ Description: RemoteCompanion的中文本地化补丁。在运行时注入翻译�
 Depends: mobilesubstrate
 Maintainer: 777qwq
 Author: 777qwq
-Section: Localization
+Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 6.0.0-cn1
 Installed-Size: 592
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/remotecompanioncn.jpg
 Filename: debs/com.saihgupr.remotecompanioncn-6.0.0-cn1-roothide.deb
-Size: 25812
-MD5sum: 0dd87b4fcb4982369c7162f39df689b8
+Size: 25384
+MD5sum: f61dae5807a6f95dd56affcbfd9c6dd7
 SHA1: 
-SHA256: c6e54e6ba3e717e136231f7480efec52b846a1ba5e145d06a7e526ab9de5febc
+SHA256: 2dba1fb018306db9c15fcf4115e10b7e7bffc502ed1f17569e1c5ad7a8763b59
 
 Package: com.saihgupr.remotecompanioncn
 Name: RemoteCompanion CN (Externalized)
@@ -22112,16 +22196,16 @@ Description: RemoteCompanion的中文本地化补丁。在运行时注入翻译�
 Depends: mobilesubstrate
 Maintainer: 777qwq
 Author: 777qwq
-Section: Localization
+Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 6.0.0-cn1
 Installed-Size: 592
 icon: https://huayuarc.github.io/icon/remotecompanioncn.jpg
 Filename: debs/com.saihgupr.remotecompanioncn-6.0.0-cn1-rootless.deb
-Size: 71160
-MD5sum: 0265d1be7580f92c40abb35757a0db63
+Size: 71208
+MD5sum: 9dcd8e70970c8838d8a6e0aee3994049
 SHA1: 
-SHA256: c44a1abc5af8aa90e620a8169b4d480c753896639945aa17b59000ebe0b129ab
+SHA256: 6f77040ca788ef497242822904296bedb25ec3eaa484a460e1b07a9cf2fdfde4
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
