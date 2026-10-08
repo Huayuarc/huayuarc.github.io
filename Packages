@@ -6641,6 +6641,40 @@ MD5sum: 23a0a3966404ebed99418a8ff4acd38a
 SHA1: 
 SHA256: 79ec106cb72090a989966ca6fc5b8add739f20abf9f284f3c1b2502d33c2f45e
 
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.3.9
+Installed-Size: 984
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.3.9-roothide.deb
+Size: 160580
+MD5sum: cfa3625dba00b5e2bc5fddcf8cd3ce90
+SHA1: 
+SHA256: 4ce7430703fd69242caf009c98ebd932451bac468eec1d85069a464cd9c83bfd
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.3.9
+Installed-Size: 1928
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.3.9-rootless.deb
+Size: 236652
+MD5sum: 365bef3cfa67a050088ecec2b97a4391
+SHA1: 
+SHA256: 7f0f4efb8b6fbf4704c46865b269dd2c09677d0fe62a148a719699259a538500
+
 Package: com.crctdd.surgectl
 Name: SurgeCTL
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
@@ -15936,6 +15970,40 @@ MD5sum: c0da529ac5ad0d4d8c4c2f6fea4cf7fa
 SHA1: 
 SHA256: 98ecd3480312bc2168db1f87254fb904bc7b798744e4da9ceaa0d2aa1513e470
 
+Package: com.minis.lockscreengradientclock
+Name: 独立锁屏时间渐变
+Description: 独立的时间锁屏，不依赖 88 液态锁屏时间。如果继续想用 88 液态那种效果，不建议升级，
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.0.8
+Installed-Size: 876
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
+Filename: debs/com.minis.lockscreengradientclock-2.0.8-roothide.deb
+Size: 240392
+MD5sum: cd27a1f81c1177cb2a06f738ccd8b90b
+SHA1: 
+SHA256: 0f9057615909b39c73b8fcbfebed96bd01b85dec80ca7671625a5a737225241c
+
+Package: com.minis.lockscreengradientclock
+Name: 独立锁屏时间渐变
+Description: 独立的时间锁屏，不依赖 88 液态锁屏时间。如果继续想用 88 液态那种效果，不建议升级，
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.0.8
+Installed-Size: 876
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
+Filename: debs/com.minis.lockscreengradientclock-2.0.8-rootless.deb
+Size: 240668
+MD5sum: 34582c17792ca88b4beb39f3fc7920fd
+SHA1: 
+SHA256: ffbb68430bc0efaf1624b0e827163b9c10fb07e1569a7b6e77241b68f4cdf7c0
+
 Package: com.minis.rainbowkeyboard
 Name: 彩虹键盘光效
 Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
@@ -20477,6 +20545,40 @@ MD5sum: bfd38ad11de48d6668dcdea7a8eee5e3
 SHA1: 
 SHA256: ab1d3ab073d0972f262d5559ff89514234253c6c0e04a9a483652be6ebb5d05e
 
+Package: com.noads.tweka
+Name: NoAdsX
+Description: 去除广告。
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.2.8
+Installed-Size: 1652
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+Filename: debs/com.noads.tweka-1.2.8-roothide.deb
+Size: 304092
+MD5sum: 4e8e127e6ec528eeab343fcac08bd830
+SHA1: 
+SHA256: 4b4a588d029ec46fc595d9f4ee9083cc28d7b19761f369e14df2084a7dc57b3b
+
+Package: com.noads.tweka
+Name: NoAdsX
+Description: 去除广告。
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.2.8
+Installed-Size: 1652
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+Filename: debs/com.noads.tweka-1.2.8-rootless.deb
+Size: 303712
+MD5sum: 8f2e4c7173d241f2a0f1aa99e6e52a34
+SHA1: 
+SHA256: aada11f7e552377cce8ece92e4d3d645010735692c8770f4a979286c63b1f234
+
 Package: com.opa334.trollstorelite
 Name: TrollStore Lite
 Description: A modified TrollStore by iosdump for jailbroken iOS
@@ -21915,6 +22017,111 @@ Size: 498128
 MD5sum: a6d4dfad33872aa2c8b3b48507a2ea80
 SHA1: 
 SHA256: 2156fc497cce2bcb8bce51e7f25d8095f3d538566af0740c8ae84025aa1d5e82
+
+Package: com.saihgupr.remotecompanion
+Name: RemoteCompanion
+Depends: mobilesubstrate
+Description: Activator 取代了无根和根越狱。将触控 ID、电源/音量按钮和状态栏手势等触发器绑定到系统操作、Siri 自动化和自定义 TCP 命令。包括对iOS 14的原生arm64e支持。https://github.com/saihgupr/RemoteCompanion A modern Activator replacement for rootless and rootful jailbreaks. Bind triggers like Touch ID, Power/Volume buttons, and Status Bar gestures to system actions, Siri automation, and custom TCP commands. Includes native arm64e support for iOS 14. https://github.com/saihgupr/RemoteCompanion
+Icon: https://saihgupr.github.io/remotecompanion/CydiaIcon.png
+Maintainer: Saihgupr
+Author: Saihgupr
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 3.6.3
+Installed-Size: 2888
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.saihgupr.remotecompanion-3.6.3-roothide.deb
+Size: 977620
+MD5sum: 8363b83fc63ef4e0e0f9a7a982e0a137
+SHA1: 
+SHA256: 2cbba6e8a3e6749c21e85ca13599ae2407425f9829f413cca31710590423f1b2
+
+Package: com.saihgupr.remotecompanion
+Name: RemoteCompanion
+Depends: mobilesubstrate
+Description: Activator 取代了无根和根越狱。将触控 ID、电源/音量按钮和状态栏手势等触发器绑定到系统操作、Siri 自动化和自定义 TCP 命令。包括对iOS 14的原生arm64e支持。https://github.com/saihgupr/RemoteCompanion A modern Activator replacement for rootless and rootful jailbreaks. Bind triggers like Touch ID, Power/Volume buttons, and Status Bar gestures to system actions, Siri automation, and custom TCP commands. Includes native arm64e support for iOS 14. https://github.com/saihgupr/RemoteCompanion
+Icon: https://saihgupr.github.io/remotecompanion/CydiaIcon.png
+Maintainer: Saihgupr
+Author: Saihgupr
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 3.6.3
+Installed-Size: 2888
+Filename: debs/com.saihgupr.remotecompanion-3.6.3-rootless.deb
+Size: 987088
+MD5sum: 99297d040b5c4c4bb71a4f20f6d42f37
+SHA1: 
+SHA256: a873bc54ca6d04edb4e225c2413e0d80bd29723dbfa0d9b885a5714144599a66
+
+Package: com.saihgupr.remotecompanion
+Name: RemoteCompanion
+Depends: mobilesubstrate
+Description: Activator 取代了无根和根越狱。将触控 ID、电源/音量按钮和状态栏手势等触发器绑定到系统操作、Siri 自动化和自定义 TCP 命令。包括对iOS 14的原生arm64e支持。https://github.com/saihgupr/RemoteCompanion A modern Activator replacement for rootless and rootful jailbreaks. Bind triggers like Touch ID, Power/Volume buttons, and Status Bar gestures to system actions, Siri automation, and custom TCP commands. Includes native arm64e support for iOS 14. https://github.com/saihgupr/RemoteCompanion
+Icon: https://saihgupr.github.io/remotecompanion/CydiaIcon.png
+Maintainer: Saihgupr
+Author: Saihgupr
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 3.7.0
+Installed-Size: 2988
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.saihgupr.remotecompanion-3.7.0-roothide.deb
+Size: 990940
+MD5sum: 6af4ff0277ab2ef4d87827df0b097fa0
+SHA1: 
+SHA256: 53a6e3523ececdc920823c1d2e1400e096cfd9f889cecd0234bf2e6321c752e1
+
+Package: com.saihgupr.remotecompanion
+Name: RemoteCompanion
+Depends: mobilesubstrate
+Description: Activator 取代了无根和根越狱。将触控 ID、电源/音量按钮和状态栏手势等触发器绑定到系统操作、Siri 自动化和自定义 TCP 命令。包括对iOS 14的原生arm64e支持。https://github.com/saihgupr/RemoteCompanion A modern Activator replacement for rootless and rootful jailbreaks. Bind triggers like Touch ID, Power/Volume buttons, and Status Bar gestures to system actions, Siri automation, and custom TCP commands. Includes native arm64e support for iOS 14. https://github.com/saihgupr/RemoteCompanion
+Icon: https://saihgupr.github.io/remotecompanion/CydiaIcon.png
+Maintainer: Saihgupr
+Author: Saihgupr
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 3.7.0
+Installed-Size: 2988
+Filename: debs/com.saihgupr.remotecompanion-3.7.0-rootless.deb
+Size: 1000544
+MD5sum: d445d62208111fe2f44a0c6fa63e66dc
+SHA1: 
+SHA256: f381110c9a51bcf3c42a3bbde01176a41eba6198bf400cd784d78a6326abcac2
+
+Package: com.saihgupr.remotecompanioncn
+Name: RemoteCompanion CN (Externalized)
+Description: RemoteCompanion的中文本地化补丁。在运行时注入翻译的UI字符串。不修改原始文件。Chinese localization patch for RemoteCompanion. Injects translated UI strings at runtime. Does not modify original files.
+Depends: mobilesubstrate
+Maintainer: 777qwq
+Author: 777qwq
+Section: Localization
+Architecture: iphoneos-arm64e
+Version: 6.0.0-cn1
+Installed-Size: 592
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/remotecompanioncn.jpg
+Filename: debs/com.saihgupr.remotecompanioncn-6.0.0-cn1-roothide.deb
+Size: 25812
+MD5sum: 0dd87b4fcb4982369c7162f39df689b8
+SHA1: 
+SHA256: c6e54e6ba3e717e136231f7480efec52b846a1ba5e145d06a7e526ab9de5febc
+
+Package: com.saihgupr.remotecompanioncn
+Name: RemoteCompanion CN (Externalized)
+Description: RemoteCompanion的中文本地化补丁。在运行时注入翻译的UI字符串。不修改原始文件。Chinese localization patch for RemoteCompanion. Injects translated UI strings at runtime. Does not modify original files.
+Depends: mobilesubstrate
+Maintainer: 777qwq
+Author: 777qwq
+Section: Localization
+Architecture: iphoneos-arm64
+Version: 6.0.0-cn1
+Installed-Size: 592
+icon: https://huayuarc.github.io/icon/remotecompanioncn.jpg
+Filename: debs/com.saihgupr.remotecompanioncn-6.0.0-cn1-rootless.deb
+Size: 71160
+MD5sum: 0265d1be7580f92c40abb35757a0db63
+SHA1: 
+SHA256: c44a1abc5af8aa90e620a8169b4d480c753896639945aa17b59000ebe0b129ab
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
@@ -29947,6 +30154,40 @@ MD5sum: 8acaa5c4ba4192dcf76b1df862f89b2a
 SHA1: 
 SHA256: 70a445230f82a5d379ffc2a6779e597cb0a36fcd6c813a6bd4e34bbf583dd791
 
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 2.0.2
+Installed-Size: 2964
+Filename: debs/com.susudear.screencore-2.0.2-roothide.deb
+Size: 461648
+MD5sum: 38cf7d4f825e8e056a0a0685a6d27563
+SHA1: 
+SHA256: 37f2797c6c92b73f93ca1d9d1f22ebf43add1f31bb05207fa8b99444f3721ef9
+
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 2.0.2
+Installed-Size: 2964
+Filename: debs/com.susudear.screencore-2.0.2-rootless.deb
+Size: 466844
+MD5sum: 2dea976f34d6048c4e418dcaaaefae9f
+SHA1: 
+SHA256: 6485510219358b58eb725939530d62c9165de09ff579d2189defa32ff059972e
+
 Package: com.susudear.sharingdalertwatchdog
 Name: SharingdAlertWatchdog
 Description: 各位开发者是否遇到了 Airdrop 投送后，移动端无法出现菜单，界面卡住崩溃？那试试SharingdAlertWatchdog 吧，他或许可以解决你的困扰
@@ -33251,6 +33492,73 @@ MD5sum: 09de0587c2a1f065fdae091747cc37bb
 SHA1: 
 SHA256: 0cd6e91f784d856007da348c81adf3097b31108c941a6c6382c445465b0e2124
 
+Package: dylv.liquidass
+Name: Liquid (Gl)ass · 泽哥维护兼容版（rootless 测试）
+Description: 基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。
+ 本版的改动
+ - 修复锁屏快捷操作在 iOS 17 不生效的 bug
+ - 新增底部弹窗/App弹窗液态玻璃；新增灵动岛液态玻璃（壁纸实时采样，展开/收起全程几何跟随）；
+   新增锁屏日期/农历行、通知清除按钮液态玻璃；新增锁屏时钟/日期渐变色
+ - 新增音量 HUD 液态玻璃（iOS 17，锚点 SBElasticVolumeViewController + SBElasticSliderView）
+ - 音量胶囊：修正默认色调透明度过高（80%→10%）；隐藏胶囊内 depth2/depth3 原生材质让位玻璃，
+   白色填充条/音量图标保留；玻璃几何按原生胶囊内容链同心 1.318 倍对齐（修复内缩轮廓线、
+   跳位、内部小胶囊等动画异常）；胶囊形 mask 裁剪内容；每帧守护同步几何
+ - 修复灵动岛黑块：对内容子树套合成级 screenBlendMode（屏幕混合方案）
+ - 呼出/收起两态均显示玻璃；bezel 渲染参数修正为 7（prefs 覆盖，backboardd 立即重载）
+ - 重写音量 HUD 玻璃的注入位置（二十修，经实机逐帧定位后的关键结论）：玻璃改插到
+   _CCUIBaseSliderContentView（内容视图）内部，其 bounds 就是真胶囊尺寸 46.5×146.6，
+   天然重合 —— 废弃此前"1.318 同心放大 + 自定义 mask + 宿主不能裁剪"的整套绕法
+   （那是因为玻璃一直插在外层滑块里，而外层 bounds 只有胶囊的 0.76 倍，才派生出
+   内缩线/跳位/白条错位/内部小胶囊）
+Maintainer: dylv&泽哥
+Author: dylv&泽哥
+Section: Tweaks
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon.png
+Replaces: dylv.zege.liquidass, dylv.blurless
+Conflicts: dylv.zege.liquidass, dylv.blurless
+Architecture: iphoneos-arm64
+Version: 2-0.1.1-2c+island136+rootless
+Installed-Size: 8568
+Filename: debs/dylv.liquidass-2-0.1.1-2c+island136+rootless-rootless.deb
+Size: 3524872
+MD5sum: c6aa6f8cf0d4827acb4b8f5e6fb5e2cb
+SHA1: 
+SHA256: fa94c7996d8ba190e1fb8413b7f36374e7661ba40e42fbf9aba5dd42bc47c79c
+
+Package: dylv.liquidass
+Name: Liquid (Gl)ass · 泽哥维护兼容版
+Version: 2-0.1.1-2c+island136
+Architecture: iphoneos-arm64e
+Description: 基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。
+ 本版的改动
+ - 修复锁屏快捷操作在 iOS 17 不生效的 bug
+ - 新增底部弹窗/App弹窗液态玻璃；新增灵动岛液态玻璃（壁纸实时采样，展开/收起全程几何跟随）；
+   新增锁屏日期/农历行、通知清除按钮液态玻璃；新增锁屏时钟/日期渐变色
+ - 新增音量 HUD 液态玻璃（iOS 17，锚点 SBElasticVolumeViewController + SBElasticSliderView）
+ - 音量胶囊：修正默认色调透明度过高（80%→10%）；隐藏胶囊内 depth2/depth3 原生材质让位玻璃，
+   白色填充条/音量图标保留；玻璃几何按原生胶囊内容链同心 1.318 倍对齐（修复内缩轮廓线、
+   跳位、内部小胶囊等动画异常）；胶囊形 mask 裁剪内容；每帧守护同步几何
+ - 修复灵动岛黑块：对内容子树套合成级 screenBlendMode（屏幕混合方案）
+ - 呼出/收起两态均显示玻璃；bezel 渲染参数修正为 7（prefs 覆盖，backboardd 立即重载）
+ - 重写音量 HUD 玻璃的注入位置（二十修，经实机逐帧定位后的关键结论）：玻璃改插到
+   _CCUIBaseSliderContentView（内容视图）内部，其 bounds 就是真胶囊尺寸 46.5×146.6，
+   天然重合 —— 废弃此前"1.318 同心放大 + 自定义 mask + 宿主不能裁剪"的整套绕法
+   （那是因为玻璃一直插在外层滑块里，而外层 bounds 只有胶囊的 0.76 倍，才派生出
+   内缩线/跳位/白条错位/内部小胶囊）
+Maintainer: dylv&泽哥
+Author: dylv&泽哥
+Section: Tweaks
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon.png
+Replaces: dylv.zege.liquidass, dylv.blurless
+Conflicts: dylv.zege.liquidass, dylv.blurless
+Filename: debs/dylv.liquidass-2-0.1.1-2c+island136-roothide.deb
+Size: 3528476
+MD5sum: 1b9dae5afbbfc512eccee1f81dbe6e18
+SHA1: 
+SHA256: a02ef2a0898c84ad1e1a2dda2eea13e22591ab9bc86639dfa875dc3bee4c156c
+
 Package: dylv.sbliquidglass
 Name: SBLiquidGlass 液态玻璃
 Description: A staged Liquid Glass system UI tweak with a safe surface architecture.
@@ -33620,6 +33928,38 @@ MD5sum: 3dae3ce5eaf7bb3c82c74c28e1ee1f45
 SHA1: 
 SHA256: 7ebabd1bd464e32460824811bae2677bbd11cdc9bb32b7ef7d3728c9837af60d
 
+Package: hongguofn
+Name: 红果净化
+Maintainer: 5hux1n
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 436
+Filename: debs/hongguofn-1.0.1-roothide.deb
+Size: 79672
+MD5sum: fe14b23e332e5afd244a3adba9605519
+SHA1: 
+SHA256: 08e99c01f13a8731f3ea99858c318a05a715168c55c2f8270081f0c8abfd852c
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: 5hux1n
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 436
+Filename: debs/hongguofn-1.0.1-rootless.deb
+Size: 79292
+MD5sum: af8d6f169f29a632744e8a5b7faab6dd
+SHA1: 
+SHA256: 14c690782b8d3920eb0b7ab70cff4f93eb088f391b502253ed4a11ec7213153a
+
 Package: im.mjh.fakeperm
 Name: 虚拟权限 · Fake Permission
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
@@ -33938,6 +34278,40 @@ Size: 106376
 MD5sum: 61ff0e3456d41aebf618a58c9ce49174
 SHA1: 
 SHA256: 3efe687820d6681c861c0cd905250819cab23a698270b6813cd3b7ce69198be5
+
+Package: iya.banana.dockicon
+Name: DarkIcon
+Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Architecture: iphoneos-arm64e
+Version: 0.9.10
+Installed-Size: 1168
+icon: https://huayuarc.github.io/icon/DarkIcon.png
+Filename: debs/iya.banana.dockicon-0.9.10-roothide.deb
+Size: 247768
+MD5sum: 43af824735b0b8b455073b79a3411cf6
+SHA1: 
+SHA256: 4c7b2686d179888fa8d1d50cffdd1ceff0e96a2cec0cd679408922d4f0ac4cba
+
+Package: iya.banana.dockicon
+Name: DarkIcon
+Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Architecture: iphoneos-arm64
+Version: 0.9.10
+Installed-Size: 1168
+icon: https://huayuarc.github.io/icon/DarkIcon.png
+Filename: debs/iya.banana.dockicon-0.9.10-rootless.deb
+Size: 247428
+MD5sum: 8a856459cbc3d7c2859e92f3de79ed14
+SHA1: 
+SHA256: f316aec3e066d2f4d189b320f5473c53f171ce8ede71df0e3ccbe1817b74df44
 
 Package: iya.banana.dockicon
 Name: DarkIcon
