@@ -3495,15 +3495,14 @@ Section: Axs-Tweaks
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.jontelang.snapper3, com.susudear.stayshot,  com.axs.snapper3tag,  com.iosdump.shellx
 Icon: https://axs66.github.io/pro/icon/snapper.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper4/js.json
 Architecture: iphoneos-arm64e
 Version: 5.2.0-44
 Installed-Size: 1620
 Filename: debs/com.axs.snapper4-5.2.0-44-roothide.deb
-Size: 380140
-MD5sum: a50ff4907636781dea55fd4f8d826564
+Size: 379828
+MD5sum: 37b87b5d28af45632d7cffbf2a6f0c77
 SHA1: 
-SHA256: 60e8c49d39171e90007a3a763e15c77ab49f29a47fc066472af42e23ee4de8aa
+SHA256: 70706f103abebe92704f07e70e2593acc3671e09a0da787681133c150dec7f41
 
 Package: com.axs.snapper4
 Name: Snapper 4
@@ -3531,15 +3530,14 @@ Section: Axs-Tweaks
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.jontelang.snapper3, com.susudear.stayshot,  com.axs.snapper3tag,  com.iosdump.shellx
 Icon: https://axs66.github.io/pro/icon/snapper.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper4/js.json
 Architecture: iphoneos-arm64
 Version: 5.2.0-44
 Installed-Size: 1620
 Filename: debs/com.axs.snapper4-5.2.0-44-rootless.deb
-Size: 380532
-MD5sum: be19dd7f9df23092f5b2da07f5ea959b
+Size: 380448
+MD5sum: 40cfab85bbde7414a9c9d207676cc7bc
 SHA1: 
-SHA256: 717b8ca2bb2adbdf78b514e8063cc0a32b16d765646b267c1d41551ad8ae64b2
+SHA256: 3dabd352a4a2ef7d2030cfbfc75b98f3cea17e07d31de192a082c9e6f6f54f26
 
 Package: com.axs.snapper4
 Name: Snapper 4
@@ -3567,15 +3565,14 @@ Section: Axs-Tweaks
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.jontelang.snapper3, com.susudear.stayshot,  com.axs.snapper3tag,  com.iosdump.shellx
 Icon: https://axs66.github.io/pro/icon/snapper.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper4/js.json
 Architecture: iphoneos-arm64e
 Version: 5.2.0-45
 Installed-Size: 1620
 Filename: debs/com.axs.snapper4-5.2.0-45-roothide.deb
-Size: 381896
-MD5sum: 946a0568de7691cdc9dee3811126926c
+Size: 381956
+MD5sum: 2744c70044dc06f77da07a3982639b69
 SHA1: 
-SHA256: 687200270aa6f8a7a6debfb96b919542aec13dbef5df92ab7704674e7d98f41a
+SHA256: 049cca7e6d6a67238cf92497208f3f11fe932e7945959d41bbda15b28eb6f4cb
 
 Package: com.axs.snapper4
 Name: Snapper 4
@@ -3603,15 +3600,14 @@ Section: Axs-Tweaks
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.jontelang.snapper3, com.susudear.stayshot,  com.axs.snapper3tag,  com.iosdump.shellx
 Icon: https://axs66.github.io/pro/icon/snapper.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper4/js.json
 Architecture: iphoneos-arm64
 Version: 5.2.0-45
 Installed-Size: 1620
 Filename: debs/com.axs.snapper4-5.2.0-45-rootless.deb
-Size: 382608
-MD5sum: 8786c7c99960e678340d3a5321f80379
+Size: 382008
+MD5sum: f0c909a8058ec3b0718127181d97f2a8
 SHA1: 
-SHA256: eda2211d0f3fd202ec880c5ffa49e8b975c36d64f34d4b188a0511ea5e03d9f5
+SHA256: aa65a6bf7c7a1eb701f5079d427e6a7d8737585d49ee29cc269553461022be07
 
 Package: com.axs.zzfilter
 Name: ZZFilter
@@ -24062,6 +24058,142 @@ Size: 411328
 MD5sum: 26987f96523773b0fdac2409a1e3a8b2
 SHA1: 
 SHA256: a254e8c016f4e3107d7548b1a32c8ffaa5232e16f445ffa31071d3415919e9a0
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 5.0
+Installed-Size: 3080
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.0-roothide.deb
+Size: 449104
+MD5sum: 7e0eef50349938faa710b2205636ee83
+SHA1: 
+SHA256: d227ba7a3b7a9b1a7124dca79205dedd9b20cd56dda1076c28c6672a72830c28
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 5.0
+Installed-Size: 3100
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.0-rootless.deb
+Size: 449368
+MD5sum: 8ff726c126bfa9b77b7ef93bd74cfb3c
+SHA1: 
+SHA256: ec8ac9c190bc20e542e2a7f509bcbbd0a1930b9b9cdbc746300b28ebf921d3e3
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 5.1
+Installed-Size: 3080
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.1-roothide.deb
+Size: 449960
+MD5sum: 8d669d1461456c065fa6f0a07f8fd52a
+SHA1: 
+SHA256: 32ae6a275911e269b4974ed1fefddc74da42d898bd1a810a280acbee8d8a46e7
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 5.1
+Installed-Size: 3100
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.1-rootless.deb
+Size: 448084
+MD5sum: b14c276d98d383d86e2179715ed32a8c
+SHA1: 
+SHA256: 316e7bf263a6d0ade053186507622bb88ab42413f6992707f9dae5e8c759872d
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（更新说明：修复温控暗屏问题，修复温控高温弹出全屏警告 bug）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 5.2
+Installed-Size: 3080
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.2-roothide.deb
+Size: 452496
+MD5sum: 29702fbc5cedc2c370041a4f573998da
+SHA1: 
+SHA256: bea8598eda607e816dcb76ff247b226ed2d93c9d910bd74caa5a8f92ef22524d
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（更新说明：修复温控暗屏问题，修复温控高温弹出全屏警告 bug）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 5.2
+Installed-Size: 3100
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.2-rootless.deb
+Size: 452628
+MD5sum: 52a342ace19d857698908728e17e9faf
+SHA1: 
+SHA256: 0c728234e16fc16626dbcd253c4dd05640ff4d06e901326a35d27e23898dbb1c
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（新增功能：注销不锁屏）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 5.3
+Installed-Size: 3080
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.3-roothide.deb
+Size: 453312
+MD5sum: 6f7f78e46f9bfb67f6c5643f103f2c03
+SHA1: 
+SHA256: b0f6e8d4e761e212e76b32fcc4809a4354ad59ba8cfc12a891c196e0400ef6f7
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（更新说明：新增注销不锁屏）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 5.3
+Installed-Size: 3100
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.3-rootless.deb
+Size: 454532
+MD5sum: 4b0e3f038a60b916b68137725081e6c2
+SHA1: 
+SHA256: 7d9a01e2390a141cc0cdc60a725a2a3a0319b0903d76b5316864371e5fe69046
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
