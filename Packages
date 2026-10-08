@@ -7838,6 +7838,46 @@ MD5sum: 8dc60ff7acde10cf811b7e9fbf19fb09
 SHA1: 
 SHA256: 50f73d28842e382c36ba8609d8e4f2cffa34e8e9c82087f90f342b485c76336f
 
+Package: com.doimty.vedette
+Name: Vedette
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Maintainer: doimty
+Author: udevs
+Section: Tweaks
+Depends: firmware (>= 15.0), roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+Architecture: iphoneos-arm64e
+Version: 1.1.12-3
+Installed-Size: 976
+Filename: debs/com.doimty.vedette-1.1.12-3-roothide.deb
+Size: 139324
+MD5sum: c629f917f55d095fd1386bde15b0af39
+SHA1: 
+SHA256: 1a89d64f4e945e2b59a68b7fb83f26fb3479ba3f131c336187d27fb247571c62
+
+Package: com.doimty.vedette
+Name: Vedette
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Maintainer: doimty
+Author: udevs
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+Architecture: iphoneos-arm64
+Version: 1.1.12-3
+Installed-Size: 976
+Filename: debs/com.doimty.vedette-1.1.12-3-rootless.deb
+Size: 142912
+MD5sum: de7ca0a837e8c50fb347172cb2a6e827
+SHA1: 
+SHA256: fd7d7a1effc1476f4771e2863296529c0a03b9394fa43aec56aed6151752990d
+
 Package: com.dvntm.infuseplus
 Name: Infuse Plus
 Author: dvntm
@@ -21769,6 +21809,46 @@ Size: 458824
 MD5sum: 67275518c269bffe96822adda119d941
 SHA1: 
 SHA256: 0b04f947ff049e32cb8dccab1d001dd329c622f7435ce75d25602655b758a77a
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.45
+Installed-Size: 3352
+Filename: debs/com.qq391160.cpucore-2.0.45-roothide.deb
+Size: 512764
+MD5sum: ce60d3ccb04ffee37f4df1bd541471c2
+SHA1: 
+SHA256: 4794e05a669a268a8346718dde6b4a28fd0ae0fb3a2b608849fd4c4a81a56479
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64
+Version: 2.0.45
+Installed-Size: 3224
+Filename: debs/com.qq391160.cpucore-2.0.45-rootless.deb
+Size: 486040
+MD5sum: b573c4067dc1dce3005a799bf219d883
+SHA1: 
+SHA256: e487aeb676df338b9826d2ccf078603b7354acf2538ed1f821a412453fae8ec4
 
 Package: com.qq391160.cpucore
 Name: CPU智能温控(iOS16/17)
