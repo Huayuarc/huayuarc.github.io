@@ -10413,167 +10413,39 @@ SHA256: 06fc8b018f6937fab89d72db2740a56256b52439b9646ad4478e15694b98543b
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
-Author: 391160
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Author: Huayuarc
+Description: 基于 1.6.2-154 的 CPU 专用低功耗隔离修复。保留双模式、控制中心及原有附加功能；模式切换不启用全局 PowerSave、不重启温控守护、不递归缩放热配置。显示守卫独立于 CPU 预算。
 Depends: mobilesubstrate, preferenceloader
-Maintainer: 391160
+Maintainer: Huayuarc
 Section: Tweaks
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Architecture: iphoneos-arm64e
-Version: 1.6.2-242
-Installed-Size: 1940
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.huayuarc.cputhermal-1.6.2-242-roothide.deb
-Size: 171992
-MD5sum: 3a9cac6acd9eb83c93f9bb1e5a04504b
+Version: 1.6.2-154+isolation.2
+Installed-Size: 2080
+Filename: debs/com.huayuarc.cputhermal-1.6.2-154+isolation.2-roothide.deb
+Size: 135084
+MD5sum: 0bdb3987c1a75f2aeb53a9add28fc6ba
 SHA1: 
-SHA256: 81a1c2884da17c90bca4ded22fa5fe30434ea760506de3ed1d6dddcd41b3ec85
+SHA256: dc2f00047a04d383b80fe8a1df0755af5a7810c9d415496db992cb5d8e10c9c2
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
-Author: 391160
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
+Author: Huayuarc
+Description: 基于 1.6.2-154 的 CPU 专用低功耗隔离修复。保留双模式、控制中心及原有附加功能；模式切换不启用全局 PowerSave、不重启温控守护、不递归缩放热配置。显示守卫独立于 CPU 预算。
 Depends: mobilesubstrate, preferenceloader
-Maintainer: 391160
+Maintainer: Huayuarc
 Section: Tweaks
 Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Architecture: iphoneos-arm64
-Version: 1.6.2-242
-Installed-Size: 1940
-Filename: debs/com.huayuarc.cputhermal-1.6.2-242-rootless.deb
-Size: 177224
-MD5sum: aff3ad2ee7269175049c3581f34df4f8
+Version: 1.6.2-154+isolation.2
+Installed-Size: 2096
+Filename: debs/com.huayuarc.cputhermal-1.6.2-154+isolation.2-rootless.deb
+Size: 141024
+MD5sum: 5a39b0cbfea50e52f95604e7405f088a
 SHA1: 
-SHA256: f5bf4b314815b29744fcea6dd7968c58557329b3dd98653f5217983a65951bb1
-
-Package: com.huayuarc.cputhermal
-Name: CPU 解除温控
-Author: 391160
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: 391160
-Section: Tweaks
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64e
-Version: 1.6.2-246
-Installed-Size: 1972
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.huayuarc.cputhermal-1.6.2-246-roothide.deb
-Size: 176848
-MD5sum: b24920985d9dbcc6d28e6c663bb0c5f0
-SHA1: 
-SHA256: 39a50817398bd7064645d7835b38e22c5e3388198b59dbeff90b018c8ae8c249
-
-Package: com.huayuarc.cputhermal
-Name: CPU 解除温控
-Author: 391160
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: 391160
-Section: Tweaks
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64
-Version: 1.6.2-246
-Installed-Size: 1972
-Filename: debs/com.huayuarc.cputhermal-1.6.2-246-rootless.deb
-Size: 182140
-MD5sum: 7932b5ce87f474e55c64ec54c774d643
-SHA1: 
-SHA256: e691999e7718ca957103a561ab65c3da596dc9cf78d5fb7b74c44a4b4d483749
-
-Package: com.huayuarc.cputhermal
-Name: CPU智能温控
-Author: Huayuarc
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: Huayuarc
-Section: Tweaks
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64e
-Version: 1.6.2-300
-Installed-Size: 2320
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.huayuarc.cputhermal-1.6.2-300-roothide.deb
-Size: 279764
-MD5sum: 0e5b0146581a8d005668de2256fd17a8
-SHA1: 
-SHA256: 637b4519b724d33754c7054e81b25e291f806c489708ef9b6c27ad5ae66e8842
-
-Package: com.huayuarc.cputhermal
-Name: CPU智能温控
-Author: Huayuarc
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: Huayuarc
-Section: Tweaks
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64
-Version: 1.6.2-300
-Installed-Size: 2320
-Filename: debs/com.huayuarc.cputhermal-1.6.2-300-rootless.deb
-Size: 272648
-MD5sum: 2a4aee28c5ff13828f479f1575dbc654
-SHA1: 
-SHA256: a140c7006840c53dbd3fbf5ebba1e782fb389df4e95f42f1314d65487850a926
-
-Package: com.huayuarc.cputhermal
-Name: CPU智能温控
-Author: Huayuarc
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: Huayuarc
-Section: Tweaks
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64e
-Version: 1.6.2-303
-Installed-Size: 2320
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.huayuarc.cputhermal-1.6.2-303-roothide.deb
-Size: 280184
-MD5sum: cd05e910665700e81f75b89b66e41185
-SHA1: 
-SHA256: 546bf4194099fc00a4a3b849b88c0f622ef611c669205bc9222990a5c322edb8
-
-Package: com.huayuarc.cputhermal
-Name: CPU智能温控
-Author: Huayuarc
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: Huayuarc
-Section: Tweaks
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64
-Version: 1.6.2-303
-Installed-Size: 2320
-Filename: debs/com.huayuarc.cputhermal-1.6.2-303-rootless.deb
-Size: 273236
-MD5sum: cb24c111ce1216f93ecd62ce938c20c8
-SHA1: 
-SHA256: 671f4ca436f696241ce7c8082ae4fc7d2a4979cb4e209f258c7ad32f9738e61b
+SHA256: 673f07e7eee70c1cde21aadfb77d00a2217af52aaad4abf035b90af3df2c0ef0
 
 Package: com.huayuarc.facedownlock
 Name: 设备朝下自动锁屏
@@ -21876,6 +21748,96 @@ Size: 83732
 MD5sum: a55cf6056b5d5042f27f2a311da5b3cc
 SHA1: 
 SHA256: b6ed74a6f6318b571816115fc72f9d43fbf2e5d4bd2a5b081890bbbad863c134
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控
+Author: Huayuarc
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-300
+Installed-Size: 2320
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.qq391160.cpucore-1.6.2-300-roothide.deb
+Size: 279460
+MD5sum: cc0805727473ef8ad44a39beb56d99c3
+SHA1: 
+SHA256: 66a4185f3fbc95458f874e2e492190491907496477543ef8123430f8ef681393
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控
+Author: Huayuarc
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-300
+Installed-Size: 2320
+Filename: debs/com.qq391160.cpucore-1.6.2-300-rootless.deb
+Size: 272704
+MD5sum: 46c57f13351ea297e86fd4c738beb84b
+SHA1: 
+SHA256: da707814272840ef867d52a7221e9d71a79a96abe187dc8a768dcbe5d05f3cbf
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控
+Author: Huayuarc
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-303
+Installed-Size: 2320
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.qq391160.cpucore-1.6.2-303-roothide.deb
+Size: 280452
+MD5sum: 6dee7a3d73371e69362f059f38bc1434
+SHA1: 
+SHA256: 446f23aa8804f4a9ce5c0f8d539326513017dbe154a88deb1c2c8fa26e3dd559
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控
+Author: Huayuarc
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-303
+Installed-Size: 2320
+Filename: debs/com.qq391160.cpucore-1.6.2-303-rootless.deb
+Size: 273332
+MD5sum: 9a9d134938e9b885edf3a194c8838956
+SHA1: 
+SHA256: b541066c600320281f669e85dd70267f000e79fa7890b3f9cfbf0a9c25f306ad
 
 Package: com.qq391160.cpucore
 Name: CPU智能温控(iOS16/17)
@@ -38176,52 +38138,6 @@ MD5sum: ed5bf497ce629c4d73ab7144973b8d4a
 SHA1: 
 SHA256: a40470c81fb59d6177e0c7de06fdc1b262796383931313a4f22c327b020b5cc7
 
-Package: wiki.qaq.ighostty
-Name: iGhostty
-Version: 0.1.0
-Architecture: iphoneos-arm64e
-Description: Ghostty-powered terminal for jailbroken iOS
- * Terminal emulator built on libghostty's terminal core with a host-managed
- * I/O backend. Packaged for both roothide and rootless bootstraps; the
- * architecture field says which build this is.
- * Shells are spawned by the bundled ighosttyd daemon and survive app
- * relaunches; SSH transport is planned on the same transport interface.
-Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Terminal Support
-Priority: optional
-Depends: firmware (>= 15.0), uikittools
-Installed-Size: 18028
-icon: https://huayuarc.github.io/icon/iGhostty.png
-Filename: debs/wiki.qaq.ighostty-0.1.0-roothide.deb
-Size: 7082736
-MD5sum: e1771013f2256f0948c22bc352cad405
-SHA1: 
-SHA256: a58c1a308499564f05072f731a1ac5bb2450b49f708031716ed9df3479eab165
-
-Package: wiki.qaq.ighostty
-Name: iGhostty
-Version: 0.1.0
-Architecture: iphoneos-arm64
-Description: Ghostty-powered terminal for jailbroken iOS
- * Terminal emulator built on libghostty's terminal core with a host-managed
- * I/O backend. Packaged for both roothide and rootless bootstraps; the
- * architecture field says which build this is.
- * Shells are spawned by the bundled ighosttyd daemon and survive app
- * relaunches; SSH transport is planned on the same transport interface.
-Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Terminal Support
-Priority: optional
-Depends: firmware (>= 15.0), uikittools
-Installed-Size: 18028
-icon: https://huayuarc.github.io/icon/iGhostty.png
-Filename: debs/wiki.qaq.ighostty-0.1.0-rootless.deb
-Size: 7080552
-MD5sum: 3b8b4e0800290bc76db78a8724fb1356
-SHA1: 
-SHA256: bbd7481948124ab35097a540a5093c887180db13a31bfcaba50533553f2ececa
-
 Package: wiki.qaq.ighostvt
 Name: iGhostVT
 Version: 1.4.11
@@ -38236,15 +38152,15 @@ Depiction: https://owngoal-dev.github.io/iGhostVT/
 SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
 Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Utilities
+Section: Terminal Support
 Priority: optional
 Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
 Installed-Size: 19092
 Filename: debs/wiki.qaq.ighostvt-1.4.11-roothide.deb
-Size: 6914204
-MD5sum: e67665a688598beafd3b2baf79a1a9df
+Size: 6910208
+MD5sum: 482551be7ba357a33d69bfff8e29ec8d
 SHA1: 
-SHA256: 3450e59bc61ff79df6c21520187ca0d944cfe397566079b1523eef499b672003
+SHA256: 34628173ef05f1af72dd55face770e29d08b373a6e3f678834b1ffc107142b3e
 
 Package: wiki.qaq.ighostvt
 Name: iGhostVT
@@ -38260,15 +38176,15 @@ Depiction: https://owngoal-dev.github.io/iGhostVT/
 SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
 Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Utilities
+Section: Terminal Support
 Priority: optional
 Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
 Installed-Size: 19092
 Filename: debs/wiki.qaq.ighostvt-1.4.11-rootless.deb
-Size: 6911704
-MD5sum: 9d4b7679c17f94550fcac7e41df33c87
+Size: 6911056
+MD5sum: c340464a499f0eb59eb8dfa72be7b248
 SHA1: 
-SHA256: 1b3dfd5851c457383995e23138722da8e99d25c9ace16369b4dbf970f076b760
+SHA256: 0886addd7013660cc2ced9515e77c0f7e75c405d9f946a77997fc98ca673b924
 
 Package: ws.hbang.newterm3
 Name: NewTerm 3 Beta iOS 终端
