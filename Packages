@@ -6421,6 +6421,40 @@ MD5sum: e6c98a8d4e5c6cd02467a9d8779b23f6
 SHA1: 
 SHA256: 8a5c09ac5dde35a158c56a107a2e140ca52d1120ca6b9e752997137ae1a70cc2
 
+Package: com.crctdd.shorbar
+Name: ShortBar
+Depends: mobilesubstrate, preferenceloader
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 560
+icon: https://huayuarc.github.io/icon/shorbar.png
+Filename: debs/com.crctdd.shorbar-1.0.2-roothide.deb
+Size: 88264
+MD5sum: 84822d92de4b344ae0fe3c676acb96e2
+SHA1: 
+SHA256: bbbe440a5a00822b7138f21b102878da98a0dfc6283d8e2a635f6554291a58bc
+
+Package: com.crctdd.shorbar
+Name: ShortBar
+Depends: mobilesubstrate, preferenceloader
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Installed-Size: 560
+icon: https://huayuarc.github.io/icon/shorbar.png
+Filename: debs/com.crctdd.shorbar-1.0.2-rootless.deb
+Size: 88544
+MD5sum: 64962d3bc1cd4f978bee3bfc7d109fdb
+SHA1: 
+SHA256: 0986736808df21d1b4619be11945c6dbcb4f953148d9c4e875d7892e5270f596
+
 Package: com.crctdd.stayalivelite
 Name: StayAlive Lite
 Description: 为指定App开启守护后台，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
@@ -6828,6 +6862,40 @@ Size: 236652
 MD5sum: 365bef3cfa67a050088ecec2b97a4391
 SHA1: 
 SHA256: 7f0f4efb8b6fbf4704c46865b269dd2c09677d0fe62a148a719699259a538500
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.4.0
+Installed-Size: 1000
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.4.0-roothide.deb
+Size: 162348
+MD5sum: 0e45171ee6738f6e4f4f76bc3af1d477
+SHA1: 
+SHA256: 715acd2a1cb35bb1ead434b64eac34a1dec89085645971c02d72fd9bb489cd9a
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.4.0
+Installed-Size: 1944
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.4.0-rootless.deb
+Size: 239284
+MD5sum: 18abdb616c935e0f49b86236d2f4ec0e
+SHA1: 
+SHA256: 90d59486e1532d6b80c4fd6a4a3c47aff794e2d7fbb94467ecb301cc9398d4c0
 
 Package: com.crctdd.surgectl
 Name: SurgeCTL
@@ -7817,6 +7885,42 @@ Size: 17100
 MD5sum: 28c71c780423998c60661046e319d932
 SHA1: 
 SHA256: 91fbf1cd642da31e8ce1a72b9851a5322dfdd303b7962c2b6f10145cade05051
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: 针对受支持的 iPhone Pro 机型进行高刷新策略调整，具有 app 和系统刷新请求和持续的 SpringBoard 保持有效。High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Maintainer: doimty
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.14-1
+Installed-Size: 108
+Tag: supports::roothide
+icon: https://huayuarc.github.io/icon/120hz.jpg
+Filename: debs/com.doimty.promotion-1.0.14-1-roothide.deb
+Size: 19640
+MD5sum: 6e4c47d12b3e3e0b1528774778985d01
+SHA1: 
+SHA256: 7533b3783759cd2cd98a06b7dd3711c3841d9f96a10e5571942ff1cca58cb3c0
+
+Package: com.doimty.promotion
+Name: ProMotion 120Hz
+Author: doimty
+Description: 针对受支持的 iPhone Pro 机型进行高刷新策略调整，具有 app 和系统刷新请求和持续的 SpringBoard 保持有效。High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Maintainer: doimty
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.14-1
+Installed-Size: 236
+Filename: debs/com.doimty.promotion-1.0.14-1-rootless.deb
+Size: 28008
+MD5sum: 6c0a90cde6cc4e78c499a9cc6cdfe7eb
+SHA1: 
+SHA256: 6a094f32248cc9dee0a974232f7ac893095384dd87f8afa7dfa97303f0384550
 
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
@@ -16038,6 +16142,40 @@ SHA256: 98ecd3480312bc2168db1f87254fb904bc7b798744e4da9ceaa0d2aa1513e470
 
 Package: com.minis.lockscreengradientclock
 Name: 独立锁屏时间渐变
+Description: 新增隐藏原生时间，解决锁屏和亮屏出现原生字体闪烁
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.0.13
+Installed-Size: 892
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
+Filename: debs/com.minis.lockscreengradientclock-2.0.13-roothide.deb
+Size: 247220
+MD5sum: 755f4b6c2838a7b82e821313f36d07e3
+SHA1: 
+SHA256: c5fc3b50a022efc04a7f65674995c05955e14c376ae16a33294d8e315e0805b4
+
+Package: com.minis.lockscreengradientclock
+Name: 独立锁屏时间渐变
+Description: 新增隐藏原生时间，解决锁屏和亮屏出现原生字体闪烁
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.0.13
+Installed-Size: 892
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
+Filename: debs/com.minis.lockscreengradientclock-2.0.13-rootless.deb
+Size: 247588
+MD5sum: 012ae8fc398c7f7e9a77ff177dd47e61
+SHA1: 
+SHA256: 01a7e797beeddd6b57855d50ffd626eab095eda6edef3c05e1f1f659c9bbeedf
+
+Package: com.minis.lockscreengradientclock
+Name: 独立锁屏时间渐变
 Description: 独立的时间锁屏，不依赖 88 液态锁屏时间。如果继续想用 88 液态那种效果，不建议升级，
 Maintainer: MoWang
 Author: MoWang
@@ -21998,6 +22136,61 @@ Size: 461356
 MD5sum: f5098b4b521c571dcbdce3f89cef9784
 SHA1: 
 SHA256: ccad11b4a5c25ad861bb735b32154ce96113c280f959fc7d28293d95b31291d1
+
+Package: com.quicklaunch.tweak
+Name: QuickLaunch
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch; the capsule hides while typing.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Architecture: iphoneos-arm64e
+Version: 0.1.44
+Installed-Size: 604
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+Filename: debs/com.quicklaunch.tweak-0.1.44-roothide.deb
+Size: 149220
+MD5sum: f0ee5d83d8c4bc82867cc5c49fcfdbbf
+SHA1: 
+SHA256: 77c0720ccf6c7359d9ac5dd9a11c34d827a6bc1b8599d95f235d2079913b4eba
+
+Package: com.quicklaunch.tweak
+Name: QuickLaunch
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch; the capsule hides while typing.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Architecture: iphoneos-arm64
+Version: 0.1.44
+Installed-Size: 1132
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+Filename: debs/com.quicklaunch.tweak-0.1.44-rootless.deb
+Size: 198280
+MD5sum: 2fe14aab249df450bc4361d207ec342d
+SHA1: 
+SHA256: 2c1ad64724026a418027601aaa84260b41f4b71eb83e161c95fa8ecc6b053fc3
 
 Package: com.rain.actionbutton
 Name: Rain的操作按钮
