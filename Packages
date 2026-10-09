@@ -19967,6 +19967,43 @@ MD5sum: b4501050fd9925a088f622709cd6f9dc
 SHA1: 
 SHA256: 2d8ccfa181f71737889f4c25533e9b7b46f33417b14f906382d1ab399d6b37f0
 
+Package: com.netskao.classickeyboardxs
+Name: ClassicKeyboardXS
+Icon: https://sini921.github.io/repo/sileodepiction/icon/classickeyboardxs.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/classickeyboardxs/js.json
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Description: 自定义键盘底部的高度、地球底部的高度等。
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Installed-Size: 1044
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.netskao.classickeyboardxs-1.1-9-roothide.deb
+Size: 275848
+MD5sum: 415137a60aee46e00dea54462543027a
+SHA1: 
+SHA256: 10e7ddbc023fcb9e407f716d5d8073855c7c11a88cd5c21973501db148456e24
+
+Package: com.netskao.classickeyboardxs
+Name: ClassicKeyboardXS
+Icon: https://sini921.github.io/repo/sileodepiction/icon/classickeyboardxs.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/classickeyboardxs/js.json
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Description: 自定义键盘底部的高度、地球底部的高度等。
+Maintainer: Nets
+Author: Netskao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Installed-Size: 1044
+Filename: debs/com.netskao.classickeyboardxs-1.1-9-rootless.deb
+Size: 275400
+MD5sum: 359521a7c2b932ba6c0cf4f38f4a5abe
+SHA1: 
+SHA256: 5a685a88f0c421bbb8098e6ed36eda189dc1fd17e6d8b5a3fa26c27746efa8b7
+
 Author: Netskao
 Architecture: iphoneos-arm64e
 Description: 长图拼接开启高级版权限
@@ -25744,43 +25781,6 @@ Size: 3359992
 MD5sum: 2403747a0d707e9605a3da66925081b9
 SHA1: 
 SHA256: 5e22c7fc43c6ef6a9840c277d4c3e8c96dd554ffd533b1d3e6e276faa7a79247
-
-Package: com.sini.classickeyboardxs
-Name: ClassicKeyboardXS 键盘底部高度
-Icon: https://sini921.github.io/repo/sileodepiction/icon/classickeyboardxs.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/classickeyboardxs/js.json
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Description: 自定义键盘底部的高度、地球底部的高度等。
-Maintainer: Nets
-Author: Netskao
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.1-9
-Installed-Size: 1044
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.sini.classickeyboardxs-1.1-9-roothide.deb
-Size: 276012
-MD5sum: f1bda38cc40c03a950d478f346af009d
-SHA1: 
-SHA256: aafbd19b6a78fa2f1064c90f1a844dc18b49ee2d0a072e87205b993190c081a6
-
-Package: com.sini.classickeyboardxs
-Name: ClassicKeyboardXS 键盘底部高度
-Icon: https://sini921.github.io/repo/sileodepiction/icon/classickeyboardxs.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/classickeyboardxs/js.json
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Description: 自定义键盘底部的高度、地球底部的高度等。
-Maintainer: Nets
-Author: Netskao
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.1-9
-Installed-Size: 1044
-Filename: debs/com.sini.classickeyboardxs-1.1-9-rootless.deb
-Size: 275652
-MD5sum: fadb6d91ff8d0b9b988535fdf4c4e313
-SHA1: 
-SHA256: ba192613924f290950437d6c97d9b350967a5fd39291d9f1e13bb06a19150dcb
 
 Package: com.sini.cornbar
 Name: CornBar
