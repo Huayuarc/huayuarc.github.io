@@ -18947,6 +18947,44 @@ MD5sum: a2d5da0b0f2d00eb33718ab8c4207491
 SHA1: 
 SHA256: 5fca0e4f3bc3fd60543f7ff9e4f36ae11fdec31989d22615433f7b2439ff801e
 
+Package: com.muzi.mutool
+Name: MUtool(roothide)
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64e
+Version: 2.1.69
+Installed-Size: 4520
+Filename: debs/com.muzi.mutool-2.1.69-roothide.deb
+Size: 687820
+MD5sum: a59c41721196cd781bb81037a1aeb419
+SHA1: 
+SHA256: 6f00cac57b69b9e5aa3da4b28867314b0eab406c30286e778cee438312418fc0
+
+Package: com.muzi.mutool
+Name: MUtool(rootless)
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64
+Version: 2.1.69
+Installed-Size: 4572
+Filename: debs/com.muzi.mutool-2.1.69-rootless.deb
+Size: 696132
+MD5sum: 2f578a3cf7405a31cd80836f118ae6c2
+SHA1: 
+SHA256: 1e80cedc1f27aee245beee5499018d8fe2c131b276acb6e38da2b04d8c90f2cb
+
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
 Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
@@ -34719,6 +34757,40 @@ MD5sum: 61ff0e3456d41aebf618a58c9ce49174
 SHA1: 
 SHA256: 3efe687820d6681c861c0cd905250819cab23a698270b6813cd3b7ce69198be5
 
+Package: iya.banana.billie.ambientbadge
+Name: AmbientBadge
+Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.16
+Installed-Size: 748
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
+Filename: debs/iya.banana.billie.ambientbadge-0.1.16-roothide.deb
+Size: 115672
+MD5sum: c0a2f1d51e299fe386c252dabfcf6942
+SHA1: 
+SHA256: 24a9c01612a111fe120f9a7ede30f19f73d04b0765030064c6c6d581d0fb1b4e
+
+Package: iya.banana.billie.ambientbadge
+Name: AmbientBadge
+Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.1.16
+Installed-Size: 748
+icon: https://huayuarc.github.io/icon/AmbientBadge.png
+Filename: debs/iya.banana.billie.ambientbadge-0.1.16-rootless.deb
+Size: 115400
+MD5sum: ac46691da9f18664fb7ac628151d4501
+SHA1: 
+SHA256: ce7c5d980565585d588e4bf73a98653150b4cd0e3984eb49ea28299b9cb219e9
+
 Package: iya.banana.dockicon
 Name: DarkIcon
 Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
@@ -38115,6 +38187,54 @@ Size: 7080552
 MD5sum: 3b8b4e0800290bc76db78a8724fb1356
 SHA1: 
 SHA256: bbd7481948124ab35097a540a5093c887180db13a31bfcaba50533553f2ececa
+
+Package: wiki.qaq.ighostvt
+Name: iGhostVT
+Version: 1.4.11
+Architecture: iphoneos-arm64e
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Installed-Size: 19092
+Filename: debs/wiki.qaq.ighostvt-1.4.11-roothide.deb
+Size: 6914204
+MD5sum: e67665a688598beafd3b2baf79a1a9df
+SHA1: 
+SHA256: 3450e59bc61ff79df6c21520187ca0d944cfe397566079b1523eef499b672003
+
+Package: wiki.qaq.ighostvt
+Name: iGhostVT
+Version: 1.4.11
+Architecture: iphoneos-arm64
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Installed-Size: 19092
+Filename: debs/wiki.qaq.ighostvt-1.4.11-rootless.deb
+Size: 6911704
+MD5sum: 9d4b7679c17f94550fcac7e41df33c87
+SHA1: 
+SHA256: 1b3dfd5851c457383995e23138722da8e99d25c9ace16369b4dbf970f076b760
 
 Package: ws.hbang.newterm3
 Name: NewTerm 3 Beta iOS 终端
