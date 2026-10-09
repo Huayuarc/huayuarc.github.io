@@ -34438,6 +34438,40 @@ MD5sum: af8d6f169f29a632744e8a5b7faab6dd
 SHA1: 
 SHA256: 14c690782b8d3920eb0b7ab70cff4f93eb088f391b502253ed4a11ec7213153a
 
+Package: hypicfix
+Name: 醒图国际版修复工具
+Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>=15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 204
+icon: https://huayuarc.github.io/icon/hypicfix.jpg
+Filename: debs/hypicfix-1.0.0-roothide.deb
+Size: 17032
+MD5sum: 3b8b21e670c1b32132c8852738ec1503
+SHA1: 
+SHA256: e14a3856f7e2a4cb8ef9c425bf21fe5834b15808da209c28a30806aa0fe59b38
+
+Package: hypicfix
+Name: 醒图国际版修复工具
+Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>=15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 204
+icon: https://huayuarc.github.io/icon/hypicfix.jpg
+Filename: debs/hypicfix-1.0.0-rootless.deb
+Size: 17124
+MD5sum: da61be3368130e9f9b68e6e017deadda
+SHA1: 
+SHA256: 993641518009749fdc87fc17f4b56d0440206b46f09dbd04fd21f6cdfeb3de94
+
 Package: im.mjh.fakeperm
 Name: 虚拟权限 · Fake Permission
 Description: 针对任意 App 单独配置虚拟权限，防止隐私被过度索要。
