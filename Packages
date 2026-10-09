@@ -18857,6 +18857,44 @@ MD5sum: 2f578a3cf7405a31cd80836f118ae6c2
 SHA1: 
 SHA256: 1e80cedc1f27aee245beee5499018d8fe2c131b276acb6e38da2b04d8c90f2cb
 
+Package: com.muzi.mutool
+Name: MUtool
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64e
+Version: 2.1.71
+Installed-Size: 4520
+Filename: debs/com.muzi.mutool-2.1.71-roothide.deb
+Size: 692192
+MD5sum: d9d6f3eec7042f3babdbed3d73ed2824
+SHA1: 
+SHA256: 2415c898e5c027d130e72c1897af5d225aa045ae397805a6471f14b881d7b426
+
+Package: com.muzi.mutool
+Name: MUtool
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置、充电提示音与 MagSafe 动画、充电限制（限充阈值、阻止充电、智能计划）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64
+Version: 2.1.71
+Installed-Size: 4572
+Filename: debs/com.muzi.mutool-2.1.71-rootless.deb
+Size: 696016
+MD5sum: b7f99cf35c113146be74a028f861c80d
+SHA1: 
+SHA256: 3f352722694cdf7ab3d715bd4126924fb595aff22fb2194dda032d2670a61af0
+
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
 Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
@@ -24126,6 +24164,40 @@ SHA1:
 SHA256: 7d9a01e2390a141cc0cdc60a725a2a3a0319b0903d76b5316864371e5fe69046
 
 Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（更新功能双击浮窗可锁定当前位置，反之解锁）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 5.6
+Installed-Size: 3212
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.6-roothide.deb
+Size: 492568
+MD5sum: 374659dce475b89da48df4232bd8ab76
+SHA1: 
+SHA256: 033d16b28f646983e643b97713289bb8ef57204700c79ef7ad72f6482693a10a
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（更新功能双击浮窗可锁定当前位置，反之解锁）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 5.6
+Installed-Size: 3228
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.6-rootless.deb
+Size: 491984
+MD5sum: 28568bc7a8bb78b4abb49d8b42f471a2
+SHA1: 
+SHA256: 02748f145e319ae1faddde2bcc93955a6a2e7e010738c88a05c096d895d11272
+
+Package: com.sbcpu.floating
 Name: SB CPU Floating
 Maintainer: MoWang
 Author: MoWang
@@ -28305,6 +28377,42 @@ Description: 控制中心调整，基于开源修改编译，去掉了AlderisCol
 Maintainer: fiore & p2kdev & SINI
 Author: fiore & p2kdev & SINI
 Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
+Architecture: iphoneos-arm64e
+Version: 1.1.2-44
+Installed-Size: 1028
+Filename: debs/com.sini921.ccborder-1.1.2-44-roothide.deb
+Size: 213596
+MD5sum: 16ba7be5e5df46f7d1efc7a6391b29d4
+SHA1: 
+SHA256: 75d0a091cc9a2bd85118044efac847340ebc1fa869a7ed5473de83932ca772c5
+
+Package: com.sini921.ccborder
+Name: CCBorder
+Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
+Maintainer: fiore & p2kdev & SINI
+Author: fiore & p2kdev & SINI
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
+Architecture: iphoneos-arm64
+Version: 1.1.2-44
+Installed-Size: 1028
+Filename: debs/com.sini921.ccborder-1.1.2-44-rootless.deb
+Size: 214508
+MD5sum: c08bc5af36717c885a70db2a1211e432
+SHA1: 
+SHA256: e14f10eb223a069cba4e70695f63693e7fad90c657bd7915bae2d2faacce6e0b
+
+Package: com.sini921.ccborder
+Name: CCBorder
+Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
+Maintainer: fiore & p2kdev & SINI
+Author: fiore & p2kdev & SINI
+Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 16.0)
 Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
@@ -28839,6 +28947,78 @@ Size: 81592
 MD5sum: 8ce83b59c9ced87d978d536d48843b47
 SHA1: 
 SHA256: b8d8107ccbd798c82617055fdab105fb51659acd88a24dbda57eb9b57ab763f0
+
+Package: com.sini921.kayokolite
+Name: KayokoLite
+Description: 基于82Flex的Kayoko开源项目重新修改编译
+Maintainer: SINI
+Author: SINI
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Icon: https://sini921.github.io/repo/sileodepiction/icon/kayokolite.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/kayokolite/js.json
+Architecture: iphoneos-arm64e
+Version: 4.3.3-2
+Installed-Size: 3028
+Filename: debs/com.sini921.kayokolite-4.3.3-2-roothide.deb
+Size: 796428
+MD5sum: 76e3587b00f2fabeff6ecd23b93f5512
+SHA1: 
+SHA256: 45d9fed42b23bf883bc2ff900bedf64b69e05e3f36affdc6e1c577afa82e1971
+
+Package: com.sini921.kayokolite
+Name: KayokoLite
+Description: 基于82Flex的Kayoko开源项目重新修改编译
+Maintainer: SINI
+Author: SINI
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Icon: https://sini921.github.io/repo/sileodepiction/icon/kayokolite.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/kayokolite/js.json
+Architecture: iphoneos-arm64
+Version: 4.3.3-2
+Installed-Size: 3060
+Filename: debs/com.sini921.kayokolite-4.3.3-2-rootless.deb
+Size: 794948
+MD5sum: f755a9b026c240644f099f0f19d9848e
+SHA1: 
+SHA256: ec0e2b026b7a775747acf14cf7a2e723d28d2343a327456b0081fec479e5f62b
+
+Package: com.sini921.liquidglassswitch
+Name: LiquidGlassSwitch
+Description: 液态玻璃开关
+Maintainer: SINI
+Author: SINI
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy
+Icon: https://sini921.github.io/repo/sileodepiction/icon/liquidglassswitch.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/liquidglassswitch/js.json
+Architecture: iphoneos-arm64e
+Version: 0.0.1-8
+Installed-Size: 660
+Filename: debs/com.sini921.liquidglassswitch-0.0.1-8-roothide.deb
+Size: 116676
+MD5sum: 1a18e503164c69aeecddcbf10f367ae5
+SHA1: 
+SHA256: 6080c8f55fd82627af9e6e6026e1d48afba618c1bb823771b983967802b6fdf6
+
+Package: com.sini921.liquidglassswitch
+Name: LiquidGlassSwitch
+Description: 液态玻璃开关
+Maintainer: SINI
+Author: SINI
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy
+Icon: https://sini921.github.io/repo/sileodepiction/icon/liquidglassswitch.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/liquidglassswitch/js.json
+Architecture: iphoneos-arm64
+Version: 0.0.1-8
+Installed-Size: 676
+Filename: debs/com.sini921.liquidglassswitch-0.0.1-8-rootless.deb
+Size: 118936
+MD5sum: 15511d79639cadf02213e92e45e0ae1a
+SHA1: 
+SHA256: c11c4bd3f0e01193736c6de37a49e4eee16897410ee87bd3176808aac36dcea9
 
 Package: com.sini921.lockscreenhelper
 Name: LockScreenHelper
@@ -30627,6 +30807,40 @@ Size: 466844
 MD5sum: 2dea976f34d6048c4e418dcaaaefae9f
 SHA1: 
 SHA256: 6485510219358b58eb725939530d62c9165de09ff579d2189defa32ff059972e
+
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 2.0.3
+Installed-Size: 2964
+Filename: debs/com.susudear.screencore-2.0.3-roothide.deb
+Size: 465980
+MD5sum: 78325457ae89a733d749954b034a13f8
+SHA1: 
+SHA256: 99b5308fc6e2a8053e5531930893d54e6904cb01e6e921959e12e2957b879592
+
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Installed-Size: 2964
+Filename: debs/com.susudear.screencore-2.0.3-rootless.deb
+Size: 464436
+MD5sum: ce7615aa014a4b34d984fa9186277a91
+SHA1: 
+SHA256: 92ae17c4a8edd4c75e92f9807820b1390e58f0f72802546f532618215f832fc5
 
 Package: com.susudear.sharingdalertwatchdog
 Name: SharingdAlertWatchdog
@@ -34651,6 +34865,40 @@ MD5sum: 2909eccffa8c4bc13fedaa935ba68409
 SHA1: 
 SHA256: cb6cec3fc02350dbdcc034b11d137c09b5dab054e03ceb2f235a3b7cee612843
 
+Package: iya.banana.audioservice
+Name: Banana Audio Service
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Description: Shared local waveform and spectrum feature service for jailbreak tweaks.
+Maintainer: Banana
+Author: Banana
+Section: Development
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Installed-Size: 724
+icon: https://huayuarc.github.io/icon/audioservice.jpg
+Filename: debs/iya.banana.audioservice-1.0.4-roothide.deb
+Size: 53848
+MD5sum: ab8293398e8d118fe869f63059f32cc4
+SHA1: 
+SHA256: 803ca66b125436ff177537380398104b6787ff5b09e9b7e255cdf6df80e7396d
+
+Package: iya.banana.audioservice
+Name: Banana Audio Service
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Description: Shared local waveform and spectrum feature service for jailbreak tweaks.
+Maintainer: Banana
+Author: Banana
+Section: Development
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Installed-Size: 724
+icon: https://huayuarc.github.io/icon/audioservice.jpg
+Filename: debs/iya.banana.audioservice-1.0.4-rootless.deb
+Size: 55372
+MD5sum: 9501a10397d87e29cef95336fc3a492b
+SHA1: 
+SHA256: 0dda7ecfbf09ac4db002b79f969e6fcaa7a71f3f115e9a8ba4c410095b07eec8
+
 Package: iya.banana.billie.ambientbadge
 Name: AmbientBadge
 Description: 为桌面通知角标加入玻璃质感与柔和光晕。Custom notification badge styles with adaptive ambient glow. For Billie.
@@ -35522,6 +35770,40 @@ Size: 92652
 MD5sum: 97251e168a2bb8e20a0bcaab9727c412
 SHA1: 
 SHA256: 1ca112583f8647267f2d53ecc806de2bf28cdd7d7eadd0754e8477fe5fc63454
+
+Package: iya.banana.musichaptics
+Name: MusicHaptics
+Description: 原生音乐触感与四种通用模式，让音乐化作触感。Native music haptics and four universal haptic modes for iOS 15 and later.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, iya.banana.audioservice (>= 1.0.2), firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.2.0
+Installed-Size: 1056
+icon: https://huayuarc.github.io/icon/musichaptics.png
+Filename: debs/iya.banana.musichaptics-0.2.0-roothide.deb
+Size: 119696
+MD5sum: 4733e839d619ffa18030bb9076664bc3
+SHA1: 
+SHA256: 9cefb71d6cceb6a4706eb5bc55982db5940005ee8f096452e3a0ab86ac0cc0db
+
+Package: iya.banana.musichaptics
+Name: MusicHaptics
+Description: 原生音乐触感与四种通用模式，让音乐化作触感。Native music haptics and four universal haptic modes for iOS 15 and later.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, iya.banana.audioservice (>= 1.0.2), firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.2.0
+Installed-Size: 1056
+icon: https://huayuarc.github.io/icon/musichaptics.png
+Filename: debs/iya.banana.musichaptics-0.2.0-rootless.deb
+Size: 119728
+MD5sum: 786f2e2f20285c37b520893ee827066d
+SHA1: 
+SHA256: d215b2ac926f63ad972ab68c7b63a8114e49ac5c11df2d58eb47554c25cf4214
 
 Package: iya.banana.openspace
 Name: OpenSpace
