@@ -10552,6 +10552,42 @@ MD5sum: 5a39b0cbfea50e52f95604e7405f088a
 SHA1: 
 SHA256: 673f07e7eee70c1cde21aadfb77d00a2217af52aaad4abf035b90af3df2c0ef0
 
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 基于 1.6.2-154 的 CPU 专用低功耗隔离修复。保留双模式、控制中心及原有附加功能；模式切换不启用全局 PowerSave、不重启温控守护、不递归缩放热配置。显示守卫独立于 CPU 预算。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-154+isolation.4
+Installed-Size: 2164
+Filename: debs/com.huayuarc.cputhermal-1.6.2-154+isolation.4-roothide.deb
+Size: 160800
+MD5sum: 67523e748997478bb2494f0d51392da4
+SHA1: 
+SHA256: a7d54757ce4707d7dfd7a81d26c4f5167706f4bcd806e6575e44a86dba0fd95b
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 基于 1.6.2-154 的 CPU 专用低功耗隔离修复。保留双模式、控制中心及原有附加功能；模式切换不启用全局 PowerSave、不重启温控守护、不递归缩放热配置。显示守卫独立于 CPU 预算。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-154+isolation.4
+Installed-Size: 2180
+Filename: debs/com.huayuarc.cputhermal-1.6.2-154+isolation.4-rootless.deb
+Size: 166712
+MD5sum: 37bafe7c6f1b58cc93d47de84d2e186d
+SHA1: 
+SHA256: 7e1fdc25d957d73afbae7b8985a5b2b361f4971548bfaaabbcc32025ae2098ff
+
 Package: com.huayuarc.facedownlock
 Name: 设备朝下自动锁屏
 Author: Huayuarc
@@ -24429,6 +24465,40 @@ SHA1:
 SHA256: 02748f145e319ae1faddde2bcc93955a6a2e7e010738c88a05c096d895d11272
 
 Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（实时反色支持胶囊）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 5.9
+Installed-Size: 3440
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.9-roothide.deb
+Size: 464868
+MD5sum: 506be2f39c33a98def774848a0f25750
+SHA1: 
+SHA256: 2cef22bc284aba7b2daaaeb473e1fddaadc60e9586d664d203e74f6194f14430
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（支持胶囊文字实时反色）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 5.9
+Installed-Size: 3440
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.9-rootless.deb
+Size: 468152
+MD5sum: 1e1c4bf38930ef05b0016cad6e6327bf
+SHA1: 
+SHA256: 4e27fe927c4fd519fc649481fe793ab222272c6d1fc7d447de161205661f0083
+
+Package: com.sbcpu.floating
 Name: SB CPU Floating
 Maintainer: MoWang
 Author: MoWang
@@ -36387,6 +36457,46 @@ MD5sum: 2718bf7d259071df1a646254dc833581
 SHA1: 
 SHA256: d96c01d43df05a74b4fae5f06164cc0ca20395b0b5ac6e9d925af805c4990671
 
+Package: iya.iapple.liquidass
+Name: Liquid (Gl)ass
+Description: 为 iOs 14-18 的系统界面带来可实时调整的液态玻璃效果。next level diarrhea
+Maintainer: dylv & banana
+Author: dylv & banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Provides: dylv.liquidass
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Architecture: iphoneos-arm64e
+Version: 0.1.1b+banana43
+Installed-Size: 9176
+Filename: debs/iya.iapple.liquidass-0.1.1b+banana43-roothide.deb
+Size: 3844540
+MD5sum: 602602faceec310b45b76de23bb6cdd3
+SHA1: 
+SHA256: 1c9aa3ca7f7da13db8951818be1af79bc6e3e11b757017d90ca918291df614e5
+
+Package: iya.iapple.liquidass
+Name: Liquid (Gl)ass
+Description: 为 iOs 14-18 的系统界面带来可实时调整的液态玻璃效果。next level diarrhea
+Maintainer: dylv & banana
+Author: dylv & banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Provides: dylv.liquidass
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Architecture: iphoneos-arm64
+Version: 0.1.1b+banana43
+Installed-Size: 9192
+Filename: debs/iya.iapple.liquidass-0.1.1b+banana43-rootless.deb
+Size: 3842344
+MD5sum: 1f407ee86b5fc1e1e1c8bd65de9f319e
+SHA1: 
+SHA256: 65fc16f82c5ca5b5d2a4b9806eb9bc0cc4e14ab741ad65f3717e8f339f5431b1
+
 Package: iya.iapple.siri
 Name: LiquidSiri
 Depends: mobilesubstrate, preferenceloader
@@ -38661,6 +38771,54 @@ Size: 6911056
 MD5sum: c340464a499f0eb59eb8dfa72be7b248
 SHA1: 
 SHA256: 0886addd7013660cc2ced9515e77c0f7e75c405d9f946a77997fc98ca673b924
+
+Package: wiki.qaq.ighostvt
+Name: iGhostVT
+Version: 1.4.19
+Architecture: iphoneos-arm64e
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Terminal Support
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Installed-Size: 19252
+Filename: debs/wiki.qaq.ighostvt-1.4.19-roothide.deb
+Size: 6953076
+MD5sum: d7f8d119dcff0516366197dfae8572d9
+SHA1: 
+SHA256: 42660db6ff6bf8d644d080855e25ae8e3d87d3200e2855a904d32b10ce23c471
+
+Package: wiki.qaq.ighostvt
+Name: iGhostVT
+Version: 1.4.19
+Architecture: iphoneos-arm64
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Terminal Support
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Installed-Size: 19252
+Filename: debs/wiki.qaq.ighostvt-1.4.19-rootless.deb
+Size: 6956052
+MD5sum: 48553d06cfb67204b3da12dac536033e
+SHA1: 
+SHA256: a31843e283cbdf4053c459ed4ef9cd62b2da0df226044469b82ade523b751526
 
 Package: ws.hbang.newterm3
 Name: NewTerm 3 Beta iOS 终端
