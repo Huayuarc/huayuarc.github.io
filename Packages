@@ -33919,6 +33919,44 @@ MD5sum: 718ee3127ec4f06a98f194ee8b176290
 SHA1: 
 SHA256: ea67a6c8e092c90cedae447a7b680e8bf2cb6ec70c9b101db0811fbe77b2f458
 
+Package: com.xuuz.douyinhelper
+Name: 抖音助手
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64e
+Version: 2.2-7
+Installed-Size: 17708
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.2-7-roothide.deb
+Size: 6851568
+MD5sum: 3664e752415fb9f9c31dad6942e6967d
+SHA1: 
+SHA256: 8f0babe3fd98b1a4097e1817360c2bbbbf598d8468a094e7d616f5250c731556
+
+Package: com.xuuz.douyinhelper
+Name: 抖音助手
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64
+Version: 2.2-7
+Installed-Size: 17708
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.2-7-rootless.deb
+Size: 6855260
+MD5sum: b38ac181292a3588fc265a498c38f9dc
+SHA1: 
+SHA256: 8d7b7c34b521e38ec270bc5fb601708ef82b81e3aef4ea808f865aacb3e1d061
+
 Package: com.yaowell.alarmvibrate
 Name: AlarmVibrate
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
