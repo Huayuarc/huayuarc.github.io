@@ -15017,6 +15017,62 @@ MD5sum: 912a4d1a18a77fd69f969fe18cc57d8f
 SHA1: 
 SHA256: f47e3b4193bceb687ee3fabc1dbaf08e6beecc5d872ced425a08c398992e92ff
 
+Package: com.johndie.ccsupport18
+Name: CCSupport (iOS 18 fix)
+Depends: mobilesubstrate, firmware (>= 18.0)
+Provides: com.opa334.ccsupport (= 1.3.13-3), com.ioscreatix.silo
+Replaces: com.opa334.ccsupport, com.ioscreatix.silo
+Conflicts: com.opa334.ccsupport, com.ioscreatix.silo
+Description: iOS 18 only. opa334's CCSupport with one fix: Control Center modules from tweaks stay after safe mode and reboots. Replaces CCSupport. By opa334; fix by John d_ie (submitted upstream).
+Maintainer: John d_ie
+Author: opa334
+Section: Tweaks
+Depiction: https://jond-ie.github.io/repo/depictions/com.johndie.ccsupport18.html
+SileoDepiction: https://jond-ie.github.io/repo/depictions/com.johndie.ccsupport18.json
+Architecture: iphoneos-arm64
+Version: 1.3.13-3~ios18fix2
+Installed-Size: 664
+Filename: debs/com.johndie.ccsupport18-1.3.13-3~ios18fix2-rootless.deb
+Size: 62532
+MD5sum: 318ba5174a483f928b4d916551321b47
+SHA1: 
+SHA256: 710f2b6427f4b5a0cc6ea525acdb0342fbc67139409cbd8215758e7601a30b71
+
+Package: com.johndie.eqelinker
+Name: EQELinker
+Description: 从Triggr加载您保存的EQE预设：例如，AirPods连接时一个预设，断开连接时另一个预设。将“EQE预设”类别添加到Triggr的操作中。Load your saved EQE presets from Triggr: e.g. one preset when your AirPods connect, another when they disconnect. Adds an "EQE Presets" category to Triggr's actions.
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: com.johndie.triggr (>= 1.0.4), com.r333d.eqe
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 32
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/eqe.png
+Filename: debs/com.johndie.eqelinker-1.0.0-roothide.deb
+Size: 1936
+MD5sum: 850d0eaf21e7c5bd2e95218fa388475d
+SHA1: 
+SHA256: 8f9ccd0d511c43ed64beedc397ec3700158b17ca0be334d8d77057d4cfdf3d54
+
+Package: com.johndie.eqelinker
+Name: EQELinker
+Description: 从Triggr加载您保存的EQE预设：例如，AirPods连接时一个预设，断开连接时另一个预设。将“EQE预设”类别添加到Triggr的操作中。Load your saved EQE presets from Triggr: e.g. one preset when your AirPods connect, another when they disconnect. Adds an "EQE Presets" category to Triggr's actions.
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: com.johndie.triggr (>= 1.0.4), com.r333d.eqe
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 32
+icon: https://huayuarc.github.io/icon/eqe.png
+Filename: debs/com.johndie.eqelinker-1.0.0-rootless.deb
+Size: 1928
+MD5sum: 16a53259a2432fb567754b6a3fb88428
+SHA1: 
+SHA256: afc670121b45c0bceee4c0c95656be29a1657b96a09f47c68ebc8edc24cff5e3
+
 Package: com.johndie.triggr
 Name: Triggr
 Description: 面向 rootless Dopamine 的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 A12 及更新机型（arm64e）。
@@ -22657,6 +22713,39 @@ Size: 498128
 MD5sum: a6d4dfad33872aa2c8b3b48507a2ea80
 SHA1: 
 SHA256: 2156fc497cce2bcb8bce51e7f25d8095f3d538566af0740c8ae84025aa1d5e82
+
+Package: com.rweichler.eqe
+Maintainer: Reed Weichler
+Name: EQE 均衡器
+Version: 2.2.24
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate, coreutils
+Description: 系统范围的参数均衡器 System-wide parametric equalizer
+Author: Reed Weichler
+Section: Tweaks
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/eqe.png
+Filename: debs/com.rweichler.eqe-2.2.24-roothide.deb
+Size: 7912488
+MD5sum: 808ee9d66235358bc9e60a8e9403a28d
+SHA1: 
+SHA256: 47948a678a49796dd335a17bbae33c91d5e2b7898405634957addc7b167c770b
+
+Package: com.rweichler.eqe
+Maintainer: Reed Weichler
+Name: EQE 均衡器
+Version: 2.2.24
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate, coreutils
+Description: 系统范围的参数均衡器 System-wide parametric equalizer
+Author: Reed Weichler
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/eqe.png
+Filename: debs/com.rweichler.eqe-2.2.24-rootless.deb
+Size: 7939144
+MD5sum: 71f23e593b6ad3bf155dec7e15221de5
+SHA1: 
+SHA256: 07501232b325a1c6e7827b0ff0c7b5cb7b30a4819b6c47ea48be0632d5887976
 
 Package: com.saihgupr.remotecompanion
 Name: RemoteCompanion
@@ -34825,6 +34914,38 @@ Size: 28816
 MD5sum: 5e34516377b441a12ea2f58365099c82
 SHA1: 
 SHA256: 06d4bd86364d1f357455dccf9c5971bc6035c6109fd20088d6e01643c08e0a8c
+
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: Junhong
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Section: Tweaks
+Depends: firmware (>=15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 3.0.4
+Installed-Size: 240
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+Filename: debs/fanqiefn-3.0.4-roothide.deb
+Size: 29776
+MD5sum: 2fae128d5480b9547abce965e9ba7695
+SHA1: 
+SHA256: 2d075f22fa31ddb1727c38b801d42c753d4291935c2ea6e3b91a2007cff1fbb2
+
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: Junhong
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Section: Tweaks
+Depends: firmware (>=15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 3.0.4
+Installed-Size: 240
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+Filename: debs/fanqiefn-3.0.4-rootless.deb
+Size: 29764
+MD5sum: f2e68468b8aff095df6988487da54051
+SHA1: 
+SHA256: 92c269950ed5acc9ab037fd530e8538c72cf54f58a6f302d7cde58eaf21f374b
 
 Package: Flex3beta
 Name: Flex3 Beta可解析版
