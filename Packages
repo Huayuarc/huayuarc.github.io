@@ -10723,6 +10723,42 @@ MD5sum: 37bafe7c6f1b58cc93d47de84d2e186d
 SHA1: 
 SHA256: 7e1fdc25d957d73afbae7b8985a5b2b361f4971548bfaaabbcc32025ae2098ff
 
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15–17 的温控策略。稳定高性能模式阻止用户态热缓解并保持原生 CPU 调度；低功耗模式仅下发 CPU 专用预算与频率策略，不改变亮度。显示亮度保护独立工作；保留充电限制、锁屏、电池页面修复和控制中心。不能绕过固件或硬件紧急保护。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-154+isolation.6
+Installed-Size: 1844
+Filename: debs/com.huayuarc.cputhermal-1.6.2-154+isolation.6-roothide.deb
+Size: 120880
+MD5sum: 4f6f69973fa84a597832a9921b27c9ca
+SHA1: 
+SHA256: 9d125494ec3d9591093839ef5142ae8932962670f3688720e7b80c14122bec79
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15–17 的温控策略。稳定高性能模式阻止用户态热缓解并保持原生 CPU 调度；低功耗模式仅下发 CPU 专用预算与频率策略，不改变亮度。显示亮度保护独立工作；保留充电限制、锁屏、电池页面修复和控制中心。不能绕过固件或硬件紧急保护。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-154+isolation.6
+Installed-Size: 1844
+Filename: debs/com.huayuarc.cputhermal-1.6.2-154+isolation.6-rootless.deb
+Size: 125716
+MD5sum: e0449eceaf59de1e663279b82fc3c308
+SHA1: 
+SHA256: 193e18af1042fd37216cb6a6bff955ccad7c2f2ce056c263030c791949070650
+
 Package: com.huayuarc.facedownlock
 Name: 设备朝下自动锁屏
 Author: Huayuarc
