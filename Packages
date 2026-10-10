@@ -6280,6 +6280,40 @@ MD5sum: c1bffcf3ec68484ce6735217131fd2b2
 SHA1: 
 SHA256: 81f61553026a8870135279ac9c659473b7cca43ab3c01104d528668dae981968
 
+Package: com.crctdd.choicy-patch
+Name: Choicy Patch
+Description: 给Choicy增加已设置置顶 / 进程页面本地缓存。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, com.opa334.choicy (>= 1.4), com.opa334.altlist (>= 1.0.4)
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 96
+icon: https://huayuarc.github.io/icon/choicy.jpg
+Filename: debs/com.crctdd.choicy-patch-0.0.2-roothide.deb
+Size: 13460
+MD5sum: 73f40de2e3a1394eb245842c3d85169d
+SHA1: 
+SHA256: 02e0c14690d3153566add5b0f2a641281c9456dde70674e840c064cd59b3ac7c
+
+Package: com.crctdd.choicy-patch
+Name: Choicy Patch
+Description: 给Choicy增加已设置置顶 / 进程页面本地缓存。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, com.opa334.choicy (>= 1.4), com.opa334.altlist (>= 1.0.4)
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Installed-Size: 208
+icon: https://huayuarc.github.io/icon/choicy.jpg
+Filename: debs/com.crctdd.choicy-patch-0.0.2-rootless.deb
+Size: 17444
+MD5sum: 7e64c3d7420d8c28d6e424876df143ff
+SHA1: 
+SHA256: f3944ba5c3346adf0f3dbf9d72337b840f1c551aeb2d9ba48225b38e78d6d845
+
 Package: com.crctdd.cranedd
 Name: Crane Drop Down
 Description: 下拉桌面图标弹出多开应用容器，无设置项。(支持iOS 15-17)
@@ -6313,6 +6347,40 @@ Size: 24832
 MD5sum: 2d790ecf5ba2fec03ef41043de68b7b4
 SHA1: 
 SHA256: 37f8fd2c9f551a1940b6325957fcf9d69cbc1fa4fba3e8c8f4e836194415174b
+
+Package: com.crctdd.disablecutpop
+Name: Disable CutPoP
+Description: 设备互通粘贴时禁用弹窗，无设置项。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 72
+icon: https://huayuarc.github.io/icon/disablecutpop.jpg
+Filename: debs/com.crctdd.disablecutpop-0.0.1-roothide.deb
+Size: 3412
+MD5sum: 5ee1bf1efbee4a05b97bb7f288369ac6
+SHA1: 
+SHA256: b64d2673f0135f45ea13ae560e3d4112dafde30d7fdcb9ba7d61cc465dae7c41
+
+Package: com.crctdd.disablecutpop
+Name: Disable CutPoP
+Description: 设备互通粘贴时禁用弹窗，无设置项。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/disablecutpop.jpg
+Filename: debs/com.crctdd.disablecutpop-0.0.1-rootless.deb
+Size: 4192
+MD5sum: e0ec539d3f0a0688e1b47fcef8a02134
+SHA1: 
+SHA256: f79f82c35d6bc701cebd304099897813202d5096d9d12d4de5dea22675a46562
 
 Package: com.crctdd.filzarename
 Name: Filza Rename
@@ -10100,6 +10168,40 @@ MD5sum: dcf593d35a2d5cce43653e9f8d59b07d
 SHA1: 
 SHA256: b007fb5993b7cb0c089ec2e8129b48846a5188bec551c7ee0639bb5027daa3c1
 
+Package: com.huami.ChoicyConfigPin
+Name: ChoicyConfigPin
+Description: Pin apps with custom tweak configuration to the top in Choicy
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy (>> 1.5.1), com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.0-2
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/choicy.jpg
+Filename: debs/com.huami.ChoicyConfigPin-1.0-2-roothide.deb
+Size: 5868
+MD5sum: 708ef38437839b20777569b2b684359d
+SHA1: 
+SHA256: 6c08c8d252cb79b3df6b2e79a1da76a7f8ed7d833896d242b8065600dfe49e97
+
+Package: com.huami.ChoicyConfigPin
+Name: ChoicyConfigPin
+Description: Pin apps with custom tweak configuration to the top in Choicy
+Maintainer: huami
+Author: huami
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 1.0-2
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/huayuarc.jpg
+Filename: debs/com.huami.ChoicyConfigPin-1.0-2-rootless.deb
+Size: 6912
+MD5sum: dc2e1b20ef447a7c5a961c5810de8afe
+SHA1: 
+SHA256: 90aa817661715e233e90d443f388d557e09e78620ba0ee8291803c0654687ec9
+
 Package: com.huami.WCPulse
 Name: WCPulse
 Version: 1.6-3
@@ -10485,40 +10587,6 @@ Size: 420236
 MD5sum: 1ddce77a5263584fc087d081c22b7a56
 SHA1: 
 SHA256: 9b74bee2fe8e7599e451cfd68de49e2e6e455bd21278d3b383c3fdc7d2c11e4a
-
-Package: com.huami.ChoicyConfigPin
-Name: ChoicyConfigPin
-Description: Pin apps with custom tweak configuration to the top in Choicy
-Maintainer: huami
-Author: huami
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy, com.opa334.altlist
-Architecture: iphoneos-arm64
-Version: 1.0-2
-Installed-Size: 168
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.huami.choicyconfigpin_1.0-2_iphoneos-arm64.deb
-Size: 6892
-MD5sum: 471c4a4134800ef7ba476e2abfd8b610
-SHA1: 
-SHA256: 5479197ed2865a4e7552f54463cb05c259cb74d016b9c0eb90e25881a48a7c23
-
-Package: com.huami.ChoicyConfigPin
-Name: ChoicyConfigPin
-Description: Pin apps with custom tweak configuration to the top in Choicy
-Maintainer: huami
-Author: huami
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy (>> 1.5.1), com.opa334.altlist
-Architecture: iphoneos-arm64e
-Version: 1.0-2
-Installed-Size: 168
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.huami.choicyconfigpin_1.0-2_iphoneos-arm64e.deb
-Size: 5828
-MD5sum: c09f09701e2970bb4a9727f0a0295784
-SHA1: 
-SHA256: 12d6a1a42c3a685c13d01bfa0eead86b1e7e87767f04193ebb2e6264707f5bdb
 
 Package: com.huami.dyyy
 Name: DYYY
@@ -16515,6 +16583,39 @@ SHA256: 01a7e797beeddd6b57855d50ffd626eab095eda6edef3c05e1f1f659c9bbeedf
 
 Package: com.minis.lockscreengradientclock
 Name: 独立锁屏时间渐变
+Description: 新增充电胶囊，新增隐藏系统自带的目前电量和上滑解锁字样。
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.0.18
+Installed-Size: 960
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
+Filename: debs/com.minis.lockscreengradientclock-2.0.18-roothide.deb
+Size: 259412
+MD5sum: f437391b3551dec5aab16fae2032a37a
+SHA1: 
+SHA256: 0e9492d2ae2695989db98c1018f2e981ba0465e9d0dee203f66a6c2fa9e670c5
+
+Package: com.minis.lockscreengradientclock
+Name: 独立锁屏时间渐变
+Description: 新增充电胶囊，新增隐藏系统自带的目前电量和上滑解锁字样。
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.0.18
+Installed-Size: 960
+Filename: debs/com.minis.lockscreengradientclock-2.0.18-rootless.deb
+Size: 259268
+MD5sum: 60dc4c632ecf58637521fdafd912e0ce
+SHA1: 
+SHA256: 0c0fee65ff7f4ef95ee4e63bb8a8919d0011f3bb92993a00bdfc51caff83ff05
+
+Package: com.minis.lockscreengradientclock
+Name: 独立锁屏时间渐变
 Description: 独立的时间锁屏，不依赖 88 液态锁屏时间。如果继续想用 88 液态那种效果，不建议升级，
 Maintainer: MoWang
 Author: MoWang
@@ -16939,6 +17040,42 @@ MD5sum: 1cbe42f837d69b311c52f753c5eea655
 SHA1: 
 SHA256: 5a93b98feaf34f7c15a1b71c354bc3b3eaa895be14df71c1a4d23d8c402c855e
 
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 3684
+Filename: debs/com.mlgm.actra-1.1-roothide.deb
+Size: 716908
+MD5sum: 11403aee92c13dc6f1a9aa9c86a2539a
+SHA1: 
+SHA256: 3063ba132d7afc363cf56e079cba076fb4b4077edc5043f7502477b3c5376aa2
+
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 3716
+Filename: debs/com.mlgm.actra-1.1-rootless.deb
+Size: 716832
+MD5sum: 483324e69765c2e3010ddc3be58639c6
+SHA1: 
+SHA256: 881da329d0e0fa9cb40cd0753fe6fbedfb994c4435d9c94ecfd06bc8066a5764
+
 Package: com.mlgm.appdata
 Name: AppData
 Section: Tweaks
@@ -17317,6 +17454,40 @@ MD5sum: db38d7a64a67118d4f391efcd6541cfb
 SHA1: 
 SHA256: d09ec14a5ef4bb303e3d29e94cc34e874917e39c8db480bb1207c51845606d71
 
+Package: com.mlgm.isgkb
+Name: iSgkb
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/isgkb.png
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 464
+Filename: debs/com.mlgm.isgkb-1.1-roothide.deb
+Size: 42044
+MD5sum: 52b9213f75d98659b6de20725f833230
+SHA1: 
+SHA256: 4669469c0a5b69be14019a345880df134cbd8339eac4330d248fbe3792bb4986
+
+Package: com.mlgm.isgkb
+Name: iSgkb
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/isgkb.png
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 484
+Filename: debs/com.mlgm.isgkb-1.1-rootless.deb
+Size: 44000
+MD5sum: 61056f81372875bc43612cb21a1825e7
+SHA1: 
+SHA256: 756f2ec2503e13ee60807a2e88ce38852163cdd4ec05cdc8fe75720ca43e38e4
+
 Package: com.mlgm.iwxkb
 Name: iWxkb
 Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
@@ -17350,6 +17521,40 @@ Size: 47164
 MD5sum: f5cf511021aad6111c919ff24d302990
 SHA1: 
 SHA256: 973018f612bc1cdc3f9f512ed3788157ddabf9bc03c65e3ac64341977f68cec4
+
+Package: com.mlgm.iwxkb
+Name: iWxkb
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 436
+Filename: debs/com.mlgm.iwxkb-1.1-roothide.deb
+Size: 45444
+MD5sum: 41764249c2ca1a44b29b2022910d9771
+SHA1: 
+SHA256: 8ce59029fa9c41099c6f07fcbf77a5047b09673768bccd11ccb3cad86e246f1e
+
+Package: com.mlgm.iwxkb
+Name: iWxkb
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 460
+Filename: debs/com.mlgm.iwxkb-1.1-rootless.deb
+Size: 47176
+MD5sum: 4cf5c302fe6b180befb09d82edd8862c
+SHA1: 
+SHA256: 418c58ed1a6f7a6cc07aac37867799dc54b62dd5c9947921b88fdb9b4dc105fc
 
 Package: com.mlgm.kayoko
 Name: Kayoko 剪切板
@@ -24947,6 +25152,40 @@ SHA1:
 SHA256: 4e27fe927c4fd519fc649481fe793ab222272c6d1fc7d447de161205661f0083
 
 Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复浮窗文字横屏不跟随，修复温控一些 bug，新增灵动岛保护开关，原双击浮窗打开设置改为双击浮窗锁定浮窗位置）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 6.0
+Installed-Size: 3444
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-6.0-roothide.deb
+Size: 472784
+MD5sum: 6abcb9a154b2f9d64e8a72d3e79fc6fb
+SHA1: 
+SHA256: 67c762f03dee4780cf7abb0b9c1f784c70858f926bb027a875818b20d0a90004
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复浮窗文字横屏不跟随，修复温控一些 bug，新增灵动岛保护开关，原双击浮窗打开设置改为双击浮窗锁定浮窗位置）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 6.0
+Installed-Size: 3444
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-6.0-rootless.deb
+Size: 474176
+MD5sum: 8bd3cbb09d399aa5e9dff743a4929a49
+SHA1: 
+SHA256: 33b45d72db430e925dc1b22b43532d606c3795ab78cafe2a7ca788a1ee50249f
+
+Package: com.sbcpu.floating
 Name: SB CPU Floating
 Maintainer: MoWang
 Author: MoWang
@@ -26248,24 +26487,6 @@ Size: 33140
 MD5sum: 8e477a22df073efd31d89f6ddcb01933
 SHA1: 
 SHA256: db1333e9b886fb8011e4dbff3a5829920e1325940dd4d156ed450125371a54e3
-
-Package: com.sini.choicy
-Name: Choicy
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Description: 自定义插件注入
-Icon: https://sini921.github.io/repo/sileodepiction/icon/choicy.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/choicy/js.json
-Maintainer: opa334 <opa334@protonmail.com>
-Author: opa334 <opa334@protonmail.com>
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.5.3-2
-Installed-Size: 1136
-Filename: debs/com.sini.choicy_1.5.3-2_iphoneos-arm64.deb
-Size: 161344
-MD5sum: e23bb8af72f3353ebf486d69f60aeb79
-SHA1: 
-SHA256: b23c092cc96d68b87c22563ea6fc7af41e927f5f3fc8bc242ad197fd61a4f919
 
 Package: com.sini.chromatic
 Name: Saily
@@ -34491,6 +34712,41 @@ MD5sum: 65f42f7a4bbb8f8355190d53f9cccf7c
 SHA1: 
 SHA256: 517c851e1771fd9ffe2d1167905f116f295e56c07ae827e8b6eed58ab4f9dd27
 
+Package: com.yzdmm.kbtheme
+Name: 原生输入法增强
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Maintainer: yzdmm
+Author: yzdmm
+Section: Tweaks
+Description: iOS 原生输入法增强（键盘背景/整键盘透明/按键配色/彩虹皮肤/字母渐变/按键形状/工具栏布局）
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Installed-Size: 860
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/kb.jpg
+Filename: debs/com.yzdmm.kbtheme-1.1.1-roothide.deb
+Size: 474672
+MD5sum: c8bf257e4c2b22d261d22967058dd66d
+SHA1: 
+SHA256: b819eb7bf7795554489aadd63ab65f516ba60cbf56e4f9b8fc234f46b89fef9a
+
+Package: com.yzdmm.kbtheme
+Name: 原生输入法增强
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Maintainer: yzdmm
+Author: yzdmm
+Section: Tweaks
+Description: iOS 原生输入法增强（键盘背景/整键盘透明/按键配色/彩虹皮肤/字母渐变/按键形状/工具栏布局）
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Installed-Size: 860
+icon: https://huayuarc.github.io/icon/kb.jpg
+Filename: debs/com.yzdmm.kbtheme-1.1.1-rootless.deb
+Size: 475460
+MD5sum: 2e0768b32041d04613bc7d78cb88a1a0
+SHA1: 
+SHA256: 1e115a8de87e51fcdd16c803024083a0f7dc123f2a0517f34e90abdf703835cc
+
 Package: com.yzdmm.keyboardstatus
 Name: 键盘下方状态
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
@@ -34525,6 +34781,41 @@ Size: 70660
 MD5sum: 539dd9451928132898ccd19cf24f087c
 SHA1: 
 SHA256: caf371554cf814237323ed3cf757028a7b559e5f6c9b08132a3a9095dbc1d426
+
+Package: com.yzdmm.keyboardstatus
+Name: 键盘下方状态
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Maintainer: yzdmm
+Author: yzdmm
+Section: Tweaks
+Description: 系统键盘底栏加功能按钮（全选/剪切/粘贴/光标移动/剪贴板历史/快捷短语/收起键盘）+ 可选状态条。rootless 适配，逐功能可关，安全不崩。
+Architecture: iphoneos-arm64e
+Version: 1.3.7
+Installed-Size: 612
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/kb.jpg
+Filename: debs/com.yzdmm.keyboardstatus-1.3.7-roothide.deb
+Size: 79668
+MD5sum: 42fdb760758dc79fc4bf49c3bb99cba4
+SHA1: 
+SHA256: 4af36fc83a6ec8ed87b9ba7dd9b8b906a6b7f9b452712882a798fd1ae9af97e2
+
+Package: com.yzdmm.keyboardstatus
+Name: 键盘下方状态
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Maintainer: yzdmm
+Author: yzdmm
+Section: Tweaks
+Description: 系统键盘底栏加功能按钮（全选/剪切/粘贴/光标移动/剪贴板历史/快捷短语/收起键盘）+ 可选状态条。rootless 适配，逐功能可关，安全不崩。
+Architecture: iphoneos-arm64
+Version: 1.3.7
+Installed-Size: 612
+icon: https://huayuarc.github.io/icon/kb.jpg
+Filename: debs/com.yzdmm.keyboardstatus-1.3.7-rootless.deb
+Size: 82036
+MD5sum: 34a31271855118621817f4173d98944c
+SHA1: 
+SHA256: 7f73518e2edd7b6b5c92b3c1e5d56d5d986ca4fe47f3c3996be4a367e2bc6e47
 
 Package: com.zqbb.savephotos
 Name: Hello Snapper3
@@ -39209,6 +39500,54 @@ Size: 7011612
 MD5sum: 6bf7556903062acb0d6276eee05a0558
 SHA1: 
 SHA256: ae673a69348978c046a4016c9684f6e94e12face4baaa50ecf9abb1fde42571e
+
+Package: wiki.qaq.ighostvt
+Name: iGhostVT
+Version: 1.5.2
+Architecture: iphoneos-arm64e
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Terminal Support
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Installed-Size: 15540
+Filename: debs/wiki.qaq.ighostvt-1.5.2-roothide.deb
+Size: 4637916
+MD5sum: edd7f20a65e8917fc6fe5a009542d423
+SHA1: 
+SHA256: 5dff090c8dba938558f07ccb8bb848b70062af0ddf4e8510e491dbe5624bae66
+
+Package: wiki.qaq.ighostvt
+Name: iGhostVT
+Version: 1.5.2
+Architecture: iphoneos-arm64
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Terminal Support
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Installed-Size: 15540
+Filename: debs/wiki.qaq.ighostvt-1.5.2-rootless.deb
+Size: 4638236
+MD5sum: 35ab332f66db030a4d0c206cfb3c6d79
+SHA1: 
+SHA256: 271217c58390f331042615e77fd705060fb815cba3d0d534860f4a980f836119
 
 Package: ws.hbang.newterm3
 Name: NewTerm 3 Beta iOS 终端
