@@ -8030,43 +8030,6 @@ SHA256: 91fbf1cd642da31e8ce1a72b9851a5322dfdd303b7962c2b6f10145cade05051
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
 Author: doimty
-Description: 针对受支持的 iPhone Pro 机型进行高刷新策略调整，具有 app 和系统刷新请求和持续的 SpringBoard 保持有效。High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
-Maintainer: doimty
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.0.14-1
-Installed-Size: 108
-Tag: supports::roothide
-icon: https://huayuarc.github.io/icon/120hz.jpg
-Filename: debs/com.doimty.promotion-1.0.14-1-roothide.deb
-Size: 19640
-MD5sum: 6e4c47d12b3e3e0b1528774778985d01
-SHA1: 
-SHA256: 7533b3783759cd2cd98a06b7dd3711c3841d9f96a10e5571942ff1cca58cb3c0
-
-Package: com.doimty.promotion
-Name: ProMotion 120Hz
-Author: doimty
-Description: 针对受支持的 iPhone Pro 机型进行高刷新策略调整，具有 app 和系统刷新请求和持续的 SpringBoard 保持有效。High-refresh policy tweak for supported iPhone Pro models, with app and system refresh requests and a persistent SpringBoard keepalive.
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
-Maintainer: doimty
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.0.14-1
-Installed-Size: 236
-icon: https://huayuarc.github.io/icon/120hz.jpg
-Filename: debs/com.doimty.promotion-1.0.14-1-rootless.deb
-Size: 28020
-MD5sum: 1c6245dc7d8dea4adaa8bbd2e1f94391
-SHA1: 
-SHA256: 4bced8c6c88dda86405ff8871b3807f644eaee073cda088be3a4097d2e8f4a76
-
-Package: com.doimty.promotion
-Name: ProMotion 120Hz
-Author: doimty
 Description: 强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
 Depends: mobilesubstrate
 Maintainer: doimty
