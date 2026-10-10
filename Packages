@@ -6314,6 +6314,46 @@ MD5sum: 2d790ecf5ba2fec03ef41043de68b7b4
 SHA1: 
 SHA256: 37f8fd2c9f551a1940b6325957fcf9d69cbc1fa4fba3e8c8f4e836194415174b
 
+Package: com.crctdd.filzarename
+Name: Filza Rename
+Description: 在Filza内的.deb/.ipa/.tipa安装包长按可规范命名。
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<< 18.0)
+Conflicts: com.crctdd.filzadebname
+Replaces: com.crctdd.filzadebname
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 96
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+Filename: debs/com.crctdd.filzarename-0.0.1-roothide.deb
+Size: 17140
+MD5sum: f9f3463ade27e5bcdde22399db8392a9
+SHA1: 
+SHA256: ea21c5869a978801d89da6b35d09db61dfa75107347544d46ac855d571c4f49c
+
+Package: com.crctdd.filzarename
+Name: Filza Rename
+Description: 在Filza内的.deb/.ipa/.tipa安装包长按可规范命名。
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<< 18.0)
+Conflicts: com.crctdd.filzadebname
+Replaces: com.crctdd.filzadebname
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 208
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+Filename: debs/com.crctdd.filzarename-0.0.1-rootless.deb
+Size: 23028
+MD5sum: 88313b8ea7a08d00a0c9ccaa96de7c25
+SHA1: 
+SHA256: 8368020c7a84c869ca49fdd40f0b35fe65d07c7432d5242ace8e57e1363dc0cb
+
 Package: com.crctdd.memtrim
 Name: MemTrim
 Description: 优化并释放部分运行内存。(支持iOS 15-17)
@@ -10758,6 +10798,78 @@ Size: 125716
 MD5sum: e0449eceaf59de1e663279b82fc3c308
 SHA1: 
 SHA256: 193e18af1042fd37216cb6a6bff955ccad7c2f2ce056c263030c791949070650
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15–17 的温控策略。解除温控模式拦截用户态热降频并将 CPU 性能上下限请求固定为 100；低功耗仅限制 CPU 预算，不改变亮度。显示亮度保护独立工作；保留充电限制、锁屏、电池页面修复和控制中心。不能覆盖固件或硬件紧急保护。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-154+isolation.7
+Installed-Size: 1844
+Filename: debs/com.huayuarc.cputhermal-1.6.2-154+isolation.7-roothide.deb
+Size: 120972
+MD5sum: 7e65d4343f07de3c66e2750dec60c916
+SHA1: 
+SHA256: 5ce428f0825eb52bbe3b541dd7b5ef5959402360e0c67a0cf638588e49025589
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15–17 的温控策略。解除温控模式拦截用户态热降频并将 CPU 性能上下限请求固定为 100；低功耗仅限制 CPU 预算，不改变亮度。显示亮度保护独立工作；保留充电限制、锁屏、电池页面修复和控制中心。不能覆盖固件或硬件紧急保护。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-154+isolation.7
+Installed-Size: 1844
+Filename: debs/com.huayuarc.cputhermal-1.6.2-154+isolation.7-rootless.deb
+Size: 125672
+MD5sum: 78d3b254785f806c3946b2c62c9fcfd6
+SHA1: 
+SHA256: 5dd60c753ca4848a871ee74930f318ebb6808284201f1897b8a18c12786ae315
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15–17 的用户态预算实验。解除温控请求 CPU/GPU/Package Floor/Ceiling=100、CPU Level0；Package 是共享功率预算，不是整个 SoC 硬锁，不保证最大时钟或实际满功率。低功耗仅限制 CPU 并清除 GPU/Package 满预算下限，不改变亮度。保留显示保护、充电限制、锁屏、电池页面修复和控制中心。硬件紧急保护仍可接管。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-154+isolation.8
+Installed-Size: 1876
+Filename: debs/com.huayuarc.cputhermal-1.6.2-154+isolation.8-roothide.deb
+Size: 124424
+MD5sum: 3ac07099fe4b2a53a798db107e71ee23
+SHA1: 
+SHA256: 406215418547e1aef2f080776d051a38f40d5dfc22371e62ac6267ed51f2eec7
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15–17 的用户态预算实验。解除温控请求 CPU/GPU/Package Floor/Ceiling=100、CPU Level0；Package 是共享功率预算，不是整个 SoC 硬锁，不保证最大时钟或实际满功率。低功耗仅限制 CPU 并清除 GPU/Package 满预算下限，不改变亮度。保留显示保护、充电限制、锁屏、电池页面修复和控制中心。硬件紧急保护仍可接管。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-154+isolation.8
+Installed-Size: 1876
+Filename: debs/com.huayuarc.cputhermal-1.6.2-154+isolation.8-rootless.deb
+Size: 129128
+MD5sum: 6fe742bf6e450ac4f7e72af4275adf49
+SHA1: 
+SHA256: 7202c0fb7382febe17b9c93cf35287440d43edeb199b071738374cd401966b96
 
 Package: com.huayuarc.facedownlock
 Name: 设备朝下自动锁屏
@@ -19332,6 +19444,44 @@ MD5sum: b7f99cf35c113146be74a028f861c80d
 SHA1: 
 SHA256: 3f352722694cdf7ab3d715bd4126924fb595aff22fb2194dda032d2670a61af0
 
+Package: com.muzi.mutool
+Name: MUtool
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音与 MagSafe 动画、充电限制（限充阈值停充并回落 5% 自动恢复、阻止充电、智能计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64e
+Version: 2.1.74
+Installed-Size: 4588
+Filename: debs/com.muzi.mutool-2.1.74-roothide.deb
+Size: 695308
+MD5sum: 55dfcaf859301ea594d3d76ab08727d8
+SHA1: 
+SHA256: 31e402b92118f2d575d0801fca05a09d316795843710d82f573380c6099ce1e3
+
+Package: com.muzi.mutool
+Name: MUtool
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音与 MagSafe 动画、充电限制（限充阈值停充并回落 5% 自动恢复、阻止充电、智能计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64
+Version: 2.1.74
+Installed-Size: 4604
+Filename: debs/com.muzi.mutool-2.1.74-rootless.deb
+Size: 701508
+MD5sum: 14bf1cb3bca32da90b6d7aae50741d0f
+SHA1: 
+SHA256: 7566cf557355663c57add2108df2f439943fb8b662f562936663c1705815409f
+
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
 Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
@@ -22472,6 +22622,46 @@ Size: 461356
 MD5sum: f5098b4b521c571dcbdce3f89cef9784
 SHA1: 
 SHA256: ccad11b4a5c25ad861bb735b32154ce96113c280f959fc7d28293d95b31291d1
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.91
+Installed-Size: 3964
+Filename: debs/com.qq391160.cpucore-2.0.91-roothide.deb
+Size: 581688
+MD5sum: ceacabd597809cb9d5e7f4fd09fc5b92
+SHA1: 
+SHA256: 7609928b7ffe0e5cd5daab78280e5c7950864e35a1699e6af3c98973eaec027c
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64
+Version: 2.0.91
+Installed-Size: 3736
+Filename: debs/com.qq391160.cpucore-2.0.91-rootless.deb
+Size: 544828
+MD5sum: 841c9fd002374919b5472dbf187536b5
+SHA1: 
+SHA256: 1ed94e066b6217f18786200270ade7b3dfe34763ac5173d9aa72d055d0a18ed2
 
 Package: com.quicklaunch.tweak
 Name: QuickLaunch
@@ -35135,38 +35325,6 @@ Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate
 icon: https://huayuarc.github.io/icon/hongguo.png
 Architecture: iphoneos-arm64e
-Version: 1.0.0
-Installed-Size: 340
-Filename: debs/hongguofn-1.0.0-roothide.deb
-Size: 54728
-MD5sum: 443d0a05725125125e50998deee40118
-SHA1: 
-SHA256: 04e0a5ac9af6a10fd773859cdf57f9a44ccd6c63b00dba2e3379b22390359ad8
-
-Package: hongguofn
-Name: 红果净化
-Maintainer: 5hux1n
-Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
-icon: https://huayuarc.github.io/icon/hongguo.png
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Installed-Size: 340
-Filename: debs/hongguofn-1.0.0-rootless.deb
-Size: 54952
-MD5sum: 3dae3ce5eaf7bb3c82c74c28e1ee1f45
-SHA1: 
-SHA256: 7ebabd1bd464e32460824811bae2677bbd11cdc9bb32b7ef7d3728c9837af60d
-
-Package: hongguofn
-Name: 红果净化
-Maintainer: 5hux1n
-Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate
-icon: https://huayuarc.github.io/icon/hongguo.png
-Architecture: iphoneos-arm64e
 Version: 1.0.1
 Installed-Size: 436
 Filename: debs/hongguofn-1.0.1-roothide.deb
@@ -35190,6 +35348,38 @@ Size: 79292
 MD5sum: af8d6f169f29a632744e8a5b7faab6dd
 SHA1: 
 SHA256: 14c690782b8d3920eb0b7ab70cff4f93eb088f391b502253ed4a11ec7213153a
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: 5hux1n
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 468
+Filename: debs/hongguofn-1.0.2-roothide.deb
+Size: 84132
+MD5sum: d1d202619f9ec44c60a30c34f8a86f5f
+SHA1: 
+SHA256: 8825e0d45ba148e740f9c8372831a91d7b893cd4520a33b3d7aa53dfa780ba68
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: 5hux1n
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Installed-Size: 468
+Filename: debs/hongguofn-1.0.2-rootless.deb
+Size: 84648
+MD5sum: 436ba237206238f3be59371ddae17b63
+SHA1: 
+SHA256: 97f9f549da93ca85937ecfaab66690613ff48b98b65b08a4b7d10caadb1dbc9d
 
 Package: hypicfix
 Name: 醒图国际版修复工具
@@ -35648,54 +35838,20 @@ SHA256: f316aec3e066d2f4d189b320f5473c53f171ce8ede71df0e3ccbe1817b74df44
 
 Package: iya.banana.dockicon
 Name: DarkIcon
-Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.ios 15-18提供深色图标与图片壁纸暗化。
-Maintainer: hades
-Author: hades
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
-Architecture: iphoneos-arm64e
-Version: 0.9.2
-Installed-Size: 720
-icon: https://huayuarc.github.io/icon/DarkIcon.png
-Filename: debs/iya.banana.dockicon-0.9.2-roothide.deb
-Size: 124196
-MD5sum: 9ec3804903f0fcebbac50377b4bef932
-SHA1: 
-SHA256: f579f4de734f645da390ca0bdc9d354aecebc56f05ef1f0284ce7ecb03273e01
-
-Package: iya.banana.dockicon
-Name: DarkIcon
-Description: Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.ios 15-18提供深色图标与图片壁纸暗化。
-Maintainer: hades
-Author: hades
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
-Architecture: iphoneos-arm64
-Version: 0.9.2
-Installed-Size: 720
-icon: https://huayuarc.github.io/icon/DarkIcon.png
-Filename: debs/iya.banana.dockicon-0.9.2-rootless.deb
-Size: 123616
-MD5sum: 159f8ce68afe0fae5eba1df37d97c845
-SHA1: 
-SHA256: 923dfd6b686c770bc42aa6d203e6d818cd8d1a55120b85116bf4574f4db75c8a
-
-Package: iya.banana.dockicon
-Name: DarkIcon
 Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
 Maintainer: hades
 Author: hades
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
 Architecture: iphoneos-arm64e
-Version: 0.9.4
-Installed-Size: 1052
+Version: 0.9.16
+Installed-Size: 1516
 icon: https://huayuarc.github.io/icon/DarkIcon.png
-Filename: debs/iya.banana.dockicon-0.9.4-roothide.deb
-Size: 188144
-MD5sum: 55f7a035d84e8de50e47f07ac3782cd6
+Filename: debs/iya.banana.dockicon-0.9.16-roothide.deb
+Size: 326960
+MD5sum: 66bed6f9f92d0a6d896d3eaf56b17a35
 SHA1: 
-SHA256: 0c96f24e80234dbf7802d819b0b8cbde4e1ea95e6e5a2171d89619ce5c7f7ec9
+SHA256: 7aef6b147ebfa01a9f8a893cc109141250fdee7bce8bdd5a1b433da42135f9bf
 
 Package: iya.banana.dockicon
 Name: DarkIcon
@@ -35705,48 +35861,14 @@ Author: hades
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
 Architecture: iphoneos-arm64
-Version: 0.9.4
-Installed-Size: 1052
+Version: 0.9.16
+Installed-Size: 1516
 icon: https://huayuarc.github.io/icon/DarkIcon.png
-Filename: debs/iya.banana.dockicon-0.9.4-rootless.deb
-Size: 187908
-MD5sum: 38b4171a1caddab985a2e04e1119019d
+Filename: debs/iya.banana.dockicon-0.9.16-rootless.deb
+Size: 326944
+MD5sum: 1b11e58cc86d71f80c786ab98d641f86
 SHA1: 
-SHA256: 9c4489b31d48924f928d9f4d7f1471609f7611e9f81d39d02c53787da7155e8c
-
-Package: iya.banana.dockicon
-Name: DarkIcon
-Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
-Maintainer: hades
-Author: hades
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
-Architecture: iphoneos-arm64e
-Version: 0.9.7
-Installed-Size: 1008
-icon: https://huayuarc.github.io/icon/DarkIcon.png
-Filename: debs/iya.banana.dockicon-0.9.7-roothide.deb
-Size: 214392
-MD5sum: 4506ae8faeda4a194adc0f767339d7a5
-SHA1: 
-SHA256: 7fffbd242dd0e7f2522def8835e6ba2782322efc2412e2dbf7ce95189ece1741
-
-Package: iya.banana.dockicon
-Name: DarkIcon
-Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
-Maintainer: hades
-Author: hades
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
-Architecture: iphoneos-arm64
-Version: 0.9.7
-Installed-Size: 1008
-icon: https://huayuarc.github.io/icon/DarkIcon.png
-Filename: debs/iya.banana.dockicon-0.9.7-rootless.deb
-Size: 213564
-MD5sum: a81234a825279ace1f522a37981b1921
-SHA1: 
-SHA256: ec18d6334eb0faa8f8dee900fbd566742da3edf1884f79dc836955ba05899d89
+SHA256: d29f12f6d4e38b9bc3393cdbfaf108cec626a56d6cd84bd81b7f0a399347d906
 
 Package: iya.banana.dockicon
 Name: DarkIcon
@@ -36809,6 +36931,46 @@ Size: 3842344
 MD5sum: 1f407ee86b5fc1e1e1c8bd65de9f319e
 SHA1: 
 SHA256: 65fc16f82c5ca5b5d2a4b9806eb9bc0cc4e14ab741ad65f3717e8f339f5431b1
+
+Package: iya.iapple.liquidass
+Name: Liquid (Gl)ass
+Description: next level diarrhea
+Maintainer: dylv & banana
+Author: dylv & banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Provides: dylv.liquidass
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Architecture: iphoneos-arm64e
+Version: 0.1.1b+banana47
+Installed-Size: 9208
+Filename: debs/iya.iapple.liquidass-0.1.1b+banana47-roothide.deb
+Size: 3837940
+MD5sum: 1ecc77eac7709c7e5b4177056312dfb1
+SHA1: 
+SHA256: 3084ccd78355d31615b5045394c18a649aaa62cbffc457bd984b6f3f6794f027
+
+Package: iya.iapple.liquidass
+Name: Liquid (Gl)ass
+Description: next level diarrhea
+Maintainer: dylv & banana
+Author: dylv & banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Provides: dylv.liquidass
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Architecture: iphoneos-arm64
+Version: 0.1.1b+banana47
+Installed-Size: 9240
+Filename: debs/iya.iapple.liquidass-0.1.1b+banana47-rootless.deb
+Size: 3848612
+MD5sum: 4d642fef64020bbf48cf2243530c1dcf
+SHA1: 
+SHA256: 0d56d4a9525864293b1f1cf83be15660e2b0e8d63f848eeebe5cb8c5d2254a98
 
 Package: iya.iapple.siri
 Name: LiquidSiri
@@ -39039,7 +39201,7 @@ SHA256: a40470c81fb59d6177e0c7de06fdc1b262796383931313a4f22c327b020b5cc7
 
 Package: wiki.qaq.ighostvt
 Name: iGhostVT
-Version: 1.4.11
+Version: 1.5.0
 Architecture: iphoneos-arm64e
 Description: Ghostty-powered terminal for iOS
  A real terminal on your device, drawn by the same engine as Ghostty on the
@@ -39054,16 +39216,16 @@ Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Section: Terminal Support
 Priority: optional
 Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
-Installed-Size: 19092
-Filename: debs/wiki.qaq.ighostvt-1.4.11-roothide.deb
-Size: 6910208
-MD5sum: 482551be7ba357a33d69bfff8e29ec8d
+Installed-Size: 19448
+Filename: debs/wiki.qaq.ighostvt-1.5.0-roothide.deb
+Size: 7010148
+MD5sum: 65d8869773578e86243a72449c1d9542
 SHA1: 
-SHA256: 34628173ef05f1af72dd55face770e29d08b373a6e3f678834b1ffc107142b3e
+SHA256: 8f82ed59a75f2629a18b30039469d70108f78583bc498c0d078fc7fd227e72c9
 
 Package: wiki.qaq.ighostvt
 Name: iGhostVT
-Version: 1.4.11
+Version: 1.5.0
 Architecture: iphoneos-arm64
 Description: Ghostty-powered terminal for iOS
  A real terminal on your device, drawn by the same engine as Ghostty on the
@@ -39078,60 +39240,12 @@ Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Section: Terminal Support
 Priority: optional
 Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
-Installed-Size: 19092
-Filename: debs/wiki.qaq.ighostvt-1.4.11-rootless.deb
-Size: 6911056
-MD5sum: c340464a499f0eb59eb8dfa72be7b248
+Installed-Size: 19448
+Filename: debs/wiki.qaq.ighostvt-1.5.0-rootless.deb
+Size: 7011612
+MD5sum: 6bf7556903062acb0d6276eee05a0558
 SHA1: 
-SHA256: 0886addd7013660cc2ced9515e77c0f7e75c405d9f946a77997fc98ca673b924
-
-Package: wiki.qaq.ighostvt
-Name: iGhostVT
-Version: 1.4.19
-Architecture: iphoneos-arm64e
-Description: Ghostty-powered terminal for iOS
- A real terminal on your device, drawn by the same engine as Ghostty on the
- desktop. Your shell keeps running in the background, so a build you started
- is still going when you switch apps and still there when you come back.
- Runs on iPhone and iPad.
-Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
-Depiction: https://owngoal-dev.github.io/iGhostVT/
-SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
-Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Terminal Support
-Priority: optional
-Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
-Installed-Size: 19252
-Filename: debs/wiki.qaq.ighostvt-1.4.19-roothide.deb
-Size: 6953076
-MD5sum: d7f8d119dcff0516366197dfae8572d9
-SHA1: 
-SHA256: 42660db6ff6bf8d644d080855e25ae8e3d87d3200e2855a904d32b10ce23c471
-
-Package: wiki.qaq.ighostvt
-Name: iGhostVT
-Version: 1.4.19
-Architecture: iphoneos-arm64
-Description: Ghostty-powered terminal for iOS
- A real terminal on your device, drawn by the same engine as Ghostty on the
- desktop. Your shell keeps running in the background, so a build you started
- is still going when you switch apps and still there when you come back.
- Runs on iPhone and iPad.
-Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
-Depiction: https://owngoal-dev.github.io/iGhostVT/
-SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
-Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Terminal Support
-Priority: optional
-Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
-Installed-Size: 19252
-Filename: debs/wiki.qaq.ighostvt-1.4.19-rootless.deb
-Size: 6956052
-MD5sum: 48553d06cfb67204b3da12dac536033e
-SHA1: 
-SHA256: a31843e283cbdf4053c459ed4ef9cd62b2da0df226044469b82ade523b751526
+SHA256: ae673a69348978c046a4016c9684f6e94e12face4baaa50ecf9abb1fde42571e
 
 Package: ws.hbang.newterm3
 Name: NewTerm 3 Beta iOS 终端
