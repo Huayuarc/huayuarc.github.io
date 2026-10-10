@@ -15140,10 +15140,10 @@ Installed-Size: 4148
 icon: https://huayuarc.github.io/icon/snapper.png
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.jontelang.snapper3-1.2.1-roothide.deb
-Size: 1023332
-MD5sum: 03b7c1b73f7e18455655070bfbc69b9a
+Size: 1023684
+MD5sum: 5039c51376ce122a7503933663fe7aeb
 SHA1: 
-SHA256: c21191317b8a2cf3759a0931170d52a967605e32c92f2891d04c8108adbc8653
+SHA256: 3f2c34b04f02f12686d361e6b3693e7c388f7bfdc20c71625c25e71c5c69028c
 
 Package: com.jontelang.snapper3
 Name: Snapper 3 Havor
@@ -15158,10 +15158,10 @@ Version: 1.2.1
 Installed-Size: 4148
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/com.jontelang.snapper3-1.2.1-rootless.deb
-Size: 1031504
-MD5sum: 7acc756aab2bb8b5e6052e8cbd22f14d
+Size: 1031368
+MD5sum: a8852cc21c25f975ae0fe93e633ed060
 SHA1: 
-SHA256: 36a13f561d1e69d414e50072cb83b2c3123aa0f2f7596d3b89e37aa3baeef31f
+SHA256: ea0899101d8c253cc1663f57a0d01a4a029255ec56f6b10ea3048888562a985f
 
 Package: com.jontelang.snapper3free
 Name: Snapper 3 Free
@@ -15177,10 +15177,10 @@ Installed-Size: 4148
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/com.jontelang.snapper3free-1.2.1-roothide.deb
-Size: 1023956
-MD5sum: d21446a1b3197452570a7397b58e2c11
+Size: 1022640
+MD5sum: 71fff4378a196c4b4238a217c10d8af0
 SHA1: 
-SHA256: c7843c098239bb367a129f6a51b4d0255dbce717c0a109c0b89fb0f5024597af
+SHA256: 03a1a3decba6c825fea18c4f37ee6cf7cc0b6b40c500dad223bdec1d9dfbc303
 
 Package: com.jontelang.snapper3free
 Name: Snapper 3 Free
@@ -15195,10 +15195,10 @@ Version: 1.2.1
 Installed-Size: 4148
 icon: https://huayuarc.github.io/icon/snapper.png
 Filename: debs/com.jontelang.snapper3free-1.2.1-rootless.deb
-Size: 1031200
-MD5sum: dcceb1f4f2bf6cd98508eed1b5e2475e
+Size: 1032220
+MD5sum: 48251fb0abc842a9ef954fab8e3edbd2
 SHA1: 
-SHA256: 43b97aa6c0ab9537d55204e01589d25138f1c30044b67ad7d165a89ed8bf4095
+SHA256: 0c7d0a61a5da9d958e3ba2fb7f9f2660d26ad47bb3ffa39fe3227b3240ed83fa
 
 Package: com.jzksnsjswkw.feemcrack
 Name: Feemcrack
@@ -27583,40 +27583,6 @@ MD5sum: 4459c3a96255a72cc1b0fa361d1b6180
 SHA1: 
 SHA256: d48f79e0236da23987ec3639b76f8e27a5dcaca151e129cf2b3d33736ae38473
 
-Author: Jonathan Winger-lang
-Architecture: iphoneos-arm64
-Description: 备份
-Maintainer: Jonathan Winger-lang
-Version: 2.7.0
-Depends: mobilesubstrate, firmware (>= 12.1)
-Name: Snapper 2
-Section: Tweaks
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2, com.jontelang.snapper2.packix
-Package: com.sini.snapper2
-icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
-Filename: debs/com.sini.snapper2-2.7.0-rootless.deb
-Size: 586452
-MD5sum: d7e73c713d9e2381b6a978e82a1d98af
-SHA1: 
-SHA256: 2ea338106b08d4860bc5255cd68845eb0e3369c3cfbf3b78d6b476e309d9c44c
-
-Author: Jonathan Winger-lang
-Architecture: iphoneos-arm64
-Description: 备份
-Maintainer: Jonathan Winger-lang
-Version: 2.7.0
-Depends: mobilesubstrate, firmware (>= 12.1)
-Name: Snapper 2
-Section: Tweaks
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2, com.jontelang.snapper2.packix
-Package: com.sini.snapper2
-icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
-Filename: debs/com.sini.snapper2_2.7.0_iphoneos-arm64.deb
-Size: 586612
-MD5sum: 0636ab437001734b82159e2d1fb8c07a
-SHA1: 
-SHA256: 83b12d74a1929c3ca085214620c247936aef76e765ef782a982dc4a3db1682c6
-
 Package: com.sini.snapper3
 Maintainer: CyPwn
 Name: Snapper 3 Free
@@ -27635,24 +27601,6 @@ Size: 904960
 MD5sum: 2e1a41e89077adfe5b49881e83491602
 SHA1: 
 SHA256: 961ccbc6d1caf0eee1457f29192b780285ebdd58712e48a2884ff761c146165d
-
-Package: com.sini.snapper3
-Maintainer: CyPwn
-Name: Snapper 3 Free
-Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
-Description: Pin screenshots on the screen. Snapper 3 是一款区域截图插件
-icon: https://sini921.github.io/repo/sileodepiction/icon/sn3.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/sn3/js.json
-Author: Jonathan Winger-lang
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.0.2
-Filename: debs/com.sini.snapper3-1.0.2-rootless.deb
-Size: 911552
-MD5sum: 3808bb3e5316094500adf3305732633b
-SHA1: 
-SHA256: ed440458b912402bffbcaa75bd9413d69e60e8ba72045229f7f3d8a52510dc08
 
 Package: com.sini.solstice
 Version: 3.0.6
