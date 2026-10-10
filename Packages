@@ -3396,66 +3396,66 @@ Package: com.anthopak.powercuts-rootless
 Name: Powercuts
 Version: 1.2.2
 Icon: https://repo.anthopak.dev/assets/com.anthopak.powercuts-rootless/icon.png
-Description: Powercuts是iOS“快捷方式”应用程序的库，它能够为应用程序添加新操作，这些操作可以在“快捷方式”和个人自动化中使用。如果您还没有安装，请在软件包管理器中搜索“Powercuts”来安装一些操作包。然后，您将在“应用程序”>“Powercuts”的“快捷方式”编辑器中找到这些操作。A library and additions to supercharge Shortcuts!
+Description: Powercuts是iOS“快捷指令”应用程序的库，它能够为应用程序添加新操作，这些操作可以在“快捷指令”和个人自动化中使用。如果您还没有安装，请在软件包管理器中搜索“Powercuts”来安装一些操作包。然后，您将在“应用程序”>“Powercuts”的“快捷指令”编辑器中找到这些操作。A library and additions to supercharge Shortcuts!
 Section: System
 Depends: firmware (>=14.0), mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Author: AnthoPak <anthopakdev@gmail.com>
 Maintainer: AnthoPak <anthopakdev@gmail.com>
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.anthopak.powercuts-rootless-1.2.2-roothide.deb
-Size: 272728
-MD5sum: 29e52dd96773d4072d8c42241eb6f642
+Size: 272768
+MD5sum: 3da8fa00f626333b6c415ce77d796512
 SHA1: 
-SHA256: cb3e1c6dc3d590f62e0fd6e946960b52929340b279986c2f5231b1ace35307fb
+SHA256: 8495492db5fb0cbe2eeb729ee624ca0297e7aba3373851540ae90b2a770f045f
 
 Architecture: iphoneos-arm64
 Package: com.anthopak.powercuts-rootless
 Name: Powercuts
 Version: 1.2.2
 Icon: https://repo.anthopak.dev/assets/com.anthopak.powercuts-rootless/icon.png
-Description: Powercuts是iOS“快捷方式”应用程序的库，它能够为应用程序添加新操作，这些操作可以在“快捷方式”和个人自动化中使用。如果您还没有安装，请在软件包管理器中搜索“Powercuts”来安装一些操作包。然后，您将在“应用程序”>“Powercuts”的“快捷方式”编辑器中找到这些操作。A library and additions to supercharge Shortcuts!
+Description: Powercuts是iOS“快捷指令”应用程序的库，它能够为应用程序添加新操作，这些操作可以在“快捷指令”和个人自动化中使用。如果您还没有安装，请在软件包管理器中搜索“Powercuts”来安装一些操作包。然后，您将在“应用程序”>“Powercuts”的“快捷指令”编辑器中找到这些操作。A library and additions to supercharge Shortcuts!
 Section: System
 Depends: firmware (>=14.0), mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Author: AnthoPak <anthopakdev@gmail.com>
 Maintainer: AnthoPak <anthopakdev@gmail.com>
 Filename: debs/com.anthopak.powercuts-rootless-1.2.2-rootless.deb
-Size: 274948
-MD5sum: 3015cdd9283d30a3d41e20d12681f05f
+Size: 275040
+MD5sum: 4df7a9247bf50212652db6da2a44d992
 SHA1: 
-SHA256: 7ab85c03b265718face17f1040e383e37b750b579be62416610ccd2112d82948
+SHA256: 42b305b4f7cde0d5ee16c1b9623f3d5d859e98b0ac419befdbe3815e43771a80
 
 Architecture: iphoneos-arm64e
 Package: com.anthopak.powercutsactionspack-rootless
 Name: Powercuts Actions Pack
 Version: 1.3.1
 Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
-Description: 这个包提供了几个操作，在越狱的设备上释放快捷方式应用程序的力量！安装后，您将在“应用程序”>“Powercuts”下的“快捷方式编辑器”中找到新操作。您可以在“快捷键”或“个人自动化”中使用这些操作。Pack of actions for Powercuts
+Description: 这个包提供了几个操作，在越狱的设备上释放快捷指令应用程序的力量！安装后，您将在“应用程序”>“Powercuts”下的“快捷指令编辑器”中找到新操作。您可以在“快捷键”或“个人自动化”中使用这些操作。Pack of actions for Powercuts
 Section: Tweaks
 Depends: firmware (>=14.0), mobilesubstrate, firmware (>= 14.0), com.anthopak.powercuts | com.anthopak.powercuts-rootless
 Author: AnthoPak <anthopakdev@gmail.com>
 Maintainer: AnthoPak <anthopakdev@gmail.com>
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.anthopak.powercutsactionspack-rootless-1.3.1-roothide.deb
-Size: 59716
-MD5sum: 0e219a7605cf9b4b059184f56d6ee690
+Size: 59884
+MD5sum: d2b0f5de67ff4b078b824110f3a20577
 SHA1: 
-SHA256: 2ee4dfd4bc817f06579e730984a76bbf83921895f15836c774ecebd12aac0354
+SHA256: ed7da0000e846d6716f37a965fd7d19908dcc049b15f4d6688e3d9c2ef7dfde2
 
 Architecture: iphoneos-arm64
 Package: com.anthopak.powercutsactionspack-rootless
 Name: Powercuts Actions Pack
 Version: 1.3.1
 Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
-Description: 这个包提供了几个操作，在越狱的设备上释放快捷方式应用程序的力量！安装后，您将在“应用程序”>“Powercuts”下的“快捷方式编辑器”中找到新操作。您可以在“快捷键”或“个人自动化”中使用这些操作。Pack of actions for Powercuts
+Description: 这个包提供了几个操作，在越狱的设备上释放快捷指令应用程序的力量！安装后，您将在“应用程序”>“Powercuts”下的“快捷指令编辑器”中找到新操作。您可以在“快捷键”或“个人自动化”中使用这些操作。Pack of actions for Powercuts
 Section: Tweaks
 Depends: firmware (>=14.0), mobilesubstrate, firmware (>= 14.0), com.anthopak.powercuts | com.anthopak.powercuts-rootless
 Author: AnthoPak <anthopakdev@gmail.com>
 Maintainer: AnthoPak <anthopakdev@gmail.com>
 Filename: debs/com.anthopak.powercutsactionspack-rootless-1.3.1-rootless.deb
-Size: 60728
-MD5sum: b2f30ec7ab2edb6c38881e43d98fb48b
+Size: 60968
+MD5sum: 5aad3c685ece7df844b3d67b2d387453
 SHA1: 
-SHA256: ca867398f62ef02ec6975950d978cac00179c0e2c887046136920e8603f38311
+SHA256: cda9a676024de7bec17fe61c0e5066d85733b94ce2606fc816fc31dbbb50491c
 
 Package: com.anubis.boardswipe
 Name: BoardSwipe 滑动键盘
@@ -18368,11 +18368,12 @@ Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootles
 Pre-Depends: rootless-compat(>= 0.9)
 Maintainer: moss <moss@local>
 Author: moss <moss@local>
+Section: Tweaks
 Filename: debs/com.moss.pczhexecutor-0.6.0-roothide.deb
-Size: 16628
-MD5sum: baf6bfd93f86828a88721322cfec1e18
+Size: 16644
+MD5sum: e5471af96142afb00a33cd7c8ab5dc3c
 SHA1: 
-SHA256: 591b5af03852e1c7b6ca28a7af1d4a94e6d74bb6b69a18ba6995d23f0f8e9ca6
+SHA256: 006d88bf7ca82e54f31dbb75f7ace7694fdda0c5bfb9b750bc124a9dec72a17a
 
 Package: com.moss.pczhexecutor
 Name: Powercuts 汉化补丁
@@ -18384,11 +18385,12 @@ Installed-Size: 104
 Icon: https://repo.anthopak.dev/assets/com.anthopak.powercutsactionspack-rootless/icon.png
 Maintainer: moss <moss@local>
 Author: moss <moss@local>
+Section: Tweaks
 Filename: debs/com.moss.pczhexecutor-0.6.0-rootless.deb
-Size: 16848
-MD5sum: 4214c78be1191a7d403489325f51327e
+Size: 16840
+MD5sum: 3fe6b7909a41abf871d71479d6b854ac
 SHA1: 
-SHA256: 879f431e8445f0ff38420b2cd137b9dcb7646e499521456898ebd117f8f44a83
+SHA256: 0be6b202fe01a205c59d9a9e09b89c05dea87ffee525e705affa3b363aef4de3
 
 Package: com.mowang.crashanalyzer
 Name: AI 日志分析
