@@ -16608,11 +16608,12 @@ Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
 Version: 2.0.18
 Installed-Size: 960
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
 Filename: debs/com.minis.lockscreengradientclock-2.0.18-rootless.deb
-Size: 259268
-MD5sum: 60dc4c632ecf58637521fdafd912e0ce
+Size: 258500
+MD5sum: ce4321e4f3ed1452e7f902dae665a402
 SHA1: 
-SHA256: 0c0fee65ff7f4ef95ee4e63bb8a8919d0011f3bb92993a00bdfc51caff83ff05
+SHA256: 3e74b1c0b6bb20422ae89955b51359d180c0f31041fe9cfb51fe3d41584351f5
 
 Package: com.minis.lockscreengradientclock
 Name: 独立锁屏时间渐变
