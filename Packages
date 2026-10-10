@@ -4881,6 +4881,41 @@ MD5sum: b36eb008f26dc754f08b2b1ceb887a83
 SHA1: 
 SHA256: 3cf748fa3bcb44d5dc700f62a266d07bcae08b867d193169a5a544af8081d8a9
 
+Package: com.charlieleung.openmask
+Name: OpenMask
+Description: 将启动 fv 浮窗的接口转发给 open 越狱版。以实现某些手势的联动。
+Maintainer: charlie
+Author: charlie
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/openmask.jpg
+Filename: debs/com.charlieleung.openmask-0.0.1-roothide.deb
+Size: 3808
+MD5sum: 51a2da5c263e6e7e2db1876643fa0aa7
+SHA1: 
+SHA256: 7783383cc2ee286bde775ac8070c8a01cd2f1f50aeb0925b9aa5ce64c42820bc
+
+Package: com.charlieleung.openmask
+Name: OpenMask
+Description: 将启动 fv 浮窗的接口转发给 open 越狱版。以实现某些手势的联动。
+Maintainer: charlie
+Author: charlie
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/openmask.jpg
+Filename: debs/com.charlieleung.openmask-0.0.1-rootless.deb
+Size: 3920
+MD5sum: 934acdd8d4dc150568bcf11ff362fe61
+SHA1: 
+SHA256: 1f1265885c76cb9a34f3613b776abb6561b3fa222626442ec668cdda7be277ed
+
 Package: com.charlieleung.snapvision
 Name: 长截图 区域截图OCR
 Description: 长截图 区域截图OCR 截图仅复制。
@@ -8327,6 +8362,40 @@ Size: 185340
 MD5sum: 5a3b3661b94dd7fd6146eb86926f527d
 SHA1: 
 SHA256: 7458e5b3be8d76bb3ac6bde88256b19c04894c445f9b48dbff8cc2b4a5d20dd7
+
+Package: com.dynamicx.tweak
+Name: DynamicX
+Description: 万物皆上岛
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+Architecture: iphoneos-arm64e
+Version: 1.5.1
+Installed-Size: 2308
+Filename: debs/com.dynamicx.tweak-1.5.1-roothide.deb
+Size: 197556
+MD5sum: 1e9ea08117b108929f976bb4a70879fd
+SHA1: 
+SHA256: 50c67a24f752f627d148e0f6ddf64b32c8e94a2a46f39c6c7238bde31b492ace
+
+Package: com.dynamicx.tweak
+Name: DynamicX
+Description: 万物皆上岛
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+Architecture: iphoneos-arm64
+Version: 1.5.1
+Installed-Size: 2308
+Filename: debs/com.dynamicx.tweak-1.5.1-rootless.deb
+Size: 197300
+MD5sum: 406ff88dead4c8bdf83eb6b43bfea0ef
+SHA1: 
+SHA256: 32dc34b5f5f95a19fc65dac038aabd64dd2e86cabd873b1ece0061f6c0efab5f
 
 Package: com.eliassfeir.no2theftios15
 Name: No2Theft
