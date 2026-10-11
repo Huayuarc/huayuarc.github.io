@@ -34436,37 +34436,45 @@ MD5sum: b38ac181292a3588fc265a498c38f9dc
 SHA1: 
 SHA256: 8d7b7c34b521e38ec270bc5fb601708ef82b81e3aef4ea808f865aacb3e1d061
 
-Package: com.xybp888.callassist15.fugu15
-Section: tweaks
-Maintainer: xybp888
-Architecture: iphoneos-arm64
-Version: 2.2.2
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.libsandy
-Description: T9双卡选卡拨号键盘,短信双卡选卡,通话录音,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
-Name: 电话助手iOS15
-Author: xybp888
-Sponsor: xybp888
-Filename: debs/com.xybp888.callassist15.fugu15-2.2.2-rootless.deb
-Size: 2511668
-MD5sum: 42504c7bcaa4ee965fd7e9ea01828be4
-SHA1: 
-SHA256: 3b76ffca2be9b7b652b96502f623dda830c5166fdcb2baa8158c2fb7f52c368c
-
-Author: xybp888
-Architecture: iphoneos-arm64
-Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
-Maintainer: xybp888
-Version: 1.3.2
-Priority: optional
-Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
-Name: 电话助手iOS16
-Section: Tweaks
 Package: com.xybp888.callassist16.dopamine
-Filename: debs/com.xybp888.callassist16.dopamine-1.3.2-rootless.deb
-Size: 2608628
-MD5sum: 161c81c60f530d10203e431389bfaf0f
+Name: 电话助手iOS16-正式版(Rootless)
+Version: 3.1.1
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Section: Tweaks
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Conflicts:
+Replaces:
+Priority: optional
+Architecture: iphoneos-arm64
+Author: xybp888
+dev: xybp888
+Homepage:
+Maintainer: xybp888
+Filename: debs/com.xybp888.callassist16.dopamine-3.1.1-rootless.deb
+Size: 3572156
+MD5sum: 834b45da6dd337403b33b2ad10b843c4
 SHA1: 
-SHA256: 0b8e93ab10184a3560aea85e7c357583122704f3f845e320a7bf4c65f25f49f1
+SHA256: 84405982a4c4a9861ee566f6ee322882e16beea87366de1565c66a5317179acc
+
+Package: com.xybp888.callassist16.dopamine.roothide
+Name: 电话助手iOS16-正式版(Roothide)
+Version: 3.1.1
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Section: Tweaks
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Conflicts:
+Replaces:
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: xybp888
+dev: xybp888
+Homepage:
+Maintainer: xybp888
+Filename: debs/com.xybp888.callassist16.dopamine.roothide-3.1.1-roothide.deb
+Size: 3556328
+MD5sum: 26cb3c6ba852d6d030ed79d0a62188f4
+SHA1: 
+SHA256: e8231a32b29c35047e9c5f628caba38dbe9153bc1fc35549fd0bb2f6227fed71
 
 Package: com.yaowell.alarmvibrate
 Name: AlarmVibrate
