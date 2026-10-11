@@ -3535,6 +3535,69 @@ MD5sum: 601b14b40f50a3d35b46bf1bb4c63f1d
 SHA1: 
 SHA256: ae788d6e99b5526543c0651d419e3ae21dba64b450e188cb6198f572f8a7756c
 
+Package: com.axs.cpufree
+Name: CPU Free
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU频率显示：实时显示大核真实频率，低功耗模式下上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核频率表（2390 / 2490 / 2650 / 3090 / 3230 / 3460 / 3780MHz），按机型自动匹配上限。
+Maintainer: Axs<qiaozhani000@163.com>
+Author: Axs<qiaozhani000@163.com>
+Section: Axs-Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+Architecture: iphoneos-arm64e
+Version: 5.2.0-15+abouthide.1
+Installed-Size: 1368
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.axs.cpufree-5.2.0-15+abouthide.1-roothide.deb
+Size: 105700
+MD5sum: 3f9711426bbd227a7db1562874d75900
+SHA1: 
+SHA256: aff277d7281be2d2fcdbf87dcddb40548a8fd4a2d10f86ed22cc416414587e2d
+
+Package: com.axs.cpufree
+Name: CPU Free
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU频率显示：实时显示大核真实频率，低功耗模式下上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核频率表（2390 / 2490 / 2650 / 3090 / 3230 / 3460 / 3780MHz），按机型自动匹配上限。
+Maintainer: Axs<qiaozhani000@163.com>
+Author: Axs<qiaozhani000@163.com>
+Section: Axs-Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+Architecture: iphoneos-arm64
+Version: 5.2.0-15+abouthide.1
+Installed-Size: 1368
+Filename: debs/com.axs.cpufree-5.2.0-15+abouthide.1-rootless.deb
+Size: 109056
+MD5sum: 8d96cc3dc8ff5ae1004216c637c1b43b
+SHA1: 
+SHA256: 1b194b9e2df3ac152b66e7f5cee03e293b8f6112e07c04bab8d72ff6a37d7577
+
 Package: com.axs.snapper4
 Name: Snapper 4
 Description: 这是一款截图工具。
