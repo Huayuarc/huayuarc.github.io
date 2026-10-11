@@ -6382,6 +6382,40 @@ MD5sum: e0ec539d3f0a0688e1b47fcef8a02134
 SHA1: 
 SHA256: f79f82c35d6bc701cebd304099897813202d5096d9d12d4de5dea22675a46562
 
+Package: com.crctdd.disabledynamicisland
+Name: Disable Dynamic Island
+Description: 跟灵动岛说再见！禁用所有上岛行为，除了时钟；无设置项。(支持iOS 16-17 带灵动岛的设备)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 76
+icon: https://sini921.github.io/repo/sileodepiction/icon/ldd.png
+Filename: debs/com.crctdd.disabledynamicisland-0.0.1-roothide.deb
+Size: 6220
+MD5sum: e84f4d0853df00c28cc026f9d799745e
+SHA1: 
+SHA256: 75d07084100df6e24b45c9444105cc4837ec7cc8aa04047380bd206b02065751
+
+Package: com.crctdd.disabledynamicisland
+Name: Disable Dynamic Island
+Description: 跟灵动岛说再见！禁用所有上岛行为，除了时钟；无设置项。(支持iOS 16-17 带灵动岛的设备)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 172
+icon: https://sini921.github.io/repo/sileodepiction/icon/ldd.png
+Filename: debs/com.crctdd.disabledynamicisland-0.0.1-rootless.deb
+Size: 8144
+MD5sum: 67717909f5a7f973cbda144e4e04271e
+SHA1: 
+SHA256: 9fc679595a9cd37109eb821c9422bd4ab90fd92b3df2914227cfe3135f2a64e1
+
 Package: com.crctdd.filzarename
 Name: Filza Rename
 Description: 在Filza内的.deb/.ipa/.tipa安装包长按可规范命名。
@@ -9017,6 +9051,40 @@ Size: 43092
 MD5sum: a240d7448e4277901db49a8bcf5c65b1
 SHA1: 
 SHA256: 07265056e98b08782a97a0bbd4d93243ddaad7c1b1678626194d6d13dc41c3ab
+
+Package: com.hang.douyinclockdock
+Name: 抖音Pro
+Description: dyyy魔改版
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.2
+Installed-Size: 2760
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hang.douyinclockdock-1.2-roothide.deb
+Size: 613452
+MD5sum: d6d21e5699898d4d73eef6dd4ccd02b9
+SHA1: 
+SHA256: ced387bbce84e5e9c6fab37c5e821837078ca7bde14837ff980f86a8f832b8f6
+
+Package: com.hang.douyinclockdock
+Name: 抖音Pro
+Description: dyyy魔改版
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.2
+Installed-Size: 2760
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hang.douyinclockdock-1.2-rootless.deb
+Size: 610080
+MD5sum: c238295d82290e5c83bedfefa77fe024
+SHA1: 
+SHA256: 5aad0215362e812d9e5f095b6c566a7e80bc8a9afe0b9e2fe553b02e919f5488
 
 Package: com.hang.kayoko
 Name: Kayoko
@@ -34368,6 +34436,38 @@ MD5sum: b38ac181292a3588fc265a498c38f9dc
 SHA1: 
 SHA256: 8d7b7c34b521e38ec270bc5fb601708ef82b81e3aef4ea808f865aacb3e1d061
 
+Package: com.xybp888.callassist15.fugu15
+Section: tweaks
+Maintainer: xybp888
+Architecture: iphoneos-arm64
+Version: 2.2.2
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.libsandy
+Description: T9双卡选卡拨号键盘,短信双卡选卡,通话录音,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS15
+Author: xybp888
+Sponsor: xybp888
+Filename: debs/com.xybp888.callassist15.fugu15-2.2.2-rootless.deb
+Size: 2511668
+MD5sum: 42504c7bcaa4ee965fd7e9ea01828be4
+SHA1: 
+SHA256: 3b76ffca2be9b7b652b96502f623dda830c5166fdcb2baa8158c2fb7f52c368c
+
+Author: xybp888
+Architecture: iphoneos-arm64
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Maintainer: xybp888
+Version: 1.3.2
+Priority: optional
+Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
+Name: 电话助手iOS16
+Section: Tweaks
+Package: com.xybp888.callassist16.dopamine
+Filename: debs/com.xybp888.callassist16.dopamine-1.3.2-rootless.deb
+Size: 2608628
+MD5sum: 161c81c60f530d10203e431389bfaf0f
+SHA1: 
+SHA256: 0b8e93ab10184a3560aea85e7c357583122704f3f845e320a7bf4c65f25f49f1
+
 Package: com.yaowell.alarmvibrate
 Name: AlarmVibrate
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
@@ -35635,6 +35735,38 @@ Size: 84648
 MD5sum: 436ba237206238f3be59371ddae17b63
 SHA1: 
 SHA256: 97f9f549da93ca85937ecfaab66690613ff48b98b65b08a4b7d10caadb1dbc9d
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: 5hux1n
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Installed-Size: 552
+Filename: debs/hongguofn-1.0.3-roothide.deb
+Size: 102944
+MD5sum: bcfde679d72b2d4c6485cb73fcdc9aa2
+SHA1: 
+SHA256: 0c97258c7d44b7ef818c516adb74292007baebf1d02e7fb74d618ce7da3a7009
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: 5hux1n
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Installed-Size: 552
+Filename: debs/hongguofn-1.0.3-rootless.deb
+Size: 102672
+MD5sum: 09cef1488abe90d5363e74a1b3efc092
+SHA1: 
+SHA256: f5089c94ffddeed79ffe0637ccf7fe0c6433bfc4acd9a0a82bd04eb434d0ca1a
 
 Package: hypicfix
 Name: 醒图国际版修复工具
