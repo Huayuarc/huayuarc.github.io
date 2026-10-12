@@ -9376,6 +9376,40 @@ MD5sum: f64e63681d86479a64a1640d32cfdb45
 SHA1: 
 SHA256: 3d0f4c47fc73d9fa34254e4b6f703d9a67f834a27aba0bdd444bc08ce1f240cb
 
+Package: com.hang.tubiao
+Name: 锁屏时间自定义
+Description: 自定义锁屏时间/日期位置与大小
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.2
+Installed-Size: 204
+icon: https://huayuarc.github.io/icon/tubiao.png
+Filename: debs/com.hang.tubiao-1.2-roothide.deb
+Size: 25024
+MD5sum: 6b80cc613d29d561bcd58469aed4cbb0
+SHA1: 
+SHA256: 76252562254f1fbd36d47887dd8c22e095cb89bed775adc056176a66a24c8b13
+
+Package: com.hang.tubiao
+Name: 锁屏时间自定义
+Description: 自定义锁屏时间/日期位置与大小
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.2
+Installed-Size: 412
+icon: https://huayuarc.github.io/icon/tubiao.png
+Filename: debs/com.hang.tubiao-1.2-rootless.deb
+Size: 31376
+MD5sum: c655807dcf860c5e1077766a46b9584f
+SHA1: 
+SHA256: a4086f30961618289c22540cc315dd39b3fc1eda8b80a0373fd43ead3cfed117
+
 Package: com.hierarch.dykiller
 Name: DYKiller 抖音 UI 增强
 Description: 抖音 UI 增强插件（模块化 hook 框架）
@@ -17448,6 +17482,42 @@ MD5sum: 483324e69765c2e3010ddc3be58639c6
 SHA1: 
 SHA256: 881da329d0e0fa9cb40cd0753fe6fbedfb994c4435d9c94ecfd06bc8066a5764
 
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Installed-Size: 3684
+Filename: debs/com.mlgm.actra-1.1.1-roothide.deb
+Size: 719252
+MD5sum: f0a3ac2922c42e2aa6224d72d871f40f
+SHA1: 
+SHA256: 7d638b8497e9bb00a6ee3aeaf01c7514dada336153bfa32aee4bf509b3d54da2
+
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Installed-Size: 3716
+Filename: debs/com.mlgm.actra-1.1.1-rootless.deb
+Size: 716872
+MD5sum: 3cc42ea52aa6841919a773f7dd55f1a0
+SHA1: 
+SHA256: 583f152040e17cae62cf27ba1420b66fd35895de484695236229bd101bb3801a
+
 Package: com.mlgm.appdata
 Name: AppData
 Section: Tweaks
@@ -20059,6 +20129,44 @@ Size: 707244
 MD5sum: 88081f22fedcf69071fd7ea9ede55078
 SHA1: 
 SHA256: d56834e3a8776e63749931014b64d4a769d317b4024bb4b66d43e3a833cd8c97
+
+Package: com.muzi.mutool
+Name: MUtool
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音与 MagSafe 动画、充电限制（限充阈值停充并回落 5% 自动恢复、阻止充电、智能计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64e
+Version: 2.1.81
+Installed-Size: 4668
+Filename: debs/com.muzi.mutool-2.1.81-roothide.deb
+Size: 710932
+MD5sum: 2a94d85a21d23b43db3edb74fe151822
+SHA1: 
+SHA256: e4caa78d215f0625a54e29f38255adfa158324900151dacd95e2fce96a002313
+
+Package: com.muzi.mutool
+Name: MUtool
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音与 MagSafe 动画、充电限制（限充阈值停充并回落 5% 自动恢复、阻止充电、智能计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64
+Version: 2.1.81
+Installed-Size: 4684
+Filename: debs/com.muzi.mutool-2.1.81-rootless.deb
+Size: 715612
+MD5sum: 1782f7d53025c76f792cbb55db665f62
+SHA1: 
+SHA256: cebbb3c293d3dfd9390a92e680f3012619488fcf5868c194cc734bf551eac36c
 
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
@@ -25634,6 +25742,40 @@ Size: 474176
 MD5sum: 8bd3cbb09d399aa5e9dff743a4929a49
 SHA1: 
 SHA256: 33b45d72db430e925dc1b22b43532d606c3795ab78cafe2a7ca788a1ee50249f
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复 fps 自适应刷新时 60 帧上限）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 6.2
+Installed-Size: 3444
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-6.2-roothide.deb
+Size: 475564
+MD5sum: d34a51c164b4dcc2219aa933a371f4da
+SHA1: 
+SHA256: 865f9821b9c7b847141f95ff579a1e531e780a558a6c2544185bffcdae97981d
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复 fps 自适应刷新时 60 上限）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 6.2
+Installed-Size: 3444
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-6.2-rootless.deb
+Size: 474616
+MD5sum: fedce5d68cbcedb3ec65cb4512d8c6c0
+SHA1: 
+SHA256: 065c3d51dd4f74919fdb578dcaaeaac78942a863149a1e9b09ab1d1ad6f001c3
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
