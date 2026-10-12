@@ -3554,7 +3554,7 @@ Description: 一个强大的 iOS 温控管理插件，接管系统温控决策�
  * 1. 内置 A11–A17 Pro 大核频率表（2390 / 2490 / 2650 / 3090 / 3230 / 3460 / 3780MHz），按机型自动匹配上限。
 Maintainer: Axs<qiaozhani000@163.com>
 Author: Axs<qiaozhani000@163.com>
-Section: Axs-Tweaks
+Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 Architecture: iphoneos-arm64e
@@ -3562,10 +3562,10 @@ Version: 5.2.0-15+abouthide.1
 Installed-Size: 1368
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.axs.cpufree-5.2.0-15+abouthide.1-roothide.deb
-Size: 105700
-MD5sum: 3f9711426bbd227a7db1562874d75900
+Size: 105712
+MD5sum: 6c636d038ab6232909ef0b56587142a9
 SHA1: 
-SHA256: aff277d7281be2d2fcdbf87dcddb40548a8fd4a2d10f86ed22cc416414587e2d
+SHA256: 8498cddf306fcfd5de6e2a4bb1caacbdac4f84e0390ae90cb54c0cceb60d7306
 
 Package: com.axs.cpufree
 Name: CPU Free
@@ -3586,17 +3586,17 @@ Description: 一个强大的 iOS 温控管理插件，接管系统温控决策�
  * 1. 内置 A11–A17 Pro 大核频率表（2390 / 2490 / 2650 / 3090 / 3230 / 3460 / 3780MHz），按机型自动匹配上限。
 Maintainer: Axs<qiaozhani000@163.com>
 Author: Axs<qiaozhani000@163.com>
-Section: Axs-Tweaks
+Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 Architecture: iphoneos-arm64
 Version: 5.2.0-15+abouthide.1
 Installed-Size: 1368
 Filename: debs/com.axs.cpufree-5.2.0-15+abouthide.1-rootless.deb
-Size: 109056
-MD5sum: 8d96cc3dc8ff5ae1004216c637c1b43b
+Size: 109092
+MD5sum: ef7e5e3efc0eadff9593955fc50c3ffe
 SHA1: 
-SHA256: 1b194b9e2df3ac152b66e7f5cee03e293b8f6112e07c04bab8d72ff6a37d7577
+SHA256: e8aee37008748ee8fecd21bc3cc785913fa930268a341cb39ea9bed1a9985757
 
 Package: com.axs.snapper4
 Name: Snapper 4
@@ -20021,6 +20021,44 @@ Size: 701508
 MD5sum: 14bf1cb3bca32da90b6d7aae50741d0f
 SHA1: 
 SHA256: 7566cf557355663c57add2108df2f439943fb8b662f562936663c1705815409f
+
+Package: com.muzi.mutool
+Name: MUtool
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音与 MagSafe 动画、充电限制（限充阈值停充并回落 5% 自动恢复、阻止充电、智能计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64e
+Version: 2.1.77
+Installed-Size: 4652
+Filename: debs/com.muzi.mutool-2.1.77-roothide.deb
+Size: 701284
+MD5sum: 21c5bc4c4951897bce77c1002b515830
+SHA1: 
+SHA256: af8ad3eaefeb61c4bfadfd9651280480458047de3af1a367a6fa122ae1f21965
+
+Package: com.muzi.mutool
+Name: MUtool
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音与 MagSafe 动画、充电限制（限充阈值停充并回落 5% 自动恢复、阻止充电、智能计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、锁屏增强（自动进桌面、通知亮屏、隐藏与禁用）、录音与录屏增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64
+Version: 2.1.77
+Installed-Size: 4668
+Filename: debs/com.muzi.mutool-2.1.77-rootless.deb
+Size: 707244
+MD5sum: 88081f22fedcf69071fd7ea9ede55078
+SHA1: 
+SHA256: d56834e3a8776e63749931014b64d4a769d317b4024bb4b66d43e3a833cd8c97
 
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
