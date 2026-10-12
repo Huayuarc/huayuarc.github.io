@@ -9528,17 +9528,17 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
 Description: 类似 FingerTouch 的 Touch ID 手势插件，刀刀精简版，带中文翻译；直板机（iPhone7/8/8P/SE2/SE2等）单击/双击/长按指纹按钮可回主屏幕、锁屏、截屏、呼出通知中心；SE2 iOS18.5 实测美滋滋！
 Maintainer: daodao
 Author: DGh0st
-Section: 嗨-工具
+Section: Tweaks
 Conflicts: com.dgh0st.dvirtualhome, com.hk.dvirtualhome.cn
 Architecture: iphoneos-arm64e
 Version: 0.0.16
 Installed-Size: 368
 icon: https://huayuarc.github.io/icon/dvirtualhome.png
 Filename: debs/com.hk.dvirtualhome-0.0.16-roothide.deb
-Size: 21224
-MD5sum: 200219ca5ab9652f3cbb3585c7ded091
+Size: 21188
+MD5sum: 503e719e3415f2fc792b7e9ea3dae8a3
 SHA1: 
-SHA256: 5f8d3be25379de27a00cee9ea4ae0cd6387c7c1f688b7e98625b31901d0cc6fc
+SHA256: ade8c1d679b4a944e5a40be2cd0b8f10609ecebbdf7d5cfc06e48de44fa06273
 
 Package: com.hk.dvirtualhome
 Name: DVirtualHome
@@ -9546,7 +9546,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
 Description: 类似 FingerTouch 的 Touch ID 手势插件，刀刀精简版，带中文翻译；直板机（iPhone7/8/8P/SE2/SE2等）单击/双击/长按指纹按钮可回主屏幕、锁屏、截屏、呼出通知中心；SE2 iOS18.5 实测美滋滋！
 Maintainer: daodao
 Author: DGh0st
-Section: 嗨-工具
+Section: Tweaks
 Conflicts: com.dgh0st.dvirtualhome, com.hk.dvirtualhome.cn
 Architecture: iphoneos-arm64
 Version: 0.0.16
@@ -9554,9 +9554,9 @@ Installed-Size: 368
 icon: https://huayuarc.github.io/icon/dvirtualhome.png
 Filename: debs/com.hk.dvirtualhome-0.0.16-rootless.deb
 Size: 21284
-MD5sum: 870aed8fb13849ecf94be0c3ac519d7f
+MD5sum: 54d399cda1d2520b64cd1688146d39c3
 SHA1: 
-SHA256: 580c558d29418391070c056181c47e4b578f616f149c2be8c7b01c00778cc213
+SHA256: 27d052aae17114e5572cea6c6ffa50ee03f9ffeead230b1cc5e4205d0f2833ba
 
 Package: com.hmmzzz.fontmanager
 Name: MarkFont 字体管理器
