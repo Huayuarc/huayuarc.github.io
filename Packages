@@ -19866,44 +19866,6 @@ MD5sum: 048ae46dc47949adeed20f7064b7aeee
 SHA1: 
 SHA256: 4e10a44996ffb060733b74442204e654a1d36d30c5d6cb503e30636fb037f70d
 
-Package: com.muzi.mutool
-Name: MUtool
-Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电管理（充电提示音：接入提示音、MagSafe 动画、灵动岛电池与电池提醒；充电限制：IORegistry 停充不再跳过设定值、限充阈值停充并回落 5% 自动恢复、阻止充电/电源、满血快充、智能充电计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（自动进桌面、通知亮屏、隐藏与禁用；主屏幕禁用项：禁用下拉搜索/今天视图搜索/今天视图编辑按钮/今天视图/App 资源库；主屏幕隐藏项：隐藏图标名称/名称小圆点/角标/页码圆点；主屏幕小组件：小组件多图标拖动；底栏设置：显示名称/倒影/倒影间距/背景透明度；主屏幕动画与后台：App 动画/切换动画/后台界面模式与卡片尺寸间距；桌面图标：下载进度条/图标阴影效果）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
-Maintainer: Muzi
-Author: Muzi
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Conflicts: com.muzi.mutoollite
-Icon: https://muzikeji.github.io/sileo/icons/mutool.png
-SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
-Architecture: iphoneos-arm64e
-Version: 2.1.88
-Installed-Size: 4952
-Filename: debs/com.muzi.mutool-2.1.88-roothide.deb
-Size: 747032
-MD5sum: 9dfda11d9d24d380493536430b527e94
-SHA1: 
-SHA256: b1a0b015f62ac2b0fe21914d4a4d7a6abec40ff8160263d06b65177a3acf2348
-
-Package: com.muzi.mutool
-Name: MUtool
-Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电管理（充电提示音：接入提示音、MagSafe 动画、灵动岛电池与电池提醒；充电限制：IORegistry 停充不再跳过设定值、限充阈值停充并回落 5% 自动恢复、阻止充电/电源、满血快充、智能充电计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（自动进桌面、通知亮屏、隐藏与禁用；主屏幕禁用项：禁用下拉搜索/今天视图搜索/今天视图编辑按钮/今天视图/App 资源库；主屏幕隐藏项：隐藏图标名称/名称小圆点/角标/页码圆点；主屏幕小组件：小组件多图标拖动；底栏设置：显示名称/倒影/倒影间距/背景透明度；主屏幕动画与后台：App 动画/切换动画/后台界面模式与卡片尺寸间距；桌面图标：下载进度条/图标阴影效果）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
-Maintainer: Muzi
-Author: Muzi
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Conflicts: com.muzi.mutoollite
-Icon: https://muzikeji.github.io/sileo/icons/mutool.png
-SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
-Architecture: iphoneos-arm64
-Version: 2.1.88
-Installed-Size: 4968
-Filename: debs/com.muzi.mutool-2.1.88-rootless.deb
-Size: 746560
-MD5sum: ddf8bf212bb85db891e572cd046e957b
-SHA1: 
-SHA256: 53cc166d0d8436900dc37675446de32d4703938e23a3b1b8c8bdd37730b84648
-
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
 Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
