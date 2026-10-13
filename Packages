@@ -2809,6 +2809,40 @@ SHA1:
 SHA256: 2cc1bcc89991e3269c2485bac59e244bff3dceacda534ce4c3b35cc8c0950f9a
 
 Package: com.aa22qq.axiskey
+Name: AxisKeyGesture
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Maintainer: aa22qq
+Author: aa22qq
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 10.0.0
+Installed-Size: 780
+icon: https://huayuarc.github.io/icon/axiskey.png
+Filename: debs/com.aa22qq.axiskey-10.0.0-roothide.deb
+Size: 108736
+MD5sum: 0ff9e94d4332d47a45dafef74d9b9530
+SHA1: 
+SHA256: af7cbf760b79728f80a7f7bc4d6678d5933ff433872c7d20ca6e7320434fc1dc
+
+Package: com.aa22qq.axiskey
+Name: AxisKeyGesture
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Maintainer: aa22qq
+Author: aa22qq
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64
+Version: 10.0.0
+Installed-Size: 780
+icon: https://huayuarc.github.io/icon/axiskey.png
+Filename: debs/com.aa22qq.axiskey-10.0.0-rootless.deb
+Size: 109148
+MD5sum: c347601c4c41de00607027bca49a5753
+SHA1: 
+SHA256: 94d3431b2bdae1dae3e1841fe972be9324d289698d477623fc4278dbd8e27309
+
+Package: com.aa22qq.axiskey
 Name: AxisKey (多维轴向按键)
 Description: 结合物理按键与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌️
 Maintainer: aa22qq
@@ -8309,6 +8343,40 @@ Size: 10416
 MD5sum: 5534693cab7f23fe9473523b3ab13717
 SHA1: 
 SHA256: 10b9c1f389f1fc22b467f173784bcaa9a9cf080bb6abb09f2cb74066aa261470
+
+Package: com.dao.keybar
+Name: KeyBar
+Description: X 键盘下方新增快捷操作按钮，支持全选、复制、剪切和粘贴。按钮采用胶囊样式，带细腻的高光边缘线，并自动适配深色与浅色模式。按钮位置根据地球键/听写键的高度自动调整，无需额外设置；长按任意按钮即可收起键盘。
+Maintainer: daodao
+Author: daodao
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/kb.jpg
+Filename: debs/com.dao.keybar-1.0.1-roothide.deb
+Size: 13712
+MD5sum: e599e8faff03c76a72afda6207084343
+SHA1: 
+SHA256: 8dd2380476e876981c277a5948e4230721494b4039949ddee09e8e0c8efc65f2
+
+Package: com.dao.keybar
+Name: KeyBar
+Description: X 键盘下方新增快捷操作按钮，支持全选、复制、剪切和粘贴。按钮采用胶囊样式，带细腻的高光边缘线，并自动适配深色与浅色模式。按钮位置根据地球键/听写键的高度自动调整，无需额外设置；长按任意按钮即可收起键盘。
+Maintainer: daodao
+Author: daodao
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/kb.jpg
+Filename: debs/com.dao.keybar-1.0.1-rootless.deb
+Size: 13784
+MD5sum: 77346465f486357a0a2de64fd1182006
+SHA1: 
+SHA256: ea23bb291f8c57499433d1ff7b105b0a668fe4ffa27673a492f4d061f652a912
 
 Package: com.dao.little16
 Name: Little16
@@ -17279,6 +17347,42 @@ MD5sum: 3cc42ea52aa6841919a773f7dd55f1a0
 SHA1: 
 SHA256: 583f152040e17cae62cf27ba1420b66fd35895de484695236229bd101bb3801a
 
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64e
+Version: 1.2
+Installed-Size: 3844
+Filename: debs/com.mlgm.actra-1.2-roothide.deb
+Size: 756080
+MD5sum: 1ea0379a8f0dd681cc61c35401e50e22
+SHA1: 
+SHA256: ac3941f9d55999ef08545488d62948a348d0e73c489cd86c0bd3ee08176679a1
+
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64
+Version: 1.2
+Installed-Size: 3844
+Filename: debs/com.mlgm.actra-1.2-rootless.deb
+Size: 753924
+MD5sum: 98904d6d68b585c30880770c73ca7c7f
+SHA1: 
+SHA256: 8954f43e62046550be2cdd9e3aa032fe6af1ba7de3f132db7757cbbd3772fef2
+
 Package: com.mlgm.appdata
 Name: AppData
 Section: Tweaks
@@ -17691,6 +17795,40 @@ MD5sum: 61056f81372875bc43612cb21a1825e7
 SHA1: 
 SHA256: 756f2ec2503e13ee60807a2e88ce38852163cdd4ec05cdc8fe75720ca43e38e4
 
+Package: com.mlgm.isgkb
+Name: iSgkb
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/isgkb.png
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Installed-Size: 448
+Filename: debs/com.mlgm.isgkb-1.1.1-roothide.deb
+Size: 39524
+MD5sum: 1dca3263537e1d878ad9f7dbf79388b5
+SHA1: 
+SHA256: 7f833bb23db31c9c136532da67150268bf5b36c565cf688466c4fab3391753ba
+
+Package: com.mlgm.isgkb
+Name: iSgkb
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/isgkb.png
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Installed-Size: 448
+Filename: debs/com.mlgm.isgkb-1.1.1-rootless.deb
+Size: 41496
+MD5sum: c0e757ea42c547ea10f1b79827eaec1d
+SHA1: 
+SHA256: 0abaf8dce4a7d09bd3006c42e4b3cee0f9629f0b3c68ed0f8d9afcfc60b1c467
+
 Package: com.mlgm.iwxkb
 Name: iWxkb
 Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
@@ -17758,6 +17896,40 @@ Size: 47176
 MD5sum: 4cf5c302fe6b180befb09d82edd8862c
 SHA1: 
 SHA256: 418c58ed1a6f7a6cc07aac37867799dc54b62dd5c9947921b88fdb9b4dc105fc
+
+Package: com.mlgm.iwxkb
+Name: iWxkb
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Installed-Size: 420
+Filename: debs/com.mlgm.iwxkb-1.1.1-roothide.deb
+Size: 42936
+MD5sum: dba2858ec4c7df12de89d86546f52da0
+SHA1: 
+SHA256: 0d20805a1805dfc5934699145842f162509f33cd4b7c2dc048588c4f56467802
+
+Package: com.mlgm.iwxkb
+Name: iWxkb
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Installed-Size: 424
+Filename: debs/com.mlgm.iwxkb-1.1.1-rootless.deb
+Size: 44704
+MD5sum: 503f5f4a3e0aba18e21f97dff0cf84f2
+SHA1: 
+SHA256: f7af98d77ee4ec69cffbfb2e0c20c263026433c8e547c3f47c98716328f43bd0
 
 Package: com.mlgm.kayoko
 Name: Kayoko 剪切板
@@ -18070,6 +18242,46 @@ Size: 747864
 MD5sum: eb74ece9df641aa25b70aa56820a3bd7
 SHA1: 
 SHA256: db88fa042f1d21a6353a8e0fc95596280c8a74233220d2d858bcccaf6ae7e8cf
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.0.2
+Installed-Size: 3500
+Filename: debs/com.mlgm.kayoko-5.0.2-roothide.deb
+Size: 744840
+MD5sum: c0801c1abd1174e51d233e365a2996de
+SHA1: 
+SHA256: bee3ff734e64532a7eb2d526ce52c3d8159c015249bd1b9478fc5f7096f1dcb9
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64
+Version: 5.0.2
+Installed-Size: 3516
+Filename: debs/com.mlgm.kayoko-5.0.2-rootless.deb
+Size: 748044
+MD5sum: 072c9a5e8a0f1f7d9d709c5672e4191b
+SHA1: 
+SHA256: 0a385d06731c3d1c3a062502457aba36202055a0477a1668efb5ae91fee630b9
 
 Package: com.mlgm.prefnest
 Name: PrefNest
@@ -23002,6 +23214,86 @@ Size: 273332
 MD5sum: 9a9d134938e9b885edf3a194c8838956
 SHA1: 
 SHA256: b541066c600320281f669e85dd70267f000e79fa7890b3f9cfbf0a9c25f306ad
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.103
+Installed-Size: 4204
+Filename: debs/com.qq391160.cpucore-2.0.103-roothide.deb
+Size: 607612
+MD5sum: c8a4944b9dca42dda08871e5a319c71e
+SHA1: 
+SHA256: 1d6b81a4fdfa2d8573f898181ae00a657fe91cfff76ec21d56d4e69b6d7d04fd
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64
+Version: 2.0.103
+Installed-Size: 3960
+Filename: debs/com.qq391160.cpucore-2.0.103-rootless.deb
+Size: 567404
+MD5sum: d100860a72ec6f943f47d72e6cae06ff
+SHA1: 
+SHA256: e863ada220df3831fa31f9d56af3c9e81d56aa2747aa6a8cbe9bc9718fb5f55e
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.109
+Installed-Size: 4220
+Filename: debs/com.qq391160.cpucore-2.0.109-roothide.deb
+Size: 619596
+MD5sum: 7797ae00c40f42aec8ab1e058a9ee730
+SHA1: 
+SHA256: 496716f6dd40cf5849b27194122c2bc2ba22e0eca61420a9674928598f99165e
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64
+Version: 2.0.109
+Installed-Size: 4012
+Filename: debs/com.qq391160.cpucore-2.0.109-rootless.deb
+Size: 578520
+MD5sum: 49034672b829e99390eccc3f9d646bb7
+SHA1: 
+SHA256: ab727015ae1cb2f57726bf2f03524b4439c8d66954f3dbe9b930e3a8796ba36a
 
 Package: com.qq391160.cpucore
 Name: CPU智能温控(iOS16/17)
