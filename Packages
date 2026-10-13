@@ -3558,14 +3558,14 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 Architecture: iphoneos-arm64e
-Version: 5.2.0-15+abouthide.1
+Version: 5.2.0-15
 Installed-Size: 1368
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.axs.cpufree-5.2.0-15+abouthide.1-roothide.deb
-Size: 105712
-MD5sum: 6c636d038ab6232909ef0b56587142a9
+Filename: debs/com.axs.cpufree-5.2.0-15-roothide.deb
+Size: 105732
+MD5sum: e45b77eaf409a92742533c06ff7139ca
 SHA1: 
-SHA256: 8498cddf306fcfd5de6e2a4bb1caacbdac4f84e0390ae90cb54c0cceb60d7306
+SHA256: 4d6de3895ad516138a79bc18622f12567d8c6a12339833873e6ea0d699a1769e
 
 Package: com.axs.cpufree
 Name: CPU Free
@@ -3590,13 +3590,13 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 Architecture: iphoneos-arm64
-Version: 5.2.0-15+abouthide.1
+Version: 5.2.0-15
 Installed-Size: 1368
-Filename: debs/com.axs.cpufree-5.2.0-15+abouthide.1-rootless.deb
-Size: 109092
-MD5sum: ef7e5e3efc0eadff9593955fc50c3ffe
+Filename: debs/com.axs.cpufree-5.2.0-15-rootless.deb
+Size: 109172
+MD5sum: 7ed9f001f740f5a63adf986768df2a4e
 SHA1: 
-SHA256: e8aee37008748ee8fecd21bc3cc785913fa930268a341cb39ea9bed1a9985757
+SHA256: f23bc3284a148297e740e1a4bd71bad5035101b7c01c298c8a447765afe85bd7
 
 Package: com.axs.cpufree
 Name: CPU Free
@@ -3622,14 +3622,14 @@ Depends: mobilesubstrate, preferenceloader
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
 Architecture: iphoneos-arm64e
-Version: 5.2.0-62+abouthide.1
+Version: 5.2.0-62
 Installed-Size: 1408
 Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.axs.cpufree-5.2.0-62+abouthide.1-roothide.deb
-Size: 116604
-MD5sum: 25ab8b711eb79629ff96d456c50d22c1
+Filename: debs/com.axs.cpufree-5.2.0-62-roothide.deb
+Size: 116476
+MD5sum: 6d5b022a6072cf338daa7351a8023d42
 SHA1: 
-SHA256: ecb6802acde44cb3456e8e8640a4eeca01eb6b322a84ebf35bb51d8b194d1759
+SHA256: e57dec6fde5ccc6db17799a9fba99628c6154e9a0f7f8569ad70bdc372da82a8
 
 Package: com.axs.cpufree
 Name: CPU Free
@@ -3655,13 +3655,13 @@ Depends: mobilesubstrate, preferenceloader
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
 Architecture: iphoneos-arm64
-Version: 5.2.0-62+abouthide.1
+Version: 5.2.0-62
 Installed-Size: 1408
-Filename: debs/com.axs.cpufree-5.2.0-62+abouthide.1-rootless.deb
-Size: 120232
-MD5sum: d04fbf097ebe6639f458bf80ef2f64cd
+Filename: debs/com.axs.cpufree-5.2.0-62-rootless.deb
+Size: 120280
+MD5sum: c07c04d3dbf2011449be7b4ab5f1cae7
 SHA1: 
-SHA256: f47e667dff2f4c2f73df73964414d9a46001a71e95581a1e7f263bcd1f1af83c
+SHA256: 393ec3c0d40e24921a93fcfd12ab59b46401e147814bb716a7cefeb688af3124
 
 Package: com.axs.snapper4
 Name: Snapper 4
