@@ -8483,6 +8483,40 @@ MD5sum: 3974a56c4db8abfa5c6410e58af75856
 SHA1: 
 SHA256: 009abfb61bec0fc173853987e3417c4830063fb9099628393979f1d05dee6efb
 
+Package: com.doimty.fiona
+Name: Fiona
+Author: doimty
+Maintainer: doimty
+Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭。无开关，安装即生效；
+Depends: firmware (>= 15.0)
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.3
+Installed-Size: 304
+icon: https://huayuarc.github.io/icon/fiona.png
+Filename: debs/com.doimty.fiona-0.3-roothide.deb
+Size: 5020
+MD5sum: 2a4b32f222a1de655b7a69ddc78d4d8b
+SHA1: 
+SHA256: bbf2e0a737a761266f63cc89124977505c51374f505ef0e30d1c8778f26ec94f
+
+Package: com.doimty.fiona
+Name: Fiona
+Author: doimty
+Maintainer: doimty
+Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭。无开关，安装即生效；
+Depends: firmware (>= 15.0)
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.3
+Installed-Size: 304
+icon: https://huayuarc.github.io/icon/fiona.png
+Filename: debs/com.doimty.fiona-0.3-rootless.deb
+Size: 5076
+MD5sum: e1480f97a88fc2a40db7c1e93dcb6763
+SHA1: 
+SHA256: 2dfeafcc6cc0e9828d4a4ed6598b0f355f6cefa3446c4e661e620b5d89a9998b
+
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
 Author: doimty
@@ -25548,6 +25582,38 @@ SHA1:
 SHA256: be704ff814924342d30a4dfa110ac94501a5353899a564a2eecbd0130b0716c6
 
 Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 6.4
+Installed-Size: 3544
+Filename: debs/com.sbcpu.floating-6.4-roothide.deb
+Size: 493420
+MD5sum: 3752339737d5c8b3871a277b26eb8217
+SHA1: 
+SHA256: 0ce0d28d4549b0ca94127a8d785571158b15b5ee98430c70a84d326bd902838b
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 6.4
+Installed-Size: 3544
+Filename: debs/com.sbcpu.floating-6.4-rootless.deb
+Size: 493800
+MD5sum: 49b1fd35e0694a4f1c729328334d1f09
+SHA1: 
+SHA256: a258a53edfccfe913621b39b0aad5595c21c27983bcb1001b793006f9fbb66d7
+
+Package: com.sbcpu.floating
 Name: SB CPU Floating
 Maintainer: MoWang
 Author: MoWang
@@ -32147,6 +32213,133 @@ SHA1:
 SHA256: bec348441f42fe13b1d7aa671ba2862106afb01fbc7f521a5571b30221c22dd1
 
 Package: com.susudear.screencore
+Name: screencore-窗口调度版
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-5。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
+ 安装后重启桌面。
+ 修复小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边的问题。
+ 尺寸恢复通过原版队列补发，不延迟切换；重新打开小窗时取消旧恢复，不修改键盘避让。
+ App 跳转小窗使用原始尺寸和完整画面比例，不套用普通分屏的 16:9 预设。
+ 复用已有窗口时同步原始比例；普通分屏、收藏切换和键盘避让保持原方案。
+ 补全巨魔安装应用等特殊接收端的键盘场景归属，并为缺少可用宿主的真实键盘层提供显示接入。
+ 复用原版键盘窗口及输入框避让，不改普通或跳转小窗比例、动画、启动保护、悬浮球及应用注入。
+ 修复左上角放大后底部点击及上划无法退出：手势区保留在屏幕内，关闭前释放强制铺满。
+ 沿用原版退出流程及上划开关和阈值；取消旧放大回调，不改变键盘避让、快捷切换和悬浮球适配。
+Maintainer: kanuo
+Author: kanuo
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 2.0.3+windowscheduler.12-5
+Installed-Size: 3369
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Core-Identity-Revision: expected-author-kanuo.1
+X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Geometry-Base-SHA256: 619767fdd4d744203cef45ca1d5cd370b5f9a5521850034a21ddf3523a7c2701
+X-Native-Jump-Geometry: popup-only-native-size.1
+X-Native-Jump-Base-SHA256: 2bc5d7e4c7c8ab8b0fe6117bc5fbd98a784701d429016984ce6a570ac54b131e
+X-Keyboard-Compatibility: scene-identity-and-missing-host.1
+X-Keyboard-Base-SHA256: 977060949ce7844f48841d26af651704bfee38b84b6a72840753452e9f9d0c66
+X-Fullscreen-Exit: onscreen-native-region-and-dismissal-release.1
+X-Fullscreen-Exit-Base-SHA256: 2dbe5dde47fdac2b813d9cb27434286885af7e29ee8b6f783a5ea86557fe9a58
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
+Filename: debs/com.susudear.screencore-2.0.3+windowscheduler.12-5-roothide.deb
+Size: 538012
+MD5sum: f9059ae280af2529108a4cbb75d5abc3
+SHA1: 
+SHA256: 562274e55cc97f0fc3914073023fe44525442630ada180d2f019589e38eeb797
+
+Package: com.susudear.screencore
+Name: screencore-窗口调度版
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-5。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
+ 安装后重启桌面。
+ 修复小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边的问题。
+ 尺寸恢复通过原版队列补发，不延迟切换；重新打开小窗时取消旧恢复，不修改键盘避让。
+ App 跳转小窗使用原始尺寸和完整画面比例，不套用普通分屏的 16:9 预设。
+ 复用已有窗口时同步原始比例；普通分屏、收藏切换和键盘避让保持原方案。
+ 补全巨魔安装应用等特殊接收端的键盘场景归属，并为缺少可用宿主的真实键盘层提供显示接入。
+ 复用原版键盘窗口及输入框避让，不改普通或跳转小窗比例、动画、启动保护、悬浮球及应用注入。
+ 修复左上角放大后底部点击及上划无法退出：手势区保留在屏幕内，关闭前释放强制铺满。
+ 沿用原版退出流程及上划开关和阈值；取消旧放大回调，不改变键盘避让、快捷切换和悬浮球适配。
+Maintainer: kanuo
+Author: kanuo
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 2.0.3+windowscheduler.12-5
+Installed-Size: 4139
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Install-Environment: standard-rootless-var-jb
+X-Rootless-Input-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Rootless-Revision: exact11-libroot-paths.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: 64fc26d41398f82dee8c641dc82a401d5dc908d5ef75deb55fb5af6334f8762e
+X-Core-Identity-Revision: expected-author-kanuo.1
+X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Geometry-Base-SHA256: e9cabb058422ab075eac379c15438bf6a962e86bccfa870ee7bc62cc8b286028
+X-Native-Jump-Geometry: popup-only-native-size.1
+X-Native-Jump-Base-SHA256: ff0edfa8b9ce6ee38054136a0e2da0d69004907dad70e00d8b8f24f74fa171fc
+X-Keyboard-Compatibility: scene-identity-and-missing-host.1
+X-Keyboard-Base-SHA256: 800e03d7f9f55d66479729b6ff73b9f446efa62b503104a54944f64a2e3eef28
+X-Fullscreen-Exit: onscreen-native-region-and-dismissal-release.1
+X-Fullscreen-Exit-Base-SHA256: cc28b5bc9408b504b09179029545c90c7d3fd6f110af80b2a8b520f76e5204e0
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
+Filename: debs/com.susudear.screencore-2.0.3+windowscheduler.12-5-rootless.deb
+Size: 573020
+MD5sum: fc1effec12402eb35e757c1747c683e4
+SHA1: 
+SHA256: 2c8f7d6990454d3660a265e0c46dddba19438dcc811d0616a0bd6ddcc07b64df
+
+Package: com.susudear.screencore
 Name: ScreenCore
 Description: 分屏而已
 Maintainer: SuSu
@@ -36720,6 +36913,40 @@ Size: 403800
 MD5sum: 98d2e802fdb467e108a1f9cefcb341f1
 SHA1: 
 SHA256: cadd57a55ff5d9002d14d19673907592fbf4f339cfe760d7cbc1c0fc228d068f
+
+Package: iya.banana.dockicon
+Name: DarkIcon
+Description: 自适应图标样式、图标包与图片壁纸暗化。Icon styles and theme packs on iOS 15-18, 26 and 27; photo wallpaper dimming on iOS 16-18.
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 28.0)
+Architecture: iphoneos-arm64e
+Version: 0.9.20
+Installed-Size: 1960
+icon: https://huayuarc.github.io/icon/dockicon.png
+Filename: debs/iya.banana.dockicon-0.9.20-roothide.deb
+Size: 428700
+MD5sum: af6866623a50c1b44856e812bd7b37ca
+SHA1: 
+SHA256: 1eb5e8836659fd1df8d622c9c6ce2401e3d6e9cc88d91619621b30c7e3b7bc94
+
+Package: iya.banana.dockicon
+Name: DarkIcon
+Description: 自适应图标样式、图标包与图片壁纸暗化。Icon styles and theme packs on iOS 15-18, 26 and 27; photo wallpaper dimming on iOS 16-18.
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 28.0)
+Architecture: iphoneos-arm64
+Version: 0.9.20
+Installed-Size: 1960
+icon: https://huayuarc.github.io/icon/dockicon.png
+Filename: debs/iya.banana.dockicon-0.9.20-rootless.deb
+Size: 428056
+MD5sum: cfe5a4cd0f2d2bdb9d53b6fa3a916f1e
+SHA1: 
+SHA256: 6cf596f365f23cee62baca810c52103b64e89d299594ad4455e3911a3d713e1e
 
 Package: iya.banana.dockicon
 Name: DarkIcon
