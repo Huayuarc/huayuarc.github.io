@@ -3661,6 +3661,75 @@ MD5sum: 6082e486316663c36202c44942b63d91
 SHA1: 
 SHA256: eea741a3b70359cdd96edadc3206d540989df5333cb2617d10c31b28a156e2e8
 
+Package: com.axs.cpufree
+Name: CPU Free
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+Maintainer: Axs<qiaozhani000@163.com>
+Author: Axs<qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+Architecture: iphoneos-arm64e
+Version: 5.2.0-66
+Installed-Size: 1412
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.axs.cpufree-5.2.0-66-roothide.deb
+Size: 118732
+MD5sum: f2d3196415b164700eea78f22fc0ba76
+SHA1: 
+SHA256: 24b098b80b89c6c2406a2eb50d57d101abd26466c021330fb9cb79bff7c78993
+
+Package: com.axs.cpufree
+Name: CPU Free
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+Maintainer: Axs<qiaozhani000@163.com>
+Author: Axs<qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+Architecture: iphoneos-arm64
+Version: 5.2.0-66
+Installed-Size: 1412
+Filename: debs/com.axs.cpufree-5.2.0-66-rootless.deb
+Size: 122604
+MD5sum: 7a3bd85cce869d3dede9e38d0b6a1099
+SHA1: 
+SHA256: ac720eddd3080bf750624b4da5b2af3e20360b23352662c6ca044ae9c82772eb
+
 Package: com.axs.snapper4
 Name: Snapper 4
 Description: 这是一款截图工具。
