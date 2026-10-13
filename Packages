@@ -3562,10 +3562,10 @@ Version: 5.2.0-15
 Installed-Size: 1368
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.axs.cpufree-5.2.0-15-roothide.deb
-Size: 105732
-MD5sum: e45b77eaf409a92742533c06ff7139ca
+Size: 105680
+MD5sum: d2412b5bfcec4e413139b62f70582965
 SHA1: 
-SHA256: 4d6de3895ad516138a79bc18622f12567d8c6a12339833873e6ea0d699a1769e
+SHA256: d428a5e146de0f57a66b5b0ace3ea630505f385a287922a90edcd6b3237f7bad
 
 Package: com.axs.cpufree
 Name: CPU Free
@@ -3593,10 +3593,10 @@ Architecture: iphoneos-arm64
 Version: 5.2.0-15
 Installed-Size: 1368
 Filename: debs/com.axs.cpufree-5.2.0-15-rootless.deb
-Size: 109172
-MD5sum: 7ed9f001f740f5a63adf986768df2a4e
+Size: 109060
+MD5sum: 486d5e680de80b4a3693c5282b3c885c
 SHA1: 
-SHA256: f23bc3284a148297e740e1a4bd71bad5035101b7c01c298c8a447765afe85bd7
+SHA256: 88de64a2676ad1361eecc0e9967f8997c668b999c33f7ce02e1f5a139af3eb31
 
 Package: com.axs.cpufree
 Name: CPU Free
@@ -3620,16 +3620,15 @@ Author: Axs<qiaozhani000@163.com>
 Section: Axs-Tweaks
 Depends: mobilesubstrate, preferenceloader
 Icon: https://axs66.github.io/pro/icon/cpufree.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
 Architecture: iphoneos-arm64e
 Version: 5.2.0-62
 Installed-Size: 1408
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.axs.cpufree-5.2.0-62-roothide.deb
-Size: 116476
-MD5sum: 6d5b022a6072cf338daa7351a8023d42
+Size: 116524
+MD5sum: c7e8b737df05469475b8eea11ab0f01f
 SHA1: 
-SHA256: e57dec6fde5ccc6db17799a9fba99628c6154e9a0f7f8569ad70bdc372da82a8
+SHA256: 22c0bfc125a339bb0c79291f946431509c552eec4dadad366169ca5844c37c63
 
 Package: com.axs.cpufree
 Name: CPU Free
@@ -3653,15 +3652,14 @@ Author: Axs<qiaozhani000@163.com>
 Section: Axs-Tweaks
 Depends: mobilesubstrate, preferenceloader
 Icon: https://axs66.github.io/pro/icon/cpufree.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
 Architecture: iphoneos-arm64
 Version: 5.2.0-62
 Installed-Size: 1408
 Filename: debs/com.axs.cpufree-5.2.0-62-rootless.deb
-Size: 120280
-MD5sum: c07c04d3dbf2011449be7b4ab5f1cae7
+Size: 120316
+MD5sum: 6082e486316663c36202c44942b63d91
 SHA1: 
-SHA256: 393ec3c0d40e24921a93fcfd12ab59b46401e147814bb716a7cefeb688af3124
+SHA256: eea741a3b70359cdd96edadc3206d540989df5333cb2617d10c31b28a156e2e8
 
 Package: com.axs.snapper4
 Name: Snapper 4
@@ -8208,6 +8206,40 @@ Size: 44924
 MD5sum: 4f3ba98ef34aba90fcee19d83b3c96bd
 SHA1: 
 SHA256: 23aaa3e5687b61cf7b256e07a4a46483535cf6e8a90c3b5fa4c17b8eb5ea1c58
+
+Package: com.dao.keybar
+Name: KeyBar
+Description: X键盘下方添加快捷按钮(全选/复制/剪切/粘贴)，自适应深色/浅色，上下距离跟随地球键/听写键的高度，无设置项。
+Maintainer: daodao
+Author: daodao
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/kb.jpg
+Filename: debs/com.dao.keybar-1.0-roothide.deb
+Size: 10428
+MD5sum: 01534cc7684edd6f6c51977ecd3aa80f
+SHA1: 
+SHA256: 216bd8c548ebe4a578bc2d68674b966b0aad0250a0a031420703dd221ab7e8da
+
+Package: com.dao.keybar
+Name: KeyBar
+Description: X键盘下方添加快捷按钮(全选/复制/剪切/粘贴)，自适应深色/浅色，上下距离跟随地球键/听写键的高度，无设置项。
+Maintainer: daodao
+Author: daodao
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/kb.jpg
+Filename: debs/com.dao.keybar-1.0-rootless.deb
+Size: 10416
+MD5sum: 5534693cab7f23fe9473523b3ab13717
+SHA1: 
+SHA256: 10b9c1f389f1fc22b467f173784bcaa9a9cf080bb6abb09f2cb74066aa261470
 
 Package: com.dao.little16
 Name: Little16
@@ -23481,6 +23513,40 @@ Size: 12716
 MD5sum: 4abcfd7c7f5120c7304bcdef52221cae
 SHA1: 
 SHA256: bee95e98431f080bf67858ff079e209e8a48606c148ddded762e0a978cd04881
+
+Package: com.root.noicisland
+Name: NoIsland
+Description: 富佬装穷专用插件，假装自己是没岛的穷逼15系统。ps：仅供16+富佬用，15的穷逼别用，否则用了穷上加穷。
+Maintainer: root
+Author: root
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.15
+Installed-Size: 76
+Icon: https://huayuarc.github.io/icon/lingdd.jpg
+Filename: debs/com.root.noicisland-0.15-roothide.deb
+Size: 7032
+MD5sum: 79a7daad497e0a6db40672e2b17e2621
+SHA1: 
+SHA256: cf26700b17a6ec491e7e5da4169330f1a3a666be4b5f1a17947b7f7d22e8328f
+
+Package: com.root.noicisland
+Name: NoIsland
+Description: 富佬装穷专用插件，假装自己是没岛的穷逼15系统。ps：仅供16+富佬用，15的穷逼别用，否则用了穷上加穷。
+Maintainer: root
+Author: root
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 0.15
+Installed-Size: 172
+Icon: https://huayuarc.github.io/icon/lingdd.jpg
+Filename: debs/com.root.noicisland-0.15-rootless.deb
+Size: 9320
+MD5sum: fee8b0693ca925d8a5fd812da169f81b
+SHA1: 
+SHA256: f2689e6065fe9c7c475fb029d3f4e28a0a5b305f2756fa6c86d5b5995f27266f
 
 Package: com.rootless.patcher
 Name: RootHide Patcher
