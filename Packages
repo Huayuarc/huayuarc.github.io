@@ -11289,42 +11289,6 @@ SHA256: 06fc8b018f6937fab89d72db2740a56256b52439b9646ad4478e15694b98543b
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
 Author: Huayuarc
-Description: 适配 iOS 15–17 的用户态预算实验。解除温控请求 CPU/GPU/Package Floor/Ceiling=100、CPU Level0；Package 是共享功率预算，不是整个 SoC 硬锁，不保证最大时钟或实际满功率。低功耗仅限制 CPU 并清除 GPU/Package 满预算下限，不改变亮度。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: Huayuarc
-Section: Tweaks
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64e
-Version: 1.6.2-154+isolation.15
-Installed-Size: 1476
-Filename: debs/com.huayuarc.cputhermal-1.6.2-154+isolation.15-roothide.deb
-Size: 112172
-MD5sum: e0b234e882e72032ee729119bb3c4bc6
-SHA1: 
-SHA256: 90abc33929eb9b8f6fbf0595930180b8282e790d175e159540be50736a5ea87b
-
-Package: com.huayuarc.cputhermal
-Name: CPU 解除温控
-Author: Huayuarc
-Description: 适配 iOS 15–17 的用户态预算实验。解除温控请求 CPU/GPU/Package Floor/Ceiling=100、CPU Level0；Package 是共享功率预算，不是整个 SoC 硬锁，不保证最大时钟或实际满功率。低功耗仅限制 CPU 并清除 GPU/Package 满预算下限，不改变亮度。
-Depends: mobilesubstrate, preferenceloader
-Maintainer: Huayuarc
-Section: Tweaks
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64
-Version: 1.6.2-154+isolation.15
-Installed-Size: 1492
-Filename: debs/com.huayuarc.cputhermal-1.6.2-154+isolation.15-rootless.deb
-Size: 113848
-MD5sum: 1d6a0d16ae71f7ee0b439214cbb7dedd
-SHA1: 
-SHA256: 696b1284e94d457c1b1332f28c29b01c15721c5cd970c4bf305b514b02468c80
-
-Package: com.huayuarc.cputhermal
-Name: CPU 解除温控
-Author: Huayuarc
 Description: 基于 1.6.2-154 的 CPU 专用低功耗隔离修复。保留双模式、控制中心及原有附加功能；模式切换不启用全局 PowerSave、不重启温控守护、不递归缩放热配置。显示守卫独立于 CPU 预算。
 Depends: mobilesubstrate, preferenceloader
 Maintainer: Huayuarc
