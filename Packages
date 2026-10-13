@@ -3786,7 +3786,7 @@ Description: 一个强大的 iOS 温控管理插件，接管系统温控决策�
  * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
 Maintainer: Axs<qiaozhani000@163.com>
 Author: Axs<qiaozhani000@163.com>
-Section: Axs-Tweaks
+Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 Architecture: iphoneos-arm64e
@@ -3794,10 +3794,10 @@ Version: 5.2.0-68
 Installed-Size: 1428
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.axs.cpufree-5.2.0-68-roothide.deb
-Size: 121416
-MD5sum: 597483700d60dd3a74e32c68b9094a6e
+Size: 121352
+MD5sum: 501ab7ccd25f3bbd373345690ec5ac77
 SHA1: 
-SHA256: 401c75754372d295b65dad0e61348a967aec6dc5b65332d07624a575aaeb95e1
+SHA256: 3444f63933d1d757c19b88372f7a5b7e34af7a10dd33a0a1e44a9f1421b56897
 
 Package: com.axs.cpufree
 Name: CPU Free
@@ -3821,17 +3821,17 @@ Description: 一个强大的 iOS 温控管理插件，接管系统温控决策�
  * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
 Maintainer: Axs<qiaozhani000@163.com>
 Author: Axs<qiaozhani000@163.com>
-Section: Axs-Tweaks
+Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 Architecture: iphoneos-arm64
 Version: 5.2.0-68
 Installed-Size: 1428
 Filename: debs/com.axs.cpufree-5.2.0-68-rootless.deb
-Size: 125152
-MD5sum: be1c2e0bd20223e8e94fe5497b3121a4
+Size: 125128
+MD5sum: c42b0548ed21e4bb6c103e7510934e46
 SHA1: 
-SHA256: c5a5324c1d0b2fefdfefc3bc350b407a153a0daf8efbb073917fea6c6a6cd53d
+SHA256: 2ad399346cca95a614789a195e9e96f6a090374b42a8e437db4a72ffd584acec
 
 Package: com.axs.snapper4
 Name: Snapper 4
