@@ -25591,11 +25591,12 @@ Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64e
 Version: 6.4
 Installed-Size: 3544
+icon: https://huayuarc.github.io/icon/floating.jpg
 Filename: debs/com.sbcpu.floating-6.4-roothide.deb
-Size: 493420
-MD5sum: 3752339737d5c8b3871a277b26eb8217
+Size: 493032
+MD5sum: a82a71b0fa65f332ec0237216e040682
 SHA1: 
-SHA256: 0ce0d28d4549b0ca94127a8d785571158b15b5ee98430c70a84d326bd902838b
+SHA256: b1eb8cce9acdff605c55fa7e369e56c3e9bcafd2223636ec63698027265e9966
 
 Package: com.sbcpu.floating
 Name: 灵动监测
@@ -25607,11 +25608,12 @@ Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
 Version: 6.4
 Installed-Size: 3544
+icon: https://huayuarc.github.io/icon/floating.jpg
 Filename: debs/com.sbcpu.floating-6.4-rootless.deb
-Size: 493800
-MD5sum: 49b1fd35e0694a4f1c729328334d1f09
+Size: 494064
+MD5sum: 1e28e004b94fd57e05bfe8b23acfe3fb
 SHA1: 
-SHA256: a258a53edfccfe913621b39b0aad5595c21c27983bcb1001b793006f9fbb66d7
+SHA256: 98ecde8fe928dd119e45c1c4a1dd77fd2e40d54aa78f5dedb9cb90428087edca
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
