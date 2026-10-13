@@ -3942,6 +3942,46 @@ MD5sum: 795fc2c86488797e8956ae6ea5c96bc6
 SHA1: 
 SHA256: 40d689f3485ebcb51b9b9d8e714f0fa334ca8515619d6b5ff50e5b1fde2fc062
 
+Package: com.banana.trollpadex
+Name: TrollPadEx
+Description: 为 iPhone 带来更灵活的多任务、窗口与外接显示体验。Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Maintainer: Banana
+Author: khanhduytran0 & Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Provides: com.kdt.trollpad
+Architecture: iphoneos-arm64e
+Version: 2.0.3
+Installed-Size: 660
+icon: https://huayuarc.github.io/icon/TrollPad.png
+Filename: debs/com.banana.trollpadex-2.0.3-roothide.deb
+Size: 57800
+MD5sum: dd951618143d93fa8f43dc8ddba746ac
+SHA1: 
+SHA256: cdf1d8e56469db5122f5750ed10fd1e0b94ee17d11ebb6c3071a909e8477f224
+
+Package: com.banana.trollpadex
+Name: TrollPadEx
+Description: 为 iPhone 带来更灵活的多任务、窗口与外接显示体验。Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Maintainer: Banana
+Author: khanhduytran0 & Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Provides: com.kdt.trollpad
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Installed-Size: 660
+icon: https://huayuarc.github.io/icon/TrollPad.png
+Filename: debs/com.banana.trollpadex-2.0.3-rootless.deb
+Size: 58628
+MD5sum: 26252bf916bc14cb0132690b11034d3d
+SHA1: 
+SHA256: 4e3b7219f02c977b4a3b36ff1345b1d5dce2d8225c8a202526455c9ad10288fe
+
 Package: com.banshengnianhua.tracex
 Name: TraceX
 Description: 可选择目标 App 的原生交互与函数入口追踪工具。记录触摸/View 层级、UIControl 与手势 target/action、页面跳转、NSURLSession/WKWebView 请求和外部 URL。只有明确开启的普通用户 App 才加载重型追踪核心；系统/越狱 App 不加载 TraceXCore。每次目标 App 新进程启动都会重置 Documents/TraceX.log。
@@ -6479,6 +6519,40 @@ MD5sum: f1396a95062334bd2b7c26fdf26f47b2
 SHA1: 
 SHA256: 98e810e9605bdae44f8bacdbb78dc17b0e0ba9ab4d41b4d082afee0f5e3859ec
 
+Package: com.crctdd.disablecallpop
+Name: Disable CallPoP
+Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 88
+icon: https://huayuarc.github.io/icon/disablecallpop.jpg
+Filename: debs/com.crctdd.disablecallpop-0.0.2-roothide.deb
+Size: 4180
+MD5sum: f1a2d287e02045a25c865c4e11b371b1
+SHA1: 
+SHA256: 55809c6a5c6897443471e61191e76d81048cc78a80ccd053754a4b0344ae0076
+
+Package: com.crctdd.disablecallpop
+Name: Disable CallPoP
+Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Installed-Size: 200
+icon: https://huayuarc.github.io/icon/disablecallpop.jpg
+Filename: debs/com.crctdd.disablecallpop-0.0.2-rootless.deb
+Size: 5216
+MD5sum: 7419f5d8cab6f1ccdf52f2b845ab3d8a
+SHA1: 
+SHA256: a8f1261cd611f122ff4db9523a5218197352b1d2e9c84c4aa8e7dc724c013c27
+
 Package: com.crctdd.disablecarrierpop
 Name: Disable CarrierPoP
 Description: 禁用运营商弹窗；无设置项。(支持iOS 15-17)
@@ -8289,6 +8363,40 @@ Size: 11864
 MD5sum: af271e8e3474906a021bdbc741188fb5
 SHA1: 
 SHA256: 8ba157e65a3f99c16fd2cbedbacf88a08ff39d266b96d3b08e9a68325107ec00
+
+Package: com.doimty.fiona
+Name: Fiona
+Author: doimty
+Maintainer: doimty
+Description: 锁屏时保持 WiFi 连接。无开关，安装即生效；
+Depends: firmware (>= 15.0)
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.2
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/fiona.png
+Filename: debs/com.doimty.fiona-0.2-roothide.deb
+Size: 3016
+MD5sum: a9f842d38e064739b88cf43a9d2ed4d8
+SHA1: 
+SHA256: 9fa822dc63d44c4b3f129097a7a81246e31ee5a053e1ce1c0497af0d8a0f72c3
+
+Package: com.doimty.fiona
+Name: Fiona
+Author: doimty
+Maintainer: doimty
+Description: 锁屏时保持 WiFi 连接。无开关，安装即生效；
+Depends: firmware (>= 15.0)
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.2
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/fiona.png
+Filename: debs/com.doimty.fiona-0.2-rootless.deb
+Size: 3084
+MD5sum: 3974a56c4db8abfa5c6410e58af75856
+SHA1: 
+SHA256: 009abfb61bec0fc173853987e3417c4830063fb9099628393979f1d05dee6efb
 
 Package: com.doimty.promotion
 Name: ProMotion 120Hz
@@ -11096,6 +11204,42 @@ SHA256: 06fc8b018f6937fab89d72db2740a56256b52439b9646ad4478e15694b98543b
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
 Author: Huayuarc
+Description: 适配 iOS 15–17 的用户态预算实验。解除温控请求 CPU/GPU/Package Floor/Ceiling=100、CPU Level0；Package 是共享功率预算，不是整个 SoC 硬锁，不保证最大时钟或实际满功率。低功耗仅限制 CPU 并清除 GPU/Package 满预算下限，不改变亮度。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64e
+Version: 1.6.2-154+isolation.15
+Installed-Size: 1476
+Filename: debs/com.huayuarc.cputhermal-1.6.2-154+isolation.15-roothide.deb
+Size: 112172
+MD5sum: e0b234e882e72032ee729119bb3c4bc6
+SHA1: 
+SHA256: 90abc33929eb9b8f6fbf0595930180b8282e790d175e159540be50736a5ea87b
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: 适配 iOS 15–17 的用户态预算实验。解除温控请求 CPU/GPU/Package Floor/Ceiling=100、CPU Level0；Package 是共享功率预算，不是整个 SoC 硬锁，不保证最大时钟或实际满功率。低功耗仅限制 CPU 并清除 GPU/Package 满预算下限，不改变亮度。
+Depends: mobilesubstrate, preferenceloader
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Architecture: iphoneos-arm64
+Version: 1.6.2-154+isolation.15
+Installed-Size: 1492
+Filename: debs/com.huayuarc.cputhermal-1.6.2-154+isolation.15-rootless.deb
+Size: 113848
+MD5sum: 1d6a0d16ae71f7ee0b439214cbb7dedd
+SHA1: 
+SHA256: 696b1284e94d457c1b1332f28c29b01c15721c5cd970c4bf305b514b02468c80
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
 Description: 基于 1.6.2-154 的 CPU 专用低功耗隔离修复。保留双模式、控制中心及原有附加功能；模式切换不启用全局 PowerSave、不重启温控守护、不递归缩放热配置。显示守卫独立于 CPU 预算。
 Depends: mobilesubstrate, preferenceloader
 Maintainer: Huayuarc
@@ -13814,210 +13958,6 @@ SHA1:
 SHA256: d7e8f772e8b882d8111a108ca154a4b5f42e3d0f7eaf93e5ea817dce1e507dbf
 
 Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 0.0.3
-Installed-Size: 576
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-0.0.3-roothide.deb
-Size: 71996
-MD5sum: c06cbeca1862c81276a84ee05207a27f
-SHA1: 
-SHA256: aec5be699e59ee4aeb270410b087aecb7172a4afadcbe0a6480d25c04783537b
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 0.0.3
-Installed-Size: 576
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-0.0.3-rootless.deb
-Size: 73772
-MD5sum: f0421645e15ec06162765565021bad83
-SHA1: 
-SHA256: ea39915057c06c11fa33fd5c9ef7f08c1eed78b8f0ac2b6025251348dd94cadb
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 0.0.5
-Installed-Size: 608
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-0.0.5-roothide.deb
-Size: 80276
-MD5sum: c1476723d8d571135ed3ac4957bd8fec
-SHA1: 
-SHA256: 799b45131e94e22a66491476092eef659b6ca048f8f196dbb54899fcb71f4060
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 0.0.5
-Installed-Size: 608
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-0.0.5-rootless.deb
-Size: 81632
-MD5sum: d17803c49cc00937bdeefa9b5e6260b6
-SHA1: 
-SHA256: b7756d1baa5b1806529b1fc1f5415a09a874cfd9f44e9e17eb7f06e5ecd1e39d
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.0.0
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Installed-Size: 764
-Filename: debs/com.iosdump.shellx-1.0.0-roothide.deb
-Size: 127136
-MD5sum: 8aa9fbc15cc005e468108eb00a9596c9
-SHA1: 
-SHA256: c669fcb1a3b5c5a5a8ae07a53929a3532e540a24f18b3782a059dca1ed7427c3
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.0.0
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Installed-Size: 780
-Filename: debs/com.iosdump.shellx-1.0.0-rootless.deb
-Size: 126912
-MD5sum: 1624b3581b8b0bb03c54d1d7ea1501d0
-SHA1: 
-SHA256: 19648f0f92324714e71f0eae761406e68ee9fc485eb095cdcc6e9d5610493115
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.1.0
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Installed-Size: 796
-Filename: debs/com.iosdump.shellx-1.1.0-roothide.deb
-Size: 136588
-MD5sum: c3f9dbd585d640227db1537fd67b3c66
-SHA1: 
-SHA256: f785beb1ae0917d45e854d4e1b24a8457c293c22e16a85f6aa362bb7c5415cba
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.1.0
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Installed-Size: 812
-Filename: debs/com.iosdump.shellx-1.1.0-rootless.deb
-Size: 136884
-MD5sum: 6cf5e4501f1d7b0a9dcd8f764c23a7f6
-SHA1: 
-SHA256: 0d57e6266fbb9c949ac65090b1796f2075e32a3531990dcd2edd67cebde99a8a
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.2.0
-Installed-Size: 836
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-1.2.0-roothide.deb
-Size: 140580
-MD5sum: 4e2253ed7675b775655c65ac7d01a4e2
-SHA1: 
-SHA256: ac153332888cceeb172bd68419860ef77dc059c922a92d4972731b046dc65741
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.2.0
-Installed-Size: 852
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-1.2.0-rootless.deb
-Size: 142468
-MD5sum: 4096b61c1f3bcceb53297e4f90c2f796
-SHA1: 
-SHA256: 2922b0931e0cc23e82fb7c7bec83febb5cebcb05a38fb63e1ebe39baf2b0c853
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.2.1
-Installed-Size: 852
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-1.2.1-roothide.deb
-Size: 144220
-MD5sum: 95f6583a3f93e5a59b57f277b903c47b
-SHA1: 
-SHA256: dde2dd93d098e92bc413d6140e43f68e113ae964c8b9da5a31a7ae13acf01a5c
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.2.1
-Installed-Size: 868
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-1.2.1-rootless.deb
-Size: 146088
-MD5sum: 344d6909a977b464f13436766d7a3845
-SHA1: 
-SHA256: ab6f0373b419646a8456f4473ec3189457cdd3c0ab5746ea5abddc9d06204690
-
-Package: com.iosdump.shellx
 Name: SHELLX
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
@@ -14234,322 +14174,40 @@ SHA1:
 SHA256: cb1eea475fb1b1d52fc95eea610a83732dc0dcd5a48082d8f9b3e6110496cec0
 
 Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
 Maintainer: iosdump
 Author: iosdump
 Section: Tweaks
 Architecture: iphoneos-arm64e
-Version: 2.0.1
-Installed-Size: 2328
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-2.0.1-roothide.deb
-Size: 770760
-MD5sum: 3e9f2518cefaa5ae2bb92dd3e978ec3d
+Version: 11.3
+Installed-Size: 11452
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-11.3-roothide.deb
+Size: 2610616
+MD5sum: 4cb1d443f6fc6e82d83035eac4e2c630
 SHA1: 
-SHA256: a34539dc74d04fe87c8d4b7d63684897b3a4432634fe9fa9708bcdf068ae55f9
+SHA256: 2303ba9681a2788dfa4061468f897a818140915ce5c4bfef3d3945259febb3cc
 
 Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
 Maintainer: iosdump
 Author: iosdump
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 2.0.1
-Installed-Size: 2348
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-2.0.1-rootless.deb
-Size: 773680
-MD5sum: 30408743a6317b88beec75f2a53a6d4b
+Version: 11.3
+Installed-Size: 11532
+icon: https://huayuarc.github.io/icon/ScreenshotShell.png
+Filename: debs/com.iosdump.shellx-11.3-rootless.deb
+Size: 2609168
+MD5sum: cada85ebc256eaa95571e6c497c0e9fa
 SHA1: 
-SHA256: f75180d732321cff92aeee05970999e70ca86287ab9c0f8444a7649ed59cac12
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 2.0.10
-Installed-Size: 2560
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-2.0.10-roothide.deb
-Size: 822568
-MD5sum: a588b515206bae264867b9b2ef2ae2fb
-SHA1: 
-SHA256: 512db96d517b40d4509a775f8bd646d882c80141e511210fff282e9b4b3f227f
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 2.0.10
-Installed-Size: 2592
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-2.0.10-rootless.deb
-Size: 824896
-MD5sum: 28a9401a61607acb9b78d9356f2e6928
-SHA1: 
-SHA256: 06e79d1c09196295416618e009aad904d1257471e6dc5e63aa9d2d4aa382268a
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 2.0.9
-Installed-Size: 2560
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-2.0.9-roothide.deb
-Size: 822280
-MD5sum: 19d7c2bf0674c72e438e457d0571edc5
-SHA1: 
-SHA256: d0c1fc7908dc7a3badfab0aea21b629b96ea98582e4a4909dce70041b9057c69
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 2.0.9
-Installed-Size: 2592
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-2.0.9-rootless.deb
-Size: 824416
-MD5sum: 2890e31bfb219f9d5e1ce507c1b53bbd
-SHA1: 
-SHA256: 7eab9f2059e9889320fee6d6648c0de83cc83c537bfd45fff6ab723a365f5e45
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 2.1.1
-Installed-Size: 2788
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-2.1.1-roothide.deb
-Size: 878580
-MD5sum: 38dbb567960ab44b8685597d6761a8dc
-SHA1: 
-SHA256: a2e77c376a5113a2ba724ab9ee4c7218dd5af38d769b687ef1f6da4da271d427
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 2.1.1
-Installed-Size: 2788
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx-2.1.1-rootless.deb
-Size: 880544
-MD5sum: 09eb24a623bfba9b53eb340081e8813f
-SHA1: 
-SHA256: 7bac4b7f3a6a9a39829102f33d22ac06f042ffb22d3cbecd95cacf3c0387dd34
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 2.2.1
-Installed-Size: 4180
-icon: https://huayuarc.github.io/icon/shellx.png
-Filename: debs/com.iosdump.shellx-2.2.1-roothide.deb
-Size: 981456
-MD5sum: 8678cdb052d625eb11b2e16735c45758
-SHA1: 
-SHA256: 1a0e33fe7849df6d9a610c7ba698f8d4e3223c92873d0e6e865f3e24ef19ae23
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 2.2.1
-Installed-Size: 4180
-icon: https://huayuarc.github.io/icon/shellx.png
-Filename: debs/com.iosdump.shellx-2.2.1-rootless.deb
-Size: 983084
-MD5sum: c7f6face370b90b8f10bb5bf4bf975f3
-SHA1: 
-SHA256: 2026f56be64ac06b21ed8df340d510e2e716065d90db668225805ddac6db7360
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 2.3.1
-Installed-Size: 6476
-icon: https://huayuarc.github.io/icon/shellx.png
-Filename: debs/com.iosdump.shellx-2.3.1-roothide.deb
-Size: 2833332
-MD5sum: 936c05cd187b0b7205c7f091a2670a20
-SHA1: 
-SHA256: 96fdc2618e580f2b51cb515126819509cf61f9c92761d78e63ed32e659541089
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 2.3.1
-Installed-Size: 6492
-icon: https://huayuarc.github.io/icon/shellx.png
-Filename: debs/com.iosdump.shellx-2.3.1-rootless.deb
-Size: 2836832
-MD5sum: 844b204e0f98cffa114bd43b3a11de79
-SHA1: 
-SHA256: e295e08c22bc6daa0a6dd4dc1ced272df2939e0dd745fc88ca195dbf350cc492
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 2.4.1
-Installed-Size: 6572
-icon: https://huayuarc.github.io/icon/shellx.png
-Filename: debs/com.iosdump.shellx-2.4.1-roothide.deb
-Size: 2858092
-MD5sum: ce0373dacb44187ea4fbae512d7e2c40
-SHA1: 
-SHA256: 50266d887e25818f43fd7e03954612af4574d5b17b00a0692a5141163d422d4b
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 2.4.1
-Installed-Size: 6588
-icon: https://huayuarc.github.io/icon/shellx.png
-Filename: debs/com.iosdump.shellx-2.4.1-rootless.deb
-Size: 2858376
-MD5sum: 90da6b4b33a99718e56903846a3e9e0e
-SHA1: 
-SHA256: 15e281ba437a86d6240f18ef46c24dc3dc3eded5dd82295aeb44361858aa911b
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 2.4.6
-Installed-Size: 6652
-icon: https://huayuarc.github.io/icon/shellx.png
-Filename: debs/com.iosdump.shellx-2.4.6-roothide.deb
-Size: 2877884
-MD5sum: 607b903e999b4dd956d6f316a96b5367
-SHA1: 
-SHA256: a4109b7e7387b2ec8907cef6e3ac589ea050002862a96d0e4567a88f6e355779
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 2.4.6
-Installed-Size: 6652
-icon: https://huayuarc.github.io/icon/shellx.png
-Filename: debs/com.iosdump.shellx-2.4.6-rootless.deb
-Size: 2879936
-MD5sum: bc4994725e898e6383952e177d162f99
-SHA1: 
-SHA256: e20c7704b5057466b9245ead3f703c1200b7d8edf2beacce28000f0ff4cf02bf
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 2.5.1
-Installed-Size: 6920
-icon: https://huayuarc.github.io/icon/shellx.png
-Filename: debs/com.iosdump.shellx-2.5.1-roothide.deb
-Size: 3086036
-MD5sum: 7112b54d0a618a53d712ed4650f9b527
-SHA1: 
-SHA256: e5899f8836d68ca63d780419d62703bc9edeb18c1c3719130133b066854118ef
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 2.5.1
-Installed-Size: 6936
-icon: https://huayuarc.github.io/icon/shellx.png
-Filename: debs/com.iosdump.shellx-2.5.1-rootless.deb
-Size: 3090520
-MD5sum: aa7bfb981e6635054f3c9aa9ba857327
-SHA1: 
-SHA256: bf4355120b198e7884c55c430073684908368a65bd6ac14d22e978dd6b1d1482
+SHA256: 4fe338fb382517a22aa10fc55ec43a097afe46ca75eb531c89d2cf1d6db0c6df
 
 Package: com.iosdump.shellx
 Name: SHELLX 录屏/截图
@@ -14838,78 +14496,6 @@ Size: 3251480
 MD5sum: 3f0e6475fe8a3a24959f1d1587b5636e
 SHA1: 
 SHA256: 6b08a3b98f0f74f7476cab1c76a6e5ede92de9675e3db9f4b1efdf0b7c9c3927
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 2.6.1
-Installed-Size: 7524
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx_2.6.1_iphoneos-arm64.deb
-Size: 3228624
-MD5sum: bfc84112359ddc2576411dba5583989b
-SHA1: 
-SHA256: 5a5726fe468c6d3368fd0b2fb4b1940b82d56d780d3fe89bbafefffeb063deda
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 2.6.1
-Installed-Size: 7524
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx_2.6.1_iphoneos-arm64e.deb
-Size: 3229116
-MD5sum: 876b45873b30e384356ad670d08d140d
-SHA1: 
-SHA256: bc26ce1efef0faf70c00de6d1dff324ff2b37e410d3679e07656140bb1ef4d1e
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 2.6.4
-Installed-Size: 7944
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx_2.6.4_iphoneos-arm64.deb
-Size: 3341276
-MD5sum: 2ed1a38e14d1c70f290a52e5cce8a16a
-SHA1: 
-SHA256: 6ee546d8d1e739c5fb5da6e7b2b6a2c9af609131148f76e3b71cf3ad9e820b8a
-
-Package: com.iosdump.shellx
-Name: SHELLX 录屏/截图
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Maintainer: iosdump
-Author: iosdump
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 2.6.4
-Installed-Size: 7928
-icon: https://huayuarc.github.io/icon/SHELLX.png
-Filename: debs/com.iosdump.shellx_2.6.4_iphoneos-arm64e.deb
-Size: 3342588
-MD5sum: 74ec56e66e6b1128476b777c1c3789a5
-SHA1: 
-SHA256: 4b6d1fb5edc723044c6332e7e520b043cb8201f38fde3f40a02bdb98dc2d0d3b
 
 Package: com.iosdump.trollcmtweak
 Name: TrollCM 触摸轨迹
@@ -20168,6 +19754,44 @@ MD5sum: 1782f7d53025c76f792cbb55db665f62
 SHA1: 
 SHA256: cebbb3c293d3dfd9390a92e680f3012619488fcf5868c194cc734bf551eac36c
 
+Package: com.muzi.mutool
+Name: MUtool
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电管理（充电提示音：接入提示音、MagSafe 动画、灵动岛电池与电池提醒；充电限制：IORegistry 停充不再跳过设定值、限充阈值停充并回落 5% 自动恢复、阻止充电/电源、满血快充、智能充电计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（自动进桌面、通知亮屏、隐藏与禁用）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64e
+Version: 2.1.86
+Installed-Size: 4904
+Filename: debs/com.muzi.mutool-2.1.86-roothide.deb
+Size: 721816
+MD5sum: 4729a6ab394da86b12f7cc5490d51b58
+SHA1: 
+SHA256: 555ab46daa2ef2e9c9ee9fcf2708af4b56eb1b86fd3b86dd6566131c3301190c
+
+Package: com.muzi.mutool
+Name: MUtool
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电管理（充电提示音：接入提示音、MagSafe 动画、灵动岛电池与电池提醒；充电限制：IORegistry 停充不再跳过设定值、限充阈值停充并回落 5% 自动恢复、阻止充电/电源、满血快充、智能充电计划）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（自动进桌面、通知亮屏、隐藏与禁用）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64
+Version: 2.1.86
+Installed-Size: 4920
+Filename: debs/com.muzi.mutool-2.1.86-rootless.deb
+Size: 730208
+MD5sum: 048ae46dc47949adeed20f7064b7aeee
+SHA1: 
+SHA256: 4e10a44996ffb060733b74442204e654a1d36d30c5d6cb503e30636fb037f70d
+
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
 Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
@@ -23389,6 +23013,46 @@ MD5sum: e148809835b91ef83fbd96202659c24e
 SHA1: 
 SHA256: ec3aca10aac35b2cb19101f628b497f7742f1b8301cdcb6cb1639b91a68a8d25
 
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.97
+Installed-Size: 4220
+Filename: debs/com.qq391160.cpucore-2.0.97-roothide.deb
+Size: 608020
+MD5sum: 1672d0a7fb2c987cf29a7acdc0c4fb93
+SHA1: 
+SHA256: 640389d59265706f592f7526efaa87b2f9a438604ab757e67f1e5a5c28ff007b
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64
+Version: 2.0.97
+Installed-Size: 3976
+Filename: debs/com.qq391160.cpucore-2.0.97-rootless.deb
+Size: 570036
+MD5sum: 501924f925cbad439d5de0861c058c11
+SHA1: 
+SHA256: 1378b63f915ae9d16db41021a2afd901cc836fc167873778169d81a85e7dae19
+
 Package: com.quicklaunch.tweak
 Name: QuickLaunch
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
@@ -23443,6 +23107,65 @@ Size: 198280
 MD5sum: 2fe14aab249df450bc4361d207ec342d
 SHA1: 
 SHA256: 2c1ad64724026a418027601aaa84260b41f4b71eb83e161c95fa8ecc6b053fc3
+
+Package: com.quicklaunch.tweak
+Name: QuickLaunch
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Architecture: iphoneos-arm64e
+Version: 0.1.47
+Installed-Size: 620
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+Filename: debs/com.quicklaunch.tweak-0.1.47-roothide.deb
+Size: 153884
+MD5sum: f233b167f1de282dbc9ea3dd20982fa1
+SHA1: 
+SHA256: 668a18b064342548d1f8aefdd22a63a9cf787b5e59e6e96e6d203c77b35f9c94
+
+Package: com.quicklaunch.tweak
+Name: QuickLaunch
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Architecture: iphoneos-arm64
+Version: 0.1.47
+Installed-Size: 1148
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+Filename: debs/com.quicklaunch.tweak-0.1.47-rootless.deb
+Size: 205312
+MD5sum: 03cb23d1f81c29702b6b8faf9431c204
+SHA1: 
+SHA256: a9873547cf82b7f32ddf6245afa5c9de600daae2387c4678948bde9d109614bf
 
 Package: com.rain.actionbutton
 Name: Rain的操作按钮
@@ -25776,6 +25499,40 @@ Size: 474616
 MD5sum: fedce5d68cbcedb3ec65cb4512d8c6c0
 SHA1: 
 SHA256: 065c3d51dd4f74919fdb578dcaaeaac78942a863149a1e9b09ab1d1ad6f001c3
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复文字浮窗不是系统原生字体，改了一下排版锁定问题，新增浮窗 2，可以弄两个浮窗，新增上下行网速开关。）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 6.3
+Installed-Size: 3524
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-6.3-roothide.deb
+Size: 485800
+MD5sum: 9f7a87acffbc99c8deea59ee93dc7600
+SHA1: 
+SHA256: 926a1009c8f28eae8c7d0de8dc8026440314e98fa5b7f207d88d6374e38f448f
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复文字浮窗不是系统原生字体，改了一下排版锁定问题，新增浮窗 2，可以弄两个浮窗，新增上下行网速开关。）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 6.3
+Installed-Size: 3524
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-6.3-rootless.deb
+Size: 488148
+MD5sum: 9f9727c4e787c79c6c64e37dfced83ca
+SHA1: 
+SHA256: be704ff814924342d30a4dfa110ac94501a5353899a564a2eecbd0130b0716c6
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
@@ -36168,6 +35925,38 @@ MD5sum: f2e68468b8aff095df6988487da54051
 SHA1: 
 SHA256: 92c269950ed5acc9ab037fd530e8538c72cf54f58a6f302d7cde58eaf21f374b
 
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: 5hux1n
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Roothide
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+Architecture: iphoneos-arm64e
+Version: 3.0.5
+Installed-Size: 240
+Filename: debs/fanqiefn-3.0.5-roothide.deb
+Size: 30468
+MD5sum: a365b367877cc3d2b2b02023d8c71634
+SHA1: 
+SHA256: 32894157f69be3116eda08051e6e3c2f2265a330cb900df7bf38b57a253a0fe5
+
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: 5hux1n
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+Architecture: iphoneos-arm64
+Version: 3.0.5
+Installed-Size: 240
+Filename: debs/fanqiefn-3.0.5-rootless.deb
+Size: 30524
+MD5sum: d34c22d36f1455509e71398bd34362df
+SHA1: 
+SHA256: 71800ec8b0def494648ea307bb064a16a4ddb8d44fb9f0b3f06b72d82bc65e6e
+
 Package: Flex3beta
 Name: Flex3 Beta可解析版
 Depends: mobilesubstrate, firmware (>= 9.0)
@@ -36789,6 +36578,40 @@ Size: 326944
 MD5sum: 1b11e58cc86d71f80c786ab98d641f86
 SHA1: 
 SHA256: d29f12f6d4e38b9bc3393cdbfaf108cec626a56d6cd84bd81b7f0a399347d906
+
+Package: iya.banana.dockicon
+Name: DarkIcon
+Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Architecture: iphoneos-arm64e
+Version: 0.9.19
+Installed-Size: 1896
+icon: https://huayuarc.github.io/icon/DarkIcon.png
+Filename: debs/iya.banana.dockicon-0.9.19-roothide.deb
+Size: 404900
+MD5sum: 26bee6d311b345889b381521a18a7555
+SHA1: 
+SHA256: 241ee7c5f1cbe9d6cbede3e47a15a2ccce942b9940aa1950bcb3cb30c84f1510
+
+Package: iya.banana.dockicon
+Name: DarkIcon
+Description: ios 15-18提供深色图标与图片壁纸暗化 Dark icons on iOS 15-17 and photo wallpaper dimming on iOS 16-18.
+Maintainer: hades
+Author: hades
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 19.0)
+Architecture: iphoneos-arm64
+Version: 0.9.19
+Installed-Size: 1896
+icon: https://huayuarc.github.io/icon/DarkIcon.png
+Filename: debs/iya.banana.dockicon-0.9.19-rootless.deb
+Size: 403800
+MD5sum: 98d2e802fdb467e108a1f9cefcb341f1
+SHA1: 
+SHA256: cadd57a55ff5d9002d14d19673907592fbf4f339cfe760d7cbc1c0fc228d068f
 
 Package: iya.banana.dockicon
 Name: DarkIcon
@@ -40121,7 +39944,7 @@ SHA256: a40470c81fb59d6177e0c7de06fdc1b262796383931313a4f22c327b020b5cc7
 
 Package: wiki.qaq.ighostvt
 Name: iGhostVT
-Version: 1.5.0
+Version: 1.6.5
 Architecture: iphoneos-arm64e
 Description: Ghostty-powered terminal for iOS
  A real terminal on your device, drawn by the same engine as Ghostty on the
@@ -40136,16 +39959,16 @@ Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Section: Terminal Support
 Priority: optional
 Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
-Installed-Size: 19448
-Filename: debs/wiki.qaq.ighostvt-1.5.0-roothide.deb
-Size: 7010148
-MD5sum: 65d8869773578e86243a72449c1d9542
+Installed-Size: 15600
+Filename: debs/wiki.qaq.ighostvt-1.6.5-roothide.deb
+Size: 4654120
+MD5sum: cfdd2d0931cd493ab2d628a542299f04
 SHA1: 
-SHA256: 8f82ed59a75f2629a18b30039469d70108f78583bc498c0d078fc7fd227e72c9
+SHA256: b266d822688954ba4c24e1c7194f0730024d331d3d8302417d37b1398bd096fa
 
 Package: wiki.qaq.ighostvt
 Name: iGhostVT
-Version: 1.5.0
+Version: 1.6.5
 Architecture: iphoneos-arm64
 Description: Ghostty-powered terminal for iOS
  A real terminal on your device, drawn by the same engine as Ghostty on the
@@ -40160,60 +39983,12 @@ Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Section: Terminal Support
 Priority: optional
 Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
-Installed-Size: 19448
-Filename: debs/wiki.qaq.ighostvt-1.5.0-rootless.deb
-Size: 7011612
-MD5sum: 6bf7556903062acb0d6276eee05a0558
+Installed-Size: 15600
+Filename: debs/wiki.qaq.ighostvt-1.6.5-rootless.deb
+Size: 4654984
+MD5sum: 9e25b6615d5a3c94d5f6490677e2393a
 SHA1: 
-SHA256: ae673a69348978c046a4016c9684f6e94e12face4baaa50ecf9abb1fde42571e
-
-Package: wiki.qaq.ighostvt
-Name: iGhostVT
-Version: 1.5.2
-Architecture: iphoneos-arm64e
-Description: Ghostty-powered terminal for iOS
- A real terminal on your device, drawn by the same engine as Ghostty on the
- desktop. Your shell keeps running in the background, so a build you started
- is still going when you switch apps and still there when you come back.
- Runs on iPhone and iPad.
-Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
-Depiction: https://owngoal-dev.github.io/iGhostVT/
-SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
-Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Terminal Support
-Priority: optional
-Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
-Installed-Size: 15540
-Filename: debs/wiki.qaq.ighostvt-1.5.2-roothide.deb
-Size: 4637916
-MD5sum: edd7f20a65e8917fc6fe5a009542d423
-SHA1: 
-SHA256: 5dff090c8dba938558f07ccb8bb848b70062af0ddf4e8510e491dbe5624bae66
-
-Package: wiki.qaq.ighostvt
-Name: iGhostVT
-Version: 1.5.2
-Architecture: iphoneos-arm64
-Description: Ghostty-powered terminal for iOS
- A real terminal on your device, drawn by the same engine as Ghostty on the
- desktop. Your shell keeps running in the background, so a build you started
- is still going when you switch apps and still there when you come back.
- Runs on iPhone and iPad.
-Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
-Depiction: https://owngoal-dev.github.io/iGhostVT/
-SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
-Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Terminal Support
-Priority: optional
-Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
-Installed-Size: 15540
-Filename: debs/wiki.qaq.ighostvt-1.5.2-rootless.deb
-Size: 4638236
-MD5sum: 35ab332f66db030a4d0c206cfb3c6d79
-SHA1: 
-SHA256: 271217c58390f331042615e77fd705060fb815cba3d0d534860f4a980f836119
+SHA256: 6e67f9b8281e9ef034b526ecfbd9919d4cbe1d759e631e9e8d3338a6e5063fa6
 
 Package: ws.hbang.newterm3
 Name: NewTerm 3 Beta iOS 终端
