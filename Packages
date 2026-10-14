@@ -658,6 +658,80 @@ MD5sum: 2e5efbf3c104148e07ee55bb2a26255a
 SHA1: 
 SHA256: 28f36bd11101505a7694b32b4a69a2775297eebcf29881e8c5146ee001d87bd5
 
+Package: cn.llld.bbqzr
+Name: QQ绿化_芭比Q
+Author: 来了老弟
+Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***。
+Depends: mobilesubstrate
+Maintainer: 来了老弟
+Section: Tweaks
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.bbqzr/bbq.json
+Architecture: iphoneos-arm64e
+Version: 0.6
+Installed-Size: 304
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+Filename: debs/cn.llld.bbqzr-0.6-roothide.deb
+Size: 38308
+MD5sum: e0669c13a00da7a9c287b2197e4a0d98
+SHA1: 
+SHA256: 9e5ed678dcb2b5b74e31c306bf9c25d9b13f25983c7e077a5e610b598d36143d
+
+Package: cn.llld.bbqzr
+Name: QQ绿化_芭比Q
+Author: 来了老弟
+Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***。
+Depends: mobilesubstrate
+Maintainer: 来了老弟
+Section: Tweaks
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.bbqzr/bbq.json
+Architecture: iphoneos-arm64
+Version: 0.6
+Installed-Size: 304
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+Filename: debs/cn.llld.bbqzr-0.6-rootless.deb
+Size: 39136
+MD5sum: 0b255c5ffdf2fa0f4598c6a86a2cc6f6
+SHA1: 
+SHA256: e17de45c84a73d1fce6d2f8c7f9d8118d053f9a3be99e231d0cfe964abdd16b2
+
+Package: cn.llld.bbqzr
+Name: QQ绿化_芭比Q
+Author: 来了老弟
+Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***。QQ对话消息页面长按表情，QQ侧边栏长按 日间 天气，QQ设置右上角都可以进入插件窗口。。。因版本不同 某些函数改动也不同
+Depends: mobilesubstrate
+Maintainer: 来了老弟
+Section: Tweaks
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.bbqzr/bbq.json
+Architecture: iphoneos-arm64e
+Version: 0.6.1
+Installed-Size: 304
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+Filename: debs/cn.llld.bbqzr-0.6.1-roothide.deb
+Size: 38120
+MD5sum: 76626f48a2fd5241c2c313d3b94e246e
+SHA1: 
+SHA256: 7cbd0d20a0f2d6ed1900904c1ac0bea502f1e98e87b9cca920a512667b2651ce
+
+Package: cn.llld.bbqzr
+Name: QQ绿化_芭比Q
+Author: 来了老弟
+Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***。QQ对话消息页面长按表情，QQ侧边栏长按 日间 天气，QQ设置右上角都可以进入插件窗口。。。因版本不同 某些函数改动也不同
+Depends: mobilesubstrate
+Maintainer: 来了老弟
+Section: Tweaks
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.bbqzr/bbq.json
+Architecture: iphoneos-arm64
+Version: 0.6.1
+Installed-Size: 304
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+Filename: debs/cn.llld.bbqzr-0.6.1-rootless.deb
+Size: 39008
+MD5sum: 6d9f90b36caffff923c00864bc1788a9
+SHA1: 
+SHA256: 137519ab37083f25bc70ef85fa47dec829b8576fda8c9a01b9827a06892cb665
+
 Package: cn.llld.biaoji
 Name: Snapper 截图标记
 Author: 来了老弟 X: h_h_x_t
@@ -3797,6 +3871,46 @@ Size: 125128
 MD5sum: c42b0548ed21e4bb6c103e7510934e46
 SHA1: 
 SHA256: 2ad399346cca95a614789a195e9e96f6a090374b42a8e437db4a72ffd584acec
+
+Package: com.axs.ipslog
+Name: IPSLog
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: preferenceloader
+Icon: https://axs66.github.io/pro/icon/ips.png
+Architecture: iphoneos-arm64e
+Version: 5.2.0-30
+Installed-Size: 496
+Filename: debs/com.axs.ipslog-5.2.0-30-roothide.deb
+Size: 96196
+MD5sum: e19e6c44e726d565d83d31c7c6c39833
+SHA1: 
+SHA256: 8ef7a705a5337d6f0851aa3d506d4ab226c41301199ed52f43f565fe07226e23
+
+Package: com.axs.ipslog
+Name: IPSLog
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: preferenceloader
+Icon: https://axs66.github.io/pro/icon/ips.png
+Architecture: iphoneos-arm64
+Version: 5.2.0-30
+Installed-Size: 496
+Filename: debs/com.axs.ipslog-5.2.0-30-rootless.deb
+Size: 96532
+MD5sum: 188f199aa13378f1510ddadd24d7a423
+SHA1: 
+SHA256: 73c49585fabf7765609e8b8afc1fb99461f0edbf402b25d4e2b4dccad0dc09e2
 
 Package: com.axs.snapper4
 Name: Snapper 4
@@ -8987,6 +9101,46 @@ MD5sum: de7ca0a837e8c50fb347172cb2a6e827
 SHA1: 
 SHA256: fd7d7a1effc1476f4771e2863296529c0a03b9394fa43aec56aed6151752990d
 
+Package: com.doimty.vedette
+Name: Vedette
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Maintainer: doimty
+Author: udevs
+Section: Tweaks
+Depends: firmware (>= 15.0), roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+Architecture: iphoneos-arm64e
+Version: 1.1.13-4
+Installed-Size: 1188
+Filename: debs/com.doimty.vedette-1.1.13-4-roothide.deb
+Size: 192668
+MD5sum: 280bac87a5348cf0e7109b43eeda592c
+SHA1: 
+SHA256: 1e3ea25c908e1565a16ceabc9a3ccf939bed05668759ea4ebbc3d08cb6ffc9c9
+
+Package: com.doimty.vedette
+Name: Vedette
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Maintainer: doimty
+Author: udevs
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+Architecture: iphoneos-arm64
+Version: 1.1.13-4
+Installed-Size: 1188
+Filename: debs/com.doimty.vedette-1.1.13-4-rootless.deb
+Size: 195508
+MD5sum: 085e8d1baac12d9607c4ea97057482f6
+SHA1: 
+SHA256: 2f52d1be78cb0b2def911d1ff3858f0dfc75c7323b198e7a8bec38df9bf26785
+
 Package: com.dvntm.infuseplus
 Name: Infuse Plus
 Author: dvntm
@@ -9972,6 +10126,40 @@ Size: 12504
 MD5sum: 386809363dce3cd9fd1150cab187cf45
 SHA1: 
 SHA256: d00a4553437c75c4c183d49272900c28162beb7de6ead964ea6e18ba412f83e7
+
+Package: com.hang.wechatnoads
+Name: 航の微信去广告
+Description: 微信去广告（公众号/朋友圈/小程序/搜索/视频号/订阅号），无开关注入即生效
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 92
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.hang.wechatnoads-1.1-roothide.deb
+Size: 13504
+MD5sum: 087659744d683a160ca8df88ac82bc0e
+SHA1: 
+SHA256: d59216f4a19c8a4e76f056cd071d7f74799c8012838061772448f5f2a47586de
+
+Package: com.hang.wechatnoads
+Name: 航の微信去广告
+Description: 微信去广告（公众号/朋友圈/小程序/搜索/视频号/订阅号），无开关注入即生效
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 92
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.hang.wechatnoads-1.1-rootless.deb
+Size: 13320
+MD5sum: d588863727909c8d1022c566ba696b4f
+SHA1: 
+SHA256: f0a1768b60786305562d2debb64a45b9fb929d088861f115e3206f531fa233a9
 
 Package: com.hierarch.dykiller
 Name: DYKiller 抖音 UI 增强
@@ -15661,6 +15849,40 @@ MD5sum: 8c2cf51cef131bb66e593df36e3b843b
 SHA1: 
 SHA256: 3503e6fbea3c2e709132b429f2447e615fc809cdbc5e574ce07463f070601464
 
+Package: com.johndie.triggr
+Name: Triggr
+Description: 用于无根多巴胺的Activator-lite：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.5.0
+Installed-Size: 1588
+icon: https://huayuarc.github.io/icon/triggr.png
+Filename: debs/com.johndie.triggr-1.5.0-roothide.deb
+Size: 199564
+MD5sum: 6fdf4fccde4650cafe1cc36a69001274
+SHA1: 
+SHA256: 3916678a1e118a47e9561c0f3b7abe2b66e601c87038cfffa16d4e9b843399fe
+
+Package: com.johndie.triggr
+Name: Triggr
+Description: 用于无根多巴胺的Activator-lite：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.5.0
+Installed-Size: 1644
+icon: https://huayuarc.github.io/icon/triggr.png
+Filename: debs/com.johndie.triggr-1.5.0-rootless.deb
+Size: 198276
+MD5sum: c1f69afa321d3efff97b9745af24efbe
+SHA1: 
+SHA256: 71acf50f079605d1fc9c3eabd6319a826c19939e9fa34eea9eed5df3f2b17def
+
 Package: com.jontelang.instalauncher2
 Section: Tweaks
 Installed-Size: 1188
@@ -17042,6 +17264,96 @@ Size: 134904
 MD5sum: 25bb0677cf80a7e58e8fd4575511b0d7
 SHA1: 
 SHA256: d45176703220b954033a0b51a411a92d2da62097d9167a23aac9d324b58a7c8c
+
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘 · 轻量版
+Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
+ 四种固定预设、三星风格扩散与霓虹圆环两种样式，支持单独关闭扩散光效。
+ 微信输入法提供 11 套参考皮肤，包括冰晶玻璃、深色半透明、霓虹星河、花园半透明和彩色糖果键帽。
+ 键盘底色和键帽颜色分别开关，分别覆盖皮肤对应部分，保留按下态及跨 App 配色兼容。
+ 键帽按压反馈自动启用，独立于周边扩散开关：按下轻沉，松手微弹、亮光渐隐。
+ 每次点击使用一种鲜亮色相，亮光仅在当前键帽内部，不做周边发光或扩散。
+ 修复按压发光层误裁剪整片扩散光效，两种效果可以同时启用。
+ 修复全键盘首次按键预览被缓存为扩散遮挡区，切换布局后不再保留首按位置的光效缺口。
+ 修复功能键合成底图与图标一起隐藏，保留删除、空格、中英切换与大小写字样。
+ 键盘弹起主动刷新配色，原生键帽颜色修改同步更新渲染缓存，无需先按键。
+ 最多复用四组按键亮光，保持原始点击区域、文字和保存的键帽配色。
+ 总开关关闭时停止所有反馈；减少动态效果时不缩放，只保留局部亮光。
+ 移除实验背景形变功能及后端，普通透明度、磨砂与皮肤保留。
+ 100% 透明清除黑色遮罩和键帽填色，降低透明度逐步增加灰白磨砂，不再变黑。
+ 磨砂较强时自动使用深色字，通透时按系统明暗选择字色并提供局部对比阴影，自定义字色优先。
+ 保留系统磨砂与 contentView 安全挂载，减少透明玻璃重复叠层。
+ 新增“透明时保留皮肤与配色”开关，默认关闭，底部和键帽透明时仅显示中性玻璃。
+ 开启透明配色开关后，所选皮肤及自定义颜色才参与透明渲染，文字颜色保持独立。
+ 微信键帽文字及图标支持独立选色和开关，工具栏按钮保持原始外观。
+ 限定键盘背景处理的宿主范围，修复 TIM 等应用底部栏误着色。
+ 移除应用窗口扫描及重复键盘重绘，合并弹起与布局刷新，保留换色和键位切换更新。
+ 功能键覆盖普通图片、矢量图标、文字图层与八种组合状态，拦截按下时的旧颜色覆盖。
+ 修复糖果键帽被原生模糊层及小尺寸背景图片覆盖，保留普通和按下态色彩。
+ 九宫格光效排除左侧拼音选择栏、顶部功能区和符号切换键。
+ 键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。
+ 九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。
+ 最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。
+ 不使用截图、显示刷新定时器、键帽外阴影或诊断写盘。
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.26~lite40
+Installed-Size: 696
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
+Filename: debs/com.minis.rainbowkeyboard-1.0.26~lite40-roothide.deb
+Size: 194756
+MD5sum: aebcf0a840446ca0c80c6c0fc9f7a2e4
+SHA1: 
+SHA256: ae1e8b1330832ef76592ae41e31bdd188341b2b521e51ec8905f8ac0a45568a2
+
+Package: com.minis.rainbowkeyboard
+Name: 彩虹键盘 · 轻量版
+Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
+ 四种固定预设、三星风格扩散与霓虹圆环两种样式，支持单独关闭扩散光效。
+ 微信输入法提供 11 套参考皮肤，包括冰晶玻璃、深色半透明、霓虹星河、花园半透明和彩色糖果键帽。
+ 键盘底色和键帽颜色分别开关，分别覆盖皮肤对应部分，保留按下态及跨 App 配色兼容。
+ 键帽按压反馈自动启用，独立于周边扩散开关：按下轻沉，松手微弹、亮光渐隐。
+ 每次点击使用一种鲜亮色相，亮光仅在当前键帽内部，不做周边发光或扩散。
+ 修复按压发光层误裁剪整片扩散光效，两种效果可以同时启用。
+ 修复全键盘首次按键预览被缓存为扩散遮挡区，切换布局后不再保留首按位置的光效缺口。
+ 修复功能键合成底图与图标一起隐藏，保留删除、空格、中英切换与大小写字样。
+ 键盘弹起主动刷新配色，原生键帽颜色修改同步更新渲染缓存，无需先按键。
+ 最多复用四组按键亮光，保持原始点击区域、文字和保存的键帽配色。
+ 总开关关闭时停止所有反馈；减少动态效果时不缩放，只保留局部亮光。
+ 移除实验背景形变功能及后端，普通透明度、磨砂与皮肤保留。
+ 100% 透明清除黑色遮罩和键帽填色，降低透明度逐步增加灰白磨砂，不再变黑。
+ 磨砂较强时自动使用深色字，通透时按系统明暗选择字色并提供局部对比阴影，自定义字色优先。
+ 保留系统磨砂与 contentView 安全挂载，减少透明玻璃重复叠层。
+ 新增“透明时保留皮肤与配色”开关，默认关闭，底部和键帽透明时仅显示中性玻璃。
+ 开启透明配色开关后，所选皮肤及自定义颜色才参与透明渲染，文字颜色保持独立。
+ 微信键帽文字及图标支持独立选色和开关，工具栏按钮保持原始外观。
+ 限定键盘背景处理的宿主范围，修复 TIM 等应用底部栏误着色。
+ 移除应用窗口扫描及重复键盘重绘，合并弹起与布局刷新，保留换色和键位切换更新。
+ 功能键覆盖普通图片、矢量图标、文字图层与八种组合状态，拦截按下时的旧颜色覆盖。
+ 修复糖果键帽被原生模糊层及小尺寸背景图片覆盖，保留普通和按下态色彩。
+ 九宫格光效排除左侧拼音选择栏、顶部功能区和符号切换键。
+ 键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。
+ 九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。
+ 最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。
+ 不使用截图、显示刷新定时器、键帽外阴影或诊断写盘。
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.26~lite40
+Installed-Size: 1336
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
+Filename: debs/com.minis.rainbowkeyboard-1.0.26~lite40-rootless.deb
+Size: 288548
+MD5sum: b65d1b60b9f0c2c7448a44478a709e56
+SHA1: 
+SHA256: 087eb12549850e53b5cbbcc90b1d4bb49997e02464dfabef6c0df0869516574c
 
 Package: com.minis.rainbowkeyboard
 Name: 彩虹键盘光效
@@ -19417,6 +19729,40 @@ Size: 85552
 MD5sum: bb5472c3e3f1dca527dbb8c2a02a3eac
 SHA1: 
 SHA256: fdc844828284b9695ae425c804eee42352475946e1c89a829c907f6a3475d094
+
+Package: com.mowang.crashanalyzer
+Name: AI 日志分析
+Description: iOS IPS 日志搜索、进程分组与证据分析（1.4.0 体验版）
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.4.0
+Installed-Size: 292
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+Filename: debs/com.mowang.crashanalyzer-1.4.0-roothide.deb
+Size: 91412
+MD5sum: abd26af0faae4c02a56c43f2edba86a6
+SHA1: 
+SHA256: afe23e08f8eb6e59b0eccec359693b709fed7be4c2d0b86b1852c9f5f4400c1b
+
+Package: com.mowang.crashanalyzer
+Name: AI 日志分析
+Description: iOS IPS 日志搜索、进程分组与证据分析（1.4.0 体验版）
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.4.0
+Installed-Size: 292
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+Filename: debs/com.mowang.crashanalyzer-1.4.0-rootless.deb
+Size: 91412
+MD5sum: 85032e889d16f659f271e299f6838b3a
+SHA1: 
+SHA256: ea954d90e0160c2537449329811e3dba5b8c31f09a5a8ebfe680a7e667f752d7
 
 Package: com.mowang.rainbowkeyboard
 Name: 彩虹键盘光效（安全版）
@@ -38843,6 +39189,46 @@ Size: 3848612
 MD5sum: 4d642fef64020bbf48cf2243530c1dcf
 SHA1: 
 SHA256: 0d56d4a9525864293b1f1cf83be15660e2b0e8d63f848eeebe5cb8c5d2254a98
+
+Package: iya.iapple.liquidass
+Name: Liquid (Gl)ass
+Description: 为 iOs 14-18 的系统界面带来可实时调整的液态玻璃效果。next level diarrhea
+Maintainer: Banana
+Author: dylv & Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Provides: dylv.liquidass
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Architecture: iphoneos-arm64e
+Version: 0.1.1b+banana54
+Installed-Size: 9320
+Filename: debs/iya.iapple.liquidass-0.1.1b+banana54-roothide.deb
+Size: 3861112
+MD5sum: aa0bf033c1a8c3dc65460e784970b17e
+SHA1: 
+SHA256: 01827842e294133f916e7dbb700ad32d924c7a41fef79e59146432e2793d4706
+
+Package: iya.iapple.liquidass
+Name: Liquid (Gl)ass
+Description: 为 iOs 14-18 的系统界面带来可实时调整的液态玻璃效果。next level diarrhea
+Maintainer: Banana
+Author: dylv & Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.liquidass.zh-hans
+Replaces: dylv.liquidass, dylv.liquidass.zh-hans
+Provides: dylv.liquidass
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Architecture: iphoneos-arm64
+Version: 0.1.1b+banana54
+Installed-Size: 9336
+Filename: debs/iya.iapple.liquidass-0.1.1b+banana54-rootless.deb
+Size: 3865724
+MD5sum: a9cb057ee14f2f71aa1920f2fab9e46d
+SHA1: 
+SHA256: 0ae0feb96d123ca92d5338ae91d627f11657b081eb96c732bef0d6bf10f53f75
 
 Package: iya.iapple.siri
 Name: LiquidSiri
