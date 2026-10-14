@@ -6816,6 +6816,40 @@ MD5sum: c1bffcf3ec68484ce6735217131fd2b2
 SHA1: 
 SHA256: 81f61553026a8870135279ac9c659473b7cca43ab3c01104d528668dae981968
 
+Package: com.crctdd.autocopyverify
+Name: Auto Copy Verify
+Description: 自动复制短信、系统邮件、部分主流第三方邮件的验证码到剪切板，第三方邮件只能从临时通知框内获取，获取不到则无法复制；无设置项。（支持iOS 15-17）
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Installed-Size: 740
+icon: https://huayuarc.github.io/icon/disablecutpop.jpg
+Filename: debs/com.crctdd.autocopyverify-0.0.5-roothide.deb
+Size: 77020
+MD5sum: 9ea7f762e546d706a8a49948a783d3ad
+SHA1: 
+SHA256: 2679502f133174d7974d257037d8f12cccbb4a68e588661763995e99fbb1f711
+
+Package: com.crctdd.autocopyverify
+Name: Auto Copy Verify
+Description: 自动复制短信、系统邮件、部分主流第三方邮件的验证码到剪切板，第三方邮件只能从临时通知框内获取，获取不到则无法复制；无设置项。（支持iOS 15-17）
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Installed-Size: 1524
+icon: https://huayuarc.github.io/icon/disablecutpop.jpg
+Filename: debs/com.crctdd.autocopyverify-0.0.5-rootless.deb
+Size: 100760
+MD5sum: f727504dfa7ffe141862227b98487e15
+SHA1: 
+SHA256: 42ae91e492c341c2861add7ba2ccdc5b3d80de06e1de56e2f2e3362394345625
+
 Package: com.crctdd.choicy-patch
 Name: Choicy Patch
 Description: 给Choicy增加已设置置顶 / 进程页面本地缓存。(支持iOS 15-17)
@@ -22506,6 +22540,40 @@ Size: 767952
 MD5sum: 82d85d4e4bd67eeb40f721e1ea5ee70c
 SHA1: 
 SHA256: d6ee3ffc665be31d52e05d3c667bd9930ee49140d196853546ad4dc442d534ef
+
+Package: com.noads.tweka
+Name: NoAdsX
+Description: 去除广告。
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.3.2
+Installed-Size: 6768
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+Filename: debs/com.noads.tweka-1.3.2-roothide.deb
+Size: 1018232
+MD5sum: c3443a29a36238a02a05c3e14f74aeee
+SHA1: 
+SHA256: 6519099ff081871c7a88b3857372090e9cc461236ff7eeac0790ef656e868dd9
+
+Package: com.noads.tweka
+Name: NoAdsX
+Description: 去除广告。
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.3.2
+Installed-Size: 6768
+icon: https://huayuarc.github.io/icon/NoAds@2x.png
+Filename: debs/com.noads.tweka-1.3.2-rootless.deb
+Size: 1020104
+MD5sum: 760edd97a96df65c25ff6cee15c5017e
+SHA1: 
+SHA256: 7a897a1445748c4f75e7accbb307f6aa3f41c944cd4f3076b121c76f4fea3706
 
 Package: com.opa334.trollstorelite
 Name: TrollStore Lite
