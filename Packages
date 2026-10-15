@@ -16745,6 +16745,41 @@ SHA1:
 SHA256: 7e050e69a3d43ae6987c9f3c455219e05e3833ddf1a378068790b00cfc6ccc6a
 
 Package: com.m4fn3.k2gecamen
+Name: K2gecamen (简体中文版)
+Description: Capture moments with photos, videos, and audio in the background with ease.
+Maintainer: mafu
+Author: mafu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Installed-Size: 6204
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.m4fn3.k2gecamen-1.0.5-roothide.deb
+Size: 2083544
+MD5sum: ff6980f06e56bcecc932ea93515ef0e1
+SHA1: 
+SHA256: 3dc0f659bf659e0328a0aa05d8c1356819feec09f4a63f5b5976601206a09f0e
+
+Package: com.m4fn3.k2gecamen
+Name: K2gecamen (简体中文版)
+Description: Capture moments with photos, videos, and audio in the background with ease.
+Maintainer: mafu
+Author: mafu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Installed-Size: 6204
+Filename: debs/com.m4fn3.k2gecamen-1.0.5-rootless.deb
+Size: 2112432
+MD5sum: d2488fa0faebb8915321ef3ef4f8317f
+SHA1: 
+SHA256: 96d01d3842fc380bf9257ebb199028420dfb543f243e36b002602615c8f5501d
+
+Package: com.m4fn3.k2gecamen
 Name: K2gecamen
 Description: 隐私相机，轻松捕捉照片、视频和音频的时刻。Capture moments with photos, videos, and audio in the background with ease.
 Maintainer: mafu
