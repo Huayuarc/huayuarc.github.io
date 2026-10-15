@@ -16567,6 +16567,41 @@ SHA256: 7e050e69a3d43ae6987c9f3c455219e05e3833ddf1a378068790b00cfc6ccc6a
 
 Package: com.m4fn3.k2gecamen
 Name: K2gecamen
+Description: 隐私相机，轻松捕捉照片、视频和音频的时刻。Capture moments with photos, videos, and audio in the background with ease.
+Maintainer: mafu
+Author: mafu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Installed-Size: 8928
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.m4fn3.k2gecamen-1.1.0-roothide.deb
+Size: 2989100
+MD5sum: af6f0922e0fa6730ee5a67716117ea3b
+SHA1: 
+SHA256: 63a988cc23fabf46b554be38d79c77ab5d16d550208209fcb38abfbe103cbd0e
+
+Package: com.m4fn3.k2gecamen
+Name: K2gecamen
+Description: 隐私相机，轻松捕捉照片、视频和音频的时刻。Capture moments with photos, videos, and audio in the background with ease.
+Maintainer: mafu
+Author: mafu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Icon: https://m4fn3.github.io/repo/web/images/K2gecamen.png
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Installed-Size: 8928
+Filename: debs/com.m4fn3.k2gecamen-1.1.0-rootless.deb
+Size: 3035580
+MD5sum: f793c7a357abbd6532fec09b1c3a746e
+SHA1: 
+SHA256: 5dc6db08da29a280fe9aec46e279925467bfd6ea6fef2721e7e2f1758e3cf0c1
+
+Package: com.m4fn3.k2gecamen
+Name: K2gecamen
 Description: Capture moments with photos, videos, and audio in the background with ease.
 Maintainer: mafu
 Author: mafu
@@ -22187,6 +22222,40 @@ MD5sum: 619c3f840c1354b2b99e0757f894cfb8
 SHA1: 
 SHA256: 434e206864b31e9f4517ce777f03289be3ee7b03df4aa11aa837c29d24900375
 
+Package: com.netskao.wcdisablehotupdates
+Name: 微信禁用热更新
+Depends: mobilesubstrate, firmware (>= 13.0)
+Description: 微信禁用热更新, 减少热更新频繁导致的杀后台。搭配Hello memory status使用效果更佳。
+Author: Netskao
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-5
+Installed-Size: 72
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.netskao.wcdisablehotupdates-1.1-5-roothide.deb
+Size: 2400
+MD5sum: da84f0639ca245ef86e8357fb60ae16f
+SHA1: 
+SHA256: d68cece57a72d17bf1eb3c719e4e08a9bd1d43eb354917eff1225daab5fdf097
+
+Package: com.netskao.wcdisablehotupdates
+Name: 微信禁用热更新
+Depends: mobilesubstrate, firmware (>= 13.0)
+Description: 微信禁用热更新, 减少热更新频繁导致的杀后台。搭配Hello memory status使用效果更佳。
+Author: Netskao
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-5
+Installed-Size: 72
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.netskao.wcdisablehotupdates-1.1-5-rootless.deb
+Size: 2472
+MD5sum: 2a306048c326881d7ae0ed8a368104f3
+SHA1: 
+SHA256: b9cbe7055076e6f2ac8047de9e44e92fd9dd841f94ee57e48a337e956f3e9f6a
+
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.wcmypageinfocenter
 Package: com.netskao.wcmypageinfocenter
 Name: WCMyPageInfoCenter
@@ -23896,6 +23965,46 @@ Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpu
 Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
 Priority: optional
 Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.119
+Installed-Size: 4400
+Filename: debs/com.qq391160.cpucore-2.0.119-roothide.deb
+Size: 667128
+MD5sum: e3125fbb001165d0d8811d41d288c62f
+SHA1: 
+SHA256: 5a6ac72ebfb9ce474e796277a4c8163b5f8e62f046cc1b64ae15a6c856907482
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64
+Version: 2.0.119
+Installed-Size: 4180
+Filename: debs/com.qq391160.cpucore-2.0.119-rootless.deb
+Size: 606924
+MD5sum: 33687349a194e3c22cad3da8f4a94bb3
+SHA1: 
+SHA256: fe16ae2f4b6440e8ad8312b480fe2b893c9ef497024b068b1edb8423e7333b80
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
 Depends: firmware (>= 16.0.0)
 Architecture: iphoneos-arm64e
 Version: 2.0.3
@@ -24241,6 +24350,70 @@ Size: 205312
 MD5sum: 03cb23d1f81c29702b6b8faf9431c204
 SHA1: 
 SHA256: a9873547cf82b7f32ddf6245afa5c9de600daae2387c4678948bde9d109614bf
+
+Package: com.quicklaunch.tweak
+Name: QuickLaunch
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Architecture: iphoneos-arm64e
+Version: 0.1.55
+Installed-Size: 708
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+Filename: debs/com.quicklaunch.tweak-0.1.55-roothide.deb
+Size: 174872
+MD5sum: d8216bd532fc78a969ed332ad3541490
+SHA1: 
+SHA256: d07eee4361c464701c87d58d10639adf88b42dbf565f98f9f69855c88ad72d44
+
+Package: com.quicklaunch.tweak
+Name: QuickLaunch
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Architecture: iphoneos-arm64
+Version: 0.1.55
+Installed-Size: 1284
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+Filename: debs/com.quicklaunch.tweak-0.1.55-rootless.deb
+Size: 237296
+MD5sum: 487adfbb3933004c4d96dfab6a839612
+SHA1: 
+SHA256: 276452888c196bf5d34e0f6f463cb2f21679501b4053b6e52c3876a5a9601181
 
 Package: com.rain.actionbutton
 Name: Rain的操作按钮
@@ -26676,6 +26849,40 @@ Size: 494064
 MD5sum: 1e28e004b94fd57e05bfe8b23acfe3fb
 SHA1: 
 SHA256: 98ecde8fe928dd119e45c1c4a1dd77fd2e40d54aa78f5dedb9cb90428087edca
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复了一下浮窗文字排版）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 6.6.1
+Installed-Size: 3544
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-6.6.1-roothide.deb
+Size: 495920
+MD5sum: 846cc0d1e8e3e81fbe49544ba241474f
+SHA1: 
+SHA256: 336636b241ff426bf86069402827893fb107b4581b61a5b9f39bafc2c0a5dc0c
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复了一下浮窗文字排版）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 6.61
+Installed-Size: 3560
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-6.61-rootless.deb
+Size: 496180
+MD5sum: 2c8917715c3e562493fd7fbf2ab99751
+SHA1: 
+SHA256: 01001e4299d67273dacdc73bda53881931b1f45b20c48ee3462ed89ff1f9dd88
 
 Package: com.sbcpu.floating
 Name: SB CPU Floating
@@ -34290,6 +34497,25 @@ MD5sum: 401d8e263e54be38af07547a441bf582
 SHA1: 
 SHA256: 82183b50a329b1f5bd53b38395740a0191df385f6f455639e33ca5060cb1228b
 
+Package: com.tsangbaby.arcx
+Name: Arc-X
+Description: Independent Arc-X fullscreen app launcher.
+Maintainer: Tsangbaby
+Author: Tsangbaby
+Section: Tweaks
+Icon: https://tsangbaby.github.io/Icon/Arc-X.png
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Conflicts: com.arcx.launcher
+Replaces: com.arcx.launcher
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Installed-Size: 1648
+Filename: debs/com.tsangbaby.arcx-1.0.4-roothide.deb
+Size: 270744
+MD5sum: e1c81ef128b00fd50b44b5cf24c34593
+SHA1: 
+SHA256: 6ed965b1810c9b48607354ec198ebb954c9e0fd3578e49236fa966ad4e516f1f
+
 Package: com.tsangbaby.kayoko
 Name: Kayoko
 Description: Kayoko 剪切板，Tsangbaby 基于 mlgm 版进行二次修改
@@ -38661,6 +38887,44 @@ MD5sum: 0ee92b9725055620c7dc93dab50a6b0b
 SHA1: 
 SHA256: f877b7a01d3d06322c9d666d5f6a7ed12be32576bb8539624f75ee40960455e9
 
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Installed-Size: 4524
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.9-roothide.deb
+Size: 794728
+MD5sum: 5a29cf6d51fd2b129e04c23bc3e93f3b
+SHA1: 
+SHA256: 282d2bdeea85e84bbdcaac352b9899279d370ad4cc7f521f6f456200ebb5f805
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Installed-Size: 4524
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.0.9-rootless.deb
+Size: 797380
+MD5sum: f81e27e32ac073b9815266d7a4f27f65
+SHA1: 
+SHA256: 451ae151c98da0a0cb27704306f97d988174a41a45980a0fbc25044c94935922
+
 Package: iya.banana.jumpguard
 Name: JumpGuard
 Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
@@ -42187,6 +42451,55 @@ Size: 3689532
 MD5sum: e248a1a00b5eca9979fc59b26ea8cff8
 SHA1: 
 SHA256: 5dca204bf73b99f908e4f268589b846583b1841aea1f507689cd175c43dc1039
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 2.1.3
+Installed-Size: 9980
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x-2.1.3-roothide.deb
+Size: 3921612
+MD5sum: 0f82d4e609256cbb24755f0e63d8255f
+SHA1: 
+SHA256: d8f12a87fa67b0ae272de3bd9b28d8727b8a4c821a0243ed9b2acf2e453116fb
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+ * 仅支持越狱、Bootstrap 环境
+ * ﻿默认移除一些广告
+ * 无水印保存图片、视频、live图、评论区图片，长按复制文案
+ * 放大图片双指长按可保存高分辨率图片
+ * APP设置界面右上角打开插件界面或双指长按设置界面
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.1.3
+Installed-Size: 9980
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x-2.1.3-rootless.deb
+Size: 3922460
+MD5sum: 2e97ddf8b2dcf720a812f19399cac9fd
+SHA1: 
+SHA256: 5e3d98a0dfc33ec18bca7f4654a5fcfbea024236536875007eebc54d56074dfd
 
 Package: xyz.cypwn.anouk
 Maintainer: CyPwn
