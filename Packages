@@ -732,6 +732,43 @@ MD5sum: 6d9f90b36caffff923c00864bc1788a9
 SHA1: 
 SHA256: 137519ab37083f25bc70ef85fa47dec829b8576fda8c9a01b9827a06892cb665
 
+Package: cn.llld.bbqzr
+Name: QQ绿化_芭比Q
+Author: 来了老弟
+Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***。QQ对话消息页面长按表情，QQ侧边栏长按 日间 天气，QQ设置右上角都可以进入插件窗口。。。因版本不同 某些函数改动也不同
+Depends: mobilesubstrate
+Maintainer: 来了老弟
+Section: Tweaks
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.bbqzr/bbq.json
+Architecture: iphoneos-arm64e
+Version: 0.6.10
+Installed-Size: 404
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+Filename: debs/cn.llld.bbqzr-0.6.10-roothide.deb
+Size: 65088
+MD5sum: c74941332654aebba40b87b2a0f68745
+SHA1: 
+SHA256: 71bb8ebc810cb28de67c4207cfb31c44abe9545b98da453e921a6e03de23851f
+
+Package: cn.llld.bbqzr
+Name: QQ绿化_芭比Q
+Author: 来了老弟
+Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***。QQ对话消息页面长按表情，QQ侧边栏长按 日间 天气，QQ设置右上角都可以进入插件窗口。。。因版本不同 某些函数改动也不同
+Depends: mobilesubstrate
+Maintainer: 来了老弟
+Section: Tweaks
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.bbqzr/bbq.json
+Architecture: iphoneos-arm64
+Version: 0.6.10
+Installed-Size: 404
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+Filename: debs/cn.llld.bbqzr-0.6.10-rootless.deb
+Size: 66220
+MD5sum: a1820a84f9e128a4564a8d7c9b7b0216
+SHA1: 
+SHA256: d493f928923bca066361c2596a91e14a7136ebac65750f760a9d68929488626e
+
 Package: cn.llld.biaoji
 Name: Snapper 截图标记
 Author: 来了老弟 X: h_h_x_t
