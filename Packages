@@ -20136,6 +20136,44 @@ MD5sum: be00de7aae601efc6d8ca30b0f881b57
 SHA1: 
 SHA256: 359fd8f52cd418b3d960abb89e0f07e66da255a3c46d86b4bb141c7e32e518d1
 
+Package: com.muzi.keyboardx
+Name: KeyboardX
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 7120
+icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
+Filename: debs/com.muzi.keyboardx-1.0.2-roothide.deb
+Size: 1775308
+MD5sum: e5077f0c2b6a02fd7dc87afe6b221621
+SHA1: 
+SHA256: d4811a01f01a01a3debb2baf92f9a999566d5a572bdb45cf48906661b98727be
+
+Package: com.muzi.keyboardx
+Name: KeyboardX
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Installed-Size: 7120
+icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
+Filename: debs/com.muzi.keyboardx-1.0.2-rootless.deb
+Size: 1781068
+MD5sum: c8127d1d957c52ef88498467359c5e09
+SHA1: 
+SHA256: cbe5914947ae003d7841c72f6643cef1c87aa653ccddc2db3fb7aefdb639a0b8
+
 Package: com.muzi.mupill
 Name: 悬浮药丸独立版
 Description: 桌面悬浮信息药丸独立版：实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏
