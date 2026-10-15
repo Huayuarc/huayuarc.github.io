@@ -3949,6 +3949,46 @@ MD5sum: 188f199aa13378f1510ddadd24d7a423
 SHA1: 
 SHA256: 73c49585fabf7765609e8b8afc1fb99461f0edbf402b25d4e2b4dccad0dc09e2
 
+Package: com.axs.ipslog
+Name: IPSLog
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: preferenceloader
+Icon: https://axs66.github.io/pro/icon/ips.png
+Architecture: iphoneos-arm64e
+Version: 5.2.0-31
+Installed-Size: 512
+Filename: debs/com.axs.ipslog-5.2.0-31-roothide.deb
+Size: 99976
+MD5sum: 22e9d9994fae4e78c87301b1c5670334
+SHA1: 
+SHA256: 5d9489ce473dedaaccf9695f8dc6ea3e2fe648d6d419ebf806967b2de12c46c6
+
+Package: com.axs.ipslog
+Name: IPSLog
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: preferenceloader
+Icon: https://axs66.github.io/pro/icon/ips.png
+Architecture: iphoneos-arm64
+Version: 5.2.0-31
+Installed-Size: 512
+Filename: debs/com.axs.ipslog-5.2.0-31-rootless.deb
+Size: 99728
+MD5sum: 8f01f5c58ccd3b6db5f3d9da6d510426
+SHA1: 
+SHA256: c620352a9ff06eb90cbc214a091634ffe4da81678d4b4b73c6d69a3ea0d5817d
+
 Package: com.axs.snapper4
 Name: Snapper 4
 Description: 这是一款截图工具。
