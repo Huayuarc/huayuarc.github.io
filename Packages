@@ -16070,52 +16070,6 @@ SHA256: cac3f4c1d3ee8bbd87353128b29793736294c2f48ecc82e03c8d60fb03f4cdc4
 Package: com.kanuo.screencore
 Name: screencore-窗口调度版
 Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
- 作者：kanuo；版本：windowscheduler.12-1。
- 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
- 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
- .
- 功能与快捷操作：
- 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
- 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
- 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
- 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
- App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
- 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
- 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
- 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
- .
- 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
- 完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
- 安装后重启桌面。
-Maintainer: kanuo
-Author: kanuo
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Architecture: iphoneos-arm64e
-Version: 2.0.3+windowscheduler.12-1
-Installed-Size: 3207
-Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
-Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
-X-Window-Scheduler-Version: 0.1.6
-X-Window-Scheduler-Author: kanuo
-X-Rollback-Base-Version: 2.0.3+windowscheduler.7
-X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
-X-Floating-Ball-Bridge-Version: 0.3.0
-X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
-X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
-X-Release-Base-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
-X-Core-Identity-Revision: expected-author-kanuo.1
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
-Filename: debs/com.kanuo.screencore-2.0.3+windowscheduler.12-1-roothide.deb
-Size: 521972
-MD5sum: cf7b3cdc47ea219ec6dcc107cf874124
-SHA1: 
-SHA256: b1c93e3ea7d792db03d3f7c4986e98e875a1b729cbc5ccce77146455d0496f0e
-
-Package: com.kanuo.screencore
-Name: screencore-窗口调度版
-Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
  作者：kanuo；版本：windowscheduler.12-12。
  基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
  修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
@@ -16198,10 +16152,10 @@ X-Native-Fullscreen-Canvas-Handoff: atomic-hosted-resize.1
 X-Native-Fullscreen-Scene-State: scoped-input-layout.1
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
 Filename: debs/com.kanuo.screencore-2.0.3+windowscheduler.12-12-roothide.deb
-Size: 567024
-MD5sum: a76d859f5be9364f3a3d3d79d9b21ece
+Size: 566368
+MD5sum: 0c2d8a79fcd75719ba2cb56286bc4673
 SHA1: 
-SHA256: 56e06055e4f21931b61d3cafbbc8e5fdc60bd9699d08ca8a1c57b8ee3d75d327
+SHA256: 8e3d93994c37c2e01659df942ce7621b984768f9a47e93e81a782b37a96335f7
 
 Package: com.kanuo.screencore
 Name: screencore-窗口调度版
@@ -16291,10 +16245,10 @@ X-Native-Fullscreen-Canvas-Handoff: atomic-hosted-resize.1
 X-Native-Fullscreen-Scene-State: scoped-input-layout.1
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
 Filename: debs/com.kanuo.screencore-2.0.3+windowscheduler.12-12-rootless.deb
-Size: 620908
-MD5sum: bf546252c7a43dbd42dba792224ad5fa
+Size: 619476
+MD5sum: db474d4aab7bf27a2018e4cd80638f3f
 SHA1: 
-SHA256: 2ee13b5ec6a3212781e92c12c0d358edf8c5a1832d55321f5f7d5af2fa05223a
+SHA256: 14e354f64fee08696d7c3b75de5f7c8a7669bd6aed3865f24cc33a52fabdc9d6
 
 Package: com.kdt.unrestrictmirroring
 Name: UnrestrictMirroring
