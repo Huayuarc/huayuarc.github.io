@@ -24673,6 +24673,76 @@ MD5sum: 487adfbb3933004c4d96dfab6a839612
 SHA1: 
 SHA256: 276452888c196bf5d34e0f6f463cb2f21679501b4053b6e52c3876a5a9601181
 
+Package: com.quicklaunch.tweak
+Name: QuickLaunch
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Architecture: iphoneos-arm64e
+Version: 0.1.58
+Installed-Size: 748
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+Filename: debs/com.quicklaunch.tweak-0.1.58-roothide.deb
+Size: 184372
+MD5sum: 6cd0f7011b362d3907b743d671258524
+SHA1: 
+SHA256: 19e02d067db5e57f9db17498bc4418a5c0c4c1cfd308c429d80f648a15a5506d
+
+Package: com.quicklaunch.tweak
+Name: QuickLaunch
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and stay hidden until the keyboard dismisses.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Architecture: iphoneos-arm64
+Version: 0.1.58
+Installed-Size: 1356
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+Filename: debs/com.quicklaunch.tweak-0.1.58-rootless.deb
+Size: 250916
+MD5sum: fd1a32023ee5adb129db52142ef03309
+SHA1: 
+SHA256: 0b922050683c25e6bc1428a6a8243fb04b6143f2d078f4a58d96e8b9aef1fd42
+
 Package: com.rain.actionbutton
 Name: Rain的操作按钮
 Description: 为 iPhone 15 Pro/Pro Max 操作按钮提供三页面板，包含剪贴板、自定义背景和系统动作。仅支持 iOS 17.0-17.3.1。
