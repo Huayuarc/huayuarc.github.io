@@ -2962,11 +2962,12 @@ Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Architecture: iphoneos-arm64e
 Version: 11.0.0
 Installed-Size: 796
+icon: https://huayuarc.github.io/icon/axiskey.png
 Filename: debs/com.aa22qq.axiskey-11.0.0-roothide.deb
-Size: 114572
-MD5sum: 6f69fe39b925d75ca375ca8a812fdb4d
+Size: 114528
+MD5sum: a789e872c47bc17b9f515903324ea906
 SHA1: 
-SHA256: 83c72afcce316f69cadf90e3852157bdf072a434261d18c8f19be12aa707a7be
+SHA256: d0e97944de27cdfaa6727d189df041a79ab32d09dba518fe50d3f2bd5217f2b1
 
 Package: com.aa22qq.axiskey
 Name: AxisKeyGesture (多维轴向按键手势)
@@ -2978,11 +2979,12 @@ Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Architecture: iphoneos-arm64
 Version: 11.0.0
 Installed-Size: 796
+icon: https://huayuarc.github.io/icon/axiskey.png
 Filename: debs/com.aa22qq.axiskey-11.0.0-rootless.deb
-Size: 114600
-MD5sum: de93eff9e42d7f712c04e4d25db8af52
+Size: 114692
+MD5sum: e3411dc7640beadf27bae05da450fd4c
 SHA1: 
-SHA256: 19c106f1a4a6585ed67dafa5bdee1d7b9904506e2a347af7240a20eec408eb32
+SHA256: 647847124646c41bc38875c4b99f9e2c8c25463296a27d3f4dfa2165580079fc
 
 Package: com.aa22qq.axiskey
 Name: AxisKey (多维轴向按键)
