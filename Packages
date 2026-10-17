@@ -4011,6 +4011,81 @@ MD5sum: c42b0548ed21e4bb6c103e7510934e46
 SHA1: 
 SHA256: 2ad399346cca95a614789a195e9e96f6a090374b42a8e437db4a72ffd584acec
 
+Package: com.axs.cpufree
+Name: CPU Free
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+ * 七、刷新率管理
+ * 1. 支持 10 / 30 / 60 / 80 / 120Hz 优选帧率、全局注入及应用排除；
+ * 2. 提供系统调试 HUD 与 120fps 系统录屏支持，实际效果受设备和系统限制。
+Maintainer: Axs<qiaozhani000@163.com>
+Author: Axs<qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+Architecture: iphoneos-arm64e
+Version: 5.2.0-72
+Installed-Size: 1492
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.axs.cpufree-5.2.0-72-roothide.deb
+Size: 142248
+MD5sum: ea5fb57dc59e58ed7af5a5879ca8da16
+SHA1: 
+SHA256: 1135a7c796d00d949a04fc1163395162c3e4749f74ff6701132a4dc6d50828ca
+
+Package: com.axs.cpufree
+Name: CPU Free
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+ * 七、刷新率管理
+ * 1. 支持 10 / 30 / 60 / 80 / 120Hz 优选帧率、全局注入及应用排除；
+ * 2. 提供系统调试 HUD 与 120fps 系统录屏支持，实际效果受设备和系统限制。
+Maintainer: Axs<qiaozhani000@163.com>
+Author: Axs<qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+Architecture: iphoneos-arm64
+Version: 5.2.0-72
+Installed-Size: 1492
+Filename: debs/com.axs.cpufree-5.2.0-72-rootless.deb
+Size: 146792
+MD5sum: b336a51a8459a1656cf4a571bc856461
+SHA1: 
+SHA256: 6aba040f381d2189aea33dafc73b0be79dc402de8b8e753e82babba1c220c926
+
 Package: com.axs.ipslog
 Name: IPSLog
 Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
