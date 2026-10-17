@@ -2552,6 +2552,40 @@ MD5sum: 0bfabe16cfd75698fe724709d32e4ca6
 SHA1: 
 SHA256: d3e66aeb41adc03dbd771b0f971570e119b96cd4d381de9ec2c5f9d7fab7145e
 
+Package: com.34306.upsidedowned
+Name: upsidedowned
+Description: Rotate left, right, up side down your iPhone. I take the code from TrollPad by @TranKha50277352
+Maintainer: Little 34306
+Author: 34306, KhanhDuyTran
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/upsidedowned.jpg
+Filename: debs/com.34306.upsidedowned-1.1-9-roothide.deb
+Size: 6732
+MD5sum: 88dddb0aaee5a867f059f1834abc8859
+SHA1: 
+SHA256: b899472899b858401d32aeb2632f514e78fab796b5030f9716a6b1baae1f6dcc
+
+Package: com.34306.upsidedowned
+Name: upsidedowned
+Description: Rotate left, right, up side down your iPhone. I take the code from TrollPad by @TranKha50277352
+Maintainer: Little 34306
+Author: 34306, KhanhDuyTran
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/upsidedowned.jpg
+Filename: debs/com.34306.upsidedowned-1.1-9-rootless.deb
+Size: 6796
+MD5sum: cf13ceda4e5329a17b7ddbd99ba9e5ab
+SHA1: 
+SHA256: 44a65a431d463623c3437a616cef1fee63ebd3a8e25d3ebfd5684774d40c535b
+
 Package: com.82flex.cranepkdserverfix
 Name: Crane PKDServer Fix
 Description: Repairs Crane PKDServer discovery on iOS 17.在 iOS 17 上修复 Crane PKDServer 发现。
@@ -33797,6 +33831,41 @@ Size: 151668
 MD5sum: 421b8be344ee8d298b44ffb580d178dc
 SHA1: 
 SHA256: 9e10fb55e050d8a64fcfd4486d7628850eee5c4816ac5c9a691a3e8aa8a1d669
+
+Package: com.sunshinesong.split-view-pro
+Maintainer: sunshinesong
+icon: https://huayuarc.github.io/icon/Floating-View.jpg
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.4.2-1
+Depends: mobilesubstrate, preferenceloader
+Conflicts: xyz.cypwn.splitviewpro, com.jtis.splitviewpro, com.tqm-mos.splitviewpro, com.bvn.splitviewpro
+Description: 分屏，不必太复杂，一切从简即可.
+Name: Split View Pro
+Author: sunshinesong
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sunshinesong.split-view-pro-1.4.2-1-roothide.deb
+Size: 1515756
+MD5sum: a42a2c13ecd6feee906d437e25fd71a1
+SHA1: 
+SHA256: 85f121e8747f3c8f09bf927c677a4b4a66ffc5979a61366f1e52733509570b18
+
+Package: com.sunshinesong.split-view-pro
+Maintainer: sunshinesong
+icon: https://huayuarc.github.io/icon/Floating-View.jpg
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.4.2-1
+Depends: mobilesubstrate, preferenceloader
+Conflicts: xyz.cypwn.splitviewpro, com.jtis.splitviewpro, com.tqm-mos.splitviewpro, com.bvn.splitviewpro
+Description: 分屏，不必太复杂，一切从简即可.
+Name: Split View Pro
+Author: sunshinesong
+Filename: debs/com.sunshinesong.split-view-pro-1.4.2-1-rootless.deb
+Size: 1541432
+MD5sum: b725c1a27ef11110c71dd96f312b0535
+SHA1: 
+SHA256: d2a0eff64cd94d58dfc15084c134e69df88c0e55b1ab92375b141ecadc923f06
 
 Author: sunshinesong
 TS: sp-sss
