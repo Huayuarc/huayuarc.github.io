@@ -15865,6 +15865,58 @@ MD5sum: 5439e8329baf1d416edbbfed524bd356
 SHA1: 
 SHA256: 25049eda57dcd20cefabf3d04c4974616143c3b221682a306e3d2fc22fc09a63
 
+Package: com.jaysuen.evocenter
+Name: Evo Center
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.2
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Architecture: iphoneos-arm64e
+Version: 4.0.0-beta.2
+Installed-Size: 27716
+Filename: debs/com.jaysuen.evocenter-4.0.0-beta.2-roothide.deb
+Size: 1453728
+MD5sum: d30c92a69340ad52f842287fe39767f5
+SHA1: 
+SHA256: 188d16f3b0bbee54c13e8d7cf911ebae9fd1c7f88431809d3566ca6aa2592aa2
+
+Package: com.jaysuen.evocenter
+Name: Evo Center
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.2
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Architecture: iphoneos-arm64
+Version: 4.0.0-beta.2
+Installed-Size: 27220
+Filename: debs/com.jaysuen.evocenter-4.0.0-beta.2-rootless.deb
+Size: 1445304
+MD5sum: a69af96b6bc11e194e7b7b5fae341193
+SHA1: 
+SHA256: f2af771b7900ac7193416908c65335d7c2fd54e326a44c51313e38280879033a
+
 Package: com.jiuyue.lightisle
 Name: 灵动岛手电筒
 Description: 为iOS16添加灵岛手电筒控制
@@ -39806,6 +39858,40 @@ Size: 6384520
 MD5sum: 87dee07b00ae73953884c3d63230ae9f
 SHA1: 
 SHA256: ec85b70b7159a48e6566e48218b67fb6ff5b8e044e7e50597f06146fd50e2fc2
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64e
+Version: 1.1.18
+Installed-Size: 13644
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.18-roothide.deb
+Size: 6438208
+MD5sum: 0a5386ac028b75ee82f3821fa9e8fb23
+SHA1: 
+SHA256: df319b7f0422da02a7be8d261068a13ac8e219035c100a3837293b6087a11a56
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64
+Version: 1.1.18
+Installed-Size: 13644
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.18-rootless.deb
+Size: 6437700
+MD5sum: 31b8047d88520a722ca555d44e306f25
+SHA1: 
+SHA256: a6d3c7d82f72f900c6c460ff4f3c5c7d0fb3ce463bd99cbbc9a0b719d6c0f108
 
 Package: iya.banana.spatialscene
 Name: SpatialScene
