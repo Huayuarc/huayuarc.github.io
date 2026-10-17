@@ -43225,16 +43225,16 @@ Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.
 Name: BackgrounderAction15 CCSupport
 Author: @akusio_RR
 Pre-Depends: rootless-compat(>= 0.9)
-Icon: https://huayuarc.github.io/icon/backgrounderaction.jpg
+icon: https://huayuarc.github.io/icon/backgrounderaction.png
 Filename: debs/xyz.cypwn.backgrounderaction15-0.1.0-1-roothide.deb
-Size: 9440
-MD5sum: b8dc8b1172855492018aaf888f1d46f8
+Size: 8072
+MD5sum: 5e5b950b6c62eb372c11276b262d01c4
 SHA1: 
-SHA256: 80f7f1b83df553da6811a08d1d268d2a434c4e22afe35040f899f782860508fc
+SHA256: 2126516c9c2ea4fdfaea98493880bda28b7957d4ce405e5a9deedc9784fa71c4
 
 Package: xyz.cypwn.backgrounderaction15
 Maintainer: CyPwn
-Icon: https://huayuarc.github.io/icon/backgrounderaction.jpg
+icon: https://huayuarc.github.io/icon/backgrounderaction.png
 Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 0.1.0-1
@@ -43246,43 +43246,43 @@ Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.
 Name: BackgrounderAction15 CCSupport
 Author: @akusio_RR
 Filename: debs/xyz.cypwn.backgrounderaction15-0.1.0-1-rootless.deb
-Size: 9892
-MD5sum: 8f59a2bafd0033e1e341ce222956319a
+Size: 8548
+MD5sum: 1ba896bf8cf73d0f1831a615365264b4
 SHA1: 
-SHA256: 8bf1b27c3839d0911a6dfed220a317657bc451fa130e1eb3279fcbdf90441794
+SHA256: 4fd26e3390ff505cadc0479a27c8b4bc8f5b8e992d9ec0f980ad1c44c971c4f2
 
 Package: xyz.cypwn.backgrounderaction15autostate
 Maintainer: CyPwn
-Icon: https://huayuarc.github.io/icon/backgrounderaction.jpg
 Name: BackgrounderAction15AutoState
-Description: Save Action state for BackgrounderAction15 CC Toggle
+Description: iOS真后台插件。Save Action state for BackgrounderAction15 CC Toggle
+Author: 0xkuj
+Section: Tweaks
+Depends: xyz.cypwn.backgrounderaction15, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+icon: https://huayuarc.github.io/icon/backgrounderaction.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.backgrounderaction15autostate-1.0.3-roothide.deb
+Size: 25088
+MD5sum: 2196d415bfca8a0726e8ddd0564fd7a9
+SHA1: 
+SHA256: 639d19399c28f608bae3c461ba15c2f3dbc7868bac3f59bc8651b28db3bdec9b
+
+Package: xyz.cypwn.backgrounderaction15autostate
+Maintainer: CyPwn
+icon: https://huayuarc.github.io/icon/backgrounderaction.png
+Name: BackgrounderAction15AutoState
+Description: iOS真后台插件。Save Action state for BackgrounderAction15 CC Toggle
 Author: 0xkuj
 Section: Tweaks
 Depends: xyz.cypwn.backgrounderaction15, com.opa334.altlist
 Architecture: iphoneos-arm64
 Version: 1.0.3
 Filename: debs/xyz.cypwn.backgrounderaction15autostate-1.0.3-rootless.deb
-Size: 25696
-MD5sum: 3870dfdd546eee4ea5d36127755bdebc
+Size: 25712
+MD5sum: e441849f7c588d64dcd19a895f9257e7
 SHA1: 
-SHA256: a767ef13006c25617cb5c4a369c279cb4c34a12eba1e49914855afd321789396
-
-Package: xyz.cypwn.backgrounderaction15autostate
-Maintainer: CyPwn
-Name: BackgrounderAction15AutoState
-Description: Save Action state for BackgrounderAction15 CC Toggle
-Author: 0xkuj
-Section: Tweaks
-Depends: xyz.cypwn.backgrounderaction15, com.opa334.altlist
-Architecture: iphoneos-arm64e
-Version: 1.0.3
-Icon: https://huayuarc.github.io/icon/backgrounderaction.jpg
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/xyz.cypwn.backgrounderaction15autostate_1.0.3_iphoneos-arm64e.deb
-Size: 33640
-MD5sum: 582be6eb5b893f0a4757825f2ac91f31
-SHA1: 
-SHA256: 6da8fc29207bf13481ec77293189bfdb420f1ea9b97092384aefdd0f738b5359
+SHA256: a0c718cd25a48f5b8556e3c09a59c3915fa69e5b10bd42753d4f44276c2654e4
 
 Package: xyz.cypwn.bigsurcenter
 Maintainer: CyPwn
