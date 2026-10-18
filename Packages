@@ -1973,6 +1973,40 @@ MD5sum: 8e97cc70da357ddc09b54b719672a7ba
 SHA1: 
 SHA256: d91b21ef4dc3054988d05a71d330908cb8f9e1a038b7fc8bbc9964d332f3c6cb
 
+Package: cn.zqbb.hello.gradientsound
+Name: Hello GradientSound
+Description: 为时钟 App 的计时器响铃和铃声试听添加平滑渐强效果，从低音量开始，在铃声前半段逐渐提升至正常音量。
+Maintainer: zqbb
+Author: zqbb
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 76
+icon: https://huayuarc.github.io/icon/gradientsound.jpg
+Filename: debs/cn.zqbb.hello.gradientsound-0.0.1-roothide.deb
+Size: 5912
+MD5sum: e4b01e835492a979fb9d2a787915dbbd
+SHA1: 
+SHA256: 57ac26c8e23739ae26063f28139236fabe64e94fdbfa65c52308cc8b42e5fd45
+
+Package: cn.zqbb.hello.gradientsound
+Name: Hello GradientSound
+Description: 为时钟 App 的计时器响铃和铃声试听添加平滑渐强效果，从低音量开始，在铃声前半段逐渐提升至正常音量。
+Maintainer: zqbb
+Author: zqbb
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 76
+icon: https://huayuarc.github.io/icon/gradientsound.jpg
+Filename: debs/cn.zqbb.hello.gradientsound-0.0.1-rootless.deb
+Size: 5964
+MD5sum: bb079496cceb99785ab097c7d9afe26b
+SHA1: 
+SHA256: 34be3a2c24688837f5a2bcfe70c12f2dcd5322b3502ca038c49b5bfe7f79f6a2
+
 Package: cn.zqbb.hello.varjb
 Name: Hello VarJB snapper3
 Description: 可以修复 relaxin 中的 snapper3 问题!
@@ -2334,6 +2368,40 @@ Size: 322216
 MD5sum: 55acbd31403ae94160a7d2dd830cb336
 SHA1: 
 SHA256: a0b60a0b389c5223d2907af7b2c78d1a3d8e968d11d985adc38f27b2f943489a
+
+Package: com.25mao.kuaipanel3
+Name: 快捷面板
+Description: 快捷面板重构版
+Maintainer: Mao
+Author: Mao
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 3.1-1
+Installed-Size: 8760
+icon: https://huayuarc.github.io/icon/kuaipanel3.png
+Filename: debs/com.25mao.kuaipanel3-3.1-1-roothide.deb
+Size: 2383884
+MD5sum: b89cf7970349abdfc87521b97b346b36
+SHA1: 
+SHA256: aa8cf71490ebe99f41f227f06dfc5243f7e6b522afab0ebe7312daf4eb9274e3
+
+Package: com.25mao.kuaipanel3
+Name: 快捷面板
+Description: 快捷面板重构版
+Maintainer: Mao
+Author: Mao
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 3.1-1
+Installed-Size: 8648
+icon: https://huayuarc.github.io/icon/kuaipanel3.png
+Filename: debs/com.25mao.kuaipanel3-3.1-1-rootless.deb
+Size: 2385564
+MD5sum: 34b70d61e55315519cd7ecad96e0fb08
+SHA1: 
+SHA256: b7ddcb57b131c8a1d087750e35e747e93d0893130ef15d9ec0969e9d218c0349
 
 Package: com.25mao.leftpan
 Description: 左滑返回上一页面
@@ -10726,6 +10794,42 @@ SHA1:
 SHA256: c1b2a6d4e381760082e051b72c33c3684373c9c182f72fdb52c4bc957bdf4bb2
 
 Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 0.6.2
+Installed-Size: 2428
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.2-roothide.deb
+Size: 589760
+MD5sum: 51b73d021fd472673b4b35ba6b78ccf5
+SHA1: 
+SHA256: 3fa9265d120bee61425ad56095b49c39059c149b3c1731e0cd18ea7ac720f9b3
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 0.6.2
+Installed-Size: 2428
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.2-rootless.deb
+Size: 590016
+MD5sum: 4049c1bee965df243866b8c5134f130e
+SHA1: 
+SHA256: 2dca90723106b00c6f5319073dbb2694254c8588f0bbb66440c41696e0781fc6
+
+Package: com.hierarch.dykiller
 Name: DYKiller 抖音 UI 增强
 Description: 抖音 UI 增强插件（模块化 hook 框架）
 Section: Tweaks
@@ -12237,6 +12341,42 @@ Size: 420236
 MD5sum: 1ddce77a5263584fc087d081c22b7a56
 SHA1: 
 SHA256: 9b74bee2fe8e7599e451cfd68de49e2e6e455bd21278d3b383c3fdc7d2c11e4a
+
+Package: com.huami.dyyy
+Name: DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。VexCove目前在维护持续更新的版本，抖音插件
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: huami
+Author: huami
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Architecture: iphoneos-arm64e
+Version: 2.3-0
+Installed-Size: 3372
+Filename: debs/com.huami.dyyy-2.3-0-roothide.deb
+Size: 747276
+MD5sum: 7025161b29f610730b5ac8b2da8629ec
+SHA1: 
+SHA256: 068d5da73df5d4b91e611ea445457178c17086a62aee075a4e3581d7d9d17ea0
+
+Package: com.huami.dyyy
+Name: DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。VexCove目前在维护持续更新的版本，抖音插件
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: huami
+Author: huami
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Architecture: iphoneos-arm64
+Version: 2.3-0
+Installed-Size: 3372
+Filename: debs/com.huami.dyyy-2.3-0-rootless.deb
+Size: 745236
+MD5sum: ab217f8e9101a9ce5c56f7384c2d6c64
+SHA1: 
+SHA256: f52b382106ea20249c2be49f1706b9e6d0f72b2b01070f698308c168f6bcf9e4
 
 Package: com.huami.dyyy
 Name: DYYY
@@ -15842,6 +15982,41 @@ Size: 210932
 MD5sum: 8795328be7eab78bebb5191dc47a3d1a
 SHA1: 
 SHA256: 2ce3d45e74ce141ecfbba100803f661e2822e2839600e187b221da6921feaa7a
+
+Package: com.iosrxwy.weibonoads
+Name: 微博 NoAds
+Depends: mobilesubstrate
+Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。三指双击打开设置，长按底栏「我」开关设置
+Maintainer: iosrxwy
+Author: iosrxwy
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1-12
+Installed-Size: 348
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/weibonoads.jpg
+Filename: debs/com.iosrxwy.weibonoads-1.1-12-roothide.deb
+Size: 85556
+MD5sum: 83a94204297cd8297c79c76bc027393e
+SHA1: 
+SHA256: b5197ad9fd1ab82ac439f381992f45c083a185a52188b1e4c4bc6c78c4886212
+
+Package: com.iosrxwy.weibonoads
+Name: 微博 NoAds
+Depends: mobilesubstrate
+Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。三指双击打开设置，长按底栏「我」开关设置
+Maintainer: iosrxwy
+Author: iosrxwy
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1-12
+Installed-Size: 348
+icon: https://huayuarc.github.io/icon/weibonoads.jpg
+Filename: debs/com.iosrxwy.weibonoads-1.1-12-rootless.deb
+Size: 85352
+MD5sum: bafa85a1e24f1657d1652109a1be60af
+SHA1: 
+SHA256: b1302137e3ad880648d2f1540ad2f50f229eef6e35c928d68c9bce6e09436c5c
 
 Package: com.iyaway.frameviewer
 Name: FrameViewer
@@ -20353,6 +20528,41 @@ Size: 326080
 MD5sum: b22fb53f5283c7cbdd97e61850aae4e6
 SHA1: 
 SHA256: 6c80573d12ec18c5cdcb2e6b3240cca162470b0ac0fc80ed2b16a8bf6ddafa4e
+
+Package: com.monian.b612patch
+Name: B612 Unlocked VIP
+Author: Monian
+Description: B612 Unlocked VIP
+Depends: mobilesubstrate
+Maintainer: Monian
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 2964
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/b612.jpg
+Filename: debs/com.monian.b612patch-0.0.1-roothide.deb
+Size: 72612
+MD5sum: 0a7855a04c151415d4abe4350039c4a3
+SHA1: 
+SHA256: 356c3691dc6920aaa50a476c6547ed6ba5faa14d2ecacd2004e50a5b433f00e4
+
+Package: com.monian.b612patch
+Name: B612 Unlocked VIP
+Author: Monian
+Description: B612 Unlocked VIP
+Depends: mobilesubstrate
+Maintainer: Monian
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 2964
+icon: https://huayuarc.github.io/icon/b612.jpg
+Filename: debs/com.monian.b612patch-0.0.1-rootless.deb
+Size: 74188
+MD5sum: ebb485c9bf17fbd405a28a746865007d
+SHA1: 
+SHA256: 168009fae95490ef0b81df6e547252bdcc569670355b02a90544322fcef155cc
 
 Package: com.moss.pczhexecutor
 Name: Powercuts 汉化补丁
