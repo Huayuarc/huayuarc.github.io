@@ -3747,6 +3747,52 @@ MD5sum: 601b14b40f50a3d35b46bf1bb4c63f1d
 SHA1: 
 SHA256: ae788d6e99b5526543c0651d419e3ae21dba64b450e188cb6198f572f8a7756c
 
+Package: com.axs.bigtime
+Name: BigTime
+Description: 一个简单的锁屏时钟插件，支持在设置面板导入或选择 OTF、TTF 字体，素材目录为 /var/mobile/Axs/字体素材。
+ * 1.锁屏大字时钟玻璃效果，隐藏系统时间（锁屏时）;
+ * 2.支持锁屏时钟启用开关、帧率上限和垂直偏移调节;
+ * 3.支持玻璃边缘、模糊、厚度和折射调节;
+ * 4.支持浅色/深色染色强度与深浅模式覆盖;
+ * 5.支持 iOS 16+ 可变字体粗细、大小、宽度、高度和柔和度调节。
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Conflicts: com.axs.screenlocktime
+Icon: https://axs66.github.io/pro/icon/bigtime.png
+Architecture: iphoneos-arm64e
+Version: 5.2.0-81
+Installed-Size: 1032
+Filename: debs/com.axs.bigtime-5.2.0-81-roothide.deb
+Size: 172124
+MD5sum: c463cbf9ec63869b35fa8d811e0405fd
+SHA1: 
+SHA256: d76632ba2c9db22e0014267bb1b8f3d725a6acf8a4d425559da3612c30535eb7
+
+Package: com.axs.bigtime
+Name: BigTime
+Description: 一个简单的锁屏时钟插件，支持在设置面板导入或选择 OTF、TTF 字体，素材目录为 /var/mobile/Axs/字体素材。
+ * 1.锁屏大字时钟玻璃效果，隐藏系统时间（锁屏时）;
+ * 2.支持锁屏时钟启用开关、帧率上限和垂直偏移调节;
+ * 3.支持玻璃边缘、模糊、厚度和折射调节;
+ * 4.支持浅色/深色染色强度与深浅模式覆盖;
+ * 5.支持 iOS 16+ 可变字体粗细、大小、宽度、高度和柔和度调节。
+Maintainer: Axs <qiaozhani000@163.com>
+Author: Axs <qiaozhani000@163.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Conflicts: com.axs.screenlocktime
+Icon: https://axs66.github.io/pro/icon/bigtime.png
+Architecture: iphoneos-arm64
+Version: 5.2.0-81
+Installed-Size: 1032
+Filename: debs/com.axs.bigtime-5.2.0-81-rootless.deb
+Size: 173252
+MD5sum: 9f3ecd5592b0d19901fd04d7fd494604
+SHA1: 
+SHA256: 9afb36751427751767dae000a0f19c31ec41bdecb289f15a999d934f5ecf73b1
+
 Package: com.axs.cpufree
 Name: CPU Free
 Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
@@ -4165,6 +4211,49 @@ Size: 99728
 MD5sum: 8f01f5c58ccd3b6db5f3d9da6d510426
 SHA1: 
 SHA256: c620352a9ff06eb90cbc214a091634ffe4da81678d4b4b73c6d69a3ea0d5817d
+
+Package: com.axs.screenlocktime
+Name: ScreenLock Time
+Description: 为原生锁屏时间添加五色渐变，沿用系统字体。
+ * 支持自定义五种颜色，固定从左到右渐变。
+ * 可选日期与农历渐变，使用系统显示的文字。
+ * 支持调整时间大小与上下位置，设置即时生效。
+ * 支持兼容BigTime插件。
+Maintainer: Axs
+Author: Axs
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://axs66.github.io/pro/icon/screenlocktime.png
+Architecture: iphoneos-arm64e
+Version: 5.2.0-8
+Installed-Size: 496
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.axs.screenlocktime-5.2.0-8-roothide.deb
+Size: 88132
+MD5sum: 855a3690434b4eb695b148bd7829bb6f
+SHA1: 
+SHA256: 165bbfd98a299f6c378ccea5c87b1ae6d21c9da203dd48bee4cef71fa6af2e82
+
+Package: com.axs.screenlocktime
+Name: ScreenLock Time
+Description: 为原生锁屏时间添加五色渐变，沿用系统字体。
+ * 支持自定义五种颜色，固定从左到右渐变。
+ * 可选日期与农历渐变，使用系统显示的文字。
+ * 支持调整时间大小与上下位置，设置即时生效。
+ * 支持兼容BigTime插件。
+Maintainer: Axs
+Author: Axs
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://axs66.github.io/pro/icon/screenlocktime.png
+Architecture: iphoneos-arm64
+Version: 5.2.0-8
+Installed-Size: 496
+Filename: debs/com.axs.screenlocktime-5.2.0-8-rootless.deb
+Size: 89260
+MD5sum: 3b6d3db4f95e94afe0af5ce11918a84c
+SHA1: 
+SHA256: 3d041073720de5b0ae6af513cb6d4a0f308bb145bb04604c63b213c2200cb390
 
 Package: com.axs.snapper4
 Name: Snapper 4
@@ -10753,6 +10842,40 @@ Size: 649980
 MD5sum: 96f41de973907d111880e98720bc97cf
 SHA1: 
 SHA256: 78c5b4207d89dfac1a1727db9ba99779b4a2ede7ca0aa25401154d25be122032
+
+Package: com.hang.keyboardeffects
+Name: 键盘特效
+Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 580
+icon: https://huayuarc.github.io/icon/keyboardeffects.png
+Filename: debs/com.hang.keyboardeffects-1.1-roothide.deb
+Size: 83156
+MD5sum: b328b5243559ecfbb2aeccf9b3d04463
+SHA1: 
+SHA256: 09189e8b19561ad9b8d742808fd8e4f0b1560e3b7eaf2c096c273d0dbf4273c0
+
+Package: com.hang.keyboardeffects
+Name: 键盘特效
+Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 580
+icon: https://huayuarc.github.io/icon/keyboardeffects.png
+Filename: debs/com.hang.keyboardeffects-1.1-rootless.deb
+Size: 83472
+MD5sum: f8b9418c675ea10db17fe5b6d0f7df28
+SHA1: 
+SHA256: 860744da0d73f10adb51ded1685c30fa6e915df7738a44009952cdecdb492a57
 
 Package: com.hang.noti
 Name: 通知验证码复制
@@ -25443,6 +25566,46 @@ Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpu
 Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
 Priority: optional
 Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.142
+Installed-Size: 4448
+Filename: debs/com.qq391160.cpucore-2.0.142-roothide.deb
+Size: 672720
+MD5sum: d54e6b6317e44f1aa083db607f2d6efb
+SHA1: 
+SHA256: a7585915dc8835314a7d1592e2db5897104216c112ce9479868aa05baaae60d2
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64
+Version: 2.0.142
+Installed-Size: 4196
+Filename: debs/com.qq391160.cpucore-2.0.142-rootless.deb
+Size: 614376
+MD5sum: 34082ce3f04a2f5bff6f4932bfe9c9cf
+SHA1: 
+SHA256: 5ee6ea58022861c9d2a6daf27e229357df49f7a4c81bad806bb18d6a30a59f28
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
 Depends: firmware (>= 16.0.0)
 Architecture: iphoneos-arm64e
 Version: 2.0.3
@@ -26176,6 +26339,110 @@ Size: 373208
 MD5sum: b8c0cfb9e5fc5df740877ac3f329a551
 SHA1: 
 SHA256: 74cce1da9b447ab9dfdb403e285edc9a1d136c32ae6305c86a5cb98bc1f9f344
+
+Package: com.quicklaunch.tweak
+Name: QuickLaunch
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Shared tool dispatch validates runtime method encodings and uses the same lock-state sources as overlay visibility.
+ Separate system tools, URLs and Shortcuts lists for each rail, capsule and radial menu.
+ Radial apps, tools, URLs and Shortcuts share consecutive slots across the same concentric rings.
+ Consecutive circular app and action slots with adjustable spacing; rail and capsule actions appear inline beside apps.
+ Shared custom URL images or name tiles in every menu.
+ Host-aware SpringBoard and LaunchServices URL dispatch with ordinary app fallback and failure feedback.
+ Customizable center icon with an independent app, tool, URL or Shortcut binding and photo/file artwork.
+ Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
+ Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
+ Shared square or circular icon frames across all quick menus and radial previews.
+ Choose fullscreen, PullOver-X, ScreenCore, Open or FV split windows independently for all menus.
+ Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
+ Optional floatingView 1.6.0-6 bridge using its in-process app-opening notification.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Maintainer: kanuo
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Architecture: iphoneos-arm64e
+Version: 0.1.73
+Installed-Size: 1108
+Filename: debs/com.quicklaunch.tweak-0.1.73-roothide.deb
+Size: 265408
+MD5sum: 87400c105cf443bab47940e25c100073
+SHA1: 
+SHA256: 030a145787354a591ea3c7fd94315b743b04acae69dddeb2b52a2c23dd79aee0
+
+Package: com.quicklaunch.tweak
+Name: QuickLaunch
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Shared tool dispatch validates runtime method encodings and uses the same lock-state sources as overlay visibility.
+ Separate system tools, URLs and Shortcuts lists for each rail, capsule and radial menu.
+ Radial apps, tools, URLs and Shortcuts share consecutive slots across the same concentric rings.
+ Consecutive circular app and action slots with adjustable spacing; rail and capsule actions appear inline beside apps.
+ Shared custom URL images or name tiles in every menu.
+ Host-aware SpringBoard and LaunchServices URL dispatch with ordinary app fallback and failure feedback.
+ Customizable center icon with an independent app, tool, URL or Shortcut binding and photo/file artwork.
+ Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
+ Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
+ Shared square or circular icon frames across all quick menus and radial previews.
+ Choose fullscreen, PullOver-X, ScreenCore, Open or FV split windows independently for all menus.
+ Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
+ Optional floatingView 1.6.0-6 bridge using its in-process app-opening notification.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Maintainer: kanuo
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Architecture: iphoneos-arm64
+Version: 0.1.73
+Installed-Size: 2036
+Filename: debs/com.quicklaunch.tweak-0.1.73-rootless.deb
+Size: 379116
+MD5sum: 2a28995ef22a08c18b4504fb833f172b
+SHA1: 
+SHA256: 04d08eba7b4cf1793215a4f3fa6d5456fe5c755029e0c5cf227889a203594acb
 
 Package: com.quickvox.tweak
 Name: QuickVox
@@ -35253,6 +35520,40 @@ MD5sum: ce7615aa014a4b34d984fa9186277a91
 SHA1: 
 SHA256: 92ae17c4a8edd4c75e92f9807820b1390e58f0f72802546f532618215f832fc5
 
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 2.0.4
+Installed-Size: 3076
+Filename: debs/com.susudear.screencore-2.0.4-roothide.deb
+Size: 482556
+MD5sum: a0e06d2d4ad10add02a479a1b2acb5e8
+SHA1: 
+SHA256: 4fe142d0e54c81df36e4fbdc8d477fb4e6d86162c00d167f0dde72fa000f6b60
+
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 2.0.4
+Installed-Size: 3076
+Filename: debs/com.susudear.screencore-2.0.4-rootless.deb
+Size: 483284
+MD5sum: 2c45e7d04eb82a3238409c73cff00b23
+SHA1: 
+SHA256: 1055acad5fe47f0a4d1bef829860e7c1b88602b23f490b3a50356d31db9903ff
+
 Package: com.susudear.sharingdalertwatchdog
 Name: SharingdAlertWatchdog
 Description: 各位开发者是否遇到了 Airdrop 投送后，移动端无法出现菜单，界面卡住崩溃？那试试SharingdAlertWatchdog 吧，他或许可以解决你的困扰
@@ -39214,6 +39515,42 @@ MD5sum: d34c22d36f1455509e71398bd34362df
 SHA1: 
 SHA256: 71800ec8b0def494648ea307bb064a16a4ddb8d44fb9f0b3f06b72d82bc65e6e
 
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: 5hux1n
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: fanqiefn
+Replaces: fanqiefn
+Provides: fanqiefn
+Architecture: iphoneos-arm64e
+Version: 3.1.0
+Installed-Size: 3008
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+Filename: debs/fanqiefn-3.1.0-roothide.deb
+Size: 1336800
+MD5sum: 2a0880e6a61865f7e9dbc0a5b7e8fa3e
+SHA1: 
+SHA256: 06d1b4eadbbf3f8fb4ea541e4fa512187526c6c61c8a8e8ddb7089dfb02137de
+
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: 5hux1n
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://fanqie.goforit.si
+Architecture: iphoneos-arm64
+Version: 3.1.0
+Installed-Size: 3008
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+Filename: debs/fanqiefn-3.1.0-rootless.deb
+Size: 1335896
+MD5sum: 352a77fc7c13267faccfd6f1ea739fb4
+SHA1: 
+SHA256: c736052685ba5c0550ea376bf1c7e2a7e3c3350508508215dea4c50323eef2be
+
 Package: Flex3beta
 Name: Flex3 Beta可解析版
 Depends: mobilesubstrate, firmware (>= 9.0)
@@ -39608,6 +39945,44 @@ Size: 560016
 MD5sum: 64d4e588e238aaf50cc99c02dc925b0e
 SHA1: 
 SHA256: 6b55456305f146c30cde541fa7e78fdf4d949d4d9383933350e902db67479dbb
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64e
+Version: 3.2.0
+Installed-Size: 1560
+Filename: debs/im.mjh.xianyuadblock-3.2.0-roothide.deb
+Size: 563168
+MD5sum: 4dc97328f2c1a3fe780a67a4478ef540
+SHA1: 
+SHA256: d36422cfbdc8ee2b83970532412af3b65c5e42394967c13fcd63e4a642c384d6
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64
+Version: 3.2.0
+Installed-Size: 1560
+Filename: debs/im.mjh.xianyuadblock-3.2.0-rootless.deb
+Size: 566448
+MD5sum: 8671fd7a7ec0e65f8f8e9f563100ed79
+SHA1: 
+SHA256: 9b3f322c0daead3f4c4312c30cfa852c737a28746f1a0137ddde939e284a4774
 
 Architecture: iphoneos-arm64
 Package: im.mjh.xianyuhelper
