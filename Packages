@@ -11177,6 +11177,42 @@ SHA1:
 SHA256: 2dca90723106b00c6f5319073dbb2694254c8588f0bbb66440c41696e0781fc6
 
 Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 0.6.3
+Installed-Size: 2476
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.3-roothide.deb
+Size: 597696
+MD5sum: 14d7734fb930aa0c6446e02dda9f77b8
+SHA1: 
+SHA256: 207c2797db9061b74931e33c5de0414b7b351b8fde83e4c53a5de9d4d3e50b5a
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 0.6.3
+Installed-Size: 2476
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.3-rootless.deb
+Size: 597680
+MD5sum: eeb6bd90649813375d53914b03be613b
+SHA1: 
+SHA256: 3f714f495346a2c4195947e12ea313e9e57e88e48750570d3348458cbb664830
+
+Package: com.hierarch.dykiller
 Name: DYKiller 抖音 UI 增强
 Description: 抖音 UI 增强插件（模块化 hook 框架）
 Section: Tweaks
@@ -21548,6 +21584,42 @@ MD5sum: c8127d1d957c52ef88498467359c5e09
 SHA1: 
 SHA256: cbe5914947ae003d7841c72f6643cef1c87aa653ccddc2db3fb7aefdb639a0b8
 
+Package: com.muzi.keyboardx
+Name: KeyboardX
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Installed-Size: 7188
+Filename: debs/com.muzi.keyboardx-1.0.9-roothide.deb
+Size: 1796052
+MD5sum: 5f1280bbacfb42907fc9ea887c10c5f8
+SHA1: 
+SHA256: 050bcd101996254a50d5b6aa8dce82ff6efd15861d8ac8289d78d2704e7f0b30
+
+Package: com.muzi.keyboardx
+Name: KeyboardX
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Installed-Size: 7236
+Filename: debs/com.muzi.keyboardx-1.0.9-rootless.deb
+Size: 1801800
+MD5sum: 4fc05bee921533e13edbdf1aea430847
+SHA1: 
+SHA256: 634f3e1943e48855b2a6f0582dfab314c14dff6d83058a16ad8d1fbfecafc3c6
+
 Package: com.muzi.mupill
 Name: 悬浮药丸独立版
 Description: 桌面悬浮信息药丸独立版：实时网速 / CPU / 内存 / 时间 / 电池电量，Liquid Glass 风格，透明度与字号可调，拖动持久化，锁屏自动隐藏
@@ -25595,6 +25667,46 @@ Size: 614376
 MD5sum: 34082ce3f04a2f5bff6f4932bfe9c9cf
 SHA1: 
 SHA256: 5ee6ea58022861c9d2a6daf27e229357df49f7a4c81bad806bb18d6a30a59f28
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.146
+Installed-Size: 4448
+Filename: debs/com.qq391160.cpucore-2.0.146-roothide.deb
+Size: 673768
+MD5sum: 50589606c68973ef18b874a78350bc35
+SHA1: 
+SHA256: 63bb40dbbc1485b2b9b1f1a78a5e331048fe26241aa7f2d7389f66deade8a39b
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64
+Version: 2.0.146
+Installed-Size: 4196
+Filename: debs/com.qq391160.cpucore-2.0.146-rootless.deb
+Size: 614344
+MD5sum: bad00398e3ee9e625dc093838cd8c74e
+SHA1: 
+SHA256: dfb02d9315ad247328eaa184cc64b4e3557378a9d9155813235ed243042ddb84
 
 Package: com.qq391160.cpucore
 Name: CPU智能温控(iOS16/17)
@@ -38870,6 +38982,40 @@ Size: 1055464
 MD5sum: 9c22233fbb838f69b757c9e858c1a1b5
 SHA1: 
 SHA256: d505e09b6fc909710467132951f2e5f8dfe3ab74a7584d1c6154309fcb89f4f5
+
+Package: danmutool
+Name: 弹幕助手
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Maintainer: Junhong <mail@mjh.im>
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+Installed-Size: 968
+icon: https://huayuarc.github.io/icon/danmutool.jpg
+Filename: debs/danmutool-2.0.0-roothide.deb
+Size: 312376
+MD5sum: 2aa2a328f1a642f6f9f4bca72f583128
+SHA1: 
+SHA256: 24a7216aecca2fdc2ccc6e39b9e2c823b82390387650f2265319e88ebaed2459
+
+Package: danmutool
+Name: 弹幕助手
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Maintainer: Junhong <mail@mjh.im>
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Installed-Size: 952
+icon: https://huayuarc.github.io/icon/danmutool.jpg
+Filename: debs/danmutool-2.0.0-rootless.deb
+Size: 309132
+MD5sum: 5022dc593b82be6ad8cbceda0a19981e
+SHA1: 
+SHA256: 196acc5efa03e2f5f5c098e2eca6cab6ecd3d3bb69e922d77bf7999a05d69501
 
 Architecture: iphoneos-arm64
 Package: danmutool
