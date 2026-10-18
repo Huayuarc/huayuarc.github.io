@@ -39346,6 +39346,46 @@ MD5sum: ccd705af8a5ce6db7c0b7229b179fdda
 SHA1: 
 SHA256: 7a9b942736b169c14b38ea98af0787de1a2816d2d7b48e25016519067e30e653
 
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64e
+Version: 3.1.1
+Installed-Size: 1544
+Filename: debs/im.mjh.xianyuadblock-3.1.1-roothide.deb
+Size: 557308
+MD5sum: 94262a16e2ea80147184cc36a4a6a5f4
+SHA1: 
+SHA256: 2050e8e8a2dab77738a9e97a6081855b4220f634663e3ae2d12b1255706fdfbd
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64
+Version: 3.1.1
+Installed-Size: 1544
+Filename: debs/im.mjh.xianyuadblock-3.1.1-rootless.deb
+Size: 556324
+MD5sum: 7f5e9e73a847e640250b2da89dc28e1d
+SHA1: 
+SHA256: 06ab9d12c4e5a9dc495eca76fa66d75897441b90dc28a7c07b2d00a5bbe78764
+
 Architecture: iphoneos-arm64
 Package: im.mjh.xianyuhelper
 Name: 咸鱼助手
