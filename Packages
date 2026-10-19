@@ -26462,6 +26462,43 @@ MD5sum: cbc8391aeb1fe627865af561c8ddc365
 SHA1: 
 SHA256: 91c5e27b0241a0b911a25e2632f3158e039e66338d78a01b699a55890bcb66af
 
+Package: com.rain.120hzstable
+Name: RainFlow 120Hz
+Description: 专注核心 80Hz/120Hz 调度的精简方案；适合不需要 Pro 扩展功能、注重流畅稳定与低负担的用户。支持 iOS 15.0 及以上。
+Maintainer: Rain
+Author: Rain
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Conflicts: com.rain.120hzpro
+Architecture: iphoneos-arm64e
+Version: 1.3.0
+Installed-Size: 484
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/120hzpro.png
+Filename: debs/com.rain.120hzstable-1.3.0-roothide.deb
+Size: 62276
+MD5sum: 9da25247d7cf97d75d09da411d6bf338
+SHA1: 
+SHA256: 28e97e1864a10d6abdc37825b31b7f7263c03f7b18443c5d1a14e89de83854ab
+
+Package: com.rain.120hzstable
+Name: RainFlow 120Hz
+Description: 专注核心 80Hz/120Hz 调度的精简方案；适合不需要 Pro 扩展功能、注重流畅稳定与低负担的用户。支持 iOS 15.0 及以上。
+Maintainer: Rain
+Author: Rain
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader
+Conflicts: com.rain.120hzpro
+Architecture: iphoneos-arm64
+Version: 1.3.0
+Installed-Size: 484
+icon: https://huayuarc.github.io/icon/120hzpro.png
+Filename: debs/com.rain.120hzstable-1.3.0-rootless.deb
+Size: 63656
+MD5sum: 94598c4247a03228bc28174e00cfb830
+SHA1: 
+SHA256: 6265cc4aaca6f6427eaf605e6c992285e22351354796ce0d2549ed2ccca90c06
+
 Package: com.rain.actionbutton
 Name: Rain的操作按钮
 Description: 为 iPhone 15 Pro/Pro Max 操作按钮提供三页面板，包含剪贴板、自定义背景和系统动作。仅支持 iOS 17.0-17.3.1。
