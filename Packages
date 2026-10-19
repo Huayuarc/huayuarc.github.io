@@ -1913,6 +1913,26 @@ MD5sum: 5260729de2b051536e9157e970b9b8bd
 SHA1: 
 SHA256: e77ff170d55d583525b21e7fc9c9040b3e2a8ed51170abe6018b6d0dc1b93508
 
+Package: cn.therm120
+Name: 稳帧温控120
+Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
+Maintainer: haoge
+Author: haoge
+icon: https://huayuarc.github.io/icon/therm120.png
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Replaces: cn.zqbb.fix120hz
+Provides: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64e
+Version: 6.6.6-3
+Installed-Size: 316
+Filename: debs/cn.therm120-6.6.6-3-roothide.deb
+Size: 69988
+MD5sum: 146d2dec61afdaeae88cc3b4d1873455
+SHA1: 
+SHA256: 63d5382d1abe9e8bafaae08a294fe091bec867e4b49fcb127bcc3ddeabcae99a
+
 Author: Tinyapps.cn
 Maintainer: BigBoss
 Name: AntiTracker(查岗报警器)-Alerts you when tracked by others in real time
