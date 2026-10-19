@@ -3021,6 +3021,40 @@ SHA1:
 SHA256: 647847124646c41bc38875c4b99f9e2c8c25463296a27d3f4dfa2165580079fc
 
 Package: com.aa22qq.axiskey
+Name: AxisKeyGesture (多维轴向按键手势)
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Maintainer: aa22qq
+Author: aa22qq
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 12.0.0
+Installed-Size: 976
+icon: https://huayuarc.github.io/icon/axiskey.png
+Filename: debs/com.aa22qq.axiskey-12.0.0-roothide.deb
+Size: 136212
+MD5sum: 1a6f58f472321ebf863a580b8592e6b8
+SHA1: 
+SHA256: 86853537114d48c1ee5054ed8fd5efbfdf586a2c1d942c00ef504ab996363865
+
+Package: com.aa22qq.axiskey
+Name: AxisKeyGesture (多维轴向按键手势)
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Maintainer: aa22qq
+Author: aa22qq
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64
+Version: 12.0.0
+Installed-Size: 976
+icon: https://huayuarc.github.io/icon/axiskey.png
+Filename: debs/com.aa22qq.axiskey-12.0.0-rootless.deb
+Size: 136316
+MD5sum: b09919216a846d8dc0ea1174abb1dfa0
+SHA1: 
+SHA256: 7a08dbf358515f5c0704068459c5d49af963f0756fd3e6f033e17fd4d15fc271
+
+Package: com.aa22qq.axiskey
 Name: AxisKey (多维轴向按键)
 Description: 结合物理按键与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌️
 Maintainer: aa22qq
@@ -39878,6 +39912,40 @@ MD5sum: 041890839bf4eb6ec0c78dff79bcca33
 SHA1: 
 SHA256: 3cadf213afdd4fd2eaa8f50d1b02e33b081703a7acc853a5f79d297cfd90fe24
 
+Package: im.mjh.uuscreenswitch
+Name: UU远控切屏
+Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/uuscreenswitch.jpg
+Filename: debs/im.mjh.uuscreenswitch-1.0.0-roothide.deb
+Size: 13836
+MD5sum: 0c86bb489f30f8886287cf4a7c154673
+SHA1: 
+SHA256: c8b1ca98553abb37976eb533d2aedbbd98b9ec26585927fe0651c98f53c6a3c9
+
+Package: im.mjh.uuscreenswitch
+Name: UU远控切屏
+Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/uuscreenswitch.jpg
+Filename: debs/im.mjh.uuscreenswitch-1.0.0-rootless.deb
+Size: 13856
+MD5sum: 68d316c68ee82e54789d65a9f1a0c371
+SHA1: 
+SHA256: e40dcf2346239e8af95e4d183e273e07ccb23406056d9a76e159adc51ac454b0
+
 Architecture: iphoneos-arm64
 Package: im.mjh.wclocate
 Name: 微信虚拟定位
@@ -40657,6 +40725,40 @@ MD5sum: 30c5c5aed49857d850a916acb22d1f9a
 SHA1: 
 SHA256: bde81c4c929402e533f8c70a20b9ae85e8d33f615fb52fd056dcccdfb1c8e161
 
+Package: iya.banana.iphoneduoflow
+Name: DuoFlow
+Description: Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Installed-Size: 1352
+icon: https://huayuarc.github.io/icon/iphoneduoflow.png
+Filename: debs/iya.banana.iphoneduoflow-0.1.1-roothide.deb
+Size: 136272
+MD5sum: 763917e23878501880d3a3a832c7cb80
+SHA1: 
+SHA256: 14392d53dc68962c87cfc1642ab9dac9fe8e78ae7399ad5aff0449cd94dd362d
+
+Package: iya.banana.iphoneduoflow
+Name: DuoFlow
+Description: Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Installed-Size: 1352
+icon: https://huayuarc.github.io/icon/iphoneduoflow.png
+Filename: debs/iya.banana.iphoneduoflow-0.1.1-rootless.deb
+Size: 137228
+MD5sum: 9e2d9eb3b1f1ad04611a4cb63b49bf8a
+SHA1: 
+SHA256: 63884dfdd512ef987c3efaa35f15b957bd1c56adca2c1a9b891b12167c9c3e7f
+
 Package: iya.banana.iphoneduoicon
 Name: Lunora
 Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
@@ -41128,6 +41230,40 @@ Size: 79000
 MD5sum: edef7af7498254854a15d973732d0f7b
 SHA1: 
 SHA256: 3c643ca0d945d40db1c5874408b785333d18f0f815958be1a04dfb256d96830d
+
+Package: iya.banana.multitask
+Name: 一芽分屏 (Iya Split)
+Description: 随手分屏，自由安排你的多任务空问。Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Installed-Size: 1924
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+Filename: debs/iya.banana.multitask-0.1.1-roothide.deb
+Size: 297872
+MD5sum: c1814edd96e09aecd0531e0bb55caf46
+SHA1: 
+SHA256: 87b49157185580c82a03050d8d52db3dccc0a7a9cba0f800654310231b3262ee
+
+Package: iya.banana.multitask
+Name: 一芽分屏 (Iya Split)
+Description: 随手分屏，自由安排你的多任务空问。Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Installed-Size: 1940
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+Filename: debs/iya.banana.multitask-0.1.1-rootless.deb
+Size: 297736
+MD5sum: 49b6069c379e0f115070357e9894fb0a
+SHA1: 
+SHA256: de494175ec0f5308ea2b04706b1a37eb14be38e4c4bf9abfe47f8e2b8f79d4a1
 
 Package: iya.banana.musichaptics
 Name: MusicHaptics
