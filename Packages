@@ -16366,6 +16366,40 @@ MD5sum: 8795328be7eab78bebb5191dc47a3d1a
 SHA1: 
 SHA256: 2ce3d45e74ce141ecfbba100803f661e2822e2839600e187b221da6921feaa7a
 
+Package: com.iosrxwy.vvebofix
+Name: VVeboFix
+Depends: mobilesubstrate
+Description: 修复 VVebo 主页时间线，恢复专业版，把反馈入口改到作者频道。实况图可以点开播放，长按可以保存和分享。切换账号不再打开频道。三指双击打开设置，长按底栏编辑按钮打开或关闭设置。时间线、实况图、会员和 120Hz 默认开启
+Maintainer: iosrxwy
+Author: iosrxwy
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 220
+icon: https://huayuarc.github.io/icon/vvebo.jpg
+Filename: debs/com.iosrxwy.vvebofix-1.0.1-roothide.deb
+Size: 49632
+MD5sum: f4a6de6546d9590875d97a51375e1d7e
+SHA1: 
+SHA256: f3d0ff6b556b02969884626bda7d56d4587d5e7062d0346d0326a5287687cfec
+
+Package: com.iosrxwy.vvebofix
+Name: VVeboFix
+Depends: mobilesubstrate
+Description: 修复 VVebo 主页时间线，恢复专业版，把反馈入口改到作者频道。实况图可以点开播放，长按可以保存和分享。切换账号不再打开频道。三指双击打开设置，长按底栏编辑按钮打开或关闭设置。时间线、实况图、会员和 120Hz 默认开启
+Maintainer: iosrxwy
+Author: iosrxwy
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 220
+icon: https://huayuarc.github.io/icon/vvebo.jpg
+Filename: debs/com.iosrxwy.vvebofix-1.0.1-rootless.deb
+Size: 49680
+MD5sum: 3835368a624dfb83afc76681e94b6596
+SHA1: 
+SHA256: 143d66689b4227ed486733bf7c070d12719fd2a5aefbc211ef36b69bad68ce29
+
 Package: com.iosrxwy.weibonoads
 Name: 微博 NoAds
 Depends: mobilesubstrate
@@ -16400,6 +16434,40 @@ Size: 85352
 MD5sum: bafa85a1e24f1657d1652109a1be60af
 SHA1: 
 SHA256: b1302137e3ad880648d2f1540ad2f50f229eef6e35c928d68c9bce6e09436c5c
+
+Package: com.iosrxwy.weibonoads
+Name: 微博 NoAds
+Depends: mobilesubstrate
+Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。闪退后，下次打开会提示并可以导出日志。三指双击打开设置，长按底栏「我」开关设置
+Maintainer: iosrxwy
+Author: iosrxwy
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.4
+Installed-Size: 432
+icon: https://huayuarc.github.io/icon/weibonoads.jpg
+Filename: debs/com.iosrxwy.weibonoads-1.2.4-roothide.deb
+Size: 107044
+MD5sum: fefa201a798c8957395e338ac3ae7b79
+SHA1: 
+SHA256: 952092efae921933f040ada60a111b5f1627c0eba0d66f145239e0d6af46fce6
+
+Package: com.iosrxwy.weibonoads
+Name: 微博 NoAds
+Depends: mobilesubstrate
+Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。闪退后，下次打开会提示并可以导出日志。三指双击打开设置，长按底栏「我」开关设置
+Maintainer: iosrxwy
+Author: iosrxwy
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Installed-Size: 432
+icon: https://huayuarc.github.io/icon/weibonoads.jpg
+Filename: debs/com.iosrxwy.weibonoads-1.2.4-rootless.deb
+Size: 107076
+MD5sum: b5776ca02f72fdd79425b4aac0d4e2a5
+SHA1: 
+SHA256: 97f61e1f567fe098739b97417166d6b5e60e0d7e472895a3c196bbf561d99758
 
 Package: com.iyaway.frameviewer
 Name: FrameViewer
