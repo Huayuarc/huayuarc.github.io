@@ -12132,6 +12132,42 @@ SHA1:
 SHA256: 6d3a3e248e2a7090257a709fa2819889525e95a97e7a9192242af5fa5d2012d7
 
 Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 0.6.5
+Installed-Size: 3492
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.5-roothide.deb
+Size: 841424
+MD5sum: 871a4e1824ba67e86f158579c59cddf2
+SHA1: 
+SHA256: ee1237ca83d97532634b4d47c70d3ede693ed9de0448b622de91f291cbc31bce
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 0.6.5
+Installed-Size: 3492
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.5-rootless.deb
+Size: 844116
+MD5sum: eb1e698982c26fa0374d8ef30848490f
+SHA1: 
+SHA256: b802736e8fcc6feef504220187c5cd17bedef6b50155a75a773bbf4df2ddaedb
+
+Package: com.hierarch.dykiller
 Name: DYKiller 抖音 UI 增强
 Description: 抖音 UI 增强插件（模块化 hook 框架）
 Section: Tweaks
@@ -17457,6 +17493,40 @@ Size: 226332
 MD5sum: 4af55778b8f5b7db6a3ceb6f32c3cc4c
 SHA1: 
 SHA256: 535811a19a6367934b9e86e3d1a88601fd4c57fac62fbbd22f5631192e71f71b
+
+Package: com.johndie.triggr
+Name: Triggr
+Description: 面向 rootless Dopamine 的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 A12 及更新机型（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/triggr.png
+Architecture: iphoneos-arm64e
+Version: 2.0.0~beta7.1
+Installed-Size: 1964
+Filename: debs/com.johndie.triggr-2.0.0~beta7.1-roothide.deb
+Size: 227240
+MD5sum: b804fd49475fb47ae9959af35d54ec0c
+SHA1: 
+SHA256: 027c292b27f682dafb10a18b7b94db187861563ed55f234d9a84016a1406fa0e
+
+Package: com.johndie.triggr
+Name: Triggr
+Description: 面向 rootless Dopamine 的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 A12 及更新机型（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 2.0.0~beta7.1
+Installed-Size: 1964
+icon: https://huayuarc.github.io/icon/triggr.png
+Filename: debs/com.johndie.triggr-2.0.0~beta7.1-rootless.deb
+Size: 227424
+MD5sum: 084e9f464b252dcbdf4d538fefdd079a
+SHA1: 
+SHA256: 937f69e7134763d182b7214c4839e56f8eb7e5277e9242b12f78135d9df331f1
 
 Package: com.jontelang.instalauncher2
 Section: Tweaks
@@ -42584,6 +42654,40 @@ MD5sum: f548b492550213618f8d6cd551c207b7
 SHA1: 
 SHA256: 864c8d13032609c788449364400a12fa2a6d85b5657acef12c865b08481f8823
 
+Package: iya.banana.iphoneduoflow
+Name: DuoFlow
+Description: 随倾斜变化的场景效果、横屏侧边 Dock与可展开状态星环。Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Installed-Size: 1376
+icon: https://huayuarc.github.io/icon/iphoneduoflow.png
+Filename: debs/iya.banana.iphoneduoflow-0.1.3-roothide.deb
+Size: 142860
+MD5sum: 4867bdb310ee20785b88043643544cd9
+SHA1: 
+SHA256: 77fc6f9820db547b1fd2af50b9a558d0219595311719dfe6a17a8cf871d431ed
+
+Package: iya.banana.iphoneduoflow
+Name: DuoFlow
+Description: 随倾斜变化的场景效果、横屏侧边 Dock与可展开状态星环。Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Installed-Size: 1376
+icon: https://huayuarc.github.io/icon/iphoneduoflow.png
+Filename: debs/iya.banana.iphoneduoflow-0.1.3-rootless.deb
+Size: 143932
+MD5sum: fe2a67f5b3a6cef6bf474ff3c21216e8
+SHA1: 
+SHA256: d64e4b3ef352e6883c1849239a9cd2ba6d60373ff17b298b30f14d7b18a6ff79
+
 Package: iya.banana.iphoneduoicon
 Name: Lunora
 Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
@@ -46164,6 +46268,54 @@ Size: 4890488
 MD5sum: e80eecb5cc803e488522e15b5aa24d6d
 SHA1: 
 SHA256: a47f63fc4318291ac672c40a02cd9c530606bec9891aa32ea3a6799036f148f4
+
+Package: wiki.qaq.ighostvt
+Name: iGhostVT
+Version: 1.6.17
+Architecture: iphoneos-arm64e
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Terminal Support
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Installed-Size: 16436
+Filename: debs/wiki.qaq.ighostvt-1.6.17-roothide.deb
+Size: 4894256
+MD5sum: d97b378c84309b62efef729209baa5cc
+SHA1: 
+SHA256: e044803516c2a335485c95bc8e69a582a8e9f0f42c43254093c8e5d9aaddf797
+
+Package: wiki.qaq.ighostvt
+Name: iGhostVT
+Version: 1.6.17
+Architecture: iphoneos-arm64
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Terminal Support
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Installed-Size: 16436
+Filename: debs/wiki.qaq.ighostvt-1.6.17-rootless.deb
+Size: 4893996
+MD5sum: 7cdbc8819f6444799e66ca52962b0a04
+SHA1: 
+SHA256: 61ddd166170a92351465b05d8ea592ea19e94f6fa30a1d3cf227ae739e5c220d
 
 Package: wiki.qaq.ighostvt
 Name: iGhostVT
