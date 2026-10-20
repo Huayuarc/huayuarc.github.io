@@ -17355,6 +17355,74 @@ MD5sum: f00ea0c4117022ab4b25f560b0ed2d97
 SHA1: 
 SHA256: 019f10bb550603c627ac5a23dd39b4fd18bb0a386285e7a2bc2c3b8ea71ba8dc
 
+Package: com.johndie.triggr
+Name: Triggr
+Description: 用于无根多巴胺的Activator-lite：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/triggr.png
+Architecture: iphoneos-arm64e
+Version: 2.0.0~beta5
+Installed-Size: 1948
+Filename: debs/com.johndie.triggr-2.0.0~beta5-roothide.deb
+Size: 224740
+MD5sum: b332659014e20882abd353519f1b37c1
+SHA1: 
+SHA256: 8a9762a8d8cbcdbcffad2af8df9ee4aaf7838eb19491e215e50c94d71c970745
+
+Package: com.johndie.triggr
+Name: Triggr
+Description: 用于无根多巴胺的Activator-lite：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/triggr.png
+Architecture: iphoneos-arm64
+Version: 2.0.0~beta5
+Installed-Size: 1948
+Filename: debs/com.johndie.triggr-2.0.0~beta5-rootless.deb
+Size: 224792
+MD5sum: 1a76c79497b0ea62213280aac2d7c43c
+SHA1: 
+SHA256: 1ae8c8ccdf6a3fdb529a5da88056d2fd2edf841f8b44bafd2556164381206038
+
+Package: com.johndie.triggr
+Name: Triggr
+Description: 用于无根多巴胺的Activator-lite：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/triggr.png
+Architecture: iphoneos-arm64e
+Version: 2.0.0~beta6
+Installed-Size: 1964
+Filename: debs/com.johndie.triggr-2.0.0~beta6-roothide.deb
+Size: 226524
+MD5sum: 37d7a9f8457efbf4fc807a8ed0fc716e
+SHA1: 
+SHA256: 7e1732064c1155fc9074368f9bf7cb84a9915cc38202ae94dc4e957b13de2585
+
+Package: com.johndie.triggr
+Name: Triggr
+Description: 用于无根多巴胺的Activator-lite：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/triggr.png
+Architecture: iphoneos-arm64
+Version: 2.0.0~beta6
+Installed-Size: 1964
+Filename: debs/com.johndie.triggr-2.0.0~beta6-rootless.deb
+Size: 226332
+MD5sum: 4af55778b8f5b7db6a3ceb6f32c3cc4c
+SHA1: 
+SHA256: 535811a19a6367934b9e86e3d1a88601fd4c57fac62fbbd22f5631192e71f71b
+
 Package: com.jontelang.instalauncher2
 Section: Tweaks
 Installed-Size: 1188
@@ -19575,6 +19643,76 @@ Size: 67544
 MD5sum: 6a54292ccb78e9ca1a8b8009ce880dd2
 SHA1: 
 SHA256: 8538f79a870e321c408f0d30af8b99c6e508198af3c739d02f4902edf8829d97
+
+Package: com.minis.wxscanrouter
+Name: 微信扫码直达
+Description: 微信一键扫码直达 WeChat QR direct routing prototype for RootHide/Relaxin
+Maintainer: Minis
+Author: Minis
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.5.2-1+debug
+Installed-Size: 376
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.minis.wxscanrouter-0.5.2-1+debug-roothide.deb
+Size: 72376
+MD5sum: 03930b7163e8835189d73aa1a499fc84
+SHA1: 
+SHA256: a5ff0445a15b48f64963d36fdabbf1a64879518c3bc47b97ec22e0d830108ea2
+
+Package: com.minis.wxscanrouter
+Name: 微信扫码直达
+Description: 微信一键扫码直达 WeChat QR direct routing prototype for RootHide/Relaxin
+Maintainer: Minis
+Author: Minis
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.5.2-1+debug
+Installed-Size: 376
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.minis.wxscanrouter-0.5.2-1+debug-rootless.deb
+Size: 72152
+MD5sum: 6fb4d7296b20d27c15494e2ce5baec26
+SHA1: 
+SHA256: ece150fb639001bb3fbcf6329f31707b0f68e95385a7442c1fb52de2751187ff
+
+Package: com.minis.wxscanrouter
+Name: 微信扫码直达
+Description: 微信一键扫码直达 WeChat QR direct routing prototype for RootHide/Relaxin
+Maintainer: Minis
+Author: Minis
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.5.5-1+debug
+Installed-Size: 464
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.minis.wxscanrouter-0.5.5-1+debug-roothide.deb
+Size: 89144
+MD5sum: f70fe56a309842e450904f3a92cd22cc
+SHA1: 
+SHA256: c7ff7a035780f2289f2432098830d2b14c5250bd66bde9a044b382588aafa07a
+
+Package: com.minis.wxscanrouter
+Name: 微信扫码直达
+Description: 微信一键扫码直达 WeChat QR direct routing prototype for RootHide/Relaxin
+Maintainer: Minis
+Author: Minis
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.5.5-1+debug
+Installed-Size: 464
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.minis.wxscanrouter-0.5.5-1+debug-rootless.deb
+Size: 88804
+MD5sum: b699323f54c5b1197448efd3d2622466
+SHA1: 
+SHA256: 245ff57633e08b3ef0e4123ae1ba14be6b865d53c2a8202b79dad6d36f417459
 
 Package: com.miro.libmiroshared
 Name: libMiROShared
@@ -42917,6 +43055,40 @@ MD5sum: 49b6069c379e0f115070357e9894fb0a
 SHA1: 
 SHA256: de494175ec0f5308ea2b04706b1a37eb14be38e4c4bf9abfe47f8e2b8f79d4a1
 
+Package: iya.banana.multitask
+Name: 一芽分屏 (Iya Split)
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.1.2~alpha27
+Installed-Size: 2184
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+Filename: debs/iya.banana.multitask-0.1.2~alpha27-roothide.deb
+Size: 354660
+MD5sum: 52726c7fc28f48cab784a725f1ef032f
+SHA1: 
+SHA256: de53d6827e16d2fb79650bbb6502ad433f9e91113985ff3de94639195ffdc833
+
+Package: iya.banana.multitask
+Name: 一芽分屏 (Iya Split)
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.1.2~alpha27
+Installed-Size: 2184
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+Filename: debs/iya.banana.multitask-0.1.2~alpha27-rootless.deb
+Size: 356760
+MD5sum: 6c61736787abd48289de2b3596572c2d
+SHA1: 
+SHA256: b452899d50b44cbf656571fa1b1fc23255b7dd6402fef673f53e91408c1fb489
+
 Package: iya.banana.musichaptics
 Name: MusicHaptics
 Description: 让支持的歌曲化作触感，随音乐感受节奏与人声。Music haptic tracks, vocal mode and Control Center toggle for iOS 15 and later.
@@ -44745,6 +44917,40 @@ Size: 21496
 MD5sum: 66c602dad1ab5155c0aff0dbbe1aebf2
 SHA1: 
 SHA256: ed19b973e41687e039c515b40879a7617df0a35b0cdbd348c1287239240cbf42
+
+Package: moe.waru.jikan
+Name: Jikan
+Description: 在锁定屏幕上显示充满电的剩余时间 Show time left to full charge on your lock screen
+Maintainer: waruhachi
+Author: waruhachi
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 2344
+icon: https://huayuarc.github.io/icon/jikan.png
+Filename: debs/moe.waru.jikan-1.0.2-roothide.deb
+Size: 348956
+MD5sum: 2e31c77cb97cc365150d8514fa1bd8dc
+SHA1: 
+SHA256: d5131c34327cb71294435fb33c5bd9e3cbf3e51407e8abdd423830256dc04d6f
+
+Package: moe.waru.jikan
+Name: Jikan
+Description: 在锁定屏幕上显示充满电的剩余时间 Show time left to full charge on your lock screen
+Maintainer: waruhachi
+Author: waruhachi
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Installed-Size: 2380
+icon: https://huayuarc.github.io/icon/jikan.png
+Filename: debs/moe.waru.jikan-1.0.2-rootless.deb
+Size: 346808
+MD5sum: 323a3c907236d3b759034a6e4e22f5e7
+SHA1: 
+SHA256: 4c532ecd18949be3c1c9ae08a9be150d6c58b0fe4b711d4da305e0939252c63b
 
 Package: net.nyyh
 Version: 1.2.522-1+debug
