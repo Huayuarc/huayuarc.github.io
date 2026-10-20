@@ -18951,6 +18951,41 @@ Author: Minis
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64e
+Version: 0.4.12-1+debug
+Installed-Size: 312
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.minis.wxscanrouter-0.4.12-1+debug-roothide.deb
+Size: 59084
+MD5sum: bfaa22a93cde3896a61548890375152c
+SHA1: 
+SHA256: 65ad6c78e3ad4bff5f95ded503c825f41e07b637b5c6bf46a047b7fb7e747a47
+
+Package: com.minis.wxscanrouter
+Name: 微信扫描直达
+Description: 微信一键扫描直达WeChat QR direct routing prototype for RootHide/Relaxin
+Maintainer: Minis
+Author: Minis
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.4.12-1+debug
+Installed-Size: 312
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.minis.wxscanrouter-0.4.12-1+debug-rootless.deb
+Size: 58784
+MD5sum: e69bf47746aa10d93daaa87975c435ea
+SHA1: 
+SHA256: 398af567ce74d65b87bcbe55f00ca45f2140efd5aa7f2da423b358f5ac4c8b4d
+
+Package: com.minis.wxscanrouter
+Name: 微信扫描直达
+Description: 微信一键扫描直达WeChat QR direct routing prototype for RootHide/Relaxin
+Maintainer: Minis
+Author: Minis
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
 Version: 0.4.5-1+debug
 Installed-Size: 296
 Pre-Depends: rootless-compat(>= 0.9)
