@@ -9769,6 +9769,42 @@ MD5sum: c0222b755c93cf46e244c0f096613a6e
 SHA1: 
 SHA256: ad2898a2546068ce6391e06f7344a3e7e443fa66a8eaa1d63b2df1a35abec5f5
 
+Package: com.dao.little16
+Name: Little16
+Author: michaelmelita1 & daodao
+Description: 为直屏设备（iPhone7/8/SE2 等）带来 iPhone X 手势，并支持 iPad 风格状态栏、Dock 和锁屏快捷按钮（手电筒/相机），无需设置。
+Depends: mobilesubstrate, firmware (>= 15.0)
+Maintainer: daodao
+Section: Tweaks
+Conflicts: com.michaelmelita1.little16
+Architecture: iphoneos-arm64e
+Version: 0.0.12
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/little16.jpg
+Filename: debs/com.dao.little16-0.0.12-roothide.deb
+Size: 12912
+MD5sum: cebcece41a465629ef9720052b86e7ed
+SHA1: 
+SHA256: 8042e88cf842824d3b571322bb1851c9b4d5cb15650a18ef68e9b93856cd3401
+
+Package: com.dao.little16
+Name: Little16
+Author: michaelmelita1 & daodao
+Description: 为直屏设备（iPhone7/8/SE2 等）带来 iPhone X 手势，并支持 iPad 风格状态栏、Dock 和锁屏快捷按钮（手电筒/相机），无需设置。
+Depends: mobilesubstrate, firmware (>= 15.0)
+Maintainer: daodao
+Section: Tweaks
+Conflicts: com.michaelmelita1.little16
+Architecture: iphoneos-arm64
+Version: 0.0.12
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/little16.jpg
+Filename: debs/com.dao.little16-0.0.12-rootless.deb
+Size: 12980
+MD5sum: b00f021b5a5ecccb10327084f45b11f8
+SHA1: 
+SHA256: 0314f1212e0d9887ae0b95d88b56d2e6581942ef963fc50b91d485d1465fd4a4
+
 Package: com.dao.pulloverx
 Name: PullOverX 分屏
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
