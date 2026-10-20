@@ -8023,6 +8023,25 @@ MD5sum: 20df2465c199f1d76da14e8307ecb2a1
 SHA1: 
 SHA256: 260ed11acb7b8ba665650a92983aaaaa3d25f11906bc67ac2f8111b48919d1a6
 
+Package: com.crctdd.choicy-whitelist
+Name: Choicy-Whitelist
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Conflicts: com.opa334.choicy, com.crctdd.choicy-patch
+Replaces: com.opa334.choicy, com.crctdd.choicy-patch
+Description: Choicy白名单 (支持iOS 15-17 roothide)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.5.4-6
+Installed-Size: 648
+icon: https://huayuarc.github.io/icon/ChoicyIcon@3x.png
+Filename: debs/com.crctdd.choicy-whitelist-1.5.4-6-roothide.deb
+Size: 134448
+MD5sum: d2f018d04546befe8c93141e3f093777
+SHA1: 
+SHA256: 707ec3f6a457d2faf1944037b11e96be91d6e190f631b1504277cca7eb44f3b7
+
 Package: com.crctdd.cranedd
 Name: Crane Drop Down
 Description: 下拉桌面图标弹出多开应用容器，无设置项。(支持iOS 15-17)
@@ -14112,6 +14131,38 @@ MD5sum: 4ad3f4bf0748f99c25e17d3d294a63d7
 SHA1: 
 SHA256: 198b184603a07877f8edd348441254fc678644bf98d2c18a68b85170855abb63
 
+Package: com.iosbx.theosgui
+Name: TheosGUI
+Description: Theos 图形化开发工具，直观的可视化界面，一键创建、管理、编译和安装项目。
+Maintainer: IosBX
+Author: IosBX
+Section: Utilities
+Icon: https://repo.iosbx.com/assets/TheosGUI.png
+Architecture: iphoneos-arm64e
+Version: 1.9.0
+Installed-Size: 375840
+Filename: debs/com.iosbx.theosgui-1.9.0-roothide.deb
+Size: 85988896
+MD5sum: 1f794ed043d12b35c46ac82694eb5e18
+SHA1: 
+SHA256: a24782c7e0ec78c938521ff8ebfc9dedabe62a8635384cab861d4b05b8d8c851
+
+Package: com.iosbx.theosgui
+Name: TheosGUI
+Description: Theos 图形化开发工具，直观的可视化界面，一键创建、管理、编译和安装项目。
+Maintainer: IosBX
+Author: IosBX
+Section: Utilities
+Icon: https://repo.iosbx.com/assets/TheosGUI.png
+Architecture: iphoneos-arm64
+Version: 1.9.0
+Installed-Size: 375856
+Filename: debs/com.iosbx.theosgui-1.9.0-rootless.deb
+Size: 86004476
+MD5sum: 6fba7e33d1c5e6dec54bab3a22dbecc2
+SHA1: 
+SHA256: a3d646aa5a25a4a1956b8b9a128780baf07dce84f497cb7bc8c171eeff9c51cf
+
 Package: com.iosdump.airdrop
 Name: AirDrop
 Depends: mobilesubstrate
@@ -16880,6 +16931,40 @@ Size: 198276
 MD5sum: c1f69afa321d3efff97b9745af24efbe
 SHA1: 
 SHA256: 71acf50f079605d1fc9c3eabd6319a826c19939e9fa34eea9eed5df3f2b17def
+
+Package: com.johndie.triggr
+Name: Triggr
+Description: 用于无根多巴胺的Activator-lite：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.0~beta4
+Installed-Size: 1932
+icon: https://huayuarc.github.io/icon/triggr.png
+Filename: debs/com.johndie.triggr-2.0.0~beta4-roothide.deb
+Size: 225740
+MD5sum: f2ccdb7702818c4e14639f65793fba13
+SHA1: 
+SHA256: 3e9ab63ebe6f26a3847433e5c077d7ad248c546a426dfb47875678f2a8e9a87c
+
+Package: com.johndie.triggr
+Name: Triggr
+Description: 用于无根多巴胺的Activator-lite：将操作分配给主页、锁定和音量按钮、触控ID、静音开关、状态栏点击、图标轻弹、摇晃以及充电器、Wi-Fi、电池电量或一天中的时间等事件。支持A12及更新（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 2.0.0~beta4
+Installed-Size: 1932
+icon: https://huayuarc.github.io/icon/triggr.png
+Filename: debs/com.johndie.triggr-2.0.0~beta4-rootless.deb
+Size: 225600
+MD5sum: f00ea0c4117022ab4b25f560b0ed2d97
+SHA1: 
+SHA256: 019f10bb550603c627ac5a23dd39b4fd18bb0a386285e7a2bc2c3b8ea71ba8dc
 
 Package: com.jontelang.instalauncher2
 Section: Tweaks
@@ -26782,6 +26867,130 @@ Size: 417844
 MD5sum: 5a579fa347b964214cd1b4955ca0bb99
 SHA1: 
 SHA256: c85322cb769d7a77586203155da6230c7160b301dd62e9af595a534d7fbb615a
+
+Package: com.quicklaunch.tweak
+Name: QuickLaunch
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Adds guarded optional SVP 1.4.2 opening and seventeen native toolbar actions in all menus.
+ Adds automatic brightness, Night Shift, True Tone and independent region screenshot selection.
+ Follow the foreground App interface orientation and independently choose recent background Apps or saved favorites per menu.
+ Capsule notification icons retain native notification actions and use a 1-120 second duration slider.
+ New notifications reveal the capsule in recent and favorite modes; ordinary and radial menus are unchanged.
+ Recent rail and capsule shrink to live App count, retaining viewport limits and overflow scrolling.
+ Synchronizes cross-process menu preferences and shows a dedicated recent/favorite selection page.
+ Compensates the actual overlay host transform to prevent duplicate landscape rotation.
+ Preserves favorite Apps and actions when switching content sources.
+ Adds 21 shared tools including acknowledged screen recording, accessibility actions and optional Open window management.
+ Shared tool dispatch validates runtime method encodings and uses the same lock-state sources as overlay visibility.
+ Separate system tools, URLs and Shortcuts lists for each rail, capsule and radial menu.
+ Radial apps, tools, URLs and Shortcuts share consecutive slots across the same concentric rings.
+ Consecutive circular app and action slots with adjustable spacing; rail and capsule actions appear inline beside apps.
+ Shared custom URL images or name tiles in every menu.
+ Host-aware SpringBoard and LaunchServices URL dispatch with ordinary app fallback and failure feedback.
+ Customizable center icon with an independent app, tool, URL or Shortcut binding and photo/file artwork.
+ Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
+ Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
+ Shared square or circular icon frames across all quick menus and radial previews.
+ Choose fullscreen, PullOver-X, ScreenCore, Open, FV or SVP split windows independently for all menus.
+ Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
+ Optional floatingView 1.6.0-6 bridge using its in-process app-opening notification.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Maintainer: kanuo
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Architecture: iphoneos-arm64e
+Version: 0.1.80
+Installed-Size: 1940
+Filename: debs/com.quicklaunch.tweak-0.1.80-roothide.deb
+Size: 400360
+MD5sum: 9a4fe8ec52d6c7a152870745fc39b75c
+SHA1: 
+SHA256: 179f8fb7e52da16fdb23d5568438e208affe0163b5d7436ad6540998cf1024ff
+
+Package: com.quicklaunch.tweak
+Name: QuickLaunch
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Adds guarded optional SVP 1.4.2 opening and seventeen native toolbar actions in all menus.
+ Adds automatic brightness, Night Shift, True Tone and independent region screenshot selection.
+ Follow the foreground App interface orientation and independently choose recent background Apps or saved favorites per menu.
+ Capsule notification icons retain native notification actions and use a 1-120 second duration slider.
+ New notifications reveal the capsule in recent and favorite modes; ordinary and radial menus are unchanged.
+ Recent rail and capsule shrink to live App count, retaining viewport limits and overflow scrolling.
+ Synchronizes cross-process menu preferences and shows a dedicated recent/favorite selection page.
+ Compensates the actual overlay host transform to prevent duplicate landscape rotation.
+ Preserves favorite Apps and actions when switching content sources.
+ Adds 21 shared tools including acknowledged screen recording, accessibility actions and optional Open window management.
+ Shared tool dispatch validates runtime method encodings and uses the same lock-state sources as overlay visibility.
+ Separate system tools, URLs and Shortcuts lists for each rail, capsule and radial menu.
+ Radial apps, tools, URLs and Shortcuts share consecutive slots across the same concentric rings.
+ Consecutive circular app and action slots with adjustable spacing; rail and capsule actions appear inline beside apps.
+ Shared custom URL images or name tiles in every menu.
+ Host-aware SpringBoard and LaunchServices URL dispatch with ordinary app fallback and failure feedback.
+ Customizable center icon with an independent app, tool, URL or Shortcut binding and photo/file artwork.
+ Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
+ Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
+ Shared square or circular icon frames across all quick menus and radial previews.
+ Choose fullscreen, PullOver-X, ScreenCore, Open, FV or SVP split windows independently for all menus.
+ Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
+ Optional floatingView 1.6.0-6 bridge using its in-process app-opening notification.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Maintainer: kanuo
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Architecture: iphoneos-arm64
+Version: 0.1.80
+Installed-Size: 3012
+Filename: debs/com.quicklaunch.tweak-0.1.80-rootless.deb
+Size: 536452
+MD5sum: a4da8d4760e43b92ae6eedff5e766fe2
+SHA1: 
+SHA256: ccdbef285795281fb5093ffe847fc83cd44abee6d9bd6865b17e2b6eddb7fa09
 
 Package: com.quickvox.tweak
 Name: QuickVox
