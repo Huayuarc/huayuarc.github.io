@@ -18152,6 +18152,24 @@ MD5sum: a521511c82f1734e69006b58a00842a2
 SHA1: 
 SHA256: 581c14abdd2549e9d2b131cce04a092f1f13fdc9c70b7cb1903abbbaa0b74dbc
 
+Package: com.local.carbridge17
+Name: CarBridge 汽车互联
+Description: 该版本是由AI编译并适配兼容iOS17，威锋锋友"appleid9l886x6"提供分享。
+Maintainer: Local Test
+Author: Local Test
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 17.0)
+Conflicts: github.poqw312.carbridge13, com.wkk.carbridge13, xyz.cypwn.carbridge13, com.dao.carbridge13
+Architecture: iphoneos-arm64e
+Version: 0.7.2
+Installed-Size: 204
+icon: https://huayuarc.github.io/icon/carbridge17.png
+Filename: debs/com.local.carbridge17-0.7.2-roothide.deb
+Size: 444920
+MD5sum: dbc362855eb0da3cdbba510efb7e74c4
+SHA1: 
+SHA256: 6f1d7b359f4844c4cde8418beb797cc5e8230de001be400d37ca61c04e940b38
+
 Package: com.local.temperatureislandstandalone
 Name: 温度上岛
 Description: 当手机电池温度到了40度会有一个温度计的标识上岛提醒 120秒下岛或者温度低于40下岛
