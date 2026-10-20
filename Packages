@@ -39857,6 +39857,25 @@ MD5sum: 65f42f7a4bbb8f8355190d53f9cccf7c
 SHA1: 
 SHA256: 517c851e1771fd9ffe2d1167905f116f295e56c07ae827e8b6eed58ab4f9dd27
 
+Package: com.yuku.safaritools
+Name: SafariTools
+Description: 固定的Safari浏览器外观，带有12pt编辑提升和ABI-gated完成保护。没有面板或捕获。Fixed-on Safari appearance with 12pt editing lift and ABI-gated completion protection. No panel or capture.
+Maintainer: YUKU
+Author: YUKU
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
+Conflicts: com.yuku.safarinoinlinecompletion, com.yuku.safarifloatingbar, com.yuku.safarifloatingbardiagnostics
+Replaces: com.yuku.safarinoinlinecompletion, com.yuku.safarifloatingbar, com.yuku.safarifloatingbardiagnostics
+Architecture: iphoneos-arm64e
+Version: 0.2.0
+Installed-Size: 324
+icon: https://huayuarc.github.io/icon/Safari.png
+Filename: debs/com.yuku.safaritools-0.2.0-roothide.deb
+Size: 53556
+MD5sum: 6c42e1c5da72b889c88be40d3e01d95f
+SHA1: 
+SHA256: 55fa4308ba81683ccd98c98891ad86febc6ba0604e37577dab2ce4e9fb8eab89
+
 Package: com.yzdmm.kbtheme
 Name: 原生输入法增强
 Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
