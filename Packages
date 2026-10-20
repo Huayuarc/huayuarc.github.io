@@ -18943,6 +18943,41 @@ MD5sum: 02982bafa9a745cd03972dfa70a064d2
 SHA1: 
 SHA256: 2337e977f2fe970a264c4672a266a3bacead834941382f3ffc050ba4a9c970d5
 
+Package: com.minis.wxscanrouter
+Name: 微信扫描直达
+Description: 微信一键扫描直达WeChat QR direct routing prototype for RootHide/Relaxin
+Maintainer: Minis
+Author: Minis
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.4.5-1+debug
+Installed-Size: 296
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.minis.wxscanrouter-0.4.5-1+debug-roothide.deb
+Size: 58616
+MD5sum: dfe92b1c56733204b56354367c299d74
+SHA1: 
+SHA256: 323dd9b6c214bbed8716cc46ddc19119e1b7d58b65371d70f73be0f2c993cc68
+
+Package: com.minis.wxscanrouter
+Name: 微信扫描直达
+Description: 微信一键扫描直达WeChat QR direct routing prototype for RootHide/Relaxin
+Maintainer: Minis
+Author: Minis
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.4.5-1+debug
+Installed-Size: 296
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.minis.wxscanrouter-0.4.5-1+debug-rootless.deb
+Size: 58384
+MD5sum: aca83df23deec242efa3d61dee5863ed
+SHA1: 
+SHA256: e3f73337f59310749efef212985761d63f22c5fd9abd108566d732fe90f03274
+
 Package: com.miro.libmiroshared
 Name: libMiROShared
 Depends: firmware (>=14.0)
