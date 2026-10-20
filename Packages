@@ -40452,7 +40452,7 @@ SHA256: 517c851e1771fd9ffe2d1167905f116f295e56c07ae827e8b6eed58ab4f9dd27
 
 Package: com.yuku.safaritools
 Name: SafariTools
-Description: 固定的Safari浏览器外观，带有12pt编辑提升和ABI-gated完成保护。没有面板或捕获。Fixed-on Safari appearance with 12pt editing lift and ABI-gated completion protection. No panel or capture.
+Description: 去掉 safari浏览器该死的自动补全跳转，并优化UI 固定的Safari浏览器外观，带有12pt编辑提升和ABI-gated完成保护。没有面板或捕获。Fixed-on Safari appearance with 12pt editing lift and ABI-gated completion protection. No panel or capture.
 Maintainer: YUKU
 Author: YUKU
 Section: Tweaks
@@ -40464,10 +40464,10 @@ Version: 0.2.0
 Installed-Size: 324
 icon: https://huayuarc.github.io/icon/Safari.png
 Filename: debs/com.yuku.safaritools-0.2.0-roothide.deb
-Size: 53556
-MD5sum: 6c42e1c5da72b889c88be40d3e01d95f
+Size: 53624
+MD5sum: 4dcad26cfd8e365095232369bfac271f
 SHA1: 
-SHA256: 55fa4308ba81683ccd98c98891ad86febc6ba0604e37577dab2ce4e9fb8eab89
+SHA256: fcb94a4e7d99209b33b8a9bc1ae0631834dc3467d560fc4a394106719520733b
 
 Package: com.yzdmm.kbtheme
 Name: 原生输入法增强
