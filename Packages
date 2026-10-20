@@ -3738,6 +3738,41 @@ MD5sum: d16efccd653b941027e0c982add18138
 SHA1: 
 SHA256: 19c9c8d1b7bba1007aa79a64c83762ccff073ea6090a50097871fa64eba04cc9
 
+Package: com.aronsz26.lockscreenrestore
+Name: LockScreenRestore
+Description: iOS 16上的iOS 15风格锁定屏幕：时钟、日期、挂锁、聚焦药丸、顶部通知、iOS 15音乐播放器、解锁动画、iOS 15图标标签阴影、实时和动态壁纸以及iOS 15设置>壁纸页面和壁纸下载。每个部件都可以在“设置”中关闭。iOS 15 style lock screen on iOS 16: clock, date, padlock, Focus pill, notifications from the top, iOS 15 music player, unlock animation, iOS 15 icon label shadows, live and dynamic wallpapers and the iOS 15 Settings > Wallpaper page with wallpaper downloads. Each part can be switched off in Settings.
+Maintainer: aronsz26
+Author: aronsz26
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Icon: https://aronsz26.github.io/depictions/lockscreenrestore/depiction/icon.png
+Architecture: iphoneos-arm64e
+Version: 1.9.5
+Installed-Size: 768
+Pre-Depends: rootless-compat (>= 0.9)
+Filename: debs/com.aronsz26.lockscreenrestore-1.9.5-roothide.deb
+Size: 138352
+MD5sum: cfe8fc52ee24fc69cbb661f9ed195951
+SHA1: 
+SHA256: b17f10b3cfbeea1277e0d7682c6b8b77f1716e63e22a31faefe2a0201a454ad1
+
+Package: com.aronsz26.lockscreenrestore
+Name: LockScreenRestore
+Description: iOS 16上的iOS 15风格锁定屏幕：时钟、日期、挂锁、聚焦药丸、顶部通知、iOS 15音乐播放器、解锁动画、iOS 15图标标签阴影、实时和动态壁纸以及iOS 15设置>壁纸页面和壁纸下载。每个部件都可以在“设置”中关闭。iOS 15 style lock screen on iOS 16: clock, date, padlock, Focus pill, notifications from the top, iOS 15 music player, unlock animation, iOS 15 icon label shadows, live and dynamic wallpapers and the iOS 15 Settings > Wallpaper page with wallpaper downloads. Each part can be switched off in Settings.
+Maintainer: aronsz26
+Author: aronsz26
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Icon: https://aronsz26.github.io/depictions/lockscreenrestore/depiction/icon.png
+Architecture: iphoneos-arm64
+Version: 1.9.5
+Installed-Size: 768
+Filename: debs/com.aronsz26.lockscreenrestore-1.9.5-rootless.deb
+Size: 134556
+MD5sum: 48188c016f8c1be99f795ae351d278dc
+SHA1: 
+SHA256: 62062a38b314a5eda146c74456c8b555a64d69c95b74f4f2e21da119fca2c70e
+
 Package: com.axs.ahsfilter
 Name: AhsFilter
 Description: 爱回收助手：点击悬浮球只开面板、长按悬浮球或点「开始爬取」才按关键词直连严选接口翻页抓全（不依赖 App 是否加载过列表）。
