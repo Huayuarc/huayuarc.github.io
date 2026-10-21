@@ -22826,6 +22826,46 @@ MD5sum: 97cc90d8468fd1331af797e177107b0d
 SHA1: 
 SHA256: be26a4aa5ccc7a1df36f9c9a2cf9ec5e1709b6cff72a3400731e51d57b46c368
 
+Package: com.moxuan.fontchange
+Name: FontChange 字体挂载管理
+Description: 字体挂载，支持 Rootless/RootHide
+ * 管理受支持的 iOS 15+ 越狱环境中的自定义系统字体和锁屏字体，刷新语言缓存、恢复系统字体，并重启用户空间。
+ * 界面与操作：点击“导入字体”，选择全局字体压缩包或自定义锁屏时钟字体。在“字体方案”中选择需要使用的组合。点击上方预览卡片，在全局字体与自定义锁屏时钟之间切换预览。点击“检查并开始执行”。FontChange 会依次完成字体替换、临时语言环境切换、全局字体缓存重建、原语言恢复和用户空间重启。如需撤销，点击右上角恢复按钮即可恢复系统原生字体。请将字体文件保存到「我的 iPhone」，不要直接从 iCloud 云盘导入。也可以从其他 App 使用系统分享菜单发送到 FontChange。功能亮点：真正的一键替换与缓存刷新：一次确认即可自动完成字体包校验、字体挂载、语言环境切换、全局字体缓存重建、原语言恢复和用户空间重启，无需手动进入设置反复切换语言。利用系统语言环境刷新全局字体缓存：不是简单覆盖文件或只清理普通缓存，而是调用 iOS 原生语言切换流程促使系统重新加载全局字体，同时由后台恢复任务保障语言设置能够自动还原。全局字体与锁屏时钟自由组合：既可以只替换全局字体或锁屏时钟，也可以为每套全局字体搭配独立的自定义锁屏时钟，所见即所得的实时预览。
+ * Manages custom system and lock-screen fonts on supported iOS 15+ jailbreak environments, refreshes language caches, restores system fonts, and reboots userspace.
+Maintainer: moxuan1121
+Author: moxuan1121
+Section: Tweaks
+Depends: firmware (>= 15.0), unzip
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Installed-Size: 2016
+Icon: https://TrollStoreX.Github.io/sileodepiction/FontChange/icon.png
+Filename: debs/com.moxuan.fontchange-1.1.1-roothide.deb
+Size: 1644268
+MD5sum: 9e256d2bc82db3e6f03312ad312dc7de
+SHA1: 
+SHA256: 21573035ba81f978162f901886fc5aecf0729a75cc15d83996a8cd916ecd168f
+
+Package: com.moxuan.fontchange
+Name: FontChange 字体挂载管理
+Description: 字体挂载，支持 Rootless/RootHide
+ * 管理受支持的 iOS 15+ 越狱环境中的自定义系统字体和锁屏字体，刷新语言缓存、恢复系统字体，并重启用户空间。
+ * 界面与操作：点击“导入字体”，选择全局字体压缩包或自定义锁屏时钟字体。在“字体方案”中选择需要使用的组合。点击上方预览卡片，在全局字体与自定义锁屏时钟之间切换预览。点击“检查并开始执行”。FontChange 会依次完成字体替换、临时语言环境切换、全局字体缓存重建、原语言恢复和用户空间重启。如需撤销，点击右上角恢复按钮即可恢复系统原生字体。请将字体文件保存到「我的 iPhone」，不要直接从 iCloud 云盘导入。也可以从其他 App 使用系统分享菜单发送到 FontChange。功能亮点：真正的一键替换与缓存刷新：一次确认即可自动完成字体包校验、字体挂载、语言环境切换、全局字体缓存重建、原语言恢复和用户空间重启，无需手动进入设置反复切换语言。利用系统语言环境刷新全局字体缓存：不是简单覆盖文件或只清理普通缓存，而是调用 iOS 原生语言切换流程促使系统重新加载全局字体，同时由后台恢复任务保障语言设置能够自动还原。全局字体与锁屏时钟自由组合：既可以只替换全局字体或锁屏时钟，也可以为每套全局字体搭配独立的自定义锁屏时钟，所见即所得的实时预览。
+ * Manages custom system and lock-screen fonts on supported iOS 15+ jailbreak environments, refreshes language caches, restores system fonts, and reboots userspace.
+Maintainer: moxuan1121
+Author: moxuan1121
+Section: Tweaks
+Depends: firmware (>= 15.0), unzip
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Installed-Size: 2016
+Icon: https://TrollStoreX.Github.io/sileodepiction/FontChange/icon.png
+Filename: debs/com.moxuan.fontchange-1.1.1-rootless.deb
+Size: 1645672
+MD5sum: 9ece45a2a9bebfb78d4e3c58534dd93a
+SHA1: 
+SHA256: 71d5f3e81c8c780557e6086ff1e4e0c8cc86df234ab91297e79ca8f33edfa1f4
+
 Package: com.mrgcgamer.libgcuniversal
 Name: LibGcUniversal
 Icon: https://sini921.github.io/repo/sileodepiction/icon/libgcuniversal.png
