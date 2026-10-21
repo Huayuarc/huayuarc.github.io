@@ -8934,6 +8934,25 @@ MD5sum: d2f018d04546befe8c93141e3f093777
 SHA1: 
 SHA256: 707ec3f6a457d2faf1944037b11e96be91d6e190f631b1504277cca7eb44f3b7
 
+Package: com.crctdd.choicy-whitelist
+Name: Choicy-Whitelist
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Conflicts: com.opa334.choicy, com.crctdd.choicy-patch
+Replaces: com.opa334.choicy, com.crctdd.choicy-patch
+Description: Choicy白名单 (支持iOS 15-17 roothide)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.5.4-7
+Installed-Size: 684
+icon: https://huayuarc.github.io/icon/ChoicyIcon@3x.png
+Filename: debs/com.crctdd.choicy-whitelist-1.5.4-7-roothide.deb
+Size: 142964
+MD5sum: 9e259b845dcd3b0591fab0a38078f21a
+SHA1: 
+SHA256: f169fdf79e6191dabedc5bf1b646f7e0b1b40d39bc33f5938eac1e07a751ecb5
+
 Package: com.crctdd.cranedd
 Name: Crane Drop Down
 Description: 下拉桌面图标弹出多开应用容器，无设置项。(支持iOS 15-17)
@@ -10380,6 +10399,60 @@ Size: 106760
 MD5sum: 8c8f6dfceb4d2ee79b8372c654cca089
 SHA1: 
 SHA256: 73c55fa6613a2b334fe2e6dd6c2281bc293dd85b3d137510410cdb2f9f18ae55
+
+Package: com.dao.axon
+Name: Axon
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon
+Description: 锁屏通知聚合插件，刀刀中文优化版，提升执行效率与稳定性。
+Maintainer: 刀刀
+Author: Nepeta & daodao
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 2.6
+Installed-Size: 720
+icon: https://huayuarc.github.io/icon/axon.png
+Filename: debs/com.dao.axon-2.6-rootful.deb
+Size: 163056
+MD5sum: 9df720f7e05fd0ca00a8847df8948489
+SHA1: 
+SHA256: 046174c8e0210e9b11e574092f66b1c41cb759e7950f44ecb8de1f7375be7320
+
+Package: com.dao.axon
+Name: Axon
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon
+Description: 锁屏通知聚合插件，刀刀中文优化版，提升执行效率与稳定性。
+Maintainer: 刀刀
+Author: Nepeta & daodao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.6
+Installed-Size: 720
+icon: https://huayuarc.github.io/icon/axon.png
+Filename: debs/com.dao.axon-2.6-roothide.deb
+Size: 163204
+MD5sum: 8ed84380f735ab32ade31f3e584dbbd1
+SHA1: 
+SHA256: a9d192dfc6804005cf0d0b819cd879ee3b53ce6a944283ca1441287959b16d29
+
+Package: com.dao.axon
+Name: Axon
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon
+Description: 锁屏通知聚合插件，刀刀中文优化版，提升执行效率与稳定性。
+Maintainer: 刀刀
+Author: Nepeta & daodao
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.6
+Installed-Size: 720
+icon: https://huayuarc.github.io/icon/axon.png
+Filename: debs/com.dao.axon-2.6-rootless.deb
+Size: 163420
+MD5sum: a0e38da9532bbbd1916cfbe639648ff8
+SHA1: 
+SHA256: b0fcc509262cf153a82606b50f053f3a3c73b19a905568f5a1e9f54d5cae8a1c
 
 Package: com.dao.cchide
 Name: CCLess++(bootstrap)
@@ -12196,6 +12269,42 @@ Size: 649980
 MD5sum: 96f41de973907d111880e98720bc97cf
 SHA1: 
 SHA256: 78c5b4207d89dfac1a1727db9ba99779b4a2ede7ca0aa25401154d25be122032
+
+Package: com.hang.kayoko
+Name: Kayoko
+Description: 感谢kayoko开源，魔改自用
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.7.1
+Installed-Size: 1744
+Filename: debs/com.hang.kayoko-4.7.1-roothide.deb
+Size: 476452
+MD5sum: e668781334823b71a77999ab7388f91b
+SHA1: 
+SHA256: 6d8459200a4fa7968690966a6e89a8b53497f9d230f15010cd47bdae75b68dc9
+
+Package: com.hang.kayoko
+Name: Kayoko
+Description: 感谢kayoko开源，魔改自用
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko
+Architecture: iphoneos-arm64
+Version: 4.7.1
+Installed-Size: 3152
+Filename: debs/com.hang.kayoko-4.7.1-rootless.deb
+Size: 650760
+MD5sum: b38c156d4f9f7137a0dd4e571eeb4f87
+SHA1: 
+SHA256: f21b4601b0abce5c3ecfd25d81dab435a40882b82878055457450136a8016188
 
 Package: com.hang.keyboardeffects
 Name: 键盘特效
@@ -40850,24 +40959,6 @@ MD5sum: b7b08113f63cd2435e17656a4be65e99
 SHA1: 
 SHA256: f3f0f75b5b11de3a130ffe25910e11b35a6193c035276ee970e297804499d48c
 
-Package: com.yaowell.cellbell
-Section: Tweaks
-Installed-Size: 168
-Maintainer: yaowell
-Architecture: iphoneos-arm64e
-Version: 1.0.3
-Depends: mobilesubstrate
-Description: 仿27图标二改了一下 不显示电量=不显示充电图标 iOS 27-style battery icon when percentage is off; fixes charging bolt centering by disabling UIKit's inline charging indicator.
- 作者：yaowell
-Name: CellBell
-Author: yaowell & 半生年华
-icon: https://huayuarc.github.io/icon/cellbell.jpg
-Filename: debs/com.yaowell.cellbell-1.0.3-roothide.deb
-Size: 6264
-MD5sum: 10013036b8a1b917804df57aa9ef235c
-SHA1: 
-SHA256: fedb7f49bfb0094ba12c74477dcf0206ed0d39b5ac4b3e33f4e6612e6ccd2faf
-
 Package: com.yaowell.dndhaptics
 Name: DND Haptics
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), com.opa334.ccsupport
@@ -43339,6 +43430,40 @@ MD5sum: fe2a67f5b3a6cef6bf474ff3c21216e8
 SHA1: 
 SHA256: d64e4b3ef352e6883c1849239a9cd2ba6d60373ff17b298b30f14d7b18a6ff79
 
+Package: iya.banana.iphoneduoflow
+Name: DuoFlow
+Description: 随倾斜变化的场景效果、横屏侧边 Dock与可展开状态星环。Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.1.4
+Installed-Size: 1376
+icon: https://huayuarc.github.io/icon/iphoneduoflow.png
+Filename: debs/iya.banana.iphoneduoflow-0.1.4-roothide.deb
+Size: 143016
+MD5sum: a4ea018f57c32a180c12d49de9b767f0
+SHA1: 
+SHA256: e0bedbac7de32e25aa2190a4a1f6f4dbe90064b1c8e96a4078b0dc0274aa86ec
+
+Package: iya.banana.iphoneduoflow
+Name: DuoFlow
+Description: 随倾斜变化的场景效果、横屏侧边 Dock与可展开状态星环。Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.1.4
+Installed-Size: 1376
+icon: https://huayuarc.github.io/icon/iphoneduoflow.png
+Filename: debs/iya.banana.iphoneduoflow-0.1.4-rootless.deb
+Size: 144320
+MD5sum: f74f663163e4f80a297374c8ddbf39a3
+SHA1: 
+SHA256: 5b53c0b1ece6fdd97f495a188b64151498b76b0f75d66596e570e736f0c994a7
+
 Package: iya.banana.iphoneduoicon
 Name: Lunora
 Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
@@ -43882,6 +44007,40 @@ Size: 297736
 MD5sum: 49b6069c379e0f115070357e9894fb0a
 SHA1: 
 SHA256: de494175ec0f5308ea2b04706b1a37eb14be38e4c4bf9abfe47f8e2b8f79d4a1
+
+Package: iya.banana.multitask
+Name: 一芽分屏 (Iya Split)
+Description: 随手分屏，自由安排你的多任务空问。Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Installed-Size: 2348
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+Filename: debs/iya.banana.multitask-0.1.2-roothide.deb
+Size: 389012
+MD5sum: 4568d7e35710f994069e4eaa1faed875
+SHA1: 
+SHA256: fbc0664cc612391d7f4c03802916070abe2fbefe4770e1843a9c2ca231205afd
+
+Package: iya.banana.multitask
+Name: 一芽分屏 (Iya Split)
+Description: 随手分屏，自由安排你的多任务空问。Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Installed-Size: 2348
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+Filename: debs/iya.banana.multitask-0.1.2-rootless.deb
+Size: 390984
+MD5sum: 9e7044d8cf27b639b29cd69139866571
+SHA1: 
+SHA256: b3765db2a802c1153877ffe14d08b640e7a30896752acd65bdea91b70516f1d7
 
 Package: iya.banana.multitask
 Name: 一芽分屏 (Iya Split)
@@ -44634,6 +44793,44 @@ Size: 980360
 MD5sum: 73d963d46b5af125fa7bc9a98b987afe
 SHA1: 
 SHA256: 6d45c34c30e476f0ec3a45cfe36313af46b846c26932abfca6ff6e8ea8970768
+
+Package: iya.iapple.siri
+Name: LiquidSiri
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourcompany.liquidsiri
+Replaces: com.yourcompany.liquidsiri
+Description: 使用NewSiri边缘照明或SiriAI玻璃界面自定义Siri。Customize Siri with NewSiri edge lighting or the SiriAI glass interface.
+Maintainer: Thijs mussig
+Author: Thijs mussig, Banana
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1.4
+Installed-Size: 2340
+icon: https://huayuarc.github.io/icon/liquidsiri.png
+Filename: debs/iya.iapple.siri-1.1.4-roothide.deb
+Size: 993344
+MD5sum: 275da21f3f03d294fda30d3e143e792c
+SHA1: 
+SHA256: 46ceee5ad79c258c5f94d03b543bf6b61415e6c04dc1f03e080ed8ae1e15b582
+
+Package: iya.iapple.siri
+Name: LiquidSiri
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourcompany.liquidsiri
+Replaces: com.yourcompany.liquidsiri
+Description: 使用NewSiri边缘照明或SiriAI玻璃界面自定义Siri。Customize Siri with NewSiri edge lighting or the SiriAI glass interface.
+Maintainer: Thijs mussig
+Author: Thijs mussig, Banana
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1.4
+Installed-Size: 2340
+icon: https://huayuarc.github.io/icon/liquidsiri.png
+Filename: debs/iya.iapple.siri-1.1.4-rootless.deb
+Size: 996660
+MD5sum: 1960d631ee360be0167bc1954cf772c5
+SHA1: 
+SHA256: 7b33997b453d88683b22a9c3b428caff077a078e12cfbd4809961f2fa505b1ba
 
 Package: jp.r-plus.sleipnizer5.rootless
 Version: 12.0.1
