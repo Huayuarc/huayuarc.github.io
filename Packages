@@ -7832,10 +7832,10 @@ Architecture: iphoneos-arm64e
 Version: 6.91
 Installed-Size: 36216
 Filename: debs/com.colorblack.bottomx.floatingball-6.91-roothide.deb
-Size: 35339332
-MD5sum: 8ffa6ad55cdd6ebec7762853d67a9df2
+Size: 38690968
+MD5sum: d021627440c2bb80a777348ac5505759
 SHA1: 
-SHA256: 10909ce500ba780b6f8a45f3f85bbd1d1527f3eef3ebeaf0e0c5b783b9d20ca7
+SHA256: 887b9fec6165e7b36262414144315823b3bfc959aff281f60ae9155817c39793
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -8036,10 +8036,10 @@ Architecture: iphoneos-arm64
 Version: 6.91
 Installed-Size: 36216
 Filename: debs/com.colorblack.bottomx.floatingball-6.91-rootless.deb
-Size: 35339888
-MD5sum: f45bb47dd185ec8983f62fa5274e21ea
+Size: 38691780
+MD5sum: 35b69fbec0f590068edade116962de75
 SHA1: 
-SHA256: 8e7fccddc3ffca8f31d360fe913da44633227447a4705845111c83dd6b6126b6
+SHA256: e9cbed8e0f5b68775185f2c9d9f485e2582bbe5a6d05c4cdb1935a31880d56f7
 
 Package: com.colorblack.bottomx.ios17
 Name: Bottom-x iOS17 Relaxin
@@ -8952,6 +8952,25 @@ Size: 142964
 MD5sum: 9e259b845dcd3b0591fab0a38078f21a
 SHA1: 
 SHA256: f169fdf79e6191dabedc5bf1b646f7e0b1b40d39bc33f5938eac1e07a751ecb5
+
+Package: com.crctdd.choicy-whitelist
+Name: Choicy-Whitelist
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Conflicts: com.opa334.choicy, com.crctdd.choicy-patch
+Replaces: com.opa334.choicy, com.crctdd.choicy-patch
+Description: Choicy白名单 (支持iOS 15-17 roothide)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.5.4-8
+Installed-Size: 700
+icon: https://huayuarc.github.io/icon/ChoicyIcon@3x.png
+Filename: debs/com.crctdd.choicy-whitelist-1.5.4-8-roothide.deb
+Size: 143944
+MD5sum: ea2c59198a83ddc3e628606bf7f7cbe0
+SHA1: 
+SHA256: de644471121e0fba12787696d51fec06705860faa7e67a8186557764e2975e2d
 
 Package: com.crctdd.cranedd
 Name: Crane Drop Down
@@ -12282,11 +12301,12 @@ Replaces: codes.aurora.kayoko, dev.traurige.kayoko
 Architecture: iphoneos-arm64e
 Version: 4.7.1
 Installed-Size: 1744
+icon: https://huayuarc.github.io/icon/Kayoko.png
 Filename: debs/com.hang.kayoko-4.7.1-roothide.deb
-Size: 476452
-MD5sum: e668781334823b71a77999ab7388f91b
+Size: 476484
+MD5sum: 6a644b92c5e94ce2b9ebe3a4a43f3482
 SHA1: 
-SHA256: 6d8459200a4fa7968690966a6e89a8b53497f9d230f15010cd47bdae75b68dc9
+SHA256: 6eaead56fd9eb86a5f5fa9895f1c76b84610431dc98c99a1873529b50dc085c9
 
 Package: com.hang.kayoko
 Name: Kayoko
@@ -12300,11 +12320,12 @@ Replaces: codes.aurora.kayoko, dev.traurige.kayoko
 Architecture: iphoneos-arm64
 Version: 4.7.1
 Installed-Size: 3152
+icon: https://huayuarc.github.io/icon/Kayoko.png
 Filename: debs/com.hang.kayoko-4.7.1-rootless.deb
-Size: 650760
-MD5sum: b38c156d4f9f7137a0dd4e571eeb4f87
+Size: 651048
+MD5sum: e7113a6f32456c5e31d2ed49697eb95f
 SHA1: 
-SHA256: f21b4601b0abce5c3ecfd25d81dab435a40882b82878055457450136a8016188
+SHA256: 0a741c7cfb54153c166917dfed6444156505fe088e0f32636f037663cf68cab4
 
 Package: com.hang.keyboardeffects
 Name: 键盘特效
@@ -12814,6 +12835,60 @@ Size: 844116
 MD5sum: eb1e698982c26fa0374d8ef30848490f
 SHA1: 
 SHA256: b802736e8fcc6feef504220187c5cd17bedef6b50155a75a773bbf4df2ddaedb
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm
+Version: 0.6.6
+Installed-Size: 3820
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.6-rootful.deb
+Size: 919168
+MD5sum: fd0381ffe100bc79b0037193f790c7cd
+SHA1: 
+SHA256: 45cf44c63091fbd61a6b63397827505093e4baebde16b8b4379171094d05b0aa
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 0.6.6
+Installed-Size: 3820
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.6-roothide.deb
+Size: 919036
+MD5sum: 248a8184dfb9f2b34ff6b8e83d9a55db
+SHA1: 
+SHA256: 567a56a5e61e73fdb995def5bba24ebe95d422af6740ad5074d60680dd7eca89
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 0.6.6
+Installed-Size: 3820
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.6-rootless.deb
+Size: 922724
+MD5sum: 79c1462bac017e25bf4efe1821b94705
+SHA1: 
+SHA256: 71ec23d014f4d49b50990aa9a726204edf173f2ab272a8895f908939c110d92d
 
 Package: com.hierarch.dykiller
 Name: DYKiller 抖音 UI 增强
@@ -19656,6 +19731,24 @@ Size: 27352
 MD5sum: 90d03bb0d4a294d805f2bee09e922fbb
 SHA1: 
 SHA256: a64520a5956c01cd75a6a27d2d6cfb631835a536724f37812fcdfbd4d8643738
+
+Package: com.milkway.apppro
+Name: App Pro
+Description: View & Manage Applications Data from your Home Screen (iOS 15-16 RootHide)
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Author: Milkway
+Maintainer: Milkway
+Architecture: iphoneos-arm64e
+Version: 0.0.38
+Installed-Size: 1052
+icon: https://huayuarc.github.io/icon/appro.png
+Filename: debs/com.milkway.apppro-0.0.38-roothide.deb
+Size: 196104
+MD5sum: 20af2695af8dd759c263b894188e67e3
+SHA1: 
+SHA256: 4c12c93b15215f677c8aa15951885a8fa63c2371310438688e9ef37d8365d3bb
 
 Package: com.minis.fxxxksvideotool
 Name: FxxxKSVideotool 快手工具
