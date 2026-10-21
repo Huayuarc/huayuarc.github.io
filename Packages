@@ -7832,10 +7832,10 @@ Architecture: iphoneos-arm64e
 Version: 6.91
 Installed-Size: 36216
 Filename: debs/com.colorblack.bottomx.floatingball-6.91-roothide.deb
-Size: 35339160
-MD5sum: 78d35fec637bacfd71c9a850ff8ba642
+Size: 35339332
+MD5sum: 8ffa6ad55cdd6ebec7762853d67a9df2
 SHA1: 
-SHA256: 8f66677c4ebc0b513b53846d83fc4b5999ca2c781eec0f6a488aabbd789bcaef
+SHA256: 10909ce500ba780b6f8a45f3f85bbd1d1527f3eef3ebeaf0e0c5b783b9d20ca7
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -8036,10 +8036,10 @@ Architecture: iphoneos-arm64
 Version: 6.91
 Installed-Size: 36216
 Filename: debs/com.colorblack.bottomx.floatingball-6.91-rootless.deb
-Size: 35339340
-MD5sum: aba74da158feffc4e7041e8901a03ff8
+Size: 35339888
+MD5sum: f45bb47dd185ec8983f62fa5274e21ea
 SHA1: 
-SHA256: e2e28d38a4d212da06b85c259f3290385c1b0a788ca8a6a4baf51cea3f7401be
+SHA256: 8e7fccddc3ffca8f31d360fe913da44633227447a4705845111c83dd6b6126b6
 
 Package: com.colorblack.bottomx.ios17
 Name: Bottom-x iOS17 Relaxin
@@ -42598,6 +42598,66 @@ MD5sum: 358bd08b21a9bfebc51204189a9165bc
 SHA1: 
 SHA256: fc186d04fd3560d838e4e4c40c7eb807fc7d8eaff66369ea4998d7f81d1a3fe3
 
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手 Rootful
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm
+Version: 3.2.2
+Installed-Size: 1580
+Filename: debs/im.mjh.xianyuadblock-3.2.2-rootful.deb
+Size: 571000
+MD5sum: 9369efd666e85af24c98e90bd6e365f5
+SHA1: 
+SHA256: 60b3f994858a24e3e8a4fafaa45722582d87598a71146c7bd44f828e535d90ec
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64e
+Version: 3.2.2
+Installed-Size: 1580
+Filename: debs/im.mjh.xianyuadblock-3.2.2-roothide.deb
+Size: 573152
+MD5sum: e499cad98b95c734f0ab898fbab41c6d
+SHA1: 
+SHA256: 29661a74d0410f45e345a5d3679e0a4808e229ad7d25550710b5c09bb13f733d
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64
+Version: 3.2.2
+Installed-Size: 1580
+Filename: debs/im.mjh.xianyuadblock-3.2.2-rootless.deb
+Size: 572424
+MD5sum: 0af24815fe550d1a7516159683720970
+SHA1: 
+SHA256: 209ebfa2e406d9a7504e54f58a114453c4e55a02848afd7d9dd8cc55d01c0c3c
+
 Architecture: iphoneos-arm64
 Package: im.mjh.xianyuhelper
 Name: 咸鱼助手
@@ -46777,6 +46837,44 @@ Size: 6572
 MD5sum: ed5bf497ce629c4d73ab7144973b8d4a
 SHA1: 
 SHA256: a40470c81fb59d6177e0c7de06fdc1b262796383931313a4f22c327b020b5cc7
+
+Package: uuhelper
+Name: uu 远控增强
+Description: UU 远控显示器快捷切换、常用组合键、显示器视角记忆与圆环滚轮增强。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Installed-Size: 276
+icon: https://huayuarc.github.io/icon/uuhelper.jpg
+Filename: debs/uuhelper-1.1.0-roothide.deb
+Size: 39344
+MD5sum: 3f9a7f1ef29d401815dfc2825d7e279b
+SHA1: 
+SHA256: cc2b23cdf86ca5b543bb6543fe3c4281a5555bda77a1bd89692773dbb3f7105b
+
+Package: uuhelper
+Name: uu 远控增强
+Description: UU 远控显示器快捷切换、常用组合键、显示器视角记忆与圆环滚轮增强。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Installed-Size: 276
+icon: https://huayuarc.github.io/icon/uuhelper.jpg
+Filename: debs/uuhelper-1.1.0-rootless.deb
+Size: 39368
+MD5sum: 25fe0c43ed70d6168661675a3c347b73
+SHA1: 
+SHA256: 6eb726bfc3a2ff2a9bca7ce12fcc027e1d2f9e2ee569b5c47063542dea744206
 
 Package: wiki.qaq.ighostvt
 Name: iGhostVT
