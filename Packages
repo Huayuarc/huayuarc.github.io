@@ -6103,435 +6103,6 @@ SHA256: 45c9b5e466589b6bb37a2af36902dfd3bccf4144062af7d6d9c19e6df4baaa7a
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
-Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
- 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
- .
- 【核心功能】
- - 单击悬浮球返回上一层，到达最底层时自动回到桌面
- - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.51 兼容更新】
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 仅前台 App 显示一个球，跨 App 记忆位置，桌面和设置隐藏
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - 按视频恢复贴边青蓝柔光与慢速流动，点击光效缩小至约 1.7 倍球直径
- .
- 【依赖】
- - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
-Maintainer: kanuo
-Author: kanuo
-Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
-Architecture: iphoneos-arm64e
-Version: 6.51
-Installed-Size: 1048
-Filename: debs/com.colorblack.bottomx.floatingball-6.51-roothide.deb
-Size: 408560
-MD5sum: b8c5cc0d40c31481e6457ae281af18c5
-SHA1: 
-SHA256: 26ae07e0055252c3e56d323e00c5f322521e242af3b0dfb691f07351c6880eeb
-
-Package: com.colorblack.bottomx.floatingball
-Name: Bottom-x 悬浮球
-Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
- 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
- .
- 【核心功能】
- - 单击悬浮球返回上一层，到达最底层时自动回到桌面
- - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.51 兼容更新】
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 仅前台 App 显示一个球，跨 App 记忆位置，桌面和设置隐藏
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - 按视频恢复贴边青蓝柔光与慢速流动，点击光效缩小至约 1.7 倍球直径
- .
- 【依赖】
- - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
-Maintainer: kanuo
-Author: kanuo
-Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
-Architecture: iphoneos-arm64
-Version: 6.51
-Installed-Size: 1048
-Filename: debs/com.colorblack.bottomx.floatingball-6.51-rootless.deb
-Size: 408196
-MD5sum: 78db175731f7269fe1d2580b062db485
-SHA1: 
-SHA256: 20d3660d57579a6d143644d338554e6e72174654efbfea16b840b1ca75d9ba3b
-
-Package: com.colorblack.bottomx.floatingball
-Name: Bottom-x 悬浮球
-Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
- 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
- .
- 【核心功能】
- - 单击悬浮球返回上一层，到达最底层时自动回到桌面
- - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.53 设置与分屏更新】
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
- .
- 【依赖】
- - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
-Maintainer: kanuo
-Author: kanuo
-Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
-Architecture: iphoneos-arm64e
-Version: 6.56
-Installed-Size: 1052
-Filename: debs/com.colorblack.bottomx.floatingball-6.56-roothide.deb
-Size: 413328
-MD5sum: 26d7e90b62fb2eaebbad8d9a00863cbf
-SHA1: 
-SHA256: b0ed59a733d39615450ed4111fd8a70ab4c8c89efe522323396f92941a3da1f1
-
-Package: com.colorblack.bottomx.floatingball
-Name: Bottom-x 悬浮球
-Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
- 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
- .
- 【核心功能】
- - 单击悬浮球返回上一层，到达最底层时自动回到桌面
- - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.53 设置与分屏更新】
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
- .
- 【依赖】
- - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
-Maintainer: kanuo
-Author: kanuo
-Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
-Architecture: iphoneos-arm64
-Version: 6.56
-Installed-Size: 1052
-Filename: debs/com.colorblack.bottomx.floatingball-6.56-rootless.deb
-Size: 413076
-MD5sum: 774e34e394f1a5428b46433acb291c27
-SHA1: 
-SHA256: d704a0f5384a69e3baa124d9d2fa5cbd96750b3ff7705a08fe28c877438aed63
-
-Package: com.colorblack.bottomx.floatingball
-Name: Bottom-x 悬浮球
-Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
- 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
- .
- 【核心功能】
- - 单击悬浮球返回上一层，到达最底层时自动回到桌面
- - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.59 SmartDeck Home】
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
- .
- 【依赖】
- - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
-Maintainer: kanuo
-Author: kanuo
-Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
-Architecture: iphoneos-arm64e
-Version: 6.59+screencore.2.user1012
-Installed-Size: 1225
-X-ScreenCore-Adapter-Input-SHA256: b6c3c02ec3f359f019fc74fb23c8a6022f233f6d46878e0b66b13ff8689f566d
-X-ScreenCore-Adapter: 10-12-exact-binary.1
-Filename: debs/com.colorblack.bottomx.floatingball-6.59+screencore.2.user1012-roothide.deb
-Size: 425536
-MD5sum: 6ca6e2596ec1a537f0a6aaf2157c072d
-SHA1: 
-SHA256: 770624d8a8095f1732c5e456da1912c93345554f910d0e8790c74b295e01f04b
-
-Package: com.colorblack.bottomx.floatingball
-Name: Bottom-x 悬浮球
-Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
- 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
- .
- 【核心功能】
- - 单击悬浮球返回上一层，到达最底层时自动回到桌面
- - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.59 SmartDeck Home】
- - 开放 iOS 16 安装，本包使用标准 rootless /var/jb 安装布局
- - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
- .
- 【依赖】
- - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
-Maintainer: kanuo
-Author: kanuo
-Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
-Architecture: iphoneos-arm64
-Version: 6.59+screencore.2.user1012
-Installed-Size: 1225
-X-ScreenCore-Adapter-Input-SHA256: b6c3c02ec3f359f019fc74fb23c8a6022f233f6d46878e0b66b13ff8689f566d
-X-ScreenCore-Adapter: 10-12-exact-binary.1
-X-Install-Environment: standard-rootless-var-jb
-Filename: debs/com.colorblack.bottomx.floatingball-6.59+screencore.2.user1012-rootless.deb
-Size: 425336
-MD5sum: bf30ebb61cd7bc778ddfb4ddec867116
-SHA1: 
-SHA256: d6fdc79accfd8357cc77db6d551481c14a0c024f30d2abca1624777e8e39219e
-
-Package: com.colorblack.bottomx.floatingball
-Name: Bottom-x 悬浮球
-Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
- 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
- .
- 【核心功能】
- - 单击悬浮球返回上一层，到达最底层时自动回到桌面
- - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.59 SmartDeck Home】
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
- .
- 【依赖】
- - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
-Maintainer: kanuo
-Author: kanuo
-Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
-Architecture: iphoneos-arm64e
-Version: 6.59
-Installed-Size: 1084
-Filename: debs/com.colorblack.bottomx.floatingball-6.59-roothide.deb
-Size: 419880
-MD5sum: cf3b99363c588c284f45219bc75cd1bd
-SHA1: 
-SHA256: ed075a588b3c35aa4444324a242d2554f3cc6fa08c0478b4bc31ee42d610ae48
-
-Package: com.colorblack.bottomx.floatingball
-Name: Bottom-x 悬浮球
-Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
- 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
- .
- 【核心功能】
- - 单击悬浮球返回上一层，到达最底层时自动回到桌面
- - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.59 SmartDeck Home】
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
- .
- 【依赖】
- - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
-Maintainer: kanuo
-Author: kanuo
-Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
-Architecture: iphoneos-arm64
-Version: 6.59
-Installed-Size: 1084
-Filename: debs/com.colorblack.bottomx.floatingball-6.59-rootless.deb
-Size: 419688
-MD5sum: abb04f8565bf027fdfc51c4831e7afaa
-SHA1: 
-SHA256: 9b040159a406d453cdb195f8f6495b5725ece6bd22a5adfdd84380749dae63a3
-
-Package: com.colorblack.bottomx.floatingball
-Name: Bottom-x 悬浮球
-Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
- 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
- .
- 【核心功能】
- - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
- - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
- - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.65 全局长按快捷菜单】
- - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
- - 单击保持原返回功能，桌面单击无动作；松开长按不返回，拖动仍可移动
- - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
- - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
- - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
- - 键盘收起恢复原位，自动避让不保存临时位置
- - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
- - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
- - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
- - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - 点击按进程和场景转发；重复和过期请求不会再次返回
- - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
- - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
- .
- 【运行依赖】
- - 越狱注入框架与 PreferenceLoader 设置加载器
-Maintainer: kanuo
-Author: kanuo
-Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
-Architecture: iphoneos-arm64e
-Version: 6.65
-Installed-Size: 1136
-Filename: debs/com.colorblack.bottomx.floatingball-6.65-roothide.deb
-Size: 435244
-MD5sum: cbd745eae67e2b957bb9ff37baf9835a
-SHA1: 
-SHA256: 144ceea6106a31a76c9142f16dac144ec4d0e3f2237279117b5c5349b4cfd4f5
-
-Package: com.colorblack.bottomx.floatingball
-Name: Bottom-x 悬浮球
-Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
- 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
- .
- 【核心功能】
- - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
- - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
- - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.65 全局长按快捷菜单】
- - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
- - 单击保持原返回功能，桌面单击无动作；松开长按不返回，拖动仍可移动
- - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
- - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
- - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
- - 键盘收起恢复原位，自动避让不保存临时位置
- - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
- - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
- - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
- - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - 点击按进程和场景转发；重复和过期请求不会再次返回
- - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
- - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
- .
- 【运行依赖】
- - 越狱注入框架与 PreferenceLoader 设置加载器
-Maintainer: kanuo
-Author: kanuo
-Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
-Architecture: iphoneos-arm64
-Version: 6.65
-Installed-Size: 1136
-Filename: debs/com.colorblack.bottomx.floatingball-6.65-rootless.deb
-Size: 435140
-MD5sum: 270fa50aaab1219d065152ff667b9f9f
-SHA1: 
-SHA256: 38a9345ecef5be45a09f717841f2951f4a655c4e9a1369704538886481e75626
-
-Package: com.colorblack.bottomx.floatingball
-Name: Bottom-x 悬浮球
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
  .
@@ -6608,10 +6179,10 @@ Architecture: iphoneos-arm64e
 Version: 6.70
 Installed-Size: 1432
 Filename: debs/com.colorblack.bottomx.floatingball-6.70-roothide.deb
-Size: 492024
-MD5sum: 33671682b0282c5ae99d620e1f15e809
+Size: 492160
+MD5sum: fe8131c381ce6bc5e9d64762b287f936
 SHA1: 
-SHA256: 16660a2e08f302fa31fc1536c3ffa3ef627e9a68c794943b82c66349108e992b
+SHA256: d8355fc1073f5e6d0427f8c68a000a7fafbb61557eac5b1dc55902152e7c68d9
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -6691,234 +6262,10 @@ Architecture: iphoneos-arm64
 Version: 6.70
 Installed-Size: 1432
 Filename: debs/com.colorblack.bottomx.floatingball-6.70-rootless.deb
-Size: 491572
-MD5sum: 0480acaad0764c989246d1cc42847ebf
+Size: 491576
+MD5sum: 4158dbd9dc9613a82efd5c53b9364c40
 SHA1: 
-SHA256: ea07ca3a253c5b7cd34ec92ce11faba1347915258b471afb1050da65e63e6da1
-
-Package: com.colorblack.bottomx.floatingball
-Name: Bottom-x 悬浮球
-Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
- 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
- .
- 【核心功能】
- - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
- - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
- - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.76 横屏四向手势坐标修复】
- - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
- - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
- - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
- - 诊断增加最近一次手势的坐标、方向及窗口变换信息
- .
- 【保留的自动旋转显示与拖动修复】
- - 全局球使用跟随前台方向的独立内容区域，覆盖桌面宿主仍竖屏的横屏 App
- - 不再强制覆盖系统窗口及根视图尺寸，避免自动旋转后显示和触摸区域被裁切
- - 拖动边界使用转换后的安全区域，横屏可上下左右调整位置
- - 位置按可见区域比例保存与恢复，旋转后限制在屏幕内，普通切换不移动
- .
- 【保留的横屏滑动方向修复】
- - 四向动作按当前界面方向识别，兼容左右横屏及返回竖屏
- - 统一转换屏幕坐标，兼容前台横屏而全局窗口仍为竖屏，避免重复旋转
- - 滑动中旋转取消当前手势，保留固定位置、自由拖动和键盘行为
- - 修复 UIKit 提前更新窗口尺寸时漏掉旋转布局，避免悬浮球留在屏幕边缘外
- .
- 【保留的截图并复制】
- - 四向滑动的工具选项新增“截图并复制（不保存）”，无需外部截图插件
- - 截取屏幕图片后只写入系统剪贴板，不调用相册保存或系统截图编辑流程
- - 截图前短暂隐藏悬浮球，完成或失败后恢复；切换界面或锁屏时取消待执行截图
- .
- 【保留的自定义键盘避让高度】
- - 设置增加键盘避让高度，0.1 到 10 厘米，滑块、加减及数字输入，按 0.1 厘米调整
- - 默认改为 1 厘米，保存后立即重新计算，保留原位置和双击固定模式
- - 避让区域包含键盘上方缓冲带，空间不足时限制在顶部可见范围内
- - 键盘收起恢复原位置，保留双击固定模式、四向动作、返回及长按菜单
- .
- 【保留的双击固定位置】
- - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
- - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
- - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
- .
- 【保留的系统工具修复】
- - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
- - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
- - StayShot 改用实际分布式通知通道，失败提示具体工具名称
- - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
- .
- 【保留的 SHELLX 工具接入】
- - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
- - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
- - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
- - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
- .
- 【保留的应用打开方式与位置稳定】
- - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
- - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
- - 未固定时拖动直接移动，已配置的四向动作暂停
- - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
- .
- 【保留的固定位置与四向动作】
- - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
- - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
- - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
- - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
- - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
- .
- 【保留的全局长按快捷菜单】
- - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
- - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
- - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
- - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
- - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
- - 键盘收起恢复原位，自动避让不保存临时位置
- - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
- - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
- - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
- - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - 点击按进程和场景转发；重复和过期请求不会再次返回
- - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
- - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
- .
- 【运行依赖】
- - 越狱注入框架与 PreferenceLoader 设置加载器
-Maintainer: kanuo
-Author: kanuo
-Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
-Architecture: iphoneos-arm64e
-Version: 6.76
-Installed-Size: 1448
-Filename: debs/com.colorblack.bottomx.floatingball-6.76-roothide.deb
-Size: 500028
-MD5sum: e0c2fa6d50923ce60fe574a0ace32cfd
-SHA1: 
-SHA256: fb391d9b0998f7bc6c346575ec1f9ea4ace8d5d98e368a37c1c1e9ddad367007
-
-Package: com.colorblack.bottomx.floatingball
-Name: Bottom-x 悬浮球
-Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
- 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
- .
- 【核心功能】
- - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
- - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
- - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.76 横屏四向手势坐标修复】
- - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
- - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
- - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
- - 诊断增加最近一次手势的坐标、方向及窗口变换信息
- .
- 【保留的自动旋转显示与拖动修复】
- - 全局球使用跟随前台方向的独立内容区域，覆盖桌面宿主仍竖屏的横屏 App
- - 不再强制覆盖系统窗口及根视图尺寸，避免自动旋转后显示和触摸区域被裁切
- - 拖动边界使用转换后的安全区域，横屏可上下左右调整位置
- - 位置按可见区域比例保存与恢复，旋转后限制在屏幕内，普通切换不移动
- .
- 【保留的横屏滑动方向修复】
- - 四向动作按当前界面方向识别，兼容左右横屏及返回竖屏
- - 统一转换屏幕坐标，兼容前台横屏而全局窗口仍为竖屏，避免重复旋转
- - 滑动中旋转取消当前手势，保留固定位置、自由拖动和键盘行为
- - 修复 UIKit 提前更新窗口尺寸时漏掉旋转布局，避免悬浮球留在屏幕边缘外
- .
- 【保留的截图并复制】
- - 四向滑动的工具选项新增“截图并复制（不保存）”，无需外部截图插件
- - 截取屏幕图片后只写入系统剪贴板，不调用相册保存或系统截图编辑流程
- - 截图前短暂隐藏悬浮球，完成或失败后恢复；切换界面或锁屏时取消待执行截图
- .
- 【保留的自定义键盘避让高度】
- - 设置增加键盘避让高度，0.1 到 10 厘米，滑块、加减及数字输入，按 0.1 厘米调整
- - 默认改为 1 厘米，保存后立即重新计算，保留原位置和双击固定模式
- - 避让区域包含键盘上方缓冲带，空间不足时限制在顶部可见范围内
- - 键盘收起恢复原位置，保留双击固定模式、四向动作、返回及长按菜单
- .
- 【保留的双击固定位置】
- - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
- - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
- - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
- .
- 【保留的系统工具修复】
- - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
- - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
- - StayShot 改用实际分布式通知通道，失败提示具体工具名称
- - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
- .
- 【保留的 SHELLX 工具接入】
- - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
- - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
- - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
- - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
- .
- 【保留的应用打开方式与位置稳定】
- - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
- - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
- - 未固定时拖动直接移动，已配置的四向动作暂停
- - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
- .
- 【保留的固定位置与四向动作】
- - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
- - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
- - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
- - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
- - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
- .
- 【保留的全局长按快捷菜单】
- - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
- - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
- - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
- - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
- - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
- - 键盘收起恢复原位，自动避让不保存临时位置
- - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
- - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
- - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
- - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - 点击按进程和场景转发；重复和过期请求不会再次返回
- - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
- - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
- .
- 【运行依赖】
- - 越狱注入框架与 PreferenceLoader 设置加载器
-Maintainer: kanuo
-Author: kanuo
-Section: Tweaks
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
-Architecture: iphoneos-arm64
-Version: 6.76
-Installed-Size: 1448
-Filename: debs/com.colorblack.bottomx.floatingball-6.76-rootless.deb
-Size: 500016
-MD5sum: cf8c1e840d869e99de7fecd9c27e7286
-SHA1: 
-SHA256: 4c4b9ed4dcd79373281bf61f5aa5fb7402ac2351e59d7fc67ebc073fd6e83148
+SHA256: 020270d6874d5277811c45999086fc11cfc1be2d507e7f77113973881cb3506d
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -7047,10 +6394,10 @@ Architecture: iphoneos-arm64e
 Version: 6.79
 Installed-Size: 1564
 Filename: debs/com.colorblack.bottomx.floatingball-6.79-roothide.deb
-Size: 548136
-MD5sum: aa02599ff4c85dfc28d4456144f5cfef
+Size: 532760
+MD5sum: 2b1917945313b5f06b5f2a65b372e7eb
 SHA1: 
-SHA256: 8ace9e87d552d6f3c2ce0edeb9bb81f5255798d8fd6168b82343f9751c99b4d1
+SHA256: f81a37f83eeccdf4e25dc65d1febc9a041ab8ac0df891a525893e6c28fe0bce1
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -7179,10 +6526,10 @@ Architecture: iphoneos-arm64
 Version: 6.79
 Installed-Size: 1564
 Filename: debs/com.colorblack.bottomx.floatingball-6.79-rootless.deb
-Size: 548220
-MD5sum: fac0159720a48287665959dcb2261e20
+Size: 532700
+MD5sum: 657617e3a3d99dce6039fa18fe49168a
 SHA1: 
-SHA256: 857d18211c7b29ff4d25ca7dda873e64f974df169fb658c11e6877df5f16c428
+SHA256: d3e8cd900dc8bac52d29308d025d839fb8085ba43100000c2c81a9b730575596
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -7338,10 +6685,10 @@ Architecture: iphoneos-arm64e
 Version: 6.83
 Installed-Size: 1880
 Filename: debs/com.colorblack.bottomx.floatingball-6.83-roothide.deb
-Size: 605480
-MD5sum: ca2276b478b1144113abc2e589f67239
+Size: 588768
+MD5sum: 0ae52e42742ca2a104a0032bbd017a2e
 SHA1: 
-SHA256: ad83bcc3a25f27107e17cbd42d74d8a9ff05703a6404fd3a456381b34a18126f
+SHA256: de016c76971601ace94671c456eb7633212d00c06315002e0b2d362003e58929
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -7497,10 +6844,10 @@ Architecture: iphoneos-arm64
 Version: 6.83
 Installed-Size: 1880
 Filename: debs/com.colorblack.bottomx.floatingball-6.83-rootless.deb
-Size: 604744
-MD5sum: 240aa270364ec5b49989b5fb2da597d7
+Size: 589172
+MD5sum: a09c1d81b592c17da8e7de613623f583
 SHA1: 
-SHA256: 1cffa5d79d5dc5ec82147c8173c13775e4a745b6fbe2b972a0c6688acfca6685
+SHA256: 5d5198e11e6d2a9c3f1cc36b3d42598f92212897b9c03d24602806b0c19f63c4
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -7690,10 +7037,10 @@ Architecture: iphoneos-arm64e
 Version: 6.89
 Installed-Size: 21960
 Filename: debs/com.colorblack.bottomx.floatingball-6.89-roothide.deb
-Size: 20878064
-MD5sum: 56bfea0167fc9afb9138da127560b8ed
+Size: 20861520
+MD5sum: b539576dc9d118652541048eaf2c7475
 SHA1: 
-SHA256: 27b51631a0a4696561eddd65db85f38766290c11610f0274d0b4d95abc515939
+SHA256: ca44015b78dfc067c2bc2dbbe579eaf3da7cee192a5a225ec74cf0333fcab9e3
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -7883,10 +7230,10 @@ Architecture: iphoneos-arm64
 Version: 6.89
 Installed-Size: 21960
 Filename: debs/com.colorblack.bottomx.floatingball-6.89-rootless.deb
-Size: 20876432
-MD5sum: 3a13c89ba8f0eb885bc0ecf8a2650e4d
+Size: 20859376
+MD5sum: 6a918a00b69d22b4b898e544fdd623ab
 SHA1: 
-SHA256: e24f67b79d9752ae285b93acf210021418cf4d7624b75a20e3a60feb38c23fa2
+SHA256: e32978dca79f51c311f2424ca49ba0d18964b7a0b10451ec505b66114a3aae7e
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -8082,10 +7429,10 @@ Architecture: iphoneos-arm64e
 Version: 6.90
 Installed-Size: 21992
 Filename: debs/com.colorblack.bottomx.floatingball-6.90-roothide.deb
-Size: 20879576
-MD5sum: 65799cf25497aa244ec4834bc615c089
+Size: 20863664
+MD5sum: 1b6e433431bed965258e2d63d3f3fc0a
 SHA1: 
-SHA256: 170a2ff6e4451157274066dc070589e691ef6129786602fa1d7e93d7e5a0554d
+SHA256: 20a46b9df74dc9da8cfc6c481e171c11980e3ae4411e454050ae8d8c4b33ad37
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -8281,10 +7628,10 @@ Architecture: iphoneos-arm64
 Version: 6.90
 Installed-Size: 21992
 Filename: debs/com.colorblack.bottomx.floatingball-6.90-rootless.deb
-Size: 20877312
-MD5sum: eef36a221f69e3fd239838e493059d87
+Size: 20861944
+MD5sum: 037cab072dcd169bbc378a8db2a0d57b
 SHA1: 
-SHA256: b72f91ab2d6b0a772420eae8be5a68bde35fee88f4057a60ea125db252ec514a
+SHA256: 7a16e44be7cea60e309d4013fd015174480261d7208adad3884dbcc5b7134dc3
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -8485,10 +7832,10 @@ Architecture: iphoneos-arm64e
 Version: 6.91
 Installed-Size: 36216
 Filename: debs/com.colorblack.bottomx.floatingball-6.91-roothide.deb
-Size: 35353280
-MD5sum: 2d04c2b575b52e1fe2bfa746eb75a1dd
+Size: 35339160
+MD5sum: 78d35fec637bacfd71c9a850ff8ba642
 SHA1: 
-SHA256: f5db7c38d6cf0d92a1dc58a151bf4bf5a6ba8b8e414e235658779bb8a5c3faef
+SHA256: 8f66677c4ebc0b513b53846d83fc4b5999ca2c781eec0f6a488aabbd789bcaef
 
 Package: com.colorblack.bottomx.floatingball
 Name: Bottom-x 悬浮球
@@ -8689,10 +8036,10 @@ Architecture: iphoneos-arm64
 Version: 6.91
 Installed-Size: 36216
 Filename: debs/com.colorblack.bottomx.floatingball-6.91-rootless.deb
-Size: 35354428
-MD5sum: 70688ea1aa4aaa10b14300239500145f
+Size: 35339340
+MD5sum: aba74da158feffc4e7041e8901a03ff8
 SHA1: 
-SHA256: d2359b7b72ef07cc6aa00c4a464d790bf15df2067d800870911fcb850d35fb55
+SHA256: e2e28d38a4d212da06b85c259f3290385c1b0a788ca8a6a4baf51cea3f7401be
 
 Package: com.colorblack.bottomx.ios17
 Name: Bottom-x iOS17 Relaxin

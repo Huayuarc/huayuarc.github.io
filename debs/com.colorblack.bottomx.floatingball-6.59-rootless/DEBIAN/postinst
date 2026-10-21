@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Do not kill SpringBoard from inside dpkg/Sileo. The user can respring manually
+# after installation; killing the UI here can leave dpkg interrupted.
+exit 0
