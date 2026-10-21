@@ -19585,6 +19585,40 @@ MD5sum: 951c0c349e7dd7d41aebad700b61fa06
 SHA1: 
 SHA256: a3d7719e62276cb1f1de75d9b5a1560f0997297297c321d50c3d0e1f60d8b9a1
 
+Package: com.minis.hidencheaders
+Name: 隐藏通知清除按钮
+Description: Hide notification group header and footer controls with zero occupancy. No preferences.
+Maintainer: L.E
+Author: L.E
+Section: Tweaks
+Tag: role::enduser
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/hidencheaders.jpg
+Filename: debs/com.minis.hidencheaders-1.0.4-roothide.deb
+Size: 11304
+MD5sum: 843a3a35c4cea5afec3159eb2b2212b3
+SHA1: 
+SHA256: 9e06a5a4e6e42367c4b15c670fc9f270cea16857480c01de7ee5b891f6cc9fce
+
+Package: com.minis.hidencheaders
+Name: 隐藏通知清除按钮
+Description: Hide notification group header and footer controls with zero occupancy. No preferences.
+Maintainer: L.E
+Author: L.E
+Section: Tweaks
+Tag: role::enduser
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Installed-Size: 76
+icon: https://huayuarc.github.io/icon/hidencheaders.jpg
+Filename: debs/com.minis.hidencheaders-1.0.4-rootless.deb
+Size: 7920
+MD5sum: a781d171991ba0c25c9b93f210138019
+SHA1: 
+SHA256: 23f414576d20a17f5b2283828da7e2571727adfcbd446436eb2442e5aa15144c
+
 Package: com.minis.lockscreengradientclock
 Name: 88 液态锁屏时间渐变
 Description: 更新说明：修复注销后日期和农历不渐变
@@ -43674,6 +43708,44 @@ Size: 804728
 MD5sum: 78c49e3ba9935ef309bb35d1a27c4074
 SHA1: 
 SHA256: 248f8520128eddbd1053d73a34083f3356f730ba2395c9d91cbd5d543ec2188c
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Architecture: iphoneos-arm64e
+Version: 1.1.1~beta37
+Installed-Size: 5148
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.1.1~beta37-roothide.deb
+Size: 916064
+MD5sum: 4ed37bcd9eeb74a48e32f9e62d0967b4
+SHA1: 
+SHA256: a6a78212fb315f6fdceb2b5315cc530b3252011332f2a9cd28f81d4dfa1a8c78
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Architecture: iphoneos-arm64
+Version: 1.1.1~beta37
+Installed-Size: 5164
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.1.1~beta37-rootless.deb
+Size: 921716
+MD5sum: 475295d76908b147f8af39671df2c690
+SHA1: 
+SHA256: c8995159fb580bf1ac814a14dee2b263bd5c5602072ca3a2d3e4e97834fae085
 
 Package: iya.banana.jumpguard
 Name: JumpGuard
