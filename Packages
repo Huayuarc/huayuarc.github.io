@@ -129,6 +129,48 @@ MD5sum: cae0d43ada786f9a9ab03e4ab4b5297e
 SHA1: 
 SHA256: 54b42828a318de5a5d37d5828092d1932c61ed779a06b43866f4db11ad705a8c
 
+Package: app.lookinside.tweak
+Name: LookInsideTweak
+Version: 0.1.2
+Architecture: iphoneos-arm64e
+Description: 将 LookInside 服务注入你选定的 App，这样你就能在 Mac 端的 LookInside 里通过 USB 调试查看这些应用。在设置里勾选目标 App，打开这些 App，即可在 Mac 的 LookInside 中检视视图与图层。无需修改 App，也不用重签名。Load LookInside Server into the apps you choose, so LookInside on your Mac can inspect them over USB. Pick apps in Settings, open them, and inspect their views and layers with LookInside on your Mac. The apps need no changes and no re-signing.
+Icon: https://lookinsideapp.github.io/LookInside-Tweak/icon.png
+Depiction: https://lookinsideapp.github.io/LookInside-Tweak/
+SileoDepiction: https://lookinsideapp.github.io/LookInside-Tweak/depiction.json
+Homepage: https://lookinside-app.com
+Maintainer: LookInside
+Author: LookInside <https://github.com/LookInsideApp/LookInside-Tweak>
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Installed-Size: 4336
+Filename: debs/app.lookinside.tweak-0.1.2-roothide.deb
+Size: 905052
+MD5sum: 1ae6beaf3fbe8217b3cc7e9979f18cac
+SHA1: 
+SHA256: 3538c730995e4d3f0a1da42037f635980eb0faf70b4a4505d76bae9eb322f7da
+
+Package: app.lookinside.tweak
+Name: LookInsideTweak
+Version: 0.1.2
+Architecture: iphoneos-arm64
+Description: 将 LookInside 服务注入你选定的 App，这样你就能在 Mac 端的 LookInside 里通过 USB 调试查看这些应用。在设置里勾选目标 App，打开这些 App，即可在 Mac 的 LookInside 中检视视图与图层。无需修改 App，也不用重签名。Load LookInside Server into the apps you choose, so LookInside on your Mac can inspect them over USB. Pick apps in Settings, open them, and inspect their views and layers with LookInside on your Mac. The apps need no changes and no re-signing.
+Icon: https://lookinsideapp.github.io/LookInside-Tweak/icon.png
+Depiction: https://lookinsideapp.github.io/LookInside-Tweak/
+SileoDepiction: https://lookinsideapp.github.io/LookInside-Tweak/depiction.json
+Homepage: https://lookinside-app.com
+Maintainer: LookInside
+Author: LookInside <https://github.com/LookInsideApp/LookInside-Tweak>
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Installed-Size: 4336
+Filename: debs/app.lookinside.tweak-0.1.2-rootless.deb
+Size: 904616
+MD5sum: 15c04ca8d75c5c7e1b3d2d323ac28925
+SHA1: 
+SHA256: c0e556938c58c0d8062d299ffab63ed8c9bc40692745547a17856b5e0a24ab07
+
 Package: aweme.x
 Conflicts: com.xx.dyhook
 Replaces: com.xx.dyhook
@@ -19222,6 +19264,58 @@ Size: 1445304
 MD5sum: a69af96b6bc11e194e7b7b5fae341193
 SHA1: 
 SHA256: f2af771b7900ac7193416908c65335d7c2fd54e326a44c51313e38280879033a
+
+Package: com.jaysuen.evocenter
+Name: Evo Center
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.3
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Architecture: iphoneos-arm64e
+Version: 4.0.0-beta.3
+Installed-Size: 27716
+Filename: debs/com.jaysuen.evocenter-4.0.0-beta.3-roothide.deb
+Size: 1451748
+MD5sum: e8e0613d76a8ba625850f5753442edac
+SHA1: 
+SHA256: 8d4cb9d99d7862498f7e0bc7fea45d43c9642974437a6e209dabbfae3910a236
+
+Package: com.jaysuen.evocenter
+Name: Evo Center
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.3
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Architecture: iphoneos-arm64
+Version: 4.0.0-beta.3
+Installed-Size: 27220
+Filename: debs/com.jaysuen.evocenter-4.0.0-beta.3-rootless.deb
+Size: 1446096
+MD5sum: ee1857cb3876a869d2ac5d52c8c80085
+SHA1: 
+SHA256: 9fd0a1c0b7eb952e7e244fd2461909db991fb6a80dc8b51bd304ba1d67bd66da
 
 Package: com.jibamao.gaodeclean
 Name: GaodeClean 高德精简
