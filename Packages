@@ -9968,6 +9968,40 @@ MD5sum: ef7694bff5416c0a7d32f59d11485cd7
 SHA1: 
 SHA256: a62f6b1f6ac9ff5c94d14b72262eae79cb39730ba81c2f870cfb3bb26228f950
 
+Package: com.crctdd.surgeactive
+Name: SurgeActive
+Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 108
+icon: https://huayuarc.github.io/icon/surgeactive.jpg
+Filename: debs/com.crctdd.surgeactive-0.0.3-roothide.deb
+Size: 11560
+MD5sum: 4e3faff8f499ebbfc1e0259d6334d729
+SHA1: 
+SHA256: b245fe90bd714180557f05ada70488ed992227ab75491b9a96d8ac67f9cf2387
+
+Package: com.crctdd.surgeactive
+Name: SurgeActive
+Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 236
+icon: https://huayuarc.github.io/icon/surgeactive.jpg
+Filename: debs/com.crctdd.surgeactive-0.0.3-rootless.deb
+Size: 16016
+MD5sum: c38381aef3b7fed39eb35f8511df24bd
+SHA1: 
+SHA256: bfee7df237026a25b8489f37876a3ee2357e99670af2d0b34a9ef8a7aec8c45c
+
 Package: com.crctdd.surgectl
 Name: SurgeCTL
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
@@ -12889,6 +12923,60 @@ Size: 922724
 MD5sum: 79c1462bac017e25bf4efe1821b94705
 SHA1: 
 SHA256: 71ec23d014f4d49b50990aa9a726204edf173f2ab272a8895f908939c110d92d
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm
+Version: 0.6.6.1
+Installed-Size: 3868
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.6.1-rootful.deb
+Size: 927200
+MD5sum: 9e79b8cf65280f86e2899d867a756030
+SHA1: 
+SHA256: c388dc8905c024e332c934fb77922a23b67512dee8e0a1a749ed49388b4a058a
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 0.6.6.1
+Installed-Size: 3868
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.6.1-roothide.deb
+Size: 927728
+MD5sum: 62e75a8de22eb6798e13cf3bc5b050a0
+SHA1: 
+SHA256: 739a6f1198bb1a336c868eabe0ff5ccfd77c711a6ae653e6c0c5c34fbf6ad0c3
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 0.6.6.1
+Installed-Size: 3868
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.6.1-rootless.deb
+Size: 926380
+MD5sum: 865f1e45fcf3b07d593a73819e36dae5
+SHA1: 
+SHA256: 557050cbd4f732d26a381f3c9282403687f24a84c4085d86c29c9aaf85ad53a0
 
 Package: com.hierarch.dykiller
 Name: DYKiller 抖音 UI 增强
@@ -18361,6 +18449,45 @@ Size: 1032220
 MD5sum: 48251fb0abc842a9ef954fab8e3edbd2
 SHA1: 
 SHA256: 0c7d0a61a5da9d958e3ba2fb7f9f2660d26ad47bb3ffa39fe3227b3240ed83fa
+
+Package: com.joshuaseltzer.sleeperx
+Version: 4.0.0
+Section: Tweaks
+Maintainer: Joshua Seltzer
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=15.0), firmware (<<26.0)
+Conflicts: org.thebigboss.sleeper, com.joshuaseltzer.sleeper
+Architecture: iphoneos-arm64e
+Installed-Size: 1768
+Name: SleeperX
+Author: Joshua Seltzer
+Sponsor: Joshua Seltzer
+Description: Set custom snooze times, skip alarms, and more with SleeperX.闹钟优化调整，原价0.99刀，现免费使用！
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/sleeperx.jpg
+Filename: debs/com.joshuaseltzer.sleeperx-4.0.0-roothide.deb
+Size: 136656
+MD5sum: 068438e88457d9d13915f3285bb05794
+SHA1: 
+SHA256: 46516d3a484b0132655712c3d7330623b3bb70127f556a8a9b53d17f022b3194
+
+Package: com.joshuaseltzer.sleeperx
+Version: 4.0.0
+Section: Tweaks
+Maintainer: Joshua Seltzer
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=15.0), firmware (<<26.0)
+Conflicts: org.thebigboss.sleeper, com.joshuaseltzer.sleeper
+Architecture: iphoneos-arm64
+Installed-Size: 1768
+Name: SleeperX
+Author: Joshua Seltzer
+Sponsor: Joshua Seltzer
+Description: Set custom snooze times, skip alarms, and more with SleeperX.闹钟优化调整，原价0.99刀，现免费使用！
+icon: https://huayuarc.github.io/icon/sleeperx.jpg
+Filename: debs/com.joshuaseltzer.sleeperx-4.0.0-rootless.deb
+Size: 156628
+MD5sum: 103075458405d28132a1f8ab61fdd383
+SHA1: 
+SHA256: 19b7eebd8c306947d1e33973778f83fe763d4b9ce2984879bda225e8b7be31bc
 
 Package: com.jzksnsjswkw.feemcrack
 Name: Feemcrack
@@ -23922,6 +24049,44 @@ Size: 766332
 MD5sum: dc32d3fca42b80112ed3c48680a821cd
 SHA1: 
 SHA256: 50d0aa885b27a133d41f4e334509637d97ad78c253cc72745cc8c049eb001610
+
+Package: com.muzi.mutool
+Name: MUtool
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音（接入提示音、MagSafe 动画、灵动岛电池与电池提醒）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（二级分类：锁屏增强 / 主屏幕增强 / 桌面增强，所有说明统一以 ⓘ 图标点击查看；锁屏：自动进桌面、解锁显示、通知亮屏、锁屏禁用与隐藏、唤醒与锁屏、锁屏充电胶囊、动作反馈；主屏幕：禁用项、隐藏项、小组件多选拖动、底栏设置、动画与后台；桌面：图标下载进度条与阴影、桌面电源菜单）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息。2.2.23 更新：①通话第三方录音修复联系人信息获取失败问题；②优化药丸旋转逻辑——竖屏应用只显示竖屏三悬浮、横屏应用只显示横屏悬浮，均不跟随传感器旋转、无黑影。2.2.21 优化：三合一状态栏电量同步系统状态栏数据源——此前电量读 IOPS（IOPSCopyPowerSourcesInfo）的 current/max capacity 比值自行取整，与系统状态栏电池图标（STStatusBarData.mainBatteryEntry.capacity，系统已按 0-100 取整）存在数值差，用户常反馈「三合一电量和系统不一样」；现改为在状态栏布局刷新时直接读取系统电池 entry 的 capacity（0-100 取整值）作为电量来源，与系统状态栏图标完全一致，IOPS 仅作数据源缺失时的兜底，充电判定仍走 IOPS（AC/isCharging，稳定可靠）。2.2.20 新增：设置页「充电相关 → 充电功能」新增「修复充电状态」按钮——一键执行 daemon --restore，清理历史版本（2.2.01 之前 Battman 充电控制）写入的 SMC 充电键（CH0C/CH0I/CH0B/CH0J/CH0K）与 IORegistry 停充残留（IsCharging/ExternalConnected/PredictiveChargingInhibit）及 topoffprotection 残留，恢复系统默认充电行为；用于解决「时充时不充」（历史残留停充键导致 iOS 间歇性不充电）的问题，修复请求经偏好键投递由 SpringBoard 后台执行、执行完自动清除。另：2.2.19 的全局总开关因安装后严重卡顿已整体回滚撤销，本版不含总开关功能。2.2.01 彻底移除充电限制/充电控制功能（阻止充电、阻止电源、限充阈值、智能充电计划、温度停充、满血充电、充电诊断日志），充电行为完全回归系统默认；升级/卸载自动清理历史版本写入的 SMC/IORegistry 充电残留与守护进程。2.2.02 修复 VoIP 通话录音：①修复 VoIP 录音已录到但通话录音列表不显示的问题（无号码录音不再被索引过滤）；②修复 VoIP 录音命名错误——从 CallKit 通话记录获取真正发起通话的 App（例如在闲鱼界面接听微信通话时正确命名「微信」而非前台「闲鱼」），并记录通话对方标识；③录音记录改为单一索引文件（recordings.json）追加写入，不再每次通话生成一个新 .json 文件。2.2.03 修复与增强：①修复 VoIP 录音导致 SpringBoard 桌面进程崩溃（微信 VoIP 通话回调在 SpringBoard 主线程同步加载 MobileCoreServices 卡死主线程触发 watchdog 超时，改为纯内存静态映射）；②电话 App 录音列表改用固定行高手写布局（滚动更流畅）+ 底部安全区域适配；③录音列表改为按最新在前平铺展示、不再按联系人分组，并调整为三行格式（渠道·联系人 / 方向·号码或用户 ID / 日期 时间·通话时长·文件大小），VoIP 记录新增通信渠道字段（微信/FaceTime 等），来电登记对方姓名与 wxid 用户 ID。2.2.04 彻底修复：①SpringBoard 崩溃根治——2.2.02/2.2.03 的 VoIP CXCallObserver delegate 设为主队列，微信来电时 callUpdated 在 SpringBoard 主线程解析 CXCall 私有字段（KVC bundleIdentifier/remoteHandle/displayName 等）长时间占用主线程触发 watchdog 60s 超时崩溃；现将 delegate 队列改为后台串行队列，CXCall 解析全部在后台完成，仅把门控与录音/UI 操作提交回主线程，主线程零负担；②修复电话 App 录音列表最后两条被底部 Tab 栏遮挡——child VC 铺满挂载时安全区不含 tabBar 高度，改为沿视图层级找到 UITabBar 并动态将表格底部 contentInset 加上 Tab 栏高度，最后记录可完整滚动到 Tab 上方。2.2.05 修复：电话 App 录音列表仍无法滑到最底端、最后几条被底部 Tab 栏挡住——2.2.04 沿 superview 查找 UITabBar 失败（Tab 栏是 UITabBarController 视图里的兄弟浮层，并非本视图祖先），从未真正加上 inset；改为通过 tabBarController（含父链兜底）定位 Tab 栏，并按表视图与 Tab 栏在表视图坐标系中的实际几何重叠量设置底部 contentInset，最后一个 cell 可完整滚动到 Tab 栏上方。2.2.06 修复：电话 App 录音列表页滚动到底部时底部 Tab 栏变透明、内容透出——iOS 15+ 在列表滚到相邻边缘时启用透明的 scrollEdge 外观；现将录音列表页显示期间的 Tab 栏 scrollEdge 外观改为不透明（沿用原图标/文字配色），离开页面时恢复，使录音列表底栏与其他页面一致。2.2.07 修复与优化：①电话 App 录音列表页底部 Tab 栏由不透明改为系统标准高斯模糊（毛玻璃）效果，与其它页面底栏观感一致；②录音列表拿不到用户名（无姓名，或姓名只是号码/wxid 本身）时，第一行用户名槽显示「未知号码」，不再空白或只显示渠道；③个人收藏页被录音列表替换后，隐藏原收藏页左上角「+」按钮，退出替换时恢复。2.2.08 修复：个人收藏页被录音列表替换后，导航栏「编辑/添加」按钮（及语音留言页「+」）仍残留——原实现只在首次挂载时隐藏一次，被替换 VC 后续 viewWillAppear/viewDidAppear 会重新补上系统按钮；现改为每次出现都重复隐藏（已挂载分支也收敛），并新增 viewDidAppear 兜底 hook，按钮不再残留；开关关闭退出替换时恢复原按钮。另确认 2.2.01 起插件已彻底移除充电限制/充电控制代码（daemon 仅承载定时唤醒调度，SMC 充电键仅在卸载清理 --restore 时恢复默认），不会再阻止充电。2.2.09 修复：微信 VoIP 来电接通后灵动岛通话弹窗卡死、无法挂断，对方挂断后弹窗仍不消失、桌面被看门狗结束——2.2.02 起为修正命名改用 CXCall 私有键（valueForKey bundleIdentifier/remoteHandle/displayName）获取通讯 App 与对方标识，该私有键访问在微信来电时触发系统误判主线程无响应；现取消该获取方式，完全回归「电话 App 获取方式」：CXCall 只读公开属性，通讯 App 名统一经前台 App 名（_MUCFrontmostAppName）在主线程获取，与 2.2.01 之前一致，通话不再卡死。2.2.14 修复：微信 VoIP 来电在主屏幕接听瞬间 SpringBoard 主线程被看门狗终结（60s 无响应）——定位到前台 App 名查询 _MUCFrontmostAppName() 在 SpringBoard 主线程做同步跨进程调用（_accessibilityFrontMostApplication 走 Accessibility daemon RPC、SBSCopyFrontmostApplicationDisplayIdentifier 走 backboardd mach），接听瞬间系统正做通话 UI 过渡极易长时间阻塞/死锁主线程；现将前台 App 名改为独立后台线程每 1s 轮询一次并缓存，主线程只读缓存字符串，命名路径上不再有任何主线程同步 IPC；同时恢复诊断日志落盘（CallRecordings/voip_diag.log，异步追加，主线程只投递一行），并埋点 handleCall/音频 hint/startRec 全链路，若异常可凭日志精确定位。2.2.15 修复：进一步落实 1.9.102 已验证的教训——SBSCopyFrontmostApplicationDisplayIdentifier 在 SpringBoard 进程内任何线程调用都会 XPC 自连 SpringBoardServices 死锁，现从 SpringBoard 代码中彻底移除该私有 API 调用（不再有任何线程调用它）；前台 App 名仅保留后台线程的 accessibility 显示名查询，主线程只读缓存，命名与稳定性两者兼顾。2.2.16 修复与调整：①第三方 App（微信等）VoIP 录音恢复获取对方名称/号码、渠道不再只显示 VoIP——参照电话 App 通话记录的获取原理（CallKit 同一数据源），CXCallObserver delegate 队列改回后台串行队列，在后台解析 CXCall 私有 KVC（bundleIdentifier 静态表→微信/WhatsApp 等渠道名、remoteHandle→对方号码或 wxid、displayName/localizedName→对方姓名），姓名缺失时后台按号码反查通讯录；前台 App 名缓存兜底，主线程零同步 IPC（延续 2.2.15 彻底移除 SBSCopy，杜绝看门狗）；②电话 App 录音列表与设置内录音列表格式调回两行：第一行「渠道·联系人名称·联系人号码」，第二行「呼出/接听·日期 时间 · 录音时长 ·录音大小」，行高收紧。2.2.17 修复：2.2.16 的 CXCall 私有键名在 iOS 17 取不到值（bundleIdentifier/remoteHandle/displayName 全部 nil，录音仍显示 VoIP·未知号码）；现将 CXCall KVC 改为多键候选逐键探测（bundleIdentifier/providerBundleIdentifier/providerIdentifier/applicationIdentifier/sourceIdentifier；remoteHandleValue/handleValue/address/remoteHandle/handle；displayName/localizedName/callerName/remoteName/callerDisplayName），并把每个键的命中/缺失结果写进 voip_diag.log，日志可直接判定可用键名；handleCall 诊断行增加通话 UUID 便于对账。2.2.18 调整：录音列表取不到联系人名称时，第一行不再显示「未知号码」，改为直接显示「渠道·号码」（如「微信·138 1234 5678」）；有名称则仍为「渠道·名称·号码」，两者均无则只显示渠道。2.2.03 修复：桌面悬浮药丸透明/去边框样式按背景反色的文字颜色，由「截图采样背景亮度（默认 0.5s 刷新，总比系统状态栏反转慢半拍）」改为「跟随系统状态栏前景色」——系统状态栏 setForegroundColor 变化时立即同步反色（事件驱动、零延迟），截图采样降级为兜底。2.2.04 修复：2.2.03 跟随系统状态栏反色在某些机型/场景导致药丸「直接不变色」——系统信号读取不可靠时 luma 被永久锁死、截图采样兜底被短路；现系统信号改为带 0.35s 时效（过期自动回退截图采样，绝不锁死），并新增 iOS17 STUIStatusBar setStyle: 这一可靠反转入口直接推送状态栏风格枚举（白字/黑字），多入口互补。2.2.05 修复：随反色出现「变色后又恢复、过一会才再变色」的抖动——系统信号 0.35s 时效过期后被截图采样拉回旧色；现系统状态栏信号一旦收到即持续有效（setStyle/setForegroundColor 为系统权威反转入口，不再过期），截图采样仅在从未收到系统信号时兜底，反色稳定跟随系统状态栏、零抖动。另修正与现有 STUIStatusBar setStyle hook 的编译冲突。2.2.06 修复：切浅色背景时药丸刚反转为黑字又立刻被拉回白字——iOS17 上旧的 _UIStatusBar setForegroundColor / UIStatusBar layoutSubviews 转发也会触发，且其 foregroundColor 可能恒白（非主状态栏文字色），覆盖了 STUIStatusBar setStyle: 的正确反转信号；现两处低优先级转发仅在无 STUIStatusBar（iOS15/16 非灵动岛）时启用，iOS17 只信任 setStyle: 权威入口，反色不再被覆盖回跳。2.2.07 重构：跟随系统状态栏信号的方案在灵动岛机型上不可靠（主屏状态栏文字可能不随壁纸反色，导致悬浮药丸恒白/反转错乱）；现回归「按药丸自身背景亮度反色」——把背景亮度采样频率从默认 0.5s 提升到独立 0.1s 高频轮询（仅透明/去边框样式启用），浅背景黑字/深背景白字的直觉正确性恢复，且响应接近即时，不再慢半拍；移除 STUIStatusBar setStyle / _UIStatusBar setForegroundColor / UIStatusBar 的三处状态栏信号转发。2.2.08 提速：反色仍比状态栏慢一点（0.1s 轮询固有延迟）；现把背景亮度采样间隔从 0.1s 收紧到 0.05s（20fps），并让截图只渲染药丸所在区域（不再渲染整个窗口 bounds，降低高频采样开销），反转响应接近即时。2.2.09 修复充电受影响：安装/升级 MUtool 时 postinst 会执行 --restore 清理工具，它每次都会写 IORegistry（IsCharging/ExternalConnected/PredictiveChargingInhibit）并触碰 SMC 充电键、强杀正在运行的 daemon，干扰系统充电状态；现升级路径不再执行 --restore（仅停止残留 daemon + 删除残留文件，不写入任何充电状态），SMC/IORegistry 历史残留清理仅在卸载时由 prerm 执行；排查确认 daemon 正常运行/worker/温控均不写充电键。2.2.10 新增与调整：①文件夹主题新增「网格大小」3×3 / 4×4 / 5×5 / 6×6 可选（大文件夹开启时生效，6×6 最多 36 个图标，图标按网格自动缩放）；②「充电提示音」菜单更名为「充电相关」；③「录制增强」菜单更名为「拨号｜录制」。2.2.11 调整：文件夹「展开尺寸」下限由 500pt 放宽到 300pt（上限仍为 550pt，默认 525pt），可把大文件夹收得更小。2.2.11 新增：文件夹「按图标数量自适应」——开启后展开高度完全随图标数量自适应（图标越少越矮），不再受「展开尺寸」影响，各网格行距恒定一致（3×3 不再被撑大），范围 250–550pt；另将大文件夹图标上限恢复为固定 30，规避 5×5/6×6 在文件夹缩回瞬间的崩溃。2.2.12 重构：大文件夹 4×4/5×5/6×6 改用 FolderPro 方案——移除图标网格的 transform 缩放（该方案在 5×5/6×6 缩回瞬间导致 SpringBoard 崩溃进安全模式），改为 SBIconView 图标内容按网格 cell 自适应缩放，图标上限仅在系统默认 9 时按网格返回 16/25/36；文件夹浮层改为对称边距 + 垂直居中。2.2.13 修复「锁定 120Hz」实际最高只有 80Hz：①MUtoolRefresh 注入 backboardd，并通过 CAWindowServerDisplay 的 setHighFrameRateReasons:count: 提交高帧率理由——此前只在 SpringBoard 请求高刷，请求被渲染服务器拒绝后回落 80Hz；②强制期间 hardwareRefreshRate 报告为 120；③执行期间每 3s 重提高帧率理由，防止 display 重配后失效；④恢复 refresh_diag.log 落盘（CallRecordings/refresh_diag.log），用于验证各类私有方法是否命中。2.2.14 继续修复 120Hz（2.2.13 日志显示 applySystemRefreshRate 在遍历 display 前就提前返回）：①CAWindowServer 实例获取增加 +server 兜底（iOS 17 上 serverIfRunning 可能返回 nil），并对 class 缺失/实例 nil/displays 为空分别记录日志；②渲染服务器提交逻辑在 SpringBoard 与 backboardd 两个进程都执行（display 可能只存在于 backboardd）；③首次执行记录 display 类名及 setHighFrameRateReasons:count:/各刷新率 setter 的命中情况，便于一次定位。2.2.15 修复 120Hz 卡在 80Hz 的根因（backboardd 中 +[CAWindowServer server] 返回 nil，拿不到 display 实例）：改为 hook CAWindowServerDisplay 自身——①系统调用 setHighFrameRateReasons:count: 时改写为只提交高帧率理由（1114113），并顺带把最小/最大/理想刷新率顶到 120；②vblDelta 在强制期间返回 1/120；③缓存系统实际使用的 display 实例，CAWindowServer 不可用时直接对其重复提交；④hook 前记录各方法是否原生存在，避免对不存在的方法调 %orig 崩溃。2.2.16 新增：文件夹主题「大文件夹」新增「图标大小」调节（0.5×~2.0×，默认 1.0×）——展开后文件夹内 App 图标按比例缩放（参照 FolderPro 的展开图标缩放机制，通过 SBIconView 图标内容缩放实现），网格布局不变。2.2.17 重构：悬浮药丸纯文字/去边框样式文字反色完全改用 Helium（github.com/AsakuraFuuko/Helium）方案——移除原有 0.05s 高频截图采样 + overrideUserInterfaceStyle 切换（慢且主线程开销大），改为 CABackdropLayer + colorInvert 反色滤镜 + 字形 mask：反色图层由 GPU 实时采样窗口背后内容，字形区域显示背景反色（深背景白字/亮背景黑字），背景变化零延迟跟随、无轮询、无主线程采样开销；「背景反色检测」滑杆随之移除。2.2.18 重构：文件夹「展开尺寸」参考 FolderPro 双参数模型重做——原固定「展开尺寸」滑杆（300–550pt）移除，改为「展开背景宽度」（左右边距，0–100 默认 10，越大文件夹背景越窄，图标水平间距随之变化）+「展开背景高度」（0–100 默认 60，高度 = 宽度 + 该值，越大背景越高，图标垂直间距随之变化）两个滑杆；展开宽度自动铺满屏幕减去左右边距，「按图标数量自适应」保持不受影响。
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64e
+Version: 2.2.23
+Installed-Size: 4896
+Filename: debs/com.muzi.mutool-2.2.23-roothide.deb
+Size: 776180
+MD5sum: 144fa81dd6b3b21cd4df81fbbc4641db
+SHA1: 
+SHA256: 8690cce02e1de0b875a11907b81f89e6052f451ce37ccf2b06f154f0ce2a4d2c
+
+Package: com.muzi.mutool
+Name: MUtool
+Description: 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，真机机型贴合挖孔展开，锁屏充电常驻大字电量/预计充满、未充电也常驻显示，长按弹出电源菜单（快速注销/强制注销/重启桌面/安全模式/重启空间/重启设备/设备关机），桌面空白处长按也可弹出电源菜单）、定时任务、自动禁用 SIM 与卡槽管理 / IPCC 运营商配置 / WiFi 永连（锁屏保持 Wi-Fi 常连）、充电提示音（接入提示音、MagSafe 动画、灵动岛电池与电池提醒）、文件夹主题（名称/文字/图标/背景配色、毛玻璃、大文件夹、标题字号对齐加粗与隐藏）、温控（阻止降频、CPU 功率锁定、模拟降频）、系统增强（二级分类：锁屏增强 / 主屏幕增强 / 桌面增强，所有说明统一以 ⓘ 图标点击查看；锁屏：自动进桌面、解锁显示、通知亮屏、锁屏禁用与隐藏、唤醒与锁屏、锁屏充电胶囊、动作反馈；主屏幕：禁用项、隐藏项、小组件多选拖动、底栏设置、动画与后台；桌面：图标下载进度条与阴影、桌面电源菜单）、录制增强（通话自动录音、录屏取消 DRM 静音、锁屏继续录制、录屏录制通话声音、录屏轨迹触点大小与图片可自定义）、美化相关（状态栏前景色 / 隐藏时间 / 强制浅深色）、桌面悬浮信息药丸（最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量，Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏）、电池健康与深度信息。2.2.23 更新：①通话第三方录音修复联系人信息获取失败问题；②优化药丸旋转逻辑——竖屏应用只显示竖屏三悬浮、横屏应用只显示横屏悬浮，均不跟随传感器旋转、无黑影。2.2.21 优化：三合一状态栏电量同步系统状态栏数据源——此前电量读 IOPS（IOPSCopyPowerSourcesInfo）的 current/max capacity 比值自行取整，与系统状态栏电池图标（STStatusBarData.mainBatteryEntry.capacity，系统已按 0-100 取整）存在数值差，用户常反馈「三合一电量和系统不一样」；现改为在状态栏布局刷新时直接读取系统电池 entry 的 capacity（0-100 取整值）作为电量来源，与系统状态栏图标完全一致，IOPS 仅作数据源缺失时的兜底，充电判定仍走 IOPS（AC/isCharging，稳定可靠）。2.2.20 新增：设置页「充电相关 → 充电功能」新增「修复充电状态」按钮——一键执行 daemon --restore，清理历史版本（2.2.01 之前 Battman 充电控制）写入的 SMC 充电键（CH0C/CH0I/CH0B/CH0J/CH0K）与 IORegistry 停充残留（IsCharging/ExternalConnected/PredictiveChargingInhibit）及 topoffprotection 残留，恢复系统默认充电行为；用于解决「时充时不充」（历史残留停充键导致 iOS 间歇性不充电）的问题，修复请求经偏好键投递由 SpringBoard 后台执行、执行完自动清除。另：2.2.19 的全局总开关因安装后严重卡顿已整体回滚撤销，本版不含总开关功能。2.2.01 彻底移除充电限制/充电控制功能（阻止充电、阻止电源、限充阈值、智能充电计划、温度停充、满血充电、充电诊断日志），充电行为完全回归系统默认；升级/卸载自动清理历史版本写入的 SMC/IORegistry 充电残留与守护进程。2.2.02 修复 VoIP 通话录音：①修复 VoIP 录音已录到但通话录音列表不显示的问题（无号码录音不再被索引过滤）；②修复 VoIP 录音命名错误——从 CallKit 通话记录获取真正发起通话的 App（例如在闲鱼界面接听微信通话时正确命名「微信」而非前台「闲鱼」），并记录通话对方标识；③录音记录改为单一索引文件（recordings.json）追加写入，不再每次通话生成一个新 .json 文件。2.2.03 修复与增强：①修复 VoIP 录音导致 SpringBoard 桌面进程崩溃（微信 VoIP 通话回调在 SpringBoard 主线程同步加载 MobileCoreServices 卡死主线程触发 watchdog 超时，改为纯内存静态映射）；②电话 App 录音列表改用固定行高手写布局（滚动更流畅）+ 底部安全区域适配；③录音列表改为按最新在前平铺展示、不再按联系人分组，并调整为三行格式（渠道·联系人 / 方向·号码或用户 ID / 日期 时间·通话时长·文件大小），VoIP 记录新增通信渠道字段（微信/FaceTime 等），来电登记对方姓名与 wxid 用户 ID。2.2.04 彻底修复：①SpringBoard 崩溃根治——2.2.02/2.2.03 的 VoIP CXCallObserver delegate 设为主队列，微信来电时 callUpdated 在 SpringBoard 主线程解析 CXCall 私有字段（KVC bundleIdentifier/remoteHandle/displayName 等）长时间占用主线程触发 watchdog 60s 超时崩溃；现将 delegate 队列改为后台串行队列，CXCall 解析全部在后台完成，仅把门控与录音/UI 操作提交回主线程，主线程零负担；②修复电话 App 录音列表最后两条被底部 Tab 栏遮挡——child VC 铺满挂载时安全区不含 tabBar 高度，改为沿视图层级找到 UITabBar 并动态将表格底部 contentInset 加上 Tab 栏高度，最后记录可完整滚动到 Tab 上方。2.2.05 修复：电话 App 录音列表仍无法滑到最底端、最后几条被底部 Tab 栏挡住——2.2.04 沿 superview 查找 UITabBar 失败（Tab 栏是 UITabBarController 视图里的兄弟浮层，并非本视图祖先），从未真正加上 inset；改为通过 tabBarController（含父链兜底）定位 Tab 栏，并按表视图与 Tab 栏在表视图坐标系中的实际几何重叠量设置底部 contentInset，最后一个 cell 可完整滚动到 Tab 栏上方。2.2.06 修复：电话 App 录音列表页滚动到底部时底部 Tab 栏变透明、内容透出——iOS 15+ 在列表滚到相邻边缘时启用透明的 scrollEdge 外观；现将录音列表页显示期间的 Tab 栏 scrollEdge 外观改为不透明（沿用原图标/文字配色），离开页面时恢复，使录音列表底栏与其他页面一致。2.2.07 修复与优化：①电话 App 录音列表页底部 Tab 栏由不透明改为系统标准高斯模糊（毛玻璃）效果，与其它页面底栏观感一致；②录音列表拿不到用户名（无姓名，或姓名只是号码/wxid 本身）时，第一行用户名槽显示「未知号码」，不再空白或只显示渠道；③个人收藏页被录音列表替换后，隐藏原收藏页左上角「+」按钮，退出替换时恢复。2.2.08 修复：个人收藏页被录音列表替换后，导航栏「编辑/添加」按钮（及语音留言页「+」）仍残留——原实现只在首次挂载时隐藏一次，被替换 VC 后续 viewWillAppear/viewDidAppear 会重新补上系统按钮；现改为每次出现都重复隐藏（已挂载分支也收敛），并新增 viewDidAppear 兜底 hook，按钮不再残留；开关关闭退出替换时恢复原按钮。另确认 2.2.01 起插件已彻底移除充电限制/充电控制代码（daemon 仅承载定时唤醒调度，SMC 充电键仅在卸载清理 --restore 时恢复默认），不会再阻止充电。2.2.09 修复：微信 VoIP 来电接通后灵动岛通话弹窗卡死、无法挂断，对方挂断后弹窗仍不消失、桌面被看门狗结束——2.2.02 起为修正命名改用 CXCall 私有键（valueForKey bundleIdentifier/remoteHandle/displayName）获取通讯 App 与对方标识，该私有键访问在微信来电时触发系统误判主线程无响应；现取消该获取方式，完全回归「电话 App 获取方式」：CXCall 只读公开属性，通讯 App 名统一经前台 App 名（_MUCFrontmostAppName）在主线程获取，与 2.2.01 之前一致，通话不再卡死。2.2.14 修复：微信 VoIP 来电在主屏幕接听瞬间 SpringBoard 主线程被看门狗终结（60s 无响应）——定位到前台 App 名查询 _MUCFrontmostAppName() 在 SpringBoard 主线程做同步跨进程调用（_accessibilityFrontMostApplication 走 Accessibility daemon RPC、SBSCopyFrontmostApplicationDisplayIdentifier 走 backboardd mach），接听瞬间系统正做通话 UI 过渡极易长时间阻塞/死锁主线程；现将前台 App 名改为独立后台线程每 1s 轮询一次并缓存，主线程只读缓存字符串，命名路径上不再有任何主线程同步 IPC；同时恢复诊断日志落盘（CallRecordings/voip_diag.log，异步追加，主线程只投递一行），并埋点 handleCall/音频 hint/startRec 全链路，若异常可凭日志精确定位。2.2.15 修复：进一步落实 1.9.102 已验证的教训——SBSCopyFrontmostApplicationDisplayIdentifier 在 SpringBoard 进程内任何线程调用都会 XPC 自连 SpringBoardServices 死锁，现从 SpringBoard 代码中彻底移除该私有 API 调用（不再有任何线程调用它）；前台 App 名仅保留后台线程的 accessibility 显示名查询，主线程只读缓存，命名与稳定性两者兼顾。2.2.16 修复与调整：①第三方 App（微信等）VoIP 录音恢复获取对方名称/号码、渠道不再只显示 VoIP——参照电话 App 通话记录的获取原理（CallKit 同一数据源），CXCallObserver delegate 队列改回后台串行队列，在后台解析 CXCall 私有 KVC（bundleIdentifier 静态表→微信/WhatsApp 等渠道名、remoteHandle→对方号码或 wxid、displayName/localizedName→对方姓名），姓名缺失时后台按号码反查通讯录；前台 App 名缓存兜底，主线程零同步 IPC（延续 2.2.15 彻底移除 SBSCopy，杜绝看门狗）；②电话 App 录音列表与设置内录音列表格式调回两行：第一行「渠道·联系人名称·联系人号码」，第二行「呼出/接听·日期 时间 · 录音时长 ·录音大小」，行高收紧。2.2.17 修复：2.2.16 的 CXCall 私有键名在 iOS 17 取不到值（bundleIdentifier/remoteHandle/displayName 全部 nil，录音仍显示 VoIP·未知号码）；现将 CXCall KVC 改为多键候选逐键探测（bundleIdentifier/providerBundleIdentifier/providerIdentifier/applicationIdentifier/sourceIdentifier；remoteHandleValue/handleValue/address/remoteHandle/handle；displayName/localizedName/callerName/remoteName/callerDisplayName），并把每个键的命中/缺失结果写进 voip_diag.log，日志可直接判定可用键名；handleCall 诊断行增加通话 UUID 便于对账。2.2.18 调整：录音列表取不到联系人名称时，第一行不再显示「未知号码」，改为直接显示「渠道·号码」（如「微信·138 1234 5678」）；有名称则仍为「渠道·名称·号码」，两者均无则只显示渠道。2.2.03 修复：桌面悬浮药丸透明/去边框样式按背景反色的文字颜色，由「截图采样背景亮度（默认 0.5s 刷新，总比系统状态栏反转慢半拍）」改为「跟随系统状态栏前景色」——系统状态栏 setForegroundColor 变化时立即同步反色（事件驱动、零延迟），截图采样降级为兜底。2.2.04 修复：2.2.03 跟随系统状态栏反色在某些机型/场景导致药丸「直接不变色」——系统信号读取不可靠时 luma 被永久锁死、截图采样兜底被短路；现系统信号改为带 0.35s 时效（过期自动回退截图采样，绝不锁死），并新增 iOS17 STUIStatusBar setStyle: 这一可靠反转入口直接推送状态栏风格枚举（白字/黑字），多入口互补。2.2.05 修复：随反色出现「变色后又恢复、过一会才再变色」的抖动——系统信号 0.35s 时效过期后被截图采样拉回旧色；现系统状态栏信号一旦收到即持续有效（setStyle/setForegroundColor 为系统权威反转入口，不再过期），截图采样仅在从未收到系统信号时兜底，反色稳定跟随系统状态栏、零抖动。另修正与现有 STUIStatusBar setStyle hook 的编译冲突。2.2.06 修复：切浅色背景时药丸刚反转为黑字又立刻被拉回白字——iOS17 上旧的 _UIStatusBar setForegroundColor / UIStatusBar layoutSubviews 转发也会触发，且其 foregroundColor 可能恒白（非主状态栏文字色），覆盖了 STUIStatusBar setStyle: 的正确反转信号；现两处低优先级转发仅在无 STUIStatusBar（iOS15/16 非灵动岛）时启用，iOS17 只信任 setStyle: 权威入口，反色不再被覆盖回跳。2.2.07 重构：跟随系统状态栏信号的方案在灵动岛机型上不可靠（主屏状态栏文字可能不随壁纸反色，导致悬浮药丸恒白/反转错乱）；现回归「按药丸自身背景亮度反色」——把背景亮度采样频率从默认 0.5s 提升到独立 0.1s 高频轮询（仅透明/去边框样式启用），浅背景黑字/深背景白字的直觉正确性恢复，且响应接近即时，不再慢半拍；移除 STUIStatusBar setStyle / _UIStatusBar setForegroundColor / UIStatusBar 的三处状态栏信号转发。2.2.08 提速：反色仍比状态栏慢一点（0.1s 轮询固有延迟）；现把背景亮度采样间隔从 0.1s 收紧到 0.05s（20fps），并让截图只渲染药丸所在区域（不再渲染整个窗口 bounds，降低高频采样开销），反转响应接近即时。2.2.09 修复充电受影响：安装/升级 MUtool 时 postinst 会执行 --restore 清理工具，它每次都会写 IORegistry（IsCharging/ExternalConnected/PredictiveChargingInhibit）并触碰 SMC 充电键、强杀正在运行的 daemon，干扰系统充电状态；现升级路径不再执行 --restore（仅停止残留 daemon + 删除残留文件，不写入任何充电状态），SMC/IORegistry 历史残留清理仅在卸载时由 prerm 执行；排查确认 daemon 正常运行/worker/温控均不写充电键。2.2.10 新增与调整：①文件夹主题新增「网格大小」3×3 / 4×4 / 5×5 / 6×6 可选（大文件夹开启时生效，6×6 最多 36 个图标，图标按网格自动缩放）；②「充电提示音」菜单更名为「充电相关」；③「录制增强」菜单更名为「拨号｜录制」。2.2.11 调整：文件夹「展开尺寸」下限由 500pt 放宽到 300pt（上限仍为 550pt，默认 525pt），可把大文件夹收得更小。2.2.11 新增：文件夹「按图标数量自适应」——开启后展开高度完全随图标数量自适应（图标越少越矮），不再受「展开尺寸」影响，各网格行距恒定一致（3×3 不再被撑大），范围 250–550pt；另将大文件夹图标上限恢复为固定 30，规避 5×5/6×6 在文件夹缩回瞬间的崩溃。2.2.12 重构：大文件夹 4×4/5×5/6×6 改用 FolderPro 方案——移除图标网格的 transform 缩放（该方案在 5×5/6×6 缩回瞬间导致 SpringBoard 崩溃进安全模式），改为 SBIconView 图标内容按网格 cell 自适应缩放，图标上限仅在系统默认 9 时按网格返回 16/25/36；文件夹浮层改为对称边距 + 垂直居中。2.2.13 修复「锁定 120Hz」实际最高只有 80Hz：①MUtoolRefresh 注入 backboardd，并通过 CAWindowServerDisplay 的 setHighFrameRateReasons:count: 提交高帧率理由——此前只在 SpringBoard 请求高刷，请求被渲染服务器拒绝后回落 80Hz；②强制期间 hardwareRefreshRate 报告为 120；③执行期间每 3s 重提高帧率理由，防止 display 重配后失效；④恢复 refresh_diag.log 落盘（CallRecordings/refresh_diag.log），用于验证各类私有方法是否命中。2.2.14 继续修复 120Hz（2.2.13 日志显示 applySystemRefreshRate 在遍历 display 前就提前返回）：①CAWindowServer 实例获取增加 +server 兜底（iOS 17 上 serverIfRunning 可能返回 nil），并对 class 缺失/实例 nil/displays 为空分别记录日志；②渲染服务器提交逻辑在 SpringBoard 与 backboardd 两个进程都执行（display 可能只存在于 backboardd）；③首次执行记录 display 类名及 setHighFrameRateReasons:count:/各刷新率 setter 的命中情况，便于一次定位。2.2.15 修复 120Hz 卡在 80Hz 的根因（backboardd 中 +[CAWindowServer server] 返回 nil，拿不到 display 实例）：改为 hook CAWindowServerDisplay 自身——①系统调用 setHighFrameRateReasons:count: 时改写为只提交高帧率理由（1114113），并顺带把最小/最大/理想刷新率顶到 120；②vblDelta 在强制期间返回 1/120；③缓存系统实际使用的 display 实例，CAWindowServer 不可用时直接对其重复提交；④hook 前记录各方法是否原生存在，避免对不存在的方法调 %orig 崩溃。2.2.16 新增：文件夹主题「大文件夹」新增「图标大小」调节（0.5×~2.0×，默认 1.0×）——展开后文件夹内 App 图标按比例缩放（参照 FolderPro 的展开图标缩放机制，通过 SBIconView 图标内容缩放实现），网格布局不变。2.2.17 重构：悬浮药丸纯文字/去边框样式文字反色完全改用 Helium（github.com/AsakuraFuuko/Helium）方案——移除原有 0.05s 高频截图采样 + overrideUserInterfaceStyle 切换（慢且主线程开销大），改为 CABackdropLayer + colorInvert 反色滤镜 + 字形 mask：反色图层由 GPU 实时采样窗口背后内容，字形区域显示背景反色（深背景白字/亮背景黑字），背景变化零延迟跟随、无轮询、无主线程采样开销；「背景反色检测」滑杆随之移除。2.2.18 重构：文件夹「展开尺寸」参考 FolderPro 双参数模型重做——原固定「展开尺寸」滑杆（300–550pt）移除，改为「展开背景宽度」（左右边距，0–100 默认 10，越大文件夹背景越窄，图标水平间距随之变化）+「展开背景高度」（0–100 默认 60，高度 = 宽度 + 该值，越大背景越高，图标垂直间距随之变化）两个滑杆；展开宽度自动铺满屏幕减去左右边距，「按图标数量自适应」保持不受影响。
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64
+Version: 2.2.23
+Installed-Size: 4948
+Filename: debs/com.muzi.mutool-2.2.23-rootless.deb
+Size: 779880
+MD5sum: 90b15e35ff9136bf8875c092863dfd7f
+SHA1: 
+SHA256: cc1de63ad004a3ffe7e53c9a7bc4f4a502307044087b324b57d8b957fa6b8a83
 
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
@@ -35598,6 +35763,40 @@ SHA256: ed12377ea7c0229d3f81a8a775316df0e34d9c2ec60a9fe43bf5acced90fbf73
 
 Package: com.sini921.cylinderreborn
 Name: CylinderReborn
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Icon: https://sini921.github.io/repo/sileodepiction/icon/cylinderreborn.png
+Description: 有点意思的桌面图标动画，基于开源优化编译，修正汉化，适配支持roothide。
+Maintainer: Ryan Nair & SINI
+Author: Ryan Nair & SINI
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.0-1
+Installed-Size: 1840
+Filename: debs/com.sini921.cylinderreborn-1.2.0-1-roothide.deb
+Size: 337192
+MD5sum: 6b021fa8a1cf4eb7562bc99f24c078c7
+SHA1: 
+SHA256: accd814aca3db3a45757b6dd274172cabd29d8fe7debf6f0b43b2c64ecb44ae8
+
+Package: com.sini921.cylinderreborn
+Name: CylinderReborn
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Icon: https://sini921.github.io/repo/sileodepiction/icon/cylinderreborn.png
+Description: 有点意思的桌面图标动画，基于开源优化编译，修正汉化，适配支持roothide。
+Maintainer: Ryan Nair & SINI
+Author: Ryan Nair & SINI
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.0-1
+Installed-Size: 1860
+Filename: debs/com.sini921.cylinderreborn-1.2.0-1-rootless.deb
+Size: 338856
+MD5sum: 20a349e92bd87ae4ee71909b7167e1c1
+SHA1: 
+SHA256: f7b36fd35ec6da86f8377fbf2ef0a654198ec5d44742d11ff11f38fa19a62129
+
+Package: com.sini921.cylinderreborn
+Name: CylinderReborn
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.6011), preferenceloader
 Icon: https://sini921.github.io/repo/sileodepiction/icon/cylinderreborn.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/cylinderreborn/js.json
@@ -41091,6 +41290,40 @@ Size: 6204
 MD5sum: b7b08113f63cd2435e17656a4be65e99
 SHA1: 
 SHA256: f3f0f75b5b11de3a130ffe25910e11b35a6193c035276ee970e297804499d48c
+
+Package: com.yaowell.cellbell
+Name: CellBell
+Depends: mobilesubstrate
+Description: 关闭电池百分比时启用 iOS 27 风格电池图标。(Enables an iOS 27-style battery icon when battery percentage is off.)
+Maintainer: yaowell
+Author: yaowell & 半生年华
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/cellbell.jpg
+Filename: debs/com.yaowell.cellbell-1.1-roothide.deb
+Size: 7844
+MD5sum: 900e8e63f62d656aff9d0d4af6bc19e5
+SHA1: 
+SHA256: 2e15b110ca074a1b3af641381bb7f1080c5b428dcaff5fb4d503435c72b6c938
+
+Package: com.yaowell.cellbell
+Name: CellBell
+Depends: mobilesubstrate
+Description: 关闭电池百分比时启用 iOS 27 风格电池图标。(Enables an iOS 27-style battery icon when battery percentage is off.)
+Maintainer: yaowell
+Author: yaowell & 半生年华
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/cellbell.jpg
+Filename: debs/com.yaowell.cellbell-1.1-rootless.deb
+Size: 7920
+MD5sum: 70595b3a0a6fb15fd38e9876f4af11b9
+SHA1: 
+SHA256: e12944599d9373f1a3bb81a06cff2679b65fe3a50bad8eed235a630b9de87720
 
 Package: com.yaowell.dndhaptics
 Name: DND Haptics
