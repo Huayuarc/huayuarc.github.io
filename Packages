@@ -8576,6 +8576,462 @@ MD5sum: 34559ed5001b282afb9124eb01d14885
 SHA1: 
 SHA256: 2bcad3ab2588a8568509c129220da5733922ff344c19ce1ad6449b23db47a594
 
+Package: com.colorblack.bottomx.floatingball
+Name: Bottom-x 悬浮球
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册或文件导入图片并编辑悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.96 解锁后轮换宠物】
+ - 宠物设置新增轮换模式，默认关闭；锁屏再解锁后按列表顺序切换，末尾循环
+ - 保留手动选择；图片模式或悬浮球关闭时不轮换，设置预览和列表勾选同步
+ - 重复状态通知不连跳，重启桌面不误切换；保留悬浮球位置和原有功能
+ .
+ 【6.95 设置入口图标尺寸】
+ - 设置列表入口改为 29 点图标，提供 1x、2x、3x 图片，修复图标过大
+ .
+ 【6.94 独立宠物列表】
+ - 宠物列表独立为选择页面，主页面只保留列表入口和网址导入
+ - 列表支持编辑删除、左滑删除，删除当前宠物后自动回退噜噜
+ - 主页面同步当前宠物与数量，保留网址引导、导入和全部原有功能
+ .
+ 【6.93 手机本地宠物管理】
+ - 设置增加 Petdex 网址输入和提交，自动下载、校验、转换并保存为手机本地动画
+ - 导入后自动启用；支持取消、重复导入更新、左滑删除，离线播放无需联网
+ - 安装包只保留噜噜默认宠物，升级前迁移旧版内置素材，后续更新保留本地下载
+ - 保留图片导入编辑、九组动画、闲逛、横屏、键盘、手势和返回
+ .
+ 【6.92 宠物列表调整】
+ - 新增 17 款指定 Petdex 动画，删除指定的 14 款宠物，当前共 43 款
+ - 已选宠物不在新列表时自动显示第一只噜噜，设置预览和勾选同步回退
+ - 保留其余宠物选择、图片导入编辑、横屏、闲逛、键盘及返回手势
+ .
+ 【6.91 横屏位置与宠物扩展】
+ - 按 App 实际界面方向和窗口已有旋转补偿，修复侧边悬浮球重复旋转到顶部
+ - 新增 15 款指定 Petdex 动画宠物，共 40 款，保留原选择和离线动画
+ - 保留十一种打开方式、闲逛互动、键盘隐藏避让、四向手势和返回
+ .
+ 【6.90 补齐应用打开方式】
+ - 参照 QuickLaunch 新增 FV、SVP 及一芽的五种明确打开模式，共 11 项且无重复
+ - 一芽支持上下、左右、浮窗 1、浮窗 2 和 Stage，分别保存到四向应用动作
+ - 接口不可用时全屏回退；请求已提交或状态不确定时不重复启动
+ - 保留原有打开方式、宠物闲逛、返回、键盘及图片编辑
+ .
+ 【6.89 宠物闲逛与随机互动】
+ - 新增闲逛模式，松手停止操作 5 秒后随机走动或跑动
+ - 走跑之间随机穿插全部九组标准动作，每轮打乱顺序后依次播放
+ - 触碰立即暂停，键盘、隐藏和旋转时暂停，恢复后重新等待
+ - 自动移动不写入手动保存位置，保留返回、固定位置及四向动作
+ .
+ 【6.88 完整宠物列表】
+ - 加入用户指定的 25 款 Petdex 动画宠物，噜噜保留一份
+ - 内置离线素材，列表独立缩略图与单宠物动画预览，支持滚动选择并记忆
+ - 保留图片导入编辑、返回、固定位置、四向动作及键盘行为
+ .
+ 【6.87 宠物显示修复】
+ - 使用 libroot 解析素材目录，兼容 TweakInject 加载路径及 RootHide 动态根目录
+ - 素材首次读取失败可重试，不再将宠物模式静默变成图片模式
+ - 宠物模式清除原图片自转动画，保留宠物逐帧互动
+ .
+ 【6.86 动画桌面宠物】
+ - 图标与桌面宠物模式切换，加入用户指定的 Petdex 噜噜水豚动画
+ - 本地逐帧播放待机、跳跃、挥手和拖动跑步，隐藏时停止播放
+ - 保留相册和文件导入、图片编辑、返回、固定位置、四向动作与长按菜单
+ .
+ 【6.85 横屏手势实际方向修复】
+ - App 无界面客户端主动上报实际 UIKit 场景方向，避免私有方向接口缺失后卡在竖屏
+ - 四向滑动、悬浮球布局及区域截图共用实际方向，左右横屏与恢复竖屏同步
+ - 按应用和进程隔离方向，上报过期、后台或版本不匹配时不采用
+ - App 未旋转时手机横放仍保持竖屏；保留键盘隐藏、避让及原有功能
+ .
+ 【6.84 跟随 App 实际界面方向】
+ - 横屏依据前台 App 场景已确认的界面方向，不依据手机姿态或全局请求方向
+ - App 保持竖屏时，手机横放不改变悬浮球布局、位置及四向手势
+ - App 真正旋转后，悬浮球显示、拖动边界及手势统一跟随画面方向
+ - 同一 App 场景暂不可读时保留上次方向，切换到未确认的新 App 默认竖屏
+ - 保留快捷指令读取、图片编辑、分屏返回、工具及键盘行为
+ .
+ 【6.83 快捷指令列表读取修复】
+ - 修复仅支持旧数据库表结构导致无法获取本机快捷指令的问题
+ - 兼容 ZSHORTCUT / ZWORKFLOWID 与旧 ZWORKFLOW / ZIDENTIFIER
+ - 排除已删除及隐藏指令，使用实际运行标识，保留同名指令
+ - 数据库错误区分结构、访问、占用和解析失败，可复制读取详情
+ - 保留 6.82 图片编辑以及全部原有功能
+ .
+ 【6.82 图标文件导入与图片编辑】
+ - 从相册或文件导入，支持 PNG、JPEG、HEIC 等系统图片格式
+ - 拖动与双指缩放、10% 到 400% 缩放滑块，圆形透明预览
+ - 点击背景颜色去除相连区域，多次点选，容差、边缘平滑与羽化独立调节
+ - 支持撤销、重置和编辑当前图标，保存后生效，取消保留原图标
+ - 保留快捷指令、分屏返回、84 项工具、键盘和横屏功能
+ .
+ 【6.81 本机快捷指令与后台运行】
+ - 同步本机快捷指令列表，选择后加入指定 QuickLaunch 菜单
+ - 指令唯一标识保存，支持刷新、搜索、排序和删除
+ - 四向动作和菜单点击共用后台运行器，不再用 URL 跳转快捷指令 App
+ - 保留 Split View Pro 返回及 84 项系统工具
+ 【6.80 Split View Pro 联动】
+ - 全局球返回跟随普通浮窗及多屏主副窗口最近触摸的应用场景
+ - 精确校验进程、场景和宿主，切窗取消旧返回，不操作底层应用
+ - 应用首页保持窗口，关闭窗口可选择独立工具
+ - 新增 18 项 Split View Pro 工具，共 84 项，四方向独立配置
+ - 接入原生菜单、浮窗、应用搜索、分屏交换与关闭、截图录屏和系统开关
+ - 仅这些工具需要 Split View Pro 1.4.2，不依赖 QuickLaunch，保留全部原有功能
+ .
+ 【保留的 QuickLaunch 系统工具】
+ - 新增 25 个工具，共 66 项，可搜索并独立配置四个方向
+ - 新增系统录屏与开麦录屏、截图编辑、独立区域截图框选复制和分享
+ - 新增 Siri、搜索、资源库、摇一摇、语音控制等辅助功能及 iPad 工具
+ - 新增 8 项 Open 窗口操作，以及自动亮度、夜览、原彩切换
+ - 运行时校验接口及设备支持，录屏等待回执，失败提示具体原因
+ - 无 QuickLaunch 安装依赖；Open 工具需要对应插件，保留全部原有功能
+ .
+ 【保留的 Open 分屏窗口返回】
+ - 点击悬浮球返回当前活动 Open 窗口的上一层，精确匹配应用进程与托管场景
+ - 原生导航首页再次点击仅收起当前窗口，不让底层 App 回桌面
+ - 多窗口跟随 Open 焦点，目标不明、切换或场景未连接时不误操作底层应用
+ - 保留键盘隐藏与避让、横屏手势、双击固定及原有打开方式
+ .
+ 【保留的 Open 分屏窗口】
+ - 应用打开方式新增 Open 分屏窗口，四个方向分别保存
+ - 参考 QuickLaunch 的 TrollOpenJB 1.5.2 接口，运行时检查兼容性
+ - 插件缺失或接口不兼容时全屏打开，提交后不重复启动，不绕过窗口限制
+ - 仅应用动作显示打开方式；保留横屏手势、键盘避让及原有功能
+ .
+ 【保留的横屏四向手势坐标修复】
+ - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
+ - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
+ - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
+ - 诊断增加最近一次手势的坐标、方向及窗口变换信息
+ .
+ 【保留的自动旋转显示与拖动修复】
+ - 全局球使用跟随前台方向的独立内容区域，覆盖桌面宿主仍竖屏的横屏 App
+ - 不再强制覆盖系统窗口及根视图尺寸，避免自动旋转后显示和触摸区域被裁切
+ - 拖动边界使用转换后的安全区域，横屏可上下左右调整位置
+ - 位置按可见区域比例保存与恢复，旋转后限制在屏幕内，普通切换不移动
+ .
+ 【保留的横屏滑动方向修复】
+ - 四向动作按当前界面方向识别，兼容左右横屏及返回竖屏
+ - 统一转换屏幕坐标，兼容前台横屏而全局窗口仍为竖屏，避免重复旋转
+ - 滑动中旋转取消当前手势，保留固定位置、自由拖动和键盘行为
+ - 修复 UIKit 提前更新窗口尺寸时漏掉旋转布局，避免悬浮球留在屏幕边缘外
+ .
+ 【保留的截图并复制】
+ - 四向滑动的工具选项新增“截图并复制（不保存）”，无需外部截图插件
+ - 截取屏幕图片后只写入系统剪贴板，不调用相册保存或系统截图编辑流程
+ - 截图前短暂隐藏悬浮球，完成或失败后恢复；切换界面或锁屏时取消待执行截图
+ .
+ 【保留的自定义键盘避让高度】
+ - 设置增加键盘避让高度，0.1 到 10 厘米，滑块、加减及数字输入，按 0.1 厘米调整
+ - 默认改为 1 厘米，保存后立即重新计算，保留原位置和双击固定模式
+ - 避让区域包含键盘上方缓冲带，空间不足时限制在顶部可见范围内
+ - 键盘收起恢复原位置，保留双击固定模式、四向动作、返回及长按菜单
+ .
+ 【保留的双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 未固定时拖动直接移动，已配置的四向动作暂停
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+Architecture: iphoneos-arm64e
+Version: 6.96
+Installed-Size: 2840
+Filename: debs/com.colorblack.bottomx.floatingball-6.96-roothide.deb
+Size: 1311564
+MD5sum: 09447d95942b53292212908afb317662
+SHA1: 
+SHA256: 6818ce12d776455958ea489576d8a0bedae771273781fed327b4bd8689e4ee5f
+
+Package: com.colorblack.bottomx.floatingball
+Name: Bottom-x 悬浮球
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册或文件导入图片并编辑悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.96 解锁后轮换宠物】
+ - 宠物设置新增轮换模式，默认关闭；锁屏再解锁后按列表顺序切换，末尾循环
+ - 保留手动选择；图片模式或悬浮球关闭时不轮换，设置预览和列表勾选同步
+ - 重复状态通知不连跳，重启桌面不误切换；保留悬浮球位置和原有功能
+ .
+ 【6.95 设置入口图标尺寸】
+ - 设置列表入口改为 29 点图标，提供 1x、2x、3x 图片，修复图标过大
+ .
+ 【6.94 独立宠物列表】
+ - 宠物列表独立为选择页面，主页面只保留列表入口和网址导入
+ - 列表支持编辑删除、左滑删除，删除当前宠物后自动回退噜噜
+ - 主页面同步当前宠物与数量，保留网址引导、导入和全部原有功能
+ .
+ 【6.93 手机本地宠物管理】
+ - 设置增加 Petdex 网址输入和提交，自动下载、校验、转换并保存为手机本地动画
+ - 导入后自动启用；支持取消、重复导入更新、左滑删除，离线播放无需联网
+ - 安装包只保留噜噜默认宠物，升级前迁移旧版内置素材，后续更新保留本地下载
+ - 保留图片导入编辑、九组动画、闲逛、横屏、键盘、手势和返回
+ .
+ 【6.92 宠物列表调整】
+ - 新增 17 款指定 Petdex 动画，删除指定的 14 款宠物，当前共 43 款
+ - 已选宠物不在新列表时自动显示第一只噜噜，设置预览和勾选同步回退
+ - 保留其余宠物选择、图片导入编辑、横屏、闲逛、键盘及返回手势
+ .
+ 【6.91 横屏位置与宠物扩展】
+ - 按 App 实际界面方向和窗口已有旋转补偿，修复侧边悬浮球重复旋转到顶部
+ - 新增 15 款指定 Petdex 动画宠物，共 40 款，保留原选择和离线动画
+ - 保留十一种打开方式、闲逛互动、键盘隐藏避让、四向手势和返回
+ .
+ 【6.90 补齐应用打开方式】
+ - 参照 QuickLaunch 新增 FV、SVP 及一芽的五种明确打开模式，共 11 项且无重复
+ - 一芽支持上下、左右、浮窗 1、浮窗 2 和 Stage，分别保存到四向应用动作
+ - 接口不可用时全屏回退；请求已提交或状态不确定时不重复启动
+ - 保留原有打开方式、宠物闲逛、返回、键盘及图片编辑
+ .
+ 【6.89 宠物闲逛与随机互动】
+ - 新增闲逛模式，松手停止操作 5 秒后随机走动或跑动
+ - 走跑之间随机穿插全部九组标准动作，每轮打乱顺序后依次播放
+ - 触碰立即暂停，键盘、隐藏和旋转时暂停，恢复后重新等待
+ - 自动移动不写入手动保存位置，保留返回、固定位置及四向动作
+ .
+ 【6.88 完整宠物列表】
+ - 加入用户指定的 25 款 Petdex 动画宠物，噜噜保留一份
+ - 内置离线素材，列表独立缩略图与单宠物动画预览，支持滚动选择并记忆
+ - 保留图片导入编辑、返回、固定位置、四向动作及键盘行为
+ .
+ 【6.87 宠物显示修复】
+ - 使用 libroot 解析素材目录，兼容 TweakInject 加载路径及 RootHide 动态根目录
+ - 素材首次读取失败可重试，不再将宠物模式静默变成图片模式
+ - 宠物模式清除原图片自转动画，保留宠物逐帧互动
+ .
+ 【6.86 动画桌面宠物】
+ - 图标与桌面宠物模式切换，加入用户指定的 Petdex 噜噜水豚动画
+ - 本地逐帧播放待机、跳跃、挥手和拖动跑步，隐藏时停止播放
+ - 保留相册和文件导入、图片编辑、返回、固定位置、四向动作与长按菜单
+ .
+ 【6.85 横屏手势实际方向修复】
+ - App 无界面客户端主动上报实际 UIKit 场景方向，避免私有方向接口缺失后卡在竖屏
+ - 四向滑动、悬浮球布局及区域截图共用实际方向，左右横屏与恢复竖屏同步
+ - 按应用和进程隔离方向，上报过期、后台或版本不匹配时不采用
+ - App 未旋转时手机横放仍保持竖屏；保留键盘隐藏、避让及原有功能
+ .
+ 【6.84 跟随 App 实际界面方向】
+ - 横屏依据前台 App 场景已确认的界面方向，不依据手机姿态或全局请求方向
+ - App 保持竖屏时，手机横放不改变悬浮球布局、位置及四向手势
+ - App 真正旋转后，悬浮球显示、拖动边界及手势统一跟随画面方向
+ - 同一 App 场景暂不可读时保留上次方向，切换到未确认的新 App 默认竖屏
+ - 保留快捷指令读取、图片编辑、分屏返回、工具及键盘行为
+ .
+ 【6.83 快捷指令列表读取修复】
+ - 修复仅支持旧数据库表结构导致无法获取本机快捷指令的问题
+ - 兼容 ZSHORTCUT / ZWORKFLOWID 与旧 ZWORKFLOW / ZIDENTIFIER
+ - 排除已删除及隐藏指令，使用实际运行标识，保留同名指令
+ - 数据库错误区分结构、访问、占用和解析失败，可复制读取详情
+ - 保留 6.82 图片编辑以及全部原有功能
+ .
+ 【6.82 图标文件导入与图片编辑】
+ - 从相册或文件导入，支持 PNG、JPEG、HEIC 等系统图片格式
+ - 拖动与双指缩放、10% 到 400% 缩放滑块，圆形透明预览
+ - 点击背景颜色去除相连区域，多次点选，容差、边缘平滑与羽化独立调节
+ - 支持撤销、重置和编辑当前图标，保存后生效，取消保留原图标
+ - 保留快捷指令、分屏返回、84 项工具、键盘和横屏功能
+ .
+ 【6.81 本机快捷指令与后台运行】
+ - 同步本机快捷指令列表，选择后加入指定 QuickLaunch 菜单
+ - 指令唯一标识保存，支持刷新、搜索、排序和删除
+ - 四向动作和菜单点击共用后台运行器，不再用 URL 跳转快捷指令 App
+ - 保留 Split View Pro 返回及 84 项系统工具
+ 【6.80 Split View Pro 联动】
+ - 全局球返回跟随普通浮窗及多屏主副窗口最近触摸的应用场景
+ - 精确校验进程、场景和宿主，切窗取消旧返回，不操作底层应用
+ - 应用首页保持窗口，关闭窗口可选择独立工具
+ - 新增 18 项 Split View Pro 工具，共 84 项，四方向独立配置
+ - 接入原生菜单、浮窗、应用搜索、分屏交换与关闭、截图录屏和系统开关
+ - 仅这些工具需要 Split View Pro 1.4.2，不依赖 QuickLaunch，保留全部原有功能
+ .
+ 【保留的 QuickLaunch 系统工具】
+ - 新增 25 个工具，共 66 项，可搜索并独立配置四个方向
+ - 新增系统录屏与开麦录屏、截图编辑、独立区域截图框选复制和分享
+ - 新增 Siri、搜索、资源库、摇一摇、语音控制等辅助功能及 iPad 工具
+ - 新增 8 项 Open 窗口操作，以及自动亮度、夜览、原彩切换
+ - 运行时校验接口及设备支持，录屏等待回执，失败提示具体原因
+ - 无 QuickLaunch 安装依赖；Open 工具需要对应插件，保留全部原有功能
+ .
+ 【保留的 Open 分屏窗口返回】
+ - 点击悬浮球返回当前活动 Open 窗口的上一层，精确匹配应用进程与托管场景
+ - 原生导航首页再次点击仅收起当前窗口，不让底层 App 回桌面
+ - 多窗口跟随 Open 焦点，目标不明、切换或场景未连接时不误操作底层应用
+ - 保留键盘隐藏与避让、横屏手势、双击固定及原有打开方式
+ .
+ 【保留的 Open 分屏窗口】
+ - 应用打开方式新增 Open 分屏窗口，四个方向分别保存
+ - 参考 QuickLaunch 的 TrollOpenJB 1.5.2 接口，运行时检查兼容性
+ - 插件缺失或接口不兼容时全屏打开，提交后不重复启动，不绕过窗口限制
+ - 仅应用动作显示打开方式；保留横屏手势、键盘避让及原有功能
+ .
+ 【保留的横屏四向手势坐标修复】
+ - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
+ - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
+ - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
+ - 诊断增加最近一次手势的坐标、方向及窗口变换信息
+ .
+ 【保留的自动旋转显示与拖动修复】
+ - 全局球使用跟随前台方向的独立内容区域，覆盖桌面宿主仍竖屏的横屏 App
+ - 不再强制覆盖系统窗口及根视图尺寸，避免自动旋转后显示和触摸区域被裁切
+ - 拖动边界使用转换后的安全区域，横屏可上下左右调整位置
+ - 位置按可见区域比例保存与恢复，旋转后限制在屏幕内，普通切换不移动
+ .
+ 【保留的横屏滑动方向修复】
+ - 四向动作按当前界面方向识别，兼容左右横屏及返回竖屏
+ - 统一转换屏幕坐标，兼容前台横屏而全局窗口仍为竖屏，避免重复旋转
+ - 滑动中旋转取消当前手势，保留固定位置、自由拖动和键盘行为
+ - 修复 UIKit 提前更新窗口尺寸时漏掉旋转布局，避免悬浮球留在屏幕边缘外
+ .
+ 【保留的截图并复制】
+ - 四向滑动的工具选项新增“截图并复制（不保存）”，无需外部截图插件
+ - 截取屏幕图片后只写入系统剪贴板，不调用相册保存或系统截图编辑流程
+ - 截图前短暂隐藏悬浮球，完成或失败后恢复；切换界面或锁屏时取消待执行截图
+ .
+ 【保留的自定义键盘避让高度】
+ - 设置增加键盘避让高度，0.1 到 10 厘米，滑块、加减及数字输入，按 0.1 厘米调整
+ - 默认改为 1 厘米，保存后立即重新计算，保留原位置和双击固定模式
+ - 避让区域包含键盘上方缓冲带，空间不足时限制在顶部可见范围内
+ - 键盘收起恢复原位置，保留双击固定模式、四向动作、返回及长按菜单
+ .
+ 【保留的双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 未固定时拖动直接移动，已配置的四向动作暂停
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+Architecture: iphoneos-arm64
+Version: 6.96
+Installed-Size: 2840
+Filename: debs/com.colorblack.bottomx.floatingball-6.96-rootless.deb
+Size: 1310412
+MD5sum: c58f90dcf30219cd8034bb84a38608d3
+SHA1: 
+SHA256: 15cf377d43969a8f725255a7e21f51122c9bdc769e546e873874c7115c319f59
+
 Package: com.colorblack.bottomx.ios17
 Name: Bottom-x iOS17 Relaxin
 Description: Bottom-x iOS 17 专用版，兼容 Relaxin RootHide；点击底部小白条逐级返回，到 App 最顶层返回桌面，保留学习返回与视觉返回。; QQ 群 2059 28931
@@ -20863,6 +21319,38 @@ Size: 265040
 MD5sum: 54e2c218466c9ebf9cbd851340f075a5
 SHA1: 
 SHA256: c264caa409eeb58e5d314292302e89d0e7df010a946ba12912857882112d516b
+
+Package: com.minis.lockscreengradientclock
+Name: 独立锁屏时间渐变
+Description: Configurable Lock Screen clock gradient.
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.0.24
+Installed-Size: 1060
+Filename: debs/com.minis.lockscreengradientclock-2.0.24-roothide.deb
+Size: 281932
+MD5sum: 06eecc37bf87e1817cf28f82c7d9ddf0
+SHA1: 
+SHA256: 28e1bb038c8027ce0ba0c196c664caa09bebde00a5cb94c585431a1bbf293792
+
+Package: com.minis.lockscreengradientclock
+Name: 独立锁屏时间渐变
+Description: Configurable Lock Screen clock gradient.
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.0.24
+Installed-Size: 1060
+Filename: debs/com.minis.lockscreengradientclock-2.0.24-rootless.deb
+Size: 282880
+MD5sum: c3e63cdfe35fb3b081bb6050bf63d6fc
+SHA1: 
+SHA256: c41e2c67492dc99d3ca2b5ee01a04b84d3ee58ed446587d052d310e7d99189cf
 
 Package: com.minis.lockscreengradientclock
 Name: 独立锁屏时间渐变
@@ -39074,6 +39562,245 @@ SHA1:
 SHA256: 092a2ce5b32297a237510d78d41d0e9ad663e0ecab328298067b3409acb78f10
 
 Package: com.susudear.screencore
+Name: screencore-窗口调度版
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-12。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
+ 安装后重启桌面。
+ 修复小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边的问题。
+ 尺寸恢复通过原版队列补发，不延迟切换；重新打开小窗时取消旧恢复，不修改键盘避让。
+ App 跳转小窗使用原始尺寸和完整画面比例，不套用普通分屏的 16:9 预设。
+ 复用已有窗口时同步原始比例；普通分屏、收藏切换和键盘避让保持原方案。
+ 补全巨魔安装应用等特殊接收端的键盘场景归属，并为缺少可用宿主的真实键盘层提供显示接入。
+ 复用原版键盘窗口及输入框避让，不改普通或跳转小窗比例、动画、启动保护、悬浮球及应用注入。
+ 修复左上角放大后底部点击及上划无法退出：手势区保留在屏幕内，关闭前释放强制铺满。
+ 沿用原版退出流程及上划开关和阈值；取消旧放大回调，不改变键盘避让、快捷切换和悬浮球适配。
+ 长按收藏 App 原地松手打开自由独立窗口，不受普通浮窗数量、单窗口替换或自动边缘停靠限制。
+ 独立窗口沿用分屏比例，不依赖 App 跳转弹窗开关；普通切换保留它，同 App 复用原窗口。
+ 保留放大退出修复、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 设置新增移除底部系统 Dock 开关，默认关闭，更改立即生效；不影响键盘或应用内底栏。
+ 保留长按独立窗口、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 修复键盘图层或承载窗口晚到时显示接入丢失，以及不可见原生宿主误接管造成的键盘空白。
+ 就绪恢复限定当前小窗及原版键盘显示请求，收起和切换取消旧重试；保留输入框避让与正常切换速度。
+ 新增 5:3 普通分屏比例，沿用 16:9 的键盘显示与输入框避让流程。
+ 同步应用画布、全屏交接和退出还原；跳转小窗保持原始比例，其他功能基于 .12-13。
+ 移除 4:3，保留原始比例、16:9、5:3；旧 4:3 设置自动迁移为 5:3。
+ 切换比例不再自动注销，确认后关闭并重新打开普通小窗生效；已打开小窗保持自己的比例。
+ 保留原设置保存及同步通知、手动注销、键盘与输入框避让和悬浮球适配。
+ 左右侧边向内滑动可实时临时放大，松手平滑恢复；侧边滑动替代移动。
+ 新增放大灵敏度滑条 1–8，默认 2；显示宽高分别不超过屏幕对应尺寸的 4 倍。
+ 保留 .12-17 的比例免注销、原有键盘避让、悬浮球适配和启动保护。
+ 底部向上滑动松手将小窗临时收进灵动岛，保留原应用会话。
+ QuickLaunch 圆形菜单未成全圆时松手立即恢复上次收起窗口；曾成全圆则保持原选 App 逻辑。
+ 进出带缩放、位移和淡入淡出；保留 .12-18 侧边临时放大及原有键盘与悬浮球适配。
+ QuickLaunch 按实际成圆状态判断快速呼出，扩大未成圆松手的可用范围。
+ 记录上次成功打开的 App，底部点击关闭后仍可重新呼出；已有窗口复用。
+ 保留原有键盘、悬浮球、灵动岛动画及启动失败保护，不增加固定等待。
+ 底部点击和上滑统一收进灵动岛后执行原生关闭，结束隐藏小窗托管。
+ 仅快速呼出使用灵动岛起点，其他入口保留 .12-17 原生出入场；保留键盘、悬浮球与启动失败保护。
+Maintainer: kanuo
+Author: kanuo
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 2.0.3+windowscheduler.12-21
+Installed-Size: 3537
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Core-Identity-Revision: expected-author-kanuo.1
+X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Geometry-Base-SHA256: 619767fdd4d744203cef45ca1d5cd370b5f9a5521850034a21ddf3523a7c2701
+X-Native-Jump-Geometry: popup-only-native-size.1
+X-Native-Jump-Base-SHA256: 2bc5d7e4c7c8ab8b0fe6117bc5fbd98a784701d429016984ce6a570ac54b131e
+X-Keyboard-Compatibility: scene-identity-and-bounded-readiness.2
+X-Keyboard-Base-SHA256: 19a90341e8511ab23a40f8f1ca23d3410a72cac82690501f9b7924bf3f33ef3b
+X-Fullscreen-Exit: onscreen-native-region-and-dismissal-release.1
+X-Fullscreen-Exit-Base-SHA256: 2dbe5dde47fdac2b813d9cb27434286885af7e29ee8b6f783a5ea86557fe9a58
+X-Favorite-Standalone: independent-policy-normal-split-geometry.1
+X-Favorite-Standalone-Base-SHA256: c09cf505d87431c352c80b52dfdf435801a3422b77cd0ee875ab481e35e55b34
+X-Fullscreen-Native-Canvas: physical-screen-reversible-queued-geometry.1
+X-Fullscreen-Base-SHA256: 60dcbb8f1b3dd67d1b0e8e6ba861883515b9dc279ba1fe805acc156d7bba5270
+X-Fullscreen-Rendered-Canvas: instance-settings-hosted-resize-ack-validation.1
+X-Fullscreen-Rendered-Base-SHA256: e68c9aa0f0da74a9601ef610ef3db3e9ef6a29042b7a60ea3c7ae24235bd45ba
+X-Native-Fullscreen-Return: native-promotion-scoped-nonkey-icon.1
+X-Native-Fullscreen-Base-SHA256: 52c3ba9af8bb6d2b7dd5c42428ff7f73b3ab48518d2d56448a732f0804c5ead3
+X-Native-Fullscreen-Return-Animation: reverse-native-presentation.1
+X-Native-Fullscreen-Canvas-Handoff: atomic-hosted-resize.1
+X-Native-Fullscreen-Scene-State: scoped-input-layout.1
+X-Aspect-Ratio: native,16:9,5:3; per-session-canvas.1
+X-Aspect-Ratio-Base-SHA256: 999511221a633e8ab0c5316df778574832b0877949e81de1ebfc0c065d6208f0
+X-Edge-Peek: live-transform.mirrored-sides.gain1-8.max-screen4.return-animation.1
+X-Edge-Peek-Base-SHA256: e6162a232679122468fd9b044c146b80a70012c13528653b959898661e62f034
+X-Island-Return: quicklaunch.partial-circle.release-only.live-layer.1
+X-Island-Return-Base-SHA256: 74085fb00c17c77e682898c612f5f0b81a6c11b1d9785a45a3c8082ee25e43d9
+X-Quick-Recall: visual-circle.release-only.last-successful-app.closed-reopen.1
+X-Quick-Recall-Base-SHA256: 75ab5199f8dcef7fa67d1a2d80e829afebae527a013e572cc00d12b64556a47d
+X-Island-Native-Close: tap.upward.native-close.island-reentry.1
+X-Island-Native-Close-Base-SHA256: 7b353b2ddf77e44670048e23343c25a17e2ee0bb95925952ae23e4d82f24aa3c
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
+Filename: debs/com.susudear.screencore-2.0.3+windowscheduler.12-21-roothide.deb
+Size: 586216
+MD5sum: be56bde2066fbaed6afcc299310b02fa
+SHA1: 
+SHA256: 736320c1c84eb1b2cef575c5be880f46b6b1b22003a7147228086e8259bcf3e5
+
+Package: com.susudear.screencore
+Name: screencore-窗口调度版
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-12。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
+ 安装后重启桌面。
+ 修复小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边的问题。
+ 尺寸恢复通过原版队列补发，不延迟切换；重新打开小窗时取消旧恢复，不修改键盘避让。
+ App 跳转小窗使用原始尺寸和完整画面比例，不套用普通分屏的 16:9 预设。
+ 复用已有窗口时同步原始比例；普通分屏、收藏切换和键盘避让保持原方案。
+ 补全巨魔安装应用等特殊接收端的键盘场景归属，并为缺少可用宿主的真实键盘层提供显示接入。
+ 复用原版键盘窗口及输入框避让，不改普通或跳转小窗比例、动画、启动保护、悬浮球及应用注入。
+ 修复左上角放大后底部点击及上划无法退出：手势区保留在屏幕内，关闭前释放强制铺满。
+ 沿用原版退出流程及上划开关和阈值；取消旧放大回调，不改变键盘避让、快捷切换和悬浮球适配。
+ 长按收藏 App 原地松手打开自由独立窗口，不受普通浮窗数量、单窗口替换或自动边缘停靠限制。
+ 独立窗口沿用分屏比例，不依赖 App 跳转弹窗开关；普通切换保留它，同 App 复用原窗口。
+ 保留放大退出修复、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 设置新增移除底部系统 Dock 开关，默认关闭，更改立即生效；不影响键盘或应用内底栏。
+ 保留长按独立窗口、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 修复键盘图层或承载窗口晚到时显示接入丢失，以及不可见原生宿主误接管造成的键盘空白。
+ 就绪恢复限定当前小窗及原版键盘显示请求，收起和切换取消旧重试；保留输入框避让与正常切换速度。
+ 新增 5:3 普通分屏比例，沿用 16:9 的键盘显示与输入框避让流程。
+ 同步应用画布、全屏交接和退出还原；跳转小窗保持原始比例，其他功能基于 .12-13。
+ 移除 4:3，保留原始比例、16:9、5:3；旧 4:3 设置自动迁移为 5:3。
+ 切换比例不再自动注销，确认后关闭并重新打开普通小窗生效；已打开小窗保持自己的比例。
+ 保留原设置保存及同步通知、手动注销、键盘与输入框避让和悬浮球适配。
+ 左右侧边向内滑动可实时临时放大，松手平滑恢复；侧边滑动替代移动。
+ 新增放大灵敏度滑条 1–8，默认 2；显示宽高分别不超过屏幕对应尺寸的 4 倍。
+ 保留 .12-17 的比例免注销、原有键盘避让、悬浮球适配和启动保护。
+ 底部向上滑动松手将小窗临时收进灵动岛，保留原应用会话。
+ QuickLaunch 圆形菜单未成全圆时松手立即恢复上次收起窗口；曾成全圆则保持原选 App 逻辑。
+ 进出带缩放、位移和淡入淡出；保留 .12-18 侧边临时放大及原有键盘与悬浮球适配。
+ QuickLaunch 按实际成圆状态判断快速呼出，扩大未成圆松手的可用范围。
+ 记录上次成功打开的 App，底部点击关闭后仍可重新呼出；已有窗口复用。
+ 保留原有键盘、悬浮球、灵动岛动画及启动失败保护，不增加固定等待。
+ 底部点击和上滑统一收进灵动岛后执行原生关闭，结束隐藏小窗托管。
+ 仅快速呼出使用灵动岛起点，其他入口保留 .12-17 原生出入场；保留键盘、悬浮球与启动失败保护。
+Maintainer: kanuo
+Author: kanuo
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 2.0.3+windowscheduler.12-21
+Installed-Size: 4468
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Install-Environment: standard-rootless-var-jb
+X-Rootless-Input-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Rootless-Revision: exact11-libroot-paths.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: 64fc26d41398f82dee8c641dc82a401d5dc908d5ef75deb55fb5af6334f8762e
+X-Core-Identity-Revision: expected-author-kanuo.1
+X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Geometry-Base-SHA256: e9cabb058422ab075eac379c15438bf6a962e86bccfa870ee7bc62cc8b286028
+X-Native-Jump-Geometry: popup-only-native-size.1
+X-Native-Jump-Base-SHA256: ff0edfa8b9ce6ee38054136a0e2da0d69004907dad70e00d8b8f24f74fa171fc
+X-Keyboard-Compatibility: scene-identity-and-bounded-readiness.2
+X-Keyboard-Base-SHA256: 1c77fd6f0c7c721d645a293c16d7b8cf6fa15178fd31adfd426b8c1812492fd4
+X-Fullscreen-Exit: onscreen-native-region-and-dismissal-release.1
+X-Fullscreen-Exit-Base-SHA256: cc28b5bc9408b504b09179029545c90c7d3fd6f110af80b2a8b520f76e5204e0
+X-Favorite-Standalone: independent-policy-normal-split-geometry.1
+X-Favorite-Standalone-Base-SHA256: f76ac941e43f74f0c57dff7b93ea3907d6af4e739b3497b865c555c3e2fa09a7
+X-Fullscreen-Native-Canvas: physical-screen-reversible-queued-geometry.1
+X-Fullscreen-Base-SHA256: 472fac2e6b474876df278e7c5fb457f443d155e1b34981d21e26f7ee38038bf6
+X-Fullscreen-Rendered-Canvas: instance-settings-hosted-resize-ack-validation.1
+X-Fullscreen-Rendered-Base-SHA256: 311a97ab829ac8dbcdd53964dab86477b1b30576a23e690f6fe5c7d1790db0a1
+X-Native-Fullscreen-Return: native-promotion-scoped-nonkey-icon.1
+X-Native-Fullscreen-Base-SHA256: 74aa276a95ac2633d2ecf174254bc04b9aded83084d61109cb9fffe723cdfaf8
+X-Native-Fullscreen-Return-Animation: reverse-native-presentation.1
+X-Native-Fullscreen-Canvas-Handoff: atomic-hosted-resize.1
+X-Native-Fullscreen-Scene-State: scoped-input-layout.1
+X-Aspect-Ratio: native,16:9,5:3; per-session-canvas.1
+X-Aspect-Ratio-Base-SHA256: 6ec9554333767f5dfe3f4b2c2a6fc3cbd299603b3a26fc8b9ce40c158e468836
+X-Edge-Peek: live-transform.mirrored-sides.gain1-8.max-screen4.return-animation.1
+X-Edge-Peek-Base-SHA256: 1ff51ada1bd3ab5fb66cf2e6e413f00288ed6297dc2371e7abe1a6339ce69368
+X-Island-Return: quicklaunch.partial-circle.release-only.live-layer.1
+X-Island-Return-Base-SHA256: 76d12fe7881aa670d48c803cba862da8f0ed818384b3fce40fabde218ad9a926
+X-Quick-Recall: visual-circle.release-only.last-successful-app.closed-reopen.1
+X-Quick-Recall-Base-SHA256: ea86c6685947647de6e0309e68da1685d8cab97ca753b2dc38739ebd9628401d
+X-Island-Native-Close: tap.upward.native-close.island-reentry.1
+X-Island-Native-Close-Base-SHA256: 9337e212690b7db01dd89a6922f68b0a549e58a0a286e31803d4e878b87e0417
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
+Filename: debs/com.susudear.screencore-2.0.3+windowscheduler.12-21-rootless.deb
+Size: 646920
+MD5sum: 7f43ff29327f7984b3de4d0c84d9fb0d
+SHA1: 
+SHA256: 9d4ba3a7ba1b3d5b6a083793de5c005a585bd5aca31828f8dcdec28bb8060731
+
+Package: com.susudear.screencore
 Name: ScreenCore
 Description: 分屏而已
 Maintainer: SuSu
@@ -47230,6 +47957,41 @@ Size: 21496
 MD5sum: 66c602dad1ab5155c0aff0dbbe1aebf2
 SHA1: 
 SHA256: ed19b973e41687e039c515b40879a7617df0a35b0cdbd348c1287239240cbf42
+
+Package: me.ray.jev-chat
+Name: Jev-Chat
+Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
+Maintainer: ray
+Author: ray
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.1.1-2+debug
+Installed-Size: 1536
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/me.ray.jev-chat-1.1.1-2+debug-roothide.deb
+Size: 275848
+MD5sum: d2d536f269c4d24c54c00628b380e272
+SHA1: 
+SHA256: 661bd87a4cec24627722e77a09e1792f050624f5d5ccaf014aa898be09f69591
+
+Package: me.ray.jev-chat
+Name: Jev-Chat
+Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
+Maintainer: ray
+Author: ray
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.1.1-2+debug
+Installed-Size: 1536
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/me.ray.jev-chat-1.1.1-2+debug-rootless.deb
+Size: 283052
+MD5sum: 5a015a462700c1e76eb38fa892784c00
+SHA1: 
+SHA256: 6654c42b06d974190d61b17a74550284627822d884d1b041a1fabeae9c5f3ac7
 
 Package: moe.waru.jikan
 Name: 锁屏充电胶囊
