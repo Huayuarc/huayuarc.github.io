@@ -4763,6 +4763,46 @@ MD5sum: 26252bf916bc14cb0132690b11034d3d
 SHA1: 
 SHA256: 4e3b7219f02c977b4a3b36ff1345b1d5dce2d8225c8a202526455c9ad10288fe
 
+Package: com.banana.trollpadex
+Name: TrollPadEx
+Description: 为 iPhone 带来更灵活的多任务、窗口与外接显示体验。Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Maintainer: Banana
+Author: khanhduytran0 & Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Provides: com.kdt.trollpad
+Architecture: iphoneos-arm64e
+Version: 2.0.5
+Installed-Size: 664
+icon: https://huayuarc.github.io/icon/TrollPad.png
+Filename: debs/com.banana.trollpadex-2.0.5-roothide.deb
+Size: 60048
+MD5sum: 917bc7a16e9a17f54117c18e4f5f22c6
+SHA1: 
+SHA256: ee788240edd703deb4bdcbc8b70e1c7c9a5018a819f9470a4ba28e97c145a2a1
+
+Package: com.banana.trollpadex
+Name: TrollPadEx
+Description: 为 iPhone 带来更灵活的多任务、窗口与外接显示体验。Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Maintainer: Banana
+Author: khanhduytran0 & Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Provides: com.kdt.trollpad
+Architecture: iphoneos-arm64
+Version: 2.0.5
+Installed-Size: 664
+icon: https://huayuarc.github.io/icon/TrollPad.png
+Filename: debs/com.banana.trollpadex-2.0.5-rootless.deb
+Size: 60804
+MD5sum: 286c2612bd9cfcaacd561f2e138631c6
+SHA1: 
+SHA256: e838bc23b41bb7f8ef61418463ea6eec8aa63671cfcd557263fce9a10e82f4b8
+
 Package: com.banshengnianhua.tracex
 Name: TraceX
 Description: 可选择目标 App 的原生交互与函数入口追踪工具。记录触摸/View 层级、UIControl 与手势 target/action、页面跳转、NSURLSession/WKWebView 请求和外部 URL。只有明确开启的普通用户 App 才加载重型追踪核心；系统/越狱 App 不加载 TraceXCore。每次目标 App 新进程启动都会重置 Documents/TraceX.log。
@@ -9850,6 +9890,50 @@ Size: 32084
 MD5sum: 41b4b85f13b65feb687b6d42330c609c
 SHA1: 
 SHA256: adda645d10c71b1b4fe8947a99ee9f3717e888c76e075ed14cf8f7206a2d28bc
+
+Package: com.crctdd.pyvideo
+Name: PyVideo
+Description: 获取当前页面的视频并下载，仅Safari浏览器可用；无设置项。（支持iOS 15-17）\
+ \
+ 长按Safari右下角菜单键 或者\
+ ↓使用以下URL Scheme触发↓\
+ \
+ pyvideo://video-downloader
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy (>= 1.1.6)
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 2968
+icon: https://huayuarc.github.io/icon/pyvideo.jpg
+Filename: debs/com.crctdd.pyvideo-0.0.3-roothide.deb
+Size: 995672
+MD5sum: e2675769212ba37744318cfda39026d9
+SHA1: 
+SHA256: 06b949af9f0c80b7d53ffdb224bc0976a30e6e6077795b056ba170350dde39d4
+
+Package: com.crctdd.pyvideo
+Name: PyVideo
+Description: 获取当前页面的视频并下载，仅Safari浏览器可用；无设置项。（支持iOS 15-17）\
+ \
+ 长按Safari右下角菜单键 或者\
+ ↓使用以下URL Scheme触发↓\
+ \
+ pyvideo://video-downloader
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy (>= 1.1.6)
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 5848
+icon: https://huayuarc.github.io/icon/pyvideo.jpg
+Filename: debs/com.crctdd.pyvideo-0.0.3-rootless.deb
+Size: 1556884
+MD5sum: 01bf7699b614dfaff27a689a79c0aca6
+SHA1: 
+SHA256: eae31118fa4cab726456496a1e2fea9f1c931b9e12cefb4cafe4eb0dcc3d3407
 
 Package: com.crctdd.shorbar
 Name: ShortBar
@@ -18577,6 +18661,86 @@ MD5sum: a69af96b6bc11e194e7b7b5fae341193
 SHA1: 
 SHA256: f2af771b7900ac7193416908c65335d7c2fd54e326a44c51313e38280879033a
 
+Package: com.jibamao.gaodeclean
+Name: GaodeClean 高德精简
+Description: 高德地图界面精简 · 纯本地运行
+ 把多余的视觉干扰去掉，把该在的位置摆回原样；不抓网络、不改安装包、不采集任何数据。
+ .
+ 添加源 https://gan-jibamao.github.io 后搜索 GaodeClean 即可安装（RootHide 选 arm64e，
+ Dopamine / rootless 选 arm64，两者不可同时安装）。
+ .
+ 界面精简：
+  • 去底栏「上拉发现」引导提示，去上拉白雾与闪白
+  • 去顶部高斯模糊带，去首页白块
+ .
+ 位置归位（对表高德原生布局）：
+  • 搜索栏 / 天气行 / 连接车机 / 2D·3D / 定位·路线胶囊，各归其位
+  • 2D·3D 按钮回到定位·路线胶囊正上方
+  • 连接车机按钮位于天气行上方，天气行与按钮左对齐
+ .
+ 稳定不闪：
+  • 切页、切 2D·3D 不再跳动
+  • 冷启动全程不会在屏幕中部闪出按钮
+ .
+ 全版本自适应：按控件特征判定，不绑定具体高德版本号。
+ 只改界面显示，不影响搜索、导航、路线规划等原有功能。
+ 装后请注销（sbreload）或重启用户空间再打开高德。
+ .
+ 常用说明与更新日志见仓库 Release 页面。
+Maintainer: jibamao
+Author: jibamao
+Section: jibamao-Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.9.21
+Installed-Size: 352
+icon: https://huayuarc.github.io/icon/gaodeclean.jpg
+Filename: debs/com.jibamao.gaodeclean-0.9.21-roothide.deb
+Size: 60316
+MD5sum: e9db7baaca0ae777abe98d61ed2a1fa2
+SHA1: 
+SHA256: 893da9d7418a0f9623162563cf1bb6cd059b93a3e43c88d93279bd9e48667963
+
+Package: com.jibamao.gaodeclean
+Name: GaodeClean 高德精简
+Description: 高德地图界面精简 · 纯本地运行
+ 把多余的视觉干扰去掉，把该在的位置摆回原样；不抓网络、不改安装包、不采集任何数据。
+ .
+ 添加源 https://gan-jibamao.github.io 后搜索 GaodeClean 即可安装（RootHide 选 arm64e，
+ Dopamine / rootless 选 arm64，两者不可同时安装）。
+ .
+ 界面精简：
+  • 去底栏「上拉发现」引导提示，去上拉白雾与闪白
+  • 去顶部高斯模糊带，去首页白块
+ .
+ 位置归位（对表高德原生布局）：
+  • 搜索栏 / 天气行 / 连接车机 / 2D·3D / 定位·路线胶囊，各归其位
+  • 2D·3D 按钮回到定位·路线胶囊正上方
+  • 连接车机按钮位于天气行上方，天气行与按钮左对齐
+ .
+ 稳定不闪：
+  • 切页、切 2D·3D 不再跳动
+  • 冷启动全程不会在屏幕中部闪出按钮
+ .
+ 全版本自适应：按控件特征判定，不绑定具体高德版本号。
+ 只改界面显示，不影响搜索、导航、路线规划等原有功能。
+ 装后请注销（sbreload）或重启用户空间再打开高德。
+ .
+ 常用说明与更新日志见仓库 Release 页面。
+Maintainer: jibamao
+Author: jibamao
+Section: jibamao-Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 0.9.21
+Installed-Size: 352
+icon: https://huayuarc.github.io/icon/gaodeclean.jpg
+Filename: debs/com.jibamao.gaodeclean-0.9.21-rootless.deb
+Size: 60320
+MD5sum: c481fee1c16bc47f6cd613dcaa99b9d2
+SHA1: 
+SHA256: 262dedfc870ff054268cdb9efc2dfa8c1d5c6538bb883fa8781c62edab4f3bc3
+
 Package: com.jiuyue.lightisle
 Name: 灵动岛手电筒
 Description: 为iOS16添加灵岛手电筒控制
@@ -18611,6 +18775,51 @@ Size: 953784
 MD5sum: 912a4d1a18a77fd69f969fe18cc57d8f
 SHA1: 
 SHA256: f47e3b4193bceb687ee3fabc1dbaf08e6beecc5d872ced425a08c398992e92ff
+
+Package: com.johndie.catapult
+Name: Catapult
+Version: 0.1.0~beta2
+Architecture: iphoneos-arm64e
+Description: Make your iPhone's Home Screen work like Android's. Swaps it for Trebuchet from LineageOS: an app drawer with search, one-page folders, widgets, icon shapes, themes and your own font. Everything else stays iOS. Built on MakrSas's Trebuchet port.
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Recommends: com.makr.materialyou
+Conflicts: com.makr.trebuchet.springboard, com.johndie.trebuchet
+Replaces: com.makr.trebuchet.springboard, com.johndie.trebuchet
+Provides: com.makr.trebuchet.springboard
+Depiction: https://jond-ie.github.io/repo/depictions/com.johndie.catapult.html
+SileoDepiction: https://jond-ie.github.io/repo/depictions/com.johndie.catapult.json
+Icon: https://jond-ie.github.io/repo/assets/catapult.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.johndie.catapult-0.1.0~beta2-roothide.deb
+Size: 1556012
+MD5sum: cd176cd36472d9644c1896f928e902d5
+SHA1: 
+SHA256: abae4feefb343da43b95d8fbeaba87adaff479e456ee646188d3032f8c1489b1
+
+Package: com.johndie.catapult
+Name: Catapult
+Version: 0.1.0~beta2
+Architecture: iphoneos-arm64
+Description: Make your iPhone's Home Screen work like Android's. Swaps it for Trebuchet from LineageOS: an app drawer with search, one-page folders, widgets, icon shapes, themes and your own font. Everything else stays iOS. Built on MakrSas's Trebuchet port.
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Recommends: com.makr.materialyou
+Conflicts: com.makr.trebuchet.springboard, com.johndie.trebuchet
+Replaces: com.makr.trebuchet.springboard, com.johndie.trebuchet
+Provides: com.makr.trebuchet.springboard
+Depiction: https://jond-ie.github.io/repo/depictions/com.johndie.catapult.html
+SileoDepiction: https://jond-ie.github.io/repo/depictions/com.johndie.catapult.json
+Icon: https://jond-ie.github.io/repo/assets/catapult.png
+Filename: debs/com.johndie.catapult-0.1.0~beta2-rootless.deb
+Size: 1552560
+MD5sum: 97ea28a4f09b38f158629ff2a5695c42
+SHA1: 
+SHA256: a8baea22ffb105e570a730077d87a6c6312e6cb309c2c97f2af00965e076ea4c
 
 Package: com.johndie.ccsupport18
 Name: CCSupport (iOS 18 fix)
@@ -43148,6 +43357,43 @@ MD5sum: cf22db5f6baa65f005e0826309c5011c
 SHA1: 
 SHA256: 07f375062ba3bfb2b63f998a3670f20145f1b5517291d73d79b9ddc3aed60cf8
 
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: junhong
+Author: junhong
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+Conflicts: fanqiefn
+Replaces: fanqiefn
+Provides: fanqiefn
+Architecture: iphoneos-arm64e
+Version: 3.1.2
+Installed-Size: 3024
+Filename: debs/fanqiefn-3.1.2-roothide.deb
+Size: 1337780
+MD5sum: c0578427d665ac8a85e9b3cb5124f3cd
+SHA1: 
+SHA256: 423bb8687d40e52607dfc05078a10c1bc1de976c4f6ae2bca7838eb6c6657f47
+
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: junhong
+Author: junhong
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+Architecture: iphoneos-arm64
+Version: 3.1.2
+Installed-Size: 3008
+Filename: debs/fanqiefn-3.1.2-rootless.deb
+Size: 1328316
+MD5sum: dd9bfe23741f1e8cfce801d43c6c9f5a
+SHA1: 
+SHA256: c5a8bbfd4aed9406356806e75a0f2ac959c9f0462ba41f5dba7b834782e6c7d2
+
 Package: Flex3beta
 Name: Flex3 Beta可解析版
 Depends: mobilesubstrate, firmware (>= 9.0)
@@ -44228,6 +44474,42 @@ MD5sum: e2a62df506d923ac0874bfe254c98e2d
 SHA1: 
 SHA256: 13b05edf4eaacac3779bfe710011800f0ebee027bb9eccbae01fc6dfd6ef8399
 
+Package: iya.banana.duoicon
+Name: Lunora DuoIcon
+Description: Lunora 的精简版本，仅包含右侧星环功能。Right-side Orbit and Capsule status icons with native reveal animations.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Installed-Size: 1616
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.duoicon-0.1.0-roothide.deb
+Size: 269696
+MD5sum: 67869a0087e2c8d02718d3f7d87a0741
+SHA1: 
+SHA256: e06e7a4c3628361969a02b404c9be873ac5e831c47e1800d213c0b7ca16bf763
+
+Package: iya.banana.duoicon
+Name: Lunora DuoIcon
+Description: Lunora 的精简版本，仅包含右侧星环功能。Right-side Orbit and Capsule status icons with native reveal animations.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Installed-Size: 1632
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.duoicon-0.1.0-rootless.deb
+Size: 273540
+MD5sum: 1dd6348444f8585ad32c828ec2d68177
+SHA1: 
+SHA256: 13c647e9e7cce6626fa48f9cd8d9cec4e3641d77de2f4eb20900541932910cc4
+
 Package: iya.banana.dynamicmusicbg
 Name: DynamicMusicBG
 Description: Album-art-driven animated color fields for Lock Screen Now Playing on iOS 15 through iOS 18.根据当前音乐封面，在锁屏正在播放控件后方生成流动的动态色彩背景。
@@ -44839,6 +45121,44 @@ Size: 921716
 MD5sum: 475295d76908b147f8af39671df2c690
 SHA1: 
 SHA256: c8995159fb580bf1ac814a14dee2b263bd5c5602072ca3a2d3e4e97834fae085
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Architecture: iphoneos-arm64e
+Version: 1.1.3-1
+Installed-Size: 5240
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.1.3-1-roothide.deb
+Size: 940496
+MD5sum: e818d783b97c621b610a4eb97541a382
+SHA1: 
+SHA256: 6c82953c691da53978d7ca8b6c63d0130b4f33e979b352e5c6dbd8c62702ff04
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Architecture: iphoneos-arm64
+Version: 1.1.3-1
+Installed-Size: 5240
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.1.3-1-rootless.deb
+Size: 942004
+MD5sum: cb17d92c57906d860c299562c9c13532
+SHA1: 
+SHA256: 08225c87b7b25ad8a3637d9fd7296fc4cdbc3cf19bdf7bc839fcafd008e3798c
 
 Package: iya.banana.jumpguard
 Name: JumpGuard
