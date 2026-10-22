@@ -21330,11 +21330,12 @@ Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64e
 Version: 2.0.24
 Installed-Size: 1060
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
 Filename: debs/com.minis.lockscreengradientclock-2.0.24-roothide.deb
-Size: 281932
-MD5sum: 06eecc37bf87e1817cf28f82c7d9ddf0
+Size: 282432
+MD5sum: fbe70bef1351672c588bac4607805b97
 SHA1: 
-SHA256: 28e1bb038c8027ce0ba0c196c664caa09bebde00a5cb94c585431a1bbf293792
+SHA256: c6a738208b4df3065e81bfcb4b2e53fdfe33012919d5060eed555ac5d601657c
 
 Package: com.minis.lockscreengradientclock
 Name: 独立锁屏时间渐变
@@ -21346,11 +21347,12 @@ Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
 Version: 2.0.24
 Installed-Size: 1060
+icon: https://huayuarc.github.io/icon/lockscreengradientclock.png
 Filename: debs/com.minis.lockscreengradientclock-2.0.24-rootless.deb
 Size: 282880
-MD5sum: c3e63cdfe35fb3b081bb6050bf63d6fc
+MD5sum: 2f3200cbaaa0d74b0561ca9313188b11
 SHA1: 
-SHA256: c41e2c67492dc99d3ca2b5ee01a04b84d3ee58ed446587d052d310e7d99189cf
+SHA256: dd1e73078316ee34b071be12ce07992e610bf105bba75267a21ebc2a233ab13e
 
 Package: com.minis.lockscreengradientclock
 Name: 独立锁屏时间渐变
@@ -49194,6 +49196,274 @@ Size: 39368
 MD5sum: 25fe0c43ed70d6168661675a3c347b73
 SHA1: 
 SHA256: 6eb726bfc3a2ff2a9bca7ce12fcc027e1d2f9e2ee569b5c47063542dea744206
+
+Package: wiki.qaq.apelin.agent-tools.assembler
+Name: Apelin Assembler
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Description: An assembler tool for Apelin's agent, built on Keystone (GPLv2), for roothide jailbreaks
+ An agent tool extension for Apelin. It gives the agent one tool, assemble, which turns ARM64, ARM, Thumb or x86 assembly into machine code with Keystone. Keystone is licensed under the GNU GPL version 2, so this package ships separately from Apelin. The license, and where to get the corresponding source, are installed in usr/share/apelin/agent-tools/wiki.qaq.apelin.agent-tools.assembler/licenses under the jailbreak root.
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.agent-tools.assembler.png
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Development
+Priority: optional
+Depends: firmware (>= 16.0)
+Enhances: wiki.qaq.apelin
+Installed-Size: 4116
+Filename: debs/wiki.qaq.apelin.agent-tools.assembler-1.0.0-roothide.deb
+Size: 732236
+MD5sum: 8368c8258fb53223bc6db35cabf2236a
+SHA1: 
+SHA256: b15afe9095a7b45db0b5a9583ee8186818a6393a43f9e8d1c490e9c0e8f2f57b
+
+Package: wiki.qaq.apelin.agent-tools.assembler
+Name: Apelin Assembler
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: An assembler tool for Apelin's agent, built on Keystone (GPLv2), for rootless jailbreaks
+ An agent tool extension for Apelin. It gives the agent one tool, assemble, which turns ARM64, ARM, Thumb or x86 assembly into machine code with Keystone. Keystone is licensed under the GNU GPL version 2, so this package ships separately from Apelin. The license, and where to get the corresponding source, are installed in usr/share/apelin/agent-tools/wiki.qaq.apelin.agent-tools.assembler/licenses under the jailbreak root.
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.agent-tools.assembler.png
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Development
+Priority: optional
+Depends: firmware (>= 16.0)
+Enhances: wiki.qaq.apelin
+Installed-Size: 4116
+Filename: debs/wiki.qaq.apelin.agent-tools.assembler-1.0.0-rootless.deb
+Size: 731956
+MD5sum: 7fc3408150ef9d67d095ccc105ef9608
+SHA1: 
+SHA256: 5b7bdc4c06c4b42adbf76a5698b91b3b0f126a25dc1a77d4321592a8c2eef055
+
+Package: wiki.qaq.apelin.agent-tools.disassembler
+Name: Apelin Disassembler
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Description: Disassembly and Mach-O symbol tools for Apelin's agent, for roothide jailbreaks
+ An agent tool extension for Apelin. It gives the agent two read-only tools: disassemble, which decodes instructions from a Mach-O binary with Capstone, and symbols, which lists a binary's symbol table. It runs as its own process and only when Apelin's agent calls it.
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.agent-tools.disassembler.png
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Development
+Priority: optional
+Depends: firmware (>= 16.0)
+Enhances: wiki.qaq.apelin
+Installed-Size: 37252
+Filename: debs/wiki.qaq.apelin.agent-tools.disassembler-1.1.0-roothide.deb
+Size: 1433012
+MD5sum: 02847fb6b2589552d4fbab40a4d8ec09
+SHA1: 
+SHA256: 7772d631ba2455618f20bb32797254428c60ed348980674ec9e9d774438cf07c
+
+Package: wiki.qaq.apelin.agent-tools.disassembler
+Name: Apelin Disassembler
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Description: Disassembly and Mach-O symbol tools for Apelin's agent, for rootless jailbreaks
+ An agent tool extension for Apelin. It gives the agent two read-only tools: disassemble, which decodes instructions from a Mach-O binary with Capstone, and symbols, which lists a binary's symbol table. It runs as its own process and only when Apelin's agent calls it.
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.agent-tools.disassembler.png
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Development
+Priority: optional
+Depends: firmware (>= 16.0)
+Enhances: wiki.qaq.apelin
+Installed-Size: 37252
+Filename: debs/wiki.qaq.apelin.agent-tools.disassembler-1.1.0-rootless.deb
+Size: 1432380
+MD5sum: 216f4a3fd8e5f85c56b20d6a94ffb10d
+SHA1: 
+SHA256: 8e145cfa96af41f0863315621201dfc87f65027ae4d50f5abdcf2c3642253710
+
+Package: wiki.qaq.apelin.dev.app
+Name: Apelin App Development
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Description: UIKit app templates for Apelin, for roothide jailbreaks
+ Lets Apelin create, build and package UIKit apps on the device, installed
+ into /Applications: an Objective-C template, and a Swift one for when the
+ Swift toolchain component is set up.
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.app.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Development
+Priority: optional
+Depends: wiki.qaq.apelin (>= 0.1.0), uikittools
+Enhances: wiki.qaq.apelin
+Installed-Size: 76
+Filename: debs/wiki.qaq.apelin.dev.app-0.1.0-roothide.deb
+Size: 8036
+MD5sum: 6267799789bbacb0e54e5404892a1a29
+SHA1: 
+SHA256: ebe1bac9681e03c8d737bd07889cd2fec0bec74ca1719557507616810ba39f23
+
+Package: wiki.qaq.apelin.dev.app
+Name: Apelin App Development
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Description: UIKit app templates for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package UIKit apps on the device, installed
+ into /Applications: an Objective-C template, and a Swift one for when the
+ Swift toolchain component is set up.
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.app.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Development
+Priority: optional
+Depends: wiki.qaq.apelin (>= 0.1.0), uikittools
+Enhances: wiki.qaq.apelin
+Installed-Size: 76
+Filename: debs/wiki.qaq.apelin.dev.app-0.1.0-rootless.deb
+Size: 8140
+MD5sum: 27ed985023f1fb4250e9ffed0c8a0d62
+SHA1: 
+SHA256: 083c7408698ccff64751349082660543839877a6783e30e6fe7bd1d87a6dc1ae
+
+Package: wiki.qaq.apelin.dev.cli
+Name: Apelin Command-Line Tool Development
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Description: Command-line tool templates for Apelin, for roothide jailbreaks
+ Lets Apelin create, build and package C and Objective-C command-line tools
+ on the device, installed into the bootstrap's /usr/bin.
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.cli.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Development
+Priority: optional
+Depends: wiki.qaq.apelin (>= 0.1.0)
+Enhances: wiki.qaq.apelin
+Installed-Size: 36
+Filename: debs/wiki.qaq.apelin.dev.cli-0.1.0-roothide.deb
+Size: 5076
+MD5sum: 70bba9476f4be911728c90c585d95d68
+SHA1: 
+SHA256: 4642f2cb507476a27a09032e0ae1ca6dbb6095f76bb2cd8d3ca35759053c3075
+
+Package: wiki.qaq.apelin.dev.cli
+Name: Apelin Command-Line Tool Development
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Description: Command-line tool templates for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package C and Objective-C command-line tools
+ on the device, installed into the bootstrap's /usr/bin.
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.cli.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Development
+Priority: optional
+Depends: wiki.qaq.apelin (>= 0.1.0)
+Enhances: wiki.qaq.apelin
+Installed-Size: 36
+Filename: debs/wiki.qaq.apelin.dev.cli-0.1.0-rootless.deb
+Size: 5168
+MD5sum: c9ac59dc953e534ff150416c3d590dc1
+SHA1: 
+SHA256: a2f19dde57564c07f5475916f1eaf5b722cf85713ee6c3eff2354c76fd301daa
+
+Package: wiki.qaq.apelin.dev.preferences
+Name: Apelin Preference Bundle Development
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Description: Settings pane templates for Apelin, for roothide jailbreaks
+ Lets Apelin create, build and package preference bundles on the device: a
+ template with a switch and a text field, the PreferenceLoader entry that
+ shows it in Settings, and declarations for the private Preferences
+ framework. Needs PreferenceLoader, which your preferred package manager
+ installs with it.
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.preferences.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Development
+Priority: optional
+Depends: wiki.qaq.apelin (>= 0.1.0), preferenceloader
+Enhances: wiki.qaq.apelin
+Installed-Size: 40
+Filename: debs/wiki.qaq.apelin.dev.preferences-0.1.0-roothide.deb
+Size: 5868
+MD5sum: 0dd84254fa40139a07584fe76cb8b6b7
+SHA1: 
+SHA256: 5f4c209eef10ff9920f5e37a5cb66db4406e862656b7ccfd23a8e19cc2a64d2f
+
+Package: wiki.qaq.apelin.dev.preferences
+Name: Apelin Preference Bundle Development
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Description: Settings pane templates for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package preference bundles on the device: a
+ template with a switch and a text field, the PreferenceLoader entry that
+ shows it in Settings, and declarations for the private Preferences
+ framework. Needs PreferenceLoader, which your preferred package manager
+ installs with it.
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.preferences.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Development
+Priority: optional
+Depends: wiki.qaq.apelin (>= 0.1.0), preferenceloader
+Enhances: wiki.qaq.apelin
+Installed-Size: 40
+Filename: debs/wiki.qaq.apelin.dev.preferences-0.1.0-rootless.deb
+Size: 5928
+MD5sum: 2b55fd2c34e78ef92fc13194f1c0ba42
+SHA1: 
+SHA256: 8fe28cdc29e1c04932085d55966064595d400ce4aafa7496e9f8a1e9f1902dea
+
+Package: wiki.qaq.apelin.dev.tweak
+Name: Apelin Tweak Development
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Description: Tweak templates and hooking headers for Apelin, for roothide jailbreaks
+ Lets Apelin create, build and package Objective-C tweaks on the device: a
+ template that hooks SpringBoard through the substrate-compatible API, the
+ headers and link stubs for that API, and the process filter. Needs an
+ injection framework, which your preferred package manager installs with it.
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Development
+Priority: optional
+Depends: wiki.qaq.apelin (>= 0.1.0), mobilesubstrate
+Enhances: wiki.qaq.apelin
+Installed-Size: 32
+Filename: debs/wiki.qaq.apelin.dev.tweak-0.1.0-roothide.deb
+Size: 6144
+MD5sum: 5736978c7ef1003a0b22b087d6466271
+SHA1: 
+SHA256: c9e4b7d2dda3404bd9ee358d795118e944aa12aadc783e17294fbc379c8e3ef2
+
+Package: wiki.qaq.apelin.dev.tweak
+Name: Apelin Tweak Development
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Description: Tweak templates and hooking headers for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package Objective-C tweaks on the device: a
+ template that hooks SpringBoard through the substrate-compatible API, the
+ headers and link stubs for that API, and the process filter. Needs an
+ injection framework, which your preferred package manager installs with it.
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Development
+Priority: optional
+Depends: wiki.qaq.apelin (>= 0.1.0), mobilesubstrate
+Enhances: wiki.qaq.apelin
+Installed-Size: 32
+Filename: debs/wiki.qaq.apelin.dev.tweak-0.1.0-rootless.deb
+Size: 6256
+MD5sum: 091c732c25d910ff038cd1e596f193bf
+SHA1: 
+SHA256: 47cd16813e2dbccbd531710c6aec461ae047110993df5efac40f3829b8c4fc5b
 
 Package: wiki.qaq.ighostvt
 Name: iGhostVT
