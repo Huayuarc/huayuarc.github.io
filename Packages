@@ -19145,17 +19145,17 @@ Description: 高德地图界面精简 · 纯本地运行
  常用说明与更新日志见仓库 Release 页面。
 Maintainer: jibamao
 Author: jibamao
-Section: jibamao-Tweaks
+Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 0.9.21
 Installed-Size: 352
 icon: https://huayuarc.github.io/icon/gaodeclean.jpg
 Filename: debs/com.jibamao.gaodeclean-0.9.21-roothide.deb
-Size: 60316
-MD5sum: e9db7baaca0ae777abe98d61ed2a1fa2
+Size: 60268
+MD5sum: 31c50814baa74cd3ecebf49bcf86f92b
 SHA1: 
-SHA256: 893da9d7418a0f9623162563cf1bb6cd059b93a3e43c88d93279bd9e48667963
+SHA256: 1ae739ed2586baadc6f6da2cb7d34fdaf2e6c250cd4213ee4bb28256b74a5bef
 
 Package: com.jibamao.gaodeclean
 Name: GaodeClean 高德精简
@@ -19185,17 +19185,17 @@ Description: 高德地图界面精简 · 纯本地运行
  常用说明与更新日志见仓库 Release 页面。
 Maintainer: jibamao
 Author: jibamao
-Section: jibamao-Tweaks
+Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate
 Architecture: iphoneos-arm64
 Version: 0.9.21
 Installed-Size: 352
 icon: https://huayuarc.github.io/icon/gaodeclean.jpg
 Filename: debs/com.jibamao.gaodeclean-0.9.21-rootless.deb
-Size: 60320
-MD5sum: c481fee1c16bc47f6cd613dcaa99b9d2
+Size: 60396
+MD5sum: c1ec47c51bcdb9e6539c23d7f00bba3d
 SHA1: 
-SHA256: 262dedfc870ff054268cdb9efc2dfa8c1d5c6538bb883fa8781c62edab4f3bc3
+SHA256: 20bfe141d29501412c9bc7f0f0e5baa191893353be026be0fefac49884ba95ce
 
 Package: com.jiuyue.lightisle
 Name: 灵动岛手电筒
@@ -49465,9 +49465,61 @@ MD5sum: 091c732c25d910ff038cd1e596f193bf
 SHA1: 
 SHA256: 47cd16813e2dbccbd531710c6aec461ae047110993df5efac40f3829b8c4fc5b
 
+Package: wiki.qaq.fila
+Name: Fila
+Version: 0.8.0
+Architecture: iphoneos-arm64e
+Description: Root file manager for roothide bootstraps
+ Browse and edit every file on your device, not just the ones an app is allowed
+ to see. Copy, move and rename with progress you can cancel, create and unpack
+ zip, 7z, rar and tar archives, edit text with syntax highlighting, read plists,
+ preview images and video, open a terminal, and share a folder to your computer
+ over WebDAV. Deleted files go to a trash you can restore from, and the files
+ your device needs in order to boot cannot be deleted by mistake.
+Icon: https://owngoal-dev.github.io/Fila/icon.png
+Depiction: https://owngoal-dev.github.io/Fila/
+SileoDepiction: https://owngoal-dev.github.io/Fila/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl
+Installed-Size: 91528
+Filename: debs/wiki.qaq.fila-0.8.0-roothide.deb
+Size: 16024740
+MD5sum: 6f6429fee458debd1444d674644b6a09
+SHA1: 
+SHA256: 32b3d7ed664fff905e338f2d9f52fb93f8c6b75bda635facec7026a8e2fee61c
+
+Package: wiki.qaq.fila
+Name: Fila
+Version: 0.8.0
+Architecture: iphoneos-arm64
+Description: Root file manager for rootless bootstraps
+ Browse and edit every file on your device, not just the ones an app is allowed
+ to see. Copy, move and rename with progress you can cancel, create and unpack
+ zip, 7z, rar and tar archives, edit text with syntax highlighting, read plists,
+ preview images and video, open a terminal, and share a folder to your computer
+ over WebDAV. Deleted files go to a trash you can restore from, and the files
+ your device needs in order to boot cannot be deleted by mistake.
+Icon: https://owngoal-dev.github.io/Fila/icon.png
+Depiction: https://owngoal-dev.github.io/Fila/
+SileoDepiction: https://owngoal-dev.github.io/Fila/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl
+Installed-Size: 91528
+Filename: debs/wiki.qaq.fila-0.8.0-rootless.deb
+Size: 16022356
+MD5sum: c4610f1b3584c9528b6df4cb1a7bd7d1
+SHA1: 
+SHA256: 4b2e4208fae302776ae2bdbd714536d5c4a792c57415d7eb1456cd204da392c3
+
 Package: wiki.qaq.ighostvt
 Name: iGhostVT
-Version: 1.6.16
+Version: 1.6.19
 Architecture: iphoneos-arm64e
 Description: Ghostty-powered terminal for iOS
  A real terminal on your device, drawn by the same engine as Ghostty on the
@@ -49479,19 +49531,19 @@ Depiction: https://owngoal-dev.github.io/iGhostVT/
 SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
 Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Terminal Support
+Section: Utilities
 Priority: optional
 Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
-Installed-Size: 16412
-Filename: debs/wiki.qaq.ighostvt-1.6.16-roothide.deb
-Size: 4892608
-MD5sum: b4dcb9b2d421db2c477da20ca4d1743c
+Installed-Size: 16452
+Filename: debs/wiki.qaq.ighostvt-1.6.19-roothide.deb
+Size: 4899896
+MD5sum: d5bbc244e3c07b72b2185fcc61d39d25
 SHA1: 
-SHA256: 6bc17b5031535852f4c95eb3fa8eb415e859cce545d4f6238fa11ac904702485
+SHA256: c231c63007108afcc816e54e52d7133ed06fd671ce19a0a05c0297ecab1dc6c9
 
 Package: wiki.qaq.ighostvt
 Name: iGhostVT
-Version: 1.6.16
+Version: 1.6.19
 Architecture: iphoneos-arm64
 Description: Ghostty-powered terminal for iOS
  A real terminal on your device, drawn by the same engine as Ghostty on the
@@ -49503,111 +49555,67 @@ Depiction: https://owngoal-dev.github.io/iGhostVT/
 SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
 Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Terminal Support
+Section: Utilities
 Priority: optional
 Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
-Installed-Size: 16412
-Filename: debs/wiki.qaq.ighostvt-1.6.16-rootless.deb
-Size: 4890488
-MD5sum: e80eecb5cc803e488522e15b5aa24d6d
+Installed-Size: 16452
+Filename: debs/wiki.qaq.ighostvt-1.6.19-rootless.deb
+Size: 4899600
+MD5sum: 9c95c92526fb14be725058940d03e579
 SHA1: 
-SHA256: a47f63fc4318291ac672c40a02cd9c530606bec9891aa32ea3a6799036f148f4
+SHA256: fac8979898d92c797be2b08af7b5160dd5e17c3f394d2e78e90aa33928499735
 
-Package: wiki.qaq.ighostvt
-Name: iGhostVT
-Version: 1.6.17
+Package: wiki.qaq.irisin
+Name: Irisin
+Version: 4.7.5
 Architecture: iphoneos-arm64e
-Description: Ghostty-powered terminal for iOS
- A real terminal on your device, drawn by the same engine as Ghostty on the
- desktop. Your shell keeps running in the background, so a build you started
- is still going when you switch apps and still there when you come back.
- Runs on iPhone and iPad.
-Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
-Depiction: https://owngoal-dev.github.io/iGhostVT/
-SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
-Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Terminal Support
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Homepage: https://github.com/Lakr233/Irisin
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Section: Applications
 Priority: optional
-Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
-Installed-Size: 16436
-Filename: debs/wiki.qaq.ighostvt-1.6.17-roothide.deb
-Size: 4894256
-MD5sum: d97b378c84309b62efef729209baa5cc
+Depends: firmware (>= 15.0)
+Installed-Size: 23140
+Filename: debs/wiki.qaq.irisin-4.7.5-roothide.deb
+Size: 6354792
+MD5sum: 5d8a47082a6acaec4ab5d1a4dcd77fe0
 SHA1: 
-SHA256: e044803516c2a335485c95bc8e69a582a8e9f0f42c43254093c8e5d9aaddf797
+SHA256: 290777167a6ff9c88098ba2b77a00a28ef4b0f3fb3bbbb372cb6a92729a0bfca
 
-Package: wiki.qaq.ighostvt
-Name: iGhostVT
-Version: 1.6.17
+Package: wiki.qaq.irisin
+Name: Irisin
+Version: 4.7.5
 Architecture: iphoneos-arm64
-Description: Ghostty-powered terminal for iOS
- A real terminal on your device, drawn by the same engine as Ghostty on the
- desktop. Your shell keeps running in the background, so a build you started
- is still going when you switch apps and still there when you come back.
- Runs on iPhone and iPad.
-Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
-Depiction: https://owngoal-dev.github.io/iGhostVT/
-SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
-Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Terminal Support
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Homepage: https://github.com/Lakr233/Irisin
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Section: Applications
 Priority: optional
-Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
-Installed-Size: 16436
-Filename: debs/wiki.qaq.ighostvt-1.6.17-rootless.deb
-Size: 4893996
-MD5sum: 7cdbc8819f6444799e66ca52962b0a04
+Depends: firmware (>= 15.0)
+Installed-Size: 23140
+Filename: debs/wiki.qaq.irisin-4.7.5-rootless.deb
+Size: 6353240
+MD5sum: fd19265c869eb037439bdd466a3b6733
 SHA1: 
-SHA256: 61ddd166170a92351465b05d8ea592ea19e94f6fa30a1d3cf227ae739e5c220d
-
-Package: wiki.qaq.ighostvt
-Name: iGhostVT
-Version: 1.6.5
-Architecture: iphoneos-arm64e
-Description: Ghostty-powered terminal for iOS
- A real terminal on your device, drawn by the same engine as Ghostty on the
- desktop. Your shell keeps running in the background, so a build you started
- is still going when you switch apps and still there when you come back.
- Runs on iPhone and iPad.
-Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
-Depiction: https://owngoal-dev.github.io/iGhostVT/
-SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
-Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Terminal Support
-Priority: optional
-Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
-Installed-Size: 15600
-Filename: debs/wiki.qaq.ighostvt-1.6.5-roothide.deb
-Size: 4654120
-MD5sum: cfdd2d0931cd493ab2d628a542299f04
-SHA1: 
-SHA256: b266d822688954ba4c24e1c7194f0730024d331d3d8302417d37b1398bd096fa
-
-Package: wiki.qaq.ighostvt
-Name: iGhostVT
-Version: 1.6.5
-Architecture: iphoneos-arm64
-Description: Ghostty-powered terminal for iOS
- A real terminal on your device, drawn by the same engine as Ghostty on the
- desktop. Your shell keeps running in the background, so a build you started
- is still going when you switch apps and still there when you come back.
- Runs on iPhone and iPad.
-Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
-Depiction: https://owngoal-dev.github.io/iGhostVT/
-SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
-Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Section: Terminal Support
-Priority: optional
-Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
-Installed-Size: 15600
-Filename: debs/wiki.qaq.ighostvt-1.6.5-rootless.deb
-Size: 4654984
-MD5sum: 9e25b6615d5a3c94d5f6490677e2393a
-SHA1: 
-SHA256: 6e67f9b8281e9ef034b526ecfbd9919d4cbe1d759e631e9e8d3338a6e5063fa6
+SHA256: 44e49850963abcae2c88255dc87fef9134622cee84afdfb2630aafe7de15eb85
 
 Package: ws.hbang.newterm3
 Name: NewTerm 3 Beta iOS 终端
