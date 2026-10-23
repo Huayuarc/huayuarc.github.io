@@ -595,6 +595,37 @@ MD5sum: 3da07e2d4165a9370127d17c158bc0e8
 SHA1: 
 SHA256: 3787bb9ca2989ac6ff5a41169afe32d6235af8feff5887f8e5d2b6ec75302cbf
 
+Package: cn.llld.adshield
+Name: Safari-Ads
+Description: safari去广告(缩水精简版)，(注入个别应用可以，但有限不能自定义等)，网页广告净化与拦截记录，仅用于自有设备上的内容净化学习。
+Author: laileld 来了老弟
+Section: Tweaks
+Maintainer: 来了老弟 33225753@qq.com
+Architecture: iphoneos-arm64e
+Version: 0.2.0-2
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/Safari.png
+Filename: debs/cn.llld.adshield-0.2.0-2-roothide.deb
+Size: 41500
+MD5sum: 09cd6a67e829315d7afe7a823bb918ee
+SHA1: 
+SHA256: 084997d96c1cdd18d27e9350db42e7edf5028237e0729e3878e600b02ecfeebf
+
+Package: cn.llld.adshield
+Name: Safari-Ads
+Description: safari去广告(缩水精简版)，(注入个别应用可以，但有限不能自定义等)，网页广告净化与拦截记录，仅用于自有设备上的内容净化学习。
+Author: laileld 来了老弟
+Section: Tweaks
+Maintainer: 来了老弟 33225753@qq.com
+Architecture: iphoneos-arm64
+Version: 0.2.0-2
+icon: https://huayuarc.github.io/icon/Safari.png
+Filename: debs/cn.llld.adshield-0.2.0-2-rootless.deb
+Size: 42724
+MD5sum: 557fa491d5bb5b9fe6d00f332c2e189d
+SHA1: 
+SHA256: e16eda0139fda47ab971415825e0a83f663fd32e1d035d72e5b2c2b420943ba1
+
 Package: cn.llld.appfix
 Name: 应用修改器
 Description: appfix 应用修改器 ———  系统应用，用户应用，越狱应用的调整工具（Flex3 思路重写增强），支持自定义脚本代码，配置导出导入，一键开关，视图层级可视化 等等，不收费。
