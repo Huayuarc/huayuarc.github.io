@@ -15254,6 +15254,41 @@ MD5sum: dcf593d35a2d5cce43653e9f8d59b07d
 SHA1: 
 SHA256: b007fb5993b7cb0c089ec2e8129b48846a5188bec551c7ee0639bb5027daa3c1
 
+Package: com.hoangdus.lowpowersleep
+Name: 锁屏自动低电量
+Description: 锁屏时自动打开低电量模式
+Maintainer: Hoangdus
+Author: Hoangdus
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 208
+icon: https://huayuarc.github.io/icon/lowpowersleep.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.hoangdus.lowpowersleep-0.0.1-roothide.deb
+Size: 12848
+MD5sum: c01898ea9a3ab204e730f91636ad5b71
+SHA1: 
+SHA256: 55e32512e775142c8784037742fa6d22df1ca282715101300c4c94637e223d7f
+
+Package: com.hoangdus.lowpowersleep
+Name: 锁屏自动低电量
+Description: 锁屏时自动打开低电量模式
+Maintainer: Hoangdus
+Author: Hoangdus
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Installed-Size: 208
+icon: https://huayuarc.github.io/icon/lowpowersleep.png
+Filename: debs/com.hoangdus.lowpowersleep-0.0.1-rootless.deb
+Size: 12984
+MD5sum: 86d4ff91fbef588e1a3980b7ce7681ef
+SHA1: 
+SHA256: 082cb10ff2c77ef425177095f2a6303017599426020f143240a70085f1b91989
+
 Package: com.huami.ChoicyConfigPin
 Name: ChoicyConfigPin
 Description: Pin apps with custom tweak configuration to the top in Choicy
