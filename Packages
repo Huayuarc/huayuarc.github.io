@@ -19481,6 +19481,82 @@ MD5sum: c1ec47c51bcdb9e6539c23d7f00bba3d
 SHA1: 
 SHA256: 20bfe141d29501412c9bc7f0f0e5baa191893353be026be0fefac49884ba95ce
 
+Package: com.jibamao.spsundiro
+Name: Sundiro BLE Unlock (SpringBoard)
+Description: 新大洲本田蓝牙无感解锁，直接跑在 SpringBoard 内，不依赖官方 App。解锁协议完全离线（49 组配对 + 4 帧报文），不联网、不采集数据。安全阀：创建 /var/mobile/Library/Preferences/com.jibamao.spsundiro.off 后注销桌面即停用。
+Maintainer: jibamao
+Author: jibamao
+Section: Tweaks
+Replaces: com.huayuarc.spsundiro
+Conflicts: com.huayuarc.spsundiro
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Installed-Size: 220
+icon: https://huayuarc.github.io/icon/spsundiro.jpg
+Filename: debs/com.jibamao.spsundiro-1.2.3-roothide.deb
+Size: 23696
+MD5sum: fd01cee162b63fbdb5bb43450e7e9c94
+SHA1: 
+SHA256: a114d6dd0499b30cf743eab59127732f0956b619e4fba1dbf82749a9f8abe05e
+
+Package: com.jibamao.spsundiro
+Name: Sundiro BLE Unlock (SpringBoard)
+Description: 新大洲本田蓝牙无感解锁，直接跑在 SpringBoard 内，不依赖官方 App。解锁协议完全离线（49 组配对 + 4 帧报文），不联网、不采集数据。安全阀：创建 /var/mobile/Library/Preferences/com.jibamao.spsundiro.off 后注销桌面即停用。
+Maintainer: jibamao
+Author: jibamao
+Section: Tweaks
+Replaces: com.huayuarc.spsundiro
+Conflicts: com.huayuarc.spsundiro
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Installed-Size: 220
+icon: https://huayuarc.github.io/icon/spsundiro.jpg
+Filename: debs/com.jibamao.spsundiro-1.2.3-rootless.deb
+Size: 23780
+MD5sum: 1cfe50744d20d9499afa44e92a64275d
+SHA1: 
+SHA256: c19982f15d5477d2f1e798bc8d7bcb3835ef3fca29aaba759b9a0f5be7a95afd
+
+Package: com.jibamao.spsundiro
+Name: Sundiro BLE Unlock (SpringBoard)
+Description: 新大洲本田蓝牙无感解锁，直接跑在 SpringBoard 内，不依赖官方 App。解锁协议完全离线（49 组配对 + 4 帧报文），不联网、不采集数据。安全阀：创建 /var/mobile/Library/Preferences/com.jibamao.spsundiro.off 后注销桌面即停用。
+Maintainer: jibamao
+Author: jibamao
+Section: Tweaks
+Replaces: com.huayuarc.spsundiro
+Conflicts: com.huayuarc.spsundiro
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.2.4
+Installed-Size: 236
+icon: https://huayuarc.github.io/icon/spsundiro.jpg
+Filename: debs/com.jibamao.spsundiro-1.2.4-roothide.deb
+Size: 23708
+MD5sum: 6b79a3a2d5b5e98009226c1bac42a141
+SHA1: 
+SHA256: 9e3c62c2d80ad1d6fb43c66e1e07fa30c2b137b854f1ba01c6ce7c22d7757d9f
+
+Package: com.jibamao.spsundiro
+Name: Sundiro BLE Unlock (SpringBoard)
+Description: 新大洲本田蓝牙无感解锁，直接跑在 SpringBoard 内，不依赖官方 App。解锁协议完全离线（49 组配对 + 4 帧报文），不联网、不采集数据。安全阀：创建 /var/mobile/Library/Preferences/com.jibamao.spsundiro.off 后注销桌面即停用。
+Maintainer: jibamao
+Author: jibamao
+Section: Tweaks
+Replaces: com.huayuarc.spsundiro
+Conflicts: com.huayuarc.spsundiro
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Installed-Size: 236
+icon: https://huayuarc.github.io/icon/spsundiro.jpg
+Filename: debs/com.jibamao.spsundiro-1.2.4-rootless.deb
+Size: 23740
+MD5sum: d76a58cdc0f1bfdd44f755a43c58c99e
+SHA1: 
+SHA256: 7ef5d8fb758712ec37283c40d48a130e222fb29e23b3ce1462c0f47b77d98c3d
+
 Package: com.jiuyue.lightisle
 Name: 灵动岛手电筒
 Description: 为iOS16添加灵岛手电筒控制
