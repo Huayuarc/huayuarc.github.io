@@ -49870,6 +49870,10 @@ SHA256: ed19b973e41687e039c515b40879a7617df0a35b0cdbd348c1287239240cbf42
 Package: me.ray.jev-chat
 Name: Jev-Chat
 Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
+ * ## 一、快速上手（三步）
+ * 1. **装插件**：deb 装完**重启微信**，打开入口 **微信 → 我 → 设置 → Jev Chat**。
+ * 2. **填 API**：「建议回复」页填服务地址 / Key / 模型（生成层，必填）；「意图判断」页选个预设只填 Key（判断层，可不填）。
+ * 3. **启用并选人**：主页「启用插件」→ 打开开关 → 选择联系人。之后对方发消息，消息下方自动出现分析卡片和 4 条建议回复，点 ➤ 直接发送。
 Maintainer: ray
 Author: ray
 Section: Tweaks
@@ -49880,14 +49884,18 @@ Installed-Size: 2148
 Pre-Depends: rootless-compat(>= 0.9)
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Filename: debs/me.ray.jev-chat-1.1.1-20261023.1750-1+debug-roothide.deb
-Size: 429424
-MD5sum: 56074f9db3fbd35b70cfbd537fbce998
+Size: 427888
+MD5sum: 56156f8209ebd7818072d227167b3dca
 SHA1: 
-SHA256: 2707d6013d69aab87e3904457f2ce26fffb127f68ca1c2aef470a467a25f3994
+SHA256: 13891336f350dbe639bec7077197678a3c16c3deafcfc3f55b872d753af40bfe
 
 Package: me.ray.jev-chat
 Name: Jev-Chat
 Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
+ * ## 一、快速上手（三步）
+ * 1. **装插件**：deb 装完**重启微信**，打开入口 **微信 → 我 → 设置 → Jev Chat**。
+ * 2. **填 API**：「建议回复」页填服务地址 / Key / 模型（生成层，必填）；「意图判断」页选个预设只填 Key（判断层，可不填）。
+ * 3. **启用并选人**：主页「启用插件」→ 打开开关 → 选择联系人。之后对方发消息，消息下方自动出现分析卡片和 4 条建议回复，点 ➤ 直接发送。
 Maintainer: ray
 Author: ray
 Section: Tweaks
@@ -49897,10 +49905,10 @@ Version: 1.1.1-20261023.1750-1+debug
 Installed-Size: 2148
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Filename: debs/me.ray.jev-chat-1.1.1-20261023.1750-1+debug-rootless.deb
-Size: 438960
-MD5sum: 256ef70e6a07302cb1eff4f6af7c2d3f
+Size: 437476
+MD5sum: ad216e688fd0bcdb63ac1990ca58fe95
 SHA1: 
-SHA256: 325b52b59260499b6180225b9df98d3aa9bcf714b210bb34f594cf74c0ca70de
+SHA256: 06206d62a502b11eaa57dae3df34253525db521ffc1d66556bf7893907b11596
 
 Package: moe.waru.jikan
 Name: 锁屏充电胶囊
