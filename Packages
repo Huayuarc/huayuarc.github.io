@@ -15785,7 +15785,7 @@ Version: 0.0.1
 Section: Free Token 免费 Token
 Depends: sudo
 Architecture: iphoneos-arm64e
-Name: 1-源公共
+Name: 1-Free Token 免费 Token
 Author: Huayuarc
 Tag: cydia::commercial
 Maintainer: Huayuarc
@@ -15796,17 +15796,17 @@ Description: 越狱插件AI开发与沟通交流
 Sileodepiction: https://huayuarc.github.io/sileodepiction/qqjlq/js.json
 icon: https://huayuarc.github.io/icon/CydiaIcon.png
 Filename: debs/com.huayuarc.123456789-0.0.1-roothide.deb
-Size: 1112
-MD5sum: 4bb67b3a4cd00c73c8920eb43f8e22df
+Size: 1100
+MD5sum: c61a23f3f281db21fedd6f35ec71ca1e
 SHA1: 
-SHA256: 2ebbfba375bc0bc5b2b9cf236562ebfff8f69e3d4400f131defd13bd109b68ec
+SHA256: 883f7ba955ad4a2cbac42f3e1d0d19b5eff3ac57cd23d12799e8116ed10d7ef9
 
 Package: com.huayuarc.123456789
 Version: 0.0.1
 Section: Free Token 免费 Token
 Depends: sudo
 Architecture: iphoneos-arm64
-Name: 1-源公告
+Name: 1-Free Token 免费 Token
 Author: Huayuarc
 Tag: cydia::commercial
 Maintainer: Huayuarc
@@ -15817,10 +15817,10 @@ Description: 越狱插件AI开发与沟通交流
 Sileodepiction: https://huayuarc.github.io/sileodepiction/qqjlq/js.json
 icon: https://huayuarc.github.io/icon/CydiaIcon.png
 Filename: debs/com.huayuarc.123456789-0.0.1-rootless.deb
-Size: 1100
-MD5sum: 3d6fe37487d7503885586baf24d3d3cb
+Size: 1096
+MD5sum: 977dd5a7a78a38b505d061641f85961e
 SHA1: 
-SHA256: 745664d370c1e895cf808628fe5ea52a7ba363d8d6ae0652567f9f0902a3c1d9
+SHA256: 4220c2b9488b93578dfb3b478b820df5593b5fc14627a23191d085bb1eb2e5bd
 
 Package: com.huayuarc.1234567890
 Version: 0.0.1
@@ -27841,38 +27841,40 @@ SHA1:
 SHA256: 01861099aa66d34125e289ed6b6d5b773bb4ec7d1d854dfbbf639f3fbaac4673
 
 Package: com.nx.stheno
-Name: Stheno（免激活授权）
+Name: Stheno-去除验证版
 Description: Stheno direct Swift settings with categorized controls, app icon and favorites rail.
-Maintainer: Crassna
-Author: Crassna
-Section: Tweaks
-Depends: dev.theos.orion, firmware (>= 16.1), mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64
-Version: 1.1.0+direct2.znativeprefs7+rootless1
-Installed-Size: 3821
-icon: https://huayuarc.github.io/icon/stheno@3x.png
-Filename: debs/com.nx.stheno-1.1.0+direct2.znativeprefs7+rootless1-rootless.deb
-Size: 587256
-MD5sum: e799e8c81403fa279d59964228c5a454
-SHA1: 
-SHA256: 1fe489b32d64bfa69fc03e4a9c4eff16fd73bb579909c796f533f17b10b565ec
-
-Package: com.nx.stheno
-Name: Stheno（免激活授权）
-Description: Stheno direct Swift settings with categorized controls, app icon and favorites rail.
-Maintainer: Crassna
-Author: Crassna
+Maintainer: kanuo
+Author: kanuo
 Section: Tweaks
 Depends: dev.theos.orion, firmware (>= 16.1)
 Architecture: iphoneos-arm64e
-Version: 1.1.0+direct2.znativeprefs7
+Version: 2.0
 Installed-Size: 3676
-icon: https://huayuarc.github.io/icon/stheno@3x.png
-Filename: debs/com.nx.stheno-1.1.0+direct2.znativeprefs7-roothide.deb
-Size: 616180
-MD5sum: 16ae304baad6e354c1161b663c305b4a
+Icon: https://jimkanuo.github.io/apt-repo/depiction/stheno/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.nx.stheno.json
+Filename: debs/com.nx.stheno-2.0-roothide.deb
+Size: 615856
+MD5sum: 9795dff15e74de0e729c85ad7800ef0e
 SHA1: 
-SHA256: bc2410547a8eb859f2cad59ff8d5f72ecb4713788b239f601026a9bc039235f3
+SHA256: 19eef1d44a4974cf66a3a2e638bd5c6152b12343cfeda919c0ad3419cd10fb21
+
+Package: com.nx.stheno
+Name: Stheno-去除验证版
+Description: Stheno direct Swift settings with categorized controls, app icon and favorites rail.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: dev.theos.orion, firmware (>= 16.1), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.0
+Installed-Size: 3821
+Icon: https://jimkanuo.github.io/apt-repo/depiction/stheno/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.nx.stheno.json
+Filename: debs/com.nx.stheno-2.0-rootless.deb
+Size: 587368
+MD5sum: 937f630df9db155798981281aa81303b
+SHA1: 
+SHA256: 99b91a6a21f895c8fe4071b2c2072aebf8a43d742e7e25dfbd0742fd6ebd29da
 
 Package: com.opa334.trollstorelite
 Name: TrollStore Lite
