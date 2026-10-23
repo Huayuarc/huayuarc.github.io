@@ -28559,42 +28559,6 @@ MD5sum: 7efec70adf9dbe0e5f82452e76f5cdb3
 SHA1: 
 SHA256: 01861099aa66d34125e289ed6b6d5b773bb4ec7d1d854dfbbf639f3fbaac4673
 
-Package: com.nx.stheno
-Name: Stheno-去除验证版
-Description: Stheno direct Swift settings with categorized controls, app icon and favorites rail.
-Maintainer: kanuo
-Author: kanuo
-Section: Tweaks
-Depends: dev.theos.orion, firmware (>= 16.1)
-Architecture: iphoneos-arm64e
-Version: 2.0
-Installed-Size: 3676
-Icon: https://jimkanuo.github.io/apt-repo/depiction/stheno/icon.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.nx.stheno.json
-Filename: debs/com.nx.stheno-2.0-roothide.deb
-Size: 615856
-MD5sum: 9795dff15e74de0e729c85ad7800ef0e
-SHA1: 
-SHA256: 19eef1d44a4974cf66a3a2e638bd5c6152b12343cfeda919c0ad3419cd10fb21
-
-Package: com.nx.stheno
-Name: Stheno-去除验证版
-Description: Stheno direct Swift settings with categorized controls, app icon and favorites rail.
-Maintainer: kanuo
-Author: kanuo
-Section: Tweaks
-Depends: dev.theos.orion, firmware (>= 16.1), mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64
-Version: 2.0
-Installed-Size: 3821
-Icon: https://jimkanuo.github.io/apt-repo/depiction/stheno/icon.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.nx.stheno.json
-Filename: debs/com.nx.stheno-2.0-rootless.deb
-Size: 587368
-MD5sum: 937f630df9db155798981281aa81303b
-SHA1: 
-SHA256: 99b91a6a21f895c8fe4071b2c2072aebf8a43d742e7e25dfbd0742fd6ebd29da
-
 Package: com.opa334.trollstorelite
 Name: TrollStore Lite
 Description: A modified TrollStore by iosdump for jailbroken iOS
