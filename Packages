@@ -14162,6 +14162,60 @@ SHA1:
 SHA256: 557050cbd4f732d26a381f3c9282403687f24a84c4085d86c29c9aaf85ad53a0
 
 Package: com.hierarch.dykiller
+Name: 抖音 UI 增强插件 DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm
+Version: 0.6.7
+Installed-Size: 4116
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.7-rootful.deb
+Size: 993356
+MD5sum: 0d8f5f17ec6c70ebfd602a3edbfcc1c8
+SHA1: 
+SHA256: e261aaa987ab9ec717f5c34c307d77af6f1d262805764343f3f175c83908d086
+
+Package: com.hierarch.dykiller
+Name: 抖音 UI 增强插件 DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 0.6.7
+Installed-Size: 4116
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.7-roothide.deb
+Size: 994348
+MD5sum: 54720c2d92f84b6d6a060faf739455cb
+SHA1: 
+SHA256: ba8e63c5d2eb6442ad47d3c55e65b67c1c22f4509a042b0d4a26dbbfa54af247
+
+Package: com.hierarch.dykiller
+Name: 抖音 UI 增强插件 DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 0.6.7
+Installed-Size: 4116
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.7-rootless.deb
+Size: 992996
+MD5sum: 22d985e75fd6b3d0af388b08ca68344e
+SHA1: 
+SHA256: 019392f5c23da73eecda054057349eb20f485b988db8c3fc23e319188aaaa1da
+
+Package: com.hierarch.dykiller
 Name: DYKiller 抖音 UI 增强
 Description: 抖音 UI 增强插件（模块化 hook 框架）
 Section: Tweaks
