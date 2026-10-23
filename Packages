@@ -39481,6 +39481,24 @@ MD5sum: 68e5709eff133851508f71ada6595a5f
 SHA1: 
 SHA256: f5b194ed32b51f69b8fb6e4dce47a8fb005dd4ff148ed270a37d8b5c12d2ebf0
 
+Package: com.siwenjiajia.tweak
+Name: 抖音优化（免授权）
+Version: 28.54
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Conflicts: com.siwenjiajia.tweak.comm, com.siwenjiajia.tweak.free
+Description: 抖音优化 交流版 28.54（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。
+Author: siwenjiajia
+Maintainer: personal
+Section: Tweaks
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.siwenjiajia.tweak-28.54-roothide.deb
+Size: 3690808
+MD5sum: 174b4984b666a585bdf8145b0598f7cf
+SHA1: 
+SHA256: 8408ab84022e7e1031ad00e5264df44559ac87855724049f8563b7a50246eff9
+
 Package: com.siwenjiajia.tweak.comm
 Name: 抖音优化
 Version: 28.35
