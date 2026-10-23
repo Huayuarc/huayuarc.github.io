@@ -3011,6 +3011,40 @@ MD5sum: 8648f40500e29167a7212aa6b0d06b92
 SHA1: 
 SHA256: 9196b150bb9c2e900dc5a689cedf2c38e8c6e71e627fc025eddc4f9af8f6ab38
 
+Package: com.MoWang.islanddigest
+Name: 灵屿通知
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.3.5
+Installed-Size: 1816
+icon: https://huayuarc.github.io/icon/islanddigest.png
+Filename: debs/com.MoWang.islanddigest-0.3.5-roothide.deb
+Size: 1187940
+MD5sum: 0e855fcaa65f6c616244f0616136614b
+SHA1: 
+SHA256: 62fa40b59432f2a298c599dcfddbda4689ed1478654628f66f29bf7bba6e2c23
+
+Package: com.MoWang.islanddigest
+Name: 灵屿通知
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.3.5
+Installed-Size: 1816
+icon: https://huayuarc.github.io/icon/islanddigest.png
+Filename: debs/com.MoWang.islanddigest-0.3.5-rootless.deb
+Size: 1187812
+MD5sum: 3bf8d50374c56594799596ca4cc2fc89
+SHA1: 
+SHA256: df31ee85778c8963dfd71b338bc74ce20bf02a895b42855adc3c35275a675136
+
 Package: com.Mr.Zhang.lookinloader
 Name: LookinLoader
 Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
