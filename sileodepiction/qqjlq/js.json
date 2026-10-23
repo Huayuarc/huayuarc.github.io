@@ -14,8 +14,14 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "text": "免费Token codex-relay 中转站",
+                    "text": "白嫖 免费Token codex-relay 中转站",
                     "action": "https://codex-relay.codes/register?aff=HNGS",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "text": "TG频道 Zaka · 无审查版 AI",
+                    "action": "https://t.me/zakadeep_bot?start=ref_7629970230",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
@@ -57,57 +63,8 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "iOS15.0-iOS17.0",
+                    "text": "iOS15.0-iOS17.4",
                     "title": "支持的系统"
-                }
-            ]
-        },
-        {
-            "class": "DepictionStackView",
-            "tabname": "更新日志",
-            "views": [
-                {
-                    "text": "点此加入我们的QQ交流群",
-                    "action": "https://qm.qq.com/q/JvllAQiEwI",
-                    "openExternal": 1,
-                    "class": "DepictionButtonView"
-                },
-                {
-                    "text": "免费Token codex-relay 中转站",
-                    "action": "https://codex-relay.codes/register?aff=HNGS",
-                    "openExternal": 1,
-                    "class": "DepictionButtonView"
-                },
-                {
-                    "markdown": "#### 版本: 0.0.1\n- 这个源主很懒\n- 懒得写更新日志",
-                    "useSpacing": true,
-                    "class": "DepictionMarkdownView"
-                }
-            ]
-        },
-        {
-            "class": "DepictionStackView",
-            "tabname": "本源公告",
-            "views": [
-                {
-                    "text": "点此加入我们的QQ交流群",
-                    "action": "https://qm.qq.com/q/AY1Prz9Zy8",
-                    "openExternal": 1,
-                    "class": "DepictionButtonView"
-                },
-                {
-                    "text": "免费Token codex-relay 中转站",
-                    "action": "https://codex-relay.codes/register?aff=HNGS",
-                    "openExternal": 1,
-                    "class": "DepictionButtonView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "markdown": "## Huayuarc源:\n- 本源仅为搬运一些自已常用的插件方便自用以及学习交流测试备份\n- 源内插件均来自互联网\n- 安装以后请于24小时内删除\n- 安装以后出现异常与本源无关",
-                    "useSpacing": true,
-                    "class": "DepictionMarkdownView"
                 }
             ]
         }
