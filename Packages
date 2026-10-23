@@ -49867,41 +49867,6 @@ MD5sum: 66c602dad1ab5155c0aff0dbbe1aebf2
 SHA1: 
 SHA256: ed19b973e41687e039c515b40879a7617df0a35b0cdbd348c1287239240cbf42
 
-Package: me.ray.jev-chat
-Name: Jev-Chat
-Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
-Maintainer: ray
-Author: ray
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64e
-Version: 1.1.1-2+debug
-Installed-Size: 1536
-Pre-Depends: rootless-compat(>= 0.9)
-Icon: https://huayuarc.github.io/icon/WeChat.jpg
-Filename: debs/me.ray.jev-chat-1.1.1-2+debug-roothide.deb
-Size: 275848
-MD5sum: d2d536f269c4d24c54c00628b380e272
-SHA1: 
-SHA256: 661bd87a4cec24627722e77a09e1792f050624f5d5ccaf014aa898be09f69591
-
-Package: me.ray.jev-chat
-Name: Jev-Chat
-Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
-Maintainer: ray
-Author: ray
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 1.1.1-2+debug
-Installed-Size: 1536
-Icon: https://huayuarc.github.io/icon/WeChat.jpg
-Filename: debs/me.ray.jev-chat-1.1.1-2+debug-rootless.deb
-Size: 283052
-MD5sum: 5a015a462700c1e76eb38fa892784c00
-SHA1: 
-SHA256: 6654c42b06d974190d61b17a74550284627822d884d1b041a1fabeae9c5f3ac7
-
 Package: moe.waru.jikan
 Name: 锁屏充电胶囊
 Description: 在锁定屏幕上显示充满电的剩余时间 Show time left to full charge on your lock screen
