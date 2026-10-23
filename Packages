@@ -27840,6 +27840,40 @@ MD5sum: 7efec70adf9dbe0e5f82452e76f5cdb3
 SHA1: 
 SHA256: 01861099aa66d34125e289ed6b6d5b773bb4ec7d1d854dfbbf639f3fbaac4673
 
+Package: com.nx.stheno
+Name: Stheno（免激活授权）
+Description: Stheno direct Swift settings with categorized controls, app icon and favorites rail.
+Maintainer: Crassna
+Author: Crassna
+Section: Tweaks
+Depends: dev.theos.orion, firmware (>= 16.1), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.1.0+direct2.znativeprefs7+rootless1
+Installed-Size: 3821
+icon: https://huayuarc.github.io/icon/stheno@3x.png
+Filename: debs/com.nx.stheno-1.1.0+direct2.znativeprefs7+rootless1-rootless.deb
+Size: 587256
+MD5sum: e799e8c81403fa279d59964228c5a454
+SHA1: 
+SHA256: 1fe489b32d64bfa69fc03e4a9c4eff16fd73bb579909c796f533f17b10b565ec
+
+Package: com.nx.stheno
+Name: Stheno（免激活授权）
+Description: Stheno direct Swift settings with categorized controls, app icon and favorites rail.
+Maintainer: Crassna
+Author: Crassna
+Section: Tweaks
+Depends: dev.theos.orion, firmware (>= 16.1)
+Architecture: iphoneos-arm64e
+Version: 1.1.0+direct2.znativeprefs7
+Installed-Size: 3676
+icon: https://huayuarc.github.io/icon/stheno@3x.png
+Filename: debs/com.nx.stheno-1.1.0+direct2.znativeprefs7-roothide.deb
+Size: 616180
+MD5sum: 16ae304baad6e354c1161b663c305b4a
+SHA1: 
+SHA256: bc2410547a8eb859f2cad59ff8d5f72ecb4713788b239f601026a9bc039235f3
+
 Package: com.opa334.trollstorelite
 Name: TrollStore Lite
 Description: A modified TrollStore by iosdump for jailbroken iOS
