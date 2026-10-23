@@ -49667,14 +49667,14 @@ Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Section: Development
 Priority: optional
-Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19)
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19)
 Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
 Installed-Size: 88616
 Filename: debs/wiki.qaq.apelin-0.1.1-roothide.deb
-Size: 21696124
-MD5sum: 97d71c61d5309daefcb4fdd1b7b09b9c
+Size: 21697060
+MD5sum: 30087862ad7819d76d0e039dfe5d726b
 SHA1: 
-SHA256: efe56ffaa6dc4289bf45d18e3bb2efb526c8bee82929ceb1a933dd148378e212
+SHA256: b3cba52fb39d2096e1554996f7f35642c1494d9b4f6397330acc46362e728001
 
 Package: wiki.qaq.apelin
 Name: Apelin
@@ -49689,14 +49689,14 @@ Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Section: Development
 Priority: optional
-Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19)
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19)
 Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
 Installed-Size: 88616
 Filename: debs/wiki.qaq.apelin-0.1.1-rootless.deb
-Size: 21695708
-MD5sum: cada45f0427740c24dbecf9766940ea4
+Size: 21695128
+MD5sum: 8279d37ef61790618cb7c7d295cf2ad2
 SHA1: 
-SHA256: 862521d737aa1f2ed1d46519821e9c321834f68e049f90a96856986bc8a7bd7e
+SHA256: e6685768cf94da3523a50a5ce5cb5a8660ad9c2fff437e0759fdd9c57ac6c744
 
 Package: wiki.qaq.apelin.agent-tools.assembler
 Name: Apelin Assembler
