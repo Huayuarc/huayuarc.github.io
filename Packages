@@ -10601,6 +10601,25 @@ Maintainer: crctdd
 Author: crctdd
 Section: Tweaks
 Architecture: iphoneos-arm64e
+Version: 1.5.4-11
+Installed-Size: 748
+icon: https://huayuarc.github.io/icon/ChoicyIcon@3x.png
+Filename: debs/com.crctdd.choicy-whitelist-1.5.4-11-roothide.deb
+Size: 156940
+MD5sum: 8ac418973969e9748b6a043b05e25276
+SHA1: 
+SHA256: 430112b289a3f08d85a2c5ce94dbbde43a7bcf866e49e5954e0798af40b48252
+
+Package: com.crctdd.choicy-whitelist
+Name: Choicy-Whitelist
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Conflicts: com.opa334.choicy, com.crctdd.choicy-patch
+Replaces: com.opa334.choicy, com.crctdd.choicy-patch
+Description: Choicy白名单 (支持iOS 15-17 roothide)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Architecture: iphoneos-arm64e
 Version: 1.5.4-4
 Installed-Size: 648
 icon: https://huayuarc.github.io/icon/ChoicyIcon@3x.png
@@ -14411,6 +14430,43 @@ Size: 204632
 MD5sum: 8316ea2822435a5518d9b303cba27d25
 SHA1: 
 SHA256: df4a50e23884935de9dc3cd74275b8e4682cbd1eaf455536e9e0f162fb351d5e
+
+Package: com.hang.ccbackground
+Name: 控制中心背景自定义
+Depends: mobilesubstrate
+Description: 控制中心背景
+Depiction:https://pic1.imgdb.cn/item/69e5dc9f198dd6f8d6ac6bd2.png
+Icon:https://pic1.imgdb.cn/item/69e5dc9f198dd6f8d6ac6bd2.png
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.6
+Installed-Size: 1000
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.hang.ccbackground-1.6-roothide.deb
+Size: 205800
+MD5sum: 3d6b0a451eb1f9fda63aea7062258c33
+SHA1: 
+SHA256: a796bab28b3d37eb53c0bce87dbf693b048e85e586ecf8ec6f719d46742ed26a
+
+Package: com.hang.ccbackground
+Name: 控制中心背景自定义
+Depends: mobilesubstrate
+Description: 控制中心背景
+Depiction:https://pic1.imgdb.cn/item/69e5dc9f198dd6f8d6ac6bd2.png
+Icon:https://pic1.imgdb.cn/item/69e5dc9f198dd6f8d6ac6bd2.png
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.6
+Installed-Size: 1000
+Filename: debs/com.hang.ccbackground-1.6-rootless.deb
+Size: 207968
+MD5sum: 1412fd08a35889991748bfc0d673ee7e
+SHA1: 
+SHA256: 7be36b95a9edcb83c3189f95f457d0d85667cf09908262707e582ee3db056b0c
 
 Package: com.hang.douyinclockdock
 Name: 抖音Pro
@@ -46346,6 +46402,50 @@ Size: 17124
 MD5sum: da61be3368130e9f9b68e6e017deadda
 SHA1: 
 SHA256: 993641518009749fdc87fc17f4b56d0440206b46f09dbd04fd21f6cdfeb3de94
+
+Package: im.mjh.doleo
+Name: Doleo
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Maintainer: junhong <mail@mjh.im>
+Author: junhong <mail@mjh.im>
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 904
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json
+Homepage: https://5hux1n.github.io/Doleo/
+Tags: compatible_min::ios15.0
+Filename: debs/im.mjh.doleo-1.0.0-roothide.deb
+Size: 207788
+MD5sum: 254e6f9d81aedd1dbc53b43daf20483d
+SHA1: 
+SHA256: 8a4f3335a7db7c0db017b3c27c4f793595a40d259b1401923a3701ac509a86f8
+
+Package: im.mjh.doleo
+Name: Doleo
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Maintainer: junhong <mail@mjh.im>
+Author: junhong <mail@mjh.im>
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Icon: https://apt.mjh.im/assets/im.mjh.doleo/icon.png
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 904
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json
+Homepage: https://5hux1n.github.io/Doleo/
+Tags: compatible_min::ios15.0
+Filename: debs/im.mjh.doleo-1.0.0-rootless.deb
+Size: 207864
+MD5sum: b07f72399d20bbae7f824cb8c378690e
+SHA1: 
+SHA256: a1fcc8d4e0e64ade855ff44224f52c5e404395dd9a4785f3cefe9e679ebe6f44
 
 Package: im.mjh.fakenotify
 Name: FakeNotify
