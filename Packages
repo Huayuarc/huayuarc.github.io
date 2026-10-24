@@ -47540,6 +47540,40 @@ MD5sum: b0b20516839a7c83fdda7a59f90b7ea4
 SHA1: 
 SHA256: eb1a472cfba94ce58ba3fb5b42633448c126bdd9359c0874ec0dcb72465440dd
 
+Package: iya.banana.hide2less
+Name: Hide2Less
+Description: 在手机上将受支持的 RootHide 插件包转换为 Rootless 安装包。Convert supported RootHide tweak packages to Rootless on device.
+Maintainer: Banana
+Author: Banana
+Section: Utilities
+Depends: firmware (>= 15.0), dpkg (>= 1.21.18), ldid
+Architecture: iphoneos-arm64e
+Version: 0.1.2~beta10
+Installed-Size: 516
+icon: https://huayuarc.github.io/icon/hide2less.png
+Filename: debs/iya.banana.hide2less-0.1.2~beta10-roothide.deb
+Size: 152480
+MD5sum: 0c483e49a5162f0a46c2016dbc25d775
+SHA1: 
+SHA256: f8b3d76927d4cd2f81d6695662cf99e188e4f81f833917a979a5113113d3fab4
+
+Package: iya.banana.hide2less
+Name: Hide2Less
+Description: 在手机上将受支持的 RootHide 插件包转换为 Rootless 安装包。Convert supported RootHide tweak packages to Rootless on device.
+Maintainer: Banana
+Author: Banana
+Section: Utilities
+Depends: firmware (>= 15.0), dpkg (>= 1.21.18), ldid
+Architecture: iphoneos-arm64
+Version: 0.1.2~beta10
+Installed-Size: 516
+icon: https://huayuarc.github.io/icon/hide2less.png
+Filename: debs/iya.banana.hide2less-0.1.2~beta10-rootless.deb
+Size: 153092
+MD5sum: a9333c1b5324c39f9048e8fff3f6884b
+SHA1: 
+SHA256: 7c8107ec5b1930f6170376a542afd6bdba4219f8bc80db338e3b167c9bf7a276
+
 Package: iya.banana.hide2less.compat
 Name: Hide2Less Compatibility
 Version: 0.1.0
@@ -47551,10 +47585,10 @@ Section: System
 Depends: firmware (>= 15.0)
 icon: https://huayuarc.github.io/icon/hide2less.png
 Filename: debs/iya.banana.hide2less.compat-0.1.0-rootless.deb
-Size: 17204
-MD5sum: 26507991a3d8780422453f3d4dc1931c
+Size: 17220
+MD5sum: 5c4e9bbf111d7e86fad1e752f5e56839
 SHA1: 
-SHA256: a8ec2fd72347186e4e2f4f829820833356965cc27afebfd59dd696f06ff1aff5
+SHA256: d5c3872bf168ad08aa14995e77439b29b08e32d61f98593296aa68bdf612c431
 
 Package: iya.banana.iphoneduoflow
 Name: DuoFlow
