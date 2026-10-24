@@ -49976,6 +49976,49 @@ MD5sum: ad216e688fd0bcdb63ac1990ca58fe95
 SHA1: 
 SHA256: 06206d62a502b11eaa57dae3df34253525db521ffc1d66556bf7893907b11596
 
+Package: me.ray.jev-chat
+Name: Jev-Chat
+Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
+ * ## 一、快速上手（三步）
+ * 1. **装插件**：deb 装完**重启微信**，打开入口 **微信 → 我 → 设置 → Jev Chat**。
+ * 2. **填 API**：「建议回复」页填服务地址 / Key / 模型（生成层，必填）；「意图判断」页选个预设只填 Key（判断层，可不填）。
+ * 3. **启用并选人**：主页「启用插件」→ 打开开关 → 选择联系人。之后对方发消息，消息下方自动出现分析卡片和 4 条建议回复，点 ➤ 直接发送。
+Maintainer: ray
+Author: ray
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.1.1-20261024.1059-2+debug
+Installed-Size: 2404
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/me.ray.jev-chat-1.1.1-20261024.1059-2+debug-roothide.deb
+Size: 481568
+MD5sum: 7fdf80647c1232a80d629827f06f20ff
+SHA1: 
+SHA256: 7f44470d633c490b7eb7653bcfa4f49f87e22c4a46abaa36b7daa5487b4a7718
+
+Package: me.ray.jev-chat
+Name: Jev-Chat
+Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
+ * ## 一、快速上手（三步）
+ * 1. **装插件**：deb 装完**重启微信**，打开入口 **微信 → 我 → 设置 → Jev Chat**。
+ * 2. **填 API**：「建议回复」页填服务地址 / Key / 模型（生成层，必填）；「意图判断」页选个预设只填 Key（判断层，可不填）。
+ * 3. **启用并选人**：主页「启用插件」→ 打开开关 → 选择联系人。之后对方发消息，消息下方自动出现分析卡片和 4 条建议回复，点 ➤ 直接发送。
+Maintainer: ray
+Author: ray
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.1.1-20261024.1059-2+debug
+Installed-Size: 2404
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/me.ray.jev-chat-1.1.1-20261024.1059-2+debug-rootless.deb
+Size: 494416
+MD5sum: 709314b231c32d34517a5a3055e66490
+SHA1: 
+SHA256: 9731246d8fb707d22d03394d02cf1070ae2e48f09be4e33db138db86e0478914
+
 Package: moe.waru.jikan
 Name: 锁屏充电胶囊
 Description: 在锁定屏幕上显示充满电的剩余时间 Show time left to full charge on your lock screen
