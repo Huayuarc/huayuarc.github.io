@@ -15624,387 +15624,9 @@ SHA1:
 SHA256: f8eebe8b562d8a73ac0ddad86d8a8dac5b0fa9973d06ccd96292913a5e593155
 
 Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
+Name: MarkTheme
 Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64e
-Version: 0.1.5
-Installed-Size: 8656
-Filename: debs/com.hmmzzz.marktheme-0.1.5-roothide.deb
-Size: 2354668
-MD5sum: 7e5a046d451fb103152b60e7201eb19b
-SHA1: 
-SHA256: e4e267b4f208f63daa0aaaaa44e571db4031e7497c4414843ba51e54fd8ed938
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64
-Version: 0.1.5
-Installed-Size: 8692
-Filename: debs/com.hmmzzz.marktheme-0.1.5-rootless.deb
-Size: 2357012
-MD5sum: 2b4e36caf025c6de12dcb356bbce857f
-SHA1: 
-SHA256: 333ec8285bfd044c921708d1a9db9e168277c6af9aa363ccd03cb03560d6cd32
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64e
-Version: 0.1.6
-Installed-Size: 8820
-Filename: debs/com.hmmzzz.marktheme-0.1.6-roothide.deb
-Size: 2385992
-MD5sum: a184af28ad378aa680e251ff05cb0268
-SHA1: 
-SHA256: 9245cad36f65f304b049012a7497295ce47a101ad86325d164828894a83a64a6
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64
-Version: 0.1.6
-Installed-Size: 8836
-Filename: debs/com.hmmzzz.marktheme-0.1.6-rootless.deb
-Size: 2393348
-MD5sum: 67521e6f3f88378fa4713a17c8f9accb
-SHA1: 
-SHA256: 1a5e530e1b945ec2a44dd51c66df56a12f02db5e620dc8a641e42cabd7524c52
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 16.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64e
-Version: 0.1.7
-Installed-Size: 8844
-Filename: debs/com.hmmzzz.marktheme-0.1.7-roothide.deb
-Size: 2392632
-MD5sum: 333549da71d60c2eca0557cf128fc461
-SHA1: 
-SHA256: c86e8c773ce8f4fd0c62455f1e3c2a0e412ca8a5432be5baecfdd85364a897b5
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 16.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64
-Version: 0.1.7
-Installed-Size: 8860
-Filename: debs/com.hmmzzz.marktheme-0.1.7-rootless.deb
-Size: 2387272
-MD5sum: 9e36b7e3a6cb1efc8371f2dd8db41d59
-SHA1: 
-SHA256: c2d3950e8e7f3fb74dfa18849a9fc5b786ac5abb76bd4feeb5244e8c4b36fe91
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 16.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64e
-Version: 0.1.9
-Installed-Size: 8960
-Filename: debs/com.hmmzzz.marktheme-0.1.9-roothide.deb
-Size: 2417412
-MD5sum: 2be50e2d07eb984c563658da2e3ce444
-SHA1: 
-SHA256: fa4bb4500c48607c65ad6ea72e75511919212c1da52b9ea22a2b283843a5122c
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 16.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64
-Version: 0.1.9
-Installed-Size: 8964
-Filename: debs/com.hmmzzz.marktheme-0.1.9-rootless.deb
-Size: 2418172
-MD5sum: 5cda466558533f0173fc6f933d4ce417
-SHA1: 
-SHA256: 87bd4de2823bbe536ff61b5a560b4a8a1759e1cc3d26442910f7695e7c078020
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64e
-Version: 0.2.1
-Installed-Size: 9048
-Filename: debs/com.hmmzzz.marktheme-0.2.1-roothide.deb
-Size: 2433820
-MD5sum: d5fb3b81b70cac1c57417219600843f2
-SHA1: 
-SHA256: fb6aca4f07e10ddf9c748d30fc64e0aaeb22e06603a505ef0e3ba5932f82180a
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64
-Version: 0.2.1
-Installed-Size: 9052
-Filename: debs/com.hmmzzz.marktheme-0.2.1-rootless.deb
-Size: 2437144
-MD5sum: b46f13ec1d1bbd33e6d3af5e649cce1e
-SHA1: 
-SHA256: bce2046f94c14603171cc633e2fd61fc67e5c4bb256b34f1522cebbcae9c69db
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64e
-Version: 0.2.7
-Installed-Size: 8640
-Filename: debs/com.hmmzzz.marktheme-0.2.7-roothide.deb
-Size: 2429336
-MD5sum: b9868db6bac54b273956f5bd9f3b7b28
-SHA1: 
-SHA256: 42d2643fbf9389ca7eff3e65a5d34cbc3833ac607516dffe99936afe16a530d7
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64
-Version: 0.2.7
-Installed-Size: 8644
-Filename: debs/com.hmmzzz.marktheme-0.2.7-rootless.deb
-Size: 2437380
-MD5sum: e6c2d6d79fd695122cbe1b26044002a3
-SHA1: 
-SHA256: 1330f74bb3e7fc82a5741bb24da74bc969035ad332573f4db6b7d5a566a16180
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64e
-Version: 0.2.9
-Installed-Size: 8620
-Filename: debs/com.hmmzzz.marktheme-0.2.9-roothide.deb
-Size: 2425652
-MD5sum: 5000c352aba3aa4ee767426e6166b388
-SHA1: 
-SHA256: 695dc212eb513cc42dfd521482d54c733a1f8e230c84de2e6fc742c9567ea16e
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64
-Version: 0.2.9
-Installed-Size: 8644
-Filename: debs/com.hmmzzz.marktheme-0.2.9-rootless.deb
-Size: 2437676
-MD5sum: 858f574919109ec979e08e5978721b61
-SHA1: 
-SHA256: ee8bd19faa19cecdb60a975d90c65b7dc76e6647a10ad6989c42219baf0cfa91
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- MarkTheme 0.3.0 支持导入 SnowBoard / IconBundles 风格主题，可主题化应用图标、
+ MarkTheme 0.3.3 支持导入 SnowBoard / IconBundles 风格主题，可主题化应用图标、
  文件夹、角标、状态栏、拨号盘、设置与分享界面。
  .
  支持跨主题混搭和功能独立开关；切换主题或混搭后，按提示 Respring 即可应用新外观。
@@ -16013,106 +15635,25 @@ Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理�
  请安装与你的越狱环境匹配的软件包，两个版本不可混装。
 Maintainer: Hmmzzz
 Author: Hmmzzz
-Section: System
+Section: Utilities
 Homepage: https://github.com/Hmmzzz/MarkTheme
 Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
 Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
 Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
 SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
 Architecture: iphoneos-arm64e
-Version: 0.3.0
-Installed-Size: 8648
-Filename: debs/com.hmmzzz.marktheme-0.3.0-roothide.deb
-Size: 2435172
-MD5sum: 686138dc715ea54dba9831fbf02e1e5c
-SHA1: 
-SHA256: ac6c4af21474608424d3d96cb875f6171c5aa37007abf92006fb9fde31334c2c
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- MarkTheme 0.3.0 支持导入 SnowBoard / IconBundles 风格主题，可主题化应用图标、
- 文件夹、角标、状态栏、拨号盘、设置与分享界面。
- .
- 支持跨主题混搭和功能独立开关；切换主题或混搭后，按提示 Respring 即可应用新外观。
- .
- 提供 conventional rootless 与 RootHide 独立软件包，支持 iOS 17.0 至 18.x。
- 请安装与你的越狱环境匹配的软件包，两个版本不可混装。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64
-Version: 0.3.0
-Installed-Size: 8668
-Filename: debs/com.hmmzzz.marktheme-0.3.0-rootless.deb
-Size: 2444292
-MD5sum: d8b4f92047833ffe70f00bbe9f2eb159
-SHA1: 
-SHA256: 29339282f0be7f181b25d92bc5125cf7166490b624bd9f66770a77e75e73cddf
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64e
-Version: 0.3.1
+Version: 0.3.3
 Installed-Size: 8660
-Filename: debs/com.hmmzzz.marktheme-0.3.1-roothide.deb
-Size: 2435868
-MD5sum: f88992e4b45adb409aff62411169e118
+Filename: debs/com.hmmzzz.marktheme-0.3.3-roothide.deb
+Size: 2442544
+MD5sum: e7af5f638d521f6c73151d2e3a9275ed
 SHA1: 
-SHA256: 086ad25ce69e5dcca2aed1b34a39d7ffdaa2ed2c9797c9b9b19d8351aaded837
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64
-Version: 0.3.1
-Installed-Size: 8668
-Filename: debs/com.hmmzzz.marktheme-0.3.1-rootless.deb
-Size: 2440216
-MD5sum: 61e8e11b85408c6aa32ecf2e7e10762e
-SHA1: 
-SHA256: c1eec34adee7b3ac49a632d4bfa79f9bcd3395612a5d2ef31cd795e473c11e05
+SHA256: a5b7447a6166ad3cd60426cb723165701daa5aec91559be4a1ffa37a0d664c07
 
 Package: com.hmmzzz.marktheme
 Name: MarkTheme
 Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- MarkTheme 0.3.2 支持导入 SnowBoard / IconBundles 风格主题，可主题化应用图标、
+ MarkTheme 0.3.3 支持导入 SnowBoard / IconBundles 风格主题，可主题化应用图标、
  文件夹、角标、状态栏、拨号盘、设置与分享界面。
  .
  支持跨主题混搭和功能独立开关；切换主题或混搭后，按提示 Respring 即可应用新外观。
@@ -16121,101 +15662,20 @@ Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理�
  请安装与你的越狱环境匹配的软件包，两个版本不可混装。
 Maintainer: Hmmzzz
 Author: Hmmzzz
-Section: Tweaks
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64e
-Version: 0.3.2
-Installed-Size: 8620
-Filename: debs/com.hmmzzz.marktheme-0.3.2-roothide.deb
-Size: 2428356
-MD5sum: 910e35f4d6fed60c49d8f6df11679df8
-SHA1: 
-SHA256: 5b4c5679c5174b1a3ea019646a5303afd17211c94e97579262cfe34d26aa31e9
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- MarkTheme 0.3.2 支持导入 SnowBoard / IconBundles 风格主题，可主题化应用图标、
- 文件夹、角标、状态栏、拨号盘、设置与分享界面。
- .
- 支持跨主题混搭和功能独立开关；切换主题或混搭后，按提示 Respring 即可应用新外观。
- .
- 提供 conventional rootless 与 RootHide 独立软件包，支持 iOS 17.0 至 18.x。
- 请安装与你的越狱环境匹配的软件包，两个版本不可混装。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: Tweaks
+Section: Utilities
 Homepage: https://github.com/Hmmzzz/MarkTheme
 Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
 Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
 Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
 SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
 Architecture: iphoneos-arm64
-Version: 0.3.2
-Installed-Size: 8640
-Filename: debs/com.hmmzzz.marktheme-0.3.2-rootless.deb
-Size: 2442928
-MD5sum: a818a10fe3596fec3fea66c24f5b6f01
+Version: 0.3.3
+Installed-Size: 8680
+Filename: debs/com.hmmzzz.marktheme-0.3.3-rootless.deb
+Size: 2444288
+MD5sum: 66f3f60110baa976b03bfe07ae83ab50
 SHA1: 
-SHA256: fae8c031443f6a97aa8de77d47eead2528e147fa8788a70f1ea568d7746ca89c
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64
-Version: 0.2.6
-Installed-Size: 7868
-Filename: debs/com.hmmzzz.marktheme_0.2.6_iphoneos-arm64.deb
-Size: 2372368
-MD5sum: 649c5703569aab4dd801ce28e647ba38
-SHA1: 
-SHA256: dbaa5d141cb34075af66e639e83c2a5387e1cb56230db2016d9b1e744306f6ed
-
-Package: com.hmmzzz.marktheme
-Name: MarkTheme 主题引擎管理器
-Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
- * MarkTheme 0.1.5 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。
- * 可主题化主屏幕图标、文件夹、角标、Spotlight、设置、电话、分享页与状态栏资源，
- * 支持作者遮罩和系统原生圆角遮罩。
- * 提供 conventional rootless 与 RootHide 独立软件包，仅支持 iOS 17.0 及以上。
- * 请安装与你的越狱环境匹配的架构，两个软件包不可混装。
- * 所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。
- * 身份、ABI 或资源校验失败时自动保留系统原生外观。
-Maintainer: Hmmzzz
-Author: Hmmzzz
-Section: System
-Homepage: https://github.com/Hmmzzz/MarkTheme
-Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
-Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
-Architecture: iphoneos-arm64e
-Version: 0.2.6
-Installed-Size: 7864
-Filename: debs/com.hmmzzz.marktheme_0.2.6_iphoneos-arm64e.deb
-Size: 2371316
-MD5sum: 7be0129036ef95bb85df8922c0da8e1e
-SHA1: 
-SHA256: 0f033732b9481f17d0090381d22265582e85769f823fac6f7a14f348b7c0994a
+SHA256: 4a3eae670030afa90673473c8b11836fe3a3974ed9df55a0ec0f91ab08e050a2
 
 Package: com.hoangdus.konban
 Name: KonbanXV
@@ -48530,14 +47990,14 @@ Author: Banana
 Section: Tweaks
 Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Architecture: iphoneos-arm64e
-Version: 0.1.1
-Installed-Size: 1924
+Version: 0.1.3
+Installed-Size: 2356
 icon: https://huayuarc.github.io/icon/onboarding-icon.png
-Filename: debs/iya.banana.multitask-0.1.1-roothide.deb
-Size: 297872
-MD5sum: c1814edd96e09aecd0531e0bb55caf46
+Filename: debs/iya.banana.multitask-0.1.3-roothide.deb
+Size: 396500
+MD5sum: beca2a87cc64546568f382eae7a014b6
 SHA1: 
-SHA256: 87b49157185580c82a03050d8d52db3dccc0a7a9cba0f800654310231b3262ee
+SHA256: fe4e99e6c36c21e3a44a74617305686a90b9952b2504452c02d958f6c6e95339
 
 Package: iya.banana.multitask
 Name: 一芽分屏 (Iya Split)
@@ -48547,82 +48007,14 @@ Author: Banana
 Section: Tweaks
 Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Architecture: iphoneos-arm64
-Version: 0.1.1
-Installed-Size: 1940
+Version: 0.1.3
+Installed-Size: 2372
 icon: https://huayuarc.github.io/icon/onboarding-icon.png
-Filename: debs/iya.banana.multitask-0.1.1-rootless.deb
-Size: 297736
-MD5sum: 49b6069c379e0f115070357e9894fb0a
+Filename: debs/iya.banana.multitask-0.1.3-rootless.deb
+Size: 396772
+MD5sum: 3b90c7cef90237417f320603d0c7cf69
 SHA1: 
-SHA256: de494175ec0f5308ea2b04706b1a37eb14be38e4c4bf9abfe47f8e2b8f79d4a1
-
-Package: iya.banana.multitask
-Name: 一芽分屏 (Iya Split)
-Description: 随手分屏，自由安排你的多任务空问。Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Architecture: iphoneos-arm64e
-Version: 0.1.2
-Installed-Size: 2348
-icon: https://huayuarc.github.io/icon/onboarding-icon.png
-Filename: debs/iya.banana.multitask-0.1.2-roothide.deb
-Size: 389012
-MD5sum: 4568d7e35710f994069e4eaa1faed875
-SHA1: 
-SHA256: fbc0664cc612391d7f4c03802916070abe2fbefe4770e1843a9c2ca231205afd
-
-Package: iya.banana.multitask
-Name: 一芽分屏 (Iya Split)
-Description: 随手分屏，自由安排你的多任务空问。Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Architecture: iphoneos-arm64
-Version: 0.1.2
-Installed-Size: 2348
-icon: https://huayuarc.github.io/icon/onboarding-icon.png
-Filename: debs/iya.banana.multitask-0.1.2-rootless.deb
-Size: 390984
-MD5sum: 9e7044d8cf27b639b29cd69139866571
-SHA1: 
-SHA256: b3765db2a802c1153877ffe14d08b640e7a30896752acd65bdea91b70516f1d7
-
-Package: iya.banana.multitask
-Name: 一芽分屏 (Iya Split)
-Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Architecture: iphoneos-arm64e
-Version: 0.1.2~alpha27
-Installed-Size: 2184
-icon: https://huayuarc.github.io/icon/onboarding-icon.png
-Filename: debs/iya.banana.multitask-0.1.2~alpha27-roothide.deb
-Size: 354660
-MD5sum: 52726c7fc28f48cab784a725f1ef032f
-SHA1: 
-SHA256: de53d6827e16d2fb79650bbb6502ad433f9e91113985ff3de94639195ffdc833
-
-Package: iya.banana.multitask
-Name: 一芽分屏 (Iya Split)
-Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Architecture: iphoneos-arm64
-Version: 0.1.2~alpha27
-Installed-Size: 2184
-icon: https://huayuarc.github.io/icon/onboarding-icon.png
-Filename: debs/iya.banana.multitask-0.1.2~alpha27-rootless.deb
-Size: 356760
-MD5sum: 6c61736787abd48289de2b3596572c2d
-SHA1: 
-SHA256: b452899d50b44cbf656571fa1b1fc23255b7dd6402fef673f53e91408c1fb489
+SHA256: 16a85feaf23a97c5cd0f2ea112d41cb440eb08463b82e1679490cb97b0368aa9
 
 Package: iya.banana.musichaptics
 Name: MusicHaptics
