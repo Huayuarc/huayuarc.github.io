@@ -47264,6 +47264,56 @@ MD5sum: 30c5c5aed49857d850a916acb22d1f9a
 SHA1: 
 SHA256: bde81c4c929402e533f8c70a20b9ae85e8d33f615fb52fd056dcccdfb1c8e161
 
+Package: iya.banana.hide2less
+Name: Hide2Less
+Description: 在手机上将受支持的 RootHide 插件包转换为 Rootless 安装包。Convert supported RootHide tweak packages to Rootless on device.
+Maintainer: Banana
+Author: Banana
+Section: Utilities
+Depends: firmware (>= 15.0), dpkg, ldid
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Installed-Size: 484
+icon: https://huayuarc.github.io/icon/hide2less.png
+Filename: debs/iya.banana.hide2less-0.1.1-roothide.deb
+Size: 146848
+MD5sum: 9bee921a24148aa2f25c028a72fcd41f
+SHA1: 
+SHA256: e0e0108d926792ab9098c4ea71880fc80f875aca1d904f35c356edd1d546b31b
+
+Package: iya.banana.hide2less
+Name: Hide2Less
+Description: 在手机上将受支持的 RootHide 插件包转换为 Rootless 安装包。Convert supported RootHide tweak packages to Rootless on device.
+Maintainer: Banana
+Author: Banana
+Section: Utilities
+Depends: firmware (>= 15.0), dpkg, ldid
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Installed-Size: 484
+icon: https://huayuarc.github.io/icon/hide2less.png
+Filename: debs/iya.banana.hide2less-0.1.1-rootless.deb
+Size: 147544
+MD5sum: b0b20516839a7c83fdda7a59f90b7ea4
+SHA1: 
+SHA256: eb1a472cfba94ce58ba3fb5b42633448c126bdd9359c0874ec0dcb72465440dd
+
+Package: iya.banana.hide2less.compat
+Name: Hide2Less Compatibility
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Description: 为 Hide2Less 转换后的 Rootless 插件提供所需的兼容支持。Shared path API compatibility for packages converted by Hide2Less.
+Maintainer: Banana
+Author: Banana
+Section: System
+Depends: firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/hide2less.png
+Filename: debs/iya.banana.hide2less.compat-0.1.0-rootless.deb
+Size: 17204
+MD5sum: 26507991a3d8780422453f3d4dc1931c
+SHA1: 
+SHA256: a8ec2fd72347186e4e2f4f829820833356965cc27afebfd59dd696f06ff1aff5
+
 Package: iya.banana.iphoneduoflow
 Name: DuoFlow
 Description: 随倾斜变化的场景效果、横屏侧边 Dock与可展开状态星环。Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
