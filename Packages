@@ -53327,7 +53327,7 @@ Package: xyz.cypwn.novaunlock
 Maintainer: CyPwn
 Icon: https://repo.cypwn.xyz/packages/NovaUnlock-Rootless/icon.png
 Name: NovaUnlock
-Depends: mobilesubstrate, firmware (>= 17.0), preferenceloader
+Depends: mobilesubstrate, firmware (>= 16.0), preferenceloader
 Conflicts: com.sanderzen.unlock26
 Replaces: com.sanderzen.unlock26
 Description: iOS 26 style unlock and lock animations for iOS 16 and 17. iOS16和17的iOS26风格解锁和锁定动画。
@@ -53336,16 +53336,16 @@ Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 1.2.3
 Filename: debs/xyz.cypwn.novaunlock-1.2.3-roothide.deb
-Size: 226192
-MD5sum: 7f89e02689b157eb091312e2c486c267
+Size: 226248
+MD5sum: f36329a7f093c39be08c368623cc2b64
 SHA1: 
-SHA256: 8c8a71da0f83b732d2d481ff24eb9dc7645dc74610001d743fd70caeda65b0af
+SHA256: 2ac8a85ddbad43980666c1343ff6c97e5d0ba9c9674fff1a32abc66fcc11e8a1
 
 Package: xyz.cypwn.novaunlock
 Maintainer: CyPwn
 Icon: https://repo.cypwn.xyz/packages/NovaUnlock-Rootless/icon.png
 Name: NovaUnlock
-Depends: mobilesubstrate, firmware (>= 17.0), preferenceloader
+Depends: mobilesubstrate, firmware (>= 16.0), preferenceloader
 Conflicts: com.sanderzen.unlock26
 Replaces: com.sanderzen.unlock26
 Description: iOS 26 style unlock and lock animations for iOS 16 and 17. iOS16和17的iOS26风格解锁和锁定动画。
@@ -53354,10 +53354,10 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.2.3
 Filename: debs/xyz.cypwn.novaunlock-1.2.3-rootless.deb
-Size: 226220
-MD5sum: 729f41a347d6329753ef391bfe5eec5b
+Size: 226208
+MD5sum: 97f390449c78448efffa176227170e49
 SHA1: 
-SHA256: 8207afa627f752069e0de20efa48dd00959f8b20c5d0f6e4aad5a755cb9b14c6
+SHA256: 05047a113d5d71254829f5f81fc0500455059e9cbeed346eecfc626dce41e088
 
 Package: xyz.cypwn.photoscore
 Maintainer: CyPwn
