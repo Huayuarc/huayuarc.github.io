@@ -13652,6 +13652,78 @@ MD5sum: b93509e92644aebccb936f9ea9ccb252
 SHA1: 
 SHA256: 56779e68c32e69c2cbdf759331e54cadd070bc873a01009819e3c5e760a0e5cc
 
+Package: com.evgeniy.hotspotvpn
+Name: HotspotVPN
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport
+Description: 与个人热点上的设备共享iPhone的VPN连接。Share your iPhone's VPN connection with devices on Personal Hotspot.
+Maintainer: evgeniy
+Author: evgeniy
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 600
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/hotspotvpn.jpg
+Filename: debs/com.evgeniy.hotspotvpn-1.0-roothide.deb
+Size: 80416
+MD5sum: 2625000835317538c03a00929382aa3e
+SHA1: 
+SHA256: af246ccac4c1845db94cdaceebe5fc0c02a123a2642de220de3cb16709d8eab5
+
+Package: com.evgeniy.hotspotvpn
+Name: HotspotVPN
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport
+Description: 与个人热点上的设备共享iPhone的VPN连接。Share your iPhone's VPN connection with devices on Personal Hotspot.
+icon: https://huayuarc.github.io/icon/hotspotvpn.jpg
+Maintainer: evgeniy
+Author: evgeniy
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 600
+Filename: debs/com.evgeniy.hotspotvpn-1.0-rootless.deb
+Size: 80340
+MD5sum: 887207d1430c0115f3a582b5a65f5720
+SHA1: 
+SHA256: 44eeae245981664d0cf6e5f6bef3bf44f8cbc28a57254398772c2e8213dde847
+
+Package: com.evgeniy.immortalizerreborn
+Name: Immortalizer Reborn
+Description: 让应用在后台持续前台保活！支持 iOS 14 至 26.0.1 Foreground your apps even if they are in the background! Supports iOS 14-26.0.1
+Author: evgeniy
+Maintainer: evgeniy
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: xyz.cypwn.immortalizer, com.sergy.immortalizer
+icon: https://huayuarc.github.io/icon/immortalizerreborn.png
+Architecture: iphoneos-arm64e
+Version: 1.16
+Installed-Size: 792
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.evgeniy.immortalizerreborn-1.16-roothide.deb
+Size: 120852
+MD5sum: 671674184e8206abf99600c05d1ce6fd
+SHA1: 
+SHA256: 9f54352bfe6c876997232aeaf1774f60c6702af0764cf206dc27898e466dc492
+
+Package: com.evgeniy.immortalizerreborn
+Name: Immortalizer Reborn
+Description: 让应用在后台持续前台保活！支持 iOS 14 至 26.0.1 Foreground your apps even if they are in the background! Supports iOS 14-26.0.1
+Author: evgeniy
+Maintainer: evgeniy
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Conflicts: xyz.cypwn.immortalizer, com.sergy.immortalizer
+icon: https://huayuarc.github.io/icon/immortalizerreborn.png
+Architecture: iphoneos-arm64
+Version: 1.16
+Installed-Size: 792
+Filename: debs/com.evgeniy.immortalizerreborn-1.16-rootless.deb
+Size: 120976
+MD5sum: 072eaea6b8a4da14bb025b9df73361a1
+SHA1: 
+SHA256: 7fb65ea1791e18e5b32efe1d762a2fa32576046c8c091c6ed83647e053a388b5
+
 Package: com.evgeniy558.controlcenter18
 Name: ControlCenter18
 Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
@@ -17067,6 +17139,44 @@ Size: 3816
 MD5sum: 083eed459a944f81d8edb9f2f7ca2a61
 SHA1: 
 SHA256: 5c66a64963bbc1fcde29e38d16b60f690bba4987da792d60bc599e0512543f58
+
+Package: com.huayuarc.gtok
+Name: GTok
+Description: GTok for TikTok by t.me/g_tweaks (Roothide)
+Maintainer: g_tweaks
+Author: g_tweaks
+Section: Tweaks
+Depends: mobilesubstrate
+Conflicts: com.gtok.tweak
+Replaces: com.gtok.tweak
+Architecture: iphoneos-arm64e
+Version: 2.4
+Installed-Size: 17824
+icon: https://huayuarc.github.io/icon/gtok.jpg
+Filename: debs/com.huayuarc.gtok-2.4-roothide.deb
+Size: 4910388
+MD5sum: fd2db7da3e4a5758b6b8cf7272f8bfbe
+SHA1: 
+SHA256: e46519be7c1c2d04a3b3b55e00ed18aaf3f9246ddcb0ec8b6727fbc359be48dd
+
+Package: com.huayuarc.gtok
+Name: GTok
+Description: GTok for TikTok by t.me/g_tweaks (Rootless)
+Maintainer: g_tweaks
+Author: g_tweaks
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate | substitute | libhooker | ellekit
+Conflicts: com.gtok, com.gtok.tweak
+Replaces: com.gtok, com.gtok.tweak
+Architecture: iphoneos-arm64
+Version: 2.4
+Installed-Size: 17824
+icon: https://huayuarc.github.io/icon/gtok.jpg
+Filename: debs/com.huayuarc.gtok-2.4-rootless.deb
+Size: 4910508
+MD5sum: bb33850c3849873ddd895f9214f4c883
+SHA1: 
+SHA256: 0e00b9bc9da37774419774a52d54b1a67cf3e803d7ce2d547232177d5fc58d98
 
 Package: com.huayuarc.lt-zj-noads
 Name: 联通智家 NoAds
@@ -46604,6 +46714,40 @@ MD5sum: 68d316c68ee82e54789d65a9f1a0c371
 SHA1: 
 SHA256: e40dcf2346239e8af95e4d183e273e07ccb23406056d9a76e159adc51ac454b0
 
+Package: im.mjh.uuscreenswitch
+Name: UU远控切屏
+Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Installed-Size: 240
+icon: https://huayuarc.github.io/icon/uuscreenswitch.jpg
+Filename: debs/im.mjh.uuscreenswitch-1.0.3-roothide.deb
+Size: 26008
+MD5sum: 88f7a1df6bd55ff8675ef06a4cbd8c5d
+SHA1: 
+SHA256: b888d5aedcefdc7fb3b2210d22799c18ac8f06a8a41aa6376d52b2024e62f57a
+
+Package: im.mjh.uuscreenswitch
+Name: UU远控切屏
+Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Installed-Size: 240
+icon: https://huayuarc.github.io/icon/uuscreenswitch.jpg
+Filename: debs/im.mjh.uuscreenswitch-1.0.3-rootless.deb
+Size: 26048
+MD5sum: 9d921ffad4621359f647a387c2802d7d
+SHA1: 
+SHA256: 73b30f600f244bd300419bd9276a61a8477d313734adb29b7b5787fab5fe1f9d
+
 Architecture: iphoneos-arm64
 Package: im.mjh.wclocate
 Name: 微信虚拟定位
@@ -51484,6 +51628,40 @@ SHA1:
 SHA256: a40470c81fb59d6177e0c7de06fdc1b262796383931313a4f22c327b020b5cc7
 
 Package: uuhelper
+Name: UU 远控增强
+Description: UU 远控常用组合键、圆环滚轮与显示器视角记忆增强。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 260
+icon: https://huayuarc.github.io/icon/uuhelper.jpg
+Filename: debs/uuhelper-1.0.1-roothide.deb
+Size: 34540
+MD5sum: 4ba12dc0fb998b747717559ecf45bcd2
+SHA1: 
+SHA256: b3e0183fc92a86c4acec84d6f67bafb16a79d9d741a4b6ba08ea3b091d0c6134
+
+Package: uuhelper
+Name: UU 远控增强
+Description: UU 远控常用组合键、圆环滚轮与显示器视角记忆增强。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 260
+icon: https://huayuarc.github.io/icon/uuhelper.jpg
+Filename: debs/uuhelper-1.0.1-rootless.deb
+Size: 34652
+MD5sum: 284829d366827569c7aa70cfc46b843d
+SHA1: 
+SHA256: 78cfe03902c9e57226af7d3727b1cee9d75822e393c5e531fe496f207ac440c7
+
+Package: uuhelper
 Name: uu 远控增强
 Description: UU 远控显示器快捷切换、常用组合键、显示器视角记忆与圆环滚轮增强。
 Maintainer: junhong
@@ -53144,6 +53322,42 @@ Size: 37700
 MD5sum: bf6764a419d4a43466f2d607000946d8
 SHA1: 
 SHA256: f7cf33bf602a0480380417cc40383b85ba9a8407a89ed1ddc2cc73443e456422
+
+Package: xyz.cypwn.novaunlock
+Maintainer: CyPwn
+Icon: https://repo.cypwn.xyz/packages/NovaUnlock-Rootless/icon.png
+Name: NovaUnlock
+Depends: mobilesubstrate, firmware (>= 17.0), preferenceloader
+Conflicts: com.sanderzen.unlock26
+Replaces: com.sanderzen.unlock26
+Description: iOS 26 style unlock and lock animations for iOS 16 and 17. iOS16和17的iOS26风格解锁和锁定动画。
+Author: Sanderzen
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Filename: debs/xyz.cypwn.novaunlock-1.2.3-roothide.deb
+Size: 226192
+MD5sum: 7f89e02689b157eb091312e2c486c267
+SHA1: 
+SHA256: 8c8a71da0f83b732d2d481ff24eb9dc7645dc74610001d743fd70caeda65b0af
+
+Package: xyz.cypwn.novaunlock
+Maintainer: CyPwn
+Icon: https://repo.cypwn.xyz/packages/NovaUnlock-Rootless/icon.png
+Name: NovaUnlock
+Depends: mobilesubstrate, firmware (>= 17.0), preferenceloader
+Conflicts: com.sanderzen.unlock26
+Replaces: com.sanderzen.unlock26
+Description: iOS 26 style unlock and lock animations for iOS 16 and 17. iOS16和17的iOS26风格解锁和锁定动画。
+Author: Sanderzen
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Filename: debs/xyz.cypwn.novaunlock-1.2.3-rootless.deb
+Size: 226220
+MD5sum: 729f41a347d6329753ef391bfe5eec5b
+SHA1: 
+SHA256: 8207afa627f752069e0de20efa48dd00959f8b20c5d0f6e4aad5a755cb9b14c6
 
 Package: xyz.cypwn.photoscore
 Maintainer: CyPwn
