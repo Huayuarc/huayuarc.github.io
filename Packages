@@ -3050,6 +3050,40 @@ Author: MoWang
 Section: Tweaks
 Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
 Architecture: iphoneos-arm64e
+Version: 0.3.23
+Installed-Size: 2108
+icon: https://huayuarc.github.io/icon/islanddigest.png
+Filename: debs/com.MoWang.islanddigest-0.3.23-roothide.deb
+Size: 1248892
+MD5sum: d30213a90be4d71fc6a84cb3971a2caa
+SHA1: 
+SHA256: 2db5fd7178ef88138ce4cee6e3d8c5d2feb76bf867238af9c5fa3b22a1befe1c
+
+Package: com.MoWang.islanddigest
+Name: 灵屿通知
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.3.23
+Installed-Size: 2108
+icon: https://huayuarc.github.io/icon/islanddigest.png
+Filename: debs/com.MoWang.islanddigest-0.3.23-rootless.deb
+Size: 1249224
+MD5sum: 93bb6b802e3ec25719afb9264e673ce8
+SHA1: 
+SHA256: 31eda6753a69954a44e5f69970ad21f052fafbfad88dba9062a142e3c3b56eb6
+
+Package: com.MoWang.islanddigest
+Name: 灵屿通知
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Architecture: iphoneos-arm64e
 Version: 0.3.3
 Installed-Size: 1784
 icon: https://huayuarc.github.io/icon/islanddigest.png
@@ -40182,6 +40216,38 @@ MD5sum: 1ee7e16a44dd00310bae4bf221304498
 SHA1: 
 SHA256: 50d868ab8a24920744e74c13c9e6971f11cc697c451e7f551292ed52e7b71090
 
+Package: com.squidforce.disablepastealert16
+Name: 禁用iOS16+粘贴警告弹窗粘贴提醒
+Description: 禁用iOS16+粘贴警告弹窗和粘贴提醒，并自动允许。
+Maintainer: SquidForce
+Author: SquidForce
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0
+Conflicts: com.dao.disablepastealert16
+icon: https://huayuarc.github.io/icon/disablepastealert16.jpg
+Filename: debs/com.squidforce.disablepastealert16-1.0-roothide.deb
+Size: 3992
+MD5sum: 000a7fdd0f9b32f6d52a3c1ff27f7e92
+SHA1: 
+SHA256: fe55c96ff771d940c92fedfd438a4b8b5f533a3fd4fe4a68ce5b05e6a3d18124
+
+Package: com.squidforce.disablepastealert16
+Name: 禁用iOS16+粘贴警告弹窗粘贴提醒
+Description: 禁用iOS16+粘贴警告弹窗和粘贴提醒，并自动允许。
+Maintainer: SquidForce
+Author: SquidForce
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0
+Conflicts: com.dao.disablepastealert16
+icon: https://huayuarc.github.io/icon/disablepastealert16.jpg
+Filename: debs/com.squidforce.disablepastealert16-1.0-rootless.deb
+Size: 4056
+MD5sum: 51892795e639fa087628778131f53d44
+SHA1: 
+SHA256: 61ec0274e939e23b2f2015930556201e70e6b849c59a99eb1dc360c1d613e727
+
 Package: com.stheno
 Name: Stheno 分屏
 Description: Medusa,Jump Whenever。
@@ -41531,6 +41597,40 @@ Size: 483284
 MD5sum: 2c45e7d04eb82a3238409c73cff00b23
 SHA1: 
 SHA256: 1055acad5fe47f0a4d1bef829860e7c1b88602b23f490b3a50356d31db9903ff
+
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 2.0.5
+Installed-Size: 3092
+Filename: debs/com.susudear.screencore-2.0.5-roothide.deb
+Size: 486608
+MD5sum: 196cd4c199667a0ce862c6e34d4bbd6a
+SHA1: 
+SHA256: 8c18bbc7ee9455d97a8eb5dff8003fdc17b90a5c902cbb04fd35862ca7eb642c
+
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 2.0.5
+Installed-Size: 3092
+Filename: debs/com.susudear.screencore-2.0.5-rootless.deb
+Size: 489332
+MD5sum: 0e131ec5238a2a3733bcda6467d8401c
+SHA1: 
+SHA256: 11851551974b6e72c245d6d54c7b56ded5d7df1b459668e086bcdd2faa54c6ac
 
 Package: com.susudear.screencore
 Name: screencore-窗口调度版
@@ -47336,6 +47436,42 @@ MD5sum: 9fc8c38f26149fbb2bd726a06a571d4b
 SHA1: 
 SHA256: 8553a070b77e07f9a4ad4488d23f48574810c706da6d796dc8297a6d15ba883e
 
+Package: iya.banana.dynamicnotch
+Name: DynamicNotch · 动态刘海
+Description: 让刘海承载通知、活动与可调玻璃外观。Notch activities, notifications and adjustable glass for iOS 15–26. Beta release.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Architecture: iphoneos-arm64e
+Version: 0.1.0~beta1
+Installed-Size: 1320
+icon: https://huayuarc.github.io/icon/dynamicnotch.png
+Filename: debs/iya.banana.dynamicnotch-0.1.0~beta1-roothide.deb
+Size: 203496
+MD5sum: 2b138fbd1d4811ace51e51980ed6a3a2
+SHA1: 
+SHA256: 7ffdc8cf5bd7bfe96d3e5782b1d73b86843034eb10cb30cda935adb4195ea33c
+
+Package: iya.banana.dynamicnotch
+Name: DynamicNotch · 动态刘海
+Description: 让刘海承载通知、活动与可调玻璃外观。Notch activities, notifications and adjustable glass for iOS 15–26. Beta release.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Architecture: iphoneos-arm64
+Version: 0.1.0~beta1
+Installed-Size: 1320
+icon: https://huayuarc.github.io/icon/dynamicnotch.png
+Filename: debs/iya.banana.dynamicnotch-0.1.0~beta1-rootless.deb
+Size: 205500
+MD5sum: 56182f8183de5277faa75838705772fb
+SHA1: 
+SHA256: 7be174bc6f980935cf0e25eaccd73bbba3022f4a785853bba2c7b7df686b7d35
+
 Package: iya.banana.facetimeaudioenabler
 Name: FaceTime Audio Enabler
 Description: Enables FaceTime Audio with a scoped runtime override on iOS 15-17 and a guarded MobileGestalt workflow on iOS 18+. iOS 15-17 上启用 FaceTime 音频，并具有范围的运行时覆盖，在 iOS 18+ 上启用受保护的 MobileGestalt 工作流程。
@@ -47596,300 +47732,6 @@ Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造
 Maintainer: Banana
 Author: Banana
 Section: Tweaks
-Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 1.0.0
-Installed-Size: 2192
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.0-roothide.deb
-Size: 396568
-MD5sum: 3a70ab734edb06b71763985d7e904248
-SHA1: 
-SHA256: 963532ed5ea2253d7f2cf9b9260876e30303639ffb342587c876b39201628e21
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Installed-Size: 2208
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.0-rootless.deb
-Size: 395780
-MD5sum: ed1a711963b551ca010783278a64783b
-SHA1: 
-SHA256: 4c7c00f9bc4d1338b3bad61a958524c65635230e986900401741dd635f86e5a7
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 1.0.1
-Installed-Size: 2492
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.1-roothide.deb
-Size: 448360
-MD5sum: 2a546f6fcabee894a196b8170824b95c
-SHA1: 
-SHA256: 636da14897dfdc725a007e5876ebcf797e922774a67b719ece4704b109573a1d
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 1.0.1
-Installed-Size: 2524
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.1-rootless.deb
-Size: 448228
-MD5sum: 3e8d694beca557796102454e50b67c63
-SHA1: 
-SHA256: 2b844c059204204993593cd77d0415712bb2a85fd0733ce515a52ba3ff0b6513
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 1.0.2
-Installed-Size: 3184
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.2-roothide.deb
-Size: 548248
-MD5sum: 541db4726c48a64a69f71268055cacbd
-SHA1: 
-SHA256: 4f48dddfd55470670bdcbb37aa1b1441722fabce2fb9e1ce23c664e62ee832ac
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 1.0.2
-Installed-Size: 3200
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.2-rootless.deb
-Size: 550052
-MD5sum: 988bf5e3ab262815321df3c021bca77b
-SHA1: 
-SHA256: 1cb0cee86c4bd0a5cc9ee03fd0d6d38a70099cedbae8450f3b2cd487e4e2ff6d
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 1.0.3
-Installed-Size: 3248
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.3-roothide.deb
-Size: 561044
-MD5sum: b146d395fcda4949f094f6bb4a72a996
-SHA1: 
-SHA256: 194d324326dd28c318b0649759f95ceb3e57afc54c5a0ea42272f0b4419b2720
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 1.0.3
-Installed-Size: 3248
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.3-rootless.deb
-Size: 561820
-MD5sum: 79d5aa365f537ae92945df9dbc10ebbf
-SHA1: 
-SHA256: c945b1bc6e7863d255eeb14d1c22d29fe8e4cb02ec65298fa1cdd40497b18f52
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 1.0.5
-Installed-Size: 3936
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.5-roothide.deb
-Size: 681908
-MD5sum: cd3b91e8ff68c3c88d83274da6187042
-SHA1: 
-SHA256: 4160e73149a7580c59c1513609bf62ddf1a33a8babd6eb7930ebe346db7c9627
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 1.0.5
-Installed-Size: 3952
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.5-rootless.deb
-Size: 681088
-MD5sum: 59e3dd2f0d57108de61960764f6d0175
-SHA1: 
-SHA256: 201f66f6455aab553e2deafa86ed5f29fd3add9b89b367332c1084c3d0b575fe
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 1.0.6
-Installed-Size: 3984
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.6-roothide.deb
-Size: 682548
-MD5sum: 4f14e24c2f47f8fc3a3b9a1a6ffce3ac
-SHA1: 
-SHA256: e7dbab7e261019f7b21125c2f8950e22376b48a7b493905525e5fe98544b6975
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 1.0.6
-Installed-Size: 3984
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.6-rootless.deb
-Size: 685108
-MD5sum: 58e14f02a458b9d5a6fedbf22b7bc3bc
-SHA1: 
-SHA256: 902b3ac54913b376a527e88b1f822c9eb7c8ed2607ed504148d21fdaf87c78c1
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64e
-Version: 1.0.7
-Installed-Size: 4044
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.7-roothide.deb
-Size: 701688
-MD5sum: f3296e84016b6364c03b14b2ec18384a
-SHA1: 
-SHA256: d252c6501524e68247125bd403375f691e2676e0ef6d0a6a92200fdcabe33cb1
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Architecture: iphoneos-arm64
-Version: 1.0.7
-Installed-Size: 4044
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.7-rootless.deb
-Size: 704624
-MD5sum: 27a7f2965ad7717438779c9f54bf18ac
-SHA1: 
-SHA256: 9ea5bcb4f71d8e3e324f436e8239b7e89e4408ede99870c5e4621c0a1e37f04d
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn, com.ryannair05.audiosnapshotserver2
-Replaces: com.ryannair05.audiosnapshotserver2
-Provides: com.ryannair05.audiosnapshotserver2 (= 2.1+lunora1)
-Breaks: com.ryannair05.libmitsuha6 (<< 2.0)
-Architecture: iphoneos-arm64e
-Version: 1.0.8
-Installed-Size: 4664
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.8-roothide.deb
-Size: 756572
-MD5sum: ed5423e6f64fcfb397c87e120c40d5a9
-SHA1: 
-SHA256: 641b04b8ad8ccd8748bfa92fb8e1c7a754f5636d267db110cd09b59c076063a2
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
-Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn, com.ryannair05.audiosnapshotserver2
-Replaces: com.ryannair05.audiosnapshotserver2
-Provides: com.ryannair05.audiosnapshotserver2 (= 2.1+lunora1)
-Breaks: com.ryannair05.libmitsuha6 (<< 2.0)
-Architecture: iphoneos-arm64
-Version: 1.0.8
-Installed-Size: 4680
-icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
-Filename: debs/iya.banana.iphoneduoicon-1.0.8-rootless.deb
-Size: 760676
-MD5sum: 0ee92b9725055620c7dc93dab50a6b0b
-SHA1: 
-SHA256: f877b7a01d3d06322c9d666d5f6a7ed12be32576bb8539624f75ee40960455e9
-
-Package: iya.banana.iphoneduoicon
-Name: Lunora
-Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Maintainer: Banana
-Author: Banana
-Section: Tweaks
 Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
 Conflicts: com.82flex.singlevpn
 Suggests: iya.banana.audioservice (>= 1.0.4)
@@ -48035,6 +47877,44 @@ Size: 942004
 MD5sum: cb17d92c57906d860c299562c9c13532
 SHA1: 
 SHA256: 08225c87b7b25ad8a3637d9fd7296fc4cdbc3cf19bdf7bc839fcafd008e3798c
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Architecture: iphoneos-arm64e
+Version: 1.1.4
+Installed-Size: 5364
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.1.4-roothide.deb
+Size: 973420
+MD5sum: 1b56994e7904a28fc099a9646316407c
+SHA1: 
+SHA256: 594ec5e9e7b63ac9c12d7b88ec84ee4482eadca2afda09c4e4ab21bb3305e9d3
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Architecture: iphoneos-arm64
+Version: 1.1.4
+Installed-Size: 5380
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.1.4-rootless.deb
+Size: 971844
+MD5sum: 43faf515d7b718c33f60f154dc61e7c0
+SHA1: 
+SHA256: 72e3c31d108a2bd4ea92d8d04004ca96b1500bdd0fddffc2c207af1103f9db16
 
 Package: iya.banana.jumpguard
 Name: JumpGuard
