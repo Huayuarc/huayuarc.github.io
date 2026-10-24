@@ -51772,7 +51772,7 @@ SHA256: 6eb726bfc3a2ff2a9bca7ce12fcc027e1d2f9e2ee569b5c47063542dea744206
 
 Package: wiki.qaq.apelin
 Name: Apelin
-Version: 0.1.5
+Version: 0.1.6
 Architecture: iphoneos-arm64e
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
@@ -51786,15 +51786,15 @@ Priority: optional
 Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19)
 Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
 Installed-Size: 90080
-Filename: debs/wiki.qaq.apelin-0.1.5-roothide.deb
-Size: 21907392
-MD5sum: faff764528f3e2ca23d0a68492ee0332
+Filename: debs/wiki.qaq.apelin-0.1.6-roothide.deb
+Size: 21904180
+MD5sum: d936edb51442b4e5b81d233cf7732fd7
 SHA1: 
-SHA256: ab4d1788cb1e07e141a888fadd81e10633f8207e75e0093e65f40685514388e0
+SHA256: d8ef16f0eaa448d06980c14520e2c21a18bcfef6011b4c23b358324d7990fb5c
 
 Package: wiki.qaq.apelin
 Name: Apelin
-Version: 0.1.5
+Version: 0.1.6
 Architecture: iphoneos-arm64
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
@@ -51808,11 +51808,11 @@ Priority: optional
 Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19)
 Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
 Installed-Size: 90080
-Filename: debs/wiki.qaq.apelin-0.1.5-rootless.deb
-Size: 21904720
-MD5sum: 3efab04d5228eeca703440714f28e492
+Filename: debs/wiki.qaq.apelin-0.1.6-rootless.deb
+Size: 21904304
+MD5sum: 8ffd5a32be3bb9c6a79b1a8b40f8b851
 SHA1: 
-SHA256: da06c37a9960f9ab43b24224d2cbd270f5675593c020fc6253a19c678b84e112
+SHA256: f9bdb061771578befc23426975cb3c48a039c827edc040d1de912665f6ff72dc
 
 Package: wiki.qaq.apelin.agent-tools.assembler
 Name: Apelin Assembler
