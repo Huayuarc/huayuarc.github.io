@@ -22152,6 +22152,77 @@ MD5sum: 5848025f204b94287d22115d2742584b
 SHA1: 
 SHA256: 5a8a2eb848e028778df5f357266c683aee5bd8e3df1c6f804b8dae77507170fd
 
+Package: com.lumid
+Name: FakePass
+Description: 适用于 iOS 14 及以上版本、安全隔区失效的 usbliter8/降级越狱环境，提供虚拟密码。Fake passcode for usbliter8/downgraded jailbreaks on iOS 14+ where the Secure Enclave doesn't work
+Maintainer: Lumid-off <dimilesko@gmail.com>
+Author: Lumid-off <dimilesko@gmail.com>
+Section: Tweaks
+Depends: com.opa334.libsandy, cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Installed-Size: 428
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/lumid.png
+Filename: debs/com.lumid-0.0.5-roothide.deb
+Size: 56144
+MD5sum: fb136d8a5a78029b5ff1924ad379f854
+SHA1: 
+SHA256: 7228e6b04c4a0dbb8d1d01b0fab8f1d54ab680f1774f76c9a29cd9b5781d90ae
+
+Package: com.lumid
+Name: FakePass
+Description: 适用于 iOS 14 及以上版本、安全隔区失效的 usbliter8/降级越狱环境，提供虚拟密码。Fake passcode for usbliter8/downgraded jailbreaks on iOS 14+ where the Secure Enclave doesn't work
+Maintainer: Lumid-off <dimilesko@gmail.com>
+Author: Lumid-off <dimilesko@gmail.com>
+Section: Tweaks
+Depends: com.opa334.libsandy, cy+cpu.arm64, firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.foxfort.checkl0ck, com.yourepo.plat-ykor.check4round, me.krit.lockdown
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Installed-Size: 428
+icon: https://huayuarc.github.io/icon/lumid.png
+Filename: debs/com.lumid-0.0.5-rootless.deb
+Size: 56956
+MD5sum: ab67664c5392aa0d7b54e627c69cc8f5
+SHA1: 
+SHA256: 056b9feba1f85f6fcdb52aea449245a9bf2a5bff037803452fa9eca0d65f8334
+
+Package: com.lumid.opaboutphone
+Name: OP About Phone
+Description: 为 iOS 设置打造 OxygenOS / ColorOS 风格的关于本机页面OxygenOS/ColorOS-style About page for the iOS Settings app.
+Maintainer: Lumid
+Author: Lumid
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.5.0
+Installed-Size: 524
+icon: https://huayuarc.github.io/icon/opaboutphone.png
+Filename: debs/com.lumid.opaboutphone-1.5.0-roothide.deb
+Size: 124052
+MD5sum: bf3ac7e72b5781afe96ef5e535a93a0b
+SHA1: 
+SHA256: 613e3f997689b48296c775244c4ee879a53f3fd01db271c59abd20f8b363a1ac
+
+Package: com.lumid.opaboutphone
+Name: OP About Phone
+Description: 为 iOS 设置打造 OxygenOS / ColorOS 风格的关于本机页面OxygenOS/ColorOS-style About page for the iOS Settings app.
+Maintainer: Lumid
+Author: Lumid
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.5.0
+Installed-Size: 524
+icon: https://huayuarc.github.io/icon/opaboutphone.png
+Filename: debs/com.lumid.opaboutphone-1.5.0-rootless.deb
+Size: 124120
+MD5sum: b821b2934d67b4707492a7bed9bea324
+SHA1: 
+SHA256: 1ee9257e4257feb231675c3b428cd849fe35d069a1e1edff5bcef3fea5c50b14
+
 Package: com.lxcloud.WCEhance
 Name: 微信增强
 Version: 2.0-6
