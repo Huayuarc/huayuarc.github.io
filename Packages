@@ -14750,6 +14750,40 @@ MD5sum: 0918dbfe0b2a6f1147ee3d8bddd64c93
 SHA1: 
 SHA256: 10fa8d304f01e5fa6501b1340dbacb5d9ce557c92d2739e6564736f34ec22846
 
+Package: com.hang.liquiddock
+Name: 液态Dock
+Description: 液态Dock
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 712
+Icon: file:///usr/share/icons/com.hang.liquiddock.png
+Filename: debs/com.hang.liquiddock-1.1-roothide.deb
+Size: 477472
+MD5sum: fab35d5a5a69fc24bba8b640f6e6ef73
+SHA1: 
+SHA256: 2db297258a512854a83eb5d10363184ec672693d968caeea927640d05f8374fd
+
+Package: com.hang.liquiddock
+Name: 液态Dock
+Description: 液态Dock
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 1032
+Icon: file:///var/jb/usr/share/icons/com.hang.liquiddock.png
+Filename: debs/com.hang.liquiddock-1.1-rootless.deb
+Size: 495496
+MD5sum: d01898127ebb6d005f73c3a73c212fcf
+SHA1: 
+SHA256: 942cc958fe48bebaf23a95990b59fd7ab894a4506286cf8c63498507c4670c47
+
 Package: com.hang.noti
 Name: 通知验证码复制
 Description: 双指长按通知取通知中的验证码。
@@ -23551,6 +23585,42 @@ Size: 214060
 MD5sum: 761173a6aa7b5a146a6c57ab6ffcfa24
 SHA1: 
 SHA256: f5bf8c5b881fb03270b8b55a913a1ef120ef0c0d4303ce43f0394396d2003b8b
+
+Package: com.mlgm.clippa
+Name: Clippa
+Description: 截图与悬浮贴图工具。
+Section: System
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Installed-Size: 36724
+Filename: debs/com.mlgm.clippa-1.0.3-roothide.deb
+Size: 31188756
+MD5sum: 486b7950c9838cf97f47effe4b8e73e8
+SHA1: 
+SHA256: 59dcc89481ab8a5286ab4d20af60f6ac5bc8c951d6a523b6c02a4021dc0ec3f5
+
+Package: com.mlgm.clippa
+Name: Clippa
+Description: 截图与悬浮贴图工具。
+Section: System
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Installed-Size: 36728
+Filename: debs/com.mlgm.clippa-1.0.3-rootless.deb
+Size: 31190816
+MD5sum: c6b9478374b09f1750b45789997222a8
+SHA1: 
+SHA256: d0079f57b72a6dadd01bd6006b2ca55d712ca2cbdb503f3c589bdd7d7009bbb8
 
 Package: com.mlgm.idata
 Name: iData
@@ -46727,6 +46797,42 @@ MD5sum: b07f72399d20bbae7f824cb8c378690e
 SHA1: 
 SHA256: a1fcc8d4e0e64ade855ff44224f52c5e404395dd9a4785f3cefe9e679ebe6f44
 
+Package: im.mjh.doleo
+Name: Doleo
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Maintainer: junhong <mail@mjh.im>
+Author: junhong <mail@mjh.im>
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 904
+Tags: compatible_min::ios15.0
+Filename: debs/im.mjh.doleo-1.0.1-roothide.deb
+Size: 208548
+MD5sum: 5b84405c1daea548ac985c6d2adddeab
+SHA1: 
+SHA256: 0aa9c446bb96263d4393401a3c320218a6a347fc9d82de8b93fd29de82caf4e4
+
+Package: im.mjh.doleo
+Name: Doleo
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Maintainer: junhong <mail@mjh.im>
+Author: junhong <mail@mjh.im>
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Icon: https://apt.mjh.im/assets/im.mjh.doleo/icon.png
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 892
+Tags: compatible_min::ios15.0
+Filename: debs/im.mjh.doleo-1.0.1-rootless.deb
+Size: 206448
+MD5sum: bad4559d767ab53a40ca57ab63f0d824
+SHA1: 
+SHA256: bef8520e2326e8b990c1c63d36c0571965825d50df35da15fcf8571f1de88b80
+
 Package: im.mjh.fakenotify
 Name: FakeNotify
 Description: 一款模拟通知插件，允许配置多个通知任务，原生通知方案，支持通知栏、锁屏页面显示。
@@ -51575,6 +51681,44 @@ Size: 34652
 MD5sum: 284829d366827569c7aa70cfc46b843d
 SHA1: 
 SHA256: 78cfe03902c9e57226af7d3727b1cee9d75822e393c5e531fe496f207ac440c7
+
+Package: uuhelper
+Name: UU 远控增强
+Description: UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 328
+icon: https://huayuarc.github.io/icon/uuhelper.jpg
+Filename: debs/uuhelper-1.0.2-roothide.deb
+Size: 50292
+MD5sum: c1b5810fd82ef67825a6aa15e35f8a15
+SHA1: 
+SHA256: d0874c8b82b9c1c5565dc9a98f6561b4fc641c9e727b1a2f2b2d5243c58668aa
+
+Package: uuhelper
+Name: UU 远控增强
+Description: UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Replaces: im.mjh.uuscreenswitch, im.mjh.uuscreenswitch.roothide
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Installed-Size: 328
+icon: https://huayuarc.github.io/icon/uuhelper.jpg
+Filename: debs/uuhelper-1.0.2-rootless.deb
+Size: 50300
+MD5sum: 20f8c662dec4521e84a20a0424054d8b
+SHA1: 
+SHA256: 7a601cf72d2e8fb8dd648eeec2c721cf15b0a14d41fddb347c907ff0357d2d20
 
 Package: uuhelper
 Name: uu 远控增强
