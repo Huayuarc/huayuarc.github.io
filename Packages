@@ -11813,6 +11813,40 @@ MD5sum: c38381aef3b7fed39eb35f8511df24bd
 SHA1: 
 SHA256: bfee7df237026a25b8489f37876a3ee2357e99670af2d0b34a9ef8a7aec8c45c
 
+Package: com.crctdd.surgeactive
+Name: SurgeActive
+Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Installed-Size: 108
+icon: https://huayuarc.github.io/icon/surgeactive.jpg
+Filename: debs/com.crctdd.surgeactive-0.0.5-roothide.deb
+Size: 11632
+MD5sum: 72ec5e3291bcba9ca73f44aa628a5f45
+SHA1: 
+SHA256: 90a4c6761264a2cae181e77fea59e72edfae7dc003b1d1f979f984013cf1bb74
+
+Package: com.crctdd.surgeactive
+Name: SurgeActive
+Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Installed-Size: 236
+icon: https://huayuarc.github.io/icon/surgeactive.jpg
+Filename: debs/com.crctdd.surgeactive-0.0.5-rootless.deb
+Size: 16128
+MD5sum: f47291b7b8026579dc398e9ca988b88c
+SHA1: 
+SHA256: 6d65056663050dfe9e96a68b06a1287f9029656c2116b89c34203155ae79ab7a
+
 Package: com.crctdd.surgectl
 Name: SurgeCTL
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
@@ -15386,6 +15420,60 @@ Size: 992996
 MD5sum: 22d985e75fd6b3d0af388b08ca68344e
 SHA1: 
 SHA256: 019392f5c23da73eecda054057349eb20f485b988db8c3fc23e319188aaaa1da
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm
+Version: 0.6.8
+Installed-Size: 4148
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.8-rootful.deb
+Size: 1005380
+MD5sum: c1ada263982517da788b2b1fc765996d
+SHA1: 
+SHA256: 83c692f2da2cdcff4559a48684cca2fc3fa34a5e8fc1818917b04239cb614601
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 0.6.8
+Installed-Size: 4148
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.8-roothide.deb
+Size: 1007576
+MD5sum: c170ecd56bcca21faace3a107ede5e85
+SHA1: 
+SHA256: 2d8c34ab1daa8da50190a65905c4acf008f8ef332b70a4da6d8358d6c5c9b81b
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 0.6.8
+Installed-Size: 4148
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.6.8-rootless.deb
+Size: 1007668
+MD5sum: ae4996f3305d67e5a6cff10774ce08ae
+SHA1: 
+SHA256: 5b082c5bfbeb115955f9bada6066ca1acc0d7120fec25ba58f3fb2455e9e27c7
 
 Package: com.hierarch.dykiller
 Name: DYKiller 抖音 UI 增强
@@ -43226,6 +43314,58 @@ MD5sum: 176804ce594cf95fce22c3e195669c69
 SHA1: 
 SHA256: 51ac27a58198ecc751afcf769ab9522beb1246b2d0a368458f4bc21066e14a3b
 
+Package: com.touchWorld.doubanTweak
+Name: DoubanTweak
+Version: 1.2.0
+Description: 去除豆瓣广告插件
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Priority: optional
+Author: TouchWorld
+Maintainer: TouchWorld
+Icon: https://touchfriend.github.io/depictions/com.touchWorld.doubanTweak/icon.png
+Architecture: iphoneos-arm
+Filename: debs/com.touchWorld.doubanTweak-1.2.0-rootful.deb
+Size: 19884
+MD5sum: 3b49087f7bcb0caaad8981b2e9b0b5c6
+SHA1: 
+SHA256: 21a9dd6817991ad803a6dd6799494c197feac00ecb73fb817c108d18f531137d
+
+Package: com.touchWorld.doubanTweak
+Name: DoubanTweak
+Version: 1.2.0
+Description: 去除豆瓣广告插件
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Priority: optional
+Author: TouchWorld
+Maintainer: TouchWorld
+Icon: https://touchfriend.github.io/depictions/com.touchWorld.doubanTweak/icon.png
+Architecture: iphoneos-arm64e
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.touchWorld.doubanTweak-1.2.0-roothide.deb
+Size: 19540
+MD5sum: 82954d6c467a3b8addea0d4fa5511592
+SHA1: 
+SHA256: e42a9b9773957a8350e90fc586187ae48bfcdc7cfff5a3fdf271e64a6f5c16d9
+
+Package: com.touchWorld.doubanTweak
+Name: DoubanTweak
+Version: 1.2.0
+Description: 去除豆瓣广告插件
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Priority: optional
+Author: TouchWorld
+Maintainer: TouchWorld
+Icon: https://touchfriend.github.io/depictions/com.touchWorld.doubanTweak/icon.png
+Architecture: iphoneos-arm64
+Filename: debs/com.touchWorld.doubanTweak-1.2.0-rootless.deb
+Size: 19948
+MD5sum: 03e6857902dcd055b0842c82e1b8e0ef
+SHA1: 
+SHA256: 4d1eaa664955d4ab384a2c6e491379a4146f6c94ecaee4e72736788fe5fe2be1
+
 Package: com.triggr.cn.l10n
 Name: Triggr 汉化补丁
 Description: Triggr 的汉化补丁，配合 Triggr 1.0.4+ 使用。
@@ -44701,6 +44841,60 @@ Size: 133000
 MD5sum: ebc4d86c8e2c4210026011a89b46c402
 SHA1: 
 SHA256: 586c419d4896db1aa4531f0f7d690eb5354d7d056241d5ad48dbee349d761db5
+
+Package: com.vita.yuki
+Name: Yuki
+Description: 抖音防撤回等，优化性能，免费插件，随缘更新。
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: vita
+Author: vita
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Architecture: iphoneos-arm
+Version: 0.1-2
+Installed-Size: 748
+Filename: debs/com.vita.yuki-0.1-2-rootful.deb
+Size: 143340
+MD5sum: 75918966f2a8566a705f8c104da45cfb
+SHA1: 
+SHA256: 9b227a0c8fc2cd926ef8605a263402cff44f77d662978e75a71963fc6427fcdc
+
+Package: com.vita.yuki
+Name: Yuki
+Description: 抖音防撤回等，优化性能，免费插件，随缘更新。
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: vita
+Author: vita
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Architecture: iphoneos-arm64e
+Version: 0.1-2
+Installed-Size: 748
+Filename: debs/com.vita.yuki-0.1-2-roothide.deb
+Size: 142912
+MD5sum: 3b510b2bac8cb5a59dcb99333a374480
+SHA1: 
+SHA256: 78d2a478f606f658f272a93cd151940bf2e0ae6cfe3525a1d3ff02a94ab41367
+
+Package: com.vita.yuki
+Name: Yuki
+Description: 抖音防撤回等，优化性能，免费插件，随缘更新。
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: vita
+Author: vita
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Architecture: iphoneos-arm64
+Version: 0.1-2
+Installed-Size: 748
+Filename: debs/com.vita.yuki-0.1-2-rootless.deb
+Size: 142788
+MD5sum: acdad4d7d303335395da651788c8ed74
+SHA1: 
+SHA256: cf55adb1432e107ade63de56c9069a74ba17a583e4c017195d2ad04d4f3a62aa
 
 Package: com.vmgg.mlgm
 Name: VMGG 内存分析调试
