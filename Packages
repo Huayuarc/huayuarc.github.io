@@ -14760,12 +14760,12 @@ Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 18.0)
 Architecture: iphoneos-arm64e
 Version: 1.1
 Installed-Size: 712
-Icon: file:///usr/share/icons/com.hang.liquiddock.png
+icon: https://huayuarc.github.io/icon/com.hang.liquiddock.png
 Filename: debs/com.hang.liquiddock-1.1-roothide.deb
-Size: 477472
-MD5sum: fab35d5a5a69fc24bba8b640f6e6ef73
+Size: 477456
+MD5sum: c7eb90c5289a5e7b8281493f203698ff
 SHA1: 
-SHA256: 2db297258a512854a83eb5d10363184ec672693d968caeea927640d05f8374fd
+SHA256: f5cecb532bf3423e1b46fb88d4e824119bc569a9e7d576994ce4310032489eed
 
 Package: com.hang.liquiddock
 Name: 液态Dock
@@ -14777,12 +14777,12 @@ Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 18.0)
 Architecture: iphoneos-arm64
 Version: 1.1
 Installed-Size: 1032
-Icon: file:///var/jb/usr/share/icons/com.hang.liquiddock.png
+icon: https://huayuarc.github.io/icon/com.hang.liquiddock.png
 Filename: debs/com.hang.liquiddock-1.1-rootless.deb
-Size: 495496
-MD5sum: d01898127ebb6d005f73c3a73c212fcf
+Size: 495376
+MD5sum: b0d6b295983c2947da8a96266183d9bf
 SHA1: 
-SHA256: 942cc958fe48bebaf23a95990b59fd7ab894a4506286cf8c63498507c4670c47
+SHA256: dfc6740218ddbb7d022f78ed203a5c803acf1fd892d5a83f7eb9d051fee79eff
 
 Package: com.hang.noti
 Name: 通知验证码复制
@@ -50587,6 +50587,40 @@ Size: 67028
 MD5sum: 6740e06fb3bf44e3a88dd8f3fa5d3bf6
 SHA1: 
 SHA256: eb4aeb6b14595d9f0fcafbdb410192497f59284d760cd2c294f198046bd5b846
+
+Package: net.pane.l.evilscheme
+Name: EvilScheme
+Description: 管理默认浏览器、导航应用程序、软件包管理器等！更改逻辑 强制跳转：请求已经被 iOS 解析到系统默认浏览器时，只要 URL是http、https或x-web-search，就把它改投到 「目标为com.apple.mobilesafari 那条配置指定的替代 App 上，URL本身保持不变。Manage default browser, navigation app, package manager, and more!
+Maintainer: 0xkuj
+Author: Lorenzo Pane
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 19.07.2002-14
+Installed-Size: 852
+icon: https://huayuarc.github.io/icon/evilscheme.png
+Filename: debs/net.pane.l.evilscheme-19.07.2002-14-roothide.deb
+Size: 116628
+MD5sum: b0534e68d123b8e655dd11a4915a259d
+SHA1: 
+SHA256: 334cff8ba4299a397c5dc614fefa1f191bbf0b19dd3290b7f2ae56278f0fef43
+
+Package: net.pane.l.evilscheme
+Name: EvilScheme
+Description: 管理默认浏览器、导航应用程序、软件包管理器等！更改逻辑 强制跳转：请求已经被 iOS 解析到系统默认浏览器时，只要 URL是http、https或x-web-search，就把它改投到 「目标为com.apple.mobilesafari 那条配置指定的替代 App 上，URL本身保持不变。Manage default browser, navigation app, package manager, and more!
+Maintainer: 0xkuj
+Author: Lorenzo Pane
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm64
+Version: 19.07.2002-14
+Installed-Size: 852
+icon: https://huayuarc.github.io/icon/evilscheme.png
+Filename: debs/net.pane.l.evilscheme-19.07.2002-14-rootless.deb
+Size: 116772
+MD5sum: 7ec241776a59d0b8fc628803ea78df0c
+SHA1: 
+SHA256: a6be5bd9d5dd800b983cbcce8ff5c2d2745280ff05ce2514c6b192f094dd6c36
 
 Package: net.sourceloc.pinanim
 Section: Tweaks
