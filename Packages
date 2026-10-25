@@ -3078,6 +3078,40 @@ SHA256: 31eda6753a69954a44e5f69970ad21f052fafbfad88dba9062a142e3c3b56eb6
 
 Package: com.MoWang.islanddigest
 Name: 灵屿通知
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。（提升下拉通知流畅度）
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.3.24
+Installed-Size: 2108
+icon: https://huayuarc.github.io/icon/islanddigest.png
+Filename: debs/com.MoWang.islanddigest-0.3.24-roothide.deb
+Size: 1250624
+MD5sum: fa80d9ebf884ae2651ac10a0b8a68c5f
+SHA1: 
+SHA256: 4f92b6f8cf0ed0d61df8b528e431b223c86b025442300b3857aa924796d77559
+
+Package: com.MoWang.islanddigest
+Name: 灵屿通知
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。（提升下拉通知流畅度）
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.3.24
+Installed-Size: 2108
+icon: https://huayuarc.github.io/icon/islanddigest.png
+Filename: debs/com.MoWang.islanddigest-0.3.24-rootless.deb
+Size: 1251096
+MD5sum: 667f3e929be5da87dd6fb43bd5a44201
+SHA1: 
+SHA256: 87163b3ebeb23344cf7a51bba8340f1d7da8229f8da4a41c8d2385b579a85ad4
+
+Package: com.MoWang.islanddigest
+Name: 灵屿通知
 Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
 Maintainer: MoWang
 Author: MoWang
@@ -25748,6 +25782,40 @@ MD5sum: 85032e889d16f659f271e299f6838b3a
 SHA1: 
 SHA256: ea954d90e0160c2537449329811e3dba5b8c31f09a5a8ebfe680a7e667f752d7
 
+Package: com.mowang.crashanalyzer
+Name: AI 日志分析
+Description: iOS IPS 日志搜索、进程分组与证据分析（1.4.0 体验版）
+Maintainer: MoWang
+Author: MoWang
+Section: Utilities
+Depends: preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.4.1
+Installed-Size: 292
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+Filename: debs/com.mowang.crashanalyzer-1.4.1-roothide.deb
+Size: 91652
+MD5sum: 676bee83680e7595b7f9d35c4bb16c0c
+SHA1: 
+SHA256: 31b5465d9f13a20dcb91d8a00453edcd0e36bc69ce44b5eb0f9dfb8fa98875de
+
+Package: com.mowang.crashanalyzer
+Name: AI 日志分析
+Description: iOS IPS 日志搜索、进程分组与证据分析（1.4.0 体验版）
+Maintainer: MoWang
+Author: MoWang
+Section: Utilities
+Depends: preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.4.1
+Installed-Size: 292
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+Filename: debs/com.mowang.crashanalyzer-1.4.1-rootless.deb
+Size: 91672
+MD5sum: cf1c23c05f62183af9156df51ea63c05
+SHA1: 
+SHA256: a98b70e11c54a961e9df8484b4566e0fe70859314b40a79a33cbeb21ced8d529
+
 Package: com.mowang.rainbowkeyboard
 Name: 彩虹键盘光效（安全版）
 Description: 修复渐变表情 bug
@@ -29956,6 +30024,42 @@ Size: 329480
 MD5sum: 78965d626fb83ba755c3592246b4ddfc
 SHA1: 
 SHA256: 359ec03103c8c695214a33f91bac5c94a9e95b3ff92a8393e238ce2bbdc91852
+
+Package: com.qianuo.chatassist
+Name: ChatAssist
+Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Architecture: iphoneos-arm64e
+Version: 0.1.67
+Installed-Size: 3228
+Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
+Filename: debs/com.qianuo.chatassist-0.1.67-roothide.deb
+Size: 599680
+MD5sum: b0bdc09aa4e1184c9d8eddbb11d8f4bb
+SHA1: 
+SHA256: 41da18e9a76ac7c6da8deb0b4d17f0eff50ed173bc65b4d2a11b59b233a2a39c
+
+Package: com.qianuo.chatassist
+Name: ChatAssist
+Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Architecture: iphoneos-arm64
+Version: 0.1.67
+Installed-Size: 3228
+Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
+Filename: debs/com.qianuo.chatassist-0.1.67-rootless.deb
+Size: 599512
+MD5sum: 49788016a7f4668eecb8e1977324a165
+SHA1: 
+SHA256: 0829d0b907d7184d1cca2effd94046eb39e9e5dc9d3585316ed0fec4a518798d
 
 Package: com.qianuo.dyadaptive
 Name: 抖音窗口自适应（测试版）
@@ -52589,6 +52693,45 @@ Size: 13308216
 MD5sum: 3b8953fffcda8a661dc711b0a2971628
 SHA1: 
 SHA256: c8b53c96e66485b5b4aeb2908236fba01c3dfb0218a88b771b6d1e6f336425fc
+
+Package: xc.lzsxcl.o2pro
+Name: o2Pro
+Architecture: iphoneos-arm64e
+Description: 注重设计与用户体验的优雅产品。
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Maintainer: lzsxcl
+Author: lzsxcl
+Section: Tweaks
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Sileodepiction: http://apt.bitilly.cn/Description/O2pro/O2pro2.json
+Icon: http://apt.bitilly.cn/Description/O2pro/icon.png
+Version: 18.9.18-11
+Installed-Size: 32088
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xc.lzsxcl.o2pro-18.9.18-11-roothide.deb
+Size: 13127784
+MD5sum: 7d09295fb24e033877e7787b314d0f88
+SHA1: 
+SHA256: d5c1a73a46d6114ba5a627f9f2baae05f1a4b922c13a1a7db0e4144227c9c0db
+
+Package: xc.lzsxcl.o2pro
+Name: o2Pro
+Architecture: iphoneos-arm64
+Description: 注重设计与用户体验的优雅产品。
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Maintainer: lzsxcl
+Author: lzsxcl
+Section: Tweaks
+Depiction: https://lzsxcl.github.io/repo/depictions/?p=xc.lzsxcl.o2
+Sileodepiction: http://apt.bitilly.cn/Description/O2pro/O2pro2.json
+Icon: http://apt.bitilly.cn/Description/O2pro/icon.png
+Version: 18.9.18-11
+Installed-Size: 32088
+Filename: debs/xc.lzsxcl.o2pro-18.9.18-11-rootless.deb
+Size: 13274804
+MD5sum: f0b73ed2fa0587fa317cea50e835c080
+SHA1: 
+SHA256: fa6b305550eb4d57fc9651a548e217385067a6d3361f3d0099d66b3c2cc75bb1
 
 Package: xhs.x
 Conflicts: com.xx.xhshook
