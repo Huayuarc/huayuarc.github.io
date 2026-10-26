@@ -17573,6 +17573,34 @@ SHA256: 5245dbc61a1dc11dc552b3ff0b5381d1f17d1082756157da87b2f83482c19a3d
 
 Package: com.icli.icli
 Name: icli
+Version: 0.10.0
+Architecture: iphoneos-arm64e
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Section: Development
+Description: On-device iOS control CLI
+Filename: debs/com.icli.icli-0.10.0-roothide.deb
+Size: 1121840
+MD5sum: 3ef55d4805d0fe33c31e207c237ffcd7
+SHA1: 
+SHA256: 7ac57329ebd7c1b4ad11750187f53363b985575adb4030775d4be495af150c01
+
+Package: com.icli.icli
+Name: icli
+Version: 0.10.0
+Architecture: iphoneos-arm64
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Section: Development
+Description: On-device iOS control CLI
+Filename: debs/com.icli.icli-0.10.0-rootless.deb
+Size: 1127836
+MD5sum: e89c868c9d9570df6f5f6e50b098b79a
+SHA1: 
+SHA256: 99f613ea199b2c8ba03b3c2a9aadcaf09b30807dd854af81e4ea0cd8376ded03
+
+Package: com.icli.icli
+Name: icli
 Version: 0.9.2
 Architecture: iphoneos-arm64e
 Maintainer: icli
@@ -24145,6 +24173,40 @@ Size: 2508456
 MD5sum: 1564a0086c6b0ec3bc30673a28d8f202
 SHA1: 
 SHA256: 0600f53068c64a92ed313a7b14bf7bb01289263bc009cd6b5269617ed7f84ff6
+
+Package: com.mlgm.idata
+Name: iData
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0), apt, dpkg
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64e
+Version: 1.3.4
+Installed-Size: 8532
+Filename: debs/com.mlgm.idata-1.3.4-roothide.deb
+Size: 2533664
+MD5sum: 03d72ecb3e37d4ebc47dcc995c15256f
+SHA1: 
+SHA256: dadaca7804f4a3d7a832f32c701127480a5f52dae9188742846f5009c1b6fd66
+
+Package: com.mlgm.idata
+Name: iData
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0), apt, dpkg
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64
+Version: 1.3.4
+Installed-Size: 8532
+Filename: debs/com.mlgm.idata-1.3.4-rootless.deb
+Size: 2531120
+MD5sum: 74642ecf7ed3949d5bd63b8bc4fd7388
+SHA1: 
+SHA256: 117ada8d8bf126c72f3d9bc9a47aaafb7c6cb10924a72b9eb1ebae7cd59aadb6
 
 Package: com.mlgm.ilog
 Name: iLog
@@ -52535,6 +52597,50 @@ Size: 22296640
 MD5sum: 94524377ed786c32f78015f51002dfb7
 SHA1: 
 SHA256: 7e16e8f14671f497380e8ff29c442b3a6cb521cc2171a4b69ad9854ebd3fa390
+
+Package: wiki.qaq.apelin
+Name: Apelin
+Version: 0.2.3
+Architecture: iphoneos-arm64e
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Installed-Size: 92020
+Filename: debs/wiki.qaq.apelin-0.2.3-roothide.deb
+Size: 22305664
+MD5sum: a0d14199def6eef6a7ac855049018e2c
+SHA1: 
+SHA256: e27f8378f1b84f5e583187c03403b498a0c1d3fab5617fa604f9c033cd0ddc49
+
+Package: wiki.qaq.apelin
+Name: Apelin
+Version: 0.2.3
+Architecture: iphoneos-arm64
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Installed-Size: 92020
+Filename: debs/wiki.qaq.apelin-0.2.3-rootless.deb
+Size: 22310328
+MD5sum: c26f854bca51283ddf9bb82c457b92fa
+SHA1: 
+SHA256: a5dfb386389da683b35b565da74b8e302d2e4060deede6ebd0bd1c8a6c6a46a8
 
 Package: wiki.qaq.apelin.agent-tools.assembler
 Name: Apelin Assembler
