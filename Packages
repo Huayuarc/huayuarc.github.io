@@ -4108,6 +4108,38 @@ MD5sum: d16efccd653b941027e0c982add18138
 SHA1: 
 SHA256: 19c9c8d1b7bba1007aa79a64c83762ccff073ea6090a50097871fa64eba04cc9
 
+Package: com.apelin.gamerskysplash
+Name: 游民星空去开屏广告
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Description: 一个专门注入游民星空（com.gamersky.gamersky）的插件，去除启动开屏广告（自有 LaunchAd 与 TopOn 第三方开屏）。
+Maintainer: Apelin
+Author: Apelin
+Section: Tweaks
+Depends: firmware (>= 16.0)
+icon: https://huayuarc.github.io/icon/gamerskysplash.jpg
+Filename: debs/com.apelin.gamerskysplash-1.0.0-roothide.deb
+Size: 10072
+MD5sum: 1b662297a2a5baf19f0c8d593bcdc1cf
+SHA1: 
+SHA256: ad4d6c5b2aed9b8b78705b0e6f587f4b31a1cd6b2e56a3100ec2e3576ffe64e7
+
+Package: com.apelin.gamerskysplash
+Name: 游民星空去开屏广告
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: 一个专门注入游民星空（com.gamersky.gamersky）的插件，去除启动开屏广告（自有 LaunchAd 与 TopOn 第三方开屏）。
+Maintainer: Apelin
+Author: Apelin
+Section: Tweaks
+Depends: firmware (>= 16.0)
+icon: https://huayuarc.github.io/icon/gamerskysplash.jpg
+Filename: debs/com.apelin.gamerskysplash-1.0.0-rootless.deb
+Size: 12636
+MD5sum: 73adb1d283e105df447f0e97e473faed
+SHA1: 
+SHA256: 7671aa7d0a1587b6fecf336171b182bdff6faae8a83b2b10d23b7f1c5fee76fb
+
 Package: com.aronsz26.lockscreenrestore
 Name: LockScreenRestore
 Description: iOS 16上的iOS 15风格锁定屏幕：时钟、日期、挂锁、聚焦药丸、顶部通知、iOS 15音乐播放器、解锁动画、iOS 15图标标签阴影、实时和动态壁纸以及iOS 15设置>壁纸页面和壁纸下载。每个部件都可以在“设置”中关闭。iOS 15 style lock screen on iOS 16: clock, date, padlock, Focus pill, notifications from the top, iOS 15 music player, unlock animation, iOS 15 icon label shadows, live and dynamic wallpapers and the iOS 15 Settings > Wallpaper page with wallpaper downloads. Each part can be switched off in Settings.
@@ -17422,6 +17454,40 @@ Size: 3460
 MD5sum: 55533a4bd9fb0bd5f20740cfda0d8676
 SHA1: 
 SHA256: b896ee96ef9922f71c2019f2fcdf5e5c269e7bd05b00cf689bb050771d247aac
+
+Package: com.iamdega.uiscroller
+Name: UIScroller
+Description: Rest your fingers, automate scrolling any pages!
+Maintainer: iamdega
+Author: iamdega
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/uiscroller.jpg
+Filename: debs/com.iamdega.uiscroller-1.0.5-roothide.deb
+Size: 9536
+MD5sum: ea8f2b7fd38f02dfba738f20f78c20da
+SHA1: 
+SHA256: 9f088cd67e91a59d3b69c6b01104ee238a3154c87a576fca655c2aac93cf7f3c
+
+Package: com.iamdega.uiscroller
+Name: UIScroller
+Description: Rest your fingers, automate scrolling any pages!
+Maintainer: iamdega
+Author: iamdega
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+icon: https://huayuarc.github.io/icon/uiscroller.jpg
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Installed-Size: 172
+Filename: debs/com.iamdega.uiscroller-1.0.5-rootless.deb
+Size: 9604
+MD5sum: 818d8f1cc6f81362b1d4fbe11ae6eb18
+SHA1: 
+SHA256: dad9f872b19c236638d48ebd3b6c3c89439e6478280e04f0b0560c130e8e9b81
 
 Author: ichitaso
 Maintainer: Havoc
@@ -50009,6 +50075,40 @@ Size: 94864
 MD5sum: 69e9f6d4431d28b78faf73a69254866e
 SHA1: 
 SHA256: b53d5d2f7ed8f10867684da40a7e3f4c81fd8b162a6acb93ff9a3c10991f420f
+
+Package: local.apelin.nomo
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Description: 保留 NOMO 已下载的相机皮肤，切换账号后不再需要重新下载，并解锁 PRO 功能。
+Name: NOMO 解锁PRO
+Author: yqcrack
+Maintainer: yqcrack
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Installed-Size: 109
+icon: https://huayuarc.github.io/icon/nomo.jpg
+Filename: debs/local.apelin.nomo-0.0.2-roothide.deb
+Size: 18704
+MD5sum: fd46e15e78f58bb6ed29e49cc3b98312
+SHA1: 
+SHA256: 2596d1a0ffe44ac235346dd3c85af89e29d2001f7285ec3f945337b047863dfc
+
+Package: local.apelin.nomo
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Description: 保留 NOMO 已下载的相机皮肤，切换账号后不再需要重新下载，并解锁 PRO 功能。
+Name: NOMO 解锁PRO
+Author: yqcrack
+Maintainer: yqcrack
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Installed-Size: 239
+icon: https://huayuarc.github.io/icon/nomo.jpg
+Filename: debs/local.apelin.nomo-0.0.2-rootless.deb
+Size: 25992
+MD5sum: 519934b6aa547881ab3fe11634b9e0f5
+SHA1: 
+SHA256: 5ef97dfe1396aff94d98d0f30175e24b6ad70cde2f73b38207e0536c7fdef1b0
 
 Package: me.ikghd.pmp
 Section: Tweaks
