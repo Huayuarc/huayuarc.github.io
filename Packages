@@ -10609,6 +10609,44 @@ MD5sum: e13d33080d02d19cfb55fefd593606fd
 SHA1: 
 SHA256: 2cef869a2aad196ee6cfe289e19a18e2ef858a978e8fb656859b1f91cef0e36e
 
+Package: com.cracklock.7513
+Name: 熄屏幻术
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素溶解 / 百叶窗 / 故障闪烁 / CRT 关机 / 3D 翻转 / 旋涡内爆 / 灰烬上升 / 沙化 / 融化坠落 / 波纹扭曲 / 拼图崩落 / 旋卷飞散 / 剥落坠落 / 闪烁熄灭 / 墨色飘散），每种可单独调参。
+Maintainer: 7513
+Author: 7513
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Provides: com.cracklock.shatter
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Installed-Size: 1741
+icon: https://huayuarc.github.io/icon/header@2x.png
+Filename: debs/com.cracklock.7513-1.0.1-roothide.deb
+Size: 1154676
+MD5sum: 6ceb4c76c606317c66c70911a44b4e5f
+SHA1: 
+SHA256: d7b4a835bc088b1b56b36b6fa94a230f60dc816c8ef4dba5b06b8de5751c0418
+
+Package: com.cracklock.7513
+Name: 熄屏幻术
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素溶解 / 百叶窗 / 故障闪烁 / CRT 关机 / 3D 翻转 / 旋涡内爆 / 灰烬上升 / 沙化 / 融化坠落 / 波纹扭曲 / 拼图崩落 / 旋卷飞散 / 剥落坠落 / 闪烁熄灭 / 墨色飘散），每种可单独调参。
+Maintainer: 7513
+Author: 7513
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Provides: com.cracklock.shatter
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 1788
+icon: https://huayuarc.github.io/icon/header@2x.png
+Filename: debs/com.cracklock.7513-1.0.1-rootless.deb
+Size: 1155004
+MD5sum: 0c4505bdb8a6fa51c8bbe3cc10009184
+SHA1: 
+SHA256: 9ed001fd3fda8bc48da4b0946dbc7f09c879f9ebf6946a17b992eff20e089529
+
 Package: com.crassna.appcardlite
 Name: App Lecard
 Description: Jailbrea!分屏
@@ -20685,6 +20723,86 @@ MD5sum: f2c2ff26a8c92b23111284bfc9554520
 SHA1: 
 SHA256: 6f1e2e3d8690c875c40639024b3a3222db84a8ccf26b3f58455676476c2690f0
 
+Package: com.jibamao.gaodeclean
+Name: GaodeClean 高德精简
+Description: 高德地图界面精简 · 纯本地运行
+ 把多余的视觉干扰去掉，把该在的位置摆回原样；不抓网络、不改安装包、不采集任何数据。
+ .
+ 添加源 https://gan-jibamao.github.io 后搜索 GaodeClean 即可安装（RootHide 选 arm64e，
+ Dopamine / rootless 选 arm64，两者不可同时安装）。
+ .
+ 界面精简：
+  • 去底栏「上拉发现」引导提示，去上拉白雾与闪白
+  • 去顶部高斯模糊带，去首页白块
+ .
+ 位置归位（对表高德原生布局）：
+  • 搜索栏 / 天气行 / 连接车机 / 2D·3D / 定位·路线胶囊，各归其位
+  • 2D·3D 按钮回到定位·路线胶囊正上方
+  • 连接车机按钮位于天气行上方，天气行与按钮左对齐
+ .
+ 稳定不闪：
+  • 切页、切 2D·3D 不再跳动
+  • 冷启动全程不会在屏幕中部闪出按钮
+ .
+ 全版本自适应：按控件特征判定，不绑定具体高德版本号。
+ 只改界面显示，不影响搜索、导航、路线规划等原有功能。
+ 装后请注销（sbreload）或重启用户空间再打开高德。
+ .
+ 常用说明与更新日志见仓库 Release 页面。
+Maintainer: jibamao
+Author: jibamao
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 0.9.98
+Installed-Size: 404
+icon: https://huayuarc.github.io/icon/gaodeclean.jpg
+Filename: debs/com.jibamao.gaodeclean-0.9.98-roothide.deb
+Size: 76068
+MD5sum: d51b136627bc705225693a376ae14a76
+SHA1: 
+SHA256: d4df9c68e9acd13b94d7fcd90dbb2e6faa8522d0c9cc4d056906144eedc1c018
+
+Package: com.jibamao.gaodeclean
+Name: GaodeClean 高德精简
+Description: 高德地图界面精简 · 纯本地运行
+ 把多余的视觉干扰去掉，把该在的位置摆回原样；不抓网络、不改安装包、不采集任何数据。
+ .
+ 添加源 https://gan-jibamao.github.io 后搜索 GaodeClean 即可安装（RootHide 选 arm64e，
+ Dopamine / rootless 选 arm64，两者不可同时安装）。
+ .
+ 界面精简：
+  • 去底栏「上拉发现」引导提示，去上拉白雾与闪白
+  • 去顶部高斯模糊带，去首页白块
+ .
+ 位置归位（对表高德原生布局）：
+  • 搜索栏 / 天气行 / 连接车机 / 2D·3D / 定位·路线胶囊，各归其位
+  • 2D·3D 按钮回到定位·路线胶囊正上方
+  • 连接车机按钮位于天气行上方，天气行与按钮左对齐
+ .
+ 稳定不闪：
+  • 切页、切 2D·3D 不再跳动
+  • 冷启动全程不会在屏幕中部闪出按钮
+ .
+ 全版本自适应：按控件特征判定，不绑定具体高德版本号。
+ 只改界面显示，不影响搜索、导航、路线规划等原有功能。
+ 装后请注销（sbreload）或重启用户空间再打开高德。
+ .
+ 常用说明与更新日志见仓库 Release 页面。
+Maintainer: jibamao
+Author: jibamao
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 0.9.98
+Installed-Size: 404
+icon: https://huayuarc.github.io/icon/gaodeclean.jpg
+Filename: debs/com.jibamao.gaodeclean-0.9.98-rootless.deb
+Size: 76116
+MD5sum: 4f4b5a26742db44cc07149cf8d8d0ee5
+SHA1: 
+SHA256: 103a0ff48daac0092677f23c0f83d83616d38e20e59fe36f84d2a01f54a6ee96
+
 Package: com.jibamao.spsundiro
 Name: Sundiro BLE Unlock (SpringBoard)
 Description: 新大洲本田蓝牙无感解锁，直接跑在 SpringBoard 内，不依赖官方 App。解锁协议完全离线（49 组配对 + 4 帧报文），不联网、不采集数据。安全阀：创建 /var/mobile/Library/Preferences/com.jibamao.spsundiro.off 后注销桌面即停用。
@@ -25923,6 +26041,40 @@ Size: 326080
 MD5sum: b22fb53f5283c7cbdd97e61850aae4e6
 SHA1: 
 SHA256: 6c80573d12ec18c5cdcb2e6b3240cca162470b0ac0fc80ed2b16a8bf6ddafa4e
+
+Package: com.mlgm.taploom
+Name: Taploom
+Description: 触摸轨迹可视化
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Icon: https://mlgm66.github.io/icon/taploom.png
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 1120
+Filename: debs/com.mlgm.taploom-1.0.1-roothide.deb
+Size: 166628
+MD5sum: 808d56e0344130ca242c0e95470fed35
+SHA1: 
+SHA256: a5b1b5bff7ef730003fbacec555f2ba9748f662eeabf06eeb9e4ae25a30600cc
+
+Package: com.mlgm.taploom
+Name: Taploom
+Description: 触摸轨迹可视化
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Icon: https://mlgm66.github.io/icon/taploom.png
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 1120
+Filename: debs/com.mlgm.taploom-1.0.1-rootless.deb
+Size: 166496
+MD5sum: 7af0ab09ca9bf02b5019a0a972c84d82
+SHA1: 
+SHA256: bd064b118cf11091b15a71f475307d3d3faa6fec017c2c99c9491951615bc51a
 
 Package: com.monian.b612patch
 Name: B612 Unlocked VIP
@@ -31200,6 +31352,46 @@ Size: 644184
 MD5sum: 6bf1270b691f0db82ae8fe9a18cc9417
 SHA1: 
 SHA256: aa74bf91d5482ab37489b48555c7f50ed22b682b9217fcba3d175a91873dea61
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.298
+Installed-Size: 4624
+Filename: debs/com.qq391160.cpucore-2.0.298-roothide.deb
+Size: 727088
+MD5sum: 389ece9a1768c647fbe3873aed5c5f3c
+SHA1: 
+SHA256: 94b6c8b847d1f704a4392b7ab2eb1a9c5bc1db872c75c2c814f8147e75043f60
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64
+Version: 2.0.298
+Installed-Size: 4340
+Filename: debs/com.qq391160.cpucore-2.0.298-rootless.deb
+Size: 660056
+MD5sum: 45ca291ec5e416e64944e24db816c988
+SHA1: 
+SHA256: e105f85edea06b0a9353c4c903550a76b01b9cacdcbfb415b45556bfddb8b69a
 
 Package: com.qq391160.cpucore
 Name: CPU智能温控(iOS16/17)
@@ -46373,6 +46565,40 @@ MD5sum: 34a31271855118621817f4173d98944c
 SHA1: 
 SHA256: 7f73518e2edd7b6b5c92b3c1e5d56d5d986ca4fe47f3c3996be4a367e2bc6e47
 
+Package: com.zege.sileobackground
+Name: Sileo 背景图
+Version: 1.1.6
+Architecture: iphoneos-arm64e
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-sileobackground.png
+Description: 给 Sileo 加整页自定义背景图（三指双击相册导入）。1.1.6：底部悬浮栏液态玻璃保留；日期小标题/分组头灰块继续透明化。
+Maintainer: 泽哥
+Author: 泽哥
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Installed-Size: 260
+Filename: debs/com.zege.sileobackground-1.1.6-roothide.deb
+Size: 26196
+MD5sum: 7f0e805dec59bf3695d2ebe23f821403
+SHA1: 
+SHA256: a8d2ba5adbc61fc2d022917abe66018e123e188fd5fa810e9cc896d769989863
+
+Package: com.zege.sileobackground
+Name: Sileo 背景图
+Version: 1.1.6
+Architecture: iphoneos-arm64
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-sileobackground.png
+Description: 给 Sileo 加整页自定义背景图（三指双击相册导入）。1.1.6：底部悬浮栏液态玻璃保留；日期小标题/分组头灰块继续透明化。
+Maintainer: 泽哥
+Author: 泽哥
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Installed-Size: 260
+Filename: debs/com.zege.sileobackground-1.1.6-rootless.deb
+Size: 26236
+MD5sum: f140b55e0c6e77bc1d7ad5ae909d8c98
+SHA1: 
+SHA256: b462d5cad2e39acbd12216ccd30b5e1ccf146093bd2469156fd5ca61cc436584
+
 Package: com.zqbb.savephotos
 Name: Hello Snapper3
 Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
@@ -48637,6 +48863,42 @@ MD5sum: 4da2ca5d6fe83df97ba0abb1c3aa845b
 SHA1: 
 SHA256: 43d6b8825a9a6f95cc5513668370627856ad2c3791894cde4333a486f0549f91
 
+Package: iya.banana.duoicon
+Name: Lunora DuoIcon
+Description: Lunora 的精简版本，仅包含右侧星环功能。Right-side Orbit and Capsule status icons with native reveal animations.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64e
+Version: 0.1.6
+Installed-Size: 1692
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.duoicon-0.1.6-roothide.deb
+Size: 290996
+MD5sum: 73f3b51067888eda664881a9f2bbb164
+SHA1: 
+SHA256: 8f022ca8d667ae5062e347df05333a7590d1cdaca8dd96e8187315df1d14f418
+
+Package: iya.banana.duoicon
+Name: Lunora DuoIcon
+Description: Lunora 的精简版本，仅包含右侧星环功能。Right-side Orbit and Capsule status icons with native reveal animations.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Architecture: iphoneos-arm64
+Version: 0.1.6
+Installed-Size: 1692
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.duoicon-0.1.6-rootless.deb
+Size: 291740
+MD5sum: ccebf9598f931014e72d61c141929a88
+SHA1: 
+SHA256: dde1def91ad39130f5f1a90c03cf3c71266f5c682a6bf8add5d385b94093af53
+
 Package: iya.banana.dynamicmusicbg
 Name: DynamicMusicBG
 Description: Album-art-driven animated color fields for Lock Screen Now Playing on iOS 15 through iOS 18.根据当前音乐封面，在锁屏正在播放控件后方生成流动的动态色彩背景。
@@ -49185,6 +49447,44 @@ MD5sum: 43faf515d7b718c33f60f154dc61e7c0
 SHA1: 
 SHA256: 72e3c31d108a2bd4ea92d8d04004ca96b1500bdd0fddffc2c207af1103f9db16
 
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Installed-Size: 5428
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.1.5-roothide.deb
+Size: 990628
+MD5sum: 7ee30d0f6f951ecc089abd5ff4510e66
+SHA1: 
+SHA256: a925b79c63e58fb851339436940cc671fce91377754f14aca5688f7ef4930562
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Architecture: iphoneos-arm64
+Version: 1.1.5
+Installed-Size: 5428
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.1.5-rootless.deb
+Size: 993044
+MD5sum: 1d235d4857775fe0c9fae884cdc36f40
+SHA1: 
+SHA256: f7c0f982d6e181ddbdb3813a9ba982efb3eb3c7dc7135b2f0112530c49b8b021
+
 Package: iya.banana.jumpguard
 Name: JumpGuard
 Description: Confirm or block cross-app launch requests on RootHide iOS.ios 17.0-17.3.1 上确认、允许或阻止App 发起的跨应用跳转。
@@ -49528,6 +49828,40 @@ Size: 6384520
 MD5sum: 87dee07b00ae73953884c3d63230ae9f
 SHA1: 
 SHA256: ec85b70b7159a48e6566e48218b67fb6ff5b8e044e7e50597f06146fd50e2fc2
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64e
+Version: 1.1.18-1
+Installed-Size: 12612
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.18-1-roothide.deb
+Size: 5904472
+MD5sum: 77b1600394290d6c49b07c161fff3b75
+SHA1: 
+SHA256: 180960d5717db3cea9bb557a3bc6f3688352604b8ed7811b53243d8998bbc00b
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64
+Version: 1.1.18-1
+Installed-Size: 12612
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.18-1-rootless.deb
+Size: 5903812
+MD5sum: 08ba8d5627fd7b38d09f3b8f91753a80
+SHA1: 
+SHA256: f5ce810e3c14e5011d09dc8f089198900814a55faf75a849c84f95a6667c1f2f
 
 Package: iya.banana.spatialscene
 Name: SpatialScene
