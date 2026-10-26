@@ -4140,6 +4140,38 @@ MD5sum: 73adb1d283e105df447f0e97e473faed
 SHA1: 
 SHA256: 7671aa7d0a1587b6fecf336171b182bdff6faae8a83b2b10d23b7f1c5fee76fb
 
+Package: com.apelin.jufengvip
+Name: 飓风相机 PRO
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate
+Section: Tweaks
+Maintainer: Apelin <apelin@local>
+Author: Apelin
+Description: Unlocks the Pro membership of 飓风相机 on this device.
+icon: https://huayuarc.github.io/icon/jufengvip.jpg
+Filename: debs/com.apelin.jufengvip-0.1.0-roothide.deb
+Size: 29568
+MD5sum: 7f3587acac063c39eaad9bab54c205c1
+SHA1: 
+SHA256: 3fd8b1547a95d497bf5ec1fff723273639742e7cf9a95c9fa9f360fdd59831db
+
+Package: com.apelin.jufengvip
+Name: 飓风相机 PRO
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate
+Section: Tweaks
+Maintainer: Apelin <apelin@local>
+Author: Apelin
+Description: Unlocks the Pro membership of 飓风相机 on this device.
+icon: https://huayuarc.github.io/icon/jufengvip.jpg
+Filename: debs/com.apelin.jufengvip-0.1.0-rootless.deb
+Size: 29460
+MD5sum: 00fa5a6a59aee2e1dc01faa37178d7c3
+SHA1: 
+SHA256: f5a5b2e12daa30cae3c6b2cbe41c18a43a2b4218c09213d4c7a2eecb17f1a8c2
+
 Package: com.aronsz26.lockscreenrestore
 Name: LockScreenRestore
 Description: iOS 16上的iOS 15风格锁定屏幕：时钟、日期、挂锁、聚焦药丸、顶部通知、iOS 15音乐播放器、解锁动画、iOS 15图标标签阴影、实时和动态壁纸以及iOS 15设置>壁纸页面和壁纸下载。每个部件都可以在“设置”中关闭。iOS 15 style lock screen on iOS 16: clock, date, padlock, Focus pill, notifications from the top, iOS 15 music player, unlock animation, iOS 15 icon label shadows, live and dynamic wallpapers and the iOS 15 Settings > Wallpaper page with wallpaper downloads. Each part can be switched off in Settings.
@@ -54424,6 +54456,39 @@ Size: 1946744
 MD5sum: 9cdaa02f00d0c7cbd3d42b6728f44263
 SHA1: 
 SHA256: 9436e1d6d63614c91e440247e37ca3367326f768c77a0dd8f179466425e3793c
+
+Package: xyz.local.bilispeed
+Name: BiliSpeed B站 3倍速
+Version: 1.4.2
+Architecture: iphoneos-arm64e
+Maintainer: local
+Author: local
+Section: Tweaks
+Depends: mobilesubstrate
+Pre-Depends: rootless-compat (>= 0.9)
+Description: B站 3倍速BiliSpeed 注入：tv.danmaku.bilianime Native portrait and landscape 3.0 playback rate for Bilibili 8.99.
+icon: https://huayuarc.github.io/icon/bilispeed.jpg
+Filename: debs/xyz.local.bilispeed-1.4.2-roothide.deb
+Size: 10976
+MD5sum: 51c9613cb8126a7019df2ba04df0f6e6
+SHA1: 
+SHA256: ce9f4bb9324e3e6d7b21b281b280799df44ed9edd5c01811150f62c0105a1146
+
+Package: xyz.local.bilispeed
+Name: BiliSpeed B站 3倍速
+Version: 1.4.2
+Architecture: iphoneos-arm64
+Maintainer: local
+Author: local
+Section: Tweaks
+Depends: mobilesubstrate
+Description: B站 3倍速BiliSpeed 注入：tv.danmaku.bilianime Native portrait and landscape 3.0 playback rate for Bilibili 8.99.
+icon: https://huayuarc.github.io/icon/bilispeed.jpg
+Filename: debs/xyz.local.bilispeed-1.4.2-rootless.deb
+Size: 14584
+MD5sum: 9bea204c424b4c2d7d6adc1f1d7aafcd
+SHA1: 
+SHA256: aaa662aff74c5856c3ef77ece8cdf0c0b49b62d28ae9908c70e35db2a3813249
 
 Package: zone.uni9k.umount
 Name: UMount 挂载器
