@@ -3118,6 +3118,40 @@ Author: MoWang
 Section: Tweaks
 Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
 Architecture: iphoneos-arm64e
+Version: 0.3.25
+Installed-Size: 2108
+icon: https://huayuarc.github.io/icon/islanddigest.png
+Filename: debs/com.MoWang.islanddigest-0.3.25-roothide.deb
+Size: 1250564
+MD5sum: 4d362af536671e697a2353ba8fb6929b
+SHA1: 
+SHA256: 46d0932dd6f322eb4226771e5597f09972d4f3448399567a203ee3c93b9957e7
+
+Package: com.MoWang.islanddigest
+Name: 灵屿通知
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.3.25
+Installed-Size: 2108
+icon: https://huayuarc.github.io/icon/islanddigest.png
+Filename: debs/com.MoWang.islanddigest-0.3.25-rootless.deb
+Size: 1250600
+MD5sum: eb0a6e23d9735e26ddc98f035250c5ff
+SHA1: 
+SHA256: 9629a16112b7dab5286c00d4c91831d58b425995ee3ec19c435145ff182418d0
+
+Package: com.MoWang.islanddigest
+Name: 灵屿通知
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Architecture: iphoneos-arm64e
 Version: 0.3.3
 Installed-Size: 1784
 icon: https://huayuarc.github.io/icon/islanddigest.png
@@ -17438,6 +17472,34 @@ Size: 8328
 MD5sum: b0e9c3cde1af557267381b93b8867b69
 SHA1: 
 SHA256: 5245dbc61a1dc11dc552b3ff0b5381d1f17d1082756157da87b2f83482c19a3d
+
+Package: com.icli.icli
+Name: icli
+Version: 0.9.2
+Architecture: iphoneos-arm64e
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Section: Development
+Description: On-device iOS control CLI
+Filename: debs/com.icli.icli-0.9.2-roothide.deb
+Size: 1100864
+MD5sum: 345297a51bb950cce23893359e14c75f
+SHA1: 
+SHA256: b32308a4c2831d2e748991e16196a0fb1aed1aa0623cac734435ce357f0cbe3f
+
+Package: com.icli.icli
+Name: icli
+Version: 0.9.2
+Architecture: iphoneos-arm64
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Section: Development
+Description: On-device iOS control CLI
+Filename: debs/com.icli.icli-0.9.2-rootless.deb
+Size: 1100868
+MD5sum: 26dbc10e2068358921a4194166c281ee
+SHA1: 
+SHA256: 1fd6304c1af71bffdb73e5185c40aae34b6b810d83d66a0c33e3fdcb3324aa03
 
 Package: com.icraze.noticopy15
 Name: NotiCopy15
@@ -51735,6 +51797,42 @@ Size: 21088
 MD5sum: f602a55d082498f6ac074de341ac8e36
 SHA1: 
 SHA256: 1ac88363f6a410cf3ca91b77d34c7defeaaf53f7cc7ce54d8e2dc8e438b636c2
+
+Package: org.shallowdream.dockpages
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Description: Dock 左右各增加一页，每页四个图标，支持左右滑动切换。
+Name: 三页 Dock
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Replaces: local.apelin.dockpages
+Installed-Size: 263
+icon: https://huayuarc.github.io/icon/dockpages.jpg
+Filename: debs/org.shallowdream.dockpages-1.0.3-roothide.deb
+Size: 60944
+MD5sum: 2a2a4734ef6a323b204090a294f23375
+SHA1: 
+SHA256: 0d4c387c3928e1bcbbf58cbfe8a524467e1ef70e4fcc5ea20e2001d468e304f9
+
+Package: org.shallowdream.dockpages
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Description: Dock 左右各增加一页，每页四个图标，支持左右滑动切换。
+Name: 三页 Dock
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Replaces: local.apelin.dockpages
+Installed-Size: 521
+icon: https://huayuarc.github.io/icon/dockpages.jpg
+Filename: debs/org.shallowdream.dockpages-1.0.3-rootless.deb
+Size: 73976
+MD5sum: 468398100485379d2c73374447357306
+SHA1: 
+SHA256: f7de71c2a68b2144e279745d83e8ac88ec4c95ddc9eec58137c6df356c751944
 
 Author: Bailey Seymour
 Architecture: iphoneos-arm64
