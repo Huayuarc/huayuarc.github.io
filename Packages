@@ -44738,6 +44738,28 @@ SHA1:
 SHA256: 3657f58b230dba0d6d222710dd37449f74069da2d93afa76011b4e9e0e216be6
 
 Package: com.tsangbaby.pulloverx
+Name: PullOver X
+Version: 2.3.2
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+Filename: debs/com.tsangbaby.pulloverx-2.3.2-roothide.deb
+Size: 671736
+MD5sum: c6c6d423aa2c36552ed54b6606b2e71a
+SHA1: 
+SHA256: 4775598bbe55271e4b948768df7ed1632e69b8c0529a2e610806269a0893b9fa
+
+Package: com.tsangbaby.pulloverx
 Name: PullOver X 分屏
 Version: 1.9.5
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
@@ -47242,6 +47264,43 @@ MD5sum: dd9bfe23741f1e8cfce801d43c6c9f5a
 SHA1: 
 SHA256: c5a8bbfd4aed9406356806e75a0f2ac959c9f0462ba41f5dba7b834782e6c7d2
 
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: junhong
+Author: junhong
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+Conflicts: fanqiefn
+Replaces: fanqiefn
+Provides: fanqiefn
+Architecture: iphoneos-arm64e
+Version: 3.3.0
+Installed-Size: 3396
+Filename: debs/fanqiefn-3.3.0-roothide.deb
+Size: 1488960
+MD5sum: 93e4edc2c4b5690b0ccc53230ce64b15
+SHA1: 
+SHA256: 90443efa9626db03cb3c8d0d3f21a64de6f8e24ac3e377de7e072dbfd2406106
+
+Package: fanqiefn
+Name: 番茄净化
+Maintainer: junhong
+Author: junhong
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/fanqiefn.jpg
+Architecture: iphoneos-arm64
+Version: 3.3.0
+Installed-Size: 3412
+Filename: debs/fanqiefn-3.3.0-rootless.deb
+Size: 1494652
+MD5sum: 3f82ee0142ba1131cf17f8adb4cdca07
+SHA1: 
+SHA256: b74f0cbfba9a33116fb4930cf9fc1d3f2a64804afec9e5b73b135dd24a6fb61e
+
 Package: Flex3beta
 Name: Flex3 Beta可解析版
 Depends: mobilesubstrate, firmware (>= 9.0)
@@ -47374,6 +47433,40 @@ Size: 102672
 MD5sum: 09cef1488abe90d5363e74a1b3efc092
 SHA1: 
 SHA256: f5089c94ffddeed79ffe0637ccf7fe0c6433bfc4acd9a0a82bd04eb434d0ca1a
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: junhong
+Author: junhong
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+Installed-Size: 4456
+Filename: debs/hongguofn-2.0.0-roothide.deb
+Size: 1934008
+MD5sum: a49c2f564c9544595c2afb89f0a285f7
+SHA1: 
+SHA256: 531fa688a6ec4439bc000909d62a1c36171a102ba8e3d7c54cfb18c0e7e44bba
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: junhong
+Author: junhong
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Installed-Size: 4456
+Filename: debs/hongguofn-2.0.0-rootless.deb
+Size: 1939568
+MD5sum: a1615d0be751621a4389e36f6831be2b
+SHA1: 
+SHA256: cf17f13662e700c5b4fb88d3ab17c696834101ca4ab9c4f7a24126c6c248d8f0
 
 Package: hypicfix
 Name: 醒图国际版修复工具
@@ -49227,6 +49320,40 @@ Size: 396772
 MD5sum: 3b90c7cef90237417f320603d0c7cf69
 SHA1: 
 SHA256: 16a85feaf23a97c5cd0f2ea112d41cb440eb08463b82e1679490cb97b0368aa9
+
+Package: iya.banana.multitask
+Name: 一芽分屏 (Iya Split)
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.1.4-1
+Installed-Size: 2536
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+Filename: debs/iya.banana.multitask-0.1.4-1-roothide.deb
+Size: 430632
+MD5sum: 6a60e94cd19c2b6c161bf1fc068ecce8
+SHA1: 
+SHA256: 234b6e2210ac18fb0e4d99a57a3bb04140146a44aeaa87c31dda3b6cc7149032
+
+Package: iya.banana.multitask
+Name: 一芽分屏 (Iya Split)
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.1.4-1
+Installed-Size: 2552
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+Filename: debs/iya.banana.multitask-0.1.4-1-rootless.deb
+Size: 431452
+MD5sum: 895e5ed215341151fea117c6764d511a
+SHA1: 
+SHA256: 21468e1cebc7da9c450e2be16313cfcc477b1b5f7f0c3b7f6073176402930da9
 
 Package: iya.banana.musichaptics
 Name: MusicHaptics
