@@ -22029,10 +22029,10 @@ Package: com.local.alipay.identity-compat
 Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.local.alipay.identity-compat-0.1.9-roothide.deb
-Size: 29292
-MD5sum: 85b1ce8b98b7853686f9d7221a645637
+Size: 29484
+MD5sum: a4d5f513c40463b7b1054d937b270c8d
 SHA1: 
-SHA256: 803e3a963111ee5d41b138a71d82eb10111b1dac3e93f2a993dcabb815956596
+SHA256: fc3472976c55cc8c67f11c7db2f03ba4877a574cbe58f3ccaea97987df1ad9de
 
 Author: Local Workspace
 Architecture: iphoneos-arm64
@@ -22047,10 +22047,10 @@ Installed-Size: 268
 Package: com.local.alipay.identity-compat
 Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
 Filename: debs/com.local.alipay.identity-compat-0.1.9-rootless.deb
-Size: 29964
-MD5sum: a521511c82f1734e69006b58a00842a2
+Size: 29916
+MD5sum: 9b160888c4fd839d0667454a74934229
 SHA1: 
-SHA256: 581c14abdd2549e9d2b131cce04a092f1f13fdc9c70b7cb1903abbbaa0b74dbc
+SHA256: 24d76e227889ea87b6f3211ea6dd3b7ae461c359886d6c59154b42f192d49579
 
 Package: com.local.carbridge17
 Name: CarBridge 汽车互联
@@ -35617,7 +35617,27 @@ SHA1:
 SHA256: 49e901118393ee020384a9077d3956462846028d539377cbe332ef17e1fd89e5
 
 Package: com.sini.alipaycc
-Name: AlipayCC
+Name: 支付宝蚂蚁森林手机充值
+Icon: https://sini921.github.io/repo/sileodepiction/icon/alipaycc.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/alipaycc/js.json
+Description: 控制中心添加支付宝中蚂蚁森林与手机充值，ylr制作投稿
+Maintainer: ylr
+Author: ylr
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 14.0), com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 1.5.5-3+debug
+Installed-Size: 224
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.alipaycc-1.5.5-3+debug-roothide.deb
+Size: 8272
+MD5sum: 2a12f2c3bf92d2a1fa87e75e37775bd7
+SHA1: 
+SHA256: 9f73cac6ac1448fea1c45bec5101fecb40936aea81edaa076df8512049495be6
+
+Package: com.sini.alipaycc
+Name: 支付宝蚂蚁森林手机充值
 Icon: https://sini921.github.io/repo/sileodepiction/icon/alipaycc.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/alipaycc/js.json
 Description: 控制中心添加支付宝中蚂蚁森林与手机充值，ylr制作投稿
@@ -35629,11 +35649,11 @@ Depends: firmware (>= 14.0), com.opa334.ccsupport
 Architecture: iphoneos-arm64
 Version: 1.5.5-3+debug
 Installed-Size: 224
-Filename: debs/com.sini.alipaycc_1.5.5-3+debug_iphoneos-arm64.deb
-Size: 8208
-MD5sum: 248be8e927b22c7355bcfdbd7087c57e
+Filename: debs/com.sini.alipaycc-1.5.5-3+debug-rootless.deb
+Size: 8232
+MD5sum: e246884c996a77efc046955e32fef620
 SHA1: 
-SHA256: 81450ee1c4b559f66ea8cfc4e2b589ad1855a4d98b3b649cb54530c2bc8ebf45
+SHA256: 5984728b7afe929bcede209e15ae89b2cb15f6ebdb20dfea32c62ffaf87c1737
 
 Package: com.sini.alpine
 Maintainer: Sini921
@@ -43405,7 +43425,7 @@ SHA1:
 SHA256: 59bf2c687802c499ea97fbd5b21198a82b27e15354b024588ddf693ddea7ae5b
 
 Package: com.thefool.ccaudioplay
-Name: CCAudioPlay 播放器美化
+Name: CCAudioPlay 控制中心播放器美化
 Description: 播放器美化 不支IOS15
 Maintainer: thefool
 Author: thefool
@@ -43417,13 +43437,13 @@ Installed-Size: 29768
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/CCAudioPlay.png
 Filename: debs/com.thefool.ccaudioplay-0.0.1-7+debug-roothide.deb
-Size: 25097344
-MD5sum: fa941715b8b5119e6393764da48d910d
+Size: 25097416
+MD5sum: 1aecea33f410f6a6a6ccb1c7a50d7d62
 SHA1: 
-SHA256: 6f378eb8b071c5da84470164a634a83999891995ba94a2fbbc53b6f9557ea42a
+SHA256: 878250b7884c675faf8aa3a9f6dff467a9b783ee8e059296c4a17929125bcec6
 
 Package: com.thefool.ccaudioplay
-Name: CCAudioPlay 播放器美化
+Name: CCAudioPlay 控制中心播放器美化
 Description: 播放器美化 不支IOS15
 Maintainer: thefool
 Author: thefool
@@ -43434,13 +43454,13 @@ Version: 0.0.1-7+debug
 Installed-Size: 29768
 icon: https://huayuarc.github.io/icon/CCAudioPlay.png
 Filename: debs/com.thefool.ccaudioplay-0.0.1-7+debug-rootless.deb
-Size: 25107688
-MD5sum: b6659247a117703375eef230c91ef784
+Size: 25107812
+MD5sum: 60d32612ca06258d6a6645aec9d8e059
 SHA1: 
-SHA256: 1a2e429cca95f34827f1e246787364bd707c2847f29c23776c605aaeff556f71
+SHA256: 72fbfb6d9be7e6dbc1bb6c1d9a1b1ec3c7c5cba2604e6a4c4a6bd06c3bb74920
 
 Package: com.thefool.ccaudioplay
-Name: CCAudioPlay 播放器美化
+Name: CCAudioPlay 控制中心播放器美化
 Description: 播放器美化 不支IOS15
 Maintainer: thefool
 Author: thefool
@@ -43452,13 +43472,13 @@ Installed-Size: 29540
 icon: https://huayuarc.github.io/icon/CCAudioPlay.png
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/com.thefool.ccaudioplay-0.0.1-94+debug-roothide.deb
-Size: 25080596
-MD5sum: c1fd4b0378d107ac778272a680e5663e
+Size: 25081616
+MD5sum: dc23dc270abc6e4423d41cb5dbc6f74f
 SHA1: 
-SHA256: f22d1a48797a5ebf72a51c65cec1bf8c666ac02bd1968793224dbcd84303c35b
+SHA256: 2e40c895800c60beaae7a3a6c86eff8fb85192e2fdf894a01dc137f12fe2af67
 
 Package: com.thefool.ccaudioplay
-Name: CCAudioPlay 播放器美化
+Name: CCAudioPlay 控制中心播放器美化
 Description: 播放器美化 不支IOS15
 Maintainer: thefool
 Author: thefool
@@ -43469,10 +43489,10 @@ Version: 0.0.1-94+debug
 Installed-Size: 29540
 icon: https://huayuarc.github.io/icon/CCAudioPlay.png
 Filename: debs/com.thefool.ccaudioplay-0.0.1-94+debug-rootless.deb
-Size: 25090828
-MD5sum: 176804ce594cf95fce22c3e195669c69
+Size: 25090924
+MD5sum: 601d8670b3e8456484a86c7ec67bd849
 SHA1: 
-SHA256: 51ac27a58198ecc751afcf769ab9522beb1246b2d0a368458f4bc21066e14a3b
+SHA256: 844b9f6bd693971a26e2b5e446d5128891a6719dd8bb8a4b8c76e444a935dad3
 
 Package: com.touchWorld.doubanTweak
 Name: DoubanTweak
@@ -51272,20 +51292,20 @@ Maintainer: Nets
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Architecture: iphoneos-arm64e
 Installed-Size: 160
-Name: AlipayScan
+Name: 支付宝扫一扫
 Author: Netskao
 Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中心-自定控制内添加后使用
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/alipayscan.png
 Filename: debs/netskao.alipayscan-1.2-2-roothide.deb
-Size: 43200
-MD5sum: d429a56fd166c5a7a06008421d336fda
+Size: 43168
+MD5sum: b2a299e666290b4025f82a77b23b2f47
 SHA1: 
-SHA256: 66bebccf4c53b9fd99f8fb91154f87c96970a28b9b1cfc15a34bae955956b12a
+SHA256: 47bd794046de0586c7c9618f8b671b5f283442bd090680a88496f38eac4c579b
 
 Package: netskao.alipayscan
 Architecture: iphoneos-arm64
-Name: AlipayScan
+Name: 支付宝扫一扫
 Version: 1.2-2
 Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中心-自定控制内添加后使用
 Author: Netskao <xuanhua880@gmail.com>
@@ -51294,10 +51314,10 @@ Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Maintainer: Nets <xuanhua880@gmail.com>
 icon: https://huayuarc.github.io/icon/alipayscan.png
 Filename: debs/netskao.alipayscan-1.2-2-rootless.deb
-Size: 43020
-MD5sum: 5d35fa50086b46f6c20038c2e4eb8fc8
+Size: 43012
+MD5sum: 719ee612453615de6733edfb4c11315a
 SHA1: 
-SHA256: 359970d131ad12a01ec8517bd43e0b1b762b7f9b4dd541b96b7adde0ba1381c3
+SHA256: 756224037cc08d3f9ad63ec24b256fc623e920057eee2e3d4ab0c0941479b200
 
 Package: netskao.autofaceunlock
 Version: 1.1-7
@@ -51751,20 +51771,20 @@ Maintainer: Nets
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Architecture: iphoneos-arm64e
 Installed-Size: 160
-Name: WeChatScan
+Name: 微信扫一扫
 Author: Netskao
 Description: 通过控制中心快捷打开微信扫一扫，设置-控制中心-自定控制内添加后使用
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/wechatscan.png
 Filename: debs/netskao.wechatscan-1.2-2-roothide.deb
-Size: 28872
-MD5sum: 55ab3d84c8846e389ae7d0ffea60f1e8
+Size: 28856
+MD5sum: 3cd73323c61e2015515b9ca165ebbeb7
 SHA1: 
-SHA256: 6ea933faf180656b0abce118a15f56d4b6b0a0d81bbb9e607366416a354c3871
+SHA256: a95097d55a78b9010880c14eef88b30e68d5f20a3653e9c29f36c5603b55b2e5
 
 Package: netskao.wechatscan
 Architecture: iphoneos-arm64
-Name: WeChatScan
+Name: 微信扫一扫
 Version: 1.2-2
 Description: 通过控制中心快捷打开微信扫一扫，设置-控制中心-自定控制内添加后使用
 Author: Netskao <xuanhua880@gmail.com>
@@ -51773,10 +51793,10 @@ Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Maintainer: Nets <xuanhua880@gmail.com>
 icon: https://huayuarc.github.io/icon/wechatscan.png
 Filename: debs/netskao.wechatscan-1.2-2-rootless.deb
-Size: 28712
-MD5sum: 08b2d582c4c967808f3b2ff2f6a5303d
+Size: 28708
+MD5sum: 7ab83391797726c1d6da1e55d22a8579
 SHA1: 
-SHA256: 90e538bd34b13f524676b9e1ac75ecaea3dfe04e683e2ded8b92a5f45a99b6c4
+SHA256: 343e1fd98dede48c62500e7d83273f481efc53b3061c71ac4abc2c9a63e700dc
 
 Package: netskao.wrecycrack
 Version: 1.1-1
@@ -54513,20 +54533,20 @@ Maintainer: zqbb
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Architecture: iphoneos-arm64e
 Installed-Size: 160
-Name: AlipayFuk
+Name: 支付宝付款码
 Author: zqbb
 Description: 通过控制中心快捷打开支付宝付款码，设置-控制中心-自定控制内添加后使用
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/alipayfuk.png
 Filename: debs/zqbb.alipayfuk-1.0.2-roothide.deb
-Size: 36520
-MD5sum: 31c9a64aab0af369c4d6598f1bde723e
+Size: 36508
+MD5sum: 2ead2df508e4aba896fc89cc184b9a7d
 SHA1: 
-SHA256: 376ba538e21fc1d25e8fc3ff51c01ab578e2e1b23acba9f1a37d101b3def8b9b
+SHA256: b7603973164c595b02c89bd7bb56a9d4b0ccbbb6cf328c10ed68be62d052ba49
 
 Package: zqbb.alipayfuk
 Architecture: iphoneos-arm64
-Name: AlipayFuk
+Name: 支付宝付款码
 Version: 1.0.2
 Description: 通过控制中心快捷打开支付宝付款码，设置-控制中心-自定控制内添加后使用
 Author: zqbb <xuanhua880@gmail.com>
@@ -54535,10 +54555,10 @@ Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Maintainer: zqbb <xuanhua880@gmail.com>
 icon: https://huayuarc.github.io/icon/alipayfuk.png
 Filename: debs/zqbb.alipayfuk-1.0.2-rootless.deb
-Size: 36404
-MD5sum: 834a355720014d68ea3a658b9d012379
+Size: 36400
+MD5sum: 701ced99aacec7aa1ec95a921d5733bc
 SHA1: 
-SHA256: 8dc4c47840c158d215a380005a9f0e3b8a66560a5a34953137890b6f9a200d2a
+SHA256: 499b44f9f0c7ff68a978f4aed2ba384a52ee6147badac6cf45afd9a79af1c7eb
 
 Package: zqbb.wechatfuk
 Version: 1.0.2
