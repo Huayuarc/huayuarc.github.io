@@ -10749,6 +10749,44 @@ MD5sum: 0c4505bdb8a6fa51c8bbe3cc10009184
 SHA1: 
 SHA256: 9ed001fd3fda8bc48da4b0946dbc7f09c879f9ebf6946a17b992eff20e089529
 
+Package: com.cracklock.7513
+Name: 熄屏幻术
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
+Maintainer: 7513
+Author: 7513
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Provides: com.cracklock.shatter
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Installed-Size: 1741
+icon: https://huayuarc.github.io/icon/header@2x.png
+Filename: debs/com.cracklock.7513-1.0.2-roothide.deb
+Size: 1156112
+MD5sum: b92c7f0970ffbc3ec721d9b5f40de310
+SHA1: 
+SHA256: 390e4fa9255b190c4cc4219998326fde1cda42b58a807a83412ffa39da2b6229
+
+Package: com.cracklock.7513
+Name: 熄屏幻术
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
+Maintainer: 7513
+Author: 7513
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Provides: com.cracklock.shatter
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Installed-Size: 1788
+icon: https://huayuarc.github.io/icon/header@2x.png
+Filename: debs/com.cracklock.7513-1.0.2-rootless.deb
+Size: 1156024
+MD5sum: f077b38280a52c11a0e0c81d2176b356
+SHA1: 
+SHA256: d48bc099417d03f6f7a5aaae53f36c2835c8daa277debaffdcfe98bfdaeaf901
+
 Package: com.crassna.appcardlite
 Name: App Lecard
 Description: Jailbrea!分屏
@@ -31955,6 +31993,45 @@ MD5sum: 501924f925cbad439d5de0861c058c11
 SHA1: 
 SHA256: 1378b63f915ae9d16db41021a2afd901cc836fc167873778169d81a85e7dae19
 
+Package: com.qq391160.pulloverplus
+Name: PullOver Plus
+Version: 1.0.567
+Description: 此插件基于 PullOver X（原作者 mlgm）与 PullOver Pro 修改；本版为 qq391160 的增强版。
+Section: Tweaks
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro, com.huayuarc.pulloverplus
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro, com.huayuarc.pulloverplus
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: qq391160（基于 mlgm 的 PullOver X）
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Maintainer: qq391160
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.qq391160.pulloverplus-1.0.567-roothide.deb
+Size: 378060
+MD5sum: 0af283a746f42e9659ebe9177a07f6af
+SHA1: 
+SHA256: 63494d32ee82d1bc11e76ee91739eaf22f14f59b3789c853b19f8f0cad77ddc5
+
+Package: com.qq391160.pulloverplus
+Name: PullOver Plus
+Version: 1.0.567
+Description: 此插件基于 PullOver X（原作者 mlgm）与 PullOver Pro 修改；本版为 qq391160 的增强版。
+Section: Tweaks
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro, com.huayuarc.pulloverplus
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro, com.huayuarc.pulloverplus
+Priority: optional
+Architecture: iphoneos-arm64
+Author: qq391160（基于 mlgm 的 PullOver X）
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Maintainer: qq391160
+Filename: debs/com.qq391160.pulloverplus-1.0.567-rootless.deb
+Size: 380260
+MD5sum: 664112eef9c9a58acf239058cf453a14
+SHA1: 
+SHA256: 66e3d3383bc3e23568c5f4bb86b17e138363982c5254e51dea550a1053d3d921
+
 Package: com.quicklaunch.tweak
 Name: QuickLaunch
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
@@ -49501,6 +49578,42 @@ MD5sum: 56182f8183de5277faa75838705772fb
 SHA1: 
 SHA256: 7be174bc6f980935cf0e25eaccd73bbba3022f4a785853bba2c7b7df686b7d35
 
+Package: iya.banana.dynamicnotch
+Name: DynamicNotch · 动态刘海
+Description: Notch activities, notifications and adjustable glass for iOS 15–26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Installed-Size: 1436
+icon: https://huayuarc.github.io/icon/dynamicnotch.png
+Filename: debs/iya.banana.dynamicnotch-0.1.1-roothide.deb
+Size: 240624
+MD5sum: e334340d5988c1e095b00c80b030287e
+SHA1: 
+SHA256: 3c1f33e4c3324d23a6d48ebd5a64fc1e281ff374151491757d687661c7e0e4e8
+
+Package: iya.banana.dynamicnotch
+Name: DynamicNotch · 动态刘海
+Description: Notch activities, notifications and adjustable glass for iOS 15–26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Installed-Size: 1436
+icon: https://huayuarc.github.io/icon/dynamicnotch.png
+Filename: debs/iya.banana.dynamicnotch-0.1.1-rootless.deb
+Size: 243124
+MD5sum: f9b6efb7fed0f1f82add51b745c2d1b9
+SHA1: 
+SHA256: 09a755353361a307306968a44c278061dd1abf1a4457f1ba0495ecaf75dacf8c
+
 Package: iya.banana.facetimeaudioenabler
 Name: FaceTime Audio Enabler
 Description: Enables FaceTime Audio with a scoped runtime override on iOS 15-17 and a guarded MobileGestalt workflow on iOS 18+. iOS 15-17 上启用 FaceTime 音频，并具有范围的运行时覆盖，在 iOS 18+ 上启用受保护的 MobileGestalt 工作流程。
@@ -49602,6 +49715,40 @@ Size: 153092
 MD5sum: a9333c1b5324c39f9048e8fff3f6884b
 SHA1: 
 SHA256: 7c8107ec5b1930f6170376a542afd6bdba4219f8bc80db338e3b167c9bf7a276
+
+Package: iya.banana.hide2less
+Name: Hide2Less
+Description: 在手机上将受支持的 RootHide 插件包转换为 Rootless 安装包。Convert supported RootHide tweak packages to Rootless on device.
+Maintainer: Banana
+Author: Banana
+Section: Utilities
+Depends: firmware (>= 15.0), dpkg (>= 1.21.18), ldid, shell-cmds
+Architecture: iphoneos-arm64e
+Version: 0.1.3
+Installed-Size: 580
+icon: https://huayuarc.github.io/icon/hide2less.png
+Filename: debs/iya.banana.hide2less-0.1.3-roothide.deb
+Size: 163032
+MD5sum: 06f6ade480274a0d8c5420f59d66b073
+SHA1: 
+SHA256: 18ecd3e5110104bf29e7fa863289b561ba8e5430fba92ccef63406ca1ecf80bb
+
+Package: iya.banana.hide2less
+Name: Hide2Less
+Description: 在手机上将受支持的 RootHide 插件包转换为 Rootless 安装包。Convert supported RootHide tweak packages to Rootless on device.
+Maintainer: Banana
+Author: Banana
+Section: Utilities
+Depends: firmware (>= 15.0), dpkg (>= 1.21.18), ldid, shell-cmds
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Installed-Size: 580
+icon: https://huayuarc.github.io/icon/hide2less.png
+Filename: debs/iya.banana.hide2less-0.1.3-rootless.deb
+Size: 162652
+MD5sum: e2c5571377f3cd7f3599ea48035e8b7b
+SHA1: 
+SHA256: 162038f256378528ce1824305db9829c9d3dd7d8a0301b75a5c877ca3dcffcb6
 
 Package: iya.banana.hide2less.compat
 Name: Hide2Less Compatibility
@@ -54160,6 +54307,64 @@ Size: 4899600
 MD5sum: 9c95c92526fb14be725058940d03e579
 SHA1: 
 SHA256: fac8979898d92c797be2b08af7b5160dd5e17c3f394d2e78e90aa33928499735
+
+Package: wiki.qaq.inspector
+Name: Inspector
+Version: 0.6.7
+Architecture: iphoneos-arm64e
+Description: Live process inspector for iOS on custom firmware (roothide)
+ See what your device is actually doing. Every running process, refreshed once a
+ second, with its CPU share, memory, thread count and owner. Search by name or
+ PID, sort by any column, filter down to system, user or app processes, and
+ pause the list to hold a moment still. Open a process for its threads, open
+ files and sockets, Mach ports, loaded modules, sandbox status and disk and
+ network use, then quit it, force quit it, or export the whole report. The
+ `inspector` command answers the same questions from a terminal. Available
+ in English, Simplified Chinese, Japanese, Russian, German, French, Spanish and
+ Arabic.
+Icon: https://owngoal-dev.github.io/Inspector/icon.png
+Depiction: https://owngoal-dev.github.io/Inspector/
+SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 13.0), uikittools, launchctl
+Installed-Size: 3980
+Filename: debs/wiki.qaq.inspector-0.6.7-roothide.deb
+Size: 968476
+MD5sum: 0bdd57d3426693cf0f91a23465d88ef7
+SHA1: 
+SHA256: 3e39e5a5cb47ad9e8045a9b54866e18bd8cfe5b2b527eb0d14578de838aca83b
+
+Package: wiki.qaq.inspector
+Name: Inspector
+Version: 0.6.7
+Architecture: iphoneos-arm64
+Description: Live process inspector for iOS on custom firmware (rootless)
+ See what your device is actually doing. Every running process, refreshed once a
+ second, with its CPU share, memory, thread count and owner. Search by name or
+ PID, sort by any column, filter down to system, user or app processes, and
+ pause the list to hold a moment still. Open a process for its threads, open
+ files and sockets, Mach ports, loaded modules, sandbox status and disk and
+ network use, then quit it, force quit it, or export the whole report. The
+ `inspector` command answers the same questions from a terminal. Available
+ in English, Simplified Chinese, Japanese, Russian, German, French, Spanish and
+ Arabic.
+Icon: https://owngoal-dev.github.io/Inspector/icon.png
+Depiction: https://owngoal-dev.github.io/Inspector/
+SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 13.0), uikittools, launchctl
+Installed-Size: 3980
+Filename: debs/wiki.qaq.inspector-0.6.7-rootless.deb
+Size: 968896
+MD5sum: 17f04cf291720a6c5f05cf8fc3a1a104
+SHA1: 
+SHA256: 9361823eb34333da8b564231245b05d49e91e5a4e66d5941ac6068285f6c2bbb
 
 Package: wiki.qaq.irisin
 Name: Irisin
