@@ -26212,6 +26212,40 @@ MD5sum: 04220c0ca6efd99dfedb45db000daa7a
 SHA1: 
 SHA256: dcb827d9d1fdc0569d23c74e7be25dde0dd0f4d1c02dac1b7e2fb8261515899b
 
+Package: com.mlgm.taploom
+Name: Taploom
+Description: 触摸轨迹可视化
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Icon: https://mlgm66.github.io/icon/taploom.png
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Installed-Size: 1120
+Filename: debs/com.mlgm.taploom-1.1.3-roothide.deb
+Size: 168108
+MD5sum: 4660db392319e186055a674b676a17a2
+SHA1: 
+SHA256: 9b424b3e7ce7aad50bf05d3d8aa5cf204f5f1f301111d49697bc5f5b713b8904
+
+Package: com.mlgm.taploom
+Name: Taploom
+Description: 触摸轨迹可视化
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Icon: https://mlgm66.github.io/icon/taploom.png
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Installed-Size: 1120
+Filename: debs/com.mlgm.taploom-1.1.3-rootless.deb
+Size: 168436
+MD5sum: e56323199a2deee7b1a2c5e9931c6f2b
+SHA1: 
+SHA256: 03c061a23d1572a1c6941b176a494c3f37e45fffad6890d64925e6796db58060
+
 Package: com.monian.b612patch
 Name: B612 Unlocked VIP
 Author: Monian
@@ -47001,6 +47035,40 @@ Size: 13024
 MD5sum: 7378b79810b44b9197e29890b0beadeb
 SHA1: 
 SHA256: 27bdc9afa6ac1cd3a62ef7f1a88079821c68ddb7ce420f6cc9854fe302e82adf
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 231
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+Filename: debs/dev.owngoal.settingsorganizer-0.0.1-roothide.deb
+Size: 55600
+MD5sum: ebd4b8f537cc6c078985a9950cfc5252
+SHA1: 
+SHA256: 577513223da74388e9059099d603c56376a1e1549b9c3020ad0b0029dd2a8760
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 473
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+Filename: debs/dev.owngoal.settingsorganizer-0.0.1-rootless.deb
+Size: 65352
+MD5sum: 85486e8293b1984572e27be7a6d88450
+SHA1: 
+SHA256: 84b7bfe432b072b39978088af3939371828782b1a2863469a42e8f1615ddb7f3
 
 Package: dylv.deepliquid
 Name: Ai 液态玻璃
