@@ -14080,43 +14080,6 @@ MD5sum: 887207d1430c0115f3a582b5a65f5720
 SHA1: 
 SHA256: 44eeae245981664d0cf6e5f6bef3bf44f8cbc28a57254398772c2e8213dde847
 
-Package: com.evgeniy.immortalizerreborn
-Name: Immortalizer Reborn
-Description: 让应用在后台持续前台保活！支持 iOS 14 至 26.0.1 Foreground your apps even if they are in the background! Supports iOS 14-26.0.1
-Author: evgeniy
-Maintainer: evgeniy
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
-Conflicts: xyz.cypwn.immortalizer, com.sergy.immortalizer
-icon: https://huayuarc.github.io/icon/immortalizerreborn.png
-Architecture: iphoneos-arm64e
-Version: 1.16
-Installed-Size: 792
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.evgeniy.immortalizerreborn-1.16-roothide.deb
-Size: 120528
-MD5sum: 68a284e0a51cc120ebb6a2db9c16aa02
-SHA1: 
-SHA256: 4c775c223cb396c7ace822255087c2a491fb942a2a8b301b468b20d98009ac8a
-
-Package: com.evgeniy.immortalizerreborn
-Name: Immortalizer Reborn
-Description: 让应用在后台持续前台保活！支持 iOS 14 至 26.0.1 Foreground your apps even if they are in the background! Supports iOS 14-26.0.1
-Author: evgeniy
-Maintainer: evgeniy
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
-Conflicts: xyz.cypwn.immortalizer, com.sergy.immortalizer
-icon: https://huayuarc.github.io/icon/immortalizerreborn.png
-Architecture: iphoneos-arm64
-Version: 1.16
-Installed-Size: 792
-Filename: debs/com.evgeniy.immortalizerreborn-1.16-rootless.deb
-Size: 120992
-MD5sum: a6d0796076db2d78c443b95a830f844f
-SHA1: 
-SHA256: 919bd4c1bf2633db40d20757aa007e13eeee1eda8d57e0c843703e591097bab0
-
 Package: com.evgeniy558.controlcenter18
 Name: ControlCenter18
 Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
