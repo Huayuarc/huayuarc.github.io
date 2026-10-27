@@ -45945,6 +45945,40 @@ MD5sum: f8ef48efb1d63c3694b4c103655038a0
 SHA1: 
 SHA256: 66eed0c1f62ee15b27095c77a6ef624bd3ffe9408c2d7bd7171b6eb3ba5f98b8
 
+Package: com.wkk.screenfarewell
+Name: DriftX
+Description: 锁屏特效，效果任选，无用请卸载。
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/screenfarewell.png
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0-3
+Installed-Size: 556
+Filename: debs/com.wkk.screenfarewell-1.0-3-roothide.deb
+Size: 64752
+MD5sum: 7969c62265ed589cd42ce9d0656fe61c
+SHA1: 
+SHA256: 3118dd03e49df7396938c1ab3049a6e4acc9f6f511f8504b663d168e7d55f8a7
+
+Package: com.wkk.screenfarewell
+Name: DriftX
+Description: 锁屏特效，效果任选，无用请卸载。
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/screenfarewell.png
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0-3
+Installed-Size: 556
+Filename: debs/com.wkk.screenfarewell-1.0-3-rootless.deb
+Size: 64756
+MD5sum: d87e6b8177211faacb7ae278c65e97ae
+SHA1: 
+SHA256: 29426fe08f2be20dbbd71d9ec8811d12ecc5a1912dd5e7019545de8d8f00970f
+
 Package: com.wkk.smoffice17
 Name: Smoffice for 丝滑光标
 Description: 丝滑光标，去掉下划线。
