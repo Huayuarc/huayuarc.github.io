@@ -20842,6 +20842,86 @@ Author: jibamao
 Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate
 Architecture: iphoneos-arm64e
+Version: 0.9.110+trial71
+Installed-Size: 420
+icon: https://huayuarc.github.io/icon/gaodeclean.jpg
+Filename: debs/com.jibamao.gaodeclean-0.9.110+trial71-roothide.deb
+Size: 79868
+MD5sum: c01a35ddb051507d57ce025c84f7d284
+SHA1: 
+SHA256: 5ab79507432af3ea218b5a9805699c0782151ee026ee9d649bdf9d9ed913c0b7
+
+Package: com.jibamao.gaodeclean
+Name: GaodeClean 高德精简
+Description: 高德地图界面精简 · 纯本地运行
+ 把多余的视觉干扰去掉，把该在的位置摆回原样；不抓网络、不改安装包、不采集任何数据。
+ .
+ 添加源 https://gan-jibamao.github.io 后搜索 GaodeClean 即可安装（RootHide 选 arm64e，
+ Dopamine / rootless 选 arm64，两者不可同时安装）。
+ .
+ 界面精简：
+  • 去底栏「上拉发现」引导提示，去上拉白雾与闪白
+  • 去顶部高斯模糊带，去首页白块
+ .
+ 位置归位（对表高德原生布局）：
+  • 搜索栏 / 天气行 / 连接车机 / 2D·3D / 定位·路线胶囊，各归其位
+  • 2D·3D 按钮回到定位·路线胶囊正上方
+  • 连接车机按钮位于天气行上方，天气行与按钮左对齐
+ .
+ 稳定不闪：
+  • 切页、切 2D·3D 不再跳动
+  • 冷启动全程不会在屏幕中部闪出按钮
+ .
+ 全版本自适应：按控件特征判定，不绑定具体高德版本号。
+ 只改界面显示，不影响搜索、导航、路线规划等原有功能。
+ 装后请注销（sbreload）或重启用户空间再打开高德。
+ .
+ 常用说明与更新日志见仓库 Release 页面。
+Maintainer: jibamao
+Author: jibamao
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 0.9.110+trial71
+Installed-Size: 420
+icon: https://huayuarc.github.io/icon/gaodeclean.jpg
+Filename: debs/com.jibamao.gaodeclean-0.9.110+trial71-rootless.deb
+Size: 79892
+MD5sum: 93822e296093963b6e4f12e4c5b5ee2b
+SHA1: 
+SHA256: dcc4759da50e3a178081909ae0a3ddea3ee097ded9ae92184f5c3391c59c1acf
+
+Package: com.jibamao.gaodeclean
+Name: GaodeClean 高德精简
+Description: 高德地图界面精简 · 纯本地运行
+ 把多余的视觉干扰去掉，把该在的位置摆回原样；不抓网络、不改安装包、不采集任何数据。
+ .
+ 添加源 https://gan-jibamao.github.io 后搜索 GaodeClean 即可安装（RootHide 选 arm64e，
+ Dopamine / rootless 选 arm64，两者不可同时安装）。
+ .
+ 界面精简：
+  • 去底栏「上拉发现」引导提示，去上拉白雾与闪白
+  • 去顶部高斯模糊带，去首页白块
+ .
+ 位置归位（对表高德原生布局）：
+  • 搜索栏 / 天气行 / 连接车机 / 2D·3D / 定位·路线胶囊，各归其位
+  • 2D·3D 按钮回到定位·路线胶囊正上方
+  • 连接车机按钮位于天气行上方，天气行与按钮左对齐
+ .
+ 稳定不闪：
+  • 切页、切 2D·3D 不再跳动
+  • 冷启动全程不会在屏幕中部闪出按钮
+ .
+ 全版本自适应：按控件特征判定，不绑定具体高德版本号。
+ 只改界面显示，不影响搜索、导航、路线规划等原有功能。
+ 装后请注销（sbreload）或重启用户空间再打开高德。
+ .
+ 常用说明与更新日志见仓库 Release 页面。
+Maintainer: jibamao
+Author: jibamao
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
 Version: 0.9.21
 Installed-Size: 352
 icon: https://huayuarc.github.io/icon/gaodeclean.jpg
@@ -47289,6 +47369,40 @@ MD5sum: 85486e8293b1984572e27be7a6d88450
 SHA1: 
 SHA256: 84b7bfe432b072b39978088af3939371828782b1a2863469a42e8f1615ddb7f3
 
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 247
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+Filename: debs/dev.owngoal.settingsorganizer-0.0.2-roothide.deb
+Size: 57628
+MD5sum: 593609be0f4de27a2cc7469220c0a2ae
+SHA1: 
+SHA256: c2bd56745a9e2fdc5e3d6d8b4d0b15843cd401463a4b83f3d66c8c241bdf72d5
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 505
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+Filename: debs/dev.owngoal.settingsorganizer-0.0.2-rootless.deb
+Size: 68336
+MD5sum: af3714bc14043b8ac432332d4712a709
+SHA1: 
+SHA256: 3fba28527bf0e9d5b1c9dcce75f9dc09bb5971ecc21c287d23da5a855d179506
+
 Package: dylv.deepliquid
 Name: Ai 液态玻璃
 Description: 深度优化的液态玻璃效果，智能帧率控制 + 全局数量预算，告别发烫
@@ -48258,6 +48372,40 @@ Size: 1953576
 MD5sum: e33b54daa43e3333b7f62f61e19cae9d
 SHA1: 
 SHA256: aac4eccf30451db4d5828ddfd6fb06231a67db7b6e9c08dc948f45a91b3e8984
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64e
+Version: 2.0.3
+Installed-Size: 4568
+Filename: debs/hongguofn-2.0.3-roothide.deb
+Size: 1981304
+MD5sum: ae7fcf02dc9c12e9dbd820cf327b56f8
+SHA1: 
+SHA256: c93cb828974da8b5e88f60b13d471109582f272a2d1e03dd8b9b19e89893192f
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Installed-Size: 4568
+Filename: debs/hongguofn-2.0.3-rootless.deb
+Size: 1974536
+MD5sum: 2d62826b28c3a69789f9b086dc297c4b
+SHA1: 
+SHA256: f9f6e2ea31ea68fd5577f6d39d0393010baa048a04e42d8e8fae85a515135abe
 
 Package: hypicfix
 Name: 醒图国际版修复工具
