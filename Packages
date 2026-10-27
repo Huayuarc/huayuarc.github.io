@@ -50727,6 +50727,40 @@ SHA256: a6d3c7d82f72f900c6c460ff4f3c5c7d0fb3ce463bd99cbbc9a0b719d6c0f108
 Package: iya.banana.spatialscene
 Name: SpatialScene
 Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64e
+Version: 1.1.19
+Installed-Size: 12628
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.19-roothide.deb
+Size: 5909160
+MD5sum: 44fe7059f6d1a69648e92cca1c855937
+SHA1: 
+SHA256: a746bc0434c77e8eb1a5d053dc4eafd3a1e0e2e8bf0f2566b86630197fd66706
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64
+Version: 1.1.19
+Installed-Size: 12612
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.19-rootless.deb
+Size: 5908392
+MD5sum: 44d0f5f0b5ffefa4692013b338cfa7d2
+SHA1: 
+SHA256: 29652173ea17b8989098ad93e8630e8cbf6164b2d54e26f98dcc842c143e1dba
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
 Maintainer: banana
 Author: banana
 Section: Tweaks
