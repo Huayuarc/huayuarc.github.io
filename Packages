@@ -48040,6 +48040,40 @@ MD5sum: 4f60cd92fadce781c6004ef4ca159b21
 SHA1: 
 SHA256: a0f8607030ce390b4289038ab0425c74a568eb3738e6f8faf8338f3331ff05d8
 
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64e
+Version: 2.0.2
+Installed-Size: 4520
+Filename: debs/hongguofn-2.0.2-roothide.deb
+Size: 1955988
+MD5sum: 0a1cc8d7154748f9ba1fc153952b4d6e
+SHA1: 
+SHA256: 2481872ed97112c55ebe128d83a7e56dbe5713b7d9bc3229d0625f7a1661d41d
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64
+Version: 2.0.2
+Installed-Size: 4520
+Filename: debs/hongguofn-2.0.2-rootless.deb
+Size: 1953576
+MD5sum: e33b54daa43e3333b7f62f61e19cae9d
+SHA1: 
+SHA256: aac4eccf30451db4d5828ddfd6fb06231a67db7b6e9c08dc948f45a91b3e8984
+
 Package: hypicfix
 Name: 醒图国际版修复工具
 Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
@@ -48153,6 +48187,50 @@ Size: 206448
 MD5sum: bad4559d767ab53a40ca57ab63f0d824
 SHA1: 
 SHA256: bef8520e2326e8b990c1c63d36c0571965825d50df35da15fcf8571f1de88b80
+
+Package: im.mjh.doleo
+Name: Doleo
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Icon: https://apt.mjh.im/assets/im.mjh.doleo.roothide/icon.png
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 1008
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.roothide.html?v=a89cb7b26821
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.roothide.json?v=c36783201cc5
+Homepage: https://doleo.goforit.si/
+Tags: compatible_min::ios15.0
+Filename: debs/im.mjh.doleo-1.0.2-roothide.deb
+Size: 234568
+MD5sum: 7b6a5fd72323c6e2fe0f5456e837ee61
+SHA1: 
+SHA256: faa1d9b77f7500ff24e23cb8c437d77e17e436d369b72225e300d682f6c11b8f
+
+Package: im.mjh.doleo
+Name: Doleo
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Icon: https://apt.mjh.im/assets/im.mjh.doleo/icon.png
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Installed-Size: 1008
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.html?v=0945bdb0e780
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json?v=0e1406951917
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json?v=0e1406951917
+Homepage: https://doleo.goforit.si/
+Tags: compatible_min::ios15.0
+Filename: debs/im.mjh.doleo-1.0.2-rootless.deb
+Size: 234624
+MD5sum: d2fe1d0b0fe0e285708af49b25bafbe9
+SHA1: 
+SHA256: 807fb733919c039570e50e411cb4d3a755f43afa6cdc34517ac284d23bb8b1ac
 
 Package: im.mjh.fakenotify
 Name: FakeNotify
