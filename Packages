@@ -17887,6 +17887,34 @@ SHA256: 99f613ea199b2c8ba03b3c2a9aadcaf09b30807dd854af81e4ea0cd8376ded03
 
 Package: com.icli.icli
 Name: icli
+Version: 0.11.0
+Architecture: iphoneos-arm64e
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Section: Development
+Description: On-device iOS control CLI
+Filename: debs/com.icli.icli-0.11.0-roothide.deb
+Size: 1143308
+MD5sum: 57b90f13cd5b6ac6fd2521faa76e2b54
+SHA1: 
+SHA256: 7cd17f93ccc1c545995639756c0c4d53a0b113bcdd181df492758b5a55a5a88a
+
+Package: com.icli.icli
+Name: icli
+Version: 0.11.0
+Architecture: iphoneos-arm64
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Section: Development
+Description: On-device iOS control CLI
+Filename: debs/com.icli.icli-0.11.0-rootless.deb
+Size: 1145452
+MD5sum: 239d7a53cfdec594597444f8c1a104ad
+SHA1: 
+SHA256: 9b38a83df6ce8384a21f5f4471f1faccef26a7078747b3b54c0970f98eeefcf4
+
+Package: com.icli.icli
+Name: icli
 Version: 0.9.2
 Architecture: iphoneos-arm64e
 Maintainer: icli
@@ -21242,6 +21270,41 @@ MD5sum: 912a4d1a18a77fd69f969fe18cc57d8f
 SHA1: 
 SHA256: f47e3b4193bceb687ee3fabc1dbaf08e6beecc5d872ced425a08c398992e92ff
 
+Package: com.johndie.anywhere
+Name: Anywhere
+Description: 将应用程序和小组件放置在主屏幕上的任意位置，中间有空白，就像iOS 18一样。对于iOS 15到17。没什么需要设置的：安装并拖动。Place apps and widgets anywhere on the Home Screen, with empty spaces in between, like iOS 18. For iOS 15 to 17. Nothing to set up: install it and drag.
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/anywhere.jpg
+Filename: debs/com.johndie.anywhere-1.0.0-roothide.deb
+Size: 17252
+MD5sum: c5e5fed40208c7565b6b0ffa0adaa1d6
+SHA1: 
+SHA256: 041f0fad2b520e5adffea0141318979d398fb577eb1bf3e80852bd33856c72c9
+
+Package: com.johndie.anywhere
+Name: Anywhere
+Description: 将应用程序和小组件放置在主屏幕上的任意位置，中间有空白，就像iOS 18一样。对于iOS 15到17。没什么需要设置的：安装并拖动。Place apps and widgets anywhere on the Home Screen, with empty spaces in between, like iOS 18. For iOS 15 to 17. Nothing to set up: install it and drag.
+Maintainer: John d_ie
+Author: John d_ie
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 204
+icon: https://huayuarc.github.io/icon/anywhere.jpg
+Filename: debs/com.johndie.anywhere-1.0.0-rootless.deb
+Size: 17584
+MD5sum: 81352be19ec52eda9206e31f204bf093
+SHA1: 
+SHA256: d9f2e72ce6312c337fe85e67956fa0cb2dd17add54fcc90c59182fb17858b158
+
 Package: com.johndie.catapult
 Name: Catapult
 Version: 0.1.0~beta2
@@ -24304,6 +24367,42 @@ MD5sum: 7a5cfad5c1359e2e7bbffd7c07b6e31b
 SHA1: 
 SHA256: 51e9890926ea68e2b69e230577ae9d84e8c7890eb0d1f9f971485de0ed203b42
 
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64e
+Version: 1.3.2
+Installed-Size: 4084
+Filename: debs/com.mlgm.actra-1.3.2-roothide.deb
+Size: 814628
+MD5sum: 89fd5c386461f3d520a8ad4035d0b5ac
+SHA1: 
+SHA256: 941aee627f7e56f9b0226a445998b78333c753ccc5ded5ae2cb5a7d949a46dc9
+
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64
+Version: 1.3.2
+Installed-Size: 4080
+Filename: debs/com.mlgm.actra-1.3.2-rootless.deb
+Size: 815184
+MD5sum: 358cfb3d3abb1e7e583a5e5fad8fd4ce
+SHA1: 
+SHA256: c060bfe71005e9766e63176365bd4995aae2fbea767b79f6e5a544703a52324c
+
 Package: com.mlgm.appdata
 Name: AppData
 Section: Tweaks
@@ -25405,6 +25504,66 @@ Size: 751728
 MD5sum: f499c3f0fb1696a0ccc8dfbb52095975
 SHA1: 
 SHA256: a16d158776a072db4a50464d42d66f5648ad583734bbc55eef40157798397e05
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm
+Version: 5.0.4
+Installed-Size: 3516
+Filename: debs/com.mlgm.kayoko-5.0.4-rootful.deb
+Size: 750860
+MD5sum: baedd06f0f3ddd443518bfd04d88bb35
+SHA1: 
+SHA256: 5e04440640add1b0938176b55319ff68d4cb42e6dfd49019f334c9ea65099183
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.0.4
+Installed-Size: 3500
+Filename: debs/com.mlgm.kayoko-5.0.4-roothide.deb
+Size: 745728
+MD5sum: 4d2d5d19adb7609720e6dc843641a9c8
+SHA1: 
+SHA256: 3b25c8bfe86908da06faefbaf5a3f52cedb7d37dff1a5cf2b0d294b76aa7b587
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64
+Version: 5.0.4
+Installed-Size: 3516
+Filename: debs/com.mlgm.kayoko-5.0.4-rootless.deb
+Size: 749600
+MD5sum: bec45ce49c34abaa72058e3d2f2c3576
+SHA1: 
+SHA256: d4a885504feedb1fe018a029566d587892727839f3a6b1d55aa8bfea2ef8d24d
 
 Package: com.mlgm.prefnest
 Name: PrefNest
@@ -46286,6 +46445,41 @@ MD5sum: f8ef48efb1d63c3694b4c103655038a0
 SHA1: 
 SHA256: 66eed0c1f62ee15b27095c77a6ef624bd3ffe9408c2d7bd7171b6eb3ba5f98b8
 
+Package: com.wkk.copylogx
+Name: CopylogX（wkk）
+Description: cool！
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+icon: https://huayuarc.github.io/icon/copylogx.png
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Installed-Size: 1828
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.wkk.copylogx-1.1-9-roothide.deb
+Size: 265040
+MD5sum: a557e159233dce6e43188df984a3667b
+SHA1: 
+SHA256: 9624956b1817e39e7065273b45fc19789562fc4ee0a299349d0ad948f3fcb87d
+
+Package: com.wkk.copylogx
+Name: CopylogX（wkk）
+Description: cool！
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+icon: https://huayuarc.github.io/icon/copylogx.png
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Installed-Size: 1828
+Filename: debs/com.wkk.copylogx-1.1-9-rootless.deb
+Size: 273480
+MD5sum: 8a9e1f59f9e0a65a56fb5a9b8ec4933f
+SHA1: 
+SHA256: be0a20c4cc90eb134b95e3d70305300c2ead3b8103d1358fae478f73570622b7
+
 Package: com.wkk.screenfarewell
 Name: DriftX
 Description: 锁屏特效，效果任选，无用请卸载。
@@ -47217,6 +47411,98 @@ Size: 26236
 MD5sum: f140b55e0c6e77bc1d7ad5ae909d8c98
 SHA1: 
 SHA256: b462d5cad2e39acbd12216ccd30b5e1ccf146093bd2469156fd5ca61cc436584
+
+Package: com.zegeyoudaoli.liquidass27
+Name: Liquid (Gl)ass 27
+Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+ 【本版的改动】
+ • 重构液态玻璃渲染引擎 / 对标 iOS 27 系统
+ • 重构锁屏大时钟减少卡顿增强观感
+ • 新增锁屏时钟/日期/通知/横幅/灵动岛/上下文菜单/警报渐变引擎并设置可调参数
+ • 新增小组件去背景及相应设置项
+ • 新增更多可调参数
+ • 新增全界面导航栏液态玻璃
+ • 新增底部弹窗 / App 弹窗液态玻璃
+ • 新增灵动岛液态玻璃（上岛全元素液态）
+ • 新增「灵动岛」设置页面
+ • 新增锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 新增锁屏“通知清除按钮”透明化
+ • 新增锁屏“通知中心”文字直接隐藏
+ • 新增音量 HUD 液态玻璃
+ • 修复锁屏时钟景深效果
+ • 修复锁屏场景下灵动岛取不到子视图的问题
+ • 修复 iOS 16 设备标签栏透镜渲染错位问题
+ • 修复灵动岛实时活动远端渲染黑块问题
+ • 修复标签栏文字闪烁的 bug
+ • 修复调试日志开关被诊断包硬编码为常开、导致渲染路径每帧同步写盘（卡顿/掉帧/发热）
+ • 修复总开关关闭后，仍然保持液态的问题（需多次注销）
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1；部分 iOS 16 设备存在兼容问题，那些设备请改装「Liquid (Gl)ass · 泽哥维护兼容版」（包名 dylv.liquidass）
+ 本插件包名已由 dylv.liquidass 改为 com.zegeyoudaoli.liquidass27，与旧版本是两个独立插件：装了旧线不会自动收到本线更新，需要重新安装本包（安装时会提示替换旧包）。
+Maintainer: dylv&泽哥
+Author: dylv&泽哥
+Section: Tweaks
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
+Architecture: iphoneos-arm64e
+Version: 1.0.0-78
+Installed-Size: 10368
+Filename: debs/com.zegeyoudaoli.liquidass27-1.0.0-78-roothide.deb
+Size: 3653152
+MD5sum: ac5cbf9a5be99df0068fce773c59ca5f
+SHA1: 
+SHA256: 3b0719e13226b587021e796b237db7690e09fc441208400225d57ae2a0b0f493
+
+Package: com.zegeyoudaoli.liquidass27
+Name: Liquid (Gl)ass 27（rootless 测试）
+Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+ 【本版的改动】
+ • 重构液态玻璃渲染引擎 / 对标 iOS 27 系统
+ • 重构锁屏大时钟减少卡顿增强观感
+ • 新增锁屏时钟/日期/通知/横幅/灵动岛/上下文菜单/警报渐变引擎并设置可调参数
+ • 新增小组件去背景及相应设置项
+ • 新增更多可调参数
+ • 新增全界面导航栏液态玻璃
+ • 新增底部弹窗 / App 弹窗液态玻璃
+ • 新增灵动岛液态玻璃（上岛全元素液态）
+ • 新增「灵动岛」设置页面
+ • 新增锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 新增锁屏“通知清除按钮”透明化
+ • 新增锁屏“通知中心”文字直接隐藏
+ • 新增音量 HUD 液态玻璃
+ • 修复锁屏时钟景深效果
+ • 修复锁屏场景下灵动岛取不到子视图的问题
+ • 修复 iOS 16 设备标签栏透镜渲染错位问题
+ • 修复灵动岛实时活动远端渲染黑块问题
+ • 修复标签栏文字闪烁的 bug
+ • 修复调试日志开关被诊断包硬编码为常开、导致渲染路径每帧同步写盘（卡顿/掉帧/发热）
+ • 修复总开关关闭后，仍然保持液态的问题（需多次注销）
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1；部分 iOS 16 设备存在兼容问题，那些设备请改装「Liquid (Gl)ass · 泽哥维护兼容版」（包名 dylv.liquidass）
+ 本插件包名已由 dylv.liquidass 改为 com.zegeyoudaoli.liquidass27，与旧版本是两个独立插件：装了旧线不会自动收到本线更新，需要重新安装本包（安装时会提示替换旧包）。
+Maintainer: dylv&泽哥
+Author: dylv&泽哥
+Section: Tweaks
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
+Architecture: iphoneos-arm64
+Version: 1.0.0-78
+Installed-Size: 10384
+Filename: debs/com.zegeyoudaoli.liquidass27-1.0.0-78-rootless.deb
+Size: 3645104
+MD5sum: fe6438234d26576783d45bc6996e40cd
+SHA1: 
+SHA256: 5f71bbd6508011f6402df4679680e50d1e9e7e580a21a2c07e367277e1ad0fa6
 
 Package: com.zqbb.savephotos
 Name: Hello Snapper3
@@ -48482,6 +48768,40 @@ Size: 1974536
 MD5sum: 2d62826b28c3a69789f9b086dc297c4b
 SHA1: 
 SHA256: f9f6e2ea31ea68fd5577f6d39d0393010baa048a04e42d8e8fae85a515135abe
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64e
+Version: 2.0.6
+Installed-Size: 4700
+Filename: debs/hongguofn-2.0.6-roothide.deb
+Size: 2027668
+MD5sum: 4dbea425bf3080254cc71b68bcb0a0d5
+SHA1: 
+SHA256: 8c343d8b5a43335b137e80cf8d3c92d7fae0302c746b96503e0125925d2aa940
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+icon: https://huayuarc.github.io/icon/hongguo.png
+Architecture: iphoneos-arm64
+Version: 2.0.6
+Installed-Size: 4700
+Filename: debs/hongguofn-2.0.6-rootless.deb
+Size: 2024240
+MD5sum: abd89721e729fc8c61f800ee4067eb83
+SHA1: 
+SHA256: 7101c1e7a4600f53e042c91f701c6a89d5aa08038cae18dbaf9e02166eaf28e8
 
 Package: hypicfix
 Name: 醒图国际版修复工具
@@ -49811,6 +50131,42 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
 Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
 Architecture: iphoneos-arm64e
+Version: 0.1.1-1
+Installed-Size: 1452
+icon: https://huayuarc.github.io/icon/dynamicnotch.png
+Filename: debs/iya.banana.dynamicnotch-0.1.1-1-roothide.deb
+Size: 237760
+MD5sum: c036fd642e92ea0bfc30a897b7a7c134
+SHA1: 
+SHA256: e94b84f93e0a24630b05a58c3df85aefdf990af26da91a6beeee4bc5623f75d6
+
+Package: iya.banana.dynamicnotch
+Name: DynamicNotch · 动态刘海
+Description: Notch activities, notifications and adjustable glass for iOS 15–26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Architecture: iphoneos-arm64
+Version: 0.1.1-1
+Installed-Size: 1452
+icon: https://huayuarc.github.io/icon/dynamicnotch.png
+Filename: debs/iya.banana.dynamicnotch-0.1.1-1-rootless.deb
+Size: 242552
+MD5sum: 36397fb4768a20375b69104e8d6bcfa7
+SHA1: 
+SHA256: 0229f67ec23e792bc7940b4c969b92708a9bd0234321903dacb0f2ebecde31f1
+
+Package: iya.banana.dynamicnotch
+Name: DynamicNotch · 动态刘海
+Description: Notch activities, notifications and adjustable glass for iOS 15–26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Architecture: iphoneos-arm64e
 Version: 0.1.1
 Installed-Size: 1436
 icon: https://huayuarc.github.io/icon/dynamicnotch.png
@@ -50387,6 +50743,44 @@ Size: 993044
 MD5sum: 1d235d4857775fe0c9fae884cdc36f40
 SHA1: 
 SHA256: f7c0f982d6e181ddbdb3813a9ba982efb3eb3c7dc7135b2f0112530c49b8b021
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Architecture: iphoneos-arm64e
+Version: 1.1.6
+Installed-Size: 5596
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.1.6-roothide.deb
+Size: 1016876
+MD5sum: 93ab8ac81f11dbe24bd200726c686afe
+SHA1: 
+SHA256: 640a9217a6176ba881abb20e822b85ca0aaca679bcfa42888505d99be6e37540
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Installed-Size: 5596
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.1.6-rootless.deb
+Size: 1020644
+MD5sum: 04dd3df6a6931a9e056169debddf1d69
+SHA1: 
+SHA256: 292a4cb166c530427442c6b43a333c7b42592e22be30738ecfef5646e43643bd
 
 Package: iya.banana.jumpguard
 Name: JumpGuard
@@ -54146,6 +54540,50 @@ MD5sum: c26f854bca51283ddf9bb82c457b92fa
 SHA1: 
 SHA256: a5dfb386389da683b35b565da74b8e302d2e4060deede6ebd0bd1c8a6c6a46a8
 
+Package: wiki.qaq.apelin
+Name: Apelin
+Version: 0.2.5
+Architecture: iphoneos-arm64e
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Installed-Size: 92072
+Filename: debs/wiki.qaq.apelin-0.2.5-roothide.deb
+Size: 22343048
+MD5sum: 40a989dd0998553c0935ba2fddbddffe
+SHA1: 
+SHA256: 66a02b7fc488351041ddb0625c538c487cd5d3ecfd314f1b62d56122063f3cf5
+
+Package: wiki.qaq.apelin
+Name: Apelin
+Version: 0.2.5
+Architecture: iphoneos-arm64
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Installed-Size: 92072
+Filename: debs/wiki.qaq.apelin-0.2.5-rootless.deb
+Size: 22340968
+MD5sum: 3554da439d647a633c02cf48eed9598b
+SHA1: 
+SHA256: 5aed06e49b9e3b34d0762cfc5fea896b1c5c295a0f361b5e2bb166f59c41419f
+
 Package: wiki.qaq.apelin.agent-tools.assembler
 Name: Apelin Assembler
 Version: 1.0.0
@@ -54566,6 +55004,54 @@ MD5sum: 9c95c92526fb14be725058940d03e579
 SHA1: 
 SHA256: fac8979898d92c797be2b08af7b5160dd5e17c3f394d2e78e90aa33928499735
 
+Package: wiki.qaq.ighostvt
+Name: iGhostVT
+Version: 1.6.20
+Architecture: iphoneos-arm64e
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Installed-Size: 16452
+Filename: debs/wiki.qaq.ighostvt-1.6.20-roothide.deb
+Size: 4902712
+MD5sum: 0fdca7e338211ccc2207a9511f8c1658
+SHA1: 
+SHA256: d71f07d4113332db622fed8e7fbf4a5f101a7f2e856b5f282862cde878a18169
+
+Package: wiki.qaq.ighostvt
+Name: iGhostVT
+Version: 1.6.20
+Architecture: iphoneos-arm64
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Installed-Size: 16452
+Filename: debs/wiki.qaq.ighostvt-1.6.20-rootless.deb
+Size: 4903048
+MD5sum: 897fe68ae0338c34908cae423fe5ca37
+SHA1: 
+SHA256: 3375d3a16f08ef12952a87496a5fabb74035360f07d6177f9e20651664539ac7
+
 Package: wiki.qaq.inspector
 Name: Inspector
 Version: 0.6.7
@@ -54753,6 +55239,58 @@ Size: 5406440
 MD5sum: 2172ea14fcaedcecc9388917cadc2079
 SHA1: 
 SHA256: e5db14b727f24ad627e6046b69375b50e45b82e3e69b1b276260987077e8ed84
+
+Package: wiki.qaq.irisin
+Name: Irisin
+Version: 5.0.3
+Architecture: iphoneos-arm64e
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Homepage: https://github.com/Lakr233/Irisin
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Section: Applications
+Priority: optional
+Depends: firmware (>= 15.0)
+Installed-Size: 21088
+Filename: debs/wiki.qaq.irisin-5.0.3-roothide.deb
+Size: 5404336
+MD5sum: cf2c9ebcff3eb266d8e143aded354382
+SHA1: 
+SHA256: a5868d389ba7674144f14332d0841a4c8a0b75df1b588888d1c32275709d5c7e
+
+Package: wiki.qaq.irisin
+Name: Irisin
+Version: 5.0.3
+Architecture: iphoneos-arm64
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Homepage: https://github.com/Lakr233/Irisin
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Section: Applications
+Priority: optional
+Depends: firmware (>= 15.0)
+Installed-Size: 21088
+Filename: debs/wiki.qaq.irisin-5.0.3-rootless.deb
+Size: 5404400
+MD5sum: 4615da684adbc72085cbef7313b9853f
+SHA1: 
+SHA256: d046caa851dbc470fa1c836d387803901579c6d2198b30ea8d6e6d2a5e69b9d1
 
 Package: ws.hbang.newterm3
 Name: NewTerm 3 Beta iOS 终端
