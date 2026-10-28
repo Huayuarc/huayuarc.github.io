@@ -55292,6 +55292,38 @@ MD5sum: 4615da684adbc72085cbef7313b9853f
 SHA1: 
 SHA256: d046caa851dbc470fa1c836d387803901579c6d2198b30ea8d6e6d2a5e69b9d1
 
+Package: wiki.qaq.qqrecallprobe
+Name: QQNT防撤回
+Version: 1.1.6
+Architecture: iphoneos-arm64e
+Maintainer: QQNT Anti-Recall contributors
+Author: QQNT Anti-Recall contributors
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0)
+Description: QQ 消息防撤回，支持 QQ 9.1.5 ~ 9.3.78（9.1.65 / 9.1.66 / 9.1.70 / 9.1.90 / 9.2.5 / 9.2.95 已实测）。撤回入口、OCMsgRecord 取用函数与记录槽位在启动时按 QQ 自身代码结构解析，QQ 升级后无需更新插件；被撤回的消息保留原内容，淡化并加虚线框与「已撤回」角标，提示只出现在当前会话。
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+Filename: debs/wiki.qaq.qqrecallprobe-1.1.6-roothide.deb
+Size: 39048
+MD5sum: 14539ef494a15c2f6cc9dcd2096c204a
+SHA1: 
+SHA256: f1e06bc6266aae446bfbd3d3c1b1e73de76239de7963f210bc002b6f9bbf1e79
+
+Package: wiki.qaq.qqrecallprobe
+Name: QQNT防撤回
+Version: 1.1.6
+Architecture: iphoneos-arm64
+Maintainer: QQNT Anti-Recall contributors
+Author: QQNT Anti-Recall contributors
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0)
+Description: QQ 消息防撤回，支持 QQ 9.1.5 ~ 9.3.78（9.1.65 / 9.1.66 / 9.1.70 / 9.1.90 / 9.2.5 / 9.2.95 已实测）。撤回入口、OCMsgRecord 取用函数与记录槽位在启动时按 QQ 自身代码结构解析，QQ 升级后无需更新插件；被撤回的消息保留原内容，淡化并加虚线框与「已撤回」角标，提示只出现在当前会话。
+icon: https://huayuarc.github.io/icon/qqantirecall.jpg
+Filename: debs/wiki.qaq.qqrecallprobe-1.1.6-rootless.deb
+Size: 39088
+MD5sum: ceb9ad175a744fc199258820768f8058
+SHA1: 
+SHA256: 7a1a2c701fdbc3be568d8ceb94aefe4e19eab3a8c65fda04ccfad807bcd266df
+
 Package: ws.hbang.newterm3
 Name: NewTerm 3 Beta iOS 终端
 Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
