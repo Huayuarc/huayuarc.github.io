@@ -12397,6 +12397,49 @@ MD5sum: 96ab8bf96058e41aa7647099132b0325
 SHA1: 
 SHA256: ffa5f4f97dac88e0223dadbe751b44292c6cc9dffb34b04b82f7388106cef4ec
 
+Name: HapticSleep
+Package: com.cydiageek.hapticsleep
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Description: HapticSleep是一个整洁的调整，在锁屏/解锁设备时为您提供流畅的触覺反馈！Haptics When Locking the Device!
+Sponsor: CydiaGeek
+Author: CydiaGeek
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 515
+dev: lucaluca86
+Maintainer: moss <moss@local>
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/HapticSleep@2x.png
+Filename: debs/com.cydiageek.hapticsleep-1.0.2-roothide.deb
+Size: 54068
+MD5sum: 7abc20dd75ee9e9a8e25cae162a1c67e
+SHA1: 
+SHA256: 44dec337ed79bbe6346ea85a00b9015f865eb6e37f512a09dfd90be84fe0db55
+
+Name: HapticSleep
+Package: com.cydiageek.hapticsleep
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Description: HapticSleep是一个整洁的调整，在锁屏/解锁设备时为您提供流畅的触覺反馈！Haptics When Locking the Device!
+Sponsor: CydiaGeek
+Author: CydiaGeek
+Section: Tweaks
+Tag: purpose::extension
+Installed-Size: 515
+dev: lucaluca86
+Maintainer: moss <moss@local>
+icon: https://huayuarc.github.io/icon/HapticSleep@2x.png
+Filename: debs/com.cydiageek.hapticsleep-1.0.2-rootless.deb
+Size: 54744
+MD5sum: 999579d1108b49c495f1472a7b9c15d9
+SHA1: 
+SHA256: 821004e7fb19c008864d24ec5833ca8f47eb9a5f925c243a43f272ee1d95ec28
+
 Name: MoreLinesNotifications
 Package: com.cydiageek.morelinesnotifications
 Priority: optional
@@ -46414,6 +46457,47 @@ MD5sum: 6cc59a3330fc5c3e8112de7b8cbc819d
 SHA1: 
 SHA256: c87ff672f24588f14741507f4e13771c7d4fe7b23a66da2f2586dd88b596d16e
 
+Package: com.wacljcr.qqmixtxtimg
+Name: QQ图文同发
+Depends: firmware (>= 14.0), mobilesubstrate | ellekit, preferenceloader
+Maintainer: wacljcr
+Author: wacljcr
+Section: Tweaks
+Description: 让移动端 QQ 像电脑端一样把「图片 + 文字」合并成一条消息发送。
+ 在聊天发送流程里，把已选图片与输入框文字合并进同一条消息（text element + image element），
+ 不再需要先把图发完再补文字。支持 iOS 14+ rootless 越狱（Dopamine / Relaxin / RootHide）。
+ 设置入口：设置 → QQ图文同发。
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Installed-Size: 360
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/qq.png
+Filename: debs/com.wacljcr.qqmixtxtimg-1.0.6-roothide.deb
+Size: 34240
+MD5sum: 096be7ef1225e69ce959106339ca2ff0
+SHA1: 
+SHA256: 6725c0a23fd7cddc29310859ae8264fcd1c0136b49ec0970f16ec3c6a21e7adc
+
+Package: com.wacljcr.qqmixtxtimg
+Name: QQ图文同发
+Depends: firmware (>= 14.0), mobilesubstrate | ellekit, preferenceloader
+Maintainer: wacljcr
+Author: wacljcr
+Section: Tweaks
+Description: 让移动端 QQ 像电脑端一样把「图片 + 文字」合并成一条消息发送。
+ 在聊天发送流程里，把已选图片与输入框文字合并进同一条消息（text element + image element），
+ 不再需要先把图发完再补文字。支持 iOS 14+ rootless 越狱（Dopamine / Relaxin / RootHide）。
+ 设置入口：设置 → QQ图文同发。
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Installed-Size: 360
+icon: https://huayuarc.github.io/icon/qq.png
+Filename: debs/com.wacljcr.qqmixtxtimg-1.0.6-rootless.deb
+Size: 34192
+MD5sum: 9677eb2e7563a06acf2e86b350d85f15
+SHA1: 
+SHA256: efe960cab739dd65fbdb0dbfeca14731b7db01ee71e06dc8afdf243e7613a351
+
 Package: com.wangyuan.trollvnc
 Name: TrollVNC 王源构建版
 Section: Tweaks
@@ -46534,6 +46618,41 @@ Size: 1877176
 MD5sum: 11b3cd75ed27178383e01321eb850c89
 SHA1: 
 SHA256: 90fb5275897b7af61c34004b9018bf56ff636bb28b84fcff2e7b0d806b618422
+
+Package: com.wee1ka.ifetch
+Name: iFetch
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate, com.opa334.ccsupport
+Description: 在iOS 14-17上，针对无根和RootHide越狱设备的高级系统诊断、进程监控和CLI获取。Advanced system diagnostics, process monitor and CLI fetch for rootless and RootHide jailbreak devices on iOS 14–17
+Maintainer: wee1ka
+Author: wee1ka
+Section: Tweaks
+Icon: https://weekanya.github.io/iFetch/assets/ifetch-icon.png
+Architecture: iphoneos-arm64e
+Version: 6.0.0
+Installed-Size: 4140
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.wee1ka.ifetch-6.0.0-roothide.deb
+Size: 1929100
+MD5sum: f02df676ca0e554320aaed84a518fd6f
+SHA1: 
+SHA256: fe3f81a8fb5d8c242eeb710a3db63c8b2681d3e4203ac3c2c88610a26318a57b
+
+Package: com.wee1ka.ifetch
+Name: iFetch
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate, com.opa334.ccsupport
+Description: 在iOS 14-17上，针对无根和RootHide越狱设备的高级系统诊断、进程监控和CLI获取。Advanced system diagnostics, process monitor and CLI fetch for rootless and RootHide jailbreak devices on iOS 14–17
+Maintainer: wee1ka
+Author: wee1ka
+Section: Tweaks
+Icon: https://weekanya.github.io/iFetch/assets/ifetch-icon.png
+Architecture: iphoneos-arm64
+Version: 6.0.0
+Installed-Size: 4140
+Filename: debs/com.wee1ka.ifetch-6.0.0-rootless.deb
+Size: 1940924
+MD5sum: 8b95158d4a4d9a426bb0a60d6eeb255e
+SHA1: 
+SHA256: c29a1c2c25c980d39d554ed3b7ddccd806308eaeea96b1c7ef6ac50aa8895478
 
 Package: com.witchan.ios-mcp
 Name: iOS MCP
@@ -56143,6 +56262,84 @@ Size: 5294540
 MD5sum: 0b928ab16e4514b430dc381a9d62ea17
 SHA1: 
 SHA256: da19f2a05f4a42e4183d5df1752e436fe92f173f71e4847314d8541b6475ac81
+
+Package: wiki.qaq.irisin
+Name: Irisin
+Version: 5.1.1
+Architecture: appletvos-arm64e
+Description: Package manager for Apple TV on RootHide custom firmware
+ Irisin on the Apple TV's Home Screen shows an address and a code: open the
+ page on a phone or computer on the same network to browse repositories and
+ install, update and remove packages, each change confirmed on the TV with
+ the remote. An on-demand root daemon installs packages natively and
+ registers apps with the system, without dpkg.
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Homepage: https://github.com/Lakr233/Irisin
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Section: System
+Priority: optional
+Depends: firmware (>= 16.0)
+Installed-Size: 11124
+Filename: debs/wiki.qaq.irisin-5.1.1-appletvos-arm64e.deb
+Size: 3267552
+MD5sum: 0af5289284206b258a4b6a5f40622984
+SHA1: 
+SHA256: 5cfc94ac5b93e6ce082d6024f318a299025117dbe26d28349e7d3e8878d63cf5
+
+Package: wiki.qaq.irisin
+Name: Irisin
+Version: 5.1.1
+Architecture: iphoneos-arm64e
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Homepage: https://github.com/Lakr233/Irisin
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Section: Applications
+Priority: optional
+Depends: firmware (>= 15.0)
+Installed-Size: 20704
+Filename: debs/wiki.qaq.irisin-5.1.1-roothide.deb
+Size: 5292736
+MD5sum: e6031a089be0ac858d9aca98bc7ae1ce
+SHA1: 
+SHA256: 341fb5fdb1bfd919e704276adedbc971713712521001f2e4744b47f39bf81950
+
+Package: wiki.qaq.irisin
+Name: Irisin
+Version: 5.1.1
+Architecture: iphoneos-arm64
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Homepage: https://github.com/Lakr233/Irisin
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Section: Applications
+Priority: optional
+Depends: firmware (>= 15.0)
+Installed-Size: 20704
+Filename: debs/wiki.qaq.irisin-5.1.1-rootless.deb
+Size: 5290492
+MD5sum: 55751619b1b897a3e308264a7e20a302
+SHA1: 
+SHA256: f6d175ac8f5321b909bbb021190478a563d2b2f7c5f68669bb648e0e5841b8ef
 
 Package: wiki.qaq.qqrecallprobe
 Name: QQNT防撤回
