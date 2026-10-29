@@ -24668,6 +24668,42 @@ MD5sum: c6b9478374b09f1750b45789997222a8
 SHA1: 
 SHA256: d0079f57b72a6dadd01bd6006b2ca55d712ca2cbdb503f3c589bdd7d7009bbb8
 
+Package: com.mlgm.clone
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit (>= 1.2-1), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Architecture: iphoneos-arm64e
+Version: 0.1
+Installed-Size: 4976
+Filename: debs/com.mlgm.clone-0.1-roothide.deb
+Size: 739392
+MD5sum: 27a4291bd92d20625574087aa77b5ded
+SHA1: 
+SHA256: 40daab7c5b2439c121c1ef23f84bb046d3ee84480befa4a7d080fc8f0b390ff0
+
+Package: com.mlgm.clone
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit (>= 1.2), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Architecture: iphoneos-arm64
+Version: 0.1
+Installed-Size: 4996
+Filename: debs/com.mlgm.clone-0.1-rootless.deb
+Size: 741340
+MD5sum: a9666166a26f3fe41ae538df0a842587
+SHA1: 
+SHA256: 368ed8387e9622cb7623fd60742de1941752b8a3dbea2f8a7d363a0c4ec95ed7
+
 Package: com.mlgm.idata
 Name: iData
 Description: 应用、插件数据管理工具，一键备份/恢复
@@ -26783,6 +26819,40 @@ Size: 168436
 MD5sum: e56323199a2deee7b1a2c5e9931c6f2b
 SHA1: 
 SHA256: 03c061a23d1572a1c6941b176a494c3f37e45fffad6890d64925e6796db58060
+
+Package: com.mlgm.taploom
+Name: Taploom
+Description: 触摸轨迹可视化
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Icon: https://mlgm66.github.io/icon/taploom.png
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Installed-Size: 1124
+Filename: debs/com.mlgm.taploom-1.1.7-roothide.deb
+Size: 184752
+MD5sum: 41bd6767cd3fc8aff8562cf97084881f
+SHA1: 
+SHA256: a07844c946c8fd8183e6033edfd30b8ba450b7020e64342fe40b00f3a848d4a6
+
+Package: com.mlgm.taploom
+Name: Taploom
+Description: 触摸轨迹可视化
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Icon: https://mlgm66.github.io/icon/taploom.png
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Installed-Size: 1124
+Filename: debs/com.mlgm.taploom-1.1.7-rootless.deb
+Size: 184520
+MD5sum: 85f074885aa779197ae94a0d262185b6
+SHA1: 
+SHA256: 28b198865288d973e48a012dec52c3a8d4d40e6fe1996a0dd94a7013ece7c565
 
 Package: com.monian.b612patch
 Name: B612 Unlocked VIP
@@ -48207,6 +48277,40 @@ Size: 68336
 MD5sum: af3714bc14043b8ac432332d4712a709
 SHA1: 
 SHA256: 3fba28527bf0e9d5b1c9dcce75f9dc09bb5971ecc21c287d23da5a855d179506
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.4
+Architecture: iphoneos-arm64e
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 247
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+Filename: debs/dev.owngoal.settingsorganizer-0.0.4-roothide.deb
+Size: 58196
+MD5sum: 469d66722d8cd9f2932a01b22dd5af32
+SHA1: 
+SHA256: 2f4ef3a335362bf95a0e8d86b92a208da41b8894c7ddfb889b13cf4933746c23
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 505
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+Filename: debs/dev.owngoal.settingsorganizer-0.0.4-rootless.deb
+Size: 68980
+MD5sum: 4b84432505300863dd8aa72a11dcf0dc
+SHA1: 
+SHA256: 6d776c21c2af600ea3dc291265d0bba4f17c7dcf677a9caaa9f6cfe995704b6c
 
 Package: dylv.deepliquid
 Name: Ai 液态玻璃
