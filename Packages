@@ -10787,6 +10787,44 @@ MD5sum: f077b38280a52c11a0e0c81d2176b356
 SHA1: 
 SHA256: d48bc099417d03f6f7a5aaae53f36c2835c8daa277debaffdcfe98bfdaeaf901
 
+Package: com.cracklock.7513
+Name: 熄屏幻术
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
+Maintainer: 7513
+Author: 7513
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Provides: com.cracklock.shatter
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Installed-Size: 1775
+icon: https://huayuarc.github.io/icon/header@2x.png
+Filename: debs/com.cracklock.7513-1.0.3-roothide.deb
+Size: 1166056
+MD5sum: 1d4997f3b6130ced96186c1e1e9513fd
+SHA1: 
+SHA256: 20be79e75051dcdf479be54367c7475ec80902b373fa51761df251089c257bf6
+
+Package: com.cracklock.7513
+Name: 熄屏幻术
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
+Maintainer: 7513
+Author: 7513
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Provides: com.cracklock.shatter
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Installed-Size: 1852
+icon: https://huayuarc.github.io/icon/header@2x.png
+Filename: debs/com.cracklock.7513-1.0.3-rootless.deb
+Size: 1165824
+MD5sum: 2f9639f5b6270a6521234f95dde0c886
+SHA1: 
+SHA256: 3addd37f974cff94b5d87135c52cb6911ac109ee7f31067517589b5f1b7ec9c9
+
 Package: com.crassna.appcardlite
 Name: App Lecard
 Description: Jailbrea!分屏
