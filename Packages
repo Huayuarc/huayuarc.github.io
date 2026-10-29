@@ -47542,6 +47542,41 @@ MD5sum: fe6438234d26576783d45bc6996e40cd
 SHA1: 
 SHA256: 5f71bbd6508011f6402df4679680e50d1e9e7e580a21a2c07e367277e1ad0fa6
 
+Package: com.zooah.swipedeck
+Name: SwipeDeck - 快捷助手
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+ *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Maintainer: zooah212
+Author: zooah212
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.5.2-16
+Installed-Size: 6788
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.zooah.swipedeck-0.5.2-16-roothide.deb
+Size: 2290928
+MD5sum: 2d227bf21fcb8ba9b33fb595b3426eb9
+SHA1: 
+SHA256: c65c5693951a87a026d24f6b6e696db62b9fa0ebc6ba35d7198f8b5066bc0803
+
+Package: com.zooah.swipedeck
+Name: SwipeDeck - 快捷助手
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+ *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Maintainer: zooah212
+Author: zooah212
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.5.2-16
+Installed-Size: 6788
+Filename: debs/com.zooah.swipedeck-0.5.2-16-rootless.deb
+Size: 2317500
+MD5sum: 4b52cd68a30fbf48a2954e1ceafea118
+SHA1: 
+SHA256: 2744d37f0b3216d5700cd9181c77395702205564ce28ac22552b91ff6ab11aa0
+
 Package: com.zqbb.savephotos
 Name: Hello Snapper3
 Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
@@ -50232,6 +50267,42 @@ MD5sum: f9b6efb7fed0f1f82add51b745c2d1b9
 SHA1: 
 SHA256: 09a755353361a307306968a44c278061dd1abf1a4457f1ba0495ecaf75dacf8c
 
+Package: iya.banana.dynamicnotch
+Name: DynamicNotch · 动态刘海
+Description: 让刘海承载通知、活动与可调玻璃外观。Notch activities, notifications and adjustable glass for iOS 15–26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Installed-Size: 1452
+icon: https://huayuarc.github.io/icon/dynamicnotch.png
+Filename: debs/iya.banana.dynamicnotch-0.1.2-roothide.deb
+Size: 240336
+MD5sum: 1575ebabc07bb7042d67972ebfea47de
+SHA1: 
+SHA256: be583e55b9a4d7eb79c829577526e6e612dbf7a888632b027db9b3f4001a7e5d
+
+Package: iya.banana.dynamicnotch
+Name: DynamicNotch · 动态刘海
+Description: 让刘海承载通知、活动与可调玻璃外观。Notch activities, notifications and adjustable glass for iOS 15–26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Installed-Size: 1452
+icon: https://huayuarc.github.io/icon/dynamicnotch.png
+Filename: debs/iya.banana.dynamicnotch-0.1.2-rootless.deb
+Size: 242500
+MD5sum: e360d9af29a5de1357f2b3b2343dd424
+SHA1: 
+SHA256: a97235548845c286a1c27c1ab12ecdb40f91caf9f7080a9a612eb66e0d7112b5
+
 Package: iya.banana.facetimeaudioenabler
 Name: FaceTime Audio Enabler
 Description: Enables FaceTime Audio with a scoped runtime override on iOS 15-17 and a guarded MobileGestalt workflow on iOS 18+. iOS 15-17 上启用 FaceTime 音频，并具有范围的运行时覆盖，在 iOS 18+ 上启用受保护的 MobileGestalt 工作流程。
@@ -51231,6 +51302,40 @@ Size: 6437700
 MD5sum: 31b8047d88520a722ca555d44e306f25
 SHA1: 
 SHA256: a6d3c7d82f72f900c6c460ff4f3c5c7d0fb3ce463bd99cbbc9a0b719d6c0f108
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64e
+Version: 1.1.19-1
+Installed-Size: 12628
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.19-1-roothide.deb
+Size: 5908772
+MD5sum: d4a630155c9aa814bfa4ac982ac2a974
+SHA1: 
+SHA256: a4f1d32525cbbc99fff69bcb94ecd44fcfdf67f2c63a2ae90c2f8087fcdd6b48
+
+Package: iya.banana.spatialscene
+Name: SpatialScene
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Architecture: iphoneos-arm64
+Version: 1.1.19-1
+Installed-Size: 12612
+icon: https://huayuarc.github.io/icon/SpatialScene.png
+Filename: debs/iya.banana.spatialscene-1.1.19-1-rootless.deb
+Size: 5908060
+MD5sum: 317d07ac8601babc22d8830c3f909203
+SHA1: 
+SHA256: 1573a4ea27a4d039c81c075d4fa1c68b9d8f067e01cdb85d7d0bf88e05182f64
 
 Package: iya.banana.spatialscene
 Name: SpatialScene
