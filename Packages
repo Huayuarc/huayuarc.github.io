@@ -47554,11 +47554,12 @@ Architecture: iphoneos-arm64e
 Version: 0.5.2-16
 Installed-Size: 6788
 Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/swipedeck.png
 Filename: debs/com.zooah.swipedeck-0.5.2-16-roothide.deb
-Size: 2290928
-MD5sum: 2d227bf21fcb8ba9b33fb595b3426eb9
+Size: 2293436
+MD5sum: 9d6550485bdf641dfbbe240540b12822
 SHA1: 
-SHA256: c65c5693951a87a026d24f6b6e696db62b9fa0ebc6ba35d7198f8b5066bc0803
+SHA256: 68ab45ba9536f1663611c56c679b1b19f7058bafa065c7d638e06e011b720cbf
 
 Package: com.zooah.swipedeck
 Name: SwipeDeck - 快捷助手
@@ -47571,11 +47572,12 @@ Depends: firmware (>= 15.0), preferenceloader
 Architecture: iphoneos-arm64
 Version: 0.5.2-16
 Installed-Size: 6788
+icon: https://huayuarc.github.io/icon/swipedeck.png
 Filename: debs/com.zooah.swipedeck-0.5.2-16-rootless.deb
-Size: 2317500
-MD5sum: 4b52cd68a30fbf48a2954e1ceafea118
+Size: 2317084
+MD5sum: a60d51c45795e098cbe4957149895b49
 SHA1: 
-SHA256: 2744d37f0b3216d5700cd9181c77395702205564ce28ac22552b91ff6ab11aa0
+SHA256: c0385e61c5e2a694e03100c52ae8adf4dc024dc83e31929dfc5ff68ba982e186
 
 Package: com.zqbb.savephotos
 Name: Hello Snapper3
