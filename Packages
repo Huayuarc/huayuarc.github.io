@@ -10825,6 +10825,44 @@ MD5sum: 2f9639f5b6270a6521234f95dde0c886
 SHA1: 
 SHA256: 3addd37f974cff94b5d87135c52cb6911ac109ee7f31067517589b5f1b7ec9c9
 
+Package: com.cracklock.7513
+Name: 熄屏幻术
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
+Maintainer: 7513
+Author: 7513
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Provides: com.cracklock.shatter
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Installed-Size: 1776
+icon: https://huayuarc.github.io/icon/header@2x.png
+Filename: debs/com.cracklock.7513-1.0.4-roothide.deb
+Size: 1166876
+MD5sum: 627ae84790271d8adae388861a7397d1
+SHA1: 
+SHA256: 20fe544a1946c3ddc373777914fb18b7ed878a2c8d5b7fce00978d9ac9fdeadb
+
+Package: com.cracklock.7513
+Name: 熄屏幻术
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
+Maintainer: 7513
+Author: 7513
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Provides: com.cracklock.shatter
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Installed-Size: 1852
+icon: https://huayuarc.github.io/icon/header@2x.png
+Filename: debs/com.cracklock.7513-1.0.4-rootless.deb
+Size: 1166660
+MD5sum: 7c4dba824190c7557a1ed47a94e7d2a4
+SHA1: 
+SHA256: 9c8e07b8eccd2ccee2cc4fa67efc99d3a408c59c0262bfc1a900b945f5dbcaf2
+
 Package: com.crassna.appcardlite
 Name: App Lecard
 Description: Jailbrea!分屏
@@ -14883,6 +14921,40 @@ Size: 610080
 MD5sum: c238295d82290e5c83bedfefa77fe024
 SHA1: 
 SHA256: 5aad0215362e812d9e5f095b6c566a7e80bc8a9afe0b9e2fe553b02e919f5488
+
+Package: com.hang.douyinsearchfix
+Name: 抖音搜索禁止刷新
+Description: 抖音搜索下方禁止猜你想看刷新。
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hang.douyinsearchfix-1.0-roothide.deb
+Size: 8460
+MD5sum: eeee9737f884b19fdbee8ee6ae5e831e
+SHA1: 
+SHA256: b8dee7438fab4449f4ab68f78a26a70fc9b728cad723857b97401cd8d88108a5
+
+Package: com.hang.douyinsearchfix
+Name: 抖音搜索禁止刷新
+Description: 抖音搜索下方禁止猜你想看刷新。
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 172
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hang.douyinsearchfix-1.0-rootless.deb
+Size: 8520
+MD5sum: d863ece4bd858b9058117c219a86fc90
+SHA1: 
+SHA256: 466c7221a8e9b14c6c7f25401fcd54919c570eb81926d85a1411bf69bb962ba5
 
 Package: com.hang.kayoko
 Name: Kayoko
@@ -26909,6 +26981,40 @@ MD5sum: cf1c23c05f62183af9156df51ea63c05
 SHA1: 
 SHA256: a98b70e11c54a961e9df8484b4566e0fe70859314b40a79a33cbeb21ced8d529
 
+Package: com.mowang.crashanalyzer
+Name: AI 日志分析
+Description: iOS IPS 日志搜索、进程分组与证据分析
+Maintainer: MoWang
+Author: MoWang
+Section: Utilities
+Depends: preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.4.2
+Installed-Size: 292
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+Filename: debs/com.mowang.crashanalyzer-1.4.2-roothide.deb
+Size: 92552
+MD5sum: d6791bcb06051ed449d1e2154ad15c32
+SHA1: 
+SHA256: 5e799cd58ddb37254218f2336bba1a03a2a17b0d4f814edf7baf7a602a083a6c
+
+Package: com.mowang.crashanalyzer
+Name: AI 日志分析
+Description: iOS IPS 日志搜索、进程分组与证据分析
+Maintainer: MoWang
+Author: MoWang
+Section: Utilities
+Depends: preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.4.2
+Installed-Size: 292
+icon: https://huayuarc.github.io/icon/crashanalyzer.png
+Filename: debs/com.mowang.crashanalyzer-1.4.2-rootless.deb
+Size: 92560
+MD5sum: cf832c6ec764100bb5595879b9bd3d01
+SHA1: 
+SHA256: 13a1802308cd72a80d23dfd1809501cd437cd32138b61895bf4bd66842ba0963
+
 Package: com.mowang.rainbowkeyboard
 Name: 彩虹键盘光效（安全版）
 Description: 修复渐变表情 bug
@@ -31325,6 +31431,40 @@ Size: 9256
 MD5sum: 9a5d173c4bf0216404ce86658490949d
 SHA1: 
 SHA256: b21e7490a9400b582fcb93080b82a23c1c1b11872f1869b3db2a067d525eb2b8
+
+Package: com.qianuo.morrorlyrics
+Name: MorrorLyrics Data Bridge
+Description: Isolated music lyrics, playback clock, artwork and audio spectrum bridge, with independent native low-power mini island and Settings source selector.
+Maintainer: qianuo
+Author: qianuo
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.8.25
+Installed-Size: 1672
+Filename: debs/com.qianuo.morrorlyrics-0.8.25-roothide.deb
+Size: 303280
+MD5sum: ef38a2dbb7c0bed260ced007d5bc2f69
+SHA1: 
+SHA256: a88f3929702511ac34c2900291c45e12834245c03db439215dfd39e10373f4e2
+
+Package: com.qianuo.morrorlyrics
+Name: MorrorLyrics 全屏歌词
+Description: Isolated music lyrics, playback clock, artwork and audio spectrum bridge, with independent native low-power mini island and Settings source selector.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.8.25
+Installed-Size: 2088
+Icon: https://jimkanuo.github.io/apt-repo/depictions/morrorlyrics/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.morrorlyrics.json
+Filename: debs/com.qianuo.morrorlyrics-0.8.25-rootless.deb
+Size: 343448
+MD5sum: 39f969e1837066a57a7df0be27e53c12
+SHA1: 
+SHA256: 833dcdf8c28d2fb6ad04bc3caaedccaceb9afad9d598301054523bd7fe290409
 
 Package: com.qianuo.smartdeck.app
 Name: SmartDeck App
@@ -48950,6 +49090,44 @@ MD5sum: abd89721e729fc8c61f800ee4067eb83
 SHA1: 
 SHA256: 7101c1e7a4600f53e042c91f701c6a89d5aa08038cae18dbaf9e02166eaf28e8
 
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://hongguo.goforit.si
+Architecture: iphoneos-arm64e
+Version: 2.1.0
+Installed-Size: 4700
+icon: https://huayuarc.github.io/icon/hongguo.png
+Filename: debs/hongguofn-2.1.0-roothide.deb
+Size: 2011564
+MD5sum: dfc86d3852a2c2ea57972c36a404146c
+SHA1: 
+SHA256: d56487d7236b68c351931635c0779dfeaa73f1ba601196ed2933d7f7843a6821
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://hongguo.goforit.si
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Installed-Size: 4700
+icon: https://huayuarc.github.io/icon/hongguo.png
+Filename: debs/hongguofn-2.1.0-rootless.deb
+Size: 2029232
+MD5sum: 54f9cb646469b297a31aeee061b8f33c
+SHA1: 
+SHA256: fa84173fd0c9f97ff8da7bc106d85db289aca2b1fe393cccc39c81c8b31a35f8
+
 Package: hypicfix
 Name: 醒图国际版修复工具
 Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
@@ -51274,6 +51452,40 @@ Size: 361804
 MD5sum: 9b1a1f42dc9eb43a5abe7aea4be18a49
 SHA1: 
 SHA256: 7ed5949516c6ea3433377e00dc79d7cfda2abae0abd4c7dda69a811a123c5d1f
+
+Package: iya.banana.pickerwheeldock
+Name: KineticDock
+Description: 横向转盘与指尖放大，让iPhone 程序坞动起来。A magnifying and scrolling Dock for iOS 15, 16 and 17.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.1-1
+Installed-Size: 556
+icon: https://huayuarc.github.io/icon/pickerwheeldock.png
+Filename: debs/iya.banana.pickerwheeldock-0.1.1-1-roothide.deb
+Size: 67196
+MD5sum: 325cc51efac3b2ddabefcaf528959233
+SHA1: 
+SHA256: bedefb7582f8ded2b83d13542883e3690b9b9b3d55e9ec81ea89f55f20e1ac49
+
+Package: iya.banana.pickerwheeldock
+Name: KineticDock
+Description: 横向转盘与指尖放大，让iPhone 程序坞动起来。A magnifying and scrolling Dock for iOS 15, 16 and 17.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 0.1.1-1
+Installed-Size: 556
+icon: https://huayuarc.github.io/icon/pickerwheeldock.png
+Filename: debs/iya.banana.pickerwheeldock-0.1.1-1-rootless.deb
+Size: 67312
+MD5sum: f493e3cedc39c7e6b6d50e116830acd4
+SHA1: 
+SHA256: ddca5a88f0639b529559ff58f122a47a0400b2fa6cdd3f139900d7e2ea9caa1f
 
 Package: iya.banana.spatialscene
 Name: SpatialScene
