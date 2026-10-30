@@ -23266,6 +23266,41 @@ MD5sum: dbc362855eb0da3cdbba510efb7e74c4
 SHA1: 
 SHA256: 6f1d7b359f4844c4cde8418beb797cc5e8230de001be400d37ca61c04e940b38
 
+Package: com.local.mygestures
+Name: 我的手势
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+Description: 状态栏左右耳朵手势：单击/双击/左滑，刘海灵动岛触摸忽略，下滑透传兼容控制中心插件，分区独立配置+黑名单。rootless 适配。
+Architecture: iphoneos-arm64e
+Version: 0.11.13
+Installed-Size: 488
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/mygestures.png
+Filename: debs/com.local.mygestures-0.11.13-roothide.deb
+Size: 62200
+MD5sum: 55bb847c89f6e07ec2a65e6e168bb680
+SHA1: 
+SHA256: f17b37bcc1f06522fc36f8b0908b3f3ec81395aad423c1e8265db3e4ea535978
+
+Package: com.local.mygestures
+Name: 我的手势
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+Description: 状态栏左右耳朵手势：单击/双击/左滑，刘海灵动岛触摸忽略，下滑透传兼容控制中心插件，分区独立配置+黑名单。rootless 适配。
+Architecture: iphoneos-arm64
+Version: 0.11.13
+Installed-Size: 488
+icon: https://huayuarc.github.io/icon/mygestures.png
+Filename: debs/com.local.mygestures-0.11.13-rootless.deb
+Size: 63968
+MD5sum: 0dfa3f93db4e85efdbe1844d65366484
+SHA1: 
+SHA256: b91c2e9e511dbc1182500c76b4d001f82916b5ca46226b7720f627b7d468e4f1
+
 Package: com.local.temperatureislandstandalone
 Name: 温度上岛
 Description: 当手机电池温度到了40度会有一个温度计的标识上岛提醒 120秒下岛或者温度低于40下岛
@@ -31161,6 +31196,39 @@ MD5sum: 7efec70adf9dbe0e5f82452e76f5cdb3
 SHA1: 
 SHA256: 01861099aa66d34125e289ed6b6d5b773bb4ec7d1d854dfbbf639f3fbaac4673
 
+Package: com.ntm.privacymanager
+Name: 隐私总开关
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+Description: 隐私总开关：系统「设置→隐私与安全性」的实时镜像。App 列表直接取自系统 TCC 数据库（与系统面板完全一致），七个权限开关实时读写同一 TCC.db——你在此开/关，系统设置立刻同步（双向）。顶部「按功能一键开关」可一次性对某权限（照片/本地网络/麦克风/相机/定位/跟踪/通讯录）对全部应用开启或关闭；每个 App 卡片支持独立开关与重置。本地网络为尽力项。支持配置导入导出。跟踪权限为双重管控：面板写 TCC 授权状态，同时 App 侧 hook（PMHook）静默应答 ATT「允许跟踪」弹窗——抹除/还原设置后打开 App 不再弹出跟踪询问（未配置的 App 默认拒绝跟踪）。 定位支持三态：使用app期间 / 始终 / 下次询问或在我共享时（长按定位开关选择）。
+Depends: preferenceloader
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/privacymanager.png
+Filename: debs/com.ntm.privacymanager-1.1.0-roothide.deb
+Size: 57040
+MD5sum: e4fa75f341df4ac0316a0acbaa8efd49
+SHA1: 
+SHA256: 0b41a898567f54021644fba1552813bbdb0f86b47f700b1f996d7dce47d888ef
+
+Package: com.ntm.privacymanager
+Name: 隐私总开关
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+Description: 隐私总开关：系统「设置→隐私与安全性」的实时镜像。App 列表直接取自系统 TCC 数据库（与系统面板完全一致），七个权限开关实时读写同一 TCC.db——你在此开/关，系统设置立刻同步（双向）。顶部「按功能一键开关」可一次性对某权限（照片/本地网络/麦克风/相机/定位/跟踪/通讯录）对全部应用开启或关闭；每个 App 卡片支持独立开关与重置。本地网络为尽力项。支持配置导入导出。跟踪权限为双重管控：面板写 TCC 授权状态，同时 App 侧 hook（PMHook）静默应答 ATT「允许跟踪」弹窗——抹除/还原设置后打开 App 不再弹出跟踪询问（未配置的 App 默认拒绝跟踪）。 定位支持三态：使用app期间 / 始终 / 下次询问或在我共享时（长按定位开关选择）。
+Depends: preferenceloader
+icon: https://huayuarc.github.io/icon/privacymanager.png
+Filename: debs/com.ntm.privacymanager-1.1.0-rootless.deb
+Size: 58816
+MD5sum: c52243b0c5ae936ddf43721ce87a8385
+SHA1: 
+SHA256: f80c82d989580326b4b976f8bf3dcf6581ecc021b224c780acab3352b0625a36
+
 Package: com.opa334.trollstorelite
 Name: TrollStore Lite
 Description: A modified TrollStore by iosdump for jailbroken iOS
@@ -32827,6 +32895,46 @@ Size: 458824
 MD5sum: 67275518c269bffe96822adda119d941
 SHA1: 
 SHA256: 0b04f947ff049e32cb8dccab1d001dd329c622f7435ce75d25602655b758a77a
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.322
+Installed-Size: 4608
+Filename: debs/com.qq391160.cpucore-2.0.322-roothide.deb
+Size: 717296
+MD5sum: 5b55a52642b2ae3748cc9970dcb6eb7f
+SHA1: 
+SHA256: 5fbf0d8afaccf1f45850bacc693f233666b926809277f38c29162b30e45b0497
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64
+Version: 2.0.322
+Installed-Size: 4336
+Filename: debs/com.qq391160.cpucore-2.0.322-rootless.deb
+Size: 651980
+MD5sum: f2f73a446a2f3230fc178a939dc2844f
+SHA1: 
+SHA256: cafb8d2a7487304334c8342e64935e35ad54333383ee03a8eab00c6abbcc2e9c
 
 Package: com.qq391160.cpucore
 Name: CPU智能温控(iOS16/17)
@@ -47279,6 +47387,104 @@ MD5sum: 6cc59a3330fc5c3e8112de7b8cbc819d
 SHA1: 
 SHA256: c87ff672f24588f14741507f4e13771c7d4fe7b23a66da2f2586dd88b596d16e
 
+Package: com.wacljcr.floatingurl
+Name: 悬浮URL
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Maintainer: wacljcr
+Author: wacljcr
+Section: Tweaks
+Description: 解锁URL玩法！
+Architecture: iphoneos-arm64e
+Version: 1.4.3-1+debug
+Installed-Size: 1296
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/floatingurl.png
+Filename: debs/com.wacljcr.floatingurl-1.4.3-1+debug-roothide.deb
+Size: 194036
+MD5sum: 116cfd59b0861e8c41322795d717736d
+SHA1: 
+SHA256: 25a69c6d0e4d8099c2c2875531cd3a15c035e86c3ba11f1c638560be835c4be0
+
+Package: com.wacljcr.floatingurl
+Name: 悬浮URL
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Maintainer: wacljcr
+Author: wacljcr
+Section: Tweaks
+Description: 解锁URL玩法！
+Architecture: iphoneos-arm64
+Version: 1.4.3-1+debug
+Installed-Size: 1296
+icon: https://huayuarc.github.io/icon/floatingurl.png
+Filename: debs/com.wacljcr.floatingurl-1.4.3-1+debug-rootless.deb
+Size: 194996
+MD5sum: 218e0ae7096796ca06ba6d9a9c0db47e
+SHA1: 
+SHA256: 2fe7701ee87c92241924777292001a420fe89bb592d691665c21bf551f022034
+
+Package: com.wacljcr.keyboardstatus
+Name: 键盘下方状态
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Maintainer: wacljcr
+Author: wacljcr
+Section: Tweaks
+Description: 给系统键盘底栏加一排常用按钮，打字不用再长按选字
+ 在系统键盘下方加一排按钮：全选、剪切、复制、粘贴、剪贴板历史、短语、光标左右移、短删、全删、撤销、收起键盘、快捷启动、文言文、切换输入法，共 16 个。每个都能单独开关，也能拖动排序；工具栏支持单排／双排、图标版／文字版，字号、间距、左右偏移与上下抬高都可调。
+ .
+ 【隐藏地球键】（合并自 HideGlobe，默认开启）：把系统键盘最左下角那个输入法切换键整个藏起来、同时禁用点击，底栏更干净也少误触；需要切输入法时用工具栏上的「切换」按钮代替，功能一样。开关随时可关，关掉后地球键原样回来。
+ .
+ 其他细节：
+ - 验证码 / 密码等纯数字、密码框场景自动隐藏工具栏；Flutter / React Native 应用不会被误判成「假输入框」
+ - 「全选」选中网址时，再点一下 = 复制 + 跳转
+ - 四种光标样式：系统默认 / 细竖线 / 横线 / Mac 拼音横线
+ - 复制网址三档：关闭 / 浮出「跳转网页」按钮（默认）/ 直接用指定浏览器打开，浏览器可自选
+ - 文言文转换与剪贴板历史均为本地实现，不联网
+ - 一键备份与恢复设置、诊断信息、设置内反馈入口
+ - 不注入 SpringBoard，空闲不轮询、不驻留，逐功能可关
+ .
+ 支持 iOS 15.0 – 16.6 的 rootless 越狱（Dopamine / Relaxin / RootHide）。设置入口：设置 → 键盘下方状态。遇到问题点右上角「反馈」，会自动带上机型与系统版本。
+Architecture: iphoneos-arm64e
+Version: 1.4.44
+Installed-Size: 792
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/keyboardstatus.png
+Filename: debs/com.wacljcr.keyboardstatus-1.4.44-roothide.deb
+Size: 134324
+MD5sum: 617165902ba829c83fe14fb1262dd756
+SHA1: 
+SHA256: eca8152c4104f4a38ed17cdcf4901631bb2d16823ee5ffb44cd14ba5150009a3
+
+Package: com.wacljcr.keyboardstatus
+Name: 键盘下方状态
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Maintainer: wacljcr
+Author: wacljcr
+Section: Tweaks
+Description: 给系统键盘底栏加一排常用按钮，打字不用再长按选字
+ 在系统键盘下方加一排按钮：全选、剪切、复制、粘贴、剪贴板历史、短语、光标左右移、短删、全删、撤销、收起键盘、快捷启动、文言文、切换输入法，共 16 个。每个都能单独开关，也能拖动排序；工具栏支持单排／双排、图标版／文字版，字号、间距、左右偏移与上下抬高都可调。
+ .
+ 【隐藏地球键】（合并自 HideGlobe，默认开启）：把系统键盘最左下角那个输入法切换键整个藏起来、同时禁用点击，底栏更干净也少误触；需要切输入法时用工具栏上的「切换」按钮代替，功能一样。开关随时可关，关掉后地球键原样回来。
+ .
+ 其他细节：
+ - 验证码 / 密码等纯数字、密码框场景自动隐藏工具栏；Flutter / React Native 应用不会被误判成「假输入框」
+ - 「全选」选中网址时，再点一下 = 复制 + 跳转
+ - 四种光标样式：系统默认 / 细竖线 / 横线 / Mac 拼音横线
+ - 复制网址三档：关闭 / 浮出「跳转网页」按钮（默认）/ 直接用指定浏览器打开，浏览器可自选
+ - 文言文转换与剪贴板历史均为本地实现，不联网
+ - 一键备份与恢复设置、诊断信息、设置内反馈入口
+ - 不注入 SpringBoard，空闲不轮询、不驻留，逐功能可关
+ .
+ 支持 iOS 15.0 – 16.6 的 rootless 越狱（Dopamine / Relaxin / RootHide）。设置入口：设置 → 键盘下方状态。遇到问题点右上角「反馈」，会自动带上机型与系统版本。
+Architecture: iphoneos-arm64
+Version: 1.4.44
+Installed-Size: 792
+icon: https://huayuarc.github.io/icon/keyboardstatus.png
+Filename: debs/com.wacljcr.keyboardstatus-1.4.44-rootless.deb
+Size: 134664
+MD5sum: 82f98bc7199961c98b7f4b44ad2beb47
+SHA1: 
+SHA256: 59f128fe27598cc55cdc9a0027ac7cc5c68b515ca05a24d926c69dfe5a4f555b
+
 Package: com.wacljcr.qqmixtxtimg
 Name: QQ图文同发
 Depends: firmware (>= 14.0), mobilesubstrate | ellekit, preferenceloader
@@ -47319,6 +47525,99 @@ Size: 34192
 MD5sum: 9677eb2e7563a06acf2e86b350d85f15
 SHA1: 
 SHA256: efe960cab739dd65fbdb0dbfeca14731b7db01ee71e06dc8afdf243e7613a351
+
+Package: com.wacljcr.wxkbtoolbar10
+Name: 输入法自定义优化
+Version: 4.0
+Architecture: iphoneos-arm64e
+Maintainer: wacljcr
+Author: wacljcr
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.wacljcr.nativekb
+Replaces: com.wacljcr.nativekb
+icon: https://huayuarc.github.io/icon/wxkbtoolbar10.png
+Description: 输入法自定义优化 —— 微信键盘与系统原生键盘的一站式外观定制
+ 一份 dylib 双引擎，同时管两套键盘：微信输入法键盘扩展（com.tencent.wetype.keyboard）与 iOS 系统原生键盘。v4.0 起把原来的「WxkbToolbar10」与「NativeKB」合并为一个插件，系统里少映射一份库、键盘扩展少一套 hook 表，设置里也只有一个入口。
+ .
+ **微信键盘 · 外观**
+ - 整键盘透明：递归清掉键盘自带的背景层（含毛玻璃与铺满型背景图），透出后面的内容；按键底色与文字色不受影响，仍是清晰黑字
+ - 键盘背景：纯色 / 相册图片（按键盘比例自动裁剪）/ 背景透明度
+ - 按键配色：字母、数字符号、左侧功能键、右侧功能键、空格分组取色，另有按键文字色与按下高亮色
+ - 主题色板 32 套（原图、彩虹、马卡龙、蜜桃、薄荷、森系、蒸汽波…），另有 4 套一键套用的配色预设：极光 / 莫兰迪 / 暗夜 / 清新，套用后仍可逐项微调
+ - 字母键进阶：A→Z 双色渐变，12 种变色方向（横 / 竖 / 斜 + 9 个角度），26 个字母也能逐个单独上色
+ - 彩虹键帽：用真实键帽图渲染，比程序生成的彩虹色更立体
+ - 我的主题：把当前整套外观存档，随时一键套用，不用每次重配
+ - 按键形状：圆角 0–22 pt，另有圆形 / 椭圆 / 半圆 / 五边形 / 六边形 / 星形 / 心形 / 水珠 / 描边
+ - 键盘上下位移；工具栏紧贴左侧 logo 铺满整行、图标保持原生尺寸不缩小、放不下时横向滑动
+ .
+ **系统原生键盘 · 增强**
+ - 字号：候选字大小倍率、键帽字号倍率，想让字大一点不用换系统字号
+ - 按键：按键圆角、隐藏系统灰底（默认开）、保留按键阴影、按键边框（颜色与宽度）、按键背景色、发送键单独配色
+ - 键盘底板：隐藏分割线、键盘整体背景色、底座背景色、保留毛玻璃
+ - 候选词栏配色：箭头按钮背景、网格背景、高亮背景与高亮文字、分隔线、预测栏背景
+ - 每组都有「恢复本组默认」，随时退回系统原生外观
+ .
+ **使用与说明**
+ - 改动后收起键盘再弹出即生效；批量调整完建议 respring 一次
+ - 微信键盘部分只改外观，不动布局与按键位置 —— 强改布局会被微信布局引擎反噬并触发键盘扩展崩溃
+ - 原生键盘增强在所有 App 内生效；微信键盘增强只在键盘扩展进程激活，普通 App 不加载，不额外占用内存
+ - 安装 v4.0 会自动移除旧的 NativeKB，原有设置继续沿用
+ - 设置入口：设置 → 输入法自定义优化；问题反馈可邮件联系 wacljcr@qq.com
+ .
+ 支持 iOS 15 – 16 的 rootless 越狱（Relaxin / Dopamine / RootHide），依赖 mobilesubstrate 或 ellekit、preferenceloader。
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.wacljcr.wxkbtoolbar10-4.0-roothide.deb
+Size: 597344
+MD5sum: 058fa4122dc16552df9928b917852a0d
+SHA1: 
+SHA256: 19e02081a9d00c8a4088a653680a007f4c51f9478ae742d75cadc7f526fe003a
+
+Package: com.wacljcr.wxkbtoolbar10
+Name: 输入法自定义优化
+Version: 4.0
+Architecture: iphoneos-arm64
+Maintainer: wacljcr
+Author: wacljcr
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.wacljcr.nativekb
+Replaces: com.wacljcr.nativekb
+icon: https://huayuarc.github.io/icon/wxkbtoolbar10.png
+Description: 输入法自定义优化 —— 微信键盘与系统原生键盘的一站式外观定制
+ 一份 dylib 双引擎，同时管两套键盘：微信输入法键盘扩展（com.tencent.wetype.keyboard）与 iOS 系统原生键盘。v4.0 起把原来的「WxkbToolbar10」与「NativeKB」合并为一个插件，系统里少映射一份库、键盘扩展少一套 hook 表，设置里也只有一个入口。
+ .
+ **微信键盘 · 外观**
+ - 整键盘透明：递归清掉键盘自带的背景层（含毛玻璃与铺满型背景图），透出后面的内容；按键底色与文字色不受影响，仍是清晰黑字
+ - 键盘背景：纯色 / 相册图片（按键盘比例自动裁剪）/ 背景透明度
+ - 按键配色：字母、数字符号、左侧功能键、右侧功能键、空格分组取色，另有按键文字色与按下高亮色
+ - 主题色板 32 套（原图、彩虹、马卡龙、蜜桃、薄荷、森系、蒸汽波…），另有 4 套一键套用的配色预设：极光 / 莫兰迪 / 暗夜 / 清新，套用后仍可逐项微调
+ - 字母键进阶：A→Z 双色渐变，12 种变色方向（横 / 竖 / 斜 + 9 个角度），26 个字母也能逐个单独上色
+ - 彩虹键帽：用真实键帽图渲染，比程序生成的彩虹色更立体
+ - 我的主题：把当前整套外观存档，随时一键套用，不用每次重配
+ - 按键形状：圆角 0–22 pt，另有圆形 / 椭圆 / 半圆 / 五边形 / 六边形 / 星形 / 心形 / 水珠 / 描边
+ - 键盘上下位移；工具栏紧贴左侧 logo 铺满整行、图标保持原生尺寸不缩小、放不下时横向滑动
+ .
+ **系统原生键盘 · 增强**
+ - 字号：候选字大小倍率、键帽字号倍率，想让字大一点不用换系统字号
+ - 按键：按键圆角、隐藏系统灰底（默认开）、保留按键阴影、按键边框（颜色与宽度）、按键背景色、发送键单独配色
+ - 键盘底板：隐藏分割线、键盘整体背景色、底座背景色、保留毛玻璃
+ - 候选词栏配色：箭头按钮背景、网格背景、高亮背景与高亮文字、分隔线、预测栏背景
+ - 每组都有「恢复本组默认」，随时退回系统原生外观
+ .
+ **使用与说明**
+ - 改动后收起键盘再弹出即生效；批量调整完建议 respring 一次
+ - 微信键盘部分只改外观，不动布局与按键位置 —— 强改布局会被微信布局引擎反噬并触发键盘扩展崩溃
+ - 原生键盘增强在所有 App 内生效；微信键盘增强只在键盘扩展进程激活，普通 App 不加载，不额外占用内存
+ - 安装 v4.0 会自动移除旧的 NativeKB，原有设置继续沿用
+ - 设置入口：设置 → 输入法自定义优化；问题反馈可邮件联系 wacljcr@qq.com
+ .
+ 支持 iOS 15 – 16 的 rootless 越狱（Relaxin / Dopamine / RootHide），依赖 mobilesubstrate 或 ellekit、preferenceloader。
+Filename: debs/com.wacljcr.wxkbtoolbar10-4.0-rootless.deb
+Size: 596780
+MD5sum: ee8f9954bc0d689c1d273c4b59737e8b
+SHA1: 
+SHA256: 1a3eeeccfb20fa7b85ba0d7ffc4a2a889cb3f430528a02a34446002e25b66a49
 
 Package: com.wangyuan.trollvnc
 Name: TrollVNC 王源构建版
@@ -52325,6 +52624,40 @@ MD5sum: 895e5ed215341151fea117c6764d511a
 SHA1: 
 SHA256: 21468e1cebc7da9c450e2be16313cfcc477b1b5f7f0c3b7f6073176402930da9
 
+Package: iya.banana.multitask
+Name: 一芽分屏 (Iya Split)
+Description: 随手分屏，自由安排你的多任务空问。Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.1.5
+Installed-Size: 2676
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+Filename: debs/iya.banana.multitask-0.1.5-roothide.deb
+Size: 469212
+MD5sum: c755a623c428ed5e69620d2ebc02d7c9
+SHA1: 
+SHA256: c968490d8fcc9fd61bed1d54cc82b9264fc0b155423836cb10f934c65d1a76bb
+
+Package: iya.banana.multitask
+Name: 一芽分屏 (Iya Split)
+Description: 随手分屏，自由安排你的多任务空问。Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.1.5
+Installed-Size: 2692
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+Filename: debs/iya.banana.multitask-0.1.5-rootless.deb
+Size: 470024
+MD5sum: 70a369af579827b05fafa916dfe47fb3
+SHA1: 
+SHA256: 539e859a43792c571cd6884f62a60d11362caa4cd6215291572fa8451e213f6f
+
 Package: iya.banana.musichaptics
 Name: MusicHaptics
 Description: 让支持的歌曲化作触感，随音乐感受节奏与人声。Music haptic tracks, vocal mode and Control Center toggle for iOS 15 and later.
@@ -52498,6 +52831,40 @@ Size: 67312
 MD5sum: f493e3cedc39c7e6b6d50e116830acd4
 SHA1: 
 SHA256: ddca5a88f0639b529559ff58f122a47a0400b2fa6cdd3f139900d7e2ea9caa1f
+
+Package: iya.banana.pickerwheeldock
+Name: KineticDock
+Description: 横向转盘与指尖放大，让iPhone 程序坞动起来。A magnifying and scrolling Dock for iOS 15, 16 and 17.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.2-1
+Installed-Size: 556
+icon: https://huayuarc.github.io/icon/pickerwheeldock.png
+Filename: debs/iya.banana.pickerwheeldock-0.1.2-1-roothide.deb
+Size: 68104
+MD5sum: 3065f29dfe5621ec2640365ace811dba
+SHA1: 
+SHA256: 6f386eec11d38689b3f76e4385dc5c4d18ba2e0c5c0d17c88c814014a01685d1
+
+Package: iya.banana.pickerwheeldock
+Name: KineticDock
+Description: 横向转盘与指尖放大，让iPhone 程序坞动起来。A magnifying and scrolling Dock for iOS 15, 16 and 17.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 0.1.2-1
+Installed-Size: 556
+icon: https://huayuarc.github.io/icon/pickerwheeldock.png
+Filename: debs/iya.banana.pickerwheeldock-0.1.2-1-rootless.deb
+Size: 68136
+MD5sum: 5909e1fbb11562c71c4ecc4ea177a982
+SHA1: 
+SHA256: b28f811c281b22c708088c6e906f181d2c28b11ba8d21cdc9cb207ff5cc64498
 
 Package: iya.banana.spatialscene
 Name: SpatialScene
