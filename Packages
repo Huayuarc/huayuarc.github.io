@@ -31196,6 +31196,182 @@ MD5sum: 7efec70adf9dbe0e5f82452e76f5cdb3
 SHA1: 
 SHA256: 01861099aa66d34125e289ed6b6d5b773bb4ec7d1d854dfbbf639f3fbaac4673
 
+Package: com.ntm.notifymanager
+Name: 通知管理
+Version: 2.3.38
+Architecture: iphoneos-arm64
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/notifymanager.png
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）；2.3.15 断网增强：新增进程级拦截(connectx/connect/sendto/sendmsg)，断网后 WiFi 与蜂窝流量同时切断，iOS 15/16/17 通用；2.3.16 断网修复：注入范围扩到所有 App 进程(UIApplication)，解决第三方 App 未注入导致断网不生效的问题（隐根环境需在 Bootstrap 的 App List 里为目标 App 开启注入）；2.3.17 断网修复：修正 PSAppDataUsagePolicyCache 在新系统的框架路径(SettingsCellular.framework)，并补上 CommCenter 写入签名权限，面板「断网」现在能真正把系统「允许App使用数据」设为「关闭」(WiFi+蜂窝同时切断)；2.3.18 断网修复：改用系统设置页的真实写入路径(policiesFor: → setCellular:/setWifi: → setPolicies:completion:)，此前调用的 setUsagePoliciesForBundle:cellular:wifi: 与 CoreTelephony 写入接口在 iOS 15/16/17 上均不存在，导致策略写入一直是空操作、系统设置里看不到「关闭」；2.3.19 弹窗修复：面板设为「断网」的 App，启动时不再弹国行机「允许"XX"使用无线数据」选择框——hook SpringBoard 的网络类启动弹窗评估器(SBApplicationLaunchAlertEvaluatorForNetworkBasedAlertItems -shouldShowLaunchAlertForApplication:)与展示入口(SBApplicationLaunchAlertService -showLaunchAlertOfType:forApplication:)，对断网 App 直接不展示，避免用户误点弹窗把权限改回允许导致与面板设置不一致；2.3.20 弹窗修复：开启「后台断网」的 App 回前台时也不再弹国行机「允许"XX"使用无线数据」选择框——弹窗拦截条件补上后台断网判断（NTM_netRead==1 或 NTM_bgNetOn 均拦截），并把回前台时的网络策略恢复提前到系统弹窗评估之前（hook_fg 先恢复策略再调用原函数），解决只要断网或后台断网就必弹弹窗的问题；2.3.21 弹窗修复：彻底屏蔽 CommCenter 直发的「允许"XX"使用无线数据」——实测该弹窗由 CommCenter 直接给 SpringBoard 发请求经 +[SBUserNotificationCenter dispatchUserNotification:flags:replyPort:auditToken:] 创建，并不经过 2.3.19/2.3.20 hook 的启动弹窗评估器，所以仍会漏弹；现对面板里设为「断网」或「后台断网」的 App，识别消息里的 App 名解析出 bundle id 后，直接按实测格式回一条「不允许」报文给 CommCenter，弹窗不再出现，且系统数据策略与面板保持同源、解除断网后自动恢复；2.3.22 后台断网修复：iOS 16 已移除 FBSceneManager 的 _noteSceneMovedToBackground:/_noteSceneMovedToForeground:，旧 hook 静默失败、KVC identity.bundleIdentifier 也取不到 bundle id，且 SpringBoard 进程没有 CommCenter 的 data-allowed-write 权限（实测只有 spi/voice/phone 等）、即便 hook 生效也写不了系统数据策略，这就是「后台断网」一直没效果的根因；现改为在 App 自己进程内实现：监听 UIApplication 进后台/回前台通知，进后台时 shutdown 本进程所有指向远端的已建立连接并拒绝新建连接(connectx/connect/sendto/sendmsg)，回前台自动恢复放行，面板里显式设为「断网」的 App 仍照常拦截；2.3.23 断网根因修复：实测第三方 App 沙盒完全读不到面板配置（cfprefsd 隔离，NSUserDefaults/CFPreferences/直读 plist 三条路全失败）；2.3.24 修复注销后网络重置+新App自动授权WiFi蜂窝：SpringBoard启动10s后遍历面板配置重新应用系统蜂窝策略(NTM_applyAllPolicies)，新安装App面板未配置时默认允许WiFi+蜂窝不弹系统选择框，「后台断网」与进程级「断网」在 App 内一直读到默认值、从未真正生效——现由 SpringBoard（能读面板配置）把每个 App 的配置按 bundle id 转写到其容器 Library/ntm_config.plist 并广播更新，App 端读不到面板配置时改读该镜像（镜像优先、suite 兜底），配置变更约 0.3 秒内自动同步，SpringBoard 开机 10 秒后全量补写一次；同时补上面板「断网」按钮与「后台断网」全局标记保存后遗漏的配置变更广播，后台断网与断网拦截自此在 App 进程内真正生效；2.3.25 弹窗彻底修复+新App自动联网：①auditToken直提bundle id，不依赖中文App名解析，解决注销后「允许使用无线数据」弹窗仍漏弹的问题（旧版靠解析弹窗引号内App名匹配，「」《》等引号变体导致匹配失败）；②弹窗文本匹配扩展为无线数据/蜂窝数据/使用数据/访问数据四种中文变体，覆盖各iOS语言版本；③新安装App首次联网不再无网——SpringBoard启动时遍历未配置App写入系统策略缓存allow(WiFi+蜂窝)，同时拦截弹窗时即时写入策略，双重保障；④策略重应用延迟从10s缩至2s，缩小注销后策略空窗期；2.3.26 修复编译错误：libproc.h是macOS专用头文件iOS SDK未提供，改为手动声明proc_pidpath私有API；2.3.27 再次修复编译：移除sys/proc_info.h依赖，完全手动声明
+ 2.3.30 iOS 16+系统级授权弹窗彻底拦截：①修复策略缓存写入API——旧版只尝试 init:withCellularPolicy:andWifiPolicy: 单一方法，iOS 16+ 上该 API 不存在导致策略写入静默失败，现尝试多种可能的 policiesFor/init/setPolicy 方法名并加诊断日志，定位失败原因；②iOS 16+ 无线数据权限弹窗不走通知系统 dispatchUserNotification（旧 API），走 SpringBoard 内部的 _UISystemAlertViewController / SBAuthorizationDialogController / _UIAlertControllerDialogViewController，新增这些类的 showWithCompletion: hook，统一检测"无线数据/蜂窝数据/使用数据/访问数据/无线局域网与蜂窝网络"关键词；③兜底 hook UIViewController presentViewController:animated:completion:，检测 UIAlertController 的 title+message+actions 文本，覆盖所有通过 present API 展示的网络授权弹窗；④新增 NTM_diagLog 诊断日志，所有 hook 触发和策略写入结果写入 NSUserDefaults，便于定位为什么弹窗仍漏出。
+ 2.3.31 弹窗兜底彻底修复：2.3.30 的兜底 hook 用了错误 selector（presentViewControllerAnimated:completion: 缺第一个冒号），导致 UIViewController 兜底根本没装上，且只从 alert title 提取 App 名（该弹窗 title 为「错误」、权限文本在 message），无法解析 bundle id，新安装 App 仍会弹「允许使用无线数据」选择框；现修正 selector 为 presentViewController:animated:completion:，并从 title+message+actions 完整文本提取 App 名，新安装 App 联网自动写入 allow 策略并不弹窗。
+ 2.3.32 弹窗拦截再加固：2.3.31 兜底 hook 虽已命中弹窗，但「中文 App 名 → bundle id」解析在部分 App（本地化名与弹窗名存在 NFC/NFKC 归一差异）上失败，仍回退到系统原生弹窗；现新增两道兜底——①规范化中文名（去空白+预组合）并兼容 displayName 后再匹配 LSApplicationWorkspace，②实在解析不到时用前台 App 的 bundle id 兜底（网络授权弹窗由前台 App 触发）；并新增源头拦截 SBAlertItemsController -_presentAlertItem:withPresenter:animated:，在 alert controller 构建前直接拿到 SBUserNotificationAlert、不再依赖 UIAlertController 类层级，命中网络授权关键词即写入 allow 策略并吞掉弹窗；所有分支均带 NTM_diagLog，可在面板诊断日志查看命中情况。
+ 2.3.33 弹窗彻底修复（换思路）：2.3.31/2.3.32 在 UIAlertController / SBAlertItemsController 层面吞弹窗，实测会掐断 CommCenter 的 replyPort 回包、导致该 App 联网卡死，且「已配置就回退弹窗」逻辑让新 App 仍弹出；现改为唯一可靠处理点——hook SBUserNotificationCenter +dispatchUserNotification:flags:replyPort:auditToken:（弹窗源头，CommCenter 经此把请求发给 SpringBoard 并等待 replyPort 回包，正是 2.3.21 断网 App 成功压住弹窗的同一机制），命中网络授权关键词后：断网/后台断网 App 回「不允许」报文，非断网 App（含新安装未配置）回「允许」报文并写入系统蜂窝 allow 策略，弹窗在源头被消解、不再上屏，且不会卡联网；purepresentVC/presentAlertItem 降级为仅诊断记录（不可吞，避免卡死）；init 日志记录三道 hook 是否真正装上，便于定位漏拦。
+ 2.3.34 修「不弹窗但没网」：2.3.33 源头拦截虽压住了弹窗，但非断网 App 没真正拿到「无线局域网与蜂窝网络」——根因是 dispatch 里 bundle id 四路兜底全失败、策略写入被 `if(bid.length && !NTM_isAppConfigured)` 跳过，只发了一条（且很可能没送达的）allow 回包，CommCenter 超时按拒绝处理 → 没网；现修正：①audit_token PID 偏移读错（旧代码用 t32[4]=at_asid 会话ID，应为 t32[3]=at_pid），auditToken 这条路现在能直接定位触发弹窗的 App 进程并取 bundle id；②前台 App 兜底扩充 SBMainWorkspace 等类与选择器；③dispatch 里无条件为非断网 App 写 allow 策略（不再被「已配置」跳过），并重构解析顺序为 auditToken→前台→文本提取，每步打 NTM_diagLog；④NTM_sendReply 记录 mach_msg 返回值 kr，便于确认回包是否真送达。
+ 2.3.35 修「不弹窗但没网」（换对拦截点）：实测本机 iOS 16.6 网络授权弹窗根本不走 SBUserNotificationCenter +dispatchUserNotification:flags:replyPort:auditToken:（该 selector 在本机不存在，2.3.33/2.3.34 的源头 hook 是死代码、永不触发）；真正压弹窗的是 2.3.19 就装上的 SBApplicationLaunchAlertEvaluatorForNetworkBasedAlertItems -shouldShowLaunchAlertForApplication: 与 SBApplicationLaunchAlertService -showLaunchAlertOfType:forApplication:，这两道只「压弹窗」却从不「授权」，导致新 App 联网被卡（没网）。现改为：在这两道 hook 里，对面板未配置的新 App 直接调用 NTM_syncCellularSB(bid,0) 写系统蜂窝 allow 策略（wifi+流量允许）再 return，既压住弹窗又真正授权；断网/后台断网 App 仍压弹窗不授权。各分支均打 NTM_diagLog（launchEval ALLOW+write / launchShow ALLOW+write），可在面板诊断日志确认命中。
+ 2.3.38 设置页改版（越狱源发布版）：①顶部「自定义」按钮改为「设置」入口，新设置页集中三个全局开关——隐藏网络弹窗（默认开，关=所有网络弹窗 hook 放行、恢复系统原生「允许XX使用无线数据」选择框；面板里断网/后台断网的 App 仍不弹窗）、保留首次安装弹窗（默认关，开=面板未配置的新装 App 首次打开时仍走系统原生流程弹选择框，允许/不允许由用户自己决定；开启时 SpringBoard 不再为未配置 App 预写 allow 策略，否则策略已允许系统不会再弹）、自动授权通知（抹除后免弹窗，从主页迁入设置页）；②设置页另保留「恢复自定义配置」按钮=原「自定义」按钮功能（撤销上次全部开启/关闭批量操作）；③所有开关改动即时经 configChanged 广播生效，无需重启。
+ 2.3.37.1 设置页改版：①顶部原「自定义」按钮改为「设置」入口，新增设置页集中三个全局开关——隐藏网络弹窗（默认开，关=所有网络弹窗 hook 放行、恢复系统原生「允许XX使用无线数据」选择框；面板里断网/后台断网的 App 仍不弹窗）、保留首次安装弹窗（默认关，开=面板未配置的新装 App 首次打开时仍走系统原生流程弹选择框，允许/不允许由用户自己决定；开启时 SpringBoard 不再为未配置 App 预写 allow 策略，否则策略已允许系统不会再弹）、自动授权通知（抹除后免弹窗，从主页迁入设置页）；②设置页另保留「恢复自定义配置」按钮=原「自定义」按钮功能（撤销上次全部开启/关闭批量操作）；③所有开关改动即时经 configChanged 广播生效，无需重启。
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.ntm.notifymanager-2.3.38-rootless.deb
+Size: 118180
+MD5sum: b18290f8447dd713dfa82fd591b9aa8b
+SHA1: 
+SHA256: 791fcc65bc6e862d633a3164539ef54c4d57c2d8fd2a57cafdfc8ca73e51d2e0
+
+Package: com.ntm.notifymanager
+Name: 通知管理
+Version: 2.3.38
+Architecture: iphoneos-arm64e
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/notifymanager.png
+Description: 通知管理：注入SpringBoard拦截通知展示，按分类(用户/巨魔/系统)管理每个App通知与网络。总开关+锁定屏幕/通知中心/横幅/声音/标记子开关，增强功能：仅隐藏角标、隐藏预览、后台自动断网、关键词过滤、应用分组、模式快照、筛选；网络策略(打开wifi/流量/wifi+流量/断网)同步系统蜂窝设置，支持搜索、批量控制、单应用重置、配置导入导出、邮件反馈；新增自动授权通知权限（抹除/还原设置后，按插件配置静默授权，打开App不再弹"想给你发送通知"）；2.3.15 断网增强：新增进程级拦截(connectx/connect/sendto/sendmsg)，断网后 WiFi 与蜂窝流量同时切断，iOS 15/16/17 通用；2.3.16 断网修复：注入范围扩到所有 App 进程(UIApplication)，解决第三方 App 未注入导致断网不生效的问题（隐根环境需在 Bootstrap 的 App List 里为目标 App 开启注入）；2.3.17 断网修复：修正 PSAppDataUsagePolicyCache 在新系统的框架路径(SettingsCellular.framework)，并补上 CommCenter 写入签名权限，面板「断网」现在能真正把系统「允许App使用数据」设为「关闭」(WiFi+蜂窝同时切断)；2.3.18 断网修复：改用系统设置页的真实写入路径(policiesFor: → setCellular:/setWifi: → setPolicies:completion:)，此前调用的 setUsagePoliciesForBundle:cellular:wifi: 与 CoreTelephony 写入接口在 iOS 15/16/17 上均不存在，导致策略写入一直是空操作、系统设置里看不到「关闭」；2.3.19 弹窗修复：面板设为「断网」的 App，启动时不再弹国行机「允许"XX"使用无线数据」选择框——hook SpringBoard 的网络类启动弹窗评估器(SBApplicationLaunchAlertEvaluatorForNetworkBasedAlertItems -shouldShowLaunchAlertForApplication:)与展示入口(SBApplicationLaunchAlertService -showLaunchAlertOfType:forApplication:)，对断网 App 直接不展示，避免用户误点弹窗把权限改回允许导致与面板设置不一致；2.3.20 弹窗修复：开启「后台断网」的 App 回前台时也不再弹国行机「允许"XX"使用无线数据」选择框——弹窗拦截条件补上后台断网判断（NTM_netRead==1 或 NTM_bgNetOn 均拦截），并把回前台时的网络策略恢复提前到系统弹窗评估之前（hook_fg 先恢复策略再调用原函数），解决只要断网或后台断网就必弹弹窗的问题；2.3.21 弹窗修复：彻底屏蔽 CommCenter 直发的「允许"XX"使用无线数据」——实测该弹窗由 CommCenter 直接给 SpringBoard 发请求经 +[SBUserNotificationCenter dispatchUserNotification:flags:replyPort:auditToken:] 创建，并不经过 2.3.19/2.3.20 hook 的启动弹窗评估器，所以仍会漏弹；现对面板里设为「断网」或「后台断网」的 App，识别消息里的 App 名解析出 bundle id 后，直接按实测格式回一条「不允许」报文给 CommCenter，弹窗不再出现，且系统数据策略与面板保持同源、解除断网后自动恢复；2.3.22 后台断网修复：iOS 16 已移除 FBSceneManager 的 _noteSceneMovedToBackground:/_noteSceneMovedToForeground:，旧 hook 静默失败、KVC identity.bundleIdentifier 也取不到 bundle id，且 SpringBoard 进程没有 CommCenter 的 data-allowed-write 权限（实测只有 spi/voice/phone 等）、即便 hook 生效也写不了系统数据策略，这就是「后台断网」一直没效果的根因；现改为在 App 自己进程内实现：监听 UIApplication 进后台/回前台通知，进后台时 shutdown 本进程所有指向远端的已建立连接并拒绝新建连接(connectx/connect/sendto/sendmsg)，回前台自动恢复放行，面板里显式设为「断网」的 App 仍照常拦截；2.3.23 断网根因修复：实测第三方 App 沙盒完全读不到面板配置（cfprefsd 隔离，NSUserDefaults/CFPreferences/直读 plist 三条路全失败）；2.3.24 修复注销后网络重置+新App自动授权WiFi蜂窝：SpringBoard启动10s后遍历面板配置重新应用系统蜂窝策略(NTM_applyAllPolicies)，新安装App面板未配置时默认允许WiFi+蜂窝不弹系统选择框，「后台断网」与进程级「断网」在 App 内一直读到默认值、从未真正生效——现由 SpringBoard（能读面板配置）把每个 App 的配置按 bundle id 转写到其容器 Library/ntm_config.plist 并广播更新，App 端读不到面板配置时改读该镜像（镜像优先、suite 兜底），配置变更约 0.3 秒内自动同步，SpringBoard 开机 10 秒后全量补写一次；同时补上面板「断网」按钮与「后台断网」全局标记保存后遗漏的配置变更广播，后台断网与断网拦截自此在 App 进程内真正生效；2.3.25 弹窗彻底修复+新App自动联网：①auditToken直提bundle id，不依赖中文App名解析，解决注销后「允许使用无线数据」弹窗仍漏弹的问题（旧版靠解析弹窗引号内App名匹配，「」《》等引号变体导致匹配失败）；②弹窗文本匹配扩展为无线数据/蜂窝数据/使用数据/访问数据四种中文变体，覆盖各iOS语言版本；③新安装App首次联网不再无网——SpringBoard启动时遍历未配置App写入系统策略缓存allow(WiFi+蜂窝)，同时拦截弹窗时即时写入策略，双重保障；④策略重应用延迟从10s缩至2s，缩小注销后策略空窗期；2.3.26 修复编译错误：libproc.h是macOS专用头文件iOS SDK未提供，改为手动声明proc_pidpath私有API；2.3.27 再次修复编译：移除sys/proc_info.h依赖，完全手动声明
+ 2.3.30 iOS 16+系统级授权弹窗彻底拦截：①修复策略缓存写入API——旧版只尝试 init:withCellularPolicy:andWifiPolicy: 单一方法，iOS 16+ 上该 API 不存在导致策略写入静默失败，现尝试多种可能的 policiesFor/init/setPolicy 方法名并加诊断日志，定位失败原因；②iOS 16+ 无线数据权限弹窗不走通知系统 dispatchUserNotification（旧 API），走 SpringBoard 内部的 _UISystemAlertViewController / SBAuthorizationDialogController / _UIAlertControllerDialogViewController，新增这些类的 showWithCompletion: hook，统一检测"无线数据/蜂窝数据/使用数据/访问数据/无线局域网与蜂窝网络"关键词；③兜底 hook UIViewController presentViewController:animated:completion:，检测 UIAlertController 的 title+message+actions 文本，覆盖所有通过 present API 展示的网络授权弹窗；④新增 NTM_diagLog 诊断日志，所有 hook 触发和策略写入结果写入 NSUserDefaults，便于定位为什么弹窗仍漏出。
+ 2.3.31 弹窗兜底彻底修复：2.3.30 的兜底 hook 用了错误 selector（presentViewControllerAnimated:completion: 缺第一个冒号），导致 UIViewController 兜底根本没装上，且只从 alert title 提取 App 名（该弹窗 title 为「错误」、权限文本在 message），无法解析 bundle id，新安装 App 仍会弹「允许使用无线数据」选择框；现修正 selector 为 presentViewController:animated:completion:，并从 title+message+actions 完整文本提取 App 名，新安装 App 联网自动写入 allow 策略并不弹窗。
+ 2.3.32 弹窗拦截再加固：2.3.31 兜底 hook 虽已命中弹窗，但「中文 App 名 → bundle id」解析在部分 App（本地化名与弹窗名存在 NFC/NFKC 归一差异）上失败，仍回退到系统原生弹窗；现新增两道兜底——①规范化中文名（去空白+预组合）并兼容 displayName 后再匹配 LSApplicationWorkspace，②实在解析不到时用前台 App 的 bundle id 兜底（网络授权弹窗由前台 App 触发）；并新增源头拦截 SBAlertItemsController -_presentAlertItem:withPresenter:animated:，在 alert controller 构建前直接拿到 SBUserNotificationAlert、不再依赖 UIAlertController 类层级，命中网络授权关键词即写入 allow 策略并吞掉弹窗；所有分支均带 NTM_diagLog，可在面板诊断日志查看命中情况。
+ 2.3.33 弹窗彻底修复（换思路）：2.3.31/2.3.32 在 UIAlertController / SBAlertItemsController 层面吞弹窗，实测会掐断 CommCenter 的 replyPort 回包、导致该 App 联网卡死，且「已配置就回退弹窗」逻辑让新 App 仍弹出；现改为唯一可靠处理点——hook SBUserNotificationCenter +dispatchUserNotification:flags:replyPort:auditToken:（弹窗源头，CommCenter 经此把请求发给 SpringBoard 并等待 replyPort 回包，正是 2.3.21 断网 App 成功压住弹窗的同一机制），命中网络授权关键词后：断网/后台断网 App 回「不允许」报文，非断网 App（含新安装未配置）回「允许」报文并写入系统蜂窝 allow 策略，弹窗在源头被消解、不再上屏，且不会卡联网；purepresentVC/presentAlertItem 降级为仅诊断记录（不可吞，避免卡死）；init 日志记录三道 hook 是否真正装上，便于定位漏拦。
+ 2.3.34 修「不弹窗但没网」：2.3.33 源头拦截虽压住了弹窗，但非断网 App 没真正拿到「无线局域网与蜂窝网络」——根因是 dispatch 里 bundle id 四路兜底全失败、策略写入被 `if(bid.length && !NTM_isAppConfigured)` 跳过，只发了一条（且很可能没送达的）allow 回包，CommCenter 超时按拒绝处理 → 没网；现修正：①audit_token PID 偏移读错（旧代码用 t32[4]=at_asid 会话ID，应为 t32[3]=at_pid），auditToken 这条路现在能直接定位触发弹窗的 App 进程并取 bundle id；②前台 App 兜底扩充 SBMainWorkspace 等类与选择器；③dispatch 里无条件为非断网 App 写 allow 策略（不再被「已配置」跳过），并重构解析顺序为 auditToken→前台→文本提取，每步打 NTM_diagLog；④NTM_sendReply 记录 mach_msg 返回值 kr，便于确认回包是否真送达。
+ 2.3.35 修「不弹窗但没网」（换对拦截点）：实测本机 iOS 16.6 网络授权弹窗根本不走 SBUserNotificationCenter +dispatchUserNotification:flags:replyPort:auditToken:（该 selector 在本机不存在，2.3.33/2.3.34 的源头 hook 是死代码、永不触发）；真正压弹窗的是 2.3.19 就装上的 SBApplicationLaunchAlertEvaluatorForNetworkBasedAlertItems -shouldShowLaunchAlertForApplication: 与 SBApplicationLaunchAlertService -showLaunchAlertOfType:forApplication:，这两道只「压弹窗」却从不「授权」，导致新 App 联网被卡（没网）。现改为：在这两道 hook 里，对面板未配置的新 App 直接调用 NTM_syncCellularSB(bid,0) 写系统蜂窝 allow 策略（wifi+流量允许）再 return，既压住弹窗又真正授权；断网/后台断网 App 仍压弹窗不授权。各分支均打 NTM_diagLog（launchEval ALLOW+write / launchShow ALLOW+write），可在面板诊断日志确认命中。
+ 2.3.38 设置页改版（越狱源发布版）：①顶部「自定义」按钮改为「设置」入口，新设置页集中三个全局开关——隐藏网络弹窗（默认开，关=所有网络弹窗 hook 放行、恢复系统原生「允许XX使用无线数据」选择框；面板里断网/后台断网的 App 仍不弹窗）、保留首次安装弹窗（默认关，开=面板未配置的新装 App 首次打开时仍走系统原生流程弹选择框，允许/不允许由用户自己决定；开启时 SpringBoard 不再为未配置 App 预写 allow 策略，否则策略已允许系统不会再弹）、自动授权通知（抹除后免弹窗，从主页迁入设置页）；②设置页另保留「恢复自定义配置」按钮=原「自定义」按钮功能（撤销上次全部开启/关闭批量操作）；③所有开关改动即时经 configChanged 广播生效，无需重启。
+ 2.3.37.1 设置页改版：①顶部原「自定义」按钮改为「设置」入口，新增设置页集中三个全局开关——隐藏网络弹窗（默认开，关=所有网络弹窗 hook 放行、恢复系统原生「允许XX使用无线数据」选择框；面板里断网/后台断网的 App 仍不弹窗）、保留首次安装弹窗（默认关，开=面板未配置的新装 App 首次打开时仍走系统原生流程弹选择框，允许/不允许由用户自己决定；开启时 SpringBoard 不再为未配置 App 预写 allow 策略，否则策略已允许系统不会再弹）、自动授权通知（抹除后免弹窗，从主页迁入设置页）；②设置页另保留「恢复自定义配置」按钮=原「自定义」按钮功能（撤销上次全部开启/关闭批量操作）；③所有开关改动即时经 configChanged 广播生效，无需重启。
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.ntm.notifymanager-2.3.38-roothide.deb
+Size: 114636
+MD5sum: 8ed440cf0ed3a9eb0e93564fa9dba3bb
+SHA1: 
+SHA256: 0a825edc29b7f10e2e51b06812e990cfc9582ace872fcd513008185801c58770
+
+Package: com.ntm.notifymanager
+Name: 通知管理
+Version: 2.3.50
+Architecture: iphoneos-arm
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/notifymanager.png
+Description: 通知管理 - 按 App 管理通知与网络，同步系统「蜂窝网络」设置
+ 轻量级 SpringBoard 通知 / 网络管理工具：无定时器、无轮询，通知到达只做内存查表，
+ 空闲时不耗电；不在后台常驻任何进程。
+ .
+ 【通知管理】按「用户应用 / 巨魔应用 / 系统应用」列出手机上所有真实 App
+ （自动过滤隐藏的系统辅助服务，无图标的系统组件不显示），逐个 App 控制：
+ - 总开关：关闭后该 App 的通知不再显示
+ - 分项开关：锁定屏幕 / 通知中心 / 横幅 / 声音 / 标记，各自独立
+ - 隐藏预览：只显示 App 名称，不显示具体内容
+ - 仅隐藏角标：保留通知，只去掉数字角标
+ - 关键词过滤：命中关键词的通知自动丢弃
+ .
+ 【网络管理】与「设置 - 蜂窝网络 - 某 App 的蜂窝数据」同源：
+ - 每个 App 可选：Wi-Fi + 蜂窝 / 仅 Wi-Fi / 仅蜂窝 / 完全断网
+ - 后台自动断网：App 进后台即切断已建立连接并拒绝新建连接，回前台自动恢复
+ - 新装 App 首次联网不再弹「允许使用无线数据」，按面板配置静默放行
+ - 不需要拦截时可一键关闭，恢复系统原生选择框
+ .
+ 【其他】
+ - 批量控制、搜索、单应用重置、配置导入导出
+ - 自动授权通知权限：抹除或还原设置后，打开 App 不再弹「想给您发送通知」
+ - 面板内置诊断日志，可查看弹窗拦截的命中情况
+ .
+ 支持系统：iOS 14 / 15 / 16 / 17（arm64、arm64e）
+ iOS 14 请安装 rootful 版；iOS 15 及以上安装 rootless 版。
+ 有问题请在「设置 - 通知管理」右上角点「反馈」，附上机型与系统版本。
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Firmware: >= 14.0
+Filename: debs/com.ntm.notifymanager-2.3.50-rootful.deb
+Size: 109480
+MD5sum: 6bcd3e14db34993a62eeba094a726bd4
+SHA1: 
+SHA256: 8fe598c3ff8a8ad86cd062ccbb2c7150102bcbcbd764da0f8595a5d3eccee15a
+
+Package: com.ntm.notifymanager
+Name: 通知管理
+Version: 2.3.50
+Architecture: iphoneos-arm64e
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/notifymanager.png
+Description: 通知管理 - 按 App 管理通知与网络，同步系统「蜂窝网络」设置
+ 轻量级 SpringBoard 通知 / 网络管理工具：无定时器、无轮询，通知到达只做内存查表，
+ 空闲时不耗电；不在后台常驻任何进程。
+ .
+ 【通知管理】按「用户应用 / 巨魔应用 / 系统应用」列出手机上所有真实 App
+ （自动过滤隐藏的系统辅助服务，无图标的系统组件不显示），逐个 App 控制：
+ - 总开关：关闭后该 App 的通知不再显示
+ - 分项开关：锁定屏幕 / 通知中心 / 横幅 / 声音 / 标记，各自独立
+ - 隐藏预览：只显示 App 名称，不显示具体内容
+ - 仅隐藏角标：保留通知，只去掉数字角标
+ - 关键词过滤：命中关键词的通知自动丢弃
+ .
+ 【网络管理】与「设置 - 蜂窝网络 - 某 App 的蜂窝数据」同源：
+ - 每个 App 可选：Wi-Fi + 蜂窝 / 仅 Wi-Fi / 仅蜂窝 / 完全断网
+ - 后台自动断网：App 进后台即切断已建立连接并拒绝新建连接，回前台自动恢复
+ - 新装 App 首次联网不再弹「允许使用无线数据」，按面板配置静默放行
+ - 不需要拦截时可一键关闭，恢复系统原生选择框
+ .
+ 【其他】
+ - 批量控制、搜索、单应用重置、配置导入导出
+ - 自动授权通知权限：抹除或还原设置后，打开 App 不再弹「想给您发送通知」
+ - 面板内置诊断日志，可查看弹窗拦截的命中情况
+ .
+ 支持系统：iOS 14 / 15 / 16 / 17（arm64、arm64e）
+ iOS 14 请安装 rootful 版；iOS 15 及以上安装 rootless 版。
+ 有问题请在「设置 - 通知管理」右上角点「反馈」，附上机型与系统版本。
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Firmware: >= 14.0
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.ntm.notifymanager-2.3.50-roothide.deb
+Size: 109004
+MD5sum: f3a15b752035b33acc95c61dd44df2d5
+SHA1: 
+SHA256: dd6dc384173d6b660f5a776d4b8f8767f76b8d3eacb3f586c8f06ab98c59d79a
+
+Package: com.ntm.notifymanager
+Name: 通知管理
+Version: 2.3.50
+Architecture: iphoneos-arm64
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/notifymanager.png
+Description: 通知管理 - 按 App 管理通知与网络，同步系统「蜂窝网络」设置
+ 轻量级 SpringBoard 通知 / 网络管理工具：无定时器、无轮询，通知到达只做内存查表，
+ 空闲时不耗电；不在后台常驻任何进程。
+ .
+ 【通知管理】按「用户应用 / 巨魔应用 / 系统应用」列出手机上所有真实 App
+ （自动过滤隐藏的系统辅助服务，无图标的系统组件不显示），逐个 App 控制：
+ - 总开关：关闭后该 App 的通知不再显示
+ - 分项开关：锁定屏幕 / 通知中心 / 横幅 / 声音 / 标记，各自独立
+ - 隐藏预览：只显示 App 名称，不显示具体内容
+ - 仅隐藏角标：保留通知，只去掉数字角标
+ - 关键词过滤：命中关键词的通知自动丢弃
+ .
+ 【网络管理】与「设置 - 蜂窝网络 - 某 App 的蜂窝数据」同源：
+ - 每个 App 可选：Wi-Fi + 蜂窝 / 仅 Wi-Fi / 仅蜂窝 / 完全断网
+ - 后台自动断网：App 进后台即切断已建立连接并拒绝新建连接，回前台自动恢复
+ - 新装 App 首次联网不再弹「允许使用无线数据」，按面板配置静默放行
+ - 不需要拦截时可一键关闭，恢复系统原生选择框
+ .
+ 【其他】
+ - 批量控制、搜索、单应用重置、配置导入导出
+ - 自动授权通知权限：抹除或还原设置后，打开 App 不再弹「想给您发送通知」
+ - 面板内置诊断日志，可查看弹窗拦截的命中情况
+ .
+ 支持系统：iOS 14 / 15 / 16 / 17（arm64、arm64e）
+ iOS 14 请安装 rootful 版；iOS 15 及以上安装 rootless 版。
+ 有问题请在「设置 - 通知管理」右上角点「反馈」，附上机型与系统版本。
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Firmware: >= 14.0
+Filename: debs/com.ntm.notifymanager-2.3.50-rootless.deb
+Size: 109592
+MD5sum: 9916849edacd38900f813d3eff2cdf85
+SHA1: 
+SHA256: b54d357c31c5fd7b9d2fe0d1e36d8cc6b90b1ac4428aac560e3ab92eab18ca02
+
 Package: com.ntm.privacymanager
 Name: 隐私总开关
 Version: 1.1.0
@@ -31228,6 +31404,39 @@ Size: 58816
 MD5sum: c52243b0c5ae936ddf43721ce87a8385
 SHA1: 
 SHA256: f80c82d989580326b4b976f8bf3dcf6581ecc021b224c780acab3352b0625a36
+
+Package: com.ntm.privacymanager
+Name: 隐私总开关
+Version: 1.5.5
+Architecture: iphoneos-arm64e
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+Description: 隐私总开关：系统「设置→隐私与安全性」的镜像。App 列表取自系统 LSApplicationWorkspace（与通知管理同一套，已剔除 XPC 服务/扩展等假条目），面板秒开（上次列表快照缓存，进面板即可搜、即可点），后台再刷新成最新。五个权限开关（照片 / 麦克风 / 相机 / 跟踪 / 通讯录）实时写 TCC.db 并在 App 进程内 hook 静默应答——面板开/关，App 里立刻生效，不必划掉重开。跟踪权限 App 侧 hook 静默应答 ATT 弹窗（未配置的 App 默认拒绝）。定位与本地网络已移除：定位授权由 locationd 独占、本地网络名单在 nehelper 内存里，非 root 写入不会真正生效。
+Depends: preferenceloader, ellekit
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/privacymanager.png
+Filename: debs/com.ntm.privacymanager-1.5.5-roothide.deb
+Size: 64052
+MD5sum: 681b06440a460fb5cd9e9305ac5484a2
+SHA1: 
+SHA256: 2d2e167d76f275996bfacb4577b4d8b63c3cd692c368c86a5989c3349d7d205e
+
+Package: com.ntm.privacymanager
+Name: 隐私总开关
+Version: 1.5.5
+Architecture: iphoneos-arm64
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+Description: 隐私总开关：系统「设置→隐私与安全性」的镜像。App 列表取自系统 LSApplicationWorkspace（与通知管理同一套，已剔除 XPC 服务/扩展等假条目），面板秒开（上次列表快照缓存，进面板即可搜、即可点），后台再刷新成最新。五个权限开关（照片 / 麦克风 / 相机 / 跟踪 / 通讯录）实时写 TCC.db 并在 App 进程内 hook 静默应答——面板开/关，App 里立刻生效，不必划掉重开。跟踪权限 App 侧 hook 静默应答 ATT 弹窗（未配置的 App 默认拒绝）。定位与本地网络已移除：定位授权由 locationd 独占、本地网络名单在 nehelper 内存里，非 root 写入不会真正生效。
+Depends: preferenceloader, ellekit
+icon: https://huayuarc.github.io/icon/privacymanager.png
+Filename: debs/com.ntm.privacymanager-1.5.5-rootless.deb
+Size: 64304
+MD5sum: 2771323448890cab17a6c03287e9f9ed
+SHA1: 
+SHA256: 688cc23215079025f512020f5f22bfee568add73f67081801dc4b688d56f0433
 
 Package: com.opa334.trollstorelite
 Name: TrollStore Lite
@@ -47525,6 +47734,76 @@ Size: 34192
 MD5sum: 9677eb2e7563a06acf2e86b350d85f15
 SHA1: 
 SHA256: efe960cab739dd65fbdb0dbfeca14731b7db01ee71e06dc8afdf243e7613a351
+
+Package: com.wacljcr.superscreenshot
+Name: 超级截图
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+icon: https://huayuarc.github.io/icon/freecut.png
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 7.3.0-1+debug
+Installed-Size: 3144
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.wacljcr.superscreenshot-7.3.0-1+debug-roothide.deb
+Size: 488528
+MD5sum: 5f0d26102ed00bdbf39600f2439ec774
+SHA1: 
+SHA256: fd026188f92792778bc9531802f35f73da62b7bed4261ab651dc2beafe780632
+
+Package: com.wacljcr.superscreenshot
+Name: 超级截图
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+icon: https://huayuarc.github.io/icon/freecut.png
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 7.3.0-1+debug
+Installed-Size: 3144
+Filename: debs/com.wacljcr.superscreenshot-7.3.0-1+debug-rootless.deb
+Size: 503372
+MD5sum: c596ff05710a297f281a3042f3920372
+SHA1: 
+SHA256: edffd90b030f7560fdbd5d12db10cf79ffda0f47db03623c95aa8f7cc7deabda
+
+Package: com.wacljcr.superscreenshot
+Name: 超级截图
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+icon: https://huayuarc.github.io/icon/freecut.png
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 8.0.19
+Installed-Size: 2044
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.wacljcr.superscreenshot-8.0.19-roothide.deb
+Size: 382176
+MD5sum: d7ab1f168b38a43a256741e610bfb8b5
+SHA1: 
+SHA256: d9d8e08afaf2d6ca483dd8881d0ba1f29c85f466aef2cb26a21913a088a67bc1
+
+Package: com.wacljcr.superscreenshot
+Name: 超级截图
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+icon: https://huayuarc.github.io/icon/freecut.png
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 8.0.19
+Installed-Size: 2044
+Filename: debs/com.wacljcr.superscreenshot-8.0.19-rootless.deb
+Size: 383984
+MD5sum: 9e5d3e8e6468ebe62797be0c562bcb82
+SHA1: 
+SHA256: 97a40b29ac493694110632fc87f921b728a267caef53d2739d2648d7ef775a31
 
 Package: com.wacljcr.wxkbtoolbar10
 Name: 输入法自定义优化
