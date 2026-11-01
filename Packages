@@ -33985,6 +33985,46 @@ Priority: optional
 Icon: https://qq391160.github.io/repo/icons/thermal.png
 Depends: firmware (>= 16.0)
 Architecture: iphoneos-arm64e
+Version: 2.0.350
+Installed-Size: 4584
+Filename: debs/com.qq391160.cpucore-2.0.350-roothide.deb
+Size: 701380
+MD5sum: a629871521f06d3ef612ce6e5e82b82a
+SHA1: 
+SHA256: cd2ec23ce4a0d44b7e86d6a79e8476aae3b39dac15c48d30972d160c750ef409
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64
+Version: 2.0.350
+Installed-Size: 4308
+Filename: debs/com.qq391160.cpucore-2.0.350-rootless.deb
+Size: 636240
+MD5sum: 743fd32c3d10ebb7dcff5190dc22950c
+SHA1: 
+SHA256: 17e8e17bfe1f6865f9d120898b7d99b372dd4a4d0b2c7185782402741f8c84e1
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64e
 Version: 2.0.45
 Installed-Size: 3352
 Filename: debs/com.qq391160.cpucore-2.0.45-roothide.deb
@@ -50209,6 +50249,44 @@ MD5sum: fe6438234d26576783d45bc6996e40cd
 SHA1: 
 SHA256: 5f71bbd6508011f6402df4679680e50d1e9e7e580a21a2c07e367277e1ad0fa6
 
+Package: com.zooah.debrecords
+Name: DebRecords
+Description: 记录插件的安装、升级、卸载相关信息。可对插件进行备份。记录SpringBoard的重启相关信息、安全模式相关信息、手机重启的相关信息。
+ Records plugin install, upgrade, and removal information. Can back up plugins. Records SpringBoard restart, safe mode, and device reboot information.
+ 1.2.1
+Maintainer: zooah212
+Author: zooah212
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Installed-Size: 1736
+icon: https://huayuarc.github.io/icon/debrecords.jpg
+Filename: debs/com.zooah.debrecords-1.2.1-roothide.deb
+Size: 334836
+MD5sum: 024bd6289b4b60759bf2cf87a5586f75
+SHA1: 
+SHA256: fa403c92a3005c87a03ba95cbd1625d71fa4b96d52615959fe5400d86141389b
+
+Package: com.zooah.debrecords
+Name: DebRecords
+Description: 记录插件的安装、升级、卸载相关信息。可对插件进行备份。记录SpringBoard的重启相关信息、安全模式相关信息、手机重启的相关信息。
+ Records plugin install, upgrade, and removal information. Can back up plugins. Records SpringBoard restart, safe mode, and device reboot information.
+ 1.2.1
+Maintainer: zooah212
+Author: zooah212
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Installed-Size: 1736
+icon: https://huayuarc.github.io/icon/debrecords.jpg
+Filename: debs/com.zooah.debrecords-1.2.1-rootless.deb
+Size: 335076
+MD5sum: 51c0fb7757ed0455253b5983ed8cc0a8
+SHA1: 
+SHA256: db5117a8c6069e81ac1e66611b074ab06e22e270575546b1adc37f9fc4094f07
+
 Package: com.zooah.swipedeck
 Name: SwipeDeck - 快捷助手
 Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
@@ -56959,6 +57037,28 @@ Size: 48016
 MD5sum: 73e4bdcad85a29efd17240d9265a115b
 SHA1: 
 SHA256: a34d967114eafd1c5e2e22171b756d1dba81725f44a50835ece04ccb7c677666
+
+Package: org.coolstar.libhooker
+Name: libhooker (roothide port)
+Description: libhooker engine, tweak loader and safe mode for iOS 16+ roothide
+Maintainer: libhooker roothide port contributors
+Author: CoolStar and contributors
+Section: Tweak Injection
+Priority: optional
+Depends: firmware (>= 16.0), firmware (<< 18.0), roothide
+Conflicts: ellekit, mobilesubstrate, com.ex.substitute, science.xnu.substitute, com.saurik.substrate.safemode
+Replaces: ellekit, mobilesubstrate, com.ex.libsubstitute
+Provides: ellekit (= 1.2-3), mobilesubstrate (= 99)
+Icon: https://apt.002599.xyz/web/icon/org.coolstar.libhooker.png
+SileoDepiction: https://apt.002599.xyz/web/org.coolstar.libhooker
+Architecture: iphoneos-arm64e
+Version: 1.6.9-22+roothide
+Installed-Size: 580
+Filename: debs/org.coolstar.libhooker-1.6.9-22+roothide-roothide.deb
+Size: 48516
+MD5sum: 22804fd1899fdd0210e9de1980e5ac89
+SHA1: 
+SHA256: b009abda7c5f8e345a2e047b2b40a789bf49e9a35b83e4910d0215eedabd9ec9
 
 Package: org.shallowdream.dockpages
 Version: 1.0.1
