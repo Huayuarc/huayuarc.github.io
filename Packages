@@ -24516,6 +24516,39 @@ MD5sum: cab50cacd103c2648dc3884c7c602d2e
 SHA1: 
 SHA256: 54b57d70113b2a62fd9308f45f99cd9dd37ad75faa29c35f2c6267f892e6c0bf
 
+Package: com.mallin.tunnelsharevpn
+Name: TunnelShareVPN
+Version: 1.2.4
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Author: Mallin
+Maintainer: Mallin
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Pre-Depends: rootless-compat (>= 0.9)
+Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+Filename: debs/com.mallin.tunnelsharevpn-1.2.4-roothide.deb
+Size: 145920
+MD5sum: 0e8c8d21ff3eec3ae533b1e5db1377ba
+SHA1: 
+SHA256: 605835b7adb970d98cf784874cbaeda40d2c3ceb8ba0cb71386cd59f90aa9171
+
+Package: com.mallin.tunnelsharevpn
+Name: TunnelShareVPN
+Version: 1.2.4
+Architecture: iphoneos-arm64
+Section: Tweaks
+Author: Mallin
+Maintainer: Mallin
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+Filename: debs/com.mallin.tunnelsharevpn-1.2.4-rootless.deb
+Size: 145844
+MD5sum: 61461170b612f0a7f970383fca6a1e02
+SHA1: 
+SHA256: 3dcfbf8eda46433f1556255ae1785c98f0ff36ec7994252838c2825313aeeefb
+
 Package: com.mg.adskips
 Name: AdSkip 跳过启动广告
 Description: 快速跳过开屏广告
