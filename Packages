@@ -22090,6 +22090,112 @@ MD5sum: ee1857cb3876a869d2ac5d52c8c80085
 SHA1: 
 SHA256: 9fd0a1c0b7eb952e7e244fd2461909db991fb6a80dc8b51bd304ba1d67bd66da
 
+Package: com.jaysuen.evocenter
+Name: Evo Center
+Description: 为旧系统带来类似ios18的现代化控制中心体验。arm64e设备专用，arm64设备请下载legacy版本。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, cy+cpu.arm64e
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/index.html
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.1.0-beta.2&r=beta41fix2-20261101
+Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter.arm64, com.jaysuen.evocenter.arm64e
+Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter.arm64, com.jaysuen.evocenter.arm64e
+Architecture: iphoneos-arm64e
+Version: 4.1.0-beta.2
+Installed-Size: 13116
+Filename: debs/com.jaysuen.evocenter-4.1.0-beta.2-roothide.deb
+Size: 920356
+MD5sum: cda1aee064941528f60a6c10909ecb18
+SHA1: 
+SHA256: 3adf82adf99913d9cb16d87d7158e8369e0f3f53eaae94f74aaa4ed9ddeb4d87
+
+Package: com.jaysuen.evocenter
+Name: Evo Center
+Description: 为旧系统带来类似ios18的现代化控制中心体验。arm64e设备专用，arm64设备请下载legacy版本。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, cy+cpu.arm64e
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/index.html
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.1.0-beta.2&r=beta41fix2-20261101
+Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter.arm64, com.jaysuen.evocenter.arm64e
+Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter.arm64, com.jaysuen.evocenter.arm64e
+Architecture: iphoneos-arm64
+Version: 4.1.0-beta.2
+Installed-Size: 12876
+Filename: debs/com.jaysuen.evocenter-4.1.0-beta.2-rootless.deb
+Size: 899384
+MD5sum: e62b44f181a4f6372d87a2d1daab2aeb
+SHA1: 
+SHA256: a517c058dfe7b291f9a0fbe492e304aa26ae1e3a8564978f624738761ba7760c
+
+Package: com.jaysuen.evocenter.arm64
+Name: Evo Center（Legacy）
+Description: 为旧系统带来类似ios18的现代化控制中心体验。arm64设备专用。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, cy+cpu.arm64
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/legacy.html
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native-legacy.json?v=4.1.0-beta.2&r=beta41fix2-20261101
+Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter, com.jaysuen.evocenter.arm64e, cy+cpu.arm64e
+Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter, com.jaysuen.evocenter.arm64e
+Architecture: iphoneos-arm64e
+Version: 4.1.0-beta.2
+Installed-Size: 13076
+Provides: com.jaysuen.evocenter (= 4.1.0-beta.2)
+Filename: debs/com.jaysuen.evocenter.arm64-4.1.0-beta.2-roothide.deb
+Size: 933636
+MD5sum: ead2654f115fb96ab5a34313f37431fb
+SHA1: 
+SHA256: d065d5bc3e7e018efe0d35f95d08fb3f30e7832e690fb5b9585caedc2288f8f6
+
+Package: com.jaysuen.evocenter.arm64
+Name: Evo Center（Legacy）
+Description: 为旧系统带来类似ios18的现代化控制中心体验。arm64设备专用。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, cy+cpu.arm64
+Homepage: https://eleveny123.github.io/EvoCenter/
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/legacy.html
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native-legacy.json?v=4.1.0-beta.2&r=beta41fix2-20261101
+Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter, com.jaysuen.evocenter.arm64e, cy+cpu.arm64e
+Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter, com.jaysuen.evocenter.arm64e
+Architecture: iphoneos-arm64
+Version: 4.1.0-beta.2
+Installed-Size: 12884
+Provides: com.jaysuen.evocenter (= 4.1.0-beta.2)
+Filename: debs/com.jaysuen.evocenter.arm64-4.1.0-beta.2-rootless.deb
+Size: 913324
+MD5sum: a01dfd2b47d33d257e4affa9c0b45a7b
+SHA1: 
+SHA256: adbf4ff85ef874510ffdbbeb2392f81f3a4889377b39c90b2e7394fc74ee6bbf
+
 Package: com.jibamao.gaodeclean
 Name: GaodeClean 高德精简
 Description: 高德地图界面精简 · 纯本地运行
