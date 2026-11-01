@@ -56902,6 +56902,28 @@ MD5sum: 51f23e4c9513becd38ae42f1f6555096
 SHA1: 
 SHA256: 3963f56c6cf2192d53b6dd88a2c82626eb50b14bd5355a5c5b98a0cd16250db2
 
+Package: org.coolstar.libhooker
+Name: libhooker (roothide port)
+Description: libhooker engine, tweak loader and safe mode for iOS 16+ roothide
+Maintainer: libhooker roothide port contributors
+Author: CoolStar and contributors
+Section: Tweak Injection
+Priority: optional
+Depends: firmware (>= 16.0), firmware (<< 18.0), roothide
+Conflicts: ellekit, mobilesubstrate, com.ex.substitute, science.xnu.substitute, com.saurik.substrate.safemode
+Replaces: ellekit, mobilesubstrate, com.ex.libsubstitute
+Provides: ellekit (= 1.2-3), mobilesubstrate (= 99)
+Icon: https://apt.002599.xyz/web/icon/org.coolstar.libhooker.png
+SileoDepiction: https://apt.002599.xyz/web/org.coolstar.libhooker
+Architecture: iphoneos-arm64e
+Version: 1.6.9-21+roothide
+Installed-Size: 580
+Filename: debs/org.coolstar.libhooker-1.6.9-21+roothide-roothide.deb
+Size: 48016
+MD5sum: 73e4bdcad85a29efd17240d9265a115b
+SHA1: 
+SHA256: a34d967114eafd1c5e2e22171b756d1dba81725f44a50835ece04ccb7c677666
+
 Package: org.shallowdream.dockpages
 Version: 1.0.1
 Architecture: iphoneos-arm64e
