@@ -18565,13 +18565,13 @@ Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
 Architecture: iphoneos-arm64e
-Version: 1.6.2-160+isolation.41
-Installed-Size: 2432
-Filename: debs/com.huayuarc.cputhermal-1.6.2-160+isolation.41-roothide.deb
-Size: 179540
-MD5sum: b500d0d3210bf0eefab5afb6c6cb22b4
+Version: 1.6.2-161+isolation.42
+Installed-Size: 2448
+Filename: debs/com.huayuarc.cputhermal-1.6.2-161+isolation.42-roothide.deb
+Size: 180460
+MD5sum: 9493488602c901a2a934ef0e35dc6650
 SHA1: 
-SHA256: 13d0f1278d0619f711b694d9567482444a5471a7e2f82f129de83579d393b449
+SHA256: a3b7730bf99d4f24c6d3aa07709e75f33f9c17d58e877015a0b984fc3d3ee93c
 
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
@@ -18584,13 +18584,13 @@ Icon: https://huayuarc.github.io/icon/cputhermal.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
 Architecture: iphoneos-arm64
-Version: 1.6.2-160+isolation.41
+Version: 1.6.2-161+isolation.42
 Installed-Size: 2432
-Filename: debs/com.huayuarc.cputhermal-1.6.2-160+isolation.41-rootless.deb
-Size: 179700
-MD5sum: a3a1c9f22c0e1d4a75408ad7d5153077
+Filename: debs/com.huayuarc.cputhermal-1.6.2-161+isolation.42-rootless.deb
+Size: 179512
+MD5sum: 31cf5a65ad85d6d1b9ce030b741dfa18
 SHA1: 
-SHA256: b4f273559eb72f906a81d36b7d1c4136682351755bce7feae9e420e7eb738aa0
+SHA256: 169d3bb098e625ce952c9b81e57ffd11cd04f0de969e1440c2eeabc9f934cd2b
 
 Package: com.huayuarc.facedownlock
 Name: 设备朝下自动锁屏
