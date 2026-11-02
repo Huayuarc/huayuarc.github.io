@@ -18486,42 +18486,6 @@ MD5sum: 02a0ea9cd3da8136749e2def9c6c3316
 SHA1: 
 SHA256: 880d338cec7ec30a2a2067837abb524549d3cf91be7fd83556b4c93c38edcd21
 
-Package: com.huayuarc.cputhermal
-Name: CPU 解除温控
-Author: Huayuarc
-Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
-Maintainer: Huayuarc
-Section: Tweaks
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64e
-Version: 1.6.2-157+isolation.38
-Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
-Filename: debs/com.huayuarc.cputhermal-1.6.2-157+isolation.38-roothide.deb
-Size: 161088
-MD5sum: e0a119f51b205d1f1f863a6e805c98bc
-SHA1: 
-SHA256: 474db6908a138ddafd4ee6c94f7886b50e65901c9ed177bf7cccb6cb50c4226f
-
-Package: com.huayuarc.cputhermal
-Name: CPU 解除温控
-Author: Huayuarc
-Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
-Maintainer: Huayuarc
-Section: Tweaks
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-Architecture: iphoneos-arm64
-Version: 1.6.2-157+isolation.38
-Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
-Filename: debs/com.huayuarc.cputhermal-1.6.2-157+isolation.38-rootless.deb
-Size: 215672
-MD5sum: 1a00b15d80c8762e5d06d3069c0091d9
-SHA1: 
-SHA256: 61c1cf50b8b08d570a44fe5193a2e2d5352d9bb11d2627572869dfa872348d16
-
 Package: com.huayuarc.facedownlock
 Name: 设备朝下自动锁屏
 Author: Huayuarc
