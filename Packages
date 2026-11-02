@@ -25929,6 +25929,42 @@ MD5sum: 358cfb3d3abb1e7e583a5e5fad8fd4ce
 SHA1: 
 SHA256: c060bfe71005e9766e63176365bd4995aae2fbea767b79f6e5a544703a52324c
 
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64e
+Version: 1.3.3
+Installed-Size: 4116
+Filename: debs/com.mlgm.actra-1.3.3-roothide.deb
+Size: 817304
+MD5sum: c6b7dde5fabc2daec3197591a09870cf
+SHA1: 
+SHA256: ecc82214ddbb88b0fdab68d0e918a412486ee6c7d78da17146c1ec34d6bd3b24
+
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64
+Version: 1.3.3
+Installed-Size: 4112
+Filename: debs/com.mlgm.actra-1.3.3-rootless.deb
+Size: 815308
+MD5sum: 62fb580d045b436f45de9081471c115c
+SHA1: 
+SHA256: d06b69437901ce6332d045adfc1d6de75706b31f603f3cd5687d0b280a492e3c
+
 Package: com.mlgm.appdata
 Name: AppData
 Section: Tweaks
@@ -27127,6 +27163,66 @@ MD5sum: bec45ce49c34abaa72058e3d2f2c3576
 SHA1: 
 SHA256: d4a885504feedb1fe018a029566d587892727839f3a6b1d55aa8bfea2ef8d24d
 
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm
+Version: 5.1
+Installed-Size: 3896
+Filename: debs/com.mlgm.kayoko-5.1-rootful.deb
+Size: 824324
+MD5sum: 919ed6acb8df668f36c05299d98d9e0f
+SHA1: 
+SHA256: 7e87bb408b2f3544006bd9675a2593dc71a3d657cae2120b0bee0f14f87525b4
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.1
+Installed-Size: 3864
+Filename: debs/com.mlgm.kayoko-5.1-roothide.deb
+Size: 819056
+MD5sum: 8b267ae9b142c742f109eb2e4ab12d63
+SHA1: 
+SHA256: ee19cbf3d6db42e9ba8d5b5d332f17f6aee02720e576819bbe14c2cdeb8f75f4
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64
+Version: 5.1
+Installed-Size: 3896
+Filename: debs/com.mlgm.kayoko-5.1-rootless.deb
+Size: 824044
+MD5sum: f15d21ff55b93425de6027c11d8b8c00
+SHA1: 
+SHA256: 263ffbceff07cc3b8363f8bfd0a1f74775f9358fef5de38b4ec830e2b0542396
+
 Package: com.mlgm.prefnest
 Name: PrefNest
 Description: 整理设置首页，集中收纳越狱插件。
@@ -27228,6 +27324,40 @@ Size: 172176
 MD5sum: aab6bf4153b1da68135da6c402a34b49
 SHA1: 
 SHA256: b0105a29314cd1fe56d7ef0083c090e6a49f6b9e4286c54bdc8406e26efe4cc1
+
+Package: com.mlgm.prefnest
+Name: PrefNest
+Description: 整理设置首页，集中收纳越狱插件。
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Installed-Size: 888
+Filename: debs/com.mlgm.prefnest-1.2.3-roothide.deb
+Size: 171304
+MD5sum: a4e79fc26ebe28acb566cb8adadc31bf
+SHA1: 
+SHA256: 790cb41dee90d224de75865f0efa890e641e26466ade378bd84f2e544d930c2f
+
+Package: com.mlgm.prefnest
+Name: PrefNest
+Description: 整理设置首页，集中收纳越狱插件。
+Icon: https://mlgm66.github.io/icon/prefnest.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Installed-Size: 888
+Filename: debs/com.mlgm.prefnest-1.2.3-rootless.deb
+Size: 173568
+MD5sum: b59a0a08c246b608a9403b3153487577
+SHA1: 
+SHA256: cd90325aa96e63847be23cf544a043cc6c8b69ce58bcb1e24f42a6154f8fa314
 
 Package: com.mlgm.pulloverx
 Name: PullOver X 分屏
@@ -28226,6 +28356,40 @@ Size: 184520
 MD5sum: 85f074885aa779197ae94a0d262185b6
 SHA1: 
 SHA256: 28b198865288d973e48a012dec52c3a8d4d40e6fe1996a0dd94a7013ece7c565
+
+Package: com.mlgm.watchfix
+Name: WatchFix
+Description: 解决 Apple Watch 连接问题
+Maintainer: mlgm
+Author: 577FKJ
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Icon: https://mlgm66.github.io/icon/watchfix.png
+Architecture: iphoneos-arm64e
+Version: 2.1
+Installed-Size: 5252
+Filename: debs/com.mlgm.watchfix-2.1-roothide.deb
+Size: 819624
+MD5sum: 6e2f025a95a87e8c60f77ae795c3d850
+SHA1: 
+SHA256: 30b8f3cc38025b0d65278eecc4362e87801bbc359a68e950316318b97d0ecb7b
+
+Package: com.mlgm.watchfix
+Name: WatchFix
+Description: 解决 Apple Watch 连接问题
+Maintainer: mlgm
+Author: 577FKJ
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Icon: https://mlgm66.github.io/icon/watchfix.png
+Architecture: iphoneos-arm64
+Version: 2.1
+Installed-Size: 5248
+Filename: debs/com.mlgm.watchfix-2.1-rootless.deb
+Size: 823456
+MD5sum: beab7702b6ecdbe48c5d5d223a871ced
+SHA1: 
+SHA256: fc9fbab78146c8e0daddc150d73206f272b39e38230b91e737f95bb4c9660b41
 
 Package: com.monian.b612patch
 Name: B612 Unlocked VIP
