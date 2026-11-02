@@ -12611,6 +12611,40 @@ MD5sum: 8a072f0b7d3be383ea757374013d312c
 SHA1: 
 SHA256: b7b7b1e8acaa45dd26ae17de44fc1c8caa1d5d94cdeea45863cc7f82de97e27b
 
+Package: com.crctdd.sharingx
+Name: SharingX
+Description: iOS17接收隔空投送弹出系统分享面板 (照片/视频 除外)，不直接跳转；无设置项。(仅iOS 17.0+使用)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 17.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 92
+icon: https://huayuarc.github.io/icon/sharingx.jpg
+Filename: debs/com.crctdd.sharingx-0.0.3-roothide.deb
+Size: 9112
+MD5sum: 03d4da4c10e156dd8daa93dc77ac9f4a
+SHA1: 
+SHA256: 7817a0a3b6fd0987e96eff48e5e6fdde8a3e555c056e4ce0c217327752b33cf3
+
+Package: com.crctdd.sharingx
+Name: SharingX
+Description: iOS17接收隔空投送弹出系统分享面板 (照片/视频 除外)，不直接跳转；无设置项。(仅iOS 17.0+使用)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 17.0), firmware (<< 18.0)
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 204
+icon: https://huayuarc.github.io/icon/sharingx.jpg
+Filename: debs/com.crctdd.sharingx-0.0.3-rootless.deb
+Size: 11992
+MD5sum: 961cdddce71bca50587fc73b51057bf0
+SHA1: 
+SHA256: 737732469f5f78ce872b36175be8f85caddeadfe7f24e3821af0db573e3825c6
+
 Package: com.crctdd.shorbar
 Name: ShortBar
 Depends: mobilesubstrate, preferenceloader
@@ -52078,6 +52112,44 @@ Size: 2029232
 MD5sum: 54f9cb646469b297a31aeee061b8f33c
 SHA1: 
 SHA256: fa84173fd0c9f97ff8da7bc106d85db289aca2b1fe393cccc39c81c8b31a35f8
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://hongguo.goforit.si
+Architecture: iphoneos-arm64e
+Version: 2.2.0
+Installed-Size: 5068
+icon: https://huayuarc.github.io/icon/hongguo.png
+Filename: debs/hongguofn-2.2.0-roothide.deb
+Size: 2193204
+MD5sum: 379bc67e85c6a9e73cb28b40f8d9ccf5
+SHA1: 
+SHA256: 97903072683a8266d73e6244342d8ba108800878ba9680cec9c8b0078c82f81f
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://hongguo.goforit.si
+Architecture: iphoneos-arm64
+Version: 2.2.0
+Installed-Size: 5052
+icon: https://huayuarc.github.io/icon/hongguo.png
+Filename: debs/hongguofn-2.2.0-rootless.deb
+Size: 2197520
+MD5sum: 8ad003c006e35b2826f3d96dce8a45d8
+SHA1: 
+SHA256: feb076211a651365345ab3d61ce57fcccf9f8a328b571a3f5d9b8daddbd7f846
 
 Package: hypicfix
 Name: 醒图国际版修复工具
