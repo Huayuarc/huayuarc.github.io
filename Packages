@@ -6196,6 +6196,40 @@ MD5sum: f312ea23e2b01e980a24f9214814710b
 SHA1: 
 SHA256: 17541e9315b2bc4d362f253c74defe1013da9dcc1ab77d362af8ececdc05fe08
 
+Package: com.bsnh.touch3ddeblur
+Name: Touch3DDeblur
+Description: 3D Touch 长按图标弹出菜单时去除背景毛玻璃模糊，仅保留轻微灰色变暗，关闭时平滑渐隐
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 196
+icon: https://huayuarc.github.io/icon/touch3ddeblur.jpg
+Filename: debs/com.bsnh.touch3ddeblur-1.0-roothide.deb
+Size: 5564
+MD5sum: e20d7a24f64e7dde4a7d2633badde988
+SHA1: 
+SHA256: 34a894882ad4e9ce0b786b8d3b08873167ea023b4cfecfd1d501eaf4552ee695
+
+Package: com.bsnh.touch3ddeblur
+Name: Touch3DDeblur
+Description: 3D Touch 长按图标弹出菜单时去除背景毛玻璃模糊，仅保留轻微灰色变暗，关闭时平滑渐隐
+Maintainer: 半生年华
+Author: 半生年华
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 196
+icon: https://huayuarc.github.io/icon/touch3ddeblur.jpg
+Filename: debs/com.bsnh.touch3ddeblur-1.0-rootless.deb
+Size: 5324
+MD5sum: 5a65b6d5cbb537fe482c237832283bad
+SHA1: 
+SHA256: 10bd20cb6c236f099189aaf10cde2359df85e32196cb551a9da4ee18720bbc43
+
 Package: com.bvm.wuzeililiang
 Name: 乌贼本地离线授权
 Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
@@ -18485,6 +18519,44 @@ Size: 157188
 MD5sum: 02a0ea9cd3da8136749e2def9c6c3316
 SHA1: 
 SHA256: 880d338cec7ec30a2a2067837abb524549d3cf91be7fd83556b4c93c38edcd21
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Architecture: iphoneos-arm64e
+Version: 1.6.2-160+isolation.41
+Installed-Size: 2432
+Filename: debs/com.huayuarc.cputhermal-1.6.2-160+isolation.41-roothide.deb
+Size: 179540
+MD5sum: b500d0d3210bf0eefab5afb6c6cb22b4
+SHA1: 
+SHA256: 13d0f1278d0619f711b694d9567482444a5471a7e2f82f129de83579d393b449
+
+Package: com.huayuarc.cputhermal
+Name: CPU 解除温控
+Author: Huayuarc
+Description: CPUthermal temperature policy, smart charge and dynamic settings with full Hello 120Hz 3.3.3-3 port: preferred 10/30/60/80/120 FPS, global injection, application exclusions, debug HUD and system recording hooks. Requires AltList. Based on isolation.16 SpringBoard stability candidate.
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+Maintainer: Huayuarc
+Section: Tweaks
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Architecture: iphoneos-arm64
+Version: 1.6.2-160+isolation.41
+Installed-Size: 2432
+Filename: debs/com.huayuarc.cputhermal-1.6.2-160+isolation.41-rootless.deb
+Size: 179700
+MD5sum: a3a1c9f22c0e1d4a75408ad7d5153077
+SHA1: 
+SHA256: b4f273559eb72f906a81d36b7d1c4136682351755bce7feae9e420e7eb738aa0
 
 Package: com.huayuarc.facedownlock
 Name: 设备朝下自动锁屏
@@ -43919,6 +43991,98 @@ MD5sum: 18ea28a69e4a6d97ef21b123702b99db
 SHA1: 
 SHA256: ad0230e7c3ded3d6108cebe8dcf36e5bbfaf8379cc12941ffe48fa308ef8f967
 
+Package: com.snapbackup
+Name: SnapBackup 备份恢复
+Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
+ 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
+ .
+ 【核心功能】
+ - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
+ - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
+ - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
+ - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有者
+ .
+ 【恢复流程】
+ - 独立 root helper 校验备份完整性、包元数据与架构，依赖由 Sileo 处理
+ - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安装
+ - 备份结果支持多选恢复，自动处理 Sileo 获取及本地重新安装入队
+ - 可跳过已安装插件，独立入口批量选择本地 deb 加入 Sileo 队列
+ - 失败插件可单独重试并补入原备份，支持查看与复制工具错误日志
+ - 外观支持浅色、深色及跟随系统，自动记住选择
+ - Sileo 内仍支持多选 deb、导入文件夹与 SnapBackup 待恢复任务
+ - 使用 Sileo 原生安装队列；恢复插件与恢复配置为独立按钮
+ - 可单独恢复备份配置，也可按 Sileo 任务核验安装结果后恢复对应配置
+ - 保留恢复日志与配置覆盖前的副本
+ .
+ 【操作流程】
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包
+ ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安装
+ .
+ RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
+ 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
+Author: kanuo
+Maintainer: kanuo
+dev: kanuo
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
+Icon: https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.snapbackup.json
+Architecture: iphoneos-arm64e
+Version: 3.8.4
+Installed-Size: 648
+Filename: debs/com.snapbackup-3.8.4-roothide.deb
+Size: 1120788
+MD5sum: 594aad366fb57ba02ff665824699e00c
+SHA1: 
+SHA256: 1389d1fd188b59c1fc6b28254f5a2192574cbd5e7fb849ca87fdf741afed7328
+
+Package: com.snapbackup
+Name: SnapBackup 备份恢复
+Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
+ 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
+ .
+ 【核心功能】
+ - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
+ - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
+ - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
+ - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有者
+ .
+ 【恢复流程】
+ - 独立 root helper 校验备份完整性、包元数据与架构，依赖由 Sileo 处理
+ - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安装
+ - 备份结果支持多选恢复，自动处理 Sileo 获取及本地重新安装入队
+ - 可跳过已安装插件，独立入口批量选择本地 deb 加入 Sileo 队列
+ - 失败插件可单独重试并补入原备份，支持查看与复制工具错误日志
+ - 外观支持浅色、深色及跟随系统，自动记住选择
+ - Sileo 内仍支持多选 deb、导入文件夹与 SnapBackup 待恢复任务
+ - 使用 Sileo 原生安装队列；恢复插件与恢复配置为独立按钮
+ - 可单独恢复备份配置，也可按 Sileo 任务核验安装结果后恢复对应配置
+ - 保留恢复日志与配置覆盖前的副本
+ .
+ 【操作流程】
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包
+ ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安装
+ .
+ RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
+ 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
+Author: kanuo
+Maintainer: kanuo
+dev: kanuo
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
+Icon: https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.snapbackup.json
+Architecture: iphoneos-arm64
+Version: 3.8.4
+Installed-Size: 648
+Filename: debs/com.snapbackup-3.8.4-rootless.deb
+Size: 1121004
+MD5sum: 27c87ca704ce9cbabdcd553de9109e98
+SHA1: 
+SHA256: d3447ee71164d5ae7f82d8ea2b4e4ab673b776923a3cef94c3973355089bf1bb
+
 Package: com.spark.ccmusicartwork
 Name: CCMusicArtwork
 Depends: mobilesubstrate
@@ -46875,6 +47039,42 @@ MD5sum: 9bdf638f026369596d730464380cdbae
 SHA1: 
 SHA256: 02966352d1a7d2fe1734f488bb30bb341485193b7a7842d02f59e1c35978d07a
 
+Package: com.tsangbaby.galaxy
+Name: Galaxy
+Description: Independent circular app launcher for iOS 15 and later.
+Maintainer: Tsangbaby
+Author: Tsangbaby
+Section: Tweaks
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+Depends: firmware (>= 15.0), preferenceloader
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+Architecture: iphoneos-arm64e
+Version: 0.5.3
+Installed-Size: 2852
+Filename: debs/com.tsangbaby.galaxy-0.5.3-roothide.deb
+Size: 621244
+MD5sum: a71f9cba53a41f7f58042bce21be2d5f
+SHA1: 
+SHA256: 54bff94bcf3811d3f94c4af640b73c6d9d3d546024557fd3a89f23071e295142
+
+Package: com.tsangbaby.galaxy
+Name: Galaxy
+Description: Independent circular app launcher for iOS 15 and later.
+Maintainer: Tsangbaby
+Author: Tsangbaby
+Section: Tweaks
+Icon: https://tsangbaby.github.io/Icon/Galaxy.png
+Depends: firmware (>= 15.0), preferenceloader
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.galaxy/depiction.json
+Architecture: iphoneos-arm64
+Version: 0.5.3
+Installed-Size: 2852
+Filename: debs/com.tsangbaby.galaxy-0.5.3-rootless.deb
+Size: 620692
+MD5sum: 737f65509b53b18698639abd92bbf48d
+SHA1: 
+SHA256: b0d03bdb7bce34aacf71ba1e79a12d64a77b7bab8e05c7c55ab426eb1f15fc38
+
 Package: com.tsangbaby.kayoko
 Name: Kayoko
 Description: Kayoko 剪切板，Tsangbaby 基于 mlgm 版进行二次修改
@@ -47986,6 +48186,50 @@ Size: 671736
 MD5sum: c6c6d423aa2c36552ed54b6606b2e71a
 SHA1: 
 SHA256: 4775598bbe55271e4b948768df7ed1632e69b8c0529a2e610806269a0893b9fa
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X
+Version: 2.4.0
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64e
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+Filename: debs/com.tsangbaby.pulloverx-2.4.0-roothide.deb
+Size: 677492
+MD5sum: d8c85d9c11c7668b7c47b1717d6b5cbf
+SHA1: 
+SHA256: 0bd817cb233c8005c24b1637c20a16985d24abbac28e7c4a1778ebfd1ae9467a
+
+Package: com.tsangbaby.pulloverx
+Name: PullOver X
+Version: 2.4.0
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro
+Priority: optional
+Architecture: iphoneos-arm64
+Author: Tsangbaby
+dev: Tsangbaby
+Icon: https://tsangbaby.github.io/Icon/Pullover-X.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/depiction.json
+Maintainer: Tsangbaby
+Depiction: https://tsangbaby.github.io/depictions/com.tsangbaby.pulloverx/
+Filename: debs/com.tsangbaby.pulloverx-2.4.0-rootless.deb
+Size: 679008
+MD5sum: 7bd9537984aa53f9e1a1cf619f5a7f16
+SHA1: 
+SHA256: 5848472faf4149e09d1f4fe1ee77c827232e4632bfe69d2acc4e02a7eb5105cb
 
 Package: com.tsangbaby.pulloverx
 Name: PullOver X 分屏
@@ -58197,6 +58441,50 @@ Size: 22673652
 MD5sum: d2895858cb75a251d9ebde4a50796f36
 SHA1: 
 SHA256: 28e64736aac289389f84bd5d068e8d301b38d626efcff885863b2a08200d1a8d
+
+Package: wiki.qaq.apelin
+Name: Apelin
+Version: 0.3.4
+Architecture: iphoneos-arm64e
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Installed-Size: 96260
+Filename: debs/wiki.qaq.apelin-0.3.4-roothide.deb
+Size: 22689624
+MD5sum: c7f7bd07f8d57a73e8d8944c35c7885d
+SHA1: 
+SHA256: 5a13ec0b4bd62547c5112cf78f607e31b69c6a90addce68ca10a742a3060ab2d
+
+Package: wiki.qaq.apelin
+Name: Apelin
+Version: 0.3.4
+Architecture: iphoneos-arm64
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Installed-Size: 96260
+Filename: debs/wiki.qaq.apelin-0.3.4-rootless.deb
+Size: 22697268
+MD5sum: db7a9ddaa5b7d73e0c38052f2df01b53
+SHA1: 
+SHA256: 90caddba29867c937420522ead4f6d55b27eea12de11c571cb49502410382e9f
 
 Package: wiki.qaq.apelin.agent-tools.assembler
 Name: Apelin Assembler
