@@ -5324,6 +5324,46 @@ MD5sum: 6b4155452c8518a9c4a332dedfe16096
 SHA1: 
 SHA256: f10794e7ae5dc4d969e5c4ce322e791785f61a2d105bd05dbde44a8a20fe0c25
 
+Package: com.banana.trollpadex
+Name: TrollPadEx
+Description: 为 iPhone 带来更灵活的多任务、窗口与外接显示体验。Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Maintainer: Banana
+Author: khanhduytran0 & Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Provides: com.kdt.trollpad
+Architecture: iphoneos-arm64e
+Version: 2.0.7
+Installed-Size: 704
+icon: https://huayuarc.github.io/icon/TrollPad.png
+Filename: debs/com.banana.trollpadex-2.0.7-roothide.deb
+Size: 65728
+MD5sum: ded55b60e8029194df7e374ebb0fd6a2
+SHA1: 
+SHA256: dd306b9f06366f6a016dbf1fa14e91c0328b52cee5dc3df94a7eb398c10ac1cf
+
+Package: com.banana.trollpadex
+Name: TrollPadEx
+Description: 为 iPhone 带来更灵活的多任务、窗口与外接显示体验。Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Maintainer: Banana
+Author: khanhduytran0 & Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Provides: com.kdt.trollpad
+Architecture: iphoneos-arm64
+Version: 2.0.7
+Installed-Size: 704
+icon: https://huayuarc.github.io/icon/TrollPad.png
+Filename: debs/com.banana.trollpadex-2.0.7-rootless.deb
+Size: 66444
+MD5sum: 008e94edc8f4bfec948dd4b36e87890e
+SHA1: 
+SHA256: c9ae857fbe130cb1d485dde9ea31e9c12ef6b4e8c7f56807d42f060324bace43
+
 Package: com.banshengnianhua.tracex
 Name: TraceX
 Description: 可选择目标 App 的原生交互与函数入口追踪工具。记录触摸/View 层级、UIControl 与手势 target/action、页面跳转、NSURLSession/WKWebView 请求和外部 URL。只有明确开启的普通用户 App 才加载重型追踪核心；系统/越狱 App 不加载 TraceXCore。每次目标 App 新进程启动都会重置 Documents/TraceX.log。
@@ -25967,6 +26007,42 @@ MD5sum: 62fb580d045b436f45de9081471c115c
 SHA1: 
 SHA256: d06b69437901ce6332d045adfc1d6de75706b31f603f3cd5687d0b280a492e3c
 
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64e
+Version: 1.3.4
+Installed-Size: 4116
+Filename: debs/com.mlgm.actra-1.3.4-roothide.deb
+Size: 817176
+MD5sum: 5f201662e3bd6256b2033a05d68be76d
+SHA1: 
+SHA256: 080ecbab6b99884563492f16e535e33719b12c2032f8f5db02ff9eb7dcdec649
+
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64
+Version: 1.3.4
+Installed-Size: 4112
+Filename: debs/com.mlgm.actra-1.3.4-rootless.deb
+Size: 816396
+MD5sum: 09eb15f6c734e49a6703a0d4dcb04f6b
+SHA1: 
+SHA256: 120238e5fbe02d2c57a97a9850cbb0454b99cfd740aecd31a2679cda10c66476
+
 Package: com.mlgm.appdata
 Name: AppData
 Section: Tweaks
@@ -26078,6 +26154,42 @@ Size: 31187320
 MD5sum: 3cd2903b1051b92fb04a671e2ca60175
 SHA1: 
 SHA256: abc933e787f2cbc96ad4bd57d69fc7fd84129582c942fd5324b9069bddbc9896
+
+Package: com.mlgm.clippa
+Name: Clippa
+Description: 截图与悬浮贴图工具。
+Section: System
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Installed-Size: 36724
+Filename: debs/com.mlgm.clippa-1.0.4-roothide.deb
+Size: 31183208
+MD5sum: 0c7aa8d2e46d2bee35d7fd641c7a8bf4
+SHA1: 
+SHA256: dfe8cf2f5df858570c853e22d2a1c3222a45df3fbb049a6300ee6fc7846cc3ec
+
+Package: com.mlgm.clippa
+Name: Clippa
+Description: 截图与悬浮贴图工具。
+Section: System
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Installed-Size: 36728
+Filename: debs/com.mlgm.clippa-1.0.4-rootless.deb
+Size: 31184788
+MD5sum: 1ebfbb9beced105b4a8b548f809d4acb
+SHA1: 
+SHA256: 77511ffcf7c2291928422bcc8bd210c3463840aac9595d3e5749c3e39a07b0c1
 
 Package: com.mlgm.clone
 Name: Clone
@@ -26352,6 +26464,40 @@ Size: 2531120
 MD5sum: 74642ecf7ed3949d5bd63b8bc4fd7388
 SHA1: 
 SHA256: 117ada8d8bf126c72f3d9bc9a47aaafb7c6cb10924a72b9eb1ebae7cd59aadb6
+
+Package: com.mlgm.idata
+Name: iData
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0), apt, dpkg
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64e
+Version: 1.3.5
+Installed-Size: 8252
+Filename: debs/com.mlgm.idata-1.3.5-roothide.deb
+Size: 2475464
+MD5sum: e29084e2752f06025ffc6c7bb0c49056
+SHA1: 
+SHA256: 4147a6e9d0ebb1f065ffed45a738268a3f4bc840ba9b29d1b3f07b3fb1b1e58f
+
+Package: com.mlgm.idata
+Name: iData
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0), apt, dpkg
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64
+Version: 1.3.5
+Installed-Size: 8252
+Filename: debs/com.mlgm.idata-1.3.5-rootless.deb
+Size: 2475800
+MD5sum: f07f3ac27fc18b4df04d0736a6a88996
+SHA1: 
+SHA256: f7227ac0de9fe07c9a5f1c7a35c806204c1d4a9d04f3619deab4cc9d2f28231a
 
 Package: com.mlgm.ilog
 Name: iLog
@@ -27224,6 +27370,66 @@ Size: 824044
 MD5sum: f15d21ff55b93425de6027c11d8b8c00
 SHA1: 
 SHA256: 263ffbceff07cc3b8363f8bfd0a1f74775f9358fef5de38b4ec830e2b0542396
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm
+Version: 5.1.1
+Installed-Size: 3896
+Filename: debs/com.mlgm.kayoko-5.1.1-rootful.deb
+Size: 827312
+MD5sum: 9ef90b48bae1400daee6a742664e6488
+SHA1: 
+SHA256: 5c30efdc1661688124a1aaa7b0173bd5731b2e4c866630de7be57a65bf77785d
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.1.1
+Installed-Size: 3864
+Filename: debs/com.mlgm.kayoko-5.1.1-roothide.deb
+Size: 813828
+MD5sum: 7f3db8bad10201975aed1e7ecf16b102
+SHA1: 
+SHA256: 0251f2d3ed659592c156bc9eb7618210cd1c02cf0f1ed66ef6195270511440ef
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64
+Version: 5.1.1
+Installed-Size: 3896
+Filename: debs/com.mlgm.kayoko-5.1.1-rootless.deb
+Size: 826036
+MD5sum: 8bef8a20a1aac09217744ec256414f8c
+SHA1: 
+SHA256: 18e2f7bd0fcbeaa1966db366eea1f0826c01163671f10031c2555f42e7b4cab2
 
 Package: com.mlgm.prefnest
 Name: PrefNest
@@ -34316,6 +34522,46 @@ Size: 648060
 MD5sum: 1cd8357361e636763f11ddef1eb4cfeb
 SHA1: 
 SHA256: d2d43a6544b25cc600fb6cf9bcc23f040011aa08003ae1c51e93d5c54fc0f05c
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.432
+Installed-Size: 4632
+Filename: debs/com.qq391160.cpucore-2.0.432-roothide.deb
+Size: 717164
+MD5sum: 6bffc87a17d8658fbaa51ec6fea3432d
+SHA1: 
+SHA256: 15ad2107b009cfb19aa63fec4557cf37551f5ae8ca60307001662b6eaba17b80
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64
+Version: 2.0.432
+Installed-Size: 4360
+Filename: debs/com.qq391160.cpucore-2.0.432-rootless.deb
+Size: 648296
+MD5sum: 9171176f1c3865a2303decc753ed4a4f
+SHA1: 
+SHA256: 713ec0600734060fac2eee36230dc954230d5a9524bfa6f3d5f0329b14fb6273
 
 Package: com.qq391160.cpucore
 Name: CPU智能温控(iOS16/17)
@@ -51378,6 +51624,40 @@ MD5sum: 4b84432505300863dd8aa72a11dcf0dc
 SHA1: 
 SHA256: 6d776c21c2af600ea3dc291265d0bba4f17c7dcf677a9caaa9f6cfe995704b6c
 
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.6
+Architecture: iphoneos-arm64e
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 247
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+Filename: debs/dev.owngoal.settingsorganizer-0.0.6-roothide.deb
+Size: 60056
+MD5sum: 8af310a227cd26c1ea8be1fa5b9c481f
+SHA1: 
+SHA256: 2e720d004721d03af66547324b39727c2704dcfaa5057421af3bcdaedaac1d3f
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.0.6
+Architecture: iphoneos-arm64
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 505
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+Filename: debs/dev.owngoal.settingsorganizer-0.0.6-rootless.deb
+Size: 71980
+MD5sum: c7a548bae5f01fd2dfe414da9ff9645d
+SHA1: 
+SHA256: 2cd755efc5fc1d6c88845db049e0af1c8d463ff61ff0ddcf041529c14e9c9a07
+
 Package: dylv.deepliquid
 Name: Ai 液态玻璃
 Description: 深度优化的液态玻璃效果，智能帧率控制 + 全局数量预算，告别发烫
@@ -57780,6 +58060,26 @@ MD5sum: 22804fd1899fdd0210e9de1980e5ac89
 SHA1: 
 SHA256: b009abda7c5f8e345a2e047b2b40a789bf49e9a35b83e4910d0215eedabd9ec9
 
+Package: org.mlgm.sileo
+Name: Sileo
+Version: 2.5.1-18
+Author: Amy While <me@anamy.gay>
+Maintainer: Amy While <me@anamy.gay>
+Description: A modern APT package manager frontend
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Conflicts: org.coolstar.sileo
+Replaces: org.coolstar.sileo
+Provides: org.coolstar.sileo (= 2.5.1-18)
+Section: Packaging
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+Filename: debs/org.mlgm.sileo-2.5.1-18-roothide.deb
+Size: 3113492
+MD5sum: 72ccfec335cc4ed0f170e7f91ec5766f
+SHA1: 
+SHA256: f033602c3e216d2b1eff486ee5865d10dee41282a77c4a7047ea16ab45d32c8d
+
 Package: org.shallowdream.dockpages
 Version: 1.0.1
 Architecture: iphoneos-arm64e
@@ -58083,44 +58383,42 @@ SHA256: c0653e5ab4ddb50b418dcc8a7a37914406555500f38c77030e18ac6f65bd1edf
 
 Package: re.frida.server
 Name: Frida
-Version: 17.9.10
+Version: 17.25.1
 Priority: optional
-Size: 15978496
-Installed-Size: 52524
+Installed-Size: 78466
 Architecture: iphoneos-arm64e
 Description: Observe and reprogram running programs.
 Homepage: https://frida.re/
 Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
 Author: Frida Developers <oleavr@nowsecure.com>
-Section: Tweaks
+Section: Development
 Conflicts: re.frida.server64
-Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/frida.jpg
-Filename: debs/re.frida.server-17.9.10-roothide.deb
-Size: 14960276
-MD5sum: 2e9b392db211af48f649ace093d04cb7
+Filename: debs/re.frida.server-17.25.1-roothide.deb
+Size: 23534004
+MD5sum: 4c4e8685fe7b4397777b0c58c5ba8939
 SHA1: 
-SHA256: b99cb162b5b6638ffc5a8c8eb4e7b668f3d8b2a188118c1690583cbc858ae16b
+SHA256: a6d28897af871bbf6ec835ae40d9132ecf148c2222c6935ec717f5c2764e6a99
 
 Package: re.frida.server
 Name: Frida
-Version: 17.9.10
+Version: 17.25.1
 Priority: optional
-Size: 15978496
-Installed-Size: 52524
+Size: 23547904
+Installed-Size: 78484
 Architecture: iphoneos-arm64
 Description: Observe and reprogram running programs.
 Homepage: https://frida.re/
 Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
 Author: Frida Developers <oleavr@nowsecure.com>
-Section: Tweaks
+Section: Development
 Conflicts: re.frida.server64
 icon: https://huayuarc.github.io/icon/frida.jpg
-Filename: debs/re.frida.server-17.9.10-rootless.deb
-Size: 15225596
-MD5sum: 44278c6977b0b5c7dd7be70c1fe06ed8
+Filename: debs/re.frida.server-17.25.1-rootless.deb
+Size: 23492320
+MD5sum: e8b36bebaf9abc141925e2899664abbf
 SHA1: 
-SHA256: b3432a3f8b9eadf545d92d0f1d4ed79549831892b07f6409cac1e3a2fe945f5d
+SHA256: a7acb46b21d36cc2436a32c48f06bd131052345581ecda8141c6e73c386ef188
 
 Package: spoofnotify
 Name: 通知权限伪装
