@@ -2075,6 +2075,57 @@ MD5sum: 5260729de2b051536e9157e970b9b8bd
 SHA1: 
 SHA256: e77ff170d55d583525b21e7fc9c9040b3e2a8ed51170abe6018b6d0dc1b93508
 
+Package: cn.qwq.wxrelay
+Name: WxRelay
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Description: 微信通知转发/回复，支持系统通知和微信消息，全程本地运行，不上报任何东西。设置-WxRelay 配置，即时生效。
+Maintainer: 777qwq
+Author: 777qwq
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.4.0
+Installed-Size: 1116
+icon: https://huayuarc.github.io/icon/wxrelay.png
+Filename: debs/cn.qwq.wxrelay-1.4.0-rootful.deb
+Size: 169232
+MD5sum: c655ef01751acdb0065c559af638ebb4
+SHA1: 
+SHA256: c790c275b584d920e9dbb8be209d75d9da9d28d73a723fb69d5c43e4dc16320d
+
+Package: cn.qwq.wxrelay
+Name: WxRelay
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Description: 微信通知转发/回复，支持系统通知和微信消息，全程本地运行，不上报任何东西。设置-WxRelay 配置，即时生效。
+Maintainer: 777qwq
+Author: 777qwq
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.4.0
+Installed-Size: 1076
+icon: https://huayuarc.github.io/icon/wxrelay.png
+Filename: debs/cn.qwq.wxrelay-1.4.0-roothide.deb
+Size: 166424
+MD5sum: a68e6f3d228520850c5623996c5bc9db
+SHA1: 
+SHA256: 3a25fd6e0215c3406fa33a591073627b0e235b90ea4913515fc3f1517ce2232e
+
+Package: cn.qwq.wxrelay
+Name: WxRelay
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Description: 微信通知转发/回复，支持系统通知和微信消息，全程本地运行，不上报任何东西。设置-WxRelay 配置，即时生效。
+Maintainer: 777qwq
+Author: 777qwq
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.4.0
+Installed-Size: 1116
+icon: https://huayuarc.github.io/icon/wxrelay.png
+Filename: debs/cn.qwq.wxrelay-1.4.0-rootless.deb
+Size: 168412
+MD5sum: cd2929600510da282d5b61644a0ca5c2
+SHA1: 
+SHA256: ee6b3a806f43fbb5e82b52a61a693ffa7a19ac1bc1155f61dce1821821f095af
+
 Author: Tinyapps.cn
 Maintainer: BigBoss
 Name: AntiTracker(查岗报警器)-Alerts you when tracked by others in real time
