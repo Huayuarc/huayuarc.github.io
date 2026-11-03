@@ -23728,6 +23728,75 @@ MD5sum: b507a7fe16579af68833f30df1f9adb2
 SHA1: 
 SHA256: a16fb9191fd30188e38655816fbb36c35cba24eb3b829f33767f0e83df5f576b
 
+Package: com.kernelrw.adytumpro
+Version: 3.0
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: Kernelrw <drtramadolmorphine@gmail.com>
+Author: Kernelrw <drtramadolmorphine@gmail.com>
+Installed-Size: 2757
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.opa334.ccsupport, preferenceloader
+Conflicts: com.sergy.immortalizer, com.sergy.immortalizerjailed, com.sergy.immortalizers, com.dao.immortalizer, com.evgeniy.immortalizerreborn, xyz.cypwn.immortalizer
+Name: Adytum
+Description: Adytum为现代越狱设备提供了真正的应用程序背景管理。它具有四种背景模式，您可以从3D Touch/Haptic Touch上下文菜单或从调整设置页面中作为应用程序选择来分配：
+ * 防止终止模式：即使在内存压力下，iOS也永远不会关闭受保护的应用程序。（谨慎使用此功能，随机启用许多应用程序可能会使您的设备内存耗尽-严重系统延迟-经常在烤面包横幅中触发内存警告。）
+ * 防止暂停模式：启用的应用程序的行为就像它们在前台运行一样（应用程序永远不会被暂停）。非常适合文件上传/下载、听音乐或任何您想要的目的。
+ * 快速冻结模式：在应用程序离开前景时立即冻结，并在您想要时返回到您离开的点，无需重新加载。在调整设置中，您有一个10秒的滑块来控制FF延迟。
+ * 组合PT+FF模式：立即冻结启用的应用程序，并将其放入内存中，以防止终止的应用程序。
+ * 其他功能：
+ * 吐司通知横幅：从3D触摸上下文菜单更改任何应用程序的任何状态，将触发一个漂亮的吐司横幅，其中包含激活状态和应用程序名称。
+ * 全局系统旁路：如果您遇到任何应用程序的问题（奇怪的行为），此功能将目标应用程序排除在4种保护模式之外。
+ * 配置文件备份：作为调整设置中的一项操作，导出和导入所有受保护应用程序的整个配置，并使用所有4种保护模式，并在稍后随时恢复它们（对于那些经常恢复rootfs的人）。
+ * 清除：从调整设置中安全地清除未受管理的后台应用程序，以在没有Respring的情况下应用新模式。
+ * 操作日志：如果启用，将记录4种保护模式和全局旁路的所有背景事件。
+ * 内存压力保护：警告将显示在烤面包横幅中，要么缩放分配，要么降低保护，以保留内存并避免系统滞后。
+ * 已知问题（无法解决的问题）：
+ * Facebook：首次应用“防止终止”时，v561+可能会启动到黑屏。重置应用程序数据或重新安装应用程序将永远解决此问题。
+ * WhatsApp：使用“防止终止”或“组合模式”定位WhatsApp，只有在从“防止终止状态返回应用程序且其他受保护的应用程序在应用程序切换器中”的情况下，才会使应用程序闪烁黑屏。使用其他模式定位WhatsApp是安全的，而且效果很好。
+ * 多场景应用：Safari 浏览器等多场景应用可能需要重新启动用户空间才能正确实现“防止终止”。
+Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
+Tag: compatible_min::ios15.0
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.kernelrw.adytumpro-3.0-roothide.deb
+Size: 282084
+MD5sum: d7f2080063543a614048b386d3a9bafa
+SHA1: 
+SHA256: 25a90bd551a78fc4a7b1cbae320245eaaef942dc81c351d22217d8b7ff244253
+
+Package: com.kernelrw.adytumpro
+Version: 3.0
+Architecture: iphoneos-arm64
+Section: Tweaks
+Maintainer: Kernelrw <drtramadolmorphine@gmail.com>
+Author: Kernelrw <drtramadolmorphine@gmail.com>
+Installed-Size: 2757
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.altlist, com.opa334.ccsupport, preferenceloader
+Conflicts: com.sergy.immortalizer, com.sergy.immortalizerjailed, com.sergy.immortalizers, com.dao.immortalizer, com.evgeniy.immortalizerreborn, xyz.cypwn.immortalizer
+Name: Adytum
+Description: Adytum为现代越狱设备提供了真正的应用程序背景管理。它具有四种背景模式，您可以从3D Touch/Haptic Touch上下文菜单或从调整设置页面中作为应用程序选择来分配：
+ * 防止终止模式：即使在内存压力下，iOS也永远不会关闭受保护的应用程序。（谨慎使用此功能，随机启用许多应用程序可能会使您的设备内存耗尽-严重系统延迟-经常在烤面包横幅中触发内存警告。）
+ * 防止暂停模式：启用的应用程序的行为就像它们在前台运行一样（应用程序永远不会被暂停）。非常适合文件上传/下载、听音乐或任何您想要的目的。
+ * 快速冻结模式：在应用程序离开前景时立即冻结，并在您想要时返回到您离开的点，无需重新加载。在调整设置中，您有一个10秒的滑块来控制FF延迟。
+ * 组合PT+FF模式：立即冻结启用的应用程序，并将其放入内存中，以防止终止的应用程序。
+ * 其他功能：
+ * 吐司通知横幅：从3D触摸上下文菜单更改任何应用程序的任何状态，将触发一个漂亮的吐司横幅，其中包含激活状态和应用程序名称。
+ * 全局系统旁路：如果您遇到任何应用程序的问题（奇怪的行为），此功能将目标应用程序排除在4种保护模式之外。
+ * 配置文件备份：作为调整设置中的一项操作，导出和导入所有受保护应用程序的整个配置，并使用所有4种保护模式，并在稍后随时恢复它们（对于那些经常恢复rootfs的人）。
+ * 清除：从调整设置中安全地清除未受管理的后台应用程序，以在没有Respring的情况下应用新模式。
+ * 操作日志：如果启用，将记录4种保护模式和全局旁路的所有背景事件。
+ * 内存压力保护：警告将显示在烤面包横幅中，要么缩放分配，要么降低保护，以保留内存并避免系统滞后。
+ * 已知问题（无法解决的问题）：
+ * Facebook：首次应用“防止终止”时，v561+可能会启动到黑屏。重置应用程序数据或重新安装应用程序将永远解决此问题。
+ * WhatsApp：使用“防止终止”或“组合模式”定位WhatsApp，只有在从“防止终止状态返回应用程序且其他受保护的应用程序在应用程序切换器中”的情况下，才会使应用程序闪烁黑屏。使用其他模式定位WhatsApp是安全的，而且效果很好。
+ * 多场景应用：Safari 浏览器等多场景应用可能需要重新启动用户空间才能正确实现“防止终止”。
+Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
+Tag: compatible_min::ios15.0
+Filename: debs/com.kernelrw.adytumpro-3.0-rootless.deb
+Size: 294732
+MD5sum: 67e43e4a70917cadc3adee2a51bc2dc6
+SHA1: 
+SHA256: 2dbb9eec47c74502b8f414e129ab953955894c8ec503bd00ddb65bbd456a7676
+
 Package: com.layii.ccrnd
 Name: 去除录屏三秒倒计时
 Description: 去除录屏延迟
