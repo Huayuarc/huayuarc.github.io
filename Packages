@@ -24281,6 +24281,44 @@ MD5sum: 91fa4398c43b1bd559e4acfc57641fe6
 SHA1: 
 SHA256: 4973a4f1e3e8435d67bc2eae1033904a80b9849063fe53e385e35aa93dec5f88
 
+Package: com.lindo.mubx
+Name: MUBX
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Description: 参考 TypeX 和 Kayoko 实现两个插件的功能，超级键盘增强
+Maintainer: lindo
+Author: lindo
+Section: Tweaks
+Conflicts: com.restiveconch.actionbar,com.udevs.dockx,com.lindo.dockx,com.muzi.kayoko,com.lindo.typex
+Icon: https://udevsharold.github.io/repo/depictions/com.lindo.mubx/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.lindo.mubx
+Architecture: iphoneos-arm64e
+Version: 1.0.7
+Installed-Size: 4316
+Filename: debs/com.lindo.mubx-1.0.7-roothide.deb
+Size: 1104640
+MD5sum: 3d21c51eb90ca98ff709086a4ccf626e
+SHA1: 
+SHA256: 6348410e61298a9df3a823623b3ed66a30c59df5c73b1ec969f63d0f425482d2
+
+Package: com.lindo.mubx
+Name: MUBX
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Description: 参考 TypeX 和 Kayoko 实现两个插件的功能，超级键盘增强
+Maintainer: lindo
+Author: lindo
+Section: Tweaks
+Conflicts: com.restiveconch.actionbar,com.udevs.dockx,com.lindo.dockx,com.muzi.kayoko,com.lindo.typex
+Icon: https://udevsharold.github.io/repo/depictions/com.lindo.mubx/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.lindo.mubx
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Installed-Size: 4332
+Filename: debs/com.lindo.mubx-1.0.7-rootless.deb
+Size: 1112316
+MD5sum: 1bd8874794c2317f84584a2409c0f231
+SHA1: 
+SHA256: 6f7549dc281e6bdd1fd58154b4babe6d42bebcf8e1c9c6591cb606e8fd9c57d6
+
 Package: com.linkwifi.wifikey
 Name: WiFi万能钥匙 Pro
 Version: 2.3.0-1
@@ -55768,6 +55806,40 @@ Size: 17220
 MD5sum: 5c4e9bbf111d7e86fad1e752f5e56839
 SHA1: 
 SHA256: d5c3872bf168ad08aa14995e77439b29b08e32d61f98593296aa68bdf612c431
+
+Package: iya.banana.ios27animation
+Name: iOS27 Animation
+Description: 为iOS15-18带来iOS27风格的系统动画。iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 3448
+icon: https://huayuarc.github.io/icon/ios27animation.png
+Filename: debs/iya.banana.ios27animation-1.0.1-roothide.deb
+Size: 829580
+MD5sum: 5e0dc76bbb7bb10ee11d774928b44c53
+SHA1: 
+SHA256: 563821053f2cee007338d2f04b5650c85dcabe263e6de44397656ce3ee84af28
+
+Package: iya.banana.ios27animation
+Name: iOS27 Animation
+Description: 为iOS15-18带来iOS27风格的系统动画。iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 3448
+icon: https://huayuarc.github.io/icon/ios27animation.png
+Filename: debs/iya.banana.ios27animation-1.0.1-rootless.deb
+Size: 831820
+MD5sum: d3ac35eb0341f2e3004f4b7bd55c808e
+SHA1: 
+SHA256: a92faac576cccf277be9b1f98f708928d5a0b46963f86e367b8a16b184ef7f30
 
 Package: iya.banana.iphoneduoflow
 Name: DuoFlow
