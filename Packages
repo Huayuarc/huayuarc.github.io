@@ -44166,6 +44166,40 @@ MD5sum: 3b6fc98a9277f5292cd4f0c64b4644c9
 SHA1: 
 SHA256: 451e4884ee3a00a8cdaf4a27555f02016ffa6c3e91bfcccb70b70ebd255e0d28
 
+Package: com.sini921.reachplayer
+Name: ReachPlayer 便捷访问
+Description: 在便捷访问模式上方的空白处增加音乐控制器，基于开源优化编译。
+Maintainer: Muzi
+Author: ETHN & SINI & 鲨鱼
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/reachplayer.png
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.26-6
+Installed-Size: 3348
+Filename: debs/com.sini921.reachplayer-2.26-6-roothide.deb
+Size: 2536080
+MD5sum: a463b13c35413e57e39516f4b34c7187
+SHA1: 
+SHA256: 7aa694df6ffae0771923c7cc250c09ab7a1f229bb58100c57942e6c211e07c1c
+
+Package: com.sini921.reachplayer
+Name: ReachPlayer 便捷访问
+Description: 在便捷访问模式上方的空白处增加音乐控制器，基于开源优化编译。
+Maintainer: Muzi
+Author: ETHN & SINI & 鲨鱼
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/reachplayer.png
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.26-6
+Installed-Size: 3348
+Filename: debs/com.sini921.reachplayer-2.26-6-rootless.deb
+Size: 2538448
+MD5sum: fb3cede3bc7de64a7d43ee93ee752e67
+SHA1: 
+SHA256: 5f045d6e95cd5e32a6283069a52e17afe2d705901fbaa06964c626e1ed6fb489
+
 Package: com.sini921.removequickactionsbutton
 Name: RemoveQuickActionsButton
 Description: 隐藏锁屏界面的相机与手电筒
@@ -44542,6 +44576,56 @@ Size: 3587480
 MD5sum: 9168d7b559aff23311e60aae751b58e0
 SHA1: 
 SHA256: 5cf9e2be5fadbe900000ea2734dfa515cb022bbda87c6870c9add4101364f754
+
+Package: com.snail.allowlocationonce.roothide
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Name: 位置自动允许一次-roothide // AllowLocationOnce-roothide
+Description: 地理位置请求弹窗，自动"允许一次"。 // When Location request pop-up, Automatically "Allow once".
+ .
+ > 此为roothide版本，不要安装错了哦~
+ > 此插件默认注入SpringBoard，无需在Bootstrap打开任何APP，只需保证Serotonin注入桌面正常即可。
+ .
+ * 修复在某些软件中未生效的问题，如在App Store等。
+ * 支持Rootless。
+ * 支持iOS14-15，支持xinaA15。
+ * 支持iOS 16 Bootstrap+Serotonin。
+Depends: mobilesubstrate
+Installed-Size: 304
+Section: Tweaks
+Author: Snail <mu514983786@gmail.com>
+icon: https://huayuarc.github.io/icon/allowlocationonce.jpg
+Maintainer: moss <moss@local>
+Filename: debs/com.snail.allowlocationonce.roothide-1.0.2-roothide.deb
+Size: 64644
+MD5sum: b49f2f8e2c8749761dd05fcf111f8489
+SHA1: 
+SHA256: a3712123f9dcf857a7a46f9b7149445655ca40f366711bf3724d7b9970ab20ce
+
+Package: com.snail.allowlocationonce.rootless
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Name: 位置自动允许一次-rootless // AllowLocationOnce-rootless
+Description: 地理位置请求弹窗，自动"允许一次"。 // When Location request pop-up, Automatically "Allow once".
+ .
+ > 此为rootless版本，不要安装错了哦~
+ > 此插件默认注入SpringBoard，无需在Bootstrap打开任何APP，只需保证Serotonin注入桌面正常即可。
+ .
+ * 修复在某些软件中未生效的问题，如在App Store等。
+ * 支持Rootless。
+ * 支持iOS14-15，支持xinaA15。
+ * 支持iOS 16 Bootstrap+Serotonin。
+Depends: mobilesubstrate
+Installed-Size: 304
+Section: Tweaks
+Author: Snail <mu514983786@gmail.com>
+icon: https://huayuarc.github.io/icon/allowlocationonce.jpg
+Maintainer: moss <moss@local>
+Filename: debs/com.snail.allowlocationonce.rootless-1.0.2-rootless.deb
+Size: 63992
+MD5sum: 1d50002c846c5adf3192c2ec51970693
+SHA1: 
+SHA256: b5d620dc25e61879ffa66d261b537d93945dacfc80eb060b76650db123533476
 
 Package: com.snail.doubletaptolock.roothide
 Version: 1.0.0
@@ -57308,6 +57392,41 @@ MD5sum: a255a97465f822dc7cf880896b1203a4
 SHA1: 
 SHA256: 46874d941c2426891b7542cbb08a217191dd375bc16220816d2c742d00f92006
 
+Package: lilliana.accent
+Name: Accent Reborn
+Description: 可让你在整个系统和应用程序中更改强调色。更高效的自定义重音版本，因为它只读取一次偏好设置，而不是多次读取 Change accent colours systemwide 
+Maintainer: Paisseon
+Author: Paisseon
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 12.2), ws.hbang.alderis (>= 1.2)
+icon: https://huayuarc.github.io/icon/accent.png
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 580
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/lilliana.accent-0.0.2-roothide.deb
+Size: 76088
+MD5sum: 6832196d46695679d40b738869dc4a9e
+SHA1: 
+SHA256: 04c189ebf1cfb8347272caeb97e9dd60d4ea1bf25b5732ba4d1a784efb0a73e9
+
+Package: lilliana.accent
+Name: Accent Reborn
+Description: 可让你在整个系统和应用程序中更改强调色。更高效的自定义重音版本，因为它只读取一次偏好设置，而不是多次读取 Change accent colours systemwide 
+Maintainer: Paisseon
+Author: Paisseon
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 12.2), ws.hbang.alderis (>= 1.2)
+icon: https://huayuarc.github.io/icon/accent.png
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Installed-Size: 580
+Filename: debs/lilliana.accent-0.0.2-rootless.deb
+Size: 78052
+MD5sum: be1ff425916aef726f63c309221992a4
+SHA1: 
+SHA256: 4d003d543f081d12f31ede51aeba79f4b939ee1bf321625d9a67d5a79f16d0a7
+
 Package: lilliana.filzacrack
 Name: FilzaCrack
 Description: An awesome Jinx tweak!
@@ -58930,6 +59049,41 @@ MD5sum: 54973b19be5fcdcfe863ea3abb193ffa
 SHA1: 
 SHA256: 0df5b0bb35064444aa5f3465672bab12369d33bf9cab17e42b64ca008b5f14ab
 
+Package: netskao.picsartcrack
+Version: 1.1-5
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64e
+Installed-Size: 376
+Name: PicsArt Crack
+Author: Netskao
+Description: PicsArt美易解锁全功能，仅支持中国区20.7.9及以上版本
+icon: https://huayuarc.github.io/icon/picsartcrack.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/netskao.picsartcrack-1.1-5-roothide.deb
+Size: 89440
+MD5sum: e694c4470f0b110fd1d17aeaf150d73b
+SHA1: 
+SHA256: 460898ed815a9c37293317629b09656737cd44c5741f775ac2fd4ea16cf4f737
+
+Package: netskao.picsartcrack
+Version: 1.1-5
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Architecture: iphoneos-arm64
+Installed-Size: 376
+Name: PicsArt Crack
+Author: Netskao
+Description: PicsArt美易解锁全功能，仅支持中国区20.7.9及以上版本
+icon: https://huayuarc.github.io/icon/picsartcrack.jpg
+Filename: debs/netskao.picsartcrack-1.1-5-rootless.deb
+Size: 89348
+MD5sum: 198fc37a89fd353a0c3611cad9f2c7bb
+SHA1: 
+SHA256: 6c5cc83821f9df5cf037b5f9b743524faecfc7b2f5f01553c6882219eb51e64f
+
 Package: netskao.ppxnoads
 Version: 1.5-5
 Section: Tweaks
@@ -59109,6 +59263,40 @@ Size: 23724096
 MD5sum: 529689b89412f1d0f4790b12b198185b
 SHA1: 
 SHA256: 0a164b0cd193771e45c6a9d07dff182c63df7e338a86daeaac345a0743947c65
+
+Package: nolowpowermode30secautolock
+Name: 解除低电量30秒锁屏限制
+Depends: mobilesubstrate
+Description: 在低功耗模式下本地调整自动锁定间隔.
+Maintainer: Brend0n <brendonjkding@126.com>
+Author: Brend0n
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 152
+icon: https://huayuarc.github.io/icon/nolowpowermode30.jpg
+Filename: debs/nolowpowermode30secautolock-1.0-roothide.deb
+Size: 4268
+MD5sum: fbba6f8ae7c65c4b46c12a2bd2a28231
+SHA1: 
+SHA256: e48630847807e8f87f11c99208cf2b07a6e43dcaf82085cc5cc464ca0764d453
+
+Package: nolowpowermode30secautolock
+Name: 解除低电量30秒锁屏限制
+Depends: mobilesubstrate
+Description: 在低功耗模式下本地调整自动锁定间隔.
+Maintainer: Brend0n
+Author: Brend0n
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/nolowpowermode30.jpg
+Filename: debs/nolowpowermode30secautolock-1.0-rootless.deb
+Size: 3952
+MD5sum: 86b87879ccdb3d9cbf2db874d5e5c838
+SHA1: 
+SHA256: 3bf04b60d1b3611770ead1d104f4093ba9f7c7c19a46e6d3ee1a2a786af18064
 
 Architecture: iphoneos-arm64
 Author: Evelyn
