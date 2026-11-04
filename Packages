@@ -12370,40 +12370,6 @@ MD5sum: 4b7bcb3cb3d031a17a8247699417b8a9
 SHA1: 
 SHA256: 90252dc10c0b8e3a94e0a952e60559a936d4fc0204f1875ec0ba49b3abfdf793
 
-Package: com.colorblack.xcfnoad
-Name: XCFNoAd
-Depends: mobilesubstrate
-Description: Disable Splash Ads in Xiachufang.
-Maintainer: colorblack
-Author: colorblack
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.0.0-8+debug
-Installed-Size: 176
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.colorblack.xcfnoad_1.0.0-8+debug_iphoneos-arm64e.deb
-Size: 7152
-MD5sum: fcc965ff030fcf61e9332d16a42352e2
-SHA1: 
-SHA256: 99bbb3633268885c7af1954fccd9fb751d13704fa69b0a10c3a60bfce5d33ad0
-
-Package: com.colorblack.xcfnoad
-Name: XCFNoAd
-Depends: mobilesubstrate
-Description: Disable Splash Ads in Xiachufang.
-Maintainer: colorblack
-Author: colorblack
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.0.0-9+debug
-Installed-Size: 176
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.colorblack.xcfnoad_1.0.0-9+debug_iphoneos-arm64.deb
-Size: 7224
-MD5sum: fa01e5d7032ec3b5fa00e5ff1c15998d
-SHA1: 
-SHA256: a72251a6e4679dea71b187fef87a0700959a73a0e4f998102412d25de75aa09b
-
 Package: com.colorblack.xiaoxiongyouhao.nosplashad
 Name: 小熊油耗 NoAd
 Description: 移除小熊油耗启动开屏广告，测试版本号 3.8.3 感兴趣可加 QQ群：205928931
@@ -12439,7 +12405,7 @@ SHA1:
 SHA256: 3e5c472cb5cc1089823c66f803f74822d8213f9d8237abec718d1e759ffbb517
 
 Package: com.colorblack.youdaoyunbiji
-Name: youdaoyunbiji-NoAd
+Name: 有道云笔记 NoAds
 Depends: mobilesubstrate
 Description: 有道云笔记启动屏广告跳过插件，适配隐根(RootHide) , 
 Maintainer: colorblack
@@ -12448,15 +12414,15 @@ Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 0.0.1-10+debug
 Installed-Size: 172
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.colorblack.youdaoyunbiji_0.0.1-10+debug_iphoneos-arm64e.deb
-Size: 7600
-MD5sum: 02254b93fbfc68c378a87d19b9fb5ac9
+icon: https://huayuarc.github.io/icon/youdaoyunbiji.jpg
+Filename: debs/com.colorblack.youdaoyunbiji-0.0.1-10+debug-roothide.deb
+Size: 7588
+MD5sum: ded2f5d2bc9960ecf6d9f5b60ca4bd5b
 SHA1: 
-SHA256: d17c7877cd079cf09783fbdf76933c69f1896a69ca6f6c5ec87f4c0322b96064
+SHA256: 71e91b6281a098a41ab697e47985504ddc9c055681740bfe821705ffa42725bd
 
 Package: com.colorblack.youdaoyunbiji
-Name: youdaoyunbiji-NoAd
+Name: 有道云笔记 NoAds
 Depends: mobilesubstrate
 Description: 有道云笔记启动屏广告跳过插件，适配隐根(RootHide) , 
 Maintainer: colorblack
@@ -12465,12 +12431,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 0.0.1-11+debug
 Installed-Size: 172
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.colorblack.youdaoyunbiji_0.0.1-11+debug_iphoneos-arm64.deb
-Size: 7660
-MD5sum: 7cf3437090fd7620e34ef3629543f7ec
+icon: https://huayuarc.github.io/icon/youdaoyunbiji.jpg
+Filename: debs/com.colorblack.youdaoyunbiji-0.0.1-11+debug-rootless.deb
+Size: 7652
+MD5sum: 62a12c8c6ac3b6043918a318e772f5f4
 SHA1: 
-SHA256: 5e1219bf7e56b21ebd2079d948071827a6ced8ff8f16eeb6984b54662c0b61b5
+SHA256: d8417aa4b77032d1ac50330dd0372207efbc66ad584a41c77c5fcf6a98569820
 
 Package: com.cpdigitaldarkroom.itsevanesco
 Name: Evanesco!
@@ -13263,6 +13229,42 @@ Size: 65332
 MD5sum: 688e498b0416c703f51276704d44c5cd
 SHA1: 
 SHA256: bc9a978118c4240e79eb183bd90b90447dd5dd39bd4cb64a8308d5683e2422ad
+
+Package: com.crctdd.memtrim
+Name: MemTrim
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Homepage: https://crctdd.github.io/repo/
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Installed-Size: 464
+icon: https://huayuarc.github.io/icon/memtrim.png
+Filename: debs/com.crctdd.memtrim-0.0.3-roothide.deb
+Size: 54516
+MD5sum: 98c93b8f7480366ea2e9b4bfc334fdae
+SHA1: 
+SHA256: d5f16776c58e49cbdca0f3c4077b262be39e0ad5f6b4cb0854ac3f44f2438106
+
+Package: com.crctdd.memtrim
+Name: MemTrim
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Homepage: https://crctdd.github.io/repo/
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Installed-Size: 992
+icon: https://huayuarc.github.io/icon/memtrim.png
+Filename: debs/com.crctdd.memtrim-0.0.3-rootless.deb
+Size: 69404
+MD5sum: a3434f345f6e61ec137f7b4f28a68a1b
+SHA1: 
+SHA256: d662888ec2903588ee7f4cbb3f4581e5ebaae3a87ce2931aedf46bb551c1136c
 
 Package: com.crctdd.mobileslideshowhook
 Name: 系统相册视频进度条
@@ -19821,20 +19823,18 @@ Provides: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfi
 Conflicts: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
 Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
 Section: Tweaks
-Description: Preserve custom icon layouts by Springboard Crash or reboots etc  Springboard 崩溃或重启等情况下保留自定义图标布局
-Depiction: https://cydia.ichitaso.com/depiction/iconorder.html
-SileoDepiction: https://cydia.ichitaso.com/depiction/iconorder.json
-Homepage: https://ichitaso.com/
+Description: 崩溃或重启等情况下保留自定义图标布局 Preserve custom icon layouts by Springboard Crash or reboots etc  Springboard
 dev: ichitaso
 Tag: purpose::extension, compatible_min::ios12.0, compatible_max::ios18.2
 Architecture: iphoneos-arm64e
 Version: 1.0.4
 Installed-Size: 168
+icon: https://huayuarc.github.io/icon/iconorder.jpg
 Filename: debs/com.ichitaso.iconorder-1.0.4-roothide.deb
-Size: 8616
-MD5sum: 6eb0820f5ea99df466b42fb686b071d2
+Size: 8584
+MD5sum: 315c52fe717f621c9c75f89775666682
 SHA1: 
-SHA256: 9a6f55622891e60c1873e2c37fef68b36c4c798f7f8115ecee9f10fe5732f7bb
+SHA256: 406772bf94409ff84fa35f091ec5cf82913a57b32119ee9c24df3de0e8243efe
 
 Author: ichitaso
 Maintainer: Havoc
@@ -19846,20 +19846,18 @@ Provides: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfi
 Conflicts: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
 Replaces: me.nepeta.iconstate, com.chpwn.iconsupport, com.muirey03.iconsupportfix, com.ryannair05.gridiculousfix, com.ichitaso.iconanus
 Section: Tweaks
-Description: Preserve custom icon layouts by Springboard Crash or reboots etc 在 Springboard 崩溃或重启等情况下保留自定义图标布局
-Depiction: https://cydia.ichitaso.com/depiction/iconorder.html
-SileoDepiction: https://cydia.ichitaso.com/depiction/iconorder.json
-Homepage: https://ichitaso.com/
+Description: 崩溃或重启等情况下保留自定义图标布局 Preserve custom icon layouts by Springboard Crash or reboots etc  Springboard
 dev: ichitaso
 Tag: purpose::extension, compatible_min::ios12.0, compatible_max::ios18.2
 Architecture: iphoneos-arm64
 Version: 1.0.4
 Installed-Size: 168
+icon: https://huayuarc.github.io/icon/iconorder.jpg
 Filename: debs/com.ichitaso.iconorder-1.0.4-rootless.deb
-Size: 8328
-MD5sum: b0e9c3cde1af557267381b93b8867b69
+Size: 8316
+MD5sum: 5e803ab5b638f332218dd59d3b41bb42
 SHA1: 
-SHA256: 5245dbc61a1dc11dc552b3ff0b5381d1f17d1082756157da87b2f83482c19a3d
+SHA256: d18b1d11492a0a83364c118eede426948804f4dc6d04563d88f7a578f8c80921
 
 Package: com.icli.icli
 Name: icli
@@ -20016,41 +20014,6 @@ Size: 3688
 MD5sum: d54972f089de6a829717df167c94ca24
 SHA1: 
 SHA256: 9d0563361d57738c896c811a700122e65f26092c68bd1c290d1e54ddc4076703
-
-Package: com.imkpatil.nooldernotificationstext
-Name: NoOlderNotificationsText
-Depends: mobilesubstrate
-Description: Hide that annoying 'No Older Notifications' Text!
-Maintainer: P2KDev <p2kdev@gmail.com>
-Author: P2KDev <p2kdev@gmail.com>
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.2.3
-Installed-Size: 168
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.imkpatil.nooldernotificationstext_1.2.3_iphoneos-arm64.deb
-Size: 2880
-MD5sum: 62d65c1bb955d1897c4063cb839bae9e
-SHA1: 
-SHA256: 3af74949fae984e1bbbdf6a558eabe371c592eb92ee56279b04844777ae00f86
-
-Package: com.imkpatil.nooldernotificationstext
-Name: NoOlderNotificationsText
-Depends: mobilesubstrate
-Description: Hide that annoying 'No Older Notifications' Text!
-Maintainer: P2KDev <p2kdev@gmail.com>
-Author: P2KDev <p2kdev@gmail.com>
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.2.3
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.imkpatil.nooldernotificationstext_1.2.3_iphoneos-arm64e.deb
-Size: 2824
-MD5sum: 7a2f3538f43730ac6343f06e69f55e52
-SHA1: 
-SHA256: d3fa8852ce5a30cc0324a75267a32c9f5de1d0dfc269baa5f8af44d920e3b2a6
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.initnil.flreadercrack
 Package: com.initnil.flreadercrack
@@ -24289,16 +24252,15 @@ Maintainer: lindo
 Author: lindo
 Section: Tweaks
 Conflicts: com.restiveconch.actionbar,com.udevs.dockx,com.lindo.dockx,com.muzi.kayoko,com.lindo.typex
-Icon: https://udevsharold.github.io/repo/depictions/com.lindo.mubx/icon/icon.png
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.lindo.mubx
 Architecture: iphoneos-arm64e
 Version: 1.0.7
 Installed-Size: 4316
+icon: https://huayuarc.github.io/icon/mubx.png
 Filename: debs/com.lindo.mubx-1.0.7-roothide.deb
-Size: 1104640
-MD5sum: 3d21c51eb90ca98ff709086a4ccf626e
+Size: 1102640
+MD5sum: b6185b1a4d54f35fc551782b8505a9b4
 SHA1: 
-SHA256: 6348410e61298a9df3a823623b3ed66a30c59df5c73b1ec969f63d0f425482d2
+SHA256: d541bb03141e3f8e9fc938c317935561d19988e488c967f5f3b2fb3524f1251a
 
 Package: com.lindo.mubx
 Name: MUBX
@@ -24308,16 +24270,15 @@ Maintainer: lindo
 Author: lindo
 Section: Tweaks
 Conflicts: com.restiveconch.actionbar,com.udevs.dockx,com.lindo.dockx,com.muzi.kayoko,com.lindo.typex
-Icon: https://udevsharold.github.io/repo/depictions/com.lindo.mubx/icon/icon.png
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.lindo.mubx
+icon: https://huayuarc.github.io/icon/mubx.png
 Architecture: iphoneos-arm64
 Version: 1.0.7
 Installed-Size: 4332
 Filename: debs/com.lindo.mubx-1.0.7-rootless.deb
-Size: 1112316
-MD5sum: 1bd8874794c2317f84584a2409c0f231
+Size: 1113392
+MD5sum: 7e3b2b7a3ae49e0c70c0fba6a14a8ffa
 SHA1: 
-SHA256: 6f7549dc281e6bdd1fd58154b4babe6d42bebcf8e1c9c6591cb606e8fd9c57d6
+SHA256: ee29c8ac901f4141803f0780b071807b468a096fdaba78e2848281cfc4871f8b
 
 Package: com.linkwifi.wifikey
 Name: WiFi万能钥匙 Pro
@@ -29886,17 +29847,16 @@ Description: 定时静音/取消静音插件，可在设置中配置时间、静
 Maintainer: Muzi
 Author: Muzi
 Section: Tweaks
-Icon: https://muzikeji.github.io/Sileo/icons/mutescheduler.png
-Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.muzi.mutescheduler.json
+icon: https://huayuarc.github.io/icon/mutescheduler.png
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Installed-Size: 440
 Filename: debs/com.muzi.mutescheduler-1.0.1-roothide.deb
-Size: 59128
-MD5sum: c61db8862bd05bb6db84e2d43cdbdb6e
+Size: 59132
+MD5sum: 334a695826e68ac9c36b3d9c68128b8f
 SHA1: 
-SHA256: 68a93d938c7b19edf05a0a360ed203d9d1cd32fcc9b4045f961c2769d11be5d9
+SHA256: 9453bf64990db6f100340836380e77adfa39f643b2770010d280ebca11865e28
 
 Package: com.muzi.mutescheduler
 Name: MuteScheduler 定时静音
@@ -29904,17 +29864,16 @@ Description: 定时静音/取消静音插件，可在设置中配置时间、静
 Maintainer: Muzi
 Author: Muzi
 Section: Tweaks
-Icon: https://muzikeji.github.io/Sileo/icons/mutescheduler.png
-Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.muzi.mutescheduler.json
+icon: https://huayuarc.github.io/icon/mutescheduler.png
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
 Version: 1.0.1
 Installed-Size: 440
 Filename: debs/com.muzi.mutescheduler-1.0.1-rootless.deb
-Size: 59252
-MD5sum: 6ca6c74f7cc2efe68916a6bfeb6c66f5
+Size: 59204
+MD5sum: 91101777c260c6791bf1270e4dd48b23
 SHA1: 
-SHA256: 855cfae6d7c6bacee6c84778f90b7134477493c0a981c3aecbf02bdbb4665dff
+SHA256: 2ca486ec47dce7e1c17e32d4c8a569be20169fc2f45660073234590ec99aa952
 
 Package: com.muzi.mutool
 Name: MUtool(roothide)
@@ -32245,45 +32204,6 @@ MD5sum: 37ea7f89b767c8de302e08156e5c58c7
 SHA1: 
 SHA256: d492fb1a5b0ea8db22762a4efd9e15ffcc0999dff5f3abdddda924753a21793c
 
-SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.noappthinning
-Package: com.netskao.noappthinning
-Conflicts: it.ned.noappthinning
-Name: NoAppThinning
-Description: Disable AppStore app thinning - by level3tjg, Disable TestFlight app thinning - by Netskao
-Depends: firmware (>= 15.0), mobilesubstrate
-Author: Netskao
-Maintainer: Netskao
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.4
-Installed-Size: 168
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.noappthinning_1.4_iphoneos-arm64.deb
-Size: 4140
-MD5sum: bf7763a00684cb3b246c8ea65a5412e7
-SHA1: 
-SHA256: 0c11423449b37843f6c9c4b558b28988eff0043e5844fb48893e6f671206c33b
-
-SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.noappthinning
-Package: com.netskao.noappthinning
-Conflicts: it.ned.noappthinning
-Name: NoAppThinning
-Description: Disable AppStore app thinning - by level3tjg, Disable TestFlight app thinning - by Netskao
-Depends: firmware (>= 15.0), mobilesubstrate
-Author: Netskao
-Maintainer: Netskao
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.4
-Installed-Size: 168
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.noappthinning_1.4_iphoneos-arm64e.deb
-Size: 4304
-MD5sum: b00a8c6670f3037bc8042110d1f6e0ad
-SHA1: 
-SHA256: b20776e4793c8e6eab1a611c60dafc4a8b4949cf3c5ca75184201e14d0fdcf60
-
 Package: com.netskao.perfectgrabber
 Name: Ntonia-PreferenceLoader 横屏游戏下拉
 Description: 在横屏游戏下拉一次时显示时间和电量（某些游戏不规范会无法唤出），支持自定义字体颜色，背景颜色，字体大小，字体样式，震动反馈等
@@ -32457,25 +32377,6 @@ MD5sum: 2a306048c326881d7ae0ed8a368104f3
 SHA1: 
 SHA256: b9cbe7055076e6f2ac8047de9e44e92fd9dd841f94ee57e48a337e956f3e9f6a
 
-SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.wcmypageinfocenter
-Package: com.netskao.wcmypageinfocenter
-Name: WCMyPageInfoCenter
-Depends: mobilesubstrate, firmware (>= 13.0)
-Description: WeChat My Page Info Center, Supported only for version 8.0.31 and above
-Author: Netskao
-Maintainer: Nets
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 1.2-2
-Installed-Size: 220
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.wcmypageinfocenter_1.2-2_iphoneos-arm64.deb
-Size: 66484
-MD5sum: 90719550b141487dff3359e5b34621cf
-SHA1: 
-SHA256: b7ce440ce5c279c66b860831368be7a74e54ffc5d6ade60e5be941798f22db95
-
-SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.wcmypageinfocenter
 Package: com.netskao.wcmypageinfocenter
 Name: WCMyPageInfoCenter
 Depends: mobilesubstrate, firmware (>= 13.0)
@@ -32487,12 +32388,29 @@ Architecture: iphoneos-arm64e
 Version: 1.2-2
 Installed-Size: 220
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.netskao.wcmypageinfocenter_1.2-2_iphoneos-arm64e.deb
-Size: 66660
-MD5sum: c107ff67e22165cef8aed58e060e49c1
+icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.netskao.wcmypageinfocenter-1.2-2-roothide.deb
+Size: 66632
+MD5sum: 6bc0f9a1a19fda1901f1397f0cd0674d
 SHA1: 
-SHA256: 57bcfbfdebd2ca508911d49781cc21b547bfa8f708d0eb23c1fd8ba6be88de87
+SHA256: 6293f2562e6fa6053842cf0c545df47055ac2b24cf14b6099df13217824ae462
+
+Package: com.netskao.wcmypageinfocenter
+Name: WCMyPageInfoCenter
+Depends: mobilesubstrate, firmware (>= 13.0)
+Description: WeChat My Page Info Center, Supported only for version 8.0.31 and above
+Author: Netskao
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Installed-Size: 220
+icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.netskao.wcmypageinfocenter-1.2-2-rootless.deb
+Size: 66460
+MD5sum: a519c4e2da4e73ff9805ee4e82685038
+SHA1: 
+SHA256: be095aa698372d175153b66ce5db6602f31881978d74c6b43005a511d9b72b08
 
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.wctimelinereplacefind
 Package: com.netskao.wctimelinereplacefind
@@ -32541,13 +32459,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 1.3.14-launch-flicker-fix-zh
 Installed-Size: 29440
-Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+icon: https://huayuarc.github.io/icon/26home.png
 Filename: debs/com.ngkhoi.26home-1.3.14-launch-flicker-fix-zh-roothide.deb
-Size: 20548580
-MD5sum: a607573ab503de91a7da272fecab681a
+Size: 20550260
+MD5sum: 682f52e6a01387d1d96ee3d50af38a41
 SHA1: 
-SHA256: 479f316d91f1014b547de1942fad6a45aee18858cb36f9de0ceeb868e2cda480
+SHA256: f05650a8582ab93eb5dae22d3c72ad3892bbd5e940e397c390eaaad4efbdaf4b
 
 Package: com.ngkhoi.26home
 Name: 26Home
@@ -32559,13 +32476,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.3.14-launch-flicker-fix-zh
 Installed-Size: 29440
-Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+icon: https://huayuarc.github.io/icon/26home.png
 Filename: debs/com.ngkhoi.26home-1.3.14-launch-flicker-fix-zh-rootless.deb
-Size: 20552200
-MD5sum: 4a4428b3d9239fd30e30eabc41109ec4
+Size: 20551444
+MD5sum: fffa65c86908eb2d4eeca1080066ce97
 SHA1: 
-SHA256: c430b993846a05fdd7670814e9c067369647382efbc5a01fa772001dd0989e71
+SHA256: d5ae5b2ba960aca7c3826b5f5334eace49568c7334e40c024be365eac675c6da
 
 Package: com.ngkhoi.26home
 Name: 26Home
@@ -32577,13 +32493,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 1.3.7-clear-icon-controls-zh
 Installed-Size: 29340
-Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+icon: https://huayuarc.github.io/icon/26home.png
 Filename: debs/com.ngkhoi.26home-1.3.7-clear-icon-controls-zh-roothide.deb
-Size: 20523052
-MD5sum: 52d30935c5f569f81cdad121139f15ef
+Size: 20520720
+MD5sum: 352bb50ae8d550ae891aeae74fe7b5e9
 SHA1: 
-SHA256: 4d98dc037baa9ae3c323702fb942fbcc81d6b737c67fd0bf172ed5421cfe494d
+SHA256: 98db8617afa6dca65a74c3ced7fc788dde3a91e58c3473b93438d4aaddfd4989
 
 Package: com.ngkhoi.26home
 Name: 26Home
@@ -32595,13 +32510,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.3.7-clear-icon-controls-zh
 Installed-Size: 29340
-Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+icon: https://huayuarc.github.io/icon/26home.png
 Filename: debs/com.ngkhoi.26home-1.3.7-clear-icon-controls-zh-rootless.deb
-Size: 20519968
-MD5sum: 55ae61da0489ff3bd8c646baaa7bba95
+Size: 20519960
+MD5sum: 4cf24f6ca4ea071e9ac48c1ce44deeea
 SHA1: 
-SHA256: ef9e2b9117697484add0c6fd9f28e2b0664215ef77e820c76cc5622e2c445fa7
+SHA256: 69b49e1d179788e40bbe407c61bdc7200db326b5a59da916f4b0eebb5dfe6c00
 
 Package: com.ngkhoi.26home
 Name: 26Home
@@ -32613,13 +32527,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 1.3.8-cutout-custom-icon-zh
 Installed-Size: 29408
-Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+icon: https://huayuarc.github.io/icon/26home.png
 Filename: debs/com.ngkhoi.26home-1.3.8-cutout-custom-icon-zh-roothide.deb
-Size: 20544184
-MD5sum: 9a28628510c594f0fb50675c115bc764
+Size: 20543216
+MD5sum: df76ff56dacdb8a9c4392ff7ca806775
 SHA1: 
-SHA256: 2aeb6b54cd2f8ccfc7a5806dd8b4fc195c6a28e52601ed1b3d3b0eced20a350c
+SHA256: 42aca80ae9ba69d9360e2315e29a675bde9f5e0e645f7c225c22f552b3c35911
 
 Package: com.ngkhoi.26home
 Name: 26Home
@@ -32631,13 +32544,12 @@ Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 1.3.8-cutout-custom-icon-zh
 Installed-Size: 29408
-Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+icon: https://huayuarc.github.io/icon/26home.png
 Filename: debs/com.ngkhoi.26home-1.3.8-cutout-custom-icon-zh-rootless.deb
-Size: 20543140
-MD5sum: 1a253da4f63e47735b4cd007a59861a5
+Size: 20542868
+MD5sum: 31322fc4ca85a70a2433ab06abf21d87
 SHA1: 
-SHA256: 521f8517b221ee75fe93c076bf11edcc1af846e98c4202c83434e7e3a5462728
+SHA256: 38a3e42cb3b2ccbac0898a7add3f4c835aa983c98366011804d8aa4dd5388f2f
 
 Package: com.nightwind.boldersreborn
 Version: 1.1.2
@@ -34105,7 +34017,7 @@ SHA1:
 SHA256: b21e7490a9400b582fcb93080b82a23c1c1b11872f1869b3db2a067d525eb2b8
 
 Package: com.qianuo.morrorlyrics
-Name: MorrorLyrics Data Bridge
+Name: MorrorLyrics 全屏歌词
 Description: Isolated music lyrics, playback clock, artwork and audio spectrum bridge, with independent native low-power mini island and Settings source selector.
 Maintainer: qianuo
 Author: qianuo
@@ -34114,11 +34026,13 @@ Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64e
 Version: 0.8.25
 Installed-Size: 1672
+Icon: https://jimkanuo.github.io/apt-repo/depictions/morrorlyrics/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.morrorlyrics.json
 Filename: debs/com.qianuo.morrorlyrics-0.8.25-roothide.deb
-Size: 303280
-MD5sum: ef38a2dbb7c0bed260ced007d5bc2f69
+Size: 303456
+MD5sum: 4d022329ae152aee060a3bfc40f66c24
 SHA1: 
-SHA256: a88f3929702511ac34c2900291c45e12834245c03db439215dfd39e10373f4e2
+SHA256: 065a9a945f8cf8394ff7074b1ea0b9bf324f46ee9268e724d10226397a346ed6
 
 Package: com.qianuo.morrorlyrics
 Name: MorrorLyrics 全屏歌词
@@ -34133,13 +34047,13 @@ Installed-Size: 2088
 Icon: https://jimkanuo.github.io/apt-repo/depictions/morrorlyrics/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.morrorlyrics.json
 Filename: debs/com.qianuo.morrorlyrics-0.8.25-rootless.deb
-Size: 343448
-MD5sum: 39f969e1837066a57a7df0be27e53c12
+Size: 344212
+MD5sum: feee1753c7a87f1ac5d1f9b0ae945c2d
 SHA1: 
-SHA256: 833dcdf8c28d2fb6ad04bc3caaedccaceb9afad9d598301054523bd7fe290409
+SHA256: e4802ff0bfada97dba69391d6f01a77d7fe192dfeb3d0411d30a67e89d7c1f81
 
 Package: com.qianuo.smartdeck.app
-Name: SmartDeck App
+Name: SmartDeck App 独立桌面
 Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
 Maintainer: kanuo
 Author: kanuo
@@ -34149,16 +34063,16 @@ Conflicts: com.qianuo.smartdeck
 Architecture: iphoneos-arm64e
 Version: 0.7.12
 Installed-Size: 1112
-Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v2.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
+Icon: https://jimkanuo.github.io/apt-repo/depictions/smartdeck/icon-v3.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.smartdeck.json
 Filename: debs/com.qianuo.smartdeck.app-0.7.12-roothide.deb
-Size: 207172
-MD5sum: 5ad0e7825d450e3e59ee063411c70e07
+Size: 206972
+MD5sum: 2f1ca6fcda00f0c0cabf80072c944e71
 SHA1: 
-SHA256: 183c700bb1e244a510aff7adbcb6a9a035d74dd51fc475ef7f1d32a70c852cb2
+SHA256: a2300c0cdfe4101dfc70ccf6e3beaf672481e6710e531eaac7d3f17566305288
 
 Package: com.qianuo.smartdeck.app
-Name: SmartDeck App
+Name: SmartDeck App 独立桌面
 Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
 Maintainer: kanuo
 Author: kanuo
@@ -34168,16 +34082,16 @@ Conflicts: com.qianuo.smartdeck
 Architecture: iphoneos-arm64
 Version: 0.7.12
 Installed-Size: 1112
-Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v2.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
+Icon: https://jimkanuo.github.io/apt-repo/depictions/smartdeck/icon-v3.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.smartdeck.json
 Filename: debs/com.qianuo.smartdeck.app-0.7.12-rootless.deb
-Size: 207356
-MD5sum: e34b39591428c0fd2d4d25eb320cc18f
+Size: 207040
+MD5sum: 6f3ff9330fb6c64035c861fbae7ef8ea
 SHA1: 
-SHA256: 20b75d70262285e61214239b482b587ce307c80e1ce07af94b29ab4a16f3de2d
+SHA256: 96d111791acd1da9481610c202a45e8d17ec52b54f033b86ced5c5f7367fb617
 
 Package: com.qianuo.smartdeck.app
-Name: SmartDeck App
+Name: SmartDeck App 独立桌面
 Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
 Maintainer: kanuo
 Author: kanuo
@@ -34187,16 +34101,16 @@ Conflicts: com.qianuo.smartdeck
 Architecture: iphoneos-arm64e
 Version: 0.8.19
 Installed-Size: 1688
-Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
+Icon: https://jimkanuo.github.io/apt-repo/depictions/smartdeck/icon-v3.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.smartdeck.json
 Filename: debs/com.qianuo.smartdeck.app-0.8.19-roothide.deb
-Size: 357388
-MD5sum: 267d008a9c4c601479f4b8c6e237cde2
+Size: 358516
+MD5sum: 3b90f1ef6fd2e4369d5364b7e5030ed1
 SHA1: 
-SHA256: 7b55ce289c83dde084eeda1464c5f630c2e8659876dfaaa0b094b1a661636f7d
+SHA256: eed18360e8f1cc90b64aa29f5a3ba8e524ee3c7b841728ce03cb6866ae16211f
 
 Package: com.qianuo.smartdeck.app
-Name: SmartDeck App
+Name: SmartDeck App 独立桌面
 Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
 Maintainer: kanuo
 Author: kanuo
@@ -34206,13 +34120,13 @@ Conflicts: com.qianuo.smartdeck
 Architecture: iphoneos-arm64
 Version: 0.8.19
 Installed-Size: 1688
-Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
+Icon: https://jimkanuo.github.io/apt-repo/depictions/smartdeck/icon-v3.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.smartdeck.json
 Filename: debs/com.qianuo.smartdeck.app-0.8.19-rootless.deb
-Size: 357508
-MD5sum: 23ffbba33ac92cdefca3ed690ee81309
+Size: 357424
+MD5sum: 887f0969a9a623fe92f8031e269b7d4b
 SHA1: 
-SHA256: d95692b975d1e3b9ae34264d3c2772094e82eccd5f3d78cdec07b60301907970
+SHA256: 29a22c7d6fcbefcb81ea28ad0edc955672a7e9b49d9da2533fdb66288e0dac24
 
 Package: com.qianuo.soulpaste
 Name: SoulPaste
@@ -41380,31 +41294,6 @@ MD5sum: 8e48864a128e258643b6b9ea3f5929ca
 SHA1: 
 SHA256: ba0ebccebcb0b41faba470907736b4f50aa6e4f26495103cf2a8416484508b29
 
-Package: com.sini.noapplemobilerepair
-Version: 0.0.1-103
-Section: Tweaks
-icon: https://sini921.github.io/repo/sileodepiction/icon/sileopink.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/noapplemobilerepair/js.json
-Maintainer: xybp888
-Description: No Apple MobileRepair
- (禁止在设置页面显示维修记录,例如更换电池的提醒,屏幕等)
- 本插件免费使用,安装即可生效,无设置!
- 本插件在 16.5 多巴胺越狱环境下测试通过,其他系统自行测试
- 1.更换第三方电池后，开启显示正常电池健康值。
- 2.屏蔽关于本机显示未知部件记录。
- 3.屏蔽设置显示红1以及电池更新提醒信息。
- 4.屏蔽设置系统OTA 升级显示红1提醒信息
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Installed-Size: 152
-Name: No Apple MobileRepair
-Author: xybp888
-Filename: debs/com.sini.noapplemobilerepair_0.0.1-103_iphoneos-arm64.deb
-Size: 10864
-MD5sum: bc0c38d78d07d059e5f9312bf6698ed6
-SHA1: 
-SHA256: 33a732561bd249e6fe0d893330a835ead795476ad6f64bea8eadaac75e923350
-
 Package: com.sini.noredirect
 Icon: https://sini921.github.io/repo/sileodepiction/icon/noredirect.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/noredirect/js.json
@@ -44277,42 +44166,6 @@ MD5sum: 3b6fc98a9277f5292cd4f0c64b4644c9
 SHA1: 
 SHA256: 451e4884ee3a00a8cdaf4a27555f02016ffa6c3e91bfcccb70b70ebd255e0d28
 
-Package: com.sini921.reachplayer
-Name: ReachPlayer 便捷访问
-Description: 在便捷访问模式上方的空白处增加音乐控制器，基于开源优化编译。
-Maintainer: Muzi
-Author: ETHN & SINI & 鲨鱼
-Section: Tweaks
-Icon: https://muzikeji.github.io/Sileo/icons/reachplayer.png
-Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.sini921.reachplayer.json
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64e
-Version: 2.26-6
-Installed-Size: 3348
-Filename: debs/com.sini921.reachplayer-2.26-6-roothide.deb
-Size: 2536052
-MD5sum: 135cd5920530fc83a70cfe9ba7372bc3
-SHA1: 
-SHA256: e192c212ad29450a45a066dfe279ffd9118ca2dc2c977e26bf9fed4b664289ff
-
-Package: com.sini921.reachplayer
-Name: ReachPlayer 便捷访问
-Description: 在便捷访问模式上方的空白处增加音乐控制器，基于开源优化编译。
-Maintainer: Muzi
-Author: ETHN & SINI & 鲨鱼
-Section: Tweaks
-Icon: https://muzikeji.github.io/Sileo/icons/reachplayer.png
-Sileodepiction: https://muzikeji.github.io/Sileo/depictions/com.sini921.reachplayer.json
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64
-Version: 2.26-6
-Installed-Size: 3348
-Filename: debs/com.sini921.reachplayer-2.26-6-rootless.deb
-Size: 2538316
-MD5sum: e0206de4feb26c84b8088b94d4b9e7fb
-SHA1: 
-SHA256: 1b050f00420a70e103fe9c39762ea4d8a8e7e10a2469331618c0ae6fea4c609f
-
 Package: com.sini921.removequickactionsbutton
 Name: RemoveQuickActionsButton
 Description: 隐藏锁屏界面的相机与手电筒
@@ -44689,54 +44542,6 @@ Size: 3587480
 MD5sum: 9168d7b559aff23311e60aae751b58e0
 SHA1: 
 SHA256: 5cf9e2be5fadbe900000ea2734dfa515cb022bbda87c6870c9add4101364f754
-
-Package: com.snail.allowlocationonce.roothide
-Version: 1.0.2
-Architecture: iphoneos-arm64e
-Name: 位置自动允许一次-roothide // AllowLocationOnce-roothide
-Description: 地理位置请求弹窗，自动"允许一次"。 // When Location request pop-up, Automatically "Allow once".
- .
- > 此为roothide版本，不要安装错了哦~
- > 此插件默认注入SpringBoard，无需在Bootstrap打开任何APP，只需保证Serotonin注入桌面正常即可。
- .
- * 修复在某些软件中未生效的问题，如在App Store等。
- * 支持Rootless。
- * 支持iOS14-15，支持xinaA15。
- * 支持iOS 16 Bootstrap+Serotonin。
-Depends: mobilesubstrate
-Installed-Size: 304
-Section: Tweaks
-Author: Snail <mu514983786@gmail.com>
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.snail.allowlocationonce.roothide_1.0.2_iphoneos-arm64e.deb
-Size: 64732
-MD5sum: a429697710f9626bf19bb2982825c879
-SHA1: 
-SHA256: c202440e027b49acacb78e51746c93748cea5f877cc1014c075d4c01ad926264
-
-Package: com.snail.allowlocationonce.rootless
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Name: 位置自动允许一次-rootless // AllowLocationOnce-rootless
-Description: 地理位置请求弹窗，自动"允许一次"。 // When Location request pop-up, Automatically "Allow once".
- .
- > 此为rootless版本，不要安装错了哦~
- > 此插件默认注入SpringBoard，无需在Bootstrap打开任何APP，只需保证Serotonin注入桌面正常即可。
- .
- * 修复在某些软件中未生效的问题，如在App Store等。
- * 支持Rootless。
- * 支持iOS14-15，支持xinaA15。
- * 支持iOS 16 Bootstrap+Serotonin。
-Depends: mobilesubstrate
-Installed-Size: 304
-Section: Tweaks
-Author: Snail <mu514983786@gmail.com>
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.snail.allowlocationonce.rootless_1.0.2_iphoneos-arm64.deb
-Size: 63968
-MD5sum: cb2b286503dcfb295b9d988b677b4c9e
-SHA1: 
-SHA256: 2fd3abeb87c86dfaaa84ba2a19dac105795706964e12cdc5161107d4d36801bd
 
 Package: com.snail.doubletaptolock.roothide
 Version: 1.0.0
@@ -50329,79 +50134,6 @@ MD5sum: be283192d90cbdd740ecc824a495afcc
 SHA1: 
 SHA256: 6e1dafbc0f0a02d30c85d5a74647f28aa869240dc0217ed5065ca2713abb16a2
 
-Package: com.udevs.dockx
-Name: DockX
-Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
-Description: Pasteboard shortcuts on your keyboard dock!
-Maintainer: udevs
-Author: udevs
-Section: Tweaks
-Conflicts: com.restiveconch.actionbar
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
-Architecture: iphoneos-arm64
-Version: 2.6.2
-Installed-Size: 2068
-Filename: debs/com.udevs.dockx_2.6.2_iphoneos-arm64.deb
-Size: 420624
-MD5sum: 232031bb570fb6c0453f696f2d2e8210
-SHA1: 
-SHA256: 881d1f3545d663133ba3724d898e2f5a1dc38cc7734e5c2267dd1fb69339578b
-
-Package: com.udevs.vedette
-Name: Vedette
-Description: Monitor CPU hogging processes
-Maintainer: udevs
-Author: udevs
-Section: Tweaks
-Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
-Architecture: iphoneos-arm64e
-Version: 1.1.10
-Installed-Size: 576
-Filename: debs/com.udevs.vedette-1.1.10-roothide.deb
-Size: 82916
-MD5sum: 330980f036df6130c4dcafb5afcc3f4c
-SHA1: 
-SHA256: ce4c95d08112167497dc5df859dc6c626601f0318509c94d8482388c68bb33d4
-
-Package: com.udevs.vedette
-Name: Vedette
-Description: Monitor CPU hogging processes
-Maintainer: udevs
-Author: udevs
-Section: Tweaks
-Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
-Architecture: iphoneos-arm64e
-Version: 1.1.4
-Installed-Size: 504
-Filename: debs/com.udevs.vedette-1.1.4-roothide.deb
-Size: 66464
-MD5sum: 0f4883d4f5af4b88b6046d7962f29426
-SHA1: 
-SHA256: 8666858a5fda371d70e14f99ab12ce27183e01b76059ceff87092dbc3c96012b
-
-Package: com.udevs.vedette
-Name: Vedette
-Description: Monitor CPU hogging processes
-Maintainer: udevs
-Author: udevs
-Section: Tweaks
-Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
-Architecture: iphoneos-arm64e
-Version: 1.1.5
-Installed-Size: 504
-Filename: debs/com.udevs.vedette-1.1.5-roothide.deb
-Size: 70088
-MD5sum: 739b929439b88bcc5786f4c8e703f36e
-SHA1: 
-SHA256: 0daab3cd60ba599cbd53361e6c08996fabc95e58aa30802cb4c2df34796808dd
-
 Package: com.vanson.modifier
 Name: VansonModifier
 Description: Vanson U Know?
@@ -51786,6 +51518,23 @@ Size: 3557456
 MD5sum: 144e4cc3241ff7f585554fd087d927ea
 SHA1: 
 SHA256: 646c54edec5004899fa0eff97c28a761606b1d2034fa2f661aa9842bbd007479
+
+Package: com.xybp888.magiciannojailbreak.dopamine
+Name: 魔术师
+Description: 本插件仅供学习之用,请于24小时内卸载,一切法律责任与本插件和作者无关
+Maintainer: xybp888 <8657156@qq.com>
+Author: xybp888 <8657156@qq.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 0.0.1-529
+Installed-Size: 516
+icon: https://huayuarc.github.io/icon/mss.png
+Filename: debs/com.xybp888.magiciannojailbreak.dopamine-0.0.1-529-rootless.deb
+Size: 91860
+MD5sum: bdc7a91be93f3c2633fcb950e627ea26
+SHA1: 
+SHA256: 3ce01f55f01bea1e7e88a9a0adbeb8b2f1879af5ae380460272dd7186a853681
 
 Package: com.yaowell.alarmvibrate
 Name: AlarmVibrate
@@ -57559,41 +57308,6 @@ MD5sum: a255a97465f822dc7cf880896b1203a4
 SHA1: 
 SHA256: 46874d941c2426891b7542cbb08a217191dd375bc16220816d2c742d00f92006
 
-Package: lilliana.accent
-Name: Accent Reborn
-Description: Change accent colours systemwide 可让你在整个系统和应用程序中更改强调色。更高效的自定义重音版本，因为它只读取一次偏好设置，而不是多次读取
-Maintainer: Paisseon
-Author: Paisseon
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 12.2), ws.hbang.alderis (>= 1.2)
-Icon: https://paisseon.github.io/icons/Accent.png
-Architecture: iphoneos-arm64e
-Version: 0.0.2
-Installed-Size: 580
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/lilliana.accent-0.0.2-roothide.deb
-Size: 76108
-MD5sum: 374a958d3ad135d8344327aa7ba015eb
-SHA1: 
-SHA256: 45ab0a14b20d2f91312e7327ccdbedad1a4dbf376512ecd5b001735d7c32fb6d
-
-Package: lilliana.accent
-Name: Accent Reborn
-Description: Change accent colours systemwide 可让你在整个系统和应用程序中更改强调色。更高效的自定义重音版本，因为它只读取一次偏好设置，而不是多次读取
-Maintainer: Paisseon
-Author: Paisseon
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 12.2), ws.hbang.alderis (>= 1.2)
-Icon: https://paisseon.github.io/icons/Accent.png
-Architecture: iphoneos-arm64
-Version: 0.0.2
-Installed-Size: 580
-Filename: debs/lilliana.accent-0.0.2-rootless.deb
-Size: 78036
-MD5sum: 0e16cabe1c0731653bcf46ea362152d4
-SHA1: 
-SHA256: 2fcd5aa361f773034adb24c6f4a4294f0a8b2eeb0fee29f543e107e889f08047
-
 Package: lilliana.filzacrack
 Name: FilzaCrack
 Description: An awesome Jinx tweak!
@@ -59216,23 +58930,6 @@ MD5sum: 54973b19be5fcdcfe863ea3abb193ffa
 SHA1: 
 SHA256: 0df5b0bb35064444aa5f3465672bab12369d33bf9cab17e42b64ca008b5f14ab
 
-Package: netskao.picsartcrack
-Version: 1.1-5
-Section: Tweaks
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate
-Architecture: iphoneos-arm64
-Installed-Size: 376
-Name: PicsArt Crack
-Author: Netskao
-Description: PicsArt美易解锁全功能，仅支持中国区20.7.9及以上版本
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/netskao.picsartcrack_1.1-5_iphoneos-arm64.deb
-Size: 89344
-MD5sum: 772187132d07ca5208e709d75be64d53
-SHA1: 
-SHA256: 591cb0c2f6a9b58022782e5680aef5c3124790ff2769972756a863c3e66540e4
-
 Package: netskao.ppxnoads
 Version: 1.5-5
 Section: Tweaks
@@ -59249,23 +58946,6 @@ Size: 76552
 MD5sum: b43c06119764ef5d2b66b45448a8b2db
 SHA1: 
 SHA256: 1e9eb10156686bf765e65a70e0541e9e91571e93a220354af7b6b4c7347a0a5c
-
-Package: netskao.pullclearnc
-Version: 1.1-8
-Section: Tweaks
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate
-Architecture: iphoneos-arm64
-Installed-Size: 168
-Name: PullClearNC
-Author: Netskao
-Description: Notifications page quick drop down to clean up all notifications
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/netskao.pullclearnc_1.1-8_iphoneos-arm64.deb
-Size: 6792
-MD5sum: c8fa4ac7ec8abb2d8bb764ebae1f752a
-SHA1: 
-SHA256: 82c5afce76ac51911a35b634242bc04c1247348513619aec7794bd46d0a105a3
 
 Package: netskao.quantumultxlauncher
 Version: 1.1-2
@@ -59300,23 +58980,6 @@ Size: 580472
 MD5sum: c0ffb9762297ed1a178a51acd0eff154
 SHA1: 
 SHA256: b157be6f3f18232f582f527313a3c7fd7669320494174a3c2298287a601ad402
-
-Package: netskao.tinyccmodules
-Version: 1.1-1
-Section: Tweaks
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Architecture: iphoneos-arm64
-Installed-Size: 212
-Name: TinyCCModules
-Author: Netskao
-Description: Tiny CCModules. TinyDisplayModule and TinyMediaAudioModule
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/netskao.tinyccmodules_1.1-1_iphoneos-arm64.deb
-Size: 31320
-MD5sum: a673b97bbd20491c357f141138f6edeb
-SHA1: 
-SHA256: 77412e7ae8c969b01bb980ebdaf4b72f00e9e2546cbefe6eb5ec844d9f062561
 
 Package: netskao.twitternoads
 Version: 1.4-5
@@ -59446,44 +59109,6 @@ Size: 23724096
 MD5sum: 529689b89412f1d0f4790b12b198185b
 SHA1: 
 SHA256: 0a164b0cd193771e45c6a9d07dff182c63df7e338a86daeaac345a0743947c65
-
-Package: nolowpowermode30secautolock
-Name: NoLowPowerMode30SecAutoLock
-Depends: mobilesubstrate
-Description: 在低功耗模式下本地调整自动锁定间隔.
-Maintainer: Brend0n
-Author: Brend0n
-Section: Tweaks
-Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.nolowpowermode30secautolock
-SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.nolowpowermode30secautolock/depiction.json
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 168
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/nolowpowermode30secautolock_1.0_iphoneos-arm64.deb
-Size: 3972
-MD5sum: 6a53c05c44b010862296957eb9c5a2a6
-SHA1: 
-SHA256: 303d41ae8c4113a4dd6cc13ec246872bc6e0ddffc9610627bb91c7a9364fb004
-
-Package: nolowpowermode30secautolock
-Name: NoLowPowerMode30SecAutoLock
-Depends: mobilesubstrate
-Description: 在低功耗模式下本地调整自动锁定间隔.
-Maintainer: Brend0n <brendonjkding@126.com>
-Author: Brend0n
-Section: Tweaks
-Depiction: http://brendonjkding.github.io/depictions/web/?p=com.brend0n.nolowpowermode30secautolock
-SileoDepiction: http://brendonjkding.github.io/depictions/web/com.brend0n.nolowpowermode30secautolock/depiction.json
-Architecture: iphoneos-arm64e
-Version: 1.0
-Installed-Size: 152
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/nolowpowermode30secautolock_1.0_iphoneos-arm64e.deb
-Size: 4300
-MD5sum: d44727e9b42207c523bcbc490f26446c
-SHA1: 
-SHA256: 70fa1fef6f2fb4d6a575b7429ba755ba9d253d0616ce9e97c52ebf8ab93a0a2a
 
 Architecture: iphoneos-arm64
 Author: Evelyn
@@ -60781,6 +60406,50 @@ Size: 22692400
 MD5sum: 2effbca1ab9050ecc1fc2492f55b518b
 SHA1: 
 SHA256: 9704fc5650cec4a22cbd488f5a9bcaaa2b52c9bc71d02f83643f1fb0db322151
+
+Package: wiki.qaq.apelin
+Name: Apelin
+Version: 0.3.7
+Architecture: iphoneos-arm64e
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Installed-Size: 96780
+Filename: debs/wiki.qaq.apelin-0.3.7-roothide.deb
+Size: 22868348
+MD5sum: f511080e94e7d11a3cd7fca7fc4857e9
+SHA1: 
+SHA256: 2e788e2099c5f50968852acc12b83011dc8cc6a8e2caec2dcb7b82fc5fcf350c
+
+Package: wiki.qaq.apelin
+Name: Apelin
+Version: 0.3.7
+Architecture: iphoneos-arm64
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Installed-Size: 96780
+Filename: debs/wiki.qaq.apelin-0.3.7-rootless.deb
+Size: 22863852
+MD5sum: ad36c51d09ad9ada37f14f9a4952b691
+SHA1: 
+SHA256: 564555f2cc46686a2b51a5d80a0096c7fdb55b3959c6421bb8a885dbcfb2dc05
 
 Package: wiki.qaq.apelin.agent-tools.assembler
 Name: Apelin Assembler
