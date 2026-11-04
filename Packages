@@ -31693,6 +31693,44 @@ SHA1:
 SHA256: 503b68a870f097058355c0801549ec9885c8368325701ae5542160e4d46ccef6
 
 Package: com.netskao.ccsim
+Name: CCSIM
+Description: 控制中心快速启用或禁用其中一张 SIM 卡（已内置 iOS 17 卡死修复）。
+Maintainer: Huayuarc
+Author: Netskao, Huayuarc
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.huayuarc.ccsimfix
+Replaces: com.huayuarc.ccsimfix
+Architecture: iphoneos-arm64e
+Version: 1.1-17
+Installed-Size: 344
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+Filename: debs/com.netskao.ccsim-1.1-17-roothide.deb
+Size: 32056
+MD5sum: fd248dfd7666dcb1a2d82662da7432df
+SHA1: 
+SHA256: 0212431af5d92988af945c569fa125754eb4f915cd35777ae3b5aa05feef31dd
+
+Package: com.netskao.ccsim
+Name: CCSIM
+Description: 控制中心快速启用或禁用其中一张 SIM 卡（已内置 iOS 17 卡死修复）。
+Maintainer: Huayuarc
+Author: Netskao, Huayuarc
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.huayuarc.ccsimfix
+Replaces: com.huayuarc.ccsimfix
+Architecture: iphoneos-arm64
+Version: 1.1-17
+Installed-Size: 248
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+Filename: debs/com.netskao.ccsim-1.1-17-rootless.deb
+Size: 29512
+MD5sum: b0c585939f71604194acf7c7756d142f
+SHA1: 
+SHA256: 37b7e1900334ad4bc2999f2641b9278185ffc5d3cf86be95c4b7e11f8dbe6aac
+
+Package: com.netskao.ccsim
 Version: 1.1-9
 Section: Tweaks
 Maintainer: Netskao
