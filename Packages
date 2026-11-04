@@ -19129,6 +19129,40 @@ MD5sum: a43f3d5a42d826db8e0a3ea78019cd8e
 SHA1: 
 SHA256: 06fc8b018f6937fab89d72db2740a56256b52439b9646ad4478e15694b98543b
 
+Package: com.huayuarc.ccsimfix
+Name: CCSIMFix
+Description: 修复 CCSIM 控制中心模块在 iOS 17 上卡死的问题。CCSIM 在控制中心里同步调用 CoreTelephony 的 getSIMStatus:error: / copyLabel:error:，iOS 17 上 CommCenter 不回复时该调用永不返回，会把 SpringBoard 主线程锁死（只能强重启）。本插件为这两个调用加上超时保护，超时即返回安全值，界面不再冻结。
+Maintainer: Huayuarc
+Author: Huayuarc
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0-2
+Installed-Size: 152
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+Filename: debs/com.huayuarc.ccsimfix-1.0-2-roothide.deb
+Size: 6464
+MD5sum: b9f7936de5b3194607b68dc5c4f8248f
+SHA1: 
+SHA256: fe86aa2a66876de90baeb4be207f245618efe8fff14a95b439d735613fc90cc9
+
+Package: com.huayuarc.ccsimfix
+Name: CCSIMFix
+Description: 修复 CCSIM 控制中心模块在 iOS 17 上卡死的问题。CCSIM 在控制中心里同步调用 CoreTelephony 的 getSIMStatus:error: / copyLabel:error:，iOS 17 上 CommCenter 不回复时该调用永不返回，会把 SpringBoard 主线程锁死（只能强重启）。本插件为这两个调用加上超时保护，超时即返回安全值，界面不再冻结。
+Maintainer: Huayuarc
+Author: Huayuarc
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0-2
+Installed-Size: 56
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+Filename: debs/com.huayuarc.ccsimfix-1.0-2-rootless.deb
+Size: 4872
+MD5sum: be4570f4c03c3bc664e9dbef49c57c3f
+SHA1: 
+SHA256: 98d39a6094706efb1bd86a3ae88dba9f10a37a722f72396ad1b99f648cce57b9
+
 Package: com.huayuarc.cputhermal
 Name: CPU 解除温控
 Author: Huayuarc
@@ -58847,23 +58881,6 @@ Size: 89844
 MD5sum: 529e64be2b8aefe765593f2b8426b399
 SHA1: 
 SHA256: 9ebc2f3085e9921c2c34858f9bf01ceb114a2e7de29964b7a29f37b436f9f419
-
-Package: netskao.ccsim
-Version: 1.1-9
-Section: Tweaks
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Architecture: iphoneos-arm64
-Installed-Size: 188
-Name: CCSIM
-Author: Netskao
-Description: For dual-SIM cards, you can quickly enable or disable one of the SIM cards through the Control Center
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/netskao.ccsim_1.1-9_iphoneos-arm64.deb
-Size: 23452
-MD5sum: c673037bb8222e4339cffca8090aaace
-SHA1: 
-SHA256: 9b1795bde127c03364fe6504bb710f85cc70bc52f8787e4b4ffb96d45b1178fa
 
 Package: netskao.ccswitchdata
 Version: 1.1-4
