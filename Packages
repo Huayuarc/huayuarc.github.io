@@ -12086,6 +12086,48 @@ MD5sum: 7c4dba824190c7557a1ed47a94e7d2a4
 SHA1: 
 SHA256: 9c8e07b8eccd2ccee2cc4fa67efc99d3a408c59c0262bfc1a900b945f5dbcaf2
 
+Package: com.cracklock.7513
+Name: 熄屏幻术
+Description: 熄屏幻术（FadeCraft）—— 18 种熄屏 / 锁屏动画，按电源键的瞬间把真实画面打碎、吹散或溶解。内置碎屏、像素消散、百叶窗、信号故障、CRT 关机、竖条翻牌、旋涡吸入、灰烬升腾、风沙吹散、条带垂落、波纹扭曲、方块散开、螺旋甩出、漆皮剥落、灯管熄灭、烟尘飘散、柏林溶解、灭霸响指。可在设置里勾选多种效果随机播放，每种效果都能单独调整时长、颗粒大小、力度等参数。
+Maintainer: 7513
+Author: 7513
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Provides: com.cracklock.shatter
+Depiction: https://lubenjian88.github.io/7513/depictions/com.cracklock.7513/
+SileoDepiction: https://lubenjian88.github.io/7513/depictions/com.cracklock.7513/depiction.json
+Icon: https://lubenjian88.github.io/7513/depictions/com.cracklock.7513/icon.png
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Installed-Size: 1793
+Filename: debs/com.cracklock.7513-1.0.5-roothide.deb
+Size: 1171188
+MD5sum: ed0b4223cae8eff7dbb3eee6d6e58f3d
+SHA1: 
+SHA256: 8d744f258d5366879005712e090fc91198428fcb0cf5101d3caffeb906b2ecb3
+
+Package: com.cracklock.7513
+Name: 熄屏幻术
+Description: 熄屏幻术（FadeCraft）—— 18 种熄屏 / 锁屏动画，按电源键的瞬间把真实画面打碎、吹散或溶解。内置碎屏、像素消散、百叶窗、信号故障、CRT 关机、竖条翻牌、旋涡吸入、灰烬升腾、风沙吹散、条带垂落、波纹扭曲、方块散开、螺旋甩出、漆皮剥落、灯管熄灭、烟尘飘散、柏林溶解、灭霸响指。可在设置里勾选多种效果随机播放，每种效果都能单独调整时长、颗粒大小、力度等参数。
+Maintainer: 7513
+Author: 7513
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Provides: com.cracklock.shatter
+Depiction: https://lubenjian88.github.io/7513/depictions/com.cracklock.7513/
+SileoDepiction: https://lubenjian88.github.io/7513/depictions/com.cracklock.7513/depiction.json
+Icon: https://lubenjian88.github.io/7513/depictions/com.cracklock.7513/icon.png
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Installed-Size: 1824
+Filename: debs/com.cracklock.7513-1.0.5-rootless.deb
+Size: 1171180
+MD5sum: 8da6766a6af7dfbc01a5ebbd167a6893
+SHA1: 
+SHA256: 4ebd6820e625fed09c8750c6271734e3f35a3de8e07e5ba955fee3eab6b3b6ef
+
 Package: com.crassna.appcardlite
 Name: App Lecard
 Description: Jailbrea!分屏
@@ -57346,6 +57388,40 @@ Size: 347400
 MD5sum: 78ac68891153de94d2a64fbe56c4c404
 SHA1: 
 SHA256: 9f93f6c10e40d33f3287f2248ae2cf2f056104e133f532e5a075e1413fb51d59
+
+Package: moe.waru.jikan
+Name: 锁屏充电胶囊
+Description: 在锁定屏幕上显示充满电的剩余时间 Show time left to full charge on your lock screen
+Maintainer: waruhachi
+Author: waruhachi
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Installed-Size: 2700
+icon: https://huayuarc.github.io/icon/jikan.png
+Filename: debs/moe.waru.jikan-1.1.0-roothide.deb
+Size: 389852
+MD5sum: 3320fe35de3eb57de5e7e2a97cf2dcb6
+SHA1: 
+SHA256: 2568ee5d7854316cf4813be3b0a0aebf7910a8acdfbc1a423dc23c1b3510691c
+
+Package: moe.waru.jikan
+Name: 锁屏充电胶囊
+Description: 在锁定屏幕上显示充满电的剩余时间 Show time left to full charge on your lock screen
+Maintainer: waruhachi
+Author: waruhachi
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Installed-Size: 2700
+icon: https://huayuarc.github.io/icon/jikan.png
+Filename: debs/moe.waru.jikan-1.1.0-rootless.deb
+Size: 394308
+MD5sum: be6c0ae309a1475153646284e14a62cf
+SHA1: 
+SHA256: 8d446d9f9a194a379e5e1e5b8a1cf2ae68f7a29981f8bc15a0657e98b8b2ff3c
 
 Package: net.nyyh
 Version: 1.2.522-1+debug
