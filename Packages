@@ -36439,6 +36439,154 @@ MD5sum: c330a98f90cbd48dd3e2f2978ba71987
 SHA1: 
 SHA256: 7bcd9a01d8c9b21b3c1f3846507605b1819e1c5fabaff2439129550f2026147e
 
+Package: com.quicklaunch.tweak
+Name: QuickLaunch
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Adds ZengNiu main, parked level 1, parked level 2 and dip opening modes for all menus.
+ Adds Drawer Window to System Tools with its original sidebar icon, including circular menu and center actions.
+ Hides the Home Screen launcher icon while retaining quicklaunch URL commands and Settings configuration.
+ Adds independent ScreenCore drawer URL presets in all menus, with guarded same-process dispatch.
+ Adds provider-independent unfinished radial swipe recall, with separate per-mode in-memory App history.
+ Adds optional Myrtle 1.5.0 native windows and 37 system/window/plugin actions for every menu.
+ Adds radial-only gather/disperse, spiral, wave and fan animations with orbit and original unfold.
+ Shows saved choice labels and native checked option lists throughout menu settings.
+ Shares bounded prepared icon caches and deduplicated main-thread icon lookups across all menus.
+ Preserves excess radial favorites without deleting saved configuration.
+ Capsule recent mode keeps the full system App switcher list, including tombstones, and sorts by successful QuickLaunch launch counts.
+ Adds five optional Iya split opening modes using its supplied SpringBoard integration API.
+ Adds center image connected-background removal with tolerance, smoothing, feathering, undo and non-destructive edit persistence.
+ Adds native installed Shortcuts selection and background execution by unique identifier, without opening the Shortcuts app.
+ Adds guarded optional SVP 1.4.2 opening and seventeen native toolbar actions in all menus.
+ Adds automatic brightness, Night Shift, True Tone and independent region screenshot selection.
+ Follow the foreground App interface orientation and independently choose recent background Apps or saved favorites per menu.
+ Capsule notification icons retain native notification actions and use a 1-120 second duration slider.
+ New notifications reveal the capsule in recent and favorite modes; ordinary and radial menus are unchanged.
+ Recent rail and capsule shrink to live App count, retaining viewport limits and overflow scrolling.
+ Synchronizes cross-process menu preferences and shows a dedicated recent/favorite selection page.
+ Compensates the actual overlay host transform to prevent duplicate landscape rotation.
+ Preserves favorite Apps and actions when switching content sources.
+ Adds 21 shared tools including acknowledged screen recording, accessibility actions and optional Open window management.
+ Shared tool dispatch validates runtime method encodings and uses the same lock-state sources as overlay visibility.
+ Separate system tools, URLs and Shortcuts lists for each rail, capsule and radial menu.
+ Radial apps, tools, URLs and Shortcuts share consecutive slots across the same concentric rings.
+ Consecutive circular app and action slots with adjustable spacing; rail and capsule actions appear inline beside apps.
+ Shared custom URL images or name tiles in every menu.
+ Host-aware SpringBoard and LaunchServices URL dispatch with ordinary app fallback and failure feedback.
+ Customizable center icon with an independent app, tool, URL or Shortcut binding and photo/file artwork.
+ Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
+ Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
+ Shared square or circular icon frames across all quick menus and radial previews.
+ Choose fullscreen, PullOver-X, ScreenCore, Open, FV or SVP split windows independently for all menus.
+ Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
+ Optional floatingView 1.6.0-6 bridge using its in-process app-opening notification.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports 68 combined apps and actions, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Architecture: iphoneos-arm64e
+Version: 0.1.95
+Installed-Size: 2576
+Filename: debs/com.quicklaunch.tweak-0.1.95-roothide.deb
+Size: 509468
+MD5sum: bd649dd49f7fa39f1820141359bea781
+SHA1: 
+SHA256: 4ea401147c8ee412e3da31242a149f15a9facea55ca80f5cba1971b9cd0bbc66
+
+Package: com.quicklaunch.tweak
+Name: QuickLaunch
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Adds ZengNiu main, parked level 1, parked level 2 and dip opening modes for all menus.
+ Adds Drawer Window to System Tools with its original sidebar icon, including circular menu and center actions.
+ Hides the Home Screen launcher icon while retaining quicklaunch URL commands and Settings configuration.
+ Adds independent ScreenCore drawer URL presets in all menus, with guarded same-process dispatch.
+ Adds provider-independent unfinished radial swipe recall, with separate per-mode in-memory App history.
+ Adds optional Myrtle 1.5.0 native windows and 37 system/window/plugin actions for every menu.
+ Adds radial-only gather/disperse, spiral, wave and fan animations with orbit and original unfold.
+ Shows saved choice labels and native checked option lists throughout menu settings.
+ Shares bounded prepared icon caches and deduplicated main-thread icon lookups across all menus.
+ Preserves excess radial favorites without deleting saved configuration.
+ Capsule recent mode keeps the full system App switcher list, including tombstones, and sorts by successful QuickLaunch launch counts.
+ Adds five optional Iya split opening modes using its supplied SpringBoard integration API.
+ Adds center image connected-background removal with tolerance, smoothing, feathering, undo and non-destructive edit persistence.
+ Adds native installed Shortcuts selection and background execution by unique identifier, without opening the Shortcuts app.
+ Adds guarded optional SVP 1.4.2 opening and seventeen native toolbar actions in all menus.
+ Adds automatic brightness, Night Shift, True Tone and independent region screenshot selection.
+ Follow the foreground App interface orientation and independently choose recent background Apps or saved favorites per menu.
+ Capsule notification icons retain native notification actions and use a 1-120 second duration slider.
+ New notifications reveal the capsule in recent and favorite modes; ordinary and radial menus are unchanged.
+ Recent rail and capsule shrink to live App count, retaining viewport limits and overflow scrolling.
+ Synchronizes cross-process menu preferences and shows a dedicated recent/favorite selection page.
+ Compensates the actual overlay host transform to prevent duplicate landscape rotation.
+ Preserves favorite Apps and actions when switching content sources.
+ Adds 21 shared tools including acknowledged screen recording, accessibility actions and optional Open window management.
+ Shared tool dispatch validates runtime method encodings and uses the same lock-state sources as overlay visibility.
+ Separate system tools, URLs and Shortcuts lists for each rail, capsule and radial menu.
+ Radial apps, tools, URLs and Shortcuts share consecutive slots across the same concentric rings.
+ Consecutive circular app and action slots with adjustable spacing; rail and capsule actions appear inline beside apps.
+ Shared custom URL images or name tiles in every menu.
+ Host-aware SpringBoard and LaunchServices URL dispatch with ordinary app fallback and failure feedback.
+ Customizable center icon with an independent app, tool, URL or Shortcut binding and photo/file artwork.
+ Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
+ Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
+ Shared square or circular icon frames across all quick menus and radial previews.
+ Choose fullscreen, PullOver-X, ScreenCore, Open, FV or SVP split windows independently for all menus.
+ Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
+ Optional floatingView 1.6.0-6 bridge using its in-process app-opening notification.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports 68 combined apps and actions, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Maintainer: kanuo
+Author: kanuo
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Architecture: iphoneos-arm64
+Version: 0.1.95
+Installed-Size: 3984
+Filename: debs/com.quicklaunch.tweak-0.1.95-rootless.deb
+Size: 686364
+MD5sum: 2018af50eaa7b299c3c47b205a8151e9
+SHA1: 
+SHA256: 8e4f290b6b248d62260658c0192d21174ca7efa7ba49eb8b6f7b046fa1c67371
+
 Package: com.quickvox.tweak
 Name: QuickVox
 Description: 录个音吧
