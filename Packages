@@ -52249,6 +52249,23 @@ MD5sum: fe6438234d26576783d45bc6996e40cd
 SHA1: 
 SHA256: 5f71bbd6508011f6402df4679680e50d1e9e7e580a21a2c07e367277e1ad0fa6
 
+Package: com.zengniu.splitview
+Version: 0.7.66
+Architecture: iphoneos-arm64e
+Description: 带有主屏幕图标手势和基本对接的实验性实时应用程序窗口。激活码 当前时间+10分钟 Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛-分屏🐮
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 816
+icon: https://huayuarc.github.io/icon/splitview.png
+Filename: debs/com.zengniu.splitview-0.7.66-roothide.deb
+Size: 225408
+MD5sum: 7c351d3ac05ed14ed397abde5b660a60
+SHA1: 
+SHA256: 6e481f29906c5c3aa29a10347ca6526616dfec876ca478591e2bb3cc223fbda0
+
 Package: com.zooah.debrecords
 Name: DebRecords
 Description: 记录插件的安装、升级、卸载相关信息。可对插件进行备份。记录SpringBoard的重启相关信息、安全模式相关信息、手机重启的相关信息。
@@ -56350,6 +56367,40 @@ Size: 470024
 MD5sum: 70a369af579827b05fafa916dfe47fb3
 SHA1: 
 SHA256: 539e859a43792c571cd6884f62a60d11362caa4cd6215291572fa8451e213f6f
+
+Package: iya.banana.multitask
+Name: 一芽分屏 (Iya Split)
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.1.6-1
+Installed-Size: 2728
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+Filename: debs/iya.banana.multitask-0.1.6-1-roothide.deb
+Size: 483408
+MD5sum: 97dbd2dc690e3119cac7c0ab6fa88a2c
+SHA1: 
+SHA256: 9131970f366b14184d04e6c62005b958628f8abf64cd5dddb7eef531657c0ded
+
+Package: iya.banana.multitask
+Name: 一芽分屏 (Iya Split)
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.1.6-1
+Installed-Size: 2744
+icon: https://huayuarc.github.io/icon/onboarding-icon.png
+Filename: debs/iya.banana.multitask-0.1.6-1-rootless.deb
+Size: 486184
+MD5sum: 2ab5b93e58c71251ab2f2ad5c9c43421
+SHA1: 
+SHA256: c10c8859dd36c89285d885e712413c28f45c4c054394f0618a659b09eb868ca2
 
 Package: iya.banana.multitask
 Name: 一芽分屏 (Iya Split)
