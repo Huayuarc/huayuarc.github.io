@@ -32417,6 +32417,40 @@ MD5sum: 2a306048c326881d7ae0ed8a368104f3
 SHA1: 
 SHA256: b9cbe7055076e6f2ac8047de9e44e92fd9dd841f94ee57e48a337e956f3e9f6a
 
+Package: com.netskao.wcdisablehotupdates
+Name: 微信禁用热补丁
+Depends: firmware (>= 13.0)
+Description: 禁用微信原生及 Flutter 代码热补丁，拦截相关检查、预下载和缓存加载。
+Author: Netskao
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 8.0.80
+Installed-Size: 76
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.netskao.wcdisablehotupdates-8.0.80-roothide.deb
+Size: 8052
+MD5sum: df206066ef387e5cb9019d0b3c5ec96a
+SHA1: 
+SHA256: ac4169182a64573529a58d5e9f76f43aff338042b9176695288a4d47a9cd3ae7
+
+Package: com.netskao.wcdisablehotupdates
+Name: 微信禁用热补丁
+Depends: firmware (>= 13.0)
+Description: 禁用微信原生及 Flutter 代码热补丁，拦截相关检查、预下载和缓存加载。
+Author: Netskao
+Maintainer: Nets
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 8.0.80
+Installed-Size: 76
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
+Filename: debs/com.netskao.wcdisablehotupdates-8.0.80-rootless.deb
+Size: 8104
+MD5sum: db7b15e196b6e47086e3c34c7a55fc40
+SHA1: 
+SHA256: 6711cff1ac0203b31e09f4b3aca906db160a102229f2161044219a59e4d404ba
+
 Package: com.netskao.wcmypageinfocenter
 Name: WCMyPageInfoCenter
 Depends: mobilesubstrate, firmware (>= 13.0)
@@ -50920,6 +50954,41 @@ MD5sum: 01fd73acce72e4eabf14e79ccbf00627
 SHA1: 
 SHA256: 2cf19bf0118ca342ce918a971478bf21f00cabfa434ea8ec4931a8ba27418248
 
+Package: com.wacljcr.superscreenshot
+Name: 超级截图
+icon: https://huayuarc.github.io/icon/freecut.png
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图；触发方式支持双指上滑与「自定义手势」——录制一笔专属形状（圆圈 / 对勾 / Z 等），以后只有画出同样的形状才触发，避免打游戏误碰）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 8.0.39
+Installed-Size: 2360
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.wacljcr.superscreenshot-8.0.39-roothide.deb
+Size: 450424
+MD5sum: f4144ca0f1256e5cbfc40045b5889643
+SHA1: 
+SHA256: 8a7c4afb507a7b773420947977948ef9a1c34a68e7dea584c44585a7392acda4
+
+Package: com.wacljcr.superscreenshot
+Name: 超级截图
+icon: https://huayuarc.github.io/icon/freecut.png
+Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图；触发方式支持双指上滑与「自定义手势」——录制一笔专属形状（圆圈 / 对勾 / Z 等），以后只有画出同样的形状才触发，避免打游戏误碰）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Maintainer: yzdmm2024
+Author: yzdmm2024
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 8.0.39
+Installed-Size: 2360
+Filename: debs/com.wacljcr.superscreenshot-8.0.39-rootless.deb
+Size: 452184
+MD5sum: 4ccdc189e18eb8a3d71501f23471c5a2
+SHA1: 
+SHA256: c2eb3149b5b5b1f6eb5e076ec50302ac4a2d5a5c6430291364e7b5742fbde987
+
 Package: com.wacljcr.wxkbtoolbar10
 Name: 输入法自定义优化
 Version: 4.0
@@ -62642,6 +62711,52 @@ Size: 5321496
 MD5sum: 21dc7636efa29b59b8745c494450b463
 SHA1: 
 SHA256: 23809d0bc74e386af7a68d3018ffe1609ea20a27be532f3bf52873abc6cc5b39
+
+Package: wiki.qaq.kk
+Name: kk
+Version: 0.1.111
+Architecture: iphoneos-arm64e
+Description: A coding agent that uses the subscription you have
+ Ask for a change in plain language and kk reads your files, writes the code and
+ runs the commands to make it happen. Run `kk` in a terminal, then `/login` to
+ sign in with Anthropic, ChatGPT, Copilot, Cursor, Kimi, Grok, Z.AI or
+ OpenRouter — or use an API key for any OpenAI-compatible service. It is a
+ native binary, so it starts fast and pulls in no Node or Bun. Also installed
+ as `kwwk`.
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: EYHN <https://github.com/EYHN/kwwk>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools
+Installed-Size: 26036
+Filename: debs/wiki.qaq.kk-0.1.111-roothide.deb
+Size: 5679004
+MD5sum: 81776e59b803a0af6be9a7af09a82ee7
+SHA1: 
+SHA256: 9f32c9fef3a4588fbfbb5111e84cd57c6a7a62a1080a7f78b2bbf33b1f4e07e7
+
+Package: wiki.qaq.kk
+Name: kk
+Version: 0.1.111
+Architecture: iphoneos-arm64
+Description: A coding agent that uses the subscription you have
+ Ask for a change in plain language and kk reads your files, writes the code and
+ runs the commands to make it happen. Run `kk` in a terminal, then `/login` to
+ sign in with Anthropic, ChatGPT, Copilot, Cursor, Kimi, Grok, Z.AI or
+ OpenRouter — or use an API key for any OpenAI-compatible service. It is a
+ native binary, so it starts fast and pulls in no Node or Bun. Also installed
+ as `kwwk`.
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: EYHN <https://github.com/EYHN/kwwk>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools
+Installed-Size: 26032
+Filename: debs/wiki.qaq.kk-0.1.111-rootless.deb
+Size: 5678592
+MD5sum: 99bc4a3cfe6398f87b98a5f5487bb8ce
+SHA1: 
+SHA256: 55cec08a118c24b4d4a405f6ab11659c0015d5300beb46dfba3eea3640712d53
 
 Package: wiki.qaq.qqrecallprobe
 Name: QQNT防撤回
