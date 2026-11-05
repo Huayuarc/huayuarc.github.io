@@ -5415,6 +5415,46 @@ MD5sum: 008e94edc8f4bfec948dd4b36e87890e
 SHA1: 
 SHA256: c9ae857fbe130cb1d485dde9ea31e9c12ef6b4e8c7f56807d42f060324bace43
 
+Package: com.banana.trollpadex
+Name: TrollPadEx
+Description: 为 iPhone 带来更灵活的多任务、窗口与外接显示体验。Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Maintainer: Banana
+Author: khanhduytran0 & Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Provides: com.kdt.trollpad
+Architecture: iphoneos-arm64e
+Version: 2.0.8
+Installed-Size: 704
+icon: https://huayuarc.github.io/icon/TrollPad.png
+Filename: debs/com.banana.trollpadex-2.0.8-roothide.deb
+Size: 65736
+MD5sum: 1f4f1ef11991f5bfad1af61df5ff82d0
+SHA1: 
+SHA256: 808049349982577d6025a21da2e961772167ac48158e0595701b91809716a327
+
+Package: com.banana.trollpadex
+Name: TrollPadEx
+Description: 为 iPhone 带来更灵活的多任务、窗口与外接显示体验。Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Maintainer: Banana
+Author: khanhduytran0 & Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Provides: com.kdt.trollpad
+Architecture: iphoneos-arm64
+Version: 2.0.8
+Installed-Size: 704
+icon: https://huayuarc.github.io/icon/TrollPad.png
+Filename: debs/com.banana.trollpadex-2.0.8-rootless.deb
+Size: 66504
+MD5sum: 53b9d6b3daebd4c1f551917a0a73ffd2
+SHA1: 
+SHA256: ee253d3655790d950c0bbe2509fc9329549324916a2e9dd957f2e43bd6aa705c
+
 Package: com.banshengnianhua.tracex
 Name: TraceX
 Description: 可选择目标 App 的原生交互与函数入口追踪工具。记录触摸/View 层级、UIControl 与手势 target/action、页面跳转、NSURLSession/WKWebView 请求和外部 URL。只有明确开启的普通用户 App 才加载重型追踪核心；系统/越狱 App 不加载 TraceXCore。每次目标 App 新进程启动都会重置 Documents/TraceX.log。
@@ -36442,7 +36482,6 @@ SHA256: 7bcd9a01d8c9b21b3c1f3846507605b1819e1c5fabaff2439129550f2026147e
 Package: com.quicklaunch.tweak
 Name: QuickLaunch
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
- Adds ZengNiu main, parked level 1, parked level 2 and dip opening modes for all menus.
  Adds Drawer Window to System Tools with its original sidebar icon, including circular menu and center actions.
  Hides the Home Screen launcher icon while retaining quicklaunch URL commands and Settings configuration.
  Adds independent ScreenCore drawer URL presets in all menus, with guarded same-process dispatch.
@@ -36501,22 +36540,23 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
 Maintainer: kanuo
 Author: kanuo
 Section: Tweaks
+Icon: https://jimkanuo.github.io/apt-repo/depictions/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.quicklaunch.tweak.json
 Priority: optional
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
 Architecture: iphoneos-arm64e
-Version: 0.1.95
-Installed-Size: 2576
-Filename: debs/com.quicklaunch.tweak-0.1.95-roothide.deb
-Size: 509468
-MD5sum: bd649dd49f7fa39f1820141359bea781
+Version: 0.1.94
+Installed-Size: 2540
+Filename: debs/com.quicklaunch.tweak-0.1.94-roothide.deb
+Size: 500176
+MD5sum: 45ce4c57ab5685c69b26003dd319bd64
 SHA1: 
-SHA256: 4ea401147c8ee412e3da31242a149f15a9facea55ca80f5cba1971b9cd0bbc66
+SHA256: 6ce517c1773546fe45be496a9a4d5a250ad0e1e942b2c425075379db828eb2a8
 
 Package: com.quicklaunch.tweak
 Name: QuickLaunch
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
- Adds ZengNiu main, parked level 1, parked level 2 and dip opening modes for all menus.
  Adds Drawer Window to System Tools with its original sidebar icon, including circular menu and center actions.
  Hides the Home Screen launcher icon while retaining quicklaunch URL commands and Settings configuration.
  Adds independent ScreenCore drawer URL presets in all menus, with guarded same-process dispatch.
@@ -36575,17 +36615,19 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
 Maintainer: kanuo
 Author: kanuo
 Section: Tweaks
+Icon: https://jimkanuo.github.io/apt-repo/depictions/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.quicklaunch.tweak.json
 Priority: optional
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
 Architecture: iphoneos-arm64
-Version: 0.1.95
-Installed-Size: 3984
-Filename: debs/com.quicklaunch.tweak-0.1.95-rootless.deb
-Size: 686364
-MD5sum: 2018af50eaa7b299c3c47b205a8151e9
+Version: 0.1.94
+Installed-Size: 3932
+Filename: debs/com.quicklaunch.tweak-0.1.94-rootless.deb
+Size: 672160
+MD5sum: 38e4fc2779285810bae3f43561a9fb1e
 SHA1: 
-SHA256: 8e4f290b6b248d62260658c0192d21174ca7efa7ba49eb8b6f7b046fa1c67371
+SHA256: 381bf5ac2fb5ce6c9beb7eb5327189d5c2fd77cbf33d4e80a630d4ee33f1eef9
 
 Package: com.quickvox.tweak
 Name: QuickVox
