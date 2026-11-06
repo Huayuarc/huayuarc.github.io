@@ -26560,6 +26560,44 @@ MD5sum: 761173a6aa7b5a146a6c57ab6ffcfa24
 SHA1: 
 SHA256: f5bf8c5b881fb03270b8b55a913a1ef120ef0c0d4303ce43f0394396d2003b8b
 
+Package: com.mlgm.appdata
+Name: AppData
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Maintainer: mlgm
+Icon: https://mlgm66.github.io/icon/appdata.png
+Architecture: iphoneos-arm64e
+Version: 1.3.9
+Installed-Size: 1236
+Filename: debs/com.mlgm.appdata-1.3.9-roothide.deb
+Size: 212936
+MD5sum: cde7a5f63236d771bf156a644386be55
+SHA1: 
+SHA256: 90f39a2c8af1a3edcf19df49a597113839842026f94649c09d6b28d57f5754d1
+
+Package: com.mlgm.appdata
+Name: AppData
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Replaces: com.fouadraheb.appdata
+Description: 上滑或长按桌面图标，即可查看和管理应用数据，清理缓存并自定义图标与名称。
+Author: Fouad Raheb <support@fouadraheb.com>
+Maintainer: mlgm
+Icon: https://mlgm66.github.io/icon/appdata.png
+Architecture: iphoneos-arm64
+Version: 1.3.9
+Installed-Size: 1236
+Filename: debs/com.mlgm.appdata-1.3.9-rootless.deb
+Size: 214624
+MD5sum: 3d7218c5f8faa600d992a7d1ebf766d1
+SHA1: 
+SHA256: 27d36f6e3bae44d19561c373cde8893eb38e49c036e755e3d014e16d18f19ce0
+
 Package: com.mlgm.clippa
 Name: Clippa
 Description: 截图与悬浮贴图工具。
@@ -26632,6 +26670,42 @@ MD5sum: 1ebfbb9beced105b4a8b548f809d4acb
 SHA1: 
 SHA256: 77511ffcf7c2291928422bcc8bd210c3463840aac9595d3e5749c3e39a07b0c1
 
+Package: com.mlgm.clippa
+Name: Clippa
+Description: 截图与悬浮贴图工具。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 36728
+Filename: debs/com.mlgm.clippa-1.1-roothide.deb
+Size: 31188552
+MD5sum: f559b4d1f206b696236d2d2662093caa
+SHA1: 
+SHA256: aa300ba63aebe1a5525ed8d70c99b22b27395f2026312c0fe6f96439533e60a0
+
+Package: com.mlgm.clippa
+Name: Clippa
+Description: 截图与悬浮贴图工具。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Architecture: iphoneos-arm64
+Version: 1.1
+Installed-Size: 36732
+Filename: debs/com.mlgm.clippa-1.1-rootless.deb
+Size: 31188596
+MD5sum: ed83bf9d715b0dfeb93dbb5e9cad0884
+SHA1: 
+SHA256: 589084650bf75961faa7cc5b9101014eea6889d0c7367da43d0ec514835c9ce7
+
 Package: com.mlgm.clone
 Name: Clone
 Icon: https://mlgm66.github.io/icon/clone.png
@@ -26667,6 +26741,42 @@ Size: 787476
 MD5sum: 43c58a5dfa7f5ba5406ef6eae8e6d978
 SHA1: 
 SHA256: 1c37344bef587179eca9d170dfada9b6d6d7ff5e19801e51708a5fc6f67953f0
+
+Package: com.mlgm.clone
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit (>= 1.2-1), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Architecture: iphoneos-arm64e
+Version: 0.2.1
+Installed-Size: 5300
+Filename: debs/com.mlgm.clone-0.2.1-roothide.deb
+Size: 805264
+MD5sum: 7b944467d09091ca4c8db63d8ffa8257
+SHA1: 
+SHA256: 14f5b95d5953a4680e24d23a65b7db5f4f76b15f1c178799c3bbc23541c637c3
+
+Package: com.mlgm.clone
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit (>= 1.2), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Architecture: iphoneos-arm64
+Version: 0.2.1
+Installed-Size: 5320
+Filename: debs/com.mlgm.clone-0.2.1-rootless.deb
+Size: 804052
+MD5sum: 20679402e6a731b5a5cb00400278422f
+SHA1: 
+SHA256: 9dba424bd7bb87b29a0ad803942b3abe74f4f62daa7831610eac365a7b2399cc
 
 Package: com.mlgm.idata
 Name: iData
@@ -26940,6 +27050,40 @@ MD5sum: f07f3ac27fc18b4df04d0736a6a88996
 SHA1: 
 SHA256: f7227ac0de9fe07c9a5f1c7a35c806204c1d4a9d04f3619deab4cc9d2f28231a
 
+Package: com.mlgm.idata
+Name: iData
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0), apt, dpkg, roothide
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64e
+Version: 1.3.6
+Installed-Size: 8252
+Filename: debs/com.mlgm.idata-1.3.6-roothide.deb
+Size: 2476572
+MD5sum: 048f255906210a27007547d7b991d895
+SHA1: 
+SHA256: b5dd1024a39caf1ea0e0be05a8f9014ee8ca86d9d8a537a0c68e24a87747db11
+
+Package: com.mlgm.idata
+Name: iData
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0), apt, dpkg
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64
+Version: 1.3.6
+Installed-Size: 8252
+Filename: debs/com.mlgm.idata-1.3.6-rootless.deb
+Size: 2475864
+MD5sum: 5e35e3367082f6fcac7c8433c54940fc
+SHA1: 
+SHA256: 33c98b7d5dbdc38c5d01423665034e8ecf2be532d7a0d18a8f88983ee27c240b
+
 Package: com.mlgm.ilog
 Name: iLog
 Description: 查看、预览、分享和清理 iOS 日志
@@ -27075,6 +27219,40 @@ Size: 1558904
 MD5sum: 5bb4f9a635182fe07501645b4e8d053f
 SHA1: 
 SHA256: 5efad92cf238a42f0152fde8b143f0ed4735cb4ddfb13e3d7f710f2c109c8af3
+
+Package: com.mlgm.ilog
+Name: iLog
+Description: 查看、预览、分享和清理 iOS 日志
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0)
+Icon: https://mlgm66.github.io/icon/ilog.png
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Installed-Size: 2580
+Filename: debs/com.mlgm.ilog-1.3.1-roothide.deb
+Size: 1559212
+MD5sum: 4f695f6271626ab2c3c70d89d58b512d
+SHA1: 
+SHA256: e2847d66935eaa9379054a94dee438f30ca3dc57945f3369c38a45cd99573d0b
+
+Package: com.mlgm.ilog
+Name: iLog
+Description: 查看、预览、分享和清理 iOS 日志
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0)
+Icon: https://mlgm66.github.io/icon/ilog.png
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Installed-Size: 2580
+Filename: debs/com.mlgm.ilog-1.3.1-rootless.deb
+Size: 1559448
+MD5sum: f7409a722962506f0be61b313b8d7864
+SHA1: 
+SHA256: 36579d9ba102bca8467db4d9f1c614a50b900b35120811e17a123e7069acb7fb
 
 Package: com.mlgm.isgkb
 Name: iSgkb
@@ -27871,6 +28049,46 @@ Size: 826036
 MD5sum: 8bef8a20a1aac09217744ec256414f8c
 SHA1: 
 SHA256: 18e2f7bd0fcbeaa1966db366eea1f0826c01163671f10031c2555f42e7b4cab2
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64e
+Version: 5.1.2
+Installed-Size: 3864
+Filename: debs/com.mlgm.kayoko-5.1.2-roothide.deb
+Size: 813712
+MD5sum: 1b1f91f25d6c28129513df451180e064
+SHA1: 
+SHA256: 923cbad2aa983b546afdc494f847e7121579a779014274f54a9e8c4067cb4b82
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64
+Version: 5.1.2
+Installed-Size: 3896
+Filename: debs/com.mlgm.kayoko-5.1.2-rootless.deb
+Size: 826912
+MD5sum: 6be0c046db5672e23301dec257bab167
+SHA1: 
+SHA256: 9cd8b3a3e3fde3409e89e8f7d97ac3461ddbe4de250efffe3825c566bc87ed32
 
 Package: com.mlgm.prefnest
 Name: PrefNest
@@ -29006,6 +29224,40 @@ MD5sum: 85f074885aa779197ae94a0d262185b6
 SHA1: 
 SHA256: 28b198865288d973e48a012dec52c3a8d4d40e6fe1996a0dd94a7013ece7c565
 
+Package: com.mlgm.taploom
+Name: Taploom
+Description: 触摸轨迹可视化
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Icon: https://mlgm66.github.io/icon/taploom.png
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Installed-Size: 1124
+Filename: debs/com.mlgm.taploom-1.1.8-roothide.deb
+Size: 184904
+MD5sum: 52907e0d20d0c2974d9da0edd812656c
+SHA1: 
+SHA256: c208ba62778619e2d52b3765e50ba281bd7be3d05f59e09d0072991070e7161b
+
+Package: com.mlgm.taploom
+Name: Taploom
+Description: 触摸轨迹可视化
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Icon: https://mlgm66.github.io/icon/taploom.png
+Architecture: iphoneos-arm64
+Version: 1.1.8
+Installed-Size: 1124
+Filename: debs/com.mlgm.taploom-1.1.8-rootless.deb
+Size: 184820
+MD5sum: c1920b101a256e590793fc02d0b29a12
+SHA1: 
+SHA256: 614f4b8213a3d078746d398f5e61f84a14a6f31732b60668119b4b93f54ca3d9
+
 Package: com.mlgm.watchfix
 Name: WatchFix
 Description: 解决 Apple Watch 连接问题
@@ -29039,6 +29291,40 @@ Size: 823456
 MD5sum: beab7702b6ecdbe48c5d5d223a871ced
 SHA1: 
 SHA256: fc9fbab78146c8e0daddc150d73206f272b39e38230b91e737f95bb4c9660b41
+
+Package: com.mlgm.watchfix
+Name: WatchFix
+Description: 解决 Apple Watch 连接问题
+Maintainer: mlgm
+Author: 577FKJ
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Icon: https://mlgm66.github.io/icon/watchfix.png
+Architecture: iphoneos-arm64e
+Version: 2.1.1
+Installed-Size: 5360
+Filename: debs/com.mlgm.watchfix-2.1.1-roothide.deb
+Size: 832012
+MD5sum: b4ee84413ceb240d4f8f97018a273a08
+SHA1: 
+SHA256: 238a19fc1d242d1c07104398eb1c106cf356c7ea747d80992a31f30967a038c5
+
+Package: com.mlgm.watchfix
+Name: WatchFix
+Description: 解决 Apple Watch 连接问题
+Maintainer: mlgm
+Author: 577FKJ
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Icon: https://mlgm66.github.io/icon/watchfix.png
+Architecture: iphoneos-arm64
+Version: 2.1.1
+Installed-Size: 5432
+Filename: debs/com.mlgm.watchfix-2.1.1-rootless.deb
+Size: 839332
+MD5sum: 6e093f23899d95a7fa5e7131ac9cb55c
+SHA1: 
+SHA256: 1ea24741dba42d5e98b7edee12519a5f60ff50d47358b5fb04c6b1443c43d44a
 
 Package: com.monian.b612patch
 Name: B612 Unlocked VIP
@@ -60986,6 +61272,50 @@ MD5sum: ad36c51d09ad9ada37f14f9a4952b691
 SHA1: 
 SHA256: 564555f2cc46686a2b51a5d80a0096c7fdb55b3959c6421bb8a885dbcfb2dc05
 
+Package: wiki.qaq.apelin
+Name: Apelin
+Version: 0.4.0
+Architecture: iphoneos-arm64e
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Installed-Size: 96764
+Filename: debs/wiki.qaq.apelin-0.4.0-roothide.deb
+Size: 22868104
+MD5sum: e271c61bce75a287a39cb684f72e5d10
+SHA1: 
+SHA256: 953cc5e0846bf28459e6b29857484557a7737d1082041540b00207f73c8c7eac
+
+Package: wiki.qaq.apelin
+Name: Apelin
+Version: 0.4.0
+Architecture: iphoneos-arm64
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Installed-Size: 96764
+Filename: debs/wiki.qaq.apelin-0.4.0-rootless.deb
+Size: 22864604
+MD5sum: 1c086854b2a2d96687af3e6ded9eabd0
+SHA1: 
+SHA256: c377601e4c8cc2982a4440971807e8ef6b669657c3883e8e8cffbd3d9a85b966
+
 Package: wiki.qaq.apelin.agent-tools.assembler
 Name: Apelin Assembler
 Version: 1.0.0
@@ -61585,6 +61915,48 @@ Size: 6312
 MD5sum: 6fd0562f904c25759796ed704dbc4be8
 SHA1: 
 SHA256: 3462bb262f8550c7c6b6502db86a7b5e508037e8cf9e6ad774edde016bf9c9ab
+
+Package: wiki.qaq.fastfetch
+Name: fastfetch
+Version: 2.71.0
+Architecture: iphoneos-arm64e
+Description: System information, printed prettily
+ Run `fastfetch` in a terminal to see your device, iOS version, uptime, memory,
+ storage and more, laid out beside an Apple logo. Ready-made looks live in
+ /usr/share/fastfetch; your own settings go in
+ ~/.config/fastfetch/config.jsonc.
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: Carter Li <https://github.com/fastfetch-cli/fastfetch>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0)
+Installed-Size: 1836
+Filename: debs/wiki.qaq.fastfetch-2.71.0-roothide.deb
+Size: 470132
+MD5sum: fb18531c29637502f755b89e733910c3
+SHA1: 
+SHA256: cbc8aab527dbb3bf71408b6f30636d96235a07301e22047f7ae6812d102d9604
+
+Package: wiki.qaq.fastfetch
+Name: fastfetch
+Version: 2.71.0
+Architecture: iphoneos-arm64
+Description: System information, printed prettily
+ Run `fastfetch` in a terminal to see your device, iOS version, uptime, memory,
+ storage and more, laid out beside an Apple logo. Ready-made looks live in
+ /usr/share/fastfetch; your own settings go in
+ ~/.config/fastfetch/config.jsonc.
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: Carter Li <https://github.com/fastfetch-cli/fastfetch>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0)
+Installed-Size: 1836
+Filename: debs/wiki.qaq.fastfetch-2.71.0-rootless.deb
+Size: 470196
+MD5sum: f29bb16bf9aed8dbd43738f92ca298bf
+SHA1: 
+SHA256: cccf70b9458c8338d3c4c02763d24eb48fb1ec34abc16da7d460cec0776acb4f
 
 Package: wiki.qaq.fila
 Name: Fila
@@ -62757,6 +63129,52 @@ Size: 5678592
 MD5sum: 99bc4a3cfe6398f87b98a5f5487bb8ce
 SHA1: 
 SHA256: 55cec08a118c24b4d4a405f6ab11659c0015d5300beb46dfba3eea3640712d53
+
+Package: wiki.qaq.kk
+Name: kk
+Version: 0.1.112
+Architecture: iphoneos-arm64e
+Description: A coding agent that uses the subscription you have
+ Ask for a change in plain language and kk reads your files, writes the code and
+ runs the commands to make it happen. Run `kk` in a terminal, then `/login` to
+ sign in with Anthropic, ChatGPT, Copilot, Cursor, Kimi, Grok, Z.AI or
+ OpenRouter — or use an API key for any OpenAI-compatible service. It is a
+ native binary, so it starts fast and pulls in no Node or Bun. Also installed
+ as `kwwk`.
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: EYHN <https://github.com/EYHN/kwwk>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools
+Installed-Size: 26036
+Filename: debs/wiki.qaq.kk-0.1.112-roothide.deb
+Size: 5680176
+MD5sum: 606b7e4de05d5049f8226a47118cb5dd
+SHA1: 
+SHA256: 1f8c066f50e665f2bfcf4895b581aa46636a3155bb65b814797122ffb15160f9
+
+Package: wiki.qaq.kk
+Name: kk
+Version: 0.1.112
+Architecture: iphoneos-arm64
+Description: A coding agent that uses the subscription you have
+ Ask for a change in plain language and kk reads your files, writes the code and
+ runs the commands to make it happen. Run `kk` in a terminal, then `/login` to
+ sign in with Anthropic, ChatGPT, Copilot, Cursor, Kimi, Grok, Z.AI or
+ OpenRouter — or use an API key for any OpenAI-compatible service. It is a
+ native binary, so it starts fast and pulls in no Node or Bun. Also installed
+ as `kwwk`.
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: EYHN <https://github.com/EYHN/kwwk>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools
+Installed-Size: 26032
+Filename: debs/wiki.qaq.kk-0.1.112-rootless.deb
+Size: 5681764
+MD5sum: 6b8a57b8712863422422edad070a63c7
+SHA1: 
+SHA256: 0c8565dd69c8efdd09add52b4f7ced327c560a31647c5a4d2479ba798c9198f7
 
 Package: wiki.qaq.qqrecallprobe
 Name: QQNT防撤回
