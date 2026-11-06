@@ -3305,6 +3305,40 @@ Author: MoWang
 Section: Tweaks
 Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
 Architecture: iphoneos-arm64e
+Version: 0.3.26
+Installed-Size: 2124
+icon: https://huayuarc.github.io/icon/islanddigest.png
+Filename: debs/com.MoWang.islanddigest-0.3.26-roothide.deb
+Size: 1255644
+MD5sum: 5119c09be8caf2d25ab46ecbc8db4055
+SHA1: 
+SHA256: 311ed8963d198862091ed474d602da4820fe3325caa16ac30785c9e4d679074f
+
+Package: com.MoWang.islanddigest
+Name: 灵屿通知
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.3.26
+Installed-Size: 2124
+icon: https://huayuarc.github.io/icon/islanddigest.png
+Filename: debs/com.MoWang.islanddigest-0.3.26-rootless.deb
+Size: 1255096
+MD5sum: b7d463d14ed4c6e02a777c69cf684792
+SHA1: 
+SHA256: a304f0883cb166266f1603c34e416dd274f2df2b0e35396a2ced65705c2ccfde
+
+Package: com.MoWang.islanddigest
+Name: 灵屿通知
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Maintainer: MoWang
+Author: MoWang
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Architecture: iphoneos-arm64e
 Version: 0.3.3
 Installed-Size: 1784
 icon: https://huayuarc.github.io/icon/islanddigest.png
@@ -14029,6 +14063,40 @@ Size: 279944
 MD5sum: ef7694bff5416c0a7d32f59d11485cd7
 SHA1: 
 SHA256: a62f6b1f6ac9ff5c94d14b72262eae79cb39730ba81c2f870cfb3bb26228f950
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.4.3
+Installed-Size: 1328
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.4.3-roothide.deb
+Size: 203272
+MD5sum: a3f55929c8cbed7921c1c3977205f984
+SHA1: 
+SHA256: 9bc5a43f0e0170c2effcaf42236c628e363ea41c0b956070e8ca7dd68ea408a4
+
+Package: com.crctdd.stayalivelite
+Name: StayAlive Lite
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Maintainer: crctdd
+Author: crctdd
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.4.3
+Installed-Size: 2640
+icon: https://huayuarc.github.io/icon/StayAliveLite.png
+Filename: debs/com.crctdd.stayalivelite-0.4.3-rootless.deb
+Size: 306948
+MD5sum: ec464a401bd699a09fe125d0c556eed5
+SHA1: 
+SHA256: 266d8b8b60001c943daadbcf490299ffef166902fe6644088ce4282c9d69317f
 
 Package: com.crctdd.surgeactive
 Name: SurgeActive
@@ -28049,6 +28117,26 @@ Size: 826036
 MD5sum: 8bef8a20a1aac09217744ec256414f8c
 SHA1: 
 SHA256: 18e2f7bd0fcbeaa1966db366eea1f0826c01163671f10031c2555f42e7b4cab2
+
+Package: com.mlgm.kayoko
+Name: Kayoko
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm
+Version: 5.1.2
+Installed-Size: 3896
+Filename: debs/com.mlgm.kayoko-5.1.2-rootful.deb
+Size: 823740
+MD5sum: 09330bcfe7ca9d9b7b0246886fc88d73
+SHA1: 
+SHA256: 7653cf93f7e5da2d7a1e75e44b6bdb35c97419a68fd900e1c9fe108d9a062594
 
 Package: com.mlgm.kayoko
 Name: Kayoko
@@ -56272,6 +56360,40 @@ Size: 831820
 MD5sum: d3ac35eb0341f2e3004f4b7bd55c808e
 SHA1: 
 SHA256: a92faac576cccf277be9b1f98f708928d5a0b46963f86e367b8a16b184ef7f30
+
+Package: iya.banana.ios27animation
+Name: iOS27 Animation
+Description: 为iOS15-18带来iOS27风格的系统动画。iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 3584
+icon: https://huayuarc.github.io/icon/ios27animation.png
+Filename: debs/iya.banana.ios27animation-1.0.2-roothide.deb
+Size: 875252
+MD5sum: dfe50067c19fa13814780018e5ef36eb
+SHA1: 
+SHA256: 32805f047fabb366130b2bf27e747926df71aee5464728131e7e8b5efb5b2308
+
+Package: iya.banana.ios27animation
+Name: iOS27 Animation
+Description: 为iOS15-18带来iOS27风格的系统动画。iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Installed-Size: 3584
+icon: https://huayuarc.github.io/icon/ios27animation.png
+Filename: debs/iya.banana.ios27animation-1.0.2-rootless.deb
+Size: 875360
+MD5sum: 8344a27becb3cbc22ebc9380641073a6
+SHA1: 
+SHA256: b9fd6091ee34d74d34f47b91487eb88a567a8d58928ff0a6f437d103d466fadf
 
 Package: iya.banana.iphoneduoflow
 Name: DuoFlow
