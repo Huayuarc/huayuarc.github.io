@@ -52883,6 +52883,40 @@ SHA1:
 SHA256: 5f71bbd6508011f6402df4679680e50d1e9e7e580a21a2c07e367277e1ad0fa6
 
 Package: com.zengniu.splitview
+Version: 0.7.130
+Architecture: iphoneos-arm64e
+Description: 让 App 以小窗呈现，在主分屏、实时空挂、悬浮图标与底部下探卡片之间切换。主分屏可直接操作 App，并支持移动、等比缩放和旋转。激活码 当前时间+10分钟 Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 1435
+Filename: debs/com.zengniu.splitview-0.7.130-roothide.deb
+Size: 393140
+MD5sum: 22f44c07af9d1483b0631020ccb6d1b0
+SHA1: 
+SHA256: 6105bab0df65f637867d9438803aecda1a7c88f1a86bab1b89481bcd251b59d3
+
+Package: com.zengniu.splitview
+Version: 0.7.130
+Architecture: iphoneos-arm64
+Description: 让 App 以小窗呈现，在主分屏、实时空挂、悬浮图标与底部下探卡片之间切换。主分屏可直接操作 App，并支持移动、等比缩放和旋转。激活码 当前时间+10分钟 Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 2877
+Filename: debs/com.zengniu.splitview-0.7.130-rootless.deb
+Size: 598464
+MD5sum: 9b15de526cec7adacee9e0037d7903ef
+SHA1: 
+SHA256: 97341cccaf862146aa569a753b16ef85f35c8b908551e83ffb040eaae0b85db0
+
+Package: com.zengniu.splitview
 Version: 0.7.66
 Architecture: iphoneos-arm64e
 Description: 带有主屏幕图标手势和基本对接的实验性实时应用程序窗口。激活码 当前时间+10分钟 Experimental live app windows with Home Screen icon gestures and basic docking.
