@@ -31239,6 +31239,44 @@ MD5sum: e24355d5f1d63c9b4b5bf167847080d5
 SHA1: 
 SHA256: b5ad2df03d681b5bafc8d77ff2d8877afedaebf95c7f2087980b2c3d51e9af06
 
+Package: com.muzi.mutool
+Name: MUtool
+Description: MUtool 多功能工具集：灵动岛电池胶囊与电源菜单、桌面悬浮信息药丸（网速 / CPU / 内存 / 电池 / 天气 / 时间）、三合一状态栏、文件夹主题与大文件夹、通话自动录音与录屏增强、自动禁用 SIM 与卡槽管理、IPCC 运营商配置、WiFi 永连、充电提示音与 MagSafe 动画、温控调优、锁屏与主屏幕增强、定时任务、电池健康与深度信息。支持 rootless / roothide，iOS 15-17。
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64e
+Version: 2.2.80
+Installed-Size: 5868
+Filename: debs/com.muzi.mutool-2.2.80-roothide.deb
+Size: 922716
+MD5sum: c3a557d039147746f6ece5e21658dcae
+SHA1: 
+SHA256: 702f8e620a9e3b9028a1907ee4908fe34abbee6197236d862e51377a9cc58f15
+
+Package: com.muzi.mutool
+Name: MUtool
+Description: MUtool 多功能工具集：灵动岛电池胶囊与电源菜单、桌面悬浮信息药丸（网速 / CPU / 内存 / 电池 / 天气 / 时间）、三合一状态栏、文件夹主题与大文件夹、通话自动录音与录屏增强、自动禁用 SIM 与卡槽管理、IPCC 运营商配置、WiFi 永连、充电提示音与 MagSafe 动画、温控调优、锁屏与主屏幕增强、定时任务、电池健康与深度信息。支持 rootless / roothide，iOS 15-17。
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64
+Version: 2.2.80
+Installed-Size: 5884
+Filename: debs/com.muzi.mutool-2.2.80-rootless.deb
+Size: 927604
+MD5sum: 451b3ea3a89a492bb676cf252c9c10d0
+SHA1: 
+SHA256: 3cc342558c0b0c9e864aaf92d15988b58bbb77aa7d2418217d635b7aab18c8b0
+
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
 Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
@@ -41280,6 +41318,25 @@ Description: Filza的滑动多选功能。不再单独点击每个文件进行�
 Author: korboy <korboybeats@gmail.com>
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Installed-Size: 184
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini.filzaswipeselect-0.0.2-roothide.deb
+Size: 8896
+MD5sum: c2bb0ec376d8cbd2ac57c2656c52c1f8
+SHA1: 
+SHA256: cbb18f706156e517b69afd9be7401ef37b411f79b5ae4d793dbac786d0f6a22e
+
+Package: com.sini.filzaswipeselect
+Maintainer: korboy <korboybeats@gmail.com>
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/filzaswipeselect/js.json
+Name: FilzaSwipeSelect
+Description: Filza的滑动多选功能。不再单独点击每个文件进行选择。
+Author: korboy <korboybeats@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 0.0.2
 Installed-Size: 184
@@ -49809,6 +49866,42 @@ MD5sum: 601d8670b3e8456484a86c7ec67bd849
 SHA1: 
 SHA256: 844b9f6bd693971a26e2b5e446d5128891a6719dd8bb8a4b8c76e444a935dad3
 
+Package: com.tigisoftware.filza64bit
+Name: Filza File Manager 64-bit
+Depends: firmware (>= 15.0)
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
+Maintainer: TIGI Software
+Author: TIGI Software
+Section: Utilities
+Architecture: iphoneos-arm64e
+Version: 5.0.1
+Installed-Size: 32768
+Filename: debs/com.tigisoftware.filza64bit-5.0.1-roothide.deb
+Size: 11149036
+MD5sum: 7481cd8187036e555443343a43d64fdf
+SHA1: 
+SHA256: f423dac3e35ee1ccafbf9f25c03ed80b3d5b55bb969cae698bf540cdd4d50479
+
+Package: com.tigisoftware.filza64bit
+Name: Filza File Manager 64-bit
+Depends: firmware (>= 15.0)
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
+Maintainer: TIGI Software
+Author: TIGI Software
+Section: Utilities
+Architecture: iphoneos-arm64
+Version: 5.0.1
+Installed-Size: 32768
+Filename: debs/com.tigisoftware.filza64bit-5.0.1-rootless.deb
+Size: 11152024
+MD5sum: 58a2a3c2f3b938a5b514c3e7d5443137
+SHA1: 
+SHA256: ef2b86713f5e6e5003a3d788d5bfeef8930a1c21464b0a0bac42d8b52431aa6a
+
 Package: com.touchWorld.doubanTweak
 Name: DoubanTweak
 Version: 1.2.0
@@ -56102,6 +56195,66 @@ Size: 572424
 MD5sum: 0af24815fe550d1a7516159683720970
 SHA1: 
 SHA256: 209ebfa2e406d9a7504e54f58a114453c4e55a02848afd7d9dd8cc55d01c0c3c
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手 Rootful
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm
+Version: 3.2.3
+Installed-Size: 2504
+Filename: debs/im.mjh.xianyuadblock-3.2.3-rootful.deb
+Size: 827688
+MD5sum: fc98b528ac53c14fae7d3c0b1d949ef4
+SHA1: 
+SHA256: cc5eb5a552b2968ba5b9beafd25fd6f33ccb0795c7b8505eb1fdac3346ceef6e
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64e
+Version: 3.2.3
+Installed-Size: 2504
+Filename: debs/im.mjh.xianyuadblock-3.2.3-roothide.deb
+Size: 830312
+MD5sum: 7fc38304721e2f928a7a931cbc957720
+SHA1: 
+SHA256: bf77b25c81485fddf42cb520abba96bea42b98be04d65c34de1e2de5efd22398
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64
+Version: 3.2.3
+Installed-Size: 2504
+Filename: debs/im.mjh.xianyuadblock-3.2.3-rootless.deb
+Size: 831612
+MD5sum: 8fbc68025223075ad64a1c4478d5fdd8
+SHA1: 
+SHA256: 6e426f78e46ae12dc01f4bba2c1c71e9b6eec1b2d1561d35ee8cd2c4578ae304
 
 Architecture: iphoneos-arm64
 Package: im.mjh.xianyuhelper
@@ -63357,6 +63510,54 @@ Size: 4925724
 MD5sum: 6ec107080c9cc633612d1d7034e20f09
 SHA1: 
 SHA256: 5e2758637ed225854cbfbc6399fbb858af8085d7ad8f56e08dba1c4e60db0401
+
+Package: wiki.qaq.ighostvt
+Name: iGhostVT
+Version: 1.6.26
+Architecture: iphoneos-arm64e
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Installed-Size: 16592
+Filename: debs/wiki.qaq.ighostvt-1.6.26-roothide.deb
+Size: 4941748
+MD5sum: 02a52abe559ca11a626cbaa8c5497c47
+SHA1: 
+SHA256: d218f35f66c33add5769c2d0dcb63e55fe840b48a37202561121d1aa7a6bd33e
+
+Package: wiki.qaq.ighostvt
+Name: iGhostVT
+Version: 1.6.26
+Architecture: iphoneos-arm64
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Installed-Size: 16592
+Filename: debs/wiki.qaq.ighostvt-1.6.26-rootless.deb
+Size: 4942812
+MD5sum: 294e4e9e5dd12550e8179a7523096fe2
+SHA1: 
+SHA256: 32f0cc32339b25b780a4b2e31d9489a0a3cafe5a1d92357bc382d8ec2b7cb9d9
 
 Package: wiki.qaq.inspector
 Name: Inspector
