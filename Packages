@@ -60564,6 +60564,44 @@ SHA256: c0653e5ab4ddb50b418dcc8a7a37914406555500f38c77030e18ac6f65bd1edf
 
 Package: re.frida.server
 Name: Frida
+Version: 16.1.4
+Priority: optional
+Size: 17924096
+Installed-Size: 60104
+Architecture: iphoneos-arm64e
+Description: Observe and reprogram running programs.
+Homepage: https://frida.re/
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Author: Frida Developers <oleavr@nowsecure.com>
+Section: Utilities
+Conflicts: re.frida.server64
+Filename: debs/re.frida.server-16.1.4-roothide.deb
+Size: 16338676
+MD5sum: 35abd710b55e5f651c97d6ada5758daf
+SHA1: 
+SHA256: e7286dc934b6a3b46649a67df2d0ef2f50f7d1805ba2b074c7079e213de1f14f
+
+Package: re.frida.server
+Name: Frida
+Version: 16.1.4
+Priority: optional
+Size: 17829888
+Installed-Size: 60116
+Architecture: iphoneos-arm64
+Description: Observe and reprogram running programs.
+Homepage: https://frida.re/
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Author: Frida Developers <oleavr@nowsecure.com>
+Section: Utilities
+Conflicts: re.frida.server64
+Filename: debs/re.frida.server-16.1.4-rootless.deb
+Size: 16243276
+MD5sum: b50f7b3240ca48484483e2fc8a93fed8
+SHA1: 
+SHA256: 0097a1bbb7752971210bf4d8a2ebc245b89d7564188cb4fa9b6eda54f9b79a68
+
+Package: re.frida.server
+Name: Frida
 Version: 17.25.1
 Priority: optional
 Installed-Size: 78466
@@ -60572,14 +60610,13 @@ Description: Observe and reprogram running programs.
 Homepage: https://frida.re/
 Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
 Author: Frida Developers <oleavr@nowsecure.com>
-Section: Development
+Section: Utilities
 Conflicts: re.frida.server64
-icon: https://huayuarc.github.io/icon/frida.jpg
 Filename: debs/re.frida.server-17.25.1-roothide.deb
-Size: 23534004
-MD5sum: 4c4e8685fe7b4397777b0c58c5ba8939
+Size: 23533396
+MD5sum: a79f79617c85c9519135912889198f29
 SHA1: 
-SHA256: a6d28897af871bbf6ec835ae40d9132ecf148c2222c6935ec717f5c2764e6a99
+SHA256: e1546b23f6dd5a92d8da0fdaff5085b4a45ec8973aae9ede836d8044d93fab90
 
 Package: re.frida.server
 Name: Frida
@@ -60592,14 +60629,32 @@ Description: Observe and reprogram running programs.
 Homepage: https://frida.re/
 Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
 Author: Frida Developers <oleavr@nowsecure.com>
-Section: Development
+Section: Utilities
 Conflicts: re.frida.server64
-icon: https://huayuarc.github.io/icon/frida.jpg
 Filename: debs/re.frida.server-17.25.1-rootless.deb
-Size: 23492320
-MD5sum: e8b36bebaf9abc141925e2899664abbf
+Size: 23491020
+MD5sum: 894874dfce7c89634a60f1cc367bc6b3
 SHA1: 
-SHA256: a7acb46b21d36cc2436a32c48f06bd131052345581ecda8141c6e73c386ef188
+SHA256: 113a29830d7fa905ff6854aca0395e2b03ed794843190d70ab59e76721189a6c
+
+Package: re.frida.server
+Name: Frida
+Version: 17.26.1
+Priority: optional
+Size: 23547904
+Installed-Size: 78484
+Architecture: iphoneos-arm64
+Description: Observe and reprogram running programs.
+Homepage: https://frida.re/
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Author: Frida Developers <oleavr@nowsecure.com>
+Section: Utilities
+Conflicts: re.frida.server64
+Filename: debs/re.frida.server-17.26.1-rootless.deb
+Size: 23492012
+MD5sum: 306bea1a50e7077912dc45997f8e0ac9
+SHA1: 
+SHA256: 862b0d5fee8e5ae00e1022cb5543ff340a76df20cb27a3fabe36e9689f353fbb
 
 Package: spoofnotify
 Name: 通知权限伪装
