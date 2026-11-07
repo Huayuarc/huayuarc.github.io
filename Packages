@@ -48119,6 +48119,627 @@ SHA1:
 SHA256: 1aa8e9267faa12660a4e317b3f03e2b08b9ba70c1e99bebc43553b5e21a6fb61
 
 Package: com.susudear.screencore
+Name: screencore-窗口调度版
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-12。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明保留在包内使用说明书，设置首页不再显示长说明。
+ 安装后重启桌面。
+ 修复小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边的问题。
+ 尺寸恢复通过原版队列补发，不延迟切换；重新打开小窗时取消旧恢复，不修改键盘避让。
+ App 跳转小窗使用原始尺寸和完整画面比例，不套用普通分屏的 16:9 预设。
+ 复用已有窗口时同步原始比例；普通分屏、收藏切换和键盘避让保持原方案。
+ 补全巨魔安装应用等特殊接收端的键盘场景归属，并为缺少可用宿主的真实键盘层提供显示接入。
+ 复用原版键盘窗口及输入框避让，不改普通或跳转小窗比例、动画、启动保护、悬浮球及应用注入。
+ 修复左上角放大后底部点击及上划无法退出：手势区保留在屏幕内，关闭前释放强制铺满。
+ 沿用原版退出流程及上划开关和阈值；取消旧放大回调，不改变键盘避让、快捷切换和悬浮球适配。
+ 长按收藏 App 原地松手打开自由独立窗口，不受普通浮窗数量、单窗口替换或自动边缘停靠限制。
+ 独立窗口沿用分屏比例，不依赖 App 跳转弹窗开关；普通切换保留它，同 App 复用原窗口。
+ 保留放大退出修复、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 设置新增移除底部系统 Dock 开关，默认关闭，更改立即生效；不影响键盘或应用内底栏。
+ 保留长按独立窗口、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 修复键盘图层或承载窗口晚到时显示接入丢失，以及不可见原生宿主误接管造成的键盘空白。
+ 就绪恢复限定当前小窗及原版键盘显示请求，收起和切换取消旧重试；保留输入框避让与正常切换速度。
+ 新增 5:3 普通分屏比例，沿用 16:9 的键盘显示与输入框避让流程。
+ 同步应用画布、全屏交接和退出还原；跳转小窗保持原始比例，其他功能基于 .12-13。
+ 移除 4:3，保留原始比例、16:9、5:3；旧 4:3 设置自动迁移为 5:3。
+ 切换比例不再自动注销，确认后关闭并重新打开普通小窗生效；已打开小窗保持自己的比例。
+ 保留原设置保存及同步通知、手动注销、键盘与输入框避让和悬浮球适配。
+ 左右侧边向内滑动可实时临时放大，松手平滑恢复；侧边滑动替代移动。
+ 新增放大灵敏度滑条 1–8，默认 2；显示宽高分别不超过屏幕对应尺寸的 4 倍。
+ 保留 .12-17 的比例免注销、原有键盘避让、悬浮球适配和启动保护。
+ 底部向上滑动松手将小窗临时收进灵动岛，保留原应用会话。
+ 进出带缩放、位移和淡入淡出；保留 .12-18 侧边临时放大及原有键盘与悬浮球适配。
+ 保留原有键盘、悬浮球、灵动岛动画及启动失败保护，不增加固定等待。
+ 底部点击和上滑统一收进灵动岛后执行原生关闭，结束隐藏小窗托管。
+ 新增 16:10、18:10 普通分屏比例，沿用 16:9 键盘显示、输入框避让及收起还原。
+ 同步真实应用画布、全屏输入和退出尺寸恢复；切换比例免注销，已有小窗保留原比例。
+ 保留 .12-21 灵动岛动画范围，其他出入场动画、键盘兼容和悬浮球适配保持原有实现。
+ 恢复原有浮窗柔和阴影，硬黑边改为底部聚焦的柔和投影；聚焦阴影深浅 0–100%，默认 40%。
+ 新增实时圆角半径滑条 0–60，默认 24；全屏保持直角，支持缩放与返回小窗。
+ 保留 .12-22 全部窗口比例、键盘避让、悬浮球及原有动画范围。
+ 文件分享等待接收小窗画面和入场就绪再投递，复用已打开目标窗口，避免普通启动覆盖分享页面。
+ 保留文件 URL、Actions、沙盒授权和回调；启动失败完整请求回退系统打开一次。
+ 保留 .12-24 键盘避让、快捷栏、悬浮球、窗口动画、比例、阴影和圆角设置。
+ 新增点击顶部通知横条用小窗打开开关，默认关闭、即时生效，独立于 App 跳转弹窗。
+ 保留系统通知跳转动作、来源及回调；复用已打开小窗，启动失败回退系统一次。
+ 保留 .12-25 分享修复、键盘避让、快捷栏、悬浮球、动画、比例及阴影设置。
+ 修复分享、通知启动等待期间的系统栈回调生命周期，避免延迟交付导致 SpringBoard 安全模式。
+ 保留通知小窗开关、文件分享及此前功能；安装后重新启动 SpringBoard 生效。
+ .12-28 修正此前通知独立小窗行为：横幅通知改用所选比例的普通分屏，遵循窗口数量及单窗口模式。
+ 原版通知分屏开关与调度通知开关均可启用；通知不再创建原始比例跳转小窗，文件分享保留独立小窗。
+ 保留 .12-27 回调生命周期修复、启动失败保护及原有键盘、快捷栏、悬浮球和动画；安装后重新启动 SpringBoard。
+ .12-29 横幅普通分屏补上灵动岛入场动画，已打开窗口复用原场景并重播入场。
+ 原始通知响应直接投递对应分屏场景，保留消息参数；防止工作区重复投递，失败完整回退。
+ 保留所选比例、窗口上限、单窗口、键盘、分享、快捷栏、悬浮球及原有启动保护；安装后重启 SpringBoard。
+ .12-32 基于 .12-29：修复 iOS17 退出分屏/原生全屏后的残留小窗画布及黑底。
+ 同步原生画布重绘，拦截同一前台场景的旧比例回写；保留键盘字段、原动画和返回图标。
+ 仅新增 iOS17 SpringBoard 模块，旧二进制全部保留；安装后重启 SpringBoard。
+ .12-33 iOS 17 全屏前静默恢复原始尺寸，冻结小窗遮住重布局，成功回执后等待约 1 秒。
+ 保留原版全屏交接与失败回退、返回图标、键盘避让、普通切换速度；其他系统不启用新流程。
+ .12-34 保留 .12-33 全屏前静默恢复与失败回退。
+ iOS17 全屏成功后，限 4 次重新提交原生画布以触发应用重绘；键盘高度、焦点及方向字段不改。
+ 非 iOS17 系统不启用；系统远程合成表面的真机表现仍需验证。
+ .12-35 移除圆形菜单手势上的重复呼回，由 QuickLaunch 自行按其打开方式处理。
+ 保留底部关闭、入岛动画、键盘及其他窗口调度逻辑。
+ .12-36 新增窗口消失动画选择：原始动画、粒子消散、华为风格，默认保留原始动画。
+ 用于小窗关闭及普通替换退场；保留原有入场、全屏交接、键盘避让及 QuickLaunch 独立呼回。
+ .12-37 修复消失效果设置页点击闪退，细化粒子，分离原位侵蚀与稀疏飘散，取消颗粒放大。
+ 保留三种选择、现有键盘与全屏流程、QuickLaunch 独立呼回和窗口启动失败保护。
+ .12-38 重做独立细粒消散：原生 GPU Compute、原图取色、向下散落及连续湍流，华为风格增加柔和 Bloom。
+ 保留原始动画、设置页修复、键盘与全屏流程、QuickLaunch 独立呼回和窗口启动失败保护。
+ .12-39 细化沙粒并降低硬亮点；两种效果均斜向上随风飘散，原图边缘柔和渐隐，华为风格改为不规则侵蚀。
+ 保留原始动画、键盘与全屏流程、悬浮球适配、QuickLaunch 隔离及启动失败保护。
+ .12-40 保留 .12-39 粒子消散，华为风格替换为风沙消散：细沙随风卷动，末段留少量浮尘并淡出。
+ 设置可选原始动画、粒子消散、风沙消散；保留键盘、全屏、悬浮球适配及启动失败保护。
+ .12-41 四种独立消失效果：原始动画、粒子消散、风沙消散、华为消散。
+ 粒子按提示词采样约1500粒，从左向右擦除、右上飘散并缩小；风沙弧形上浮后慢消散，华为独立恢复。
+ .12-42 重做像素碎落、弧形飘散、华为消散，原始动画继续保留；取消双翼方案。
+ 像素碎落采用右上至左下斜线和下落碎片；华为消散采用中部缺口、不规则扩散与边缘卷动，约两秒。
+ .12-43 新增独立窗口呼出动画：原始动画、碎片聚合，聚合约 0.46 秒，默认原始动画。
+ 删除华为消散；关闭保留原始、像素碎落和弧形飘散。呼出关闭独立设置，无须注销。
+ .12-44 删除碎片聚合呼出及对应设置，恢复原有入场响应；旧呼出偏好不再生效。
+ 新增花瓣消散，粉白花瓣翻转飘散并带柔和粉雾，约两秒。原始、像素碎落和弧形飘散保留。
+ .12-45 花瓣消散改为与像素碎落相同的右上至左下斜线推进，取消中部扩散。
+ 保留两秒时长、花瓣翻转和粉雾，呼出继续使用原始流程。
+ .12-46 像素碎落和花瓣改为被风吹走的曲线轨迹，先向右散开，再斜向上扬并轻微摆动。
+ 右上至左下的消散边缘、原有时长和花瓣粉雾保持不变。
+ .12-47 消散显示缓冲改为后台获取，防止等待阻塞界面；旧帧合并，迟到缓冲安全丢弃。
+ 花瓣捕获和渲染降至 1.5 倍像素密度，减少重复 GPU 计算；消散边缘改为细小不规则剥离，保留风向和时长。
+ .12-48 修复消散不显示：恢复 .12-46 首帧提交顺序，取消等待显示回调的绘制门槛并增加完成兜底。
+ 保留自然花瓣边缘、弯曲风向和两秒时长；保留降低渲染开销，撤回后台取帧。
+ .12-49 花瓣先密集覆盖窗口，窗口在花瓣堆内消失后，花瓣再弯曲向右上方飘散。
+ 保留约两秒时长与启动保护；其他消失动画、键盘、全屏和悬浮球逻辑保持原有流程。
+ .12-50 花瓣后续取帧移出主线程，繁忙时合并最新进度，缓存花瓣与粉雾减少重复计算。
+ 柔化花瓣覆盖前沿和单片边缘，保留花瓣堆内消失、约两秒时长与首帧启动保护。
+ .12-51 移除设置首页的功能与快捷操作长说明，保留所有功能设置。
+ .12-52 新增独立“玫瑰花瓣”消失选项，深红宽瓣卷边，覆盖前沿与轮廓更加柔和。
+ 保留原有四种选择、约两秒花瓣时长、后台取帧和精简设置首页。
+ .12-53 修复原生窗口退出期间快速重开被拒绝，普通启动保持立即响应。
+ QuickLaunch 的 ScreenCore 错误使用中文，真实失败仍保留原错误码。
+ 玫瑰花瓣替换为星光消散，五角星亮芯、柔和光晕和错落闪烁；其他消失动画保留。
+ .12-54 新增图标切换的独立抽屉模式：左侧 ARC 已选 App，右侧原始比例界面。
+ 目标就绪后横向抽屉切换，输入时全屏、键盘收起恢复；保留原有模式和消失动画。
+ .12-55 抽屉页面与窄栏直边对齐，使用统一外围阴影；普通小窗圆角设置不变。
+ 抽屉大小与普通小窗尺寸隔离，调整模式新增双指捏合缩放和随手势中心移动。
+ .12-56 抽屉工具支持 ARC 和 QuickLaunch URL 列表调用，移除窗口内模式入口。
+ 调整模式使用灰黑透明画布，单指移动、双指缩放，再点调整完成。
+ 最大化提交实际全屏页面画布，顶部底部填满、四角直边，控件避开系统安全区域。
+ .12-57 抽屉输入提交真实全宽画布，收起键盘保持输入前的最大化状态。
+ 抽屉全屏使用黑色状态内容；关闭恢复普通比例记录，修复重新开小窗时比例串用。
+ .12-58 抽屉全屏及输入时使用黑色状态前景，退出还原原色。
+ 键盘展开和收回同步折叠/展开窄栏，尺寸与画布均就绪后再交接，避免转场露出桌面。
+ .12-59 抽屉键盘展开和收回统一裁剪与画布坐标，阻止迟到尺寸回调重设位置和比例。
+ .12-60 抽屉新建直接使用目标比例；键盘输入使用真实全窗口画布并校正迟到事务。
+ 普通小窗入场校正残留 App 表面，保留原生比例与虚拟显示配置，修复右侧和底部留白。
+ 状态栏时间、日期定时更新时保持黑色，退出恢复。
+ .12-61 TIM 普通小窗独立布局刷新；电话助手时钟按 App 深浅外观适配并恢复原色。
+ 移除抽屉调整按钮，保留原有角部缩放；补齐呼出、退出和大小切换转场，独立记忆抽屉位置大小。
+ .12-62 移除状态栏强制黑色及电话助手时钟适配，颜色由系统和原插件控制。
+ 抽屉初始化限制为 SpringBoard，合并镜像加载回调，去除设置中重复扫描风险。
+ 抽屉呼出采用真实页面与窄栏同步轻动效，覆盖冷启动及复用窗口，无呼出截图等待。
+ .12-63 全屏抽屉窄栏与页面从左右两侧进入，退出反向滑出，修复原生宿主拆除中断退场。
+ 增加侧栏与 ARC 共用的图标大小、间距和方形/圆形设置，修改后无需注销。
+ .12-64 修复抽屉入场前闪屏，保护新建和复用窗口，拒绝和超时立即释放。
+ 图标最大 200%，间距可收紧至 -32；侧栏自适应宽度，圆形使用实际图片边界裁剪。
+ .12-65 抽屉等待真实内容与启动占位层撤下后再同步入场，修复呼出先显示白底。
+ 真实侧栏同步缩放布局，键盘侧栏不拆装，页面交接不再交叉淡入新旧侧栏。
+ 最大化保留原生逻辑宽度、匹配页面宽高比并整体缩放，防止聊天内容溢出右侧。
+ .12-66 取消加长画布，抽屉使用固定原生尺寸并在宿主内完整映射，修复右侧溢出和底部留白风险。
+ 键盘和侧栏几何变化保留已提交的同尺寸表面；普通模式和实际尺寸变更保留原重试。
+ 入场空遮罩防直接图层重置露白，等待稳定刷新后同步滑入，全屏呼出约 0.46 秒。
+ .12-67 新增实时窄边栏宽度调节，右侧应用按实际可用宽度布局，取消非等比拉伸。
+ 启动页随抽屉同步进入，统一入场时间线；暂未就绪不解除隐藏，保留启动失败保护。
+ .12-68 移除侧栏应用选中外框，取消初始触摸等待，按下即时反馈。
+ 键盘收放带着真实图标同步滑动，避免收回后突然显示，保留启动与回退保护。
+ .12-69 新增侧栏左右切换按钮与同步滑动转场，方向随抽屉尺寸记忆。
+ 新增侧栏背景颜色与透明度设置，实时更新且只改变底色，不淡化图标和按钮。
+ .12-70 最大化抽屉的应用横屏请求改为原生全屏交接，由系统旋转，保留返回抽屉图标。
+ 忙碌请求合并等待，后台取消；启动失败保留抽屉，普通小窗旋转不变。
+ .12-71 全屏抽屉接缝上下圆弧，左右镜像；缩小后四角同弧，保持场景尺寸与输入布局。
+ 背景颜色点选、双色渐变、独立背景透明度，共享 ARC/侧栏图标底部阴影。
+ 抖音全屏增加有限布局刷新兼容，实际播放器效果需设备验证。
+ .12-72 移除普通窗口旧角标、独立收藏应用栏及相关设置，抽屉使用 ARC 应用列表。
+ 保留抽屉、共享切换保护、原生全屏返回控件、键盘和悬浮球适配。
+ .12-73 普通小窗透明穿透系统工具，键盘保留并上移避让，透明度可调。
+ 抽屉独立于普通小窗数量和调度，内容与侧栏层级低于普通小窗。
+ .12-77.duo.3 修订横屏分隔条、画面预览、重复应用拦截与独立键盘几何。
+ ARC 与配套 QuickLaunch 可选应用；横屏左右、竖屏上下，真实画布调整，不缩放拉伸。
+ 拖动预览、松手单次提交；图标选择、主动横屏、输入全屏及满槽新应用普通小窗。
+ .12-79.duo3.43 横屏保持 Duo，键盘自由移动、布局记忆及四角贴合修复。
+ 普通横屏视频小窗仅在 Duo 竖屏生效；主动横屏及旋转期间不自动转小窗。
+ 记忆中心和缩放独立于原生临时偏移；原生重置或迟到回调不覆盖用户布局。
+ 拖动从当前位置开始，两轴自由移动，不向上跳、不限制边界；四角线形标记紧贴可见键盘。
+ 弹起前冻结画面，场景准备后原子替换；快速反转复用过渡层，不交叉叠影。
+ 上屏普通横屏小窗自动恢复下屏显示，视频退出回到最新双窗比例。
+ 主动旋转需系统及 UIKit 确认后同步 App 与原横屏分离键盘，失败回退。
+ 拖动仅预览下屏，松手重排一次；普通与自由布局均不改变横屏小窗。
+ 视频退出等待下屏调整结束，恢复最新分割位置，不回到旧比例。
+ 保留 .33 原生显示链、原始纹理尺寸、纹理补偿和会话保护。
+ 仅 Duo 横屏接管原移动条的位移，其他模式继续原生拖动，不自动避让。
+ 任意一个角拖动调整大小，保留44pt透明触摸区域，无箭头无底色。
+ 收起和重新弹出保留手动大小、位置，左右横屏分开记忆，其他模式不读取。
+ 上屏视频复用原会话临时普通横屏，显式退出后接回原窗口；下屏保持。
+ Duo 竖屏键盘收起采用单层画面交接，避免先回全屏位置及新旧画面重影。
+ 重复横屏布局与相同在途方向请求合并，尺寸变化、反向和超时可正常更新。
+ 抽屉及侧栏位于 Duo 上方；重复应用在启动和切换前提示并拦截。
+ 保留普通小窗、抽屉及竖屏输入路径、滑条、折叠工具栏和视频适配。
+ 未连接手机；iOS 17 及微信输入法真实方向和完整显示需要实机确认。
+Maintainer: kanuo
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/screencore/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.susudear.screencore.json
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 2.0.3+windowscheduler.12-79.duo3.43
+Installed-Size: 4514
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Core-Identity-Revision: expected-author-kanuo.1
+X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Geometry-Base-SHA256: 619767fdd4d744203cef45ca1d5cd370b5f9a5521850034a21ddf3523a7c2701
+X-Native-Jump-Geometry: popup-only-native-size.1
+X-Native-Jump-Base-SHA256: 2bc5d7e4c7c8ab8b0fe6117bc5fbd98a784701d429016984ce6a570ac54b131e
+X-Keyboard-Compatibility: scene-identity-and-bounded-readiness.2
+X-Keyboard-Base-SHA256: 19a90341e8511ab23a40f8f1ca23d3410a72cac82690501f9b7924bf3f33ef3b
+X-Fullscreen-Exit: onscreen-native-region-and-dismissal-release.1
+X-Fullscreen-Exit-Base-SHA256: 2dbe5dde47fdac2b813d9cb27434286885af7e29ee8b6f783a5ea86557fe9a58
+X-Favorite-Standalone: independent-policy-normal-split-geometry.1
+X-Favorite-Standalone-Base-SHA256: c09cf505d87431c352c80b52dfdf435801a3422b77cd0ee875ab481e35e55b34
+X-Fullscreen-Native-Canvas: physical-screen-reversible-queued-geometry.1
+X-Fullscreen-Base-SHA256: 60dcbb8f1b3dd67d1b0e8e6ba861883515b9dc279ba1fe805acc156d7bba5270
+X-Fullscreen-Rendered-Canvas: instance-settings-hosted-resize-ack-validation.1
+X-Fullscreen-Rendered-Base-SHA256: e68c9aa0f0da74a9601ef610ef3db3e9ef6a29042b7a60ea3c7ae24235bd45ba
+X-Native-Fullscreen-Return: native-promotion-scoped-nonkey-icon.1
+X-Native-Fullscreen-Base-SHA256: 52c3ba9af8bb6d2b7dd5c42428ff7f73b3ab48518d2d56448a732f0804c5ead3
+X-Native-Fullscreen-Return-Animation: reverse-native-presentation.1
+X-Native-Fullscreen-Canvas-Handoff: atomic-hosted-resize.1
+X-Native-Fullscreen-Scene-State: scoped-input-layout.1
+X-Aspect-Ratio: native,16:9,5:3,16:10,18:10; per-session-canvas.1
+X-Aspect-Ratio-Base-SHA256: 5ec1fc7e5e318cb821f4054b1896b3a076767057c0322a0c308c73496ce3f2f5
+X-Edge-Peek: live-transform.mirrored-sides.gain1-8.max-screen4.return-animation.1
+X-Edge-Peek-Base-SHA256: e6162a232679122468fd9b044c146b80a70012c13528653b959898661e62f034
+X-Island-Return: quicklaunch.partial-circle.release-only.live-layer.1
+X-Island-Return-Base-SHA256: 74085fb00c17c77e682898c612f5f0b81a6c11b1d9785a45a3c8082ee25e43d9
+X-Quick-Recall: visual-circle.release-only.last-successful-app.closed-reopen.1
+X-Quick-Recall-Base-SHA256: 75ab5199f8dcef7fa67d1a2d80e829afebae527a013e572cc00d12b64556a47d
+X-Island-Native-Close: tap.upward.native-close.island-reentry.1
+X-Island-Native-Close-Base-SHA256: 7b353b2ddf77e44670048e23343c25a17e2ee0bb95925952ae23e4d82f24aa3c
+X-Window-Frame: focused-shadow.opacity0-100.live-radius0-60.2
+X-Window-Frame-Base-SHA256: ee3347687d22acc4906f7780f980aeab2098073457fa7f33cb4e46862cd3285a
+X-Window-Shadow: native-shadow-preserved.with-bottom-focused-shadow.2
+X-Share-Handoff: host-ready.single-native-request.reuse-existing.failure-fallback.1
+X-Share-Handoff-Base-SHA256: 48e538e0e85410939a9b0b482eb8a74993b11b15fb36a9ee0367c1938c93b0ef
+X-Notification-Popup: banner-only.default-off.live.independent.host-ready.native-payload.1
+X-Notification-Popup-Base-SHA256: 441cc97916c58e49a53b4e87410555286f4c0a7b594966bdf92bfa18937d569f
+X-Callback-Lifetime: copy-native-completion.copy-queued-delivery.once.release.1
+X-Callback-Lifetime-Base-SHA256: 6e9f45ba8884516854ad6feba846af29a507183a513d1807b267faa5d3aa53f2
+X-Notification-Split: ordinary.selected-ratio.native-pref.limits.original-animation.host-ready.1
+X-Notification-Split-Base-SHA256: e1076fd5d1882c5114f516f118049a3e2fbe3a23c3e03c4b5057b6f06b8a4788
+X-Notification-Direct: hosted.response.actions-once.island.native-entrance.warm-replay.1
+X-Notification-Direct-Base-SHA256: 1f128e25b080d38c101e2e8752856ce597960888fe7108614b006febfd2aabf3
+X-Native-Canvas: ios17.close-promote.scene-repaint.late-settings.1
+X-Native-Canvas-Base-SHA256: cf087de4922c218cbad052e94b1a01caff49ffe94ed76ded78c6a0cbbdeeb089
+X-Silent-Fullscreen: ios17.snapshot.native-restore.settle1s.native-rollback.1
+X-Silent-Fullscreen-Base-SHA256: 9bdb597040d06c750e2e4c74c4df32fd8e23103e7c6117ae80109caed3409da1
+X-Native-Canvas-Repaint: ios17.foreground.success.bounded4.preserve-input.1
+X-Native-Canvas-Repaint-Base-SHA256: 355f781a87674cb64585f0ac153fa9fce279ddb28d09a12498686175eee09025
+X-Radial-Recall-Owner: quicklaunch
+X-Window-Disappear: original.dust.huawei-style.bounded-compositor.1
+X-Window-Disappear-Revision: settings-action.fine-grain.stationary-erosion.2
+X-Window-Particle-GPU: compute.texture-alpha.fractal-wind.soft-bloom.1
+X-Window-Particle-Softening: upward-wind.irregular-feather.gaussian-grains.1
+X-Window-Sandstorm: legacy-dust-preserved.curl-grains.residual-dust.1
+X-Window-Arc-Effects: four-modes.prompt1500.rising-sand.huawei-restored.1
+X-Window-Textured-Fragments: video-diagonal-fall.arc.huawei-center-curl.original-texture.2
+X-Window-Effects-43: dismiss-original.diagonal.arc.huawei-removed
+X-Window-Arrival: original.diagonal-assembly.0.46.native-accepted.shared-budget.1
+X-Window-Effects-44: native-entry.petals.2sec.pixel.arc.huawei-removed
+X-Window-Effects-45: petals.top-right-to-bottom-left.soft-diagonal.2sec
+X-Window-Effects-46: pixel.petals.curved-up-right-wind.original-timing
+X-Window-Effects-47: async-drawable.coalesced-ticks.petals-scale1.5.frayed-soft-edge
+X-Window-Effects-48: restored-submission.gpu-completion-fallback.idempotent-reveal
+X-Window-Effects-49: petals.cover-erase-lift.no-image-ghost
+X-Window-Effects-50: petal-backpressure.cached-sprites.soft-front
+X-Window-Effects-52: rose-petals.separate-mode5.soft-rim.cached-atlas
+X-Window-Launch-Recovery: closing-state4.bounded3sec.latest-choice.chinese-ql-errors.1
+X-Window-Effects-53: glowing-stars.mode5.cached-fivepoint-halo.curved-wind
+X-Window-Drawer: arc-selected.native-ratio.icon-toggle.keyboard-fullscreen.1
+X-Drawer-Isolation: square-seam.separate-persistence.edit-pinch.1
+X-Drawer-Tools: external-url.persistent-editor.real-fullpage.rollback.1
+X-Drawer-Input: full-canvas.saved-maximize.native-status.normal-ratio.1
+X-Drawer-Input-58: dark-status.scoped-foreground.assembly-motion.dual-barrier.1
+X-Drawer-Alignment-59: current-session-canvas.local-clip.no-native-refit.1
+X-Drawer-Canvas-60: native-entry.full-window.input.authoritative-canvas.ordinary-repaint.clock-refresh.1
+X-Drawer-Interaction-61: tim-entry.callassist-clock.assembly-size.entry.exit.placement.1
+X-Drawer-Settings-62: native-status.no-clock-scan.springboard-only.coalesced.1
+X-Drawer-63: fullscreen.opposing-slides.native-arc-shared-icons.1
+X-Drawer-64: pre-attach.visibility.atomic-reveal.true-circle.extended-icons.1
+X-Drawer-65: hosted-ready.no-startup-cover.live-rail.atomic-handoff.native-width-fit.1
+X-Drawer-66: fixed-native-canvas.local-xy-fit.retained-surface.masked-entry.stable-refresh.1
+X-Drawer-67: live-rail-width.real-usable-canvas.uniform-fit.startup-slide.deferred-hold.1
+X-Drawer-68: no-selection-frame.immediate-touch.live-input-rail.synchronized-return.1
+X-Drawer-69: remembered-edge.paired-slide.background-rgb.background-only-alpha.1
+X-Drawer-70: app-landscape.native-fullscreen.restore-display.drawer-return.deferred-cancel.1
+X-Drawer-71: mirrored-inner-corners.palette.gradient.background-alpha.icon-shadow.video-canvas.1
+X-Drawer-72: legacy-controls-retired.no-hidden-hit-targets.arc-drawer-preserved.1
+X-Passthrough-73: ordinary-only.layer-input-gate.keyboard-retained.1
+X-Duo-77: snapshot-preview.landscape-divider.keyboard-owner.duplicate-guard.3
+X-Duo3-Repair: 12-79.duo3.43
+X-Duo3-Repair-Base: 2.0.3+windowscheduler.12-77.duo.3
+Filename: debs/com.susudear.screencore-2.0.3+windowscheduler.12-79.duo3.43-roothide.deb
+Size: 823268
+MD5sum: b3d3056e504cd81161cab09c47c3591c
+SHA1: 
+SHA256: 1c9de13efc5f8204a373ed8e7a1c1f3fba0d784df79e3b1fbdc0d1ab6758e33c
+
+Package: com.susudear.screencore
+Name: screencore-窗口调度版
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-12。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明保留在包内使用说明书，设置首页不再显示长说明。
+ 安装后重启桌面。
+ 修复小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边的问题。
+ 尺寸恢复通过原版队列补发，不延迟切换；重新打开小窗时取消旧恢复，不修改键盘避让。
+ App 跳转小窗使用原始尺寸和完整画面比例，不套用普通分屏的 16:9 预设。
+ 复用已有窗口时同步原始比例；普通分屏、收藏切换和键盘避让保持原方案。
+ 补全巨魔安装应用等特殊接收端的键盘场景归属，并为缺少可用宿主的真实键盘层提供显示接入。
+ 复用原版键盘窗口及输入框避让，不改普通或跳转小窗比例、动画、启动保护、悬浮球及应用注入。
+ 修复左上角放大后底部点击及上划无法退出：手势区保留在屏幕内，关闭前释放强制铺满。
+ 沿用原版退出流程及上划开关和阈值；取消旧放大回调，不改变键盘避让、快捷切换和悬浮球适配。
+ 长按收藏 App 原地松手打开自由独立窗口，不受普通浮窗数量、单窗口替换或自动边缘停靠限制。
+ 独立窗口沿用分屏比例，不依赖 App 跳转弹窗开关；普通切换保留它，同 App 复用原窗口。
+ 保留放大退出修复、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 设置新增移除底部系统 Dock 开关，默认关闭，更改立即生效；不影响键盘或应用内底栏。
+ 保留长按独立窗口、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 修复键盘图层或承载窗口晚到时显示接入丢失，以及不可见原生宿主误接管造成的键盘空白。
+ 就绪恢复限定当前小窗及原版键盘显示请求，收起和切换取消旧重试；保留输入框避让与正常切换速度。
+ 新增 5:3 普通分屏比例，沿用 16:9 的键盘显示与输入框避让流程。
+ 同步应用画布、全屏交接和退出还原；跳转小窗保持原始比例，其他功能基于 .12-13。
+ 移除 4:3，保留原始比例、16:9、5:3；旧 4:3 设置自动迁移为 5:3。
+ 切换比例不再自动注销，确认后关闭并重新打开普通小窗生效；已打开小窗保持自己的比例。
+ 保留原设置保存及同步通知、手动注销、键盘与输入框避让和悬浮球适配。
+ 左右侧边向内滑动可实时临时放大，松手平滑恢复；侧边滑动替代移动。
+ 新增放大灵敏度滑条 1–8，默认 2；显示宽高分别不超过屏幕对应尺寸的 4 倍。
+ 保留 .12-17 的比例免注销、原有键盘避让、悬浮球适配和启动保护。
+ 底部向上滑动松手将小窗临时收进灵动岛，保留原应用会话。
+ 进出带缩放、位移和淡入淡出；保留 .12-18 侧边临时放大及原有键盘与悬浮球适配。
+ 保留原有键盘、悬浮球、灵动岛动画及启动失败保护，不增加固定等待。
+ 底部点击和上滑统一收进灵动岛后执行原生关闭，结束隐藏小窗托管。
+ 新增 16:10、18:10 普通分屏比例，沿用 16:9 键盘显示、输入框避让及收起还原。
+ 同步真实应用画布、全屏输入和退出尺寸恢复；切换比例免注销，已有小窗保留原比例。
+ 保留 .12-21 灵动岛动画范围，其他出入场动画、键盘兼容和悬浮球适配保持原有实现。
+ 恢复原有浮窗柔和阴影，硬黑边改为底部聚焦的柔和投影；聚焦阴影深浅 0–100%，默认 40%。
+ 新增实时圆角半径滑条 0–60，默认 24；全屏保持直角，支持缩放与返回小窗。
+ 保留 .12-22 全部窗口比例、键盘避让、悬浮球及原有动画范围。
+ 文件分享等待接收小窗画面和入场就绪再投递，复用已打开目标窗口，避免普通启动覆盖分享页面。
+ 保留文件 URL、Actions、沙盒授权和回调；启动失败完整请求回退系统打开一次。
+ 保留 .12-24 键盘避让、快捷栏、悬浮球、窗口动画、比例、阴影和圆角设置。
+ 新增点击顶部通知横条用小窗打开开关，默认关闭、即时生效，独立于 App 跳转弹窗。
+ 保留系统通知跳转动作、来源及回调；复用已打开小窗，启动失败回退系统一次。
+ 保留 .12-25 分享修复、键盘避让、快捷栏、悬浮球、动画、比例及阴影设置。
+ 修复分享、通知启动等待期间的系统栈回调生命周期，避免延迟交付导致 SpringBoard 安全模式。
+ 保留通知小窗开关、文件分享及此前功能；安装后重新启动 SpringBoard 生效。
+ .12-28 修正此前通知独立小窗行为：横幅通知改用所选比例的普通分屏，遵循窗口数量及单窗口模式。
+ 原版通知分屏开关与调度通知开关均可启用；通知不再创建原始比例跳转小窗，文件分享保留独立小窗。
+ 保留 .12-27 回调生命周期修复、启动失败保护及原有键盘、快捷栏、悬浮球和动画；安装后重新启动 SpringBoard。
+ .12-29 横幅普通分屏补上灵动岛入场动画，已打开窗口复用原场景并重播入场。
+ 原始通知响应直接投递对应分屏场景，保留消息参数；防止工作区重复投递，失败完整回退。
+ 保留所选比例、窗口上限、单窗口、键盘、分享、快捷栏、悬浮球及原有启动保护；安装后重启 SpringBoard。
+ .12-32 基于 .12-29：修复 iOS17 退出分屏/原生全屏后的残留小窗画布及黑底。
+ 同步原生画布重绘，拦截同一前台场景的旧比例回写；保留键盘字段、原动画和返回图标。
+ 仅新增 iOS17 SpringBoard 模块，旧二进制全部保留；安装后重启 SpringBoard。
+ .12-33 iOS 17 全屏前静默恢复原始尺寸，冻结小窗遮住重布局，成功回执后等待约 1 秒。
+ 保留原版全屏交接与失败回退、返回图标、键盘避让、普通切换速度；其他系统不启用新流程。
+ .12-34 保留 .12-33 全屏前静默恢复与失败回退。
+ iOS17 全屏成功后，限 4 次重新提交原生画布以触发应用重绘；键盘高度、焦点及方向字段不改。
+ 非 iOS17 系统不启用；系统远程合成表面的真机表现仍需验证。
+ .12-35 移除圆形菜单手势上的重复呼回，由 QuickLaunch 自行按其打开方式处理。
+ 保留底部关闭、入岛动画、键盘及其他窗口调度逻辑。
+ .12-36 新增窗口消失动画选择：原始动画、粒子消散、华为风格，默认保留原始动画。
+ 用于小窗关闭及普通替换退场；保留原有入场、全屏交接、键盘避让及 QuickLaunch 独立呼回。
+ .12-37 修复消失效果设置页点击闪退，细化粒子，分离原位侵蚀与稀疏飘散，取消颗粒放大。
+ 保留三种选择、现有键盘与全屏流程、QuickLaunch 独立呼回和窗口启动失败保护。
+ .12-38 重做独立细粒消散：原生 GPU Compute、原图取色、向下散落及连续湍流，华为风格增加柔和 Bloom。
+ 保留原始动画、设置页修复、键盘与全屏流程、QuickLaunch 独立呼回和窗口启动失败保护。
+ .12-39 细化沙粒并降低硬亮点；两种效果均斜向上随风飘散，原图边缘柔和渐隐，华为风格改为不规则侵蚀。
+ 保留原始动画、键盘与全屏流程、悬浮球适配、QuickLaunch 隔离及启动失败保护。
+ .12-40 保留 .12-39 粒子消散，华为风格替换为风沙消散：细沙随风卷动，末段留少量浮尘并淡出。
+ 设置可选原始动画、粒子消散、风沙消散；保留键盘、全屏、悬浮球适配及启动失败保护。
+ .12-41 四种独立消失效果：原始动画、粒子消散、风沙消散、华为消散。
+ 粒子按提示词采样约1500粒，从左向右擦除、右上飘散并缩小；风沙弧形上浮后慢消散，华为独立恢复。
+ .12-42 重做像素碎落、弧形飘散、华为消散，原始动画继续保留；取消双翼方案。
+ 像素碎落采用右上至左下斜线和下落碎片；华为消散采用中部缺口、不规则扩散与边缘卷动，约两秒。
+ .12-43 新增独立窗口呼出动画：原始动画、碎片聚合，聚合约 0.46 秒，默认原始动画。
+ 删除华为消散；关闭保留原始、像素碎落和弧形飘散。呼出关闭独立设置，无须注销。
+ .12-44 删除碎片聚合呼出及对应设置，恢复原有入场响应；旧呼出偏好不再生效。
+ 新增花瓣消散，粉白花瓣翻转飘散并带柔和粉雾，约两秒。原始、像素碎落和弧形飘散保留。
+ .12-45 花瓣消散改为与像素碎落相同的右上至左下斜线推进，取消中部扩散。
+ 保留两秒时长、花瓣翻转和粉雾，呼出继续使用原始流程。
+ .12-46 像素碎落和花瓣改为被风吹走的曲线轨迹，先向右散开，再斜向上扬并轻微摆动。
+ 右上至左下的消散边缘、原有时长和花瓣粉雾保持不变。
+ .12-47 消散显示缓冲改为后台获取，防止等待阻塞界面；旧帧合并，迟到缓冲安全丢弃。
+ 花瓣捕获和渲染降至 1.5 倍像素密度，减少重复 GPU 计算；消散边缘改为细小不规则剥离，保留风向和时长。
+ .12-48 修复消散不显示：恢复 .12-46 首帧提交顺序，取消等待显示回调的绘制门槛并增加完成兜底。
+ 保留自然花瓣边缘、弯曲风向和两秒时长；保留降低渲染开销，撤回后台取帧。
+ .12-49 花瓣先密集覆盖窗口，窗口在花瓣堆内消失后，花瓣再弯曲向右上方飘散。
+ 保留约两秒时长与启动保护；其他消失动画、键盘、全屏和悬浮球逻辑保持原有流程。
+ .12-50 花瓣后续取帧移出主线程，繁忙时合并最新进度，缓存花瓣与粉雾减少重复计算。
+ 柔化花瓣覆盖前沿和单片边缘，保留花瓣堆内消失、约两秒时长与首帧启动保护。
+ .12-51 移除设置首页的功能与快捷操作长说明，保留所有功能设置。
+ .12-52 新增独立“玫瑰花瓣”消失选项，深红宽瓣卷边，覆盖前沿与轮廓更加柔和。
+ 保留原有四种选择、约两秒花瓣时长、后台取帧和精简设置首页。
+ .12-53 修复原生窗口退出期间快速重开被拒绝，普通启动保持立即响应。
+ QuickLaunch 的 ScreenCore 错误使用中文，真实失败仍保留原错误码。
+ 玫瑰花瓣替换为星光消散，五角星亮芯、柔和光晕和错落闪烁；其他消失动画保留。
+ .12-54 新增图标切换的独立抽屉模式：左侧 ARC 已选 App，右侧原始比例界面。
+ 目标就绪后横向抽屉切换，输入时全屏、键盘收起恢复；保留原有模式和消失动画。
+ .12-55 抽屉页面与窄栏直边对齐，使用统一外围阴影；普通小窗圆角设置不变。
+ 抽屉大小与普通小窗尺寸隔离，调整模式新增双指捏合缩放和随手势中心移动。
+ .12-56 抽屉工具支持 ARC 和 QuickLaunch URL 列表调用，移除窗口内模式入口。
+ 调整模式使用灰黑透明画布，单指移动、双指缩放，再点调整完成。
+ 最大化提交实际全屏页面画布，顶部底部填满、四角直边，控件避开系统安全区域。
+ .12-57 抽屉输入提交真实全宽画布，收起键盘保持输入前的最大化状态。
+ 抽屉全屏使用黑色状态内容；关闭恢复普通比例记录，修复重新开小窗时比例串用。
+ .12-58 抽屉全屏及输入时使用黑色状态前景，退出还原原色。
+ 键盘展开和收回同步折叠/展开窄栏，尺寸与画布均就绪后再交接，避免转场露出桌面。
+ .12-59 抽屉键盘展开和收回统一裁剪与画布坐标，阻止迟到尺寸回调重设位置和比例。
+ .12-60 抽屉新建直接使用目标比例；键盘输入使用真实全窗口画布并校正迟到事务。
+ 普通小窗入场校正残留 App 表面，保留原生比例与虚拟显示配置，修复右侧和底部留白。
+ 状态栏时间、日期定时更新时保持黑色，退出恢复。
+ .12-61 TIM 普通小窗独立布局刷新；电话助手时钟按 App 深浅外观适配并恢复原色。
+ 移除抽屉调整按钮，保留原有角部缩放；补齐呼出、退出和大小切换转场，独立记忆抽屉位置大小。
+ .12-62 移除状态栏强制黑色及电话助手时钟适配，颜色由系统和原插件控制。
+ 抽屉初始化限制为 SpringBoard，合并镜像加载回调，去除设置中重复扫描风险。
+ 抽屉呼出采用真实页面与窄栏同步轻动效，覆盖冷启动及复用窗口，无呼出截图等待。
+ .12-63 全屏抽屉窄栏与页面从左右两侧进入，退出反向滑出，修复原生宿主拆除中断退场。
+ 增加侧栏与 ARC 共用的图标大小、间距和方形/圆形设置，修改后无需注销。
+ .12-64 修复抽屉入场前闪屏，保护新建和复用窗口，拒绝和超时立即释放。
+ 图标最大 200%，间距可收紧至 -32；侧栏自适应宽度，圆形使用实际图片边界裁剪。
+ .12-65 抽屉等待真实内容与启动占位层撤下后再同步入场，修复呼出先显示白底。
+ 真实侧栏同步缩放布局，键盘侧栏不拆装，页面交接不再交叉淡入新旧侧栏。
+ 最大化保留原生逻辑宽度、匹配页面宽高比并整体缩放，防止聊天内容溢出右侧。
+ .12-66 取消加长画布，抽屉使用固定原生尺寸并在宿主内完整映射，修复右侧溢出和底部留白风险。
+ 键盘和侧栏几何变化保留已提交的同尺寸表面；普通模式和实际尺寸变更保留原重试。
+ 入场空遮罩防直接图层重置露白，等待稳定刷新后同步滑入，全屏呼出约 0.46 秒。
+ .12-67 新增实时窄边栏宽度调节，右侧应用按实际可用宽度布局，取消非等比拉伸。
+ 启动页随抽屉同步进入，统一入场时间线；暂未就绪不解除隐藏，保留启动失败保护。
+ .12-68 移除侧栏应用选中外框，取消初始触摸等待，按下即时反馈。
+ 键盘收放带着真实图标同步滑动，避免收回后突然显示，保留启动与回退保护。
+ .12-69 新增侧栏左右切换按钮与同步滑动转场，方向随抽屉尺寸记忆。
+ 新增侧栏背景颜色与透明度设置，实时更新且只改变底色，不淡化图标和按钮。
+ .12-70 最大化抽屉的应用横屏请求改为原生全屏交接，由系统旋转，保留返回抽屉图标。
+ 忙碌请求合并等待，后台取消；启动失败保留抽屉，普通小窗旋转不变。
+ .12-71 全屏抽屉接缝上下圆弧，左右镜像；缩小后四角同弧，保持场景尺寸与输入布局。
+ 背景颜色点选、双色渐变、独立背景透明度，共享 ARC/侧栏图标底部阴影。
+ 抖音全屏增加有限布局刷新兼容，实际播放器效果需设备验证。
+ .12-72 移除普通窗口旧角标、独立收藏应用栏及相关设置，抽屉使用 ARC 应用列表。
+ 保留抽屉、共享切换保护、原生全屏返回控件、键盘和悬浮球适配。
+ .12-73 普通小窗透明穿透系统工具，键盘保留并上移避让，透明度可调。
+ 抽屉独立于普通小窗数量和调度，内容与侧栏层级低于普通小窗。
+ .12-77.duo.3 修订横屏分隔条、画面预览、重复应用拦截与独立键盘几何。
+ ARC 与配套 QuickLaunch 可选应用；横屏左右、竖屏上下，真实画布调整，不缩放拉伸。
+ 拖动预览、松手单次提交；图标选择、主动横屏、输入全屏及满槽新应用普通小窗。
+ .12-79.duo3.43 横屏保持 Duo，键盘自由移动、布局记忆及四角贴合修复。
+ 普通横屏视频小窗仅在 Duo 竖屏生效；主动横屏及旋转期间不自动转小窗。
+ 记忆中心和缩放独立于原生临时偏移；原生重置或迟到回调不覆盖用户布局。
+ 拖动从当前位置开始，两轴自由移动，不向上跳、不限制边界；四角线形标记紧贴可见键盘。
+ 弹起前冻结画面，场景准备后原子替换；快速反转复用过渡层，不交叉叠影。
+ 上屏普通横屏小窗自动恢复下屏显示，视频退出回到最新双窗比例。
+ 主动旋转需系统及 UIKit 确认后同步 App 与原横屏分离键盘，失败回退。
+ 拖动仅预览下屏，松手重排一次；普通与自由布局均不改变横屏小窗。
+ 视频退出等待下屏调整结束，恢复最新分割位置，不回到旧比例。
+ 保留 .33 原生显示链、原始纹理尺寸、纹理补偿和会话保护。
+ 仅 Duo 横屏接管原移动条的位移，其他模式继续原生拖动，不自动避让。
+ 任意一个角拖动调整大小，保留44pt透明触摸区域，无箭头无底色。
+ 收起和重新弹出保留手动大小、位置，左右横屏分开记忆，其他模式不读取。
+ 上屏视频复用原会话临时普通横屏，显式退出后接回原窗口；下屏保持。
+ Duo 竖屏键盘收起采用单层画面交接，避免先回全屏位置及新旧画面重影。
+ 重复横屏布局与相同在途方向请求合并，尺寸变化、反向和超时可正常更新。
+ 抽屉及侧栏位于 Duo 上方；重复应用在启动和切换前提示并拦截。
+ 保留普通小窗、抽屉及竖屏输入路径、滑条、折叠工具栏和视频适配。
+ 未连接手机；iOS 17 及微信输入法真实方向和完整显示需要实机确认。
+Maintainer: kanuo
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/screencore/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.susudear.screencore.json
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 2.0.3+windowscheduler.12-79.duo3.43
+Installed-Size: 6309
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Install-Environment: standard-rootless-var-jb
+X-Rootless-Input-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Rootless-Revision: exact11-libroot-paths.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: 64fc26d41398f82dee8c641dc82a401d5dc908d5ef75deb55fb5af6334f8762e
+X-Core-Identity-Revision: expected-author-kanuo.1
+X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Geometry-Base-SHA256: e9cabb058422ab075eac379c15438bf6a962e86bccfa870ee7bc62cc8b286028
+X-Native-Jump-Geometry: popup-only-native-size.1
+X-Native-Jump-Base-SHA256: ff0edfa8b9ce6ee38054136a0e2da0d69004907dad70e00d8b8f24f74fa171fc
+X-Keyboard-Compatibility: scene-identity-and-bounded-readiness.2
+X-Keyboard-Base-SHA256: 1c77fd6f0c7c721d645a293c16d7b8cf6fa15178fd31adfd426b8c1812492fd4
+X-Fullscreen-Exit: onscreen-native-region-and-dismissal-release.1
+X-Fullscreen-Exit-Base-SHA256: cc28b5bc9408b504b09179029545c90c7d3fd6f110af80b2a8b520f76e5204e0
+X-Favorite-Standalone: independent-policy-normal-split-geometry.1
+X-Favorite-Standalone-Base-SHA256: f76ac941e43f74f0c57dff7b93ea3907d6af4e739b3497b865c555c3e2fa09a7
+X-Fullscreen-Native-Canvas: physical-screen-reversible-queued-geometry.1
+X-Fullscreen-Base-SHA256: 472fac2e6b474876df278e7c5fb457f443d155e1b34981d21e26f7ee38038bf6
+X-Fullscreen-Rendered-Canvas: instance-settings-hosted-resize-ack-validation.1
+X-Fullscreen-Rendered-Base-SHA256: 311a97ab829ac8dbcdd53964dab86477b1b30576a23e690f6fe5c7d1790db0a1
+X-Native-Fullscreen-Return: native-promotion-scoped-nonkey-icon.1
+X-Native-Fullscreen-Base-SHA256: 74aa276a95ac2633d2ecf174254bc04b9aded83084d61109cb9fffe723cdfaf8
+X-Native-Fullscreen-Return-Animation: reverse-native-presentation.1
+X-Native-Fullscreen-Canvas-Handoff: atomic-hosted-resize.1
+X-Native-Fullscreen-Scene-State: scoped-input-layout.1
+X-Aspect-Ratio: native,16:9,5:3,16:10,18:10; per-session-canvas.1
+X-Aspect-Ratio-Base-SHA256: 0ecd946fe8210a79f69b117a809a96eaa6036dd9bbcbb61187d5b4f3405b7552
+X-Edge-Peek: live-transform.mirrored-sides.gain1-8.max-screen4.return-animation.1
+X-Edge-Peek-Base-SHA256: 1ff51ada1bd3ab5fb66cf2e6e413f00288ed6297dc2371e7abe1a6339ce69368
+X-Island-Return: quicklaunch.partial-circle.release-only.live-layer.1
+X-Island-Return-Base-SHA256: 76d12fe7881aa670d48c803cba862da8f0ed818384b3fce40fabde218ad9a926
+X-Quick-Recall: visual-circle.release-only.last-successful-app.closed-reopen.1
+X-Quick-Recall-Base-SHA256: ea86c6685947647de6e0309e68da1685d8cab97ca753b2dc38739ebd9628401d
+X-Island-Native-Close: tap.upward.native-close.island-reentry.1
+X-Island-Native-Close-Base-SHA256: 9337e212690b7db01dd89a6922f68b0a549e58a0a286e31803d4e878b87e0417
+X-Window-Frame: focused-shadow.opacity0-100.live-radius0-60.2
+X-Window-Frame-Base-SHA256: 25c1a2491d0237dbaf104ebd289a7c7557fb2667a60ad471b22d83673d2489f8
+X-Window-Shadow: native-shadow-preserved.with-bottom-focused-shadow.2
+X-Share-Handoff: host-ready.single-native-request.reuse-existing.failure-fallback.1
+X-Share-Handoff-Base-SHA256: 587ef9652b337e67a1ef2213b1ad32a60331fb9ba528a8fcaff49a86b2614751
+X-Notification-Popup: banner-only.default-off.live.independent.host-ready.native-payload.1
+X-Notification-Popup-Base-SHA256: 1c9c1b96474d1b81955a2a16ce5d37bb92fd6572c11869f68241d0d1bce323e4
+X-Callback-Lifetime: copy-native-completion.copy-queued-delivery.once.release.1
+X-Callback-Lifetime-Base-SHA256: e11118d5183f5af780b7b0c35c0e6035f9e06035f48fa49344bf94f1cafc69d5
+X-Notification-Split: ordinary.selected-ratio.native-pref.limits.original-animation.host-ready.1
+X-Notification-Split-Base-SHA256: 6eb880a626a2e224327547ed99639889ce2d38febc372c90e7b8361552c5f948
+X-Notification-Direct: hosted.response.actions-once.island.native-entrance.warm-replay.1
+X-Notification-Direct-Base-SHA256: 99e4d0d1b3bf61ac028ca0b601fb176286cd983c6cd7b70b6b229256962b9f65
+X-Native-Canvas: ios17.close-promote.scene-repaint.late-settings.1
+X-Native-Canvas-Base-SHA256: d1fbe97b7cbf3cac4806cba5683d411e797a89fdfe00377000191cc63b40e922
+X-Silent-Fullscreen: ios17.snapshot.native-restore.settle1s.native-rollback.1
+X-Silent-Fullscreen-Base-SHA256: 38b2a728fac1a45c4e16b217621dbe1c80e840df780354a4f3e0eb1dd0b944e4
+X-Native-Canvas-Repaint: ios17.foreground.success.bounded4.preserve-input.1
+X-Native-Canvas-Repaint-Base-SHA256: ed2b6815afa0ae10668723f3561b4dbaa0768d8ba2ebe0a4c272eae9cff723a9
+X-Radial-Recall-Owner: quicklaunch
+X-Window-Disappear: original.dust.huawei-style.bounded-compositor.1
+X-Window-Disappear-Revision: settings-action.fine-grain.stationary-erosion.2
+X-Window-Particle-GPU: compute.texture-alpha.fractal-wind.soft-bloom.1
+X-Window-Particle-Softening: upward-wind.irregular-feather.gaussian-grains.1
+X-Window-Sandstorm: legacy-dust-preserved.curl-grains.residual-dust.1
+X-Window-Arc-Effects: four-modes.prompt1500.rising-sand.huawei-restored.1
+X-Window-Textured-Fragments: video-diagonal-fall.arc.huawei-center-curl.original-texture.2
+X-Window-Effects-43: dismiss-original.diagonal.arc.huawei-removed
+X-Window-Arrival: original.diagonal-assembly.0.46.native-accepted.shared-budget.1
+X-Window-Effects-44: native-entry.petals.2sec.pixel.arc.huawei-removed
+X-Window-Effects-45: petals.top-right-to-bottom-left.soft-diagonal.2sec
+X-Window-Effects-46: pixel.petals.curved-up-right-wind.original-timing
+X-Window-Effects-47: async-drawable.coalesced-ticks.petals-scale1.5.frayed-soft-edge
+X-Window-Effects-48: restored-submission.gpu-completion-fallback.idempotent-reveal
+X-Window-Effects-49: petals.cover-erase-lift.no-image-ghost
+X-Window-Effects-50: petal-backpressure.cached-sprites.soft-front
+X-Window-Effects-52: rose-petals.separate-mode5.soft-rim.cached-atlas
+X-Window-Launch-Recovery: closing-state4.bounded3sec.latest-choice.chinese-ql-errors.1
+X-Window-Effects-53: glowing-stars.mode5.cached-fivepoint-halo.curved-wind
+X-Window-Drawer: arc-selected.native-ratio.icon-toggle.keyboard-fullscreen.1
+X-Drawer-Isolation: square-seam.separate-persistence.edit-pinch.1
+X-Drawer-Tools: external-url.persistent-editor.real-fullpage.rollback.1
+X-Drawer-Input: full-canvas.saved-maximize.native-status.normal-ratio.1
+X-Drawer-Input-58: dark-status.scoped-foreground.assembly-motion.dual-barrier.1
+X-Drawer-Alignment-59: current-session-canvas.local-clip.no-native-refit.1
+X-Drawer-Canvas-60: native-entry.full-window.input.authoritative-canvas.ordinary-repaint.clock-refresh.1
+X-Drawer-Interaction-61: tim-entry.callassist-clock.assembly-size.entry.exit.placement.1
+X-Drawer-Settings-62: native-status.no-clock-scan.springboard-only.coalesced.1
+X-Drawer-63: fullscreen.opposing-slides.native-arc-shared-icons.1
+X-Drawer-64: pre-attach.visibility.atomic-reveal.true-circle.extended-icons.1
+X-Drawer-65: hosted-ready.no-startup-cover.live-rail.atomic-handoff.native-width-fit.1
+X-Drawer-66: fixed-native-canvas.local-xy-fit.retained-surface.masked-entry.stable-refresh.1
+X-Drawer-67: live-rail-width.real-usable-canvas.uniform-fit.startup-slide.deferred-hold.1
+X-Drawer-68: no-selection-frame.immediate-touch.live-input-rail.synchronized-return.1
+X-Drawer-69: remembered-edge.paired-slide.background-rgb.background-only-alpha.1
+X-Drawer-70: app-landscape.native-fullscreen.restore-display.drawer-return.deferred-cancel.1
+X-Drawer-71: mirrored-inner-corners.palette.gradient.background-alpha.icon-shadow.video-canvas.1
+X-Drawer-72: legacy-controls-retired.no-hidden-hit-targets.arc-drawer-preserved.1
+X-Passthrough-73: ordinary-only.layer-input-gate.keyboard-retained.1
+X-Duo-77: snapshot-preview.landscape-divider.keyboard-owner.duplicate-guard.3
+X-Duo3-Repair: 12-79.duo3.43
+X-Duo3-Repair-Base: 2.0.3+windowscheduler.12-77.duo.3
+Filename: debs/com.susudear.screencore-2.0.3+windowscheduler.12-79.duo3.43-rootless.deb
+Size: 1017196
+MD5sum: d9e6ddb15d78b1fbb9d72e15d24161cc
+SHA1: 
+SHA256: 0d4bf2d2ca17aadf9002320d1d5a056762fe1e36cda2e4cd08dd3af6d9e6a8f1
+
+Package: com.susudear.screencore
 Name: ScreenCore
 Description: 分屏而已
 Maintainer: SuSu
