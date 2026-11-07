@@ -59208,35 +59208,37 @@ Name: 人民的高德
 Version: 1.1
 Architecture: iphoneos-arm64e
 Description: 人民的高德，不忘初心砥砺前行
+ * 净化高德地图烦人的弹窗卡片视图
+ * 长按首页激活
 Icon: https://qi-ting-zhang.github.io/sileo/images/icon/rmdgd.png
-Sileodepiction: https://qi-ting-zhang.github.io/sileo/sileodepiction/rmdgd.json
 Maintainer: 祁厅长
 Author: 祁厅长
 Section: 你的iPhone不止于此
 Depends: mobilesubstrate
 Pre-Depends: rootless-compat(>= 0.9)
 Filename: debs/local.amap.twotabs-1.1-roothide.deb
-Size: 145856
-MD5sum: 1b176bfc5fc89c46d3a93ac7fecf9483
+Size: 145884
+MD5sum: a02d8469d370cbe0dda23e0f14ec3e15
 SHA1: 
-SHA256: 1cf3d686edf5b30ff5e047a84bf8af04f2e4a2ca8dc277998522487eda85f240
+SHA256: 3b79d8ce95deaccd986d31712bf63c51747a7ba05d08049b45ece00760cf222c
 
 Package: local.amap.twotabs
 Name: 人民的高德
 Version: 1.1
 Architecture: iphoneos-arm64
 Description: 人民的高德，不忘初心砥砺前行
+ * 净化高德地图烦人的弹窗卡片视图
+ * 长按首页激活
 Icon: https://qi-ting-zhang.github.io/sileo/images/icon/rmdgd.png
-Sileodepiction: https://qi-ting-zhang.github.io/sileo/sileodepiction/rmdgd.json
 Maintainer: 祁厅长
 Author: 祁厅长
 Section: 你的iPhone不止于此
 Depends: mobilesubstrate
 Filename: debs/local.amap.twotabs-1.1-rootless.deb
 Size: 145696
-MD5sum: a96cf1494791d112f854370e5924619b
+MD5sum: bbe5b0a5a795a4d2a70f5bf1c9a90f59
 SHA1: 
-SHA256: 94e1b1e903ced195aec25747fdd93714a18afd4d62238fad02ab1c4f86f8d903
+SHA256: 2ee328648bb70881b171dd08d38f3756fed2642ba4acce0a0bd90d163b3a1b45
 
 Package: local.apelin.nomo
 Version: 0.0.2
