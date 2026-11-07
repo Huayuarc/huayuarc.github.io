@@ -49866,42 +49866,6 @@ MD5sum: 601d8670b3e8456484a86c7ec67bd849
 SHA1: 
 SHA256: 844b9f6bd693971a26e2b5e446d5128891a6719dd8bb8a4b8c76e444a935dad3
 
-Package: com.tigisoftware.filza64bit
-Name: Filza File Manager 64-bit
-Depends: firmware (>= 15.0)
-Recommends: zip, tar
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
-Maintainer: TIGI Software
-Author: TIGI Software
-Section: Utilities
-Architecture: iphoneos-arm64e
-Version: 5.0.1
-Installed-Size: 32768
-Filename: debs/com.tigisoftware.filza64bit-5.0.1-roothide.deb
-Size: 11149036
-MD5sum: 7481cd8187036e555443343a43d64fdf
-SHA1: 
-SHA256: f423dac3e35ee1ccafbf9f25c03ed80b3d5b55bb969cae698bf540cdd4d50479
-
-Package: com.tigisoftware.filza64bit
-Name: Filza File Manager 64-bit
-Depends: firmware (>= 15.0)
-Recommends: zip, tar
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
-Maintainer: TIGI Software
-Author: TIGI Software
-Section: Utilities
-Architecture: iphoneos-arm64
-Version: 5.0.1
-Installed-Size: 32768
-Filename: debs/com.tigisoftware.filza64bit-5.0.1-rootless.deb
-Size: 11152024
-MD5sum: 58a2a3c2f3b938a5b514c3e7d5443137
-SHA1: 
-SHA256: ef2b86713f5e6e5003a3d788d5bfeef8930a1c21464b0a0bac42d8b52431aa6a
-
 Package: com.touchWorld.doubanTweak
 Name: DoubanTweak
 Version: 1.2.0
