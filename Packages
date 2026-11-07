@@ -55534,6 +55534,44 @@ MD5sum: 1a591d2276c8be5f22aeea57fec775f8
 SHA1: 
 SHA256: b35a21290c7bdd46c9f831de348100b832ba73ab56dac35d6c77826f2e478586
 
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://hongguo.goforit.si
+Architecture: iphoneos-arm64e
+Version: 2.2.2
+Installed-Size: 6712
+icon: https://huayuarc.github.io/icon/hongguo.png
+Filename: debs/hongguofn-2.2.2-roothide.deb
+Size: 2939312
+MD5sum: 6905d28a846cc7db8eba236579727e93
+SHA1: 
+SHA256: 28c55f50245bffb53db89ee8d3a2ee1b24c6222ffb7d702434b06cf74ae4a8d9
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 兼容红果短剧与红果漫剧 7.4.1，提供界面净化、广告控制、倍速清屏与视频保存。
+ 兼容红果短剧与红果漫剧，版本适配7.4.1，低版本可能存在兼容问题不再适配，请更新至7.4.1版本使用。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://hongguo.goforit.si
+Architecture: iphoneos-arm64
+Version: 2.2.2
+Installed-Size: 6712
+icon: https://huayuarc.github.io/icon/hongguo.png
+Filename: debs/hongguofn-2.2.2-rootless.deb
+Size: 2928632
+MD5sum: 2e0d1afb42bc6703d98ba55268aae98c
+SHA1: 
+SHA256: cc5ecc06385c41c21e3aca3fc386033e01a10b65a6859a96aaedace3ea8167df
+
 Package: hypicfix
 Name: 醒图国际版修复工具
 Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
@@ -57274,6 +57312,40 @@ Size: 875360
 MD5sum: 8344a27becb3cbc22ebc9380641073a6
 SHA1: 
 SHA256: b9fd6091ee34d74d34f47b91487eb88a567a8d58928ff0a6f437d103d466fadf
+
+Package: iya.banana.ios27animation
+Name: iOS27 Animation
+Description: iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Installed-Size: 4044
+icon: https://huayuarc.github.io/icon/ios27animation.png
+Filename: debs/iya.banana.ios27animation-1.0.3-roothide.deb
+Size: 1015980
+MD5sum: d45a20226aae6e2fb54f1e948f6b59dc
+SHA1: 
+SHA256: bb500b6c8a65fa1d60d76556f7ddb16d3d121a3c30422d6e97e2042286243fed
+
+Package: iya.banana.ios27animation
+Name: iOS27 Animation
+Description: iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Installed-Size: 4044
+icon: https://huayuarc.github.io/icon/ios27animation.png
+Filename: debs/iya.banana.ios27animation-1.0.3-rootless.deb
+Size: 1015292
+MD5sum: b0944fe375a133a55f69a61e30352db2
+SHA1: 
+SHA256: 943cba89539ab887728e4ca70d653162309d65cab40e0e5c383025362d9089d6
 
 Package: iya.banana.iphoneduoflow
 Name: DuoFlow
