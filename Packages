@@ -19351,6 +19351,42 @@ MD5sum: cdf6845d676c6a9f86934ba95671c52b
 SHA1: 
 SHA256: eaafacf4b381057f0be90c528b93e10eb8d90e1044677378381b5235f227f06b
 
+Package: com.huayuarc.ccsim
+Name: CCSIM
+Version: 2.0.13
+Description: 控制中心 SIM 卡管理：面板里点一张卡就直接启用 / 关闭它（支持点击与长按）。
+Maintainer: Huayuarc
+Author: Huayuarc
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.netskao.ccsim.pro, com.netskao.ccsim, com.huayuarc.ccsimfix
+Replaces: com.netskao.ccsim.pro, com.netskao.ccsim, com.huayuarc.ccsimfix
+Architecture: iphoneos-arm64e
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+Filename: debs/com.huayuarc.ccsim-2.0.13-roothide.deb
+Size: 53064
+MD5sum: f39c6f7a836d717bde7eeab45b9218f8
+SHA1: 
+SHA256: da06a4918e4defdae6d0183007ac9c73d6041c2191b29faa02ce8f9e8a905fbf
+
+Package: com.huayuarc.ccsim
+Name: CCSIM
+Version: 2.0.13
+Description: 控制中心 SIM 卡管理：面板里点一张卡就直接启用 / 关闭它（支持点击与长按）。
+Maintainer: Huayuarc
+Author: Huayuarc
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.netskao.ccsim.pro, com.netskao.ccsim, com.huayuarc.ccsimfix
+Replaces: com.netskao.ccsim.pro, com.netskao.ccsim, com.huayuarc.ccsimfix
+Architecture: iphoneos-arm64
+Icon: https://huayuarc.github.io/icon/ccsim.jpg
+Filename: debs/com.huayuarc.ccsim-2.0.13-rootless.deb
+Size: 63840
+MD5sum: c626e1067dfd5bc9d2df4547b7a1205a
+SHA1: 
+SHA256: c9af085d20e32d32c05892cf0a65bbdbf49ab080840e6702f9adc2106fd137c1
+
 Package: com.huayuarc.ccsimfix
 Name: CCSIMFix
 Description: 修复 CCSIM 控制中心模块在 iOS 17 上卡死的问题。CCSIM 在控制中心里同步调用 CoreTelephony 的 getSIMStatus:error: / copyLabel:error:，iOS 17 上 CommCenter 不回复时该调用永不返回，会把 SpringBoard 主线程锁死（只能强重启）。本插件为这两个调用加上超时保护，超时即返回安全值，界面不再冻结。
