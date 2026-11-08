@@ -52816,47 +52816,6 @@ MD5sum: 218e0ae7096796ca06ba6d9a9c0db47e
 SHA1: 
 SHA256: 2fe7701ee87c92241924777292001a420fe89bb592d691665c21bf551f022034
 
-Package: com.wacljcr.keepalive
-Name: 常驻后台
-Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
-Maintainer: wacljcr
-Author: wacljcr
-Section: Tweaks
-Description: 让选定的 app 退到后台保持常驻不被杀，重新打开直接回到上次界面
- 微信、QQ、闲鱼、淘宝、京东、抖音、小红书、支付宝、微博等 app 退到后台经常被系统杀掉，
- 重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
- 支持 iOS 15.0 – 16.6 的 rootless 越狱（Relaxin / RootHide / Dopamine）。
-Architecture: iphoneos-arm64e
-Version: 1.0.0
-Installed-Size: 572
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/keepalive.png
-Filename: debs/com.wacljcr.keepalive-1.0.0-roothide.deb
-Size: 29968
-MD5sum: 83638e6dc6f4295ccca9fd8694435f01
-SHA1: 
-SHA256: 197f6459090b1d97845ac5371a5eb3b373a964b81c4137bb08b71c4f7f1136d0
-
-Package: com.wacljcr.keepalive
-Name: 常驻后台
-Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
-Maintainer: wacljcr
-Author: wacljcr
-Section: Tweaks
-Description: 让选定的 app 退到后台保持常驻不被杀，重新打开直接回到上次界面
- 微信、QQ、闲鱼、淘宝、京东、抖音、小红书、支付宝、微博等 app 退到后台经常被系统杀掉，
- 重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
- 支持 iOS 15.0 – 16.6 的 rootless 越狱（Relaxin / RootHide / Dopamine）。
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Installed-Size: 572
-icon: https://huayuarc.github.io/icon/keepalive.png
-Filename: debs/com.wacljcr.keepalive-1.0.0-rootless.deb
-Size: 30004
-MD5sum: 8320867e55d06b714bf654b18de3660a
-SHA1: 
-SHA256: 885e06d11631a79b3052f50be8bf0cb02189fd672bfc211d19f719b90c043861
-
 Package: com.wacljcr.keyboardstatus
 Name: 键盘下方状态
 Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
@@ -63136,15 +63095,56 @@ Description: 让选定的 app 退到后台保持常驻不被杀，重新打开�
  重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
  支持 iOS 15.0 – 16.6 的 rootless 越狱（Relaxin / RootHide / Dopamine）。
 Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 572
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/keepalive.png
+Filename: debs/wacljcr.keepalive-1.0.0-roothide.deb
+Size: 29940
+MD5sum: b2b7a60fe04f7c4b262717fed488968d
+SHA1: 
+SHA256: 4f160ef53dbdce3ab8bc901f39108dbeb56517410ec10229e01c52c4add80530
+
+Package: wacljcr.keepalive
+Name: 常驻后台
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Maintainer: wacljcr
+Author: wacljcr
+Section: Tweaks
+Description: 让选定的 app 退到后台保持常驻不被杀，重新打开直接回到上次界面
+ 微信、QQ、闲鱼、淘宝、京东、抖音、小红书、支付宝、微博等 app 退到后台经常被系统杀掉，
+ 重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
+ 支持 iOS 15.0 – 16.6 的 rootless 越狱（Relaxin / RootHide / Dopamine）。
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 572
+icon: https://huayuarc.github.io/icon/keepalive.png
+Filename: debs/wacljcr.keepalive-1.0.0-rootless.deb
+Size: 29964
+MD5sum: 66cdf9cb800478047f52bd9ad9d8d958
+SHA1: 
+SHA256: 5ab244d55f8dae3912b63b648a51d4e644d43d7937e71b4ff6bc1d34d61825e3
+
+Package: wacljcr.keepalive
+Name: 常驻后台
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Maintainer: wacljcr
+Author: wacljcr
+Section: Tweaks
+Description: 让选定的 app 退到后台保持常驻不被杀，重新打开直接回到上次界面
+ 微信、QQ、闲鱼、淘宝、京东、抖音、小红书、支付宝、微博等 app 退到后台经常被系统杀掉，
+ 重新打开只能冷启动。本插件让勾选的 app 退到后台后保持常驻，过很久再打开直接回到上次界面。
+ 支持 iOS 15.0 – 16.6 的 rootless 越狱（Relaxin / RootHide / Dopamine）。
+Architecture: iphoneos-arm64e
 Version: 1.0.3
 Installed-Size: 572
 Pre-Depends: rootless-compat(>= 0.9)
 icon: https://huayuarc.github.io/icon/keepalive.png
 Filename: debs/wacljcr.keepalive-1.0.3-roothide.deb
-Size: 30596
-MD5sum: 39a1d66376169849b0f60e352f9c4636
+Size: 30532
+MD5sum: aad0ca30e261a1485fc336a56eefb4c9
 SHA1: 
-SHA256: 11af0417c9b3db996d6dd822d9b83ba5c7a782ff1768af01b5b391438239f0aa
+SHA256: f944ba108468472bbfc473f35e08c64fca2c0b7eba9ca0f6552d098bc3b4c728
 
 Package: wacljcr.keepalive
 Name: 常驻后台
@@ -63161,10 +63161,10 @@ Version: 1.0.3
 Installed-Size: 572
 icon: https://huayuarc.github.io/icon/keepalive.png
 Filename: debs/wacljcr.keepalive-1.0.3-rootless.deb
-Size: 30660
-MD5sum: 843bd8e04962d659a9e8956344d2d09e
+Size: 30612
+MD5sum: be66368c3d944c1572a48a0b4df2e385
 SHA1: 
-SHA256: 762e6d339b1063f7c4ce65bfcf27602a8ac42e03c4722c1d263b8540268c02c3
+SHA256: 2afd1f7316d1702c0004627ea38f5ca92bb2b292a08d3d94f8aa8ed5767cf10c
 
 Package: wiki.qaq.apelin
 Name: Apelin
