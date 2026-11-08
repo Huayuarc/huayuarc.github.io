@@ -17288,40 +17288,6 @@ MD5sum: b0d6b295983c2947da8a96266183d9bf
 SHA1: 
 SHA256: dfc6740218ddbb7d022f78ed203a5c803acf1fd892d5a83f7eb9d051fee79eff
 
-Package: com.hang.liquiddock
-Name: LiquidUI Pro
-Description: LiquidUI Pro · 液态Dock与文件夹自定义（支持ios16-17）
-Maintainer: 航
-Author: 航
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
-Architecture: iphoneos-arm64e
-Version: 2.0
-Installed-Size: 3920
-icon: https://huayuarc.github.io/icon/liquiddock.png
-Filename: debs/com.hang.liquiddock-2.0-roothide.deb
-Size: 1841992
-MD5sum: fb86fea9fb69defb89acb8b210b8bf82
-SHA1: 
-SHA256: 762b585699fad67c7e2559af7126323d10e29abd20a5a47cc64095bd67bb12be
-
-Package: com.hang.liquiddock
-Name: LiquidUI Pro
-Description: LiquidUI Pro · 液态Dock与文件夹自定义（支持ios16-17）
-Maintainer: 航
-Author: 航
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
-Architecture: iphoneos-arm64
-Version: 2.0
-Installed-Size: 4656
-icon: https://huayuarc.github.io/icon/liquiddock.png
-Filename: debs/com.hang.liquiddock-2.0-rootless.deb
-Size: 1914004
-MD5sum: ee443054250855c5e2822fd7750427cb
-SHA1: 
-SHA256: 083e63affa3440c2c3d515629db866d1461c8578c1c0191ba9d977e07d70a2ce
-
 Package: com.hang.noti
 Name: 通知验证码复制
 Description: 双指长按通知取通知中的验证码。
