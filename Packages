@@ -40561,24 +40561,6 @@ MD5sum: c0226229acaf2d85acf685a3d4e04480
 SHA1: 
 SHA256: a3b44c7300c7af57c75f05f1e13ba6e7356132765555d4719a34215440c27555
 
-Package: com.sini..cccellularrate
-Version: 1.1-1
-Section: Tweaks
-Icon: https://sini921.github.io/repo/sileodepiction/icon/cccellularrate.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/cccellularrate/js.json
-Maintainer: Netskao
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Architecture: iphoneos-arm64
-Installed-Size: 616
-Name: CCCellularRate
-Author: Netskao
-Description: 控制中心快速切换2/3/4/5G
-Filename: debs/com.sini..cccellularrate_1.1-1_iphoneos-arm64.deb
-Size: 90096
-MD5sum: 5655e2461b605132c16bf7a7edf7c461
-SHA1: 
-SHA256: 652caba35cefa04900e369d25a8a7ce75137f1ec22c6021efa4a97d1dd74f5aa
-
 Package: com.sini.3dappversionspoofer
 Name: 3DAppVersionSpoofer
 icon: https://sini921.github.io/repo/sileodepiction/icon/3dappversionspoofer.png
@@ -61869,34 +61851,35 @@ Version: 1.1-1
 Section: Tweaks
 Maintainer: Nets
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Installed-Size: 616
 Name: CCCellularRate
 Author: Netskao
-Description: Quickly switch the type of cellular data 2/3/4/5G currently in use via the Control Center, only the types supported in the current device settings will be displayed
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/netskao.cccellularrate_1.1-1_iphoneos-arm64.deb
-Size: 89844
-MD5sum: 529e64be2b8aefe765593f2b8426b399
+Description: 通过控制中心快速切换当前使用的2/3/4/5G蜂窝数据类型，仅显示当前设备设置中支持的类型 Quickly switch the type of cellular data 2/3/4/5G currently in use via the Control Center, only the types supported in the current device settings will be displayed
+icon: https://huayuarc.github.io/icon/cccellularrate.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/netskao.cccellularrate-1.1-1-roothide.deb
+Size: 90088
+MD5sum: 9d12eac21fb317cc134bcc049b4bd050
 SHA1: 
-SHA256: 9ebc2f3085e9921c2c34858f9bf01ceb114a2e7de29964b7a29f37b436f9f419
+SHA256: f75a81a46d3df1365b314322fff688bdffe96a02e86a5f1390fe8e92b95442fd
 
-Package: netskao.ccswitchdata
-Version: 1.1-4
+Package: netskao.cccellularrate
+Version: 1.1-1
 Section: Tweaks
 Maintainer: Nets
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Architecture: iphoneos-arm64
-Installed-Size: 132
-Name: CCSwitchData
+Installed-Size: 616
+Name: CCCellularRate
 Author: Netskao
-Description: For dual-SIM cards, the selected cellular network can be switched quickly via the Control Center
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/netskao.ccswitchdata_1.1-4_iphoneos-arm64.deb
-Size: 20824
-MD5sum: 18a799a809a6204e1cba457cb057e144
+Description: 通过控制中心快速切换当前使用的2/3/4/5G蜂窝数据类型，仅显示当前设备设置中支持的类型 Quickly switch the type of cellular data 2/3/4/5G currently in use via the Control Center, only the types supported in the current device settings will be displayed
+icon: https://huayuarc.github.io/icon/cccellularrate.png
+Filename: debs/netskao.cccellularrate-1.1-1-rootless.deb
+Size: 90308
+MD5sum: 85e8810a51738823fc81759b174b0a4d
 SHA1: 
-SHA256: 3a425faacc5b15574000fb607107db1d4a8ee8ab74a47c6732973b8d947579f5
+SHA256: 43d3653ddd3ecaa7d848eeeb32588fd8afdea7bf3448b551c483a231618fb88b
 
 Name: DisableCTNotifyUI
 Package: netskao.disablectnotifyui
