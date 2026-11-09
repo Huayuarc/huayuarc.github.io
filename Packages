@@ -24085,6 +24085,39 @@ MD5sum: 103075458405d28132a1f8ab61fdd383
 SHA1: 
 SHA256: 19b7eebd8c306947d1e33973778f83fe763d4b9ce2984879bda225e8b7be31bc
 
+Package: com.jumping.thermaldetect
+Name: 耗电发热排行榜
+Version: 1.0.32
+Architecture: iphoneos-arm64e
+Description: 定位导致设备过热/耗电的进程/插件/App（thermalState + 每进程 CPU + 插件 Filter 匹配）（无根/rootless 版：安装到 /var/jb，适用 Dopamine 等无根越狱；roothide 环境请装隐根版）
+Maintainer: jumping8
+Author: jumping8
+Section: Utilities
+icon: https://huayuarc.github.io/icon/thermaldetect.png
+Depends: org.coolstar.ellekit | mobilesubstrate | com.ex.substitute
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.jumping.thermaldetect-1.0.32-roothide.deb
+Size: 155828
+MD5sum: 1ff3cf532928908e864543c37002aef3
+SHA1: 
+SHA256: 506f2d5a8fe1e8040136559e5b52f6f51164eb3677bee53a2b27f0d47d6649e6
+
+Package: com.jumping.thermaldetect
+Name: 耗电发热排行榜
+Version: 1.0.32
+Architecture: iphoneos-arm64
+Description: 定位导致设备过热/耗电的进程/插件/App（thermalState + 每进程 CPU + 插件 Filter 匹配）（无根/rootless 版：安装到 /var/jb，适用 Dopamine 等无根越狱；roothide 环境请装隐根版）
+Maintainer: jumping8
+Author: jumping8
+Section: Utilities
+icon: https://huayuarc.github.io/icon/thermaldetect.png
+Depends: org.coolstar.ellekit | mobilesubstrate | com.ex.substitute
+Filename: debs/com.jumping.thermaldetect-1.0.32-rootless.deb
+Size: 156092
+MD5sum: 334a29d370aa3f783e425abc2118257a
+SHA1: 
+SHA256: 070f5d4104516042ab9cdab0564aa5bf7ef9f12eaffcd6ba9f36b288e4713a28
+
 Package: com.jzksnsjswkw.feemcrack
 Name: Feemcrack
 Description: An awesome MobileSubstrate tweak!
