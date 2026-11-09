@@ -20215,7 +20215,7 @@ SHA256: 0e00b9bc9da37774419774a52d54b1a67cf3e803d7ce2d547232177d5fc58d98
 
 Package: com.huayuarc.insulation
 Name: insulation
-Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及  120Hz
 Maintainer: doimty
 Author: be-huge & doimty
 Section: Tweaks
@@ -20228,14 +20228,14 @@ Provides: com.be-huge.insulation
 Replaces: com.be-huge.insulation
 Conflicts: com.be-huge.insulation
 Filename: debs/com.huayuarc.insulation-1.0-roothide.deb
-Size: 189192
-MD5sum: 1bae73f5c5aff25714b20bbe628de103
+Size: 188776
+MD5sum: 861b4583209926c1d4a4d1e8fcaa689d
 SHA1: 
-SHA256: 1d4f45845f5a263b3f59d70c1dd7a2a088903c8cbd54af132060f360cc3e063c
+SHA256: 992d531a2685d4dd653998f2fcd4d697ea1af987b6f7a5af3d1081012a2d479d
 
 Package: com.huayuarc.insulation
 Name: insulation
-Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及  120Hz
 Maintainer: doimty
 Author: be-huge & doimty
 Section: Tweaks
@@ -20248,10 +20248,10 @@ Provides: com.be-huge.insulation
 Replaces: com.be-huge.insulation
 Conflicts: com.be-huge.insulation
 Filename: debs/com.huayuarc.insulation-1.0-rootless.deb
-Size: 191684
-MD5sum: 8509a7f52b4c3e5d22dea09ab4a6e1bf
+Size: 191300
+MD5sum: b37580bb3e6f1ab3352998f14f71c405
 SHA1: 
-SHA256: d8bb5cae40cad80dd04f0b0a0233e4219508893df30cb6d454a177e8c93d280d
+SHA256: feed100e1a4bcb9c35ab49e3596c3fd1f11973dee4cb969f3f8088e421d68e08
 
 Package: com.huayuarc.lt-zj-noads
 Name: 联通智家 NoAds
