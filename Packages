@@ -16101,6 +16101,60 @@ MD5sum: b00f021b5a5ecccb10327084f45b11f8
 SHA1: 
 SHA256: 0314f1212e0d9887ae0b95d88b56d2e6581942ef963fc50b91d485d1465fd4a4
 
+Package: com.dao.pogr
+Name: PodsGrant
+Description: 将AirPodsPro2伪装成AirPodsPro，让其在旧iOS系统上更好地运行；支持 iOS16和USB-C版AirPodsPro2；支持AirPods4；自行实测！
+Maintainer: Ruphane
+Author: Ruphane
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Architecture: iphoneos-arm
+Version: 0.5.5
+Installed-Size: 624
+icon: https://huayuarc.github.io/icon/PodsGrant.png
+Filename: debs/com.dao.pogr-0.5.5-rootful.deb
+Size: 82532
+MD5sum: c58b0b26f8b578dab25a317ae2e8f2a6
+SHA1: 
+SHA256: cce8203eefcc9dbfc9ec324546d80efe021c12a932c355b4c7cf10b2cbf644d8
+
+Package: com.dao.pogr
+Name: PodsGrant
+Description: 将AirPodsPro2伪装成AirPodsPro，让其在旧iOS系统上更好地运行；支持 iOS16和USB-C版AirPodsPro2；支持AirPods4；自行实测！
+Maintainer: Ruphane
+Author: Ruphane
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Architecture: iphoneos-arm64e
+Version: 0.5.5
+Installed-Size: 620
+icon: https://huayuarc.github.io/icon/PodsGrant.png
+Filename: debs/com.dao.pogr-0.5.5-roothide.deb
+Size: 79784
+MD5sum: 119a75d3d3ab2e7ca0620767fdfcb9cf
+SHA1: 
+SHA256: 532b1c77e4d18be242bfa137d7a914d88319b1ef5aa144830b772038397d4f2e
+
+Package: com.dao.pogr
+Name: PodsGrant
+Description: 将AirPodsPro2伪装成AirPodsPro，让其在旧iOS系统上更好地运行；支持 iOS16和USB-C版AirPodsPro2；支持AirPods4；自行实测！
+Maintainer: Ruphane
+Author: Ruphane
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Architecture: iphoneos-arm64
+Version: 0.5.5
+Installed-Size: 452
+icon: https://huayuarc.github.io/icon/PodsGrant.png
+Filename: debs/com.dao.pogr-0.5.5-rootless.deb
+Size: 76140
+MD5sum: c07edd50ba338b3efe1ef44a4cc3231c
+SHA1: 
+SHA256: bdceb083948bf610c86c91bca014e8c970bd5061db26e199442380897f657f3d
+
 Package: com.dao.pulloverx
 Name: PullOverX 分屏
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
@@ -18062,6 +18116,40 @@ Size: 8520
 MD5sum: d863ece4bd858b9058117c219a86fc90
 SHA1: 
 SHA256: 466c7221a8e9b14c6c7f25401fcd54919c570eb81926d85a1411bf69bb962ba5
+
+Package: com.hang.gdqj
+Name: 航の缺德地图净化
+Description: 测试版本；17.03，去开屏 + 去弹窗广告 + 低栏长按设置
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 112
+icon: https://huayuarc.github.io/icon/gaodeclean.jpg
+Filename: debs/com.hang.gdqj-1.0-roothide.deb
+Size: 19160
+MD5sum: 0048b6087e300e26849a3dd3f3fddbe8
+SHA1: 
+SHA256: d918ac6a5110c3699221b42138dd2ce762e0f9e9abd5d0c0bb8e235ececfad03
+
+Package: com.hang.gdqj
+Name: 航の缺德地图净化
+Description: 测试版本；17.03，去开屏 + 去弹窗广告 + 低栏长按设置
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 112
+icon: https://huayuarc.github.io/icon/gaodeclean.jpg
+Filename: debs/com.hang.gdqj-1.0-rootless.deb
+Size: 19216
+MD5sum: a85691ac8f4de70e8878d6e33b723655
+SHA1: 
+SHA256: 21e9eb1b2a2efc72252dc6e50e5d98e6c67a21525924e3a7101a9d296f7dd304
 
 Package: com.hang.kayoko
 Name: Kayoko
@@ -37305,6 +37393,46 @@ Size: 659904
 MD5sum: f5fd5ca046d1f3eb2873495ece7026b0
 SHA1: 
 SHA256: c6bd03f6d309c52c46e855d26f4f054226e43fef04487a403639062e710ffe54
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.495
+Installed-Size: 4700
+Filename: debs/com.qq391160.cpucore-2.0.495-roothide.deb
+Size: 735068
+MD5sum: 69e2132c3429bcc3bf50f90c39b8e9f7
+SHA1: 
+SHA256: 0bfa467b1752b2b12695eba4967ecd00da8cf44291606a7ba6713d9d1355283f
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64
+Version: 2.0.495
+Installed-Size: 4396
+Filename: debs/com.qq391160.cpucore-2.0.495-rootless.deb
+Size: 663664
+MD5sum: e4f33eced8ca28c8f8fc8af4b462b06e
+SHA1: 
+SHA256: e3203119db275ad83da4ebad8f2f9b74861c3c9d67b603f47cf31339978f14d6
 
 Package: com.qq391160.cpucore
 Name: CPU智能温控(iOS16/17)
