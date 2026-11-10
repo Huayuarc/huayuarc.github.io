@@ -21510,6 +21510,34 @@ MD5sum: 26dbc10e2068358921a4194166c281ee
 SHA1: 
 SHA256: 1fd6304c1af71bffdb73e5185c40aae34b6b810d83d66a0c33e3fdcb3324aa03
 
+Package: com.icli.icli
+Name: icli
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Section: Development
+Description: On-device iOS control CLI
+Filename: debs/com.icli.icli-1.0.0-roothide.deb
+Size: 1147016
+MD5sum: 998fa1df2aadd8f7c3dd4a1f4937a8bb
+SHA1: 
+SHA256: 831d04a08a69eee98dc0e5beffc5d9c4e3b31bb6d7badbc1d2616ca32ab75487
+
+Package: com.icli.icli
+Name: icli
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Section: Development
+Description: On-device iOS control CLI
+Filename: debs/com.icli.icli-1.0.0-rootless.deb
+Size: 1147836
+MD5sum: bad7c9810f49dc52c5aa7293b9a647e8
+SHA1: 
+SHA256: 3e85579f4a02f66def61bc8a9756afbcb319617b2363f81a08c13e22549ccae9
+
 Package: com.icraze.noticopy15
 Name: NotiCopy15
 Description: Tap a notification with two fingers to copy its text. Hold with two fingers to copy its title.用两根手指轻点通知以复制其文本。用两根手指按住复制其标题。
@@ -26691,6 +26719,39 @@ Size: 145844
 MD5sum: 61461170b612f0a7f970383fca6a1e02
 SHA1: 
 SHA256: 3dcfbf8eda46433f1556255ae1785c98f0ff36ec7994252838c2825313aeeefb
+
+Package: com.mallin.tunnelsharevpn
+Name: TunnelShareVPN
+Version: 1.2.6-1
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Author: Mallin
+Maintainer: Mallin
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.mallin.tunnelsharevpn-1.2.6-1-roothide.deb
+Size: 166116
+MD5sum: b97a221080c737ac324689aafbe45cef
+SHA1: 
+SHA256: cf2ce71029a02ce42fbbcf41a2ea8fa111d137d9ad60ca66c17ebb385cfbd86e
+
+Package: com.mallin.tunnelsharevpn
+Name: TunnelShareVPN
+Version: 1.2.6-1
+Architecture: iphoneos-arm64
+Section: Tweaks
+Author: Mallin
+Maintainer: Mallin
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+Filename: debs/com.mallin.tunnelsharevpn-1.2.6-1-rootless.deb
+Size: 170388
+MD5sum: efdf2f1a5ff573557a04d101349ca666
+SHA1: 
+SHA256: 0a127a2a280c92a4e5d088a5aa5e7084ba312dcda631a1f46204cfe432d2ed89
 
 Package: com.mallin.tunnelsharevpn
 Name: TunnelShareVPN
@@ -41739,6 +41800,38 @@ Size: 2069284
 MD5sum: 6ea26c52dc15745073ece7c781c2a17e
 SHA1: 
 SHA256: 6b1d9008caec7a42bcd5ef051926aba2985ffdda4cb1aa3d635de0fb1d59ea5f
+
+Package: com.sileowallpaper.tweak
+Name: sileo 壁纸
+Version: 0.1.10
+Architecture: iphoneos-arm64e
+Description: 为 Sileo 设置自定义背景壁纸，支持相册选图、文字颜色、背景柔化和列表底色调节。
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0)
+icon: https://huayuarc.github.io/icon/sileowallpaper.jpg
+Filename: debs/com.sileowallpaper.tweak-0.1.10-roothide.deb
+Size: 17972
+MD5sum: 7032fb56e80b25302d201809771554fd
+SHA1: 
+SHA256: f39cb4e0159a778736fed88c2180d76e3fc06e0026d40388d8ae18ebba822a5a
+
+Package: com.sileowallpaper.tweak
+Name: sileo 壁纸
+Version: 0.1.10
+Architecture: iphoneos-arm64
+Description: 为 Sileo 设置自定义背景壁纸，支持相册选图、文字颜色、背景柔化和列表底色调节。
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0)
+icon: https://huayuarc.github.io/icon/sileowallpaper.jpg
+Filename: debs/com.sileowallpaper.tweak-0.1.10-rootless.deb
+Size: 24500
+MD5sum: d81e3b5c2d4eb7e251e4b5b371a294c5
+SHA1: 
+SHA256: 4c3b0ce5262b4cc9d06d8b4b74e676ac3a1aac7bdf9506005d505e05e080409c
 
 Package: com.sileowallpaper.tweak
 Name: sileo 壁纸
@@ -58736,6 +58829,38 @@ MD5sum: 041890839bf4eb6ec0c78dff79bcca33
 SHA1: 
 SHA256: 3cadf213afdd4fd2eaa8f50d1b02e33b081703a7acc853a5f79d297cfd90fe24
 
+Package: im.mjh.myeyeclean
+Name: 喵眼精灵去广告
+Description: 喵眼精灵去广告：掐断开屏/插屏/信息流/Banner/激励视频加载，拦截广告跳转app
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/myeyeclean.jpg
+Filename: debs/im.mjh.myeyeclean-0.1.0-roothide.deb
+Size: 7444
+MD5sum: 5067d51a79b56f5acd1051d84c0f838f
+SHA1: 
+SHA256: c644fbf3ab1419e4b68eed68f0dd1ff987f69a660bcc61dd9e56a2848e5cc62a
+
+Package: im.mjh.myeyeclean
+Name: 喵眼精灵去广告
+Description: 喵眼精灵去广告：掐断开屏/插屏/信息流/Banner/激励视频加载，拦截广告跳转app
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/myeyeclean.jpg
+Filename: debs/im.mjh.myeyeclean-0.1.0-rootless.deb
+Size: 7476
+MD5sum: ca73d4657bffc9214d46bdbde342a823
+SHA1: 
+SHA256: 016c1f30fe649a2ad711f1a0dd2827c903f9eebb3fa7f1a75ad9dc7d0bc90494
+
 Package: im.mjh.uuscreenswitch
 Name: UU远控切屏
 Description: 把默认控制菜单里的展开全部窗口和显示桌面替换为直接切换显示器，适合双显示器用户。
@@ -60350,6 +60475,40 @@ Size: 1087708
 MD5sum: 7036bb73be5edd7370e1a149d2a19f9a
 SHA1: 
 SHA256: de9d271793ecc8ed26ae7f44a5cf2c92c962cfa5e029eb6889d63b6c0e3ebd81
+
+Package: iya.banana.ios27animation
+Name: iOS27 Animation
+Description: iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Installed-Size: 4144
+icon: https://huayuarc.github.io/icon/ios27animation.png
+Filename: debs/iya.banana.ios27animation-1.0.9-roothide.deb
+Size: 1095788
+MD5sum: 76faed7fb0780fa331519888379d4fe9
+SHA1: 
+SHA256: 1c91a8cd625648b6d0224783a54390528f6bc5b22edb8194800ee072ba599d1a
+
+Package: iya.banana.ios27animation
+Name: iOS27 Animation
+Description: iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Installed-Size: 4148
+icon: https://huayuarc.github.io/icon/ios27animation.png
+Filename: debs/iya.banana.ios27animation-1.0.9-rootless.deb
+Size: 1095420
+MD5sum: 110976e80027151352f6c3361a770ade
+SHA1: 
+SHA256: 7ab337253f638d1e061caec2601954c60d38c9daf2c442fd5fd38863caf99b67
 
 Package: iya.banana.iphoneduoflow
 Name: DuoFlow
@@ -65771,6 +65930,50 @@ MD5sum: 1c086854b2a2d96687af3e6ded9eabd0
 SHA1: 
 SHA256: c377601e4c8cc2982a4440971807e8ef6b669657c3883e8e8cffbd3d9a85b966
 
+Package: wiki.qaq.apelin
+Name: Apelin
+Version: 0.4.1
+Architecture: iphoneos-arm64e
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Installed-Size: 96880
+Filename: debs/wiki.qaq.apelin-0.4.1-roothide.deb
+Size: 22893500
+MD5sum: 34cd5486c2e8b64dce7c61042a0263b0
+SHA1: 
+SHA256: 2932c3870c9903121b240daa3f50ec42eb004ee4451839867c75d2ded06c6aee
+
+Package: wiki.qaq.apelin
+Name: Apelin
+Version: 0.4.1
+Architecture: iphoneos-arm64
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Icon: https://owngoal-dev.github.io/Apelin/icon.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
+Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
+Installed-Size: 96880
+Filename: debs/wiki.qaq.apelin-0.4.1-rootless.deb
+Size: 22891304
+MD5sum: a306de2122fa8eea901000eb9352bee3
+SHA1: 
+SHA256: 4b90822c1c6bbb8ce0314f4763a1e76ef1558af7eef4eee9a0bd7b83f4610f3c
+
 Package: wiki.qaq.apelin.agent-tools.assembler
 Name: Apelin Assembler
 Version: 1.0.0
@@ -67587,6 +67790,84 @@ MD5sum: 21dc7636efa29b59b8745c494450b463
 SHA1: 
 SHA256: 23809d0bc74e386af7a68d3018ffe1609ea20a27be532f3bf52873abc6cc5b39
 
+Package: wiki.qaq.irisin
+Name: Irisin
+Version: 5.1.8
+Architecture: appletvos-arm64e
+Description: Package manager for Apple TV on RootHide custom firmware
+ Irisin on the Apple TV's Home Screen shows an address and a code: open the
+ page on a phone or computer on the same network to browse repositories and
+ install, update and remove packages, each change confirmed on the TV with
+ the remote. An on-demand root daemon installs packages natively and
+ registers apps with the system, without dpkg.
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Homepage: https://github.com/Lakr233/Irisin
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Section: System
+Priority: optional
+Depends: firmware (>= 16.0)
+Installed-Size: 12116
+Filename: debs/wiki.qaq.irisin-5.1.8-appletvos-arm64e.deb
+Size: 3417272
+MD5sum: baa8b878519ccfc5a08dc518d0f116f8
+SHA1: 
+SHA256: 91824154912617c3cdd407ab91a3730e257231197341db3cf99bb384f548f77c
+
+Package: wiki.qaq.irisin
+Name: Irisin
+Version: 5.1.8
+Architecture: iphoneos-arm64e
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Homepage: https://github.com/Lakr233/Irisin
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Section: Applications
+Priority: optional
+Depends: firmware (>= 15.0)
+Installed-Size: 22232
+Filename: debs/wiki.qaq.irisin-5.1.8-roothide.deb
+Size: 5855256
+MD5sum: 50b38ab1f117666a1dabb899d8fc3db1
+SHA1: 
+SHA256: e449a4688fdcacd06698513f87f15b560c78b96a48cab410d6c0008c4fdf00a7
+
+Package: wiki.qaq.irisin
+Name: Irisin
+Version: 5.1.8
+Architecture: iphoneos-arm64
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Homepage: https://github.com/Lakr233/Irisin
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Section: Applications
+Priority: optional
+Depends: firmware (>= 15.0)
+Installed-Size: 22232
+Filename: debs/wiki.qaq.irisin-5.1.8-rootless.deb
+Size: 5851348
+MD5sum: b93c66677169c0dc23be25ae10638c87
+SHA1: 
+SHA256: 66b2043dc5429d0163e3a80ce83677690964a1c662682acf096a2eebd84b3daa
+
 Package: wiki.qaq.kk
 Name: kk
 Version: 0.1.111
@@ -67802,6 +68083,52 @@ Size: 2173908
 MD5sum: c62a922006d0900b48986e6306eaadb7
 SHA1: 
 SHA256: 1978e8dd730a4445808941451c3b43e823c6a71e269ec874b91a2184d732f442
+
+Package: wiki.qaq.xrash
+Name: Xrash
+Version: 0.5.8
+Architecture: iphoneos-arm64e
+Description: Crash reporter and symbolicator for roothide bootstraps
+ Read every crash, hang and memory report on the device, symbolicated against
+ system frameworks and your own dSYMs, then bundle related reports into one
+ file to share.
+Icon: https://owngoal-dev.github.io/Xrash/icon.png
+Depiction: https://owngoal-dev.github.io/Xrash/
+SileoDepiction: https://owngoal-dev.github.io/Xrash/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl
+Installed-Size: 8332
+Filename: debs/wiki.qaq.xrash-0.5.8-roothide.deb
+Size: 2173532
+MD5sum: 2f3e4cc17ac418a0f00fb899a7d6e4aa
+SHA1: 
+SHA256: 7d994b05d8691ac7a51c868c0143be194e04cb784cb513f82295986942a05b6b
+
+Package: wiki.qaq.xrash
+Name: Xrash
+Version: 0.5.8
+Architecture: iphoneos-arm64
+Description: Crash reporter and symbolicator for rootless bootstraps
+ Read every crash, hang and memory report on the device, symbolicated against
+ system frameworks and your own dSYMs, then bundle related reports into one
+ file to share.
+Icon: https://owngoal-dev.github.io/Xrash/icon.png
+Depiction: https://owngoal-dev.github.io/Xrash/
+SileoDepiction: https://owngoal-dev.github.io/Xrash/depiction.json
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl
+Installed-Size: 8332
+Filename: debs/wiki.qaq.xrash-0.5.8-rootless.deb
+Size: 2173316
+MD5sum: 100c6edcf11b3e3be9bcf49d460bc853
+SHA1: 
+SHA256: d9c3c6ad044ae81357165aa2ff928b63f02aa746b192749326a048723e2ef652
 
 Package: ws.hbang.newterm3
 Name: NewTerm 3 Beta iOS 终端
