@@ -28207,6 +28207,42 @@ MD5sum: 09eb15f6c734e49a6703a0d4dcb04f6b
 SHA1: 
 SHA256: 120238e5fbe02d2c57a97a9850cbb0454b99cfd740aecd31a2679cda10c66476
 
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64e
+Version: 1.4
+Installed-Size: 4164
+Filename: debs/com.mlgm.actra-1.4-roothide.deb
+Size: 833168
+MD5sum: 2971bd4b9e471ed13dd8f4e17891475f
+SHA1: 
+SHA256: 20c037f99bb3f9b5b7c00e62b62fea9f23fed2cc85c7250a7265275dac698f13
+
+Package: com.mlgm.actra
+Name: Actra
+Description: 手势与事件自动化工具
+Icon: https://mlgm66.github.io/icon/actra.png
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Architecture: iphoneos-arm64
+Version: 1.4
+Installed-Size: 4196
+Filename: debs/com.mlgm.actra-1.4-rootless.deb
+Size: 834444
+MD5sum: b5cf7120aacce62cf3c3f55485499413
+SHA1: 
+SHA256: 0208f7f8855b0e0c2c433414d91b9d9be6757442885befc6f4fc73dba446ca69
+
 Package: com.mlgm.appdata
 Name: AppData
 Section: Tweaks
@@ -28536,6 +28572,42 @@ Size: 804052
 MD5sum: 20679402e6a731b5a5cb00400278422f
 SHA1: 
 SHA256: 9dba424bd7bb87b29a0ad803942b3abe74f4f62daa7831610eac365a7b2399cc
+
+Package: com.mlgm.clone
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit (>= 1.2-1), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Architecture: iphoneos-arm64e
+Version: 0.3
+Installed-Size: 5208
+Filename: debs/com.mlgm.clone-0.3-roothide.deb
+Size: 802680
+MD5sum: ee16388adf9dfc2c1b9727aff4509583
+SHA1: 
+SHA256: cdaf0e86e1d3267575b2291f4a2751fb0dd76f88dfe16edad8aff2b2e2929c79
+
+Package: com.mlgm.clone
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit (>= 1.2), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Architecture: iphoneos-arm64
+Version: 0.3
+Installed-Size: 5228
+Filename: debs/com.mlgm.clone-0.3-rootless.deb
+Size: 805108
+MD5sum: 7688d045db56576fe4dcf39d26585eb7
+SHA1: 
+SHA256: 901e68f7fea2062a3a23304cb029e922b99c060a981dac418fdc731236c7e0bf
 
 Package: com.mlgm.filzacrack
 Name: Filza Crack
@@ -28893,6 +28965,40 @@ Size: 2475864
 MD5sum: 5e35e3367082f6fcac7c8433c54940fc
 SHA1: 
 SHA256: 33c98b7d5dbdc38c5d01423665034e8ecf2be532d7a0d18a8f88983ee27c240b
+
+Package: com.mlgm.idata
+Name: iData
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0), apt, dpkg, roothide
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64e
+Version: 1.3.7
+Installed-Size: 8272
+Filename: debs/com.mlgm.idata-1.3.7-roothide.deb
+Size: 2481256
+MD5sum: 2d821947b46e3245d61f6219b6189a88
+SHA1: 
+SHA256: 524cececbb88b9d18e74ef9c0df91a5a22e49d5ca24804609749fbbfae8a5969
+
+Package: com.mlgm.idata
+Name: iData
+Description: 应用、插件数据管理工具，一键备份/恢复
+Maintainer: mlgm
+Author: mlgm
+Section: Applications
+Depends: firmware (>= 15.0), apt, dpkg
+Icon: https://mlgm66.github.io/icon/idata.png
+Architecture: iphoneos-arm64
+Version: 1.3.7
+Installed-Size: 8288
+Filename: debs/com.mlgm.idata-1.3.7-rootless.deb
+Size: 2482372
+MD5sum: 4052172ed0fb7ecada95cf8c204b0eb8
+SHA1: 
+SHA256: d579fa18cc6a7af3abfabebaf237185a82b3a7d2ee76b4b302221348d122be6e
 
 Package: com.mlgm.ilog
 Name: iLog
@@ -59355,6 +59461,46 @@ MD5sum: 8fbc68025223075ad64a1c4478d5fdd8
 SHA1: 
 SHA256: 6e426f78e46ae12dc01f4bba2c1c71e9b6eec1b2d1561d35ee8cd2c4578ae304
 
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64e
+Version: 3.2.4
+Installed-Size: 2536
+Filename: debs/im.mjh.xianyuadblock-3.2.4-roothide.deb
+Size: 841232
+MD5sum: 66856a4a4a7e5b98f7891f1e2fbcee66
+SHA1: 
+SHA256: 6bdb8b82e655f8ccf7ddf6cb8bf4c7c379f0e5ef98725039d9de3ece96e28e74
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Homepage: https://xianyu.goforit.si
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Architecture: iphoneos-arm64
+Version: 3.2.4
+Installed-Size: 2536
+Filename: debs/im.mjh.xianyuadblock-3.2.4-rootless.deb
+Size: 837324
+MD5sum: d0dda284773bd51e5a477914540123b8
+SHA1: 
+SHA256: eecfd0e96b7198af6c92375c1f650eacf540fc24a993d8003104ae899ce2a592
+
 Architecture: iphoneos-arm64
 Package: im.mjh.xianyuhelper
 Name: 咸鱼助手
@@ -62506,6 +62652,39 @@ Size: 145708
 MD5sum: 4a0b315f160741f3f754de8adf817f9c
 SHA1: 
 SHA256: 9170a232aec9bf266855e2d00f60d00b538cfb269f4244731d51547fea9e6003
+
+Package: local.amap.twotabs
+Name: 人民的高德
+Version: 1.2
+Architecture: iphoneos-arm64e
+Description: 人民的高德，不忘初心砥砺前行
+Maintainer: 祁厅长
+Author: 祁厅长
+Section: Tweaks
+Icon: https://qi-ting-zhang.github.io/sileo/images/icon/rmdgd.png
+Depends: mobilesubstrate
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/local.amap.twotabs-1.2-roothide.deb
+Size: 159008
+MD5sum: c031a64e854a87133cf9f21856c1e7a2
+SHA1: 
+SHA256: 31816a6cd521dfe9141f61f593dffab161032840abb9863c84243bb28d9b00cc
+
+Package: local.amap.twotabs
+Name: 人民的高德
+Version: 1.2
+Architecture: iphoneos-arm64
+Description: 人民的高德，不忘初心砥砺前行
+Maintainer: 祁厅长
+Author: 祁厅长
+Section: Tweaks
+Icon: https://qi-ting-zhang.github.io/sileo/images/icon/rmdgd.png
+Depends: mobilesubstrate
+Filename: debs/local.amap.twotabs-1.2-rootless.deb
+Size: 158900
+MD5sum: f423158369535e175a36f6a86322fefb
+SHA1: 
+SHA256: 6ae583f08cd922ee94c15446a9fa8eab884e7bb2e7644c56ac78b0fbca58e6c9
 
 Package: local.apelin.nomo
 Version: 0.0.2
