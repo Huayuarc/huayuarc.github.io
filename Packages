@@ -20985,6 +20985,46 @@ MD5sum: 4becf658cf958cbffbaf5e4ef2fe4f1c
 SHA1: 
 SHA256: b6a387e7e789e3bf16bb456dd2d1b48a2b95a7832566490092b628bf8b009e1c
 
+Package: com.huayuarc.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，Hello 120Hz。
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Installed-Size: 2236
+icon: https://huayuarc.github.io/icon/Insulation.png
+Provides: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Conflicts: com.be-huge.insulation
+Filename: debs/com.huayuarc.insulation-1.0.6-roothide.deb
+Size: 206348
+MD5sum: 89b5dae2fd291c00b7495ba593581739
+SHA1: 
+SHA256: caeb0a78cf543b2623fb4e925a5c57112f4b313abdd0fdb89043925aee7c3fd3
+
+Package: com.huayuarc.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，Hello 120Hz。
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Installed-Size: 2284
+icon: https://huayuarc.github.io/icon/Insulation.png
+Provides: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Conflicts: com.be-huge.insulation
+Filename: debs/com.huayuarc.insulation-1.0.6-rootless.deb
+Size: 208856
+MD5sum: bf02ea0ef1caacb43e221470175f756b
+SHA1: 
+SHA256: 998731ce515a4cbf640ed03cd6a46bc1df7d83686bf0b681f1d89e18f1ebaaca
+
 Package: com.huayuarc.lt-zj-noads
 Name: 联通智家 NoAds
 Author: Huayuarc <xuanhua880@gmail.com>
