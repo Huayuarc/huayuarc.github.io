@@ -26722,39 +26722,6 @@ SHA256: 3dcfbf8eda46433f1556255ae1785c98f0ff36ec7994252838c2825313aeeefb
 
 Package: com.mallin.tunnelsharevpn
 Name: TunnelShareVPN
-Version: 1.2.6-1
-Architecture: iphoneos-arm64e
-Section: Tweaks
-Author: Mallin
-Maintainer: Mallin
-Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
-Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
-Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.mallin.tunnelsharevpn-1.2.6-1-roothide.deb
-Size: 166116
-MD5sum: b97a221080c737ac324689aafbe45cef
-SHA1: 
-SHA256: cf2ce71029a02ce42fbbcf41a2ea8fa111d137d9ad60ca66c17ebb385cfbd86e
-
-Package: com.mallin.tunnelsharevpn
-Name: TunnelShareVPN
-Version: 1.2.6-1
-Architecture: iphoneos-arm64
-Section: Tweaks
-Author: Mallin
-Maintainer: Mallin
-Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
-Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
-Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
-Filename: debs/com.mallin.tunnelsharevpn-1.2.6-1-rootless.deb
-Size: 170388
-MD5sum: efdf2f1a5ff573557a04d101349ca666
-SHA1: 
-SHA256: 0a127a2a280c92a4e5d088a5aa5e7084ba312dcda631a1f46204cfe432d2ed89
-
-Package: com.mallin.tunnelsharevpn
-Name: TunnelShareVPN
 Version: 1.2.6
 Architecture: iphoneos-arm64e
 Section: Tweaks
