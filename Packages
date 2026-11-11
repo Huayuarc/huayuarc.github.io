@@ -21261,6 +21261,40 @@ MD5sum: 4333a87934b5af1bb451e6915e1172f2
 SHA1: 
 SHA256: 74078dc20e12655b3e686b77c647230323b15cd81d61f75cdd91cc09f38ed8b7
 
+Package: com.huayuarc.vpncc
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Description: 从控制中心切换并选择系统个人VPN配置。Toggle and select system personal VPN configurations from Control Center.
+Name: VPN CC
+Author: Huayuarc
+Maintainer: Huayuarc
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, com.opa334.ccsupport
+Installed-Size: 200
+Icon: https://huayuarc.github.io/icon/CustomVpnIcon.png
+Filename: debs/com.huayuarc.vpncc-0.1.0-roothide.deb
+Size: 20812
+MD5sum: 81d4e43e6b970d671af8f93a0196c5d2
+SHA1: 
+SHA256: c71d1f7db60c3da13502862dc7f93809343e7bbf2ef3bff36f344cfb13257170
+
+Package: com.huayuarc.vpncc
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Description: 从控制中心切换并选择系统个人VPN配置。Toggle and select system personal VPN configurations from Control Center.
+Name: VPN CC
+Author: Huayuarc
+Maintainer: Huayuarc
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, com.opa334.ccsupport
+Installed-Size: 442
+Icon: https://huayuarc.github.io/icon/CustomVpnIcon.png
+Filename: debs/com.huayuarc.vpncc-0.1.0-rootless.deb
+Size: 27516
+MD5sum: f5b903650785df15260a48f7451f69b3
+SHA1: 
+SHA256: 7603c1adef8e7265f117744ed2bfe740a734bff74c5a49010d26f96aae8a2a7d
+
 Package: com.huayuarc.zombiereaper
 Name: ZombieReaper 清理子进程
 Description: Auto-reap zombie child processes for SpringBoard 后台每5秒自动清理SpringBoard产生的僵尸子进程，防止大量调用外部脚本后堆积僵尸进程、耗尽系统PID，避免后续命令无法正常拉起。仅作用于SpringBoard进程。
@@ -26719,6 +26753,39 @@ Size: 145844
 MD5sum: 61461170b612f0a7f970383fca6a1e02
 SHA1: 
 SHA256: 3dcfbf8eda46433f1556255ae1785c98f0ff36ec7994252838c2825313aeeefb
+
+Package: com.mallin.tunnelsharevpn
+Name: TunnelShareVPN
+Version: 1.2.6-1
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Author: Mallin
+Maintainer: Mallin
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.mallin.tunnelsharevpn-1.2.6-1-roothide.deb
+Size: 166372
+MD5sum: 0fc5782addf4f06c375e0abf597febc5
+SHA1: 
+SHA256: ff7865f37c9bf1532efa759b6e2afbed12cd90ffd4af56ac93e16628126d4c45
+
+Package: com.mallin.tunnelsharevpn
+Name: TunnelShareVPN
+Version: 1.2.6-1
+Architecture: iphoneos-arm64
+Section: Tweaks
+Author: Mallin
+Maintainer: Mallin
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+Filename: debs/com.mallin.tunnelsharevpn-1.2.6-1-rootless.deb
+Size: 170044
+MD5sum: 828694d32f28a49ffccc7d73a44829c0
+SHA1: 
+SHA256: 1e84ad3b5cfdc97c6e595c5eec212276f03bfe8368a30a7d9955f12409b4cfa3
 
 Package: com.mallin.tunnelsharevpn
 Name: TunnelShareVPN
