@@ -56779,6 +56779,44 @@ MD5sum: 17f9f29c55f47012b36673969e5ede6b
 SHA1: 
 SHA256: c9fcb43bd23cefdfa933f5a7c031d50877621c17eff350ceb470b5ccf1d28896
 
+Package: com.zengniu.splitview.compat
+Name: 曾牛分屏 151617 兼容版
+Conflicts: com.zengniu.splitview
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Depiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/index.html
+SileoDepiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/depiction.json
+Version: 0.8.25
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.1), mobilesubstrate, preferenceloader
+Filename: debs/com.zengniu.splitview.compat-0.8.25-roothide.deb
+Size: 624328
+MD5sum: 302fa868d4ef2303763cf6e3ebdf824c
+SHA1: 
+SHA256: 210fd1c6488b31fdf141463a27b44ca509f34ca8d61047fad3cc521dc6b86200
+
+Package: com.zengniu.splitview.compat
+Name: 曾牛分屏 151617 兼容版
+Conflicts: com.zengniu.splitview
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Depiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/index.html
+SileoDepiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/depiction.json
+Version: 0.8.25
+Architecture: iphoneos-arm64
+Depends: firmware (>= 15.1), mobilesubstrate, preferenceloader
+Filename: debs/com.zengniu.splitview.compat-0.8.25-rootless.deb
+Size: 949572
+MD5sum: 544599d145b04bac8ca8074b066fe590
+SHA1: 
+SHA256: 5c813433cab29afbba273ee84772f4bbe7f8ccb21b00419c69036b2619fd7b8c
+
 Package: com.zooah.debrecords
 Name: DebRecords
 Description: 记录插件的安装、升级、卸载相关信息。可对插件进行备份。记录SpringBoard的重启相关信息、安全模式相关信息、手机重启的相关信息。
@@ -59097,6 +59135,38 @@ Size: 7476
 MD5sum: ca73d4657bffc9214d46bdbde342a823
 SHA1: 
 SHA256: 016c1f30fe649a2ad711f1a0dd2827c903f9eebb3fa7f1a75ad9dc7d0bc90494
+
+Package: im.mjh.myeyeclean
+Name: 喵眼精灵去广告
+Description: 喵眼精灵 / 乔安智联去广告：关闭开屏/插屏/信息流/Banner/激励视频，拦截广告跳转
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.2.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/myeyeclean.jpg
+Filename: debs/im.mjh.myeyeclean-0.2.0-roothide.deb
+Size: 7564
+MD5sum: ecad3062bd4f1475b4e39eb58c534220
+SHA1: 
+SHA256: 68167c987bed7cc9605e1bc5ce2631db081fe21ac8240890f2d0e8a521b65e74
+
+Package: im.mjh.myeyeclean
+Name: 喵眼精灵去广告
+Description: 喵眼精灵 / 乔安智联去广告：关闭开屏/插屏/信息流/Banner/激励视频，拦截广告跳转
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.2.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/myeyeclean.jpg
+Filename: debs/im.mjh.myeyeclean-0.2.0-rootless.deb
+Size: 7596
+MD5sum: 275595b03c232bd4c4fa97298302dcbc
+SHA1: 
+SHA256: 7da78b613b9f8fabe6f998181a0d012c4dcd940bca472973b80d4fc96b2c6ebe
 
 Package: im.mjh.uuscreenswitch
 Name: UU远控切屏
