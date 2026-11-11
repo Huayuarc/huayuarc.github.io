@@ -56721,10 +56721,27 @@ Section: Tweaks
 Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
 Installed-Size: 3507
 Filename: debs/com.zengniu.splitview-0.8.90-rootless.deb
-Size: 730420
-MD5sum: c3997a972d3c5ac343976d06f3483c8b
+Size: 729968
+MD5sum: 444de7cbe584000c75a8f1a6963a1ff7
 SHA1: 
-SHA256: 653ce86ed3c46faffea1edac13af09e76825ee5ad535b31b0b7811b8abd7b5b4
+SHA256: 036e9dc4f444d2cccb76476ea9594fb49f3c1ee4c330a5650ff9d6e3dfb423b4
+
+Package: com.zengniu.splitview
+Version: 0.8.97
+Architecture: iphoneos-arm64e
+Description: Live app windows with gesture controls, docked panels and independent launchpads.
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 1885
+Filename: debs/com.zengniu.splitview-0.8.97-roothide.deb
+Size: 516172
+MD5sum: 17f9f29c55f47012b36673969e5ede6b
+SHA1: 
+SHA256: c9fcb43bd23cefdfa933f5a7c031d50877621c17eff350ceb470b5ccf1d28896
 
 Package: com.zooah.debrecords
 Name: DebRecords
@@ -57096,6 +57113,43 @@ Size: 2489080
 MD5sum: 6df76b8cb5b9ec0747c6bfe7f621054f
 SHA1: 
 SHA256: ad38b8fdf15b1bb9ff488bbd68cfa9485e012486ae0fbe07224acae48b01e48c
+
+Package: com.zooah.swipedeck
+Name: SwipeDeck - 快捷助手
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+  *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Maintainer: zooah212
+Author: zooah212
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.6.1-2
+Installed-Size: 7924
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/swipedeck.png
+Filename: debs/com.zooah.swipedeck-0.6.1-2-roothide.deb
+Size: 2537620
+MD5sum: f67c8753aa740a77788af517404324ed
+SHA1: 
+SHA256: 399e971df4f733222984449fe22e7e3684761c36d4d2b68f1484d9dbd32a20be
+
+Package: com.zooah.swipedeck
+Name: SwipeDeck - 快捷助手
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+  *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Maintainer: zooah212
+Author: zooah212
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.6.1-2
+Installed-Size: 7924
+icon: https://huayuarc.github.io/icon/swipedeck.png
+Filename: debs/com.zooah.swipedeck-0.6.1-2-rootless.deb
+Size: 2568204
+MD5sum: d0d87f065d88c623432c522925c26f23
+SHA1: 
+SHA256: 666adbd31e91b4a39700668eea0838aabbd480e911ac19ad387e745b7cb58f7d
 
 Package: com.zqbb.savephotos
 Name: Hello Snapper3
