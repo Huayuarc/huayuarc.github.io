@@ -35894,6 +35894,40 @@ MD5sum: 2771323448890cab17a6c03287e9f9ed
 SHA1: 
 SHA256: 688cc23215079025f512020f5f22bfee568add73f67081801dc4b688d56f0433
 
+Package: com.oakstheawesome.solo
+Name: Solo Enhanced
+Description: Solo with labeled shortcuts, shared backgrounds, sidebar visibility and App opening modes, and vertical carousel.
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
+Section: Tweaks
+Author: OaksTheAwesome
+Maintainer: Local Solo Enhancements
+Architecture: iphoneos-arm64e
+Version: 1.0.1-12
+Installed-Size: 2460
+icon: https://huayuarc.github.io/icon/solo.png
+Filename: debs/com.oakstheawesome.solo-1.0.1-12-roothide.deb
+Size: 565188
+MD5sum: 37079d093e7cc4a8294f55890a1c92d2
+SHA1: 
+SHA256: 7ea5a53fb51d1db351b2fa0768b92d86e8dc16c48c038c6ec2061f7f88904bc2
+
+Package: com.oakstheawesome.solo
+Name: Solo Enhanced
+Description: Solo with labeled shortcuts, shared backgrounds, sidebar visibility and App opening modes, and vertical carousel.
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
+Section: Tweaks
+Author: OaksTheAwesome
+Maintainer: Local Solo Enhancements
+Architecture: iphoneos-arm64
+Version: 1.0.1-12
+Installed-Size: 2460
+icon: https://huayuarc.github.io/icon/solo.png
+Filename: debs/com.oakstheawesome.solo-1.0.1-12-rootless.deb
+Size: 564668
+MD5sum: e163fd167b6addb0e42657bc9a623529
+SHA1: 
+SHA256: 16496b3714146ee58b2f8069715da4c1ca91bfcb0742d16b78c4cf9b989097d2
+
 Package: com.opa334.choicy
 Name: Choicy
 Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
