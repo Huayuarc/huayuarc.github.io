@@ -25298,6 +25298,42 @@ MD5sum: 16a53259a2432fb567754b6a3fb88428
 SHA1: 
 SHA256: afc670121b45c0bceee4c0c95656be29a1657b96a09f47c68ebc8edc24cff5e3
 
+Package: com.johndie.pulloverpro-rootless
+Name: PullOver Pro
+Description: Pull over any app, anywhere, from a small handle at the edge of the screen. Original tweak by c1d3r (GPL-3.0), updated for iOS 15-27.
+Maintainer: Jond_ie
+Author: c1d3r (port: Jond_ie)
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.altlist, firmware (>= 15.0), firmware (<< 28.0)
+Recommends: preferenceloader
+icon: https://huayuarc.github.io/icon/pulloverpro.png
+Architecture: iphoneos-arm64e
+Version: 3.0.1
+Installed-Size: 488
+Filename: debs/com.johndie.pulloverpro-rootless-3.0.1-roothide.deb
+Size: 68152
+MD5sum: f4944cf9ed12f3d73736db894e24e89f
+SHA1: 
+SHA256: c789dcd6ed54aca3b1e61c4110118dbfb3d05b23b2e5ea473e5b7548f7647d50
+
+Package: com.johndie.pulloverpro-rootless
+Name: PullOver Pro
+Description: Pull over any app, anywhere, from a small handle at the edge of the screen. Original tweak by c1d3r (GPL-3.0), updated for iOS 15-27.
+Maintainer: Jond_ie
+Author: c1d3r (port: Jond_ie)
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.altlist, firmware (>= 15.0), firmware (<< 28.0)
+Recommends: preferenceloader
+icon: https://huayuarc.github.io/icon/pulloverpro.png
+Architecture: iphoneos-arm64
+Version: 3.0.1
+Installed-Size: 508
+Filename: debs/com.johndie.pulloverpro-rootless-3.0.1-rootless.deb
+Size: 70540
+MD5sum: 6a74861c051aee2bd6460b01070d6fca
+SHA1: 
+SHA256: fc8b531c25e19ba27d6f949b5f5ba1a4f9693ce5f92443bca5b8bbf5f8c97434
+
 Package: com.johndie.triggr
 Name: Triggr
 Description: 面向 rootless Dopamine 的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 A12 及更新机型（arm64e）。
@@ -33434,6 +33470,44 @@ MD5sum: 3558dcd6c915ea1583c71347be2875dc
 SHA1: 
 SHA256: 719c9556cd6c9ce78d5758d84ed228ad92280558d3a6ea528c6fc72445dae2cf
 
+Package: com.muzi.mutool
+Name: MUtool
+Description: MUtool 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息、锁屏充电大字常驻与电源菜单）；定时任务；自动禁用 SIM、卡槽管理与 IPCC 运营商配置；WiFi 永连；充电提示音与 MagSafe 动画；文件夹主题（配色、毛玻璃、大文件夹、网格大小与图标缩放）；温控（阻止降频、CPU 功率锁定、模拟降频）与锁定 120Hz 高刷；系统增强（锁屏增强、主屏幕增强、桌面增强与 iPad 风格浮动 Dock）；录制增强（通话自动录音、录屏去 DRM 静音、锁屏继续录制与轨迹触点）；美化（状态栏前景色、隐藏时间、强制浅深色）；桌面悬浮信息药丸（多悬浮窗独立配置网速/CPU/内存/时间/农历/天气，Liquid Glass 风格）；电池健康与深度信息。全部功能受激活状态门控。
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64e
+Version: 2.2.88
+Installed-Size: 5952
+Filename: debs/com.muzi.mutool-2.2.88-roothide.deb
+Size: 939692
+MD5sum: 288f219bf5dcf275354446b6e45e51df
+SHA1: 
+SHA256: f8768e68785454d9d68f628c96044cd579abefcfe25e477ad74e1d4d5716cf73
+
+Package: com.muzi.mutool
+Name: MUtool
+Description: MUtool 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息、锁屏充电大字常驻与电源菜单）；定时任务；自动禁用 SIM、卡槽管理与 IPCC 运营商配置；WiFi 永连；充电提示音与 MagSafe 动画；文件夹主题（配色、毛玻璃、大文件夹、网格大小与图标缩放）；温控（阻止降频、CPU 功率锁定、模拟降频）与锁定 120Hz 高刷；系统增强（锁屏增强、主屏幕增强、桌面增强与 iPad 风格浮动 Dock）；录制增强（通话自动录音、录屏去 DRM 静音、锁屏继续录制与轨迹触点）；美化（状态栏前景色、隐藏时间、强制浅深色）；桌面悬浮信息药丸（多悬浮窗独立配置网速/CPU/内存/时间/农历/天气，Liquid Glass 风格）；电池健康与深度信息。全部功能受激活状态门控。
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64
+Version: 2.2.88
+Installed-Size: 5984
+Filename: debs/com.muzi.mutool-2.2.88-rootless.deb
+Size: 947696
+MD5sum: f05a5e5b0d100ce895069bbd599de2a5
+SHA1: 
+SHA256: 8c70555aef0e4803f6a9d13b30b846764c442a56fd0aaba704069e5f5ccd060e
+
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
 Depends: mobilesubstrate, ws.hbang.common, com.spark.libsparkcolourpicker
@@ -37867,6 +37941,46 @@ Size: 461356
 MD5sum: f5098b4b521c571dcbdce3f89cef9784
 SHA1: 
 SHA256: ccad11b4a5c25ad861bb735b32154ce96113c280f959fc7d28293d95b31291d1
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64e
+Version: 2.0.500
+Installed-Size: 4700
+Filename: debs/com.qq391160.cpucore-2.0.500-roothide.deb
+Size: 748292
+MD5sum: 1353d9880ca2544dd0e26bf04d2181ff
+SHA1: 
+SHA256: 6b77de79d03e67703c42011a053d1a3a4141f5a49e79d1d950abb6d959e81b62
+
+Package: com.qq391160.cpucore
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Maintainer: qq391160
+Section: Tweaks
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Priority: optional
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+Depends: firmware (>= 16.0)
+Architecture: iphoneos-arm64
+Version: 2.0.500
+Installed-Size: 4428
+Filename: debs/com.qq391160.cpucore-2.0.500-rootless.deb
+Size: 675108
+MD5sum: f5affbd95153184e357ba04d9fddf675
+SHA1: 
+SHA256: ecca1e5ca6d2ed7add6f5853165bb253769f49459892fd124e4a3c85fa5635ea
 
 Package: com.qq391160.cpucore
 Name: CPU智能温控(iOS16/17)
@@ -57772,6 +57886,202 @@ MD5sum: 3f1c23139d4de6b61a7d18c68f754edb
 SHA1: 
 SHA256: 4b8abb306413eddb2649ab927fe8d4a9bf8f4402192946b5dd3e5808742c03d5
 
+Package: dev.owngoal.settingsorganizer
+Version: 0.1.1
+Architecture: iphoneos-arm64e
+Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
+  【插件介绍】
+  将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
+ .
+  【主要功能】
+  · 分类管理：手动调整分类，长按条目修改显示名称。
+  · 外观设置：自选壁纸和横幅，调整遮罩及横幅高度。
+  · 导航文字：自定义首页标题与左上角返回文字。
+  · 账户入口：可隐藏首页 Apple ID 入口，不修改账户。
+ .
+  【0.1.1 更新】
+  修复插件页面退到桌面后，再打开设置回到首页的问题。
+ .
+  【0.1.0 更新】
+  1. 修复搜索输入：修复 Choicy「应用程序」列表搜索框无法输入的问题。
+  2. 修复图标加载：修复重启设置后首次进入「第三方 App」图标延迟显示的问题。
+ .
+  【0.0.9 更新】
+  1. 新增首页布局：支持居中、九宫格、双列、最左侧、最右侧、紧凑列表，共六种样式。九宫格默认三列，首页八个分类入口占八格。
+  2. 新增二级菜单布局：收纳分类列表支持六种样式，可独立选择或跟随首页。支持多行名称和大字号适配，保留条目跳转与长按改名。
+  3. 调整选项位置：以下四项集中放在「壁纸无遮罩」下方：
+  · 左上角返回文字
+  · 首页左上角标题
+  · 首页布局
+  · 二级菜单布局
+ .
+  【使用方法】
+  设置 → 我的插件 → 设置插件收纳 → 收纳与外观。
+  选择布局后，返回对应页面查看。安装更新后，请关闭并重新打开设置。
+ .
+  【适用范围】
+  二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
+  壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
+Name: 设置插件收纳
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 264
+Filename: debs/dev.owngoal.settingsorganizer-0.1.1-roothide.deb
+Size: 66108
+MD5sum: f662376711624cd9118f63445ae2e463
+SHA1: 
+SHA256: 617e64395973021ebcb17d4f6d44fb4efec0b89e85946c0ba5335c95670f36d9
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
+  【插件介绍】
+  将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
+ .
+  【主要功能】
+  · 分类管理：手动调整分类，长按条目修改显示名称。
+  · 外观设置：自选壁纸和横幅，调整遮罩及横幅高度。
+  · 导航文字：自定义首页标题与左上角返回文字。
+  · 账户入口：可隐藏首页 Apple ID 入口，不修改账户。
+ .
+  【0.1.1 更新】
+  修复插件页面退到桌面后，再打开设置回到首页的问题。
+ .
+  【0.1.0 更新】
+  1. 修复搜索输入：修复 Choicy「应用程序」列表搜索框无法输入的问题。
+  2. 修复图标加载：修复重启设置后首次进入「第三方 App」图标延迟显示的问题。
+ .
+  【0.0.9 更新】
+  1. 新增首页布局：支持居中、九宫格、双列、最左侧、最右侧、紧凑列表，共六种样式。九宫格默认三列，首页八个分类入口占八格。
+  2. 新增二级菜单布局：收纳分类列表支持六种样式，可独立选择或跟随首页。支持多行名称和大字号适配，保留条目跳转与长按改名。
+  3. 调整选项位置：以下四项集中放在「壁纸无遮罩」下方：
+  · 左上角返回文字
+  · 首页左上角标题
+  · 首页布局
+  · 二级菜单布局
+ .
+  【使用方法】
+  设置 → 我的插件 → 设置插件收纳 → 收纳与外观。
+  选择布局后，返回对应页面查看。安装更新后，请关闭并重新打开设置。
+ .
+  【适用范围】
+  二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
+  壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
+Name: 设置插件收纳
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 538
+Filename: debs/dev.owngoal.settingsorganizer-0.1.1-rootless.deb
+Size: 80308
+MD5sum: f3c48a1a83c4bc070d0c89e44094d075
+SHA1: 
+SHA256: e474e543fe5efc76c572d3cd3397aa8606e41fa4ddccd138be364143fdb592c4
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.1.2
+Architecture: iphoneos-arm64e
+Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
+  【插件介绍】
+  将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
+ .
+  【主要功能】
+  · 分类管理：手动调整分类，长按条目修改显示名称。
+  · 外观设置：自选壁纸和横幅，调整遮罩及横幅高度。
+  · 导航文字：自定义首页标题与左上角返回文字。
+  · 账户入口：可隐藏首页 Apple ID 入口，不修改账户。
+ .
+  【0.1.2 更新】
+  修复「分析数据」搜索：解决搜索框消失、无法点击和输入的问题，恢复关键词筛选。
+ .
+  【0.1.1 更新】
+  修复插件页面退到桌面后，再打开设置回到首页的问题。
+ .
+  【0.1.0 更新】
+  1. 修复搜索输入：修复 Choicy「应用程序」列表搜索框无法输入的问题。
+  2. 修复图标加载：修复重启设置后首次进入「第三方 App」图标延迟显示的问题。
+ .
+  【0.0.9 更新】
+  1. 新增首页布局：支持居中、九宫格、双列、最左侧、最右侧、紧凑列表，共六种样式。九宫格默认三列，首页八个分类入口占八格。
+  2. 新增二级菜单布局：收纳分类列表支持六种样式，可独立选择或跟随首页。支持多行名称和大字号适配，保留条目跳转与长按改名。
+  3. 调整选项位置：以下四项集中放在「壁纸无遮罩」下方：
+  · 左上角返回文字、首页左上角标题、首页布局、二级菜单布局。
+ .
+  【使用方法】
+  设置 → 我的插件 → 设置插件收纳 → 收纳与外观。
+  选择布局后，返回对应页面查看。安装更新后，请关闭并重新打开设置。
+ .
+  【适用范围】
+  二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
+  壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
+Name: 设置插件收纳
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 264
+Filename: debs/dev.owngoal.settingsorganizer-0.1.2-roothide.deb
+Size: 66192
+MD5sum: 6e732be0a94f9fe8125e084bd6b17575
+SHA1: 
+SHA256: 34d075a0b50e6877dc1201cc27a4c13855999f5055458619efb5fcb5de1ef13b
+
+Package: dev.owngoal.settingsorganizer
+Version: 0.1.2
+Architecture: iphoneos-arm64
+Description: 设置分类收纳、首页与二级菜单布局、自定义名称、壁纸和横幅。
+  【插件介绍】
+  将插件、系统功能和应用设置分类收纳，让设置首页更整洁。
+ .
+  【主要功能】
+  · 分类管理：手动调整分类，长按条目修改显示名称。
+  · 外观设置：自选壁纸和横幅，调整遮罩及横幅高度。
+  · 导航文字：自定义首页标题与左上角返回文字。
+  · 账户入口：可隐藏首页 Apple ID 入口，不修改账户。
+ .
+  【0.1.2 更新】
+  修复「分析数据」搜索：解决搜索框消失、无法点击和输入的问题，恢复关键词筛选。
+ .
+  【0.1.1 更新】
+  修复插件页面退到桌面后，再打开设置回到首页的问题。
+ .
+  【0.1.0 更新】
+  1. 修复搜索输入：修复 Choicy「应用程序」列表搜索框无法输入的问题。
+  2. 修复图标加载：修复重启设置后首次进入「第三方 App」图标延迟显示的问题。
+ .
+  【0.0.9 更新】
+  1. 新增首页布局：支持居中、九宫格、双列、最左侧、最右侧、紧凑列表，共六种样式。九宫格默认三列，首页八个分类入口占八格。
+  2. 新增二级菜单布局：收纳分类列表支持六种样式，可独立选择或跟随首页。支持多行名称和大字号适配，保留条目跳转与长按改名。
+  3. 调整选项位置：以下四项集中放在「壁纸无遮罩」下方：
+  · 左上角返回文字、首页左上角标题、首页布局、二级菜单布局。
+ .
+  【使用方法】
+  设置 → 我的插件 → 设置插件收纳 → 收纳与外观。
+  选择布局后，返回对应页面查看。安装更新后，请关闭并重新打开设置。
+ .
+  【适用范围】
+  二级布局仅作用于收纳分类列表，不调整系统详情页或第三方插件内部页面。
+  壁纸主要适用于支持的 UIKit 页面，部分自绘页面可能遮挡。
+Name: 设置插件收纳
+icon: https://huayuarc.github.io/icon/settingsorganizer.png
+Author: MoWang
+Maintainer: MoWang
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 538
+Filename: debs/dev.owngoal.settingsorganizer-0.1.2-rootless.deb
+Size: 80184
+MD5sum: 2fa50cd704df899cce3a8e37a66b79c7
+SHA1: 
+SHA256: 1450864ea8baded060ecaaee02e36b0eda7ade5462aa7b88028b929e976c79d6
+
 Package: dylv.deepliquid
 Name: Ai 液态玻璃
 Description: 深度优化的液态玻璃效果，智能帧率控制 + 全局数量预算，告别发烫
@@ -59000,6 +59310,42 @@ Size: 2928632
 MD5sum: 2e0d1afb42bc6703d98ba55268aae98c
 SHA1: 
 SHA256: cc5ecc06385c41c21e3aca3fc386033e01a10b65a6859a96aaedace3ea8167df
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://hongguo.goforit.si
+Architecture: iphoneos-arm64e
+Version: 2.2.4
+Installed-Size: 7728
+icon: https://huayuarc.github.io/icon/hongguo.png
+Filename: debs/hongguofn-2.2.4-roothide.deb
+Size: 3348588
+MD5sum: 579ac26983c6f99d957ef293f7589fd2
+SHA1: 
+SHA256: bacaf6308d1131f1de4dfcbb6147d87da0b31d78f6fff0a15838dccbf43442ca
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://hongguo.goforit.si
+Architecture: iphoneos-arm64
+Version: 2.2.4
+Installed-Size: 7728
+icon: https://huayuarc.github.io/icon/hongguo.png
+Filename: debs/hongguofn-2.2.4-rootless.deb
+Size: 3344316
+MD5sum: d9b768c456034003af74aa10ea366642
+SHA1: 
+SHA256: 598211386f9d4a45e2eeb6376823cdceced46268038ce6a58212fc61f7a5a642
 
 Package: hypicfix
 Name: 醒图国际版修复工具
@@ -62073,6 +62419,40 @@ Size: 73060
 MD5sum: 55646975a36fa8b44807a17a4ed80a41
 SHA1: 
 SHA256: 00b6cecca1b90f925253bb4e59b0ef8776d7d791c2e03130045510463c86b426
+
+Package: iya.banana.pickerwheeldock
+Name: KineticDock
+Description: 叠放、放大、滚筒与转盘，让 iPhone 程序坞动起来。A magnifying and scrolling Dock for iOS 15-17, with experimental iOS 18 and 26 support.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 19.0) | firmware (>= 26.0), firmware (<< 27.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.7-1
+Installed-Size: 900
+icon: https://huayuarc.github.io/icon/pickerwheeldock.png
+Filename: debs/iya.banana.pickerwheeldock-0.1.7-1-roothide.deb
+Size: 151276
+MD5sum: 4a598e0007674a08c7e84ab8a29ada52
+SHA1: 
+SHA256: 6d8ff79994e533393c5771523482d3dc8529143cdf4f44f4dceb4ab9117d63b5
+
+Package: iya.banana.pickerwheeldock
+Name: KineticDock
+Description: 叠放、放大、滚筒与转盘，让 iPhone 程序坞动起来。A magnifying and scrolling Dock for iOS 15-17, with experimental iOS 18 and 26 support.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 19.0) | firmware (>= 26.0), firmware (<< 27.0)
+Architecture: iphoneos-arm64
+Version: 0.1.7-1
+Installed-Size: 900
+icon: https://huayuarc.github.io/icon/pickerwheeldock.png
+Filename: debs/iya.banana.pickerwheeldock-0.1.7-1-rootless.deb
+Size: 150428
+MD5sum: 6452db8fb0cc9a74becd2fb1b9363b1e
+SHA1: 
+SHA256: ad4e1384a0216fd07c866ee459bea1d555d3bd3b85ab85d7da509d8e00422303
 
 Package: iya.banana.spatialscene
 Name: SpatialScene
