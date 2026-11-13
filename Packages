@@ -21150,10 +21150,10 @@ Provides: com.be-huge.insulation
 Replaces: com.be-huge.insulation
 Conflicts: com.be-huge.insulation
 Filename: debs/com.huayuarc.insulation-1.0.8-roothide.deb
-Size: 207008
-MD5sum: ccac3ad9db1d783f132038a60bd12dd7
+Size: 206576
+MD5sum: 09d9d2d4c90e6528089cf1156775213b
 SHA1: 
-SHA256: e4b67289de823a647bbaf5132cdafb6996d877f05c27075b3fc5422a13472c38
+SHA256: 8d26b17e3ba07e4e81f536267798fa54fcffcafd4f72b053412c283e89ca414c
 
 Package: com.huayuarc.insulation
 Name: insulation
@@ -21170,10 +21170,10 @@ Provides: com.be-huge.insulation
 Replaces: com.be-huge.insulation
 Conflicts: com.be-huge.insulation
 Filename: debs/com.huayuarc.insulation-1.0.8-rootless.deb
-Size: 209648
-MD5sum: fbfca429d520598d2b13f4e7b69e174e
+Size: 209188
+MD5sum: c985c3d56b9d688e2dd35cd391cdb753
 SHA1: 
-SHA256: 42f9d5b8fa79ccda975c643e4a5449ce7bcb80acf2cb9533b49d16a07d464337
+SHA256: 700521f3289cbca079f52d1ed0b5b71e030ede691962caabbbb68aeccb9bf5fc
 
 Package: com.huayuarc.lt-zj-noads
 Name: 联通智家 NoAds
@@ -35288,6 +35288,41 @@ MD5sum: 0f4435d71412e41e1aa1e3bab1ece261
 SHA1: 
 SHA256: ee41f92e54bce370298d0295a075e66a52ab589fa7d2ba0409be43c00a81a2fd
 
+Package: com.ning.simcontrol
+Name: SIM卡切换
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: Ning
+Author: Ning
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 16.0), firmware (<< 18.0), com.opa334.ccsupport
+Description: Native SIM switches for the system Control Center (rootless).
+icon: https://huayuarc.github.io/icon/simcontrol.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.ning.simcontrol-1.0.4-roothide.deb
+Size: 125228
+MD5sum: e279d301a90c17cc8d2cfd7e02cadf0f
+SHA1: 
+SHA256: a3adaef267afad65d29523fff4a658723606195a159180b02fb76253ecc1bc04
+
+Package: com.ning.simcontrol
+Name: SIM卡切换
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: Ning
+Author: Ning
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 16.0), firmware (<< 18.0), com.opa334.ccsupport
+Description: Native SIM switches for the system Control Center (rootless).
+icon: https://huayuarc.github.io/icon/simcontrol.png
+Filename: debs/com.ning.simcontrol-1.0.4-rootless.deb
+Size: 124560
+MD5sum: c0122531c24e064878adddfba601b0d7
+SHA1: 
+SHA256: e6f53ad20a3dd6d5f68e223ea1e313dce8199b6172718108532721827cee097f
+
 Package: com.noads.tweka
 Name: NoAdsX
 Description: 去除广告。交流反馈QQ群：1106363887
@@ -39470,12 +39505,12 @@ Architecture: iphoneos-arm64e
 Version: 1.3.0
 Installed-Size: 484
 Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/120hzpro.png
+icon: https://huayuarc.github.io/icon/120hzstable.png
 Filename: debs/com.rain.120hzstable-1.3.0-roothide.deb
-Size: 62276
-MD5sum: 9da25247d7cf97d75d09da411d6bf338
+Size: 62600
+MD5sum: 8a02a80845628fc08bca570797c5f615
 SHA1: 
-SHA256: 28e97e1864a10d6abdc37825b31b7f7263c03f7b18443c5d1a14e89de83854ab
+SHA256: 921303e35af27737ada45ea8ba1a7ef507c1a8a4b88db84e90739b19a5e1d45c
 
 Package: com.rain.120hzstable
 Name: RainFlow 120Hz
@@ -39488,12 +39523,12 @@ Conflicts: com.rain.120hzpro
 Architecture: iphoneos-arm64
 Version: 1.3.0
 Installed-Size: 484
-icon: https://huayuarc.github.io/icon/120hzpro.png
+icon: https://huayuarc.github.io/icon/120hzstable.png
 Filename: debs/com.rain.120hzstable-1.3.0-rootless.deb
-Size: 63656
-MD5sum: 94598c4247a03228bc28174e00cfb830
+Size: 63928
+MD5sum: b94139db49af2a1ab16c39d7a450dba1
 SHA1: 
-SHA256: 6265cc4aaca6f6427eaf605e6c992285e22351354796ce0d2549ed2ccca90c06
+SHA256: 2b18be8f772a7aea9184e621370b2901e07ce7584ac382269d3004068b7d1911
 
 Package: com.rain.actionbutton
 Name: Rain的操作按钮
