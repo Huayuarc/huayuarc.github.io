@@ -61185,6 +61185,22 @@ Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横�
 Maintainer: Junhong
 Author: Junhong
 Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/xiaoyingclean.jpg
+Filename: debs/im.mjh.xiaoyingclean-0.1.0-roothide.deb
+Size: 8056
+MD5sum: 63dc706968f47b603c97d869a55fec53
+SHA1: 
+SHA256: 982db991539eab5f10369341b5d656c277c80a3cebe8a4fc3571797a280df79e
+
+Package: im.mjh.xiaoyingclean
+Name: 小鹰看看去广告
+Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横幅和原生广告，拦截广告跳转
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
 Architecture: iphoneos-arm64
 Version: 0.1.0
 Installed-Size: 168
@@ -61194,22 +61210,6 @@ Size: 8096
 MD5sum: 243fed0c910a63b8efc6223fad72b8ae
 SHA1: 
 SHA256: 6938dbc6f163f5e620ed44a5f02964bdb26587212f93dc8dbdf74f5097bc06ca
-
-Package: im.mjh.xiaoyingclean.roothide
-Name: 小鹰看看去广告 (Roothide)
-Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横幅和原生广告，拦截广告跳转
-Maintainer: Junhong
-Author: Junhong
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 0.1.0
-Installed-Size: 168
-icon: https://huayuarc.github.io/icon/xiaoyingclean.jpg
-Filename: debs/im.mjh.xiaoyingclean.roothide-0.1.0-roothide.deb
-Size: 8064
-MD5sum: f3a1928a503bee287fcc536f936f4c2c
-SHA1: 
-SHA256: 9a065a5e1b100bda24545e82a30464a3014da33633df5a0186ba6b6d5e3dba73
 
 Package: io.github.imcynic.nodejs
 Name: Node.js 18
