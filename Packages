@@ -17800,6 +17800,41 @@ MD5sum: 92d1aed8c271004b0be2b77dc0020281
 SHA1: 
 SHA256: 9513a58e913f60190f372939509cf907b86c631cd34b9ab7ee2a1d51665ec5c2
 
+Architecture: iphoneos-arm64e
+Author: Local User
+Depends: mobilesubstrate, preferenceloader
+Description: RootHide notification-list, app-icon and banner dust effects; experimental device test.
+Installed-Size: 759
+Maintainer: Local User
+Name: 通知消散
+Package: com.example.noticelisttweak
+Section: Tweaks
+Version: 1.0.1~test16+h2l1
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/noticelisttweak.png
+Filename: debs/com.example.noticelisttweak-1.0.1~test16+h2l1-roothide.deb
+Size: 166380
+MD5sum: 8f531af584434a12fb9d08b3eb18d2cd
+SHA1: 
+SHA256: 48861d285cb74e2d924433902843c69e9c9cd574f02c5471259e3bdf4c47667f
+
+Architecture: iphoneos-arm64
+Author: Local User
+Depends: mobilesubstrate, preferenceloader
+Description: RootHide notification-list, app-icon and banner dust effects; experimental device test.
+Installed-Size: 759
+Maintainer: Local User
+Name: 通知消散
+Package: com.example.noticelisttweak
+Section: Tweaks
+Version: 1.0.1~test16+h2l1
+icon: https://huayuarc.github.io/icon/noticelisttweak.png
+Filename: debs/com.example.noticelisttweak-1.0.1~test16+h2l1-rootless.deb
+Size: 166256
+MD5sum: 663b05512d9af9183a3b920901cdd224
+SHA1: 
+SHA256: 10de38b12dcb34f2dc8ae85a205a9f13f822dcd3a0dba217e2975e79b7890e6d
+
 Package: com.example.safesim
 Name: SafeSIM
 Maintainer: 半生年华
@@ -35719,6 +35754,44 @@ Size: 24156
 MD5sum: 0f4435d71412e41e1aa1e3bab1ece261
 SHA1: 
 SHA256: ee41f92e54bce370298d0295a075e66a52ab589fa7d2ba0409be43c00a81a2fd
+
+Package: com.ning.qqencryption
+Name: qqEncryption
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Ning
+Author: Ning
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0)
+Conflicts: com.ning.qqphotobase64
+Replaces: com.ning.qqphotobase64
+Icon: https://ningios.github.io/debs/icons/qqencryption.png
+Description: QQ static-photo Base64 containers with a circular toggle and file decode preview. Base64 provides no secrecy.
+Filename: debs/com.ning.qqencryption-1.0.1-roothide.deb
+Size: 45328
+MD5sum: b51a25a1fa518cd2226b00b17643282f
+SHA1: 
+SHA256: 65a78e36b6ee812586cb3a92b79eae857572a15f3ded8cfc1c08a83a4495daa3
+
+Package: com.ning.qqencryption
+Name: qqEncryption
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Ning
+Author: Ning
+Section: Tweaks
+Priority: optional
+Depends: firmware (>= 15.0)
+Conflicts: com.ning.qqphotobase64
+Replaces: com.ning.qqphotobase64
+Icon: https://ningios.github.io/debs/icons/qqencryption.png
+Description: QQ static-photo Base64 containers with a circular toggle and file decode preview. Base64 provides no secrecy.
+Filename: debs/com.ning.qqencryption-1.0.1-rootless.deb
+Size: 44772
+MD5sum: 466549a5e545297c000988400d6ae90d
+SHA1: 
+SHA256: be93589e1c17f32ff6713f3511696da4c353e1f542e6b3c94cd972f15fa00c84
 
 Package: com.ning.simcontrol
 Name: SIM卡切换
@@ -58713,6 +58786,43 @@ Size: 2592680
 MD5sum: b99d84bc604b1b7e240ba1edd8b08544
 SHA1: 
 SHA256: 4799be40ecb7adfe39b08cdcf85780ba9c3e239e0776fedadbb43e713719d622
+
+Package: com.zooah.swipedeck
+Name: SwipeDeck - 快捷助手
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+   *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Maintainer: zooah212
+Author: zooah212
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.6.4-6
+Installed-Size: 8108
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/swipedeck.png
+Filename: debs/com.zooah.swipedeck-0.6.4-6-roothide.deb
+Size: 2580576
+MD5sum: 33226a1e0e287eeee63291652e294951
+SHA1: 
+SHA256: 913a303f73a756474352526145bb259dfc822e749d0b2d82599f9e032de5b3cb
+
+Package: com.zooah.swipedeck
+Name: SwipeDeck - 快捷助手
+Description: 从屏幕右下角向上滑动即可访问快速操作面板。Respring、微信支付、支付宝、锁屏、计算器等的可定制按钮。
+   *  Quick action panel accessible by swiping up from the bottom-right corner. Customizable buttons for Respring, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Maintainer: zooah212
+Author: zooah212
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.6.4-6
+Installed-Size: 8108
+icon: https://huayuarc.github.io/icon/swipedeck.png
+Filename: debs/com.zooah.swipedeck-0.6.4-6-rootless.deb
+Size: 2611524
+MD5sum: d94b8b6e14d4901f85aa33aa50faf40f
+SHA1: 
+SHA256: 33e3d21968cf74665541bea474a174e3c8597bb13aeb3917c682ce33e9e21987
 
 Package: com.zqbb.savephotos
 Name: Hello Snapper3
