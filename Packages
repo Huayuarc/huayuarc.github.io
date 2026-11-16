@@ -6410,6 +6410,43 @@ MD5sum: 6447058b15f8e1f6b10afcf3840b54ef
 SHA1: 
 SHA256: 42f54603f40650d871dd733aa8048a0c7bb9040489a2716fbbb86d2886207ae6
 
+Package: com.bvn.carbridge13
+Name: CarBridge 车机互联
+Description: Open any app in CarPlay!
+Maintainer: BVN Repo <bienvannhat97@gmail.com>
+Author: leftyfl1p <carbridge@havoc.app>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+icon: https://huayuarc.github.io/icon/CarBridge@3x.png
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Architecture: iphoneos-arm64e
+Version: 2.0.18k
+Installed-Size: 7176
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.bvn.carbridge13-2.0.18k-roothide.deb
+Size: 403796
+MD5sum: b236bfe3c74afa414c0b0a779453ef5b
+SHA1: 
+SHA256: efcd9776de337a7f74d79ad401dfb330efb477b205dd2db0ffbdb5b47aa23d98
+
+Package: com.bvn.carbridge13
+Name: CarBridge 车机互联
+Description: Open any app in CarPlay!
+Maintainer: BVN Repo <bienvannhat97@gmail.com>
+Author: leftyfl1p <carbridge@havoc.app>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+icon: https://huayuarc.github.io/icon/CarBridge@3x.png
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Architecture: iphoneos-arm64
+Version: 2.0.18k
+Installed-Size: 7176
+Filename: debs/com.bvn.carbridge13-2.0.18k-rootless.deb
+Size: 408428
+MD5sum: cca65587ef00467b34420b80b17d7e68
+SHA1: 
+SHA256: 99a6173ffcb4940c08db5a7f1342a357d3fb7bb0e22071fc3eddd62bfc4166dd
+
 Package: com.callassist.caiphoneduostatus
 Name: CAiPhoneDuoStatus
 Description: 本插件仅为体验版,不得用于商业收费,插件本身也不会收取任何费用,如遇收费,请立即拒绝,本插件发布后不会再进行更新,所以不用提要求和bug报告,如果不满意请自行卸载,信号,WIFI,数据,电量均为安装设备的真实交互
@@ -17834,6 +17871,22 @@ Size: 166256
 MD5sum: 663b05512d9af9183a3b920901cdd224
 SHA1: 
 SHA256: 10de38b12dcb34f2dc8ae85a205a9f13f822dcd3a0dba217e2975e79b7890e6d
+
+Package: com.example.noticelisttweak
+Name: 通知消散
+Version: 1.0.1~test18
+Architecture: iphoneos-arm64e
+Description: RootHide notification-list, app-icon and banner dust effects; experimental device test.
+Maintainer: YUE
+Author: YUE
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 853
+Filename: debs/com.example.noticelisttweak-1.0.1~test18-roothide.deb
+Size: 214516
+MD5sum: 2350c462edf6a4547d7660355ceffcf7
+SHA1: 
+SHA256: 49aacea1694541ef8b19b9322cd9384d1e42e05ef53a0a99665ea18832470149
 
 Package: com.example.safesim
 Name: SafeSIM
@@ -58075,6 +58128,80 @@ MD5sum: a9af814218b819a33ec642b2e7984e69
 SHA1: 
 SHA256: da6e01059427dae8a31e4c726cbaf3fbd0181266cfeeb5de5637042912701120
 
+Package: com.zege.liquidglaze
+Name: 液态琉璃 Liquid Glaze
+Description: 液态琉璃 · 让整个 iOS 界面变成液态玻璃（自编版）。
+ 【功能】
+ • 液态玻璃渲染引擎（对标 iOS 26 Liquid Glass 系统）
+ • 锁屏大时钟 / 日期 / 通知 / 横幅 / 灵动岛 / 上下文菜单 / 警报渐变引擎，参数可调
+ • 小组件去背景及相应设置项
+ • 全界面导航栏液态玻璃
+ • 底部弹窗 / App 弹窗液态玻璃
+ • 灵动岛液态玻璃（上岛全元素液态）
+ • 「灵动岛」独立设置页面
+ • 锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 锁屏「通知清除按钮」透明化、「通知中心」文字直接隐藏
+ • 音量 HUD 液态玻璃
+ • 锁屏时钟随通知 / 滚动 / 编辑拖拽连续变化大小
+ 【兼容性】
+ 已验证（roothide 格式包）：iOS 17.0（roothide / Relaxin 越狱）；本包为 rootless 格式，与 roothide 版同源码、同自编二进制
+ 支持系统：iOS 16.0–17.3.1
+ 本包是 rootless（Dopamine 等无根越狱）格式；roothide 环境请装 iphoneos-arm64e 那个包。
+ 本插件包名 com.zege.liquidglaze 与历史包为两个独立插件：装了旧包不会自动收到本线更新，需重新安装本包（安装时会提示替换旧包）。
+Maintainer: 泽哥有道理
+Author: 泽哥有道理
+Section: Tweaks
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Icon: https://repo.zege.top/depictions/icon-liquidglaze.png
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Depiction: https://repo.zege.top/depictions/liquidglaze
+Sileodepiction: https://repo.zege.top/depictions/liquidglaze.json
+Architecture: iphoneos-arm64
+Version: 2.0.0-155+rootless
+Installed-Size: 14620
+Filename: debs/com.zege.liquidglaze-2.0.0-155+rootless-rootless.deb
+Size: 5400776
+MD5sum: 05f15a11478fdaeb39b49470e281a863
+SHA1: 
+SHA256: 4840aac3a4df1084e2d3382de8591eeb648c93ea767a7d0b44613666128484d6
+
+Package: com.zege.liquidglaze
+Name: 液态琉璃 Liquid Glaze
+Version: 2.0.0-155
+Architecture: iphoneos-arm64e
+Description: 液态琉璃 · 让整个 iOS 界面变成液态玻璃（自编版）。
+ 【功能】
+ • 液态玻璃渲染引擎（对标 iOS 26 Liquid Glass 系统）
+ • 锁屏大时钟 / 日期 / 通知 / 横幅 / 灵动岛 / 上下文菜单 / 警报渐变引擎，参数可调
+ • 小组件去背景及相应设置项
+ • 全界面导航栏液态玻璃
+ • 底部弹窗 / App 弹窗液态玻璃
+ • 灵动岛液态玻璃（上岛全元素液态）
+ • 「灵动岛」独立设置页面
+ • 锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 锁屏「通知清除按钮」透明化、「通知中心」文字直接隐藏
+ • 音量 HUD 液态玻璃
+ • 锁屏时钟随通知 / 滚动 / 编辑拖拽连续变化大小
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1
+ 本插件包名 com.zege.liquidglaze 与历史包为两个独立插件：装了旧包不会自动收到本线更新，需重新安装本包（安装时会提示替换旧包）。
+Maintainer: 泽哥有道理
+Author: 泽哥有道理
+Section: Tweaks
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Icon: https://repo.zege.top/depictions/icon-liquidglaze.png
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Depiction: https://repo.zege.top/depictions/liquidglaze
+Sileodepiction: https://repo.zege.top/depictions/liquidglaze.json
+Filename: debs/com.zege.liquidglaze-2.0.0-155-roothide.deb
+Size: 5393676
+MD5sum: d730aded89d7124028306b68d279ae6a
+SHA1: 
+SHA256: 87a2565c12db580fc3d9b874b7c773f2340d511335d37470e753a05d80c0b8b2
+
 Package: com.zege.sileobackground
 Name: Sileo 背景图
 Version: 1.1.6
@@ -58303,6 +58430,74 @@ Size: 516172
 MD5sum: 17f9f29c55f47012b36673969e5ede6b
 SHA1: 
 SHA256: c9fcb43bd23cefdfa933f5a7c031d50877621c17eff350ceb470b5ccf1d28896
+
+Package: com.zengniu.splitview
+Version: 1.2.0
+Architecture: iphoneos-arm64e
+Description: 曾牛分屏：实时 App 小窗、多任务与手势控制。
+Name: 曾牛-分屏🐮
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 2268
+Filename: debs/com.zengniu.splitview-1.2.0-roothide.deb
+Size: 630220
+MD5sum: ee0eb2dba541575c6656dc03025c3d73
+SHA1: 
+SHA256: 2890cacbd183796bcd8acf14cc93bf5bd2649d9f7c73e36f237a42aa68933402
+
+Package: com.zengniu.splitview
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Description: 曾牛分屏：实时 App 小窗、多任务与手势控制。
+Name: 曾牛-分屏🐮
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 4396
+Filename: debs/com.zengniu.splitview-1.2.0-rootless.deb
+Size: 943680
+MD5sum: fd0ba95c2aaa2fa371594d19ca2c174b
+SHA1: 
+SHA256: 821b9431562fd55a42f24ed82c4cb17ddff1e76c3c6e5968dd5ecba3d2c4aa8f
+
+Package: com.zengniu.splitview
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Description: 曾牛分屏：实时 App 小窗、多任务与手势控制。
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 2250
+Filename: debs/com.zengniu.splitview-1.2.1-roothide.deb
+Size: 612156
+MD5sum: 52a0727ab10ae12a63091e93fb2f601e
+SHA1: 
+SHA256: 8393d31b787c81c2abe1c96994ea9749b31c6889163c236ff03cc3b50f5e2ebd
+
+Package: com.zengniu.splitview
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Description: 曾牛分屏：实时 App 小窗、多任务与手势控制。
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 4378
+Filename: debs/com.zengniu.splitview-1.2.1-rootless.deb
+Size: 924420
+MD5sum: d72c0582a42e998cea3ae22055c66ea3
+SHA1: 
+SHA256: a003e4d3d58123983896b5276c5cd1a61cf6c6ebeec5438df3c6fc7e05600015
 
 Package: com.zengniu.splitview.compat
 Name: 曾牛分屏 151617 兼容版
@@ -63442,6 +63637,44 @@ Size: 1066544
 MD5sum: 327349c01d7775aa1f1becbb85357c01
 SHA1: 
 SHA256: 75d4f64e165b04f6ad1e9b1750fa42940d6842564eb8075a04391d55671ba6bb
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Architecture: iphoneos-arm64e
+Version: 1.1.9
+Installed-Size: 6080
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.1.9-roothide.deb
+Size: 1080568
+MD5sum: 244afd9b3615cdf5fcec117a58fa93fe
+SHA1: 
+SHA256: dced1aba87246423a14bccc34131c5054c50d033ea506d49bbc119b42ce09bdc
+
+Package: iya.banana.iphoneduoicon
+Name: Lunora
+Description: 自由组合玻璃信息胶囊、Duo 状态环与mini Dock，打造完整状态栏体验。Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Architecture: iphoneos-arm64
+Version: 1.1.9
+Installed-Size: 6080
+icon: https://huayuarc.github.io/icon/iPhoneDuoIcon.png
+Filename: debs/iya.banana.iphoneduoicon-1.1.9-rootless.deb
+Size: 1086920
+MD5sum: 3bf4925541f0c6270744a4eb434d2153
+SHA1: 
+SHA256: 6ee48bd2c2454cf8fdd9b6cece01fbce988eb75b53d2ad6a903ca0a88d5b881c
 
 Package: iya.banana.jumpguard
 Name: JumpGuard
