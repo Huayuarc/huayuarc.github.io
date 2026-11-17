@@ -17874,19 +17874,37 @@ SHA256: 10de38b12dcb34f2dc8ae85a205a9f13f822dcd3a0dba217e2975e79b7890e6d
 
 Package: com.example.noticelisttweak
 Name: 通知消散
-Version: 1.0.1~test18
+Version: 1.0.1~test20
 Architecture: iphoneos-arm64e
 Description: RootHide notification-list, app-icon and banner dust effects; experimental device test.
 Maintainer: YUE
 Author: YUE
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Installed-Size: 853
-Filename: debs/com.example.noticelisttweak-1.0.1~test18-roothide.deb
-Size: 214516
-MD5sum: 2350c462edf6a4547d7660355ceffcf7
+Installed-Size: 929
+icon: https://huayuarc.github.io/icon/noticelisttweak.png
+Filename: debs/com.example.noticelisttweak-1.0.1~test20-roothide.deb
+Size: 236724
+MD5sum: a8636654a6c2a26ce71e3834fbd95fc7
 SHA1: 
-SHA256: 49aacea1694541ef8b19b9322cd9384d1e42e05ef53a0a99665ea18832470149
+SHA256: c823483fb5f9a3135bbcc88c1f6f66dac0d1e610b60cd5bb89fd122c0dc27fbf
+
+Package: com.example.noticelisttweak
+Name: 通知消散
+Version: 1.0.1~test20
+Architecture: iphoneos-arm64
+Description: Rootless notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Maintainer: YUE
+Author: YUE
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 929
+icon: https://huayuarc.github.io/icon/noticelisttweak.png
+Filename: debs/com.example.noticelisttweak-1.0.1~test20-rootless.deb
+Size: 236400
+MD5sum: e0b831b86a2206905f7a16369337ad90
+SHA1: 
+SHA256: f8c0fd210b1bd450da4117ef0ea2c080082e449a07c6c9f59dc277fdf3e6a53f
 
 Package: com.example.safesim
 Name: SafeSIM
