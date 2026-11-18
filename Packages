@@ -21410,6 +21410,42 @@ SHA256: e6a62bfdfb6089002b854c096ad468a62aa593242acd049a8725eee4e69e5451
 
 Package: com.huayuarc.insulation
 Name: insulation
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Replaces: com.huayuarc.insulation
+Architecture: iphoneos-arm64e
+Version: 1.0.22
+Installed-Size: 2624
+icon: https://huayuarc.github.io/icon/Insulation.png
+Filename: debs/com.huayuarc.insulation-1.0.22-roothide.deb
+Size: 240552
+MD5sum: f5b53dc85b2abf76f80c071e3459c867
+SHA1: 
+SHA256: df27cf8d50700bc3d2c3393c46557b91f850cc60f0fcdeacbd661c7d305d8caf
+
+Package: com.huayuarc.insulation
+Name: insulation
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，以及 Hello 120Hz 3.3.3-3 完整移植（帧率覆盖 / 全局注入 / 应用排除 / 调试 HUD / 系统录屏 120 帧）。
+Maintainer: doimty
+Author: be-huge & doimty
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Replaces: com.huayuarc.insulation
+Architecture: iphoneos-arm64
+Version: 1.0.22
+Installed-Size: 2672
+icon: https://huayuarc.github.io/icon/Insulation.png
+Filename: debs/com.huayuarc.insulation-1.0.22-rootless.deb
+Size: 243156
+MD5sum: 04c707b167b7dc39a2839b29d9b4e9cf
+SHA1: 
+SHA256: 004250126c9f0f2b618e4344d217190b2c947fba2212f42b3fc4f90185e067e1
+
+Package: com.huayuarc.insulation
+Name: insulation
 Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）。本版新增：设备朝下自动锁屏、隐藏电池维修提示、SmartBatteryAPI 智能停充，120Hz。
 Maintainer: doimty
 Author: be-huge & doimty
