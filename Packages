@@ -29391,6 +29391,72 @@ MD5sum: 00bd2f89ecd966a8324389fc666cfd58
 SHA1: 
 SHA256: 36f013c9320a2750bb518b3fc4e5f2fc9d894895332448f508a7598b5f7ad6e8
 
+Package: com.mlgm.clippa
+Name: Clippa
+Description: 截图与悬浮贴图工具。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.mlgm.clippa.shells (>= 1.0)
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Installed-Size: 5484
+Filename: debs/com.mlgm.clippa-1.1.3-roothide.deb
+Size: 772664
+MD5sum: 1bd6c2baede366f612bb604884fdc180
+SHA1: 
+SHA256: 7b688282f8e5cd8a87c05102eeeb4f18d5b3742c5e12d39402fd84b9053185ae
+
+Package: com.mlgm.clippa
+Name: Clippa
+Description: 截图与悬浮贴图工具。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.mlgm.clippa.shells (>= 1.0)
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Installed-Size: 5488
+Filename: debs/com.mlgm.clippa-1.1.3-rootless.deb
+Size: 774456
+MD5sum: 6ac9f68c63df915bfca7775538cbb408
+SHA1: 
+SHA256: d72b68f74758c1d84c3e94ecda264b1446626ce9dcab4f4d0c7b83f4026d51dd
+
+Package: com.mlgm.clippa.shells
+Name: Clippa 图片资源包
+Description: Clippa 带壳截图所使用的机壳图片
+Section: Addons
+Maintainer: mlgm
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 31208
+Icon: https://mlgm66.github.io/icon/clippa.png
+Filename: debs/com.mlgm.clippa.shells-1.0-roothide.deb
+Size: 30415700
+MD5sum: d7f2822e8de6c0864f43840fc3e8a392
+SHA1: 
+SHA256: ffbebaf82d921b2ec2f273bb224e2ab9f1e275346142d9f9744654882230d73e
+
+Package: com.mlgm.clippa.shells
+Name: Clippa 图片资源包
+Description: Clippa 带壳截图所使用的机壳图片
+Section: Addons
+Maintainer: mlgm
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 31208
+Icon: https://mlgm66.github.io/icon/clippa.png
+Filename: debs/com.mlgm.clippa.shells-1.0-rootless.deb
+Size: 30415544
+MD5sum: ef774072b624e9c1b2e3f1aba79f14ce
+SHA1: 
+SHA256: e4d733cbd079992f4ca597c106b827c7d5aac3efb713a6c8fb582d93f6b32a65
+
 Package: com.mlgm.clone
 Name: Clone
 Icon: https://mlgm66.github.io/icon/clone.png
@@ -29606,6 +29672,42 @@ Size: 911084
 MD5sum: 7d0320e7ffc85f0183ce6ffed5d5e82f
 SHA1: 
 SHA256: c9203c579572d590bc4c74c49d17d3c59c261459a5dfc2f3147432bce936e8e9
+
+Package: com.mlgm.clone
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit (>= 1.2-1), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Architecture: iphoneos-arm64e
+Version: 0.8.1
+Installed-Size: 5552
+Filename: debs/com.mlgm.clone-0.8.1-roothide.deb
+Size: 924756
+MD5sum: b4d56b5817e0fcd381b086f00594c89b
+SHA1: 
+SHA256: 58dc8fadc8abfc175dfd02dec81cd9104a2ff543021c6dcea556bddbb98b17be
+
+Package: com.mlgm.clone
+Name: Clone
+Icon: https://mlgm66.github.io/icon/clone.png
+Description: 克隆万千分身，掌控每一个身份。(鄙人仅测试了App Store，其他场景需自测！数据无价，操作需谨慎，丢失风险自负)
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit (>= 1.2), preferenceloader (>= 2.2.8), com.opa334.altlist (>= 1.0.11), com.opa334.libsandy (>= 1.1.6-4)
+Priority: optional
+Author: mlgm
+Maintainer: mlgm
+Architecture: iphoneos-arm64
+Version: 0.8.1
+Installed-Size: 5568
+Filename: debs/com.mlgm.clone-0.8.1-rootless.deb
+Size: 928504
+MD5sum: f1085c81a243aa403078095ce8cf9c73
+SHA1: 
+SHA256: ca5015027691230ef042dee36af3f27b4600818e85f3d367f951ac8a702c4592
 
 Package: com.mlgm.filzacrack
 Name: Filza Crack
