@@ -19664,6 +19664,60 @@ SHA1:
 SHA256: 517d8d4d6f28542d8d5ee75bf7412675b8a6057718805f80e5442fa4b83b55c9
 
 Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm
+Version: 0.7.2
+Installed-Size: 4608
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.7.2-rootful.deb
+Size: 1123928
+MD5sum: c5d6170c7e6d25ef04ba700e6c1c9ca4
+SHA1: 
+SHA256: ac2f933c6dd89a3fc369bccfd8cb6fdcfb207901b24b4efc4162fe0b7cf3e681
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 0.7.2
+Installed-Size: 4608
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.7.2-roothide.deb
+Size: 1121656
+MD5sum: d70d7a0ac1b938e64779b0a4447a100f
+SHA1: 
+SHA256: da2ce85df8fcd536a7019cc80bdfdc19e389ef4c585c513de4387fb811d6de27
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 0.7.2
+Installed-Size: 4608
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.7.2-rootless.deb
+Size: 1121480
+MD5sum: 3ad17f40462702f49acaa03c5326b62d
+SHA1: 
+SHA256: fd642fbc3ec06a55b354d61c14b09e314916bafcc05609ce99c95c6395c877d5
+
+Package: com.hierarch.dykiller
 Name: DYKiller 抖音 UI 增强
 Description: 抖音 UI 增强插件（模块化 hook 框架）
 Section: Tweaks
@@ -58543,6 +58597,80 @@ MD5sum: d730aded89d7124028306b68d279ae6a
 SHA1: 
 SHA256: 87a2565c12db580fc3d9b874b7c773f2340d511335d37470e753a05d80c0b8b2
 
+Package: com.zege.liquidglaze
+Name: 液态琉璃 Liquid Glaze
+Description: 液态琉璃 · 让整个 iOS 界面变成液态玻璃（自编版）。
+ 【功能】
+ • 液态玻璃渲染引擎（对标 iOS 26 Liquid Glass 系统）
+ • 锁屏大时钟 / 日期 / 通知 / 横幅 / 灵动岛 / 上下文菜单 / 警报渐变引擎，参数可调
+ • 小组件去背景及相应设置项
+ • 全界面导航栏液态玻璃
+ • 底部弹窗 / App 弹窗液态玻璃
+ • 灵动岛液态玻璃（上岛全元素液态）
+ • 「灵动岛」独立设置页面
+ • 锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 锁屏「通知清除按钮」透明化、「通知中心」文字直接隐藏
+ • 音量 HUD 液态玻璃
+ • 锁屏时钟随通知 / 滚动 / 编辑拖拽连续变化大小
+ 【兼容性】
+ 已验证（roothide 格式包）：iOS 17.0（roothide / Relaxin 越狱）；本包为 rootless 格式，与 roothide 版同源码、同自编二进制
+ 支持系统：iOS 16.0–17.3.1
+ 本包是 rootless（Dopamine 等无根越狱）格式；roothide 环境请装 iphoneos-arm64e 那个包。
+ 本插件包名 com.zege.liquidglaze 与历史包为两个独立插件：装了旧包不会自动收到本线更新，需重新安装本包（安装时会提示替换旧包）。
+Maintainer: 泽哥有道理
+Author: 泽哥有道理
+Section: Tweaks
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Icon: https://repo.zege.top/depictions/icon-liquidglaze.png
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Depiction: https://repo.zege.top/depictions/liquidglaze
+Sileodepiction: https://repo.zege.top/depictions/liquidglaze.json
+Architecture: iphoneos-arm64
+Version: 2.0.0-190+rootless
+Installed-Size: 14636
+Filename: debs/com.zege.liquidglaze-2.0.0-190+rootless-rootless.deb
+Size: 5399176
+MD5sum: 208305781904b3eadf01284fa360d4ab
+SHA1: 
+SHA256: a45137c0eb5323b95bd137b3054d73e88c4fafcee843d0793eb96c9562d3acad
+
+Package: com.zege.liquidglaze
+Name: 液态琉璃 Liquid Glaze
+Version: 2.0.0-190
+Architecture: iphoneos-arm64e
+Description: 液态琉璃 · 让整个 iOS 界面变成液态玻璃（自编版）。
+ 【功能】
+ • 液态玻璃渲染引擎（对标 iOS 26 Liquid Glass 系统）
+ • 锁屏大时钟 / 日期 / 通知 / 横幅 / 灵动岛 / 上下文菜单 / 警报渐变引擎，参数可调
+ • 小组件去背景及相应设置项
+ • 全界面导航栏液态玻璃
+ • 底部弹窗 / App 弹窗液态玻璃
+ • 灵动岛液态玻璃（上岛全元素液态）
+ • 「灵动岛」独立设置页面
+ • 锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 锁屏「通知清除按钮」透明化、「通知中心」文字直接隐藏
+ • 音量 HUD 液态玻璃
+ • 锁屏时钟随通知 / 滚动 / 编辑拖拽连续变化大小
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1
+ 本插件包名 com.zege.liquidglaze 与历史包为两个独立插件：装了旧包不会自动收到本线更新，需重新安装本包（安装时会提示替换旧包）。
+Maintainer: 泽哥有道理
+Author: 泽哥有道理
+Section: Tweaks
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Icon: https://repo.zege.top/depictions/icon-liquidglaze.png
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless, com.zegeyoudaoli.liquidass27
+Depiction: https://repo.zege.top/depictions/liquidglaze
+Sileodepiction: https://repo.zege.top/depictions/liquidglaze.json
+Filename: debs/com.zege.liquidglaze-2.0.0-190-roothide.deb
+Size: 5401260
+MD5sum: 16c7fae3c4b5efc092a53a310b8821b5
+SHA1: 
+SHA256: e7312dd85de707854b284a770073b538e97df88f6010605bbb452bd19961d99a
+
 Package: com.zege.sileobackground
 Name: Sileo 背景图
 Version: 1.1.6
@@ -59393,6 +59521,45 @@ Size: 2611524
 MD5sum: d94b8b6e14d4901f85aa33aa50faf40f
 SHA1: 
 SHA256: 33e3d21968cf74665541bea474a174e3c8597bb13aeb3917c682ce33e9e21987
+
+Package: com.zooah.swipedeck
+Name: SwipeDeck - 快捷助手
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Maintainer: zooah212
+Author: zooah212
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.6.5-14
+Installed-Size: 8248
+Pre-Depends: rootless-compat(>= 0.9)
+SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
+icon: https://huayuarc.github.io/icon/swipedeck.png
+Filename: debs/com.zooah.swipedeck-0.6.5-14-roothide.deb
+Size: 2600908
+MD5sum: 1e0f96cc4de16b48392a54696a152fe7
+SHA1: 
+SHA256: 00415a08b533638a510801853c259ea83cfec01947c2c30e7407ec2eac06995c
+
+Package: com.zooah.swipedeck
+Name: SwipeDeck - 快捷助手
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Maintainer: zooah212
+Author: zooah212
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.6.5-14
+Installed-Size: 8248
+SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
+icon: https://huayuarc.github.io/icon/swipedeck.png
+Filename: debs/com.zooah.swipedeck-0.6.5-14-rootless.deb
+Size: 2636280
+MD5sum: 8d41c67cf0e59b88b9f4e6404823c3cc
+SHA1: 
+SHA256: eb24c92575e785c29d981adc894ca87fc4fc31e0759ec51b0904ae66559cbba0
 
 Package: com.zqbb.savephotos
 Name: Hello Snapper3
@@ -61281,6 +61448,42 @@ Size: 3344316
 MD5sum: d9b768c456034003af74aa10ea366642
 SHA1: 
 SHA256: 598211386f9d4a45e2eeb6376823cdceced46268038ce6a58212fc61f7a5a642
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://hongguo.goforit.si
+Architecture: iphoneos-arm64e
+Version: 2.2.6
+Installed-Size: 8180
+icon: https://huayuarc.github.io/icon/hongguo.png
+Filename: debs/hongguofn-2.2.6-roothide.deb
+Size: 3530640
+MD5sum: 4e691f108ccf2a6cdd474c0007fb1acf
+SHA1: 
+SHA256: 75cdf1fb8257093c0849ce7195ffb4f519e19c0d2ec404b00347f29566feab57
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate
+Homepage: https://hongguo.goforit.si
+Architecture: iphoneos-arm64
+Version: 2.2.6
+Installed-Size: 8164
+icon: https://huayuarc.github.io/icon/hongguo.png
+Filename: debs/hongguofn-2.2.6-rootless.deb
+Size: 3515948
+MD5sum: 41172f4cf643f5165fbc36488d5bea80
+SHA1: 
+SHA256: f13acc98cfdf60abf5d3373cf3a4bb8a0b562bdf9e41912f6d74e5e7f0892471
 
 Package: hypicfix
 Name: 醒图国际版修复工具
