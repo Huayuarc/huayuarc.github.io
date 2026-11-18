@@ -13716,23 +13716,39 @@ SHA256: d8417aa4b77032d1ac50330dd0372207efbc66ad584a41c77c5fcf6a98569820
 
 Package: com.cpdigitaldarkroom.itsevanesco
 Name: Evanesco!
-Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
-Depends: mobilesubstrate, oldabi
-Description: Clear Your Homescreen After Inactivity 无操时显示壁纸
+Version: 2024.05.26-20
+Architecture: iphoneos-arm64e
+Description: Clear your home screen after inactivity (native arm64e rebuild)
 Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
 Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
 Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
 Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
-Architecture: iphoneos-arm64e
-Version: 2024.05.26
-Installed-Size: 756
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/huayuarc.jpg
-Filename: debs/com.cpdigitaldarkroom.itsevanesco_2024.05.26_iphoneos-arm64e.deb
-Size: 98400
-MD5sum: e13d33080d02d19cfb55fefd593606fd
+icon: https://huayuarc.github.io/icon/evanesco.png
+Filename: debs/com.cpdigitaldarkroom.itsevanesco-2024.05.26-20-roothide.deb
+Size: 50372
+MD5sum: 1ae014ddb4f73c5f78d57a1102257ba6
 SHA1: 
-SHA256: 2cef869a2aad196ee6cfe289e19a18e2ef858a978e8fb656859b1f91cef0e36e
+SHA256: 16de3157d291149c899baf6366d57c56e7a09138c27195af62f17f690b72a30a
+
+Package: com.cpdigitaldarkroom.itsevanesco
+Name: Evanesco!
+Version: 2024.05.26-20
+Architecture: iphoneos-arm64
+Description: Clear your home screen after inactivity (native arm64e rebuild)
+Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
+Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
+icon: https://huayuarc.github.io/icon/evanesco.png
+Filename: debs/com.cpdigitaldarkroom.itsevanesco-2024.05.26-20-rootless.deb
+Size: 55388
+MD5sum: 743c5d2477af6fd769ffdab529c8908a
+SHA1: 
+SHA256: fa10f1bfc87c9580386ab5d4229be133ee43aba686b8c68ff0a6115103299342
 
 Package: com.cracklock.7513
 Name: 熄屏幻术
