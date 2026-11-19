@@ -59242,6 +59242,25 @@ Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.sp
 Depiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/index.html
 SileoDepiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/depiction.json
 Version: 1.4.8
+Architecture: iphoneos-arm64
+Depends: firmware (>= 15.1), mobilesubstrate, preferenceloader
+Filename: debs/com.zengniu.splitview.compat-1.4.8-rootless.deb
+Size: 1310964
+MD5sum: 4205fe9ee65fdf299b15c0d00c21f89a
+SHA1: 8d7831dbc0ca564b3cb9160cba2d96508a4f14ab
+SHA256: 2cfafb5a516839b69a92693de700c5125ee2b6e8f1d1e1305f5789a1019812ef
+
+Package: com.zengniu.splitview.compat
+Name: 曾牛分屏 151617 兼容版
+Conflicts: com.zengniu.splitview
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Depiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/index.html
+SileoDepiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/depiction.json
+Version: 1.4.8
 Architecture: iphoneos-arm64e
 Depends: firmware (>= 15.1), mobilesubstrate, preferenceloader
 Filename: debs/com.zengniu.splitview.compat-1.4.8-roothide.deb
