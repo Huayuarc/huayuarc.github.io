@@ -59231,6 +59231,25 @@ MD5sum: 302fa868d4ef2303763cf6e3ebdf824c
 SHA1: 
 SHA256: 210fd1c6488b31fdf141463a27b44ca509f34ca8d61047fad3cc521dc6b86200
 
+Package: com.zengniu.splitview.compat
+Name: 曾牛分屏 151617 兼容版
+Conflicts: com.zengniu.splitview
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Depiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/index.html
+SileoDepiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/depiction.json
+Version: 1.4.8
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.1), mobilesubstrate, preferenceloader
+Filename: debs/com.zengniu.splitview.compat-1.4.8-roothide.deb
+Size: 852884
+MD5sum: 5b65579eebcd1e3969987b644035277b
+SHA1: fc353e234d5e82fbfce469ce2c6026c1fde7920e
+SHA256: 0c17dfc9e85ae1d583f3ab6fb2a3693a679169c079fdee46d476a8e4d67e31c3
+
 Package: com.zooah.debrecords
 Name: DebRecords
 Description: 记录插件的安装、升级、卸载相关信息。可对插件进行备份。记录SpringBoard的重启相关信息、安全模式相关信息、手机重启的相关信息。
