@@ -68698,6 +68698,22 @@ SHA256: 49de63230848c68ecc20388c07d94e673f113babc76b171c60fa7227f1ecb08a
 
 Package: uuhelper
 Name: uu 远控增强
+Description: UU 远控快捷键、圆盘滚轮、快捷切屏与视角记忆，支持 App 内独立开关。
+Maintainer: junhong
+Author: junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Installed-Size: 360
+icon: https://huayuarc.github.io/icon/uuhelper.jpg
+Filename: debs/uuhelper-1.0.4-roothide.deb
+Size: 59536
+MD5sum: 50bb37af2ebea621cfbb7f373df5f6c6
+SHA1: 59526b21bfef64d0e4fbc43a8b8338a34edd4f1c
+SHA256: 4eebf1f2cf37e707efd75cec43a0c97dbfe9129859d92beb6237f8e53d1a0cd3
+
+Package: uuhelper
+Name: uu 远控增强
 Description: UU 远控显示器快捷切换、常用组合键、显示器视角记忆与圆环滚轮增强。
 Maintainer: junhong
 Author: junhong
