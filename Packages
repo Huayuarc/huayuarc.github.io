@@ -59193,6 +59193,40 @@ MD5sum: 0cc7a1c103615b5f07609d0478e9ea60
 SHA1: 
 SHA256: 47fec6127e6909b89899f02999c84b86d33bf3b0e3dec6e766c48498cd44afc0
 
+Package: com.zengniu.splitview
+Version: 1.6.1
+Architecture: iphoneos-arm64
+Description: 曾牛分屏：实时 App 小窗、多任务与手势控制。
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 5256
+Filename: debs/com.zengniu.splitview-1.6.1-rootless.deb
+Size: 1131860
+MD5sum: c7fa3fbb8ffd4df0c0acd6afd8140755
+SHA1: 7c47232545f75aeff1685d019698be3c64eca573
+SHA256: 1c269e8ffe12f39554f0e7fe87170a2a82ac319f8f21d10cfc0b94860ac6bc4b
+
+Package: com.zengniu.splitview
+Version: 1.6.1
+Architecture: iphoneos-arm64e
+Description: 曾牛分屏：实时 App 小窗、多任务与手势控制。
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 2711
+Filename: debs/com.zengniu.splitview-1.6.1-roothide.deb
+Size: 737276
+MD5sum: 68b9495f79da196109e80e58ecfe363f
+SHA1: ed015b650eebbb8ae1cfdf1cbd6b3ff972e57f01
+SHA256: 19936916a4b35dd73310bb44927836e75e0134f413827d145ac4ed08371beb71
+
 Package: com.zengniu.splitview.compat
 Name: 曾牛分屏 151617 兼容版
 Conflicts: com.zengniu.splitview
