@@ -66100,6 +66100,28 @@ MD5sum: a28de48c7008004cda32610808bf5695
 SHA1: 
 SHA256: 31285b510e0bb52bf666e49ea3057f6e0a5994c940870238ba426df135c80fb0
 
+Package: jp.soh.reprovisions
+Name: ReSign 苹果 ID 续签
+Description: 使用 苹果 ID 续签 IPA
+ * 仅支持 iOS 17 Relaxin 越狱
+ * 解决非巨魔设备签名 Relaxin IPA 问题
+ * Re-signing tool for iOS jailbreak(iOS17+)
+Depends: firmware (>= 15.0), zip, unzip
+Version: 1.1.94
+Section: Utilities
+Priority: optional
+Architecture: iphoneos-arm64e
+Maintainer: AmorCool <admin@reprovision.dev>
+Author: Coolapk@Analytics
+Icon: https://TrollStoreX.Github.io/sileodepiction/ReSign/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ReSign/js.json
+Conflicts: jp.soh.reprovision
+Filename: debs/jp.soh.reprovisions_1.1.94_iphoneos-arm64e.deb
+Size: 4165268
+MD5sum: 76f0002e51a5569f85a61682065d0129
+SHA1: 7198e02eab10cf91243855c6f1097df5017c91f9
+SHA256: cc93ff4eef98cdf192b07a4e816a5f4fc04cb6678f6b3444a89383e9f6832730
+
 Package: kr.xsf1re.vnodebypass
 Architecture: iphoneos-arm64
 Name: Vnodebypass
