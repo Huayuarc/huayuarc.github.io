@@ -62611,6 +62611,38 @@ MD5sum: 66856a4a4a7e5b98f7891f1e2fbcee66
 SHA1: 
 SHA256: 6bdb8b82e655f8ccf7ddf6cb8bf4c7c379f0e5ef98725039d9de3ece96e28e74
 
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 3.2.5
+Installed-Size: 2568
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Filename: debs/im.mjh.xianyuadblock-3.2.5-rootless.deb
+Size: 857972
+MD5sum: bdd4450cd4ab5e86e5866bc731ea6c7b
+SHA1: d45d934a511ef492b821b8831a136295a744bdf5
+SHA256: 24b6158a8fa5329f8491f0648ad6914405d86ed4a7e08087088bc40cb0645f06
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 3.2.5
+Installed-Size: 2568
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Filename: debs/im.mjh.xianyuadblock-3.2.5-roothide.deb
+Size: 857804
+MD5sum: 9f2d4dd49d6bfa20f79cebd11f06d9bc
+SHA1: 960cd63235d6aae31daf647fde94fac5c9b71fa5
+SHA256: a8c20c98796c3143791edbd206684e3c5cdd09897b18f204d02016320ce701de
+
 Architecture: iphoneos-arm64
 Package: im.mjh.xianyuhelper
 Name: 咸鱼助手
@@ -62662,6 +62694,38 @@ Size: 8056
 MD5sum: 63dc706968f47b603c97d869a55fec53
 SHA1: 
 SHA256: 982db991539eab5f10369341b5d656c277c80a3cebe8a4fc3571797a280df79e
+
+Package: im.mjh.xiaoyingclean
+Name: 小鹰看看去广告
+Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横幅和原生广告，拦截广告跳转
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Installed-Size: 80
+icon: https://huayuarc.github.io/icon/xiaoyingclean.jpg
+Filename: debs/im.mjh.xiaoyingclean-0.1.1-rootless.deb
+Size: 9272
+MD5sum: 42706ba9430326e5cbaec539133a063e
+SHA1: 9d41bed4fbfa96e79101c4e4ab40a32aae5ad83c
+SHA256: 0d38a12078e19500ecdafc58de74cef8182e7a8e9ba9c1f1fb78857306229ac6
+
+Package: im.mjh.xiaoyingclean
+Name: 小鹰看看去广告
+Description: 小鹰看看去广告：关闭开屏、插屏、激励视频、横幅和原生广告，拦截广告跳转
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Installed-Size: 80
+icon: https://huayuarc.github.io/icon/xiaoyingclean.jpg
+Filename: debs/im.mjh.xiaoyingclean-0.1.1-roothide.deb
+Size: 9328
+MD5sum: 12cf244c7408a70dbeb27825cfd796a4
+SHA1: 2827172e15ba816a2cda20a26f636433bdaaa5ef
+SHA256: 38f4b9c7a2b0ecdbec2e1f611ed2e3e66fb51a0f8ad3faff0906c271f0a360af
 
 Package: io.github.imcynic.nodejs
 Name: Node.js 18
@@ -64695,6 +64759,42 @@ Size: 78752
 MD5sum: 1df41186e7359843be80590fb49240be
 SHA1: 
 SHA256: e1db61d4e36b48dd8ab4739d647d564496d61dd980692a2499f4493c05338610
+
+Package: iya.banana.liquidglass27
+Name: LiquidGlass27
+Description: Component-based Liquid Glass for iOS 15-18.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 19.0), preferenceloader
+Conflicts: dylv.liquidass.zh-hans, com.ngkhoi.liquidass27
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Installed-Size: 1070
+icon: https://huayuarc.github.io/icon/liquidglass27.png
+Filename: debs/iya.banana.liquidglass27-1.0.6-rootless.deb
+Size: 167112
+MD5sum: 9716b0a38f6792906cfde792728afd0b
+SHA1: 0cbdb5534422b899d375344a2bdeeb4f294679b1
+SHA256: cb15436f7bc48ad1f83e5e40ed1597e1d0d5cf189bd46e1d62195eaa63167805
+
+Package: iya.banana.liquidglass27
+Name: LiquidGlass27
+Description: Component-based Liquid Glass for iOS 15-18.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 19.0), preferenceloader
+Conflicts: dylv.liquidass.zh-hans, com.ngkhoi.liquidass27
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Installed-Size: 1070
+icon: https://huayuarc.github.io/icon/liquidglass27.png
+Filename: debs/iya.banana.liquidglass27-1.0.6-roothide.deb
+Size: 167096
+MD5sum: d2490a12eec757ff222647fbf1a9fc98
+SHA1: 3d61d6d86f6b13ba8a26e40a663e6cd26c9d1180
+SHA256: a9f6328e6b37286d664e209aabf479810ce4f6ca59839ec20331908d4a902696
 
 Package: iya.banana.multitask
 Name: 一芽分屏 (Iya Split)
