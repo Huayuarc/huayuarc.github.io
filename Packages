@@ -6387,6 +6387,53 @@ MD5sum: 5f8806c61322f6b95c4d3593187d5f48
 SHA1: 
 SHA256: ee2ed960988cde0651d87a26469bbf6119d75eba0627c31282237dd6289bdf27
 
+Package: com.deepseek.dualguard
+Name: 隐私自定义助手
+Description: 隐私自定义助手 —— 广告拦截 / 跳转拦截 / 传感器屏蔽 / 权限伪装
+ 为每个 App 单独控制隐私权限，不改系统文件，可随时还原。
+ 功能包括：DNS 层广告拦截、广告自动跳过、摇一摇拦截、
+ 传感器（加速度计/陀螺仪/磁力计/姿态/指南针）屏蔽、
+ 跳转拦截（App Store / Safari / 其他 App / 网页）、
+ 权限伪装（相册/通讯录/日历/提醒/麦克风/相机/定位/蓝牙/健康/通知）。
+ 自带独立设置 App，支持按 App 单独配置。
+ 作者 QQ：2836226951   交流群：724179606
+ 本软件仅供学习交流使用。
+Maintainer: QQ 2836226951
+Author: QQ 2836226951
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 3.24.0
+Installed-Size: 596
+Filename: debs/com.deepseek.dualguard-3.24.0-rootless.deb
+Size: 141144
+MD5sum: ef708e4fda87251df80d1c8565fb4feb
+SHA1: c53672bcd3ad90660dd3c002cfa8a40dffc34224
+SHA256: d46255f30e22c3f82ade1f75ce5b424d55b326459bd083b992319f5cb75e39af
+
+Package: com.deepseek.dualguard
+Name: 隐私自定义助手
+Description: 隐私自定义助手 —— 广告拦截 / 跳转拦截 / 传感器屏蔽 / 权限伪装
+ 为每个 App 单独控制隐私权限，不改系统文件，可随时还原。
+ 功能包括：DNS 层广告拦截、广告自动跳过、摇一摇拦截、
+ 传感器（加速度计/陀螺仪/磁力计/姿态/指南针）屏蔽、
+ 跳转拦截（App Store / Safari / 其他 App / 网页）、
+ 权限伪装（相册/通讯录/日历/提醒/麦克风/相机/定位/蓝牙/健康/通知）。
+ 自带独立设置 App，支持按 App 单独配置。
+ 作者 QQ：2836226951   交流群：724179606
+ 本软件仅供学习交流使用。
+Maintainer: QQ 2836226951
+Author: QQ 2836226951
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 3.24.0
+Installed-Size: 596
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.deepseek.dualguard-3.24.0-roothide.deb
+Size: 141204
+MD5sum: 960ffafaa158a9f9be55402f787c63ae
+SHA1: f43443ff9f2a1521fdd8cfebc4e6d02b537188d9
+SHA256: 70acffd8f448be087f48ff3562eaeee74a9b7b00d5763a03db59bea4bdc2fb69
+
 Package: com.dgr.fipad
 Name: Fipad 仿IPAD可调节后台
 Description: 仿ipad可调节后台！
@@ -13783,6 +13830,44 @@ Size: 1128732
 MD5sum: e6c2f3f93fdf8f4617905b9e32eaae96
 SHA1: 81dfd55263dcd35867bfa3810e3190d62d7364e9
 SHA256: 55a9aa03ea9d76dff7daef52ac490d09b35c23a2b91ce532a3f445bd892b8305
+
+Package: com.muzi.mutool
+Name: MUtool
+Description: MUtool 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，锁屏充电大字常驻与电源菜单）；定时任务；自动禁用 SIM、卡槽管理与 IPCC 运营商配置；WiFi 永连；充电提示音与 MagSafe 动画；文件夹主题（配色、毛玻璃、大文件夹、网格大小与图标缩放）；温控（阻止降频、CPU 功率锁定、模拟降频）与锁定 120Hz 高刷；系统增强（锁屏增强、主屏幕增强、桌面增强，含 iPad 风格浮动 Dock：最近应用数量 1-3 与资源库图标可配）；录制增强（通话自动录音、录屏去 DRM 静音、锁屏继续录制与轨迹触点）；美化（状态栏前景色、隐藏时间、强制浅深色）；桌面悬浮信息药丸（多悬浮窗独立配置网速/CPU/内存/时间/农历/天气，Liquid Glass 风格）；电池健康与深度信息。全部功能受激活状态门控。
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64
+Version: 2.2.94
+Installed-Size: 6928
+Filename: debs/com.muzi.mutool-2.2.94-rootless.deb
+Size: 1144972
+MD5sum: 79957d4db933f354840e9851cb62b39a
+SHA1: 6df91439f2c4b515356114160617bfe82f91ca6b
+SHA256: bed49ff316c51330873d363118accfa9a3cc8077244deecfdcc73c6c2a052d65
+
+Package: com.muzi.mutool
+Name: MUtool
+Description: MUtool 多功能工具集：灵动岛电池胶囊（长按状态栏电池弹出完整电池信息，锁屏充电大字常驻与电源菜单）；定时任务；自动禁用 SIM、卡槽管理与 IPCC 运营商配置；WiFi 永连；充电提示音与 MagSafe 动画；文件夹主题（配色、毛玻璃、大文件夹、网格大小与图标缩放）；温控（阻止降频、CPU 功率锁定、模拟降频）与锁定 120Hz 高刷；系统增强（锁屏增强、主屏幕增强、桌面增强，含 iPad 风格浮动 Dock：最近应用数量 1-3 与资源库图标可配）；录制增强（通话自动录音、录屏去 DRM 静音、锁屏继续录制与轨迹触点）；美化（状态栏前景色、隐藏时间、强制浅深色）；桌面悬浮信息药丸（多悬浮窗独立配置网速/CPU/内存/时间/农历/天气，Liquid Glass 风格）；电池健康与深度信息。全部功能受激活状态门控。
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+Architecture: iphoneos-arm64e
+Version: 2.2.94
+Installed-Size: 6896
+Filename: debs/com.muzi.mutool-2.2.94-roothide.deb
+Size: 1136544
+MD5sum: 58277fab79d86039fb1771b4f20b2366
+SHA1: 94127e5951c81783f869f42d812b255c71dfebf6
+SHA256: 31b59182a3889dbe9a1017f074f77fbe3def0f48722caf1c9c826d8fc5129a5f
 
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
@@ -24837,6 +24922,26 @@ Size: 257296
 MD5sum: 6a92bd73d65e48e92da20184c9c0b1fa
 SHA1: 
 SHA256: a4421d9d706230a8c125a80debaae84b0219ae5df6505181a966f7f621db895f
+
+Package: com.unknown.sileotranslate
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Description: 长按 Sileo 包的介绍或更新日志，用系统翻译面板显示中文
+ 在 Sileo 的包详情页或更新日志里长按任意一段文字，即弹出系统翻译面板显示中文。
+ 已经是中文的段落会直接跳过，不弹任何东西。
+ 面板由系统翻译服务提供，支持拷贝译文、朗读、收藏。
+Name: Sileo 翻译
+Author: unknown
+Maintainer: unknown
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate
+Installed-Size: 91
+Icon: https://getsileo.app/img/icon.png
+Filename: debs/com.unknown.sileotranslate-1.0.0-roothide.deb
+Size: 8676
+MD5sum: c52777c5ec0e2ecde94860fbf6545f95
+SHA1: 17cd2e2ca9d9cf0ef4012890b999fbc672b8c4ed
+SHA256: 1b07dce58996d96f5efe6973391e4c359c0646fb57f649c55801be42df136fdf
 
 Package: com.vanson.modifier
 Name: VansonModifier
