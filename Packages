@@ -7642,6 +7642,42 @@ MD5sum: 6a644b92c5e94ce2b9ebe3a4a43f3482
 SHA1: 
 SHA256: 6eaead56fd9eb86a5f5fa9895f1c76b84610431dc98c99a1873529b50dc085c9
 
+Package: com.hang.kayoko
+Name: Kayoko
+Description: 感谢kayoko开源，魔改自用
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko
+Architecture: iphoneos-arm64
+Version: 4.7.3
+Installed-Size: 3296
+Filename: debs/com.hang.kayoko-4.7.3-rootless.deb
+Size: 650276
+MD5sum: 3c9ed764f73dafe0fe8ec1b4095628d2
+SHA1: 4685581bbf1b23868b9133f04864389bdc691ea4
+SHA256: f33a85fbdd87f1f606b9bda0ecc4307cbb76d47bf683deb20e711f76a5d850d0
+
+Package: com.hang.kayoko
+Name: Kayoko
+Description: 感谢kayoko开源，魔改自用
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.7.3
+Installed-Size: 1824
+Filename: debs/com.hang.kayoko-4.7.3-roothide.deb
+Size: 474064
+MD5sum: 4bf64771fe314338a8c6486ab632e04a
+SHA1: c5ce0ab33220fa818a88e5c29175535c1d56795f
+SHA256: 5d186f2270d903e6f9e348a318d9fb893cf8ad32f58b862982797c3c82e4ba38
+
 Package: com.hang.keyboardeffects
 Name: 键盘特效
 Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
@@ -17152,6 +17188,23 @@ Size: 495920
 MD5sum: 846cc0d1e8e3e81fbe49544ba241474f
 SHA1: 
 SHA256: 336636b241ff426bf86069402827893fb107b4581b61a5b9f39bafc2c0a5dc0c
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 6.6.8
+Installed-Size: 3576
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-6.6.8-roothide.deb
+Size: 513444
+MD5sum: 2d37b8c946f7963a6d43f1a8d3da9b83
+SHA1: e5408b39dfadbdf67af7974dead76f3a2cf1800c
+SHA256: cf67f67e3700b5f16ca5ae7e48da1e9b1484ee5b9a30ceb9b1a628d94f71a0a7
 
 Package: com.sbcpu.floating
 Name: 灵动监测
@@ -31018,6 +31071,52 @@ Size: 5683720
 MD5sum: 01ae0292b558abd9588f7c1e971e2428
 SHA1: 
 SHA256: b69ec76522a3ed935446c8cce00f4f03be1273bdca4152b2c4974b7d9574a08f
+
+Package: wiki.qaq.kk
+Name: kk
+Version: 0.1.126
+Architecture: iphoneos-arm64
+Description: A coding agent that uses the subscription you have
+ Ask for a change in plain language and kk reads your files, writes the code and
+ runs the commands to make it happen. Run `kk` in a terminal, then `/login` to
+ sign in with Anthropic, ChatGPT, Copilot, Cursor, Kimi, Grok, Z.AI or
+ OpenRouter — or use an API key for any OpenAI-compatible service. It is a
+ native binary, so it starts fast and pulls in no Node or Bun. Also installed
+ as `kwwk`.
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: EYHN <https://github.com/EYHN/kwwk>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools
+Installed-Size: 26204
+Filename: debs/wiki.qaq.kk-0.1.126-rootless.deb
+Size: 5700476
+MD5sum: 1ccc33771e4879436e38c3c4a04837ed
+SHA1: 7cb71f816de217ca1b6ac948f12a6cb7b6ca77cf
+SHA256: 691e10119b1236106f6e4954619e0433a33e5a120d0fde8cd364e0562df6e0c7
+
+Package: wiki.qaq.kk
+Name: kk
+Version: 0.1.126
+Architecture: iphoneos-arm64e
+Description: A coding agent that uses the subscription you have
+ Ask for a change in plain language and kk reads your files, writes the code and
+ runs the commands to make it happen. Run `kk` in a terminal, then `/login` to
+ sign in with Anthropic, ChatGPT, Copilot, Cursor, Kimi, Grok, Z.AI or
+ OpenRouter — or use an API key for any OpenAI-compatible service. It is a
+ native binary, so it starts fast and pulls in no Node or Bun. Also installed
+ as `kwwk`.
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Author: EYHN <https://github.com/EYHN/kwwk>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools
+Installed-Size: 26208
+Filename: debs/wiki.qaq.kk-0.1.126-roothide.deb
+Size: 5703320
+MD5sum: 9ed39d475a4ae166f4c498f4f586f1a2
+SHA1: 208a6f7542f16846905194e1ef34a9c316e46469
+SHA256: b53b4ad10244a1e55bb2f87b1032cb10c60a4ba041022d7ec51f5cd625362eb1
 
 Package: wiki.qaq.qqrecallprobe
 Name: QQNT防撤回
