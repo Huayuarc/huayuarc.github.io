@@ -13721,13 +13721,13 @@ Conflicts: com.muzi.mutoollite
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 Architecture: iphoneos-arm64
-Version: 2.2.89
-Installed-Size: 5984
-Filename: debs/com.muzi.mutool-2.2.89-rootless.deb
-Size: 949040
-MD5sum: ae15cd91bd66fd9c4e681040d2300cd9
-SHA1: 
-SHA256: 5499709aeb4e4a2e0076df22058ccf810ec6be560c8f1d24c3ab8c52e3a9f2cb
+Version: 2.2.93
+Installed-Size: 6844
+Filename: debs/com.muzi.mutool-2.2.93-rootless.deb
+Size: 1130484
+MD5sum: 74f592409ef871cc3498db277fc66f60
+SHA1: f9d963a938bdc453154c206937b8daa1e9da3a02
+SHA256: 3b2c998d2ab71fb2f89a8e0beb4ab796c6c86daf97fffe6322ea1cdefebf2463
 
 Package: com.muzi.mutool
 Name: MUtool
@@ -13740,13 +13740,13 @@ Conflicts: com.muzi.mutoollite
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 Architecture: iphoneos-arm64e
-Version: 2.2.89
-Installed-Size: 5968
-Filename: debs/com.muzi.mutool-2.2.89-roothide.deb
-Size: 940324
-MD5sum: 7d86b8a8dd4e9d084197d1d6e572da4a
-SHA1: 
-SHA256: 64b2f627232d38d66ccef9ce507a8e4dbd0f5b6b2710e99ee999bf5bd4a06a91
+Version: 2.2.93
+Installed-Size: 6844
+Filename: debs/com.muzi.mutool-2.2.93-roothide.deb
+Size: 1128732
+MD5sum: e6c2f3f93fdf8f4617905b9e32eaae96
+SHA1: 81dfd55263dcd35867bfa3810e3190d62d7364e9
+SHA256: 55a9aa03ea9d76dff7daef52ac490d09b35c23a2b91ce532a3f445bd892b8305
 
 Package: com.nahtedetihw.volvibes
 Name: VolVibes
@@ -25596,15 +25596,15 @@ Author: zooah212
 Section: Tweaks
 Depends: firmware (>= 15.0), preferenceloader
 Architecture: iphoneos-arm64
-Version: 0.6.7-5
-Installed-Size: 8368
+Version: 0.6.7-6
+Installed-Size: 8384
 SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
 icon: https://huayuarc.github.io/icon/swipedeck.png
-Filename: debs/com.zooah.swipedeck-0.6.7-5-rootless.deb
-Size: 2664892
-MD5sum: 973a91b941cdd09e6426016713d8b01e
-SHA1: df48968482bf31517a978f4bb409209002a87c70
-SHA256: 00a291d42f0c0cec0edf49f42ced2df368a0e5a22fc904181ade63b3d2f40aa7
+Filename: debs/com.zooah.swipedeck-0.6.7-6-rootless.deb
+Size: 2667244
+MD5sum: defc92abdade420e740e0cc481ecbaa1
+SHA1: 4667762ab08795219d6234ac6930a10372db62f1
+SHA256: f5f6a333a7a652aa87a20722fa6816aa1e97ec83793a7630187ce194707a0822
 
 Package: com.zooah.swipedeck
 Name: SwipeDeck - 快捷助手
@@ -25615,16 +25615,16 @@ Author: zooah212
 Section: Tweaks
 Depends: firmware (>= 15.0), preferenceloader
 Architecture: iphoneos-arm64e
-Version: 0.6.7-5
-Installed-Size: 8368
+Version: 0.6.7-6
+Installed-Size: 8384
 Pre-Depends: rootless-compat(>= 0.9)
 SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
 icon: https://huayuarc.github.io/icon/swipedeck.png
-Filename: debs/com.zooah.swipedeck-0.6.7-5-roothide.deb
-Size: 2635712
-MD5sum: 015f32963951933f0c85952fb86408d5
-SHA1: 5c77cf9ab3f573924db87ab1508a1650223a159f
-SHA256: a4766c2ec7d28bdd6d7ae5f2ca5867c7849ff50e0678a61e8ec03fe184bc71eb
+Filename: debs/com.zooah.swipedeck-0.6.7-6-roothide.deb
+Size: 2634208
+MD5sum: 69fb52dcf2f93cce50dcabf2c9e2a594
+SHA1: 5e8e3359794696570409ca46812048b0ac8a2980
+SHA256: dd55d2f76b2e0978dcb802285b68f7e6b1e01b12d511bb1006c60ab683452d15
 
 Package: com.zqbb.savephotos
 Name: Hello Snapper3
@@ -27065,14 +27065,14 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 19.0), preferenceloader
 Conflicts: dylv.liquidass.zh-hans, com.ngkhoi.liquidass27
 Architecture: iphoneos-arm64
-Version: 1.0.6
+Version: 1.0.7
 Installed-Size: 1070
 icon: https://huayuarc.github.io/icon/liquidglass27.png
-Filename: debs/iya.banana.liquidglass27-1.0.6-rootless.deb
-Size: 167112
-MD5sum: 9716b0a38f6792906cfde792728afd0b
-SHA1: 0cbdb5534422b899d375344a2bdeeb4f294679b1
-SHA256: cb15436f7bc48ad1f83e5e40ed1597e1d0d5cf189bd46e1d62195eaa63167805
+Filename: debs/iya.banana.liquidglass27-1.0.7-rootless.deb
+Size: 174188
+MD5sum: 38399db805c6cae83f45398cb7ae1aef
+SHA1: a5c3a13699ee1bdbec242275ca745d1484314d88
+SHA256: e1fe39c823bedc736614427baff3651300f456ed350214150bac9713db8380a5
 
 Package: iya.banana.liquidglass27
 Name: LiquidGlass27
@@ -27083,14 +27083,14 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 19.0), preferenceloader
 Conflicts: dylv.liquidass.zh-hans, com.ngkhoi.liquidass27
 Architecture: iphoneos-arm64e
-Version: 1.0.6
+Version: 1.0.7
 Installed-Size: 1070
 icon: https://huayuarc.github.io/icon/liquidglass27.png
-Filename: debs/iya.banana.liquidglass27-1.0.6-roothide.deb
-Size: 167096
-MD5sum: d2490a12eec757ff222647fbf1a9fc98
-SHA1: 3d61d6d86f6b13ba8a26e40a663e6cd26c9d1180
-SHA256: a9f6328e6b37286d664e209aabf479810ce4f6ca59839ec20331908d4a902696
+Filename: debs/iya.banana.liquidglass27-1.0.7-roothide.deb
+Size: 173392
+MD5sum: 2460b1a9f17aaad48f76213547a74843
+SHA1: bb4955a79016d742b5e2338cfd440825304f348e
+SHA256: 6ead24aa21111a30a35582a74bfc45632d3f6af7d4694a285a54044fbdea1d75
 
 Package: iya.banana.multitask
 Name: 一芽分屏 (Iya Split)
