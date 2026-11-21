@@ -31453,6 +31453,45 @@ MD5sum: 0f82d4e609256cbb24755f0e63d8255f
 SHA1: 
 SHA256: d8f12a87fa67b0ae272de3bd9b28d8727b8a4c821a0243ed9b2acf2e453116fb
 
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.1.5
+Installed-Size: 10464
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x-2.1.5-rootless.deb
+Size: 4154304
+MD5sum: e3631e64cdbbcab6791a5d76ca3dbcac
+SHA1: 17fd5e34999a4d670d587d0c37e14f6ff941a2c8
+SHA256: c53a6f700040778d6f53a489ef26e837b3c7530b412ce10e18fda638667a8529
+
+Package: xhs.x
+Conflicts: com.xx.xhshook
+Replaces: com.xx.xhshook
+Name: 小红薯
+Description: 自用
+Maintainer: 𝙓
+Author: 𝙓
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 2.1.5
+Installed-Size: 10464
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/xhs.jpg
+Filename: debs/xhs.x-2.1.5-roothide.deb
+Size: 4103636
+MD5sum: 65d8e61f91920b54267daf7f7dd4c750
+SHA1: b432fd072fb4fdb84aa0644e45540e7267094755
+SHA256: af68f6fa51e417a6e733d96a1aa875d33af3167cc011674ac20f84d54cba283e
+
 Package: xyz.cypwn.anouk
 Maintainer: CyPwn
 Section: Tweaks
