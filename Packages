@@ -26995,6 +26995,41 @@ MD5sum: 7b332ea351fc659b2745b1e78daa8c08
 SHA1: 
 SHA256: 7f13445f4e8f840bca6cb86899f3e5e4e7b6d8bb66118bb4979b7e6ea75207ed
 
+Package: com.yourname.replace5gplus
+Name: Replace5GPlus
+Description: 把状态栏5G+替换成5Gᴀ
+Maintainer: yourself
+Author: yourself
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 168
+icon: https://huayuarc.github.io/icon/replace5gplus.jpg
+Filename: debs/com.yourname.replace5gplus-1.0-rootless.deb
+Size: 3412
+MD5sum: 286ba74b765f6613d62422cfcc0dfdf1
+SHA1: 28824d0c2df63d7c45acaa243d7ef994b65678cb
+SHA256: 852c153684b3697f9051501186da3b996be24086f1bd2d6271d9dba912bde02d
+
+Package: com.yourname.replace5gplus
+Name: Replace5GPlus
+Description: 把状态栏5G+替换成5Gᴀ
+Maintainer: yourself
+Author: yourself
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/replace5gplus.jpg
+Filename: debs/com.yourname.replace5gplus-1.0-roothide.deb
+Size: 3276
+MD5sum: f46ff418d20a216ff8ddee9c843c6b46
+SHA1: 8363c12b59ebef2de438b9a4ae94da4b6cd96857
+SHA256: 1530a8fcb35b5d4c1b555a3186f5ff1cee0a245c759a36ad7ff8a0256b350a8d
+
 Package: com.yuku.safaritools
 Name: SafariTools
 Description: 去掉 safari浏览器该死的自动补全跳转，并优化UI 固定的Safari浏览器外观，带有12pt编辑提升和ABI-gated完成保护。没有面板或捕获。Fixed-on Safari appearance with 12pt editing lift and ABI-gated completion protection. No panel or capture.
