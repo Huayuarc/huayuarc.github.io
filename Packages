@@ -27353,6 +27353,40 @@ MD5sum: 81731fb929c2ba6f7469c6709bb91147
 SHA1: dc215f1e672e097d2bc7bebd4cbfa1d089eb08a6
 SHA256: 81716d62419ceda5fa20ab81a9b37b14a5a86e956277d54c8d98288519deb3b7
 
+Package: com.zengniu.splitview
+Version: 2.5.0
+Architecture: iphoneos-arm64
+Description: 曾牛分屏：实时 App 小窗、多任务与手势控制。
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 5857
+Filename: debs/com.zengniu.splitview-2.5.0-rootless.deb
+Size: 1266540
+MD5sum: 8613f810874d0a6cb8a187128575f79f
+SHA1: 6b7547dd4e0d98cf375b22ec39bfddd574659043
+SHA256: 0ee4924435baac7d8049a79b440909b771b754d6b75c238a4f6e498beac1e8d5
+
+Package: com.zengniu.splitview
+Version: 2.5.0
+Architecture: iphoneos-arm64e
+Description: 曾牛分屏：实时 App 小窗、多任务与手势控制。
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 3056
+Filename: debs/com.zengniu.splitview-2.5.0-roothide.deb
+Size: 823660
+MD5sum: c014c9c8f397ce998782911efd1285f6
+SHA1: 73623a24c0446e4536eccea9ab570d698de84439
+SHA256: fed0c1c2c037f22a890d214337d729f31d75cf09322e79b3dd21e9140767aff5
+
 Package: com.zengniu.splitview.compat
 Name: 曾牛分屏 iOS 15 专用版
 Conflicts: com.zengniu.splitview
@@ -27390,6 +27424,44 @@ Size: 1375160
 MD5sum: a32bf03c244c4cad8adda3979092f838
 SHA1: 36533270572dcc4d9e1bd7bfdcdac0d069f6617e
 SHA256: 45cccc1d18119a62f2d575babbac3d97bbcff7fb88cfe3174910b005713f7453
+
+Package: com.zengniu.splitview.compat
+Name: 曾牛分屏 iOS 15 专用版
+Conflicts: com.zengniu.splitview
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Depiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/index.html
+SileoDepiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/depiction.json
+Version: 2.5.0
+Architecture: iphoneos-arm64
+Depends: firmware (>= 15.1), mobilesubstrate, preferenceloader
+Filename: debs/com.zengniu.splitview.compat-2.5.0-rootless.deb
+Size: 1483864
+MD5sum: bee69211b6a88c1537bb4aa9732565de
+SHA1: a3573cb5e74738ec24821fd0c1a0400ea2804757
+SHA256: d8243e15a49cc20ff3cc93a87676f66e9c1193b8b1f4135d3707cf61da90f2bb
+
+Package: com.zengniu.splitview.compat
+Name: 曾牛分屏 iOS 15 专用版
+Conflicts: com.zengniu.splitview
+Author: ZengNiu
+Maintainer: ZengNiu
+Section: Tweaks
+Description: Experimental live app windows with Home Screen icon gestures and basic docking.
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Depiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/index.html
+SileoDepiction: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/depiction.json
+Version: 2.5.0
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 15.1), mobilesubstrate, preferenceloader
+Filename: debs/com.zengniu.splitview.compat-2.5.0-roothide.deb
+Size: 1486752
+MD5sum: e77eb037306a2987277f02eb8ebf5503
+SHA1: 7ce93b09feb0c3330cdf4c2650082d6cd1c6f85d
+SHA256: ef935faac68409ae776e818a9be309fcffce59d106269fba5ac02b285317ec9e
 
 Package: com.zooah.debrecords
 Name: DebRecords
