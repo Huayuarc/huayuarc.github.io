@@ -7456,6 +7456,27 @@ SHA256: ef6152e622082e81bdb2b0cb908b18618535ee30d190ddaf46c3a3dfd3c63889
 Package: com.fluoxetine.luros
 Name: Luros
 Version: 1.0.1
+Architecture: iphoneos-arm64
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
+ Luros is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Icon: https://1103945342.github.io/Luros/icon.png
+Depiction: https://1103945342.github.io/Luros/
+SileoDepiction: https://1103945342.github.io/Luros/depiction.json
+Maintainer: Fluoxetine <1103945342@users.noreply.github.com>
+Author: Fluoxetine <1103945342@users.noreply.github.com>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 16.0), launchctl
+Installed-Size: 165780
+Filename: debs/com.fluoxetine.luros-1.0.1-rootless.deb
+Size: 30590872
+MD5sum: 047c88489ad7140bc1babdf3ea0d8b6b
+SHA1: 7063ce136772ba5807166053931943bef9039129
+SHA256: 994fa8109bf2b8c14244ed405596f21231937c33258b89611b04ef4c26990423
+
+Package: com.fluoxetine.luros
+Name: Luros
+Version: 1.0.1
 Architecture: iphoneos-arm64e
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
  Luros is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
