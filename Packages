@@ -17604,7 +17604,7 @@ SHA1: d57cb294783159ba1f91ef5a4ec9a4c755f500c4
 SHA256: 5ae3a5277f69bdbbbb7b281d33a95bafded5cb5d31fb4d633365528d6bdc2f80
 
 Package: com.sharehotspotvpn.tweak
-Name: VPN热点共享-RootHide
+Name: VPN热点共享
 Description: 一键通过个人热点共享本机 Shadowrocket/VPN，连入设备零配置，支持控制中心快捷开关、DNS/UDP 转发与防 IPv6 泄露，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
 Maintainer: zhuifeng
 Author: zhuifeng
@@ -17617,10 +17617,10 @@ Architecture: iphoneos-arm64e
 Version: 1.1.7
 Installed-Size: 400
 Filename: debs/com.sharehotspotvpn.tweak-1.1.7-roothide.deb
-Size: 68988
-MD5sum: 1832adb12c95c5145bf95d38c2224ceb
-SHA1: 7f72a82fddc180e4946eb786125184758d63c498
-SHA256: d2f3ae760c28b81d7ba0fb57c30ea9985d75c135be66e941377909c62e27d175
+Size: 68960
+MD5sum: 7d5ab8e3eba9bea37a9f5eea17a966b6
+SHA1: b8e41a634109d7c9807de1245e74c82130de9668
+SHA256: 90bcecafd8d1c05102e12e9ec18bafbcba772fd9efe23b135ce70116a9d8f517
 
 Package: com.sileowallpaper.tweak
 Name: sileo 壁纸
