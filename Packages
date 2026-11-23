@@ -1859,6 +1859,74 @@ MD5sum: 50bc7dbee2b5e5403acb5c220f57d650
 SHA1: 93a8678fd7d5f7b05f29d7dc8072f056874ca321
 SHA256: 842e8e88b11aa643fe2a3efcade2a51cca013eec37c206a09d48f91d9cfc4449
 
+Package: com.404.facelock
+Version: 1.1.12
+Architecture: iphoneos-arm64
+Description: 为选定的 App 加上面容 ID 锁。
+Name: 应用面容锁
+icon: https://huayuarc.github.io/icon/facelock.png
+Author: 404
+Maintainer: 404
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 480
+Filename: debs/com.404.facelock-1.1.12-rootless.deb
+Size: 53840
+MD5sum: 791f20a7dd4c214b134cae2cb4a6a727
+SHA1: c31f0be2957c90e193e5efd8033e72d18adbb01e
+SHA256: 19a7632c3beac2558afd9f399ac3db7e80351ae5b218e558a94157f8ebf65eaf
+
+Package: com.404.facelock
+Version: 1.1.12
+Architecture: iphoneos-arm64e
+Description: 为选定的 App 加上面容 ID 锁。
+Name: 应用面容锁
+icon: https://huayuarc.github.io/icon/facelock.png
+Author: 404
+Maintainer: 404
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 238
+Filename: debs/com.404.facelock-1.1.12-roothide.deb
+Size: 43200
+MD5sum: 4b54b40da5dedf1dfaf425361172488b
+SHA1: a7937f4f26b00adc86e430097354aafb093ca508
+SHA256: eaeec6b50ea45d90abf63080ccb0c816e1350e16767f242a0ada82426f34e8f9
+
+Package: com.404.facelock
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Description: 为选定的 App 加上面容 ID 锁。
+Name: 应用面容锁
+icon: https://huayuarc.github.io/icon/facelock.png
+Author: 404
+Maintainer: 404
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 497
+Filename: debs/com.404.facelock-1.2.3-rootless.deb
+Size: 58128
+MD5sum: bac9fe21ceb6cd5bae86fc069979653f
+SHA1: 429ec89838324919ee61bc9e37bddee8e6e2fb18
+SHA256: fa503a067aed525b3f482c930432a0e761830eb01b449919ae580a8d14d8a420
+
+Package: com.404.facelock
+Version: 1.2.3
+Architecture: iphoneos-arm64e
+Description: 为选定的 App 加上面容 ID 锁。
+Name: 应用面容锁
+icon: https://huayuarc.github.io/icon/facelock.png
+Author: 404
+Maintainer: 404
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Installed-Size: 239
+Filename: debs/com.404.facelock-1.2.3-roothide.deb
+Size: 46512
+MD5sum: 2e824d49bfa359a0c09954f92f87bd16
+SHA1: 7ed03565017f30c133eba67ed00c6b1cbdf19c45
+SHA256: 6cac0901f9c847dd9127866c06e9c9f59397b98bcf818b5f54c95bf3d4576520
+
 Package: com.a0.resumerecafterflip
 Name: Camera Resume Rec
 Description: 系统相机录像中双击翻转会打断录像（-11818）。本插件在被打断后自动续录，并在按停止时把各分段无损拼成一个完整视频写入相册，原分段自动清理。全程无需手动操作，翻转前后不丢画面。
