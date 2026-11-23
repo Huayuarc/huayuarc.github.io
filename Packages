@@ -11143,6 +11143,43 @@ SHA1:
 SHA256: c789dcd6ed54aca3b1e61c4110118dbfb3d05b23b2e5ea473e5b7548f7647d50
 
 Package: com.johndie.triggr
+Name: Triggr汉化修改
+Description: 基于 Triggr 1.5.0 汉化修改：给按键、手势和系统事件指派动作。
+Maintainer: 777qwq
+Author: 777qwq
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/triggr.png
+Tag: role::cydia, more::downloadable
+Architecture: iphoneos-arm64
+Version: 1.5.0+cn5.3
+Installed-Size: 1912
+Filename: debs/com.johndie.triggr-1.5.0+cn5.3-rootless.deb
+Size: 286112
+MD5sum: 6ff84660a2a1971cb8e007a69a01356e
+SHA1: 443ff3cc5b487882e4754654b3934d36558592d0
+SHA256: 9be1c344c87c3e31e1e4550035368cf98970bb72ef2fa8a07f380823756aba57
+
+Package: com.johndie.triggr
+Name: Triggr汉化修改
+Description: 基于 Triggr 1.5.0 汉化修改：给按键、手势和系统事件指派动作。
+Maintainer: 777qwq
+Author: 777qwq
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, firmware (>= 15.0)
+icon: https://huayuarc.github.io/icon/triggr.png
+Tag: role::cydia, more::downloadable
+Architecture: iphoneos-arm64e
+Version: 1.5.0+cn5.3
+Installed-Size: 1912
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.johndie.triggr-1.5.0+cn5.3-roothide.deb
+Size: 279104
+MD5sum: 1fc0979ab685ce96b0d75c6eae7e59f8
+SHA1: 6c1fc2636f7e055227f32725dbb43aabcccca22d
+SHA256: a03ddbd70d4e1ed194d590fa6f3d7687498d32876adde3e0e2d3ee8739067b67
+
+Package: com.johndie.triggr
 Name: Triggr
 Description: 面向 rootless Dopamine 的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 A12 及更新机型（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
 Maintainer: John d_ie
@@ -31687,6 +31724,44 @@ Size: 71112
 MD5sum: 1c33f9f6cc279e8cc4baba7214578d61
 SHA1: 
 SHA256: 2e93afbc8cd221995e46ec44cb6236ff5da7d462c2c09ef3cd309abe90cae462
+
+Package: org.thebigboss.libcolorpicker
+Name: libcolorpicker
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Description: An awesome library of some sort!!
+Maintainer: Bailey Seymour
+Author: Bailey Seymour
+Section: System
+Tag: role::developer
+Architecture: iphoneos-arm64
+Version: 1.6.9.2
+Installed-Size: 304
+Filename: debs/org.thebigboss.libcolorpicker-1.6.9.2-rootless.deb
+Size: 45848
+MD5sum: b05bbe826389737a38490cd9184c42b5
+SHA1: 73c2bb87dfd578a3a4f1034b80dff6bfd1cd4c3e
+SHA256: 0a0c75360c6e4baceda6cc3938e7e4c191486f334a9fa46e60de0e73cf6a3a85
+
+Package: org.thebigboss.libcolorpicker
+Name: libcolorpicker
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Description: An awesome library of some sort!!
+Maintainer: Bailey Seymour
+Author: Bailey Seymour
+Section: System
+Tag: role::developer
+Architecture: iphoneos-arm64e
+Version: 1.6.9.2
+Installed-Size: 304
+Filename: debs/org.thebigboss.libcolorpicker-1.6.9.2-roothide.deb
+Size: 44952
+MD5sum: 0d257710a3a12304bff1bbef0fde5459
+SHA1: 8a9556e8983f9ce3ce00021cb7d26b68ba747dca
+SHA256: e31df52c7de566c8611e48b247f322456606b5112d01b0c4f98de3f662baf671
 
 Package: owngoal-bootstrap-vphone
 Name: OwnGoal Bootstrap for vphone
