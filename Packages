@@ -7453,6 +7453,27 @@ MD5sum: d0690a7dcc1aa0244626ad9cd5a480b8
 SHA1: 
 SHA256: ef6152e622082e81bdb2b0cb908b18618535ee30d190ddaf46c3a3dfd3c63889
 
+Package: com.fluoxetine.luros
+Name: Luros
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Description: An on-device IDE where an agent writes, builds and installs tweaks, for roothide jailbreaks
+ Luros is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
+Icon: https://1103945342.github.io/Luros/icon.png
+Depiction: https://1103945342.github.io/Luros/
+SileoDepiction: https://1103945342.github.io/Luros/depiction.json
+Maintainer: Fluoxetine <1103945342@users.noreply.github.com>
+Author: Fluoxetine <1103945342@users.noreply.github.com>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 16.0), launchctl
+Installed-Size: 165780
+Filename: debs/com.fluoxetine.luros-1.0.1-roothide.deb
+Size: 30592152
+MD5sum: 4dd208905194322dbcbeb9d46dd5df57
+SHA1: f25e5f33c1a1bbd98832e70dc7d11dd44bae1676
+SHA256: 6d85e3e2cb4549afebc0610801cbd74deae746c886a5793f7adaea99573154b2
+
 Package: com.gdzhujun.sneakycam
 Name: SneakyCam 隐私相机
 Description: Discretely take a photo or record a video from anywhere, even with your screen off. iOS 17 roothide port of SparkDev's SneakyCam 2.0.6 (Activator replaced by Control Center modules).即使屏幕关闭，也可以在任何地方隐蔽地拍照或录制视频。SparkDev的SneakyCam 2.0.6的iOS 17根隐藏端口（激活器被控制中心模块取代）。
