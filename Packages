@@ -12869,6 +12869,23 @@ MD5sum: cde7a5f63236d771bf156a644386be55
 SHA1: 
 SHA256: 90f39a2c8af1a3edcf19df49a597113839842026f94649c09d6b28d57f5754d1
 
+Package: com.mlgm.autovarclean
+Name: Auto VarClean
+Description: 通过 Actra 执行 RootHide ManagerApp 的 Var 清理。
+Maintainer: mlgm
+Author: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/AutoVarClean.png
+Depends: firmware (>= 15.0), mobilesubstrate, launchctl, com.mlgm.actra
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Installed-Size: 272
+Filename: debs/com.mlgm.autovarclean-1.1.1-roothide.deb
+Size: 25512
+MD5sum: 023ebc0978f7c1bd99cb5c94af71456c
+SHA1: 59d78bf2fca8e8dfeb072d1061387fea60425532
+SHA256: cdcf74662fb5f4b543749b4fcdb038a8ccd49e64f29bf214c64d750da8c3193a
+
 Package: com.mlgm.clippa
 Name: Clippa
 Description: 截图与悬浮贴图工具。
@@ -12971,6 +12988,46 @@ MD5sum: b4d56b5817e0fcd381b086f00594c89b
 SHA1: 
 SHA256: 58dc8fadc8abfc175dfd02dec81cd9104a2ff543021c6dcea556bddbb98b17be
 
+Package: com.mlgm.fila
+Name: Fila
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Fila 文件管理器典藏版
+Icon: https://mlgm66.github.io/icon/fila.png
+Maintainer: mlgm
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl
+Conflicts: wiki.qaq.fila
+Replaces: wiki.qaq.fila
+Installed-Size: 99832
+Filename: debs/com.mlgm.fila-1.0.0-rootless.deb
+Size: 18971212
+MD5sum: 7e64f41babed51bca68c8ab09befc97d
+SHA1: edcbf7f7899dc068ebd59fdb172db0afa4790f7f
+SHA256: ac1292824f9c98127b73e174b9bd3044fc96292b6b68ed0ef2ac0d3a299d559f
+
+Package: com.mlgm.fila
+Name: Fila
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Description: Fila 文件管理器典藏版
+Icon: https://mlgm66.github.io/icon/fila.png
+Maintainer: mlgm
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), uikittools, launchctl
+Conflicts: wiki.qaq.fila
+Replaces: wiki.qaq.fila
+Installed-Size: 99832
+Filename: debs/com.mlgm.fila-1.0.0-roothide.deb
+Size: 18974820
+MD5sum: 00236d698fb1f0a239281e3089a579a4
+SHA1: 019df26b023133c64f39c7ec4371743c515c6087
+SHA256: e267b7d6c4f226fbb4a5a3abc2ce07085efffd8d610b817d423e8933ca1e86fb
+
 Package: com.mlgm.filzacrack
 Name: Filza Crack
 Description: Filza 5.x 解锁完整版
@@ -13021,6 +13078,23 @@ Size: 8104
 MD5sum: 668b2a3b36a6762e02c330b9a34eada3
 SHA1: 
 SHA256: fddee45d6ee6062397e4bd59f8ad9ad3185448777cc941e9c39ec386ef20fc13
+
+Package: com.mlgm.filzapatch
+Name: Filza Patch
+Description: 为 RootHide 版 Filza 增加常用随机路径收藏，将原生 Applications 和 Documents 指向越狱根，并注册 filza:// 跳转。
+Maintainer: mlgm
+Section: Tweaks
+Icon: https://mlgm66.github.io/icon/FilzaPatch.png
+Depends: firmware (>= 15.0), mobilesubstrate, uikittools, com.tigisoftware.filza64bit (>> 5.0.1-5)
+Conflicts: roothide.patches.filza
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Installed-Size: 143
+Filename: debs/com.mlgm.filzapatch-1.1.5-roothide.deb
+Size: 8220
+MD5sum: e2d8aa4cae1978cb93514d5a4d892b10
+SHA1: a13e5c790380f7834e83079bc2791e9a5691c91a
+SHA256: aca3102453b04d74836799581b70bb2e8d6ea510893bcb3f7c63dd99546c1116
 
 Package: com.mlgm.idata
 Name: iData
@@ -29617,6 +29691,38 @@ MD5sum: e62868e0a6cf60eedf1dc31433ebb6c3
 SHA1: 
 SHA256: 660c02089aa369753f9e9f59645ecdd6d2b01af0ff459bb139e25973c3027667
 
+Package: iya.banana.multitask
+Name: 一芽分屏 (Iya Split)
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 0.1.8
+Installed-Size: 2788
+Filename: debs/iya.banana.multitask-0.1.8-rootless.deb
+Size: 496660
+MD5sum: 8119f4c4983eb6177aae34047f58c91f
+SHA1: dbfc301ae6c2890dbaf6dd8358a4afcaf62afe4e
+SHA256: 5213b123446b474a19f2464ca582af0d24f090e710be20ca7cb403efc960493f
+
+Package: iya.banana.multitask
+Name: 一芽分屏 (Iya Split)
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 0.1.8
+Installed-Size: 2788
+Filename: debs/iya.banana.multitask-0.1.8-roothide.deb
+Size: 496432
+MD5sum: 27b7a3e80b614ca05dc58b95a7c4cdd2
+SHA1: e25e306bd98f60490169968738df866e51505465
+SHA256: a281be9e59879eceb4ff512ca52096c6e91307bb4cb4eb7f2c521bcb588a5c88
+
 Package: iya.banana.musichaptics
 Name: MusicHaptics
 Description: 原生音乐触感与四种通用模式，让音乐化作触感。Native music haptics and four universal haptic modes for iOS 15 and later.
@@ -31671,6 +31777,26 @@ Size: 3113492
 MD5sum: 72ccfec335cc4ed0f170e7f91ec5766f
 SHA1: 
 SHA256: f033602c3e216d2b1eff486ee5865d10dee41282a77c4a7047ea16ab45d32c8d
+
+Package: org.mlgm.sileo
+Name: Sileo
+Version: 2.5.1-19
+Author: Amy While <me@anamy.gay>
+Maintainer: Amy While <me@anamy.gay>
+Description: A modern APT package manager frontend
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Conflicts: org.coolstar.sileo
+Replaces: org.coolstar.sileo
+Provides: org.coolstar.sileo (= 2.5.1-19)
+Section: Packaging
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+Filename: debs/org.mlgm.sileo-2.5.1-19-roothide.deb
+Size: 3107520
+MD5sum: 906fc243fcc572c9ce4483bbd25cfd4a
+SHA1: ad94f8f67d11202cb4138ce5e93919aa474edbd3
+SHA256: 6d125ffd82eb66b8e71510c9a758ab489262b4b550dd1c51b2e53f582d8edf1f
 
 Package: org.shallowdream.dockpages
 Version: 1.0.3
