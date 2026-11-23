@@ -12647,6 +12647,36 @@ MD5sum: 13b9dd724ec753b874af5ee37ed98c9d
 SHA1: 
 SHA256: 43dd92e3ddd8f1113ba97db43acb937a3bc96ec5d18be4f753c4e32babc01a73
 
+Package: com.mjh.threadsglass
+Name: Threads 仿液态玻璃
+Description: Simulated glass tab-bar surface for older iOS releases
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 476
+Filename: debs/com.mjh.threadsglass-1.0.1-rootless.deb
+Size: 216196
+MD5sum: 5acf74d9de8990120bc3232e5bb6b67d
+SHA1: e8e9d50b518a910034456ce2be3f6d86c4e6ca1a
+SHA256: e092d6bdc04f079d69147dbe66620e89b951d37e90c0f36a4992d5d86a7541e8
+
+Package: com.mjh.threadsglass
+Name: Threads 仿液态玻璃
+Description: Simulated glass tab-bar surface for older iOS releases
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 476
+Filename: debs/com.mjh.threadsglass-1.0.1-roothide.deb
+Size: 218492
+MD5sum: 2b7b1dfbc780c4c91f16a860edf0df0b
+SHA1: c808d74bfa33d30283136ad8384d3500a2fe485b
+SHA256: ec524905208ba66b07c27401561647bc7564b211c41f0b79a1a1a30d191e2039
+
 Package: com.mlgm.actra
 Name: Actra
 Description: 手势与事件自动化工具
@@ -27750,6 +27780,45 @@ MD5sum: 69fb52dcf2f93cce50dcabf2c9e2a594
 SHA1: 5e8e3359794696570409ca46812048b0ac8a2980
 SHA256: dd55d2f76b2e0978dcb802285b68f7e6b1e01b12d511bb1006c60ab683452d15
 
+Package: com.zooah.swipedeck
+Name: SwipeDeck - 快捷助手
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Maintainer: zooah212
+Author: zooah212
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.6.7-16
+Installed-Size: 8384
+SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
+icon: https://huayuarc.github.io/icon/swipedeck.png
+Filename: debs/com.zooah.swipedeck-0.6.7-16-rootless.deb
+Size: 2671952
+MD5sum: 50e79a337ca2fee611666d07d0192867
+SHA1: 62897708f745daa5392bb9f0e774b19a6a7ff2eb
+SHA256: 529aee3a38f8df0efbeb06c252e9ee396377da71bcddf06a98e763a0eaaf6e6b
+
+Package: com.zooah.swipedeck
+Name: SwipeDeck - 快捷助手
+Description: Quick action panel accessible by swiping up from the bottom-right corner.
+             Customizable buttons for Resping, WeChat Pay, Alipay, Lock Screen, Calculator, and more.
+Maintainer: zooah212
+Author: zooah212
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.6.7-16
+Installed-Size: 8384
+Pre-Depends: rootless-compat(>= 0.9)
+SileoDepiction: https://huayuarc.github.io/sileodepiction/swipedeck/swipedeck.json
+icon: https://huayuarc.github.io/icon/swipedeck.png
+Filename: debs/com.zooah.swipedeck-0.6.7-16-roothide.deb
+Size: 5029688
+MD5sum: f614ebf962e526ffa877af174b439af2
+SHA1: 223238586ab174300bd23878fc252d7e38da4297
+SHA256: 9dc10de0753252f4eedece45c3b77d6852dbf2a0783a6b48e19fb461635bc2a2
+
 Package: com.zqbb.savephotos
 Name: Hello Snapper3
 Description: 全屏截图按钮增加(保存至相册)功能,超过7个按钮时UI补全至7个,强迫症福音~!!!
@@ -28266,6 +28335,38 @@ Size: 3530640
 MD5sum: 4e691f108ccf2a6cdd474c0007fb1acf
 SHA1: 
 SHA256: 75cdf1fb8257093c0849ce7195ffb4f519e19c0d2ec404b00347f29566feab57
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.2.7
+Installed-Size: 14536
+icon: https://huayuarc.github.io/icon/hongguo.png
+Filename: debs/hongguofn-2.2.7-rootless.deb
+Size: 7328832
+MD5sum: 598503319ce35f8e1325d9d938eeda58
+SHA1: 50c26e2680f0c447562c046dc77989548299e7ab
+SHA256: 38dd78f406c3659d7adb90a5d29a7cf3426a09b2a7692739a864f64c90e37945
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.2.7
+Installed-Size: 14664
+icon: https://huayuarc.github.io/icon/hongguo.png
+Filename: debs/hongguofn-2.2.7-roothide.deb
+Size: 7379076
+MD5sum: caf9675ecda6506c47d13f1d2d251435
+SHA1: 43b191a19cb1097d01f0d41db62fb7b6aac7a364
+SHA256: dc6cde6e098c2e7327ed9a6d5365d621b047e238addb5f1c2d6a85e582721d84
 
 Package: hypicfix
 Name: 醒图国际版修复工具
