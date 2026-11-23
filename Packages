@@ -15451,6 +15451,40 @@ MD5sum: 233be69c33a304642d05e7ac986e5e0e
 SHA1: 
 SHA256: 92b79b54168499987e8dbb26ba84c457b8aab676d6ccc7c2aea232f491ec86b2
 
+Package: com.netskao.perfectgrabber
+Name: Ntonia-PreferenceLoader
+Description: 横屏游戏时自动常驻显示时间与电量（单排），支持自定义背景色；后台听歌时显示歌名并可点按切换/暂停、上一首下一首
+Maintainer: Huayuarc
+Author: NetSkao
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/NtoniaPGIcon.png
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 1.1-38
+Installed-Size: 848
+Filename: debs/com.netskao.perfectgrabber-1.1-38-rootless.deb
+Size: 268152
+MD5sum: b6e5a95ecda61b7784c754f6deeb66bc
+SHA1: d254c89303259c0e73c25209d9650cc48dd7894b
+SHA256: 7acbc32655ed45524b63e85bc252d6d1450e66170c0ce3ae20037f27299da5e2
+
+Package: com.netskao.perfectgrabber
+Name: Ntonia-PreferenceLoader
+Description: 横屏游戏时自动常驻显示时间与电量（单排），支持自定义背景色；后台听歌时显示歌名并可点按切换/暂停、上一首下一首
+Maintainer: Huayuarc
+Author: NetSkao
+Section: Tweaks
+icon: https://huayuarc.github.io/icon/NtoniaPGIcon.png
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.1-38+roothide
+Installed-Size: 848
+Filename: debs/com.netskao.perfectgrabber-1.1-38+roothide-roothide.deb
+Size: 268196
+MD5sum: 067e4714ca1c75bfef7b02e3c37bba2e
+SHA1: 6ed8dc68095a1e14277bdb01dd6c714921862802
+SHA256: 9047bf6b711889afb5d56cc1d0e61d671be13ab00166f738251049d5eceebca5
+
 SileoDepiction: https://jailrepo.initnil.com/api?Package=com.netskao.qqnotiavatar
 Package: com.netskao.qqnotiavatar
 Name: QQNotiAvatar
@@ -26934,6 +26968,84 @@ Size: 6851568
 MD5sum: 3664e752415fb9f9c31dad6942e6967d
 SHA1: 
 SHA256: 8f0babe3fd98b1a4097e1817360c2bbbbf598d8468a094e7d616f5250c731556
+
+Package: com.xuuz.douyinhelper
+Name: 抖音助手
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64
+Version: 2.2-8
+Installed-Size: 17740
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.2-8-rootless.deb
+Size: 6865524
+MD5sum: cf3f97a58248009725176d93f186d069
+SHA1: 6bd2b4b4798ca9cee6428372da9436df6e60a656
+SHA256: 3139234c72bd3000a601bdce2869ccae36b1c8a2ee42f7361b09bbaba9567419
+
+Package: com.xuuz.douyinhelper
+Name: 抖音助手
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64e
+Version: 2.2-8
+Installed-Size: 17740
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.xuuz.douyinhelper-2.2-8-roothide.deb
+Size: 6873436
+MD5sum: 8dbc1355d00d3a5d2d3aaa09e5d9bb5e
+SHA1: 27bddeebaabf6cb7f2b126b30cb3d12e4b83d717
+SHA256: 2f1e7cec0f70ecfc4a07ba5f16d5ed6c13eff55f3f46b645dfa702a3cbc6d648
+
+Package: com.xuuz.douyinhelper
+Name: 抖音助手
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64
+Version: 2.2-9
+Installed-Size: 17772
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.2-9-rootless.deb
+Size: 6872904
+MD5sum: b4ae0a50cdcc64c1ab8bd6a8179a0c4a
+SHA1: 4f9613e5fce2b59aec6429d6bce01c2e3886fa1e
+SHA256: d3e49152e373e500a9056f7cfff6ce7b2d9a71d8acbf5f40669d87a3d2ebe523
+
+Package: com.xuuz.douyinhelper
+Name: 抖音助手
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64e
+Version: 2.2-9
+Installed-Size: 17772
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.xuuz.douyinhelper-2.2-9-roothide.deb
+Size: 6864080
+MD5sum: ecc91031558779165638568b3c1920e9
+SHA1: 6cf1c4767750b10c48d97f76dee92a915411ca91
+SHA256: 29d951b544fea08b0d8a1b549d3ecb8453764347576062bc30a83d4f717beabb
 
 Package: com.xybp888.callassist16.dopamine
 Name: 电话助手iOS16
