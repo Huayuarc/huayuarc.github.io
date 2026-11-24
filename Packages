@@ -7372,6 +7372,38 @@ SHA256: 010d2440f26f3935dccf7615eab65f4c238739913ee589e0fabe986e7ad251ab
 
 Package: com.example.noticelisttweak
 Name: 通知消散
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Description: Rootless notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Maintainer: YUE
+Author: YUE
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 1873
+Filename: debs/com.example.noticelisttweak-1.0.1-rootless.deb
+Size: 842868
+MD5sum: 5fa4fa0f392e12174fbf5809c09ea49b
+SHA1: 44678097e3b40ca5d41e95fff4ff03115c66327b
+SHA256: 171f135b101ffe35f56088e06cdd4d99d79823d454ab08c77993ad885137c29e
+
+Package: com.example.noticelisttweak
+Name: 通知消散
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Maintainer: YUE
+Author: YUE
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 1873
+Filename: debs/com.example.noticelisttweak-1.0.1-roothide.deb
+Size: 842644
+MD5sum: d1897549b1c24248ae719fd27a701cc4
+SHA1: 2885f9e7486c4fbadc0ce82b654c5bfe83ad73e4
+SHA256: dd11431b3b74df553297cba47505744eb5b8611da7911ea0bd0a4c1d91a646f0
+
+Package: com.example.noticelisttweak
+Name: 通知消散
 Version: 1.0.1~test20
 Architecture: iphoneos-arm64
 Description: Rootless notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
@@ -8684,6 +8716,44 @@ Size: 747276
 MD5sum: 7025161b29f610730b5ac8b2da8629ec
 SHA1: 
 SHA256: 068d5da73df5d4b91e611ea445457178c17086a62aee075a4e3581d7d9d17ea0
+
+Package: com.huami.dyyy
+Name: DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Homepage: https://github.com/huami1314/DYYY
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: huami
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Architecture: iphoneos-arm64
+Version: 3.0
+Installed-Size: 2216
+Filename: debs/com.huami.dyyy-3.0-rootless.deb
+Size: 466976
+MD5sum: 36e895c69301403ca910323e4ed32ad2
+SHA1: 223fddd1ac9268b57b30a81af98b2913740a21b9
+SHA256: 3df918606d9161d7df95d71af0ef7ea9f3533ad26bdeb9595d4183dac30ab714
+
+Package: com.huami.dyyy
+Name: DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Homepage: https://github.com/huami1314/DYYY
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: huami
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Architecture: iphoneos-arm64e
+Version: 3.0
+Installed-Size: 2216
+Filename: debs/com.huami.dyyy-3.0-roothide.deb
+Size: 466472
+MD5sum: ef6967cdfc156115971fc1d1819f8cd5
+SHA1: 8aa2ea8472b77a478eb26ea99f218139e99cba9d
+SHA256: f48cc92a4fc34418e0aa413e5125f785633e3d7c16ed6f4c91c90a0af0c98c4d
 
 Package: com.huami.WCallRecorder
 Name: WCallRecorder 微信通话录音
@@ -15964,6 +16034,40 @@ Size: 115276
 MD5sum: 2bc46268a2cfd667ff5b374b07e28fa0
 SHA1: 381b1bca7f534ee6ac0ea63b0a623d7d70709c8c
 SHA256: bdb0fb5d07904b1e3bbda426a25c5b1577ef3435e6f2e3f6abed2b9275059df2
+
+Package: com.ning.keyboardglass
+Name: Ning Keyboard Glass
+Version: 0.2.4
+Architecture: iphoneos-arm64
+Maintainer: Ning
+Author: Ning
+Section: Tweaks
+Icon: file:///var/jb/usr/share/icons/com.ning.keyboardglass.png
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Description: Adjustable glass material for system keyboards on iOS 16 and 17.
+Installed-Size: 399
+Filename: debs/com.ning.keyboardglass-0.2.4-rootless.deb
+Size: 184492
+MD5sum: 300f573fbc7812cf6b7ebb0ae771a380
+SHA1: 14c70d5d35234af50e3a725d53ffae4b238e037b
+SHA256: 6f448490ce5517e6c0d09374996e3188d1deccdfc2c35275fdbf4fcb49166973
+
+Package: com.ning.keyboardglass
+Name: Ning Keyboard Glass
+Version: 0.2.4
+Architecture: iphoneos-arm64e
+Maintainer: Ning
+Author: Ning
+Section: Tweaks
+Icon: file:///usr/share/icons/com.ning.keyboardglass.png
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Description: Adjustable glass material for system keyboards on iOS 16 and 17.
+Installed-Size: 399
+Filename: debs/com.ning.keyboardglass-0.2.4-roothide.deb
+Size: 184220
+MD5sum: 3c4b5dd5abfe29dab952a3e8cd028e1a
+SHA1: d190a94c5f3a9c09af89a519ec284507058e8083
+SHA256: 95869bc4f310af24787fc5e8d5914670a42299b51f7a4937c70539b1df33faa7
 
 Package: com.ning.qqencryption
 Name: qqEncryption
@@ -26931,6 +27035,38 @@ MD5sum: 159b6bb8e505aebd8e6d3906d235f397
 SHA1: 
 SHA256: ec744bdd5b8db06b66fc87ab1f1c6f6b429c2066453979f0e46c685d7eec604a
 
+Package: com.wkk.fakesignalbar
+Name: Fakesignalbar
+Description: 自定义状态栏显示的运营商名称、信号强度和蜂窝网络类型等。灵感来自 SniperGER 的 Signal 插件，修复且补全没有双卡时或单 eSIM 时的不生效卡2逻辑，已汉化。
+Maintainer: alias20 & wkk
+Author: alias20 & wkk
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0-1
+Installed-Size: 364
+Filename: debs/com.wkk.fakesignalbar-1.0-1-rootless.deb
+Size: 15192
+MD5sum: a99ee42c404bd71c0c20772dc901b82e
+SHA1: 586a809112a18dcb951806a3da4fb1ec61b4152a
+SHA256: 9c4beb187ca5ab7ec1ae1311919d39688b244891062877d0d42c5f6be34ee350
+
+Package: com.wkk.fakesignalbar
+Name: Fakesignalbar
+Description: 自定义状态栏显示的运营商名称、信号强度和蜂窝网络类型等。灵感来自 SniperGER 的 Signal 插件，修复且补全没有双卡时或单 eSIM 时的不生效卡2逻辑，已汉化。
+Maintainer: alias20 & wkk
+Author: alias20 & wkk
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0-1
+Installed-Size: 364
+Filename: debs/com.wkk.fakesignalbar-1.0-1-roothide.deb
+Size: 15212
+MD5sum: 88e05cf8cd6fa9fd44d53ce5bb019d7e
+SHA1: a7b7b8ba44710142df84f1d5807960d70f420f64
+SHA256: b69f197fcbdf5a09072533837115ae43bc4fb98e004e1df7e7bacde3fc19680e
+
 Package: com.wkk.flex
 Name: Flex
 Description: 一个好用的Flex改版，同时按住音量+和-呼出，长按类名即可复制类名，无设置项。
@@ -28044,6 +28180,44 @@ Size: 29256
 MD5sum: b164a9c3499d2ec4a56892db864e42dc
 SHA1: af25af04cc787a07bc4f970b3471ba3eb378d253
 SHA256: 828bf8e371fd1797e95aacdbccb27e6c882589bad79860aa1ad20ef159555f56
+
+Package: com.zhuifeng.dateinfo
+Name: 快捷时间胶囊
+Description: 轻点状态栏时间，展开带尖角的胶囊显示日期、星期、时分秒与实时网速，状态栏本身一个像素都不改动。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Icon: https://temple002.github.io/zhuifeng/depictions/dateinfo/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.html
+Architecture: iphoneos-arm64
+Version: 1.3.8
+Installed-Size: 792
+Filename: debs/com.zhuifeng.dateinfo-1.3.8-rootless.deb
+Size: 111968
+MD5sum: b74d5de2ff0e2d2d45e8511643ebc2bc
+SHA1: 0b2f32b5fd2c01a60b28bc9879693cfca165a64e
+SHA256: 2ad2f97974def3cfcb7e2f72982322477e8820085a016f0199feedf99b633d74
+
+Package: com.zhuifeng.dateinfo
+Name: 快捷时间胶囊-RootHide
+Description: 轻点状态栏时间，展开带尖角的胶囊显示日期、星期、时分秒与实时网速，状态栏本身一个像素都不改动。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Icon: https://temple002.github.io/zhuifeng/depictions/dateinfo/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.html
+Architecture: iphoneos-arm64e
+Version: 1.3.8
+Installed-Size: 792
+Filename: debs/com.zhuifeng.dateinfo-1.3.8-roothide.deb
+Size: 112040
+MD5sum: 6e15b3435aad65215aa223565f2e5fae
+SHA1: 2edf8f9ec2afe820ce62c860bc422b5e021d05c7
+SHA256: efdff06240c8f379836df2205a6f408e3b8901a9057d078a74ea5c426979fad3
 
 Package: com.zooah.debrecords
 Name: DebRecords
@@ -31074,6 +31248,40 @@ MD5sum: 3320fe35de3eb57de5e7e2a97cf2dcb6
 SHA1: 
 SHA256: 2568ee5d7854316cf4813be3b0a0aebf7910a8acdfbc1a423dc23c1b3510691c
 
+Package: moe.waru.jikan
+Name: Jikan
+Description: Show time left to full charge on your lock screen
+Maintainer: waruhachi
+Author: waruhachi
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64
+Icon: https://github.com/taikulayyds/icon/raw/refs/heads/mina/jikan.png
+Version: 1.2.1
+Installed-Size: 2712
+Filename: debs/moe.waru.jikan-1.2.1-rootless.deb
+Size: 400232
+MD5sum: 54602ee7cffade8a7170d447d3cd926e
+SHA1: dfcbdbb02f9178320af229c90c4178cff9f8ef20
+SHA256: 1baeaa3596b3e2b21b833492632c256f8e6e6397b9ccb48ed8fed15a130fffb0
+
+Package: moe.waru.jikan
+Name: Jikan
+Description: Show time left to full charge on your lock screen
+Maintainer: waruhachi
+Author: waruhachi
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64e
+Icon: https://github.com/taikulayyds/icon/raw/refs/heads/mina/jikan.png
+Version: 1.2.1
+Installed-Size: 2712
+Filename: debs/moe.waru.jikan-1.2.1-roothide.deb
+Size: 395424
+MD5sum: ee28ad9aea6dc4ea7919eef43de3e8c1
+SHA1: 00bfe0a5bfa04ab3089cf068e534ae04545b9fc9
+SHA256: 451d2d878736d19182ceae1baf790d7e6480d50087ad9befe340f082beb4403f
+
 Package: net.nyyh
 Version: 1.2.522-1+debug
 Description: 中国农业银行11.2.x 启动与越狱提示兼容插件，如无效果下载插件单独注入应用即可解决。
@@ -31904,22 +32112,50 @@ MD5sum: 2a2a4734ef6a323b204090a294f23375
 SHA1: 
 SHA256: 0d4c387c3928e1bcbbf58cbfe8a524467e1ef70e4fcc5ea20e2001d468e304f9
 
-Author: Bailey Seymour
-Architecture: iphoneos-arm64
-Maintainer: Bailey Seymour
-icon: https://sini921.github.io/repo/sileodepiction/icon/yilai.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/libcolorpicker/js.json
-Version: 1.6.9.1
-Depends: firmware (>= 6.0)
-Description: 有些插件需要这个依赖
-Name: libcolorpicker (Unofficial)
-Section: Tweaks
 Package: org.thebigboss.libcolorpicker
-Filename: debs/org.thebigboss.libcolorpicker_1.6.9.1_iphoneos-arm64.deb
-Size: 71112
-MD5sum: 1c33f9f6cc279e8cc4baba7214578d61
-SHA1: 
-SHA256: 2e93afbc8cd221995e46ec44cb6236ff5da7d462c2c09ef3cd309abe90cae462
+Name: libcolorpicker (Unofficial)
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Description: An awesome library of some sort!!
+Maintainer: Bailey Seymour
+Author: Bailey Seymour
+Section: System
+Tag: role::developer
+Architecture: iphoneos-arm64
+Version: 1.6.9.1
+Installed-Size: 392
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=org.thebigboss.libcolorpicker
+Icon: https://p2kdev.github.io/repo/api/packageinfo/org.thebigboss.libcolorpicker/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/org.thebigboss.libcolorpicker.json
+Filename: debs/org.thebigboss.libcolorpicker-1.6.9.1-rootless.deb
+Size: 71080
+MD5sum: b5cc8b47c46fe59896ac05b51583540b
+SHA1: 9cb1c306810bf73cc72be65c76b2d5208f1415fe
+SHA256: 40bb8493408a53f0c8da93ee9cad2f8244daf537d13f3dc03ce7df41c4d6681e
+
+Package: org.thebigboss.libcolorpicker
+Name: libcolorpicker (Unofficial)
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Description: An awesome library of some sort!!
+Maintainer: Bailey Seymour
+Author: Bailey Seymour
+Section: System
+Tag: role::developer
+Architecture: iphoneos-arm64e
+Version: 1.6.9.1
+Installed-Size: 392
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=org.thebigboss.libcolorpicker
+Icon: https://p2kdev.github.io/repo/api/packageinfo/org.thebigboss.libcolorpicker/icon.png
+SileoDepiction: https://p2kdev.github.io/repo/depictions/native/org.thebigboss.libcolorpicker.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/org.thebigboss.libcolorpicker-1.6.9.1-roothide.deb
+Size: 69396
+MD5sum: bb2033611f68b50304248fd2dd219ec3
+SHA1: 6b83cbce9c2c606049044b15e7de40dcd1d30e7e
+SHA256: a9349d0351be44de073411745f14e720feeea84ab45681f287767360c2c41517
 
 Package: org.thebigboss.libcolorpicker
 Name: libcolorpicker
