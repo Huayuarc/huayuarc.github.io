@@ -17076,6 +17076,98 @@ MD5sum: f53b7dfedfd47decc72acfff99b3f985
 SHA1: 
 SHA256: bbd94f5b61058b4e1846c68f5669a9047d588b9d22969df98e73dc485bb6c569
 
+Package: com.qingye.screenshot
+Name: Screenshot
+Description: 一款集截图、冻结、长截图、标注、OCR、翻译与 AI 于一体的越狱截图插件。
+ * 一、核心功能
+ * 1、三路触发：音量增+电源键、长按音量减进入冻结模式、系统深链 prefs:root=qingye_freeze（插件截图）/ prefs:root=qingye_long（长截图）；
+ * 2、冻结截图：画面定格后自由取景与标注，标注内容可拖动调整位置；
+ * 3、长截图：滚动拼接 / 一镜到底两种方式，智能帧匹配自动去重拼接，清晰度 1.0x / 1.5x / 2.0x / 3.0x 可选；
+ * 4、标注工具：颜色、箭头、自由画线、文字、矩形、圆形、高亮、马赛克、撤回、删除、保存、复制；
+ * 5、文字识别 OCR：默认 PP-OCRv6 云服务，可选 PaddleOCR-VL 或改用 AI 视觉模型，半屏浮层、涂抹选择、一键复制；
+ * 6、翻译：Apple 系统翻译（免密钥）/ 百度 / 有道 / DeepL，百度另支持图片翻译通道；
+ * 7、AI 互译与问答：自填 Base URL / API Key / 模型，支持自定义提示词与对话模式，半屏浮层展示；
+ * 8、工具栏自定义：功能开关与排序、拖拽排序、图标主题（含 3 代透光）；
+ * 9、URL 联动：截图完成后点底部工具栏「URL」按钮，先收起浮层再打开任意 scheme；
+ * 10、截图仅复制：拍完只进剪贴板，不写相册。
+ * 二、使用方式
+ * 1、音量增+电源键：可选系统截图或插件截图；
+ * 2、长按音量减约 0.2 秒：进入冻结模式，取景框内可滚动，点「长截图」继续拼接；
+ * 3、截图后底部工具栏：标注 / OCR / 翻译 / 分享 / URL；
+ * 4、功能开关与排序：关闭某个动作后，对应工具栏按钮与设置行立即隐藏，打开即恢复，无需退出设置页；
+ * 5、顶部工具栏「URL」与底部工具栏「URL」是两条独立链接，各存各的，互不影响。
+ * 三、URL 联动（截图后打开链接）
+ * 1、填链接：功能开关与排序 → 底部工具栏 → URL 链接，任意 scheme 均可；
+ * 2、点「URL」按钮才会跳转；设置页那一行只负责保存，直接点它会由系统提示「不支持的 URL」，属正常现象；
+ * 3、通用写法（系统自带，任何越狱设备都能开）：prefs:root=WIFI、prefs:root=Bluetooth、shortcuts://、https://；
+ * 4、专用写法（需先装对应插件）：全局水印Pro 的 binglan://tk 仅套壳、binglan://tksy 套壳+水印、
+ *    binglan://tkwsy 套壳+全屏水印、binglan://tk&id=1 指定套壳、binglan://tk&gsmh/50 背景模糊；
+ * 5、该 scheme 没有任何接收方时，点按钮不会有反应，换一个有接收方的即可；
+ * 6、注意：全局水印Pro 收到链接后会自己再截一次图，与本插件的截图动作同时开启会重复截图。
+ * 四、兼容
+ * 1、iOS 14 及以上，rootless（/var/jb）与 roothide 双版本；
+ * 2、不依赖 CydiaSubstrate，纯运行时挂载。
+Maintainer: 清野 <qingye@localhost>
+Author: 清野 <qingye@localhost>
+Section: QingYe-Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, com.susudear.stayshot, com.axs.snapper3tag, com.iosdump.shellx, com.axs.snapper4
+Architecture: iphoneos-arm64
+Version: 4.9.1.6
+Installed-Size: 2218
+icon: https://huayuarc.github.io/icon/screenshot.png
+Filename: debs/com.qingye.screenshot-4.9.1.6-rootless.deb
+Size: 698668
+MD5sum: fe64af39867ba701cc37c1bbe8698c47
+SHA1: d7a8d0d5e0863634a7758ade8380c5a0a2cccf0e
+SHA256: 47c18a8bb7259f726a5adaeaed323274acb542ffc47946c3b56e9ff2b2140b16
+
+Package: com.qingye.screenshot
+Name: Screenshot
+Description: 一款集截图、冻结、长截图、标注、OCR、翻译与 AI 于一体的越狱截图插件。
+ * 一、核心功能
+ * 1、三路触发：音量增+电源键、长按音量减进入冻结模式、系统深链 prefs:root=qingye_freeze（插件截图）/ prefs:root=qingye_long（长截图）；
+ * 2、冻结截图：画面定格后自由取景与标注，标注内容可拖动调整位置；
+ * 3、长截图：滚动拼接 / 一镜到底两种方式，智能帧匹配自动去重拼接，清晰度 1.0x / 1.5x / 2.0x / 3.0x 可选；
+ * 4、标注工具：颜色、箭头、自由画线、文字、矩形、圆形、高亮、马赛克、撤回、删除、保存、复制；
+ * 5、文字识别 OCR：默认 PP-OCRv6 云服务，可选 PaddleOCR-VL 或改用 AI 视觉模型，半屏浮层、涂抹选择、一键复制；
+ * 6、翻译：Apple 系统翻译（免密钥）/ 百度 / 有道 / DeepL，百度另支持图片翻译通道；
+ * 7、AI 互译与问答：自填 Base URL / API Key / 模型，支持自定义提示词与对话模式，半屏浮层展示；
+ * 8、工具栏自定义：功能开关与排序、拖拽排序、图标主题（含 3 代透光）；
+ * 9、URL 联动：截图完成后点底部工具栏「URL」按钮，先收起浮层再打开任意 scheme；
+ * 10、截图仅复制：拍完只进剪贴板，不写相册。
+ * 二、使用方式
+ * 1、音量增+电源键：可选系统截图或插件截图；
+ * 2、长按音量减约 0.2 秒：进入冻结模式，取景框内可滚动，点「长截图」继续拼接；
+ * 3、截图后底部工具栏：标注 / OCR / 翻译 / 分享 / URL；
+ * 4、功能开关与排序：关闭某个动作后，对应工具栏按钮与设置行立即隐藏，打开即恢复，无需退出设置页；
+ * 5、顶部工具栏「URL」与底部工具栏「URL」是两条独立链接，各存各的，互不影响。
+ * 三、URL 联动（截图后打开链接）
+ * 1、填链接：功能开关与排序 → 底部工具栏 → URL 链接，任意 scheme 均可；
+ * 2、点「URL」按钮才会跳转；设置页那一行只负责保存，直接点它会由系统提示「不支持的 URL」，属正常现象；
+ * 3、通用写法（系统自带，任何越狱设备都能开）：prefs:root=WIFI、prefs:root=Bluetooth、shortcuts://、https://；
+ * 4、专用写法（需先装对应插件）：全局水印Pro 的 binglan://tk 仅套壳、binglan://tksy 套壳+水印、
+ *    binglan://tkwsy 套壳+全屏水印、binglan://tk&id=1 指定套壳、binglan://tk&gsmh/50 背景模糊；
+ * 5、该 scheme 没有任何接收方时，点按钮不会有反应，换一个有接收方的即可；
+ * 6、注意：全局水印Pro 收到链接后会自己再截一次图，与本插件的截图动作同时开启会重复截图。
+ * 四、兼容
+ * 1、iOS 14 及以上，rootless（/var/jb）与 roothide 双版本；
+ * 2、不依赖 CydiaSubstrate，纯运行时挂载。
+Maintainer: 清野 <qingye@localhost>
+Author: 清野 <qingye@localhost>
+Section: QingYe-Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, com.susudear.stayshot, com.axs.snapper3tag, com.iosdump.shellx, com.axs.snapper4
+Architecture: iphoneos-arm64e
+Version: 4.9.1.6
+Installed-Size: 2218
+icon: https://huayuarc.github.io/icon/screenshot.png
+Filename: debs/com.qingye.screenshot-4.9.1.6-roothide.deb
+Size: 697708
+MD5sum: 867c7833e3b0ad30c08151417b26153f
+SHA1: 3732469aca9433f116804610a9ffa34f92149760
+SHA256: 75f1a518a8a231ca49b64637b2ab0f3edaee42964b852c4effb0323eb21381f2
+
 Package: com.qiop1379.swipeextenderx
 Version: 1.6.1~2
 Architecture: iphoneos-arm64
