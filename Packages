@@ -6897,6 +6897,41 @@ MD5sum: a452c6761f70a05618b906e3085d921f
 SHA1: 
 SHA256: 3e71ab5e478d409a640353b4ee6c083321e66bca76d96cf6cd0d7198e3f36796
 
+Package: com.dy778.douyin
+Name: DY778
+Description: DY778 · 消息留存、特别关注、直播信息、直播间工具、星牌查询、操作确认与播放增强。适配抖音 39.9.0。
+Maintainer: DY778
+Author: DY778
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm64
+Version: 1.0-9
+Installed-Size: 4628
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.dy778.douyin-1.0-9-rootless.deb
+Size: 1492656
+MD5sum: cbcad07d09654de5bf6ba951008a775a
+SHA1: 72473824de2ab9d8e8ad1de289b919b6ead777c9
+SHA256: bfb73de9cd246c35c4bcca4314b492cac4fccc25d0e22ec94002288bb7f5bb5b
+
+Package: com.dy778.douyin
+Name: DY778
+Description: DY778 · 消息留存、特别关注、直播信息、直播间工具、星牌查询、操作确认与播放增强。适配抖音 39.9.0。
+Maintainer: DY778
+Author: DY778
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 1.0-9
+Installed-Size: 4628
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.dy778.douyin-1.0-9-roothide.deb
+Size: 1492552
+MD5sum: f0712ebfeee3d2ecfaa73851bdd90611
+SHA1: 6202249f69ccf114d0774e5eeb36c6d0c46decb5
+SHA256: acc33a4e41d81574b1ca8ca07a5532aa6a294eec7136faa4285ad51dc5748d25
+
 Package: com.dynamicx.tweak
 Name: DynamicX
 Description: 万物皆上岛
@@ -8237,6 +8272,60 @@ Size: 1121656
 MD5sum: d70d7a0ac1b938e64779b0a4447a100f
 SHA1: 
 SHA256: da2ce85df8fcd536a7019cc80bdfdc19e389ef4c585c513de4387fb811d6de27
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm
+Version: 0.7.3
+Installed-Size: 4772
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.7.3-rootful.deb
+Size: 1171920
+MD5sum: 6b8f218afbc67f9df0a4cff742ed51e0
+SHA1: 42985893a4d0c9077fb0d9a82ea075398630f32e
+SHA256: c7250d355f1940da5ea7b7fd65f119b0ba9f62c9e5f3cebae3c48fb4451c4537
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64
+Version: 0.7.3
+Installed-Size: 4772
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.7.3-rootless.deb
+Size: 1165980
+MD5sum: a72b1b7573ab2225b265bddcb6118e1b
+SHA1: a2babe435e8d509ed479634fff411f4f7f71a7b5
+SHA256: 0df25329e25a08ee2f1b95025d4060145ab5c07a17816f72e315a4be472ca50c
+
+Package: com.hierarch.dykiller
+Name: DYKiller
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Section: Tweaks
+Depends: firmware (>= 14.0), mobilesubstrate
+Maintainer: hierarch
+Author: hierarch
+Priority: optional
+Architecture: iphoneos-arm64e
+Version: 0.7.3
+Installed-Size: 4772
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.hierarch.dykiller-0.7.3-roothide.deb
+Size: 1167236
+MD5sum: 5bf85d19d934d44afd45d046064aa764
+SHA1: eb4c647c4623fa5ae63c6589583e37464c275200
+SHA256: 73dbfe1cba256b65827ee058fbde6ca6e6585f17e749c67cb5f299772f4ec569
 
 Package: com.hitori.misaki
 Section: Tweaks
@@ -27392,6 +27481,45 @@ Size: 6864080
 MD5sum: ecc91031558779165638568b3c1920e9
 SHA1: 6cf1c4767750b10c48d97f76dee92a915411ca91
 SHA256: 29d951b544fea08b0d8a1b549d3ecb8453764347576062bc30a83d4f717beabb
+
+Package: com.xuuz.douyinhelper
+Name: 抖音助手
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64
+Version: 2.3-1
+Installed-Size: 17808
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.3-1-rootless.deb
+Size: 6887108
+MD5sum: 236ce0a0c6c7609c628337ffded758b2
+SHA1: f55d24aac468fe8c63922dc01acd521f10cb837d
+SHA256: 53b6444d790f9604cb6336ef219ad4f20ab42d6f5ba23f33d48cf73111342c89
+
+Package: com.xuuz.douyinhelper
+Name: 抖音助手
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64e
+Version: 2.3-1
+Installed-Size: 17808
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.3-1-roothide.deb
+Size: 6881276
+MD5sum: d0d274ffe787efc05990da8d0da61574
+SHA1: ff146e9b0e2df9b6801d972aa21751f1ce5ca3f2
+SHA256: 3c6e63a9ec7b02f3516c01bd057582afe35e8935ca9edb8b1f81489443ee5042
 
 Package: com.xybp888.callassist16.dopamine
 Name: 电话助手iOS16
