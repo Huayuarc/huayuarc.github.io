@@ -12530,6 +12530,40 @@ MD5sum: 7c03dd941ae6417c2573d58702797ea6
 SHA1: 
 SHA256: 1dd931f3be149dfda42fc2caef2eb737a0e10023e7586be44574563cbde58efa
 
+Package: com.mg.islandnotice
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Description: 为刘海屏 iPhone 打造的系统通知横幅岛屿样式与本地预览；其他机型未验证，请自行测试后再使用。
+Name: IslandNotice
+Icon: https://wwg151.github.io/images/islandnotice.png
+Author: M哥
+Maintainer: M哥
+Section: Tweaks
+Depends: firmware (>= 16.0), preferenceloader, mobilesubstrate
+Installed-Size: 1212
+Filename: debs/com.mg.islandnotice-1.1.0-rootless.deb
+Size: 196212
+MD5sum: 05b1bdb7f901e208aa82a1383bc9202e
+SHA1: 6ea694f41453d9752542e2aecc72b268262ce46d
+SHA256: b686b7b7c165e1734f35a54733a3d271cf0eb528b8c26ec9ca5c4577a4080987
+
+Package: com.mg.islandnotice
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Description: 为刘海屏 iPhone 打造的系统通知横幅岛屿样式与本地预览；其他机型未验证，请自行测试后再使用。
+Name: IslandNotice
+Icon: https://wwg151.github.io/images/islandnotice.png
+Author: M哥
+Maintainer: M哥
+Section: Tweaks
+Depends: firmware (>= 16.0), preferenceloader, mobilesubstrate
+Installed-Size: 603
+Filename: debs/com.mg.islandnotice-1.1.0-roothide.deb
+Size: 137216
+MD5sum: 63a76f716dca3af01a76f960c4e98a9f
+SHA1: 24899ea318d098b38d092aed990ac0e0f292b76b
+SHA256: fd8b10f4340504e5a2ba8c382792e93056007b3e2f3f5fbe04bd1b05fed7c854
+
 Package: com.miguelaka95.bettercc
 Name: BetterCC
 Version: 0.0.51
@@ -34338,6 +34372,47 @@ Size: 106164
 MD5sum: b2fced86805bc516b10b33aec1160a36
 SHA1: 
 SHA256: 07541d64b199e2fad92b259d20510bc634e8b8f2598854c676f7a4334ad503f9
+
+Package: xyz.cypwn.tethera
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/3621
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3621
+Icon: https://repo.cypwn.xyz/packages/Tethera-Rootless/icon.png
+Name: Tethera
+Description: Enables Personal Hotspot on your iPhone. Cracked by trwmd34.
+Author: AADiOS
+Section: Tweaks
+Homepage: https://tethera.aadios.dev
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Installed-Size: 9929
+Filename: debs/xyz.cypwn.tethera-1.2.0-rootless.deb
+Size: 2407660
+MD5sum: 1411d5bd01e860f8a47fbf3b661e2909
+SHA1: 8c08125d669ce7990129a2ce5e910ded95b796d4
+SHA256: 268ec31bd0e4a0a2ae4cd0d35bd9b2c93d1ff2d0ec9e25a9ff366b6e9279e800
+
+Package: xyz.cypwn.tethera
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/3621
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3621
+Icon: https://repo.cypwn.xyz/packages/Tethera-Rootless/icon.png
+Name: Tethera
+Description: Enables Personal Hotspot on your iPhone. Cracked by trwmd34.
+Author: AADiOS
+Section: Tweaks
+Homepage: https://tethera.aadios.dev
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Installed-Size: 9929
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.tethera-1.2.0-roothide.deb
+Size: 2405608
+MD5sum: 3c07fec89af75b65d849e1b13a5006c7
+SHA1: ea6650045b7dee3a2309d006ad6cf92d09ad316e
+SHA256: d33c0e5ff1bbea4a445b66081594ab59ec4421fae384f7e7676af823cba480db
 
 Package: xyz.cypwn.xinam1ne
 Maintainer: CyPwn
