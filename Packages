@@ -1326,6 +1326,42 @@ MD5sum: e4b01e835492a979fb9d2a787915dbbd
 SHA1: 
 SHA256: 57ac26c8e23739ae26063f28139236fabe64e94fdbfa65c52308cc8b42e5fd45
 
+Package: cn.zqbb.hello.keyboardport
+Name: HelloKeyboardPort
+Description: 独立下载可编辑雾凇词表，再与本机系统基础词库离线合并
+Maintainer: zqbb
+Author: zqbb
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.keyboardport.png
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.hello.keyboardport
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Installed-Size: 868
+Filename: debs/cn.zqbb.hello.keyboardport-1.1.0-rootless.deb
+Size: 238676
+MD5sum: 4554b73d66ea43f1644c48f9cfddfba0
+SHA1: cbcebb9576d59222a82608f6328236f700ab830b
+SHA256: 481360700275c9abbf534076ff2e67c8ea2e1c2f6ed88b0e108271759c6c5db7
+
+Package: cn.zqbb.hello.keyboardport
+Name: HelloKeyboardPort
+Description: 独立下载可编辑雾凇词表，再与本机系统基础词库离线合并
+Maintainer: zqbb
+Author: zqbb
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.keyboardport.png
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.hello.keyboardport
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Installed-Size: 868
+Filename: debs/cn.zqbb.hello.keyboardport-1.1.0-roothide.deb
+Size: 236096
+MD5sum: 1ec45e933e1b2a1ae740b14ba9108a83
+SHA1: e20faeb26a3912285ab929e4e4a9f6411b4075b5
+SHA256: bdc92cb11af5da265cd54d83f870347fb9e64d282355b6c7d049cb6c654f6b25
+
 Package: cn.zqbb.hello.varjb
 Name: Hello VarJB snapper3
 Description: 可以修复 relaxin 中的 snapper3 问题!
@@ -21838,6 +21874,43 @@ MD5sum: c8169583a933840f99b917a38652b789
 SHA1: 
 SHA256: 0d27f7fc26a0261b4f56c4194df39ae695c77048d6ac20b990c3c57c91729f6e
 
+Package: com.sini921.appstoretroller
+Name: AppStoreTroller
+Description: 在AppStore中安装应用程序时伪装系统版本以安装需要更高系统版本的应用程序
+Maintainer: SINI
+Author: SINI
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.libsandy, com.opa334.ccsupport
+Icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
+Architecture: iphoneos-arm64
+Version: 0.1.2-6
+Installed-Size: 1140
+Filename: debs/com.sini921.appstoretroller-0.1.2-6-rootless.deb
+Size: 238228
+MD5sum: 064c77f58c4d3e95bb5aa817519d5bd6
+SHA1: 74ca2375f3e1d961c72a1e3bcae81629fdce47ac
+SHA256: 552131d6bbe46629bf4756a573188b441f49da10aafbab00e7ac8b4d62a1d81e
+
+Package: com.sini921.appstoretroller
+Name: AppStoreTroller
+Description: 在AppStore中安装应用程序时伪装系统版本以安装需要更高系统版本的应用程序
+Maintainer: SINI
+Author: SINI
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.libsandy, com.opa334.ccsupport
+Icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
+Architecture: iphoneos-arm64e
+Version: 0.1.2-6
+Installed-Size: 1140
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sini921.appstoretroller-0.1.2-6-roothide.deb
+Size: 234760
+MD5sum: 4e8a0eaf31aba7e40815f61a0cb53768
+SHA1: 832364ffa89ba8038e461d6f49fc702618310be6
+SHA256: 3ef112c231ffcf1ee663a08c8fe2a9c5746ea4593cc894c643cf00c6afc00e65
+
 Author: ren7995 & SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/atria.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/atria/js.json
@@ -27244,6 +27317,51 @@ Size: 9224
 MD5sum: dd84928085fbb846f8a97dd502df920f
 SHA1: 
 SHA256: 829d254e1d20918c233069863e1846c7a37ec416a9d50d23d777bf3c269ac6dd
+
+Package: com.wubage.answerspeaker
+Name: 接听免提 AnswerSpeaker
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: 来电界面增加「接听并免提」按钮，保留原生接听/拒绝按钮。
+ 全屏来电页与顶部来电横幅都会在原生接听按钮旁插入一个绿色按钮。
+ 点击后复用系统原生接听动作，再自动打开免提；不猜私有 CallKit 签名。
+ 安全设计：主线程操作、重入保护、异常熔断、崩溃自恢复、DISABLE 逃生门。
+ 设置：/var/mobile/Documents/AnswerSpeaker/config.txt
+ 日志：/var/mobile/Library/Logs/AnswerSpeaker.log
+Depends: firmware (>= 15.0), mobilesubstrate
+Maintainer: jumping8
+Author: jumping8
+Section: Tweaks
+Priority: optional
+Installed-Size: 0
+Filename: debs/com.wubage.answerspeaker-1.0.0-rootless.deb
+Size: 25496
+MD5sum: 41d684b56ec8b26612c61aa91ab001d4
+SHA1: 54ddd2fc8e9ebcbaf321851222dcf161c86d2ff3
+SHA256: b8df8fc17c28a4933544d259cc4ffe9476f086bf5024193be749162fc0267c45
+
+Package: com.wubage.answerspeaker
+Name: 接听免提 AnswerSpeaker
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Description: 来电界面增加「接听并免提」按钮，保留原生接听/拒绝按钮。
+ 全屏来电页与顶部来电横幅都会在原生接听按钮旁插入一个绿色按钮。
+ 点击后复用系统原生接听动作，再自动打开免提；不猜私有 CallKit 签名。
+ 安全设计：主线程操作、重入保护、异常熔断、崩溃自恢复、DISABLE 逃生门。
+ 设置：/var/mobile/Documents/AnswerSpeaker/config.txt
+ 日志：/var/mobile/Library/Logs/AnswerSpeaker.log
+Depends: firmware (>= 15.0), mobilesubstrate
+Maintainer: jumping8
+Author: jumping8
+Section: Tweaks
+Priority: optional
+Installed-Size: 0
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.wubage.answerspeaker-1.0.0-roothide.deb
+Size: 26720
+MD5sum: f3173157011f9dfae332668a9bac4832
+SHA1: 9d87d9eb30d27b5d0a7df4fb8a38bd18d4340aad
+SHA256: 41b1ce23479ddc6527191c5fbf8f8298ac0967ff0e20fdf259130d9bb0e7c1f9
 
 Package: com.xamy.othellohelpervipunlock
 Name: OthelloHelper VIP Unlock
