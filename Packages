@@ -22469,6 +22469,42 @@ MD5sum: 1a18e503164c69aeecddcbf10f367ae5
 SHA1: 
 SHA256: 6080c8f55fd82627af9e6e6026e1d48afba618c1bb823771b983967802b6fdf6
 
+Package: com.sini921.liquidglassswitch
+Name: LiquidGlassSwitch
+Description: 液态玻璃开关
+Maintainer: SINI
+Author: SINI
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy
+Icon: https://sini921.github.io/repo/sileodepiction/icon/liquidglassswitch.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/liquidglassswitch/js.json
+Architecture: iphoneos-arm64
+Version: 0.0.1-9
+Installed-Size: 676
+Filename: debs/com.sini921.liquidglassswitch-0.0.1-9-rootless.deb
+Size: 118792
+MD5sum: 94872ffda1ce8c976037fc18871c8655
+SHA1: 4e9e563a2f3596dbd2afdb74aa80a7f07e97089c
+SHA256: 3a8f63d535a5dce1d5e9fed3266e7b64c4ee8a554cc5a4fddb024fa38798aae4
+
+Package: com.sini921.liquidglassswitch
+Name: LiquidGlassSwitch
+Description: 液态玻璃开关
+Maintainer: SINI
+Author: SINI
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, com.opa334.libsandy
+Icon: https://sini921.github.io/repo/sileodepiction/icon/liquidglassswitch.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/liquidglassswitch/js.json
+Architecture: iphoneos-arm64e
+Version: 0.0.1-9
+Installed-Size: 660
+Filename: debs/com.sini921.liquidglassswitch-0.0.1-9-roothide.deb
+Size: 117008
+MD5sum: 1d2f26f13103ab61306abccfe0f594b7
+SHA1: 2d8c5b221dfd83c7fb5beaac0d22790d12c9213b
+SHA256: 1e66c47ac8283ec371cfc40b951222d7ff867e25745d2fcc9567112c84d0a53e
+
 Package: com.sini921.lockscreenhelper
 Name: LockScreenHelper
 Description: 锁屏界面相关的简单优化
