@@ -14173,6 +14173,82 @@ Maintainer: Muzi
 Author: Muzi
 Section: Tweaks
 Architecture: iphoneos-arm64
+Version: 1.0.2
+Installed-Size: 7120
+icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
+Filename: debs/com.muzi.keyboardx-1.0.2-rootless.deb
+Size: 1781068
+MD5sum: c8127d1d957c52ef88498467359c5e09
+SHA1: 2378389e19d12ee0661424a604838a5a00658efa
+SHA256: cbe5914947ae003d7841c72f6643cef1c87aa653ccddc2db3fb7aefdb639a0b8
+
+Package: com.muzi.keyboardx
+Name: KeyboardX
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 7120
+icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
+Filename: debs/com.muzi.keyboardx-1.0.2-roothide.deb
+Size: 1775308
+MD5sum: e5077f0c2b6a02fd7dc87afe6b221621
+SHA1: 383dade3d43f737672daa4e137c5c39b80d15ebe
+SHA256: d4811a01f01a01a3debb2baf92f9a999566d5a572bdb45cf48906661b98727be
+
+Package: com.muzi.keyboardx
+Name: KeyboardX
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Installed-Size: 7236
+icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
+Filename: debs/com.muzi.keyboardx-1.0.9-rootless.deb
+Size: 1802540
+MD5sum: 345a8dd30f287f15530472b092152de2
+SHA1: 9ef5ca0c8953812e358dd52230d3fa531a3f8ea1
+SHA256: b0eed646615308a35d3fa9a2e881dd93195cdd4144919038d209c77d982b320a
+
+Package: com.muzi.keyboardx
+Name: KeyboardX
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.9
+Installed-Size: 7188
+icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
+Filename: debs/com.muzi.keyboardx-1.0.9-roothide.deb
+Size: 1795164
+MD5sum: 6aa99ced477cac34985ecb5469418aaa
+SHA1: 7af68e89f3e5d48982255a0ed16a8bcc763baa3b
+SHA256: b29c4e58e33560a8de033bbacb3e155bb9584b5a50c6a0da53a01ec6cd0bb993
+
+Package: com.muzi.keyboardx
+Name: KeyboardX
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Maintainer: Muzi
+Author: Muzi
+Section: Tweaks
+Architecture: iphoneos-arm64
 Version: 1.2.0
 Installed-Size: 4468
 icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
