@@ -6965,6 +6965,41 @@ MD5sum: f0712ebfeee3d2ecfaa73851bdd90611
 SHA1: 6202249f69ccf114d0774e5eeb36c6d0c46decb5
 SHA256: acc33a4e41d81574b1ca8ca07a5532aa6a294eec7136faa4285ad51dc5748d25
 
+Package: com.dy778.douyin
+Name: DY778
+Description: DY778 · 消息留存、特别关注、直播信息、直播间工具、星牌查询、操作确认与播放增强。适配抖音 39.9.0。
+Maintainer: DY778
+Author: DY778
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Installed-Size: 4824
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.dy778.douyin-1.1-2-rootless.deb
+Size: 1557004
+MD5sum: 4d280e882734489adb2e046f025ae1a0
+SHA1: 65ccc36f72aad9f29e9293fbedf15cfadf969bd5
+SHA256: 35fd65b37037e30bf32d180cec6929e213f705fa0d95ce82f4e1f5f9b6d48d35
+
+Package: com.dy778.douyin
+Name: DY778
+Description: DY778 · 消息留存、特别关注、直播信息、直播间工具、星牌查询、操作确认与播放增强。适配抖音 39.9.0。
+Maintainer: DY778
+Author: DY778
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm64e
+Version: 1.1-2
+Installed-Size: 4824
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.dy778.douyin-1.1-2-roothide.deb
+Size: 1556612
+MD5sum: d76569ce572a5f42695e9ca3c0fbf7f5
+SHA1: 845010176bc515bf346f547ee89f75dae71d4823
+SHA256: ac070aee2b3603d12d0818de3df324075f9e9fd29d63c52554cec3294a1b8b93
+
 Package: com.dynamicx.tweak
 Name: DynamicX
 Description: 万物皆上岛
@@ -12949,6 +12984,36 @@ Size: 731008
 MD5sum: 13b9dd724ec753b874af5ee37ed98c9d
 SHA1: 
 SHA256: 43dd92e3ddd8f1113ba97db43acb937a3bc96ec5d18be4f753c4e32babc01a73
+
+Package: com.mjh.spdbadblock
+Name: 浦大喜奔去开屏广告
+Description: 浦大喜奔 App 屏蔽越狱检测，移除开屏广告。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.2.0
+Installed-Size: 92
+Filename: debs/com.mjh.spdbadblock-0.2.0-rootless.deb
+Size: 27064
+MD5sum: 89b6de7eae1fef341d925871b6c1c2dc
+SHA1: fda413d00f0b82466e2026c4ee57e4bcc3ab79f5
+SHA256: ed01c2dbb17a3387bed760e1fc2c886918a0efb5bf53daf616149b328083e939
+
+Package: com.mjh.spdbadblock.roothide
+Name: 浦大喜奔去开屏广告 (Roothide)
+Description: 浦大喜奔 App 屏蔽越狱检测，移除开屏广告。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.2.0
+Installed-Size: 92
+Filename: debs/com.mjh.spdbadblock.roothide-0.2.0-roothide.deb
+Size: 23176
+MD5sum: 2baa96419fc7171d00426afa9b5e7c6c
+SHA1: 8964b01d779f7540643fc87cc0662834b4ac0ae4
+SHA256: d3546540625c45cbc0a256068cf5ca7c7e040921031d5d7b2637b51418db5629
 
 Package: com.mjh.threadsglass
 Name: Threads 仿液态玻璃
@@ -23282,6 +23347,37 @@ MD5sum: 215f12bc72a1eabf8815d3c0f7d383ca
 SHA1: 
 SHA256: 631bbd947f3bd6bd847a25f41b8a4e8e54aeb7382574cfb94e5bd695c058f0f1
 
+Package: com.sjj.douyin-update-block
+Name: 屏蔽抖音检测更新
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Section: Tweaks
+Maintainer: SJJ
+Depends: firmware (>= 14.0), mobilesubstrate | ellekit | com.ex.substitute
+Description: 屏蔽抖音应用内更新提示，支持抖音多开，在抖音设置中管理。
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.sjj.douyin-update-block-1.0.2-rootless.deb
+Size: 11976
+MD5sum: bab1ed03be8a3ddc05788484e8018f99
+SHA1: b76b2bfc683a0dbb4e791a734e9993916a375f1e
+SHA256: ef158f3f0f07225ad289612c9d5bc3f796691cc0b1115056db7997f55e6186d3
+
+Package: com.sjj.douyin-update-block
+Name: 屏蔽抖音检测更新
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: SJJ
+Depends: firmware (>= 14.0), mobilesubstrate | ellekit | com.ex.substitute
+Description: 屏蔽抖音应用内更新提示，支持抖音多开，在抖音设置中管理。
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.sjj.douyin-update-block-1.0.2-roothide.deb
+Size: 12084
+MD5sum: dd661830d97e1f0470f5c749e04b808a
+SHA1: 7a0d4070097eedbe739ba40747557d778d05dc86
+SHA256: 73d5623cad16029f59d563107e86e608d15d15aa9dcaf885d47207a25c659687
+
 Package: com.snail.allowlocationonce.roothide
 Version: 1.0.2
 Architecture: iphoneos-arm64e
@@ -29391,6 +29487,36 @@ Size: 17032
 MD5sum: 3b8b21e670c1b32132c8852738ec1503
 SHA1: 
 SHA256: e14a3856f7e2a4cb8ef9c425bf21fe5834b15808da209c28a30806aa0fe59b38
+
+Package: im.mjh.bodianadkiller
+Name: 波点音乐去广告
+Description: 波点音乐开屏广告和首页横幅广告拦截。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Installed-Size: 168
+Filename: debs/im.mjh.bodianadkiller-1.0.1-rootless.deb
+Size: 5672
+MD5sum: 0893d17498869af129d4f79f3f461eb2
+SHA1: 7a3f20e0b96e100bcc55022c8fb44e95448fdfec
+SHA256: 46481b4d65ddda692c13d07a3c0387f96ed4b5cb565db54276f95122c78d2edf
+
+Package: im.mjh.bodianadkiller.roothide
+Name: 波点音乐去广告 (Roothide)
+Description: 波点音乐开屏广告和首页横幅广告拦截。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 168
+Filename: debs/im.mjh.bodianadkiller.roothide-1.0.1-roothide.deb
+Size: 5644
+MD5sum: 43ac8fce4de6b93097d358e6a83b591d
+SHA1: f237791bb11674f0ac8ba87e8d0c47237ab6af50
+SHA256: cdc4326b4b2df80741355c1835abcc59977e0c45576372c9ed27fc28a5d6f984
 
 Package: im.mjh.doleo
 Name: Doleo
