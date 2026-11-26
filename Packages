@@ -18065,6 +18065,44 @@ MD5sum: 7d5ab8e3eba9bea37a9f5eea17a966b6
 SHA1: b8e41a634109d7c9807de1245e74c82130de9668
 SHA256: 90bcecafd8d1c05102e12e9ec18bafbcba772fd9efe23b135ce70116a9d8f517
 
+Package: com.sharehotspotvpn.tweak
+Name: VPN热点共享
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持 Wi-Fi+VPN 叠加与状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Networking
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Installed-Size: 948
+Filename: debs/com.sharehotspotvpn.tweak-1.2.2-rootless.deb
+Size: 94072
+MD5sum: 95ba6a7c480747f24d84d03903abea55
+SHA1: ddffa7ad801ca1ce9f99bb71bcd12f6be1cb6d01
+SHA256: df81a94aca9082e54c534b39704f8e933d2d63eaa664a26cae565ecb6e85a154
+
+Package: com.sharehotspotvpn.tweak
+Name: VPN热点共享
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持 Wi-Fi+VPN 叠加与状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Networking
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Installed-Size: 484
+Filename: debs/com.sharehotspotvpn.tweak-1.2.2-roothide.deb
+Size: 77184
+MD5sum: 70e8445f0902cfa74ce9ef3c8b58a72f
+SHA1: 32a882feff5c788ed94c81e5ba1587ad64182187
+SHA256: f12f6dba8925f3fd538e29402b00b14530480b8ba2706ed19667c0435fd26991
+
 Package: com.sileowallpaper.tweak
 Name: sileo 壁纸
 Version: 0.1.10
@@ -28513,6 +28551,82 @@ Size: 112352
 MD5sum: df852a1e8837ece41dc6a97f21f780eb
 SHA1: cfe8f4a4490b64fa4eba907b671c50ad536e2bed
 SHA256: 38d69f66ae1b1c916e582679af668bf0c83d09ff844dd2317fe23c6d2fbf7b1a
+
+Package: com.zhuifeng.dateinfo
+Name: 快捷时间胶囊
+Description: 轻点状态栏时间，展开带尖角的胶囊显示日期、星期、时分秒与实时网速，状态栏本身一个像素都不改动。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Icon: https://temple002.github.io/zhuifeng/depictions/dateinfo/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.html
+Architecture: iphoneos-arm64
+Version: 1.3.9
+Installed-Size: 792
+Filename: debs/com.zhuifeng.dateinfo-1.3.9-rootless.deb
+Size: 117936
+MD5sum: 04ec053dff7ef21827a5eaf0bdd23e8f
+SHA1: 31b7d378e9673edb14338f341100ee385e1b9187
+SHA256: 71cee2f569eabf21e232dfb621eed3cb8d94aa466db132b7c27e262be2cb3f2f
+
+Package: com.zhuifeng.dateinfo
+Name: 快捷时间胶囊
+Description: 轻点状态栏时间，展开带尖角的胶囊显示日期、星期、时分秒与实时网速，状态栏本身一个像素都不改动。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Tweaks
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Icon: https://temple002.github.io/zhuifeng/depictions/dateinfo/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/dateinfo.html
+Architecture: iphoneos-arm64e
+Version: 1.3.9
+Installed-Size: 792
+Filename: debs/com.zhuifeng.dateinfo-1.3.9-roothide.deb
+Size: 117756
+MD5sum: 0d55191de0738dccda8cfb4a3c3b6429
+SHA1: f309673cdda0b227a01026ae2c4bd391e75f5738
+SHA256: 81e277ee406ebf6fc783c63f583b1d1778b1d176f2495cc14b07ee054cf21e31
+
+Package: com.zhuifeng.nobgalbumaccess
+Name: 禁止后台读取相册
+Description: 禁止指定 App 在后台读取相册
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate | ellekit, preferenceloader, com.opa334.altlist
+Icon: https://temple002.github.io/zhuifeng/depictions/icon-nba.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/nobgalbum.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/nobgalbum.html
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Installed-Size: 440
+Filename: debs/com.zhuifeng.nobgalbumaccess-1.0.2-rootless.deb
+Size: 49676
+MD5sum: 5465961cbf3d9b0e18018eea0606c722
+SHA1: f6ae0bda610860bf37dba8c616670254c65e859e
+SHA256: 97fa5ce56e7d7f3ae55bbc7d38016a04b1a05a9e95995447cfb114d4a3ff9d2f
+
+Package: com.zhuifeng.nobgalbumaccess
+Name: 禁止后台读取相册
+Description: 禁止指定 App 在后台读取相册
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate | ellekit, preferenceloader, com.opa334.altlist
+Icon: https://temple002.github.io/zhuifeng/depictions/icon-nba.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/nobgalbum.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/nobgalbum.html
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 440
+Filename: debs/com.zhuifeng.nobgalbumaccess-1.0.2-roothide.deb
+Size: 48872
+MD5sum: 4ceddef19225a22358f34b6f8f977de3
+SHA1: 978e1e39be4daa7d1317539fbd7177f0461abf30
+SHA256: af12b9e071504234e146e7274404362049799d1aa80a15d4c939252f00ac5341
 
 Package: com.zooah.debrecords
 Name: DebRecords
