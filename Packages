@@ -29503,21 +29503,6 @@ MD5sum: 0893d17498869af129d4f79f3f461eb2
 SHA1: 7a3f20e0b96e100bcc55022c8fb44e95448fdfec
 SHA256: 46481b4d65ddda692c13d07a3c0387f96ed4b5cb565db54276f95122c78d2edf
 
-Package: im.mjh.bodianadkiller.roothide
-Name: 波点音乐去广告 (Roothide)
-Description: 波点音乐开屏广告和首页横幅广告拦截。
-Maintainer: Junhong
-Author: Junhong
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.0.1
-Installed-Size: 168
-Filename: debs/im.mjh.bodianadkiller.roothide-1.0.1-roothide.deb
-Size: 5644
-MD5sum: 43ac8fce4de6b93097d358e6a83b591d
-SHA1: f237791bb11674f0ac8ba87e8d0c47237ab6af50
-SHA256: cdc4326b4b2df80741355c1835abcc59977e0c45576372c9ed27fc28a5d6f984
-
 Package: im.mjh.doleo
 Name: Doleo
 Description: Download and keep local DEB packages in Sileo.
@@ -34309,24 +34294,6 @@ SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3630
 Icon: https://repo.cypwn.xyz/packages/Aerial-Rootless/icon.png
 Version: 5.1k
 Section: Tweaks
-Architecture: iphoneos-arm64
-Depends: mobilesubstrate, com.opa334.ccsupport
-Description: Stage Manager, redesigned for iOS. Cracked by trwmd34.
-Name: Aerial
-Author: uz.ra
-Filename: debs/xyz.cypwn.aerial-5.1k-rootless.deb
-Size: 14658652
-MD5sum: e7c6877d5ef17d6ed70513ce7374e4cd
-SHA1: 6b1d093e9af9eb74278957e847ddf140414d6bc3
-SHA256: 2c8c47f744333f832cff98d9e1f3a7ae9b99ca9b061974e0872e2854d5484fd1
-
-Package: xyz.cypwn.aerial
-Maintainer: CyPwn
-Depiction: https://repo.cypwn.xyz/depiction/3630
-SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3630
-Icon: https://repo.cypwn.xyz/packages/Aerial-Rootless/icon.png
-Version: 5.1k
-Section: Tweaks
 Architecture: iphoneos-arm64e
 Depends: mobilesubstrate, com.opa334.ccsupport
 Description: Stage Manager, redesigned for iOS. Cracked by trwmd34.
@@ -34605,55 +34572,6 @@ Size: 1222414
 MD5sum: 33d6ccc6dabafdaf692d643a83cc1e1c
 SHA1: 
 SHA256: ead6cc453897f14ad171889a5bac021f437c32e140810269f2813a704eaa4053
-
-Package: xyz.cypwn.horythia
-Maintainer: CyPwn
-Depiction: https://repo.cypwn.xyz/depiction/3628
-SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3628
-Icon: https://repo.cypwn.xyz/packages/Horythia-Rootless/icon.png
-Version: 1.2.1k
-Author: ichitaso
-Name: Horythia
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Recommends: com.opa334.ccsupport
-Section: Tweaks
-Description: Horythia controls the boundary between apps and the system.
- Per-app settings switch automatically when you open an app: Wi-Fi, cellular data, location (including spoofing), brightness, volume, language, Low Power Mode, Do Not Disturb and more.
- Ad Block: blocks ad and tracker domains inside apps and their web views, for all apps or per app, using AdGuard, Peter Lowe or StevenBlack lists.
- Hide Jailbreak (Dopamine): hides the jailbreak only while a chosen app is open, however it is opened, and restores it when you leave.
- Clean Jailbreak Traces (Dopamine): removes leftover jailbreak junk under /var.
- Control Center toggles require CCSupport. On iOS 18 and later, CCSupport may drop third-party modules after safe mode or a reboot; re-add them if that happens. Cracked by trwmd34.
-Architecture: iphoneos-arm64
-Filename: debs/xyz.cypwn.horythia-1.2.1k-rootless.deb
-Size: 347500
-MD5sum: b6d7d1168e80d278c67b3ca2173e2eb0
-SHA1: 9f78e3d2f7d14081d49279f30a02b340571ecef9
-SHA256: 8929b19ae9f1da3e150f75406dc029f6a940645e53b718f8b4d8692159d6149c
-
-Package: xyz.cypwn.horythia
-Maintainer: CyPwn
-Depiction: https://repo.cypwn.xyz/depiction/3628
-SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3628
-Icon: https://repo.cypwn.xyz/packages/Horythia-Rootless/icon.png
-Version: 1.2.1k
-Author: ichitaso
-Name: Horythia
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Recommends: com.opa334.ccsupport
-Section: Tweaks
-Description: Horythia controls the boundary between apps and the system.
- Per-app settings switch automatically when you open an app: Wi-Fi, cellular data, location (including spoofing), brightness, volume, language, Low Power Mode, Do Not Disturb and more.
- Ad Block: blocks ad and tracker domains inside apps and their web views, for all apps or per app, using AdGuard, Peter Lowe or StevenBlack lists.
- Hide Jailbreak (Dopamine): hides the jailbreak only while a chosen app is open, however it is opened, and restores it when you leave.
- Clean Jailbreak Traces (Dopamine): removes leftover jailbreak junk under /var.
- Control Center toggles require CCSupport. On iOS 18 and later, CCSupport may drop third-party modules after safe mode or a reboot; re-add them if that happens. Cracked by trwmd34.
-Architecture: iphoneos-arm64e
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/xyz.cypwn.horythia-1.2.1k-roothide.deb
-Size: 345892
-MD5sum: 36f1f022c9cffbcec8ada21137eb5c9f
-SHA1: 00685dd18c3567f4701322c483e2bfece420f00e
-SHA256: 464a56bb24caabcba11f7e145a0880f5bcabbe29a5cdf90b2fe8d0c2aae481f7
 
 Package: xyz.cypwn.killbackground13
 Maintainer: CyPwn
