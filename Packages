@@ -17971,6 +17971,41 @@ MD5sum: 48c0ddd465f2accbfa58f15c8c82fe27
 SHA1: 
 SHA256: d5b4ed82043e67f304631a23474ecf6022e29c4f0b88e206e2c4621098d228ad
 
+Package: com.sergy.immortalizer
+Name: Immortalizer 真后台
+Description: Foreground your apps even if they are in the background!
+Maintainer: sergy
+Author: sergy
+Section: Tweaks
+Icon: https://media.havoc.app/672ab6f3a80bcf5e2e0abe8c?w=1920&q=75
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 2.0.0-1
+Installed-Size: 652
+Filename: debs/com.sergy.immortalizer-2.0.0-1-rootless.deb
+Size: 42844
+MD5sum: 1bcb641ce1e945bfaa85ab473f1b3a69
+SHA1: f8585a1c14ed4e4f904a02cc4b6e5bc74d262e3a
+SHA256: d8a68f014e78900662b9d938aeb9ad63e6f95685a5d1e2e1e76e3aac8a81fa5f
+
+Package: com.sergy.immortalizer
+Name: Immortalizer 真后台
+Description: Foreground your apps even if they are in the background!
+Maintainer: sergy
+Author: sergy
+Section: Tweaks
+Icon: https://media.havoc.app/672ab6f3a80bcf5e2e0abe8c?w=1920&q=75
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 2.0.0-1
+Installed-Size: 652
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sergy.immortalizer-2.0.0-1-roothide.deb
+Size: 41344
+MD5sum: 9df6b021525e63c02c2253357fd3c995
+SHA1: e5f9cbf9954ec659b7ce8133a7ad05a41295e582
+SHA256: 42f4a3596fae376e15ce49548189bcc16aacbaaad041354e7c4a1d3db0c962bc
+
 Package: com.shadow.h5ggapp
 Name: H5GG跨进程悬浮版(iOS15)
 Description: H5GG跨进程iOS15专用悬浮版(该版本不支持iPad的原生分屏浮动, 如有需要可使用H5GG跨进程普通版), Credits: BawAppie and Akusio, Discord https://discord.gg/h5gg
