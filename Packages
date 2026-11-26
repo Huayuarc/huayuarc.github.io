@@ -7453,6 +7453,22 @@ MD5sum: 3f7ccfd5da3e745e80e2f01084c22409
 SHA1: b7ed4a189b760762e6c651aafc2141539e37e4d3
 SHA256: cb08b91f2e43e18bc310e5488b44a095a589f3bb1834b348c817547236c2ea5d
 
+Architecture: iphoneos-arm64
+Author: YUE
+Depends: mobilesubstrate, preferenceloader
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Installed-Size: 1476
+Maintainer: YUE
+Name: 通知消散
+Package: com.example.noticelisttweak
+Section: Tweaks
+Version: 1.0.13+h2l1
+Filename: debs/com.example.noticelisttweak-1.0.13+h2l1-rootless.deb
+Size: 344680
+MD5sum: 23df2407178e871aefefaad72698c286
+SHA1: e5b61c9eb35633c4831c866fa4448137a1d4bb88
+SHA256: a2bada09e67c75c87b0baff6c43f59b82f86c0d9766e73347b46c6f33e6268a3
+
 Package: com.example.safesim
 Name: SafeSIM
 Maintainer: 半生年华
