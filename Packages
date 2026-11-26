@@ -34208,6 +34208,39 @@ MD5sum: 99c570f1f1fb0973c4957331da053382
 SHA1: 
 SHA256: c1671058a387e7c92870c204dd19d0ed02a514f18a0279e2f1d55e7cb5568c81
 
+Package: xyz.cypwn.cahighfpsuzra
+Maintainer: CyPwn
+Icon: https://repo.cypwn.xyz/packages/CAHighFPS-Rootless/icon.png
+Name: CAHighFPS
+Description: Make CoreAnimation apps use the highest available FPS. Custom FPS option added by uz.ra (@ChromiumCandy)
+Author: PoomSmart & uz.ra
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
+Architecture: iphoneos-arm64
+Version: 2.1.2
+Filename: debs/xyz.cypwn.cahighfpsuzra-2.1.2-rootless.deb
+Size: 12640
+MD5sum: 84322fe647dae0f73ba3f9f35be74684
+SHA1: 91563a8259350966ea8a47f1750ff7cc15d9e77f
+SHA256: e6da62c6b5aa0fcb55f1479fb569422c23e651a65e2be1517bef4de0df6a6d3f
+
+Package: xyz.cypwn.cahighfpsuzra
+Maintainer: CyPwn
+Icon: https://repo.cypwn.xyz/packages/CAHighFPS-Rootless/icon.png
+Name: CAHighFPS
+Description: Make CoreAnimation apps use the highest available FPS. Custom FPS option added by uz.ra (@ChromiumCandy)
+Author: PoomSmart & uz.ra
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
+Architecture: iphoneos-arm64e
+Version: 2.1.2
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/xyz.cypwn.cahighfpsuzra-2.1.2-roothide.deb
+Size: 12048
+MD5sum: a7f9c4c5cc7b66ff05f77b286757917d
+SHA1: d0c9b86bcab928c80c3a554a3cf21c98829ed072
+SHA256: 67cd955be1383a233d8484870a2ea5ccc802d2a0cc8349d583638d4f7f1078d8
+
 Package: xyz.cypwn.fugap
 Maintainer: CyPwn
 Depiction: https://repo.cypwn.xyz/depiction/1723
