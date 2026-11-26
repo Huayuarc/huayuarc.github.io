@@ -1635,6 +1635,39 @@ MD5sum: 943001184e18566313a77dff5e8fcd08
 SHA1: 
 SHA256: 970a049020e570feaab472d84bd4f3c96174951392712adf2c57f5de814e4dc4
 
+Package: com.0xkuj.ccbackgrounder17
+Name: CCBackgrounder17
+Description: Add "Toggle Background Mode" action to Control Center, with an optional auto-toggle for chosen apps.
+Maintainer: 0xkuj
+Author: 0xkuj
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport, com.opa334.altlist, firmware (>= 17.0)
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 568
+Filename: debs/com.0xkuj.ccbackgrounder17-1.0.0-rootless.deb
+Size: 36404
+MD5sum: 8cbd4e8f6fa0ab9a3926d7f6353c3db4
+SHA1: fbe38e7428bf4e11371acc6b97d821d485e15437
+SHA256: 1578b7f39fb8120fd42b3cc96cb818acd1412d04e49b8955de560416a27e29a8
+
+Package: com.0xkuj.ccbackgrounder17
+Name: CCBackgrounder17
+Description: Add "Toggle Background Mode" action to Control Center, with an optional auto-toggle for chosen apps.
+Maintainer: 0xkuj
+Author: 0xkuj
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport, com.opa334.altlist, firmware (>= 17.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 568
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.0xkuj.ccbackgrounder17-1.0.0-roothide.deb
+Size: 36304
+MD5sum: f879ea35c044758aa19f4288a6787243
+SHA1: 7621ff30a5ae279273145a026593a2106736acb5
+SHA256: 1b359293e32b8cb1009b6b86430f1bba99125e4bde827a129bd4fa55b57fe225
+
 Package: com.0xkuj.safarix
 Version: 1.9.9.1
 Icon: https://huayuarc.github.io/icon/SafariX.png
