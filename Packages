@@ -13000,6 +13000,21 @@ MD5sum: 89b6de7eae1fef341d925871b6c1c2dc
 SHA1: fda413d00f0b82466e2026c4ee57e4bcc3ab79f5
 SHA256: ed01c2dbb17a3387bed760e1fc2c886918a0efb5bf53daf616149b328083e939
 
+Package: com.mjh.spdbadblock
+Name: 浦大喜奔去开屏广告
+Description: 浦大喜奔 App 屏蔽越狱检测，移除开屏广告。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.2.0
+Installed-Size: 92
+Filename: debs/com.mjh.spdbadblock-0.2.0-roothide.deb
+Size: 23128
+MD5sum: 3b08aba87b14727a12eafc64075fc334
+SHA1: c1c536d61ca71dab374c4779ba541c7872dd14b8
+SHA256: 6de4b426cfbf7fda689ceb1db83a7fa009d1e049c85177c5542191bb72b241a0
+
 Package: com.mjh.threadsglass
 Name: Threads 仿液态玻璃
 Description: Simulated glass tab-bar surface for older iOS releases
@@ -29487,6 +29502,21 @@ Size: 5672
 MD5sum: 0893d17498869af129d4f79f3f461eb2
 SHA1: 7a3f20e0b96e100bcc55022c8fb44e95448fdfec
 SHA256: 46481b4d65ddda692c13d07a3c0387f96ed4b5cb565db54276f95122c78d2edf
+
+Package: im.mjh.bodianadkiller
+Name: 波点音乐去广告
+Description: 波点音乐开屏广告和首页横幅广告拦截。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 168
+Filename: debs/im.mjh.bodianadkiller-1.0.1-roothide.deb
+Size: 5636
+MD5sum: 3fae41b4e62a77c84cd65646ef8e3400
+SHA1: 2fda083ca54bd6f44e3cd4bba48805bfa3583a29
+SHA256: 9c5a640c7e23ae23c81b58691e7c9e2b429c3de9b8d68574c5691d9fc9365461
 
 Package: im.mjh.bodianadkiller.roothide
 Name: 波点音乐去广告 (Roothide)
