@@ -7437,6 +7437,22 @@ MD5sum: 15c69ed0a3f0d102a3cceb60d5f7b751
 SHA1: 
 SHA256: e63acda2b00d8a781f964e87cbafa2efefb0150ca70358abe1333a1fde6a7e5f
 
+Package: com.example.noticelisttweak
+Name: 通知消散
+Version: 1.0.13
+Architecture: iphoneos-arm64e
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Maintainer: YUE
+Author: YUE
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 1495
+Filename: debs/com.example.noticelisttweak-1.0.13-roothide.deb
+Size: 344776
+MD5sum: 3f7ccfd5da3e745e80e2f01084c22409
+SHA1: b7ed4a189b760762e6c651aafc2141539e37e4d3
+SHA256: cb08b91f2e43e18bc310e5488b44a095a589f3bb1834b348c817547236c2ea5d
+
 Package: com.example.safesim
 Name: SafeSIM
 Maintainer: 半生年华
@@ -8193,12 +8209,11 @@ Section: Tweaks
 Version: 2.1.9
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
 Architecture: iphoneos-arm64
-Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Filename: debs/com.HBWechatHelper.ailun-2.1.9-rootless.deb
-Size: 7223088
-MD5sum: eb3730949b4d941e3d34189aa2f4bd2c
-SHA1: 
-SHA256: ef476a2db80e13bf33d5a2b7d31eccd6a0401fe81f6cef289277e3e343654ac0
+Size: 7219084
+MD5sum: 0c3d274baa5f905349a5d54fdd6a91f6
+SHA1: 775a8acfd3c1e57c8c15b20485e5f2c315333463
+SHA256: 6d45db3c41bf38b150f164ebec1dc31dbbee4369762b65768aa64ea69fc3514e
 
 Author: HuangBai <QQ:1343309363@qq.com>
 dev:HuangBai
@@ -8212,12 +8227,11 @@ Version: 2.1.9
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
 Architecture: iphoneos-arm64e
 Pre-Depends: rootless-compat(>= 0.9)
-Icon: https://huayuarc.github.io/icon/WeChat.jpg
 Filename: debs/com.HBWechatHelper.ailun-2.1.9-roothide.deb
-Size: 7089044
-MD5sum: c4200cf3cc38946b92478f69c8796adc
-SHA1: 
-SHA256: c5fc731dd8e34e732ceda16402bce7bccde0c20cce9e8382c873b8f9c151f40f
+Size: 7094960
+MD5sum: 8ef51af364b5cd973a9f919b6c1a5044
+SHA1: 24bc86c2ed09826f0992e88cf867e3fefc345c9e
+SHA256: 2d2ecd4b564b4f3c11f558664b0b7560dc2251571caef6fcb343a5e5cbd940c9
 
 Package: com.hierarch.dykiller
 Name: DYKiller
@@ -16117,6 +16131,24 @@ MD5sum: c0122531c24e064878adddfba601b0d7
 SHA1: 
 SHA256: e6f53ad20a3dd6d5f68e223ea1e313dce8199b6172718108532721827cee097f
 
+Package: com.ning.simcontrol
+Priority: optional
+Section: Tweaks
+Maintainer: Ning
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Depends: firmware (>= 16.0), firmware (<< 18.0), com.opa334.ccsupport
+Pre-Depends: rootless-compat (>= 0.9)
+Description: Native SIM switches for the system Control Center (rootless).
+Name: SIM卡切换
+Author: Ning
+icon: https://huayuarc.github.io/icon/simcontrol.png
+Filename: debs/com.ning.simcontrol-1.0.4-roothide.deb
+Size: 125204
+MD5sum: 56739263c3c57e659568b66747bdebcf
+SHA1: 2f95447749c795523f7e3905b52af2bdbc0a40ab
+SHA256: b9f6303db966ada095d40ffb59c761b71ead113b96c3876f953ef36eb0a89ade
+
 Package: com.noads.tweka
 Name: NoAdsX
 Description: 去除广告。
@@ -23843,6 +23875,39 @@ MD5sum: 015119677d19b72ad5350585dafea3c0
 SHA1: 
 SHA256: 7e69e53054e80af1ee8e32a5318c607f2836b88be42a161dc45d68171505d361
 
+Package: com.sunny-guo.replace5gplus
+Name: Replace5GA
+Description: 把状态栏5G+替换成5Gᴀ，2.0版新增适配CarPlay
+Maintainer: Sunny-Guo
+Author: Sunny-Guo
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 2.0
+Installed-Size: 168
+Filename: debs/com.sunny-guo.replace5gplus-2.0-rootless.deb
+Size: 4228
+MD5sum: 0f6b8e903a818becf35782f300e8c94a
+SHA1: 9cffe02e6e3ab1c664f53170ffd96fdb8e863bd8
+SHA256: fcbb6b794f948b056cb741386f4b3caee8db1a52d29161e7ea3b60667a456ccd
+
+Package: com.sunny-guo.replace5gplus
+Name: Replace5GA
+Description: 把状态栏5G+替换成5Gᴀ，2.0版新增适配CarPlay
+Maintainer: Sunny-Guo
+Author: Sunny-Guo
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 2.0
+Installed-Size: 168
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sunny-guo.replace5gplus-2.0-roothide.deb
+Size: 4088
+MD5sum: 3d61a9d58331044c67d9fd3bf15bbf0c
+SHA1: d3b9261aee17ba6c7a8779bf0cb1908408071fdd
+SHA256: 6173c6824d9633599375ab243c1b8b7f6600e7f8eeb67e614aa6ef470afc2e6b
+
 Package: com.sunshinesong.native-island
 Name: native-island-notifier
 Description: 原生岛通知，从简即可。仅仅支持iOS16.0+
@@ -27515,6 +27580,45 @@ MD5sum: d0d274ffe787efc05990da8d0da61574
 SHA1: ff146e9b0e2df9b6801d972aa21751f1ce5ca3f2
 SHA256: 3c6e63a9ec7b02f3516c01bd057582afe35e8935ca9edb8b1f81489443ee5042
 
+Package: com.xuuz.douyinhelper
+Name: 抖音助手
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64
+Version: 2.3-3
+Installed-Size: 17840
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.3-3-rootless.deb
+Size: 6881664
+MD5sum: 3c548b0bf5dcbaa4fc423f5f6620c817
+SHA1: 44cf276613387a3f08f6f62f6354042a9177669f
+SHA256: 269a03ed79b932f9ac29387125b23ab44f4a64a6a33fa3d9cf4cc5355f6368f6
+
+Package: com.xuuz.douyinhelper
+Name: 抖音助手
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64e
+Version: 2.3-3
+Installed-Size: 17840
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.3-3-roothide.deb
+Size: 6887532
+MD5sum: 9a15c7de11445db043749fed3f6584ba
+SHA1: 39052a7a1022c0835eba1a9ea9c7a51a22655b60
+SHA256: afe8f38b43750907de1daaa41866328fb4c3c89e0d13b89ac9f272f74ceddeab
+
 Package: com.xybp888.callassist16.dopamine
 Name: 电话助手iOS16
 Version: 3.1.1
@@ -30558,6 +30662,28 @@ Size: 4165268
 MD5sum: 76f0002e51a5569f85a61682065d0129
 SHA1: 7198e02eab10cf91243855c6f1097df5017c91f9
 SHA256: cc93ff4eef98cdf192b07a4e816a5f4fc04cb6678f6b3444a89383e9f6832730
+
+Package: jp.soh.reprovisions
+Name: ReSign 苹果 ID 续签
+Description: 使用 苹果 ID 续签 IPA
+ * 仅支持 iOS 17 Relaxin 越狱
+ * 解决非巨魔设备签名 Relaxin IPA 问题
+ * Re-signing tool for iOS jailbreak
+Depends: firmware (>= 15.0), zip, unzip
+Version: 1.1.164
+Section: Utilities
+Priority: optional
+Architecture: iphoneos-arm64e
+Maintainer: AmorCool <admin@reprovision.dev>
+Author: Coolapk@Analytics
+Icon: https://TrollStoreX.Github.io/sileodepiction/ReSign/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ReSign/js.json
+Conflicts: jp.soh.reprovision
+Filename: debs/jp.soh.reprovisions-1.1.164-roothide.deb
+Size: 4200184
+MD5sum: 1f860128f2100b9974a79655e50f8281
+SHA1: 9da0c291b98626393f66718b1d1ecb35d2422dcd
+SHA256: f5cf8db4356bb24a6107eb639ba03ccd20ac183b44091883cc5a772f482d77d3
 
 Author: XsF1re, ichitaso, level3tjg, LF, AD
 Maintainer: alias20, LF, AD
