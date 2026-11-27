@@ -17977,6 +17977,108 @@ Package: com.sbcpu.floating
 Name: 灵动监测
 Maintainer: MoWang
 Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（更新功能双击浮窗可锁定当前位置，反之解锁）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 5.6
+Installed-Size: 3228
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.6-rootless.deb
+Size: 491984
+MD5sum: 28568bc7a8bb78b4abb49d8b42f471a2
+SHA1: 19e52e2162292bc80062f2b849375fa233037b57
+SHA256: 02748f145e319ae1faddde2bcc93955a6a2e7e010738c88a05c096d895d11272
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（更新功能双击浮窗可锁定当前位置，反之解锁）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 5.6
+Installed-Size: 3212
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.6-roothide.deb
+Size: 492568
+MD5sum: 374659dce475b89da48df4232bd8ab76
+SHA1: 06bf84779e8b5ab065cfa6121a2f45b319b352db
+SHA256: 033d16b28f646983e643b97713289bb8ef57204700c79ef7ad72f6482693a10a
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（支持胶囊文字实时反色）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 5.9
+Installed-Size: 3440
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.9-rootless.deb
+Size: 468152
+MD5sum: 1e1c4bf38930ef05b0016cad6e6327bf
+SHA1: 644eb1560e06f0eda3d7497125ad8486c39e41fc
+SHA256: 4e27fe927c4fd519fc649481fe793ab222272c6d1fc7d447de161205661f0083
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（实时反色支持胶囊）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 5.9
+Installed-Size: 3440
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-5.9-roothide.deb
+Size: 464868
+MD5sum: 506be2f39c33a98def774848a0f25750
+SHA1: c66de93275a81f7055c952e4fc6cf49864f9707a
+SHA256: 2cef22bc284aba7b2daaaeb473e1fddaadc60e9586d664d203e74f6194f14430
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复浮窗文字横屏不跟随，修复温控一些 bug，新增灵动岛保护开关，原双击浮窗打开设置改为双击浮窗锁定浮窗位置）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 6.0
+Installed-Size: 3444
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-6.0-rootless.deb
+Size: 474176
+MD5sum: 8bd3cbb09d399aa5e9dff743a4929a49
+SHA1: 6bb4d85d2f3502bcc00a4eeff6fe4b8d8e9ca9ea
+SHA256: 33b45d72db430e925dc1b22b43532d606c3795ab78cafe2a7ca788a1ee50249f
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复浮窗文字横屏不跟随，修复温控一些 bug，新增灵动岛保护开关，原双击浮窗打开设置改为双击浮窗锁定浮窗位置）
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 6.0
+Installed-Size: 3444
+icon: https://huayuarc.github.io/icon/floating.jpg
+Filename: debs/com.sbcpu.floating-6.0-roothide.deb
+Size: 472784
+MD5sum: 6abcb9a154b2f9d64e8a72d3e79fc6fb
+SHA1: f6a19095e89c2aa21e367d773322806c5eb15432
+SHA256: 67c762f03dee4780cf7abb0b9c1f784c70858f926bb027a875818b20d0a90004
+
+Package: com.sbcpu.floating
+Name: 灵动监测
+Maintainer: MoWang
+Author: MoWang
 Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。（修复了一下浮窗文字排版）
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
