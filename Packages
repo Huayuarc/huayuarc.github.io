@@ -4012,6 +4012,38 @@ MD5sum: 06f63c129769e030d62339403830e536
 SHA1: 
 SHA256: 523e2a9376ed17d4569b6a5e0f65bb16661e85cc05109ba79abe94e13467ba5d
 
+Package: com.charlieleung.watchpairingcompat
+Name: Watch Pairing Compat
+Description: 仅在 iOS 17 上测试，并成功与watch OS 26.2、26.7和 27.2.1配对。安装插件后需要重启用户空间！
+Maintainer: Charlie Leung
+Author: Charlie Leung
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Installed-Size: 3976
+Filename: debs/com.charlieleung.watchpairingcompat-0.1.0-rootless.deb
+Size: 774620
+MD5sum: fb06039338110635332925b38030270f
+SHA1: 1c8e606d91e8565cf4d7067ed2a291b92e9b33de
+SHA256: 1dbd9910d34bf20a887dd9eccbae4db20d6ae8abf31da2048ab0335e1d22df8d
+
+Package: com.charlieleung.watchpairingcompat
+Name: Watch Pairing Compat
+Description: 仅在 iOS 17 上测试，并成功与watch OS 26.2、26.7和 27.2.1配对。安装插件后需要重启用户空间！
+Maintainer: Charlie Leung
+Author: Charlie Leung
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Installed-Size: 3976
+Filename: debs/com.charlieleung.watchpairingcompat-0.1.0-roothide.deb
+Size: 774384
+MD5sum: 29c2394effe1274cd001e4b47655e10a
+SHA1: 03908a5038bd3d8d05e6464f9d58a68f2db879b2
+SHA256: 1bf46fbf1e6bafcc75f043262317bfb68c8fda3d9048602bc58c11347cbc6153
+
 Package: com.choco.tgextra
 Name: Telegram TGExtra
 Description: Telegram 增强插件
@@ -6786,6 +6818,46 @@ MD5sum: 9eafcf35f2d649a67d874153e8405129
 SHA1: 
 SHA256: c1b6bff62897baadc374e3579fce775d86bedd28613f27a9ba51f993ec96df96
 
+Package: com.doubao.weatherclock
+Name: 时间卡片
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Maintainer: 季伯腾
+Author: 季伯腾
+Description: 点击状态栏时间弹出时间卡片，展示秒级时钟、实时网速、开机时长、充电功率与电池温度。
+  可选开启天气预报：当前天气、体感温度、未来三天预报与穿衣提醒，按设置填写的天气城市查询。
+  支持自定义卡片背景色与字体颜色；各信息项可在设置中独立开关，可填写个性名称。
+  提供 rootless(无根) 与 roothide(隐根) 两种安装包，支持 iOS 15.0-17.3.1。
+Architecture: iphoneos-arm64
+Version: 2.2.3
+Installed-Size: 712
+Icon: https://sini921.github.io/repo/sileodepiction/icon/weatherclock.png
+Filename: debs/com.doubao.weatherclock-2.2.3-rootless.deb
+Size: 96828
+MD5sum: 04942ed90f3205ecb8d9f5693b6e1236
+SHA1: 8c61df93de33fef75136ea895ad1f98bb44df1c4
+SHA256: e70de909f3582c343c7bd3c7f315de7e3cd39989451cb02ae653542a83514761
+
+Package: com.doubao.weatherclock
+Name: 时间卡片
+Section: 越狱插件
+Depends: mobilesubstrate, firmware (>= 15.0)
+Maintainer: 季伯腾
+Author: 季伯腾
+Description: 点击状态栏时间弹出时间卡片，展示秒级时钟、实时网速、开机时长、充电功率与电池温度。
+  可选开启天气预报：当前天气、体感温度、未来三天预报与穿衣提醒，按设置填写的天气城市查询。
+  支持自定义卡片背景色与字体颜色；各信息项可在设置中独立开关，可填写个性名称。
+  提供 rootless(无根) 与 roothide(隐根) 两种安装包，支持 iOS 15.0-17.3.1。
+Architecture: iphoneos-arm64e
+Version: 2.2.3
+Installed-Size: 712
+Icon: https://sini921.github.io/repo/sileodepiction/icon/weatherclock.png
+Filename: debs/com.doubao.weatherclock-2.2.3-roothide.deb
+Size: 96744
+MD5sum: 7f9554ad109ab3dd306e82c65c7b5757
+SHA1: 73cb3cbd0eecd84d9db18cd82297712c2ea70cab
+SHA256: 37713c73ead0cee6954e705fef2633e30b41ac1741e4136ee96a7ca409df98f0
+
 Package: com.dvntm.infuseplus
 Name: Infuse Plus
 Author: dvntm
@@ -7536,6 +7608,38 @@ Size: 344680
 MD5sum: 23df2407178e871aefefaad72698c286
 SHA1: e5b61c9eb35633c4831c866fa4448137a1d4bb88
 SHA256: a2bada09e67c75c87b0baff6c43f59b82f86c0d9766e73347b46c6f33e6268a3
+
+Package: com.example.noticelisttweak
+Name: 通知消散
+Version: 1.0.21
+Architecture: iphoneos-arm64e
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Maintainer: YUE
+Author: YUE
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 1632
+Filename: debs/com.example.noticelisttweak-1.0.21-roothide.deb
+Size: 375024
+MD5sum: 0cb85cc9b017739854fddb30e387e45a
+SHA1: cfc2a369b2db40d76d4a3904c2e49417493c8949
+SHA256: c458f5f8a60d7f8a6b714714acc43a7baf6abd724f7d4d2b449669c75e387bae
+
+Architecture: iphoneos-arm64
+Author: YUE
+Depends: mobilesubstrate, preferenceloader
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Installed-Size: 1613
+Maintainer: YUE
+Name: 通知消散
+Package: com.example.noticelisttweak
+Section: Tweaks
+Version: 1.0.21+h2l1
+Filename: debs/com.example.noticelisttweak-1.0.21+h2l1-rootless.deb
+Size: 375264
+MD5sum: d0a87c6b9e417a1e9a5e32a41fb7d530
+SHA1: 6bf76dadc5e91b05f5bef488e9cad703543a4884
+SHA256: 7b6b308f02dda36bbb33c1277f1ed71f12611f5719f7d6851607b496cd2b9a16
 
 Package: com.example.safesim
 Name: SafeSIM
