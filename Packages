@@ -27897,44 +27897,6 @@ Priority: optional
 Maintainer: XUUᶻ
 Author: XUUᶻ
 Architecture: iphoneos-arm64
-Version: 2.2-7
-Installed-Size: 17708
-icon: https://huayuarc.github.io/icon/douyin.jpg
-Filename: debs/com.xuuz.douyinhelper-2.2-7-rootless.deb
-Size: 6855260
-MD5sum: b38ac181292a3588fc265a498c38f9dc
-SHA1: 
-SHA256: 8d7b7c34b521e38ec270bc5fb601708ef82b81e3aef4ea808f865aacb3e1d061
-
-Package: com.xuuz.douyinhelper
-Name: 抖音助手
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Section: Tweaks
-Depends: firmware (>= 5.0), mobilesubstrate
-Priority: optional
-Maintainer: XUUᶻ
-Author: XUUᶻ
-Architecture: iphoneos-arm64e
-Version: 2.2-7
-Installed-Size: 17708
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/douyin.jpg
-Filename: debs/com.xuuz.douyinhelper-2.2-7-roothide.deb
-Size: 6851568
-MD5sum: 3664e752415fb9f9c31dad6942e6967d
-SHA1: 
-SHA256: 8f0babe3fd98b1a4097e1817360c2bbbbf598d8468a094e7d616f5250c731556
-
-Package: com.xuuz.douyinhelper
-Name: 抖音助手
-Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
-Homepage: https://tc.uddz.cc/xuuz
-Section: Tweaks
-Depends: firmware (>= 5.0), mobilesubstrate
-Priority: optional
-Maintainer: XUUᶻ
-Author: XUUᶻ
-Architecture: iphoneos-arm64
 Version: 2.2-8
 Installed-Size: 17740
 icon: https://huayuarc.github.io/icon/douyin.jpg
@@ -28080,6 +28042,45 @@ Size: 6887532
 MD5sum: 9a15c7de11445db043749fed3f6584ba
 SHA1: 39052a7a1022c0835eba1a9ea9c7a51a22655b60
 SHA256: afe8f38b43750907de1daaa41866328fb4c3c89e0d13b89ac9f272f74ceddeab
+
+Package: com.xuuz.douyinhelper
+Name: 抖音助手
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64
+Version: 2.3-4
+Installed-Size: 17872
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.3-4-rootless.deb
+Size: 6889108
+MD5sum: b960665ce397c9a8f5041be7d83e546e
+SHA1: 74aa5ad7a827941e9fd3a6b4a0747bc2c3b6e275
+SHA256: 553ee349ee6939443ccf5540c451c2c0c9afd466f23c9ef18c99949ac86f6adf
+
+Package: com.xuuz.douyinhelper
+Name: 抖音助手
+Description: 三指长按/设置页面/长按视频/聊天界面➕菜单 调出！
+Homepage: https://tc.uddz.cc/xuuz
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: XUUᶻ
+Author: XUUᶻ
+Architecture: iphoneos-arm64e
+Version: 2.3-4
+Installed-Size: 17872
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/douyin.jpg
+Filename: debs/com.xuuz.douyinhelper-2.3-4-roothide.deb
+Size: 6889832
+MD5sum: a7fa6f421f6db0dbc4092c6bbcf4d641
+SHA1: 7ce459e40bd9fb40ae1cf2154362df88ee2f1869
+SHA256: 29852cfabc13dfb827420f6a1707eee91cfbf7299aad069d587f70411cfd7c67
 
 Package: com.xybp888.callassist16.dopamine
 Name: 电话助手iOS16
@@ -29775,6 +29776,38 @@ MD5sum: e05b6bc1c6aa3bcdfc7a670f46e85c29
 SHA1: 657449999213fff6ed71f8be6175c90932cb3065
 SHA256: e071074679d27822fbf3ffbce552861995b78d1395294c9485a06c83160e8301
 
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 2.2.10
+Installed-Size: 15708
+icon: https://huayuarc.github.io/icon/hongguo.png
+Filename: debs/hongguofn-2.2.10-rootless.deb
+Size: 7986560
+MD5sum: b69db7e2b27d2195ad4a249b449b2c5b
+SHA1: c2d1fa8418aa72d8945e2a60eb7c0c814f27d7ca
+SHA256: 647e104d87294cd853ee08940c8337692ad07beba1f5016d697274e8eef38151
+
+Package: hongguofn
+Name: 红果净化
+Maintainer: Junhong
+Author: Junhong
+Description: 适用于红果短剧与红果漫剧，支持液态玻璃底栏、界面净化、广告控制、播放增强与视频保存。
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.2.10
+Installed-Size: 15792
+icon: https://huayuarc.github.io/icon/hongguo.png
+Filename: debs/hongguofn-2.2.10-roothide.deb
+Size: 8047868
+MD5sum: 8b7b45ca9b19a3701dc2803e2038aa7b
+SHA1: e9c0560e692ff2dc7f2107bf6c64b4043ea87808
+SHA256: 9f49381b4e2b2255f1ff31dc9cb22fe72106ac6f34a11bfc1488cfc162b5f169
+
 Package: hypicfix
 Name: 醒图国际版修复工具
 Description: 修复醒图国际版 Hypic 越狱环境下的弹窗问题，不再提示非官方版，修复模板无法拉取的问题。
@@ -29808,6 +29841,38 @@ Size: 17032
 MD5sum: 3b8b21e670c1b32132c8852738ec1503
 SHA1: 
 SHA256: e14a3856f7e2a4cb8ef9c425bf21fe5834b15808da209c28a30806aa0fe59b38
+
+Package: im.mjh.abcjailbreakbypass
+Name: 农行越狱检测屏蔽
+Description: 中国农业银行 App 屏蔽越狱检测，阻止越狱风险提示与异常终止。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 236
+icon: https://huayuarc.github.io/icon/nyyh.jpg
+Filename: debs/im.mjh.abcjailbreakbypass-1.0.0-rootless.deb
+Size: 62500
+MD5sum: 84ba7099eade358eb957d72e691d2715
+SHA1: ee84f71c6f5369bcb71de3e53a824fa5fe23e768
+SHA256: acddbc760985ddd9a06dc3ac94eace01e9001d2af8d9caa758b391932bece86a
+
+Package: im.mjh.abcjailbreakbypass
+Name: 农行越狱检测屏蔽
+Description: 中国农业银行 App 屏蔽越狱检测，阻止越狱风险提示与异常终止。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 236
+icon: https://huayuarc.github.io/icon/nyyh.jpg
+Filename: debs/im.mjh.abcjailbreakbypass-1.0.0-roothide.deb
+Size: 57576
+MD5sum: 7dffed489bca87c322b07da91d9fc826
+SHA1: 7ba48a7ad34b39107e20503c78edb6d794ff482e
+SHA256: e2476633bc8de1d879e9039056d880267dffbe8162747edbb3a8c3bd3590c465
 
 Package: im.mjh.bodianadkiller
 Name: 波点音乐去广告
@@ -29956,6 +30021,108 @@ MD5sum: f7bac3bf369a280655473147bbb259cd
 SHA1: 
 SHA256: fc55e3a0f5fe33e4188685461f865154e022223af32f6fba2a408bb6c5bf8bca
 
+Package: im.mjh.fakeperm
+Name: 虚拟权限 · Fake Permission
+Description: 虚拟权限 · Fake Permission — 针对任意 App 单独配置虚拟权限，防止隐私被过度索取。
+ 支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟拍照)、麦克风伪装、蓝牙伪装、剪贴板伪装、传感器防摇一摇、WiFi模拟(标识/地址/DNS/无线参数/一键随机/历史)、屏蔽代理检测、机型伪装、iOS版本伪装、地区伪装、语言伪装、UUID标识符伪装(IDFV/IDFA)、App版本伪装、屏蔽截图/录屏检测、配置导入导出、App暂停/恢复。
+ Per-app fake permission control: notification, push, location (map picker/address search/altitude/history), photos, contacts, calendar, camera (force photo library/fake capture), microphone, bluetooth, clipboard, sensor (shake-ad blocking), WiFi spoofing (identity/addresses/DNS/radio parameters/random profiles/history), proxy detection blocking, device model spoofing, iOS version spoofing (built-in database), region spoofing (built-in picker), language spoofing (built-in picker), identifier spoofing (IDFV/IDFA), app version spoofing, screenshot/recording detection blocking, config import/export, app pause/resume.
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm
+Version: 9.0.0
+Installed-Size: 6756
+icon: https://huayuarc.github.io/icon/fakeperm.png
+Filename: debs/im.mjh.fakeperm-9.0.0-rootful.deb
+Size: 3007968
+MD5sum: 3b16948e5a5ca7b46b6cdc2cc8a101cd
+SHA1: eafe1df728cce0d4e2487dddfca0ec1ffc302c17
+SHA256: ba136b3be6c24bfa4e9a5da0bf52760f0978de280be7a64882126abfdb201e3b
+
+Package: im.mjh.fakeperm
+Name: 虚拟权限 · Fake Permission
+Description: 虚拟权限 · Fake Permission — 针对任意 App 单独配置虚拟权限，防止隐私被过度索取。
+ 支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟拍照)、麦克风伪装、蓝牙伪装、剪贴板伪装、传感器防摇一摇、WiFi模拟(标识/地址/DNS/无线参数/一键随机/历史)、屏蔽代理检测、机型伪装、iOS版本伪装、地区伪装、语言伪装、UUID标识符伪装(IDFV/IDFA)、App版本伪装、屏蔽截图/录屏检测、配置导入导出、App暂停/恢复。
+ Per-app fake permission control: notification, push, location (map picker/address search/altitude/history), photos, contacts, calendar, camera (force photo library/fake capture), microphone, bluetooth, clipboard, sensor (shake-ad blocking), WiFi spoofing (identity/addresses/DNS/radio parameters/random profiles/history), proxy detection blocking, device model spoofing, iOS version spoofing (built-in database), region spoofing (built-in picker), language spoofing (built-in picker), identifier spoofing (IDFV/IDFA), app version spoofing, screenshot/recording detection blocking, config import/export, app pause/resume.
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64
+Version: 9.0.0
+Installed-Size: 6804
+icon: https://huayuarc.github.io/icon/fakeperm.png
+Filename: debs/im.mjh.fakeperm-9.0.0-rootless.deb
+Size: 3040968
+MD5sum: bf5c31a20170b3efe57c91a216248c77
+SHA1: d440d4652385bde7a3d1d8f71f3bf3f6cde456a3
+SHA256: bc0d3f62aa579eac5e0824d12aa399edfe6cde8b02575c6172010c4b4a77e7d6
+
+Package: im.mjh.fakeperm
+Name: 虚拟权限 · Fake Permission (Roothide)
+Description: 虚拟权限 · Fake Permission — 针对任意 App 单独配置虚拟权限，防止隐私被过度索取。
+ 支持: 通知伪装、推送伪装、定位伪装(地图选点/地址搜索/海拔/历史记录)、相册伪装、通讯录伪装、日历伪装、相机伪装(强制相册/虚拟拍照)、麦克风伪装、蓝牙伪装、剪贴板伪装、传感器防摇一摇、WiFi模拟(标识/地址/DNS/无线参数/一键随机/历史)、屏蔽代理检测、机型伪装、iOS版本伪装、地区伪装、语言伪装、UUID标识符伪装(IDFV/IDFA)、App版本伪装、屏蔽截图/录屏检测、配置导入导出、App暂停/恢复。
+ Per-app fake permission control: notification, push, location (map picker/address search/altitude/history), photos, contacts, calendar, camera (force photo library/fake capture), microphone, bluetooth, clipboard, sensor (shake-ad blocking), WiFi spoofing (identity/addresses/DNS/radio parameters/random profiles/history), proxy detection blocking, device model spoofing, iOS version spoofing (built-in database), region spoofing (built-in picker), language spoofing (built-in picker), identifier spoofing (IDFV/IDFA), app version spoofing, screenshot/recording detection blocking, config import/export, app pause/resume.
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Depends: firmware (>= 15.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 9.0.0
+Installed-Size: 6820
+icon: https://huayuarc.github.io/icon/fakeperm.png
+Filename: debs/im.mjh.fakeperm-9.0.0-roothide.deb
+Size: 3054784
+MD5sum: b45d02bd613574b35df7f8dda8d4953e
+SHA1: d2786e572a9e07cea4d4d1352292e4127d0722e7
+SHA256: 6ed987411c1d2f06775146746d57f878c8207e1b74cd71f93b94832b881dd456
+
+Package: im.mjh.icbcjailbreakbypass
+Name: 工商银行越狱检测屏蔽
+Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 184
+Filename: debs/im.mjh.icbcjailbreakbypass-1.0.0-rootful.deb
+Size: 23440
+MD5sum: 4010c072a1710fe4e547064426d9ea99
+SHA1: 8f05536e9978f4606638a5713cfbb4cf1d47b5f4
+SHA256: 4006d144516e59ea2f3223013531a83f3c5c0a8fe15e43c0769225d49fcb4818
+
+Package: im.mjh.icbcjailbreakbypass
+Name: 工商银行越狱检测屏蔽
+Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 168
+Filename: debs/im.mjh.icbcjailbreakbypass-1.0.0-rootless.deb
+Size: 22764
+MD5sum: 644f70b86d9c0c3eef6a594a83d7d0b4
+SHA1: 9036b5a45d774a2281dcad340d56775739ff7d4a
+SHA256: 350e35bd314a61afb33201f8a901ffa0f685f5fee7b3370b743f46dead4b2e1d
+
+Package: im.mjh.icbcjailbreakbypass
+Name: 工商银行越狱检测屏蔽
+Description: 中国工商银行 App 屏蔽越狱检测，阻止「安全提示」弹窗及退出进程。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 200
+Filename: debs/im.mjh.icbcjailbreakbypass-1.0.0-roothide.deb
+Size: 28388
+MD5sum: 0410880dd3a3ed48cf7127db7d7717ab
+SHA1: 6395b4482d6470a40da3b65df396fb505aed3c49
+SHA256: bb45eb02b2f99a685336d43b09306de80c6844ec1b429005d1fa67b1b8e11de3
+
 Package: im.mjh.myeyeclean
 Name: 喵眼精灵去广告
 Description: 喵眼精灵 / 乔安智联去广告：关闭开屏/插屏/信息流/Banner/激励视频，拦截广告跳转
@@ -29987,6 +30154,36 @@ Size: 7564
 MD5sum: ecad3062bd4f1475b4e39eb58c534220
 SHA1: 
 SHA256: 68167c987bed7cc9605e1bc5ce2631db081fe21ac8240890f2d0e8a521b65e74
+
+Package: im.mjh.qqmusicadkiller
+Name: QQ 音乐去开屏广告
+Description: 屏蔽开屏广告与播放页封面广告。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 0.1.0
+icon: https://sini921.github.io/repo/sileodepiction/icon/qqmusic.png
+Filename: debs/im.mjh.qqmusicadkiller-0.1.0-rootless.deb
+Size: 4784
+MD5sum: e5784cd44c9adee4733909f691506102
+SHA1: 6e34ce9ced5adcfc24b35e9113c11f6fbf1a0a26
+SHA256: a500b8fa6ba1b7e69a3ac3171d9381d543b3b39826630a73e7269e4cdb3b95ef
+
+Package: im.mjh.qqmusicadkiller
+Name: QQ 音乐去开屏广告
+Description: 屏蔽开屏广告与播放页封面广告。
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+icon: https://sini921.github.io/repo/sileodepiction/icon/qqmusic.png
+Filename: debs/im.mjh.qqmusicadkiller-0.1.0-roothide.deb
+Size: 4736
+MD5sum: ff6357029b4e530b95958ef421224fa5
+SHA1: 96d4402d81c45bac30134d1ce2814dd4404f2701
+SHA256: 0cac6e69346cc325953d69b319282fc1a68f000c562155d8f9e9defab051befc
 
 Package: im.mjh.uuscreenswitch
 Name: UU远控切屏
@@ -30093,6 +30290,54 @@ Size: 857804
 MD5sum: 9f2d4dd49d6bfa20f79cebd11f06d9bc
 SHA1: 960cd63235d6aae31daf647fde94fac5c9b71fa5
 SHA256: a8c20c98796c3143791edbd206684e3c5cdd09897b18f204d02016320ce701de
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手 Rootful
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 3.2.6
+Installed-Size: 2584
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Filename: debs/im.mjh.xianyuadblock-3.2.6-rootful.deb
+Size: 866192
+MD5sum: bb60ee423d7735ec5c048638cb50c8f8
+SHA1: d1b5748b3c7ff439e22cde5402fdee1ee8604907
+SHA256: 9ab5ef715ada61eb521a2d2f35dc84287e827da155b8e5dbb1971d9795d655a8
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 3.2.6
+Installed-Size: 2584
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Filename: debs/im.mjh.xianyuadblock-3.2.6-rootless.deb
+Size: 864680
+MD5sum: 60a734e7d2166f1d034c9f14c3347cee
+SHA1: c85e2289313ce55391d2246e2c12b28a430dcc18
+SHA256: e440fce5a2d43ae766fa2b347e203ba41437dd8484e124d050bcfb9159202622
+
+Package: im.mjh.xianyuadblock
+Name: 闲鱼助手
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Author: junhong
+Maintainer: junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 3.2.6
+Installed-Size: 2584
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
+Filename: debs/im.mjh.xianyuadblock-3.2.6-roothide.deb
+Size: 862308
+MD5sum: 74e3933b20bbca6ff4ffce9070cf5853
+SHA1: 7f57b7db2349b524fc714bf51c848d97f66f41c3
+SHA256: 6c1cab62cb6ee267851fd2e81285cdbb997d4ddca458f3cc9d853245d2017806
 
 Architecture: iphoneos-arm64
 Package: im.mjh.xianyuhelper
