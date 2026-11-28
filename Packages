@@ -14139,42 +14139,6 @@ MD5sum: 7ce097390d58b31728eb9634ab3c6746
 SHA1: 
 SHA256: 46bd2a37a7e5d10288614f95f1a8ce999cd48ee68c90ec1ecd763f06a63d5577
 
-Package: com.ms.openparticleanimation
-Name: open粒子动画
-Version: 0.3.49
-Architecture: iphoneos-arm64
-Description: Independent Metal dust dispersal and split-window assembly for TrollOpenJB
-Maintainer: ms
-Author: ms
-Section: ms-tweaks
-Depends: preferenceloader, firmware (>= 15.0), mobilesubstrate, com.charlieleung.trollopenjb
-Conflicts: com.axs.trollliquidlaunch
-Replaces: com.axs.trollliquidlaunch
-Icon: https://axs66.github.io/pro/icon/trollopen.png
-Filename: debs/com.ms.openparticleanimation-0.3.49-rootless.deb
-Size: 204832
-MD5sum: 0851d16b6292e368efc11d29074272f3
-SHA1: 1e1441ea9b1a98383854ff575fc88cfcc344709e
-SHA256: 4988265c4d787fd01189bf1d61d888d46fae1be0a29318a08c0c89846adc15fe
-
-Package: com.ms.openparticleanimation
-Name: open粒子动画
-Version: 0.3.49
-Architecture: iphoneos-arm64e
-Description: Independent Metal dust dispersal and split-window assembly for TrollOpenJB
-Maintainer: ms
-Author: ms
-Section: ms-tweaks
-Depends: preferenceloader, firmware (>= 15.0), mobilesubstrate, com.charlieleung.trollopenjb
-Conflicts: com.axs.trollliquidlaunch
-Replaces: com.axs.trollliquidlaunch
-Icon: https://axs66.github.io/pro/icon/trollopen.png
-Filename: debs/com.ms.openparticleanimation-0.3.49-roothide.deb
-Size: 205512
-MD5sum: 181493486ef61d762dca04e51b5a81d3
-SHA1: e210bcea86fa5a9ab0173e887c97db43ba80d39c
-SHA256: 50489ceed381630eca3a6078ed99cc5df67ce2efa9b4933d22493c8d693c077e
-
 Package: com.mumu.wcgg
 Name: WCGG
 Description: WeChat custom badge plugin
