@@ -6816,6 +6816,46 @@ MD5sum: 9eafcf35f2d649a67d874153e8405129
 SHA1: 
 SHA256: c1b6bff62897baadc374e3579fce775d86bedd28613f27a9ba51f993ec96df96
 
+Package: com.doubao.weatherclock
+Name: 时间卡片
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Maintainer: 季伯腾
+Author: 季伯腾
+Description: 点击状态栏时间弹出时间卡片，展示秒级时钟、实时网速、开机时长、充电功率与电池温度。
+  可选开启天气预报：当前天气、体感温度、未来三天预报与穿衣提醒，按设置填写的天气城市查询。
+  支持自定义卡片背景色与字体颜色；各信息项可在设置中独立开关，可填写个性名称。
+  提供 rootless(无根) 与 roothide(隐根) 两种安装包，支持 iOS 15.0-17.3.1。
+Architecture: iphoneos-arm64
+Version: 2.2.3
+Installed-Size: 712
+Icon: https://sini921.github.io/repo/sileodepiction/icon/weatherclock.png
+Filename: debs/com.doubao.weatherclock-2.2.3-rootless.deb
+Size: 96232
+MD5sum: 7b35a3693ed480526334cef6bfdf016d
+SHA1: d23075360905872df25997cf15216c639d35c60d
+SHA256: e558683d2925c1e2e4838d53c8a9f1253fc9ea67ff6179c04fe448c3bffa00a3
+
+Package: com.doubao.weatherclock
+Name: 时间卡片
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 15.0)
+Maintainer: 季伯腾
+Author: 季伯腾
+Description: 点击状态栏时间弹出时间卡片，展示秒级时钟、实时网速、开机时长、充电功率与电池温度。
+  可选开启天气预报：当前天气、体感温度、未来三天预报与穿衣提醒，按设置填写的天气城市查询。
+  支持自定义卡片背景色与字体颜色；各信息项可在设置中独立开关，可填写个性名称。
+  提供 rootless(无根) 与 roothide(隐根) 两种安装包，支持 iOS 15.0-17.3.1。
+Architecture: iphoneos-arm64e
+Version: 2.2.3
+Installed-Size: 712
+Icon: https://sini921.github.io/repo/sileodepiction/icon/weatherclock.png
+Filename: debs/com.doubao.weatherclock-2.2.3-roothide.deb
+Size: 97072
+MD5sum: b9c1436465ebe180fae172ad1c1aec6e
+SHA1: 72c990df6c25d8bf8d63f748245bb31b98428a01
+SHA256: 6bff1a47edb6dd45a9cc3e98b725ceb9e709c065baf7c5678a45724debe17075
+
 Package: com.dvntm.infuseplus
 Name: Infuse Plus
 Author: dvntm
@@ -29932,6 +29972,81 @@ Size: 57576
 MD5sum: 7dffed489bca87c322b07da91d9fc826
 SHA1: 7ba48a7ad34b39107e20503c78edb6d794ff482e
 SHA256: e2476633bc8de1d879e9039056d880267dffbe8162747edbb3a8c3bd3590c465
+
+Package: im.mjh.appbuyer
+Name: AppBuyer
+Description: 在系统商店购买流程中调整兼容性信息，辅助获取应用许可。
+  在旧版本 iOS 上强制购买/安装高系统要求的 app，支持自定义系统版本。入口在 app store 点击/长按头像，右上角 Appbuyer 按钮。
+  下载  分为三种模式：
+  1. 自动下载兼容模式：购买后，自动尝试下载兼容旧版本的 App。
+  2. 仅入库模式：只购买，不下载 App。
+  3. 强制下载最新版模式：强制下载最新版 App，但一般会提示需要更新系统，这个情况下安装的 app 不能用，可以尝试借助改系统版本号的插件配合使用，我没尝试，不一定成功，不能用是正常情况，能用才是不正常情况，不要因为这个反馈问题。
+  下载 App 测试环境：iOS 16.3 roothide，iOS 26 roothide
+  再次重申：
+  低系统安装不了高版本 app！！！
+  低系统安装不了高版本 app！！！
+  低系统安装不了高版本 app！！！
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.0.1
+icon: https://huayuarc.github.io/icon/appstoretroller.png
+Filename: debs/im.mjh.appbuyer-1.0.1-rootful.deb
+Size: 787028
+MD5sum: 899035d76ac6a8d613998e290110d91c
+SHA1: fee58ea8e727f976ee0875bff776c8f9c8468927
+SHA256: d8c687f903c51ed358d5044ce896a7ffdedba8c35a2f59be5fb037ae77ba51eb
+
+Package: im.mjh.appbuyer
+Name: AppBuyer
+Description: 在系统商店购买流程中调整兼容性信息，辅助获取应用许可。
+  在旧版本 iOS 上强制购买/安装高系统要求的 app，支持自定义系统版本。入口在 app store 点击/长按头像，右上角 Appbuyer 按钮。
+  下载  分为三种模式：
+  1. 自动下载兼容模式：购买后，自动尝试下载兼容旧版本的 App。
+  2. 仅入库模式：只购买，不下载 App。
+  3. 强制下载最新版模式：强制下载最新版 App，但一般会提示需要更新系统，这个情况下安装的 app 不能用，可以尝试借助改系统版本号的插件配合使用，我没尝试，不一定成功，不能用是正常情况，能用才是不正常情况，不要因为这个反馈问题。
+  下载 App 测试环境：iOS 16.3 roothide，iOS 26 roothide
+  再次重申：
+  低系统安装不了高版本 app！！！
+  低系统安装不了高版本 app！！！
+  低系统安装不了高版本 app！！！
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.1
+icon: https://huayuarc.github.io/icon/appstoretroller.png
+Filename: debs/im.mjh.appbuyer-1.0.1-rootless.deb
+Size: 791400
+MD5sum: ccda4ad69cda89ffa2e2b42db900848e
+SHA1: abc33fd678a6841365d10e7fd3d8b8f244ce0ff7
+SHA256: 99698ac3856740b0a88f7b966d3028d9d65cd41c12117040c6b8bfee644ff851
+
+Package: im.mjh.appbuyer
+Name: AppBuyer
+Description: 在系统商店购买流程中调整兼容性信息，辅助获取应用许可。
+  在旧版本 iOS 上强制购买/安装高系统要求的 app，支持自定义系统版本。入口在 app store 点击/长按头像，右上角 Appbuyer 按钮。
+  下载  分为三种模式：
+  1. 自动下载兼容模式：购买后，自动尝试下载兼容旧版本的 App。
+  2. 仅入库模式：只购买，不下载 App。
+  3. 强制下载最新版模式：强制下载最新版 App，但一般会提示需要更新系统，这个情况下安装的 app 不能用，可以尝试借助改系统版本号的插件配合使用，我没尝试，不一定成功，不能用是正常情况，能用才是不正常情况，不要因为这个反馈问题。
+  下载 App 测试环境：iOS 16.3 roothide，iOS 26 roothide
+  再次重申：
+  低系统安装不了高版本 app！！！
+  低系统安装不了高版本 app！！！
+  低系统安装不了高版本 app！！！
+Maintainer: Junhong
+Author: Junhong
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+icon: https://huayuarc.github.io/icon/appstoretroller.png
+Filename: debs/im.mjh.appbuyer-1.0.1-roothide.deb
+Size: 795408
+MD5sum: 4a25480fb3ca162d0e9431ec55bccdbd
+SHA1: 32ad09a4ffa64e755d9b7d628cc41d5ae8d961c4
+SHA256: 5d08a8fdf492f933043e26d0a3ad114d21d47e2981b100c6d238b1909ae2f406
 
 Package: im.mjh.bodianadkiller
 Name: 波点音乐去广告
