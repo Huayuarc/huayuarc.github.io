@@ -4962,13 +4962,12 @@ Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate
 Architecture: iphoneos-arm64
 Version: 1.0.17-1+debug
-Icon: https://huayuarc.github.io/icon/123.jpg
 Installed-Size: 532
-Filename: debs/com.colorblack.pan123noads_1.0.17-1+debug_iphoneos-arm64.deb
-Size: 69784
-MD5sum: 742a90258e2e8d4d4443d48614105ae6
-SHA1: 
-SHA256: 81c507a199a825fe2cfae872b324a9041a8c9d5a1e660a2da16c7760be003fd3
+Filename: debs/com.colorblack.pan123noads-1.0.17-1+debug-rootless.deb
+Size: 68552
+MD5sum: f04439e8cddda13229730095f914b2b1
+SHA1: 9d17f3b0cbefc8a5edafd13beef507108f1631fe
+SHA256: f6266cb8f03025b503cb24f017a00e95c304c87dba7e71712d136951f58d3eee
 
 Package: com.colorblack.pan123noads
 Name: 123PanNoAds
@@ -4979,13 +4978,12 @@ Section: Tweaks
 Depends: firmware (>= 15.0), mobilesubstrate
 Architecture: iphoneos-arm64e
 Version: 1.0.17-2+debug
-Icon: https://huayuarc.github.io/icon/123.jpg
 Installed-Size: 532
-Filename: debs/com.colorblack.pan123noads_1.0.17-2+debug_iphoneos-arm64e.deb
-Size: 69076
-MD5sum: 7d5bf3cda3033e6cf801110da8d37998
-SHA1: 
-SHA256: a5778568699223742e4f6656ff68055790397348965d1a8dc75766bc40df9c00
+Filename: debs/com.colorblack.pan123noads-1.0.17-2+debug-roothide.deb
+Size: 68776
+MD5sum: cfe972f6ad118b5f62b15a80f1a71185
+SHA1: 919fabbce6b4ab9fccaf72dda0aba72abb565a7c
+SHA256: 75db8f950463faca6f276f65f4ae2556efe604a7dceec499e4f16cfc47226f88
 
 Package: com.colorblack.shouji360noad
 Name: 360Shouji-NoAd
@@ -14139,6 +14137,42 @@ MD5sum: 7ce097390d58b31728eb9634ab3c6746
 SHA1: 
 SHA256: 46bd2a37a7e5d10288614f95f1a8ce999cd48ee68c90ec1ecd763f06a63d5577
 
+Package: com.ms.openparticleanimation
+Name: open粒子动画
+Version: 0.3.49
+Architecture: iphoneos-arm64
+Description: Independent Metal dust dispersal and split-window assembly for TrollOpenJB
+Maintainer: ms
+Author: ms
+Section: Tweaks
+Depends: preferenceloader, firmware (>= 15.0), mobilesubstrate, com.charlieleung.trollopenjb
+Conflicts: com.axs.trollliquidlaunch
+Replaces: com.axs.trollliquidlaunch
+Icon: https://axs66.github.io/pro/icon/trollopen.png
+Filename: debs/com.ms.openparticleanimation-0.3.49-rootless.deb
+Size: 205080
+MD5sum: fa7a924a5506d16b1c55a9100de4542c
+SHA1: b6667c57052c4f4c4d752466f7fe3995bf41bff6
+SHA256: b53651d58df13528dc3b92bd80eaa91058ad3aaa6d74e2808a60f4c9a9e6800e
+
+Package: com.ms.openparticleanimation
+Name: open粒子动画
+Version: 0.3.49
+Architecture: iphoneos-arm64e
+Description: Independent Metal dust dispersal and split-window assembly for TrollOpenJB
+Maintainer: ms
+Author: ms
+Section: Tweaks
+Depends: preferenceloader, firmware (>= 15.0), mobilesubstrate, com.charlieleung.trollopenjb
+Conflicts: com.axs.trollliquidlaunch
+Replaces: com.axs.trollliquidlaunch
+Icon: https://axs66.github.io/pro/icon/trollopen.png
+Filename: debs/com.ms.openparticleanimation-0.3.49-roothide.deb
+Size: 204952
+MD5sum: 7aa42905d42634864a90d3c96c75f19c
+SHA1: 6a7adf8396cda8bba21a09df0914b93323c16f67
+SHA256: e9e0728bf8ffc289f9e7ecb957be6df67b4583a41834fb970d55a30b6a4198f4
+
 Package: com.mumu.wcgg
 Name: WCGG
 Description: WeChat custom badge plugin
@@ -17263,6 +17297,98 @@ MD5sum: f53b7dfedfd47decc72acfff99b3f985
 SHA1: 
 SHA256: bbd94f5b61058b4e1846c68f5669a9047d588b9d22969df98e73dc485bb6c569
 
+Package: com.qingye.screenshot
+Name: Screenshot
+Description: 一款集截图、冻结、长截图、标注、OCR、翻译与 AI 于一体的越狱截图插件。
+ * 一、核心功能
+ * 1、三路触发：音量增+电源键、长按音量减进入冻结模式、系统深链 prefs:root=qingye_freeze（插件截图）/ prefs:root=qingye_long（长截图）；
+ * 2、冻结截图：画面定格后自由取景与标注，标注内容可拖动调整位置；
+ * 3、长截图：滚动拼接 / 一镜到底两种方式，智能帧匹配自动去重拼接，清晰度 1.0x / 1.5x / 2.0x / 3.0x 可选；
+ * 4、标注工具：颜色、箭头、自由画线、文字、矩形、圆形、高亮、马赛克、撤回、删除、保存、复制；
+ * 5、文字识别 OCR：默认 PP-OCRv6 云服务，可选 PaddleOCR-VL 或改用 AI 视觉模型，半屏浮层、涂抹选择、一键复制；
+ * 6、翻译：Apple 系统翻译（免密钥）/ 百度 / 有道 / DeepL，百度另支持图片翻译通道；
+ * 7、AI 互译与问答：自填 Base URL / API Key / 模型，支持自定义提示词与对话模式，半屏浮层展示；
+ * 8、工具栏自定义：功能开关与排序、拖拽排序、图标主题（含 3 代透光）；
+ * 9、URL 联动：截图完成后点底部工具栏「URL」按钮，先收起浮层再打开任意 scheme；
+ * 10、截图仅复制：拍完只进剪贴板，不写相册。
+ * 二、使用方式
+ * 1、音量增+电源键：可选系统截图或插件截图；
+ * 2、长按音量减约 0.2 秒：进入冻结模式，取景框内可滚动，点「长截图」继续拼接；
+ * 3、截图后底部工具栏：标注 / OCR / 翻译 / 分享 / URL；
+ * 4、功能开关与排序：关闭某个动作后，对应工具栏按钮与设置行立即隐藏，打开即恢复，无需退出设置页；
+ * 5、顶部工具栏「URL」与底部工具栏「URL」是两条独立链接，各存各的，互不影响。
+ * 三、URL 联动（截图后打开链接）
+ * 1、填链接：功能开关与排序 → 底部工具栏 → URL 链接，任意 scheme 均可；
+ * 2、点「URL」按钮才会跳转；设置页那一行只负责保存，直接点它会由系统提示「不支持的 URL」，属正常现象；
+ * 3、通用写法（系统自带，任何越狱设备都能开）：prefs:root=WIFI、prefs:root=Bluetooth、shortcuts://、https://；
+ * 4、专用写法（需先装对应插件）：全局水印Pro 的 binglan://tk 仅套壳、binglan://tksy 套壳+水印、
+ *    binglan://tkwsy 套壳+全屏水印、binglan://tk&id=1 指定套壳、binglan://tk&gsmh/50 背景模糊；
+ * 5、该 scheme 没有任何接收方时，点按钮不会有反应，换一个有接收方的即可；
+ * 6、注意：全局水印Pro 收到链接后会自己再截一次图，与本插件的截图动作同时开启会重复截图。
+ * 四、兼容
+ * 1、iOS 14 及以上，rootless（/var/jb）与 roothide 双版本；
+ * 2、不依赖 CydiaSubstrate，纯运行时挂载。
+Maintainer: 清野 <qingye@localhost>
+Author: 清野 <qingye@localhost>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, com.susudear.stayshot, com.axs.snapper3tag, com.iosdump.shellx, com.axs.snapper4
+Architecture: iphoneos-arm64
+Version: 4.9.1.6
+Installed-Size: 2218
+icon: https://huayuarc.github.io/icon/screenshot.png
+Filename: debs/com.qingye.screenshot-4.9.1.6-rootless.deb
+Size: 698340
+MD5sum: 19d3fb2c8114db1854b08e9847eb17b3
+SHA1: 4c877ec5851f864d117af84dfa4f02d822788b93
+SHA256: 6f67b9c50e3a5ec4acf899cfa280459073ca6f917f444491a277f1301fc56183
+
+Package: com.qingye.screenshot
+Name: Screenshot
+Description: 一款集截图、冻结、长截图、标注、OCR、翻译与 AI 于一体的越狱截图插件。
+ * 一、核心功能
+ * 1、三路触发：音量增+电源键、长按音量减进入冻结模式、系统深链 prefs:root=qingye_freeze（插件截图）/ prefs:root=qingye_long（长截图）；
+ * 2、冻结截图：画面定格后自由取景与标注，标注内容可拖动调整位置；
+ * 3、长截图：滚动拼接 / 一镜到底两种方式，智能帧匹配自动去重拼接，清晰度 1.0x / 1.5x / 2.0x / 3.0x 可选；
+ * 4、标注工具：颜色、箭头、自由画线、文字、矩形、圆形、高亮、马赛克、撤回、删除、保存、复制；
+ * 5、文字识别 OCR：默认 PP-OCRv6 云服务，可选 PaddleOCR-VL 或改用 AI 视觉模型，半屏浮层、涂抹选择、一键复制；
+ * 6、翻译：Apple 系统翻译（免密钥）/ 百度 / 有道 / DeepL，百度另支持图片翻译通道；
+ * 7、AI 互译与问答：自填 Base URL / API Key / 模型，支持自定义提示词与对话模式，半屏浮层展示；
+ * 8、工具栏自定义：功能开关与排序、拖拽排序、图标主题（含 3 代透光）；
+ * 9、URL 联动：截图完成后点底部工具栏「URL」按钮，先收起浮层再打开任意 scheme；
+ * 10、截图仅复制：拍完只进剪贴板，不写相册。
+ * 二、使用方式
+ * 1、音量增+电源键：可选系统截图或插件截图；
+ * 2、长按音量减约 0.2 秒：进入冻结模式，取景框内可滚动，点「长截图」继续拼接；
+ * 3、截图后底部工具栏：标注 / OCR / 翻译 / 分享 / URL；
+ * 4、功能开关与排序：关闭某个动作后，对应工具栏按钮与设置行立即隐藏，打开即恢复，无需退出设置页；
+ * 5、顶部工具栏「URL」与底部工具栏「URL」是两条独立链接，各存各的，互不影响。
+ * 三、URL 联动（截图后打开链接）
+ * 1、填链接：功能开关与排序 → 底部工具栏 → URL 链接，任意 scheme 均可；
+ * 2、点「URL」按钮才会跳转；设置页那一行只负责保存，直接点它会由系统提示「不支持的 URL」，属正常现象；
+ * 3、通用写法（系统自带，任何越狱设备都能开）：prefs:root=WIFI、prefs:root=Bluetooth、shortcuts://、https://；
+ * 4、专用写法（需先装对应插件）：全局水印Pro 的 binglan://tk 仅套壳、binglan://tksy 套壳+水印、
+ *    binglan://tkwsy 套壳+全屏水印、binglan://tk&id=1 指定套壳、binglan://tk&gsmh/50 背景模糊；
+ * 5、该 scheme 没有任何接收方时，点按钮不会有反应，换一个有接收方的即可；
+ * 6、注意：全局水印Pro 收到链接后会自己再截一次图，与本插件的截图动作同时开启会重复截图。
+ * 四、兼容
+ * 1、iOS 14 及以上，rootless（/var/jb）与 roothide 双版本；
+ * 2、不依赖 CydiaSubstrate，纯运行时挂载。
+Maintainer: 清野 <qingye@localhost>
+Author: 清野 <qingye@localhost>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, com.susudear.stayshot, com.axs.snapper3tag, com.iosdump.shellx, com.axs.snapper4
+Architecture: iphoneos-arm64e
+Version: 4.9.1.6
+Installed-Size: 2218
+icon: https://huayuarc.github.io/icon/screenshot.png
+Filename: debs/com.qingye.screenshot-4.9.1.6-roothide.deb
+Size: 698536
+MD5sum: f489b6c721cec58efd8831846f6c834c
+SHA1: dc2934bc03c7435e57caa5bff97455ac835d13a2
+SHA256: 3381ce292f65a84accb6017e021806dcbd8ea9368773a023354105783b068784
+
 Package: com.qiop1379.swipeextenderx
 Version: 1.6.1~2
 Architecture: iphoneos-arm64
@@ -17946,6 +18072,72 @@ MD5sum: 6af4ff0277ab2ef4d87827df0b097fa0
 SHA1: 
 SHA256: 53a6e3523ececdc920823c1d2e1400e096cfd9f889cecd0234bf2e6321c752e1
 
+Package: com.saihgupr.remotecompanioncn
+Name: RemoteCompanion CN (Externalized)
+Description: RemoteCompanion的中文本地化补丁。在运行时注入翻译的UI字符串。不修改原始文件。Chinese localization patch for RemoteCompanion. Injects translated UI strings at runtime. Does not modify original files.
+Depends: mobilesubstrate
+Maintainer: 777qwq
+Author: 777qwq
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 6.0.0-cn1
+Installed-Size: 592
+icon: https://huayuarc.github.io/icon/remotecompanioncn.jpg
+Filename: debs/com.saihgupr.remotecompanioncn-6.0.0-cn1-rootless.deb
+Size: 71192
+MD5sum: faa99f361f1c1b960ef9969e498132de
+SHA1: 5d2d43d92a183e50fbe9600515fd7556234b6d95
+SHA256: 25496eb9eee56f493bd0c358a2850e7c838f8006df8554de8548f2bb49c846d1
+
+Package: com.saihgupr.remotecompanioncn
+Name: RemoteCompanion CN (Externalized)
+Description: RemoteCompanion的中文本地化补丁。在运行时注入翻译的UI字符串。不修改原始文件。Chinese localization patch for RemoteCompanion. Injects translated UI strings at runtime. Does not modify original files.
+Depends: mobilesubstrate
+Maintainer: 777qwq
+Author: 777qwq
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 6.0.0-cn1
+Installed-Size: 592
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/remotecompanioncn.jpg
+Filename: debs/com.saihgupr.remotecompanioncn-6.0.0-cn1-roothide.deb
+Size: 25384
+MD5sum: 4271a92322dafb5a866372e9c8f0aa6e
+SHA1: 3063910e1d010ffb006fb1bd791585903f18596f
+SHA256: 9805688117e4b72ed3ede8c949a2fb39b896b296b737ea105f7e38dd22eda409
+
+Package: com.saihgupr.remotecompanioncn
+Name: RemoteCompanion CN (Externalized)
+Version: 440
+Description: RemoteCompanion 4.4.0 外挂汉化：1012 条精确映射 + 107 条动态正则 + Web UI 中文版。运行时注入翻译，不改动原包文件。
+Depends: mobilesubstrate
+Maintainer: 777qwq
+Author: 777qwq
+Section: Tweaks
+Architecture: iphoneos-arm64
+Filename: debs/com.saihgupr.remotecompanioncn-440-rootless.deb
+Size: 118000
+MD5sum: 7e6d16c76e34ced4efe649b9958057c7
+SHA1: 2ead8ed663242f44f312fac112d1bc37c0867788
+SHA256: 9458d05ce629621169c6533839ecbc7bd8aa800bced7a4fea30c004a179bdfec
+
+Package: com.saihgupr.remotecompanioncn
+Name: RemoteCompanion CN (Externalized)
+Version: 440
+Description: RemoteCompanion 4.4.0 外挂汉化：1012 条精确映射 + 107 条动态正则 + Web UI 中文版。运行时注入翻译，不改动原包文件。
+Depends: mobilesubstrate
+Maintainer: 777qwq
+Author: 777qwq
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.saihgupr.remotecompanioncn-440-roothide.deb
+Size: 120224
+MD5sum: a1801b38119260dd2db2771322e232db
+SHA1: be8a9c44e2d171c87aa0c2c76b1a6c7e64894dc0
+SHA256: 7a80c47344a257382518939c337a3140c4b5fb6b326adb6efc3e7ee36123c3ba
+
 Package: com.sbcpu.floating
 Name: 灵动监测
 Maintainer: MoWang
@@ -18199,6 +18391,158 @@ Size: 2069284
 MD5sum: 6ea26c52dc15745073ece7c781c2a17e
 SHA1: 
 SHA256: 6b1d9008caec7a42bcd5ef051926aba2985ffdda4cb1aa3d635de0fb1d59ea5f
+
+Package: com.sharehotspotvpn.tweak
+Name: VPN热点共享
+Description: 一键通过个人热点共享本机 Shadowrocket/VPN，连入设备零配置，支持控制中心快捷开关、DNS/UDP 转发与防 IPv6 泄露，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Tweaks
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Installed-Size: 752
+Filename: debs/com.sharehotspotvpn.tweak-1.1.7-rootless.deb
+Size: 83056
+MD5sum: e3e3265295353436c7b0e8156fa05451
+SHA1: 9b13d0726c3399b72c5cc77cee5b32bcdf761fd5
+SHA256: 9528f42bc2b1846e9a5a1a7fb35d9e13580cd8e534e3223248d6a3a6f8c24dce
+
+Package: com.sharehotspotvpn.tweak
+Name: VPN热点共享
+Description: 一键通过个人热点共享本机 Shadowrocket/VPN，连入设备零配置，支持控制中心快捷开关、DNS/UDP 转发与防 IPv6 泄露，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Tweaks
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Installed-Size: 400
+Filename: debs/com.sharehotspotvpn.tweak-1.1.7-roothide.deb
+Size: 68972
+MD5sum: c8b4d8e944cf4f6d8cf72c9166cecf8f
+SHA1: b98ca8c8f68d049914c012c73b374b9c9e3eab82
+SHA256: 64f43c696c6e185da803016304a232136ad80afccd32772426dbf9ecedab8baa
+
+Package: com.sharehotspotvpn.tweak
+Name: VPN热点共享
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持 Wi-Fi+VPN 叠加与状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Tweaks
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Installed-Size: 948
+Filename: debs/com.sharehotspotvpn.tweak-1.2.2-rootless.deb
+Size: 93976
+MD5sum: 325dd9c07c74e85bba256a7dd9a76bf7
+SHA1: dcba7230c46a5e89d25ee77bd70982f5d0ae642a
+SHA256: 9426e664e84a50eb467294bde6685630f9e4effb5d6e173fb021adae9a2afe76
+
+Package: com.sharehotspotvpn.tweak
+Name: VPN热点共享
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持 Wi-Fi+VPN 叠加与状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Tweaks
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+Architecture: iphoneos-arm64e
+Version: 1.2.2
+Installed-Size: 484
+Filename: debs/com.sharehotspotvpn.tweak-1.2.2-roothide.deb
+Size: 77148
+MD5sum: e66c4f9d9e9380e0db7da2a3b7a386d2
+SHA1: 8f0db28eb70b3a075d4b22772416a3a5e06b07a5
+SHA256: 47a7c028f5437f490c551bd88bdf3fb578b7c37103271370f95e5cb971971796
+
+Package: com.sharehotspotvpn.tweak
+Name: VPN热点共享
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持 Wi-Fi+VPN 叠加与状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Tweaks
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Installed-Size: 948
+Filename: debs/com.sharehotspotvpn.tweak-1.2.4-rootless.deb
+Size: 94416
+MD5sum: 15b1b03fa4802c0bfd7e31c7055cd6e6
+SHA1: 3b794eb44d2317e910b37c037f9549f44b025891
+SHA256: 273e0418e4970f5b2ff7b195f9ef7ac978f93fd9382cf5ae7f8f958ad3d414a7
+
+Package: com.sharehotspotvpn.tweak
+Name: VPN热点共享
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持 Wi-Fi+VPN 叠加与状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Tweaks
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+Architecture: iphoneos-arm64e
+Version: 1.2.4
+Installed-Size: 484
+Filename: debs/com.sharehotspotvpn.tweak-1.2.4-roothide.deb
+Size: 77372
+MD5sum: f8cc05c28584f8c5f61ade1d5ac24060
+SHA1: 60ec47908f13a66df192525af666baae561c36a3
+SHA256: 26c83d496d3c73bc95d615416d5b77ea3864db1ad35b8bf8cb0ada8eca0d90ca
+
+Package: com.sharehotspotvpn.tweak
+Name: VPN热点共享
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持无卡/关蜂窝/飞行模式共享 Wi-Fi 与 Wi-Fi+VPN 叠加、状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Tweaks
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Installed-Size: 1116
+Filename: debs/com.sharehotspotvpn.tweak-1.3.1-rootless.deb
+Size: 99008
+MD5sum: 4a406baa29abddac696a75f2f33d69d4
+SHA1: 28a905d105c39ab31b72196531b2275f48760951
+SHA256: 7fadc17492c71d5aa0c1efe7cf3598be7426f8eb379816c7083ee5902b79a88c
+
+Package: com.sharehotspotvpn.tweak
+Name: VPN热点共享
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持无卡/关蜂窝/飞行模式共享 Wi-Fi 与 Wi-Fi+VPN 叠加、状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Tweaks
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Installed-Size: 556
+Filename: debs/com.sharehotspotvpn.tweak-1.3.1-roothide.deb
+Size: 81076
+MD5sum: 39f57c237e955c8be2c8f25175b5aab1
+SHA1: 5e4eb418a31c2a3d6e764f89d5ec3205b1430ed4
+SHA256: 4db63ebf05a5eda179c3f1455eeaa7d82c3a3212fa5d7f91ce3927e59bb23277
 
 Package: com.sileowallpaper.tweak
 Name: sileo 壁纸
