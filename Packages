@@ -6816,46 +6816,6 @@ MD5sum: 9eafcf35f2d649a67d874153e8405129
 SHA1: 
 SHA256: c1b6bff62897baadc374e3579fce775d86bedd28613f27a9ba51f993ec96df96
 
-Package: com.doubao.weatherclock
-Name: 时间卡片
-Section: Tweaks
-Depends: mobilesubstrate, firmware (>= 15.0)
-Maintainer: 季伯腾
-Author: 季伯腾
-Description: 点击状态栏时间弹出时间卡片，展示秒级时钟、实时网速、开机时长、充电功率与电池温度。
-  可选开启天气预报：当前天气、体感温度、未来三天预报与穿衣提醒，按设置填写的天气城市查询。
-  支持自定义卡片背景色与字体颜色；各信息项可在设置中独立开关，可填写个性名称。
-  提供 rootless(无根) 与 roothide(隐根) 两种安装包，支持 iOS 15.0-17.3.1。
-Architecture: iphoneos-arm64
-Version: 2.2.3
-Installed-Size: 712
-Icon: https://sini921.github.io/repo/sileodepiction/icon/weatherclock.png
-Filename: debs/com.doubao.weatherclock-2.2.3-rootless.deb
-Size: 96828
-MD5sum: 04942ed90f3205ecb8d9f5693b6e1236
-SHA1: 8c61df93de33fef75136ea895ad1f98bb44df1c4
-SHA256: e70de909f3582c343c7bd3c7f315de7e3cd39989451cb02ae653542a83514761
-
-Package: com.doubao.weatherclock
-Name: 时间卡片
-Section: 越狱插件
-Depends: mobilesubstrate, firmware (>= 15.0)
-Maintainer: 季伯腾
-Author: 季伯腾
-Description: 点击状态栏时间弹出时间卡片，展示秒级时钟、实时网速、开机时长、充电功率与电池温度。
-  可选开启天气预报：当前天气、体感温度、未来三天预报与穿衣提醒，按设置填写的天气城市查询。
-  支持自定义卡片背景色与字体颜色；各信息项可在设置中独立开关，可填写个性名称。
-  提供 rootless(无根) 与 roothide(隐根) 两种安装包，支持 iOS 15.0-17.3.1。
-Architecture: iphoneos-arm64e
-Version: 2.2.3
-Installed-Size: 712
-Icon: https://sini921.github.io/repo/sileodepiction/icon/weatherclock.png
-Filename: debs/com.doubao.weatherclock-2.2.3-roothide.deb
-Size: 96744
-MD5sum: 7f9554ad109ab3dd306e82c65c7b5757
-SHA1: 73cb3cbd0eecd84d9db18cd82297712c2ea70cab
-SHA256: 37713c73ead0cee6954e705fef2633e30b41ac1741e4136ee96a7ca409df98f0
-
 Package: com.dvntm.infuseplus
 Name: Infuse Plus
 Author: dvntm
