@@ -7641,6 +7641,38 @@ MD5sum: d0a87c6b9e417a1e9a5e32a41fb7d530
 SHA1: 6bf76dadc5e91b05f5bef488e9cad703543a4884
 SHA256: 7b6b308f02dda36bbb33c1277f1ed71f12611f5719f7d6851607b496cd2b9a16
 
+Package: com.example.noticelisttweak
+Name: 通知消散
+Version: 1.0.27
+Architecture: iphoneos-arm64e
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Maintainer: YUE
+Author: YUE
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Installed-Size: 1632
+Filename: debs/com.example.noticelisttweak-1.0.27-roothide.deb
+Size: 374036
+MD5sum: cfc558fe994186e136498729d825e7bf
+SHA1: 74dcbaa245ae3f7206e98500f3a60f8fb62b777d
+SHA256: 64bbd7235db81ccbd0ea00a59d91d93c01f597d6678903c7b7f55be6a1a69c16
+
+Architecture: iphoneos-arm64
+Author: YUE
+Depends: mobilesubstrate, preferenceloader
+Description: RootHide notification-list, app-icon and banner dust effects for iOS 16; experimental device test.
+Installed-Size: 1613
+Maintainer: YUE
+Name: 通知消散
+Package: com.example.noticelisttweak
+Section: Tweaks
+Version: 1.0.27+h2l1
+Filename: debs/com.example.noticelisttweak-1.0.27+h2l1-rootless.deb
+Size: 375260
+MD5sum: 336d4ff974f7c02e30c4fbb8eaeef326
+SHA1: 54cc70c4b9d5b93762f87b8213da9d8a05705503
+SHA256: 52be36c64c9b135f363d179f671f96fa90b09bb321e5e3eeeca5fd007f508f34
+
 Package: com.example.safesim
 Name: SafeSIM
 Maintainer: 半生年华
@@ -18077,6 +18109,37 @@ MD5sum: f61dae5807a6f95dd56affcbfd9c6dd7
 SHA1: 
 SHA256: 2dba1fb018306db9c15fcf4115e10b7e7bffc502ed1f17569e1c5ad7a8763b59
 
+Package: com.saihgupr.remotecompanioncn
+Name: RemoteCompanion CN (Externalized)
+Version: 440
+Description: RemoteCompanion 4.4.0 外挂汉化：1012 条精确映射 + 107 条动态正则 + Web UI 中文版。运行时注入翻译，不改动原包文件。
+Depends: mobilesubstrate
+Maintainer: 777qwq
+Author: 777qwq
+Section: Localization
+Architecture: iphoneos-arm64
+Filename: debs/com.saihgupr.remotecompanioncn-440-rootless.deb
+Size: 117968
+MD5sum: 66b85e1cab17c6445199c9582419c6fc
+SHA1: c42396d54b4667868f79c5ba9b5e72d1fe669f62
+SHA256: 030513074743aada87335959e0867d312a7956a8b3c94d0732345d1e6aa1843a
+
+Package: com.saihgupr.remotecompanioncn
+Name: RemoteCompanion CN (Externalized)
+Version: 440
+Description: RemoteCompanion 4.4.0 外挂汉化：1012 条精确映射 + 107 条动态正则 + Web UI 中文版。运行时注入翻译，不改动原包文件。
+Depends: mobilesubstrate
+Maintainer: 777qwq
+Author: 777qwq
+Section: Localization
+Architecture: iphoneos-arm64e
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.saihgupr.remotecompanioncn-440-roothide.deb
+Size: 121052
+MD5sum: b5b1301f0d62b75b09328577f7549f9e
+SHA1: 730f3a9ea1523cb1d88de1005c2020d09ee6e36f
+SHA256: cd59a2b932d5e40284a3ea101474a55037ad7a3f532a6625de47c768287f29fe
+
 Package: com.sbcpu.floating
 Name: 灵动监测
 Maintainer: MoWang
@@ -18444,6 +18507,44 @@ Size: 77412
 MD5sum: 87bf2848d46be24fdef6f85662f93a28
 SHA1: 1ebddf880d7c16b4274759119a9072d886124c6b
 SHA256: f57346cd80c4b60011c3c22fa30c6ff90c18140db9cce14d8d9f129eba5c4dfb
+
+Package: com.sharehotspotvpn.tweak
+Name: VPN热点共享
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持无卡/关蜂窝/飞行模式共享 Wi-Fi 与 Wi-Fi+VPN 叠加、状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Networking
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Installed-Size: 1116
+Filename: debs/com.sharehotspotvpn.tweak-1.3.1-rootless.deb
+Size: 99044
+MD5sum: 1709e2ae1ccb7ab385ec4dd1ac029cdf
+SHA1: 4caf6af75ed63f2028674486c59189ce32d08990
+SHA256: ee65bcc15725540ba53616472a562eb49545a1f9140d7b692d35a7cee28ccdc7
+
+Package: com.sharehotspotvpn.tweak
+Name: VPN热点共享
+Description: 一键通过个人热点共享本机 Wi-Fi、移动数据或 Shadowrocket/VPN（支持无卡/关蜂窝/飞行模式共享 Wi-Fi 与 Wi-Fi+VPN 叠加、状态栏保留 Wi-Fi 图标），连入设备零配置，控制中心支持轻点开关与长按 5 模式菜单切换，事件驱动超省电，兼容 iOS 15–17 Rootless/RootHide。
+Maintainer: zhuifeng
+Author: zhuifeng
+Section: Networking
+Depends: preferenceloader, com.opa334.ccsupport, firmware (>= 15.0)
+Icon: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn/icon.png
+SileoDepiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.json
+Depiction: https://temple002.github.io/zhuifeng/depictions/sharehotspotvpn.html
+Architecture: iphoneos-arm64e
+Version: 1.3.1
+Installed-Size: 556
+Filename: debs/com.sharehotspotvpn.tweak-1.3.1-roothide.deb
+Size: 81020
+MD5sum: 9eddc4aafceb3aa5825053f7fc24675a
+SHA1: f97fa85931cd0849958a1ab683ab0591a806fdd4
+SHA256: cb6219254c270e0bea5b7de84dd3f6b86b571c2a841a85ba0065e5ad79f9bc49
 
 Package: com.sileowallpaper.tweak
 Name: sileo 壁纸
@@ -30799,6 +30900,40 @@ Size: 1043160
 MD5sum: fb0705092d8df5ca44f9981cebc880c1
 SHA1: 
 SHA256: d21253fcbed7155a36bf80bae93aec768a4ce072d7c71ecfeb2e8a7585ca8a51
+
+Package: iya.banana.ios27animation
+Name: iOS27 Animation
+Description: 为ios15-18带来ios27风格的系统动画。iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0.14-1
+Installed-Size: 4148
+icon: https://huayuarc.github.io/icon/ios27animation.png
+Filename: debs/iya.banana.ios27animation-1.0.14-1-rootless.deb
+Size: 1245592
+MD5sum: a1aa927fffc917931de17ebaffa262b6
+SHA1: 4e4c0f2710e57e4f83a84d38a49a46aa39164940
+SHA256: 58f434b81862e7e7f3c2c4ba7551993b09c093443ef2cb6b1436ce6ebe9be79d
+
+Package: iya.banana.ios27animation
+Name: iOS27 Animation
+Description: 为ios15-18带来ios27风格的系统动画。iOS27-inspired system animations for iOS15-18. Purchase and device activation required.
+Maintainer: Banana
+Author: Banana
+Section: Tweaks
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.14-1
+Installed-Size: 4144
+icon: https://huayuarc.github.io/icon/ios27animation.png
+Filename: debs/iya.banana.ios27animation-1.0.14-1-roothide.deb
+Size: 1243672
+MD5sum: 44094185d97111307d9f26707671abf3
+SHA1: 49e2cf13201e1598bd6856dfd4834abc1598b07c
+SHA256: 252992e1d7a679ceb8c79db94a2d65a78c055b183c6bed933e4aa2e2cbcb2582
 
 Package: iya.banana.ios27wallpaper
 Name: StockWallpapers
