@@ -18074,72 +18074,6 @@ MD5sum: 6af4ff0277ab2ef4d87827df0b097fa0
 SHA1: 
 SHA256: 53a6e3523ececdc920823c1d2e1400e096cfd9f889cecd0234bf2e6321c752e1
 
-Package: com.saihgupr.remotecompanioncn
-Name: RemoteCompanion CN (Externalized)
-Description: RemoteCompanion的中文本地化补丁。在运行时注入翻译的UI字符串。不修改原始文件。Chinese localization patch for RemoteCompanion. Injects translated UI strings at runtime. Does not modify original files.
-Depends: mobilesubstrate
-Maintainer: 777qwq
-Author: 777qwq
-Section: Tweaks
-Architecture: iphoneos-arm64
-Version: 6.0.0-cn1
-Installed-Size: 592
-icon: https://huayuarc.github.io/icon/remotecompanioncn.jpg
-Filename: debs/com.saihgupr.remotecompanioncn-6.0.0-cn1-rootless.deb
-Size: 71208
-MD5sum: 9dcd8e70970c8838d8a6e0aee3994049
-SHA1: 
-SHA256: 6f77040ca788ef497242822904296bedb25ec3eaa484a460e1b07a9cf2fdfde4
-
-Package: com.saihgupr.remotecompanioncn
-Name: RemoteCompanion CN (Externalized)
-Description: RemoteCompanion的中文本地化补丁。在运行时注入翻译的UI字符串。不修改原始文件。Chinese localization patch for RemoteCompanion. Injects translated UI strings at runtime. Does not modify original files.
-Depends: mobilesubstrate
-Maintainer: 777qwq
-Author: 777qwq
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 6.0.0-cn1
-Installed-Size: 592
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/remotecompanioncn.jpg
-Filename: debs/com.saihgupr.remotecompanioncn-6.0.0-cn1-roothide.deb
-Size: 25384
-MD5sum: f61dae5807a6f95dd56affcbfd9c6dd7
-SHA1: 
-SHA256: 2dba1fb018306db9c15fcf4115e10b7e7bffc502ed1f17569e1c5ad7a8763b59
-
-Package: com.saihgupr.remotecompanioncn
-Name: RemoteCompanion CN (Externalized)
-Version: 440
-Description: RemoteCompanion 4.4.0 外挂汉化：1012 条精确映射 + 107 条动态正则 + Web UI 中文版。运行时注入翻译，不改动原包文件。
-Depends: mobilesubstrate
-Maintainer: 777qwq
-Author: 777qwq
-Section: Localization
-Architecture: iphoneos-arm64
-Filename: debs/com.saihgupr.remotecompanioncn-440-rootless.deb
-Size: 117968
-MD5sum: 66b85e1cab17c6445199c9582419c6fc
-SHA1: c42396d54b4667868f79c5ba9b5e72d1fe669f62
-SHA256: 030513074743aada87335959e0867d312a7956a8b3c94d0732345d1e6aa1843a
-
-Package: com.saihgupr.remotecompanioncn
-Name: RemoteCompanion CN (Externalized)
-Version: 440
-Description: RemoteCompanion 4.4.0 外挂汉化：1012 条精确映射 + 107 条动态正则 + Web UI 中文版。运行时注入翻译，不改动原包文件。
-Depends: mobilesubstrate
-Maintainer: 777qwq
-Author: 777qwq
-Section: Localization
-Architecture: iphoneos-arm64e
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/com.saihgupr.remotecompanioncn-440-roothide.deb
-Size: 121052
-MD5sum: b5b1301f0d62b75b09328577f7549f9e
-SHA1: 730f3a9ea1523cb1d88de1005c2020d09ee6e36f
-SHA256: cd59a2b932d5e40284a3ea101474a55037ad7a3f532a6625de47c768287f29fe
-
 Package: com.sbcpu.floating
 Name: 灵动监测
 Maintainer: MoWang
@@ -30004,21 +29938,6 @@ Size: 5636
 MD5sum: 3fae41b4e62a77c84cd65646ef8e3400
 SHA1: 2fda083ca54bd6f44e3cd4bba48805bfa3583a29
 SHA256: 9c5a640c7e23ae23c81b58691e7c9e2b429c3de9b8d68574c5691d9fc9365461
-
-Package: im.mjh.bodianadkiller.roothide
-Name: 波点音乐去广告 (Roothide)
-Description: 波点音乐开屏广告和首页横幅广告拦截。
-Maintainer: Junhong
-Author: Junhong
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.0.1
-Installed-Size: 168
-Filename: debs/im.mjh.bodianadkiller.roothide-1.0.1-roothide.deb
-Size: 5644
-MD5sum: 43ac8fce4de6b93097d358e6a83b591d
-SHA1: f237791bb11674f0ac8ba87e8d0c47237ab6af50
-SHA256: cdc4326b4b2df80741355c1835abcc59977e0c45576372c9ed27fc28a5d6f984
 
 Package: im.mjh.doleo
 Name: Doleo
